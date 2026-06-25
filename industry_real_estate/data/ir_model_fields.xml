@@ -203,11 +203,14 @@ for property in self:
         <field name="ttype">selection</field>
     </record>
 
+<!--
     <record id="field_property_type_selection_apartment" model="ir.model.fields.selection">
         <field name="name">Apartment</field>
         <field name="field_id" ref="field_property_type" />
         <field name="value">Appartment</field>
     </record>
+
+
 
     <record id="field_property_type_selection_house" model="ir.model.fields.selection">
         <field name="name">House</field>
@@ -331,7 +334,7 @@ for record in self:
         record['x_invoice_status'] = 'to_invoice'
 ]]></field>
     </record>
-
+-->
     <!-- crm lead -->
     <record id="field_crm_lead_property_id" model="ir.model.fields">
         <field name="field_description">Property</field>
