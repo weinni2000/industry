@@ -1,13 +1,12 @@
 {
     'name': 'Wellness Practitioner',
-    'version': '1.0',
+    'version': '1.1',
     'category': 'Health and Fitness',
     'depends': [
         'appointment_account_payment',
         'appointment_crm',
         'knowledge',
         'sale_crm',
-        'web_studio',
     ],
     'data': [
         'data/ir_attachment_pre.xml',
@@ -17,12 +16,11 @@
         'data/knowledge_cover.xml',
         'data/knowledge_article.xml',
         'data/knowledge_article_favorite.xml',
-        'data/base_automation.xml',
         'data/mail_message.xml',
         'data/knowledge_tour.xml',
     ],
     'demo': [
-        'demo/res_users.xml',
+        'demo/res_company.xml',
         'demo/res_partner.xml',
         'demo/crm_lead.xml',
     ],
@@ -37,6 +35,7 @@
         "data/knowledge_article.xml",
         "static/src/js/my_tour.js",
     ],
+    'application': True,
     'license': 'OEEL-1',
     'url': "https://www.odoo.com/trial?industry&selected_app=wellness_practitioner",
     'website': "https://www.odoo.com/industries/wellness-practitioners",

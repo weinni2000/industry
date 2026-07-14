@@ -3,15 +3,15 @@
 # * event_management
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# "Junko Augias (juau)" <juau@odoo.com>, 2025.
+# "Junko Augias (juau)" <juau@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 09:48+0000\n"
-"PO-Revision-Date: 2025-11-17 11:11+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-04-10 19:08+0000\n"
+"PO-Revision-Date: 2026-06-06 13:43+0000\n"
+"Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-19/"
 "event_management/ja/>\n"
 "Language: ja\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.homepage
@@ -34,11 +34,6 @@ msgstr ""
 "画・運営する情熱あふれるイベントプランニングチームです。企業のガラパーティー"
 "から、没入感のあるチームビルディングリトリートまで、皆さまのアイデアを、刺激"
 "的でつながりを生む、スムーズでストレスのないイベントへと形にします。"
-
-#. module: event_management
-#: model_terms:ir.ui.view,arch_db:event_management.ir_ui_view_3936
-msgid "+1 (650) 555-0187"
-msgstr "+1 (650) 555-0187"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -510,7 +505,7 @@ msgstr ""
 #: model_terms:hr.job,website_description:event_management.hr_job_4
 #: model_terms:hr.job,website_description:event_management.hr_job_5
 msgid "<strong class=\"s_rating_title\">Administrative Work</strong>"
-msgstr "<strong class=\"s_rating_title\">事務作業</strong>"
+msgstr "<strong class=\"s_rating_title\">事務業務</strong>"
 
 #. module: event_management
 #: model_terms:hr.job,website_description:event_management.hr_job_1
@@ -692,8 +687,8 @@ msgid ""
 "Add a <strong>delivery address</strong> like the event venue if the supplier "
 "ships there."
 msgstr ""
-"サプライヤーが配送可能な場合は、イベント会場などの<strong>配送先住所</strong>"
-"を追加してください。"
+"サプライヤーが配送可能な場合は、イベント会場などの<strong>配送先</strong>を追"
+"加してください。"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -1751,8 +1746,8 @@ msgid ""
 "\"Log notes\" button."
 msgstr ""
 "今後のイベントの参考となるよう、ベンダーや会場のパフォーマンスを評価するため"
-"の社内レビューやフィードバックを、該当する連絡先のチャターボックスで『メモを"
-"記録』ボタンを使って記録してください。"
+"の社内レビューやフィードバックを、該当する連絡先のチャターボックスで「ログメ"
+"モ」ボタンを使って記録してください。"
 
 #. module: event_management
 #: model:res.partner.category,name:event_management.res_partner_category_18
@@ -1872,7 +1867,7 @@ msgstr "音楽 &amp; DJセット"
 #: model_terms:hr.job,website_description:event_management.hr_job_4
 #: model_terms:hr.job,website_description:event_management.hr_job_5
 msgid "Must Have"
-msgstr "必須"
+msgstr "必須要件"
 
 #. module: event_management
 #: model:product.template,name:event_management.product_product_33_product_template
@@ -1908,7 +1903,7 @@ msgstr "次へ"
 #: model_terms:hr.job,website_description:event_management.hr_job_4
 #: model_terms:hr.job,website_description:event_management.hr_job_5
 msgid "Nice to have"
-msgstr "歓迎"
+msgstr "あると望ましい要件"
 
 #. module: event_management
 #: model_terms:hr.job,website_description:event_management.hr_job_1
@@ -2104,7 +2099,7 @@ msgstr "プランニング、コーディネート、オンサイトリード"
 #: model_terms:hr.job,website_description:event_management.hr_job_4
 #: model_terms:hr.job,website_description:event_management.hr_job_5
 msgid "Play any sport with colleagues, <br>the bill is covered."
-msgstr "同僚と遊び、スポーツして下さい、<br>費用はカバーされます。"
+msgstr "同僚と様々なスポーツを楽しみましょう。<br>費用は会社負担です。"
 
 #. module: event_management
 #: model_terms:event.event,ticket_instructions:event_management.event_event_1
@@ -2823,6 +2818,11 @@ msgid "Would you like to discuss your Odoo setup with us or go even further?"
 msgstr "Odooのセットアップについてご相談、またはそれ以上をご希望ですか?"
 
 #. module: event_management
+#: model_terms:ir.ui.view,arch_db:event_management.ir_ui_view_3936
+msgid "X"
+msgstr ""
+
+#. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid ""
 "You can access every installed App in your Odoo database on your main "
@@ -2986,6 +2986,9 @@ msgstr "夏季"
 #: model:crm.tag,name:event_management.crm_tag_1
 msgid "wedding"
 msgstr "結婚式"
+
+#~ msgid "+1 (650) 555-0187"
+#~ msgstr "+1 (650) 555-0187"
 
 #~ msgid "Administrative Work"
 #~ msgstr "管理的業務"

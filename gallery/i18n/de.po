@@ -3,13 +3,14 @@
 # * gallery
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
+# "Larissa Manderfeld (lman)" <lman@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-13 08:20+0000\n"
-"PO-Revision-Date: 2025-09-15 19:27+0000\n"
-"Last-Translator: \"Dylan Kiss (dyki)\" <dyki@odoo.com>\n"
+"POT-Creation-Date: 2026-06-12 18:11+0000\n"
+"PO-Revision-Date: 2026-04-24 19:38+0000\n"
+"Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
 "Language-Team: German <https://translate.odoo.com/projects/odoo-19/gallery/"
 "de/>\n"
 "Language: de\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: gallery
 #: model:product.template,description_sale:gallery.product_template_11
@@ -64,7 +65,7 @@ msgid ""
 "            Do You Want to Go Further?"
 msgstr ""
 "<br/>\n"
-"            Möchten Sie noch weiter gehen?"
+"            Möchten Sie noch weitergehen?"
 
 #. module: gallery
 #: model_terms:ir.ui.view,arch_db:gallery.welcome_article_body
@@ -293,6 +294,15 @@ msgstr "<strong>Buchhaltung &amp; Zahlungen</strong>:"
 
 #. module: gallery
 #: model_terms:ir.ui.view,arch_db:gallery.welcome_article_body
+msgid ""
+"<strong>Accounting</strong>: Easily generate tax reports and other financial "
+"documents thanks to our localization packages."
+msgstr ""
+"<strong>Buchhaltung:</strong> Dank unserer Lokalisierungspakete können Sie "
+"Steuerberichte und andere Finanzdokumente ganz einfach erstellen."
+
+#. module: gallery
+#: model_terms:ir.ui.view,arch_db:gallery.welcome_article_body
 msgid "<strong>Add Images &amp; Categorization</strong>:"
 msgstr "<strong>Bilder &amp; Kategorisierung hinzufügen</strong>:"
 
@@ -476,15 +486,6 @@ msgstr ""
 #. module: gallery
 #: model_terms:ir.ui.view,arch_db:gallery.welcome_article_body
 msgid ""
-"Accounting:Accounting:Accounting:<strong/> Easily generate tax reports and "
-"other financial documents thanks to our localization packages."
-msgstr ""
-"Buchhaltung:<strong/> Dank unserer Lokalisierungspakete können Sie "
-"Steuerberichte und andere Finanzdokumente ganz einfach erstellen."
-
-#. module: gallery
-#: model_terms:ir.ui.view,arch_db:gallery.welcome_article_body
-msgid ""
 "Acquiring new pieces for your gallery is seamless with <strong>CRM</strong> "
 "and the <strong>Purchase App</strong>."
 msgstr ""
@@ -645,16 +646,6 @@ msgid "Capture customer details for future engagement."
 msgstr "Erfassen Sie Kundendaten für zukünftige Interaktionen."
 
 #. module: gallery
-#: model:pos.payment.method,name:gallery.pos_payment_method_2
-msgid "Card"
-msgstr "Karte"
-
-#. module: gallery
-#: model:pos.payment.method,name:gallery.pos_payment_method_1
-msgid "Cash"
-msgstr "Bargeld"
-
-#. module: gallery
 #: model:product.template,name:gallery.product_template_20
 msgid "Chair"
 msgstr "Stuhl"
@@ -779,11 +770,6 @@ msgstr ""
 "individuelle Verträge, in denen Provisionssätze, Exklusivität und "
 "Verkaufsbedingungen festgelegt sind.<br/>\n"
 "                        <br/>"
-
-#. module: gallery
-#: model:pos.payment.method,name:gallery.pos_payment_method_3
-msgid "Customer Account"
-msgstr "Kundenkonto"
 
 #. module: gallery
 #: model:product.pricelist,name:gallery.product_pricelist_2
@@ -1719,7 +1705,8 @@ msgstr "Der Weg der Tränen"
 msgid ""
 "These all go free in your current subscription; feel free to explore! 🙃"
 msgstr ""
-"Sie sind alle in Ihrem aktuellen Abonnement enthalten. Entdecken Sie sie! 🙃"
+"All diese Apps sind in Ihrem aktuellen Abonnement enthalten. Erkunden Sie "
+"sie! 🙃"
 
 #. module: gallery
 #: model_terms:ir.ui.view,arch_db:gallery.welcome_article_body
@@ -1953,3 +1940,19 @@ msgstr "offiziellen Website"
 #: model_terms:ir.ui.view,arch_db:gallery.welcome_article_body
 msgid "or"
 msgstr "oder"
+
+#~ msgid "Card"
+#~ msgstr "Karte"
+
+#~ msgid "Cash"
+#~ msgstr "Bargeld"
+
+#~ msgid "Customer Account"
+#~ msgstr "Kundenkonto"
+
+#~ msgid ""
+#~ "Accounting:Accounting:Accounting:<strong/> Easily generate tax reports "
+#~ "and other financial documents thanks to our localization packages."
+#~ msgstr ""
+#~ "Buchhaltung:<strong/> Dank unserer Lokalisierungspakete können Sie "
+#~ "Steuerberichte und andere Finanzdokumente ganz einfach erstellen."

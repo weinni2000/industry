@@ -6,13 +6,13 @@
 # Fernanda Alvarez, 2024
 # Wil Odoo, 2024
 #
-# "Fernanda Alvarez (mfar)" <mfar@odoo.com>, 2025.
+# "Fernanda Alvarez (mfar)" <mfar@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 09:29+0000\n"
-"PO-Revision-Date: 2025-10-16 03:00+0000\n"
+"POT-Creation-Date: 2026-06-12 18:07+0000\n"
+"PO-Revision-Date: 2026-06-16 12:16+0000\n"
 "Last-Translator: \"Fernanda Alvarez (mfar)\" <mfar@odoo.com>\n"
 "Language-Team: Spanish (Latin America) <https://translate.odoo.com/projects/"
 "odoo-19/fmcg_store/es_419/>\n"
@@ -20,9 +20,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
-" ? 1 : 2);\n"
-"X-Generator: Weblate 5.12.2\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
+"0) ? 1 : 2);\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: fmcg_store
 #: model:product.attribute.value,name:fmcg_store.product_attribute_value_38
@@ -121,8 +121,8 @@ msgid ""
 "<strong>Flow 2: Point of sale - Regular flow with Buy one get one free "
 "product</strong>"
 msgstr ""
-"<strong>Flujo 2: Punto de venta - Flujo regular con "
-"\"Compra uno y recibe un producto gratis\"</strong>"
+"<strong>Flujo 2: Punto de venta - Flujo regular con \"Compra uno y recibe un "
+"producto gratis\"</strong>"
 
 #. module: fmcg_store
 #: model_terms:ir.ui.view,arch_db:fmcg_store.welcome_article_body
@@ -135,8 +135,8 @@ msgid ""
 "<strong>Flow 4: Point of Sale - Ship Later &amp; Global discount @10%</"
 "strong>"
 msgstr ""
-"<strong>Flujo 4: Punto de venta - Enviar después y descuento global del "
-"10%</strong>"
+"<strong>Flujo 4: Punto de venta - Enviar después y descuento global del 10%</"
+"strong>"
 
 #. module: fmcg_store
 #: model_terms:ir.ui.view,arch_db:fmcg_store.welcome_article_body
@@ -174,11 +174,6 @@ msgid "As it's set an invoice and mark \"Ship Later\""
 msgstr "Al configurar una factura, selecciona la opción \"Enviar después\""
 
 #. module: fmcg_store
-#: model:pos.payment.method,name:fmcg_store.pos_payment_method_1
-msgid "Bank"
-msgstr "Banco"
-
-#. module: fmcg_store
 #: model:product.template,name:fmcg_store.product_product_26_product_template
 msgid "Bournville Cranberry Dark Chocolate Bars"
 msgstr "Barras de chocolate oscuro Bournville Cranberry"
@@ -214,8 +209,8 @@ msgid ""
 "Click on the “Reward” Button then after automatic Free product add "
 "“‘Toothbrush Ultrasoft[Pack of 4]."
 msgstr ""
-"Haz clic en el botón \"Recompensa\" y agrega el producto gratuito "
-"\"Cepillo de dientes ultrasuave [Paquete de 4]\" después."
+"Haz clic en el botón \"Recompensa\" y agrega el producto gratuito \"Cepillo "
+"de dientes ultrasuave [Paquete de 4]\" después."
 
 #. module: fmcg_store
 #: model:product.template,name:fmcg_store.product_template_11
@@ -279,19 +274,9 @@ msgid "Create an RFQ for \"Grocery outlet\""
 msgstr "Crea una solicitud de cotización para \"Grocery outlet\""
 
 #. module: fmcg_store
-#: model:pos.payment.method,name:fmcg_store.pos_payment_method_2
-msgid "Credit Card"
-msgstr "Tarjeta de crédito"
-
-#. module: fmcg_store
 #: model:loyalty.program,portal_point_name:fmcg_store.loyalty_program_8
 msgid "Credit(s)"
 msgstr "Crédito(s)"
-
-#. module: fmcg_store
-#: model:pos.payment.method,name:fmcg_store.pos_payment_method_3
-msgid "Customer Account"
-msgstr "Cuenta de cliente"
 
 #. module: fmcg_store
 #: model_terms:ir.ui.view,arch_db:fmcg_store.welcome_article_body
@@ -318,33 +303,6 @@ msgstr "Frutas secas y nueces"
 #: model:product.template,name:fmcg_store.product_product_12_product_template
 msgid "Energy Drink"
 msgstr "Bebidas energizantes"
-
-#. module: fmcg_store
-#: model_terms:ir.ui.view,arch_db:fmcg_store.welcome_article_body
-msgid "Flow 1 : Purchase Flow."
-msgstr "Flujo 1: Flujo de compra."
-
-#. module: fmcg_store
-#: model_terms:ir.ui.view,arch_db:fmcg_store.welcome_article_body
-msgid "Flow 2: Point of sale - Regular flow with Buy one get one free product"
-msgstr ""
-"Flujo 2: Punto de venta - Flujo regular con "
-"\"Compra uno y recibe un producto gratis\""
-
-#. module: fmcg_store
-#: model_terms:ir.ui.view,arch_db:fmcg_store.welcome_article_body
-msgid "Flow 3: Point of sale - Customer Account"
-msgstr "Flujo 3: Punto de venta - Cuenta del cliente"
-
-#. module: fmcg_store
-#: model_terms:ir.ui.view,arch_db:fmcg_store.welcome_article_body
-msgid "Flow 4: Point of Sale - Ship Later &amp; Global discount @10%"
-msgstr "Flujo 4: Punto de venta - Enviar después y descuento global del 10%"
-
-#. module: fmcg_store
-#: model_terms:ir.ui.view,arch_db:fmcg_store.welcome_article_body
-msgid "Flow 5: Sale Flow – B2B Customer"
-msgstr "Flujo 5: Flujo de venta – Cliente B2B"
 
 #. module: fmcg_store
 #: model:pos.category,name:fmcg_store.pos_category_1
@@ -467,6 +425,11 @@ msgstr "Fideos instantáneos nestle Maggi 2-Minute, Masala – Paquete de 560 g"
 #: model:product.template,name:fmcg_store.product_product_45_product_template
 msgid "Nuggets"
 msgstr "Nuggets"
+
+#. module: fmcg_store
+#: model:pos.payment.method,name:fmcg_store.pos_payment_method_2
+msgid "Online Payment"
+msgstr "Pago en línea"
 
 #. module: fmcg_store
 #: model_terms:ir.ui.view,arch_db:fmcg_store.welcome_article_body
@@ -670,6 +633,33 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:fmcg_store.welcome_article_body
 msgid "​Give the Global Discount @ 10%"
 msgstr "Otorga un descuento global del 10%"
+
+#~ msgid "Bank"
+#~ msgstr "Banco"
+
+#~ msgid "Credit Card"
+#~ msgstr "Tarjeta de crédito"
+
+#~ msgid "Customer Account"
+#~ msgstr "Cuenta de cliente"
+
+#~ msgid "Flow 1 : Purchase Flow."
+#~ msgstr "Flujo 1: Flujo de compra."
+
+#~ msgid ""
+#~ "Flow 2: Point of sale - Regular flow with Buy one get one free product"
+#~ msgstr ""
+#~ "Flujo 2: Punto de venta - Flujo regular con \"Compra uno y recibe un "
+#~ "producto gratis\""
+
+#~ msgid "Flow 3: Point of sale - Customer Account"
+#~ msgstr "Flujo 3: Punto de venta - Cuenta del cliente"
+
+#~ msgid "Flow 4: Point of Sale - Ship Later &amp; Global discount @10%"
+#~ msgstr "Flujo 4: Punto de venta - Enviar después y descuento global del 10%"
+
+#~ msgid "Flow 5: Sale Flow – B2B Customer"
+#~ msgstr "Flujo 5: Flujo de venta – Cliente B2B"
 
 #~ msgid "Best Before"
 #~ msgstr "Consumir preferentemente antes del"

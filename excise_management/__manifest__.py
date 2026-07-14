@@ -1,7 +1,7 @@
 {
     'name': 'Excise Management',
-    'version': '2.2',
-    'category': 'Inventory/Inventory',
+    'version': '2.8',
+    'category': 'Supply Chain',
     'author': 'Odoo S.A.',
     'depends': [
         'account_tax_python',
@@ -13,11 +13,11 @@
     'data': [
         'data/ir_model.xml',
         'data/ir_model_fields.xml',
+        'data/ir_actions_server.xml',
         'data/ir_ui_view.xml',
         'data/qweb_view.xml',
         'data/ir_actions_act_window.xml',
         'data/account_tax_group.xml',
-        'data/ir_actions_server.xml',
         'data/ir_ui_menu.xml',
         'data/base_automation.xml',
         'data/ir_model_access.xml',
@@ -26,9 +26,6 @@
         'data/uom_uom.xml',
         'data/x_excise_category.xml',
         'data/res_config_setting.xml',
-    ],
-    'demo': [
-        'demo/res_users.xml',
     ],
     'cloc_exclude': [
         'data/qweb_view.xml',

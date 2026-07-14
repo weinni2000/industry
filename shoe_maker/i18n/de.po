@@ -3,13 +3,14 @@
 # * shoe_maker
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
+# "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 13:50+0000\n"
-"PO-Revision-Date: 2025-09-15 19:29+0000\n"
-"Last-Translator: \"Dylan Kiss (dyki)\" <dyki@odoo.com>\n"
+"POT-Creation-Date: 2026-04-10 19:39+0000\n"
+"PO-Revision-Date: 2026-04-24 19:37+0000\n"
+"Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
 "Language-Team: German <https://translate.odoo.com/projects/odoo-19/"
 "shoe_maker/de/>\n"
 "Language: de\n"
@@ -17,12 +18,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
 msgid ", and feel free to"
-msgstr "und"
+msgstr "und Sie können"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
@@ -50,24 +51,9 @@ msgid "3. Replenishment"
 msgstr "3. Auffüllung"
 
 #. module: shoe_maker
-#: model:product.attribute.value,name:shoe_maker.product_attribute_value_22
-msgid "36-38"
-msgstr "36-38"
-
-#. module: shoe_maker
 #: model:product.attribute.value,name:shoe_maker.product_attribute_value_7
 msgid "36mm"
 msgstr "36 mm"
-
-#. module: shoe_maker
-#: model:product.attribute.value,name:shoe_maker.product_attribute_value_19
-msgid "38"
-msgstr "38"
-
-#. module: shoe_maker
-#: model:product.attribute.value,name:shoe_maker.product_attribute_value_20
-msgid "38-40"
-msgstr "38-40"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
@@ -82,16 +68,6 @@ msgstr ""
 "              5. Nach der Abrechnung Ihrer Bestellungen über das "
 "<strong>Kassensystem</strong> werden diese vom System als vollständig in "
 "Rechnung gestellt markiert."
-
-#. module: shoe_maker
-#: model:product.attribute.value,name:shoe_maker.product_attribute_value_21
-msgid "40-42"
-msgstr "40-42"
-
-#. module: shoe_maker
-#: model:product.attribute.value,name:shoe_maker.product_attribute_value_23
-msgid "42-44"
-msgstr "42-44"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
@@ -138,7 +114,7 @@ msgstr ""
 "<div style=\"margin: 0px; padding: 0px;\" data-oe-version=\"1.0\">\n"
 "    <p style=\"box-sizing:border-box;margin: 0px; padding: 0px; font-size: "
 "12px;\">\n"
-"    Hallo <span style=\"font-weight:bold;\" t-"
+"    Guten Tag <span style=\"font-weight:bold;\" t-"
 "out=\"object.partner_id.display_name or ''\">Lieschen Müller</span>,<br/>\n"
 "    <br/>\n"
 "    Ihre Bestellung <span style=\"font-weight:bold;\" t-"
@@ -459,7 +435,7 @@ msgstr "Absätze"
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
 msgid "Hello there!"
-msgstr "Hallo!"
+msgstr "Guten Tag!"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
@@ -891,7 +867,8 @@ msgstr ""
 msgid ""
 "These all go free in your current subscription; feel free to explore! 🙃"
 msgstr ""
-"Sie sind alle in Ihrem aktuellen Abonnement enthalten. Entdecken Sie sie! 🙃"
+"All diese Apps sind in Ihrem aktuellen Abonnement enthalten. Erkunden Sie "
+"sie! 🙃"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
@@ -996,7 +973,8 @@ msgstr "Holz"
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
 msgid "Would you like to discuss your Odoo setup with us or go even further?"
 msgstr ""
-"Möchten Sie Ihre Odoo-Einrichtung mit uns besprechen oder noch weiter gehen?"
+"Möchten Sie Ihre Odoo-Konfiguration mit uns besprechen oder noch einen "
+"Schritt weiter gehen?"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
@@ -1054,7 +1032,7 @@ msgid ""
 "your Odoo setup to fit your business needs."
 msgstr ""
 "Sie haben diesen Demo-Anwendungsfall abgeschlossen! Es gibt Millionen "
-"anderer Möglichkeiten, Ihre Odoo-Einrichtung an Ihre geschäftlichen "
+"anderer Möglichkeiten, Ihre Odoo-Konfiguration an Ihre geschäftlichen "
 "Anforderungen anzupassen."
 
 #. module: shoe_maker
@@ -1125,7 +1103,7 @@ msgstr ", wenn Sie Hilfe benötigen!"
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
 msgid "request a demo"
-msgstr "bitten Sie um eine Demo"
+msgstr "eine Demo buchen"
 
 #. module: shoe_maker
 #: model:mail.template,subject:shoe_maker.mail_template_45
@@ -1135,3 +1113,18 @@ msgid ""
 msgstr ""
 "{{ object.sale_order_id.company_id.name }} - Bestellung fertig (Ref. "
 "{{ object.sale_order_id.name or 'k. A.' }})"
+
+#~ msgid "36-38"
+#~ msgstr "36-38"
+
+#~ msgid "38"
+#~ msgstr "38"
+
+#~ msgid "38-40"
+#~ msgstr "38-40"
+
+#~ msgid "40-42"
+#~ msgstr "40-42"
+
+#~ msgid "42-44"
+#~ msgstr "42-44"

@@ -3,13 +3,14 @@
 # * fitness
 #
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
+# "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 12:41+0000\n"
-"PO-Revision-Date: 2025-09-18 03:00+0000\n"
-"Last-Translator: \"Tiffany Chang (tic)\" <tic@odoo.com>\n"
+"POT-Creation-Date: 2026-06-12 18:06+0000\n"
+"PO-Revision-Date: 2026-05-30 09:36+0000\n"
+"Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@odoo.com>\n"
 "Language-Team: Spanish <https://translate.odoo.com/projects/odoo-19/fitness/"
 "es/>\n"
 "Language: es\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: fitness
 #: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
@@ -25,8 +26,8 @@ msgid ""
 ", and feel free\n"
 "                    to"
 msgstr ""
-"y siéntase libre\n"
-"                     de"
+"y no dudes\n"
+"                     en"
 
 #. module: fitness
 #: model:product.template,name:fitness.product_product_14_product_template
@@ -134,7 +135,7 @@ msgstr "<span class=\"display-4-fs\"><strong>Gimnasio de Odoo</strong></span>"
 #. module: fitness
 #: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
 msgid "<span class=\"h1-fs\">Do you want to go further?</span>"
-msgstr "<span class=\"h1-fs\">¿Quiere llegar más lejos?</span>"
+msgstr "<span class=\"h1-fs\">¿Quieres saber más?</span>"
 
 #. module: fitness
 #: model_terms:ir.ui.view,arch_db:fitness.pricing
@@ -308,9 +309,9 @@ msgid ""
 "should Import demo data and try the features described in this article.</"
 "strong>"
 msgstr ""
-"<strong>Si desea obtener una demostración guiada práctica de este módulo, "
-"importe los datos de demostración y pruebe las funciones descritas en este "
-"artículo.</strong>"
+"<strong>Si deseas obtener una demostración guiada práctica de este módulo, "
+"importa los datos de demostración y prueba las funcionalidades descritas en "
+"este artículo.</strong>"
 
 #. module: fitness
 #: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
@@ -462,9 +463,9 @@ msgid ""
 "out. It's about creating a lifestyle that promotes health and wellness. Let "
 "us help you achieve your fitness goals and live your best life."
 msgstr ""
-"En nuestro gimnasio, creemos que estar en forma no es sólo hacer ejercicio. "
+"En nuestro gimnasio, creemos que estar en forma no es solo hacer ejercicio. "
 "Se trata de crear un estilo de vida que promueva la salud y el bienestar. "
-"Permítanos ayudarle a alcanzar sus objetivos deportivos y vivir su mejor "
+"Permítenos ayudarte a alcanzar tus objetivos deportivos y vivir tu mejor "
 "vida."
 
 #. module: fitness
@@ -498,16 +499,6 @@ msgid "Basic fitness programs &amp;amp; training for all levels"
 msgstr "Planes de ejercicios básicos y entrenamiento para todos los niveles"
 
 #. module: fitness
-#: model:pos.payment.method,name:fitness.pos_payment_method_1
-msgid "Cash"
-msgstr "Efectivo"
-
-#. module: fitness
-#: model:account.journal,name:fitness.cash
-msgid "Cash (Fitness Center)"
-msgstr "Efectivo (Gimnasio)"
-
-#. module: fitness
 #: model_terms:ir.ui.view,arch_db:fitness.pricing
 msgid "Complete Fitness Solutions for Everyone"
 msgstr "Soluciones de ejercicio integrales para todos"
@@ -516,11 +507,6 @@ msgstr "Soluciones de ejercicio integrales para todos"
 #: model_terms:ir.ui.view,arch_db:fitness.homepage
 msgid "Creative Studio"
 msgstr "Estudio creativo"
-
-#. module: fitness
-#: model:pos.payment.method,name:fitness.pos_payment_method_2
-msgid "Customer Account"
-msgstr "Cuenta de cliente"
 
 #. module: fitness
 #: model:product.pricelist,name:fitness.product_pricelist_1
@@ -541,11 +527,6 @@ msgstr "Afiliación Diamante"
 #: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
 msgid "Discover more about Odoo by diving into our"
 msgstr "Descubra más sobre Odoo en nuestra"
-
-#. module: fitness
-#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
-msgid "Do you want to go further?"
-msgstr "¿Quiere llegar más lejos?"
 
 #. module: fitness
 #: model:project.task.type,name:fitness.project_task_type_2
@@ -595,18 +576,8 @@ msgstr "Gimnasio"
 
 #. module: fitness
 #: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
-msgid "Fitness Center by Odoo"
-msgstr "Gimnasio de Odoo"
-
-#. module: fitness
-#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
 msgid "Fitness Programs <strong>🏋️‍♂️</strong>"
 msgstr "Planes de entrenamiento <strong>🏋️‍♂️</strong>"
-
-#. module: fitness
-#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
-msgid "Fitness Programs 🏋️‍♂️"
-msgstr "Planes de entrenamiento 🏋️‍♂️"
 
 #. module: fitness
 #: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
@@ -673,6 +644,8 @@ msgstr ""
 #: code:addons/fitness/static/src/js/my_tour.js:0
 msgid "Get on track and explore our recommendations for your Odoo usage here!"
 msgstr ""
+"¡Ponte al día y explora nuestras recomendaciones para sacarle más partido a "
+"Odoo!"
 
 #. module: fitness
 #: model_terms:ir.ui.view,arch_db:fitness.pricing
@@ -762,7 +735,7 @@ msgstr "Únase a la revolución de la buena forma"
 #. module: fitness
 #: model_terms:ir.ui.view,arch_db:fitness.aboutus
 msgid "Learn more"
-msgstr "Descubre más"
+msgstr "Más información"
 
 #. module: fitness
 #: model:maintenance.equipment,name:fitness.maintenance_equipment_1
@@ -837,7 +810,7 @@ msgid ""
 "environment. (<strong><font class=\"text-o-color-1\">Accounting App</font></"
 "strong>)"
 msgstr ""
-"Gestione su contabilidad con mayor facilidad gracias a un entorno "
+"Gestiona tu contabilidad con mayor facilidad gracias a un entorno "
 "completamente integrado. (<strong><font class=\"text-o-"
 "color-1\">Contabilidad</font></strong>)"
 
@@ -942,7 +915,7 @@ msgstr ""
 #. module: fitness
 #: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
 msgid "Odoo offers you infinite possibilities, such as :"
-msgstr "Odoo le ofrece posibilidades infinitas, como:"
+msgstr "Odoo te ofrece infinitas posibilidades, tales como:"
 
 #. module: fitness
 #: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
@@ -990,8 +963,8 @@ msgid ""
 "Organise your events and connect with your customers easily with the<strong> "
 "<font class=\"text-o-color-1\">Events App</font></strong>."
 msgstr ""
-"Organice sus eventos y comuníquese con sus clientes con la<strong> <font "
-"class=\"text-o-color-1\">aplicación de Eventos</font></strong>."
+"Organiza tus eventos y conecta fácilmente con tus clientes mediante la "
+"<strong><font class=\"text-o-color-1\">aplicación Eventos</font></strong>."
 
 #. module: fitness
 #: model_terms:ir.ui.view,arch_db:fitness.aboutus
@@ -1117,9 +1090,9 @@ msgid ""
 "automate your reordering process, ensuring you never run out of stock. "
 "Here's how to make the most of Odoo's inventory management features:"
 msgstr ""
-"¿Vende comida y consumibles en su gimnasio? Con Odoo puede automatizar su "
-"proceso de reabastecimiento para que nunca se quede sin stock. Esta es la "
-"forma de aprovechar al máximo las funciones de gestión de inventario de Odoo:"
+"¿Ofreces alimentos y consumibles en tu gimnasio? Con Odoo puedes automatizar "
+"el proceso de reposición para no quedarte sin stock. Descubre cómo sacar el "
+"máximo partido a las funciones de gestión de inventario de Odoo:"
 
 #. module: fitness
 #: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
@@ -1202,15 +1175,14 @@ msgstr "Tareas"
 msgid ""
 "These all go free in your current subscription; feel free to explore! 🙃"
 msgstr ""
-"Todo esto está incluido en su suscripción actual, no dude en explorar 😊"
+"Todo esto está incluido en tu suscripción actual. ¡Échale un vistazo! 😊"
 
 #. module: fitness
 #: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
 msgid ""
 "This industry package offers everything you need to run your fitness center."
 msgstr ""
-"Este paquete de sectores le ofrece todo lo que necesita para gestionar su "
-"gimnasio."
+"Este paquete te ofrece todo lo que necesitas para gestionar tu gimnasio."
 
 #. module: fitness
 #: model_terms:ir.ui.view,arch_db:fitness.aboutus
@@ -1268,7 +1240,7 @@ msgstr "Creamos productos que son fáciles de usar."
 #. module: fitness
 #: model_terms:web_tour.tour,rainbow_man_message:fitness.knowledge_tour
 msgid "Welcome! Happy exploring."
-msgstr "¡Bienvenido! Disfrute del sitio."
+msgstr "¡Te damos la bienvenida! Disfruta explorando."
 
 #. module: fitness
 #: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
@@ -1288,7 +1260,9 @@ msgstr ""
 #. module: fitness
 #: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
 msgid "Would you like to discuss your Odoo setup with us or go even further?"
-msgstr "¿Le gustaría que le ayudemos con su configuración de Odoo?"
+msgstr ""
+"¿Quieres que te ayudemos con la configuración de Odoo o a explorar otras "
+"posibilidades?"
 
 #. module: fitness
 #: model:planning.role,name:fitness.planning_role_1
@@ -1327,14 +1301,14 @@ msgid ""
 "You didn't import demo data? You can still do it. Go to Apps &gt; Industries "
 "&gt; Upgrade your Fitness Center package and check the related box."
 msgstr ""
-"¿No importó los datos de demostración? Todavía puede hacerlo. Vaya a "
-"Aplicaciones &gt; Sectores, actualice el paquete para gimnasios artesanales "
-"y seleccione la casilla correspondiente."
+"¿No has importado los datos de demostración? Todavía puedes hacerlo. "
+"Dirígete a Aplicaciones &gt; Sectores &gt; Actualiza el paquete para "
+"gimnasios y selecciona la casilla correspondiente."
 
 #. module: fitness
 #: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
 msgid "academy"
-msgstr "academia"
+msgstr "Odoo academy"
 
 #. module: fitness
 #: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
@@ -1410,3 +1384,21 @@ msgstr "🎓 Planificación"
 #: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
 msgid "🎓Point of Sale"
 msgstr "🎓 Punto de venta"
+
+#~ msgid "Cash"
+#~ msgstr "Efectivo"
+
+#~ msgid "Cash (Fitness Center)"
+#~ msgstr "Efectivo (Gimnasio)"
+
+#~ msgid "Customer Account"
+#~ msgstr "Cuenta de cliente"
+
+#~ msgid "Do you want to go further?"
+#~ msgstr "¿Quiere llegar más lejos?"
+
+#~ msgid "Fitness Center by Odoo"
+#~ msgstr "Gimnasio de Odoo"
+
+#~ msgid "Fitness Programs 🏋️‍♂️"
+#~ msgstr "Planes de entrenamiento 🏋️‍♂️"

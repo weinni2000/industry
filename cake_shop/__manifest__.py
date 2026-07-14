@@ -1,6 +1,6 @@
 {
     'name': 'Cake Shop',
-    'version': '1.1',
+    'version': '1.2',
     'category': 'Retail',
     'depends': [
         'calendar',
@@ -30,7 +30,6 @@
         'data/pos_config.xml',
     ],
     'demo': [
-        'demo/res_users.xml',
         'demo/res_company.xml',
         'demo/delivery_carrier.xml',
         'demo/ir_attachment.xml',
@@ -56,6 +55,7 @@
         "static/src/js/my_tour.js",
         "demo/website_view.xml",
     ],
+    'application': True,
     'images': ['images/main.png'],
     'url': "https://www.odoo.com/trial?industry&selected_app=cake_shop",
     'website': "https://www.odoo.com/industries/cake-store",

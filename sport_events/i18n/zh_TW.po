@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 13:19+0000\n"
-"PO-Revision-Date: 2025-11-17 11:16+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-04-10 19:42+0000\n"
+"PO-Revision-Date: 2025-11-25 03:06+0000\n"
+"Last-Translator: \"Tony Ng (ngto)\" <ngto@odoo.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://translate.odoo.com/"
 "projects/odoo-19/sport_events/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -24,11 +24,6 @@ msgstr ""
 #: model:event.event.ticket,name:sport_events.event_event_ticket_4
 msgid "+ Cup"
 msgstr ""
-
-#. module: sport_events
-#: model_terms:ir.ui.view,arch_db:sport_events.ir_ui_view_3140
-msgid "+1 555-555-5556"
-msgstr "+1 555-555-5556"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -68,7 +63,7 @@ msgstr ""
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
 msgid "6 players on court per team (substitutes allowed)"
-msgstr ""
+msgstr "每隊場上有 6 名球員（允許換入後備）"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.ir_ui_view_3140
@@ -91,19 +86,18 @@ msgid ""
 "designed for every level;&amp;nbsp;from beginners to elite athletes. View "
 "distances, maps, and register early to secure your spot.&amp;nbsp;"
 msgstr ""
-"<br/"
-">探索我們的越野跑、排球錦標賽及三項鐵人賽，專為各個程度的參加者設計，由新手至"
-"精英運動員，都有適合的項目。查看賽道長度、地圖等，盡早報名，以確保取得參賽名"
-"額。"
+"<br/>探索我們的越野跑、排球錦標賽及三項鐵人賽，專為各個程度的參加者設計，由新"
+"手至精英運動員，都有適合的項目。查看賽道長度、地圖等，盡早報名，以確保取得參"
+"賽名額。"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
 msgid ""
 "<br/>Every event we create brings people closer to nature, fostering "
 "endurance, unity, and a deep respect for the landscapes we cross."
-msgstr "<br/"
-">我們舉辦的每項活動，都能夠拉近人與大自然的距離，培養運動耐力、團結精神，以及"
-"在穿越壯麗景色的同時，向大自然致以深深敬意。"
+msgstr ""
+"<br/>我們舉辦的每項活動，都能夠拉近人與大自然的距離，培養運動耐力、團結精神，"
+"以及在穿越壯麗景色的同時，向大自然致以深深敬意。"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.contactus
@@ -138,8 +132,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">💡</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"橫幅資訊\">💡</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label=\"橫幅資"
+"訊\">💡</i>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -147,8 +141,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">🚀</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"橫幅資訊\">🚀</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label=\"橫幅資"
+"訊\">🚀</i>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -156,8 +150,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">🎉</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"橫幅成功\">🎉</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label=\"橫幅成"
+"功\">🎉</i>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -165,8 +159,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Warning\">⚠️</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"橫幅警告\">⚠️</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label=\"橫幅警"
+"告\">⚠️</i>"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
@@ -185,8 +179,8 @@ msgid ""
 "                                <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">電郵</span>\n"
-"                                <span class=\"s_website_form_mark\"> "
-"*（必填）</span>"
+"                                <span class=\"s_website_form_mark\"> *（必"
+"填）</span>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.contactus
@@ -195,8 +189,8 @@ msgid ""
 "                                <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">名稱</span>\n"
-"                                <span class=\"s_website_form_mark\"> "
-"*（必填）</span>"
+"                                <span class=\"s_website_form_mark\"> *（必"
+"填）</span>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.contactus
@@ -211,8 +205,8 @@ msgid ""
 "                                <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">查詢</span>\n"
-"                                <span class=\"s_website_form_mark\"> "
-"*（必填）</span>"
+"                                <span class=\"s_website_form_mark\"> *（必"
+"填）</span>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
@@ -222,8 +216,8 @@ msgid ""
 "span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">主題</span>\n"
-"                                  <span class=\"s_website_form_mark\"> "
-"*（必填）</span>"
+"                                  <span class=\"s_website_form_mark\"> *（必"
+"填）</span>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.contactus
@@ -232,8 +226,8 @@ msgid ""
 "                                <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">主題</span>\n"
-"                                <span class=\"s_website_form_mark\"> "
-"*（必填）</span>"
+"                                <span class=\"s_website_form_mark\"> *（必"
+"填）</span>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
@@ -243,8 +237,8 @@ msgid ""
 "span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">你的公司</span>\n"
-"                                  <span class=\"s_website_form_mark\"> "
-"*（必填）</span>"
+"                                  <span class=\"s_website_form_mark\"> *（必"
+"填）</span>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
@@ -254,8 +248,8 @@ msgid ""
 "span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">你的電郵地址</span>\n"
-"                                  <span class=\"s_website_form_mark\"> "
-"*（必填）</span>"
+"                                  <span class=\"s_website_form_mark\"> *（必"
+"填）</span>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
@@ -265,8 +259,8 @@ msgid ""
 "span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">你的名字</span>\n"
-"                                  <span class=\"s_website_form_mark\"> "
-"*（必填）</span>"
+"                                  <span class=\"s_website_form_mark\"> *（必"
+"填）</span>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
@@ -294,88 +288,50 @@ msgstr ""
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid ""
-"<strong><font class=\"text-o-color-1\">CRM</font></strong>: Manage "
-"relationships with sponsors, partners, and key contacts."
-msgstr ""
-"<strong><font class=\"text-o-color-1\""
-">客戶關係管理</font></strong>（CRM）：管理與贊助商、合作夥伴、重要聯絡人等的"
-"關係。"
-
-#. module: sport_events
-#: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-msgid ""
-"<strong><font class=\"text-o-color-1\">Documents</font></strong>: Centralize "
-"spreadsheets and materials checklists."
+"<strong><font class=\"text-o-color-1\"><b>Contacts App</b>:</font></"
+"strong>Maintain a database of teams, athletes, sponsors, and volunteers to "
+"streamline communication and coordination.<br/>"
 msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid ""
-"<strong><font class=\"text-o-color-1\">Events</font></strong>: Plan and "
-"manage sport competitions, races, or tournaments."
-msgstr ""
-"<strong><font class=\"text-o-color-1\""
-">活動</font></strong>：規劃及管理體育比賽、錦標賽等。"
-
-#. module: sport_events
-#: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-msgid ""
-"<strong><font class=\"text-o-color-1\">Inventory</font></strong>: Track "
-"sports gear, event equipment, merchandise, and manage stock of all materials."
-msgstr ""
-"<strong><font class=\"text-o-color-1\""
-">庫存</font></strong>：追蹤運動裝備、賽事器材、紀念商品等，管理所有物料的存貨"
-"。"
-
-#. module: sport_events
-#: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-msgid ""
-"<strong><font class=\"text-o-color-1\">Planning</font></strong>: Create "
-"staff schedules, assign roles, and manage shifts."
-msgstr ""
-"<strong><font class=\"text-o-color-1\""
-">工作規劃</font></strong>：編排員工工作時間表，分配職能角色，管理輪班。"
-
-#. module: sport_events
-#: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-msgid ""
-"<strong><font class=\"text-o-color-1\">Project</font></strong>: Organize "
-"event planning, deadlines, and task responsibilities."
+"<strong><font class=\"text-o-color-1\"><b>Email Marketing App</b>: </font></"
+"strong>Keep the excitement high by sending automated updates, newsletters, "
+"and reminders to attendees and participants.<br/>"
 msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid ""
-"<strong><font class=\"text-o-color-1\">Purchase</font>: </strong>Order "
-"ravitaillement supplies, gear, equipment, and other essentials for sport "
-"events.<strong/><br/>"
-msgstr ""
-"<strong><font class=\"text-o-color-1\""
-">採購</font></strong>：訂購體育賽事使用的中途補給用品、裝備、器材及其他所需物"
-"品。<strong/><br/>"
-
-#. module: sport_events
-#: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-msgid ""
-"<strong><font class=\"text-o-color-1\">Sign</font></strong>: Digitally sign "
-"sponsorship agreements or volunteer forms."
+"<strong><font class=\"text-o-color-1\"><b>Events App</b>:</font></"
+"strong>Orchestrate tournaments and matches with ease, handling participant "
+"registrations, ticketing, and capacity management online.<br/>"
 msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid ""
-"<strong><font class=\"text-o-color-1\">Survey</font></strong>: Gather "
-"feedback from participants, staff, and sponsors."
+"<strong><font class=\"text-o-color-1\"><b>Project App</b>: </font></"
+"strong>Manage the logistical setup of the event, assigning tasks to staff "
+"and volunteers to ensure the venue is ready on time."
 msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid ""
-"<strong><font class=\"text-o-color-1\">Website</font></strong>: Promote "
-"events, sell tickets, and gather sponsorships online."
+"<strong><font class=\"text-o-color-1\"><b>Website App</b>: </font></"
+"strong>Build a dedicated event portal to publish schedules, results, and "
+"venue information for fans and athletes.<br/>"
 msgstr ""
-"<strong><font class=\"text-o-color-1\""
-">網站製作</font></strong>：線上宣傳活動、售票，以及籌募經費及贊助。"
+
+#. module: sport_events
+#: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
+msgid ""
+"<strong><font class=\"text-o-color-1\"><b>eCommerce App</b>: </font></"
+"strong>Boost revenue by selling event merchandise, gear, and concessions "
+"directly through your event website.<br/>"
+msgstr ""
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
@@ -394,7 +350,8 @@ msgstr "<strong>設立聯絡表格</strong>，方便參加者發送問題、意�
 msgid ""
 "<strong>Add your event details</strong> in the <em>Events</em> app, "
 "including dates, locations, ticket types, and capacity."
-msgstr "在<strong>活動應用程式中，加入活動詳情</strong>，包括日期、地點、門票種類、容"
+msgstr ""
+"在<strong>活動應用程式中，加入活動詳情</strong>，包括日期、地點、門票種類、容"
 "納人數等。<em></em>"
 
 #. module: sport_events
@@ -415,16 +372,17 @@ msgid ""
 "local tourism when negotiating new editions or funding."
 msgstr ""
 "<strong>分析回應意見</strong>，改善未來活動細節，例如設置更多補給站。或者，在"
-"洽談新一屆活動或籌募資金時，利用這些回應意見，證明活動對當地旅遊業的正面影響"
-"。"
+"洽談新一屆活動或籌募資金時，利用這些回應意見，證明活動對當地旅遊業的正面影"
+"響。"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid ""
 "<strong>Automate reordering</strong> so when stock falls below the minimum, "
 "Odoo generates a purchase order automatically."
-msgstr "<strong>設定自動化補貨</strong>，當庫存低於設定下限時，Odoo "
-"會自動產生採購訂單。"
+msgstr ""
+"<strong>設定自動化補貨</strong>，當庫存低於設定下限時，Odoo 會自動產生採購訂"
+"單。"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
@@ -436,8 +394,9 @@ msgstr ""
 msgid ""
 "<strong>Bike</strong>: 40 km road &amp; forest loop, moderate elevation "
 "(+800m)"
-msgstr "<strong>單車</strong>：總長 40 "
-"公里，包括公路及森林路段的繞圈賽道，海拔升降適中（爬升 800 米）"
+msgstr ""
+"<strong>單車</strong>：總長 40 公里，包括公路及森林路段的繞圈賽道，海拔升降適"
+"中（爬升 800 米）"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -450,13 +409,15 @@ msgid ""
 "<strong>Categorize expenses</strong> (Logistics, Accommodation, Meals, "
 "Travel) for clear reporting."
 msgstr ""
+"<strong>將各項開支分類</strong>，例如物流、住宿、餐飲、交通等，方便清晰匯報。"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid ""
 "<strong>Categorize products</strong> into groups like Apparel, First Aid, "
 "Technical Equipment, and Merchandise."
-msgstr "<strong>將產品分類</strong>，分為服裝、急救用品、技術設備、紀念商品等類別。"
+msgstr ""
+"<strong>將產品分類</strong>，分為服裝、急救用品、技術設備、紀念商品等類別。"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -548,7 +509,8 @@ msgstr ""
 msgid ""
 "<strong>Ideal for</strong>: Beginners, walkers, and those looking for a "
 "short but rewarding trail experience."
-msgstr "<strong>適合參加人士</strong>：新手、步行運動常客，以及想體驗短途好玩的越野山"
+msgstr ""
+"<strong>適合參加人士</strong>：新手、步行運動常客，以及想體驗短途好玩的越野山"
 "徑的人。"
 
 #. module: sport_events
@@ -556,7 +518,8 @@ msgstr "<strong>適合參加人士</strong>：新手、步行運動常客，以�
 msgid ""
 "<strong>Ideal for</strong>: Experienced trail runners seeking a technical "
 "and physically demanding course."
-msgstr "<strong>適合參加人士</strong>：有經驗越野跑手，特別是尋求技術性強、體能要求高"
+msgstr ""
+"<strong>適合參加人士</strong>：有經驗越野跑手，特別是尋求技術性強、體能要求高"
 "的賽道的高手。"
 
 #. module: sport_events
@@ -564,7 +527,8 @@ msgstr "<strong>適合參加人士</strong>：有經驗越野跑手，特別是�
 msgid ""
 "<strong>Ideal for</strong>: Intermediate runners used to off-road conditions "
 "and elevation."
-msgstr "<strong>適合參加人士</strong>：見慣越野路況及賽道海拔升降的中級程度跑手。"
+msgstr ""
+"<strong>適合參加人士</strong>：見慣越野路況及賽道海拔升降的中級程度跑手。"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
@@ -579,17 +543,18 @@ msgid ""
 "there's a challenge for every level — from newcomers to experienced trail "
 "athletes.</strong>"
 msgstr ""
-"<strong>參加我們的活動，在環繞馬雷杜斯修道院的風景優美山林間，體驗越野跑樂趣"
-"。有三種不同距離可供選擇，不論是新手還是經驗豐富的越野跑運動員，都會找到適合"
-"自己的挑戰！</strong>"
+"<strong>參加我們的活動，在環繞馬雷杜斯修道院的風景優美山林間，體驗越野跑樂"
+"趣。有三種不同距離可供選擇，不論是新手還是經驗豐富的越野跑運動員，都會找到適"
+"合自己的挑戰！</strong>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid ""
 "<strong>Log expenses</strong> like staff accommodation the day before the "
 "event, catering, or travel."
-msgstr "<strong>仔細記錄每項開支</strong>，例如活動前一天的員工住宿、餐飲、交通費用等"
-"。"
+msgstr ""
+"<strong>仔細記錄每項開支</strong>，例如活動前一天的員工住宿、餐飲、交通費用"
+"等。"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
@@ -601,8 +566,9 @@ msgstr ""
 msgid ""
 "<strong>Open the Inventory app</strong> and find the product or equipment to "
 "manage (e.g., finish line arch, water station tables, first aid kits)."
-msgstr "<strong>開啟庫存應用程式</strong>，找出要管理的產品或設備，例如：終點線龍門架"
-"、補水站桌子、急救包等。"
+msgstr ""
+"<strong>開啟庫存應用程式</strong>，找出要管理的產品或設備，例如：終點線龍門"
+"架、補水站桌子、急救包等。"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -612,10 +578,9 @@ msgid ""
 "em>, and <em>Equipment</em>. This helps you and your team find materials "
 "quickly when setting up for the event."
 msgstr ""
-"<strong>按存放位置，整理及監察庫存</strong>：在 Odoo "
-"系統中，建立清晰的儲存位置資料，例如：商品及服裝、補給站及救護站用品、設備及"
-"裝備等，協助你及團隊在籌備活動期間，快速找到所需物品。<em></em><em></em><em><"
-"/em>"
+"<strong>按存放位置，整理及監察庫存</strong>：在 Odoo 系統中，建立清晰的儲存位"
+"置資料，例如：商品及服裝、補給站及救護站用品、設備及裝備等，協助你及團隊在籌"
+"備活動期間，快速找到所需物品。<em></em><em></em><em></em>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -642,7 +607,8 @@ msgstr ""
 msgid ""
 "<strong>Receive the goods</strong> using the <em>Receipt</em> smart button "
 "and validate them to update your records."
-msgstr "利用<strong>收貨智能按鈕，處理收貨工作</strong>，並驗證收貨記錄，以更新你的資"
+msgstr ""
+"利用<strong>收貨智能按鈕，處理收貨工作</strong>，並驗證收貨記錄，以更新你的資"
 "料庫。<em></em>"
 
 #. module: sport_events
@@ -664,13 +630,16 @@ msgstr ""
 msgid ""
 "<strong>Run</strong>: 10 km trail with technical singletrack sections (+300m)"
 msgstr ""
+"<strong>長跑</strong>：10 公里越野跑賽道，當中包括技術要求高的狹窄路段（+300 "
+"米）"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid ""
 "<strong>Select the right vendor</strong> by comparing prices, delivery "
 "times, and supplier reliability to ensure quality and timely delivery."
-msgstr "<strong>選定最合適的供應商</strong>，比較不同商家的價格、交貨時間、可靠度評分"
+msgstr ""
+"<strong>選定最合適的供應商</strong>，比較不同商家的價格、交貨時間、可靠度評分"
 "等，以確保供貨品質、準時交貨。"
 
 #. module: sport_events
@@ -678,9 +647,9 @@ msgstr "<strong>選定最合適的供應商</strong>，比較不同商家的價�
 msgid ""
 "<strong>Send a Request for Quotation (RFQ)</strong> to suppliers directly "
 "from Odoo or confirm the order when you've made your choice."
-msgstr "直接在 Odoo "
-"系統內，向供應商<strong>發送報價請求</strong>（RFQ），或在選定供應商後，確認"
-"訂單。"
+msgstr ""
+"直接在 Odoo 系統內，向供應商<strong>發送報價請求</strong>（RFQ），或在選定供"
+"應商後，確認訂單。"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -717,10 +686,10 @@ msgid ""
 "allows your team to track sponsor activity, follow up effectively, and work "
 "toward converting them into long-term partners."
 msgstr ""
-"<strong>運用商標、客戶評價及成功案例，展現你的價值主張，以及目前的贊助商客戶"
-"。</strong>你可設立一份贊助意向表單，客戶提交後，系統會自動在你的 CRM "
-"客戶關係管理程式中，建立一項商機。這樣，團隊就能輕易追蹤贊助商的動向，進行有"
-"效的跟進工作，最終將他們轉化為長期合作夥伴。"
+"<strong>運用商標、客戶評價及成功案例，展現你的價值主張，以及目前的贊助商客"
+"戶。</strong>你可設立一份贊助意向表單，客戶提交後，系統會自動在你的 CRM 客戶"
+"關係管理程式中，建立一項商機。這樣，團隊就能輕易追蹤贊助商的動向，進行有效的"
+"跟進工作，最終將他們轉化為長期合作夥伴。"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
@@ -739,7 +708,7 @@ msgstr ""
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
 msgid "<strong>Support</strong>: 2 aid stations (KM 7 and KM 14)"
-msgstr ""
+msgstr "<strong>支援</strong>：2 個補給站（7 公里處、14 公里處）"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
@@ -756,7 +725,8 @@ msgstr ""
 msgid ""
 "<strong>Swim</strong>: 1.5 km open-water in Lac de Nisramont (wetsuit "
 "recommended)"
-msgstr "<strong>游泳</strong>：1.5 公里，尼斯拉蒙湖開放水域作賽（建議穿潛水衣）"
+msgstr ""
+"<strong>游泳</strong>：1.5 公里，尼斯拉蒙湖開放水域作賽（建議穿潛水衣）"
 
 #. module: sport_events
 #: model_terms:survey.survey,description_done:sport_events.survey_survey_1
@@ -795,9 +765,8 @@ msgid ""
 "<strong>Apps &gt; Industries &gt; Upgrade your Sport Events Package </"
 "strong>and check the related box."
 msgstr ""
-"<strong>還未匯入模擬數據？</strong>現在仍可執行此操作。"
-"請前往<strong>應用程式 &gt; 行業 &gt; "
-"升級你的「體育賽事」套裝</strong>，然後勾選相關方格。"
+"<strong>還未匯入模擬數據？</strong>現在仍可執行此操作。請前往<strong>應用程"
+"式 &gt; 行業 &gt; 升級你的「體育賽事」套裝</strong>，然後勾選相關方格。"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
@@ -812,7 +781,7 @@ msgstr "一群穿潛水衣的人站在水中"
 #. module: sport_events
 #: model:event.event.ticket,description:sport_events.event_event_ticket_6
 msgid "Access to seating & facilities + 1 free drink"
-msgstr ""
+msgstr "可使用座位及設施 + 1 杯免費飲品"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -820,16 +789,18 @@ msgid ""
 "Add specific questions to the registration form in the <em>Events</em> app, "
 "such as emergency contact details or T-shirt size, so you collect all "
 "necessary information from participants during the registration process."
-msgstr "在活動應用程式中，為報名表格加入不同問題，例如緊急聯絡人資料、T "
-"恤尺碼等，以便你在報名過程中，向參加者收集所有必要資訊。<em></em>"
+msgstr ""
+"在活動應用程式中，為報名表格加入不同問題，例如緊急聯絡人資料、T 恤尺碼等，以"
+"便你在報名過程中，向參加者收集所有必要資訊。<em></em>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid ""
 "Add vendor lead times on each product to plan ahead. For example, if "
 "importing race medals takes 10 days, set that lead time so you order in time."
-msgstr "為每種產品加入供應商交貨期，以便提前規劃。例如，如果進口比賽獎牌需要 10 "
-"天時間，便可設為交貨期，讓你及時訂購。"
+msgstr ""
+"為每種產品加入供應商交貨期，以便提前規劃。例如，如果進口比賽獎牌需要 10 天時"
+"間，便可設為交貨期，讓你及時訂購。"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
@@ -859,7 +830,7 @@ msgstr ""
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid "Assign and communicate staff roles via the <em>Planning</em> app."
-msgstr ""
+msgstr "利用工作規劃應用程式，分配員工角色，並向員工有效傳達。<em></em>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -867,9 +838,8 @@ msgid ""
 "Assign staff shifts in <font class=\"text-o-color-1\"><strong>Planning</"
 "strong></font> for setup, race marshaling, registration, and cleanup."
 msgstr ""
-"利用<font class=\"text-o-color-1\""
-"><strong>工作規劃應用程式</strong></font>，為工作人員分工，安排他們負責場地佈"
-"置、賽道糾察、報名登記、賽後清理等工作。"
+"利用<font class=\"text-o-color-1\"><strong>工作規劃應用程式</strong></font>，"
+"為工作人員分工，安排他們負責場地佈置、賽道糾察、報名登記、賽後清理等工作。"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -894,9 +864,9 @@ msgid ""
 "font></strong> for essentials like hydration points, signage, and timing "
 "equipment."
 msgstr ""
-"根據該清單，物流管理人員可在<strong><font class=\"text-o-color-1\""
-">採購應用程式</font></strong>建立採購訂單，重新訂購缺貨的物品，例如補水站、指"
-"示牌、計時工具等必需品。"
+"根據該清單，物流管理人員可在<strong><font class=\"text-o-color-1\">採購應用程"
+"式</font></strong>建立採購訂單，重新訂購缺貨的物品，例如補水站、指示牌、計時"
+"工具等必需品。"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -967,9 +937,8 @@ msgid ""
 "strong>, update the spreadsheet with the quantities required for the event, "
 "and identify any shortages."
 msgstr ""
-"檢查所有<strong><font class=\"text-o-color-1\""
-">庫存</font></strong>記錄，更新試算表，列出活動所需的貨品數量，快速找出任何潛"
-"在缺貨情況。"
+"檢查所有<strong><font class=\"text-o-color-1\">庫存</font></strong>記錄，更新"
+"試算表，列出活動所需的貨品數量，快速找出任何潛在缺貨情況。"
 
 #. module: sport_events
 #: model:planning.role,name:sport_events.planning_role_1
@@ -1021,7 +990,8 @@ msgstr ""
 msgid ""
 "Create pricelists  to offer specific prices tailored to different groups, "
 "such as partners, athletes with a license, or staff members."
-msgstr "建立價目表，為不同群組提供度身制定的特惠價格，例如合作夥伴、有證運動員、員工"
+msgstr ""
+"建立價目表，為不同群組提供度身制定的特惠價格，例如合作夥伴、有證運動員、員工"
 "等。"
 
 #. module: sport_events
@@ -1030,7 +1000,8 @@ msgid ""
 "Create roles like “Security,” “Medical Staff,” “Registration Desk,” or "
 "“Course Marshal,” and assign them to each team member’s record, on "
 "<em>Employee</em> app"
-msgstr "在員工應用程式中，為不同職能建立角色，包括保安、醫護、登記處、賽道糾察等，並"
+msgstr ""
+"在員工應用程式中，為不同職能建立角色，包括保安、醫護、登記處、賽道糾察等，並"
 "為每位團隊成員指派角色。<em></em>"
 
 #. module: sport_events
@@ -1043,13 +1014,12 @@ msgid ""
 "finalizing contracts in <strong><font class=\"text-o-color-1\">Sign</font></"
 "strong>, add confirmed sponsors with their booth locations."
 msgstr ""
-"利用<strong></strong><font class=\"text-o-color-1\""
-"><strong>活動應用程式</strong></font>建立活動，填寫所有詳細資訊，包括日期、地"
-"點、門票類型、容納人數等，然後運用 CRM <font class=\"text-o-color-1\""
-"><strong>客戶關係應用程式</strong></font>，處理贊助安排洽談，"
-"最後在<strong><font class=\"text-o-color-1\""
-">電子簽名應用程式</font></strong>中，確立最終合約，加入已確認的贊助商，並為它"
-"們安排展位位置。"
+"利用<strong></strong><font class=\"text-o-color-1\"><strong>活動應用程式</"
+"strong></font>建立活動，填寫所有詳細資訊，包括日期、地點、門票類型、容納人數"
+"等，然後運用 CRM <font class=\"text-o-color-1\"><strong>客戶關係應用程式</"
+"strong></font>，處理贊助安排洽談，最後在<strong><font class=\"text-o-"
+"color-1\">電子簽名應用程式</font></strong>中，確立最終合約，加入已確認的贊助"
+"商，並為它們安排展位位置。"
 
 #. module: sport_events
 #: model:product.template,name:sport_events.product_product_32_product_template
@@ -1069,7 +1039,7 @@ msgstr "設定活動時間，例如比賽日及準備日子上午 7 時至晚上
 #. module: sport_events
 #: model:survey.question,title:sport_events.survey_question_4
 msgid "Did you stay in the area this weekend? *"
-msgstr ""
+msgstr "今個週末你有在附近留宿嗎？ *"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1096,7 +1066,8 @@ msgstr ""
 msgid ""
 "Each staff member can view their schedule via their portal or receive it by "
 "email"
-msgstr "每位員工都可在個人門戶網站中，查看自己的工作時間表，或透過電子郵件接收編更安"
+msgstr ""
+"每位員工都可在個人門戶網站中，查看自己的工作時間表，或透過電子郵件接收編更安"
 "排。"
 
 #. module: sport_events
@@ -1133,7 +1104,7 @@ msgstr ""
 #. module: sport_events
 #: model:event.event,subtitle:sport_events.event_event_1
 msgid "Explore the forest trails around the iconic Maredsous Abbey."
-msgstr ""
+msgstr "探索環繞着地標建築馬雷杜斯修道院的森林小徑。"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
@@ -1148,9 +1119,9 @@ msgid ""
 "this column so the Inventory Manager can compare it with “Quantity on Hand” "
 "and instantly know what needs to be reordered."
 msgstr ""
-"將你的 Odoo "
-"庫存清單匯出至試算表，並為個別活動建立「所需數量」直欄。活動統籌員可填寫此欄"
-"，讓庫存管理人員可輕易與「在庫數量」比較，即時得知哪些產品需要重新訂購。"
+"將你的 Odoo 庫存清單匯出至試算表，並為個別活動建立「所需數量」直欄。活動統籌"
+"員可填寫此欄，讓庫存管理人員可輕易與「在庫數量」比較，即時得知哪些產品需要重"
+"新訂購。"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
@@ -1222,7 +1193,8 @@ msgstr ""
 msgid ""
 "Get in touch with your customers to provide them with better service. You "
 "can modify the form fields to gather more precise information."
-msgstr "接觸你的客戶，為他們提供更好的服務。你可修改表單欄位，收集更精確的資訊。"
+msgstr ""
+"接觸你的客戶，為他們提供更好的服務。你可修改表單欄位，收集更精確的資訊。"
 
 #. module: sport_events
 #. odoo-javascript
@@ -1233,7 +1205,7 @@ msgstr "快來學習，探索各式 Odoo 使用建議！"
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
 msgid "Group stage in the morning, knockout rounds in the afternoon"
-msgstr ""
+msgstr "上午進行小組賽，下午進行淘汰賽"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1246,7 +1218,8 @@ msgid ""
 "Have questions, ideas, or need support? Reach out to our team; we’ll get "
 "back to you as quickly as possible. We’re here to help you have an amazing "
 "event experience."
-msgstr "有疑問、想法，或需要協助？歡迎聯絡我們團隊，我們會盡快回覆你。我們致力為你打"
+msgstr ""
+"有疑問、想法，或需要協助？歡迎聯絡我們團隊，我們會盡快回覆你。我們致力為你打"
 "造精彩活動體驗。"
 
 #. module: sport_events
@@ -1260,9 +1233,9 @@ msgstr "你有否在該區的酒店、餐廳、咖啡店、餐飲場所等用餐
 msgid ""
 "In <em>CRM</em>, create a new opportunity for each sponsor or partner. "
 "Record all discussions, meeting notes, and agreed conditions."
-msgstr "在 CRM "
-"客戶關係應用程式中，為每位贊助商或合作夥伴，建立新的商機。記錄所有討論內容、"
-"會議記錄、協議條款等。<em></em>"
+msgstr ""
+"在 CRM 客戶關係應用程式中，為每位贊助商或合作夥伴，建立新的商機。記錄所有討論"
+"內容、會議記錄、協議條款等。<em></em>"
 
 #. module: sport_events
 #: model:project.task.type,name:sport_events.project_task_type_2
@@ -1281,7 +1254,7 @@ msgstr ""
 #. module: sport_events
 #: model:event.event.ticket,description:sport_events.event_event_ticket_7
 msgid "Individual bib, access to all 3 disciplines, aid stations"
-msgstr ""
+msgstr "個人號碼布，可參加全部 3 個項目，設有補給站"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
@@ -1296,10 +1269,10 @@ msgid ""
 "font><font class=\"text-o-color-1\"> VoIP</font></strong> to communicate "
 "instantly with your team during the event."
 msgstr ""
-"整合 <strong><font class=\"text-o-color-1\">WhatsApp</font><font class="
-"\"text-o-color-2\"><span style=\"font-weight: normal;"
-"\"> 及/或 </span></font><font class=\"text-o-color-1\">VoIP "
-"網絡通話服務</font></strong>，在活動進行期間隨時與團隊成員溝通。"
+"整合 <strong><font class=\"text-o-color-1\">WhatsApp</font><font "
+"class=\"text-o-color-2\"><span style=\"font-weight: normal;\"> 及/或 </"
+"span></font><font class=\"text-o-color-1\">VoIP 網絡通話服務</font></"
+"strong>，在活動進行期間隨時與團隊成員溝通。"
 
 #. module: sport_events
 #: model:product.template,name:sport_events.product_product_12_product_template
@@ -1331,8 +1304,8 @@ msgid ""
 "highlights and engage your audience online."
 msgstr ""
 "利用<strong><font class=\"text-o-color-1\">社交媒體推廣</font></strong><font "
-"class=\"bg-o-color-3 text-o-color-1\""
-"></font>應用程式，分享活動花絮，吸引並與線上受眾互動。"
+"class=\"bg-o-color-3 text-o-color-1\"></font>應用程式，分享活動花絮，吸引並與"
+"線上受眾互動。"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
@@ -1375,11 +1348,13 @@ msgid ""
 "Manage all event-related finances seamlessly using the <strong><font "
 "class=\"text-o-color-1\">Accounting</font></strong> app."
 msgstr ""
+"利用<strong><font class=\"text-o-color-1\">會計應用程式</font></strong>，輕鬆"
+"管理所有活動的財務工作。"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid "Manage event finances with the Invoicing and Expenses apps."
-msgstr ""
+msgstr "利用發票及開支應用程式，管理活動財政。"
 
 #. module: sport_events
 #: model:project.project,name:sport_events.project_project_1
@@ -1478,10 +1453,9 @@ msgid ""
 "inventory and scheduling staff, Odoo empowers sports event professionals "
 "with fully integrated tools."
 msgstr ""
-"Odoo "
-"協助你集中管理賽事營運的各個環節。由籌辦活動、聯絡贊助商及合作夥伴協調，以至"
-"利用庫存功能管理活動用品、編排人手等，Odoo "
-"都為統籌體育賽事的專業人員，提供功能全面、完全整合的工具。"
+"Odoo 協助你集中管理賽事營運的各個環節。由籌辦活動、聯絡贊助商及合作夥伴協調，"
+"以至利用庫存功能管理活動用品、編排人手等，Odoo 都為統籌體育賽事的專業人員，提"
+"供功能全面、完全整合的工具。"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1496,23 +1470,23 @@ msgid ""
 "delivering an unforgettable experience for sport lovers, partners, and "
 "spectators."
 msgstr ""
-"Odoo "
-"可以協助你改善團隊協作，為你舉辦的活動提升線上知名度，並確保活動的每個細節都"
-"順利運作，讓你可專注為體育愛好者、合作夥伴及觀眾，提供難忘的賽事體驗。"
+"Odoo 可以協助你改善團隊協作，為你舉辦的活動提升線上知名度，並確保活動的每個細"
+"節都順利運作，讓你可專注為體育愛好者、合作夥伴及觀眾，提供難忘的賽事體驗。"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid ""
 "Odoo is entirely integrated into an App. Download it to turn your phone into "
 "a tool to manage your entire workflow."
-msgstr "Odoo "
-"系統已完全整合至一個應用程式中。下載使用，將手機變成管理所有業務流程的工具。"
+msgstr ""
+"Odoo 系統已完全整合至一個應用程式中。下載使用，將手機變成管理所有業務流程的工"
+"具。"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid ""
 "Odoo offers endless customization possibilities for your Sport Event company:"
-msgstr ""
+msgstr "Odoo 為你的體育賽事業務，提供無限的自訂空間："
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1520,7 +1494,8 @@ msgid ""
 "Of course, this is just an overview of the features included in this "
 "package. Feel free to add new apps, delete/modify demo data, and test "
 "everything around!"
-msgstr "當然，這只是此軟體套裝所涵蓋功能的概述。你可隨意加入新的應用程式、刪除或修改"
+msgstr ""
+"當然，這只是此軟體套裝所涵蓋功能的概述。你可隨意加入新的應用程式、刪除或修改"
 "模擬資料，並在不同介面盡情測試！"
 
 #. module: sport_events
@@ -1529,8 +1504,8 @@ msgid ""
 "Offer <strong><font class=\"text-o-color-1\">memberships or subscriptions</"
 "font></strong> for regular access to your events."
 msgstr ""
-"提供<strong><font class=\"text-o-color-1\""
-">會員計劃或訂閱服務</font></strong>，方便選手定期參加你的活動。"
+"提供<strong><font class=\"text-o-color-1\">會員計劃或訂閱服務</font></"
+"strong>，方便選手定期參加你的活動。"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
@@ -1542,7 +1517,8 @@ msgstr ""
 msgid ""
 "Once terms are approved, send the sponsorship contract via the <em>Sign</em> "
 "app for a quick, legally binding e-signature."
-msgstr "協議條款獲批准後，可用電子簽名應用程式發送贊助計劃合約，快速獲取有法律效力的"
+msgstr ""
+"協議條款獲批准後，可用電子簽名應用程式發送贊助計劃合約，快速獲取有法律效力的"
 "電子簽名。<em></em>"
 
 #. module: sport_events
@@ -1553,7 +1529,7 @@ msgstr ""
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
 msgid "Online registration only. Payment via credit card or PayPal."
-msgstr ""
+msgstr "只接受線上報名，可透過信用卡或 PayPal 付款。"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
@@ -1611,8 +1587,8 @@ msgid ""
 "Plan and launch your sport event using <em>Project</em>, <em>CRM</em>, "
 "<em>Events</em>, and <em>Website.</em>"
 msgstr ""
-"利用專案管理、客戶關係、活動、網站製作等應用程式，妥善規劃及開展你的體育賽事"
-"。<em></em><em></em><em></em><em></em>"
+"利用專案管理、客戶關係、活動、網站製作等應用程式，妥善規劃及開展你的體育賽"
+"事。<em></em><em></em><em></em><em></em>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
@@ -1643,9 +1619,9 @@ msgid ""
 "strong></font> with sponsor logos, descriptions, media from previous "
 "editions, practical info, and ticket registration."
 msgstr ""
-"在<font class=\"text-o-color-1\""
-"><strong>網站</strong></font>上宣傳活動，展示贊助商標誌、活動描述、往屆活動的"
-"多媒體資料、實用資訊，並提供門票銷售及報名功能。"
+"在<font class=\"text-o-color-1\"><strong>網站</strong></font>上宣傳活動，展示"
+"贊助商標誌、活動描述、往屆活動的多媒體資料、實用資訊，並提供門票銷售及報名功"
+"能。"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1700,10 +1676,9 @@ msgid ""
 "color-1\"><strong>Barcode</strong></font> app to scan participant tickets "
 "and assign bib numbers; check your staff planning and enjoy the event."
 msgstr ""
-"順利舉辦活動：多得 Odoo 的庫存清單，物流經理能夠準確知道需要攜帶哪些物品。"
-"你可使用<font class=\"text-o-color-1\""
-"><strong>條碼應用程式</strong></font>，掃瞄參賽者門票及分配號碼布，亦可輕易檢"
-"查職員人手安排，盡情享受活動氣氛。"
+"順利舉辦活動：多得 Odoo 的庫存清單，物流經理能夠準確知道需要攜帶哪些物品。你"
+"可使用<font class=\"text-o-color-1\"><strong>條碼應用程式</strong></font>，掃"
+"瞄參賽者門票及分配號碼布，亦可輕易檢查職員人手安排，盡情享受活動氣氛。"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1734,11 +1709,11 @@ msgid ""
 "style=\"font-weight: normal;\">and</span><font class=\"text-o-color-1\"> "
 "Expenses </font></strong>before closing the project."
 msgstr ""
-"活動完成後，可透過<font class=\"text-o-color-1\""
-"><strong>網上調查應用程式</strong></font>，向參加者及合作夥伴發送問卷，並在關"
-"閉活動專案前，使用<strong><font class=\"text-o-color-1\">發票</font><span "
-"style=\"font-weight: normal;\">及</span><font class=\"text-o-color-1\""
-">開支</font></strong>應用程式，結算收入及支出。"
+"活動完成後，可透過<font class=\"text-o-color-1\"><strong>網上調查應用程式</"
+"strong></font>，向參加者及合作夥伴發送問卷，並在關閉活動專案前，使用"
+"<strong><font class=\"text-o-color-1\">發票</font><span style=\"font-weight: "
+"normal;\">及</span><font class=\"text-o-color-1\">開支</font></strong>應用程"
+"式，結算收入及支出。"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1747,9 +1722,8 @@ msgid ""
 "strong> system to sell food, drinks, and merchandise on-site with integrated "
 "stock tracking."
 msgstr ""
-"建立 <strong><font class=\"text-o-color-1\">POS "
-"銷售點管理</font></strong>系統，在現場售賣食品、飲品及紀念商品，並可享用整合"
-"的庫存追蹤功能。"
+"建立 <strong><font class=\"text-o-color-1\">POS 銷售點管理</font></strong>系"
+"統，在現場售賣食品、飲品及紀念商品，並可享用整合的庫存追蹤功能。"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
@@ -1802,7 +1776,7 @@ msgstr ""
 msgid ""
 "Streamline purchasing for sport event supplies using the <em>Purchase</em> "
 "app."
-msgstr ""
+msgstr "利用採購應用程式，簡化體育活動用品的採購流程。<em></em>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.contactus
@@ -1821,7 +1795,8 @@ msgid ""
 "Support endurance, community, and outdoor passion. Our events bring together "
 "hundreds of participants — a great platform to boost your brand’s visibility "
 "and values. Let’s build impact together."
-msgstr "支持大眾對耐力競賽、社群參與及戶外運動的熱情！我們的活動匯集數百名參賽者，是"
+msgstr ""
+"支持大眾對耐力競賽、社群參與及戶外運動的熱情！我們的活動匯集數百名參賽者，是"
 "你提升品牌知名度及價值的絕佳平台。讓我們攜手，共同創造影響力。"
 
 #. module: sport_events
@@ -1863,10 +1838,9 @@ msgid ""
 "facilities of Marche-en-Famenne, the tournament aims to promote local sport "
 "culture, friendly rivalry, and community connection."
 msgstr ""
-"<strong>2025 "
-"年度阿登排球盃</strong>是一項室內排球錦標賽，匯集區內各地的業餘及半職業球隊，"
-"進行一整天精彩賽事。比賽在馬爾什昂法梅訥的現代化場館舉行，旨在促進當地體育文"
-"化、友好比拼，以及社群聯繫。"
+"<strong>2025 年度阿登排球盃</strong>是一項室內排球錦標賽，匯集區內各地的業餘"
+"及半職業球隊，進行一整天精彩賽事。比賽在馬爾什昂法梅訥的現代化場館舉行，旨在"
+"促進當地體育文化、友好比拼，以及社群聯繫。"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
@@ -1885,7 +1859,8 @@ msgstr ""
 msgid ""
 "The event site is accessible by car, bicycle, and public transportation. "
 "Free parking available. Showers and basic facilities are provided."
-msgstr "活動場地交通便利，可駕車、騎單車，或乘搭大眾運輸工具到達，有免費停車位提供。"
+msgstr ""
+"活動場地交通便利，可駕車、騎單車，或乘搭大眾運輸工具到達，有免費停車位提供。"
 "場地設有淋浴間及基本設施。"
 
 #. module: sport_events
@@ -1896,7 +1871,7 @@ msgstr "待辦"
 #. module: sport_events
 #: model:event.event.ticket,description:sport_events.event_event_ticket_5
 msgid "Tournament entry, team bibs, water & lunch for players"
-msgstr ""
+msgstr "巡迴賽參賽資格，隊員號碼布，球員飲用水及午餐"
 
 #. module: sport_events
 #: model:event.tag,name:sport_events.event_tag_1
@@ -1930,7 +1905,8 @@ msgid ""
 "Use the <em>Website</em> app to promote sponsors with their logos, "
 "descriptions, and (if relevant) booth details so attendees know where to "
 "find them."
-msgstr "使用網站應用程式，宣傳你的贊助商，包括他們的公司標誌、描述，以及展位詳情（若"
+msgstr ""
+"使用網站應用程式，宣傳你的贊助商，包括他們的公司標誌、描述，以及展位詳情（若"
 "相關），以便參加者知道可在哪裏找到他們。<em></em>"
 
 #. module: sport_events
@@ -1940,9 +1916,8 @@ msgid ""
 "to organize the event by creating tasks, assigning assignees, setting "
 "deadlines, and tracking progress."
 msgstr ""
-"運用<font class=\"text-o-color-1\""
-"><strong>專案管理應用程式</strong></font>舉辦各項活動，包括建立不同任務、分配"
-"負責人、設定截止期限，以及追蹤工作進度。"
+"運用<font class=\"text-o-color-1\"><strong>專案管理應用程式</strong></font>舉"
+"辦各項活動，包括建立不同任務、分配負責人、設定截止期限，以及追蹤工作進度。"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1981,7 +1956,7 @@ msgstr ""
 #. module: sport_events
 #: model:survey.question,title:sport_events.survey_question_2
 msgid "Was this your first visit to the region? *"
-msgstr ""
+msgstr "這次是你第一次到訪這個地區嗎？ *"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.ir_ui_view_3140
@@ -2033,10 +2008,9 @@ msgid ""
 "sponsorships, and staff scheduling, Odoo empowers sports event professionals "
 "with fully integrated tools."
 msgstr ""
-"無論是舉辦馬拉松、越野跑、三項鐵人，還是競技錦標賽，Odoo "
-"都能協助你集中管理各個環節。從活動規劃及供應商協調，以至物料庫存、賽事資訊發"
-"佈、處理贊助、職員人手安排等，Odoo "
-"為統籌體育賽事的專業人員，提供功能全面、完全整合的工具。"
+"無論是舉辦馬拉松、越野跑、三項鐵人，還是競技錦標賽，Odoo 都能協助你集中管理各"
+"個環節。從活動規劃及供應商協調，以至物料庫存、賽事資訊發佈、處理贊助、職員人"
+"手安排等，Odoo 為統籌體育賽事的專業人員，提供功能全面、完全整合的工具。"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
@@ -2045,8 +2019,8 @@ msgid ""
 "promises unforgettable terrain, community-driven support, and a "
 "professionally managed race experience."
 msgstr ""
-"無論你是單人還是組隊參賽，<strong>ATC 2025</strong> "
-"都會為你送上難忘的賽道地形、社群熱烈支持與鼓勵，以及專業管理賽事的體驗。"
+"無論你是單人還是組隊參賽，<strong>ATC 2025</strong> 都會為你送上難忘的賽道地"
+"形、社群熱烈支持與鼓勵，以及專業管理賽事的體驗。"
 
 #. module: sport_events
 #: model:survey.question,title:sport_events.survey_question_1
@@ -2056,7 +2030,7 @@ msgstr ""
 #. module: sport_events
 #: model:survey.question,title:sport_events.survey_question_3
 msgid "Who did you come to the event with? *"
-msgstr ""
+msgstr "你與誰一起來參加活動的？ *"
 
 #. module: sport_events
 #: model:survey.question.answer,value:sport_events.survey_question_answer_7
@@ -2092,15 +2066,17 @@ msgstr "你可在主要 Dashboard 中，存取 Odoo 資料庫已安裝的各個�
 msgid ""
 "You completed that demo use case! There are millions of other ways to adapt "
 "your Odoo setup to fit your business needs."
-msgstr "你已完成示範例子的導覽！除此之外，還有很多其他方法可以調整 Odoo "
-"的設定，以滿足你業務的特別需要。"
+msgstr ""
+"你已完成示範例子的導覽！除此之外，還有很多其他方法可以調整 Odoo 的設定，以滿"
+"足你業務的特別需要。"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid ""
 "You should be able to execute the following flows to have an overview of "
 "various processes you can quickly execute with this package using Odoo."
-msgstr "你應該能夠執行以下流程，以概覽可運用此套裝在 Odoo 內快速執行的各項流程。"
+msgstr ""
+"你應該能夠執行以下流程，以概覽可運用此套裝在 Odoo 內快速執行的各項流程。"
 
 #. module: sport_events
 #: model:survey.survey,title:sport_events.survey_survey_1
@@ -2112,7 +2088,8 @@ msgstr ""
 msgid ""
 "Your feedback supports both our event organization and the local communities "
 "that welcome us. We hope to see you again soon — until then, keep exploring!"
-msgstr "你的意見對我們舉辦活動的工作，以及熱情接待訪客的當地社群，都十分重要。希望很"
+msgstr ""
+"你的意見對我們舉辦活動的工作，以及熱情接待訪客的當地社群，都十分重要。希望很"
 "快能再見到你！在我們下次見面前，繼續探索世界吧！"
 
 #. module: sport_events
@@ -2151,6 +2128,16 @@ msgid "if you need help!"
 msgstr "以尋求協助！"
 
 #. module: sport_events
+#: model:event.question.answer,name:sport_events.event_question_answer_4
+msgid "l"
+msgstr ""
+
+#. module: sport_events
+#: model:event.question.answer,name:sport_events.event_question_answer_3
+msgid "m"
+msgstr ""
+
+#. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
 msgid "people walking on street during daytime"
 msgstr ""
@@ -2164,6 +2151,11 @@ msgstr "身穿綠色及黑色短褲的人，騎着一輛黑色與紅色的單車
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid "request a demo"
 msgstr "預約功能演示"
+
+#. module: sport_events
+#: model:event.question.answer,name:sport_events.event_question_answer_2
+msgid "s"
+msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
@@ -2189,3 +2181,71 @@ msgstr ""
 #: model_terms:event.event,description:sport_events.event_event_3
 msgid "🚲 Relay teams welcome (1 leg per person)"
 msgstr ""
+
+#~ msgid "+1 555-555-5556"
+#~ msgstr "+1 555-555-5556"
+
+#~ msgid ""
+#~ "<strong><font class=\"text-o-color-1\">CRM</font></strong>: Manage "
+#~ "relationships with sponsors, partners, and key contacts."
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">客戶關係管理</font></strong>"
+#~ "（CRM）：管理與贊助商、合作夥伴、重要聯絡人等的關係。"
+
+#~ msgid ""
+#~ "<strong><font class=\"text-o-color-1\">Events</font></strong>: Plan and "
+#~ "manage sport competitions, races, or tournaments."
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">活動</font></strong>：規劃及管理體"
+#~ "育比賽、錦標賽等。"
+
+#~ msgid ""
+#~ "<strong><font class=\"text-o-color-1\">Inventory</font></strong>: Track "
+#~ "sports gear, event equipment, merchandise, and manage stock of all "
+#~ "materials."
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">庫存</font></strong>：追蹤運動裝"
+#~ "備、賽事器材、紀念商品等，管理所有物料的存貨。"
+
+#~ msgid ""
+#~ "<strong><font class=\"text-o-color-1\">Planning</font></strong>: Create "
+#~ "staff schedules, assign roles, and manage shifts."
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">工作規劃</font></strong>：編排員工"
+#~ "工作時間表，分配職能角色，管理輪班。"
+
+#~ msgid ""
+#~ "<strong><font class=\"text-o-color-1\">Project</font></strong>: Organize "
+#~ "event planning, deadlines, and task responsibilities."
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">專案管理</font></strong>：管理活動"
+#~ "規劃、截止日期、任務職責等。"
+
+#~ msgid ""
+#~ "<strong><font class=\"text-o-color-1\">Purchase</font>: </strong>Order "
+#~ "ravitaillement supplies, gear, equipment, and other essentials for sport "
+#~ "events.<strong/><br/>"
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">採購</font></strong>：訂購體育賽事"
+#~ "使用的中途補給用品、裝備、器材及其他所需物品。<strong/><br/>"
+
+#~ msgid ""
+#~ "<strong><font class=\"text-o-color-1\">Sign</font></strong>: Digitally "
+#~ "sign sponsorship agreements or volunteer forms."
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">電子簽名</font></strong>：以電子形"
+#~ "式，為贊助協議、義工表格等進行數碼簽名。"
+
+#~ msgid ""
+#~ "<strong><font class=\"text-o-color-1\">Survey</font></strong>: Gather "
+#~ "feedback from participants, staff, and sponsors."
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">網上調查</font></strong>：收集參加"
+#~ "者、工作人員及贊助商的回應及意見。"
+
+#~ msgid ""
+#~ "<strong><font class=\"text-o-color-1\">Website</font></strong>: Promote "
+#~ "events, sell tickets, and gather sponsorships online."
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">網站製作</font></strong>：線上宣傳"
+#~ "活動、售票，以及籌募經費及贊助。"

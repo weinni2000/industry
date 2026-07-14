@@ -8,15 +8,15 @@
 # Chloe Wang, 2024
 #
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
-# "Chloe Wang (chwa)" <chwa@odoo.com>, 2025.
+# "Chloe Wang (chwa)" <chwa@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 11:08+0000\n"
-"PO-Revision-Date: 2025-11-17 11:08+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-01-12 09:42+0000\n"
+"PO-Revision-Date: 2026-01-03 19:50+0000\n"
+"Last-Translator: \"Chloe Wang (chwa)\" <chwa@odoo.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/"
 "projects/odoo-19/furniture_store/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.ir_ui_view_3972
@@ -54,8 +54,8 @@ msgid ""
 "Customer Service\">+1555-555-5556</a>"
 msgstr ""
 "&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<a "
-"class=\"o_translate_inline\" href=\"tel:+1555-555-5556\" title="
-"\"Call Customer Service\">+1555-555-5556</a>"
+"class=\"o_translate_inline\" href=\"tel:+1555-555-5556\" title=\"Call "
+"Customer Service\">+1555-555-5556</a>"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.ir_ui_view_2244
@@ -125,8 +125,9 @@ msgid ""
 "<b>Add specific locations</b> within your warehouse as needed. (You'll first "
 "need to enable the \"Locations\" setting in your Inventory configurations to "
 "use this feature.)"
-msgstr "可根据需要，<b>加入仓库内的特定位置</b>。（需要先在库存配置中，启用“位置”设置"
-"，才可使用此功能。）"
+msgstr ""
+"可根据需要，<b>加入仓库内的特定位置</b>。（需要先在库存配置中，启用“位置”设"
+"置，才可使用此功能。）"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -213,6 +214,59 @@ msgid "<b>Validate</b> the preparation."
 msgstr "<b>验证</b>准备工作。"
 
 #. module: furniture_store
+#: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Barcode App</b>:</font> Empower staff to "
+"perform stock counts, receive goods,\n"
+"                    and check prices on the shop floor using mobile scanners."
+msgstr ""
+
+#. module: furniture_store
+#: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Inventory App</b>: </font>Manage stock "
+"with precision using\n"
+"                    <b>Lots &amp; Serial Numbers</b> and <b>Expiration "
+"Dates</b> to track perishables and automate removal\n"
+"                    strategies."
+msgstr ""
+
+#. module: furniture_store
+#: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Invoicing App</b>:</font> Simplify your "
+"financial workflows by integrating\n"
+"                    supplier bills and customer invoices directly into your "
+"accounting system."
+msgstr ""
+
+#. module: furniture_store
+#: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Point of Sale App</b>:</font> Process "
+"transactions rapidly with an interface\n"
+"                    optimized for speed, supporting barcode scanners, "
+"integrated scales, and customer loyalty cards."
+msgstr ""
+
+#. module: furniture_store
+#: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Purchase App</b>:</font> Automate the "
+"reordering of fast-moving goods based on\n"
+"                    minimum stock rules, ensuring you never run out of milk "
+"or bread."
+msgstr ""
+
+#. module: furniture_store
+#: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>eCommerce App</b>:</font> Expand your "
+"reach by offering online ordering for\n"
+"                    \"click and collect\" or home delivery services."
+msgstr ""
+
+#. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.ir_ui_view_3972
 msgid ""
 "<i class=\"fa fa-1x fa-fw fa-envelope me-2\"/>\n"
@@ -220,8 +274,8 @@ msgid ""
 "span>"
 msgstr ""
 "<i class=\"fa fa-1x fa-fw fa-envelope me-2\"/>\n"
-"                                                "
-"<span>info@yourcompany.example.com</span>"
+"                                                <span>info@yourcompany.example.com</"
+"span>"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.ir_ui_view_3955
@@ -265,8 +319,8 @@ msgid ""
 "                                                    Avenue</span>"
 msgstr ""
 "<i class=\"fa fa-map-marker fa-fw me-2\"/>\n"
-"                                                <span class=\"o_force_ltr\""
-">3575 Fake Buena Vista\n"
+"                                                <span "
+"class=\"o_force_ltr\">3575 Fake Buena Vista\n"
 "                                                    Avenue</span>"
 
 #. module: furniture_store
@@ -277,8 +331,8 @@ msgid ""
 "class=\"o_force_ltr\">+1 555-555-5556</span>"
 msgstr ""
 "<i class=\"fa fa-phone fa-fw me-2\"/>\n"
-"                                                <span class=\"o_force_ltr\">+"
-"1 555-555-5556</span>"
+"                                                <span "
+"class=\"o_force_ltr\">+1 555-555-5556</span>"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -286,8 +340,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">💡</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Info\">💡</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">💡</i>"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -295,8 +349,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">🚀</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Info\">🚀</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">🚀</i>"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -304,8 +358,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">✅</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Success\">✅</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\">✅</i>"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -313,8 +367,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
 "normal\">💡</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Info\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
+"<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
+"normal\">💡</i>"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -322,8 +376,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\">✅</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Success\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\">✅</i>"
+"<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
+"fst-normal\">✅</i>"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -331,8 +385,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\">⚠️</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Warning\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
+"<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
+"fst-normal\">⚠️</i>"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.ir_ui_view_3955
@@ -601,8 +655,9 @@ msgstr ""
 msgid ""
 "After creating a product, remember to<strong> publish</strong> it to your "
 "<strong>e-commerce catalog</strong> so it's visible online."
-msgstr "创建产品后，请记得将其<strong>发布</strong>到您的<strong>电子商务目录</strong"
-">中，以便在线显示。"
+msgstr ""
+"创建产品后，请记得将其<strong>发布</strong>到您的<strong>电子商务目录</"
+"strong>中，以便在线显示。"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -731,7 +786,8 @@ msgid ""
 "                                            company or services.<br/> We'll "
 "do our best to get back\n"
 "                                            to you as soon as possible."
-msgstr "如有任何关于我们公司或服务的问题，请联系我们。<br/>我们将尽力尽快给您回复。"
+msgstr ""
+"如有任何关于我们公司或服务的问题，请联系我们。<br/>我们将尽力尽快给您回复。"
 
 #. module: furniture_store
 #: model:product.template,name:furniture_store.product_template_23
@@ -833,7 +889,7 @@ msgstr ""
 #. module: furniture_store
 #: model:product.template,name:furniture_store.product_template_22
 msgid "Elegant plate"
-msgstr ""
+msgstr "优雅餐碟"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.ir_ui_view_2244
@@ -988,23 +1044,26 @@ msgid ""
 "Odoo helps you perfectly tailor your website to your clients' needs. Easily "
 "integrate your internal policies, customize the contact form, showcase your "
 "latest arrivals, create an inspiration blog, and much more!"
-msgstr "Odoo帮助您完美定制网站，以满足客户需求。轻松整合您的内部政策、自定义联系表单"
-"、展示最新到货、创建灵感博客，以及更多功能！"
+msgstr ""
+"Odoo帮助您完美定制网站，以满足客户需求。轻松整合您的内部政策、自定义联系表"
+"单、展示最新到货、创建灵感博客，以及更多功能！"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
 msgid ""
 "Odoo is entirely integrated into an App. Download it to <b>manage your "
 "entire business from your phone</b>.<br/>"
-msgstr "Odoo 完全集成在一个应用中。下载该应用，即可<b>在手机上管理您的全部业务</b>。<"
-"br/>"
+msgstr ""
+"Odoo 完全集成在一个应用中。下载该应用，即可<b>在手机上管理您的全部业务</b>。"
+"<br/>"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
 msgid ""
 "Odoo offers a complete solution to enhance efficiency and improve customer "
 "satisfaction across all your furniture store services."
-msgstr "Odoo为您的所有家具店服务提供了一套完整的解决方案，旨在提升效率和客户满意度。"
+msgstr ""
+"Odoo为您的所有家具店服务提供了一套完整的解决方案，旨在提升效率和客户满意度。"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -1012,7 +1071,8 @@ msgid ""
 "Of course, this is just an overview of the features included in this "
 "package. Feel free to add new apps, delete/modify demo data, and test "
 "everything around!"
-msgstr "当然，这只是该功能包所含功能的简要概述。欢迎您随时添加新应用、删除/修改演示数"
+msgstr ""
+"当然，这只是该功能包所含功能的简要概述。欢迎您随时添加新应用、删除/修改演示数"
 "据，并尽情测试各项功能！"
 
 #. module: furniture_store
@@ -1216,46 +1276,6 @@ msgstr ""
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
 msgid ""
-"The<strong> </strong><font style=\"color: rgb(113, 75, 103);"
-"\"><strong>Website App</strong></font> powers your online store and manages "
-"your e-commerce presence."
-msgstr ""
-
-#. module: furniture_store
-#: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
-msgid ""
-"The<strong> <font class=\"text-o-color-1\">CRM &amp; the Sales </font><font "
-"style=\"color: rgb(113, 75, 103);\">App</font></strong> helps you connect "
-"with customers and craft personalized promotions."
-msgstr ""
-
-#. module: furniture_store
-#: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
-msgid ""
-"The<strong> <font class=\"text-o-color-1\">​</font><font style=\"color: "
-"rgb(113, 75, 103);\">Inventory App</font></strong> keeps tabs on your stock "
-"levels, customer returns, and incoming deliveries."
-msgstr ""
-
-#. module: furniture_store
-#: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
-msgid ""
-"The<strong> <font class=\"text-o-color-1\">​Purchase</font><font "
-"style=\"color: rgb(113, 75, 103);\"> App</font></strong> assists with "
-"restocking your products and managing supplier orders."
-msgstr ""
-
-#. module: furniture_store
-#: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
-msgid ""
-"The<strong> <font style=\"color: rgb(113, 75, 103);\">Point of Sale (PoS)</"
-"font></strong> manages all your in-store activities and handles online "
-"\"click and collect\" orders."
-msgstr ""
-
-#. module: furniture_store
-#: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
-msgid ""
 "These all go free in your current subscription; feel free to explore! 🙃"
 msgstr "这些都是您当前订阅中的免费内容；请随意浏览！🙃"
 
@@ -1265,7 +1285,8 @@ msgid ""
 "This module optimizes your furniture store's daily operations by "
 "streamlining product sales, customer orders, and the management of both in-"
 "store inventory and your website's online catalog."
-msgstr "该模块通过简化产品销售、客户订单以及实体店库存和网站在线目录的管理，来优化您"
+msgstr ""
+"该模块通过简化产品销售、客户订单以及实体店库存和网站在线目录的管理，来优化您"
 "家具店的日常运营。"
 
 #. module: furniture_store
@@ -1285,9 +1306,9 @@ msgid ""
 "various <strong>categories</strong> for both your website's display and your "
 "internal organizational needs."
 msgstr ""
-"为了高效管理您的产品目录，您可以创建带变体的产品并将其<strong>在线发布</stron"
-"g>。此外，您还可以为您的网站展示和内部组织需求建立不同的<strong>分类</strong>"
-"。"
+"为了高效管理您的产品目录，您可以创建带变体的产品并将其<strong>在线发布</"
+"strong>。此外，您还可以为您的网站展示和内部组织需求建立不同的<strong>分类</"
+"strong>。"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -1295,7 +1316,8 @@ msgid ""
 "To get a rapid understanding of the processes this Odoo package offers, you "
 "can execute the following flows and configure the settings to suit your "
 "furniture store."
-msgstr "为了快速了解此Odoo套餐提供的流程，您可以执行以下工作流，并配置设置以适应您家"
+msgstr ""
+"为了快速了解此Odoo套餐提供的流程，您可以执行以下工作流，并配置设置以适应您家"
 "具店的需求。"
 
 #. module: furniture_store
@@ -1308,7 +1330,8 @@ msgstr "用我们优雅的床品，将您的卧室变成一方静谧的港湾。
 msgid ""
 "Use the <b>Manufacturing App</b> if you plan to sell products as kits, "
 "simplifying complex assemblies."
-msgstr "如果您计划以套件形式销售产品，请使用<b>制造</b>应用来简化复杂的组装流程。"
+msgstr ""
+"如果您计划以套件形式销售产品，请使用<b>制造</b>应用来简化复杂的组装流程。"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -1339,13 +1362,13 @@ msgid ""
 msgstr ""
 "我们为所有家具产品提供30天退货政策\n"
 "                                                                。产品\n"
-"                                                                "
-"必须保持未使用过的原始状态\n"
-"                                                                "
-"，并附上收据或购买凭证。\n"
+"                                                                必须保持未使"
+"用过的原始状态\n"
+"                                                                ，并附上收据"
+"或购买凭证。\n"
 "                                                                我们将在\n"
-"                                                                "
-"收到退回商品后的5-7个工作日\n"
+"                                                                收到退回商品"
+"后的5-7个工作日\n"
 "                                                                内处理退款。"
 
 #. module: furniture_store
@@ -1362,12 +1385,12 @@ msgid ""
 "getting in touch!"
 msgstr ""
 "我们期待您的来信！\n"
-"                                            "
-"如果您有任何问题、反馈或需要帮助，请随时\n"
-"                                            通过所提供的联系方式与我们联系。"
-"\n"
-"                                            我们的团队随时准备为您提供帮助，"
-"\n"
+"                                            如果您有任何问题、反馈或需要帮"
+"助，请随时\n"
+"                                            通过所提供的联系方式与我们联"
+"系。\n"
+"                                            我们的团队随时准备为您提供帮"
+"助，\n"
 "                                            并将尽快回复。感谢您的联系！"
 
 #. module: furniture_store
@@ -1389,8 +1412,8 @@ msgid ""
 "satisfaction."
 msgstr ""
 "我们致力于提供快速有效的\n"
-"                                                                解决方案，"
-"以确保\n"
+"                                                                解决方案，以"
+"确保\n"
 "                                                                您的满意。"
 
 #. module: furniture_store
@@ -1401,9 +1424,9 @@ msgid ""
 "communicate with the client, address their specific needs, and even "
 "<b>create a tailored quotation</b> directly from the CRM."
 msgstr ""
-"当客户填写您的联系表格时，Odoo会在<b> "
-"CRM应用程序</b>中自动创建<b>商机</b>。这使与客户交流，满足他们的特定需求变得"
-"简单，甚至直接从CRM<b>创建量身定制的报价</b>。"
+"当客户填写您的联系表格时，Odoo会在<b> CRM应用程序</b>中自动创建<b>商机</b>。"
+"这使与客户交流，满足他们的特定需求变得简单，甚至直接从CRM<b>创建量身定制的报"
+"价</b>。"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.ir_ui_view_2244
@@ -1419,12 +1442,12 @@ msgid ""
 "providing comfort and style."
 msgstr ""
 "凭借在家具工艺方面的悠久传统，\n"
-"                                            我们将现代设计与实用功能相结合。"
-"\n"
-"                                            "
-"我们的使命是创造兼具美观与功能性的作品，\n"
-"                                            "
-"确保每一件产品都能在提升您生活空间格调的同时，\n"
+"                                            我们将现代设计与实用功能相结"
+"合。\n"
+"                                            我们的使命是创造兼具美观与功能性"
+"的作品，\n"
+"                                            确保每一件产品都能在提升您生活空"
+"间格调的同时，\n"
 "                                            提供舒适与风尚。"
 
 #. module: furniture_store
@@ -1479,8 +1502,9 @@ msgid ""
 "You can process <strong>partial deliveries </strong>by adjusting the "
 "quantity. Odoo will automatically generate a backorder for any remaining "
 "items.<b/><br/>"
-msgstr "您可以通过调整数量来<strong>处理部分发货</strong>。Odoo "
-"系统将自动为所有剩余的物料生成一张欠货订单。<b/><br/>"
+msgstr ""
+"您可以通过调整数量来<strong>处理部分发货</strong>。Odoo 系统将自动为所有剩余"
+"的物料生成一张欠货订单。<b/><br/>"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -1511,18 +1535,17 @@ msgid ""
 "issues."
 msgstr ""
 "您可以通过以下方式联系我们的客户支持团队：\n"
-"                                                                发送邮件至："
-"\n"
-"                                                                "
-"support@generationfurniture.com,\n"
+"                                                                发送邮件"
+"至：\n"
+"                                                                support@generationfurniture.com,\n"
 "                                                                致电：+1 "
 "555-555-1234，或使用\n"
-"                                                                "
-"使用我们网站上的在线聊天功能。\n"
-"                                                                "
-"我们的专业团队全天候24小时为您服务，\n"
-"                                                                "
-"随时协助处理任何\n"
+"                                                                使用我们网站"
+"上的在线聊天功能。\n"
+"                                                                我们的专业团"
+"队全天候24小时为您服务，\n"
+"                                                                随时协助处理"
+"任何\n"
 "                                                                咨询或问题。"
 
 #. module: furniture_store
@@ -1530,8 +1553,9 @@ msgstr ""
 msgid ""
 "You didn't import demo data? You can still do it. Go to Apps &gt; Industries "
 "&gt; Upgrade your Library package and select the relevant checkbox"
-msgstr "您没有导入演示数据？现在仍然可以导入。请前往“应用 > 行业 > "
-"升级您的图书馆套餐”，并选择相关复选框。"
+msgstr ""
+"您没有导入演示数据？现在仍然可以导入。请前往“应用 > 行业 > 升级您的图书馆套"
+"餐”，并选择相关复选框。"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -1548,8 +1572,8 @@ msgid ""
 "to use.<br/>"
 msgstr ""
 "您的动态片段将在此处显示... \n"
-"                                                "
-"显示此消息是因为您没有同时提供\n"
+"                                                显示此消息是因为您没有同时提"
+"供\n"
 "                                                所需的筛选器和模板。<br/>"
 
 #. module: furniture_store

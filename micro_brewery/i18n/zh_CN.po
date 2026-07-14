@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-28 12:28+0000\n"
+"POT-Creation-Date: 2026-04-10 19:31+0000\n"
 "PO-Revision-Date: 2025-11-17 11:09+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/"
@@ -24,21 +24,6 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.12.2\n"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3686
-msgid "+1 555-555-5556"
-msgstr "+1 555-555-5556"
-
-#. module: micro_brewery
-#: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_17
-msgid "+16"
-msgstr "+16"
-
-#. module: micro_brewery
-#: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_18
-msgid "+18"
-msgstr "+18"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -121,6 +106,13 @@ msgid ""
 msgstr ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Warning\" aria-label=\"Banner Warning\">⚠️</i>"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Warning\">⚠️</i>"
+msgstr ""
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -338,16 +330,6 @@ msgstr "例如，<strong>通过正确的工作中心创建配方的操作</stron
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid "<strong>Excise categories maintenance</strong>"
-msgstr "<strong>设立消费税类别</strong>"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid "<strong>Excise reporting</strong>"
-msgstr "<strong>消费税报告</strong>"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
 "<strong>Indicate if there are instructions</strong> the operator should do "
 "during some operation, for example:"
@@ -434,12 +416,8 @@ msgstr "琥珀色"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid ""
-"Apply DEP XX taxes to those products, creating some if necessary, and assign "
-"them a category with \"Is a deposit category\" set like the Deposit category."
+msgid "As workarounds, you might:"
 msgstr ""
-"为这些产品应用 DEP XX 税（如有需要可创建），并像“押金”类别一样，为它们分配一"
-"个已设置“是押金类别”的类别。"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -455,21 +433,6 @@ msgid ""
 "At any time you can select a table and register the payment to close the "
 "table."
 msgstr "您可以随时选择一个表格并登记付款，以关闭该表格."
-
-#. module: micro_brewery
-#: model:base.automation,name:micro_brewery.auto_production
-msgid "Auto Production"
-msgstr "汽车生产"
-
-#. module: micro_brewery
-#: model:ir.model.fields,field_description:micro_brewery.field_aut_production
-msgid "Auto-production"
-msgstr "汽车生产"
-
-#. module: micro_brewery
-#: model:base.automation,name:micro_brewery.bom_automation
-msgid "Automated BoM"
-msgstr "自动化物料清单"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -595,6 +558,16 @@ msgid "Bottle"
 msgstr "瓶"
 
 #. module: micro_brewery
+#: model:product.template,name:micro_brewery.product_template_90
+msgid "Bottle 33cl"
+msgstr ""
+
+#. module: micro_brewery
+#: model:product.template,name:micro_brewery.product_template_53
+msgid "Bottles 24x33cl"
+msgstr ""
+
+#. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Bottling - Work center: Bottler"
 msgstr "装瓶 - 工作中心： 装瓶机"
@@ -711,15 +684,11 @@ msgstr "乔德方丹赌场"
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
-"Collect deposit when you deliver your customer. It is easy. When validating "
-"your delivery, you can directly set a \"Return\" and precisely count the "
-"number of each type of deposit your customer gave you. It will automatically "
-"be\n"
-"        reflected on his invoice or issue a credit note."
+"Collect deposits when you deliver to your customer. It is easy. When "
+"validating your delivery, you can directly set a \"Return\" and precisely "
+"count the number of each type of deposit your customer gave you. It will "
+"automatically be reflected on his invoice or issue a credit note."
 msgstr ""
-"交付客户时收取押金。这很简单。在验证送货时，您可以直接设置 “退货”，并精确计算"
-"客户给您的每种押金的数量。它将自动\n"
-"        反映在他的发票上或出具赊销单。"
 
 #. module: micro_brewery
 #: model:product.attribute,name:micro_brewery.product_attribute_3
@@ -754,11 +723,6 @@ msgstr ""
 "                                            我们将尽力尽快回复您。"
 
 #. module: micro_brewery
-#: model:ir.model.fields,field_description:micro_brewery.field_quantity_by_deposit_product
-msgid "Contains"
-msgstr "包含"
-
-#. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
 "Crafting Beer - Using mainly the <font class=\"text-o-"
@@ -766,6 +730,28 @@ msgid ""
 msgstr ""
 "制作啤酒 - 主要使用<font class=\"text-o-color-1\"><strong>制造应用程序</"
 "strong></font>"
+
+#. module: micro_brewery
+#: model:product.template,name:micro_brewery.product_template_55
+msgid "Crate & Bottles 24x33cl"
+msgstr ""
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"Crate &amp; Bottles 24x33cl is the complete deposit product (deposits of all "
+"bottles and crate)"
+msgstr ""
+
+#. module: micro_brewery
+#: model:product.template,name:micro_brewery.product_template_56
+msgid "Crate 24x33cl"
+msgstr ""
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "Crate 24x33cl is the empty deposit product"
+msgstr ""
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -781,42 +767,16 @@ msgstr "创建配方"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid "Create deposit products for each different type of consigns."
-msgstr "为每种不同类型的容器创建押金产品。"
-
-#. module: micro_brewery
-#: model:account.tax,name:micro_brewery.account_tax_01_purchase
-#: model:account.tax,name:micro_brewery.account_tax_01_sale
-msgid "DEP 0.1"
-msgstr "DEP 0.1"
-
-#. module: micro_brewery
-#: model:account.tax,name:micro_brewery.account_tax_21_sale
-msgid "DEP 2.1"
-msgstr "DEP 2.1"
-
-#. module: micro_brewery
-#: model:account.tax,name:micro_brewery.account_tax_24_purchase
-#: model:account.tax,name:micro_brewery.account_tax_24_sale
-msgid "DEP 2.4"
-msgstr "DEP 2.4"
+msgid ""
+"Create deposit products for each different type of consignments and assign "
+"them a category with \"Is a deposit category\" set like the Deposit category."
+msgstr ""
 
 #. module: micro_brewery
 #: model:account.tax,name:micro_brewery.account_tax_46_purchase
 #: model:account.tax,name:micro_brewery.account_tax_46_sale
 msgid "DEP 35"
 msgstr "DEP 35"
-
-#. module: micro_brewery
-#: model:account.tax,name:micro_brewery.account_tax_45_purchase
-#: model:account.tax,name:micro_brewery.account_tax_45_sale
-msgid "DEP 4.5"
-msgstr "DEP 4.5"
-
-#. module: micro_brewery
-#: model:base.automation,name:micro_brewery.make_deposit_storable_delivery_invoice
-msgid "Default fields for deposits"
-msgstr "存款的默认字段"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -829,42 +789,9 @@ msgid "Deliveries of beer boxes are clear."
 msgstr "箱装啤酒的交付流程清晰明了。"
 
 #. module: micro_brewery
-#: model:account.tax.group,name:micro_brewery.deposit_tax_group
 #: model:pos.category,name:micro_brewery.pos_category_5
 msgid "Deposit"
 msgstr "存款"
-
-#. module: micro_brewery
-#: model:product.template,name:micro_brewery.product_template_90
-msgid "Deposit 0.1"
-msgstr "押金 0.1"
-
-#. module: micro_brewery
-#: model:product.template,name:micro_brewery.product_template_56
-msgid "Deposit 2.1"
-msgstr "押金 2.1"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid "Deposit 2.1 is the empty deposit product"
-msgstr "押金 2.1 是空容器的押金产品"
-
-#. module: micro_brewery
-#: model:product.template,name:micro_brewery.product_template_53
-msgid "Deposit 2.4"
-msgstr "押金 2.4"
-
-#. module: micro_brewery
-#: model:product.template,name:micro_brewery.product_template_55
-msgid "Deposit 4.5"
-msgstr "押金 4.5"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid ""
-"Deposit 4.5 is the complete deposit product (deposits of all bottles and "
-"crate)"
-msgstr "押金 4.5 是全套押金产品（包含所有瓶子和箱子的押金）"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_39_product_template
@@ -873,23 +800,13 @@ msgstr "酒桶押金"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid "Deposit Management 🍻"
-msgstr "押金管理 🍻"
+msgid "Deposit Management ♻️"
+msgstr ""
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Deposit assignation"
 msgstr "押金分配"
-
-#. module: micro_brewery
-#: model:ir.model.fields,field_description:micro_brewery.field_deposit_product_1
-msgid "Deposit product"
-msgstr "押金产品"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.product_template_form_custom
-msgid "Deposit product must be set in Deposit category"
-msgstr "押金产品必须设置在押金类别中"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -939,17 +856,13 @@ msgid "Email"
 msgstr "电子邮件"
 
 #. module: micro_brewery
-#: model:ir.model.fields,field_description:micro_brewery.field_empty_deposit
-msgid "Empty deposit product"
-msgstr "清空押金产品"
-
-#. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
 "Entry from FD corresponds to products entering you fiscal deposit warehouse "
 "from the fiscal deposit of a supplier. To define such suppliers, adapt their "
 "fiscal position to handle excise tax."
-msgstr "产品从供应商的财税仓库转移至您的财税仓库。如需对此类供应商进行配置，请调整其"
+msgstr ""
+"产品从供应商的财税仓库转移至您的财税仓库。如需对此类供应商进行配置，请调整其"
 "财税状态以支持消费税处理。"
 
 #. module: micro_brewery
@@ -980,20 +893,18 @@ msgstr "消费税管理🧾"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "Excise categories maintenance"
+msgstr ""
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Excise management consists in two dimensions in this package:"
 msgstr "本模块的消费税管理包含两个维度："
 
 #. module: micro_brewery
-#: model:ir.actions.server,name:micro_brewery.action_make_deposit_storable_delivery_invoice
-#: model:ir.actions.server,name:micro_brewery.bom_server_action
-#: model:ir.actions.server,name:micro_brewery.update_sales_taxes_server_action
-msgid "Execute Code"
-msgstr "执行代码"
-
-#. module: micro_brewery
-#: model:ir.actions.server,name:micro_brewery.update_state
-msgid "Execute Existing Actions"
-msgstr "执行已有动作"
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "Excise reports"
+msgstr ""
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1231,16 +1142,6 @@ msgid ""
 msgstr "在制造应用程序中，您可以创建物料清单，定义啤酒的制作方式。"
 
 #. module: micro_brewery
-#: model:ir.model.fields,field_description:micro_brewery.x_is_a_deposit
-msgid "Is a deposit"
-msgstr "是押金"
-
-#. module: micro_brewery
-#: model:ir.model.fields,field_description:micro_brewery.x_is_a_deposit_category
-msgid "Is a deposit category"
-msgstr "是订金类别"
-
-#. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
 "It could also be interesting for your customer to buy souvenirs, gifts or "
@@ -1274,6 +1175,12 @@ msgstr "桶"
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Kits only / Inventory in bottles"
 msgstr "仅套件 / 瓶装库存"
+
+#. module: micro_brewery
+#: model:product.attribute.value,name:micro_brewery.product_attribute_value_12
+#: model:website.base.unit,name:micro_brewery.base_unit_litre
+msgid "L"
+msgstr ""
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_22
@@ -1329,11 +1236,6 @@ msgid "Lautering - Work center: Lauter tun"
 msgstr "过滤 - 工作中心：过滤槽"
 
 #. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.product_template_form_custom
-msgid "Leave empty if this product is the smallest unit"
-msgstr "如果该产品是最小单位，则留空"
-
-#. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3686
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3854
 msgid "LinkedIn"
@@ -1343,6 +1245,11 @@ msgstr "领英"
 #: model:product.attribute,name:micro_brewery.beverage_product_attribute_13
 msgid "Local Brand"
 msgstr "本地品牌"
+
+#. module: micro_brewery
+#: model:product.attribute.value,name:micro_brewery.product_attribute_value_11
+msgid "M"
+msgstr ""
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_4_product_template
@@ -1392,6 +1299,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Manage your deposit more precisely and efficiently than ever before."
 msgstr "比以往更精确、更高效地管理您的押金。"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "Manually convert crates into unit bottles at the bar on reception."
+msgstr ""
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1489,8 +1401,9 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
 "On a regular basis, excises need to be declared. To support you with this "
-"duty, a report is setup to reach the quantity by excise category entering "
-"and exiting your fiscal deposit warehouse."
+"duty, a report generated weekly provides the quantity by excise category "
+"entering and exiting your fiscal deposit warehouse with a dedicated activity "
+"for it."
 msgstr ""
 
 #. module: micro_brewery
@@ -1520,9 +1433,9 @@ msgstr "完成所有操作后，您就可以出售自己制作的啤酒了."
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
-"Open the <strong>Inventory app</strong> and reach from the Reporting menu "
-"the Excises."
-msgstr "开启<strong>销售应用程序</strong>，然后开启您想报销开支的销售单。"
+"Open the <strong>Inventory app</strong> and reach the Excise Reports from "
+"the Reporting menu."
+msgstr ""
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1546,12 +1459,6 @@ msgid ""
 msgstr ""
 "外部销售（B2B - 酒吧 &amp; 零售） - 使用<strong><font class=\"text-o-"
 "color-1\">销售应用程序</font></strong>"
-
-#. module: micro_brewery
-#: model:ir.model.fields,field_description:micro_brewery.field_parent_product_bom
-#: model:ir.model.fields,field_description:micro_brewery.field_parent_product_rr
-msgid "Parent product"
-msgstr "上级产品"
 
 #. module: micro_brewery
 #: model:uom.uom,name:micro_brewery.uom_uom_30
@@ -1618,12 +1525,21 @@ msgstr "登记蒸煮结束时产生的酒糟数量."
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
-"Remember that only stock moves to or from your fiscal deposit warehouses are "
-"reported here.<br/>This is normal not to see any move related to a sale from "
-"a front store warehouse since it is not a fiscal deposit for example."
+"Rely on the kit setup mentioned in the \"Products and Bills of Material\" "
+"section."
 msgstr ""
-"记住，此处只会报告您的财政存款仓库进出的库存变动。<br/>看不到与前店销售相关的"
-"任何仓库变动是正常的，因为它不是财政存款（举例）。"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"Remember that only stock moves to or from your fiscal deposit warehouses are "
+"reported here."
+msgstr ""
+
+#. module: micro_brewery
+#: model:product.attribute.value,name:micro_brewery.product_attribute_value_10
+msgid "S"
+msgstr ""
 
 #. module: micro_brewery
 #: model:x_excise_category,x_name:micro_brewery.x_excise_category_S005
@@ -1655,10 +1571,9 @@ msgstr "选择一张桌子（内部或外部），然后选择订购的产品并
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
-"Set a deposit product on your product to apply these taxes. This will ensure "
-"that you invoice correctly the price of consigns."
+"Set a deposit product on your product to apply deposit taxes. This will "
+"ensure that you invoice correctly the price of consignments."
 msgstr ""
-"在您的产品上设置押金产品，以征收这些税款。这将确保您正确开具寄售价格发票。"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3854
@@ -1735,6 +1650,20 @@ msgstr ""
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
+"The assignee of the excise reporting activities can be set from the "
+"Inventory settings."
+msgstr ""
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"The automated crate split based on BoM (defined from crate products with "
+"\"contains\" fields) is not supported from the bar (PoS)."
+msgstr ""
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
 "The bottled beer is directly the finished product and no semi-finished "
 "bottle product is required."
 msgstr "瓶装啤酒直接就是成品，无需半成品的瓶装产品。"
@@ -1747,13 +1676,6 @@ msgid ""
 msgstr ""
 "箱装啤酒的数量仅供参考，因为一旦其组件（单瓶啤酒和箱子）可用，箱装啤酒即被视"
 "为可用。"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid ""
-"The default breakdown is done by week and you can configure it to be by "
-"month if needed."
-msgstr ""
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1848,10 +1770,9 @@ msgstr ""
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
-"This deposit management system is a specific features of this package. "
-"Proceed carefully if you need to adapt anything."
+"This is normal not to see any move related to a sale from a front store "
+"warehouse since it is not a fiscal deposit for example"
 msgstr ""
-"该押金管理系统是本软件包的一项特殊功能。如果您需要调整任何内容，请谨慎操作。"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1879,16 +1800,6 @@ msgstr "转移功能用于处理多个监管仓之间的调拨。"
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Two bills of material are needed."
 msgstr "需要两种物料清单。"
-
-#. module: micro_brewery
-#: model:ir.model.fields,field_description:micro_brewery.field_unit_sale_product
-msgid "Unit sale product"
-msgstr "单位销售产品"
-
-#. module: micro_brewery
-#: model:base.automation,name:micro_brewery.update_sales_taxes
-msgid "Update Taxes"
-msgstr "更新税费"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3686
@@ -2036,6 +1947,12 @@ msgid "Would you like to discuss your Odoo setup with us or go even further?"
 msgstr "想与我们讨论您的 Odoo 设置或更进一步吗？"
 
 #. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3686
+#: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3854
+msgid "X"
+msgstr ""
+
+#. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.product_attribute_value_13
 msgid "XL"
 msgstr "XL"
@@ -2071,9 +1988,9 @@ msgstr "您可以在主仪表板上访问 Odoo 数据库中每个已安装的应
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
-"You can also collect deposit directly on your Point of Sale. Select the "
+"You can also collect deposits directly on your Point of Sale. Select the "
 "correct product and encode a negative quantity."
-msgstr "您还可以直接在销售点收取押金。选择正确的产品并表示负数。"
+msgstr ""
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -2137,12 +2054,6 @@ msgstr ""
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
-"You now have the keys to easily report those to the relevant authorities!"
-msgstr "现在您已掌握向主管部门轻松申报的要诀！"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid ""
 "You should be able to execute the following flows to have an overview of "
 "various flows you can quickly execute with this package using Odoo."
 msgstr ""
@@ -2171,11 +2082,6 @@ msgstr "and"
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "documentation"
 msgstr "文档"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.product_template_form_custom
-msgid "ex. Delta I.P.A. - 33cl"
-msgstr "例如Delta I.P.A. - 33cl"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -2209,8 +2115,177 @@ msgstr "请求演示"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "﻿🎓 Deposit Management﻿"
+msgstr ""
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "🎓 Excise Management"
+msgstr ""
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "🎓 Units of measure"
 msgstr "🎓 计量单位"
+
+#~ msgid "+1 555-555-5556"
+#~ msgstr "+1 555-555-5556"
+
+#~ msgid "+16"
+#~ msgstr "+16"
+
+#~ msgid "+18"
+#~ msgstr "+18"
+
+#~ msgid ""
+#~ "You now have the keys to easily report those to the relevant authorities!"
+#~ msgstr "现在您已掌握向主管部门轻松申报的要诀！"
+
+#~ msgid ""
+#~ "Apply DEP XX taxes to those products, creating some if necessary, and "
+#~ "assign them a category with \"Is a deposit category\" set like the "
+#~ "Deposit category."
+#~ msgstr ""
+#~ "为这些产品应用 DEP XX 税（如有需要可创建），并像“押金”类别一样，为它们分配"
+#~ "一个已设置“是押金类别”的类别。"
+
+#~ msgid "Auto Production"
+#~ msgstr "汽车生产"
+
+#~ msgid "Auto-production"
+#~ msgstr "汽车生产"
+
+#~ msgid "Automated BoM"
+#~ msgstr "自动化物料清单"
+
+#~ msgid ""
+#~ "Collect deposit when you deliver your customer. It is easy. When "
+#~ "validating your delivery, you can directly set a \"Return\" and precisely "
+#~ "count the number of each type of deposit your customer gave you. It will "
+#~ "automatically be\n"
+#~ "        reflected on his invoice or issue a credit note."
+#~ msgstr ""
+#~ "交付客户时收取押金。这很简单。在验证送货时，您可以直接设置 “退货”，并精确"
+#~ "计算客户给您的每种押金的数量。它将自动\n"
+#~ "        反映在他的发票上或出具赊销单。"
+
+#~ msgid "Contains"
+#~ msgstr "包含"
+
+#~ msgid "Create deposit products for each different type of consigns."
+#~ msgstr "为每种不同类型的容器创建押金产品。"
+
+#~ msgid "DEP 0.1"
+#~ msgstr "DEP 0.1"
+
+#~ msgid "DEP 2.1"
+#~ msgstr "DEP 2.1"
+
+#~ msgid "DEP 2.4"
+#~ msgstr "DEP 2.4"
+
+#~ msgid "DEP 4.5"
+#~ msgstr "DEP 4.5"
+
+#~ msgid "Default fields for deposits"
+#~ msgstr "存款的默认字段"
+
+#~ msgid "Deposit Management 🍻"
+#~ msgstr "押金管理 🍻"
+
+#~ msgid "Execute Code"
+#~ msgstr "执行代码"
+
+#~ msgid "Execute Existing Actions"
+#~ msgstr "执行已有动作"
+
+#~ msgid "Is a deposit"
+#~ msgstr "是押金"
+
+#~ msgid "Leave empty if this product is the smallest unit"
+#~ msgstr "如果该产品是最小单位，则留空"
+
+#~ msgid "Parent product"
+#~ msgstr "上级产品"
+
+#~ msgid ""
+#~ "Set a deposit product on your product to apply these taxes. This will "
+#~ "ensure that you invoice correctly the price of consigns."
+#~ msgstr ""
+#~ "在您的产品上设置押金产品，以征收这些税款。这将确保您正确开具寄售价格发票。"
+
+#~ msgid ""
+#~ "This deposit management system is a specific features of this package. "
+#~ "Proceed carefully if you need to adapt anything."
+#~ msgstr ""
+#~ "该押金管理系统是本软件包的一项特殊功能。如果您需要调整任何内容，请谨慎操"
+#~ "作。"
+
+#~ msgid "Unit sale product"
+#~ msgstr "单位销售产品"
+
+#~ msgid "Update Taxes"
+#~ msgstr "更新税费"
+
+#~ msgid ""
+#~ "You can also collect deposit directly on your Point of Sale. Select the "
+#~ "correct product and encode a negative quantity."
+#~ msgstr "您还可以直接在销售点收取押金。选择正确的产品并表示负数。"
+
+#~ msgid "ex. Delta I.P.A. - 33cl"
+#~ msgstr "例如Delta I.P.A. - 33cl"
+
+#~ msgid "<strong>Excise categories maintenance</strong>"
+#~ msgstr "<strong>设立消费税类别</strong>"
+
+#~ msgid "<strong>Excise reporting</strong>"
+#~ msgstr "<strong>消费税报告</strong>"
+
+#~ msgid "Deposit 0.1"
+#~ msgstr "押金 0.1"
+
+#~ msgid "Deposit 2.1"
+#~ msgstr "押金 2.1"
+
+#~ msgid "Deposit 2.1 is the empty deposit product"
+#~ msgstr "押金 2.1 是空容器的押金产品"
+
+#~ msgid "Deposit 2.4"
+#~ msgstr "押金 2.4"
+
+#~ msgid "Deposit 4.5"
+#~ msgstr "押金 4.5"
+
+#~ msgid ""
+#~ "Deposit 4.5 is the complete deposit product (deposits of all bottles and "
+#~ "crate)"
+#~ msgstr "押金 4.5 是全套押金产品（包含所有瓶子和箱子的押金）"
+
+#~ msgid "Deposit product"
+#~ msgstr "押金产品"
+
+#~ msgid "Deposit product must be set in Deposit category"
+#~ msgstr "押金产品必须设置在押金类别中"
+
+#~ msgid "Empty deposit product"
+#~ msgstr "清空押金产品"
+
+#~ msgid "Is a deposit category"
+#~ msgstr "是订金类别"
+
+#~ msgid ""
+#~ "Open the <strong>Inventory app</strong> and reach from the Reporting menu "
+#~ "the Excises."
+#~ msgstr "开启<strong>销售应用程序</strong>，然后开启您想报销开支的销售单。"
+
+#~ msgid ""
+#~ "Remember that only stock moves to or from your fiscal deposit warehouses "
+#~ "are reported here.<br/>This is normal not to see any move related to a "
+#~ "sale from a front store warehouse since it is not a fiscal deposit for "
+#~ "example."
+#~ msgstr ""
+#~ "记住，此处只会报告您的财政存款仓库进出的库存变动。<br/>看不到与前店销售相"
+#~ "关的任何仓库变动是正常的，因为它不是财政存款（举例）。"
 
 #~ msgid "New Decimal"
 #~ msgstr "新十进制"

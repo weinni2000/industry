@@ -38,6 +38,7 @@
         'data/sale_order_template_line.xml',
     ],
     'demo': [
+        'demo/res_company.xml',
         'demo/res_partner.xml',
         'demo/crm_lead.xml',
         'demo/mail_activity.xml',
@@ -59,6 +60,7 @@
     "cloc_exclude": [
         "data/knowledge_article.xml",
     ],
+    'application': True,
     'images': ['images/main.png'],
     'url': "https://www.odoo.com/trial?industry&selected_app=handyman",
     'website': "https://www.odoo.com/industries/handyman",

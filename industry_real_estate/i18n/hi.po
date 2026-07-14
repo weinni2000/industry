@@ -2,13 +2,13 @@
 # This file contains the translation of the following modules:
 # * industry_real_estate
 #
-# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 10:40+0000\n"
-"PO-Revision-Date: 2025-11-11 13:49+0000\n"
+"POT-Creation-Date: 2026-03-27 19:27+0000\n"
+"PO-Revision-Date: 2026-06-13 10:38+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Hindi <https://translate.odoo.com/projects/odoo-19/"
 "industry_real_estate/hi/>\n"
@@ -17,19 +17,157 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
+#, fuzzy
+msgid ", and feel free to"
+msgstr ", और बेझिझक"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.homepage
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.ir_ui_view_1416
+#, fuzzy
 msgid "<b>ABOUT US</b>"
+msgstr "<b>हमारे बारे में</b>"
+
+#. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
+msgid ""
+"<b>CRM App</b>: Manage your leads efficiently, tracking ongoing buying and "
+"selling opportunities in a visual\n"
+"                pipeline."
+msgstr ""
+
+#. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
+msgid ""
+"<b>Contacts App: </b>Centralize all stakeholder data, managing the unique "
+"relationships between property owners,\n"
+"                tenants, and service providers within a single, searchable "
+"directory with full communication history."
+msgstr ""
+
+#. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
+msgid ""
+"<b>Create a Contract:</b> Click \"New\" and select the tenant as the "
+"\"Customer\" and add the Rental fee product."
+msgstr ""
+
+#. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
+msgid ""
+"<b>Create a Property:</b> Click \"New\" to create a unit. Fill in its "
+"building, location and other details."
+msgstr ""
+
+#. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
+msgid ""
+"<b>Documents App:</b> Store signed leases, property deeds, and insurance "
+"certificates with expiration alerts."
+msgstr ""
+
+#. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
+msgid ""
+"<b>Move-in Logs:</b> Utilize the dedicated property tab to record meter "
+"readings (water, electricity) at the\n"
+"                time of the tenant's entry to ensure accurate utility re-"
+"billing later."
+msgstr ""
+
+#. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
+msgid ""
+"<b>Open the Availability</b>: Open the <strong>Properties App</strong> and "
+"navigate through the app menu\n"
+"                Availability."
+msgstr ""
+
+#. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
+msgid ""
+"<b>Open the Contracts</b>: Open the <strong>Properties App</strong> to reach "
+"the Subscriptions."
+msgstr ""
+
+#. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
+msgid ""
+"<b>Open the Properties: </b>Open the <b>Properties App </b>and navigate "
+"through the app menu Properties /\n"
+"                Properties."
+msgstr ""
+
+#. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
+msgid ""
+"<b>Pro Tip:</b> You can create a new rental contract directly from this view "
+"by clicking on an empty slot in\n"
+"                    the timeline."
+msgstr ""
+
+#. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
+msgid ""
+"<b>Properties App: </b>Organize your portfolio with a dedicated app to "
+"manage property listings, contracts, and\n"
+"                availability status."
+msgstr ""
+
+#. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
+msgid ""
+"<b>Sales App: </b>Handle offers, negotiations, and closing deals with "
+"professional quotations and digital\n"
+"                signatures."
+msgstr ""
+
+#. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
+msgid "<b>Select the Property:</b> Select the \"Property\" to rent."
+msgstr ""
+
+#. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
+msgid ""
+"<b>Sign App:</b> Send lease agreements for legally binding electronic "
+"signatures."
+msgstr ""
+
+#. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
+msgid ""
+"<b>Subscriptions App: </b>Automate the collection of recurring rent and "
+"service charges with flexible billing\n"
+"                cycles, ensuring consistent cash flow and effortless lease "
+"renewals."
+msgstr ""
+
+#. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
+msgid ""
+"<b>Timeline:</b> Specify the start date, the recurring period (monthly, "
+"quarterly, etc.) and the expiration of\n"
+"                the contract."
+msgstr ""
+
+#. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
+msgid ""
+"<b>Website App: </b>Drive qualified traffic by promoting your listings on a "
+"beautiful, mobile-responsive\n"
+"                property management portal."
 msgstr ""
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.homepage
 msgid ""
 "<font style=\"font-size: 62px;\">\n"
-"                                        <b>— Estate Management&amp;nbsp;—</"
+"                                        <b>— Property Management&amp;nbsp;—</"
 "b>\n"
 "                                    </font>"
 msgstr ""
@@ -42,8 +180,8 @@ msgid ""
 "span>"
 msgstr ""
 "<i class=\"fa fa-1x fa-fw fa-envelope me-2\"/>\n"
-"                                                "
-"<span>info@yourcompany.example.com</span>"
+"                                                <span>info@yourcompany.example.com</"
+"span>"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.view_crm_lead_form_quick_create_inherit
@@ -58,8 +196,8 @@ msgid ""
 "class=\"o_force_ltr\">3575 Fake Buena Vista Avenue</span>"
 msgstr ""
 "<i class=\"fa fa-map-marker fa-fw me-2\"/>\n"
-"                                                <span class=\"o_force_ltr\""
-">3575 Fake Buena Vista Avenue</span>"
+"                                                <span "
+"class=\"o_force_ltr\">3575 Fake Buena Vista Avenue</span>"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.contactus
@@ -69,8 +207,49 @@ msgid ""
 "class=\"o_force_ltr\">+1 (650) 555-0111</span>"
 msgstr ""
 "<i class=\"fa fa-phone fa-fw me-2\"/>\n"
-"                                                <span class=\"o_force_ltr\">+"
-"1 (650) 555-0111</span>"
+"                                                <span "
+"class=\"o_force_ltr\">+1 (650) 555-0111</span>"
+
+#. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">🚀</i>"
+msgstr ""
+
+#. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
+#, fuzzy
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\">✅</i>"
+msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\">✅</i>"
+
+#. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\">🎉</i>"
+msgstr ""
+
+#. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
+#, fuzzy
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Warning\">⚠️</i>"
+msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Warning\">⚠️</i>"
+
+#. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
+msgid ""
+"<i>Note: Only properties with at least one current or future contract will "
+"appear in this visualization.</i>"
+msgstr ""
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.default_form_view_building
@@ -84,8 +263,9 @@ msgstr "<span class=\"s_website_form_label_content\">फ़ोन नंबर</
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.contactus
+#, fuzzy
 msgid "<span class=\"s_website_form_label_content\">Property</span>"
-msgstr ""
+msgstr "<span class=\"s_website_form_label_content\">प्रॉपर्टी</span>"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.contactus
@@ -143,19 +323,34 @@ msgstr ""
 "class=\"s_website_form_mark\"> *</span>"
 
 #. module: industry_real_estate
-#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
-msgid ""
-"<span class=\"text-o-color-5 bg-o-color-4\">Manage your long term or mid "
-"long term rental properties</span>"
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.rental_form_view
+msgid "<span>to</span>"
 msgstr ""
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid ""
-"<span class=\"text-o-color-5 bg-o-color-4\">Manage your properties, create "
-"and manage rental contracts, and streamline your entire <strong>rental "
-"process.</strong>  Efficient property management.</span>"
+"<strong>Accounting App: </strong>Manage your accounting easier than ever "
+"with a completely integrated\n"
+"                environment."
 msgstr ""
+
+#. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
+#, fuzzy
+msgid "<strong>Do you want to go further?</strong>"
+msgstr "<strong>क्या आप और आगे बढ़ना चाहते हैं?</strong>"
+
+#. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
+msgid "<strong>Odoo offers you infinite possibilities, such as:</strong>"
+msgstr ""
+
+#. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
+#, fuzzy
+msgid "<strong>Use case</strong>"
+msgstr "<strong>इस्तेमाल के उदाहरण</strong>"
 
 #. module: industry_real_estate
 #: model:website.menu,name:industry_real_estate.website_menu_10
@@ -169,8 +364,9 @@ msgstr "हमारे बारे में"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.property_form_view
+#, fuzzy
 msgid "Add Images"
-msgstr ""
+msgstr "इमेज जोड़ें"
 
 #. module: industry_real_estate
 #: model:ir.model.fields,field_description:industry_real_estate.field_property_address
@@ -179,29 +375,25 @@ msgstr "पता"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.ir_ui_view_1416
+#, fuzzy
 msgid "Aline Turner, CTO"
-msgstr ""
+msgstr "एलाइन टर्नर, सीटीओ"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.ir_ui_view_1416
+#, fuzzy
 msgid ""
 "Aline is one of the iconic people in life who can say they love what they "
 "do. She mentors 100+ in-house developers and looks after the community of "
 "thousands of developers."
 msgstr ""
+"एलाइन उन प्रतिष्ठित लोगों में से एक हैं जो कह सकते हैं कि वे अपने काम से प्यार करते हैं. वह "
+"100 से अधिक इन-हाउस डेवलपर्स को मेंटर करती हैं और हज़ारों डेवलपर्स के समुदाय की देखरेख करती "
+"हैं।"
 
 #. module: industry_real_estate
 #: model:ir.model.fields.selection,name:industry_real_estate.field_property_invoice_status_selection_invoiced
 msgid "Already invoiced"
-msgstr ""
-
-#. module: industry_real_estate
-#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
-msgid ""
-"Also define the date of the next invoice. Note that this date will be taken "
-"as the template date for all the next invoices. For example, if you define a "
-"next date of invoice of 04/30 with a monthly recurring period, the invoices\n"
-"            will automatically be created each 30th of the month."
 msgstr ""
 
 #. module: industry_real_estate
@@ -211,23 +403,27 @@ msgstr "अपार्टमेंट"
 
 #. module: industry_real_estate
 #: model:account.analytic.account,name:industry_real_estate.account_analytic_account_21
+#, fuzzy
 msgid "Apartment 26"
-msgstr ""
+msgstr "अपार्टमेंट 26"
 
 #. module: industry_real_estate
 #: model:account.analytic.account,name:industry_real_estate.account_analytic_account_20
+#, fuzzy
 msgid "Apartment 27"
-msgstr ""
+msgstr "अपार्टमेंट 27"
 
 #. module: industry_real_estate
 #: model:account.analytic.account,name:industry_real_estate.account_analytic_account_22
+#, fuzzy
 msgid "Apartment 28"
-msgstr ""
+msgstr "अपार्टमेंट 28"
 
 #. module: industry_real_estate
 #: model:account.analytic.account,name:industry_real_estate.account_analytic_account_26
+#, fuzzy
 msgid "Apartment 29"
-msgstr ""
+msgstr "अपार्टमेंट 29"
 
 #. module: industry_real_estate
 #: model:ir.actions.act_window,name:industry_real_estate.action_availability
@@ -235,6 +431,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.rental_gantt_view
 msgid "Availability"
 msgstr "उपलब्धता"
+
+#. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
+#, fuzzy
+msgid "Basics"
+msgstr "बेसिक"
 
 #. module: industry_real_estate
 #: model:ir.model.fields,field_description:industry_real_estate.field_property_building
@@ -252,19 +454,17 @@ msgstr "बिल्डिंग"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
-msgid "Business Flows"
-msgstr "बिज़नेस फ्लो"
+msgid ""
+"By uploading this module's demo data, your database has been filled with a "
+"few products, sale orders and more."
+msgstr ""
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.homepage
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.ir_ui_view_1416
+#, fuzzy
 msgid "Changing the world is possible.<br/> We’ve done it before."
-msgstr ""
-
-#. module: industry_real_estate
-#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
-msgid "Check Out for availability"
-msgstr ""
+msgstr "दुनिया को बदलना संभव है. <br/>हमने यह पहले भी किया है।"
 
 #. module: industry_real_estate
 #: model:ir.model.fields,field_description:industry_real_estate.city
@@ -274,26 +474,8 @@ msgstr "शहर"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
-msgid "Click on \"New\" to create a new rental contract."
-msgstr ""
-
-#. module: industry_real_estate
-#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid ""
-"Click on the Availability menu. All your rental contracts appear on that "
-"screen in a neat little Gantt view."
-msgstr ""
-
-#. module: industry_real_estate
-#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
-msgid ""
-"Click on the Properties menu. Now, click on \"New\" to create a new "
-"property. Make sure you fill in all the required information."
-msgstr ""
-
-#. module: industry_real_estate
-#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
-msgid "Click on the Rental Contract menu."
+"Click on the <b>Availability</b> to view your portfolio in a Gantt view."
 msgstr ""
 
 #. module: industry_real_estate
@@ -325,8 +507,8 @@ msgid ""
 "do our best to get back to you as soon as possible."
 msgstr ""
 "हमारी कंपनी या सेवाओं से जुड़ी किसी भी चीज़ के बारे में हमसे संपर्क करें.<br/>\n"
-"                                                                        हम जल्"
-"द से जल्द आपसे संपर्क करने की पूरी कोशिश करेंगे।"
+"                                                                        हम "
+"जल्द से जल्द आपसे संपर्क करने की पूरी कोशिश करेंगे।"
 
 #. module: industry_real_estate
 #: model:ir.model.fields,field_description:industry_real_estate.country
@@ -341,8 +523,9 @@ msgstr "इनवॉइस बनाएं"
 
 #. module: industry_real_estate
 #: model:ir.actions.server,name:industry_real_estate.action_create_invoice_meters
+#, fuzzy
 msgid "Create Invoice for Meter Readings"
-msgstr ""
+msgstr "मीटर रीडिंग के लिए इनवॉइस बनाएं"
 
 #. module: industry_real_estate
 #: model:ir.model.fields,field_description:industry_real_estate.field_meters_currency
@@ -356,8 +539,9 @@ msgstr "तारीख"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.property_form_view
+#, fuzzy
 msgid "Describe your property here"
-msgstr ""
+msgstr "अपनी प्रॉपर्टी के बारे में यहां बताएं"
 
 #. module: industry_real_estate
 #: model:ir.model.fields,field_description:industry_real_estate.field_meters_name
@@ -373,27 +557,35 @@ msgid "Discover more"
 msgstr "ज़्यादा जानें"
 
 #. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
+#, fuzzy
+msgid "Discover more about Odoo by diving into our"
+msgstr "Odoo के बारे में ज़्यादा जानें"
+
+#. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
+#, fuzzy
+msgid ""
+"Discover the basics of this package and explore all the possibilities Odoo "
+"offers to improve your experience."
+msgstr ""
+"इस पैकेज की बुनियादी बातें जानें और अपने अनुभव को बेहतर बनाने के लिए Odoo की सभी सुविधाओं "
+"का पता लगाएं।"
+
+#. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.property_form_view
 msgid "Documents"
 msgstr "डॉक्यूमेंट्स"
 
 #. module: industry_real_estate
 #: model:product.template,name:industry_real_estate.product_product_46_product_template
+#, fuzzy
 msgid "Electricity "
-msgstr ""
-
-#. module: industry_real_estate
-#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
-msgid "Estate Management agency"
-msgstr ""
-
-#. module: industry_real_estate
-#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
-msgid "First, head over to the <strong>Properties</strong> app."
-msgstr ""
+msgstr "इलेक्ट्रिसिटी "
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.ir_ui_view_1416
+#, fuzzy
 msgid ""
 "Founder and chief visionary, Tony is the driving force behind the company. "
 "He loves\n"
@@ -402,12 +594,23 @@ msgid ""
 "                                                                marketing, "
 "and customer experience strategies."
 msgstr ""
+"फाउंडर और मुख्य विज़नरी, टोनी कंपनी की मुख्य ताकत हैं. वे सॉफ़्टवेयर डेवलपमेंट,\n"
+"                                                                मार्केटिंग और "
+"ग्राहक अनुभव रणनीतियों में भाग\n"
+"                                                                 लेकर व्यस्त "
+"रहना पसंद करते हैं।"
+
+#. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.rental_form_view
+#, fuzzy
+msgid "From"
+msgstr "के द्वारा"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid ""
-"From here, you can also easily create a new rental contract with ease. "
-"Simply click on the \"New\" button and enter all the relevant details."
+"From the <b>Properties App</b>, you can define the physical assets you "
+"manage."
 msgstr ""
 
 #. module: industry_real_estate
@@ -422,8 +625,9 @@ msgstr "गैरेज"
 
 #. module: industry_real_estate
 #: model:product.template,name:industry_real_estate.product_product_48_product_template
+#, fuzzy
 msgid "Gas"
-msgstr ""
+msgstr "गैस"
 
 #. module: industry_real_estate
 #. odoo-javascript
@@ -433,25 +637,37 @@ msgstr ""
 
 #. module: industry_real_estate
 #: model:ir.model.fields,field_description:industry_real_estate.field_guarant_partner_id
+#, fuzzy
 msgid "Guarant"
-msgstr ""
+msgstr "गारंटी"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.homepage
+#, fuzzy
 msgid "Habitat Model"
-msgstr ""
+msgstr "हैबिटेट मॉडल"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.homepage
+#, fuzzy
 msgid ""
 "Habitats with a minimum footprint on the planet and a maximum positive "
 "impact on the local community."
 msgstr ""
+"ऐसे घर बनाना जो पर्यावरण को कम से कम नुकसान पहुंचाएं और आस-पास के लोगों के लिए सबसे "
+"ज़्यादा फ़ायदेमंद हों।"
+
+#. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
+#, fuzzy
+msgid "Hello there!"
+msgstr "नमस्ते!"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.homepage
+#, fuzzy
 msgid "Help us protect and preserve for future generations"
-msgstr ""
+msgstr "भविष्य की पीढ़ियों के लिए सुरक्षा और संरक्षण में मदद करें"
 
 #. module: industry_real_estate
 #: model:ir.model.fields.selection,name:industry_real_estate.field_property_type_selection_house
@@ -460,8 +676,9 @@ msgstr "हाउस"
 
 #. module: industry_real_estate
 #: model:crm.tag,name:industry_real_estate.crm_tag_8
+#, fuzzy
 msgid "Informations"
-msgstr ""
+msgstr "जानकारी"
 
 #. module: industry_real_estate
 #: model:ir.model.fields,field_description:industry_real_estate.field_meter_reading_invoice_id
@@ -480,8 +697,9 @@ msgstr "इनवॉइस"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.ir_ui_view_1416
+#, fuzzy
 msgid "Iris Joe, CFO"
-msgstr ""
+msgstr "आइरिस जो, सीएफ़ओ"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.ir_ui_view_1416
@@ -490,19 +708,21 @@ msgid ""
 "numbers and improves them. She is determined to drive success and delivers "
 "her professional acumen to bring the company to the next level."
 msgstr ""
-"आइरिस अपने अंतरराष्ट्रीय अनुभव की वजह से हमें डेटा और संख्याओं को समझने और उन्हें बेहतर बनाने में"
-" मदद करती हैं. वह पूरी तरह से सफल होने के लिए प्रतिबद्ध हैं और अपने पेशेवर ज्ञान से कंपनी को "
-"नई ऊंचाइयों तक पहुंचाती हैं।"
+"आइरिस अपने अंतरराष्ट्रीय अनुभव की वजह से हमें डेटा और संख्याओं को समझने और उन्हें बेहतर बनाने "
+"में मदद करती हैं. वह पूरी तरह से सफल होने के लिए प्रतिबद्ध हैं और अपने पेशेवर ज्ञान से कंपनी "
+"को नई ऊंचाइयों तक पहुंचाती हैं।"
 
 #. module: industry_real_estate
 #: model:ir.model.fields,field_description:industry_real_estate.field_property_is_property
+#, fuzzy
 msgid "Is Property"
-msgstr ""
+msgstr "प्रॉपर्टी है"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.homepage
+#, fuzzy
 msgid "Join us and make the planet a better place."
-msgstr ""
+msgstr "हमसे जुड़ें और ग्रह को एक बेहतर जगह बनाएं।"
 
 #. module: industry_real_estate
 #: model:ir.model.fields.selection,name:industry_real_estate.field_property_type_selection_land
@@ -510,39 +730,19 @@ msgid "Land"
 msgstr ""
 
 #. module: industry_real_estate
-#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
-msgid ""
-"Leads get created in the CRM by filling the \"Contact us\" form of the "
-"website or manually by the estate management."
-msgstr ""
-
-#. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.homepage
+#, fuzzy
 msgid ""
 "Learn how to use organic gardening methods to grow the freshest food in your "
 "fruit and vegetable garden."
 msgstr ""
+"अपने फल और सब्जी के बगीचे में ताज़ा खाना उगाने के लिए जैविक तरीके सीखें।"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.homepage
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.ir_ui_view_1416
 msgid "Learn more"
 msgstr "ज़्यादा जानें"
-
-#. module: industry_real_estate
-#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
-msgid "Manage Leads"
-msgstr ""
-
-#. module: industry_real_estate
-#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
-msgid "Manage properties"
-msgstr ""
-
-#. module: industry_real_estate
-#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
-msgid "Manage rental contracts"
-msgstr ""
 
 #. module: industry_real_estate
 #: model:ir.model.fields,field_description:industry_real_estate.field_meter_reading_meter_id
@@ -571,16 +771,21 @@ msgstr "मीटर"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.ir_ui_view_1416
+#, fuzzy
 msgid "Mich Stark, COO"
-msgstr ""
+msgstr "मिच स्टॉर्क, सीओओ"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.ir_ui_view_1416
+#, fuzzy
 msgid ""
 "Mich loves taking on challenges. With his multi-year experience as "
 "Commercial Director in the software industry, Mich has helped the company to "
 "get where it is today. Mich is among the best minds."
 msgstr ""
+"मिच को चुनौतियों का सामना करना पसंद है. सॉफ्टवेयर इंडस्ट्री में कमर्शियल डायरेक्टर के रूप में "
+"अपने कई सालों के अनुभव से, मिच ने कंपनी को आज के मुकाम तक पहुँचाने में मदद की है. मिच सबसे "
+"बेहतरीन लोगों में से एक हैं।"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.contactus
@@ -604,7 +809,10 @@ msgstr ""
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
-msgid "Now, in the sub-level form, select the appropriate products."
+msgid ""
+"Of course, this is just an overview of the features included in this "
+"package. Feel free to add new apps,\n"
+"            delete/modify demo data, and test everything around!"
 msgstr ""
 
 #. module: industry_real_estate
@@ -615,40 +823,39 @@ msgstr "ऑफ़िस"
 
 #. module: industry_real_estate
 #: model:account.analytic.account,name:industry_real_estate.account_analytic_account_23
+#, fuzzy
 msgid "Office M"
-msgstr ""
+msgstr "ऑफ़िस M"
 
 #. module: industry_real_estate
 #: model:account.analytic.account,name:industry_real_estate.account_analytic_account_24
+#, fuzzy
 msgid "Office S"
-msgstr ""
+msgstr "ऑफ़िस S"
 
 #. module: industry_real_estate
 #: model:account.analytic.account,name:industry_real_estate.account_analytic_account_25
+#, fuzzy
 msgid "Office T"
-msgstr ""
-
-#. module: industry_real_estate
-#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
-msgid ""
-"One last thing to note: if you don't have any rental contracts for a "
-"property yet, you won't see this property in the Gantt view. <br/>"
-msgstr ""
+msgstr "ऑफ़िस T"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.homepage
+#, fuzzy
 msgid "Organic Garden"
-msgstr ""
+msgstr "ऑर्गैनिक गार्डेन"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.homepage
+#, fuzzy
 msgid "Our mission is to provide you with the most modern properties."
-msgstr ""
+msgstr "हमारा लक्ष्य आपको सबसे मॉडर्न प्रॉपर्टीज देना है।"
 
 #. module: industry_real_estate
 #: model:product.template,name:industry_real_estate.product_product_43_product_template
+#, fuzzy
 msgid "Plumbing"
-msgstr ""
+msgstr "प्लंबिंग"
 
 #. module: industry_real_estate
 #: model:ir.model.fields,field_description:industry_real_estate.field_meters_price
@@ -682,33 +889,51 @@ msgstr "प्रॉपर्टी"
 
 #. module: industry_real_estate
 #: model:ir.model.fields,field_description:industry_real_estate.field_property_attachment_doc_ids
+#, fuzzy
 msgid "Property Documents"
-msgstr ""
+msgstr "प्रॉपर्टी से जुड़े दस्तावेज़"
 
 #. module: industry_real_estate
 #: model:ir.model.fields,field_description:industry_real_estate.field_property_image
+#, fuzzy
 msgid "Property Image"
-msgstr ""
+msgstr "प्रॉपर्टी इमेज"
 
 #. module: industry_real_estate
 #: model:ir.model.fields,field_description:industry_real_estate.field_property_attachment_image_ids
+#, fuzzy
 msgid "Property Images"
+msgstr "प्रॉपर्टी इमेज"
+
+#. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
+#, fuzzy
+msgid "Property Management"
+msgstr "प्रॉपर्टी मैनेजमेंट"
+
+#. module: industry_real_estate
+#: model:base.automation,name:industry_real_estate.uninstall_hook_base_automation
+#: model:ir.actions.server,name:industry_real_estate.uninstall_hook_action_server
+msgid "Property Management: Uninstall Hook"
 msgstr ""
 
 #. module: industry_real_estate
 #: model:ir.model.fields,field_description:industry_real_estate.field_property_type
+#, fuzzy
 msgid "Property Type"
-msgstr ""
+msgstr "प्रॉपर्टी टाइप"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.view_crm_lead_form_quick_create_inherit
+#, fuzzy
 msgid "Property's name"
-msgstr ""
+msgstr "प्रॉपर्टी का नाम"
 
 #. module: industry_real_estate
 #: model:product.template,name:industry_real_estate.product_product_44_product_template
+#, fuzzy
 msgid "Provision for fees"
-msgstr ""
+msgstr "फीस के लिए प्रावधान"
 
 #. module: industry_real_estate
 #: model:ir.model.fields,field_description:industry_real_estate.field_property_is_published
@@ -721,53 +946,62 @@ msgid "Quantity"
 msgstr "मात्रा"
 
 #. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
+msgid "Reach Us"
+msgstr ""
+
+#. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.homepage
 msgid "Read more"
 msgstr "ज़्यादा जानें"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.homepage
+#, fuzzy
 msgid "Recycling water"
-msgstr ""
+msgstr "पानी को दोबारा इस्तेमाल के लिए साफ करना"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.homepage
+#, fuzzy
 msgid ""
 "Recycling water for reuse applications instead of using freshwater supplies "
 "can be a water-saving measure."
 msgstr ""
+"हर काम के लिए ताजे पानी का उपयोग करने के बजाय, इस्तेमाल किए गए पानी को साफ़ "
+"(रिसाइकिल) करके फिर से उपयोग करें. इससे साफ़ पानी की बचत होती है।"
 
 #. module: industry_real_estate
 #: model:ir.model.fields,field_description:industry_real_estate.field_property_rental_contract_id
+#, fuzzy
 msgid "Rental Contract"
-msgstr ""
+msgstr "रेंटल कॉन्ट्रैक्ट"
 
 #. module: industry_real_estate
 #: model:ir.actions.act_window,name:industry_real_estate.action_rental_contracts
 #: model:ir.ui.menu,name:industry_real_estate.menu_rental_contracts
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.property_form_view
+#, fuzzy
 msgid "Rental Contracts"
-msgstr ""
-
-#. module: industry_real_estate
-#: model:ir.model.fields,field_description:industry_real_estate.field_rental_start_date
-msgid "Rental Start Date"
-msgstr ""
+msgstr "रेंटल कॉन्ट्रैक्ट"
 
 #. module: industry_real_estate
 #: model:product.template,name:industry_real_estate.product_product_42_product_template
+#, fuzzy
 msgid "Rental fee"
-msgstr ""
+msgstr "किराया शुल्क"
 
 #. module: industry_real_estate
 #: model:product.template,name:industry_real_estate.product_product_49_product_template
+#, fuzzy
 msgid "Repair jobs"
-msgstr ""
+msgstr "रिपेयर जॉब"
 
 #. module: industry_real_estate
 #: model:ir.model.fields.selection,name:industry_real_estate.field_property_type_selection_room
+#, fuzzy
 msgid "Room"
-msgstr ""
+msgstr "रूम"
 
 #. module: industry_real_estate
 #: model:ir.model.fields,field_description:industry_real_estate.field_meter_reading_sale_order
@@ -791,8 +1025,9 @@ msgstr "सेक्शन का सबटाइटल"
 
 #. module: industry_real_estate
 #: model:product.template,name:industry_real_estate.product_product_45_product_template
+#, fuzzy
 msgid "Security deposit "
-msgstr ""
+msgstr "सिक्योरिटी डिपोज़िट "
 
 #. module: industry_real_estate
 #: model:ir.model.fields,field_description:industry_real_estate.field_meters_sequence
@@ -807,23 +1042,9 @@ msgstr "मीटर रीडिंग में यह सेट करें 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.homepage
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.ir_ui_view_1416
+#, fuzzy
 msgid "Shaping our future"
-msgstr ""
-
-#. module: industry_real_estate
-#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
-msgid ""
-"Specify the customer to whom you want to rent the property and then select "
-"the property you want to rent."
-msgstr ""
-
-#. module: industry_real_estate
-#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
-msgid ""
-"Specify the rental start date and define the rental period. Whether you want "
-"it to be monthly, bimonthly, quarterly, or whatever suits your needs, you "
-"can customize it. Don't forget to specify the end date of the contract."
-msgstr ""
+msgstr "हमारा भविष्य बनाना"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.ir_ui_view_1416
@@ -874,34 +1095,41 @@ msgstr "किरायेदार"
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid ""
-"This view shows the availability of each of your resource based on the "
-"rental contracts."
+"The <b>Subscriptions App</b> handles the legal and financial bridge between "
+"the property and the tenant."
 msgstr ""
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
+#, fuzzy
 msgid ""
-"To create a product, head back to the properties menu and click on "
-"\"Products\". Click on \"New\" and give your product a name. Check the "
-"\"Recurring\" box and define the product type as \"Service\". In the \"Time "
-"based pricing\" tab, define\n"
-"            the rental price of the property per period."
+"These all go free in your current subscription; feel free to explore! 🙃"
+msgstr "ये सभी आपकी मौजूदा सदस्यता में मुफ़्त हैं; बेझिझक एक्सप्लोर करें! 🙃"
+
+#. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
+msgid ""
+"This screen visualizes all active rental contracts and identifies vacancies "
+"at a glance."
 msgstr ""
 
 #. module: industry_real_estate
 #: model:ir.model.fields.selection,name:industry_real_estate.field_property_invoice_status_selection_to_invoice
+#, fuzzy
 msgid "To invoice"
-msgstr ""
+msgstr "इनवॉइस के लिए"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.ir_ui_view_1416
+#, fuzzy
 msgid "Tony Fred, CEO"
-msgstr ""
+msgstr "टोनी फ्रेड, सीईओ"
 
 #. module: industry_real_estate
 #: model:account.analytic.account,name:industry_real_estate.account_analytic_account_27
+#, fuzzy
 msgid "Uccle Observatoire Duplex"
-msgstr ""
+msgstr "उकले ऑब्ज़र्वेटॉयर डुप्लेक्स"
 
 #. module: industry_real_estate
 #: model:ir.model.fields,field_description:industry_real_estate.field_meter_reading_usage
@@ -915,8 +1143,9 @@ msgstr "वेंडर बिल"
 
 #. module: industry_real_estate
 #: model:crm.tag,name:industry_real_estate.crm_tag_9
+#, fuzzy
 msgid "Visit"
-msgstr ""
+msgstr "विज़िट करें"
 
 #. module: industry_real_estate
 #: model:ir.model.fields.selection,name:industry_real_estate.field_property_type_selection_warehouse
@@ -936,10 +1165,20 @@ msgstr "आपका स्वागत है! मज़े से खोजब
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.homepage
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.ir_ui_view_1416
+#, fuzzy
 msgid ""
 "With all the global problems our planet faces today,<br/> communities of "
 "people concerned with them are growing<br/> to prevent the negative impact."
 msgstr ""
+"आज हमारे ग्रह के सामने मौजूद वैश्विक समस्याओं के चलते, उनके नकारात्मक प्रभाव को रोकने के लिए "
+"<br/>चिंतित लोगों के समुदाय बढ़ते जा रहे हैं<br/>।"
+
+#. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
+#, fuzzy
+msgid "Would you like to discuss your Odoo setup with us or go even further?"
+msgstr ""
+"क्या आप हमसे अपने Odoo सेटअप के बारे में बात करना चाहेंगे या इसे और बेहतर बनाना चाहेंगे?"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.ir_ui_view_1416
@@ -952,17 +1191,43 @@ msgstr ""
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
+#, fuzzy
 msgid ""
-"You also have a dedicated tab to fill at the time of customer's entry in the "
-"property so that you can log and keep track of meter readings."
+"You can access every installed App in your Odoo database on your main "
+"dashboard."
+msgstr ""
+"आप अपने मुख्य डैशबोर्ड पर अपने Odoo डेटाबेस में इंस्टॉल किए गए हर ऐप को ऐक्सेस कर सकते हैं।"
+
+#. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
+msgid ""
+"You completed that demo use case! There are millions of other ways to adapt "
+"your Odoo setup to fit your\n"
+"                    business needs."
 msgstr ""
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid ""
-"You also need to create products for your properties. You have 2 options: "
-"either create one product for all your properties and manually change the "
-"price when creating the rental contract, or define one product per property."
+"You didn't import demo data? You can still do it. Go to Apps &gt; Industries "
+"&gt; Upgrade your Property Management package\n"
+"                    and check the related box"
+msgstr ""
+
+#. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
+msgid ""
+"You just installed the Odoo for Property Management package. By doing so, we "
+"have installed a bunch of necessary\n"
+"            apps to run your business efficiently."
+msgstr ""
+
+#. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
+msgid ""
+"You should be able to execute the following flows to have an overview of "
+"various flows you can quickly execute with\n"
+"            this package using Odoo."
 msgstr ""
 
 #. module: industry_real_estate
@@ -972,11 +1237,61 @@ msgid "ZIP"
 msgstr "जिप"
 
 #. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
+#, fuzzy
+msgid "academy"
+msgstr "एकेडमी"
+
+#. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
+#, fuzzy
+msgid "and"
+msgstr "और"
+
+#. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
+#, fuzzy
+msgid "documentation"
+msgstr "दस्तावेज़"
+
+#. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.property_form_view
+#, fuzzy
 msgid "e.g. Apartment Oxford Street"
-msgstr ""
+msgstr "जैसे, अपार्टमेंट ऑक्सफ़ोर्ड स्ट्रीट"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.website_listing_account_analytic_account
+#, fuzzy
 msgid "found)"
+msgstr "मिला)"
+
+#. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
+#, fuzzy
+msgid "if you need help!"
+msgstr "अगर आपको कोई मदद चाहिए!"
+
+#. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
+#, fuzzy
+msgid "request a demo"
+msgstr "डेमो के लिए रिक्वेस्ट करें"
+
+#. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
+msgid "🏠 Managing Properties &amp; Products"
 msgstr ""
+
+#. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
+msgid "📄 Managing Rental Contracts"
+msgstr ""
+
+#. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
+msgid "📅 Availability &amp; Occupancy Tracking"
+msgstr ""
+
+#~ msgid "Business Flows"
+#~ msgstr "बिज़नेस फ्लो"

@@ -7,13 +7,14 @@
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# "Thi Huong Nguyen (thng)" <thng@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 11:41+0000\n"
-"PO-Revision-Date: 2025-11-17 11:08+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-06-12 17:38+0000\n"
+"PO-Revision-Date: 2026-04-11 09:34+0000\n"
+"Last-Translator: \"Thi Huong Nguyen (thng)\" <thng@odoo.com>\n"
 "Language-Team: Vietnamese <https://translate.odoo.com/projects/odoo-19/"
 "bar_industry/vi/>\n"
 "Language: vi\n"
@@ -21,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -54,11 +55,9 @@ msgstr ""
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
 msgid ""
-"2. Create your employees' roles under the \"Work Information\" tab. Some are "
-"already created for this demo."
+"2. Create your employees' roles under the \"Settings\" tab. Some are already "
+"created for this demo."
 msgstr ""
-"2. Tạo vai trò của nhân viên trong tab \"Thông tin công việc\". Một số vai "
-"trò đã được tạo cho bản demo này."
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -69,18 +68,12 @@ msgstr "2. Bổ sung hàng"
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
 msgid ""
 "2. To make it more interesting, feel free to create a second order. For this "
-"one, you can simulate an Happy Hour. To do so, click the \"More\" button in "
+"one, you can simulate an Happy Hour. To do so, click the three dots menu in "
 "the order summary, and choose the pricelist \"Happy Hour\" instead of the "
 "Default one.\n"
 "                You will see that if you take twice the same drink, it'll "
 "cost half the price."
 msgstr ""
-"2. Để thú vị hơn, bạn có thể thoải mái tạo đơn hàng thứ hai. Đối với đơn "
-"hàng này, bạn có thể mô phỏng Giờ khuyến mại. Để thực hiện, hãy nhấp vào nút "
-"\"Thêm\" trong phần tóm tắt đơn hàng và chọn bảng giá \"Giờ khuyến mại\" "
-"thay vì bảng giá mặc định.\n"
-"Bạn sẽ thấy rằng nếu bạn mua cùng một loại đồ uống hai lần, giá sẽ giảm một "
-"nửa."
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -205,7 +198,7 @@ msgid ""
 msgstr ""
 "<strong>2. Quy trình 2:</strong> Đối với các sản phẩm có thể theo dõi, chẳng "
 "hạn như bia và nước ngọt đóng chai, bạn có thể sử dụng mua hàng tự động. Để "
-"dùng thử, hãy đi đến POS và bán Bia blond cho khách hàng."
+"dùng thử, hãy đi đến POS và bán Bia vàng cho khách hàng."
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -238,6 +231,8 @@ msgid ""
 "As an administrator your pin is 3333. You can edit the pin of your employees "
 "in the Employee App, in the Settings tab."
 msgstr ""
+"Với vai trò quản trị viên, mã PIN của bạn là 3333. Bạn có thể chỉnh sửa mã "
+"PIN của nhân viên trong Ứng dụng Nhân viên, ở tab Cài đặt."
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -262,11 +257,6 @@ msgid "Bar & Service"
 msgstr "Quầy bar & dịch vụ"
 
 #. module: bar_industry
-#: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
-msgid "Basics:"
-msgstr "Cơ sở:"
-
-#. module: bar_industry
 #: model:pos.category,name:bar_industry.pos_category_3
 msgid "Beers"
 msgstr "Bia"
@@ -279,7 +269,7 @@ msgstr "Thùng"
 #. module: bar_industry
 #: model:product.template,name:bar_industry.product_product_26_product_template
 msgid "Blond Beer"
-msgstr "Bia blond"
+msgstr "Bia vàng"
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -325,11 +315,6 @@ msgstr ""
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
-msgid "Do you want to go further?"
-msgstr "Bạn có muốn tiến xa hơn không?"
-
-#. module: bar_industry
-#: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
 msgid ""
 "Don't forget to hit the \"Order\" button each time you change an order. This "
 "will forward the order to the Kitchen Display."
@@ -357,11 +342,6 @@ msgstr "Từ POS, mở máy tính tiền trên bảng điều khiển."
 #: code:addons/bar_industry/static/src/js/my_tour.js:0
 msgid "Get on track and explore our recommendations for your Odoo usage here!"
 msgstr ""
-
-#. module: bar_industry
-#: model:product.template,name:bar_industry.product_product_3_product_template
-msgid "Gift Card"
-msgstr "Thẻ quà tặng"
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -406,10 +386,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
 msgid ""
 "If you want to assign them an Odoo user account, you can select a related "
-"user in the \"HR Settings\" tab."
+"user in the same \"Settings\" tab."
 msgstr ""
-"Nếu bạn muốn chỉ định cho họ một tài khoản người dùng Odoo, bạn có thể chọn "
-"người dùng liên quan trong tab \"Cài đặt HR\"."
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -509,7 +487,7 @@ msgstr "Lên kế hoạch dịch vụ của bạn một cách dễ dàng bằng 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
 msgid "Reach us"
-msgstr "Liên hệ với chúng tôi"
+msgstr "Liên hệ"
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -563,6 +541,8 @@ msgid ""
 "The current setup requires your employees to pin to log in the POS register. "
 "This helps you manage rights and accesses."
 msgstr ""
+"Thiết lập hiện tại yêu cầu nhân viên của bạn nhập mã PIN để đăng nhập vào "
+"máy POS. Điều này giúp bạn quản lý quyền hạn và quyền truy cập."
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -590,11 +570,6 @@ msgstr "Lời nhắc"
 #: model:project.task.type,name:bar_industry.project_task_type_1
 msgid "To Do"
 msgstr "Việc cần làm"
-
-#. module: bar_industry
-#: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
-msgid "Use case:"
-msgstr "Trường hợp vận dụng:"
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -689,7 +664,7 @@ msgid ""
 "you go to Inventory  &amp;gt; Products  &amp;gt; Blond Beer"
 msgstr ""
 "Bạn có thể thấy có một quy tắc tái sắp xếp được cấu hình cho sản phẩm này "
-"nếu bạn đi đến Tồn kho &amp;gt; Sản phẩm &amp;gt; Bia blond"
+"nếu bạn đi đến Tồn kho &amp;gt; Sản phẩm &amp;gt; Bia vàng"
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -735,7 +710,7 @@ msgid ""
 "You just installed the Odoo for Bar package. By doing so, we have installed "
 "a bunch of necessary apps to run your bar efficiently."
 msgstr ""
-"Bạn vừa cài đặt gói Odoo Dành Cho Bar. Do đó, chúng tôi đã cài đặt một loạt "
+"Bạn vừa cài đặt gói Odoo dành cho Bar. Do đó, chúng tôi đã cài đặt một loạt "
 "các ứng dụng cần thiết để vận hành hiệu quả bar của bạn."
 
 #. module: bar_industry
@@ -772,6 +747,18 @@ msgstr "nếu bạn cần trợ giúp!<br/>"
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
 msgid "request a demo"
 msgstr "đặt lịch demo"
+
+#~ msgid "Gift Card"
+#~ msgstr "Thẻ quà tặng"
+
+#~ msgid "Basics:"
+#~ msgstr "Cơ sở:"
+
+#~ msgid "Do you want to go further?"
+#~ msgstr "Bạn có muốn tiến xa hơn không?"
+
+#~ msgid "Use case:"
+#~ msgstr "Trường hợp vận dụng:"
 
 #~ msgid "Default"
 #~ msgstr "Mặc định"

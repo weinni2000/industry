@@ -9,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 09:34+0000\n"
-"PO-Revision-Date: 2025-11-17 11:14+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-03-17 19:46+0000\n"
+"PO-Revision-Date: 2025-12-05 09:33+0000\n"
+"Last-Translator: \"Abe Manyo (abem)\" <abem@odoo.com>\n"
 "Language-Team: Indonesian <https://translate.odoo.com/projects/odoo-19/"
 "summer_camps/id/>\n"
 "Language: id\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
@@ -85,12 +85,22 @@ msgstr ""
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+#, fuzzy
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
+msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">💡</i>"
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
 msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">💡</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Info\">💡</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">💡</i>"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
@@ -98,8 +108,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
 "normal\">💡</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Info\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
+"<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
+"normal\">💡</i>"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
@@ -107,8 +117,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\">✅</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Sukses\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\">✅</i>"
+"<i data-oe-aria-label=\"Banner Sukses\" class=\"o_editor_banner_icon mb-3 "
+"fst-normal\">✅</i>"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
@@ -116,8 +126,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\">⚠️</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Warning\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
+"<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
+"fst-normal\">⚠️</i>"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
@@ -186,6 +196,53 @@ msgstr ""
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
 msgid ""
+"<strong><b>Appointments App</b>:</strong> Let families book meetings to "
+"discuss camp options easily, reducing no-shows with automatic reminders.<br/>"
+msgstr ""
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid ""
+"<strong><b>CRM App</b>: </strong>Capture inquiries from your website, "
+"qualify leads in a visual pipeline, and convert interest into confirmed "
+"bookings.<br/>"
+msgstr ""
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid ""
+"<strong><b>Events App</b>: </strong>Create and manage every camp session "
+"with custom forms, capacity tracking, and automated emails to keep parents "
+"informed.<br/>"
+msgstr ""
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid ""
+"<strong><b>Projects App</b>: </strong>Organize the behind-the-scenes "
+"logistics using task lists and deadlines to ensure every activity is "
+"prepared to perfection.<br/>"
+msgstr ""
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid ""
+"<strong><b>Sign App</b>: </strong>Collect parental consent securely with "
+"reusable digital signature templates, ensuring all legal documents are "
+"signed and stored centrally.<br/>"
+msgstr ""
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid ""
+"<strong><b>Website App</b>: </strong>Showcase your camps online with mobile-"
+"friendly pages, integrated registration, and secure payment processing to "
+"boost enrollments.<br/>"
+msgstr ""
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid ""
 "<strong>Accounting 📈</strong>: Handle invoicing, revenue tracking, and full "
 "financial reporting in one place."
 msgstr ""
@@ -195,14 +252,6 @@ msgstr ""
 msgid ""
 "<strong>Add custom tags</strong> like “IT Camp,” “Group Booking,” or "
 "“Special Needs” to filter and segment leads."
-msgstr ""
-
-#. module: summer_camps
-#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-msgid ""
-"<strong>Appointments 📅 :</strong>Let families book meetings to discuss camp "
-"options, sync your team’s calendars, and reduce no-shows with automatic "
-"reminders and structured scheduling."
 msgstr ""
 
 #. module: summer_camps
@@ -229,14 +278,6 @@ msgstr ""
 msgid ""
 "<strong>Built-in payment integration</strong> allows smooth and secure "
 "transactions."
-msgstr ""
-
-#. module: summer_camps
-#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-msgid ""
-"<strong>CRM 🎯 :</strong>Capture inquiries from your website, organize and "
-"qualify leads in a visual pipeline, assign sales tasks, and convert interest "
-"into bookings with quotations and notes tracking."
 msgstr ""
 
 #. module: summer_camps
@@ -283,6 +324,11 @@ msgstr ""
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid "<strong>Customized pricing per attendee</strong>"
+msgstr ""
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
 msgid ""
 "<strong>Drag and drop signature, text, and date fields</strong> to collect "
 "all necessary information (e.g., emergency contact, medical permissions)."
@@ -293,14 +339,6 @@ msgstr ""
 msgid ""
 "<strong>Email Marketing 🌟</strong>: Promote upcoming camps or send follow-"
 "ups post-camp."
-msgstr ""
-
-#. module: summer_camps
-#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-msgid ""
-"<strong>Events 🏨 :</strong>Create and manage every camp session with custom "
-"forms, pricing, capacity, tags, attendee tracking, automated emails, and a "
-"live check-in desk—all in one central app."
 msgstr ""
 
 #. module: summer_camps
@@ -366,14 +404,6 @@ msgstr ""
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-msgid ""
-"<strong>Projects 📋 :</strong>Organize the behind-the-scenes work of each "
-"camp using task lists, deadlines, assignments, and logistics tracking to "
-"ensure smooth preparation and coordination."
-msgstr ""
-
-#. module: summer_camps
-#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
 msgid "<strong>Projects 📋</strong>"
 msgstr ""
 
@@ -382,14 +412,6 @@ msgstr ""
 msgid ""
 "<strong>Schedule meetings or calls</strong> directly from the CRM and sync "
 "with your calendar."
-msgstr ""
-
-#. module: summer_camps
-#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-msgid ""
-"<strong>Sign ✍️ :</strong>Collect parental consent securely with reusable "
-"digital signature templates, embedded links in confirmation emails, and "
-"centralized access to signed documents."
 msgstr ""
 
 #. module: summer_camps
@@ -428,14 +450,6 @@ msgstr ""
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
 msgid "<strong>Visit our E-Learning platform </strong>on"
-msgstr ""
-
-#. module: summer_camps
-#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-msgid ""
-"<strong>Website 🌐 :</strong>Showcase your camps online with dedicated "
-"pages, integrated registration, mobile-friendly design, and secure payment—"
-"all from a visually engaging and parent-friendly website."
 msgstr ""
 
 #. module: summer_camps
@@ -483,6 +497,11 @@ msgid "Accommodation"
 msgstr "Akomodasi"
 
 #. module: summer_camps
+#: model:base.automation,name:summer_camps.add_product_on_so
+msgid "Add product on SO"
+msgstr ""
+
+#. module: summer_camps
 #: model:crm.tag,name:summer_camps.crm_tag_29
 #: model:product.public.category,name:summer_camps.product_public_category_1
 msgid "Adventure"
@@ -513,7 +532,7 @@ msgstr ""
 #. module: summer_camps
 #: model:event.tag.category,name:summer_camps.event_tag_category_1
 msgid "Age Group"
-msgstr ""
+msgstr "Kelompok Usia"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.custom_event_nav_reference
@@ -531,7 +550,7 @@ msgstr ""
 #. module: summer_camps
 #: model:event.question,title:summer_camps.event_question_5
 msgid "Allergies or Health Information"
-msgstr ""
+msgstr "Alergi atau Informasi Kesehatan"
 
 #. module: summer_camps
 #: model:crm.tag,name:summer_camps.crm_tag_22
@@ -599,7 +618,7 @@ msgstr ""
 #. module: summer_camps
 #: model:event.tag.category,name:summer_camps.event_tag_category_2
 msgid "Camp Type"
-msgstr ""
+msgstr "Tipe Kemah"
 
 #. module: summer_camps
 #: model_terms:product.public.category,website_description:summer_camps.product_public_category_8
@@ -686,7 +705,7 @@ msgstr ""
 #. module: summer_camps
 #: model:event.question,title:summer_camps.event_question_4
 msgid "Dietary restrictions"
-msgstr ""
+msgstr "Pantangan makanan"
 
 #. module: summer_camps
 #: model_terms:product.public.category,website_description:summer_camps.product_public_category_6
@@ -716,7 +735,7 @@ msgstr "Durasi"
 #. module: summer_camps
 #: model:event.question,title:summer_camps.event_question_9
 msgid "Emergency Phone Number"
-msgstr ""
+msgstr "Nomor Telepon Darurat"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
@@ -744,6 +763,11 @@ msgstr "Peralatan"
 msgid ""
 "Escape the screen, dive into the wild, and find your inner explorer.<br/>\n"
 "                                        <br/>"
+msgstr ""
+
+#. module: summer_camps
+#: model:ir.model.fields,field_description:summer_camps.field_x_event_product_event_question_answer
+msgid "Event Product"
 msgstr ""
 
 #. module: summer_camps
@@ -801,7 +825,7 @@ msgstr ""
 #. module: summer_camps
 #: model:event.question,title:summer_camps.event_question_8
 msgid "Full Address"
-msgstr ""
+msgstr "Alamat Lengkap"
 
 #. module: summer_camps
 #: model:product.public.category,name:summer_camps.product_public_category_6
@@ -891,6 +915,13 @@ msgid ""
 msgstr ""
 
 #. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid ""
+"It is also possible to customize the attendance pricing based on the options "
+"an attendee selects during the registration process."
+msgstr ""
+
+#. module: summer_camps
 #: model:crm.tag,name:summer_camps.crm_tag_20
 msgid "July"
 msgstr "Juli"
@@ -903,6 +934,11 @@ msgid ""
 msgstr ""
 "Perlu diperhatikan, setelah data demo diunggah, data tersebut tidak dapat "
 "dihapus dengan mudah. Namun, Anda bisa memulai ulang database yang baru."
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.camps_button
+msgid "Learn More <i class=\"fa fa-chevron-right\"/>"
+msgstr ""
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_1
@@ -996,7 +1032,7 @@ msgstr "Lainnya"
 #. module: summer_camps
 #: model:event.question,title:summer_camps.event_question_7
 msgid "Other preferences"
-msgstr ""
+msgstr "Preferensi Lainnya"
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_1
@@ -1031,27 +1067,27 @@ msgstr ""
 #. module: summer_camps
 #: model:event.question,title:summer_camps.event_question_2
 msgid "Parent Email"
-msgstr ""
+msgstr "Email Orang Tua"
 
 #. module: summer_camps
 #: model:event.question,title:summer_camps.event_question_3
 msgid "Parent Phone"
-msgstr ""
+msgstr "Nomor Telepon Orang Tua"
 
 #. module: summer_camps
 #: model:event.question,title:summer_camps.event_question_6
 msgid "Participant Date of Birth"
-msgstr ""
+msgstr "Tanggal Lahir Peserta"
 
 #. module: summer_camps
 #: model:event.question,title:summer_camps.event_question_10
 msgid "Participant's Gender"
-msgstr ""
+msgstr "Jenis Kelamin Peserta"
 
 #. module: summer_camps
 #: model:event.question,title:summer_camps.event_question_1
 msgid "Participant's Name"
-msgstr ""
+msgstr "Nama Peserta"
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_1
@@ -1103,17 +1139,17 @@ msgstr "Hubungi kami"
 #: model:event.event.ticket,name:summer_camps.event_event_ticket_1
 #: model:event.event.ticket,name:summer_camps.event_event_ticket_4
 msgid "Registration for Summer Camp"
-msgstr ""
+msgstr "Pendaftaran untuk Kemah Musim Panas"
 
 #. module: summer_camps
 #: model:event.event.ticket,name:summer_camps.event_event_ticket_5
 msgid "Registration for 🏕️ Creative Summer Camp"
-msgstr ""
+msgstr "Pendaftaran untuk 🏕️ Kemah Musim Panas Kreatif"
 
 #. module: summer_camps
 #: model:event.event.ticket,name:summer_camps.event_event_ticket_6
 msgid "Registration for 💻 Camp Pixel"
-msgstr ""
+msgstr "Pendaftaran untuk 💻 Camp Pixel"
 
 #. module: summer_camps
 #: model:crm.tag,name:summer_camps.crm_tag_21
@@ -1153,7 +1189,7 @@ msgstr ""
 #. module: summer_camps
 #: model:event.type,name:summer_camps.event_type_1
 msgid "Summer Camp"
-msgstr ""
+msgstr "Kemah Musim Panas"
 
 #. module: summer_camps
 #: model:product.template,name:summer_camps.product_template_4
@@ -1273,6 +1309,21 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
 msgid ""
 "The result? Better service, more trust, and a smoother registration journey."
+msgstr ""
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid ""
+"These are defined in the questions. To associate a product to a response, "
+"set the question type to \"<strong>Selection</strong>\". Following that, set "
+"a new or existing product in the \"Event Product\" column."
+msgstr ""
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid ""
+"These should now both appear during the payment process, and in the Sales "
+"Order that's associated to the attendee registration."
 msgstr ""
 
 #. module: summer_camps
@@ -1438,6 +1489,13 @@ msgstr ""
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
 msgid ""
+"You can also export all answers in bulk in a template by opening the "
+"template, then clicking the gear icon, then \"Export Answers\"."
+msgstr ""
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid ""
 "You can easily edit your email templates. Enter \"/\" to access special "
 "styling features, such as buttons, tables, bold, italics, links, and so on."
 msgstr ""
@@ -1464,9 +1522,14 @@ msgid ""
 msgstr ""
 
 #. module: summer_camps
+#: model:ir.actions.server,name:summer_camps.add_product_on_so_action
+msgid "add product on SO"
+msgstr ""
+
+#. module: summer_camps
 #: model:event.tag,name:summer_camps.event_tag_2
 msgid "⚽️ Sports"
-msgstr ""
+msgstr "⚽️ OIahraga"
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_3
@@ -1487,7 +1550,7 @@ msgstr ""
 #. module: summer_camps
 #: model:event.tag,name:summer_camps.event_tag_12
 msgid "⭕️ No Meals included"
-msgstr ""
+msgstr "⭕️ Belum Termasuk Makanan"
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_1
@@ -1541,27 +1604,27 @@ msgstr ""
 #. module: summer_camps
 #: model:event.tag,name:summer_camps.event_tag_10
 msgid "🍜 Full Board"
-msgstr ""
+msgstr "🍜 Paket Makan Lengkap"
 
 #. module: summer_camps
 #: model:event.tag,name:summer_camps.event_tag_8
 msgid "🎂 Ages 10-18"
-msgstr ""
+msgstr "🎂 Umur 10-18"
 
 #. module: summer_camps
 #: model:event.tag,name:summer_camps.event_tag_9
 msgid "🎂 Ages 14-18"
-msgstr ""
+msgstr "🎂 Umur 14-18"
 
 #. module: summer_camps
 #: model:event.tag,name:summer_camps.event_tag_7
 msgid "🎂 Ages 8-12"
-msgstr ""
+msgstr "🎂 Umur 8-12"
 
 #. module: summer_camps
 #: model:event.tag,name:summer_camps.event_tag_1
 msgid "🎂 Ages 8-14"
-msgstr ""
+msgstr "🎂 Umur 8-14"
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_2
@@ -1586,7 +1649,7 @@ msgstr "🎨 Art & Creative Summer Camp"
 #. module: summer_camps
 #: model:event.tag,name:summer_camps.event_tag_5
 msgid "🎨 Arts & Crafts"
-msgstr ""
+msgstr "🎨 Seni & Kerajinan"
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_3
@@ -1603,12 +1666,12 @@ msgstr "🏕️ Adventure Summer Camp"
 #. module: summer_camps
 #: model:event.tag,name:summer_camps.event_tag_3
 msgid "🏕️ Camping"
-msgstr ""
+msgstr "🏕️ Camping"
 
 #. module: summer_camps
 #: model:event.tag,name:summer_camps.event_tag_4
 msgid "🏡 Residence"
-msgstr ""
+msgstr "🏡 Perumahan"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.custom_appointment_info_heading
@@ -1642,27 +1705,27 @@ msgstr "💻 Camp Pixel"
 #. module: summer_camps
 #: model:event.tag,name:summer_camps.event_tag_6
 msgid "💻 IT Camp"
-msgstr ""
+msgstr "💻 Kemah IT"
 
 #. module: summer_camps
 #: model:event.tag,name:summer_camps.event_tag_13
 msgid "📅 1 week"
-msgstr ""
+msgstr "📅 1 minggu"
 
 #. module: summer_camps
 #: model:event.tag,name:summer_camps.event_tag_14
 msgid "📅 2 weeks"
-msgstr ""
+msgstr "📅 2 minggu"
 
 #. module: summer_camps
 #: model:event.tag,name:summer_camps.event_tag_15
 msgid "📅 3 weeks"
-msgstr ""
+msgstr "📅 3 minggu"
 
 #. module: summer_camps
 #: model:event.tag,name:summer_camps.event_tag_16
 msgid "📅 4 weeks"
-msgstr ""
+msgstr "📅 4 minggu"
 
 #. module: summer_camps
 #: model_terms:appointment.type,message_intro:summer_camps.appointment_type_1
@@ -1789,7 +1852,7 @@ msgstr ""
 #. module: summer_camps
 #: model:event.tag,name:summer_camps.event_tag_11
 msgid "🥐 Half Board"
-msgstr ""
+msgstr "🥐 Paket Makan Setengah"
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_1

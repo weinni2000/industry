@@ -3,14 +3,14 @@
 # * real_estate
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# Bren Driesen <brdri@odoo.com>, 2025.
+# Bren Driesen <brdri@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 14:30+0000\n"
-"PO-Revision-Date: 2025-11-17 20:57+0000\n"
+"POT-Creation-Date: 2026-06-12 18:41+0000\n"
+"PO-Revision-Date: 2026-06-24 17:00+0000\n"
 "Last-Translator: Bren Driesen <brdri@odoo.com>\n"
 "Language-Team: Dutch <https://translate.odoo.com/projects/odoo-19/"
 "real_estate/nl/>\n"
@@ -19,37 +19,21 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.ir_ui_view_3154
-msgid "+1 555-555-5556"
-msgstr "+1 555-555-5556"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.homepage
-msgid "01"
-msgstr "01"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.homepage
-msgid "02"
-msgstr "02"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.homepage
-msgid "03"
-msgstr "03"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.homepage
-msgid "04"
-msgstr "04"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.homepage
 msgid "24/7 Property Search Assistance"
-msgstr "24/7 hulp bij het zoeken naar objecten"
+msgstr "24/7 hulp bij het zoeken naar panden"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
+msgid ""
+"<b>CRM App</b>: Manage your leads efficiently, tracking ongoing buying and "
+"selling opportunities in a visual pipeline."
+msgstr ""
+"<b>CRM-app</b>: Beheer je leads efficiënt en volg lopende verkoopkansen en "
+"koopkansen in een visuele pijplijn."
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.ir_ui_view_3154
@@ -64,6 +48,15 @@ msgid ""
 msgstr ""
 "<b>Mijn bedrijf</b><br/>250 Executive Park Blvd, Suite 3400 <br/> San "
 "Francisco CA 94134 <br/>United States"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
+msgid ""
+"<b>Website App</b>: Drive qualified traffic by promoting your listings on a "
+"beautiful, mobile-responsive real estate portal."
+msgstr ""
+"<b>Website-app-</b>: Genereer gekwalificeerd websiteverkeer door je "
+"aanbiedingen te promoten op een mooi, mobielvriendelijk vastgoedportaal."
 
 #. module: real_estate
 #: model:mail.template,body_html:real_estate.mail_template_42
@@ -1097,8 +1090,8 @@ msgstr ""
 "        </span>\n"
 "    </h1>\n"
 "    <div><span style=\"font-family: 'Trebuchet MS', sans-serif;\">Deze "
-"panden komen overeen met je criteria. Laat ons weten of een van deze je "
-"interesse wekt!</span></div>\n"
+"panden komen overeen met je criteria. Laat ons weten als je iets tegenkomt "
+"dat je interesse wekt!</span></div>\n"
 "    <div><br/></div>\n"
 "    <t t-foreach=\"object.x_to_notify_property_ids\" t-as=\"line\">\n"
 "        <table class=\"table table-bordered o_table\" "
@@ -1686,8 +1679,8 @@ msgstr ""
 "'Noto Sans', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', "
 "'Segoe UI Symbol',&#10;                                        'Noto Color "
 "Emoji';&#10;                                    display: inline-block;\">\n"
-"                                <font style=\"color: #ffffff;\">Bekijk pand</"
-"font>\n"
+"                                <font style=\"color: #ffffff;\">Pand "
+"bekijken</font>\n"
 "                            </a>\n"
 "                        </div>\n"
 "                    </td>\n"
@@ -1979,11 +1972,11 @@ msgstr ""
 "style:none;padding:0px;margin:0px;box-sizing:border-box;border-left-"
 "width:0px;border-bottom-width:0px;border-right-width:0px;border-top-"
 "width:0px;font-weight:bolder;\">Boek je bezoek!</strong></span><br/></"
-"h1><div><span style=\"font-family: 'Trebuchet MS', sans-serif;\">Voel je "
-"vrij om een bezichtiging te boeken in onze kalender, als je iets specifieks "
-"nodig hebt, laat het ons weten!</span><br/></div><div><br/></div><t t-"
-"foreach=\"object.x_interested_in_id\" t-as=\"line\"><table class=\"table "
-"table-bordered o_table\" style=\"border-radius:0px;border-"
+"h1><div><span style=\"font-family: 'Trebuchet MS', sans-serif;\">Boek gerust "
+"een bezichtiging in onze kalender. Als je iets specifieks nodig hebt, laat "
+"het ons weten!</span><br/></div><div><br/></div><t t-"
+"foreach=\"pand.x_interested_in_id\" t-as=\"line\"><table class=\"table table-"
+"bordered o_table\" style=\"border-radius:0px;border-"
 "style:none;padding:0px;margin:1.42969px 0 16px 0;box-sizing:border-"
 "box;border-left-width:0px;border-bottom-width:0px;border-right-"
 "width:0px;border-top-width:0px;table-layout:fixed;vertical-"
@@ -2035,24 +2028,24 @@ msgstr ""
 "fluid o_we_custom_image\" style=\"border-radius: 0px; border-style: none; "
 "padding: 0px; margin: 0px; box-sizing: border-box; border-width: 0px; "
 "display: inline-block; height: auto; vertical-align: middle; width: 1406px; "
-"object-fit: cover;\" width=\"1406\"><![endif]--><!--[if !mso]><!-- --><!--"
-"[if mso]><img t-attf-src=\"/web/image/product.template/{{ line.id }}/"
-"image_512\" class=\"img img-fluid o_we_custom_image\" style=\"border-radius: "
-"0px; border-style: none; padding: 0px; margin: 0px; box-sizing: border-box; "
-"border-width: 0px; display: inline-block; height: auto; vertical-align: "
-"middle; width: 1406px; object-fit: cover;\" width=\"1406\"><![endif]--><!--"
-"[if !mso]><!-- --><!--[if mso]><img t-attf-src=\"/web/image/product.template/"
+"pand-fit: cover;\" width=\"1406\"><![endif]--><!--[if !mso]><!-- --><!--[if "
+"mso]><img t-attf-src=\"/web/image/product.template/{{ line.id }}/image_512\" "
+"class=\"img img-fluid o_we_custom_image\" style=\"border-radius: 0px; border-"
+"style: none; padding: 0px; margin: 0px; box-sizing: border-box; border-"
+"width: 0px; display: inline-block; height: auto; vertical-align: middle; "
+"width: 1406px; pand-fit: cover;\" width=\"1406\"><![endif]--><!--[if !"
+"mso]><!-- --><!--[if mso]><img t-attf-src=\"/web/image/product.template/"
 "{{ line.id }}/image_512\" class=\"img img-fluid o_we_custom_image\" "
 "style=\"border-radius: 0px; border-style: none; padding: 0px; margin: 0px; "
 "box-sizing: border-box; border-width: 0px; display: inline-block; height: "
-"auto; vertical-align: middle; width: 1406px; object-fit: cover;\" "
+"auto; vertical-align: middle; width: 1406px; pand-fit: cover;\" "
 "width=\"1406\"><![endif]--><!--[if !mso]><!-- --><img t-attf-src=\"/web/"
 "image/product.template/{{ line.id }}/image_512\" class=\"img img-fluid "
 "o_we_custom_image\" style=\"border-left-width:0px;border-bottom-"
 "width:0px;border-right-width:0px;border-top-width:0px;border-radius: 0px; "
 "border-style: none; padding: 0px; margin: 0px; box-sizing: border-box; "
 "border-width: 0px; display: inline-block; height: auto; max-width: 100%; "
-"vertical-align: middle; width: 100%; object-fit: cover; mso-hide: all; mso-"
+"vertical-align: middle; width: 100%; pand-fit: cover; mso-hide: all; mso-"
 "hide: all; mso-hide: all; mso-hide: all; mso-hide: all; mso-hide: all;\" "
 "width=\"100%\"/><!--<![endif]--><!--<![endif]--><!--<![endif]--><!--<!"
 "[endif]--><!--<![endif]--><!--<![endif]--><!--<![endif]--><!--<![endif]--"
@@ -2089,12 +2082,12 @@ msgstr ""
 "radius:0px;border-style:none;padding:0px;margin:0px;box-sizing:border-"
 "box;border-left-width:0px;border-bottom-width:0px;border-right-"
 "width:0px;border-top-width:0px;font-weight:bolder;\">We kijken ernaar uit om "
-"dit object samen te bezichtigen.<br/></strong></span><br/><span style=\"font-"
+"dit pand samen te bezichtigen.<br/></strong></span><br/><span style=\"font-"
 "family: 'Trebuchet MS', sans-serif;\"><strong style=\"border-"
 "radius:0px;border-style:none;padding:0px;margin:0px;box-sizing:border-"
 "box;border-left-width:0px;border-bottom-width:0px;border-right-"
-"width:0px;border-top-width:0px;font-weight:bolder;\">Het team van jouw "
-"makelaar</strong></span><br/></div>"
+"width:0px;border-top-width:0px;font-weight:bolder;\">Het team van "
+"JouwMakelaar</strong></span><br/></div>"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.ir_ui_view_3160
@@ -2263,9 +2256,9 @@ msgstr ""
 "                                <option id=\"oslt4pk2b1cr0\" value=\"House\" "
 "selected=\"selected\">Huis</option>\n"
 "                                <option id=\"oslt4pk2b1cr1\" "
-"value=\"Flat\">Flat</option>\n"
+"value=\"Flat\">Appartement</option>\n"
 "                                <option id=\"oslt4pk2b1cr2\" "
-"value=\"Field\">Veld</option>\n"
+"value=\"Field\">Grond</option>\n"
 "                                <option id=\"oslt4pk2b1cr3\" "
 "value=\"Commercial Building\">Commercieel gebouw</option>\n"
 "                                <option id=\"oslt4pk2b1cr4\" "
@@ -2390,6 +2383,18 @@ msgid "<span class=\"o_force_ltr\">+1 555-555-5556</span>"
 msgstr "<span class=\"o_force_ltr\">+1 555-555-5556</span>"
 
 #. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.crm_lead_form_customization_view
+#: model_terms:ir.ui.view,arch_db:real_estate.product_template_product_form_customization_view
+msgid ""
+"<span class=\"o_stat_text\">\n"
+"                Sign Requests\n"
+"              </span>"
+msgstr ""
+"<span class=\"o_stat_text\">\n"
+"                Handtekeningverzoeken\n"
+"             </span>"
+
+#. module: real_estate
 #: model_terms:product.template,description_ecommerce:real_estate.product_template_3
 msgid ""
 "<span class=\"s_badge badge o_animable oe_snippet_body text-bg-info\" data-"
@@ -2415,11 +2420,6 @@ msgstr ""
 "<span class=\"s_website_form_label_content\">Stad</span>\n"
 "                                <span class=\"s_website_form_mark\">      *</"
 "span>"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "<span class=\"s_website_form_label_content\">Condition</span>"
-msgstr "<span class=\"s_website_form_label_content\">Voorwaarde</span>"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.contactus
@@ -2475,15 +2475,10 @@ msgid ""
 "class=\"s_website_form_mark\">                                                           "
 "*</span>"
 msgstr ""
-"<span class=\"s_website_form_label_content\">Type object</span>\n"
+"<span class=\"s_website_form_label_content\">Type pand</span>\n"
 "                                <span "
 "class=\"s_website_form_mark\">                                                           "
 "*</span>"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "<span class=\"s_website_form_label_content\">Regions</span>"
-msgstr "<span class=\"s_website_form_label_content\">Regio's</span>"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.contactus
@@ -2515,11 +2510,6 @@ msgid ""
 msgstr ""
 "<span class=\"s_website_form_label_content\">Onderwerp</span>\n"
 "                            <span class=\"s_website_form_mark\">    *</span>"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "<span class=\"s_website_form_label_content\">Type</span>"
-msgstr "<span class=\"s_website_form_label_content\">Type</span>"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.contactus
@@ -2626,6 +2616,37 @@ msgstr ""
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
+msgid ""
+"<strong><b>Appointments App</b>:</strong> Allow clients to book property "
+"visits and consultations directly with agents, synchronizing calendars "
+"automatically.<br/>"
+msgstr ""
+"<strong><b>Afspraken-app-</b>:</strong> Laat klanten rechtstreeks bij "
+"makelaars bezichtigingen en consultaties boeken, waarbij agenda's "
+"automatisch worden gesynchroniseerd.<br/>"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
+msgid ""
+"<strong><b>Properties App</b>:</strong> Organize your portfolio with a "
+"dedicated app to manage property listings, details, and availability status."
+"<br/>"
+msgstr ""
+"<strong><b>Panden-app</b>:</strong> Organiseer je vastgoedportefeuille met "
+"een speciale app om vastgoedadvertenties, details en beschikbaarheid te "
+"beheren.<br/>"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
+msgid ""
+"<strong><b>Sales App</b>:</strong> Handle offers, negotiations, and closing "
+"deals with professional quotations and digital signatures.<br/>"
+msgstr ""
+"<strong><b>Verkoop-app</b>:</strong> Behandel offertes, onderhandelingen en "
+"sluit deals met professionele offertes en digitale handtekeningen.<br/>"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
 msgid "<strong><span class=\"h2-fs\">Tips for Success</span></strong>"
 msgstr "<strong><span class=\"h2-fs\">Tips voor succes</span></strong>"
 
@@ -2658,8 +2679,7 @@ msgstr ""
 "<strong>Commissies worden beheerd in</strong> <em>Verkoop &gt; Commissies</"
 "em>. Je kunt een commissieschema toevoegen en commissies berekenen voor "
 "zowel de <strong>Verkoper</strong> (de persoon die de deal heeft gesloten) "
-"als de\n"
-"                   <strong>Verkoper</strong> van het object."
+"als de <strong>Verkoper</strong> van het pand."
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.homepage
@@ -2773,7 +2793,7 @@ msgid ""
 "the property's pipeline."
 msgstr ""
 "Elke e-mail die naar dat adres wordt gestuurd, creëert automatisch een "
-"nieuwe lead in de pijplijn van het object."
+"nieuwe lead in de pijplijn van het pand."
 
 #. module: real_estate
 #: model:product.attribute.value,name:real_estate.product_attribute_value_33
@@ -2817,9 +2837,20 @@ msgid "Attach legal documents, contracts, and plans"
 msgstr "Voeg juridische documenten, contracten en plannen bij"
 
 #. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.product_attribute_value_search_view
+msgid "Attribute"
+msgstr "Kenmerk"
+
+#. module: real_estate
 #: model:ir.model.fields,field_description:real_estate.field_product_template_attribute_value_ids
 msgid "Attribute values"
 msgstr "Eigenschap waarden"
+
+#. module: real_estate
+#: model:ir.actions.act_window,name:real_estate.attributes_act_window
+#: model:ir.ui.menu,name:real_estate.properties_attributes_menu
+msgid "Attributes"
+msgstr "Kenmerken"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
@@ -2830,11 +2861,6 @@ msgstr "Bezoeken automatisch koppelen aan gerelateerde CRM-kansen"
 #: model:product.attribute,name:real_estate.product_attribute_13
 msgid "Available"
 msgstr "Beschikbaar"
-
-#. module: real_estate
-#: model:product.attribute,name:real_estate.product_attribute_15
-msgid "Bathroom"
-msgstr "Badkamer"
 
 #. module: real_estate
 #: model:product.attribute,name:real_estate.product_attribute_17
@@ -2890,6 +2916,11 @@ msgstr "Breng de schoonheid van de natuur naar je kamer"
 #: model:product.attribute.value,name:real_estate.product_attribute_value_28
 msgid "Brussels-Capital"
 msgstr "Brussel-Hoofdstad"
+
+#. module: real_estate
+#: model:product.public.category,name:real_estate.product_public_category_1
+msgid "Buy"
+msgstr "Kopen"
 
 #. module: real_estate
 #: model:crm.team,name:real_estate.crm_team_4
@@ -2981,25 +3012,14 @@ msgid "Compact and functional studio near Botanique."
 msgstr "Compacte en functionele studio vlakbij Botanique."
 
 #. module: real_estate
-#: model:ir.model.fields,field_description:real_estate.field_res_partner_condition_ids
 #: model:product.attribute,name:real_estate.product_attribute_12
 msgid "Condition"
 msgstr "Voorwaarde"
 
 #. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Construction Type: Exceptional Goods"
-msgstr "Type bouw: Uitzonderlijke goederen"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Construction Type: House"
-msgstr "Type bouw: Huis"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Construction Type: Villa"
-msgstr "Type bouw: Villa"
+#: model:ir.ui.menu,name:real_estate.properties_configuration_menu
+msgid "Configuration"
+msgstr "Configuratie"
 
 #. module: real_estate
 #: model:ir.model.fields,field_description:real_estate.field_product_template_construction_year
@@ -3009,12 +3029,12 @@ msgstr "Bouwjaar"
 #. module: real_estate
 #: model:ir.model.fields,field_description:real_estate.field_product_template_matching_partners
 msgid "Contact matches (Properties)"
-msgstr "Contact matches (Objecten)"
+msgstr "Contact matches (Panden)"
 
 #. module: real_estate
 #: model:ir.model.fields,field_description:real_estate.field_res_partner_contact_matches_properties_count
 msgid "Contact matches (Properties) count"
-msgstr "Aantal contactmatches (objecten)"
+msgstr "Aantal contactmatches (panden)"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.ir_ui_view_3166
@@ -3069,7 +3089,7 @@ msgid ""
 "Create new properties and store all relevant data: address, price, features, "
 "status, images, and more"
 msgstr ""
-"Nieuwe objecten creëren en alle relevante gegevens opslaan: adres, prijs, "
+"Nieuwe panden creëren en alle relevante gegevens opslaan: adres, prijs, "
 "kenmerken, status, afbeeldingen en meer"
 
 #. module: real_estate
@@ -3083,9 +3103,10 @@ msgid "Creating and sending quotations directly from the pipeline"
 msgstr "Direct vanuit de pipeline offertes maken en versturen"
 
 #. module: real_estate
+#: model:ir.model.fields,field_description:real_estate.field_res_partner_criteria_ids
 #: model_terms:ir.ui.view,arch_db:real_estate.res_partner_form_customization_view
-msgid "Criterias"
-msgstr "Criterium"
+msgid "Criteria"
+msgstr "Criteria"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
@@ -3121,18 +3142,24 @@ msgid ""
 "bedrooms, this property offers the perfect blend of elegance and comfort."
 msgstr ""
 "Ontdek dit prachtige landhuis in het charmante dorpje Grand-Rosière. Met "
-"350m² doordachte woonruimte verdeeld over vijf slaapkamers biedt dit object "
-"de perfecte mix van elegantie en comfort."
+"350m² doordachte woonruimte verdeeld over vijf slaapkamers biedt dit pand de "
+"perfecte mix van elegantie en comfort."
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
 msgid "Do You Want to Go Further?"
-msgstr "Wil je verder gaan?"
+msgstr "Wil je nog verder gaan?"
 
 #. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
-msgid "Drive qualified traffic via your <strong>Website</strong>"
-msgstr "Stuur gekwalificeerd verkeer via je <strong>website</strong>"
+#: model:ir.actions.act_window,name:real_estate.crm_lead_sign_request_action
+#: model:ir.actions.act_window,name:real_estate.property_sign_request_action
+msgid "Documents"
+msgstr "Documenten"
+
+#. module: real_estate
+#: model:product.ribbon,name:real_estate.draft_ribbon
+msgid "Draft"
+msgstr "Concept"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.homepage
@@ -3145,7 +3172,7 @@ msgid ""
 "Each property has a dedicated form—accessible directly from its product page—"
 "that sends leads straight into its sales pipeline."
 msgstr ""
-"Elk object heeft een speciaal formulier dat direct toegankelijk is vanaf de "
+"Elk pand heeft een speciaal formulier dat direct toegankelijk is vanaf de "
 "productpagina en dat leads rechtstreeks naar de verkooppijplijn stuurt."
 
 #. module: real_estate
@@ -3154,13 +3181,13 @@ msgid ""
 "Each time a property's price is updated, it becomes eligible again for "
 "Matchmaking notifications."
 msgstr ""
-"Elke keer dat de prijs van een object wordt bijgewerkt, komt deze weer in "
+"Elke keer dat de prijs van een pand wordt bijgewerkt, komt deze weer in "
 "aanmerking voor Matchmaking-meldingen."
 
 #. module: real_estate
 #: model:ir.model.fields.selection,name:real_estate.field_product_template_orientation_selection_east
 msgid "East"
-msgstr ""
+msgstr "Oosten"
 
 #. module: real_estate
 #: model:product.attribute.value,name:real_estate.product_attribute_value_2
@@ -3200,17 +3227,12 @@ msgstr "Uitzonderlijke goederen"
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.homepage
 msgid "Explore Our Properties"
-msgstr "Ontdek onze objecten"
+msgstr "Ontdek onze panden"
 
 #. module: real_estate
 #: model:ir.model.fields,field_description:real_estate.field_product_template_reference_ids
 msgid "External References"
 msgstr "Externe referenties"
-
-#. module: real_estate
-#: model:ir.model.fields,field_description:real_estate.field_product_template_field_surface
-msgid "Field Surface"
-msgstr "Veldoppervlak"
 
 #. module: real_estate
 #: model:sign.item.type,tip:real_estate.sign_item_type_14
@@ -3244,19 +3266,7 @@ msgid ""
 "emails, and property visits"
 msgstr ""
 "Follow-up door middel van geplande <strong>CRM-activiteiten</strong> zoals "
-"telefoontjes, e-mails en objectbezoeken"
-
-#. module: real_estate
-#: model:product.public.category,name:real_estate.product_public_category_2
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "For Rent"
-msgstr "Te huur"
-
-#. module: real_estate
-#: model:product.public.category,name:real_estate.product_public_category_1
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "For Sale"
-msgstr "Te koop"
+"telefoontjes, e-mails en pandbezoeken"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
@@ -3296,14 +3306,6 @@ msgid "Hainaut"
 msgstr "Henegouwen"
 
 #. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
-msgid ""
-"Handle offers, negotiations, and deals in the <strong>Sales App</strong>"
-msgstr ""
-"Aanbiedingen, onderhandelingen en deals afhandelen in de <strong>Sales App</"
-"strong>"
-
-#. module: real_estate
 #: model:product.attribute.value,name:real_estate.product_attribute_value_17
 msgid "House"
 msgstr "Huisnr."
@@ -3330,9 +3332,9 @@ msgid ""
 "<strong>External Reference</strong> field and set the portal’s contact email "
 "to <strong>buyers@[your_domain]</strong>."
 msgstr ""
-"Als een object op een portal van derden staat, voeg dan de unieke ID toe aan "
+"Als een pand op een portaal van derden staat, voeg dan de unieke ID toe aan "
 "het veld <strong>Externe referentie</strong> en stel het e-mailadres van de "
-"portal in op <strong>buyers@[jouw_domein]</strong>."
+"portaal in op <strong>buyers@[jouw_domein]</strong>."
 
 #. module: real_estate
 #: model:ir.model.fields,help:real_estate.x_receiver_customer_field
@@ -3353,8 +3355,8 @@ msgid ""
 "If you want to easily discover every features of this package, try "
 "downloading the Demo Data."
 msgstr ""
-"Als je eenvoudig alle functies van dit pakket wilt ontdekken, probeer dan de "
-"Demo Data te downloaden."
+"Als je eenvoudig alle functies van dit pakket wilt ontdekken, download dan "
+"de Demodata."
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
@@ -3404,7 +3406,7 @@ msgstr "Geïnteresseerd in tellen"
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.ir_ui_view_3249
 msgid "Interested in this property?"
-msgstr "Geïnteresseerd in dit object?"
+msgstr "Geïnteresseerd in dit pand?"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.homepage
@@ -3439,12 +3441,12 @@ msgstr "Is Aanbieding"
 #. module: real_estate
 #: model:ir.model.fields,field_description:real_estate.field_product_template_is_properties_category
 msgid "Is Properties"
-msgstr "Is object"
+msgstr "Is pand"
 
 #. module: real_estate
 #: model:ir.model.fields,field_description:real_estate.field_product_category_is_properties_category
 msgid "Is Properties Category"
-msgstr "Is objectcategorie"
+msgstr "Is pandcategorie"
 
 #. module: real_estate
 #: model:ir.model.fields,field_description:real_estate.field_crm_team_is_sellers_team
@@ -3464,7 +3466,7 @@ msgstr "Jane Smith, Makelaar"
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.homepage
 msgid "Jane is the visionary behind our personalized property listings."
-msgstr "Jane is de visionair achter onze gepersonaliseerde objectadvertenties."
+msgstr "Jane is de visionair achter onze gepersonaliseerde pandadvertenties."
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
@@ -3472,8 +3474,8 @@ msgid ""
 "Just be careful, once demo data are uploaded, it cannot be easily deleted. "
 "But you can restart a fresh database on"
 msgstr ""
-"Opgelet: als de demogegevens zijn geüpload, kunnen ze niet gemakkelijk "
-"worden verwijderd. Je kan wel een nieuwe database starten op"
+"Opgelet: als de demodata zijn geüpload, kunnen ze niet gemakkelijk worden "
+"verwijderd. Je kan wel een nieuwe database starten op"
 
 #. module: real_estate
 #: model:ir.model.fields,field_description:real_estate.field_product_template_last_renovation
@@ -3491,6 +3493,11 @@ msgid "Last notification update"
 msgstr "Laatste notificatie update"
 
 #. module: real_estate
+#: model:ir.model.fields,field_description:real_estate.field_crm_lead_id
+msgid "Lead"
+msgstr "Lead"
+
+#. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.crm_lead_view_pivot
 msgid "Leads"
 msgstr "Leads"
@@ -3502,32 +3509,14 @@ msgid ""
 "visit&amp;nbsp;to estimate your property."
 msgstr ""
 "Laat je gegevens achter en we nemen contact met je op om een gratis "
-"bezoek&amp;nbsp;aan je object te organiseren."
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
-msgid ""
-"Let clients book property visits easily through the <strong>Appointments "
-"App</strong>"
-msgstr ""
-"Laat klanten eenvoudig objectbezoeken boeken via de <strong>Afspraken App</"
-"strong>"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
-msgid ""
-"Let potential buyers subscribe to criteria and receive property matches with "
-"the <strong>Matchmaking Feature</strong>"
-msgstr ""
-"Laat potentiële kopers zich inschrijven op criteria en matches ontvangen met "
-"de <strong>functie Matchmaking</strong>"
+"bezoek&amp;nbsp;aan je pand te organiseren."
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
 msgid "Let prospects subscribe to new property alerts using their preferences"
 msgstr ""
 "Laat prospects zich via hun voorkeuren abonneren op waarschuwingen voor "
-"nieuw een nieuw object"
+"nieuw een nieuw pand"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.homepage
@@ -3541,8 +3530,8 @@ msgstr "Limburg"
 
 #. module: real_estate
 #: model:ir.model.fields,field_description:real_estate.field_product_template_living_surface
-msgid "Living Surface"
-msgstr "Woonoppervlak"
+msgid "Livable Area"
+msgstr "Bewoonbare oppervlakte"
 
 #. module: real_estate
 #: model:product.attribute.value,name:real_estate.product_attribute_value_5
@@ -3570,6 +3559,11 @@ msgid "Loft"
 msgstr "Loft"
 
 #. module: real_estate
+#: model:ir.model.fields,field_description:real_estate.field_product_template_field_surface
+msgid "Lot Size"
+msgstr "Grondoppervlakte"
+
+#. module: real_estate
 #: model:product.template,name:real_estate.product_template_27
 msgid "Louise Loft"
 msgstr "Louise Loft"
@@ -3582,8 +3576,7 @@ msgstr "Luxemburg"
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
 msgid "Make it easy for visitors to schedule property visits:"
-msgstr ""
-"Maak het bezoekers gemakkelijk om bezoeken aan je object in te plannen:"
+msgstr "Maak het bezoekers gemakkelijk om bezoeken aan je pand in te plannen:"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
@@ -3591,12 +3584,6 @@ msgid "Manage agent availability and avoid double-bookings with calendar sync"
 msgstr ""
 "Beheer de beschikbaarheid van agenten en voorkom dubbele boekingen met "
 "agendasynchronisatie"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
-msgid ""
-"Manage your property listings in a dedicated <strong>Properties App</strong>"
-msgstr "Beheer je objecten in een speciale <strong>Objecten App</strong>"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
@@ -3647,6 +3634,7 @@ msgstr ""
 "weergegeven op elke Eigendomspagina."
 
 #. module: real_estate
+#: model:ir.model.fields,field_description:real_estate.x_is_matchmaking_field_product_attribute
 #: model:website.menu,name:real_estate.website_menu_12
 #: model_terms:ir.ui.view,arch_db:real_estate.res_partner_form_customization_view
 msgid "Matchmaking"
@@ -3710,7 +3698,7 @@ msgstr "Nee"
 #. module: real_estate
 #: model:ir.model.fields.selection,name:real_estate.field_product_template_orientation_selection_north
 msgid "North"
-msgstr ""
+msgstr "Noorden"
 
 #. module: real_estate
 #: model:ir.model.fields,field_description:real_estate.field_product_template_notary_id
@@ -3765,8 +3753,8 @@ msgid ""
 "button that generates and links the appropriate appointment type to the "
 "property."
 msgstr ""
-"In elke object vind je een knop <strong>\"Bezoeklink maken\"</strong> die "
-"het juiste afspraaktype genereert en koppelt aan het object."
+"In elk pand vind je een knop <strong>\"Bezoeklink maken\"</strong> die het "
+"juiste afspraaktype genereert en koppelt aan het pand."
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
@@ -3803,9 +3791,9 @@ msgid ""
 "notification to your lead, inviting them to book a visit."
 msgstr ""
 "Zodra de link is gegenereerd, wordt in elke verkoopkans die betrekking heeft "
-"op dit object een knop <strong>\"Bezoek\"</strong> weergegeven. Als je "
-"hierop klikt, wordt er een e-mailbericht naar je lead gestuurd met de "
-"uitnodiging om een bezoek te boeken."
+"op dit pand een knop <strong>\"Bezoek\"</strong> weergegeven. Als je hierop "
+"klikt, wordt er een e-mailbericht naar je lead gestuurd met de uitnodiging "
+"om een bezoek te boeken."
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.crm_opportunity_view_graph
@@ -3830,12 +3818,12 @@ msgstr "Afdrukstand"
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.homepage
 msgid "Our latest&amp;nbsp;properties"
-msgstr "Onze nieuwste&amp;nbsp;objecten"
+msgstr "Onze nieuwste&amp;nbsp;panden"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.ir_ui_view_3166
 msgid "Our listed properties"
-msgstr "Onze objecten"
+msgstr "Onze panden"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.homepage
@@ -3883,6 +3871,11 @@ msgid "Pool"
 msgstr "Pool"
 
 #. module: real_estate
+#: model:product.ribbon,name:real_estate.pre_published_ribbon
+msgid "Pre-published"
+msgstr "Voorgepubliceerd"
+
+#. module: real_estate
 #: model:base.automation,name:real_estate.prevent_publishing_draft_products
 msgid "Prevent Publishing Draft Products"
 msgstr "Voorkom publicatie van conceptproducten"
@@ -3894,42 +3887,49 @@ msgstr "Voorkom publicatie van conceptproducten"
 #: model:ir.ui.menu,name:real_estate.properties_properties_menu
 #: model_terms:ir.ui.view,arch_db:real_estate.res_partner_form_customization_view
 msgid "Properties"
-msgstr "Objecten"
+msgstr "Vastgoed"
 
 #. module: real_estate
 #: model:ir.model.fields,field_description:real_estate.field_appointment_type_property_id
 #: model:ir.model.fields,field_description:real_estate.field_calendar_event_property_id
 #: model:ir.model.fields,field_description:real_estate.field_product_template_line_property_id
+#: model:ir.model.fields,field_description:real_estate.field_property_id
 #: model:sign.item.type,name:real_estate.sign_item_type_14
 #: model_terms:ir.ui.view,arch_db:real_estate.crm_lead_search_opportunity_customization_view
 #: model_terms:ir.ui.view,arch_db:real_estate.product_template_product_form_customization_view
 msgid "Property"
-msgstr "Object"
+msgstr "Pand"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
 msgid "Property Listings 🏘️"
-msgstr "Objectaanbiedingen 🏘️"
+msgstr "Pandenaanbod 🏘️"
 
 #. module: real_estate
 #: model:ir.model.fields,field_description:real_estate.field_product_template_calendar_event_count
 msgid "Property count"
-msgstr "Aantal objecten"
+msgstr "Aantal panden"
 
 #. module: real_estate
 #: model:ir.model.fields,field_description:real_estate.field_res_partner_matching_properties
 msgid "Property matches (Contacts)"
-msgstr "Objectmatches (Contacten)"
+msgstr "Pandmatches (Contacten)"
 
 #. module: real_estate
 #: model:ir.model.fields,field_description:real_estate.field_product_template_contact_matches_properties_count
 msgid "Property matches (Contacts) count"
-msgstr "Aantal objecten (Contacten)"
+msgstr "Aantal panden (Contacten)"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
 msgid "Reach us"
 msgstr "Contacteer ons"
+
+#. module: real_estate
+#: model:base.automation,name:real_estate.uninstall_hook_base_automation
+#: model:ir.actions.server,name:real_estate.uninstall_hook_action_server
+msgid "Real Estate: Uninstall Hook"
+msgstr "Vastgoed: Hook de-installeren"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.ir_ui_view_3166
@@ -3958,65 +3958,14 @@ msgid "Region"
 msgstr "Streek"
 
 #. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Region: Antwerp"
-msgstr "Regio: Antwerpen"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Region: East Flanders"
-msgstr "Regio: Oost-Vlaanderen"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Region: Flemish Brabant"
-msgstr "Regio: Vlaams-Brabant"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Region: Hainaut"
-msgstr "Regio: Henegouwen"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Region: Limburg"
-msgstr "Regio: Limburg"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Region: Liège"
-msgstr "Regio: Luik"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Region: Luxembourg"
-msgstr "Regio: Luxemburg"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Region: Namur"
-msgstr "Regio: Namen"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Region: Walloon Brabant"
-msgstr "Regio: Waals-Brabant"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Region: West Flanders"
-msgstr "Regio: West-Vlaanderen"
-
-#. module: real_estate
-#: model:ir.model.fields,field_description:real_estate.field_res_partner_regions_ids
-#: model_terms:ir.ui.view,arch_db:real_estate.res_partner_form_customization_view
-msgid "Regions"
-msgstr "Regio’s"
-
-#. module: real_estate
 #: model:product.attribute.value,name:real_estate.product_attribute_value_31
 msgid "Renovated"
 msgstr "Gerenoveerd"
+
+#. module: real_estate
+#: model:product.public.category,name:real_estate.product_public_category_2
+msgid "Rent"
+msgstr "Huren"
 
 #. module: real_estate
 #: model:ir.actions.act_window,name:real_estate.reporting_act_window
@@ -4045,9 +3994,14 @@ msgid "Salesperson"
 msgstr "Verkoper"
 
 #. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.product_attribute_value_search_view
+msgid "Search Attribute Value"
+msgstr "Zoek kenmerkwaarde"
+
+#. module: real_estate
 #: model:ir.actions.server,name:real_estate.search_for_property_reference_server_action
 msgid "Search for property reference"
-msgstr "Zoeken naar objectreferentie"
+msgstr "Zoeken naar pandreferentie"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
@@ -4064,7 +4018,7 @@ msgstr "Alles bekijken<span class=\"fa fa-long-arrow-right ms-2\"/>"
 #: model_terms:ir.ui.view,arch_db:real_estate.homepage
 msgid "See our property listings <i class=\"fa fa-long-arrow-right ms-2\"/>"
 msgstr ""
-"Bekijk onze objectadvertenties <i class=\"fa fa-long-arrow-right ms-2\"/>"
+"Bekijk onze pandadvertenties <i class=\"fa fa-long-arrow-right ms-2\"/>"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.homepage
@@ -4127,7 +4081,7 @@ msgstr "Diensten"
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
 msgid "Setup visits appointment easily within the Property App."
-msgstr "Maak eenvoudig een afspraak voor een bezoek binnen de Objecten App."
+msgstr "Maak eenvoudig een afspraak voor een bezoek binnen de Panden-app."
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
@@ -4135,6 +4089,12 @@ msgid "Showcase your latest listings with high-quality images and filters"
 msgstr ""
 "Laat je nieuwste aanbiedingen zien met afbeeldingen en filters van hoge "
 "kwaliteit"
+
+#. module: real_estate
+#: model:ir.model.fields,field_description:real_estate.x_sign_request_count_field_crm_lead
+#: model:ir.model.fields,field_description:real_estate.x_sign_request_count_field_property
+msgid "Sign Request Count"
+msgstr "Aantal handtekeningverzoeken"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.homepage
@@ -4164,22 +4124,12 @@ msgstr "Verkocht"
 #. module: real_estate
 #: model:ir.model.fields.selection,name:real_estate.field_product_template_orientation_selection_south
 msgid "South"
-msgstr ""
+msgstr "Zuiden"
 
 #. module: real_estate
 #: model_terms:product.template,description_ecommerce:real_estate.product_template_32
 msgid "Spacious home with garden and garage, close to schools in Namur."
 msgstr "Ruim huis met tuin en garage, dicht bij scholen in Namen."
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "State: Excellent"
-msgstr "Staat: Uitstekend"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "State: To refresh"
-msgstr "Staat: Verversen"
 
 #. module: real_estate
 #: model:ir.model.fields,field_description:real_estate.field_product_template_street
@@ -4247,7 +4197,7 @@ msgstr "Het grote huis met 3 zwembaden van Emily"
 msgid ""
 "The custom <strong>Properties App</strong> helps you manage your portfolio:"
 msgstr ""
-"De aangepaste <strong>Objecten App</strong> helpt je bij het beheren van je "
+"De aangepaste <strong>Panden-app</strong> helpt je bij het beheren van je "
 "portefeuille:"
 
 #. module: real_estate
@@ -4280,7 +4230,7 @@ msgstr ""
 #. module: real_estate
 #: model:ir.model.fields,field_description:real_estate.field_res_partner_to_notify_property_ids
 msgid "To notify properties"
-msgstr "Objecten te melden"
+msgstr "Panden te melden"
 
 #. module: real_estate
 #: model:product.attribute.value,name:real_estate.product_attribute_value_19
@@ -4304,7 +4254,7 @@ msgid ""
 "Sales Tab of each property."
 msgstr ""
 "Volg en communiceer eenvoudig over statusupdates met het lintsysteem in het "
-"verkooptabblad van elke object."
+"verkooptabblad van elk pand."
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
@@ -4315,7 +4265,7 @@ msgstr "Verkoop en commissies bijhouden"
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
 msgid ""
 "Tracking property seekers and owners through each stage of the sales process"
-msgstr "Objectzoekers en -eigenaren volgen in elke fase van het verkoopproces"
+msgstr "Pandzoekers en -eigenaren volgen in elke fase van het verkoopproces"
 
 #. module: real_estate
 #: model_terms:product.template,description_ecommerce:real_estate.product_template_28
@@ -4329,7 +4279,7 @@ msgid ""
 "offer a range of properties that bring comfort and style to your life."
 msgstr ""
 "Transformeer je woonervaring met onze prachtige vastgoedopties. We bieden "
-"een reeks objecten die comfort en stijl in je leven brengen."
+"een reeks panden die comfort en stijl in je leven brengen."
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
@@ -4341,7 +4291,6 @@ msgstr ""
 "meerdere stappen"
 
 #. module: real_estate
-#: model:ir.model.fields,field_description:real_estate.field_res_partner_type_ids
 #: model:product.attribute,name:real_estate.product_attribute_11
 msgid "Type"
 msgstr "Soort"
@@ -4381,15 +4330,6 @@ msgstr ""
 "promotie."
 
 #. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
-msgid ""
-"Use the <strong>CRM App</strong> to manage your leads and track ongoing "
-"buying/selling opportunities"
-msgstr ""
-"Gebruik de <strong>CRM App</strong> om je leads te beheren en doorlopende "
-"koop-/verkoopkansen te volgen"
-
-#. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.homepage
 msgid "Utilize this section to enhance your agency's reputation."
 msgstr "Gebruik dit gedeelte om de reputatie van je agentschap te verbeteren."
@@ -4410,8 +4350,8 @@ msgid ""
 "View related opportunities and scheduled visits per property with the smart "
 "buttons located on top of each property."
 msgstr ""
-"Bekijk gerelateerde mogelijkheden en geplande bezoeken per object met de "
-"slimme knoppen bovenaan elk object."
+"Bekijk gerelateerde mogelijkheden en geplande bezoeken per pand met de "
+"slimme knoppen bovenaan elk pand."
 
 #. module: real_estate
 #: model:product.attribute.value,name:real_estate.product_attribute_value_11
@@ -4480,7 +4420,7 @@ msgstr "Welkom in je droomhuis"
 #. module: real_estate
 #: model:ir.model.fields.selection,name:real_estate.field_product_template_orientation_selection_west
 msgid "West"
-msgstr ""
+msgstr "Westen"
 
 #. module: real_estate
 #: model:product.attribute.value,name:real_estate.product_attribute_value_10
@@ -4558,10 +4498,25 @@ msgid "hello@mycompany.com"
 msgstr "hallo@mijnbedrijf.com"
 
 #. module: real_estate
+#: model:website.base.unit,name:real_estate.base_unit_1
+msgid "m²"
+msgstr "m²"
+
+#. module: real_estate
 #: model:ir.model,name:real_estate.product_template_line_model
 #: model_terms:ir.ui.view,arch_db:real_estate.default_form_view_x_product_template_line
 msgid "product_template_line"
 msgstr "product_template_regel"
+
+#. module: real_estate
+#: model:website.base.unit,name:real_estate.base_unit_2
+msgid "sqft"
+msgstr "sqft"
+
+#. module: real_estate
+#: model:website.base.unit,name:real_estate.base_unit_3
+msgid "sqm"
+msgstr "vierkante meter"
 
 #. module: real_estate
 #: model_terms:product.template,description_ecommerce:real_estate.product_template_16
@@ -4610,6 +4565,128 @@ msgstr "🎓 Website"
 #: model_terms:product.template,description_ecommerce:real_estate.product_template_16
 msgid "🛏️ Renovate the outbuildings into a boutique B&amp;B or guesthouse"
 msgstr "🛏️ Maak van de bijgebouwen een boutique B&B of gastenverblijf"
+
+#~ msgid "Field Surface"
+#~ msgstr "Veldoppervlak"
+
+#~ msgid "Living Surface"
+#~ msgstr "Woonoppervlak"
+
+#~ msgid "+1 555-555-5556"
+#~ msgstr "+1 555-555-5556"
+
+#~ msgid "01"
+#~ msgstr "01"
+
+#~ msgid "02"
+#~ msgstr "02"
+
+#~ msgid "03"
+#~ msgstr "03"
+
+#~ msgid "04"
+#~ msgstr "04"
+
+#~ msgid "For Sale"
+#~ msgstr "Te koop"
+
+#~ msgid "<span class=\"s_website_form_label_content\">Condition</span>"
+#~ msgstr "<span class=\"s_website_form_label_content\">Voorwaarde</span>"
+
+#~ msgid "<span class=\"s_website_form_label_content\">Regions</span>"
+#~ msgstr "<span class=\"s_website_form_label_content\">Regio's</span>"
+
+#~ msgid "<span class=\"s_website_form_label_content\">Type</span>"
+#~ msgstr "<span class=\"s_website_form_label_content\">Type</span>"
+
+#~ msgid "Bathroom"
+#~ msgstr "Badkamer"
+
+#~ msgid "Criterias"
+#~ msgstr "Criterium"
+
+#~ msgid "Regions"
+#~ msgstr "Regio’s"
+
+#~ msgid "Construction Type: Exceptional Goods"
+#~ msgstr "Type bouw: Uitzonderlijke goederen"
+
+#~ msgid "Construction Type: House"
+#~ msgstr "Type bouw: Huis"
+
+#~ msgid "Construction Type: Villa"
+#~ msgstr "Type bouw: Villa"
+
+#~ msgid "Drive qualified traffic via your <strong>Website</strong>"
+#~ msgstr "Stuur gekwalificeerd verkeer via je <strong>website</strong>"
+
+#~ msgid ""
+#~ "Handle offers, negotiations, and deals in the <strong>Sales App</strong>"
+#~ msgstr ""
+#~ "Aanbiedingen, onderhandelingen en deals afhandelen in de <strong>Sales "
+#~ "App</strong>"
+
+#~ msgid ""
+#~ "Let clients book property visits easily through the <strong>Appointments "
+#~ "App</strong>"
+#~ msgstr ""
+#~ "Laat klanten eenvoudig objectbezoeken boeken via de <strong>Afspraken "
+#~ "App</strong>"
+
+#~ msgid ""
+#~ "Let potential buyers subscribe to criteria and receive property matches "
+#~ "with the <strong>Matchmaking Feature</strong>"
+#~ msgstr ""
+#~ "Laat potentiële kopers zich inschrijven op criteria en matches ontvangen "
+#~ "met de <strong>functie Matchmaking</strong>"
+
+#~ msgid ""
+#~ "Manage your property listings in a dedicated <strong>Properties App</"
+#~ "strong>"
+#~ msgstr "Beheer je objecten in een speciale <strong>Objecten App</strong>"
+
+#~ msgid "Region: Antwerp"
+#~ msgstr "Regio: Antwerpen"
+
+#~ msgid "Region: East Flanders"
+#~ msgstr "Regio: Oost-Vlaanderen"
+
+#~ msgid "Region: Flemish Brabant"
+#~ msgstr "Regio: Vlaams-Brabant"
+
+#~ msgid "Region: Hainaut"
+#~ msgstr "Regio: Henegouwen"
+
+#~ msgid "Region: Limburg"
+#~ msgstr "Regio: Limburg"
+
+#~ msgid "Region: Liège"
+#~ msgstr "Regio: Luik"
+
+#~ msgid "Region: Luxembourg"
+#~ msgstr "Regio: Luxemburg"
+
+#~ msgid "Region: Namur"
+#~ msgstr "Regio: Namen"
+
+#~ msgid "Region: Walloon Brabant"
+#~ msgstr "Regio: Waals-Brabant"
+
+#~ msgid "Region: West Flanders"
+#~ msgstr "Regio: West-Vlaanderen"
+
+#~ msgid "State: Excellent"
+#~ msgstr "Staat: Uitstekend"
+
+#~ msgid "State: To refresh"
+#~ msgstr "Staat: Verversen"
+
+#~ msgid ""
+#~ "Use the <strong>CRM App</strong> to manage your leads and track ongoing "
+#~ "buying/selling opportunities"
+#~ msgstr ""
+#~ "Gebruik de <strong>CRM App</strong> om je leads te beheren en doorlopende "
+#~ "koop-/verkoopkansen te volgen"
 
 #~ msgid "fill in"
 #~ msgstr "vul in"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 11:20+0000\n"
+"POT-Creation-Date: 2026-04-10 19:02+0000\n"
 "PO-Revision-Date: 2025-09-15 11:29+0000\n"
 "Last-Translator: \"Dylan Kiss (dyki)\" <dyki@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-19/"
@@ -33,26 +33,6 @@ msgstr "「ドライビングシミュレーターは非常に役に立ちまし
 #: model_terms:ir.ui.view,arch_db:driving_school.homepage
 msgid "\"The instructor was patient and made learning fun!\""
 msgstr "「インストラクターはとても忍耐強く、楽しく学ぶことができました!」"
-
-#. module: driving_school
-#: model_terms:ir.ui.view,arch_db:driving_school.homepage
-msgid "$184.00"
-msgstr "$184.00"
-
-#. module: driving_school
-#: model_terms:ir.ui.view,arch_db:driving_school.homepage
-msgid "$349.00"
-msgstr "$349.00"
-
-#. module: driving_school
-#: model_terms:ir.ui.view,arch_db:driving_school.homepage
-msgid "$80.00"
-msgstr "$80.00"
-
-#. module: driving_school
-#: model_terms:ir.ui.view,arch_db:driving_school.homepage
-msgid "$859.00"
-msgstr "$859.00"
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
@@ -534,6 +514,55 @@ msgstr ""
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
+msgid ""
+"<strong><b>Appointments App</b>:</strong> Allow students to book lessons "
+"online 24/7, syncing automatically with\n"
+"            instructor availability to prevent double-booking.<br/>"
+msgstr ""
+
+#. module: driving_school
+#: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
+msgid ""
+"<strong><b>Fleet App</b>:</strong> Track and maintain your vehicles, "
+"monitoring fuel logs, service contracts,\n"
+"            and odometer readings to keep your cars road-ready.<br/>"
+msgstr ""
+
+#. module: driving_school
+#: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
+msgid ""
+"<strong><b>Planning App</b>:</strong> Manage instructors' schedules "
+"efficiently, assigning shifts and ensuring\n"
+"            the right teacher is available for the right class.<br/>"
+msgstr ""
+
+#. module: driving_school
+#: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
+msgid ""
+"<strong><b>Sales App</b>:</strong> Sell lessons, exams, and course packages "
+"directly to students, managing\n"
+"            invoices and payments in one place.<br/>"
+msgstr ""
+
+#. module: driving_school
+#: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
+msgid ""
+"<strong><b>Sign App</b>:</strong> Handle legal waivers and student "
+"agreements digitally, ensuring all necessary\n"
+"            documentation is signed and stored securely.<br/>"
+msgstr ""
+
+#. module: driving_school
+#: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
+msgid ""
+"<strong><b>Website App</b>:</strong> Boost your school's visibility and "
+"manage your site, creating a\n"
+"            professional portal for new students to register and learn about "
+"your services.<br/>"
+msgstr ""
+
+#. module: driving_school
+#: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
 msgid "<strong>Basics</strong>"
 msgstr "<strong>基本</strong>"
 
@@ -571,6 +600,11 @@ msgstr "<strong>ユースケース</strong>"
 #: model_terms:product.template,description_ecommerce:driving_school.product_template_32
 msgid "<strong>We are proud to reach 95% pass rate with this format!</strong>"
 msgstr "<strong>合格率95%達成！選ばれる理由がここにあります。</strong>"
+
+#. module: driving_school
+#: model:product.attribute.value,name:driving_school.product_attribute_value_1
+msgid "A"
+msgstr ""
 
 #. module: driving_school
 #: model:sale.order.template.line,name:driving_school.sale_order_template_line_12
@@ -681,6 +715,11 @@ msgstr ""
 "と、見積書の合計金額が0になります。"
 
 #. module: driving_school
+#: model:product.attribute.value,name:driving_school.product_attribute_value_2
+msgid "B"
+msgstr ""
+
+#. module: driving_school
 #: model:product.template,name:driving_school.product_template_23
 msgid "B Practical Exam"
 msgstr "B実技試験"
@@ -733,6 +772,11 @@ msgid ""
 msgstr ""
 "このモジュールのデモデータをアップロードすることで、データベースにいくつかの"
 "プロダクト、販売オーダなどが追加されました。"
+
+#. module: driving_school
+#: model:product.attribute.value,name:driving_school.product_attribute_value_3
+msgid "C"
+msgstr ""
 
 #. module: driving_school
 #: model:product.template,name:driving_school.product_template_24
@@ -843,6 +887,11 @@ msgid ""
 msgstr "自信、技術、そして<br/>交通安全をきちんと守るドライバーを育成します。"
 
 #. module: driving_school
+#: model:product.attribute.value,name:driving_school.product_attribute_value_4
+msgid "D"
+msgstr ""
+
+#. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.homepage
 msgid "Defensive Driving Course"
 msgstr "防衛運転講習"
@@ -950,11 +999,6 @@ msgstr ""
 "クセスできます!"
 
 #. module: driving_school
-#: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
-msgid "Generate visibility through the <strong>Website App</strong>"
-msgstr "<strong>Website App</strong>を通じて、認知度を高めましょう"
-
-#. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.homepage
 msgid "Get your driving lessons scheduled quickly."
 msgstr "ドライビング教習の予約管理もカンタンです。"
@@ -1033,15 +1077,6 @@ msgid "Lessons and exams"
 msgstr "教習・試験"
 
 #. module: driving_school
-#: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
-msgid ""
-"Let your customers book lessons online thanks to the<strong> Appointment "
-"App</strong>"
-msgstr ""
-"顧客が<strong>アポイントメントアプリ</strong>を使ってオンラインで教習を予約で"
-"きるようにしましょう"
-
-#. module: driving_school
 #: model:product.attribute,name:driving_school.product_attribute_10
 msgid "License"
 msgstr "免許証"
@@ -1050,11 +1085,6 @@ msgstr "免許証"
 #: model_terms:ir.ui.view,arch_db:driving_school.homepage
 msgid "Luxury Driving Experience"
 msgstr "プレミアム運転体験"
-
-#. module: driving_school
-#: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
-msgid "Manage waiver with the <strong>Sign App</strong>"
-msgstr "<strong>署名アプリ</strong>を使って免責同意書を管理します"
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
@@ -1068,16 +1098,6 @@ msgstr ""
 "class=\"text-o-color-5\">n </font><strong><font class=\"text-o-color-5\">会計"
 "アプリ</font></strong><font class=\"text-o-color-5\">をご活用ください。</"
 "font>"
-
-#. module: driving_school
-#: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
-msgid "Manage your employees' shifts with the <strong>Planning App</strong>"
-msgstr "<strong>計画アプリ</strong>を使って従業員のシフトを管理しましょう"
-
-#. module: driving_school
-#: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
-msgid "Manage your vehicles with the <strong>Fleet App</strong>"
-msgstr "<strong>フリートアプリ</strong>で車両を管理します"
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.contactus
@@ -1413,12 +1433,6 @@ msgstr ""
 msgid "Select as template the waiver to be signed and Send it for signature."
 msgstr ""
 "署名が必要な免責同意書をテンプレートとして選択し、署名用に送信してください。"
-
-#. module: driving_school
-#: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
-msgid "Sell lessons, exams and packs from the <strong>Sales App</strong>"
-msgstr ""
-"<strong>販売アプリ</strong>から教習、試験、パックプロダクトを販売しましょう"
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
@@ -1943,3 +1957,39 @@ msgstr "📝 署名済み同意書を取得"
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
 msgid "🚙 Fleet management"
 msgstr "🚙 フリート管理"
+
+#~ msgid "$184.00"
+#~ msgstr "$184.00"
+
+#~ msgid "$349.00"
+#~ msgstr "$349.00"
+
+#~ msgid "$80.00"
+#~ msgstr "$80.00"
+
+#~ msgid "$859.00"
+#~ msgstr "$859.00"
+
+#~ msgid "Generate visibility through the <strong>Website App</strong>"
+#~ msgstr "<strong>Website App</strong>を通じて、認知度を高めましょう"
+
+#~ msgid ""
+#~ "Let your customers book lessons online thanks to the<strong> Appointment "
+#~ "App</strong>"
+#~ msgstr ""
+#~ "顧客が<strong>アポイントメントアプリ</strong>を使ってオンラインで教習を予"
+#~ "約できるようにしましょう"
+
+#~ msgid "Manage waiver with the <strong>Sign App</strong>"
+#~ msgstr "<strong>署名アプリ</strong>を使って免責同意書を管理します"
+
+#~ msgid "Manage your employees' shifts with the <strong>Planning App</strong>"
+#~ msgstr "<strong>計画アプリ</strong>を使って従業員のシフトを管理しましょう"
+
+#~ msgid "Manage your vehicles with the <strong>Fleet App</strong>"
+#~ msgstr "<strong>フリートアプリ</strong>で車両を管理します"
+
+#~ msgid "Sell lessons, exams and packs from the <strong>Sales App</strong>"
+#~ msgstr ""
+#~ "<strong>販売アプリ</strong>から教習、試験、パックプロダクトを販売しましょ"
+#~ "う"

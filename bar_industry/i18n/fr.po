@@ -7,13 +7,13 @@
 # Wil Odoo, 2024
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# "Manon Rondou (ronm)" <ronm@odoo.com>, 2025.
+# "Manon Rondou (ronm)" <ronm@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 11:41+0000\n"
-"PO-Revision-Date: 2025-11-12 14:42+0000\n"
+"POT-Creation-Date: 2026-06-12 17:38+0000\n"
+"PO-Revision-Date: 2026-04-11 09:34+0000\n"
 "Last-Translator: \"Manon Rondou (ronm)\" <ronm@odoo.com>\n"
 "Language-Team: French <https://translate.odoo.com/projects/odoo-19/"
 "bar_industry/fr/>\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
 "1000000 == 0) ? 1 : 2);\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -57,11 +57,11 @@ msgstr ""
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
 msgid ""
-"2. Create your employees' roles under the \"Work Information\" tab. Some are "
-"already created for this demo."
+"2. Create your employees' roles under the \"Settings\" tab. Some are already "
+"created for this demo."
 msgstr ""
-"2. Ajoutez le rôle de vos employés sous l'onglet « Informations "
-"professionnelles ». Pour cette démo, certains rôles ont déjà été créés."
+"2. Créez les rôles de vos employés dans l’onglet \"Paramètres\". Certains "
+"sont déjà créés pour cette démo."
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -72,18 +72,18 @@ msgstr "2. Réassort"
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
 msgid ""
 "2. To make it more interesting, feel free to create a second order. For this "
-"one, you can simulate an Happy Hour. To do so, click the \"More\" button in "
+"one, you can simulate an Happy Hour. To do so, click the three dots menu in "
 "the order summary, and choose the pricelist \"Happy Hour\" instead of the "
 "Default one.\n"
 "                You will see that if you take twice the same drink, it'll "
 "cost half the price."
 msgstr ""
-"2. Pour que ce soit plus intéressant, n'hésitez pas à créer une deuxième "
-"commande. Vous pouvez ainsi simuler un « Happy Hour ». Cliquez sur le bouton "
-"« Plus » dans le résumé de la commande et choisissez la liste de prix "
-"« Happy Hour » au lieu du tarif par défaut..\n"
-"                Vous verrez que si vous prenez deux fois la même boisson, "
-"cela vous coûtera la moitié du prix."
+"2. Pour rendre cela plus intéressant, n'hésitez pas à créer une deuxième "
+"commande. Vous pouvez ainsi simuler un \"Happy Hour\". Cliquez sur le menu à "
+"trois points dans le résumé de la commande et choisissez la liste de prix "
+"\"Happy Hour\" au lieu de la liste de prix par défaut.\n"
+"Vous verrez que si vous prenez deux fois la même boisson, elle vous coûtera "
+"la moitié du prix."
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -274,11 +274,6 @@ msgid "Bar & Service"
 msgstr "Bar & Service"
 
 #. module: bar_industry
-#: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
-msgid "Basics:"
-msgstr "Les bases :"
-
-#. module: bar_industry
 #: model:pos.category,name:bar_industry.pos_category_3
 msgid "Beers"
 msgstr "Bières"
@@ -337,11 +332,6 @@ msgstr ""
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
-msgid "Do you want to go further?"
-msgstr "Vous souhaitez aller plus loin ?"
-
-#. module: bar_industry
-#: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
 msgid ""
 "Don't forget to hit the \"Order\" button each time you change an order. This "
 "will forward the order to the Kitchen Display."
@@ -373,11 +363,6 @@ msgid "Get on track and explore our recommendations for your Odoo usage here!"
 msgstr ""
 "Prenez un bon départ et découvrez ici nos recommandations pour votre "
 "utilisation d’Odoo !"
-
-#. module: bar_industry
-#: model:product.template,name:bar_industry.product_product_3_product_template
-msgid "Gift Card"
-msgstr "Carte-cadeau"
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -423,10 +408,10 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
 msgid ""
 "If you want to assign them an Odoo user account, you can select a related "
-"user in the \"HR Settings\" tab."
+"user in the same \"Settings\" tab."
 msgstr ""
 "Si vous souhaitez leur attribuer un compte utilisateur Odoo, vous pouvez "
-"sélectionner un utilisateur associé dans l'onglet « Paramètres RH »."
+"sélectionner un utilisateur associé dans le même onglet \"Paramètres\"."
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -617,11 +602,6 @@ msgstr "À faire"
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
-msgid "Use case:"
-msgstr "Cas d'utilisation :"
-
-#. module: bar_industry
-#: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
 msgid ""
 "Use the <strong><font class=\"text-o-color-1\">Inventory App</font></strong> "
 "to manage your stock and receive products."
@@ -800,6 +780,18 @@ msgstr "si vous avez besoin d'aide ! <br/>"
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
 msgid "request a demo"
 msgstr "demander une démonstration"
+
+#~ msgid "Gift Card"
+#~ msgstr "Carte-cadeau"
+
+#~ msgid "Basics:"
+#~ msgstr "Les bases :"
+
+#~ msgid "Do you want to go further?"
+#~ msgstr "Vous souhaitez aller plus loin ?"
+
+#~ msgid "Use case:"
+#~ msgstr "Cas d'utilisation :"
 
 #~ msgid "Default"
 #~ msgstr "Par défaut"

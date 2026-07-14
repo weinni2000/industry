@@ -1,6 +1,6 @@
 {
     'name': 'Furniture Store',
-    'version': '1.1',
+    'version': '1.2',
     'category': 'Retail',
     'depends': [
         'base_industry_data',
@@ -42,6 +42,7 @@
         'data/knowledge_article_favorite.xml',
     ],
     'demo': [
+        'demo/res_company.xml',
         'demo/delivery_carrier.xml',
         'demo/ir_attachment_post.xml',
         'demo/product_template.xml',
@@ -65,6 +66,7 @@
         'data/knowledge_article.xml',
         'demo/website_view.xml',
     ],
+    'application': True,
     'images': ['images/main.png'],
     'url': "https://www.odoo.com/trial?industry&selected_app=furniture_store",
     'website': "https://www.odoo.com/industries/furniture-store",

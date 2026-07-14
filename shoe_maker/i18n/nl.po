@@ -3,13 +3,13 @@
 # * shoe_maker
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# Bren Driesen <brdri@odoo.com>, 2025.
+# Bren Driesen <brdri@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 13:50+0000\n"
-"PO-Revision-Date: 2025-11-06 15:12+0000\n"
+"POT-Creation-Date: 2026-04-10 19:39+0000\n"
+"PO-Revision-Date: 2026-05-30 09:32+0000\n"
 "Last-Translator: Bren Driesen <brdri@odoo.com>\n"
 "Language-Team: Dutch <https://translate.odoo.com/projects/odoo-19/shoe_maker/"
 "nl/>\n"
@@ -18,12 +18,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
 msgid ", and feel free to"
-msgstr "en voel je vrij om"
+msgstr "te duiken. Je kunt ook een"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
@@ -51,24 +51,9 @@ msgid "3. Replenishment"
 msgstr "3. Aanvulling"
 
 #. module: shoe_maker
-#: model:product.attribute.value,name:shoe_maker.product_attribute_value_22
-msgid "36-38"
-msgstr "36-38"
-
-#. module: shoe_maker
 #: model:product.attribute.value,name:shoe_maker.product_attribute_value_7
 msgid "36mm"
 msgstr "36 mm"
-
-#. module: shoe_maker
-#: model:product.attribute.value,name:shoe_maker.product_attribute_value_19
-msgid "38"
-msgstr "38"
-
-#. module: shoe_maker
-#: model:product.attribute.value,name:shoe_maker.product_attribute_value_20
-msgid "38-40"
-msgstr "38-40"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
@@ -82,16 +67,6 @@ msgstr ""
 ">\n"
 "              ​5. Nadat je je bestellingen in de <strong>Kassa-app</strong>, "
 "hebt gefactureerd, markeert het systeem ze als volledig afgehandeld."
-
-#. module: shoe_maker
-#: model:product.attribute.value,name:shoe_maker.product_attribute_value_21
-msgid "40-42"
-msgstr "40-42"
-
-#. module: shoe_maker
-#: model:product.attribute.value,name:shoe_maker.product_attribute_value_23
-msgid "42-44"
-msgstr "42-44"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
@@ -215,12 +190,12 @@ msgstr "<strong>Basis</strong>"
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
 msgid "<strong>Do you want to go further?</strong>"
-msgstr "<strong>Wil je verder gaan?</strong>"
+msgstr "<strong>Wil je nog verder gaan?</strong>"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
 msgid "<strong>How to use this Odoo Industry Package</strong>"
-msgstr "<strong>Hoe gebruik je dit Odoo-industriepakket</strong>"
+msgstr "<strong>Hoe gebruik je dit Odoo-bedrijfstak-pakket</strong>"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
@@ -382,7 +357,7 @@ msgstr ""
 #. module: shoe_maker
 #: model:project.task.type,name:shoe_maker.project_task_type_20
 msgid "Done"
-msgstr "Gereed"
+msgstr "Voltooid"
 
 #. module: shoe_maker
 #: model:hr.department,name:shoe_maker.hr_department_2
@@ -486,9 +461,9 @@ msgid ""
 "populated with demo products, sales orders, purchase orders, and so on. "
 "These are nice to go through the various use cases demonstrated below."
 msgstr ""
-"Als je bij het aanmaken van deze database demogegevens hebt toegevoegd, "
-"wordt deze gevuld met demoproducten, verkooporders, inkooporders, enzovoort. "
-"Deze gegevens zijn handig om de verschillende hieronder gedemonstreerde "
+"Als je bij het aanmaken van deze database demodata hebt toegevoegd, wordt "
+"deze gevuld met demoproducten, verkooporders, inkooporders, enzovoort. Deze "
+"gegevens zijn handig om de verschillende hieronder gedemonstreerde "
 "gebruikssituaties te doorlopen."
 
 #. module: shoe_maker
@@ -562,19 +537,18 @@ msgid ""
 msgstr ""
 "Beheer al je communicatiekanalen op één plek met Odoo\n"
 "                <strong>\n"
-"                    <font class=\"text-o-color-1\">Marketing Automation</"
+"                    <font class=\"text-o-color-1\">Marketingautomatisering</"
 "font>\n"
 "                </strong>\n"
 "                <font class=\"text-o-color-1\">,                <strong>E-"
 "mailmarketing</strong>,\n"
 "                </font>\n"
 "                <strong>\n"
-"                    <font class=\"text-o-color-1\">Social Media Marketing</"
-"font>\n"
+"                    <font class=\"text-o-color-1\">Social Marketing</font>\n"
 "                </strong>\n"
 "                , en\n"
 "                <strong>\n"
-"                    <font class=\"text-o-color-1\">SMS-Marketing</font>\n"
+"                    <font class=\"text-o-color-1\">Sms-marketing</font>\n"
 "                </strong>\n"
 "                ."
 
@@ -655,7 +629,8 @@ msgstr "Odoo biedt je oneindig veel mogelijkheden, zoals:"
 #: model:base.automation,name:shoe_maker.on_last_task_done_turning_order_as_collectible
 msgid "On last task done send email: order ready"
 msgstr ""
-"Bij het voltooien van de laatste taak een e-mail verzenden: bestelling gereed"
+"Bij het voltooien van de laatste taak een e-mail verzenden: bestelling "
+"voltooid"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
@@ -738,10 +713,10 @@ msgid ""
 "lowers beneath the minimum stock, it automatically creates a purchase\n"
 "                    order to replenish to the maximum quantity."
 msgstr ""
-"De aanvulegels worden weergegeven in de slimme knoppen boven je product. Je "
-"ziet een minimum- en maximumhoeveelheid. Elke keer dat de verwachte voorraad "
-"onder het minimum komt, maakt het systeem automatisch een \n"
-"                    inkooporder aan om aan te vullen tot het maximum."
+"Aanvulregels worden weergegeven in de slimme knoppen bovenaan je product. Je "
+"ziet een minimumhoeveelheid en een maximumhoeveelheid. Telkens als de "
+"voorspelde voorraad onder de minimumvoorraad zakt, wordt automatisch een "
+"inkooporder aangemaakt om aan te vullen tot de maximumhoeveelheid."
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
@@ -797,7 +772,7 @@ msgstr "Diensten"
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
 msgid "Shoemaker Services"
-msgstr ""
+msgstr "Schoenmakersdiensten"
 
 #. module: shoe_maker
 #: model:product.template,name:shoe_maker.product_product_53_product_template
@@ -890,7 +865,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
 msgid ""
 "These all go free in your current subscription; feel free to explore! 🙃"
-msgstr "Deze zitten allemaal gratis in je huidige abonnement. Ontdekken maar! 🙃"
+msgstr ""
+"Deze zitten allemaal gratis in je huidige abonnement. Ontdekken maar! 🙃"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
@@ -899,6 +875,9 @@ msgid ""
 "to add new apps and discover new features that can help you manage your "
 "shoemaker business!"
 msgstr ""
+"Dit is slechts een overzicht van de functies in dit pakket. Je kan gerust "
+"nieuwe apps toevoegen en nieuwe functies ontdekken die helpen bij het runnen "
+"van je bedrijf!"
 
 #. module: shoe_maker
 #: model:project.task.type,name:shoe_maker.project_task_type_19
@@ -969,8 +948,8 @@ msgstr ""
 msgid ""
 "When you're done with a task; move it to the <strong>Done Stage</strong>."
 msgstr ""
-"Als je klaar bent met een taak, verplaats je deze naar de fase "
-"<strong>Gereed</strong>."
+"Als je klaar bent met een taak, verplaats je deze naar de fase <strong>"
+"Voltooid</strong>."
 
 #. module: shoe_maker
 #: model:product.attribute.value,name:shoe_maker.product_attribute_value_15
@@ -1026,6 +1005,8 @@ msgid ""
 "You can still import this industry's demo data. In order to do so, go to "
 "Apps &gt; Industries &gt; Upgrade your \"Shoemaker\" package."
 msgstr ""
+"Je kunt nog steeds de demodata van deze bedrijfstak importeren. Ga hiervoor "
+"naar Apps &gt; Bedrijfstakken &gt; Upgrade uw Schoenmaker-pakket."
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
@@ -1072,6 +1053,9 @@ msgid ""
 "You just installed the Odoo for Shoemakers package. By doing so, we have "
 "installed a bunch of recommended apps to run your services efficiently."
 msgstr ""
+"Je hebt zojuist het Odoo-pakket voor Schoenmakers geïnstalleerd. Daarmee "
+"hebben we een aantal noodzakelijke apps geïnstalleerd om je bedrijf "
+"efficiënt te runnen."
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
@@ -1121,3 +1105,18 @@ msgid ""
 msgstr ""
 "{{ object.sale_order_id.company_id.name }} - Order ready (Ref. "
 "{{ object.sale_order_id.name or 'n/a' }})"
+
+#~ msgid "36-38"
+#~ msgstr "36-38"
+
+#~ msgid "38"
+#~ msgstr "38"
+
+#~ msgid "38-40"
+#~ msgstr "38-40"
+
+#~ msgid "40-42"
+#~ msgstr "40-42"
+
+#~ msgid "42-44"
+#~ msgstr "42-44"

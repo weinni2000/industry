@@ -1,6 +1,6 @@
 {
     'name': 'Grocery Store',
-    'version': '1.0',
+    'version': '1.2',
     'category': 'Retail',
     'depends': [
         'account_followup',
@@ -35,7 +35,7 @@
         'data/knowledge_tour.xml',
     ],
     'demo': [
-        'demo/res_users.xml',
+        'demo/res_company.xml',
         'demo/res_partner.xml',
         'demo/product_supplierinfo.xml',
         'demo/loyalty_program.xml',
@@ -52,7 +52,6 @@
         'demo/payment_provider_demo_post.xml',
         'demo/payment_provider.xml',
         'demo/payment_method.xml',
-        'demo/pos_config.xml',
         'demo/pos_session.xml',
         'demo/pos_order.xml',
         'demo/pos_order_line.xml',
@@ -69,6 +68,7 @@
         "data/knowledge_article.xml",
         "static/src/js/my_tour.js",
     ],
+    'application': True,
     'images': ['images/main.png'],
     'url': "https://www.odoo.com/trial?industry&selected_app=fmcg_store",
     'website': "https://www.odoo.com/industries/grocery-store",

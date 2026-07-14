@@ -1,6 +1,6 @@
 {
     'name': 'Bike Shop',
-    'version': '1.0',
+    'version': '1.1',
     'category': 'Retail',
     'author': 'Odoo S.A.',
     'depends': [
@@ -35,8 +35,8 @@
         'data/knowledge_article.xml',
         'data/hr_job.xml',
         'data/pos_category.xml',
-        'data/pos_payment_method.xml',
         'data/pos_config.xml',
+        'data/pos_payment_method.xml',
         'data/project_task_type.xml',
         'data/project_project.xml',
         'data/helpdesk_team.xml',
@@ -58,6 +58,7 @@
         'data/knowledge_article_favorite.xml',
     ],
     'demo': [
+        'demo/res_company.xml',
         'demo/payment_provider_demo.xml',
         'demo/product_template.xml',
         'demo/appointment_type.xml',
@@ -98,6 +99,7 @@
         'data/qweb_views.xml',
         'demo/website_view.xml',
     ],
+    'application': True,
     'images': ['images/main.png'],
     'url': "https://www.odoo.com/trial?industry&selected_app=bike_shop",
     'website': "https://www.odoo.com/all-industries",

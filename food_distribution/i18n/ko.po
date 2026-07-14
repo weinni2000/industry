@@ -3,13 +3,14 @@
 # * food_distribution
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
+# "Kwanghee Park (kwpa)" <kwpa@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 12:24+0000\n"
-"PO-Revision-Date: 2025-09-17 03:02+0000\n"
-"Last-Translator: \"Dylan Kiss (dyki)\" <dyki@odoo.com>\n"
+"POT-Creation-Date: 2026-06-12 18:08+0000\n"
+"PO-Revision-Date: 2026-06-13 10:47+0000\n"
+"Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@odoo.com>\n"
 "Language-Team: Korean <https://translate.odoo.com/projects/odoo-19/"
 "food_distribution/ko/>\n"
 "Language: ko\n"
@@ -17,7 +18,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: food_distribution
+#: model:ir.actions.report,print_report_name:food_distribution.mrp_bom_product_label_action_report
+msgid "'Products Labels - %s' % (object.name)"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -42,6 +48,55 @@ msgstr "5L 통"
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
+"<b>Documents App</b>: Centralize supplier certificates, quality control "
+"reports, and shipping manifests for easy\n"
+"          retrieval during audits."
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"<b>Fleet App</b>: Manage your delivery trucks and vans, tracking fuel logs, "
+"maintenance schedules, and driver\n"
+"          assignments in one place."
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"<b>Inventory App</b>: Master your stock with advanced features like Lots "
+"&amp; Serial Numbers for traceability\n"
+"          and Expiration Dates to enforce FEFO (First Expired, First Out) "
+"removal strategies."
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"<b>Invoicing App</b>: Streamline your billing with automated invoicing based "
+"on delivered quantities, ensuring\n"
+"          accurate financial records."
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"<b>Purchase App</b>: Automate your procurement process with reordering rules "
+"that account for vendor lead times\n"
+"          and seasonal demand spikes."
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"<b>Sales App</b>: Manage complex pricing structures with Pricelists, "
+"allowing you to offer specific deals to\n"
+"          restaurants, retailers, or wholesalers."
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
 msgstr ""
@@ -92,6 +147,13 @@ msgid ""
 msgstr ""
 "<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\" aria-label=\"Banner Warning\">⚠️</i>"
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid ""
+"<span>Batch/Lot: </span>\n"
+"                                                                        <br/>"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -120,6 +182,21 @@ msgstr ""
 "             새로운 데이터베이스를 만들어 보세요.</strong>"
 
 #. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid "<strong>Ingredients: </strong>"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid "<strong>Nutritional Fact</strong>"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid "<strong>Per 100g</strong>"
+msgstr ""
+
+#. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "<strong>Use case</strong>"
 msgstr "<strong>사용 사례</strong>"
@@ -140,7 +217,24 @@ msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"Activate the Food &amp; Drinks Labels settings in the Food Distribution "
+"section."
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_nutritional_facts_active
+msgid "Active"
+msgstr "활성화"
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "Add some Salt and Sugar to secure suppliers for longer on those sides."
+msgstr ""
+
+#. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_4
+msgid "Added Sugar"
 msgstr ""
 
 #. module: food_distribution
@@ -160,6 +254,11 @@ msgid "Also order the Mayonnaise so you can fill those buckets with sauce."
 msgstr ""
 
 #. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.x_nutritional_facts_search_view
+msgid "Archived"
+msgstr "보관됨"
+
+#. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
 "As an Inventory Manager you need to make sure that the production team never "
@@ -169,6 +268,11 @@ msgstr ""
 "재고 관리자로서, 생산팀에 공급되어야 할 항목이 부족하지 않도록 각별히 신경써"
 "야\n"
 "          합니다!"
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid "B.b."
+msgstr "B.b."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -191,6 +295,17 @@ msgid ""
 msgstr ""
 "이 모듈에 데모 데이터를 업로드하면 데이터베이스에 일부 품목판매주문서를\n"
 "            추가할 수 있습니다."
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.res_config_settings_form_view_inherited
+msgid ""
+"Capture food and drink data on product and leverage them in printed labels."
+msgstr ""
+
+#. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_3
+msgid "Carbohydrates"
+msgstr "탄수화물"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -242,6 +357,16 @@ msgstr ""
 "러 개의 소규모 주문으로 분할되었습니다."
 
 #. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid "Demo Lot/SN"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid "Demo Product"
+msgstr ""
+
+#. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
 "Depending on your current stock level, an appropriate replenishment "
@@ -254,6 +379,16 @@ msgstr ""
 "이\n"
 "        간접 수요를 통해 생성됩니다. 예를 들어 아래와 같이 통과\n"
 "디스펜서, 그리고 마요네즈가 있습니다."
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_nutritional_facts_name
+msgid "Description"
+msgstr "설명"
+
+#. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_5
+msgid "Dietary Fibre"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -297,14 +432,29 @@ msgstr ""
 "        디스펜서에 균등하게 배분하세요. <br/>이제 생산 준비가 완료되었습니다!"
 
 #. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_1
+msgid "Energy"
+msgstr "에너지"
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid "Exp."
+msgstr ""
+
+#. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "Expiration Dates"
 msgstr "유통기한"
 
 #. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_6
+msgid "Fat"
+msgstr ""
+
+#. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "Fill in the form by creating or selecting a customer contact."
-msgstr ""
+msgstr "고객 연락처를 생성하거나 선택하여 양식을 작성합니다."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -333,16 +483,26 @@ msgid "Follow the step from each operation to prepare your Mayonnaise batch."
 msgstr ""
 
 #. module: food_distribution
-#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-msgid "Food distribution"
-msgstr "식품 유통"
+#: model:ir.model.fields,field_description:food_distribution.field_res_company_x_module_food_drinks_labels
+#: model:ir.model.fields,field_description:food_distribution.field_res_config_setting_x_module_food_drinks_labels
+msgid "Food & Drinks Labels"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.res_config_settings_form_view_inherited
+msgid "Food Distribution"
+msgstr ""
+
+#. module: food_distribution
+#: model:base.automation,name:food_distribution.automation_toggle_food_drinks_labels
+#: model:ir.actions.server,name:food_distribution.action_toggle_food_drinks_labels
+msgid "Food Distribution: Toggle Food & Drinks Labels"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-msgid ""
-"From the <strong>Inventory App</strong>, keep track of produced lots and "
-"expiration dates."
-msgstr ""
+msgid "Food distribution"
+msgstr "식품 유통"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -362,8 +522,8 @@ msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-msgid "Generate crystal clear quotations with the <strong>Sales App</strong>."
-msgstr "<strong>판매 앱</strong>으로 견적서를 깔끔하게 만들어 보세요."
+msgid "From your product form, open the Labels tab."
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -413,6 +573,23 @@ msgstr ""
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
+"In food industry, ingredients and nutritional facts matter and shall be "
+"captured on labels."
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_ingredients_ingredient_id
+msgid "Ingredient"
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_product_template_ingredients
+msgid "Ingredients"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
 "Introduce more capabilities from the <strong>\n"
 "          <font class=\"text-o-color-1\">Quality App</font>\n"
 "        </strong> to meet the requirements\n"
@@ -424,9 +601,26 @@ msgstr ""
 "        기준을 충족할 수 있습니다."
 
 #. module: food_distribution
-#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-msgid "Invoice your customers from the <strong>Invoicing App</strong>."
-msgstr "<strong>청구서 앱</strong>을 통해 고객에게 청구서를 발행하세요."
+#: model:ir.model.fields,field_description:food_distribution.field_product_template_is_allergen
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_ingredients_is_allergen
+msgid "Is Allergen"
+msgstr ""
+
+#. module: food_distribution
+#: model:uom.uom,name:food_distribution.uom_uom_36
+msgid "Kcal"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_product_template_only_form_view
+msgid "Label"
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_product_template_label_note
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid "Label Note"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -443,12 +637,6 @@ msgid ""
 "          <font class=\"text-o-color-1\"> Barcode App</font>\n"
 "        </strong> to manipulate products\n"
 "        and serials without mistake."
-msgstr ""
-
-#. module: food_distribution
-#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-msgid ""
-"Manage the purchase of raw materials from the <strong>Purchase App</strong>."
 msgstr ""
 
 #. module: food_distribution
@@ -480,9 +668,19 @@ msgid "Mayonnaise Dispenser 2.6L"
 msgstr "마요네즈 디스펜서 2.6L"
 
 #. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_8
+msgid "Mono saturated fatty acids"
+msgstr ""
+
+#. module: food_distribution
 #: model:product.template,name:food_distribution.product_template_5
 msgid "Mustard"
 msgstr "머스타드"
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.x_nutritional_facts_form_view
+msgid "Name..."
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -543,6 +741,20 @@ msgstr ""
 msgid ""
 "Now let's see how spread the work load from the resulting manufacturing "
 "orders."
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_nutritional_fact_nutritional_fact_id
+msgid "Nutritional Fact"
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.actions.act_window,name:food_distribution.act_window_x_nutritional_facts
+#: model:ir.model,name:food_distribution.model_x_nutritional_facts
+#: model:ir.model.fields,field_description:food_distribution.field_product_template_nutritional_facts
+#: model:ir.ui.menu,name:food_distribution.inventory_nutritional_facts_menu
+#: model_terms:ir.ui.view,arch_db:food_distribution.x_nutritional_facts_form_view
+msgid "Nutritional Facts"
 msgstr ""
 
 #. module: food_distribution
@@ -652,16 +864,23 @@ msgid "Pallet 250x 1/6Gn Dispenser"
 msgstr "팔레트 250x 1/6Gn 디스펜서"
 
 #. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_nutritional_facts_parent
+msgid "Parent"
+msgstr ""
+
+#. module: food_distribution
 #: model:product.template,name:food_distribution.product_template_8
 msgid "Pasteurised Liquid Egg"
 msgstr "저온 살균 처리한 액상 계란"
 
 #. module: food_distribution
-#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-msgid ""
-"Process manufacturing work orders with instructions from the "
-"<strong>Shopfloor App</strong>\n"
-"        ."
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_nutritional_fact_per_100g
+msgid "Per 100g"
+msgstr ""
+
+#. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_9
+msgid "Poly saturated fatty acids"
 msgstr ""
 
 #. module: food_distribution
@@ -676,6 +895,37 @@ msgstr ""
 "록 하는 것이 가장 중요합니다.\n"
 "<strong>재고 관리 앱</strong>을 실행하여 이 부분을 어떻게 처리하는지 살펴봅니"
 "다.."
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_ingredients_product_template_id
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_nutritional_fact_product_template_id
+msgid "Product"
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.actions.report,name:food_distribution.mrp_bom_product_label_action_report
+msgid "Product Label"
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.model,name:food_distribution.model_x_product_template_ingredients
+msgid "Product Template Ingredients"
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.model,name:food_distribution.model_x_product_template_nutritional_fact
+msgid "Product Template Nutritional Fact"
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_ingredients_share
+msgid "Proportion (%)"
+msgstr ""
+
+#. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_2
+msgid "Protein"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -693,14 +943,15 @@ msgid "Replenishment Rules"
 msgstr "재보충 규칙"
 
 #. module: food_distribution
-#: model:account.journal,name:food_distribution.cash
-msgid "Sales"
-msgstr "판매"
-
-#. module: food_distribution
 #: model:product.template,name:food_distribution.product_template_6
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_10
 msgid "Salt"
 msgstr "소금"
+
+#. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_7
+msgid "Saturated fatty acids"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -708,6 +959,8 @@ msgid ""
 "Save time preparing the quotation templates which correspond to your "
 "frequent segments!"
 msgstr ""
+"자주 사용하는 세그먼트에 맞게 견적서 템플릿을 미리 준비해서 시간을 절약하세"
+"요!"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -718,6 +971,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "Send your quotation for online signature."
 msgstr "온라인 서명용 견적서 발송."
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_nutritional_facts_sequence
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_ingredients_sequence
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_nutritional_fact_sequence
+msgid "Sequence"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -741,6 +1001,9 @@ msgid ""
 "manufacture\n"
 "      products."
 msgstr ""
+"모두가 힘을 합쳐 기획을 하거나 생산을 진행합니다. <strong>작업 현장 앱</"
+"strong>에서\n"
+"               품목 생산을 시작해 보세요."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -774,7 +1037,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
 "The Bill of Material is accessible from the Manufacturing App Products menu."
-msgstr ""
+msgstr "자재명세서는 제조 관리 앱의 품목 메뉴에서 확인할 수 있습니다."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -792,6 +1055,13 @@ msgstr ""
 "믹싱 탱크 작업장의 설정 및 정리 시간은 환경설정 메뉴에 지정되어 있습니다. 이 "
 "기능을 활용하여\n"
 "          효율적으로 운영해 보세요!"
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"The nutritional fact list is available from the Inventory App, Configuration "
+"menu."
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -857,20 +1127,23 @@ msgstr ""
 "          을 사용해 보세요!"
 
 #. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.res_config_settings_form_view_inherited
+msgid "Traceability"
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_nutritional_facts_unit
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_nutritional_fact_unit
+msgid "Unit"
+msgstr ""
+
+#. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
 "Use the <strong>\n"
 "          <font class=\"text-o-color-1\">Maintenance App</font>\n"
 "        </strong> to keep all your work\n"
 "        centers up and running."
-msgstr ""
-
-#. module: food_distribution
-#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-msgid ""
-"Use the <strong>Manufacturing App</strong> to efficiently plan and execute "
-"production\n"
-"        orders to meet customer demand."
 msgstr ""
 
 #. module: food_distribution
@@ -981,6 +1254,13 @@ msgstr "메인 대시보드에서 Odoo 데이터베이스에 설치된 모든 �
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
+"You can easily maintain from here for each product its list of ingredients, "
+"the nutritional facts and specific notes to add to the label."
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
 "You can now hurry to manufacture the needed products, deliver them prior "
 "sending the invoice\n"
 "      to bill your customer."
@@ -1050,12 +1330,8 @@ msgstr ""
 msgid ""
 "You didn't import demo data? You can still do it. Go to Apps &gt; Industries "
 "&gt; Upgrade\n"
-"          your Bar &amp; Pub package and check the related box"
+"          your Food Distribution package and check the related box"
 msgstr ""
-"데모 데이터를 아직 가져오지 않으셨나요? 지금 바로 가져올 수 있습니다. 앱 "
-"&gt; 인더스트리\n"
-"           &gt; 바 &amp; 펍 패키지 업그레이드로 이동하여 해당 확인란에 표시합"
-"니다."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -1127,6 +1403,11 @@ msgid "if you need help!"
 msgstr "도움이 필요하시면!"
 
 #. module: food_distribution
+#: model:uom.uom,name:food_distribution.uom_uom_37
+msgid "mg"
+msgstr ""
+
+#. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "request a demo"
 msgstr "데모 요청하기"
@@ -1190,6 +1471,11 @@ msgstr "📦 거래처 관리"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid "🖨️ Labels with ingredients and nutritional facts"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "🗓️ Planning your production"
 msgstr "🗓️ 생산 계획"
 
@@ -1197,6 +1483,26 @@ msgstr "🗓️ 생산 계획"
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "🥘 Manufacturing quality products"
 msgstr "🥘 고품질 제품 생산"
+
+#~ msgid "Sales"
+#~ msgstr "판매"
+
+#~ msgid ""
+#~ "You didn't import demo data? You can still do it. Go to Apps &gt; "
+#~ "Industries &gt; Upgrade\n"
+#~ "          your Bar &amp; Pub package and check the related box"
+#~ msgstr ""
+#~ "데모 데이터를 아직 가져오지 않으셨나요? 지금 바로 가져올 수 있습니다. 앱 "
+#~ "&gt; 인더스트리\n"
+#~ "           &gt; 바 &amp; 펍 패키지 업그레이드로 이동하여 해당 확인란에 표"
+#~ "시합니다."
+
+#~ msgid ""
+#~ "Generate crystal clear quotations with the <strong>Sales App</strong>."
+#~ msgstr "<strong>판매 앱</strong>으로 견적서를 깔끔하게 만들어 보세요."
+
+#~ msgid "Invoice your customers from the <strong>Invoicing App</strong>."
+#~ msgstr "<strong>청구서 앱</strong>을 통해 고객에게 청구서를 발행하세요."
 
 #~ msgid ""
 #~ "Now come back to the list of manufacturing orders and open the calendar "

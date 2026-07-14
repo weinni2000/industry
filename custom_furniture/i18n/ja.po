@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-10 10:51+0000\n"
-"PO-Revision-Date: 2025-11-20 09:41+0000\n"
+"PO-Revision-Date: 2025-12-13 19:51+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-19/"
 "custom_furniture/ja/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -375,7 +375,7 @@ msgstr "アクセントチェア"
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid "Add the subcontractor's information."
-msgstr "下請け業者の情報を追加します。"
+msgstr "外注先の情報を追加します。"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -451,7 +451,7 @@ msgstr "<b>製造オーダ</b> ボタンをクリックします。"
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid "Click the <b>Purchase</b> button."
-msgstr ""
+msgstr "<b>購買</b> ボタンをクリックします。"
 
 #. module: custom_furniture
 #: model:sale.order.template.line,name:custom_furniture.sale_order_template_line_1
@@ -476,7 +476,7 @@ msgstr "会議椅子"
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid "Confirm the order."
-msgstr ""
+msgstr "オーダを確定してください。"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -485,6 +485,9 @@ msgid ""
 "different projects, an upcoming delivery, a purchase, and various hours to "
 "plan. These are all automated actions based on your product configuration."
 msgstr ""
+"見積もりを確定します。トップバーを見ると、様々なプロジェクトで様々なタスクが"
+"作成されていることがわかります。これらはすべてプロダクト設定に基づいた自動ア"
+"クションです。"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -498,13 +501,22 @@ msgid ""
 "on the sales order so you never forget to send an intermediary invoice to "
 "sustain your cash flow."
 msgstr ""
+"最初の請求書作成ステップとして、販売オーダから前受金を作成します。これにより"
+"、最初の顧客請求書が\n"
+"        <strong>\n"
+"                <font class=\"text-o-color-1\">請求</font>\n"
+"        </strong>\n"
+"        アプリで生成されます。 次に、"
+"キャッシュフローを維持するために仲介請求書を送信する \"請求スケジュール\" "
+"活動を販売オーダでスケジュールします。"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid ""
 "Create a new MO for the product to be delivered, adapting components or "
 "operations as needed."
-msgstr ""
+msgstr "必要に応じて構成品やオペレーションを変更し、納品するプロダクトの新しい製造オ"
+"ーダを作成します。"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -554,7 +566,7 @@ msgstr "特注壁付棚"
 #: model:product.template,name:custom_furniture.product_product_62_product_template
 #: model:project.project,name:custom_furniture.project_project_6
 msgid "Customer Project Management"
-msgstr ""
+msgstr "顧客プロジェクト管理"
 
 #. module: custom_furniture
 #: model:product.template,name:custom_furniture.product_product_13_product_template
@@ -626,7 +638,8 @@ msgstr ""
 msgid ""
 "Finally, use the <b>Allocation</b> button to assign the MO to the <b>Sales "
 "Order</b>."
-msgstr ""
+msgstr "最後に、<b>割当</b> ボタンを使用して、製造オーダを<b>販売オーダ</b> に割り当"
+"てます。"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -644,7 +657,7 @@ msgid ""
 "class=\"text-o-color-1\">Planning &amp; Timesheets Apps</font></strong>."
 msgstr ""
 "<strong><font class=\"text-o-color-1\"> 計画&amp; タイムシートアプリ</font></"
-"strong>で計画と労働時間を追跡しましょう。"
+"strong>で計画と勤務時間を追跡しましょう。"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -658,7 +671,7 @@ msgstr ""
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid "From the David Patel quotation, we placed"
-msgstr ""
+msgstr "デイビッド・パテルの引用から、"
 
 #. module: custom_furniture
 #: model:sale.order.template.line,name:custom_furniture.sale_order_template_line_3
@@ -732,6 +745,10 @@ msgid ""
 "crucial context, including uploading <b>images</b>, adding <b>documents</b>, "
 "or <b>linking</b> to relevant articles in the Knowledge app."
 msgstr ""
+"<b>バージョン19.1</b> では、このフィールドは<b>HTML</b> を使用しており、重要"
+"なコンテキストを簡単に共有できます。これには、<b>画像</b> のアップロード、<b>"
+"ドキュメント</b> の追加、または<b>リンク</b> をナレッジアプリ内の関連記事に設"
+"定することが含まれます。"
 
 #. module: custom_furniture
 #: model:project.task.type,name:custom_furniture.project_task_type_19
@@ -759,6 +776,11 @@ msgid ""
 "        orders missing to complete this order. Select everything, and click "
 "on \"Replenish\" &gt; \"Order.\""
 msgstr ""
+"このアプリで、必要なプロダクトが現在ないため、配送はまだ出荷できる状態ではな"
+"いことがわかります。オペレーション &gt; 補充に移動すると、このオーダを完了す"
+"るために必要な購買/製造オーダに対して足りない項目のリストが\n"
+"        表示されます。すべてを選択して、「補充」&gt;「オーダ」をクリックして"
+"ください。"
 
 #. module: custom_furniture
 #: model:product.template,name:custom_furniture.product_product_2_product_template
@@ -800,6 +822,8 @@ msgid ""
 "Level up your Manufacture process with the <strong><font class=\"text-o-"
 "color-1\">Manufacturing App</font></strong>."
 msgstr ""
+"<strong><font class=\"text-o-color-1\">製造アプリ</font></strong>で製造プロセ"
+"スをレベルアップ。"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -811,6 +835,13 @@ msgid ""
 "Marketing</font></strong>, and <strong><font class=\"text-o-color-1\">SMS "
 "Marketing</font></strong>."
 msgstr ""
+"Odooの <strong><font class=\"text-o-color-1\">マーケティング自動化</font></st"
+"rong>で <strong><font class=\"text-o-color-1\">Eメールマーケティング</font></"
+"strong>、 \n"
+"                <strong><font class=\"text-o-color-1\">ソーシャルメディアマー"
+"ケティング</font></strong>、そして <strong><font class=\"text-o-color-1\">SMS"
+"マーケティング</font></strong>、 すべてのコミュニケーションチャネルを一元管理"
+"できます。"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -838,6 +869,9 @@ msgid ""
 "Order has created a Project with a bunch of already configured tasks. Follow "
 "the evolution of your project with tasks, stages, status, and activities."
 msgstr ""
+"プロジェクトアプリでプロジェクト全体を管理します。販売オーダでプロジェクトが"
+"有効化され、すでに設定済みのタスクが多数作成されていることが確認できます。タ"
+"スク、ステージ、ステータス、活動でプロジェクトの進捗をフォローしましょう。"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -855,7 +889,7 @@ msgstr ""
 msgid ""
 "Manually adjusting the <b>production schedule</b> via the Manufacturing / "
 "Planning view."
-msgstr ""
+msgstr "製造/計画ビュー<b>製造スケジュール</b>を手動で調整します。"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -870,7 +904,7 @@ msgstr "材料が販売されました。"
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid "Monitoring the <b>availability of components</b> required for each MO."
-msgstr ""
+msgstr "各製造オーダ<b>構成品の在庫状況</b>を監視します。"
 
 #. module: custom_furniture
 #: model:product.attribute.value,name:custom_furniture.product_attribute_value_5
@@ -936,7 +970,8 @@ msgstr ""
 msgid ""
 "Once the <b>project is created</b>, all other necessary activities can be "
 "generated from the <b>top bar</b>."
-msgstr ""
+msgstr "<b>プロジェクトが作成されると</b>、必要なその他の活動はすべて、<b>トップバー<"
+"/b>から生成できます。"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -960,6 +995,8 @@ msgid ""
 "Organise your events and connect with your customers easily with the "
 "<strong><font class=\"text-o-color-1\">Events App</font></strong>."
 msgstr ""
+"<strong><font class=\"text-o-color-1\">イベントアプリ</font></strong>でイベン"
+"トを企画し、顧客と簡単につながることができます。"
 
 #. module: custom_furniture
 #: model:sale.order.template.line,name:custom_furniture.sale_order_template_line_4
@@ -1017,7 +1054,7 @@ msgstr "送信済Eメールを以下にリダイレクト:"
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid "Select <b>Subcontracted Purchase Order services</b>."
-msgstr ""
+msgstr "<b>下請け購買オーダサービス</b>を選択してください。"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1029,6 +1066,11 @@ msgid ""
 "        customer in the <strong> <font class=\"text-o-color-1\">Contact</"
 "font> </strong> app."
 msgstr ""
+"各案件を最大限に活用しましょう。 <strong> <font class=\"text-o-color-1\""
+">CRM</font> </strong> で全てを集約し、リクエストごとに効率的なフォローアップ"
+"を行うことができます。リクエストが具体化してきたら、\n"
+"<strong> <font class=\"text-o-color-1\">連絡先</font> </strong>アプリで顧客を"
+"作成しましょう。"
 
 #. module: custom_furniture
 #: model:project.project,label_tasks:custom_furniture.project_project_6
@@ -1044,13 +1086,18 @@ msgid ""
 "installation\n"
 "                validation <b>worksheet</b>."
 msgstr ""
+"<b>「配送および設置」</b>サービスは、別の<b>「フィールドサービス」</b>プロジ"
+"ェクト内にタスクを生成します。このタスクには、在庫から必要なすべてのプロダク"
+"トリストが含まれ、設置完了の検証用\n"
+"                <b>ワークシート</b>をアップロードすることもできます。"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid ""
 "The <b>Inventory app</b> is very powerful. If your warehouse needs enhanced "
 "features for better product tracking, consult the"
-msgstr ""
+msgstr "<b>在庫アプリ</b>は非常に強力です。倉庫でより高度なプロダクト追跡機能が必要な"
+"場合は、こちらをご覧ください"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1070,18 +1117,21 @@ msgid ""
 "specific view for your worker to keep track of any task in a particular Work "
 "Center."
 msgstr ""
+"製造アプリには製造現場アプリが付属します。これにより、作業員は専用ビューを活"
+"用して、特定の作業区におけるあらゆるタスクを追跡することができます。"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid ""
 "The Manufacturing App provides the production manager with a comprehensive "
 "overview of products to be created and allows them to manage production by:"
-msgstr ""
+msgstr "製造アプリは、製造マネジャーに作成すべきプロダクトの包括的な一覧を提供し、次"
+"の方法で生産を管理できるようにします："
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid "The Project App offers three key functions:"
-msgstr ""
+msgstr "プロジェクトアプリの3つの主要機能："
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1093,6 +1143,11 @@ msgid ""
 "occur <b>one month prior to the project's final completion date</b>, thereby "
 "automating key deadline setting."
 msgstr ""
+"このプロジェクトテンプレートは 12月1日–31日に設定されており、<b>顧客技術情報"
+"のレビュー</b>タスクは12月1日–2日に設定されています。\n"
+"                        その結果、このテンプレートを基に作成される新しいプロ"
+"ジェクトでは、プロジェクトの最終完了日の<b>1 か月前</b>にその重要な初期タスク"
+"が自動的にスケジューリングされ、主要な締め切り設定が自動化されます。"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1108,6 +1163,14 @@ msgid ""
 "                automatically generated in the project's planning system for "
 "the specific role required by each service."
 msgstr ""
+"サービス<b>「コンセプト開発と3Dレンダリング」</b> および<b> 「デザインプレゼ"
+"ンテーションと修正」</b> は、新規生成されたプロジェクト内で自動的に<b>新規タ"
+"スク</b> を作成します。これにより、プロジェクトは\n"
+"               <b> プロジェクトテンプレートから事前定義されたタスク</b>と<b>"
+"見積もりから追加された特別タスク</b>を統合できます。さらに、これらのサービス"
+"は<b> 「プランサービス」</b> 設定で構成されているため、各サービスに必要な特定"
+"の役割に対して、プロジェクトの計画システム内で作業<b>シフト</b> が\n"
+"                自動的に生成されます。"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1128,7 +1191,8 @@ msgid ""
 "This subcontracted service (<b>\"Initial design consultation and space "
 "assessment\"</b>) automatically triggers the creation of a <b>Purchase "
 "Order</b>."
-msgstr ""
+msgstr "この下請けサービス(<b>「初期デザイン相談および空間評価」</b>)は、自動的に<b>"
+"購買オーダ</b>の作成をトリガします。"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1161,13 +1225,17 @@ msgid ""
 "service initiates a new project using the <b>\"Customer Project Management\" "
 "Template</b>. This template's power lies in its date logic:"
 msgstr ""
+"販売オーダが確定すると、<b>「顧客プロジェクト管理」</b>サービスは、<b>「顧客"
+"プロジェクト管理」テンプレート</b>を使用して新しいプロジェクトを開始します。"
+"このテンプレートの強みは、その日付ロジックにあります。"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid ""
 "Use the <b>settings</b> in the <b>quotation section</b> to <b>control the "
 "visibility</b> of prices and composition"
-msgstr ""
+msgstr "<b>設定</b>(<b>見積もりセクション</b>内) を使用し、価格と構成の<b>表示をコン"
+"トロール</b>できます"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1200,6 +1268,10 @@ msgid ""
 "and\n"
 "        replacements in case of leave."
 msgstr ""
+"フィールドサービス <strong><font class=\"text-o-color-1\">​</font></strong>ア"
+"プリで計画を活用し、従業員の業務を整理しましょう。どのプロジェクトでいつ作業"
+"を行うかを定義します。シフトの重複、作業負荷、休暇中の代理を簡単に\n"
+"        管理します。"
 
 #. module: custom_furniture
 #: model_terms:web_tour.tour,rainbow_man_message:custom_furniture.knowledge_tour
@@ -1214,11 +1286,15 @@ msgid ""
 "<b>Miscellaneous tab</b>. This information will then appear in the\n"
 "                <b>Shop Floor app</b> for the employees to see."
 msgstr ""
+"製造オーダに製造チーム向けの特別な指示が必要な場合は、製造オーダの<b>メモ欄</"
+"b>(製造オーダの<b>その他タブ</b>内)に詳細を追加します。この情報は、従業員が確"
+"認できるよう、\n"
+"                <b>製造現場アプリ</b>に表示されます。"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid "When the MO is complete, confirm it and then plan it."
-msgstr ""
+msgstr "製造オーダが完成したら、確定し、その後計画を立てます。"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1229,6 +1305,10 @@ msgid ""
 "on the\n"
 "        smart button and validate this picking."
 msgstr ""
+"製造が完了したら、最終的に顧客へオーダ全体を納品できます。そのためには、フィ"
+"ールドサービス アプリへ移動します。設置タスクから、引き取りが必要なすべてのプ"
+"ロダクトを確認できます。スマートボタン\n"
+"        をクリックし、このピッキングを検証してください。"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1256,6 +1336,8 @@ msgid ""
 "<b>customized worksheet</b> and obtain the necessary <b>customer signature</"
 "b>."
 msgstr ""
+"このフィールドサービスのタスクでは<b>検証</b>(独自に<b>カスタマイズしたワーク"
+"シート</b>を)して、必要な<b>顧客署名</b>を取得することもできます。"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1319,6 +1401,9 @@ msgid ""
 "scanner</b>, and\n"
 "                access many other advanced options."
 msgstr ""
+"<b>ロケーション</b>の調整方法、<b>バーコードスキャナ</b>の利用方法、その他\n"
+"                多くの高度なオプションにアクセスする方法については、ドキュメ"
+"ントをご参照ください。"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1368,12 +1453,12 @@ msgstr "🎓 プロジェクト"
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid "🎓 Quality"
-msgstr ""
+msgstr "🎓 品質"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid "🎓 Shopfloor"
-msgstr ""
+msgstr "🎓 製造現場"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body

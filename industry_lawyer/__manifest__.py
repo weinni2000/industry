@@ -41,7 +41,7 @@
         'data/website_theme_apply.xml',
     ],
     'demo': [
-        'demo/res_users.xml',
+        'demo/res_company.xml',
         'demo/res_partner.xml',
         'demo/crm_lead.xml',
         'demo/mail_activity.xml',
@@ -75,6 +75,7 @@
         "data/website_view.xml",
         "demo/website_view.xml",
     ],
+    'application': True,
     'images': ['images/main.png'],
     'url': "https://www.odoo.com/trial?industry&selected_app=industry_lawyer",
     'website': "https://www.odoo.com/industries/law-firm",

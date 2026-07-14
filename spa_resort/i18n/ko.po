@@ -2,14 +2,14 @@
 # This file contains the translation of the following modules:
 # * spa_resort
 #
-# "Kwanghee Park (kwpa)" <kwpa@odoo.com>, 2025.
+# "Kwanghee Park (kwpa)" <kwpa@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.5a1+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 14:09+0000\n"
-"PO-Revision-Date: 2025-11-20 09:41+0000\n"
+"POT-Creation-Date: 2026-04-10 19:41+0000\n"
+"PO-Revision-Date: 2026-01-29 07:51+0000\n"
 "Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@odoo.com>\n"
 "Language-Team: Korean <https://translate.odoo.com/projects/odoo-19/"
 "spa_resort/ko/>\n"
@@ -18,18 +18,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.massages_treatments
-#, fuzzy
 msgid "&amp;nbsp;Deep Tissue Massage (50 min)"
 msgstr "&amp;nbsp;딥 티슈 마사지 (50분)"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.massages_treatments
 msgid "&amp;nbsp;Duo Massage (50 min, 2 persons)"
-msgstr ""
+msgstr "&amp;nbsp;커플 마사지 (50분, 2인)"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.wellness_access
@@ -65,7 +64,7 @@ msgstr "주문 시 10%"
 #: model:product.template,name:spa_resort.product_product_21_product_template
 #: model_terms:ir.ui.view,arch_db:spa_resort.wellness_access
 msgid "10-Day Wellness Pass"
-msgstr ""
+msgstr "10일 웰니스 패스"
 
 #. module: spa_resort
 #: model:product.template,name:spa_resort.product_product_37_product_template
@@ -82,47 +81,17 @@ msgstr "일부 제품 100% 적용"
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.massages_treatments
 msgid "130€ per couple"
-msgstr ""
-
-#. module: spa_resort
-#: model:product.template,name:spa_resort.product_product_36_product_template
-msgid "15%"
-msgstr "15%"
+msgstr "커플당 €130"
 
 #. module: spa_resort
 #: model:loyalty.program,name:spa_resort.loyalty_program_4
 msgid "15% Off - Influencer"
-msgstr ""
+msgstr "15% 할인 - 인플루언서"
 
 #. module: spa_resort
 #: model:loyalty.reward,description:spa_resort.loyalty_reward_7
 msgid "15% on specific products"
-msgstr ""
-
-#. module: spa_resort
-#: model_terms:ir.ui.view,arch_db:spa_resort.wellness_access
-msgid "25€"
-msgstr "25€"
-
-#. module: spa_resort
-#: model_terms:ir.ui.view,arch_db:spa_resort.wellness_access
-msgid "29€"
-msgstr "29€"
-
-#. module: spa_resort
-#: model_terms:ir.ui.view,arch_db:spa_resort.wellness_access
-msgid "39€"
-msgstr "39€"
-
-#. module: spa_resort
-#: model_terms:ir.ui.view,arch_db:spa_resort.massages_treatments
-msgid "70€"
-msgstr "70€"
-
-#. module: spa_resort
-#: model_terms:ir.ui.view,arch_db:spa_resort.massages_treatments
-msgid "75€"
-msgstr "75€"
+msgstr "15% 지정 품목 할인"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.homepage
@@ -134,9 +103,8 @@ msgstr ""
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.wellness_access
 msgid ""
-"<a t-att-"
-"href=\"request.env.ref('spa_resort.product_product_21').website_url\" "
-"class=\"btn btn-primary o_translate_inline\">Buy your wellness journey</a>"
+"<a href=\"/shop/10-day-wellness-pass-15\" class=\"btn btn-primary "
+"o_translate_inline\">Buy your wellness journey</a>"
 msgstr ""
 
 #. module: spa_resort
@@ -159,8 +127,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">💡</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Info\">💡</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">💡</i>"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
@@ -168,8 +136,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
 "normal\">🚀</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Info\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
+"<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
+"normal\">🚀</i>"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
@@ -177,8 +145,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\">🎉</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Success\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\">🎉</i>"
+"<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
+"fst-normal\">🎉</i>"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
@@ -186,8 +154,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\">⚠️</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Warning\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
+"<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
+"fst-normal\">⚠️</i>"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
@@ -212,6 +180,8 @@ msgid ""
 "<span class=\"display-4-fs\">Our Wellness Offer</span>\n"
 "                  <br/>"
 msgstr ""
+"<span class=\"display-4-fs\">웰빙 제품 소개</span>\n"
+"                  <br/>"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.homepage
@@ -228,6 +198,8 @@ msgid ""
 "<span style=\"font-size: 30px;\">Basics</span><span class=\"h1-fs\">\n"
 "        </span>"
 msgstr ""
+"<span style=\"font-size: 30px;\">기본 사항</span><span class=\"h1-fs\">\n"
+"        </span>"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.homepage
@@ -244,6 +216,51 @@ msgstr ""
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "<strong> Plan Shifts</strong>"
+msgstr "<strong> 교대근무 계획</strong>"
+
+#. module: spa_resort
+#: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
+msgid ""
+"<strong><b>Appointment App</b>: </strong>Manage bookings for spa entrances "
+"and massages with a clear, flexible schedule that prevents double-booking."
+"<br/>"
+msgstr ""
+
+#. module: spa_resort
+#: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
+msgid ""
+"<strong><b>Inventory App</b>: </strong>Monitor the consumption of wellness "
+"products like essential oils and towels to ensure you are always prepared."
+"<br/>"
+msgstr ""
+
+#. module: spa_resort
+#: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
+msgid ""
+"<strong><b>Planning App</b>: </strong>Organize your therapists' schedules "
+"efficiently to match staff availability with treatment bookings.<br/>"
+msgstr ""
+
+#. module: spa_resort
+#: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
+msgid ""
+"<strong><b>Point of Sale App</b>: </strong>Upsell relaxation by selling "
+"tickets, cosmetics, and accessories like bathrobes directly at the reception."
+"<br/>"
+msgstr ""
+
+#. module: spa_resort
+#: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
+msgid ""
+"<strong><b>Sales App</b>: </strong>Handle complex bookings like group offers "
+"and special spa packages by sending professional quotations.<br/>"
+msgstr ""
+
+#. module: spa_resort
+#: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
+msgid ""
+"<strong><b>Website &amp; eCommerce App</b>: </strong>Showcase your wellness "
+"menu online, allowing guests to book treatments and buy gift cards 24/7.<br/>"
 msgstr ""
 
 #. module: spa_resort
@@ -255,20 +272,13 @@ msgstr ""
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
-msgid ""
-"<strong>Appointment</strong>: Manage bookings for spa entrance and massages "
-"with a clear and flexible schedule."
-msgstr ""
-
-#. module: spa_resort
-#: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "<strong>Coupons</strong>"
 msgstr "<strong>쿠폰 - </strong>"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "<strong>Define Hours &amp; Roles</strong>"
-msgstr ""
+msgstr "<strong>시간 및 역할 지정</strong>"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
@@ -284,15 +294,8 @@ msgstr "<strong>기프트 카드</strong>"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
-msgid ""
-"<strong>Inventory</strong>: Monitor wellness products like oils, cosmetics, "
-"and accessories (bathrobes, slippers,...)."
-msgstr ""
-
-#. module: spa_resort
-#: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "<strong>Link Appointments to Products</strong>"
-msgstr ""
+msgstr "<strong>제품에 예약 항목 연결하기</strong>"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
@@ -318,19 +321,7 @@ msgstr "<strong>매입 관리</strong>"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
-msgid "<strong>Planning</strong>: Schedule staff for entrances and treatments."
-msgstr ""
-
-#. module: spa_resort
-#: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "<strong>Point of Sale (POS) at Reception</strong>"
-msgstr ""
-
-#. module: spa_resort
-#: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
-msgid ""
-"<strong>Point of Sale (POS)</strong>: Sell tickets, accessories, or "
-"cosmetics directly on-site."
 msgstr ""
 
 #. module: spa_resort
@@ -352,20 +343,13 @@ msgstr ""
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
-msgid ""
-"<strong>Sales</strong>: Send quotations, confirm group offers, and handle "
-"special spa packages."
-msgstr ""
-
-#. module: spa_resort
-#: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "<strong>Set Pricelists</strong>"
 msgstr "<strong>가격표 설정</strong>"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "<strong>Set Up Appointments</strong>"
-msgstr ""
+msgstr "<strong>예약 설정</strong>"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
@@ -380,14 +364,7 @@ msgstr "<strong>품목 추적</strong>"
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "<strong>Website &amp; eCommerce</strong>"
-msgstr ""
-
-#. module: spa_resort
-#: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
-msgid ""
-"<strong>Website &amp; eCommerce</strong>: Showcase your wellness offers and "
-"allow online bookings."
-msgstr ""
+msgstr "<strong>웹사이트 &amp; 이커머스</strong>"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.wellness_access
@@ -413,7 +390,7 @@ msgstr ""
 #. module: spa_resort
 #: model:pos.category,name:spa_resort.pos_category_1
 msgid "Accessories / Spa Essentials"
-msgstr ""
+msgstr "액세서리 / 스파 필수용품"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
@@ -439,7 +416,7 @@ msgstr ""
 #. module: spa_resort
 #: model:product.template,name:spa_resort.product_product_25_product_template
 msgid "Aromatherapy Massage Oil (100ml)"
-msgstr ""
+msgstr "아로마테라피 마사지 오일 (100ml)"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
@@ -472,7 +449,7 @@ msgstr "샤워가운 대여"
 #: model_terms:ir.ui.view,arch_db:spa_resort.massages_treatments
 #: model_terms:ir.ui.view,arch_db:spa_resort.wellness_access
 msgid "Book now, relax soon"
-msgstr ""
+msgstr "지금 바로 예약 후 편안하게 즐겨보세요"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.homepage
@@ -484,8 +461,9 @@ msgstr "지금 구매하기"
 msgid ""
 "By uploading this module's demo data, your database has been filled with a "
 "few contacts."
-msgstr "이 모듈의 데모 데이터를 업로드하면 데이터베이스가 몇 개의 연락처로 "
-"채워집니다."
+msgstr ""
+"이 모듈의 데모 데이터를 업로드하면 데이터베이스가 몇 개의 연락처로 채워집니"
+"다."
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.homepage
@@ -524,7 +502,7 @@ msgstr "쿠폰 프로그램"
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "Create Your Wellness Offers"
-msgstr ""
+msgstr "웰니스 제안 생성하기"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
@@ -541,20 +519,20 @@ msgstr ""
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "Day Pass - Serenity Escape"
-msgstr ""
+msgstr "일일 이용권 - 세레니티 이스케이프"
 
 #. module: spa_resort
 #: model:appointment.type,name:spa_resort.appointment_type_4
 #: model:product.template,name:spa_resort.product_product_27_product_template
 #: model_terms:ir.ui.view,arch_db:spa_resort.wellness_access
 msgid "Day Pass – Serenity Escape"
-msgstr ""
+msgstr "일일 이용권 – 세레니티 이스케이프"
 
 #. module: spa_resort
 #: model:appointment.type,name:spa_resort.appointment_type_1
 #: model:product.template,name:spa_resort.product_product_30_product_template
 msgid "Deep Tissue Massage"
-msgstr ""
+msgstr "심층 조직 마사지"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
@@ -585,7 +563,7 @@ msgstr ""
 #: model:appointment.type,name:spa_resort.appointment_type_3
 #: model:product.template,name:spa_resort.product_product_32_product_template
 msgid "Duo Massage (2 persons)"
-msgstr ""
+msgstr "커플 마사지 (2인)"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
@@ -643,7 +621,7 @@ msgstr ""
 #. module: spa_resort
 #: model:product.template,name:spa_resort.product_product_34_product_template
 msgid "Free relax time"
-msgstr ""
+msgstr "자유 휴식 시간"
 
 #. module: spa_resort
 #: model:product.template,name:spa_resort.product_product_20_product_template
@@ -661,7 +639,7 @@ msgstr "기프트 카드"
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 #: model_terms:ir.ui.view,arch_db:spa_resort.wellness_access
 msgid "Golden Age Retreat (65+)"
-msgstr ""
+msgstr "실버 휴양지 (65세 이상)"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
@@ -694,7 +672,7 @@ msgstr "적립 포인트"
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "Manage Inventory &amp; Services"
-msgstr ""
+msgstr "재고 및 서비스 관리"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
@@ -711,17 +689,17 @@ msgstr ""
 #. module: spa_resort
 #: model:website.menu,name:spa_resort.website_menu_2
 msgid "Massages & Treatments"
-msgstr ""
+msgstr "마사지 및 트리트먼트"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.massages_treatments
 msgid "Massages &amp;amp; Treatments"
-msgstr ""
+msgstr "마사지 및 트리트먼트"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.homepage
 msgid "Massages &amp;amp; Treatments<br/><br/>"
-msgstr ""
+msgstr "마사지 및 트리트먼트<br/><br/>"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
@@ -731,15 +709,16 @@ msgstr ""
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "Odoo for Spa Resort"
-msgstr ""
+msgstr "Odoo 스파 리조트"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid ""
 "Odoo is entirely integrated into an App. Download it to turn your phone to "
 "manage your entire business in it."
-msgstr "Odoo는 모바일 앱과도 완벽하게 통합되어 있습니다. 스마트폰에 앱을 "
-"다운로드하여 비즈니스 전체를 관리하세요."
+msgstr ""
+"Odoo는 모바일 앱과도 완벽하게 통합되어 있습니다. 스마트폰에 앱을 다운로드하"
+"여 비즈니스 전체를 관리하세요."
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
@@ -755,8 +734,8 @@ msgid ""
 "package. Feel free to add new apps, delete/modify demo data, and test "
 "everything around!"
 msgstr ""
-"이 개요에서는 이 패키지에 포함된 기능을 중점적으로 설명합니다. 자유롭게 새 "
-"앱을 추가하고, 데모 데이터를 수정 또는 삭제하고, 모든 기능을 테스트해 보세요!"
+"이 개요에서는 이 패키지에 포함된 기능을 중점적으로 설명합니다. 자유롭게 새 앱"
+"을 추가하고, 데모 데이터를 수정 또는 삭제하고, 모든 기능을 테스트해 보세요!"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
@@ -791,13 +770,13 @@ msgstr ""
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.massages_treatments
 msgid "Radiance Facial (50 min)&amp;nbsp;"
-msgstr ""
+msgstr "라디언스 페이셜 (50분)&amp;nbsp;"
 
 #. module: spa_resort
 #: model:appointment.type,name:spa_resort.appointment_type_2
 #: model:product.template,name:spa_resort.product_product_31_product_template
 msgid "Radiance Facial Massage"
-msgstr ""
+msgstr "광채 페이셜 마사지"
 
 #. module: spa_resort
 #: model:planning.role,name:spa_resort.planning_role_1
@@ -815,12 +794,12 @@ msgstr ""
 #. module: spa_resort
 #: model:product.template,name:spa_resort.product_product_24_product_template
 msgid "Relaxing Body Cream (250ml)"
-msgstr ""
+msgstr "릴렉싱 바디 크림 (250ml)"
 
 #. module: spa_resort
 #: model:product.template,name:spa_resort.product_product_26_product_template
 msgid "Revitalizing Face Mask (50ml)"
-msgstr ""
+msgstr "리바이탈라이징 페이스 마스크 (50ml)"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
@@ -895,7 +874,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 #: model_terms:ir.ui.view,arch_db:spa_resort.wellness_access
 msgid "Student Wellness Break"
-msgstr ""
+msgstr "학생용 웰니스 휴식"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.wellness_access
@@ -938,12 +917,12 @@ msgstr ""
 #. module: spa_resort
 #: model:pos.category,name:spa_resort.pos_category_2
 msgid "Treatments / Wellness Products"
-msgstr ""
+msgstr "트리트먼트 / 웰니스 제품"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.homepage
 msgid "View Wellness Entries"
-msgstr ""
+msgstr "웰니스 항목 보기"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
@@ -959,12 +938,12 @@ msgstr "웰빙 액세스"
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.wellness_access
 msgid "Wellness Access &amp;amp; Spa Entries"
-msgstr ""
+msgstr "웰니스 이용권 및 스파 이용권"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.homepage
 msgid "Wellness Gift Card – €50"
-msgstr ""
+msgstr "웰니스 상품권 – €50"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
@@ -998,8 +977,9 @@ msgstr ""
 msgid ""
 "You completed that demo use case! There are millions of other ways to adapt "
 "your Odoo setup to fit your business needs."
-msgstr "데모 사용 사례를 완료했습니다! 비즈니스 요구에 맞게 Odoo 설정을 조정할 수 "
-"있는 다른 방법은 무수히 많습니다."
+msgstr ""
+"데모 사용 사례를 완료했습니다! 비즈니스 요구에 맞게 Odoo 설정을 조정할 수 있"
+"는 다른 방법은 무수히 많습니다."
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
@@ -1060,7 +1040,7 @@ msgstr "도움이 필요하실 경우 알려주세요!"
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.homepage
 msgid "person holding amber glass bottle"
-msgstr ""
+msgstr "호박색 유리병을 들고 있는 사람"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.massages_treatments
@@ -1086,3 +1066,21 @@ msgstr "불을 켠 촛불을 3등분한 사진"
 #: model_terms:ir.ui.view,arch_db:spa_resort.homepage
 msgid "water ripple"
 msgstr "물결 무늬"
+
+#~ msgid "15%"
+#~ msgstr "15%"
+
+#~ msgid "25€"
+#~ msgstr "25€"
+
+#~ msgid "29€"
+#~ msgstr "29€"
+
+#~ msgid "39€"
+#~ msgstr "39€"
+
+#~ msgid "70€"
+#~ msgstr "70€"
+
+#~ msgid "75€"
+#~ msgstr "75€"

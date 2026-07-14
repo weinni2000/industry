@@ -1,6 +1,6 @@
 {
     'name': 'Cosmetics Store',
-    'version': '1.0',
+    'version': '1.2',
     'category': 'Retail',
     'author': 'Odoo S.A.',
     'depends': [
@@ -37,7 +37,7 @@
         'data/knowledge_tour.xml',
     ],
     'demo': [
-        'demo/res_users.xml',
+        'demo/res_company.xml',
         'demo/payment_provider_demo.xml',
         'demo/stock_quant.xml',
         'demo/product_template.xml',
@@ -56,7 +56,6 @@
         'demo/ir_attachment_post.xml',
         'demo/sale_order_line.xml',
         'demo/website_view.xml',
-        'demo/website_page.xml',
         'demo/loyalty_rule.xml',
         'demo/hr_employee.xml',
         'demo/sale_order_confirm.xml',
@@ -75,6 +74,7 @@
         'demo/website_view.xml',
         'static/src/js/my_tour.js',
     ],
+    'application': True,
     'images': ['images/main.png'],
     'url': "https://www.odoo.com/trial?industry&selected_app=cosmetics_store",
     'website': "https://www.odoo.com/all-industries",

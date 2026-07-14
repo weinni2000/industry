@@ -10,39 +10,24 @@
 # Wil Odoo, 2024
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
-# "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2025.
+# "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-28 12:28+0000\n"
-"PO-Revision-Date: 2025-11-17 11:08+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-04-10 19:31+0000\n"
+"PO-Revision-Date: 2026-06-06 14:53+0000\n"
+"Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@odoo.com>\n"
 "Language-Team: Spanish <https://translate.odoo.com/projects/odoo-19/"
 "micro_brewery/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
-" ? 1 : 2);\n"
-"X-Generator: Weblate 5.12.2\n"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3686
-msgid "+1 555-555-5556"
-msgstr "+1 555-555-5556"
-
-#. module: micro_brewery
-#: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_17
-msgid "+16"
-msgstr "+16"
-
-#. module: micro_brewery
-#: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_18
-msgid "+18"
-msgstr "+18"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
+"0) ? 1 : 2);\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -129,6 +114,15 @@ msgstr ""
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Warning\">⚠️</i>"
+msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Mensaje de advertencia\">⚠️</i>"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
 msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
 
@@ -163,7 +157,7 @@ msgstr ""
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "<span class=\"h1-fs\">Do you want to go further?</span>"
-msgstr "<span class=\"h1-fs\">¿Quiere llegar más lejos?</span>"
+msgstr "<span class=\"h1-fs\">¿Quieres saber más?</span>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -354,16 +348,6 @@ msgstr ""
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid "<strong>Excise categories maintenance</strong>"
-msgstr "<strong>Mantenimiento de categorías de impuestos especiales</strong>"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid "<strong>Excise reporting</strong>"
-msgstr "<strong>Informes de impuestos especiales</strong>"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
 "<strong>Indicate if there are instructions</strong> the operator should do "
 "during some operation, for example:"
@@ -419,7 +403,7 @@ msgid ""
 "Add products in your cart and pay using the payment method \"Demo\" which is "
 "a fake payment method you can use to test flows."
 msgstr ""
-"Añade productos al carrito y realiza el pago con el método de pago «Demo». "
+"Añade productos a la cesta y realiza el pago con el método de pago «Demo». "
 "Este es un método de ficticio que puedes utilizar para probar los flujos."
 
 #. module: micro_brewery
@@ -456,13 +440,8 @@ msgstr "Ámber"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid ""
-"Apply DEP XX taxes to those products, creating some if necessary, and assign "
-"them a category with \"Is a deposit category\" set like the Deposit category."
-msgstr ""
-"Aplique los impuestos DEP XX a esos productos, cree algunos si es necesario, "
-"y asígneles una categoría con «Es una categoría de depósito» configurada "
-"como la categoría de depósito."
+msgid "As workarounds, you might:"
+msgstr "Como alternativa, puedes:"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -481,21 +460,6 @@ msgid ""
 "table."
 msgstr ""
 "En cualquier momento puede elegir una mesa y registrar el pago para cerrarla."
-
-#. module: micro_brewery
-#: model:base.automation,name:micro_brewery.auto_production
-msgid "Auto Production"
-msgstr "Producción automática"
-
-#. module: micro_brewery
-#: model:ir.model.fields,field_description:micro_brewery.field_aut_production
-msgid "Auto-production"
-msgstr "Producción automática"
-
-#. module: micro_brewery
-#: model:base.automation,name:micro_brewery.bom_automation
-msgid "Automated BoM"
-msgstr "LdM automatizada"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -625,6 +589,16 @@ msgid "Bottle"
 msgstr "Botella"
 
 #. module: micro_brewery
+#: model:product.template,name:micro_brewery.product_template_90
+msgid "Bottle 33cl"
+msgstr "Botella de 33 cl"
+
+#. module: micro_brewery
+#: model:product.template,name:micro_brewery.product_template_53
+msgid "Bottles 24x33cl"
+msgstr "Botellas de 24 x 33 cl"
+
+#. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Bottling - Work center: Bottler"
 msgstr "Embotellado - Centro de trabajo: Embotellador"
@@ -705,9 +679,9 @@ msgid ""
 "but you can edit the page and change the behavior of the submit button to "
 "create a lead into the CRM application instead."
 msgstr ""
-"Por defecto, la página \"Contáctenos\" del sitio web le enviará un correo "
-"electrónico, pero puede editar la página y cambiar el comportamiento del "
-"botón de envío para crear un lead en la aplicación CRM."
+"Por defecto, la página \"Contacta con nosotros\" del sitio web le enviará un "
+"correo electrónico, pero puede editar la página y cambiar el comportamiento "
+"del botón de envío para crear un lead en la aplicación CRM."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -743,17 +717,16 @@ msgstr "Chaudfontaine"
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
-"Collect deposit when you deliver your customer. It is easy. When validating "
-"your delivery, you can directly set a \"Return\" and precisely count the "
-"number of each type of deposit your customer gave you. It will automatically "
-"be\n"
-"        reflected on his invoice or issue a credit note."
+"Collect deposits when you deliver to your customer. It is easy. When "
+"validating your delivery, you can directly set a \"Return\" and precisely "
+"count the number of each type of deposit your customer gave you. It will "
+"automatically be reflected on his invoice or issue a credit note."
 msgstr ""
-"Cobre el depósito cuando haga la entrega a su cliente, es muy fácil. Al "
-"validar la entrega puede configurar una “Devolución” y contar con precisión "
-"el número de cada tipo de depósito que le haya entregado su cliente. Este se "
-"reflejará automáticamente\n"
-"         en su factura o emitirá una factura rectificativa."
+"Cobra el depósito en el momento de la entrega al cliente. Es muy fácil: al "
+"validar la entrega, puedes registrar una «Devolución» y anotar con precisión "
+"el número de envases que te haya entregado el cliente. Esta información se "
+"reflejará automáticamente en la factura o se generará la correspondiente "
+"factura rectificativa."
 
 #. module: micro_brewery
 #: model:product.attribute,name:micro_brewery.product_attribute_3
@@ -768,14 +741,14 @@ msgstr "Visite nuestra cervecería <br/>"
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3686
 msgid "Connect with us"
-msgstr "Contáctenos"
+msgstr "Contacta con nosotros"
 
 #. module: micro_brewery
 #: model:website.menu,name:micro_brewery.website_menu_6
 #: model_terms:ir.ui.view,arch_db:micro_brewery.contactus
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3686
 msgid "Contact us"
-msgstr "Contáctenos"
+msgstr "Contacta con nosotros"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.contactus
@@ -784,15 +757,10 @@ msgid ""
 "                                            We'll do our best to get back to "
 "you as soon as possible."
 msgstr ""
-"Contáctenos sobre cualquier cosa relacionada con nuestra empresa o servicios."
-"<br/>\n"
+"Contacta con nosotros sobre cualquier cosa relacionada con nuestra empresa o "
+"servicios.<br/>\n"
 "                                            Haremos todo lo posible por "
 "responderle a la brevedad."
-
-#. module: micro_brewery
-#: model:ir.model.fields,field_description:micro_brewery.field_quantity_by_deposit_product
-msgid "Contains"
-msgstr "Contiene"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -802,6 +770,30 @@ msgid ""
 msgstr ""
 "Elaboración de cerveza - Uso mayoritario de <font class=\"text-o-"
 "color-1\"><strong>Fabricación</strong></font>"
+
+#. module: micro_brewery
+#: model:product.template,name:micro_brewery.product_template_55
+msgid "Crate & Bottles 24x33cl"
+msgstr "Caja y botellas 24 x 33 cl"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"Crate &amp; Bottles 24x33cl is the complete deposit product (deposits of all "
+"bottles and crate)"
+msgstr ""
+"Caja y botellas de 24 x 33 cl corresponden al producto de depósito total "
+"(abarca el depósito de las 2 botellas y el de la caja)"
+
+#. module: micro_brewery
+#: model:product.template,name:micro_brewery.product_template_56
+msgid "Crate 24x33cl"
+msgstr "Caja de 24 botellas de 33 cl"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "Crate 24x33cl is the empty deposit product"
+msgstr "La caja de 24 botellas de 33 cl es el depósito vacío del producto"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -819,42 +811,19 @@ msgstr "Crear una receta"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid "Create deposit products for each different type of consigns."
-msgstr "Cree productos de depósito para cada tipo diferente de consignaciones."
-
-#. module: micro_brewery
-#: model:account.tax,name:micro_brewery.account_tax_01_purchase
-#: model:account.tax,name:micro_brewery.account_tax_01_sale
-msgid "DEP 0.1"
-msgstr "DEP 0,1"
-
-#. module: micro_brewery
-#: model:account.tax,name:micro_brewery.account_tax_21_sale
-msgid "DEP 2.1"
-msgstr "DEP 2,1"
-
-#. module: micro_brewery
-#: model:account.tax,name:micro_brewery.account_tax_24_purchase
-#: model:account.tax,name:micro_brewery.account_tax_24_sale
-msgid "DEP 2.4"
-msgstr "DEP 2,4"
+msgid ""
+"Create deposit products for each different type of consignments and assign "
+"them a category with \"Is a deposit category\" set like the Deposit category."
+msgstr ""
+"Crea productos de depósito para cada tipo diferente de envío y asígnales una "
+"categoría con «Es una categoría de depósito» configurada como la categoría "
+"de depósito."
 
 #. module: micro_brewery
 #: model:account.tax,name:micro_brewery.account_tax_46_purchase
 #: model:account.tax,name:micro_brewery.account_tax_46_sale
 msgid "DEP 35"
 msgstr "DEP 35"
-
-#. module: micro_brewery
-#: model:account.tax,name:micro_brewery.account_tax_45_purchase
-#: model:account.tax,name:micro_brewery.account_tax_45_sale
-msgid "DEP 4.5"
-msgstr "DEP 4,5"
-
-#. module: micro_brewery
-#: model:base.automation,name:micro_brewery.make_deposit_storable_delivery_invoice
-msgid "Default fields for deposits"
-msgstr "Campos por defecto para depósitos"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -868,44 +837,9 @@ msgid "Deliveries of beer boxes are clear."
 msgstr "La entrega de cajas de cervezas está lista."
 
 #. module: micro_brewery
-#: model:account.tax.group,name:micro_brewery.deposit_tax_group
 #: model:pos.category,name:micro_brewery.pos_category_5
 msgid "Deposit"
 msgstr "Depósito"
-
-#. module: micro_brewery
-#: model:product.template,name:micro_brewery.product_template_90
-msgid "Deposit 0.1"
-msgstr "Depósito 0,1"
-
-#. module: micro_brewery
-#: model:product.template,name:micro_brewery.product_template_56
-msgid "Deposit 2.1"
-msgstr "Depósito 2,1"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid "Deposit 2.1 is the empty deposit product"
-msgstr "El depósito 2,1 es el producto de depósito vacío"
-
-#. module: micro_brewery
-#: model:product.template,name:micro_brewery.product_template_53
-msgid "Deposit 2.4"
-msgstr "Depósito 2,4"
-
-#. module: micro_brewery
-#: model:product.template,name:micro_brewery.product_template_55
-msgid "Deposit 4.5"
-msgstr "Depósito 4,5"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid ""
-"Deposit 4.5 is the complete deposit product (deposits of all bottles and "
-"crate)"
-msgstr ""
-"El depósito 4,5 es el producto de depósito completo (depósitos de todas las "
-"botellas y la caja)"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_39_product_template
@@ -914,24 +848,13 @@ msgstr "Depósito de barril"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid "Deposit Management 🍻"
-msgstr "Gestión de depósitos 🍻"
+msgid "Deposit Management ♻️"
+msgstr "Gestión de depósitos ♻️"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Deposit assignation"
 msgstr "Asignación de depósitos"
-
-#. module: micro_brewery
-#: model:ir.model.fields,field_description:micro_brewery.field_deposit_product_1
-msgid "Deposit product"
-msgstr "Producto de depósito"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.product_template_form_custom
-msgid "Deposit product must be set in Deposit category"
-msgstr ""
-"El producto de depósito debe estar configurado en la categoría de depósito"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -955,8 +878,8 @@ msgid ""
 "Discover the basics of this package and explore all the possibilities Odoo "
 "offers to improve your experience."
 msgstr ""
-"Conozca las funciones básicas de este paquete y explore todas las "
-"posibilidades que le ofrece Odoo para mejorar su experiencia."
+"Descubre las funciones básicas de este paquete y explora todas las "
+"posibilidades que te ofrece Odoo para mejorar tu experiencia."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
@@ -983,11 +906,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3854
 msgid "Email"
 msgstr "Correo electrónico"
-
-#. module: micro_brewery
-#: model:ir.model.fields,field_description:micro_brewery.field_empty_deposit
-msgid "Empty deposit product"
-msgstr "Producto de depósito vacío"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1032,21 +950,19 @@ msgstr "Gestión de impuestos especiales 🧾"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "Excise categories maintenance"
+msgstr "Mantenimiento de categorías de impuestos especiales"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Excise management consists in two dimensions in this package:"
 msgstr ""
 "La gestión de impuestos especiales en este paquete consta de dos dimensiones:"
 
 #. module: micro_brewery
-#: model:ir.actions.server,name:micro_brewery.action_make_deposit_storable_delivery_invoice
-#: model:ir.actions.server,name:micro_brewery.bom_server_action
-#: model:ir.actions.server,name:micro_brewery.update_sales_taxes_server_action
-msgid "Execute Code"
-msgstr "Ejecutar código"
-
-#. module: micro_brewery
-#: model:ir.actions.server,name:micro_brewery.update_state
-msgid "Execute Existing Actions"
-msgstr "Ejecutar acciones existentes"
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "Excise reports"
+msgstr "Informes sobre impuestos especiales"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1313,16 +1229,6 @@ msgstr ""
 "definir cómo debe elaborarse la cerveza."
 
 #. module: micro_brewery
-#: model:ir.model.fields,field_description:micro_brewery.x_is_a_deposit
-msgid "Is a deposit"
-msgstr "Es un depósito"
-
-#. module: micro_brewery
-#: model:ir.model.fields,field_description:micro_brewery.x_is_a_deposit_category
-msgid "Is a deposit category"
-msgstr "Es una categoría de depósito"
-
-#. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
 "It could also be interesting for your customer to buy souvenirs, gifts or "
@@ -1360,6 +1266,12 @@ msgstr "Barril"
 #, fuzzy
 msgid "Kits only / Inventory in bottles"
 msgstr "Solo kits / inventario en botellas"
+
+#. module: micro_brewery
+#: model:product.attribute.value,name:micro_brewery.product_attribute_value_12
+#: model:website.base.unit,name:micro_brewery.base_unit_litre
+msgid "L"
+msgstr "L"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_22
@@ -1415,11 +1327,6 @@ msgid "Lautering - Work center: Lauter tun"
 msgstr "Filtración - Centro de trabajo: Tanque de filtración"
 
 #. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.product_template_form_custom
-msgid "Leave empty if this product is the smallest unit"
-msgstr "Déjelo vacío si este producto es la unidad más pequeña"
-
-#. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3686
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3854
 msgid "LinkedIn"
@@ -1429,6 +1336,11 @@ msgstr "LinkedIn"
 #: model:product.attribute,name:micro_brewery.beverage_product_attribute_13
 msgid "Local Brand"
 msgstr "Marca local"
+
+#. module: micro_brewery
+#: model:product.attribute.value,name:micro_brewery.product_attribute_value_11
+msgid "M"
+msgstr "M"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_4_product_template
@@ -1458,9 +1370,9 @@ msgid ""
 "class=\"text-o-color-1\">Social Media Marketing</font></strong>, and "
 "<strong><font class=\"text-o-color-1\">SMS Marketing</font></strong>."
 msgstr ""
-"Gestione todos sus canales de comunicación en un solo lugar con las "
+"Gestiona todos tus canales de comunicación desde un solo lugar con las "
 "aplicaciones <strong><font class=\"text-o-color-1\">Automatización de "
-"marketing</font></strong>, <strong><font class=\"text-o-color-1\">Marketing "
+"marketing </font></strong>, <strong><font class=\"text-o-color-1\">Marketing "
 "por correo electrónico</font></strong>, <strong><font class=\"text-o-"
 "color-1\">Marketing social</font></strong> y <strong><font class=\"text-o-"
 "color-1\">Marketing por SMS</font></strong> de Odoo."
@@ -1472,7 +1384,7 @@ msgid ""
 "environment. (<strong><font class=\"text-o-color-1\">Accounting App</font></"
 "strong>)"
 msgstr ""
-"Gestione su contabilidad con mayor facilidad gracias a un entorno "
+"Gestiona tu contabilidad con mayor facilidad gracias a un entorno "
 "completamente integrado. (<strong><font class=\"text-o-"
 "color-1\">Contabilidad</font></strong>)"
 
@@ -1480,6 +1392,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Manage your deposit more precisely and efficiently than ever before."
 msgstr "Gestione su depósito con mayor precisión y eficiencia que nunca."
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "Manually convert crates into unit bottles at the bar on reception."
+msgstr ""
+"Convierte la unidad «cajas» a «botellas» de forma manual en el bar al "
+"recibirlas."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1567,7 +1486,7 @@ msgstr "Odoo para microcervecerías"
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Odoo offers you infinite possibilities, such as :"
-msgstr "Odoo le ofrece posibilidades infinitas, como:"
+msgstr "Odoo te ofrece infinitas posibilidades, tales como:"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1584,12 +1503,14 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
 "On a regular basis, excises need to be declared. To support you with this "
-"duty, a report is setup to reach the quantity by excise category entering "
-"and exiting your fiscal deposit warehouse."
+"duty, a report generated weekly provides the quantity by excise category "
+"entering and exiting your fiscal deposit warehouse with a dedicated activity "
+"for it."
 msgstr ""
-"De manera regular, se deben declarar los impuestos especiales. Para apoyarle "
-"en esta tarea, se ha configurado un informe para alcanzar la cantidad por "
-"categoría de impuesto especial que entra y sale de su almacén fiscal."
+"Los impuestos especiales deben declararse periódicamente. Para ayudarte con "
+"esta obligación, se genera un informe semanal que indica la cantidad por "
+"categoría de impuestos especiales que entra y sale de tu depósito fiscal, "
+"con una actividad específica para ello."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1622,11 +1543,11 @@ msgstr ""
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
-"Open the <strong>Inventory app</strong> and reach from the Reporting menu "
-"the Excises."
+"Open the <strong>Inventory app</strong> and reach the Excise Reports from "
+"the Reporting menu."
 msgstr ""
-"Abra la aplicación <strong>Inventario</strong> y acceda desde el menú "
-"“Informes” a “Impuestos especiales”."
+"Abre la aplicación <strong>Inventario</strong> y accede a los informes de "
+"impuestos especiales desde el menú «Informes»."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1634,8 +1555,8 @@ msgid ""
 "Organise your events and connect with your customers easily with the<strong> "
 "<font class=\"text-o-color-1\">Events App</font></strong>."
 msgstr ""
-"Organice sus eventos y comuníquese con sus clientes con la<strong> <font "
-"class=\"text-o-color-1\">aplicación de Eventos</font></strong>."
+"Organiza tus eventos y conecta fácilmente con tus clientes mediante la "
+"<strong><font class=\"text-o-color-1\">aplicación Eventos</font></strong>."
 
 #. module: micro_brewery
 #: model:website.menu,name:micro_brewery.website_menu_9
@@ -1650,12 +1571,6 @@ msgid ""
 msgstr ""
 "Ventas externas (B2B - Bar y venta al por menor) - Uso de <strong><font "
 "class=\"text-o-color-1\">Ventas</font></strong>"
-
-#. module: micro_brewery
-#: model:ir.model.fields,field_description:micro_brewery.field_parent_product_bom
-#: model:ir.model.fields,field_description:micro_brewery.field_parent_product_rr
-msgid "Parent product"
-msgstr "Producto padre"
 
 #. module: micro_brewery
 #: model:uom.uom,name:micro_brewery.uom_uom_30
@@ -1725,14 +1640,25 @@ msgstr ""
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
-"Remember that only stock moves to or from your fiscal deposit warehouses are "
-"reported here.<br/>This is normal not to see any move related to a sale from "
-"a front store warehouse since it is not a fiscal deposit for example."
+"Rely on the kit setup mentioned in the \"Products and Bills of Material\" "
+"section."
 msgstr ""
-"Recuerde que solo se registran aquí los movimientos de stock hacia o desde "
-"sus almacenes de depósito fiscal.<br/>Es normal no ver ningún movimiento "
-"relacionado con una venta desde un almacén de tienda física, ya que, por "
-"ejemplo, no es un depósito fiscal."
+"Confía en la configuración del kit mencionada en la sección «Productos y "
+"listas de materiales»."
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"Remember that only stock moves to or from your fiscal deposit warehouses are "
+"reported here."
+msgstr ""
+"Ten en cuenta que en este apartado únicamente se registran los movimientos "
+"de stock con origen o destino en tus almacenes de depósito fiscal."
+
+#. module: micro_brewery
+#: model:product.attribute.value,name:micro_brewery.product_attribute_value_10
+msgid "S"
+msgstr "S"
 
 #. module: micro_brewery
 #: model:x_excise_category,x_name:micro_brewery.x_excise_category_S005
@@ -1766,12 +1692,11 @@ msgstr ""
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
-"Set a deposit product on your product to apply these taxes. This will ensure "
-"that you invoice correctly the price of consigns."
+"Set a deposit product on your product to apply deposit taxes. This will "
+"ensure that you invoice correctly the price of consignments."
 msgstr ""
-"Configure un producto de depósito en su producto para aplicar estos "
-"impuestos. Así se asegurará de facturar correctamente el precio de los "
-"envíos."
+"Define un producto de depósito en tu producto para aplicar impuestos por "
+"depósitos. Esto garantizará que factures el precio correcto."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3854
@@ -1850,6 +1775,25 @@ msgstr ""
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
+"The assignee of the excise reporting activities can be set from the "
+"Inventory settings."
+msgstr ""
+"El responsable de las actividades de declaración de impuestos especiales "
+"puede configurarse desde los ajustes de Inventario."
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"The automated crate split based on BoM (defined from crate products with "
+"\"contains\" fields) is not supported from the bar (PoS)."
+msgstr ""
+"No es posible realizar una división automatizada de la caja según la lista "
+"de materiales (definida a partir de productos de caja con el campo "
+"«contiene») desde el bar (PdV)."
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
 "The bottled beer is directly the finished product and no semi-finished "
 "bottle product is required."
 msgstr ""
@@ -1865,15 +1809,6 @@ msgstr ""
 "El número de cajas de cerveza es informativo, ya que el sistema considera "
 "que las cajas están disponibles tan pronto como los componentes, las "
 "botellas de cerveza y la caja también están disponibles."
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid ""
-"The default breakdown is done by week and you can configure it to be by "
-"month if needed."
-msgstr ""
-"El desglose por defecto se hace por semana, pero puede configurarlo para que "
-"sea mensual si lo necesita."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1968,7 +1903,7 @@ msgstr ""
 msgid ""
 "These all go free in your current subscription; feel free to explore! 🙃"
 msgstr ""
-"Todo esto está incluido en su suscripción actual, no dude en explorar 😊"
+"Todo esto está incluido en tu suscripción actual. ¡Échale un vistazo! 😊"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1985,11 +1920,11 @@ msgstr ""
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
-"This deposit management system is a specific features of this package. "
-"Proceed carefully if you need to adapt anything."
+"This is normal not to see any move related to a sale from a front store "
+"warehouse since it is not a fiscal deposit for example"
 msgstr ""
-"El sistema de gestión de depósitos es una función específica de este "
-"paquete. Continúe con cuidado en caso de que necesite adaptar algo."
+"Es habitual que no aparezcan movimientos vinculados a una venta desde el "
+"almacén de la tienda, ya que no se trata de un depósito fiscal"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -2020,16 +1955,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Two bills of material are needed."
 msgstr "Necesita dos listas de materiales."
-
-#. module: micro_brewery
-#: model:ir.model.fields,field_description:micro_brewery.field_unit_sale_product
-msgid "Unit sale product"
-msgstr "Producto de venta por unidades"
-
-#. module: micro_brewery
-#: model:base.automation,name:micro_brewery.update_sales_taxes
-msgid "Update Taxes"
-msgstr "Actualizar impuestos"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3686
@@ -2120,7 +2045,7 @@ msgstr ""
 #. module: micro_brewery
 #: model_terms:web_tour.tour,rainbow_man_message:micro_brewery.knowledge_tour
 msgid "Welcome! Happy exploring."
-msgstr "¡Bienvenido! Disfrute del sitio."
+msgstr "¡Te damos la bienvenida! Disfruta explorando."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3854
@@ -2186,7 +2111,15 @@ msgstr "¿Con o sin inventario de cajas?"
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Would you like to discuss your Odoo setup with us or go even further?"
-msgstr "¿Le gustaría que le ayudemos con su configuración de Odoo?"
+msgstr ""
+"¿Quieres que te ayudemos con la configuración de Odoo o a explorar otras "
+"posibilidades?"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3686
+#: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3854
+msgid "X"
+msgstr "X"
 
 #. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.product_attribute_value_13
@@ -2226,11 +2159,11 @@ msgstr ""
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
-"You can also collect deposit directly on your Point of Sale. Select the "
+"You can also collect deposits directly on your Point of Sale. Select the "
 "correct product and encode a negative quantity."
 msgstr ""
-"También puede cobrar el depósito en su TPV, solo seleccione el producto "
-"correcto y escriba la cantidad negativa."
+"También puedes gestionar la devolución de envases directamente desde el TPV. "
+"Selecciona el producto correcto e introduce una cantidad negativa."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -2268,9 +2201,8 @@ msgid ""
 "You completed that demo use case! There are millions of other ways to adapt "
 "your Odoo setup to fit your business needs."
 msgstr ""
-"Ha completado este caso de uso de demostración. Hay miles de formas de "
-"adaptar la configuración de Odoo para ajustarse a las necesidades "
-"específicas de su empresa."
+"¡Has acabado el caso de uso de demostración! Hay miles de formas de adaptar "
+"tu configuración de Odoo para ajustarla a las necesidades de tu negocio."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -2278,9 +2210,9 @@ msgid ""
 "You didn't import demo data? You can still do it. Go to Apps &gt; Industries "
 "&gt; Upgrade your Microbrewery package and check the related box."
 msgstr ""
-"¿No importó los datos de demostración? Todavía puede hacerlo. Vaya a "
-"Aplicaciones &gt; Industrias, actualice el paquete para cervecerías "
-"artesanales y seleccione la casilla correspondiente."
+"¿No has importado los datos de demostración? Todavía puedes hacerlo. "
+"Dirígete a Aplicaciones &gt; Sectores &gt; Actualiza el paquete para "
+"cervecerías artesanales y selecciona la casilla correspondiente."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
@@ -2300,19 +2232,11 @@ msgstr ""
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
-"You now have the keys to easily report those to the relevant authorities!"
-msgstr ""
-"Ahora tiene las herramientas para enviar los informes a las autoridades "
-"correspondientes."
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid ""
 "You should be able to execute the following flows to have an overview of "
 "various flows you can quickly execute with this package using Odoo."
 msgstr ""
-"Debería poder ejecutar los siguientes flujos para obtener una visión general "
-"de varios flujos que puede ejecutar rápidamente con este paquete de Odoo."
+"Los siguientes ejemplos te ayudarán a entender los principales flujos de "
+"trabajo disponibles en este paquete de Odoo."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
@@ -2326,7 +2250,7 @@ msgstr ""
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "academy"
-msgstr "academia"
+msgstr "Odoo academy"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -2337,11 +2261,6 @@ msgstr "y"
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "documentation"
 msgstr "documentación"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.product_template_form_custom
-msgid "ex. Delta I.P.A. - 33cl"
-msgstr "p. ej. Delta I.P.A. - 33 cl"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -2377,8 +2296,212 @@ msgstr "solicitar una demostración"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "﻿🎓 Deposit Management﻿"
+msgstr "﻿🎓 Gestión de depósitos﻿"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "🎓 Excise Management"
+msgstr "🎓 Gestión de impuestos especiales"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "🎓 Units of measure"
 msgstr "🎓 Unidades de medida"
+
+#~ msgid "+1 555-555-5556"
+#~ msgstr "+1 555-555-5556"
+
+#~ msgid "+16"
+#~ msgstr "+16"
+
+#~ msgid "+18"
+#~ msgstr "+18"
+
+#~ msgid ""
+#~ "You now have the keys to easily report those to the relevant authorities!"
+#~ msgstr ""
+#~ "Ahora tiene las herramientas para enviar los informes a las autoridades "
+#~ "correspondientes."
+
+#~ msgid ""
+#~ "Apply DEP XX taxes to those products, creating some if necessary, and "
+#~ "assign them a category with \"Is a deposit category\" set like the "
+#~ "Deposit category."
+#~ msgstr ""
+#~ "Aplique los impuestos DEP XX a esos productos, cree algunos si es "
+#~ "necesario, y asígneles una categoría con «Es una categoría de depósito» "
+#~ "configurada como la categoría de depósito."
+
+#~ msgid "Auto Production"
+#~ msgstr "Producción automática"
+
+#~ msgid "Auto-production"
+#~ msgstr "Producción automática"
+
+#~ msgid "Automated BoM"
+#~ msgstr "LdM automatizada"
+
+#~ msgid ""
+#~ "Collect deposit when you deliver your customer. It is easy. When "
+#~ "validating your delivery, you can directly set a \"Return\" and precisely "
+#~ "count the number of each type of deposit your customer gave you. It will "
+#~ "automatically be\n"
+#~ "        reflected on his invoice or issue a credit note."
+#~ msgstr ""
+#~ "Cobre el depósito cuando haga la entrega a su cliente, es muy fácil. Al "
+#~ "validar la entrega puede configurar una “Devolución” y contar con "
+#~ "precisión el número de cada tipo de depósito que le haya entregado su "
+#~ "cliente. Este se reflejará automáticamente\n"
+#~ "         en su factura o emitirá una factura rectificativa."
+
+#~ msgid "Contains"
+#~ msgstr "Contiene"
+
+#~ msgid "Create deposit products for each different type of consigns."
+#~ msgstr ""
+#~ "Cree productos de depósito para cada tipo diferente de consignaciones."
+
+#~ msgid "DEP 0.1"
+#~ msgstr "DEP 0,1"
+
+#~ msgid "DEP 2.1"
+#~ msgstr "DEP 2,1"
+
+#~ msgid "DEP 2.4"
+#~ msgstr "DEP 2,4"
+
+#~ msgid "DEP 4.5"
+#~ msgstr "DEP 4,5"
+
+#~ msgid "Default fields for deposits"
+#~ msgstr "Campos por defecto para depósitos"
+
+#~ msgid "Deposit Management 🍻"
+#~ msgstr "Gestión de depósitos 🍻"
+
+#~ msgid "Execute Code"
+#~ msgstr "Ejecutar código"
+
+#~ msgid "Execute Existing Actions"
+#~ msgstr "Ejecutar acciones existentes"
+
+#~ msgid "Is a deposit"
+#~ msgstr "Es un depósito"
+
+#~ msgid "Leave empty if this product is the smallest unit"
+#~ msgstr "Déjelo vacío si este producto es la unidad más pequeña"
+
+#~ msgid "Parent product"
+#~ msgstr "Producto padre"
+
+#~ msgid ""
+#~ "Set a deposit product on your product to apply these taxes. This will "
+#~ "ensure that you invoice correctly the price of consigns."
+#~ msgstr ""
+#~ "Configure un producto de depósito en su producto para aplicar estos "
+#~ "impuestos. Así se asegurará de facturar correctamente el precio de los "
+#~ "envíos."
+
+#~ msgid ""
+#~ "This deposit management system is a specific features of this package. "
+#~ "Proceed carefully if you need to adapt anything."
+#~ msgstr ""
+#~ "El sistema de gestión de depósitos es una función específica de este "
+#~ "paquete. Continúe con cuidado en caso de que necesite adaptar algo."
+
+#~ msgid "Unit sale product"
+#~ msgstr "Producto de venta por unidades"
+
+#~ msgid "Update Taxes"
+#~ msgstr "Actualizar impuestos"
+
+#~ msgid ""
+#~ "You can also collect deposit directly on your Point of Sale. Select the "
+#~ "correct product and encode a negative quantity."
+#~ msgstr ""
+#~ "También puede cobrar el depósito en su TPV, solo seleccione el producto "
+#~ "correcto y escriba la cantidad negativa."
+
+#~ msgid "ex. Delta I.P.A. - 33cl"
+#~ msgstr "p. ej. Delta I.P.A. - 33 cl"
+
+#~ msgid "<strong>Excise categories maintenance</strong>"
+#~ msgstr ""
+#~ "<strong>Mantenimiento de categorías de impuestos especiales</strong>"
+
+#~ msgid "<strong>Excise reporting</strong>"
+#~ msgstr "<strong>Informes de impuestos especiales</strong>"
+
+#~ msgid "Deposit 0.1"
+#~ msgstr "Depósito 0,1"
+
+#~ msgid "Deposit 2.1"
+#~ msgstr "Depósito 2,1"
+
+#~ msgid "Deposit 2.1 is the empty deposit product"
+#~ msgstr "El depósito 2,1 es el producto de depósito vacío"
+
+#~ msgid "Deposit 2.4"
+#~ msgstr "Depósito 2,4"
+
+#~ msgid "Deposit 4.5"
+#~ msgstr "Depósito 4,5"
+
+#~ msgid ""
+#~ "Deposit 4.5 is the complete deposit product (deposits of all bottles and "
+#~ "crate)"
+#~ msgstr ""
+#~ "El depósito 4,5 es el producto de depósito completo (depósitos de todas "
+#~ "las botellas y la caja)"
+
+#~ msgid "Deposit product"
+#~ msgstr "Producto de depósito"
+
+#~ msgid "Deposit product must be set in Deposit category"
+#~ msgstr ""
+#~ "El producto de depósito debe estar configurado en la categoría de depósito"
+
+#~ msgid "Empty deposit product"
+#~ msgstr "Producto de depósito vacío"
+
+#~ msgid "Is a deposit category"
+#~ msgstr "Es una categoría de depósito"
+
+#~ msgid ""
+#~ "On a regular basis, excises need to be declared. To support you with this "
+#~ "duty, a report is setup to reach the quantity by excise category entering "
+#~ "and exiting your fiscal deposit warehouse."
+#~ msgstr ""
+#~ "De manera regular, se deben declarar los impuestos especiales. Para "
+#~ "apoyarle en esta tarea, se ha configurado un informe para alcanzar la "
+#~ "cantidad por categoría de impuesto especial que entra y sale de su "
+#~ "almacén fiscal."
+
+#~ msgid ""
+#~ "Open the <strong>Inventory app</strong> and reach from the Reporting menu "
+#~ "the Excises."
+#~ msgstr ""
+#~ "Abra la aplicación <strong>Inventario</strong> y acceda desde el menú "
+#~ "“Informes” a “Impuestos especiales”."
+
+#~ msgid ""
+#~ "Remember that only stock moves to or from your fiscal deposit warehouses "
+#~ "are reported here.<br/>This is normal not to see any move related to a "
+#~ "sale from a front store warehouse since it is not a fiscal deposit for "
+#~ "example."
+#~ msgstr ""
+#~ "Recuerde que solo se registran aquí los movimientos de stock hacia o "
+#~ "desde sus almacenes de depósito fiscal.<br/>Es normal no ver ningún "
+#~ "movimiento relacionado con una venta desde un almacén de tienda física, "
+#~ "ya que, por ejemplo, no es un depósito fiscal."
+
+#~ msgid ""
+#~ "The default breakdown is done by week and you can configure it to be by "
+#~ "month if needed."
+#~ msgstr ""
+#~ "El desglose por defecto se hace por semana, pero puede configurarlo para "
+#~ "que sea mensual si lo necesita."
 
 #~ msgid "New Decimal"
 #~ msgstr "Nuevo decilitro"

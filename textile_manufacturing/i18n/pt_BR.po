@@ -2,14 +2,14 @@
 # This file contains the translation of the following modules:
 # * textile_manufacturing
 #
-# "Maitê Dietze (madi)" <madi@odoo.com>, 2025.
+# "Maitê Dietze (madi)" <madi@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 13:05+0000\n"
-"PO-Revision-Date: 2025-11-20 09:41+0000\n"
+"POT-Creation-Date: 2026-04-10 19:48+0000\n"
+"PO-Revision-Date: 2026-01-06 09:31+0000\n"
 "Last-Translator: \"Maitê Dietze (madi)\" <madi@odoo.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.odoo.com/projects/"
 "odoo-19/textile_manufacturing/pt_BR/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.homepage
@@ -48,26 +48,6 @@ msgid ""
 msgstr ""
 "&amp;nbsp;Diga-nos o que você precisa e enviaremos um orçamento ou qualquer "
 "outra informação."
-
-#. module: textile_manufacturing
-#: model_terms:ir.ui.view,arch_db:textile_manufacturing.homepage
-msgid "01"
-msgstr "01"
-
-#. module: textile_manufacturing
-#: model_terms:ir.ui.view,arch_db:textile_manufacturing.homepage
-msgid "02"
-msgstr "02"
-
-#. module: textile_manufacturing
-#: model_terms:ir.ui.view,arch_db:textile_manufacturing.homepage
-msgid "03"
-msgstr "03"
-
-#. module: textile_manufacturing
-#: model_terms:ir.ui.view,arch_db:textile_manufacturing.homepage
-msgid "04"
-msgstr "04"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.homepage
@@ -216,6 +196,20 @@ msgstr "<b>Gola redonda (Crew Neck):</b> O estilo mais clássico e popular."
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid ""
+"<b>Destination Location:</b> If you have more than 1 internal location set "
+"up on your inventory, you can choose the destination location as well."
+msgstr ""
+
+#. module: textile_manufacturing
+#: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
+msgid ""
+"<b>Detailed Logging:</b> A record of the conversion is automatically posted "
+"to the <b>Chatter</b> of both the Transfer and the Manufacturing Order."
+msgstr ""
+
+#. module: textile_manufacturing
+#: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
+msgid ""
 "<b>Direct Integration: </b> Add all the details directly to the "
 "manufacturing operations."
 msgstr ""
@@ -246,6 +240,13 @@ msgstr ""
 "depósito."
 
 #. module: textile_manufacturing
+#: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
+msgid ""
+"<b>Error Prevention:</b> This guardrail ensures users only convert products "
+"into eligible alternatives, preventing manual data entry errors."
+msgstr ""
+
+#. module: textile_manufacturing
 #: model_terms:product.template,description_ecommerce:textile_manufacturing.product_template_12
 #: model_terms:product.template,description_ecommerce:textile_manufacturing.product_template_13
 #: model_terms:product.template,description_ecommerce:textile_manufacturing.product_template_14
@@ -273,15 +274,9 @@ msgid ""
 "create a quote with the correct product. When the customer confirms it, Odoo "
 "will automatically create a delivery order. Whether a production order is "
 "also\n"
-"                  created depends on your settings, which are detailed in "
+"                    created depends on your settings, which are detailed in "
 "the <b>Manufacturing Order Creation</b> section."
 msgstr ""
-"<b>Para produtos feitos para estoque (MTS) ou sob encomenda (MTO):</b> Basta "
-"criar uma cotação com o produto correto. Quando o cliente confirmar, o Odoo "
-"criará automaticamente uma ordem de entrega. Se uma ordem de produção também "
-"será\n"
-"                  depende das suas configurações, que são detalhadas na "
-"seção <b>Criação de ordem de fabricação</b>."
 
 #. module: textile_manufacturing
 #: model_terms:product.template,description_ecommerce:textile_manufacturing.product_template_12
@@ -304,8 +299,31 @@ msgstr "<b>Henley:</b> Decote redondo, sem gola e com uma carcela com botões."
 #: model_terms:product.template,description_ecommerce:textile_manufacturing.product_template_4
 msgid "<b>High Quality Cotton T-shirt available in the following variants:</b>"
 msgstr ""
-"<b>Camiseta de algodão de alta qualidade disponível nas seguintes "
-"variantes:</b>"
+"<b>Camiseta de algodão de alta qualidade disponível nas seguintes variantes:"
+"</b>"
+
+#. module: textile_manufacturing
+#: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
+msgid ""
+"<b>History Preservation:</b> By using a background MO, the <b>Traceability "
+"Report</b> remains unbroken. You can view the entire history of the new "
+"product, including its previous form."
+msgstr ""
+
+#. module: textile_manufacturing
+#: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
+msgid ""
+"<b>Inventory Presence:</b> The transfer must not be a Receipt or Dropship. "
+"(Products must be physically in stock before they can be converted)."
+msgstr ""
+
+#. module: textile_manufacturing
+#: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
+msgid ""
+"<b>Keep Lot/SN:</b> If checked, the new product inherits the existing Lot/"
+"Serial Number (e.g., new \"T-shirt (Quality Refurbished, Yellow)\" retains "
+"the original \"LOT1\")."
+msgstr ""
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -313,7 +331,14 @@ msgid ""
 "<b>Link to a Knowledge Page:</b> Gather all the information in a separate "
 "knowledge page and then link that page to the manufacturing instructions. "
 "This keeps the operations clean while providing all the\n"
-"                                  necessary details."
+"                                    necessary details."
+msgstr ""
+
+#. module: textile_manufacturing
+#: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
+msgid ""
+"<b>Location Accuracy:</b> The MO pulls from the exact \"Pick From\" location "
+"to ensure inventory balance."
 msgstr ""
 
 #. module: textile_manufacturing
@@ -323,6 +348,9 @@ msgid ""
 "automatically triggered whenever a sales order or production order is "
 "validated."
 msgstr ""
+"<b>Fabricação por pedido (MTO):</b> Ative essa opção se quiser que a "
+"reposição seja acionado automaticamente sempre que pedidos de venda ou "
+"ordens de produção forem validados."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -330,6 +358,8 @@ msgid ""
 "<b>Manually</b> if the product doesn't have a Reordering Rule and there is "
 "no stock available."
 msgstr ""
+"<b>Manualmente</b> se o produto não tiver uma Regra de Reposição e não "
+"houver estoque disponível."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -337,7 +367,7 @@ msgid ""
 "<b>Manufacturing 2 steps:</b> Your current \"Manufacturing 1 step\" workflow "
 "takes components directly from stock. By switching to a 2-step process, "
 "you'll add a picking operation between your warehouse and production\n"
-"                              area. This is ideal for transferring entire "
+"                                area. This is ideal for transferring entire "
 "packages, like a full bobbin of thread, rather than just a small portion."
 msgstr ""
 
@@ -347,7 +377,7 @@ msgid ""
 "<b>Manufacturing 3 steps:</b> If you need a dedicated storage step for "
 "finished products, change your warehouse settings to a 3-step workflow. This "
 "adds a final transfer step, moving completed items from the\n"
-"                              production area to their final storage "
+"                                production area to their final storage "
 "location."
 msgstr ""
 
@@ -363,12 +393,24 @@ msgid ""
 "softness and durability. Our t-shirts are pre-shrunk to ensure a consistent "
 "fit."
 msgstr ""
+"<b>Material:</b> Confeccionadas em 100% algodão penteado ring-spun para "
+"maior suavidade e durabilidade. As nossas camisetas são pré-encolhidas para "
+"garantir um tamanho consistente."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid ""
 "<b>Multi-Step Operations:</b> Choose a 1, 2, or 3-step process for receiving "
 "and shipping goods in your <b>Warehouse Settings</b>."
+msgstr ""
+"<b>Operações em várias etapas:</b> Escolha um processo de 1, 2 ou 3 etapas "
+"para receber e enviar mercadorias nas<b>Definições do armazém</b>."
+
+#. module: textile_manufacturing
+#: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
+msgid ""
+"<b>New Lot/SN:</b> If \"Keep\" is unchecked, users can manually assign a new "
+"Lot/Serial Number."
 msgstr ""
 
 #. module: textile_manufacturing
@@ -377,11 +419,21 @@ msgid ""
 "<b>Note:</b> If you validate a transfer for a partial quantity, the system "
 "will automatically create a <b>backorder</b> for the rest of the items."
 msgstr ""
+"<b>Observação:</b> Se você validar uma transferência para uma quantidade "
+"parcial, o sistema criará automaticamente um <b>pedido em espera</b> para o "
+"restante dos itens."
+
+#. module: textile_manufacturing
+#: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
+msgid ""
+"<b>Operational Status:</b> The transfer must be in a state other than "
+"\"Draft\" or \"Done.\""
+msgstr ""
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "<b>Package Types:</b> Track specific types of packages."
-msgstr ""
+msgstr "<b>Tipos de pacotes:</b>Rastreie tipos específicos de pacotes."
 
 #. module: textile_manufacturing
 #: model_terms:product.template,description_ecommerce:textile_manufacturing.product_template_12
@@ -391,13 +443,22 @@ msgstr ""
 #: model_terms:product.template,description_ecommerce:textile_manufacturing.product_template_3
 #: model_terms:product.template,description_ecommerce:textile_manufacturing.product_template_4
 msgid "<b>Polo Collar:</b> A two-button placket and a soft, folded collar."
-msgstr ""
+msgstr "<b>Gola polo:</b> Carcela com dois botões e gola macia e dobrada."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid ""
 "<b>Pro-Tip:</b> You can print and use barcode commands with a scanner to "
 "automate and streamline your workflow."
+msgstr ""
+"<b>Dica de especialista:</b> Você pode imprimir e usar comandos de código de "
+"barras com um scanner para automatizar e otimizar seu fluxo de trabalho."
+
+#. module: textile_manufacturing
+#: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
+msgid ""
+"<b>Quantity Validation:</b> The system prevents converting more than the "
+"maximum available stock for that specific Quant."
 msgstr ""
 
 #. module: textile_manufacturing
@@ -411,6 +472,8 @@ msgid ""
 "<b>Raglan Sleeve:</b> Extends in one piece to the collar, creating a "
 "diagonal seam."
 msgstr ""
+"<b>Manga raglan:</b> Uma única que se estende até à gola, com uma costura "
+"diagonal."
 
 #. module: textile_manufacturing
 #: model_terms:product.template,description_ecommerce:textile_manufacturing.product_template_12
@@ -421,6 +484,7 @@ msgstr ""
 #: model_terms:product.template,description_ecommerce:textile_manufacturing.product_template_4
 msgid "<b>Regular/Classic Fit:</b> A standard, comfortable, and timeless fit."
 msgstr ""
+"<b>Ajuste regular/clássico:</b> Um ajuste padrão, confortável e atemporal."
 
 #. module: textile_manufacturing
 #: model_terms:product.template,description_ecommerce:textile_manufacturing.product_template_12
@@ -433,6 +497,16 @@ msgid ""
 "<b>Relaxed/Oversized Fit:</b> A looser, more casual fit that is currently "
 "popular in streetwear."
 msgstr ""
+"<b>Ajuste relaxado/oversized:</b> Um ajuste mais solto e casual, atualmente "
+"popular na moda urbana."
+
+#. module: textile_manufacturing
+#: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
+msgid ""
+"<b>Restricted Mapping:</b> If a product uses an attribute marked \"Convert "
+"Attribute,\" the user is limited to selecting variants within that specific "
+"attribute group."
+msgstr ""
 
 #. module: textile_manufacturing
 #: model_terms:product.template,description_ecommerce:textile_manufacturing.product_template_12
@@ -444,6 +518,8 @@ msgstr ""
 msgid ""
 "<b>Scoop Neck:</b> A wider, U-shaped neckline, more common in women's styles."
 msgstr ""
+"<b>Decote redondo:</b> Um decote mais largo, em forma de U, mais comum nos "
+"modelos femininos."
 
 #. module: textile_manufacturing
 #: model_terms:product.template,description_ecommerce:textile_manufacturing.product_template_12
@@ -455,11 +531,13 @@ msgstr ""
 msgid ""
 "<b>Set-in Sleeve:</b> The standard sleeve that is sewn into the armhole seam."
 msgstr ""
+"<b>Manga embutida:</b> A manga padrão que é costurada na costura da cava."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "<b>Shipping Connectors:</b> Integrate directly with shipping carriers."
 msgstr ""
+"<b>Conectores de remessa:</b> Integre-se diretamente com transportadoras."
 
 #. module: textile_manufacturing
 #: model_terms:product.template,description_ecommerce:textile_manufacturing.product_template_12
@@ -469,7 +547,7 @@ msgstr ""
 #: model_terms:product.template,description_ecommerce:textile_manufacturing.product_template_3
 #: model_terms:product.template,description_ecommerce:textile_manufacturing.product_template_4
 msgid "<b>Sleeve Cut:</b>"
-msgstr ""
+msgstr "<b>Corte da manga:</b>"
 
 #. module: textile_manufacturing
 #: model_terms:product.template,description_ecommerce:textile_manufacturing.product_template_12
@@ -482,12 +560,35 @@ msgid ""
 "<b>Slim/Modern Fit:</b> Tapered through the chest and waist for a more "
 "tailored look."
 msgstr ""
+"<b>Ajuste justo/moderno:</b> Afunilado no peito e na cintura para um visual "
+"mais elegante."
+
+#. module: textile_manufacturing
+#: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
+msgid ""
+"<b>Source Details:</b> Displays the product and the specific <b>\"Pick "
+"From\"</b>  (the quant), including the location and the selected Lot or "
+"Serial Number."
+msgstr ""
+
+#. module: textile_manufacturing
+#: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
+msgid "<b>Steps to adjust:</b>"
+msgstr ""
+
+#. module: textile_manufacturing
+#: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
+msgid ""
+"<b>Storable Products:</b> Only products with \"Track Inventory\" enabled are "
+"eligible."
+msgstr ""
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid ""
 "<b>T-shirt (Finished Product)</b>: Has two variants, \"Blue\" and \"Yellow.\""
 msgstr ""
+"<b>Camiseta (produto acabado)</b>: Tem duas variantes, “Azul” e “Amarelo”."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -496,9 +597,24 @@ msgid ""
 "priority on your production plan, you'll have to re-plan the entire "
 "schedule. First, select all the <b>Manufacturing Orders</b> and \"Unplan\" "
 "them.\n"
-"                      Next, set the new priority (⭐) for the orders you "
+"                        Next, set the new priority (⭐) for the orders you "
 "need to adjust, then \"Re-plan\" everything. This will ensure your new "
 "priorities are reflected in the schedule."
+msgstr ""
+
+#. module: textile_manufacturing
+#: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
+msgid "<b>Traceability Management:</b>"
+msgstr ""
+
+#. module: textile_manufacturing
+#: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
+msgid ""
+"<b>Traceability Matching:</b> The system intelligently filters \"Convert "
+"Into\" options based on tracing. For example, if you convert a Lot-tracked "
+"item and provide a new Lot number, the destination product must also support "
+"Lot tracking. But if you dont provide any Lot Number, only product without "
+"specific traceability will be eligible for convert into."
 msgstr ""
 
 #. module: textile_manufacturing
@@ -508,6 +624,9 @@ msgid ""
 "specific quantity, use the <b>Batch Size</b> setting in the "
 "<b>Miscellaneous</b> tab."
 msgstr ""
+"<b> Use a configuração de tamanho do lote:</b> Se sempre produz lotes de uma "
+"quantidade específica, use a configuração <b>Tamanho do lote</b>, na aba "
+"<b>Diversos</b>."
 
 #. module: textile_manufacturing
 #: model_terms:product.template,description_ecommerce:textile_manufacturing.product_template_12
@@ -518,6 +637,12 @@ msgstr ""
 #: model_terms:product.template,description_ecommerce:textile_manufacturing.product_template_4
 msgid "<b>V-Neck:</b> A \"V\" shaped neckline that can be shallow or deep."
 msgstr ""
+"<b>Decote em V:</b> Um decote em forma de “V” que pode ser raso ou profundo."
+
+#. module: textile_manufacturing
+#: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
+msgid "<b>Variant Control &amp; Error Prevention</b>"
+msgstr ""
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -525,17 +650,70 @@ msgid ""
 "<b>Work Center Capacity:</b> Optimize your production schedule by exploring "
 "the capacity of your work centers."
 msgstr ""
+"<b>Capacidade do centro de trabalho:</b> Otimize sua programação de produção "
+"explorando a capacidade dos seus centros de trabalho."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "<b>Yellow Cotton</b>: Only applies to the \"Yellow\" T-shirt variant."
 msgstr ""
+"<b> Algodão amarelo</b>: Aplica-se apenas à variante de camiseta “amarela”."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.homepage
 msgid ""
 "<br/>Our vibrant color palette is ready to brighten your wardrobe this "
 "upcoming summer.<br/>"
+msgstr ""
+"<br/>Nossa paleta de cores vibrantes está pronta para alegrar seu guarda-"
+"roupa neste verão que se aproxima.<br/>"
+
+#. module: textile_manufacturing
+#: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>CRM App</b> &amp; <b>Sales App</b></font>: "
+"Manage client relationships and opportunities, creating stunning quotations "
+"for new collections or bulk orders."
+msgstr ""
+
+#. module: textile_manufacturing
+#: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Inventory App</b>:</font> Fasten your "
+"purchasing cycles and track raw materials across your warehouse and "
+"subcontractor locations."
+msgstr ""
+
+#. module: textile_manufacturing
+#: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Invoicing App</b>:</font> Streamline your "
+"cash flow by invoicing clients at the right time, whether upon order "
+"confirmation or delivery."
+msgstr ""
+
+#. module: textile_manufacturing
+#: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Manufacturing App</b>:</font> Level up "
+"your production processes, managing Bills of Materials (BoMs) and work "
+"centers efficiently."
+msgstr ""
+
+#. module: textile_manufacturing
+#: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Project App</b>:</font> Collaborate on pre-"
+"sale design projects and custom requests, tracking progress from concept to "
+"approval."
+msgstr ""
+
+#. module: textile_manufacturing
+#: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Shop Floor App</b>:</font> Empower your "
+"production team with a digital interface to track time, components, and work "
+"orders in real-time."
 msgstr ""
 
 #. module: textile_manufacturing
@@ -545,6 +723,9 @@ msgid ""
 "var(--o-color-2) 100%);\" class=\"text-gradient\">Shop our top brands for "
 "quality and style.</font>"
 msgstr ""
+"<font style=\"background-image: linear-gradient(135deg, var(--o-color-1) 0%, "
+"var(--o-color-2) 100%);\" class=\"text-gradient\">Compre nossas marcas de "
+"ponta para obter qualidade e estilo.</font>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.contactus
@@ -581,8 +762,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">💡</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Info\">💡</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">💡</i>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -590,8 +771,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">🚀</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Info\">🚀</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">🚀</i>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -599,8 +780,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">✅</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Success\">✅</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\">✅</i>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -608,8 +789,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Warning\">⚠️</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Warning\">⚠️</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Warning\">⚠️</i>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -617,8 +798,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
 "normal\">💡</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Info\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
+"<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
+"normal\">💡</i>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -626,8 +807,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\">⚠️</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Warning\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
+"<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
+"fst-normal\">⚠️</i>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -641,8 +822,16 @@ msgstr "<span class=\"h1-fs\"><strong>Noções básicas</strong></span>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
-msgid "<span class=\"h2-fs\">Create your production workflow 🔩</span>"
+msgid ""
+"<span class=\"h2-fs\"><span class=\"h6-fs\">This industry offers the "
+"possibility to manage the quality level of each product by using the convert "
+"action.</span></span>"
 msgstr ""
+
+#. module: textile_manufacturing
+#: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
+msgid "<span class=\"h2-fs\">Create your production workflow 🔩</span>"
+msgstr "<span class=\"h2-fs\">Crie seu fluxo de trabalho de produção 🔩</span>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -650,26 +839,33 @@ msgid ""
 "<span class=\"h2-fs\">Designing an Optimized Warehouse and Operations System "
 "📦</span>"
 msgstr ""
+"<span class=\"h2-fs\">Projetando um sistema otimizado de armazenamento e "
+"operações 📦</span>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "<span class=\"h2-fs\">Execute the production 💪</span>"
-msgstr ""
+msgstr "<span class=\"h2-fs\">Executar a produção 💪</span>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "<span class=\"h2-fs\">Invoice Your Clients 💲</span>"
-msgstr ""
+msgstr "<span class=\"h2-fs\">Faturar clientes 💲</span>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "<span class=\"h2-fs\">Manage Manufacturing Orders 🛠️</span>"
+msgstr "<span class=\"h2-fs\">Gerenciar ordens de produção 🛠️</span>"
+
+#. module: textile_manufacturing
+#: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
+msgid "<span class=\"h2-fs\">Manage Product Quality Level 🎚️</span>"
 msgstr ""
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "<span class=\"h2-fs\">Manage Production Planning 📆</span>"
-msgstr ""
+msgstr "<span class=\"h2-fs\">Gerenciar o planejamento da produção 📆</span>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -686,11 +882,13 @@ msgstr "<span class=\"h2-fs\">Gerencie seu site 🌐</span>"
 msgid ""
 "<span class=\"h2-fs\">Manage your operations and replenishment 💪</span>"
 msgstr ""
+"<span class=\"h2-fs\">Gerencie suas operações e reposição de estoque 💪</"
+"span>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "<span class=\"h2-fs\">Project and Presale Management 📋</span>"
-msgstr ""
+msgstr "<span class=\"h2-fs\">Gerenciamento de projetos e pré-vendas 📋</span>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -698,126 +896,154 @@ msgid ""
 "<span class=\"h4-fs\"><strong>Creating a Bill of Materials (BOM)</strong></"
 "span>"
 msgstr ""
+"<span class=\"h4-fs\"><strong>Criação de uma lista de materiais (LM)</"
+"strong></span>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid ""
 "<span class=\"h4-fs\"><strong>Manufacturing Order Creation</strong></span>"
 msgstr ""
+"<span class=\"h4-fs\"><strong>Criação de ordens de produção</strong></span>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid ""
 "<span class=\"h5-fs\">\n"
-"              <strong>Production Created from a Pattern (ETO Process) &amp; "
-"<span class=\"h5-fs\">Production for Make-to-Order (MTO)</span></strong>\n"
-"          </span>"
-msgstr ""
-
-#. module: textile_manufacturing
-#: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
-msgid ""
-"<span class=\"h6-fs\">\n"
-"                          <strong><u>Engineering to Order (ETO)</u></"
+"                <strong>Production Created from a Pattern (ETO Process) "
+"&amp; <span class=\"h5-fs\">Production for Make-to-Order (MTO)</span></"
 "strong>\n"
-"                      </span>"
+"            </span>"
 msgstr ""
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid ""
 "<span class=\"h6-fs\">\n"
-"                          <strong><u>Make to Order (MTO)</u></strong>\n"
-"                      </span>"
+"                            <strong><u>Engineering to Order (ETO)</u></"
+"strong>\n"
+"                        </span>"
 msgstr ""
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid ""
 "<span class=\"h6-fs\">\n"
-"                          <strong><u>Make to Stock (MTS)</u></strong>\n"
-"                      </span>"
+"                            <strong><u>Make to Order (MTO)</u></strong>\n"
+"                        </span>"
 msgstr ""
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid ""
 "<span class=\"h6-fs\">\n"
-"              <span class=\"h5-fs\"><strong>Production for Make-to-Stock "
+"                            <strong><u>Make to Stock (MTS)</u></strong>\n"
+"                        </span>"
+msgstr ""
+
+#. module: textile_manufacturing
+#: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
+msgid ""
+"<span class=\"h6-fs\">\n"
+"                <span class=\"h5-fs\"><strong>Production for Make-to-Stock "
 "(MTS)</strong></span>\n"
-"          </span>"
+"            </span>"
 msgstr ""
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid ""
 "<span class=\"h6-fs\">\n"
-"              This module is designed to streamline your daily production, "
+"                This module is designed to streamline your daily production, "
 "from start to finish. It helps you manage customer relationships, prepare "
 "for production, purchase raw materials, and handle deliveries. With this "
 "complete solution, you\n"
-"              can boost efficiency and improve customer satisfaction across "
-"all your production services.\n"
-"          </span>"
+"                can boost efficiency and improve customer satisfaction "
+"across all your production services.\n"
+"            </span>"
 msgstr ""
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid ""
 "<span class=\"h6-fs\">\n"
-"              Welcome to the <strong><font style=\"color: rgb(113, 75, 103);"
-"\">Odoo Textile Manufacturing</font></strong>!\n"
-"          </span>\n"
-"          <br/>"
+"                Welcome to the <strong><font style=\"color: rgb(113, 75, "
+"103);\">Odoo Textile Manufacturing</font></strong>!\n"
+"            </span>\n"
+"            <br/>"
 msgstr ""
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid ""
 "<span class=\"h6-fs\">\n"
-"              When a purchase order for a subcontracted product is created, "
-"the system handles the entire process. As long as your Bill of Materials "
-"(BOM) is accurate, the purchase order will automatically trigger a receipt "
-"for the final product\n"
-"              and a replenishment order for all necessary components.\n"
-"          </span>\n"
-"          <span class=\"h2-fs\"><span class=\"h2-fs\"/></span><br/>"
+"                When a purchase order for a subcontracted product is "
+"created, the system handles the entire process. As long as your Bill of "
+"Materials (BOM) is accurate, the purchase order will automatically trigger a "
+"receipt for the final product\n"
+"                and a replenishment order for all necessary components.\n"
+"            </span>\n"
+"            <span class=\"h2-fs\"><span class=\"h2-fs\"/></span><br/>"
+msgstr ""
+
+#. module: textile_manufacturing
+#: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
+#, fuzzy
+msgid "<span class=\"h6-fs\"><b><u>Smart Visibility Logic</u></b></span>"
+msgstr "<span class=\"h6-fs\"><b>Controle de qualidade ✅</b></span>"
+
+#. module: textile_manufacturing
+#: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
+msgid "<span class=\"h6-fs\"><b><u>The Conversion Interface</u></b></span>"
 msgstr ""
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "<span class=\"h6-fs\"><b>Centralize documents 📄</b></span>"
-msgstr ""
+msgstr "<span class=\"h6-fs\"><b>Centralize documentos 📄</b></span>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "<span class=\"h6-fs\"><b>E-commerce 🛒</b></span>"
-msgstr ""
+msgstr "<span class=\"h6-fs\"><b>e-Commerce 🛒</b></span>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "<span class=\"h6-fs\"><b>Maintenance 🔧</b></span>"
-msgstr ""
+msgstr "<span class=\"h6-fs\"><b>Manutenção 🔧</b></span>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "<span class=\"h6-fs\"><b>Product Lifecycle Management ⚙️</b></span>"
 msgstr ""
+"<span class=\"h6-fs\"><b>Gerenciamento do ciclo de vida do produto ⚙️</b></"
+"span>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "<span class=\"h6-fs\"><b>Quality control ✅</b></span>"
+msgstr "<span class=\"h6-fs\"><b>Controle de qualidade ✅</b></span>"
+
+#. module: textile_manufacturing
+#: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
+msgid ""
+"<span class=\"h6-fs\"><u>Backend Execution &amp; Traceability</u></span>"
+msgstr ""
+
+#. module: textile_manufacturing
+#: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
+msgid "<span class=\"h6-fs\"><u>Inventory Adjustement</u></span><br/>"
 msgstr ""
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "<span class=\"h6-fs\"><u>Process for ETO</u></span>"
-msgstr ""
+msgstr "<span class=\"h6-fs\"><u>Processo para ETO</u></span>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "<span class=\"h6-fs\"><u>Process for MTO</u></span>"
-msgstr ""
+msgstr "<span class=\"h6-fs\"><u>Processo para MTO</u></span>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.homepage
@@ -825,6 +1051,8 @@ msgid ""
 "<span class=\"h6-fs\">Collaborate with our team to create a custom line that "
 "perfectly represents your brand</span>"
 msgstr ""
+"<span class=\"h6-fs\">Colabore com nossa equipe para criar uma linha "
+"personalizada que represente perfeitamente sua marca.</span>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -833,6 +1061,9 @@ msgid ""
 "goods</b>, <b>semi-finished products</b>, or <b>raw materials</b>—and fill "
 "in all the required information.</span><br/>"
 msgstr ""
+"<span class=\"h6-fs\">Crie todos os produtos — sejam eles <b>produtos "
+"acabados</b>, <b>produtos semiacabados</b> ou <b>matérias-primas</b>— e "
+"preencha todas as informações necessárias.</span><br/>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -841,11 +1072,14 @@ msgid ""
 "To automate your workflows, make sure each product is configured correctly.</"
 "span>"
 msgstr ""
+"<span class=\"h6-fs\">No aplicativo Inventário, crie seus produtos "
+"existentes. Para automatizar seus fluxos de trabalho, certifique-se de que "
+"cada produto esteja configurado corretamente.</span>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "<span class=\"h6-fs\">In the Manufacturing App</span>"
-msgstr ""
+msgstr "<span class=\"h6-fs\">No aplicativo de Fabricação</span>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -853,6 +1087,8 @@ msgid ""
 "<span class=\"h6-fs\">Textile manufacturing uses a variety of production "
 "methods. This package focuses on three primary models</span><br/>"
 msgstr ""
+"<span class=\"h6-fs\">A fabricação têxtil utiliza uma variedade de métodos "
+"de produção. Este pacote concentra-se em três modelos principais.</span><br/>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -861,6 +1097,10 @@ msgid ""
 "<b>Manufacturing</b> application. From there, you can create your <b>work "
 "centers</b>, <b>operations</b>, and <b>bills of materials</b>..</span>"
 msgstr ""
+"<span class=\"h6-fs\">Para gerenciar seu fluxo de trabalho de produção, "
+"acesse o aplicativo <b>Fabricação</b>. A partir daí, você pode criar seus "
+"centros de trabalho <b>,</b>, suas operações <b>,</b>, e suas listas de "
+"materiais <b>,</b>.</span>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -869,6 +1109,9 @@ msgid ""
 "internal and external documents and use the Sign App for automated customer "
 "signatures</span>"
 msgstr ""
+"<span class=\"h6-fs\">Use o aplicativo <b>Documento</b> para gerenciar todos "
+"os seus documentos internos e externos e use o aplicativo Assinar para "
+"assinaturas automatizadas de clientes.</span>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -876,6 +1119,8 @@ msgid ""
 "<span class=\"h6-fs\">Use the <b>E-commerce</b> app to sell products online."
 "</span>"
 msgstr ""
+"<span class=\"h6-fs\">Use o aplicativo <b>e-Commerce</b> para vender "
+"produtos online.</span>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -883,6 +1128,8 @@ msgid ""
 "<span class=\"h6-fs\">Use the Maintenance app to plan and monitor the upkeep "
 "of your production line.<b/></span><br/>"
 msgstr ""
+"<span class=\"h6-fs\">Utilize o aplicativo Manutenção para planejar e "
+"monitorar a manutenção da sua linha de produção.<b/></span><br/>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -891,11 +1138,14 @@ msgid ""
 "control checks throughout your production or supply chain process.<b/></"
 "span><br/>"
 msgstr ""
+"<span class=\"h6-fs\">Utilize o aplicativo Quality para implementar "
+"verificações específicas de controle de qualidade em todo o seu processo de "
+"produção ou cadeia de suprimentos.<b/></span><br/>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "<span class=\"h6-fs\">Within the Inventory app</span>"
-msgstr ""
+msgstr "<span class=\"h6-fs\">No aplicativo Inventário</span>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -920,12 +1170,12 @@ msgstr "<span class=\"s_website_form_label_content\">E-mail</span>"
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.contactus
 msgid "<span class=\"s_website_form_label_content\">Files</span>"
-msgstr ""
+msgstr "<span class=\"s_website_form_label_content\">Arquivos</span>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.contactus
 msgid "<span class=\"s_website_form_label_content\">Name</span>"
-msgstr ""
+msgstr "<span class=\"s_website_form_label_content\">Nome</span>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.contactus
@@ -935,17 +1185,17 @@ msgstr "<span class=\"s_website_form_label_content\">Número de telefone</span>"
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.contactus
 msgid "<span class=\"s_website_form_label_content\">Question</span>"
-msgstr ""
+msgstr "<span class=\"s_website_form_label_content\">Pergunta</span>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.contactus
 msgid "<span class=\"s_website_form_label_content\">Subject</span>"
-msgstr ""
+msgstr "<span class=\"s_website_form_label_content\">Assunto</span>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "<span style=\"font-size: 21px;\">Barcode App</span> 🤳"
-msgstr ""
+msgstr "<span style=\"font-size: 21px;\">app Código de Barras</span> 🤳"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -953,16 +1203,18 @@ msgid ""
 "<strong><span class=\"display-4-fs\">Textile Manufacturing </span></"
 "strong><br/>"
 msgstr ""
+"<strong><span class=\"display-4-fs\">Fabricação de têxteis </span></"
+"strong><br/>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "<strong><u>Production BOM</u></strong>"
-msgstr ""
+msgstr "<strong><u>Lista de materiais de produção</u></strong>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "<strong><u>Subcontracting BOM</u></strong>"
-msgstr ""
+msgstr "<strong><u>Subcontratação da lista de materiais</u></strong>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -980,6 +1232,8 @@ msgid ""
 "<strong>Black, White, Heather Gray, Navy Blue, Olive Green, Maroon, Royal "
 "Blue, Pastel Pink</strong>"
 msgstr ""
+"<strong>Preto, Branco, Cinza claro, Azul marinho, Verde oliva, Marrom, Azul "
+"royal, Rosa pastel</strong>"
 
 #. module: textile_manufacturing
 #: model_terms:product.template,description_ecommerce:textile_manufacturing.product_template_12
@@ -989,12 +1243,12 @@ msgstr ""
 #: model_terms:product.template,description_ecommerce:textile_manufacturing.product_template_3
 #: model_terms:product.template,description_ecommerce:textile_manufacturing.product_template_4
 msgid "<strong>Color: </strong>"
-msgstr ""
+msgstr "<strong>Cor: </strong>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "<strong>Multisteps: </strong>"
-msgstr ""
+msgstr "<strong>Várias etapas: </strong>"
 
 #. module: textile_manufacturing
 #: model_terms:product.template,description_ecommerce:textile_manufacturing.product_template_12
@@ -1004,11 +1258,18 @@ msgstr ""
 #: model_terms:product.template,description_ecommerce:textile_manufacturing.product_template_3
 #: model_terms:product.template,description_ecommerce:textile_manufacturing.product_template_4
 msgid "<strong>Neckline: </strong>"
-msgstr ""
+msgstr "<strong>Decote: </strong>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "<strong>Pro-Tips for Creating a BOM 🚀</strong>"
+msgstr ""
+"<strong>Dicas profissionais para criar uma lista de materiais (LM) 🚀</"
+"strong>"
+
+#. module: textile_manufacturing
+#: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
+msgid "<strong>See it in Action!</strong>"
 msgstr ""
 
 #. module: textile_manufacturing
@@ -1020,21 +1281,26 @@ msgid ""
 "                      <br/>\n"
 "                      <strong>line</strong>"
 msgstr ""
+"<strong>O próxima</strong>\n"
+"                      <br/>\n"
+"                     <strong> verão</strong>\n"
+"                      <br/>\n"
+"                     <strong></strong>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "<u>Next Steps (for both ETO &amp; MTO)</u>"
-msgstr ""
+msgstr "<u> &amp; Próximos passos (tanto para ETO quanto para MTO)</u>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "A Manufacturing Order will be created in one of two ways:"
-msgstr ""
+msgstr "Uma ordem de produção será criada de uma das duas maneiras:"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.homepage
 msgid "A blend of sophistication and comfort in every garment"
-msgstr ""
+msgstr "Uma combinação de sofisticação e conforto em cada peça de roupa"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -1042,6 +1308,8 @@ msgid ""
 "A complete design and validation process is completed before production "
 "begins."
 msgstr ""
+"Um processo completo de projeto e validação é concluído antes do início da "
+"produção."
 
 #. module: textile_manufacturing
 #: model:product.public.category,name:textile_manufacturing.product_public_category_3
@@ -1053,6 +1321,8 @@ msgstr "Acessórios"
 msgid ""
 "Activate the following routes in your <b>Inventory Settings</b> as needed:"
 msgstr ""
+"Ative as seguintes rotas nas <b>Definições do Inventário </b>, conforme "
+"necessário:"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -1060,11 +1330,14 @@ msgid ""
 "Add all the <b>components</b> needed for production and adjust their "
 "quantities."
 msgstr ""
+"Adicione todos os <b>componentes</b> necessários para a produção e ajuste "
+"suas quantidades."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "Add only the components you need to provide to the subcontractor."
 msgstr ""
+"Adicione apenas os componentes que você precisa fornecer ao subcontratado."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -1073,17 +1346,23 @@ msgid ""
 "and the <b>Days to Prepare Manufacturing</b> (the time needed to replenish "
 "or produce all components)."
 msgstr ""
+"Ajuste o <b>Tempo de entrega da produção</b> (o tempo necessário para a "
+"Fabricação) e os <b>Dias para preparar a produção</b> (o tempo necessário "
+"para reabastecer ou produzir todos os componentes)."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid ""
 "Adjust the <b>production quantity</b> and any specific operations as needed."
 msgstr ""
+"Ajuste a <b>quantidade de produção</b> e operações específicas, conforme "
+"necessário."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "Adjust the quantity and add <b>lot numbers</b> as needed."
 msgstr ""
+"Ajuste a quantidade e adicione os <b>números de lote</b> conforme necessário."
 
 #. module: textile_manufacturing
 #: model:project.tags,name:textile_manufacturing.project_tags_3
@@ -1097,6 +1376,10 @@ msgid ""
 "replenishment if <b>reordering rules</b> are set to <b>Auto</b>. Otherwise, "
 "it will be displayed on the <b>Replenishment Dashboard.</b>"
 msgstr ""
+"Após a confirmação, o Odoo acionará automaticamente qualquer reposição "
+"necessária se as <b>regras de reposição</b> estiverem definidas como "
+"<b>Automático</b>. Caso contrário, será exibido no <b>Painel de Reposição</"
+"b>."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -1106,6 +1389,9 @@ msgid ""
 "ensures a smooth transition from the initial project phase to the final "
 "sales order."
 msgstr ""
+"Após concluir essas etapas, você pode gerar uma nova cotação diretamente do "
+"projeto, reutilizando as informações do design e do padrão. Isso garante uma "
+"transição suave da fase inicial do projeto para o pedido de venda final."
 
 #. module: textile_manufacturing
 #: model:product.public.category,name:textile_manufacturing.product_public_category_1
@@ -1123,6 +1409,8 @@ msgid ""
 "Before confirming the manufacturing order, change the <b>scheduled date</b>. "
 "This date will serve as the deadline for replenishing all components."
 msgstr ""
+"Antes de confirmar a ordem de produção, altere a <b>data programada </b> . "
+"Essa data servirá como prazo para repor todos os componentes."
 
 #. module: textile_manufacturing
 #: model:product.attribute.value,name:textile_manufacturing.product_attribute_value_12
@@ -1146,7 +1434,7 @@ msgid ""
 "tailored to your specific needs. This involves customizing all settings "
 "related to <b>storage locations, packaging, stock move types, shipping "
 "connectors</b>, and\n"
-"          <b>barcode configuration</b> to ensure maximum efficiency."
+"            <b>barcode configuration</b> to ensure maximum efficiency."
 msgstr ""
 
 #. module: textile_manufacturing
@@ -1161,22 +1449,39 @@ msgstr ""
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "Change the <b>destination location</b> if necessary."
-msgstr ""
+msgstr "Altere o <b>local de destino </b>, se necessário."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "Change the BOM type to <b>Subcontractor</b>."
+msgstr "Altere o tipo de LM para <b>Subcontratado</b> ."
+
+#. module: textile_manufacturing
+#: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
+msgid ""
+"Check the <b>Chatter</b> to see how the system automatically logs the "
+"quality change."
 msgstr ""
 
 #. module: textile_manufacturing
 #: model_terms:product.public.category,website_description:textile_manufacturing.product_public_category_6
 msgid "Choose eco-friendly options that make a difference."
-msgstr ""
+msgstr "Escolha opções ecológicas que fazem a diferença."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid ""
 "Choose the finished product you'll be receiving from your subcontractor."
+msgstr "Escolha o produto final que você receberá do seu subcontratado."
+
+#. module: textile_manufacturing
+#: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
+msgid "Click <b>\"Convert.\"</b>"
+msgstr ""
+
+#. module: textile_manufacturing
+#: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
+msgid "Click <b>Validate.</b>"
 msgstr ""
 
 #. module: textile_manufacturing
@@ -1185,6 +1490,8 @@ msgid ""
 "Click the <b>\"Allocation\"</b> button, then select the sales order or "
 "delivery you want to fulfill."
 msgstr ""
+"Clique no botão <b>“Alocação” </b> e selecione o pedido de venda ou a "
+"entrega que pretende realizar."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -1192,21 +1499,29 @@ msgid ""
 "Click the <b>\"Generate BOM\"</b> button. (This button is only visible if a "
 "BOM has not yet been selected on the manufacturing order.)"
 msgstr ""
+"Clique no botão “Gerar lista de materiais” ( <b>) “</b> ”. (Este botão só "
+"fica visível se ainda não tiver sido selecionada uma lista de materiais na "
+"ordem de fabricação.)"
+
+#. module: textile_manufacturing
+#: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
+msgid "Clicking the button opens a guided pop-up containing:"
+msgstr ""
 
 #. module: textile_manufacturing
 #: model:product.template,name:textile_manufacturing.product_template_10
 msgid "Clothing Label (Bottom)"
-msgstr ""
+msgstr "Etiqueta da roupa (parte inferior)"
 
 #. module: textile_manufacturing
 #: model:product.template,name:textile_manufacturing.product_template_9
 msgid "Clothing Label (Top)"
-msgstr ""
+msgstr "Etiqueta de roupa (parte superior)"
 
 #. module: textile_manufacturing
 #: model:product.template,name:textile_manufacturing.product_template_11
 msgid "Clothing Label (Underwear)"
-msgstr ""
+msgstr "Etiqueta de roupa (roupa íntima)"
 
 #. module: textile_manufacturing
 #: model:product.public.category,name:textile_manufacturing.product_public_category_5
@@ -1216,7 +1531,7 @@ msgstr "Cobranças"
 #. module: textile_manufacturing
 #: model_terms:product.public.category,website_description:textile_manufacturing.product_public_category_3
 msgid "Complete your look with our trendy and functional accessories."
-msgstr ""
+msgstr "Complete seu visual com nossos acessórios modernos e funcionais."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.contactus
@@ -1226,7 +1541,7 @@ msgstr "Entre em contato"
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.homepage
 msgid "Craftsmanship that stands out"
-msgstr ""
+msgstr "Artesanato que se destaca"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -1234,11 +1549,13 @@ msgid ""
 "Create a new manufacturing order for the product, using the BOM you just "
 "generated."
 msgstr ""
+"Crie uma nova ordem de produção para o produto, usando a lista de materiais "
+"que você acabou de gerar."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "Create a new manufacturing order."
-msgstr ""
+msgstr "Crie uma nova ordem de produção."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -1246,6 +1563,8 @@ msgid ""
 "Create and assign specific product categories to easily classify your "
 "products."
 msgstr ""
+"Crie e atribua categorias específicas de produtos para classificar "
+"facilmente seus produtos."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -1253,6 +1572,8 @@ msgid ""
 "Create project templates within the <b>Project app</b> to easily reuse for "
 "similar projects."
 msgstr ""
+"Crie modelos de projeto no aplicativo <b>Projetos</b> para reutilizá-los "
+"facilmente em projetos semelhantes."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -1260,16 +1581,18 @@ msgid ""
 "Create the <b>operations</b>, link them to their respective <b>work centers</"
 "b>, and specify the required time for each."
 msgstr ""
+"Crie as <b>operações</b> , vincule-as aos respectivos <b>centros de "
+"trabalho</b> e especifique o tempo necessário para cada uma."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "Create your Product Catalog 👖"
-msgstr ""
+msgstr "Crie seu Catálogo de Produtos 👖"
 
 #. module: textile_manufacturing
 #: model:product.template,name:textile_manufacturing.product_template_5
 msgid "Custom Shirt (ETO)"
-msgstr ""
+msgstr "Camisa personalizada (ETO)"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -1278,11 +1601,17 @@ msgid ""
 "can then follow up with them in the <b>CRM app</b> to clarify their needs "
 "using the <b>chatter feature</b>."
 msgstr ""
+"Os clientes podem solicitar um orçamento diretamente pelo formulário de "
+"contato do seu site. Você pode então entrar em contato com eles pelo "
+"aplicativo <b>CRM</b> para esclarecer suas necessidades usando o recurso do "
+"<b>chatter</b> ."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.homepage
 msgid "Customize your corporate apparel with your own logo or print."
 msgstr ""
+"Personalize o uniforme da sua empresa com o seu próprio logotipo ou "
+"impressão."
 
 #. module: textile_manufacturing
 #: model:product.attribute.value,name:textile_manufacturing.product_attribute_value_15
@@ -1297,22 +1626,22 @@ msgstr "Design"
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "Design validation"
-msgstr ""
+msgstr "Validação do projeto"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.homepage
 msgid "Design your own clothing!&amp;nbsp;"
-msgstr ""
+msgstr "Crie suas próprias roupas!&amp;nbsp;"
 
 #. module: textile_manufacturing
 #: model_terms:product.public.category,website_description:textile_manufacturing.product_public_category_2
 msgid "Discover premium materials perfect for your next project."
-msgstr ""
+msgstr "Descubra materiais premium perfeitos para o seu próximo projeto."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.homepage
 msgid "Discover the Fabrics that Shape Fashion"
-msgstr ""
+msgstr "Descubra os tecidos que moldam a moda"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.homepage
@@ -1330,14 +1659,21 @@ msgid "Done"
 msgstr "Concluído"
 
 #. module: textile_manufacturing
+#: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
+msgid ""
+"During the inventory adjustment process, users can utilize the conversion "
+"feature by selecting a specific line item and triggering the 'Convert' action"
+msgstr ""
+
+#. module: textile_manufacturing
 #: model:product.template,name:textile_manufacturing.product_template_16
 msgid "Dyed Cotton Fabric Blue"
-msgstr ""
+msgstr "Tecido de algodão tingido azul"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "Each product is created specifically for an individual customer."
-msgstr ""
+msgstr "Cada produto é criado especificamente para um cliente individual."
 
 #. module: textile_manufacturing
 #: model:documents.document,name:textile_manufacturing.documents_document_8
@@ -1346,11 +1682,20 @@ msgstr "Funcionários"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
+msgid "Enter the affected quantity and choose the new quality grade."
+msgstr ""
+
+#. module: textile_manufacturing
+#: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid ""
 "Establish reordering rules for each product to maintain your ideal stock "
 "levels. For these rules to be effective, be sure to accurately configure the "
 "lead times (the time required to replenish your stock)."
 msgstr ""
+"Estabeleça regras de reposição para cada produto para manter seus níveis "
+"ideais de estoque. Para que essas regras sejam eficazes, certifique-se de "
+"configurar com precisão os prazos de entrega (o tempo necessário para "
+"reabastecer seu estoque)."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.homepage
@@ -1361,21 +1706,28 @@ msgstr "Todos os estilos para todo mundo."
 #: model_terms:product.public.category,website_description:textile_manufacturing.product_public_category_1
 msgid "Explore our diverse range of stylish clothing for every occasion."
 msgstr ""
+"Explore nossa ampla variedade de roupas elegantes para todas as ocasiões."
 
 #. module: textile_manufacturing
 #: model:product.public.category,name:textile_manufacturing.product_public_category_2
 msgid "Fabrics"
-msgstr ""
+msgstr "Tecidos"
 
 #. module: textile_manufacturing
 #: model_terms:product.public.category,website_description:textile_manufacturing.product_public_category_7
 msgid "Find seasonal must-haves to refresh your wardrobe."
 msgstr ""
+"Encontre os itens indispensáveis da estação para renovar seu guarda-roupa."
+
+#. module: textile_manufacturing
+#: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
+msgid "Find the full explanation by opening this subsection or from this"
+msgstr ""
 
 #. module: textile_manufacturing
 #: model:product.public.category,name:textile_manufacturing.product_public_category_4
 msgid "Footwear"
-msgstr ""
+msgstr "Calçados"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -1383,6 +1735,8 @@ msgid ""
 "For any <b>purchased or subcontracted products</b>, be sure to add the "
 "vendors and their prices."
 msgstr ""
+"Para qualquer <b>produto adquirido ou subcontratado</b> , certifique-se de "
+"adicionar os fornecedores e seus preços."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -1391,6 +1745,10 @@ msgid ""
 "production. The <b>Project app</b> centralizes all the necessary "
 "information, ensuring a smooth and perfectly managed follow-up process."
 msgstr ""
+"Para determinados pedidos de clientes, é necessário obter aprovação antes de "
+"iniciar a produção. O aplicativo <b>Projeto</b> centraliza todas as "
+"informações necessárias, garantindo um processo de acompanhamento tranquilo "
+"e perfeitamente gerenciado."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -1398,6 +1756,8 @@ msgid ""
 "For example, a T-shirt with a custom-printed logo could have two different "
 "BOMs:"
 msgstr ""
+"Por exemplo, uma camiseta com um logotipo personalizado pode ter duas listas "
+"de materiais diferentes:"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -1406,6 +1766,10 @@ msgid ""
 "ink and other materials, your BOM should only list the raw cotton. The "
 "components listed here are only those you will supply."
 msgstr ""
+"Por exemplo, se um subcontratado tingir o seu algodão cru e fornecer a tinta "
+"e outros materiais, a sua lista de materiais (BOM) deve incluir apenas o "
+"algodão cru. Os componentes listados aqui são apenas aqueles que você "
+"fornecerá."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -1414,7 +1778,7 @@ msgid ""
 "a pattern for validation, it's crucial to follow clear plans for scheduling, "
 "instructions, subcontracting, and replenishment. The <b>Manufacturing app</"
 "b> is\n"
-"          the best way to manage this process."
+"            the best way to manage this process."
 msgstr ""
 
 #. module: textile_manufacturing
@@ -1425,11 +1789,15 @@ msgid ""
 "all variants at once. This is done by linking specific components to certain "
 "variations."
 msgstr ""
+"Para produtos com diferentes variações, como uma “camiseta” que vem nas "
+"cores “azul” e “amarela”, uma lista de materiais (LM) pode ser configurada "
+"para lidar com todas as variantes de uma só vez. Isso é feito vinculando "
+"componentes específicos a determinadas variações."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "From your project, select the production pattern."
-msgstr ""
+msgstr "No seu projeto, selecione o padrão de produção."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.homepage
@@ -1443,11 +1811,15 @@ msgid ""
 "which are the locations where your production operations happen. You can "
 "also adjust their specific parameters to fit your needs."
 msgstr ""
+"Acesse <b>Definições</b> para criar e configurar seus <b>centros de "
+"trabalho</b> , que são os locais onde suas operações de produção acontecem. "
+"Você também pode ajustar seus parâmetros específicos para atender às suas "
+"necessidades."
 
 #. module: textile_manufacturing
 #: model_terms:product.public.category,website_description:textile_manufacturing.product_public_category_8
 msgid "Grab unbeatable deals on your favorite styles today!"
-msgstr ""
+msgstr "Aproveite hoje mesmo ofertas imbatíveis nos seus estilos favoritos!"
 
 #. module: textile_manufacturing
 #: model:product.attribute.value,name:textile_manufacturing.product_attribute_value_5
@@ -1462,7 +1834,7 @@ msgstr "Cinza"
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "Here's how it works:"
-msgstr ""
+msgstr "Funciona da seguinte maneira:"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -1471,6 +1843,9 @@ msgid ""
 "automatically. Otherwise, you must create the delivery for the client "
 "manually."
 msgstr ""
+"Se existir um <b>Pedido de Venda</b> para o padrão, a entrega será criada "
+"automaticamente. Caso contrário, você deverá criar a entrega para o cliente "
+"manualmente."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -1478,6 +1853,8 @@ msgid ""
 "If a Manufacturing Order is planned and all necessary components are "
 "available, it will appear on your screen."
 msgstr ""
+"Se uma ordem de produção estiver planejada e todos os componentes "
+"necessários estiverem disponíveis, ela aparecerá na tela."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -1485,6 +1862,8 @@ msgid ""
 "If any materials are required, use the <b>Purchase app</b> to manage your "
 "purchase orders."
 msgstr ""
+"Se forem necessários materiais, utilize o aplicativo <b>Compras </b> para "
+"gerenciar seus pedidos de compra."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -1492,6 +1871,8 @@ msgid ""
 "If needed, you can pack the products together to generate a single label for "
 "the entire package."
 msgstr ""
+"Se necessário, você pode embalar os produtos juntos para gerar uma única "
+"etiqueta para todo o pacote."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -1500,6 +1881,9 @@ msgid ""
 "need to create them on the dedicated tab. Be careful to read the "
 "documentation first to ensure you configure them correctly."
 msgstr ""
+"Se o produto tiver <b>variantes</b> (como tamanhos ou cores diferentes), "
+"você precisará criá-las na aba dedicada. Leia atentamente a documentação "
+"primeiro para garantir que você as configure corretamente."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -1507,6 +1891,8 @@ msgid ""
 "If traceability is required for certain products, change the tracking method "
 "to <b>Lots</b> or <b>Serial Numbers</b>."
 msgstr ""
+"Se for necessária a rastreabilidade para determinados produtos, altere o "
+"método de rastreamento para <b>Números de série</b> ou <b>Lote</b>."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -1514,6 +1900,8 @@ msgid ""
 "If you have a knowledge page to centralize product customization, you can "
 "link it in the notes section of the <b>Miscellaneous</b> tab."
 msgstr ""
+"Se você tiver uma página de conhecimento para centralizar a personalização "
+"do produto, poderá vinculá-la na seção de notas da aba <b>Diversos”</b>."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -1521,7 +1909,7 @@ msgid ""
 "In this database's demo data, the <b>Reordering Rules</b> are set to a "
 "<b>\"Manual\" trigger</b>. This means Odoo will propose replenishment in "
 "your replenishment dashboard, but you must manually approve them before\n"
-"                              the orders are created. To skip this manual "
+"                                the orders are created. To skip this manual "
 "approval step and have Odoo automatically create orders, simply set the "
 "Reordering Rules to an <b>\"Auto\" trigger</b>."
 msgstr ""
@@ -1529,12 +1917,12 @@ msgstr ""
 #. module: textile_manufacturing
 #: model:product.attribute.value,name:textile_manufacturing.product_attribute_value_7
 msgid "Indigo"
-msgstr ""
+msgstr "Índigo"
 
 #. module: textile_manufacturing
 #: model:product.template,name:textile_manufacturing.product_template_17
 msgid "Interfacing (Woven)"
-msgstr ""
+msgstr "Entretela (tecida)"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -1543,8 +1931,9 @@ msgid ""
 "and fewer variants. Once you're confident in your workflow and automation "
 "needs, you can then combine these products into a single product with "
 "multiple\n"
-"                  variants. This approach allows you to build a more robust "
-"and scalable system without the added complexity of variants from the start."
+"                    variants. This approach allows you to build a more "
+"robust and scalable system without the added complexity of variants from the "
+"start."
 msgstr ""
 
 #. module: textile_manufacturing
@@ -1571,11 +1960,13 @@ msgstr "Minha Empresa"
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "Navigate to the <b>Bill of Material</b> section and create a new BOM."
 msgstr ""
+"Navegue até a seção <b>Lista de materiais</b> e crie uma nova lista de "
+"materiais."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "Navigate to the Bill of Materials section and create a new one."
-msgstr ""
+msgstr "Navegue até a seção Lista de Materiais e crie uma nova."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -1593,6 +1984,10 @@ msgid ""
 "Easily integrate your internal policies, customize the contact form, "
 "showcase your latest products, and much more!"
 msgstr ""
+"O Odoo irá ajudá-lo a adaptar o seu site para atender perfeitamente às "
+"necessidades dos seus clientes. Integre facilmente as suas políticas "
+"internas, personalize o formulário de contato, apresente os seus produtos "
+"mais recentes e muito mais!"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -1612,6 +2007,16 @@ msgid ""
 "the <b>vendor list</b>. Be sure to include the price you'll pay for their "
 "subcontracting service."
 msgstr ""
+"Nas configurações do produto acabado, você precisará adicionar o "
+"subcontratado à lista de fornecedores <b></b> . Certifique-se de incluir o "
+"preço que você pagará pelo serviço de subcontratação."
+
+#. module: textile_manufacturing
+#: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
+msgid ""
+"Once clicking on \"Convert\" button an <b>Automated Manufacturing Order "
+"(MO)</b> is executed in the background:"
+msgstr ""
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -1620,7 +2025,7 @@ msgid ""
 "using the <b>Shop Floor App</b>. This app can be installed as a standalone "
 "application. It's designed to be used by multiple employees on a single "
 "device, with each\n"
-"          employee registering their work individually."
+"            employee registering their work individually."
 msgstr ""
 
 #. module: textile_manufacturing
@@ -1630,6 +2035,9 @@ msgid ""
 "date on the <b>Manufacturing Order (MO)</b> is just an initial estimate and "
 "doesn't consider your actual capacity."
 msgstr ""
+"Depois que as ordens de produção são confirmadas, elas precisam ser "
+"planejadas. A data programada na <b>Ordem de Fabricação (OP)</b> é apenas "
+"uma estimativa inicial e não leva em consideração sua capacidade real."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -1638,11 +2046,16 @@ msgid ""
 "product and price. This time, the delivery will be created directly from the "
 "<b>Sales Order</b>."
 msgstr ""
+"Assim que o cliente aprovar o padrão, você poderá enviar a cotação com o "
+"produto final e o preço. Desta vez, a entrega será criada diretamente a "
+"partir do <b>Pedido de Venda</b> ."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "Once their requirements are clear, you have two possible workflows:"
 msgstr ""
+"Uma vez que os requisitos estejam claros, você tem duas opções de fluxo de "
+"trabalho:"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -1651,6 +2064,9 @@ msgid ""
 "b>. This powerful app allows you to group orders, compare different supplier "
 "offers, track receipt accuracy, and more."
 msgstr ""
+"Depois de criar um pedido de compra, valide-o no aplicativo <b>Compras</b>. "
+"Este poderoso aplicativo permite agrupar pedidos, comparar diferentes "
+"ofertas de fornecedores, acompanhar a precisão do recebimento e muito mais."
 
 #. module: textile_manufacturing
 #: model:project.task.type,name:textile_manufacturing.project_task_type_12
@@ -1661,11 +2077,13 @@ msgstr "Em andamento"
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "Open the app, select the work centers and log in as an employee."
 msgstr ""
+"Abra o aplicativo, selecione os centros de trabalho e faça login como "
+"funcionário."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "Open the transfer."
-msgstr ""
+msgstr "Abra a transferência."
 
 #. module: textile_manufacturing
 #: model:product.attribute.value,name:textile_manufacturing.product_attribute_value_3
@@ -1675,12 +2093,12 @@ msgstr "Laranja"
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "Pattern creation"
-msgstr ""
+msgstr "Criação de padrões"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "Pattern delivery"
-msgstr ""
+msgstr "Entrega do molde"
 
 #. module: textile_manufacturing
 #: model:product.attribute.value,name:textile_manufacturing.product_attribute_value_10
@@ -1690,27 +2108,37 @@ msgstr "Rosa"
 #. module: textile_manufacturing
 #: model:product.template,name:textile_manufacturing.product_template_18
 msgid "Plastic Buttons (11.4mm)"
-msgstr ""
+msgstr "Botões de plástico (11,4 mm)"
 
 #. module: textile_manufacturing
 #: model:product.template,name:textile_manufacturing.product_template_19
 msgid "Plastic Buttons (9.5mm)"
+msgstr "Botões de plástico (9,5 mm)"
+
+#. module: textile_manufacturing
+#: model:product.template,name:textile_manufacturing.product_template_20
+msgid "Polo With Quality Level"
 msgstr ""
 
 #. module: textile_manufacturing
 #: model:project.tags,name:textile_manufacturing.project_tags_4
 msgid "Pre-Sale"
-msgstr ""
+msgstr "Pré-venda"
 
 #. module: textile_manufacturing
 #: model:documents.document,name:textile_manufacturing.documents_document_13
 #: model:project.project,name:textile_manufacturing.project_project_2
 msgid "Pre-Sale / Pattern creation"
-msgstr ""
+msgstr "Pré-venda / Criação de padrões"
 
 #. module: textile_manufacturing
 #: model:product.template,name:textile_manufacturing.product_template_7
 msgid "Pre-dyed Cotton fabric"
+msgstr "Tecido de algodão pré-tingido"
+
+#. module: textile_manufacturing
+#: model:product.attribute.value,name:textile_manufacturing.product_attribute_value_17
+msgid "Premium"
 msgstr ""
 
 #. module: textile_manufacturing
@@ -1724,11 +2152,13 @@ msgid ""
 "Products are differentiated only by elements like a printed logo or "
 "embroidered text."
 msgstr ""
+"Os produtos são diferenciados apenas por elementos como um logotipo impresso "
+"ou texto bordado."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "Projects give you full control over the design process:"
-msgstr ""
+msgstr "Os projetos oferecem controle total sobre o processo de design:"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -1737,11 +2167,20 @@ msgid ""
 "However, if you don't use reordering rules or want to manually review future "
 "needs, you can use the <b>Replenishment view</b> in the Inventory app."
 msgstr ""
+"As ordens de compra podem ser criadas automaticamente usando <b>regras de "
+"reposição</b> . No entanto, se você não usar regras de reposição ou quiser "
+"revisar manualmente as necessidades futuras, pode usar a visualização "
+"<b>Reposição</b> no aplicativo Inventário."
 
 #. module: textile_manufacturing
 #: model:product.attribute.value,name:textile_manufacturing.product_attribute_value_9
 msgid "Purple"
 msgstr "Roxo"
+
+#. module: textile_manufacturing
+#: model:product.attribute,name:textile_manufacturing.product_attribute_1
+msgid "Quality Level"
+msgstr ""
 
 #. module: textile_manufacturing
 #: model:product.template,name:textile_manufacturing.product_template_6
@@ -1766,37 +2205,44 @@ msgstr ""
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "Requires a <b>fully custom BOM</b>."
-msgstr ""
+msgstr "Requer uma <b>lista de materiais totalmente personalizada</b> ."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid ""
 "Results in a high volume of <b>identical products</b> stored in inventory."
 msgstr ""
+"Resulta em um grande volume de <b>produtos idênticos</b> armazenados no "
+"inventário."
+
+#. module: textile_manufacturing
+#: model:product.attribute.value,name:textile_manufacturing.product_attribute_value_19
+msgid "Rework"
+msgstr ""
 
 #. module: textile_manufacturing
 #: model:documents.document,name:textile_manufacturing.documents_document_17
 #: model:project.project,name:textile_manufacturing.project_project_5
 msgid "S XX - Same with other logo"
-msgstr ""
+msgstr "S XX - O mesmo com outro logotipo"
 
 #. module: textile_manufacturing
 #: model:documents.document,name:textile_manufacturing.documents_document_16
 #: model:project.project,name:textile_manufacturing.project_project_4
 msgid "S XX - Shorts"
-msgstr ""
+msgstr "S XX - Calções"
 
 #. module: textile_manufacturing
 #: model:documents.document,name:textile_manufacturing.documents_document_15
 #: model:project.project,name:textile_manufacturing.project_project_3
 msgid "S XX : T-shirt sample"
-msgstr ""
+msgstr "S XX: Amostra de camiseta"
 
 #. module: textile_manufacturing
 #: model:documents.document,name:textile_manufacturing.documents_document_18
 #: model:project.project,name:textile_manufacturing.project_project_6
 msgid "S00003 - Custom Shirt"
-msgstr ""
+msgstr "S00003 - Camisa personalizada"
 
 #. module: textile_manufacturing
 #: model:product.public.category,name:textile_manufacturing.product_public_category_8
@@ -1838,6 +2284,11 @@ msgstr ""
 #. module: textile_manufacturing
 #: model_terms:product.public.category,website_description:textile_manufacturing.product_public_category_5
 msgid "Shop curated selections that embody the latest trends."
+msgstr ""
+
+#. module: textile_manufacturing
+#: model:product.attribute.value,name:textile_manufacturing.product_attribute_value_18
+msgid "Standard"
 msgstr ""
 
 #. module: textile_manufacturing
@@ -1919,23 +2370,8 @@ msgstr ""
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid ""
-"The <strong><font class=\"text-o-color-1\">Invoice App</font></strong> helps "
-"you keep track of all your invoices."
-msgstr ""
-
-#. module: textile_manufacturing
-#: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
-msgid ""
-"The <strong><font class=\"text-o-color-1\">Project App</font></strong> is "
-"ideal for managing complex projects that involve multiple production stages."
-msgstr ""
-
-#. module: textile_manufacturing
-#: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
-msgid ""
-"The <strong><font class=\"text-o-color-1\">Purchase App </font></"
-"strong>ensures accurate inventory replenishment and tracks subcontracting "
-"services."
+"The Convert button appears only when specific criteria are met to ensure "
+"data integrity:"
 msgstr ""
 
 #. module: textile_manufacturing
@@ -1953,7 +2389,7 @@ msgid ""
 "needs (you can adjust the <b>Horizon settings</b> to see what's coming up). "
 "From this screen, you can directly create purchase orders, subcontracting "
 "orders, or\n"
-"          manufacturing orders."
+"            manufacturing orders."
 msgstr ""
 
 #. module: textile_manufacturing
@@ -1988,7 +2424,7 @@ msgid ""
 "to-Order (ETO)</b> and <b>Make-to-Order (MTO)</b> products. To allow for "
 "greater flexibility in choosing the correct <b>Bill of Materials (BOM)</b> "
 "and making\n"
-"          any needed adjustments, you must manually create a manufacturing "
+"            any needed adjustments, you must manually create a manufacturing "
 "order after a sales order is confirmed."
 msgstr ""
 
@@ -2010,28 +2446,6 @@ msgstr "O fornecedor cobra o pagamento."
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid ""
-"The<strong> </strong><font style=\"color: rgb(113, 75, 103);"
-"\"><strong>Website App</strong></font> acts as a virtual showroom and a "
-"powerful tool for generating new leads."
-msgstr ""
-
-#. module: textile_manufacturing
-#: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
-msgid ""
-"The<strong> <font class=\"text-o-color-1\">Manufacturing App</font></strong> "
-"handles all product creations."
-msgstr ""
-
-#. module: textile_manufacturing
-#: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
-msgid ""
-"The<strong> <font style=\"color: rgb(113, 75, 103);\">CRM &amp; Sales app</"
-"font></strong> manages all product and service charges for your clients."
-msgstr ""
-
-#. module: textile_manufacturing
-#: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
-msgid ""
 "This flexibility allows you to manage different production processes for the "
 "same product, making it easy to use existing inventory when possible."
 msgstr ""
@@ -2048,7 +2462,7 @@ msgid ""
 "there are two distinct types: <b>Production BOMs</b> (for in-house "
 "production) and <b>Subcontracting BOMs</b> (for external production). Each "
 "type requires\n"
-"          different settings."
+"            different settings."
 msgstr ""
 
 #. module: textile_manufacturing
@@ -2088,7 +2502,15 @@ msgid ""
 "\"Plan.\" The system will then generate a detailed schedule that accounts "
 "for the capacity of your <b>work centers</b>. You can see a clear overview "
 "of your schedule\n"
-"          on the planning by work centers screen."
+"            on the planning by work centers screen."
+msgstr ""
+
+#. module: textile_manufacturing
+#: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
+msgid ""
+"To provide maximum flexibility during warehouse operations, a new Convert "
+"button is now available on transfer from the backend and from the barcode "
+"app."
 msgstr ""
 
 #. module: textile_manufacturing
@@ -2119,7 +2541,8 @@ msgstr ""
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "Use the <strong>Accounting</strong> app to easily handle:"
-msgstr "Use o aplicativo <strong>Financeiro</strong> para lidar facilmente com:"
+msgstr ""
+"Use o aplicativo <strong>Financeiro</strong> para lidar facilmente com:"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -2145,11 +2568,20 @@ msgstr ""
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid ""
+"We’ve set up a <b>\"Polo with Quality Level\"</b> product to demonstrate "
+"this process. Open delivery <b>WH/OUT/00002</b> (Red Polo). Imagine 20 of "
+"the 40 units were water-damaged in storage and cannot be sold as Premium "
+"stock."
+msgstr ""
+
+#. module: textile_manufacturing
+#: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
+msgid ""
 "When you create a manufacturing order for a specific variant, such as a "
 "\"Yellow\" T-shirt, the system automatically pulls only the necessary "
 "materials—in this case, the <b>Yellow Cotton</b> and the <b>Clothing Label</"
 "b>. This approach\n"
-"          helps streamline the production process and ensures you only use "
+"            helps streamline the production process and ensures you only use "
 "the components needed for each specific version of the product."
 msgstr ""
 
@@ -2172,6 +2604,13 @@ msgid ""
 "When you're ready, you have the flexibility to create an invoice for either "
 "a full or a partial payment, such as a down payment. All invoices generated "
 "are tracked and can be managed through the <b>Invoices app</b>."
+msgstr ""
+
+#. module: textile_manufacturing
+#: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
+msgid ""
+"While the system allows broad product-to-product conversion, you can enforce "
+"strict rules using the <b>\"Convert Attribute\"</b> setting:"
 msgstr ""
 
 #. module: textile_manufacturing
@@ -2254,7 +2693,7 @@ msgid ""
 "You can customize the settings for each operation type within the barcode "
 "application to control what is permitted during the process. This allows you "
 "to define specific rules for operations like picking, ensuring the\n"
-"                      barcode functionality aligns with your business "
+"                        barcode functionality aligns with your business "
 "workflow."
 msgstr ""
 
@@ -2284,6 +2723,11 @@ msgstr ""
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.homepage
 msgid "blue button up long sleeve shirt"
+msgstr ""
+
+#. module: textile_manufacturing
+#: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
+msgid "link"
 msgstr ""
 
 #. module: textile_manufacturing
@@ -2390,6 +2834,274 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "🎓 Website"
 msgstr "🎓 Site"
+
+#~ msgid "01"
+#~ msgstr "01"
+
+#~ msgid "02"
+#~ msgstr "02"
+
+#~ msgid "03"
+#~ msgstr "03"
+
+#~ msgid "04"
+#~ msgstr "04"
+
+#~ msgid ""
+#~ "<b>For Make-to-Stock (MTS) or Make-to-Order (MTO) Products:</b> Simply "
+#~ "create a quote with the correct product. When the customer confirms it, "
+#~ "Odoo will automatically create a delivery order. Whether a production "
+#~ "order is also\n"
+#~ "                  created depends on your settings, which are detailed in "
+#~ "the <b>Manufacturing Order Creation</b> section."
+#~ msgstr ""
+#~ "<b>Para produtos feitos para estoque (MTS) ou sob encomenda (MTO):</b> "
+#~ "Basta criar uma cotação com o produto correto. Quando o cliente "
+#~ "confirmar, o Odoo criará automaticamente uma ordem de entrega. Se uma "
+#~ "ordem de produção também será\n"
+#~ "                  depende das suas configurações, que são detalhadas na "
+#~ "seção <b>Criação de ordem de fabricação</b>."
+
+#~ msgid ""
+#~ "<b>Link to a Knowledge Page:</b> Gather all the information in a separate "
+#~ "knowledge page and then link that page to the manufacturing instructions. "
+#~ "This keeps the operations clean while providing all the\n"
+#~ "                                  necessary details."
+#~ msgstr ""
+#~ "<b>Link para uma página do Conhecimento:</b> Reúna todas as informações "
+#~ "em uma página de conhecimento individual e, em seguida, vincule essa "
+#~ "página às instruções de fabricação. Assim, você mantém as operações "
+#~ "limpas e, ao mesmo tempo, tem acesso a todos os\n"
+#~ "                                  detalhes necessários."
+
+#~ msgid ""
+#~ "<b>Manufacturing 2 steps:</b> Your current \"Manufacturing 1 step\" "
+#~ "workflow takes components directly from stock. By switching to a 2-step "
+#~ "process, you'll add a picking operation between your warehouse and "
+#~ "production\n"
+#~ "                              area. This is ideal for transferring entire "
+#~ "packages, like a full bobbin of thread, rather than just a small portion."
+#~ msgstr ""
+#~ "<b>Fabricação em 2 etapas:</b> Seu fluxo de trabalho atual de "
+#~ "\"Fabricação em 1 etapa\" retira os componentes diretamente do estoque. "
+#~ "Ao mudar para um processo de duas etapas, você adicionará uma operação de "
+#~ "separação entre o depósito e a área de produção.\n"
+#~ "                              e a área de produção. Isso é ideal para a "
+#~ "transferência de pacotes inteiros, como uma bobina de linha completa, em "
+#~ "vez de apenas uma pequena parte."
+
+#~ msgid ""
+#~ "<b>Manufacturing 3 steps:</b> If you need a dedicated storage step for "
+#~ "finished products, change your warehouse settings to a 3-step workflow. "
+#~ "This adds a final transfer step, moving completed items from the\n"
+#~ "                              production area to their final storage "
+#~ "location."
+#~ msgstr ""
+#~ "<b>Fabricação em 3 etapas:</b> Se você precisar de uma etapa de "
+#~ "armazenamento dedicada para produtos acabados, altere as configurações do "
+#~ "depósito para um fluxo de trabalho de três etapas. Isso adiciona uma "
+#~ "etapa de transferência final, movendo os itens concluídos\n"
+#~ "                              da área de produção para o local de "
+#~ "armazenamento final."
+
+#~ msgid ""
+#~ "<b>Tips for Changing Production Priorities: </b>If you need to change the "
+#~ "priority on your production plan, you'll have to re-plan the entire "
+#~ "schedule. First, select all the <b>Manufacturing Orders</b> and "
+#~ "\"Unplan\" them.\n"
+#~ "                      Next, set the new priority (⭐) for the orders you "
+#~ "need to adjust, then \"Re-plan\" everything. This will ensure your new "
+#~ "priorities are reflected in the schedule."
+#~ msgstr ""
+#~ "<b>Dicas para alterar as prioridades de produção: </b>Se precisar alterar "
+#~ "a prioridade do seu plano de produção, você terá que replanejar todo o "
+#~ "cronograma. Primeiro, selecione todas as Ordens de Produção <b></b> e "
+#~ "“Desplaneje-as”.\n"
+#~ "Em seguida, defina a nova prioridade (⭐) para as ordens que você precisa "
+#~ "ajustar e, depois, “Replaneje” tudo. Isso garantirá que suas novas "
+#~ "prioridades sejam refletidas na programação."
+
+#~ msgid ""
+#~ "<span class=\"h5-fs\">\n"
+#~ "              <strong>Production Created from a Pattern (ETO Process) "
+#~ "&amp; <span class=\"h5-fs\">Production for Make-to-Order (MTO)</span></"
+#~ "strong>\n"
+#~ "          </span>"
+#~ msgstr ""
+#~ "<span class=\"h5-fs\">\n"
+#~ "              <strong>Produção criada a partir de um padrão (Processo "
+#~ "ETO) &amp; <span class=\"h5-fs\">Produção sob encomenda (MTO)</span></"
+#~ "strong>\n"
+#~ "         </span>"
+
+#~ msgid ""
+#~ "<span class=\"h6-fs\">\n"
+#~ "                          <strong><u>Engineering to Order (ETO)</u></"
+#~ "strong>\n"
+#~ "                      </span>"
+#~ msgstr ""
+#~ "<span class=\"h6-fs\">\n"
+#~ "                          <strong><u>Engenharia sob encomenda (ETO)</u></"
+#~ "strong>\n"
+#~ "                     </span>"
+
+#~ msgid ""
+#~ "<span class=\"h6-fs\">\n"
+#~ "                          <strong><u>Make to Order (MTO)</u></strong>\n"
+#~ "                      </span>"
+#~ msgstr ""
+#~ "<span class=\"h6-fs\">\n"
+#~ "                          <strong><u>Produção por pedido(MTO)</u></"
+#~ "strong>\n"
+#~ "                     </span>"
+
+#~ msgid ""
+#~ "<span class=\"h6-fs\">\n"
+#~ "                          <strong><u>Make to Stock (MTS)</u></strong>\n"
+#~ "                      </span>"
+#~ msgstr ""
+#~ "<span class=\"h6-fs\">\n"
+#~ "                          <strong><u>Produção para estoque (MTS)</u></"
+#~ "strong>\n"
+#~ "                     </span>"
+
+#~ msgid ""
+#~ "<span class=\"h6-fs\">\n"
+#~ "              <span class=\"h5-fs\"><strong>Production for Make-to-Stock "
+#~ "(MTS)</strong></span>\n"
+#~ "          </span>"
+#~ msgstr ""
+#~ "<span class=\"h6-fs\">\n"
+#~ "              <span class=\"h5-fs\"><strong>Produção para Make-to-Stock "
+#~ "(MTS)</strong></span>\n"
+#~ "         </span>"
+
+#~ msgid ""
+#~ "<span class=\"h6-fs\">\n"
+#~ "              This module is designed to streamline your daily "
+#~ "production, from start to finish. It helps you manage customer "
+#~ "relationships, prepare for production, purchase raw materials, and handle "
+#~ "deliveries. With this complete solution, you\n"
+#~ "              can boost efficiency and improve customer satisfaction "
+#~ "across all your production services.\n"
+#~ "          </span>"
+#~ msgstr ""
+#~ "<span class=\"h6-fs\">\n"
+#~ "              Este módulo foi projetado para otimizar sua produção "
+#~ "diária, do início ao fim. Ele ajuda você a gerenciar relacionamentos com "
+#~ "clientes, preparar a produção, comprar matérias-primas e lidar com "
+#~ "entregas. Com esta solução completa, você\n"
+#~ "pode aumentar a eficiência e melhorar a satisfação do cliente em todos os "
+#~ "seus serviços de produção.\n"
+#~ "         </span>"
+
+#~ msgid ""
+#~ "<span class=\"h6-fs\">\n"
+#~ "              Welcome to the <strong><font style=\"color: rgb(113, 75, "
+#~ "103);\">Odoo Textile Manufacturing</font></strong>!\n"
+#~ "          </span>\n"
+#~ "          <br/>"
+#~ msgstr ""
+#~ "<span class=\"h6-fs\">\n"
+#~ "              Boas-vindas ao <strong><font style=\"color: rgb(113, 75, "
+#~ "103);\">Odoo Fabricação Têxtil</font></strong>!\n"
+#~ "         </span>\n"
+#~ "          <br/>"
+
+#~ msgid ""
+#~ "<span class=\"h6-fs\">\n"
+#~ "              When a purchase order for a subcontracted product is "
+#~ "created, the system handles the entire process. As long as your Bill of "
+#~ "Materials (BOM) is accurate, the purchase order will automatically "
+#~ "trigger a receipt for the final product\n"
+#~ "              and a replenishment order for all necessary components.\n"
+#~ "          </span>\n"
+#~ "          <span class=\"h2-fs\"><span class=\"h2-fs\"/></span><br/>"
+#~ msgstr ""
+#~ "<span class=\"h6-fs\">\n"
+#~ "              Quando um pedido de compra para um produto subcontratado é "
+#~ "criado, o sistema lida com todo o processo. Desde que sua lista de "
+#~ "materiais (BOM) esteja correta, o pedido de compra acionará "
+#~ "automaticamente um recibo para o produto final\n"
+#~ "e um pedido de reposição para todos os componentes necessários.\n"
+#~ "         </span>\n"
+#~ "          <span class=\"h2-fs\"><span class=\"h2-fs\"/></span><br/>"
+
+#~ msgid ""
+#~ "By <b>configuring the warehouse and operations</b>, we can build a system "
+#~ "tailored to your specific needs. This involves customizing all settings "
+#~ "related to <b>storage locations, packaging, stock move types, shipping "
+#~ "connectors</b>, and\n"
+#~ "          <b>barcode configuration</b> to ensure maximum efficiency."
+#~ msgstr ""
+#~ "<b>Ao configurar o armazém e as operações</b> , podemos\n"
+#~ "criar um sistema adaptado às suas necessidades específicas. Isso envolve "
+#~ "personalizar todas as configurações\n"
+#~ "relacionadas a <b>locais de armazenamento, embalagem, tipos de "
+#~ "movimentação de estoque, conectores de envio</b> e\n"
+#~ "<b>configuração de código de barras </b> para garantir a máxima "
+#~ "eficiência."
+
+#~ msgid ""
+#~ "For larger production orders, such as those for a final product rather "
+#~ "than a pattern for validation, it's crucial to follow clear plans for "
+#~ "scheduling, instructions, subcontracting, and replenishment. The "
+#~ "<b>Manufacturing app</b> is\n"
+#~ "          the best way to manage this process."
+#~ msgstr ""
+#~ "Para pedidos de produção maiores, como aqueles para um produto final em "
+#~ "vez de um padrão para validação, é fundamental seguir planos claros para "
+#~ "programação, instruções, subcontratação e reposição. O aplicativo "
+#~ "<b>Fabricação</b> é\n"
+#~ "          a melhor maneira de gerenciar esse processo."
+
+#~ msgid ""
+#~ "In this database's demo data, the <b>Reordering Rules</b> are set to a "
+#~ "<b>\"Manual\" trigger</b>. This means Odoo will propose replenishment in "
+#~ "your replenishment dashboard, but you must manually approve them before\n"
+#~ "                              the orders are created. To skip this manual "
+#~ "approval step and have Odoo automatically create orders, simply set the "
+#~ "Reordering Rules to an <b>\"Auto\" trigger</b>."
+#~ msgstr ""
+#~ "Nos dados de demonstração desta base de dados, as <b>Regras de Reposição</"
+#~ "b> estão definidas como um <b>disparo manual</b>. Isso significa que o "
+#~ "Odoo proporá reposições no seu painel de reposições, mas você deve aprová-"
+#~ "los manualmente antes que\n"
+#~ "                              os pedidos sejam criados. Para pular essa "
+#~ "etapa de aprovação manual e fazer com que o Odoo crie pedidos "
+#~ "automaticamente, basta definir as Regras de Reabastecimento como um "
+#~ "<b>disparo automático</b> ."
+
+#~ msgid ""
+#~ "It's usually better to start with a greater number of individual products "
+#~ "and fewer variants. Once you're confident in your workflow and automation "
+#~ "needs, you can then combine these products into a single product with "
+#~ "multiple\n"
+#~ "                  variants. This approach allows you to build a more "
+#~ "robust and scalable system without the added complexity of variants from "
+#~ "the start."
+#~ msgstr ""
+#~ "Geralmente, é melhor começar com um número maior de produtos individuais "
+#~ "e menos variantes. Quando estiver confiante em seu fluxo de trabalho e "
+#~ "necessidades de automação, você poderá combinar esses produtos em um "
+#~ "único produto com várias\n"
+#~ "variantes. Essa abordagem permite que você construa um sistema mais "
+#~ "robusto e escalável sem a complexidade adicional das variantes desde o "
+#~ "início."
+
+#~ msgid ""
+#~ "Once production is planned, workers can execute and monitor their tasks "
+#~ "using the <b>Shop Floor App</b>. This app can be installed as a "
+#~ "standalone application. It's designed to be used by multiple employees on "
+#~ "a single device, with each\n"
+#~ "          employee registering their work individually."
+#~ msgstr ""
+#~ "Depois que a produção é planejada, os funcionários podem executar e "
+#~ "monitorar suas tarefas usando o aplicativo <b>Chão de Fábrica App</b>. "
+#~ "Esse aplicativo pode ser instalado como um aplicativo independente. Ele "
+#~ "foi projetado para ser usado por vários funcionários em um único "
+#~ "dispositivo, com cada funcionário registrando seu trabalho "
+#~ "individualmente."
 
 #~ msgid " Sewing thread"
 #~ msgstr " Linha de costura"

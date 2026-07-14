@@ -1,7 +1,7 @@
 {
     'name': '3PL Logistic Company',
     'author': 'Odoo S.A.',
-    'version': '1.0',
+    'version': '1.6',
     'category': 'Services',
     'depends': [
         'base_industry_data',
@@ -51,9 +51,11 @@
         'data/mail_message.xml',
     ],
     'demo': [
+        'demo/res_company.xml',
         'demo/quality_point.xml',
         'demo/stock_location.xml',
         'demo/res_partner.xml',
+        'demo/res_users.xml',
         'demo/product_template.xml',
         'demo/qweb_view.xml',
         'demo/mrp_bom.xml',
@@ -76,6 +78,7 @@
         'data/portal_templates.xml',
         'demo/qweb_view.xml',
     ],
+    'application': True,
     'license': 'OEEL-1',
     'images': ['images/main.png'],
     'url': "https://www.odoo.com/trial?industry&selected_app=3pl_logistic_company",

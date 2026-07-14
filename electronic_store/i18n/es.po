@@ -8,13 +8,13 @@
 # Wil Odoo, 2024
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2025.
+# "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-13 08:19+0000\n"
-"PO-Revision-Date: 2025-11-12 10:21+0000\n"
+"POT-Creation-Date: 2026-06-12 18:01+0000\n"
+"PO-Revision-Date: 2026-05-30 09:43+0000\n"
 "Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@odoo.com>\n"
 "Language-Team: Spanish <https://translate.odoo.com/projects/odoo-19/"
 "electronic_store/es/>\n"
@@ -22,9 +22,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
-" ? 1 : 2);\n"
-"X-Generator: Weblate 5.12.2\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
+"0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: electronic_store
 #: model:product.template,name:electronic_store.product_product_1048_product_template
@@ -46,8 +46,8 @@ msgstr "73455 Twentynine Palms Highway,"
 msgid ""
 "<font style=\"color: var(--color) !important;\">Assign serial numbers</font>"
 msgstr ""
-"<font style=\"color: var(--color) !important;\">Asigne números de "
-"serie</font>"
+"<font style=\"color: var(--color) !important;\">Asigne números de serie</"
+"font>"
 
 #. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
@@ -332,7 +332,7 @@ msgstr "Añada detalles sobre su intervención..."
 #. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
 msgid "Add the products to the cart"
-msgstr "Añadir los productos al carrito"
+msgstr "Añadir los productos a la cesta"
 
 #. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
@@ -342,7 +342,7 @@ msgstr "Después de completar el trabajo, actualice los comentarios"
 #. module: electronic_store
 #: model:ir.model.fields.selection,name:electronic_store.field_type_of_installation_selection_air_conditioner
 msgid "Air Conditioner"
-msgstr ""
+msgstr "Aire acondicionado"
 
 #. module: electronic_store
 #: model:documents.document,name:electronic_store.documents_folder_7
@@ -392,16 +392,6 @@ msgid "CA&amp; 92277"
 msgstr "CA&amp; 92277"
 
 #. module: electronic_store
-#: model:pos.payment.method,name:electronic_store.pos_payment_method_1
-msgid "Cash"
-msgstr "Efectivo"
-
-#. module: electronic_store
-#: model:account.journal,name:electronic_store.cash
-msgid "Cash (Electronic Store)"
-msgstr "Efectivo (tienda de electrónica)"
-
-#. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
 msgid "Check with My Tasks"
 msgstr "Vaya a “Mis tareas”"
@@ -429,7 +419,7 @@ msgstr "Confirme la solicitud de presupuesto"
 #. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.contactus
 msgid "Contact us"
-msgstr "Contáctenos"
+msgstr "Contacta con nosotros"
 
 #. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.contactus
@@ -439,8 +429,8 @@ msgid ""
 "                                            We'll do our best to get back to "
 "you as soon as possible."
 msgstr ""
-"Contáctenos para hablar acerca de cualquier cosa relacionada con nuestra "
-"compañía o servicios.\n"
+"Contacta con nosotros para hablar acerca de cualquier cosa relacionada con "
+"nuestra compañía o servicios.\n"
 "                                            <br/>\n"
 "                                            Le responderemos tan pronto como "
 "sea posible."
@@ -454,11 +444,6 @@ msgstr "Cree un presupuesto con:"
 #: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
 msgid "Create the purchase order"
 msgstr "Cree el pedido de compra"
-
-#. module: electronic_store
-#: model:pos.payment.method,name:electronic_store.pos_payment_method_2
-msgid "Customer Account"
-msgstr "Cuenta de cliente"
 
 #. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
@@ -507,11 +492,6 @@ msgstr "Documentación - guías sobre la instalación"
 #: model:product.template,name:electronic_store.product_product_1040_product_template
 msgid "Dyson Purifier Cool (White/Silver) - TP07"
 msgstr "Dyson Purifier Cool (Blanco/Plata) - TP07"
-
-#. module: electronic_store
-#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
-msgid "ELECTRONICS STORE"
-msgstr "Tienda de electrónica"
 
 #. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
@@ -572,27 +552,6 @@ msgstr "Llene el formulario:"
 
 #. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
-msgid "Flow 1. Purchase"
-msgstr "Flujo 1: compra"
-
-#. module: electronic_store
-#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
-msgid "Flow 2. Sale with serial number"
-msgstr "Flujo 2: venta con un número de serie"
-
-#. module: electronic_store
-#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
-msgid "Flow 3. Delivery"
-msgstr "Flujo 3: entrega"
-
-#. module: electronic_store
-#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
-msgid "Flow 4: Field Service Installation - AC"
-msgstr ""
-"Flujo 4: servicio de campo de instalación - unidad de aire acondicionado"
-
-#. module: electronic_store
-#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
 msgid "Flow 5: Website Complaint"
 msgstr "Flujo 5: quejas mediante el sitio web"
 
@@ -645,11 +604,13 @@ msgstr "Microondas GE Profile Over-the-Range"
 #: code:addons/electronic_store/static/src/js/my_tour.js:0
 msgid "Get on track and explore our recommendations for your Odoo usage here!"
 msgstr ""
+"¡Ponte al día y explora nuestras recomendaciones para sacarle más partido a "
+"Odoo!"
 
 #. module: electronic_store
 #: model:product.template,name:electronic_store.product_product_1047_product_template
 msgid "Gift Card"
-msgstr "Tarjeta de regalo"
+msgstr "Tarjeta regalo"
 
 #. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
@@ -791,10 +752,9 @@ msgid ""
 "font>\" and then \"<font style=\"color: rgb(156, 0, 255);\">Done</font>\" "
 "when it's finished and sign the service report."
 msgstr ""
-"Mueva la tarea a “<font style=\"color: rgb(156, 0, 255);\">En "
-"progreso</font>” y después “<font style=\"color: rgb(156, 0, 255);\""
-">Hecho</font>” cuando se haya terminado y hayan firmado el informe del "
-"servicio."
+"Mueva la tarea a “<font style=\"color: rgb(156, 0, 255);\">En progreso</"
+"font>” y después “<font style=\"color: rgb(156, 0, 255);\">Hecho</font>” "
+"cuando se haya terminado y hayan firmado el informe del servicio."
 
 #. module: electronic_store
 #: model:ir.model.fields,field_description:electronic_store.x_name_record
@@ -857,13 +817,13 @@ msgid ""
 "Provide the serial number <font style=\"color: rgb(156, 0, 255);"
 "\">804KCPY43321</font>"
 msgstr ""
-"Proporcione el número de serie <font style=\"color: rgb(156, 0, 255);\""
-">804KCPY43321</font>."
+"Proporcione el número de serie <font style=\"color: rgb(156, 0, 255);"
+"\">804KCPY43321</font>."
 
 #. module: electronic_store
 #: model:ir.model.fields.selection,name:electronic_store.field_type_of_installation_selection_refrigerator
 msgid "Refrigerator"
-msgstr ""
+msgstr "Nevera"
 
 #. module: electronic_store
 #: model:documents.document,name:electronic_store.documents_folder_10
@@ -1125,7 +1085,7 @@ msgstr "Estamos en buena compañía."
 #. module: electronic_store
 #: model_terms:web_tour.tour,rainbow_man_message:electronic_store.knowledge_tour
 msgid "Welcome! Happy exploring."
-msgstr "¡Bienvenido! Disfrute del sitio."
+msgstr "¡Te damos la bienvenida! Disfruta explorando."
 
 #. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
@@ -1204,6 +1164,31 @@ msgid ""
 msgstr ""
 "producto: <strong><font style=\"color: rgb(156, 0, 255);\">Aire "
 "acondicionado LG DualCool Inverter tipo ventana </font></strong>"
+
+#~ msgid "Cash"
+#~ msgstr "Efectivo"
+
+#~ msgid "Cash (Electronic Store)"
+#~ msgstr "Efectivo (tienda de electrónica)"
+
+#~ msgid "Customer Account"
+#~ msgstr "Cuenta de cliente"
+
+#~ msgid "ELECTRONICS STORE"
+#~ msgstr "Tienda de electrónica"
+
+#~ msgid "Flow 1. Purchase"
+#~ msgstr "Flujo 1: compra"
+
+#~ msgid "Flow 2. Sale with serial number"
+#~ msgstr "Flujo 2: venta con un número de serie"
+
+#~ msgid "Flow 3. Delivery"
+#~ msgstr "Flujo 3: entrega"
+
+#~ msgid "Flow 4: Field Service Installation - AC"
+#~ msgstr ""
+#~ "Flujo 4: servicio de campo de instalación - unidad de aire acondicionado"
 
 #~ msgid "Execute Code"
 #~ msgstr "Ejecutar código"

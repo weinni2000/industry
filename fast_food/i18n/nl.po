@@ -3,15 +3,15 @@
 # * fast_food
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# Bren Driesen <brdri@odoo.com>, 2025.
+# Bren Driesen <brdri@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 11:05+0000\n"
-"PO-Revision-Date: 2025-11-17 11:11+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-06-12 18:05+0000\n"
+"PO-Revision-Date: 2026-05-30 09:38+0000\n"
+"Last-Translator: Bren Driesen <brdri@odoo.com>\n"
 "Language-Team: Dutch <https://translate.odoo.com/projects/odoo-19/fast_food/"
 "nl/>\n"
 "Language: nl\n"
@@ -19,12 +19,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
 msgid ", and feel free to"
-msgstr "en voel je vrij om"
+msgstr "te duiken. Je kunt ook een"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -64,10 +64,10 @@ msgstr ""
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
 msgid ""
-"2. Create your employees' roles under the \"Work Information\" tab. Some are "
-"already created for this demo."
+"2. Create your employees' roles under the \"Settings\" tab. Some are already "
+"created for this demo."
 msgstr ""
-"2. Maak de rollen van je werknemers aan op het tabblad \"Werkinformatie\". "
+"2. Maak de rollen van je werknemers aan op het tabblad \"Instellingen\". "
 "Sommige zijn al aangemaakt voor deze demo."
 
 #. module: fast_food
@@ -81,8 +81,8 @@ msgid ""
 "2. Open your preparation screen. Your orders are there. You can now mark "
 "them as done either line by line or the entire order by clicking on the top."
 msgstr ""
-"2. Open je keukenscherm. Daar staan je orders. Je kan de hele order of regel "
-"per regel markeren Gereeddoor bovenaan te klikken."
+"2. Open je keukenscherm. Daar staan je orders. Je kunt de hele order of "
+"regel per regel markeren als voltooid door bovenaan te klikken."
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -124,7 +124,7 @@ msgstr ""
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
 msgid "3. Preparation displays"
-msgstr "3. Keukenschermen"
+msgstr "3. Voorbereidingsschermen"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -201,7 +201,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
 msgid ""
 "<span class=\"h1-fs\"><strong>Do you want to go further?</strong></span>"
-msgstr "<span class=\"h1-fs\"><strong>Wil je verder gaan?</strong></span>"
+msgstr "<span class=\"h1-fs\"><strong>Wil je nog verder gaan?</strong></span>"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -235,7 +235,7 @@ msgstr "<strong><span class=\"h1-fs\">Gebruikscasus:</span></strong>"
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
 msgid "<strong>Basics:</strong>"
-msgstr "<strong>Grondbeginselen:</strong>"
+msgstr "<strong>Basis:</strong>"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -260,19 +260,9 @@ msgstr ""
 "valideren."
 
 #. module: fast_food
-#: model:pos.payment.method,name:fast_food.pos_payment_method_3
-msgid "Bank"
-msgstr "Bank"
-
-#. module: fast_food
 #: model:planning.role,name:fast_food.planning_role_2
 msgid "Bar"
 msgstr "Balk"
-
-#. module: fast_food
-#: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
-msgid "Basics:"
-msgstr "Grondbeginselen:"
 
 #. module: fast_food
 #: model:product.template,name:fast_food.product_product_54_product_template
@@ -309,11 +299,6 @@ msgstr ""
 "paar producten, een verkooppuntconfiguratie en een voorbeeldplanning."
 
 #. module: fast_food
-#: model:pos.payment.method,name:fast_food.pos_payment_method_4
-msgid "Cash (Restaurant)"
-msgstr "Contant (Restaurant)"
-
-#. module: fast_food
 #: model:product.template,name:fast_food.product_product_56_product_template
 msgid "Cheese 250gr"
 msgstr "Kaas 250gr"
@@ -347,11 +332,6 @@ msgstr ""
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
-msgid "Do you want to go further?"
-msgstr "Wil je verder gaan?"
-
-#. module: fast_food
-#: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
 msgid ""
 "Don't forget to hit the \"Order\" button each time you change an order. This "
 "will forward the order to the Kitchen Display."
@@ -365,7 +345,7 @@ msgid ""
 "Each order will be sent to your preparation displays and if you don't "
 "configure a payment terminal for each, they can pay directly online."
 msgstr ""
-"Elke order wordt naar je voorbereidingsdisplays gestuurd en als je niet voor "
+"Elke order wordt naar je voorbereidingsscherm gestuurd en als je niet voor "
 "iedereen een betaalterminal configureert, kunnen ze direct online betalen."
 
 #. module: fast_food
@@ -387,7 +367,8 @@ msgstr "Open vanuit het verkooppunt je register op het hoofddashboard."
 #. odoo-javascript
 #: code:addons/fast_food/static/src/js/my_tour.js:0
 msgid "Get on track and explore our recommendations for your Odoo usage here!"
-msgstr "Kom goed op weg en bekijk hier onze aanbevelingen voor je Odoo-gebruik!"
+msgstr ""
+"Kom goed op weg en bekijk hier onze aanbevelingen voor je Odoo-gebruik!"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -409,10 +390,10 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
 msgid ""
 "If you want to assign them an Odoo user account, you can select a related "
-"user in the \"HR Settings\" tab."
+"user in the same \"Settings\" tab."
 msgstr ""
-"Als je ze een Odoo gebruikersaccount wilt toewijzen, kun je een gerelateerde "
-"gebruiker selecteren op het tabblad \"HR instellingen\"."
+"Als je ze een Odoo-gebruikersaccount wilt toewijzen, kun je een gerelateerde "
+"gebruiker selecteren in hetzelfde tabblad 'Instellingen'."
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -420,8 +401,8 @@ msgid ""
 "If you want to execute a practical guided tour of this module, you should "
 "Import demo data and try the Demo - Use Case. (In the next Knowledge Article)"
 msgstr ""
-"Als je een praktische rondleiding door deze module wilt, moet je "
-"demogegevens importeren en de Demo - Use Case proberen. (In het volgende "
+"Als je een praktische rondleiding door deze module wilt, moet je demodata "
+"importeren en de Demo - Gebruiksscenario proberen. (In het volgende "
 "Kennisartikel)"
 
 #. module: fast_food
@@ -467,9 +448,9 @@ msgid ""
 msgstr ""
 "Beheer al je communicatiekanalen op één plek met Odoo <strong><font "
 "class=\"text-o-color-1\">Marketingautomatisering</font></strong>, "
-"<strong><font class=\"text-o-color-1\">E-mail Marketing</font></strong>, "
-"<strong><font class=\"text-o-color-1\">Sociale Media</font></strong>en "
-"<strong><font class=\"text-o-color-1\">SMS Marketing</font></strong>."
+"<strong><font class=\"text-o-color-1\">E-mailmarketing</font></strong>, "
+"<strong><font class=\"text-o-color-1\">Social Marketing</font></strong>en "
+"<strong><font class=\"text-o-color-1\">Sms-marketing</font></strong>."
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -525,7 +506,7 @@ msgid ""
 "everything around!"
 msgstr ""
 "Dit is natuurlijk slechts een overzicht van de functies in dit pakket. Je "
-"kan gerust nieuwe apps toevoegen, demogegevens verwijderen/wijzigen en alles "
+"kan gerust nieuwe apps toevoegen, demodata verwijderen/wijzigen en alles "
 "uitproberen!"
 
 #. module: fast_food
@@ -572,7 +553,7 @@ msgid ""
 msgstr ""
 "Aanvulregels worden weergegeven in de slimme knoppen bovenaan je product. Je "
 "ziet een minimumhoeveelheid en een maximumhoeveelheid. Telkens als de "
-"verwachte voorraad onder de minimumvoorraad zakt, wordt automatisch een "
+"voorspelde voorraad onder de minimumvoorraad zakt, wordt automatisch een "
 "inkooporder aangemaakt om aan te vullen tot de maximumhoeveelheid."
 
 #. module: fast_food
@@ -592,11 +573,6 @@ msgstr "Ontsmettingsmiddel 250ml"
 #: model:planning.role,name:fast_food.planning_role_1
 msgid "Service"
 msgstr "Dienst"
-
-#. module: fast_food
-#: model:pos.payment.method,name:fast_food.pos_payment_method_1
-msgid "Sodexo Card Payment"
-msgstr "Sodexo Kaartbetaling"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -629,12 +605,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
 msgid ""
 "These all go free in your current subscription; feel free to explore! 🙃"
-msgstr "Deze zitten allemaal gratis in je huidige abonnement. Ontdekken maar! 🙃"
-
-#. module: fast_food
-#: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
-msgid "Use case:"
-msgstr "Gebruikscasus:"
+msgstr ""
+"Deze zitten allemaal gratis in je huidige abonnement. Ontdekken maar! 🙃"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -752,8 +724,8 @@ msgid ""
 "You didn't import demo data? You can still do it. Go to Apps &gt; Industries "
 "&gt; Upgrade your Fast Food Restaurant package and check the related box."
 msgstr ""
-"Heb je geen demogegevens geïmporteerd? Je kunt het nog steeds doen. Ga naar "
-"Apps &gt; Industries &gt; Upgrade je Fast Food Restaurant pakket en vink het "
+"Heb je geen demodata geïmporteerd? Dat kan nog steeds. Ga naar Apps &gt; "
+"Bedrijfstakken &gt; Upgrade je Fastfoodrestaurant-pakket en vink het "
 "gerelateerde vakje aan."
 
 #. module: fast_food
@@ -801,7 +773,7 @@ msgid ""
 "on your preparation display."
 msgstr ""
 "Je orders gaan automatisch van de ene stap naar de andere terwijl je ze "
-"verplaatst op je bereidingsdisplay."
+"verplaatst op je voorbereidingsscherm."
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -827,3 +799,21 @@ msgstr "als je hulp nodig hebt! <br/>"
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
 msgid "request a demo"
 msgstr "demo aanvragen"
+
+#~ msgid "Bank"
+#~ msgstr "Bank"
+
+#~ msgid "Cash (Restaurant)"
+#~ msgstr "Contant (Restaurant)"
+
+#~ msgid "Sodexo Card Payment"
+#~ msgstr "Sodexo Kaartbetaling"
+
+#~ msgid "Basics:"
+#~ msgstr "Grondbeginselen:"
+
+#~ msgid "Do you want to go further?"
+#~ msgstr "Wil je nog verder gaan?"
+
+#~ msgid "Use case:"
+#~ msgstr "Gebruikscasus:"

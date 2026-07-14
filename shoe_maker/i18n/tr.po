@@ -5,13 +5,15 @@
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # DeepL <noreply-mt-deepl@weblate.org>, 2025.
+# Odoo Turkish Import <dyki+tr@odoo.com>, 2025.
+# "Malaz Siddig Elsayed Abuidris (msea)" <msea@odoo.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 13:50+0000\n"
-"PO-Revision-Date: 2025-11-12 13:41+0000\n"
-"Last-Translator: DeepL <noreply-mt-deepl@weblate.org>\n"
+"POT-Creation-Date: 2026-04-10 19:39+0000\n"
+"PO-Revision-Date: 2025-11-29 19:52+0000\n"
+"Last-Translator: \"Malaz Siddig Elsayed Abuidris (msea)\" <msea@odoo.com>\n"
 "Language-Team: Turkish <https://translate.odoo.com/projects/odoo-19/"
 "shoe_maker/tr/>\n"
 "Language: tr\n"
@@ -19,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
@@ -28,61 +30,36 @@ msgstr "ve dilerseniz"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid "1. Managing orders"
 msgstr "1. Siparişlerin yönetilmesi"
 
 #. module: shoe_maker
 #: model:product.attribute.value,name:shoe_maker.product_attribute_value_5
-#, fuzzy
 msgid "16mm"
 msgstr "16mm"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid "2. Billing customers"
 msgstr "2. Müşterilerin faturalandırılması"
 
 #. module: shoe_maker
 #: model:product.attribute.value,name:shoe_maker.product_attribute_value_6
-#, fuzzy
 msgid "22mm"
 msgstr "22mm"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid "3. Replenishment"
 msgstr "3. İkmal"
 
 #. module: shoe_maker
-#: model:product.attribute.value,name:shoe_maker.product_attribute_value_22
-#, fuzzy
-msgid "36-38"
-msgstr "36-38"
-
-#. module: shoe_maker
 #: model:product.attribute.value,name:shoe_maker.product_attribute_value_7
-#, fuzzy
 msgid "36mm"
 msgstr "36mm"
 
 #. module: shoe_maker
-#: model:product.attribute.value,name:shoe_maker.product_attribute_value_19
-#, fuzzy
-msgid "38"
-msgstr "38"
-
-#. module: shoe_maker
-#: model:product.attribute.value,name:shoe_maker.product_attribute_value_20
-#, fuzzy
-msgid "38-40"
-msgstr "38-40"
-
-#. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid ""
 "4. Introduce the means of payment, pay and you're all done with this order!"
 "<br/>\n"
@@ -95,20 +72,7 @@ msgstr ""
 "faturalandırılmış olarak işaretler."
 
 #. module: shoe_maker
-#: model:product.attribute.value,name:shoe_maker.product_attribute_value_21
-#, fuzzy
-msgid "40-42"
-msgstr "40-42"
-
-#. module: shoe_maker
-#: model:product.attribute.value,name:shoe_maker.product_attribute_value_23
-#, fuzzy
-msgid "42-44"
-msgstr "42-44"
-
-#. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid ""
 "5. When customers come back to your desk, you can easily find their order by "
 "searching in the top search bar, and by toggling the \"Group by Customer\" "
@@ -124,13 +88,11 @@ msgstr ""
 
 #. module: shoe_maker
 #: model:product.attribute.value,name:shoe_maker.product_attribute_value_8
-#, fuzzy
 msgid "54mm"
 msgstr "54mm"
 
 #. module: shoe_maker
 #: model:mail.template,body_html:shoe_maker.mail_template_45
-#, fuzzy
 msgid ""
 "<div style=\"margin: 0px; padding: 0px;\" data-oe-version=\"1.0\">\n"
 "    <p style=\"box-sizing:border-box;margin: 0px; padding: 0px; font-size: "
@@ -154,26 +116,25 @@ msgstr ""
 "<div style=\"margin: 0px; padding: 0px;\" data-oe-version=\"1.0\">\n"
 "    <p style=\"box-sizing:border-box;margin: 0px; padding: 0px; font-size: "
 "12px;\">\n"
-"    Sayın <span style=\"font-weight:bold;\" t-out=\""
-"object.partner_id.display_name or ''\">John Doe</span>,<br/>\n"
+"    Sayın <span style=\"font-weight:bold;\" t-"
+"out=\"object.partner_id.display_name or ''\">John Doe</span>,<br/>\n"
 "    <br/>\n"
-"    <span style=\"font-weight:bold;\" t-out=\"object.sale_order_id.name or ''"
-"\"> S00049</span> siparişiniz hazır.<br/>\n"
+"    <span style=\"font-weight:bold;\" t-out=\"object.sale_order_id.name or "
+"''\"> S00049</span> siparişiniz hazır.<br/>\n"
 "    Güveniniz ve sabrınız için teşekkür ederiz!<br/>\n"
 "    <br/>\n"
-"    Herhangi bir sorunuz olursa bizimle iletişime geçmekten çekinmeyin.<br/>"
-"\n"
+"    Herhangi bir sorunuz olursa bizimle iletişime geçmekten çekinmeyin.<br/"
+">\n"
 "    <br/>\n"
 "   <t t-if=\"not is_html_empty(object.sale_order_id.user_id.signature)\" "
 "data-o-mail-quote-container=\"1\">\n"
-"        <span style=\"font-weight:bold;\" t-out=\""
-"object.sale_order_id.user_id.signature\">Mitchell Yönetici</span>\n"
+"        <span style=\"font-weight:bold;\" t-"
+"out=\"object.sale_order_id.user_id.signature\">Mitchell Yönetici</span>\n"
 "    </t>\n"
 "   </p></div>"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid ""
 "<font class=\"text-o-color-5\">By doing so, you have only </font>\n"
 "            <strong>\n"
@@ -217,7 +178,6 @@ msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🔄</i>"
 msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🔄</i>"
 
@@ -238,13 +198,11 @@ msgstr "<strong>İlerlemek istiyor musunuz?</strong>"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid "<strong>How to use this Odoo Industry Package</strong>"
 msgstr "<strong>Bu Odoo Endüstri Paketi nasıl kullanılır?</strong>"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Scenario 1: </strong>The simplest way to add products to an order is "
 "to directly select your services from the <strong>Product Catalog</strong>. "
@@ -263,7 +221,6 @@ msgstr ""
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Scenario 1:</strong> Most products need a human assessment as the "
 "remaining quantity cannot be automatically computed. For those, a Recurring "
@@ -280,7 +237,6 @@ msgstr ""
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Scenario 2:</strong> For products that can be tracked, such as laces "
 "and soles, you can use automated purchases. To try it, confirm a new <font "
@@ -295,8 +251,8 @@ msgid ""
 msgstr ""
 "<strong>Senaryo 2:</strong> Bağcıklar ve tabanlar gibi takip edilebilen "
 "ürünler için otomatik satın alımları kullanabilirsiniz. Denemek için, i "
-"ekleyerek yeni bir <font class=\"text-o-color-5\">siparişini onaylayın</font>"
-"\n"
+"ekleyerek yeni bir <font class=\"text-o-color-5\">siparişini onaylayın</"
+"font>\n"
 "            <strong>\n"
 "               <font class=\"text-o-color-5\">\n"
 "                    <span style=\"font-weight: normal;\">40-42 numara "
@@ -307,7 +263,6 @@ msgstr ""
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Scenario 2:</strong> Oftentimes, services are bundled together. You "
 "can toggle the \"Quotation Templates\" setting in your <strong>Settings app "
@@ -321,7 +276,6 @@ msgstr ""
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid ""
 "All installed Apps are available on your Odoo homescreen. The main Apps "
 "you'll be using in your day-to-day are :"
@@ -331,7 +285,6 @@ msgstr ""
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid ""
 "At the end of your service, remember to close your register. To do so, in "
 "the Point of Sale App, select \"Close Register\" in the top-right menu."
@@ -341,7 +294,6 @@ msgstr ""
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid ""
 "Billing efficiently your customers for their orders is paramount for your "
 "business and to help you make this as easy as possible, this Odoo package "
@@ -377,13 +329,11 @@ msgstr "Temizlik"
 
 #. module: shoe_maker
 #: model:product.template,name:shoe_maker.product_template_10
-#, fuzzy
 msgid "Cleaning spray"
 msgstr "Temizlik spreyi"
 
 #. module: shoe_maker
 #: model:ir.model.fields,field_description:shoe_maker.field_project_project_collectible
-#, fuzzy
 msgid "Collectible"
 msgstr "Koleksiyonluk"
 
@@ -391,7 +341,6 @@ msgstr "Koleksiyonluk"
 #: model:sale.order.template.line,name:shoe_maker.sale_order_template_line_29
 #: model:sale.order.template.line,name:shoe_maker.sale_order_template_line_30
 #: model:sale.order.template.line,name:shoe_maker.sale_order_template_line_31
-#, fuzzy
 msgid "Consumables"
 msgstr "Sarf Malzemeleri"
 
@@ -402,7 +351,6 @@ msgstr "Odoo hakkında daha fazla bilgi edinmek için:"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid ""
 "Discover the basics of this package in this article, and explore all the "
 "possibilities Odoo offers to make your day-to-day more efficient to run."
@@ -422,13 +370,11 @@ msgstr "Çalışanlar"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid "From the <strong>Point of Sale App</strong>, open your register."
 msgstr "<strong>Satış Noktası Uygulamasından</strong>, kasanızı açın."
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid ""
 "Go back to your backend by clicking the \"Backend\" menu in the right "
 "corner, and then go to the orders from the <strong>Sales ​App </strong>to "
@@ -440,13 +386,12 @@ msgstr ""
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid ""
 "Go to your Purchase App to easily create Requests for Proposal or Purchase "
 "Orders for products you miss or getting slim."
 msgstr ""
-"Satın Alma Uygulamanıza giderek eksikliğini hissettiğiniz veya zayıflayan "
-"ürünler için kolayca Teklif Talepleri veya Satın Alma Siparişleri oluşturun."
+"“Eksik olan veya stoğu azalan ürünler için Teklif Talebi veya Satın Alma "
+"Siparişi oluşturmak için Satın Alma Uygulamanıza gidin."
 
 #. module: shoe_maker
 #: model:product.attribute.value,name:shoe_maker.product_attribute_value_18
@@ -455,7 +400,6 @@ msgstr "Yeşil"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid ""
 "Having available the necessary products at your fingertips is crucial to "
 "deliver orders in best delays and therefore maximize your customer "
@@ -463,33 +407,29 @@ msgid ""
 "            <strong>Purchase App</strong> are your best levers to manage "
 "your stock efficiently."
 msgstr ""
-"Gerekli ürünleri parmaklarınızın ucunda bulundurmak, siparişleri en kısa "
-"sürede teslim etmek ve böylece müşteri memnuniyetinizi en üst düzeye "
-"çıkarmak için çok önemlidir. <strong> Envanter Uygulaması</strong> ve\n"
-"           <strong>Satın Alma Uygulaması</strong>, stoklarınızı verimli bir "
-"şekilde yönetmek için en iyi kaldıraçlarınızdır."
+"Gerekli ürünlere anında erişim, siparişleri en kısa sürede teslim etmek ve "
+"böylece müşteri memnuniyetini maksimize etmek için çok önemlidir. <strong> "
+"Envanter Uygulaması</strong> ve\n"
+"           <strong>Satın Alma Uygulaması</strong>, stokunuzu verimli bir "
+"şekilde yönetmeniz için en güçlü araçlarınızdır.”"
 
 #. module: shoe_maker
 #: model:product.template,name:shoe_maker.product_product_52_product_template
-#, fuzzy
 msgid "Heel replacement"
 msgstr "Topuk değişimi"
 
 #. module: shoe_maker
 #: model:product.template,name:shoe_maker.product_product_57_product_template
-#, fuzzy
 msgid "Heel skate replacement"
 msgstr "Topuk pateni değişimi"
 
 #. module: shoe_maker
 #: model:product.template,name:shoe_maker.product_template_8
-#, fuzzy
 msgid "Heel skates"
 msgstr "Topuk patenleri"
 
 #. module: shoe_maker
 #: model:product.template,name:shoe_maker.product_template_7
-#, fuzzy
 msgid "Heels"
 msgstr "Topuklular"
 
@@ -500,7 +440,6 @@ msgstr "Merhabalar!"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid ""
 "If customers want some additional products, such as laces or innersoles, you "
 "can add some to their order in just a few clicks!"
@@ -510,7 +449,6 @@ msgstr ""
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid ""
 "If you navigate to your Inventory App, and go to the replenishment from the "
 "Operations menu, you can see that some products could be reordered based on "
@@ -522,7 +460,6 @@ msgstr ""
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid ""
 "If you've added the demo data upon creating this database, it will be "
 "populated with demo products, sales orders, purchase orders, and so on. "
@@ -535,7 +472,6 @@ msgstr ""
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid ""
 "In order to get an overview of all your open tasks, just click the "
 "<strong>Project App. </strong>"
@@ -545,7 +481,6 @@ msgstr ""
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid ""
 "Inserting the customer's email address makes it easy for you to send them "
 "emails once their order is ready to be picked up again."
@@ -555,13 +490,11 @@ msgstr ""
 
 #. module: shoe_maker
 #: model:product.template,name:shoe_maker.product_template_15
-#, fuzzy
 msgid "Insoles"
 msgstr "Tabanlık"
 
 #. module: shoe_maker
 #: model:ir.model.fields,field_description:shoe_maker.field_project_task_collectible
-#, fuzzy
 msgid "Is order collectible"
 msgstr "Sipariş tahsil edilebilir mi"
 
@@ -577,7 +510,6 @@ msgstr "Geniş"
 
 #. module: shoe_maker
 #: model:product.template,name:shoe_maker.product_template_13
-#, fuzzy
 msgid "Large laces"
 msgstr "Büyük bağcıklar"
 
@@ -588,7 +520,6 @@ msgstr "Deri"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid ""
 "Manage all your communication channels in one place with Odoo\n"
 "                <strong>\n"
@@ -610,15 +541,15 @@ msgid ""
 msgstr ""
 "Odoo ile tüm iletişim kanallarınızı tek bir yerden yönetin\n"
 "               <strong>\n"
-"                    <font class=\"text-o-color-1\">Pazarlama "
-"Otomasyonu</font>\n"
+"                    <font class=\"text-o-color-1\">Pazarlama Otomasyonu</"
+"font>\n"
 "                </strong>\n"
-"               <font class=\"text-o-color-1\">, <strong>E-posta "
-"Pazarlama</strong>,\n"
+"               <font class=\"text-o-color-1\">, <strong>E-posta Pazarlama</"
+"strong>,\n"
 "               </font>\n"
 "                <strong>\n"
-"                   <font class=\"text-o-color-1\">Sosyal Medya "
-"Pazarlaması</font>\n"
+"                   <font class=\"text-o-color-1\">Sosyal Medya Pazarlaması</"
+"font>\n"
 "                </strong>\n"
 "                ve\n"
 "               <strong>\n"
@@ -628,7 +559,6 @@ msgstr ""
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid ""
 "Manage your accounting easier than ever with a completely integrated "
 "environment. (\n"
@@ -640,8 +570,8 @@ msgstr ""
 "Tamamen entegre bir ortam ile muhasebenizi her zamankinden daha kolay "
 "yönetin. (\n"
 "               <strong>\n"
-"                    <font class=\"text-o-color-1\">Muhasebe Uygulaması</font>"
-"\n"
+"                    <font class=\"text-o-color-1\">Muhasebe Uygulaması</"
+"font>\n"
 "                </strong>\n"
 "                )"
 
@@ -652,7 +582,6 @@ msgstr "Erkek"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid ""
 "Next : return to the <strong>Sales App</strong>. You can see that your first "
 "order is now ready for pick up, which is indicated by the \"<strong>Ready "
@@ -661,20 +590,18 @@ msgid ""
 "        email that the order is ready to collect!"
 msgstr ""
 "Sonraki : <strong>Satış Uygulamasına</strong> geri dönün. İlk siparişinizin "
-"artık teslim alınmaya hazır olduğunu görebilirsiniz, bu da "
-"\"<strong>Teslim Almaya Hazır</strong>\" onay kutusuyla gösterilir. Bu "
-"noktada, müşteriniz şu şekilde bilgilendirilmiştir\n"
+"artık teslim alınmaya hazır olduğunu görebilirsiniz, bu da \"<strong>Teslim "
+"Almaya Hazır</strong>\" onay kutusuyla gösterilir. Bu noktada, müşteriniz şu "
+"şekilde bilgilendirilmiştir\n"
 "        Siparişin teslim alınmaya hazır olduğuna dair e-posta!"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid "Next up : billing."
 msgstr "Sıradaki: Faturalandırma."
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid ""
 "Next, go to your Purchase App to open the created purchase order. You can "
 "now email your <strong>Request for Quotation</strong> to your vendor or "
@@ -687,7 +614,6 @@ msgstr ""
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid ""
 "Note that you can easily add services performed which were not initially "
 "planned at this stage!"
@@ -697,7 +623,6 @@ msgstr ""
 
 #. module: shoe_maker
 #: model:base.automation,name:shoe_maker.null_so_quantity_cancel_related_tasks
-#, fuzzy
 msgid "Null SO quantity cancels the related task"
 msgstr "Null SO miktarı ilgili görevi iptal eder"
 
@@ -708,13 +633,11 @@ msgstr "Odoo size sonsuz olanak sunar, örneğin:"
 
 #. module: shoe_maker
 #: model:base.automation,name:shoe_maker.on_last_task_done_turning_order_as_collectible
-#, fuzzy
 msgid "On last task done send email: order ready"
 msgstr "Son görev tamamlandığında e-posta gönder: sipariş hazır"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid ""
 "Once the products are there, you can click the \"<strong>Receipt</strong>\" "
 "smart button to validate your receipt and add these new products to your "
@@ -725,7 +648,6 @@ msgstr ""
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid ""
 "Once you're finished adding products and services to the sales order, all "
 "that remains is confirming it. The system then creates the appropriate "
@@ -738,7 +660,6 @@ msgstr ""
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid ""
 "Open the project that corresponds to your order to access all related duties."
 msgstr ""
@@ -746,13 +667,11 @@ msgstr ""
 
 #. module: shoe_maker
 #: model:product.template,name:shoe_maker.product_product_51_product_template
-#, fuzzy
 msgid "Outsole replacement"
 msgstr "Dış taban değişimi"
 
 #. module: shoe_maker
 #: model:product.template,name:shoe_maker.product_template_6
-#, fuzzy
 msgid "Outsoles"
 msgstr "Dış Tabanlar"
 
@@ -764,15 +683,13 @@ msgstr "Plastik"
 
 #. module: shoe_maker
 #: model:product.template,name:shoe_maker.product_product_58_product_template
-#, fuzzy
 msgid "Proofing"
-msgstr "Kanıtlama"
+msgstr "Koruyucu"
 
 #. module: shoe_maker
 #: model:product.template,name:shoe_maker.product_template_11
-#, fuzzy
 msgid "Proofing spray"
-msgstr "Prova spreyi"
+msgstr "Koruyucu spreyi"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
@@ -781,7 +698,6 @@ msgstr "Bize ulaşın"
 
 #. module: shoe_maker
 #: model:ir.model.fields,field_description:shoe_maker.field_sale_order_collectible
-#, fuzzy
 msgid "Ready for Pickup"
 msgstr "Teslim Almaya Hazır"
 
@@ -792,7 +708,6 @@ msgstr "Kırmızı"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid ""
 "Reordering rules are displayed in the smart buttons on top of your product. "
 "You can see a minimum quantity, and a maximum. Each time the forecast stock "
@@ -807,25 +722,21 @@ msgstr ""
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid "Replenishment documentation"
 msgstr "İkmal dokümantasyonu"
 
 #. module: shoe_maker
 #: model:product.attribute.value,name:shoe_maker.product_attribute_value_11
-#, fuzzy
 msgid "Rubber"
 msgstr "Kauçuk"
 
 #. module: shoe_maker
 #: model:mail.template,name:shoe_maker.mail_template_45
-#, fuzzy
 msgid "Sales: Order Ready (from task)"
 msgstr "Satışlar: Sipariş Hazır (görevden)"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid ""
 "Save time managing your stock using the <strong>Inventory App</strong> and "
 "<strong>Purchase App</strong>."
@@ -835,13 +746,11 @@ msgstr ""
 
 #. module: shoe_maker
 #: model:product.template,name:shoe_maker.product_product_56_product_template
-#, fuzzy
 msgid "Seam repair"
 msgstr "Dikiş onarımı"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid ""
 "Select the <strong>customer order</strong> option to load an existing sales "
 "order"
@@ -851,7 +760,6 @@ msgstr ""
 
 #. module: shoe_maker
 #: model:ir.actions.server,name:shoe_maker.send_email_sales_order_ready
-#, fuzzy
 msgid "Send email: Sales: Order Ready (from task)"
 msgstr "E-posta gönderin: Satışlar: Sipariş Hazır (görevden)"
 
@@ -870,13 +778,11 @@ msgstr "Ayakkabıcılık Hizmetleri"
 
 #. module: shoe_maker
 #: model:product.template,name:shoe_maker.product_product_53_product_template
-#, fuzzy
 msgid "Slide replacement"
 msgstr "Slayt değişimi"
 
 #. module: shoe_maker
 #: model:product.template,name:shoe_maker.product_template_14
-#, fuzzy
 msgid "Slim laces"
 msgstr "İnce bağcıklar"
 
@@ -892,19 +798,16 @@ msgstr "Tabanlar"
 
 #. module: shoe_maker
 #: model:base.automation,name:shoe_maker.base_automation_2
-#, fuzzy
 msgid "Stage is set to \"Cancelled\""
-msgstr "Sahne \"İptal Edildi\" olarak ayarlandı"
+msgstr "Aşama \"İptal Edildi\" olarak ayarlandı"
 
 #. module: shoe_maker
 #: model:base.automation,name:shoe_maker.base_automation_1
-#, fuzzy
 msgid "Stage is set to \"Done\""
-msgstr "Sahne \"Bitti\" olarak ayarlandı"
+msgstr "Aşama \"Bitti\" olarak ayarlandı"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid ""
 "Start receiving orders directly in Odoo or go live with your\n"
 "                <strong>\n"
@@ -930,7 +833,6 @@ msgstr "Görevler"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid ""
 "The <strong>Project App</strong> and <strong>Field Service App</strong> will "
 "ensure a great follow up of every order."
@@ -941,7 +843,6 @@ msgstr ""
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid ""
 "The <strong>Sales App </strong>is designed to help you efficiently manage "
 "your sales quotations and sales orders. You are immediately ready to welcome "
@@ -956,7 +857,6 @@ msgstr ""
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid ""
 "The automated replenishment rules are triggered once a day to generate a "
 "purchase order for those products. Read our"
@@ -974,7 +874,6 @@ msgstr ""
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid ""
 "This is just an overview of the features included in this package. Feel free "
 "to add new apps and discover new features that can help you manage your "
@@ -991,20 +890,17 @@ msgstr "Yapılacak"
 
 #. module: shoe_maker
 #: model:ir.actions.server,name:shoe_maker.update_stage_cancel
-#, fuzzy
 msgid "Update Stage"
-msgstr "Güncelleme Aşaması"
+msgstr "Aşamayı Güncelle"
 
 #. module: shoe_maker
 #: model:ir.actions.server,name:shoe_maker.update_state_cancel
 #: model:ir.actions.server,name:shoe_maker.update_state_done
-#, fuzzy
 msgid "Update State"
 msgstr "Durumu Güncelle"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid ""
 "Use the <strong>Point of Sale</strong> for your sales at the counter. You "
 "can also install the Odoo Web Application on your smartphone to take orders "
@@ -1016,32 +912,27 @@ msgstr ""
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid "Use the <strong>Sales App</strong> to record any new ordering."
 msgstr ""
 "Yeni siparişleri kaydetmek için <strong>Sales App</strong> adresini kullanın."
 
 #. module: shoe_maker
 #: model:product.template,name:shoe_maker.product_template_12
-#, fuzzy
 msgid "Wax"
 msgstr "Balmumu"
 
 #. module: shoe_maker
 #: model:product.template,name:shoe_maker.product_product_54_product_template
-#, fuzzy
 msgid "Wax care"
 msgstr "Mum bakımı"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid "Whatsapp integration documentation"
 msgstr "Whatsapp entegrasyon belgeleri"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid ""
 "When working on one of those task, move the tasks in the <strong>In "
 "Progress</strong> <strong>Stage</strong>. Opening the task, you can add the "
@@ -1058,7 +949,6 @@ msgstr ""
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid ""
 "When you're done with a task; move it to the <strong>Done Stage</strong>."
 msgstr ""
@@ -1088,7 +978,6 @@ msgstr ""
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid ""
 "You can as well configure the process to notify your customers by SMS and "
 "Whatsapp! See the"
@@ -1098,7 +987,6 @@ msgstr ""
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid ""
 "You can edit the customer's contact details by clicking on the "
 "<strong>internal link </strong>(arrow)<b> </b>next to their name."
@@ -1108,19 +996,17 @@ msgstr ""
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid ""
 "You can see that there is a reordering rule configured for this product if "
 "you go to Inventory &gt; Products &gt; <font class=\"text-o-"
 "color-5\">Insoles</font>"
 msgstr ""
 "Envanter'e giderseniz bu ürün için yapılandırılmış bir yeniden sipariş "
-"kuralı olduğunu görebilirsiniz &gt; Ürünler &gt; <font class="
-"\"text-o-color-5\">Tabanlık</font>"
+"kuralı olduğunu görebilirsiniz &gt; Ürünler &gt; <font class=\"text-o-"
+"color-5\">Tabanlık</font>"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid ""
 "You can still import this industry's demo data. In order to do so, go to "
 "Apps &gt; Industries &gt; Upgrade your \"Shoemaker\" package."
@@ -1130,7 +1016,6 @@ msgstr ""
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid ""
 "You can wait for the rules to apply, but at this stagen, let's trigger the "
 "replenishment hitting the <strong>Order</strong> button on the considered "
@@ -1150,7 +1035,6 @@ msgstr ""
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid ""
 "You currently have multiple steps in your projects: New, Planned, In "
 "progress, Done and Canceled. You can configure those steps in the template "
@@ -1171,7 +1055,6 @@ msgstr ""
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid ""
 "You just installed the Odoo for Shoemakers package. By doing so, we have "
 "installed a bunch of recommended apps to run your services efficiently."
@@ -1191,7 +1074,6 @@ msgstr "ve"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
-#, fuzzy
 msgid "automation documentation"
 msgstr "otomasyon dokümantasyonu"
 
@@ -1207,7 +1089,6 @@ msgstr "daha fazla ayrıntı için."
 
 #. module: shoe_maker
 #: model:product.attribute,name:shoe_maker.product_attribute_9
-#, fuzzy
 msgid "height"
 msgstr "yükseklik"
 
@@ -1223,10 +1104,24 @@ msgstr "demo talep edin"
 
 #. module: shoe_maker
 #: model:mail.template,subject:shoe_maker.mail_template_45
-#, fuzzy
 msgid ""
 "{{ object.sale_order_id.company_id.name }} - Order ready (Ref. "
 "{{ object.sale_order_id.name or 'n/a' }})"
 msgstr ""
-"{{ object.sale_order_id.company_id.name }} - Sipariş hazır (Ref. {{ "
-"object.sale_order_id.name or 'n/a' }})"
+"{{ object.sale_order_id.company_id.name }} - Sipariş hazır (Ref. "
+"{{ object.sale_order_id.name or 'n/a' }})"
+
+#~ msgid "36-38"
+#~ msgstr "36-38"
+
+#~ msgid "38"
+#~ msgstr "38"
+
+#~ msgid "38-40"
+#~ msgstr "38-40"
+
+#~ msgid "40-42"
+#~ msgstr "40-42"
+
+#~ msgid "42-44"
+#~ msgstr "42-44"

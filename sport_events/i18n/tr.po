@@ -4,13 +4,15 @@
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # DeepL <noreply-mt-deepl@weblate.org>, 2025.
+# Odoo Turkish Import <dyki+tr@odoo.com>, 2025.
+# "Malaz Siddig Elsayed Abuidris (msea)" <msea@odoo.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 13:19+0000\n"
-"PO-Revision-Date: 2025-11-12 14:45+0000\n"
-"Last-Translator: DeepL <noreply-mt-deepl@weblate.org>\n"
+"POT-Creation-Date: 2026-04-10 19:42+0000\n"
+"PO-Revision-Date: 2025-11-29 19:54+0000\n"
+"Last-Translator: \"Malaz Siddig Elsayed Abuidris (msea)\" <msea@odoo.com>\n"
 "Language-Team: Turkish <https://translate.odoo.com/projects/odoo-19/"
 "sport_events/tr/>\n"
 "Language: tr\n"
@@ -18,18 +20,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: sport_events
 #: model:event.event.ticket,name:sport_events.event_event_ticket_4
-#, fuzzy
 msgid "+ Cup"
 msgstr "+ Kupa"
-
-#. module: sport_events
-#: model_terms:ir.ui.view,arch_db:sport_events.ir_ui_view_3140
-msgid "+1 555-555-5556"
-msgstr "+1 555-555-5556"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -38,44 +34,37 @@ msgstr "ve dilerseniz"
 
 #. module: sport_events
 #: model:survey.question.answer,value:sport_events.survey_question_answer_1
-#, fuzzy
 msgid "10K Discovery Trail"
 msgstr "10K Keşif Parkuru"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
-#, fuzzy
 msgid "1st, 2nd &amp; 3rd place teams"
 msgstr "1., 2. &amp; 3. sıradaki takımlar"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
-#, fuzzy
 msgid "2 referees per court"
 msgstr "Saha başına 2 hakem"
 
 #. module: sport_events
 #: model:survey.question.answer,value:sport_events.survey_question_answer_2
-#, fuzzy
 msgid "21K Mountain Half"
-msgstr "21K Dağ Yarısı"
+msgstr "21K Dağ Yarı Maratonu"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
-#, fuzzy
 msgid "3 full-service aid stations: water, isotonic drinks, fruit, energy bars"
 msgstr ""
 "3 tam hizmet yardım istasyonu: su, izotonik içecekler, meyve, enerji barları"
 
 #. module: sport_events
 #: model:survey.question.answer,value:sport_events.survey_question_answer_3
-#, fuzzy
 msgid "42K Wild Marathon"
 msgstr "42K Vahşi Maraton"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
-#, fuzzy
 msgid "6 players on court per team (substitutes allowed)"
 msgstr "Takım başına sahada 6 oyuncu (yedeklere izin verilir)"
 
@@ -95,7 +84,6 @@ msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
-#, fuzzy
 msgid ""
 "<br/>Discover our trail runs, volleyball tournaments, and triathlons "
 "designed for every level;&amp;nbsp;from beginners to elite athletes. View "
@@ -108,7 +96,6 @@ msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
-#, fuzzy
 msgid ""
 "<br/>Every event we create brings people closer to nature, fostering "
 "endurance, unity, and a deep respect for the landscapes we cross."
@@ -119,7 +106,6 @@ msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.contactus
-#, fuzzy
 msgid ""
 "<i class=\"fa fa-1x fa-fw fa-envelope me-2\"/>\n"
 "                        <span>info@yourcompany.example.com</span>"
@@ -153,18 +139,17 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">💡</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Afiş Bilgi\">💡</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label=\"Afiş "
+"Bilgi\">💡</i>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">🚀</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Info\">🚀</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">🚀</i>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -172,22 +157,20 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">🎉</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Afiş Başarı\">🎉</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label=\"Afiş "
+"Başarı\">🎉</i>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Warning\">⚠️</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Warning\">⚠️</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Warning\">⚠️</i>"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
-#, fuzzy
 msgid "<span class=\"h4-fs\">📍 <strong>Location</strong></span>"
 msgstr "<span class=\"h4-fs\">📍 <strong>Konum</strong></span>"
 
@@ -198,7 +181,6 @@ msgstr "<span class=\"s_website_form_label_content\">E-posta </span>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.contactus
-#, fuzzy
 msgid ""
 "<span class=\"s_website_form_label_content\">Email</span>\n"
 "                                <span class=\"s_website_form_mark\"> *</span>"
@@ -208,7 +190,6 @@ msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.contactus
-#, fuzzy
 msgid ""
 "<span class=\"s_website_form_label_content\">Name</span>\n"
 "                                <span class=\"s_website_form_mark\"> *</span>"
@@ -224,7 +205,6 @@ msgstr "<span class=\"s_website_form_label_content\">Telefon Numarası</span>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.contactus
-#, fuzzy
 msgid ""
 "<span class=\"s_website_form_label_content\">Question</span>\n"
 "                                <span class=\"s_website_form_mark\"> *</span>"
@@ -240,8 +220,8 @@ msgid ""
 "span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Konu</span>\n"
-"                                  <span class=\"s_website_form_mark\"> "
-"*</span>"
+"                                  <span class=\"s_website_form_mark\"> *</"
+"span>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.contactus
@@ -260,8 +240,8 @@ msgid ""
 "span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Şirketiniz</span>\n"
-"                                  <span class=\"s_website_form_mark\"> "
-"*</span>"
+"                                  <span class=\"s_website_form_mark\"> *</"
+"span>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
@@ -271,8 +251,8 @@ msgid ""
 "span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">E-Posta Adresiniz</span>\n"
-"                                  <span class=\"s_website_form_mark\"> "
-"*</span>"
+"                                  <span class=\"s_website_form_mark\"> *</"
+"span>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
@@ -282,151 +262,90 @@ msgid ""
 "span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Adınız</span>\n"
-"                                  <span class=\"s_website_form_mark\"> "
-"*</span>"
+"                                  <span class=\"s_website_form_mark\"> *</"
+"span>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
-#, fuzzy
 msgid ""
 "<span class=\"s_website_form_label_content\">Your Offer</span>\n"
 "                                  <span class=\"s_website_form_mark\"> *</"
 "span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Teklifiniz</span>\n"
-"                                  <span class=\"s_website_form_mark\"> "
-"*</span>"
+"                                  <span class=\"s_website_form_mark\"> *</"
+"span>"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
-#, fuzzy
 msgid "<strong>10K Discovery Trail</strong> — €15"
-msgstr "<strong>10K Discovery Trail</strong> - €15"
+msgstr "<strong>10K Keşif Patika Koşusu</strong> - €15"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
-#, fuzzy
 msgid "<strong>21K Mountain Half</strong> — €30"
-msgstr "<strong>21K Dağ Yarısı</strong> - €30"
+msgstr "<strong>21K Yarı Dağ Maratonu</strong> - €30"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
-#, fuzzy
 msgid "<strong>42K Wild Marathon</strong> — €40"
 msgstr "<strong>42K Vahşi Maraton</strong> - €40"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
-"<strong><font class=\"text-o-color-1\">CRM</font></strong>: Manage "
-"relationships with sponsors, partners, and key contacts."
+"<strong><font class=\"text-o-color-1\"><b>Contacts App</b>:</font></"
+"strong>Maintain a database of teams, athletes, sponsors, and volunteers to "
+"streamline communication and coordination.<br/>"
 msgstr ""
-"<strong><font class=\"text-o-color-1\">CRM</font></strong>: Sponsorlar, "
-"ortaklar ve kilit kişilerle ilişkileri yönetin."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
-"<strong><font class=\"text-o-color-1\">Documents</font></strong>: Centralize "
-"spreadsheets and materials checklists."
+"<strong><font class=\"text-o-color-1\"><b>Email Marketing App</b>: </font></"
+"strong>Keep the excitement high by sending automated updates, newsletters, "
+"and reminders to attendees and participants.<br/>"
 msgstr ""
-"<strong><font class=\"text-o-color-1\">Belgeler</font></strong>: Elektronik "
-"tabloları ve malzeme kontrol listelerini merkezileştirin."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
-"<strong><font class=\"text-o-color-1\">Events</font></strong>: Plan and "
-"manage sport competitions, races, or tournaments."
+"<strong><font class=\"text-o-color-1\"><b>Events App</b>:</font></"
+"strong>Orchestrate tournaments and matches with ease, handling participant "
+"registrations, ticketing, and capacity management online.<br/>"
 msgstr ""
-"<strong><font class=\"text-o-color-1\">Etkinlikler</font></strong>: Spor "
-"müsabakaları, yarışlar veya turnuvalar planlayın ve yönetin."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
-"<strong><font class=\"text-o-color-1\">Inventory</font></strong>: Track "
-"sports gear, event equipment, merchandise, and manage stock of all materials."
+"<strong><font class=\"text-o-color-1\"><b>Project App</b>: </font></"
+"strong>Manage the logistical setup of the event, assigning tasks to staff "
+"and volunteers to ensure the venue is ready on time."
 msgstr ""
-"<strong><font class=\"text-o-color-1\">Envanter</font></strong>: Spor "
-"malzemelerini, etkinlik ekipmanlarını, ticari malları takip edin ve tüm "
-"malzemelerin stoklarını yönetin."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
-"<strong><font class=\"text-o-color-1\">Planning</font></strong>: Create "
-"staff schedules, assign roles, and manage shifts."
+"<strong><font class=\"text-o-color-1\"><b>Website App</b>: </font></"
+"strong>Build a dedicated event portal to publish schedules, results, and "
+"venue information for fans and athletes.<br/>"
 msgstr ""
-"<strong><font class=\"text-o-color-1\">Planlama</font></strong>: Personel "
-"programları oluşturun, roller atayın ve vardiyaları yönetin."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
-"<strong><font class=\"text-o-color-1\">Project</font></strong>: Organize "
-"event planning, deadlines, and task responsibilities."
+"<strong><font class=\"text-o-color-1\"><b>eCommerce App</b>: </font></"
+"strong>Boost revenue by selling event merchandise, gear, and concessions "
+"directly through your event website.<br/>"
 msgstr ""
-"<strong><font class=\"text-o-color-1\">Proje</font></strong>: Etkinlik "
-"planlamasını, son tarihleri ve görev sorumluluklarını düzenleyin."
-
-#. module: sport_events
-#: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
-msgid ""
-"<strong><font class=\"text-o-color-1\">Purchase</font>: </strong>Order "
-"ravitaillement supplies, gear, equipment, and other essentials for sport "
-"events.<strong/><br/>"
-msgstr ""
-"<strong><font class=\"text-o-color-1\">Satın Alın</font>: </strong>Spor "
-"etkinlikleri için koşu malzemeleri, teçhizat, ekipman ve diğer temel "
-"malzemeleri sipariş edin.<strong/><br/>"
-
-#. module: sport_events
-#: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
-msgid ""
-"<strong><font class=\"text-o-color-1\">Sign</font></strong>: Digitally sign "
-"sponsorship agreements or volunteer forms."
-msgstr ""
-"<strong><font class=\"text-o-color-1\">İmzala</font></strong>: Sponsorluk "
-"anlaşmalarını veya gönüllü formlarını dijital olarak imzalayın."
-
-#. module: sport_events
-#: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
-msgid ""
-"<strong><font class=\"text-o-color-1\">Survey</font></strong>: Gather "
-"feedback from participants, staff, and sponsors."
-msgstr ""
-"<strong><font class=\"text-o-color-1\">Anket</font></strong>: "
-"Katılımcılardan, personelden ve sponsorlardan geri bildirim toplayın."
-
-#. module: sport_events
-#: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
-msgid ""
-"<strong><font class=\"text-o-color-1\">Website</font></strong>: Promote "
-"events, sell tickets, and gather sponsorships online."
-msgstr ""
-"<strong><font class=\"text-o-color-1\">Web sitesi</font></strong>: "
-"Etkinlikleri tanıtın, bilet satın ve çevrimiçi sponsorluk toplayın."
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
-#, fuzzy
 msgid "<strong>A Day of Competition, Energy &amp; Team Spirit</strong>"
 msgstr "<strong>Rekabet ve Enerji Dolu Bir Gün &amp; Ekip Ruhu</strong>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Add contact forms </strong>for participants to send questions, "
 "feedback, or requests."
@@ -436,42 +355,37 @@ msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Add your event details</strong> in the <em>Events</em> app, "
 "including dates, locations, ticket types, and capacity."
 msgstr ""
 "<strong>Tarihler, konumlar, bilet türleri ve kapasite dahil olmak üzere "
-"etkinlik ayrıntılarınızı</strong> <em> Events</em> uygulamasına ekleyin."
+"etkinlik ayrıntılarınızı</strong> <em> Etkinlıkler</em> uygulamasına ekleyin."
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
-#, fuzzy
 msgid "<strong>Aid &amp; Support</strong>"
 msgstr "<strong>Yardım &amp; Destek</strong>"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
-#, fuzzy
 msgid "<strong>Amenities</strong>"
 msgstr "<strong>Olanaklar</strong>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Analyze responses</strong> to improve future events (e.g., add more "
 "ravitaillement points) or to use them to demonstrate the event's impact on "
 "local tourism when negotiating new editions or funding."
 msgstr ""
-"<strong>Gelecekteki etkinlikleri iyileştirmek (örneğin, daha fazla "
-"ravitaillement noktası eklemek) veya yeni sürümler veya fonlar için pazarlık "
-"yaparken etkinliğin yerel turizm üzerindeki etkisini göstermek için "
-"kullanmak üzere</strong> yanıtlarını analiz edin."
+"<strong>Gelecekteki etkinlikleri iyileştirmek (örneğin, daha fazla ikmal "
+"noktası eklemek) veya yeni sürümler veya fonlar için pazarlık yaparken "
+"etkinliğin yerel turizm üzerindeki etkisini göstermek için kullanmak üzere</"
+"strong> geri bildirimleri analiz edin."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Automate reordering</strong> so when stock falls below the minimum, "
 "Odoo generates a purchase order automatically."
@@ -482,13 +396,11 @@ msgstr ""
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
-#, fuzzy
 msgid "<strong>Awards &amp; Recognition</strong>"
 msgstr "<strong>Ödüller &amp; Tanıma</strong>"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
-#, fuzzy
 msgid ""
 "<strong>Bike</strong>: 40 km road &amp; forest loop, moderate elevation "
 "(+800m)"
@@ -498,13 +410,11 @@ msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid "<strong>Build Shift Schedule:</strong>"
 msgstr "<strong>Vardiya Programı Oluşturun:</strong>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Categorize expenses</strong> (Logistics, Accommodation, Meals, "
 "Travel) for clear reporting."
@@ -514,7 +424,6 @@ msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Categorize products</strong> into groups like Apparel, First Aid, "
 "Technical Equipment, and Merchandise."
@@ -524,13 +433,11 @@ msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid "<strong>Communicate Efficiently</strong>"
 msgstr "<strong>Etkili İletişim Kurun</strong>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Create a purchase order</strong> in <em>Purchase</em> when you need "
 "ravitaillement supplies, race bibs, signage, timing systems, volunteer "
@@ -538,11 +445,10 @@ msgid ""
 msgstr ""
 "<strong>Koşu malzemeleri, yarış önlükleri, tabelalar, zamanlama sistemleri, "
 "gönüllü üniformaları veya güvenlik ekipmanlarına ihtiyaç duyduğunuzda</"
-"strong> <em> Purchase</em> adresinden bir satın alma siparişi oluşturun."
+"strong> <em> Satın Alma</em> adresinden bir satın alma siparişi oluşturun."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Create engaging announcements </strong>and highlight reels to "
 "promote upcoming events."
@@ -552,7 +458,6 @@ msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Create surveys</strong> on event organization, facilities, or "
 "satisfaction."
@@ -562,67 +467,56 @@ msgstr ""
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
-#, fuzzy
 msgid "<strong>Cut-off Time</strong>: 2 hours"
 msgstr "<strong>Bitiş Süresi</strong>: 2 saat"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
-#, fuzzy
 msgid "<strong>Cut-off Time</strong>: 4 hours"
 msgstr "<strong>Bitiş Süresi</strong>: 4 saat"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
-#, fuzzy
 msgid "<strong>Cut-off Time</strong>: 8 hours"
-msgstr "<strong>Kesim Süresi</strong>: 8 saat"
+msgstr "<strong>Bitiş Süresi</strong>: 8 saat"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
-#, fuzzy
 msgid "<strong>Difficulty</strong>: Advanced"
 msgstr "<strong>Zorluk</strong>: Gelişmiş"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
-#, fuzzy
 msgid "<strong>Difficulty</strong>: Easy to Moderate"
 msgstr "<strong>Zorluk</strong>: Kolay - Orta"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
-#, fuzzy
 msgid "<strong>Difficulty</strong>: Moderate"
 msgstr "<strong>Zorluk</strong>: Orta"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
-#, fuzzy
 msgid "<strong>Elevation Gain</strong>: 1200m+"
 msgstr "<strong>Yükseklik Kazanımı</strong>: 1200m+"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
-#, fuzzy
 msgid "<strong>Elevation Gain</strong>: ±250m"
 msgstr "<strong>Yükseklik Kazancı</strong>: ±250m"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
-#, fuzzy
 msgid "<strong>Elevation Gain</strong>: ±600–800m"
 msgstr "<strong>Yükseklik Kazancı</strong>: ±600-800m"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
-#, fuzzy
 msgid "<strong>Finish Line &amp; Rewards</strong>"
-msgstr "<strong>Finish Line &amp; Ödüller</strong>"
+msgstr "<strong>Bitiş Çizgisi &amp; Ödüller</strong>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Generate invoices</strong> for sponsors, partners, or booth rentals."
 msgstr ""
@@ -631,43 +525,38 @@ msgstr ""
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
-#, fuzzy
 msgid ""
 "<strong>Ideal for</strong>: Beginners, walkers, and those looking for a "
 "short but rewarding trail experience."
 msgstr ""
-"<strong>İçin ideal</strong>: Yeni başlayanlar, yürüyüşçüler ve kısa ama "
-"ödüllendirici bir patika deneyimi arayanlar."
+"<strong>Kimin için ideal</strong>: Yeni başlayanlar, yürüyüşçüler ve kısa "
+"ama ödüllendirici bir patika deneyimi arayanlar."
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
-#, fuzzy
 msgid ""
 "<strong>Ideal for</strong>: Experienced trail runners seeking a technical "
 "and physically demanding course."
 msgstr ""
-"<strong>İçin ideal</strong>: Teknik ve fiziksel olarak zorlu bir parkur "
-"arayan deneyimli patika koşucuları."
+"<strong>Kimin için ideal</strong>: Teknik ve fiziksel olarak zorlu bir "
+"parkur arayan deneyimli patika koşucuları."
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
-#, fuzzy
 msgid ""
 "<strong>Ideal for</strong>: Intermediate runners used to off-road conditions "
 "and elevation."
 msgstr ""
-"<strong>İçin ideal</strong>: Arazi koşullarına ve yüksekliğe alışkın orta "
-"seviye koşucular."
+"<strong>Kimin için ideal</strong>: Arazi koşullarına ve yüksekliğe alışkın "
+"orta seviye koşucular."
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
-#, fuzzy
 msgid "<strong>Included with Registration</strong>"
 msgstr "<strong>Kayıt ile birlikte</strong>"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
-#, fuzzy
 msgid ""
 "<strong>Join us for a day of trail running through the scenic forests and "
 "hills surrounding the Maredsous Abbey. With three distances on offer, "
@@ -681,23 +570,20 @@ msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Log expenses</strong> like staff accommodation the day before the "
 "event, catering, or travel."
 msgstr ""
 "<strong>Etkinlikten bir gün önce personelin konaklaması, yemek servisi veya "
-"seyahat gibi harcamaları</strong> kaydedin."
+"seyahat gibi harcamalarını</strong> kaydedin."
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
-#, fuzzy
 msgid "<strong>Logistics</strong>"
 msgstr "<strong>Lojistik</strong>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Open the Inventory app</strong> and find the product or equipment to "
 "manage (e.g., finish line arch, water station tables, first aid kits)."
@@ -708,7 +594,6 @@ msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Organize  and Monitor stock by locations</strong>: Create clear "
 "storage locations in Odoo such as <em>Merch &amp; Apparel</em>, <em>Ravito</"
@@ -716,37 +601,33 @@ msgid ""
 "quickly when setting up for the event."
 msgstr ""
 "<strong>Stokları konumlara göre düzenleyin ve izleyin</strong>: Odoo'da "
-"<em>Merch &amp; Apparel</em>, <em>Ravito</em> ve <em>Equipment</em> gibi net "
-"depolama konumları oluşturun. Bu, etkinlik için hazırlık yaparken sizin ve "
-"ekibinizin malzemeleri hızlı bir şekilde bulmasına yardımcı olur."
+"<em>ürün &amp; giyim</em>, <em>ikmal noktası</em> ve <em>ekipman</em> gibi "
+"net depolama konumları oluşturun. Bu, etkinlik için hazırlık yaparken sizin "
+"ve ekibinizin malzemeleri hızlı bir şekilde bulmasına yardımcı olur."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Publish the event</strong> on your <em>Website</em> with an "
 "attractive description, photos or videos from previous editions, practical "
 "info such as schedules and accessibility, and registration forms."
 msgstr ""
-"<strong>Etkinliği</strong> <em> </em> web sitenizde çekici bir açıklama, "
+"<strong>Etkinliği</strong> <em> </em> web sitenizde etkileyici bir açıklama, "
 "önceki etkinliklerden fotoğraflar veya videolar, program ve erişilebilirlik "
 "gibi pratik bilgiler ve kayıt formlarıyla birlikte yayınlayın."
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
-#, fuzzy
 msgid "<strong>Race Breakdown</strong>"
 msgstr "<strong>Yarış Dağılımı</strong>"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
-#, fuzzy
 msgid "<strong>Race Formats</strong>"
 msgstr "<strong>Yarış Formatları</strong>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Receive the goods</strong> using the <em>Receipt</em> smart button "
 "and validate them to update your records."
@@ -756,7 +637,6 @@ msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Record and manage sponsor details</strong> in <em>CRM </em>and add "
 "them on the<em> Event </em>when it's confirmed"
@@ -766,22 +646,19 @@ msgstr ""
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
-#, fuzzy
 msgid "<strong>Registration</strong>"
 msgstr "<strong>Kayıt</strong>"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
-#, fuzzy
 msgid ""
 "<strong>Run</strong>: 10 km trail with technical singletrack sections (+300m)"
 msgstr ""
-"<strong>Koşu</strong>: Teknik singletrack bölümleri içeren 10 km'lik parkur "
-"(+300m)"
+"<strong>Koşu</strong>: Teknik irtifa kazanım bölümleri içeren 10 km'lik "
+"parkur (+300m)"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Select the right vendor</strong> by comparing prices, delivery "
 "times, and supplier reliability to ensure quality and timely delivery."
@@ -792,7 +669,6 @@ msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Send a Request for Quotation (RFQ)</strong> to suppliers directly "
 "from Odoo or confirm the order when you've made your choice."
@@ -802,17 +678,15 @@ msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Send them to participants,</strong> staff, and sponsors after the "
 "event."
 msgstr ""
-"<strong>Etkinlikten sonra bunları katılımcılara,</strong> personeline ve "
+"<strong>Etkinlikten sonra bunları katılımcılara,</strong> personele ve "
 "sponsorlara gönderin."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Set Reordering Rules</strong> by defining minimum and maximum stock "
 "levels. Example: Keep at least 200 gels in stock, and replenish up to 500 "
@@ -824,7 +698,6 @@ msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Set up a project</strong> in the <em>Project</em> app to assign and "
 "track tasks such as venue booking, course setup, and sponsor contact."
@@ -835,7 +708,6 @@ msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Showcase your value proposition and current sponsors</strong> with "
 "logos, testimonials, and success stories. Include a sponsor interest form "
@@ -852,7 +724,6 @@ msgstr ""
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
-#, fuzzy
 msgid ""
 "<strong>Start &amp; Finish:</strong> Microbrasserie de Maredsous – Abtei "
 "Maredsous, Belgium"
@@ -862,32 +733,27 @@ msgstr ""
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
-#, fuzzy
 msgid "<strong>Support</strong>: 1 aid station at halfway point"
 msgstr "<strong>Destek</strong>: Yarı yolda 1 yardım istasyonu"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
-#, fuzzy
 msgid "<strong>Support</strong>: 2 aid stations (KM 7 and KM 14)"
 msgstr "<strong>Destek</strong>: 2 yardım istasyonu (KM 7 ve KM 14)"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
-#, fuzzy
 msgid "<strong>Support</strong>: 4 aid stations, positioned every 10 km"
 msgstr ""
 "<strong>Destek</strong>: Her 10 km'de bir konumlandırılmış 4 yardım istasyonu"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
-#, fuzzy
 msgid "<strong>Swim. Bike. Run. Embrace the Challenge.</strong>"
-msgstr "<strong>Yüz. Bisiklet. Koş. Mücadeleyi Kucaklayın.</strong>"
+msgstr "<strong>Yüz. Bisiklet Sür. Koş. Mücadeleyi Kucaklayın.</strong>"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
-#, fuzzy
 msgid ""
 "<strong>Swim</strong>: 1.5 km open-water in Lac de Nisramont (wetsuit "
 "recommended)"
@@ -897,19 +763,16 @@ msgstr ""
 
 #. module: sport_events
 #: model_terms:survey.survey,description_done:sport_events.survey_survey_1
-#, fuzzy
 msgid "<strong>Thank you for sharing your thoughts!</strong>"
 msgstr "<strong>Düşüncelerinizi paylaştığınız için teşekkür ederiz!</strong>"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
-#, fuzzy
 msgid "<strong>Tournament Format</strong>"
 msgstr "<strong>Turnuva Formatı</strong>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Track payments</strong> and send reminders for overdue invoices."
 msgstr ""
@@ -918,17 +781,15 @@ msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Track the order</strong> in <em>Purchase</em> to monitor expected "
 "delivery dates."
 msgstr ""
-"<strong>Beklenen teslimat tarihlerini izlemek için</strong> siparişini "
-"<em>Purchase</em> adresinden takip edin."
+"<strong>Siparişi Satınalma modülünden takip ederek</strong> beklenen   "
+"<em>teslimat</em> tarihlerini izleyin."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Use Smart Buttons</strong> to view stock moves and track the history "
 "of each item."
@@ -938,49 +799,43 @@ msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>You didn't import demo data?</strong> You can still do it. Go to "
 "<strong>Apps &gt; Industries &gt; Upgrade your Sport Events Package </"
 "strong>and check the related box."
 msgstr ""
 "<strong>Demo verilerini içe aktarmadınız mı?</strong> Yine de "
-"yapabilirsiniz. <strong> Apps &gt; Industries &gt; Upgrade your Sport Events "
-"Package </strong>adresine gidin ve ilgili kutuyu işaretleyin."
+"yapabilirsiniz. <strong> Uygulamalar&gt; Sektörler&gt; Spor Etkinlikleri "
+"Paketinizi Yükseltin </strong>bölümüne gidin ve ilgili kutuyu işaretleyin."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
-#, fuzzy
 msgid "A Call for Sports Enthusiasm"
 msgstr "Spor Coşkusu İçin Bir Çağrı"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
-#, fuzzy
 msgid "A group of people in wetsuits standing in the water"
 msgstr "Suda duran dalgıç kıyafetli bir grup insan"
 
 #. module: sport_events
 #: model:event.event.ticket,description:sport_events.event_event_ticket_6
-#, fuzzy
 msgid "Access to seating & facilities + 1 free drink"
 msgstr "Oturma yerlerine ve tesislere erişim + 1 ücretsiz içecek"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "Add specific questions to the registration form in the <em>Events</em> app, "
 "such as emergency contact details or T-shirt size, so you collect all "
 "necessary information from participants during the registration process."
 msgstr ""
-"<em>Events</em> uygulamasındaki kayıt formuna acil durum iletişim bilgileri "
-"veya tişört bedeni gibi belirli sorular ekleyin, böylece kayıt işlemi "
-"sırasında katılımcılardan gerekli tüm bilgileri toplayın."
+"<em>Etkinlikler</em> uygulamasındaki kayıt formuna acil durum iletişim "
+"bilgileri veya tişört bedeni gibi belirli sorular ekleyin, böylece kayıt "
+"işlemi sırasında katılımcılardan gerekli tüm bilgileri toplayın."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "Add vendor lead times on each product to plan ahead. For example, if "
 "importing race medals takes 10 days, set that lead time so you order in time."
@@ -991,56 +846,48 @@ msgstr ""
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
-#, fuzzy
 msgid "Aid stations with water, electrolytes, and snacks"
 msgstr "Su, elektrolit ve atıştırmalıkların bulunduğu yardım istasyonları"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
-#, fuzzy
 msgid "All games played according to official FIVB rules"
 msgstr "Tüm oyunlar resmi FIVB kurallarına göre oynanır"
 
 #. module: sport_events
 #: model:survey.question.answer,value:sport_events.survey_question_answer_6
-#, fuzzy
 msgid "Alone"
 msgstr "Yalnız"
 
 #. module: sport_events
 #: model:crm.tag,name:sport_events.crm_tag_2
-#, fuzzy
 msgid "Apparel"
-msgstr "Konfeksiyon"
+msgstr "Giyim Ürünleri"
 
 #. module: sport_events
 #: model:event.event,name:sport_events.event_event_2
-#, fuzzy
 msgid "Arden Volley Cup 2025"
-msgstr "Arden Volley Cup 2025"
+msgstr "Arden Voleybol Kupası 2025"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid "Assign and communicate staff roles via the <em>Planning</em> app."
 msgstr ""
-"<em>Planning</em> uygulaması aracılığıyla personel rollerini atayın ve "
+"<em>Planlama</em> uygulaması aracılığıyla personel rollerini atayın ve "
 "iletin."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "Assign staff shifts in <font class=\"text-o-color-1\"><strong>Planning</"
 "strong></font> for setup, race marshaling, registration, and cleanup."
 msgstr ""
-"Kurulum, yarış görevlileri, kayıt ve temizlik için <font class="
-"\"text-o-color-1\"><strong>Planlama</strong></font> adresinde personel "
-"vardiyaları atayın."
+"Kurulum, yarış görevlileri, kayıt ve temizlik için <font class=\"text-o-"
+"color-1\"><strong>Planlama</strong></font> modülünde personel vardiyaları "
+"atayın."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "Assign<strong> </strong>booths or areas for sponsors. For example, Sports "
 "sponsors your trail race. They have a booth at the finish line where they "
@@ -1053,23 +900,21 @@ msgstr ""
 
 #. module: sport_events
 #: model:product.pricelist,name:sport_events.product_pricelist_2
-#, fuzzy
 msgid "Athlete License"
 msgstr "Sporcu Lisansı"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "Based on that list, the logistic manager can reorder missing items by "
 "creating purchase orders in <strong><font class=\"text-o-color-1\">Purchase</"
 "font></strong> for essentials like hydration points, signage, and timing "
 "equipment."
 msgstr ""
-"Lojistik yöneticisi bu listeye dayanarak hidrasyon noktaları, tabelalar ve "
-"zamanlama ekipmanları gibi temel ihtiyaçlar için <strong><font class="
-"\"text-o-color-1\">Purchase</font></strong> adresinde satın alma siparişleri "
-"oluşturarak eksik kalemleri yeniden sipariş edebilir."
+"Lojistik yöneticisi bu listeye dayanarak su noktaları, yönlendirme "
+"tabelaları ve zamanlama ekipmanları gibi temel ihtiyaçlar için <strong><font "
+"class=\"text-o-color-1\">Satın Alma</font></strong> adresinde satın alma "
+"siparişleri oluşturarak eksik kalemleri yeniden sipariş edebilir."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1078,43 +923,36 @@ msgstr "Temeller"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
-#, fuzzy
 msgid "Become a Sponsor"
 msgstr "Sponsor Olun"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
-#, fuzzy
 msgid "Best Player"
 msgstr "En İyi Oyuncu"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
-#, fuzzy
 msgid "Bib number and timing chip"
-msgstr "Önlük numarası ve zamanlama çipi"
+msgstr "Yarış numarası ve zamanlama çipi"
 
 #. module: sport_events
 #: model:event.event.ticket,description:sport_events.event_event_ticket_9
-#, fuzzy
 msgid "Bib, aid station access, finisher snack"
-msgstr "Önlük, yardım istasyonu erişimi, bitirici atıştırmalığı"
+msgstr "Yarış numarası, ikmal noktası erişimi, bitişçi atıştırmalığı"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
-#, fuzzy
 msgid "Bike service zone before and during race"
 msgstr "Yarış öncesi ve sırasında bisiklet servis alanı"
 
 #. module: sport_events
 #: model:event.booth,name:sport_events.event_booth_1
-#, fuzzy
 msgid "Booth area 1"
 msgstr "Stand alanı 1"
 
 #. module: sport_events
 #: model:res.partner.category,name:sport_events.res_partner_category_3
-#, fuzzy
 msgid "Building and Facility Construction and Maintenance Services"
 msgstr "Bina ve Tesis İnşaat ve Bakım Hizmetleri"
 
@@ -1134,37 +972,32 @@ msgstr "Müşteri İlişkileri Yönetimi (CRM)"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
-#, fuzzy
 msgid "Camping option nearby (partner discounts available)"
 msgstr "Yakınlarda kamp seçeneği (ortak indirimleri mevcut)"
 
 #. module: sport_events
 #: model:res.partner.category,name:sport_events.res_partner_category_7
-#, fuzzy
 msgid "Cereal and pulse products"
 msgstr "Tahıl ve bakliyat ürünleri"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "Check your entire <strong><font class=\"text-o-color-1\">inventory</font></"
 "strong>, update the spreadsheet with the quantities required for the event, "
 "and identify any shortages."
 msgstr ""
-"Tüm <strong><font class=\"text-o-color-1\">envanterinizi kontrol "
-"edin</font></strong>, elektronik tabloyu etkinlik için gereken miktarlarla "
+"Tüm <strong><font class=\"text-o-color-1\">envanterinizi kontrol edin</"
+"font></strong>, elektronik tabloyu etkinlik için gereken miktarlarla "
 "güncelleyin ve eksiklikleri belirleyin."
 
 #. module: sport_events
 #: model:planning.role,name:sport_events.planning_role_1
-#, fuzzy
 msgid "Check-in & Logistics"
-msgstr "Check-in & Lojistik"
+msgstr "Giriş Kaydı & Lojistik"
 
 #. module: sport_events
 #: model:product.template,name:sport_events.product_product_13_product_template
-#, fuzzy
 msgid "Chips"
 msgstr "Cips"
 
@@ -1175,19 +1008,16 @@ msgstr "Kapat"
 
 #. module: sport_events
 #: model:res.partner.category,name:sport_events.res_partner_category_6
-#, fuzzy
 msgid "Clubs"
 msgstr "Kulüpler"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid "Collect feedback using the Survey app."
 msgstr "Anket uygulamasını kullanarak geri bildirim toplayın."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
-#, fuzzy
 msgid "Connect.&amp;nbsp;"
 msgstr "Bağlan.&amp;nbsp;"
 
@@ -1198,19 +1028,16 @@ msgstr "Bize Ulaşın"
 
 #. module: sport_events
 #: model:crm.stage,name:sport_events.crm_stage_6
-#, fuzzy
 msgid "Contract Sent"
 msgstr "Sözleşme Gönderildi"
 
 #. module: sport_events
 #: model:project.tags,name:sport_events.project_tags_17
-#, fuzzy
 msgid "Core-event"
-msgstr "Çekirdek olay"
+msgstr "Ana etkinlik"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "Create pricelists  to offer specific prices tailored to different groups, "
 "such as partners, athletes with a license, or staff members."
@@ -1220,7 +1047,6 @@ msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "Create roles like “Security,” “Medical Staff,” “Registration Desk,” or "
 "“Course Marshal,” and assign them to each team member’s record, on "
@@ -1232,7 +1058,6 @@ msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "Create the event in the<strong> </strong><font class=\"text-o-"
 "color-1\"><strong>Events app</strong></font> with all details (dates, "
@@ -1241,29 +1066,26 @@ msgid ""
 "finalizing contracts in <strong><font class=\"text-o-color-1\">Sign</font></"
 "strong>, add confirmed sponsors with their booth locations."
 msgstr ""
-"Etkinliği<strong> </strong><font class=\"text-o-color-1\"><strong> Events "
+"Etkinliği<strong> </strong><font class=\"text-o-color-1\"><strong> Etkinlik "
 "uygulamasında</strong></font> tüm ayrıntılarıyla (tarihler, konumlar, bilet "
-"türleri ve kapasite) oluşturun ve <font class=\"text-o-color-1\""
-"><strong>CRM'de</strong></font> sponsorluk anlaşmalarını görüştükten ve "
-"<strong><font class=\"text-o-color-1\">Sign'da</font></strong> sözleşmeleri "
-"tamamladıktan sonra, onaylanmış sponsorları stant konumlarıyla birlikte "
-"ekleyin."
+"türleri ve kapasite) oluşturun ve <font class=\"text-o-"
+"color-1\"><strong>CRM'de</strong></font> sponsorluk anlaşmalarını "
+"görüştükten ve <strong><font class=\"text-o-color-1\">Sign'da</font></"
+"strong> sözleşmeleri tamamladıktan sonra, onaylanmış sponsorları stant "
+"konumlarıyla birlikte ekleyin."
 
 #. module: sport_events
 #: model:product.template,name:sport_events.product_product_32_product_template
-#, fuzzy
 msgid "Cup"
 msgstr "Kupa"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
-#, fuzzy
 msgid "Deadline: August 25, 2025"
 msgstr "Son teslim tarihi: 25 Ağustos 2025"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid "Define your event hours (e.g., 7am–8pm, race day and setup days)"
 msgstr ""
 "Etkinlik saatlerinizi tanımlayın (örneğin, sabah 7 akşam 8, yarış günü ve "
@@ -1271,7 +1093,6 @@ msgstr ""
 
 #. module: sport_events
 #: model:survey.question,title:sport_events.survey_question_4
-#, fuzzy
 msgid "Did you stay in the area this weekend? *"
 msgstr "Bu hafta sonu bölgede kaldınız mı? *"
 
@@ -1292,13 +1113,11 @@ msgstr "Yapıldı"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
-#, fuzzy
 msgid "Drink voucher redeemable at the Microbrasserie de Maredsous"
 msgstr "Microbrasserie de Maredsous'da kullanılabilecek içecek kuponu"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "Each staff member can view their schedule via their portal or receive it by "
 "email"
@@ -1313,50 +1132,42 @@ msgstr "Çalışan"
 
 #. module: sport_events
 #: model:documents.document,name:sport_events.documents_document_18
-#, fuzzy
 msgid "Event Material Inventory (Maredsous Sunrise Trail )"
-msgstr "Etkinlik Malzeme Envanter (Maredsous Sunrise Trail )"
+msgstr "Etkinlik Malzeme Envanter (Maredsous Sunrise Patika Koşusu)"
 
 #. module: sport_events
 #: model:documents.document,name:sport_events.documents_document_14
 #: model:documents.document,name:sport_events.documents_document_19
-#, fuzzy
 msgid "Event Material Inventory (TEMPLATE)"
-msgstr "Etkinlik Malzeme Envanter (TEMPLATE)"
+msgstr "Etkinlik Malzeme Envanter (ŞABLON)"
 
 #. module: sport_events
 #: model:spreadsheet.template,name:sport_events.spreadsheet_template_1
-#, fuzzy
 msgid "Event Material Inventory - Template"
 msgstr "Etkinlik Malzeme Envanter - Şablon"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid "Example Workflow for a Sport Event"
 msgstr "Bir Spor Etkinliği için Örnek İş Akışı"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
-#, fuzzy
 msgid "Explore Upcoming Events"
 msgstr "Yaklaşan Etkinlikleri Keşfedin"
 
 #. module: sport_events
 #: model:event.event,subtitle:sport_events.event_event_1
-#, fuzzy
 msgid "Explore the forest trails around the iconic Maredsous Abbey."
 msgstr "İkonik Maredsous Manastırı çevresindeki orman yollarını keşfedin."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
-#, fuzzy
 msgid "Explore.&amp;nbsp;"
 msgstr "Keşfedin.&amp;nbsp;"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "Export your inventory list from Odoo to a spreadsheet and create a column "
 "for “Quantity Required” for a specific event. Event managers can fill in "
@@ -1371,33 +1182,28 @@ msgstr ""
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
-#, fuzzy
 msgid "Fair Play Team"
-msgstr "Fair Play Ekibi"
+msgstr "Centilmenlik Takımı"
 
 #. module: sport_events
 #: model:product.template,name:sport_events.product_product_8_product_template
-#, fuzzy
 msgid "Finisher Medal"
-msgstr "Bitirici Madalyası"
+msgstr "Yarışı Tamamlama Madalyası"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
-#, fuzzy
 msgid "Finisher T-shirt (€8)"
-msgstr "Bitirici Tişörtü (8 €)"
+msgstr "Yarışı Tamamlama Tişörtü (8 €)"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
-#, fuzzy
 msgid "Finisher medal"
-msgstr "Bitirici madalyası"
+msgstr "Yarışı Tamamlama madalyası"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
-#, fuzzy
 msgid "Finisher medals"
-msgstr "Bitirici madalyaları"
+msgstr "Yarışı Tamamlama madalyaları"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.ir_ui_view_3140
@@ -1406,7 +1212,6 @@ msgstr "Bizi takip et"
 
 #. module: sport_events
 #: model:res.partner.category,name:sport_events.res_partner_category_2
-#, fuzzy
 msgid "Food Beverage and Tobacco Products"
 msgstr "Yiyecek İçecek ve Tütün Ürünleri"
 
@@ -1422,25 +1227,21 @@ msgstr "Kurucu"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
-#, fuzzy
 msgid "Free massage station for all finishers"
 msgstr "Tüm bitirenler için ücretsiz masaj istasyonu"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
-#, fuzzy
 msgid "Free parking"
 msgstr "Ücretsiz otopark"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
-#, fuzzy
 msgid "Fully marked course"
 msgstr "Tamamen işaretlenmiş parkur"
 
 #. module: sport_events
 #: model:product.template,name:sport_events.product_product_14_product_template
-#, fuzzy
 msgid "Gels"
 msgstr "Jeller"
 
@@ -1456,26 +1257,22 @@ msgstr ""
 #. module: sport_events
 #. odoo-javascript
 #: code:addons/sport_events/static/src/js/my_tour.js:0
-#, fuzzy
 msgid "Get on track and explore our recommendations for your Odoo usage here!"
 msgstr ""
 "Yolunuza devam edin ve Odoo kullanımınız için önerilerimizi buradan keşfedin!"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
-#, fuzzy
 msgid "Group stage in the morning, knockout rounds in the afternoon"
 msgstr "Sabah grup aşaması, öğleden sonra eleme turları"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid "Handle Invoices and Expenses"
 msgstr "Faturaları ve Giderleri İşleyin"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.contactus
-#, fuzzy
 msgid ""
 "Have questions, ideas, or need support? Reach out to our team; we’ll get "
 "back to you as quickly as possible. We’re here to help you have an amazing "
@@ -1487,14 +1284,12 @@ msgstr ""
 
 #. module: sport_events
 #: model:survey.question,title:sport_events.survey_question_5
-#, fuzzy
 msgid ""
 "Have you eaten/had a drink in the Horeca establishments in the region? *"
 msgstr "Bölgedeki Horeca işletmelerinde bir şeyler yediniz mi/içtiniz mi? *"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "In <em>CRM</em>, create a new opportunity for each sponsor or partner. "
 "Record all discussions, meeting notes, and agreed conditions."
@@ -1510,30 +1305,26 @@ msgstr "Devam Eden"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "In the <em>Events</em> app, open your event and use the <em>Sponsor Smart "
 "Button</em> to add the confirmed sponsor. Upload their logo and details."
 msgstr ""
-"<em>Events</em> uygulamasında etkinliğinizi açın ve onaylanmış sponsoru "
+"<em>Etkinlikler</em> uygulamasında etkinliğinizi açın ve onaylanmış sponsoru "
 "eklemek için <em>Sponsor Akıllı Düğmesini</em> kullanın. Logolarını ve "
 "ayrıntılarını yükleyin."
 
 #. module: sport_events
 #: model:event.event.ticket,description:sport_events.event_event_ticket_7
-#, fuzzy
 msgid "Individual bib, access to all 3 disciplines, aid stations"
-msgstr "Bireysel önlük, 3 disipline de erişim, yardım istasyonları"
+msgstr "Bireysel yarış numarası, tüm 3 disiplene erişim, ikmal noktaları"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
-#, fuzzy
 msgid "Indoor courts with official markings and lighting"
 msgstr "Resmi işaretlere ve aydınlatmaya sahip kapalı kortlar"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "Integrate <strong><font class=\"text-o-color-1\">WhatsApp </font><font "
 "class=\"text-o-color-2\"><span style=\"font-weight: normal;\">and/or</span></"
@@ -1541,25 +1332,22 @@ msgid ""
 "instantly with your team during the event."
 msgstr ""
 "Etkinlik sırasında ekibinizle anında iletişim kurmak için <strong><font "
-"class=\"text-o-color-1\">WhatsApp </font><font class=\"text-o-color-2\""
-"><span style=\"font-weight: normal;\"> ve/veya</span></font><font class=\""
-"text-o-color-1\"> VoIP</font></strong> adreslerini entegre edin."
+"class=\"text-o-color-1\">WhatsApp </font><font class=\"text-o-"
+"color-2\"><span style=\"font-weight: normal;\"> ve/veya</span></font><font "
+"class=\"text-o-color-1\"> VoIP</font></strong> adreslerini entegre edin."
 
 #. module: sport_events
 #: model:product.template,name:sport_events.product_product_12_product_template
-#, fuzzy
 msgid "Iso Drink"
-msgstr "Iso İçecek"
+msgstr "Izo İçecek"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid "Keep Your Community Engaged with Your Website"
-msgstr "Topluluğunuzun Web Sitenizle İlgilenmesini Sağlayın"
+msgstr "Topluluğunuzu Web Sitenizle Etkileşimde Tutun"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "Keep sports gear and event materials organized with the <em>Inventory</em> "
 "app."
@@ -1574,7 +1362,6 @@ msgstr "Hukuki"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "Leverage <strong><font class=\"text-o-color-1\">Social Marketing</font></"
 "strong><font class=\"bg-o-color-3 text-o-color-1\">​</font> to share event "
@@ -1587,31 +1374,26 @@ msgstr ""
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
-#, fuzzy
 msgid "Limited spots available — first come, first served"
 msgstr "Sınırlı sayıda yer mevcuttur - ilk gelen ilk hizmet alır"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
-#, fuzzy
 msgid "Live match schedule and results via mobile app"
 msgstr "Mobil uygulama üzerinden canlı maç programı ve sonuçları"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
-#, fuzzy
 msgid "Live tracking and timing (with intermediate split mats)"
-msgstr "Canlı izleme ve zamanlama (ara bölmeli matlarla)"
+msgstr "Canlı takip ve zamanlama (ara bölmeli matlarla)"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
-#, fuzzy
 msgid "Locker &amp; shower access"
 msgstr "Dolap &amp; duş erişimi"
 
 #. module: sport_events
 #: model:hr.job,name:sport_events.hr_job_1
-#, fuzzy
 msgid "Logistic Manager"
 msgstr "Lojistik Müdürü"
 
@@ -1622,36 +1404,30 @@ msgstr "Lojistik"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid "Manage Your Sport Material Inventory"
 msgstr "Spor Malzemesi Envanterinizi Yönetin"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "Manage all event-related finances seamlessly using the <strong><font "
 "class=\"text-o-color-1\">Accounting</font></strong> app."
 msgstr ""
-"<strong><font class=\"text-o-color-1\">Accounting</font></strong> "
-"uygulamasını kullanarak etkinlikle ilgili tüm mali işlemleri sorunsuz bir "
-"şekilde yönetin."
+"<strong><font class=\"text-o-color-1\">Muhasebe</font></strong> uygulamasını "
+"kullanarak etkinlikle ilgili tüm mali işlemleri sorunsuz bir şekilde yönetin."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid "Manage event finances with the Invoicing and Expenses apps."
 msgstr "Faturalama ve Giderler uygulamaları ile etkinlik finansmanını yönetin."
 
 #. module: sport_events
 #: model:project.project,name:sport_events.project_project_1
-#, fuzzy
 msgid "Maredsous Sunrise Trail"
 msgstr "Maredsous Gündoğumu Patikası"
 
 #. module: sport_events
 #: model:event.event,name:sport_events.event_event_1
-#, fuzzy
 msgid "Maredsous Sunrise Trail "
 msgstr "Maredsous Gündoğumu Patikası "
 
@@ -1662,45 +1438,38 @@ msgstr "Pazarlama"
 
 #. module: sport_events
 #: model_terms:product.template,description:sport_events.product_product_14_product_template
-#, fuzzy
 msgid "Maurten Gel 100 - 12 Box"
 msgstr "Maurten Jel 100 - 12 Kutu"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
-#, fuzzy
 msgid "Maximum 24 teams"
 msgstr "Maksimum 24 takım"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
-#, fuzzy
 msgid "Medal engraving (€5)"
 msgstr "Madalya gravürü (5 €)"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
-#, fuzzy
 msgid "Medical and safety support"
 msgstr "Tıbbi ve güvenlik desteği"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
-#, fuzzy
 msgid "Medical assistance and rescue coordination"
 msgstr "Tıbbi yardım ve kurtarma koordinasyonu"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
-#, fuzzy
 msgid "Mixed, Men's &amp; Women's teams accepted"
 msgstr "Karışık, Erkekler &amp; Kadın takımları kabul edildi"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
-#, fuzzy
 msgid "Move."
-msgstr "Çekil."
+msgstr "İlerle."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.contactus
@@ -1709,7 +1478,6 @@ msgstr "Şirketim"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "Need to make last-minute changes? Drag-and-drop scheduling updates keep "
 "everyone informed instantly."
@@ -1736,19 +1504,16 @@ msgstr "Hayır"
 
 #. module: sport_events
 #: model:crm.tag,name:sport_events.crm_tag_3
-#, fuzzy
 msgid "Nutrition"
 msgstr "Beslenme"
 
 #. module: sport_events
 #: model:res.partner.category,name:sport_events.res_partner_category_5
-#, fuzzy
 msgid "Nuts and seeds"
-msgstr "Fındık ve tohumlar"
+msgstr "Kuruyemiş ve tohumlar"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "Odoo centralizes every part of your operation. From organizing events and "
 "syncing with sponsors and partners to managing event materials with "
@@ -1762,13 +1527,11 @@ msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid "Odoo for Sport Events"
 msgstr "Spor Etkinlikleri için Odoo"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "Odoo improves team coordination, boosts your event's online presence, and "
 "ensures that every piece of your event runs smoothly; so you can focus on "
@@ -1791,7 +1554,6 @@ msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "Odoo offers endless customization possibilities for your Sport Event company:"
 msgstr ""
@@ -1810,51 +1572,44 @@ msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "Offer <strong><font class=\"text-o-color-1\">memberships or subscriptions</"
 "font></strong> for regular access to your events."
 msgstr ""
-"Etkinliklerinize düzenli erişim için <strong><font class=\"text-o-color-1\""
-">üyelikleri veya</font></strong> abonelikleri sunun."
+"Etkinliklerinize düzenli erişim için <strong><font class=\"text-o-"
+"color-1\">üyelikler veya</font></strong> abonelikler sunun."
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
-#, fuzzy
 msgid "On-site food &amp; drink (available for all)"
 msgstr "Tesis içi yiyecek &amp; içecek (herkes için mevcut)"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "Once terms are approved, send the sponsorship contract via the <em>Sign</em> "
 "app for a quick, legally binding e-signature."
 msgstr ""
 "Şartlar onaylandıktan sonra, hızlı ve yasal olarak bağlayıcı bir e-imza için "
-"sponsorluk sözleşmesini <em>Sign</em> uygulaması aracılığıyla gönderin."
+"sponsorluk sözleşmesini <em>İmza</em> uygulaması aracılığıyla gönderin."
 
 #. module: sport_events
 #: model:event.event.ticket,description:sport_events.event_event_ticket_8
-#, fuzzy
 msgid "One athlete per discipline, team bib, nutrition support"
-msgstr "Disiplin başına bir sporcu, takım önlüğü, beslenme desteği"
+msgstr "Her branş için bir atlet, takım yarış numarası, beslenme desteği"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
-#, fuzzy
 msgid "Online registration only. Payment via credit card or PayPal."
 msgstr "Sadece online kayıt. Kredi kartı veya PayPal ile ödeme."
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
-#, fuzzy
 msgid "Optional extras:"
 msgstr "İsteğe bağlı ekstralar:"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid "Organize Your Sport Events"
 msgstr "Spor Etkinliklerinizi Düzenleyin"
 
@@ -1865,78 +1620,66 @@ msgstr "Diğer"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
-#, fuzzy
 msgid "Parking &amp; shuttles available"
 msgstr "Otopark &amp; servisler mevcut"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
-#, fuzzy
 msgid "Participant briefing 30 minutes before race start"
-msgstr "Yarış başlamadan 30 dakika önce katılımcı brifingi"
+msgstr "Yarış başlamadan 30 dakika önce katılımcı bilgilendirmesi"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
-#, fuzzy
 msgid "Partner gifts, raffles &amp; merchandise throughout the day"
 msgstr "Gün boyunca ortak hediyeler, çekilişler &amp; ürünler"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
-#, fuzzy
 msgid "Partner with Purpose"
 msgstr "Amaçlı Ortaklık"
 
 #. module: sport_events
 #: model:crm.stage,name:sport_events.crm_stage_7
-#, fuzzy
 msgid "Partnership Confirmed"
 msgstr "Ortaklık Onaylandı"
 
 #. module: sport_events
 #: model:project.tags,name:sport_events.project_tags_4
-#, fuzzy
 msgid "Permit"
 msgstr "İzin Belgesi"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
-#, fuzzy
 msgid "Places are limited. No on-site registration available."
 msgstr "Yerler sınırlıdır. Yerinde kayıt mevcut değildir."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "Plan and launch your sport event using <em>Project</em>, <em>CRM</em>, "
 "<em>Events</em>, and <em>Website.</em>"
 msgstr ""
-"Spor etkinliğinizi <em>Proje</em>, <em>CRM</em>, <em>Events</em> ve <em>Web "
-"sitesini kullanarak planlayın ve başlatın.</em>"
+"Spor etkinliğinizi <em>Proje</em>, <em>CRM</em>, <em>Etkinlikler</em> ve "
+"<em>Web sitesini kullanarak planlayın ve başlatın.</em>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
-#, fuzzy
 msgid "Play.&amp;nbsp;"
 msgstr "Oynayın.&amp;nbsp;"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
-#, fuzzy
 msgid "Player-only zone (snacks, recovery, physio corner)"
 msgstr ""
 "Sadece oyunculara özel bölge (atıştırmalıklar, dinlenme, fizyoterapi köşesi)"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
-#, fuzzy
 msgid "Podium prizes for top 3 male/female/relay"
-msgstr "İlk 3 erkek/kadın/röle için podyum ödülleri"
+msgstr "Erkek/Kadın/Bayrak kategorilerinde ilk 3’e podyum ödülleri"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "Promote new events and connect with your community using the <em>Website "
 "app</em>."
@@ -1946,51 +1689,44 @@ msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "Promote the event on the <font class=\"text-o-color-1\"><strong>Website</"
 "strong></font> with sponsor logos, descriptions, media from previous "
 "editions, practical info, and ticket registration."
 msgstr ""
 "Sponsor logoları, açıklamalar, önceki etkinliklerden medya, pratik bilgiler "
-"ve bilet kaydı ile <font class=\"text-o-color-1\"><strong>Web "
-"sitesinde</strong></font> etkinliği tanıtın."
+"ve bilet kaydı ile <font class=\"text-o-color-1\"><strong>Web sitesinde</"
+"strong></font> etkinliği tanıtın."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid "Purchase Your Event Materials"
 msgstr "Etkinlik Malzemelerinizi Satın Alın"
 
 #. module: sport_events
 #: model:planning.role,name:sport_events.planning_role_2
-#, fuzzy
 msgid "Ravito & Finish Line"
-msgstr "Ravito & Bitiş Çizgisi"
+msgstr "İkmal Noktası & Bitiş Çizgisi"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
-#, fuzzy
 msgid "Registration Details"
 msgstr "Kayıt Detayları"
 
 #. module: sport_events
 #: model:event.event.ticket,name:sport_events.event_event_ticket_1
-#, fuzzy
 msgid "Registration for 10K Discovery Trail"
-msgstr "10K Discovery Trail için Kayıtlar"
+msgstr "10K Keşif Patika Koşusu Kayıtları"
 
 #. module: sport_events
 #: model:event.event.ticket,name:sport_events.event_event_ticket_2
-#, fuzzy
 msgid "Registration for 21K Mountain Half"
-msgstr "21K Dağ Yarısı için Kayıtlar"
+msgstr "21K Dağ Yarı Maratonu Kayıtları"
 
 #. module: sport_events
 #: model:event.event.ticket,name:sport_events.event_event_ticket_3
-#, fuzzy
 msgid "Registration for 42K Wild Marathon"
-msgstr "42K Vahşi Maraton için Kayıtlar"
+msgstr "42K Vahşi Maraton Kayıtları"
 
 #. module: sport_events
 #: model:project.tags,name:sport_events.project_tags_9
@@ -1999,7 +1735,6 @@ msgstr "Kayıtlar"
 
 #. module: sport_events
 #: model:event.event.ticket,name:sport_events.event_event_ticket_8
-#, fuzzy
 msgid "Relay Team (3 athletes)"
 msgstr "Bayrak Takımı (3 sporcu)"
 
@@ -2010,7 +1745,6 @@ msgstr "Rota"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "Run the event: thanks to the inventory list, the logistics manager knows "
 "exactly what to bring; use the <font class=\"text-o-"
@@ -2019,13 +1753,12 @@ msgid ""
 msgstr ""
 "Etkinliği yönetin: envanter listesi sayesinde lojistik yöneticisi tam olarak "
 "ne getireceğini bilir; katılımcı biletlerini taramak ve önlük numaralarını "
-"atamak için <font class=\"text-o-color-1\"><strong>Barcode</strong></font> "
+"atamak için <font class=\"text-o-color-1\"><strong>Barkod</strong></font> "
 "uygulamasını kullanın; personel planlamanızı kontrol edin ve etkinliğin "
 "tadını çıkarın."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid "Schedule Your Staff"
 msgstr "Personelinizi Planlayın"
 
@@ -2036,19 +1769,16 @@ msgstr "Demo planlayın"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
-#, fuzzy
 msgid "Secure transition zone"
 msgstr "Güvenli geçiş bölgesi"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid "Send Surveys to Stay Connected"
 msgstr "Bağlantıda Kalmak için Anketler Gönderin"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "Send a post-event survey via <font class=\"text-o-color-1\"><strong>Survey</"
 "strong></font> to participants and partners, then review income and expenses "
@@ -2056,16 +1786,15 @@ msgid ""
 "style=\"font-weight: normal;\">and</span><font class=\"text-o-color-1\"> "
 "Expenses </font></strong>before closing the project."
 msgstr ""
-"Katılımcılara ve ortaklara <font class=\"text-o-color-1\""
-"><strong>Survey</strong></font> üzerinden bir etkinlik sonrası anketi "
-"gönderin, ardından projeyi kapatmadan önce <strong><font class="
-"\"text-o-color-1\">Invoicing </font><span style=\"font-weight: normal;"
-"\">ve</span><font class=\"text-o-color-1\"> Expenses </font></"
-"strong>bölümlerinde gelir ve giderleri gözden geçirin."
+"Katılımcılara ve ortaklara <font class=\"text-o-color-1\"><strong>Anket</"
+"strong></font> modülü üzerinden bir etkinlik sonrası anketi gönderin, "
+"ardından projeyi kapatmadan önce <strong><font class=\"text-o-"
+"color-1\">Fatura</font><span style=\"font-weight: normal;\">ve</span><font "
+"class=\"text-o-color-1\"> Masraf </font></strong>modüllerinde gelir ve "
+"giderleri gözden geçirin."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "Set up a <strong><font class=\"text-o-color-1\">Point of Sale (PoS)</font></"
 "strong> system to sell food, drinks, and merchandise on-site with integrated "
@@ -2077,21 +1806,18 @@ msgstr ""
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
-#, fuzzy
 msgid "Special recognition for fastest transition times"
-msgstr "En hızlı geçiş süreleri için özel takdir"
+msgstr "En hızlı geçiş süreleri için özel ödül"
 
 #. module: sport_events
 #: model:event.event.ticket,name:sport_events.event_event_ticket_6
-#, fuzzy
 msgid "Spectator Access"
 msgstr "Seyirci Erişimi"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
-#, fuzzy
 msgid "Spectator stands with audio commentary"
-msgstr "Sesli yorumlu seyirci tribünleri"
+msgstr "Sesli anlatım bulunan seyirci tribünleri"
 
 #. module: sport_events
 #: model:crm.tag,name:sport_events.crm_tag_1
@@ -2101,7 +1827,6 @@ msgstr "Sponsor"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
-#, fuzzy
 msgid "Sponsor Request"
 msgstr "Sponsor Talebi"
 
@@ -2112,30 +1837,26 @@ msgstr "Sponsorlar"
 
 #. module: sport_events
 #: model:product.template,name:sport_events.product_product_9_product_template
-#, fuzzy
 msgid "Sports T-shirt"
 msgstr "Spor Tişört"
 
 #. module: sport_events
 #: model:res.partner.category,name:sport_events.res_partner_category_4
-#, fuzzy
 msgid "Sports and Recreational Equipment and Supplies and Accessories"
-msgstr "Spor ve Rekreasyon Ekipmanları ve Malzemeleri ve Aksesuarları"
+msgstr "Spor ve Eğlence Ekipmanları, Malzemeleri ve Aksesuarları"
 
 #. module: sport_events
 #: model:project.tags,name:sport_events.project_tags_15
-#, fuzzy
 msgid "Staffing"
 msgstr "Personel alımı"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "Streamline purchasing for sport event supplies using the <em>Purchase</em> "
 "app."
 msgstr ""
-"<em>Purchase</em> uygulamasını kullanarak spor etkinliği malzemeleri için "
+"<em>Satın Alma</em> uygulamasını kullanarak spor etkinliği malzemeleri için "
 "satın alma işlemlerini kolaylaştırın."
 
 #. module: sport_events
@@ -2146,13 +1867,11 @@ msgstr "Gönder"
 
 #. module: sport_events
 #: model:project.tags,name:sport_events.project_tags_14
-#, fuzzy
 msgid "Supplies"
 msgstr "Malzemeler"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
-#, fuzzy
 msgid ""
 "Support endurance, community, and outdoor passion. Our events bring together "
 "hundreds of participants — a great platform to boost your brand’s visibility "
@@ -2164,7 +1883,6 @@ msgstr ""
 
 #. module: sport_events
 #: model:event.question,title:sport_events.event_question_5
-#, fuzzy
 msgid "T-Shirt Size"
 msgstr "Tişört Bedeni"
 
@@ -2180,25 +1898,21 @@ msgstr "Ekip"
 
 #. module: sport_events
 #: model:event.event.ticket,name:sport_events.event_event_ticket_5
-#, fuzzy
 msgid "Team Registration (6–8 players)"
 msgstr "Takım Kaydı (6-8 oyuncu)"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
-#, fuzzy
 msgid "Team roster submission required"
 msgstr "Ekip listesi gönderimi gereklidir"
 
 #. module: sport_events
 #: model:product.template,name:sport_events.product_product_15_product_template
-#, fuzzy
 msgid "Tent"
 msgstr "Çadır"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
-#, fuzzy
 msgid ""
 "The <strong>Arden Volley Cup 2025</strong> is an indoor volleyball "
 "tournament gathering amateur and semi-professional teams from across the "
@@ -2206,15 +1920,14 @@ msgid ""
 "facilities of Marche-en-Famenne, the tournament aims to promote local sport "
 "culture, friendly rivalry, and community connection."
 msgstr ""
-"<strong>Arden Volley Cup 2025</strong>, bölgenin dört bir yanından amatör ve "
-"yarı profesyonel takımları heyecan dolu bir rekabet günü için bir araya "
-"getiren bir kapalı alan voleybol turnuvasıdır. Marche-en-Famenne'in modern "
-"tesislerinde düzenlenen turnuva, yerel spor kültürünü, dostça rekabeti ve "
-"topluluk bağlarını teşvik etmeyi amaçlamaktadır."
+"<strong>Arden Voleybol Kupası 2025</strong>, bölgenin dört bir yanından "
+"amatör ve yarı profesyonel takımları heyecan dolu bir rekabet günü için bir "
+"araya getiren bir kapalı alan voleybol turnuvasıdır. Marche-en-Famenne'in "
+"modern tesislerinde düzenlenen turnuva, yerel spor kültürünü, dostça "
+"rekabeti ve topluluk bağlarını teşvik etmeyi amaçlamaktadır."
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
-#, fuzzy
 msgid ""
 "The <strong>Tri Challenge</strong> is an annual triathlon event held in the "
 "heart of Belgium’s most scenic landscapes. Combining open-water swimming, "
@@ -2228,7 +1941,6 @@ msgstr ""
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
-#, fuzzy
 msgid ""
 "The event site is accessible by car, bicycle, and public transportation. "
 "Free parking available. Showers and basic facilities are provided."
@@ -2243,26 +1955,22 @@ msgstr "Yapılacak"
 
 #. module: sport_events
 #: model:event.event.ticket,description:sport_events.event_event_ticket_5
-#, fuzzy
 msgid "Tournament entry, team bibs, water & lunch for players"
 msgstr "Turnuva girişi, takım önlükleri, oyuncular için su ve öğle yemeği"
 
 #. module: sport_events
 #: model:event.tag,name:sport_events.event_tag_1
-#, fuzzy
 msgid "Trail Run"
 msgstr "Patika Koşusu"
 
 #. module: sport_events
 #: model:event.event,name:sport_events.event_event_3
-#, fuzzy
 msgid "Tri Challenge 2025"
-msgstr "Tri Challenge 2025"
+msgstr "Tri Mücadelesi 2025"
 
 #. module: sport_events
 #: model:event.event.ticket,name:sport_events.event_event_ticket_7
 #: model:product.template,name:sport_events.product_product_21_product_template
-#, fuzzy
 msgid "Triathlon"
 msgstr "Triatlon"
 
@@ -2278,7 +1986,6 @@ msgstr "Örnek Vaka"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "Use the <em>Website</em> app to promote sponsors with their logos, "
 "descriptions, and (if relevant) booth details so attendees know where to "
@@ -2290,20 +1997,17 @@ msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "Use the <font class=\"text-o-color-1\"><strong>Project app</strong></font> "
 "to organize the event by creating tasks, assigning assignees, setting "
 "deadlines, and tracking progress."
 msgstr ""
 "Görevler oluşturarak, görevliler atayarak, son tarihler belirleyerek ve "
-"ilerlemeyi takip ederek etkinliği düzenlemek için <font class="
-"\"text-o-color-1\"><strong>Proje Yönetimi uygulamasını</strong></font> "
-"kullanın."
+"ilerlemeyi takip ederek etkinliği düzenlemek için <font class=\"text-o-"
+"color-1\"><strong>Proje Yönetimi uygulamasını</strong></font> kullanın."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "Use the Barcode app to scan tickets and give participants their race bibs or "
 "event packs easily."
@@ -2313,7 +2017,6 @@ msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "Use the auto-plan feature to assign staff based on their availability and "
 "expertise."
@@ -2323,31 +2026,26 @@ msgstr ""
 
 #. module: sport_events
 #: model:event.tag,name:sport_events.event_tag_2
-#, fuzzy
 msgid "Volley"
 msgstr "Voleybol"
 
 #. module: sport_events
 #: model:product.template,name:sport_events.product_product_24_product_template
-#, fuzzy
 msgid "Volley Cup 2025"
-msgstr "Volley Cup 2025"
+msgstr "Voleybol Kupası 2025"
 
 #. module: sport_events
 #: model:project.tags,name:sport_events.project_tags_16
-#, fuzzy
 msgid "Volunteers"
 msgstr "Gönüllüler"
 
 #. module: sport_events
 #: model:project.task.type,name:sport_events.project_task_type_4
-#, fuzzy
 msgid "Waiting external"
 msgstr "Harici bekleme"
 
 #. module: sport_events
 #: model:survey.question,title:sport_events.survey_question_2
-#, fuzzy
 msgid "Was this your first visit to the region? *"
 msgstr "Bu bölgeye ilk ziyaretiniz miydi? *"
 
@@ -2371,13 +2069,11 @@ msgstr "Websitesi"
 
 #. module: sport_events
 #: model:product.pricelist,name:sport_events.product_pricelist_1
-#, fuzzy
 msgid "Website Default Pricelist"
 msgstr "Web Sitesi Varsayılan Fiyat Listesi"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid "Welcome to the Odoo Sport Event Management package!"
 msgstr "Odoo Spor Etkinlik Yönetimi paketine hoş geldiniz!"
 
@@ -2388,7 +2084,6 @@ msgstr "Hoş geldiniz! Mutlu keşifler."
 
 #. module: sport_events
 #: model_terms:survey.survey,description:sport_events.survey_survey_1
-#, fuzzy
 msgid ""
 "We’d love your feedback on the area around the racecourse — from scenery and "
 "accessibility to nearby attractions and facilities. Your input helps us "
@@ -2401,7 +2096,6 @@ msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "Whether you're organizing marathons and trail runs, triathlons, or "
 "competitive tournaments, Odoo centralizes every part of your operation. From "
@@ -2417,7 +2111,6 @@ msgstr ""
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
-#, fuzzy
 msgid ""
 "Whether you’re racing solo or with a team, the <strong>ATC 2025</strong> "
 "promises unforgettable terrain, community-driven support, and a "
@@ -2429,25 +2122,21 @@ msgstr ""
 
 #. module: sport_events
 #: model:survey.question,title:sport_events.survey_question_1
-#, fuzzy
 msgid "Which race did you participate in? *"
 msgstr "Hangi yarışa katıldınız? *"
 
 #. module: sport_events
 #: model:survey.question,title:sport_events.survey_question_3
-#, fuzzy
 msgid "Who did you come to the event with? *"
 msgstr "Etkinliğe kiminle geldiniz? *"
 
 #. module: sport_events
 #: model:survey.question.answer,value:sport_events.survey_question_answer_7
-#, fuzzy
 msgid "With Family"
 msgstr "Aile ile"
 
 #. module: sport_events
 #: model:survey.question.answer,value:sport_events.survey_question_answer_8
-#, fuzzy
 msgid "With Friends"
 msgstr "Arkadaşlarla"
 
@@ -2466,7 +2155,6 @@ msgstr "Evet"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-#, fuzzy
 msgid ""
 "You can access every installed app in your Odoo database from your main "
 "dashboard."
@@ -2494,13 +2182,11 @@ msgstr ""
 
 #. module: sport_events
 #: model:survey.survey,title:sport_events.survey_survey_1
-#, fuzzy
 msgid "Your Experience Around the Course "
 msgstr "Kurs Çevresindeki Deneyiminiz "
 
 #. module: sport_events
 #: model_terms:survey.survey,description_done:sport_events.survey_survey_1
-#, fuzzy
 msgid ""
 "Your feedback supports both our event organization and the local communities "
 "that welcome us. We hope to see you again soon — until then, keep exploring!"
@@ -2511,7 +2197,6 @@ msgstr ""
 
 #. module: sport_events
 #: model:event.event.ticket,name:sport_events.event_event_ticket_9
-#, fuzzy
 msgid "Youth Duathlon (12–16)"
 msgstr "Gençlik Duatlonu (12-16)"
 
@@ -2532,7 +2217,6 @@ msgstr "dokümantasyon"
 
 #. module: sport_events
 #: model:project.tags,name:sport_events.project_tags_5
-#, fuzzy
 msgid "external"
 msgstr "dış"
 
@@ -2547,14 +2231,22 @@ msgid "if you need help!"
 msgstr "yardıma ihtiyacınız olması durumunda!"
 
 #. module: sport_events
+#: model:event.question.answer,name:sport_events.event_question_answer_4
+msgid "l"
+msgstr ""
+
+#. module: sport_events
+#: model:event.question.answer,name:sport_events.event_question_answer_3
+msgid "m"
+msgstr ""
+
+#. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
-#, fuzzy
 msgid "people walking on street during daytime"
 msgstr "gündüz vakti sokakta yürüyen insanlar"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
-#, fuzzy
 msgid "person in green and black shorts riding on black and red bicycle"
 msgstr "siyah ve kırmızı bisiklete binen yeşil ve siyah şortlu kişi"
 
@@ -2564,31 +2256,108 @@ msgid "request a demo"
 msgstr "demo talep edin"
 
 #. module: sport_events
+#: model:event.question.answer,name:sport_events.event_question_answer_2
+msgid "s"
+msgstr ""
+
+#. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
-#, fuzzy
 msgid "two people running"
 msgstr "iki kişi koşuyor"
 
 #. module: sport_events
 #: model:event.question.answer,name:sport_events.event_question_answer_5
-#, fuzzy
 msgid "xl"
 msgstr "xl"
 
 #. module: sport_events
 #: model:event.question.answer,name:sport_events.event_question_answer_1
-#, fuzzy
 msgid "xs"
 msgstr "xs"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
-#, fuzzy
 msgid "🏆 Trophies for:"
 msgstr "🏆 Kupalar için:"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
-#, fuzzy
 msgid "🚲 Relay teams welcome (1 leg per person)"
-msgstr "🚲 Bayrak takımları kabul edilir (kişi başına 1 ayak)"
+msgstr "🚲 Bayrak takımları kabul edilir (kişi başına 1 etap)"
+
+#~ msgid "+1 555-555-5556"
+#~ msgstr "+1 555-555-5556"
+
+#~ msgid ""
+#~ "<strong><font class=\"text-o-color-1\">CRM</font></strong>: Manage "
+#~ "relationships with sponsors, partners, and key contacts."
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">CRM</font></strong>: Sponsorlar, "
+#~ "ortaklar ve kilit kişilerle ilişkileri yönetin."
+
+#~ msgid ""
+#~ "<strong><font class=\"text-o-color-1\">Documents</font></strong>: "
+#~ "Centralize spreadsheets and materials checklists."
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">Belgeler</font></strong>: "
+#~ "Elektronik tabloları ve malzeme kontrol listelerini merkezileştirin."
+
+#~ msgid ""
+#~ "<strong><font class=\"text-o-color-1\">Events</font></strong>: Plan and "
+#~ "manage sport competitions, races, or tournaments."
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">Etkinlikler</font></strong>: Spor "
+#~ "müsabakaları, yarışlar veya turnuvalar planlayın ve yönetin."
+
+#~ msgid ""
+#~ "<strong><font class=\"text-o-color-1\">Inventory</font></strong>: Track "
+#~ "sports gear, event equipment, merchandise, and manage stock of all "
+#~ "materials."
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">Envanter</font></strong>: Spor "
+#~ "malzemelerini, etkinlik ekipmanlarını, ticari malları takip edin ve tüm "
+#~ "malzemelerin stoklarını yönetin."
+
+#~ msgid ""
+#~ "<strong><font class=\"text-o-color-1\">Planning</font></strong>: Create "
+#~ "staff schedules, assign roles, and manage shifts."
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">Planlama</font></strong>: Personel "
+#~ "programları oluşturun, roller atayın ve vardiyaları yönetin."
+
+#~ msgid ""
+#~ "<strong><font class=\"text-o-color-1\">Project</font></strong>: Organize "
+#~ "event planning, deadlines, and task responsibilities."
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">Proje</font></strong>: Etkinlik "
+#~ "planlamasını, son tarihleri ve görev sorumluluklarını düzenleyin."
+
+#~ msgid ""
+#~ "<strong><font class=\"text-o-color-1\">Purchase</font>: </strong>Order "
+#~ "ravitaillement supplies, gear, equipment, and other essentials for sport "
+#~ "events.<strong/><br/>"
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">Satın Alın</font>: </strong>Spor "
+#~ "etkinlikleri için koşu malzemeleri, teçhizat, ekipman ve diğer temel "
+#~ "malzemeleri sipariş edin.<strong/><br/>"
+
+#~ msgid ""
+#~ "<strong><font class=\"text-o-color-1\">Sign</font></strong>: Digitally "
+#~ "sign sponsorship agreements or volunteer forms."
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">İmzala</font></strong>: Sponsorluk "
+#~ "anlaşmalarını veya gönüllü formlarını dijital olarak imzalayın."
+
+#~ msgid ""
+#~ "<strong><font class=\"text-o-color-1\">Survey</font></strong>: Gather "
+#~ "feedback from participants, staff, and sponsors."
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">Anket</font></strong>: "
+#~ "Katılımcılardan, personelden ve sponsorlardan geri bildirim toplayın."
+
+#~ msgid ""
+#~ "<strong><font class=\"text-o-color-1\">Website</font></strong>: Promote "
+#~ "events, sell tickets, and gather sponsorships online."
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">Web sitesi</font></strong>: "
+#~ "Etkinlikleri tanıtın, bilet satın ve çevrimiçi sponsorluk toplayın."

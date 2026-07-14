@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-13 08:17+0000\n"
+"POT-Creation-Date: 2026-06-12 18:46+0000\n"
 "PO-Revision-Date: 2025-11-17 11:09+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Indonesian <https://translate.odoo.com/projects/odoo-19/"
@@ -31,24 +31,9 @@ msgid "&amp;nbsp;and get to play with our members"
 msgstr "&amp;nbsp;and get to play with our members"
 
 #. module: sports_club
-#: model_terms:ir.ui.view,arch_db:sports_club.footer_custom
-msgid "+1 (650) 555-0111"
-msgstr "+1 (650) 555-0111"
-
-#. module: sports_club
-#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
-msgid "1. Gears"
-msgstr "1. Roda Gerigi"
-
-#. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
 msgid "1. Gears<br/>"
 msgstr "1. Roda Gerigi<br/>"
-
-#. module: sports_club
-#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
-msgid "2. Bar Management"
-msgstr "2. Manajemen Bar"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
@@ -61,9 +46,65 @@ msgid "3. Court Booking"
 msgstr "3. Booking Lapangan"
 
 #. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid ""
+"<b>Appointments App</b>: Enable members to book courts or coaching sessions "
+"online 24/7, reducing front-desk\n"
+"                workload and double-bookings."
+msgstr ""
+
+#. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid ""
+"<b>CRM App</b>: Manage member relationships and track potential leads for "
+"new sign-ups or corporate\n"
+"                sponsorships."
+msgstr ""
+
+#. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid ""
+"<b>Inventory App</b>: Keep track of rental equipment and retail stock, "
+"ensuring you always have the necessary\n"
+"                gear and refreshments on hand."
+msgstr ""
+
+#. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid ""
+"<b>Planning App</b>: Optimize facility usage and staff schedules, ensuring "
+"the right resources are available for\n"
+"                peak times and tournaments."
+msgstr ""
+
+#. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid ""
+"<b>Point of Sale App</b>: Streamline operations in your cafeteria and pro "
+"shop, handling sales of food, drinks,\n"
+"                and sports gear with ease."
+msgstr ""
+
+#. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
 msgid "<b>Ready to play?</b>"
 msgstr "<b>Ready to play?</b>"
+
+#. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid ""
+"<b>Social Marketing App</b>: Promote club events, tournaments, and special "
+"offers across social media to keep\n"
+"                your community engaged."
+msgstr ""
+
+#. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid ""
+"<b>Website &amp; eCommerce App</b>: specific your club's activities online "
+"and sell merchandise or memberships\n"
+"                directly to your community."
+msgstr ""
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
@@ -79,8 +120,8 @@ msgid ""
 "balls to your order."
 msgstr ""
 "<br/>\n"
-"            a) Peralatan dapat dibeli di eShop Club, dengan <font class="
-"\"text-o-color-1\"><strong>pengiriman</strong></font> di rumah atau "
+"            a) Peralatan dapat dibeli di eShop Club, dengan <font "
+"class=\"text-o-color-1\"><strong>pengiriman</strong></font> di rumah atau "
 "<strong><font class=\"text-o-color-1\">pickup gratis</font></strong> di "
 "Club, atau langsung dari\n"
 "            Club, melalui \"Toko\" Point of Sale mereka. Saat raket dibeli "
@@ -262,6 +303,11 @@ msgid "Barman/Maid"
 msgstr "Barman/Maid"
 
 #. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid "Basics"
+msgstr ""
+
+#. module: sports_club
 #: model:product.template,name:sports_club.product_template_14
 msgid "Beer"
 msgstr "Beer"
@@ -281,16 +327,6 @@ msgstr "Di bawah ditulis detail alur-alur yang mereka gunakan sehari-hari."
 #: model_terms:ir.ui.view,arch_db:sports_club.sports_club_custom_cta_btn
 msgid "Book a Court"
 msgstr "Book a Court"
-
-#. module: sports_club
-#: model:pos.payment.method,name:sports_club.pos_payment_method_1
-msgid "Cash"
-msgstr "Cash"
-
-#. module: sports_club
-#: model:account.journal,name:sports_club.cash
-msgid "Cash (Sports)"
-msgstr "Cash (Sports)"
 
 #. module: sports_club
 #: model:product.template,name:sports_club.product_template_5
@@ -328,11 +364,6 @@ msgid "Croque-Monsieur"
 msgstr "Croque-Monsieur"
 
 #. module: sports_club
-#: model:pos.payment.method,name:sports_club.pos_payment_method_2
-msgid "Customer Account"
-msgstr "Akun Pelanggan"
-
-#. module: sports_club
 #: model:pos.category,name:sports_club.pos_category_1
 msgid "Drinks"
 msgstr "Minuman"
@@ -346,11 +377,6 @@ msgstr "Peralatan"
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
 msgid "F.A.Q."
 msgstr "F.A.Q."
-
-#. module: sports_club
-#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
-msgid "Flows"
-msgstr "Alur-Alur"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.footer_custom
@@ -611,11 +637,6 @@ msgid "Sport Court Booking"
 msgstr "Sport Court Booking"
 
 #. module: sports_club
-#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
-msgid "Sports Club"
-msgstr "Sports Club"
-
-#. module: sports_club
 #: model:website.menu,name:sports_club.website_menu_11
 msgid "The Club"
 msgstr "The Club"
@@ -737,9 +758,9 @@ msgid ""
 "color-1\"><strong>SHOP </strong></font><font class=\"text-black\">POS</font> "
 "<font class=\"text-black\">can </font>also be used."
 msgstr ""
-"b) Untuk pemain yang membutuhkan sesuatu di lokasi <font class="
-"\"text-o-color-1\"><strong>SHOP </strong></font><font class=\"text-black\""
-">POS</font> <font class=\"text-black\">dapat </font>juga digunakan."
+"b) Untuk pemain yang membutuhkan sesuatu di lokasi <font class=\"text-o-"
+"color-1\"><strong>SHOP </strong></font><font class=\"text-black\">POS</font> "
+"<font class=\"text-black\">dapat </font>juga digunakan."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
@@ -748,9 +769,9 @@ msgid ""
 "class=\"text-o-color-1\">recurring shifts</font></strong> are created and "
 "assigned to the staff members."
 msgstr ""
-"b) Planning untuk Bar juga ditangani dari Odoo. <strong><font class="
-"\"text-o-color-1\">Shift rutin</font></strong> sederhana dibuat dan "
-"ditugaskan ke anggota staff."
+"b) Planning untuk Bar juga ditangani dari Odoo. <strong><font class=\"text-o-"
+"color-1\">Shift rutin</font></strong> sederhana dibuat dan ditugaskan ke "
+"anggota staff."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
@@ -759,8 +780,8 @@ msgid ""
 "play\"</font></strong> is only available on Fridays and allows player to "
 "join other games."
 msgstr ""
-"b) \"<strong><font class=\"text-o-color-1\">Main gratis Jumat malam\""
-"</font></strong> hanya tersedia di hari Jumat dan memungkinkan pemain untuk "
+"b) \"<strong><font class=\"text-o-color-1\">Main gratis Jumat malam\"</"
+"font></strong> hanya tersedia di hari Jumat dan memungkinkan pemain untuk "
 "bergabung dengan permainan lain."
 
 #. module: sports_club
@@ -797,3 +818,27 @@ msgstr "🤔 Where can I play...<br/>"
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
 msgid "🤔I don't have a racket<br/>"
 msgstr "🤔I don't have a racket<br/>"
+
+#~ msgid "Cash"
+#~ msgstr "Cash"
+
+#~ msgid "Cash (Sports)"
+#~ msgstr "Cash (Sports)"
+
+#~ msgid "Customer Account"
+#~ msgstr "Akun Pelanggan"
+
+#~ msgid "+1 (650) 555-0111"
+#~ msgstr "+1 (650) 555-0111"
+
+#~ msgid "1. Gears"
+#~ msgstr "1. Roda Gerigi"
+
+#~ msgid "2. Bar Management"
+#~ msgstr "2. Manajemen Bar"
+
+#~ msgid "Flows"
+#~ msgstr "Alur-Alur"
+
+#~ msgid "Sports Club"
+#~ msgstr "Sports Club"

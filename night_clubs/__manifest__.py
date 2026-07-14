@@ -1,7 +1,7 @@
 {
     'name': 'Night Clubs',
-    'version': '1.0',
-    'category': 'Hospitaility',
+    'version': '1.2',
+    'category': 'Hospitality',
     'author': 'Odoo S.A.',
     'depends': [
         'base_industry_data',
@@ -21,11 +21,6 @@
         'data/product_category.xml',
         'data/pos_config.xml',
         'data/product_product.xml',
-        'data/event_type.xml',
-        'data/event_type_ticket.xml',
-        'data/event_event.xml',
-        'data/event_slot.xml',
-        'data/event_event_ticket.xml',
         'data/knowledge_cover.xml',
         'data/knowledge_article.xml',
         'data/product_public_category.xml',
@@ -34,7 +29,12 @@
         'data/website_menu.xml',
     ],
     'demo': [
+        'demo/res_company.xml',
+        'demo/event_type.xml',
+        'demo/event_type_ticket.xml',
         'demo/event_event.xml',
+        'demo/event_slot.xml',
+        'demo/event_event_ticket.xml',
         'demo/event_tag_category.xml',
         'demo/event_tag.xml',
         'demo/res_partner.xml',
@@ -54,6 +54,7 @@
         'data/knowledge_article.xml',
         'demo/website_view.xml',
     ],
+    'application': True,
     'images': [
         'images/main.png',
     ],

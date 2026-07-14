@@ -1,6 +1,6 @@
 {
     'name': 'Thrift Store',
-    'version': '1.0',
+    'version': '1.2',
     'category': 'Retail',
     'depends': [
         'base_industry_data',
@@ -24,6 +24,7 @@
         'data/res_config_settings.xml',
     ],
     'demo': [
+        'demo/res_company.xml',
         'demo/res_partner.xml',
         'demo/planning_role.xml',
         'demo/hr_employee.xml',
@@ -42,6 +43,7 @@
     ],
     'license': 'OEEL-1',
     'author': 'Odoo S.A.',
+    'application': True,
     'images': ['images/main.png'],
     'url': "https://www.odoo.com/trial?industry&selected_app=thrift_store",
     'website': "https://www.odoo.com/all-industries",

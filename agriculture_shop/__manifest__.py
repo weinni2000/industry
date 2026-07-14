@@ -1,6 +1,6 @@
 {
     'name': 'Agricultural Store',
-    'version': '1.2',
+    'version': '1.3',
     'category': 'Retail',
     'depends': [
         'crm',
@@ -39,7 +39,7 @@
         'data/product_ribbon.xml',
     ],
     'demo': [
-        'demo/res_users.xml',
+        'demo/res_company.xml',
         'demo/res_partner.xml',
         'demo/product_product.xml',
         'demo/crm_tag.xml',
@@ -77,6 +77,7 @@
         "data/website_view.xml",
         "demo/website_view.xml",
     ],
+    'application': True,
     'images': ['images/main.png'],
     'url': "https://www.odoo.com/trial?industry&selected_app=agriculture_shop",
     'website': "https://www.odoo.com/industries/agriculture-store",

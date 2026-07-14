@@ -1,6 +1,6 @@
 {
     'name': 'Veterinary Clinic',
-    'version': '1.0',
+    'version': '1.2',
     'category': 'Health and Fitness',
     'author': 'Odoo S.A.',
     'depends': [
@@ -58,6 +58,7 @@
         'data/crm_tag.xml',
     ],
     'demo': [
+        'demo/res_company.xml',
         'demo/appointment_type.xml',
         'demo/crm_team.xml',
         'demo/pos_session.xml',
@@ -78,6 +79,7 @@
         'data/knowledge_article.xml',
         'demo/website_view.xml',
     ],
+    'application': True,
     'images': ['images/main.png'],
     'url': "https://www.odoo.com/trial?industry&selected_app=veterinary_clinic",
     'website': "https://www.odoo.com/all-industries",

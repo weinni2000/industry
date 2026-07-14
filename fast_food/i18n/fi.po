@@ -3,13 +3,13 @@
 # * fast_food
 #
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
-# Saara Hakanen <sahak@odoo.com>, 2025.
+# Saara Hakanen <sahak@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 11:05+0000\n"
-"PO-Revision-Date: 2025-10-29 03:33+0000\n"
+"POT-Creation-Date: 2026-06-12 18:05+0000\n"
+"PO-Revision-Date: 2026-07-02 14:09+0000\n"
 "Last-Translator: Saara Hakanen <sahak@odoo.com>\n"
 "Language-Team: Finnish <https://translate.odoo.com/projects/odoo-19/"
 "fast_food/fi/>\n"
@@ -18,12 +18,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
 msgid ", and feel free to"
-msgstr "ja voit rohkeasti"
+msgstr "sivuilta, sekä"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -63,10 +63,10 @@ msgstr ""
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
 msgid ""
-"2. Create your employees' roles under the \"Work Information\" tab. Some are "
-"already created for this demo."
+"2. Create your employees' roles under the \"Settings\" tab. Some are already "
+"created for this demo."
 msgstr ""
-"2. Luo työntekijöidesi roolit \"Työtiedot\" -välilehdellä. Joitakin rooleja "
+"2. Luo työntekijöidesi roolit \"Asetukset\" -välilehdellä. Joitain rooleja "
 "on jo luotu tätä demoa varten."
 
 #. module: fast_food
@@ -231,7 +231,7 @@ msgstr ""
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
 msgid "<strong><span class=\"h1-fs\">Use case:</span></strong>"
-msgstr "<strong><span class=\"h1-fs\">Käyttötapaus:</span></strong>"
+msgstr "<strong><span class=\"h1-fs\">Esimerkkitapaus:</span></strong>"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -261,19 +261,9 @@ msgstr ""
 "sulkemisen."
 
 #. module: fast_food
-#: model:pos.payment.method,name:fast_food.pos_payment_method_3
-msgid "Bank"
-msgstr "Pankki"
-
-#. module: fast_food
 #: model:planning.role,name:fast_food.planning_role_2
 msgid "Bar"
 msgstr "Palkki"
-
-#. module: fast_food
-#: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
-msgid "Basics:"
-msgstr "Perustiedot:"
 
 #. module: fast_food
 #: model:product.template,name:fast_food.product_product_54_product_template
@@ -310,11 +300,6 @@ msgstr ""
 "muutama tuote, Kassajärjestelmän kokoonpano ja esimerkkisuunnittelulla."
 
 #. module: fast_food
-#: model:pos.payment.method,name:fast_food.pos_payment_method_4
-msgid "Cash (Restaurant)"
-msgstr "Käteinen (ravintolassa)"
-
-#. module: fast_food
 #: model:product.template,name:fast_food.product_product_56_product_template
 msgid "Cheese 250gr"
 msgstr "Juusto 250gr"
@@ -334,7 +319,7 @@ msgstr ""
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
 msgid "Discover more about Odoo by diving into our"
-msgstr "Lue lisää Odoosta sukeltamalla meidän"
+msgstr "Lue lisää Odoosta"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -344,11 +329,6 @@ msgid ""
 msgstr ""
 "Tutustu tämän paketin perustietoihin ja kaikkiin Odoon tarjoamiin "
 "käyttökokemuksesi parannusmahdollisuuksiin."
-
-#. module: fast_food
-#: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
-msgid "Do you want to go further?"
-msgstr "Haluatko jatkaa?"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -387,7 +367,7 @@ msgstr "Avaa kassakone Kassajärjestelmän pääkoontinäytöltä."
 #. odoo-javascript
 #: code:addons/fast_food/static/src/js/my_tour.js:0
 msgid "Get on track and explore our recommendations for your Odoo usage here!"
-msgstr ""
+msgstr "Aloita ja tutustu Odoo-käyttöäsi koskeviin suosituksiimme täällä!"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -409,10 +389,10 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
 msgid ""
 "If you want to assign them an Odoo user account, you can select a related "
-"user in the \"HR Settings\" tab."
+"user in the same \"Settings\" tab."
 msgstr ""
 "Jos haluat määrittää heille Odoo-käyttäjätilin, voit valita siihen liittyvän "
-"käyttäjän \"Henkilöstöhallinto-asetukset\" -välilehdellä."
+"käyttäjän \"Asetukset\" -välilehdellä."
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -420,8 +400,9 @@ msgid ""
 "If you want to execute a practical guided tour of this module, you should "
 "Import demo data and try the Demo - Use Case. (In the next Knowledge Article)"
 msgstr ""
-"Jos haluat tutustua moduuliin käytännössä, sinun kannattaa tuoda demotiedot "
-"ja kokeilla Demo - käyttötapausta. (Seuraavassa Tietokirjaston artikkelissa)"
+"Jos haluat suorittaa tämän moduulin käytännönläheisen opastetun kierroksen, "
+"sinun kannattaa tuoda demotiedot ja kokeilla demon esimerkkitapausta. "
+"(seuraavassa Tietokirjaston artikkelissa)"
 
 #. module: fast_food
 #: model:product.template,name:fast_food.product_product_57_product_template
@@ -436,7 +417,7 @@ msgstr "Keittiö"
 #. module: fast_food
 #: model:loyalty.program,portal_point_name:fast_food.loyalty_program_2
 msgid "Loyalty point(s)"
-msgstr "Kanta-asiakaspisteet"
+msgstr "Kanta-asiakaspiste(et)"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -464,10 +445,10 @@ msgid ""
 "class=\"text-o-color-1\">Social Media Marketing</font></strong>, and "
 "<strong><font class=\"text-o-color-1\">SMS Marketing</font></strong>."
 msgstr ""
-"Hallinnoi kaikkia viestintäkanavia yhdestä paikasta Odoon <strong><font "
-"class=\"text-o-color-1\">Markkinointiautomaation</font></strong>, "
+"Hallitse kaikkia viestintäkanaviasi yhdestä paikasta Odoon <strong><font "
+"class=\"text-o-color-1\">Markkinoinnin automaation</font></strong>, "
 "<strong><font class=\"text-o-color-1\">Sähköpostimarkkinoinnin</font></"
-"strong>, <strong><font class=\"text-o-color-1\">Some- markkinoinnin</font></"
+"strong>, <strong><font class=\"text-o-color-1\">Somemarkkinoinnin</font></"
 "strong> ja <strong><font class=\"text-o-color-1\">Tekstiviestimarkkinoinnin</"
 "font></strong> avulla."
 
@@ -488,9 +469,9 @@ msgid ""
 "environment. (<strong><font class=\"text-o-color-1\">Accounting App</font></"
 "strong>)"
 msgstr ""
-"Hallitse kirjanpitoa helpommin kuin koskaan täysin integroidussa "
-"ympäristössä. (<strong><font class=\"text-o-color-1\">Kirjanpito-sovellus</"
-"font></strong>)"
+"Hallinnoi kirjanpitoasi täysin integroidun ympäristön avulla helpommin kuin "
+"koskaan aiemmin. (<strong><font class=\"text-o-color-1\">Kirjanpito-"
+"sovellus</font></strong>)"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -524,9 +505,9 @@ msgid ""
 "package. Feel free to add new apps, delete/modify demo data, and test "
 "everything around!"
 msgstr ""
-"Tämä on tietenkin vain yleiskatsaus paketin sisältämistä ominaisuuksista. "
-"Voit vapaasti lisätä uusia sovelluksia, poistaa/muuttaa demotietoja ja "
-"testata ihan kaikkea!"
+"Tämä on tietenkin vasta yleiskatsaus kaikista tähän pakettiin kuuluvista "
+"ominaisuuksista. Voit lisätä uusia sovelluksia, poistaa/muokata demotietoja "
+"sekä testata kaikkea mahdollista!"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -594,11 +575,6 @@ msgid "Service"
 msgstr "Palvelu"
 
 #. module: fast_food
-#: model:pos.payment.method,name:fast_food.pos_payment_method_1
-msgid "Sodexo Card Payment"
-msgstr "Sodexo-korttimaksu"
-
-#. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
 msgid ""
 "The <strong><font class=\"text-o-color-1\">Kitchen Displays</font></strong> "
@@ -633,11 +609,6 @@ msgid ""
 msgstr ""
 "Nämä kaikki ovat ilmaisia nykyisessä tilauksessasi; tutustu niihin vapaasti! "
 "🙃"
-
-#. module: fast_food
-#: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
-msgid "Use case:"
-msgstr "Käyttötapaus:"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -700,8 +671,7 @@ msgid ""
 "You can access every installed App in your Odoo database on your main "
 "dashboard."
 msgstr ""
-"Pääset käsiksi kaikkiin Odoo-tietokantaan asennettuihin sovelluksiin "
-"pääkoontinäytöltä."
+"Löydät kaikki Odoo-tietokantaasi asennetut sovellukset pääkoontinäytöltäsi."
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -736,8 +706,8 @@ msgid ""
 "You completed that demo use case! There are millions of other ways to adapt "
 "your Odoo setup to fit your business needs."
 msgstr ""
-"Sait demon käyttötapauksen valmiiksi! On olemassa monia muitakin tapoja "
-"mukauttaa Odoo-asetuksia vastaamaan yrityksesi tarpeita."
+"Suoritit demon esimerkkitapauksen! On olemassa lukuisia muitakin tapoja "
+"räätälöidä Odoo-asetukset yrityksesi tarpeiden mukaiseksi."
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -820,7 +790,7 @@ msgstr "ja"
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
 msgid "documentation"
-msgstr "dokumentointi"
+msgstr "dokumentaatio"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -830,4 +800,22 @@ msgstr "jos tarvitset apua! <br/>"
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
 msgid "request a demo"
-msgstr "pyytää esittelyä"
+msgstr "pyydä demoa"
+
+#~ msgid "Bank"
+#~ msgstr "Pankki"
+
+#~ msgid "Cash (Restaurant)"
+#~ msgstr "Käteinen (ravintolassa)"
+
+#~ msgid "Sodexo Card Payment"
+#~ msgstr "Sodexo-korttimaksu"
+
+#~ msgid "Basics:"
+#~ msgstr "Perustiedot:"
+
+#~ msgid "Do you want to go further?"
+#~ msgstr "Haluatko jatkaa?"
+
+#~ msgid "Use case:"
+#~ msgstr "Käyttötapaus:"

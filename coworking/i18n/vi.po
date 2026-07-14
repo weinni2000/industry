@@ -5,13 +5,14 @@
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# "Thi Huong Nguyen (thng)" <thng@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 10:07+0000\n"
-"PO-Revision-Date: 2025-11-10 13:27+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-04-10 19:00+0000\n"
+"PO-Revision-Date: 2026-04-11 09:35+0000\n"
+"Last-Translator: \"Thi Huong Nguyen (thng)\" <thng@odoo.com>\n"
 "Language-Team: Vietnamese <https://translate.odoo.com/projects/odoo-19/"
 "coworking/vi/>\n"
 "Language: vi\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.homepage
@@ -32,6 +33,8 @@ msgid ""
 "&amp;nbsp;Are you interested by becoming a Coworking member or having you "
 "business address here?"
 msgstr ""
+"&amp;nbsp;Bạn có quan tâm đến việc trở thành thành viên của không gian làm "
+"việc chung (coworking) hoặc có địa chỉ kinh doanh tại đây không?"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_4092
@@ -47,11 +50,6 @@ msgstr ""
 "cộng đồng năng động của chúng tôi luôn sẵn sàng đồng hành cùng bạn."
 
 #. module: coworking
-#: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_3303
-msgid "+1 555-555-5556"
-msgstr "+1 555-555-5556"
-
-#. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
 msgid ", and feel free to"
 msgstr "của chúng tôi, và đừng ngần ngại"
@@ -59,29 +57,31 @@ msgstr "của chúng tôi, và đừng ngần ngại"
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
 msgid "1. In Website → Pages, edit the page."
-msgstr ""
+msgstr "1. Trong Website → Trang, chỉnh sửa trang."
 
 #. module: coworking
 #: model:product.template,name:coworking.product_product_10_product_template
 msgid "10 Day Pass Card"
-msgstr ""
+msgstr "Thẻ vé 10 ngày"
 
 #. module: coworking
 #: model:loyalty.program,name:coworking.loyalty_program_2
 msgid "10 Days Pass"
-msgstr ""
+msgstr "Vé 10 ngày"
 
 #. module: coworking
 #: model_terms:product.template,description:coworking.product_product_10_product_template
 #: model_terms:product.template,description:coworking.product_product_13_product_template
 msgid "10 separate days at the Coworking to be used within the started year."
 msgstr ""
+"10 ngày làm việc riêng biệt tại không gian làm việc chung, có thể sử dụng "
+"trong năm bắt đầu."
 
 #. module: coworking
 #: model:loyalty.reward,description:coworking.loyalty_reward_2
 #: model:product.template,name:coworking.product_product_8_product_template
 msgid "100% on One Day Pass"
-msgstr ""
+msgstr "100 vé vào cửa trong một ngày tại% o"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -89,6 +89,8 @@ msgid ""
 "2. Under <strong>Visibility</strong>, set “Visible for” to a specific group "
 "(e.g., Members)."
 msgstr ""
+"2. Trong phần \" <strong>\" (Hiển thị) tại</strong>, hãy đặt \"Visible for\" "
+"(Hiển thị cho) thành một nhóm cụ thể (ví dụ: Members)."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_3303
@@ -111,19 +113,13 @@ msgstr ""
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.homepage
 msgid ""
-"<a class=\"o_translate_inline btn btn-primary\" t-att-"
-"href=\"request.env.ref('coworking.product_product_11').website_url\">\n"
+"<a class=\"o_translate_inline btn btn-primary\" "
+"href=\"*one_day_pass_product*\">\n"
 "                        <span style=\"font-family: Verdana, sans-serif;\">\n"
 "                          <strong>BUY</strong>\n"
 "                        </span>\n"
 "                      </a>"
 msgstr ""
-"<a class=\"o_translate_inline btn btn-primary\" t-att-"
-"href=\"request.env.ref('coworking.product_product_11').website_url\">\n"
-"                        <span style=\"font-family: Verdana, sans-serif;\">\n"
-"                          <strong>MUA</strong>\n"
-"                        </span>\n"
-"                      </a>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_3304
@@ -133,6 +129,39 @@ msgid ""
 msgstr ""
 "<a href=\"#\" class=\"btn btn-secondary o_translate_inline\">Khám phá thêm</"
 "a>"
+
+#. module: coworking
+#: model_terms:ir.ui.view,arch_db:coworking.homepage
+msgid ""
+"<a href=\"*10_day_pass_card_product*\" class=\"o_translate_inline btn btn-"
+"primary\">\n"
+"                        <span style=\"font-family: Verdana, sans-serif;\">\n"
+"                          <strong>BUY</strong>\n"
+"                        </span>\n"
+"                      </a>"
+msgstr ""
+
+#. module: coworking
+#: model_terms:ir.ui.view,arch_db:coworking.homepage
+msgid ""
+"<a href=\"/appointment/*free_tour_appointment_type*\" "
+"class=\"o_translate_inline btn btn-secondary\">Book a free tour</a>"
+msgstr ""
+
+#. module: coworking
+#: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_4092
+msgid ""
+"<a href=\"/appointment/1\" class=\"o_translate_inline btn btn-primary\">\n"
+"                            <strong>Book</strong>\n"
+"                          </a>"
+msgstr ""
+
+#. module: coworking
+#: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_3304
+msgid ""
+"<a href=\"/appointment/1\" class=\"o_translate_inline btn btn-"
+"secondary\">Book</a>"
+msgstr ""
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.homepage
@@ -170,62 +199,6 @@ msgstr ""
 "<a href=\"/contactus\" class=\"btn btn-primary o_translate_inline\">\n"
 "                            <strong>Liên hệ</strong>\n"
 "                          </a>"
-
-#. module: coworking
-#: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_4092
-msgid ""
-"<a t-att-href=\"'/appointment/%s' % "
-"request.env.ref('coworking.appointment_type_1').id\" "
-"class=\"o_translate_inline btn btn-primary\">\n"
-"                            <strong>Book</strong>\n"
-"                          </a>"
-msgstr ""
-"<a t-att-href=\"'/appointment/%s' % "
-"request.env.ref('coworking.appointment_type_1').id\" "
-"class=\"o_translate_inline btn btn-primary\">\n"
-"                            <strong>Đặt chỗ</strong>\n"
-"                          </a>"
-
-#. module: coworking
-#: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_3304
-msgid ""
-"<a t-att-href=\"'/appointment/%s' % "
-"request.env.ref('coworking.appointment_type_1').id\" "
-"class=\"o_translate_inline btn btn-secondary\">Book</a>"
-msgstr ""
-"<a t-att-href=\"'/appointment/%s' % "
-"request.env.ref('coworking.appointment_type_1').id\" "
-"class=\"o_translate_inline btn btn-secondary\">Đặt chỗ</a>"
-
-#. module: coworking
-#: model_terms:ir.ui.view,arch_db:coworking.homepage
-msgid ""
-"<a t-att-href=\"'/appointment/%s' % "
-"request.env.ref('coworking.appointment_type_2').id\" "
-"class=\"o_translate_inline btn btn-secondary\">Book a free tour</a>"
-msgstr ""
-"<a t-att-href=\"'/appointment/%s' % "
-"request.env.ref('coworking.appointment_type_2').id\" "
-"class=\"o_translate_inline btn btn-secondary\">Đặt tour miễn phí</a>"
-
-#. module: coworking
-#: model_terms:ir.ui.view,arch_db:coworking.homepage
-msgid ""
-"<a t-att-"
-"href=\"request.env.ref('coworking.product_product_10').website_url\" "
-"class=\"o_translate_inline btn btn-primary\">\n"
-"                        <span style=\"font-family: Verdana, sans-serif;\">\n"
-"                          <strong>BUY</strong>\n"
-"                        </span>\n"
-"                      </a>"
-msgstr ""
-"<a t-att-"
-"href=\"request.env.ref('coworking.product_product_10').website_url\" "
-"class=\"o_translate_inline btn btn-primary\">\n"
-"                        <span style=\"font-family: Verdana, sans-serif;\">\n"
-"                          <strong>MUA</strong>\n"
-"                        </span>\n"
-"                      </a>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_4210
@@ -531,6 +504,9 @@ msgid ""
 "<span style=\"font-family: Verdana, sans-serif;\">Become productive today. "
 "Join us in a place where working becomes a pleasure</span>"
 msgstr ""
+"<span style=\"font-family: Verdana, sans-serif;\">Hãy trở nên hiệu quả ngay "
+"hôm nay. Hãy tham gia cùng chúng tôi tại nơi mà công việc trở thành niềm vui."
+"</span>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.homepage
@@ -544,6 +520,8 @@ msgid ""
 "<span style=\"font-size: 50px;\">Let&amp;nbsp;yourself&amp;nbsp;be "
 "inspired<br/><br/></span>"
 msgstr ""
+"<span style=\"font-size: 50px;\">Hãy để&amp;nbsp;bạn&amp;nbsp;được truyền "
+"cảm hứng<br/><br/></span>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_3304
@@ -565,6 +543,9 @@ msgid ""
 "<strong><font class=\"text-o-color-1\">Appointment</font></strong>: Allow "
 "prospects to book a free tour, shared desk, or meeting room online."
 msgstr ""
+"<strong><font class=\"text-o-color-1\">Đặt lịch hẹn</font></strong>: Cho "
+"phép khách hàng tiềm năng đặt lịch tham quan miễn phí, bàn làm việc chung "
+"hoặc phòng họp trực tuyến."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -573,6 +554,9 @@ msgid ""
 "strong>Track and manage coworking opportunities, follow-up, and convert them "
 "into active members."
 msgstr ""
+"<strong><font class=\"text-o-color-1\">CRM &amp; Thành viên</font>: </"
+"strong>Theo dõi và quản lý các cơ hội hợp tác, theo dõi tiến độ và chuyển "
+"đổi chúng thành thành viên hoạt động."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -580,6 +564,8 @@ msgid ""
 "<strong><font class=\"text-o-color-1\">Email Marketing</font></strong>: "
 "Share news, updates, and promotions with your members."
 msgstr ""
+"<strong><font class=\"text-o-color-1\">Tiếp thị qua email</font></strong>: "
+"Chia sẻ tin tức, cập nhật và khuyến mãi với các thành viên của bạn."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -587,6 +573,8 @@ msgid ""
 "<strong><font class=\"text-o-color-1\">Events</font>: </strong>Organize "
 "networking sessions, workshops, and community-building activities."
 msgstr ""
+"<strong><font class=\"text-o-color-1\">Sự kiện</font>: </strong>Tổ chức các "
+"buổi giao lưu, hội thảo và các hoạt động xây dựng cộng đồng."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -594,6 +582,8 @@ msgid ""
 "<strong><font class=\"text-o-color-1\">Helpdesk</font>: </strong>Handle "
 "member requests and issues efficiently."
 msgstr ""
+"<strong><font class=\"text-o-color-1\">Hỗ trợ</font>: </strong>Xử lý các yêu "
+"cầu và vấn đề của thành viên một cách hiệu quả."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -601,6 +591,8 @@ msgid ""
 "<strong><font class=\"text-o-color-1\">Planning</font>: </strong>Schedule "
 "reception desk coverage and other staff shifts."
 msgstr ""
+"<strong><font class=\"text-o-color-1\">Lập kế hoạch</font>: </strong>Lập "
+"lịch làm việc cho quầy lễ tân và các ca làm việc của nhân viên khác."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -608,6 +600,8 @@ msgid ""
 "<strong><font class=\"text-o-color-1\">Sales</font>: </strong>Generate and "
 "manage quotations for memberships, room bookings, and services."
 msgstr ""
+"<strong><font class=\"text-o-color-1\">Bộ phận Bán hàng</font>: </strong>Tạo "
+"và quản lý báo giá cho các gói thành viên, đặt phòng và dịch vụ."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -616,6 +610,9 @@ msgid ""
 "strong>Automate recurring memberships such as Business Address or Unlimited "
 "Monthly Access."
 msgstr ""
+"<strong><font class=\"text-o-color-1\">Đăng ký</font>: </strong>Tự động hóa "
+"các gói thành viên định kỳ như Địa chỉ Kinh doanh hoặc Truy cập Hàng tháng "
+"Không Giới Hạn."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -624,6 +621,9 @@ msgid ""
 "coworking offers, showcase events, and provide member-exclusive tools and "
 "support forms."
 msgstr ""
+"<strong><font class=\"text-o-color-1\">Trang web</font>: </strong>Quảng bá "
+"các gói dịch vụ coworking, giới thiệu các sự kiện và cung cấp các công cụ và "
+"biểu mẫu hỗ trợ dành riêng cho thành viên."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -651,6 +651,8 @@ msgid ""
 "<strong>Business Address</strong> → subscription product for a registered "
 "business address."
 msgstr ""
+"<strong>Địa chỉ kinh doanh</strong> → sản phẩm đăng ký cho địa chỉ kinh "
+"doanh đã đăng ký."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -658,11 +660,13 @@ msgid ""
 "<strong>Convert to Member:</strong> Once confirmed, create a quotation or "
 "start a subscription plan."
 msgstr ""
+"<strong>Chuyển đổi thành thành viên:</strong> Sau khi xác nhận, tạo báo giá "
+"hoặc bắt đầu gói đăng ký."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
 msgid "<strong>Create and Sell Your Coworking Offers</strong>"
-msgstr ""
+msgstr "<strong>Tạo và Bán Các Gói Dịch Vụ Coworking Của Bạn</strong>"
 
 #. module: coworking
 #: model_terms:event.event,description:coworking.event_event_1
@@ -691,6 +695,9 @@ msgid ""
 "skill-sharing sessions; publish them on your website and allow online "
 "registration."
 msgstr ""
+"<strong>Tạo sự kiện:</strong> Tổ chức các buổi networking, workshop hoặc các "
+"buổi chia sẻ kỹ năng; đăng chúng trên trang web của bạn và cho phép đăng ký "
+"online."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -698,11 +705,15 @@ msgid ""
 "<strong>Follow-Up:</strong> Track the opportunity in the CRM pipeline, add "
 "notes, schedule calls or meetings."
 msgstr ""
+"<strong>Theo dõi:</strong> Theo dõi cơ hội trong quy trình CRM, thêm ghi "
+"chú, lên lịch cuộc gọi hoặc cuộc họp."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
 msgid "<strong>Keep Your Website Engaging &amp; Member-Friendly</strong>"
 msgstr ""
+"<strong>Giữ cho trang web của bạn hấp dẫn và thân thiện với thành viên &amp;"
+"</strong>"
 
 #. module: coworking
 #: model_terms:event.event,description:coworking.event_event_2
@@ -731,6 +742,9 @@ msgid ""
 "for unlimited monthly access.<br/>\n"
 "                        <br/>"
 msgstr ""
+"<strong>Gói Thành viên Không Giới Hạn Hàng Tháng</strong> → Sản phẩm dựa "
+"trên đăng ký cho quyền truy cập không giới hạn hàng tháng.<br/>\n"
+"                        <br/>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -749,7 +763,7 @@ msgstr ""
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
 msgid "<strong>Schedule Your Reception &amp; Support Staff</strong>"
-msgstr ""
+msgstr "<strong>Lên lịch cho buổi tiếp đón Nhân viên hỗ trợ của &amp;</strong>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -823,24 +837,12 @@ msgstr ""
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_4092
 msgid "A dining room with a table and chairs and a large window"
-msgstr ""
+msgstr "Một phòng ăn có bàn và ghế cùng một cửa sổ lớn"
 
 #. module: coworking
 #: model:event.event,name:coworking.event_event_1
 msgid "Afterwork September"
-msgstr ""
-
-#. module: coworking
-#: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_3304
-msgid ""
-"Alex, with his extensive background in coworking, helps us cultivate a "
-"thriving community. He is passionate about enhancing member experiences and "
-"driving innovation within our spaces."
-msgstr ""
-"Với kinh nghiệm dày dặn trong lĩnh vực không gian làm việc chung, Alex giúp "
-"chúng tôi xây dựng một cộng đồng phát triển mạnh mẽ. Anh đam mê nâng cao "
-"trải nghiệm cho thành viên và thúc đẩy sự đổi mới trong không gian của chúng "
-"tôi."
+msgstr "Sau giờ làm việc tháng Chín"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_3304
@@ -853,16 +855,22 @@ msgid ""
 "Aline is passionate about fostering connections. She supports over 100 "
 "members and cultivates a vibrant community of entrepreneurs and freelancers."
 msgstr ""
+"Aline rất đam mê việc xây dựng và gắn kết các mối quan hệ. Cô ấy hỗ trợ hơn "
+"100 thành viên và nuôi dưỡng một cộng đồng sôi động gồm các doanh nhân và "
+"những người làm việc tự do."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
 msgid "Allow prospects to schedule a free tour or trial desk online."
 msgstr ""
+"Cho phép khách hàng tiềm năng đặt lịch tham quan miễn phí hoặc trải nghiệm "
+"bàn làm việc trực tuyến."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
+#, fuzzy
 msgid "Assign Membership Levels Automatically"
-msgstr ""
+msgstr "Gán cấp độ thành viên tự động"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -872,6 +880,10 @@ msgid ""
 "automatic renewal using the <strong>Subscriptions</strong> module.<br/>\n"
 "                <br/>"
 msgstr ""
+"Tự động gia hạn: Đối với các gói định kỳ như <strong>Địa chỉ doanh nghiệp</"
+"strong> hoặc <strong>Thành viên không giới hạn theo tháng</strong>, hãy kích "
+"hoạt tính năng gia hạn tự động bằng phân hệ <strong>Đăng ký</strong>.<br/>\n"
+"<br/>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_4092
@@ -953,6 +965,8 @@ msgid ""
 "Choose event visibility: make it public or accessible only to members via a "
 "shared link."
 msgstr ""
+"Chọn mức độ hiển thị của sự kiện: công khai hoặc chỉ cho phép thành viên "
+"truy cập thông qua liên kết chia sẻ."
 
 #. module: coworking
 #: model:website.menu,name:coworking.website_menu_9
@@ -965,6 +979,8 @@ msgid ""
 "Configure it so each submission creates an <strong>opportunity</strong> in "
 "<strong>CRM</strong>."
 msgstr ""
+"Cấu hình sao cho mỗi yêu cầu gửi đến tạo ra một <strong>cơ hội</strong> "
+"trong hệ thống <strong>CRM</strong> ."
 
 #. module: coworking
 #: model:website.menu,name:coworking.website_menu_6
@@ -974,28 +990,34 @@ msgstr "Liên hệ"
 #. module: coworking
 #: model:website.menu,name:coworking.website_menu_13
 msgid "Coworking Events"
-msgstr ""
+msgstr "Sự kiện làm việc chung"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
 msgid ""
 "Create Your Products: Set up flexible coworking options for your clients:"
 msgstr ""
+"Tạo sản phẩm của bạn: Cung cấp các tùy chọn làm việc chung linh hoạt cho "
+"khách hàng:"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
+#, fuzzy
 msgid "Create a new mailing."
-msgstr ""
+msgstr "Tạo một thư mới."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
+#, fuzzy
 msgid "Create a product “10-Day Coworking Card”."
-msgstr ""
+msgstr "Tạo sản phẩm “Thẻ làm việc chung 10 ngày”."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
 msgid "Create a “Contact Us for Membership” form on your website."
 msgstr ""
+"Tạo một biểu mẫu “Liên hệ với chúng tôi để đăng ký thành viên” trên trang "
+"web của bạn."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -1003,21 +1025,25 @@ msgid ""
 "Create and assign roles such as “Front Desk,” “Cleaning,” or “Event "
 "Support.” to employees in their records."
 msgstr ""
+"Tạo và gán các vai trò như “Quầy lễ tân,” “Vệ sinh” hoặc “Hỗ trợ sự kiện” "
+"cho nhân viên trong hồ sơ của họ."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
+#, fuzzy
 msgid "Create events for members or the public."
-msgstr ""
+msgstr "Tạo sự kiện cho thành viên hoặc công chúng."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
 msgid "Create public pages for coworking offers and event highlights."
 msgstr ""
+"Tạo các trang công khai cho các dịch vụ coworking và các sự kiện nổi bật."
 
 #. module: coworking
 #: model:event.event,name:coworking.event_event_3
 msgid "Creative Workshop – Boost Your Productivity"
-msgstr ""
+msgstr "Workshop Sáng Tạo – Nâng Cao Hiệu Suất Làm Việc"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.homepage
@@ -1041,11 +1067,13 @@ msgid ""
 "Customize the event page on your website with all the details (location, "
 "agenda, facilities)."
 msgstr ""
+"Tùy chỉnh trang sự kiện trên trang web của bạn với tất cả các chi tiết (địa "
+"điểm, chương trình, tiện nghi)."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_3304
 msgid "Dedicated professionals fueling our growth"
-msgstr ""
+msgstr "Những chuyên gia tận tâm đang thúc đẩy sự phát triển của chúng tôi"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -1055,8 +1083,9 @@ msgstr ""
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
+#, fuzzy
 msgid "Design your message with the drag-and-drop editor."
-msgstr ""
+msgstr "Thiết kế thông điệp của bạn bằng trình chỉnh sửa kéo và thả."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -1067,6 +1096,8 @@ msgstr "Khám phá thêm về Odoo bằng cách tìm hiểu"
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_4092
 msgid "Discover what’s happening this month at our coworking hub!"
 msgstr ""
+"Khám phá những hoạt động đang diễn ra trong tháng này tại không gian làm "
+"việc chung của chúng tôi!"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_4092
@@ -1076,7 +1107,7 @@ msgstr "SỰ KIỆN THÁNG NÀY"
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
 msgid "Each booking automatically generates an opportunity in CRM."
-msgstr ""
+msgstr "Mỗi đơn đặt hàng sẽ tự động tạo ra một cơ hội trong hệ thống CRM."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_4092
@@ -1128,6 +1159,8 @@ msgid ""
 "Focus on growing your coworking community, while Odoo takes care of the "
 "logistics. 💼"
 msgstr ""
+"Tập trung vào việc phát triển cộng đồng làm việc chung của bạn, trong khi "
+"Odoo lo liệu các vấn đề hậu cần. 💼"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_3303
@@ -1140,6 +1173,8 @@ msgid ""
 "For subscriptions (monthly/yearly), invoices are generated and sent "
 "<strong>automatically</strong>."
 msgstr ""
+"Đối với các gói đăng ký (tháng/năm), hóa đơn sẽ được tạo và gửi tự động qua "
+"email <strong></strong> ."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_3304
@@ -1166,7 +1201,7 @@ msgstr "Tour miễn phí"
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
 msgid "From first contact to confirmed member:"
-msgstr ""
+msgstr "Từ lần tiếp xúc đầu tiên đến khi trở thành thành viên chính thức:"
 
 #. module: coworking
 #: model:hr.job,name:coworking.hr_job_2
@@ -1181,7 +1216,7 @@ msgstr "Quản lý Lễ tân & Bán hàng"
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_4210
 msgid "Get in touch with us, we'll contact you soon!"
-msgstr ""
+msgstr "Hãy liên hệ với chúng tôi, chúng tôi sẽ liên hệ lại với bạn sớm!"
 
 #. module: coworking
 #: model:product.template,name:coworking.product_product_7_product_template
@@ -1194,11 +1229,15 @@ msgid ""
 "Go to <strong>Discount &amp; Loyalty</strong> and create a new "
 "<strong>Loyalty Card</strong>."
 msgstr ""
+"Truy cập <strong>Chiết khấu &amp; chương trình khách hàng thân thiết</"
+"strong> và tạo <strong>Thẻ khách hàng thân thiết</strong> mới."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
 msgid "Hide booking options (e.g., meeting rooms) from non-members."
 msgstr ""
+"Ẩn các tùy chọn đặt chỗ (ví dụ: phòng họp) đối với thành viên không phải là "
+"thành viên."
 
 #. module: coworking
 #: model:website.menu,name:coworking.website_menu_5
@@ -1224,6 +1263,14 @@ msgid "Iris Joe"
 msgstr "Iris Joe"
 
 #. module: coworking
+#: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_3304
+msgid ""
+"Iris, with her extensive background in coworking, helps us cultivate a "
+"thriving community. She is passionate about enhancing member experiences and "
+"driving innovation within our spaces."
+msgstr ""
+
+#. module: coworking
 #: model:website.menu,name:coworking.website_menu_12
 msgid "Issue at the Coworking?"
 msgstr "Bạn gặp sự cố tại không gian làm việc chung?"
@@ -1231,17 +1278,19 @@ msgstr "Bạn gặp sự cố tại không gian làm việc chung?"
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_3304
 msgid "It's all about collaboration"
-msgstr ""
+msgstr "Tất cả đều xoay quanh sự hợp tác"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
 msgid "Keep your front desk running smoothly with the planning app."
-msgstr ""
+msgstr "Giữ cho quầy lễ tân hoạt động trơn tru với ứng dụng lập kế hoạch."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
 msgid "Keep your members informed and connected with emails and events."
 msgstr ""
+"Giữ liên lạc và cập nhật thông tin cho các thành viên thông qua email và sự "
+"kiện."
 
 #. module: coworking
 #: model_terms:event.event,description:coworking.event_event_3
@@ -1265,12 +1314,17 @@ msgid ""
 "Let members report issues (e.g., coffee machine broken, Wi-Fi down) via a "
 "website form and manage all requests in the <strong>Helpdesk app</strong>."
 msgstr ""
+"Cho phép các thành viên báo cáo sự cố (ví dụ: máy pha cà phê hỏng, Wi-Fi gặp "
+"sự cố) qua biểu mẫu trên trang web và quản lý tất cả yêu cầu trong "
+"<strong>ứng dụng Hỗ trợ</strong>."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
 msgid ""
 "Link each product to its corresponding <strong>Membership Level</strong>."
 msgstr ""
+"Kết nối từng sản phẩm với cấp độ thành viên tương ứng của <strong>Membership "
+"Level</strong>."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -1303,11 +1357,14 @@ msgid ""
 "Make <strong>member-only pages</strong> for internal events, resources, or "
 "booking links."
 msgstr ""
+"Tạo các trang dành riêng cho thành viên củ <strong></strong> cho các sự kiện "
+"nội bộ, tài nguyên hoặc liên kết đặt chỗ."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
+#, fuzzy
 msgid "Make last-minute updates via drag-and-drop."
-msgstr ""
+msgstr "Thực hiện các cập nhật phút chót bằng cách kéo và thả."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -1317,6 +1374,9 @@ msgid ""
 ">\n"
 "                <br/>"
 msgstr ""
+"Quản lý hủy đăng ký: Đặt ngày kết thúc cho đăng ký để tự động đóng, hoặc cho "
+"phép khách hàng hủy bất cứ lúc nào thông qua cổng Odoo của họ.<br/>\n"
+"<br/>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -1324,6 +1384,8 @@ msgid ""
 "Manage all finances in one place with automatic entries from sales and "
 "subscriptions using <strong>Accounting</strong>."
 msgstr ""
+"Quản lý toàn bộ tình hình tài chính tại một nơi duy nhất với các giao dịch "
+"tự động từ doanh thu và đăng ký sử dụng <strong>Kế toán</strong>."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -1331,6 +1393,8 @@ msgid ""
 "Manage walk-in visitors, check-ins, and instant bookings for desks or rooms "
 "using <strong>Front Desk</strong>."
 msgstr ""
+"Quản lý khách đến trực tiếp, đăng ký và đặt chỗ ngay lập tức cho bàn làm "
+"việc hoặc phòng bằng <strong>Quầy lễ tân</strong>."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_3304
@@ -1378,13 +1442,13 @@ msgstr "My Company"
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_4092
 msgid "My Cowork"
-msgstr ""
+msgstr "My Cowork"
 
 #. module: coworking
 #: model:website.menu,name:coworking.website_menu_16
 #: model:website.menu,name:coworking.website_menu_19
 msgid "My Coworking"
-msgstr ""
+msgstr "My Coworking"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -1399,11 +1463,10 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
 msgid ""
 "Odoo offers endless customization possibilities for your Coworking company:"
-msgstr ""
+msgstr "Odoo cung cấp vô số tùy chọn tùy chỉnh cho công ty Coworking của bạn:"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
-#, fuzzy
 msgid ""
 "Of course, this is just an overview of the features included in this "
 "package. Feel free to add new apps, delete/modify demo data, and test "
@@ -1419,6 +1482,8 @@ msgid ""
 "Offer discounts for yearly prepayments by creating a separate subscription "
 "plan."
 msgstr ""
+"Cung cấp ưu đãi giảm giá cho các khoản thanh toán trước hàng năm bằng cách "
+"tạo một gói đăng ký riêng biệt."
 
 #. module: coworking
 #: model:hr.job,name:coworking.hr_job_1
@@ -1465,7 +1530,8 @@ msgstr ""
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_4092
-msgid "Ourr internal rules"
+#, fuzzy
+msgid "Our internal rules"
 msgstr "Quy tắc nội bộ của chúng tôi"
 
 #. module: coworking
@@ -1473,6 +1539,8 @@ msgstr "Quy tắc nội bộ của chúng tôi"
 msgid ""
 "Personalize content using dynamic fields (e.g., member name, booked room)."
 msgstr ""
+"Tùy chỉnh nội dung bằng cách sử dụng các trường động (ví dụ: tên thành viên, "
+"phòng đã đặt)."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_4092
@@ -1492,16 +1560,19 @@ msgid ""
 "Promote your space, events, and member stories on social media directly from "
 "<strong>Social Marketing</strong>."
 msgstr ""
+"Quảng bá không gian, sự kiện và câu chuyện của thành viên trên mạng xã hội "
+"trực tiếp từ <strong>Marketing trên MXH</strong>."
 
 #. module: coworking
 #: model:planning.role,name:coworking.planning_role_1
 msgid "Reception"
-msgstr ""
+msgstr "Lễ tân"
 
 #. module: coworking
 #: model:event.event.ticket,name:coworking.event_event_ticket_1
+#, fuzzy
 msgid "Registration for Afterwork September"
-msgstr ""
+msgstr "Đăng ký cho sự kiện Afterwork tháng 9"
 
 #. module: coworking
 #: model:event.event.ticket,name:coworking.event_event_ticket_3
@@ -1511,7 +1582,7 @@ msgstr "Đăng ký Bữa sáng & bánh mì vòng"
 #. module: coworking
 #: model:event.event.ticket,name:coworking.event_event_ticket_2
 msgid "Registration for Creative Workshop – Boost Your Productivity"
-msgstr ""
+msgstr "Đăng ký tham gia Workshop Sáng tạo – Nâng cao hiệu suất làm việc"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_4092
@@ -1551,6 +1622,8 @@ msgstr "Xem tất cả<span class=\"fa fa-long-arrow-right ms-2\"/>"
 msgid ""
 "Select recipients using filters like Members, Prospects, or Event Attendees."
 msgstr ""
+"Chọn người nhận bằng cách sử dụng các bộ lọc như Thành viên, Khách hàng tiềm "
+"năng hoặc Người tham dự sự kiện."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -1558,6 +1631,8 @@ msgid ""
 "Send <strong>professional offers</strong> for meeting room packages, private "
 "offices, or custom services."
 msgstr ""
+"Gửi <strong>đề xuất chuyên nghiệp</strong> cho các gói phòng họp, văn phòng "
+"riêng hoặc dịch vụ tùy chỉnh."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -1565,16 +1640,19 @@ msgid ""
 "Send members the new Wi-Fi code, upcoming events, and important updates via "
 "<strong>Email Marketing</strong>."
 msgstr ""
+"Gửi cho các thành viên mã Wi-Fi mới, các sự kiện sắp tới và các cập nhật "
+"quan trọng bằng <strong>Marketing qua email</strong>."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
 msgid "Send or schedule your email and track opens and clicks."
-msgstr ""
+msgstr "Gửi hoặc lên lịch gửi email và theo dõi số lần mở và nhấp chuột."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
+#, fuzzy
 msgid "Send quotes and invoices automatically."
-msgstr ""
+msgstr "Gửi báo giá và hóa đơn tự động."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -1582,6 +1660,8 @@ msgid ""
 "Set a Loyalty Rule to give <strong>10 points</strong> when the product is "
 "purchased."
 msgstr ""
+"Đặt quy tắc khách hàng trung thành để tặng <strong>10 điểm</strong> khi sản "
+"phẩm được mua."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -1604,11 +1684,14 @@ msgid ""
 "Set the product type to <strong>Service – Membership / Partnership</strong> "
 "for subscription offers (Business Address and Unlimited monthly access)."
 msgstr ""
+"Đặt loại sản phẩm thành <strong>Dịch vụ – Thành viên/Đối tác</strong> cho "
+"các gói đăng ký (Địa chỉ doanh nghiệp và Truy cập không giới hạn hàng tháng)."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
 msgid "Set time slots, ticket types, and attendance limits if needed."
 msgstr ""
+"Đặt khung giờ, loại vé và giới hạn số lượng người tham dự nếu cần thiết."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -1616,6 +1699,8 @@ msgid ""
 "Share event links via email or social media so members and guests can sign "
 "up easily."
 msgstr ""
+"Chia sẻ liên kết sự kiện qua email hoặc mạng xã hội để thành viên và khách "
+"mời có thể đăng ký dễ dàng."
 
 #. module: coworking
 #: model:appointment.type,name:coworking.appointment_type_1
@@ -1625,13 +1710,14 @@ msgstr "Bàn làm việc chung"
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
 msgid "Staff can view schedules in their portal or by email."
-msgstr ""
+msgstr "Nhân viên có thể xem lịch làm việc trong portal của họ hoặc qua email."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_3304
 msgid ""
 "Start with the community – discover what they need and provide it for them."
 msgstr ""
+"Bắt đầu từ cộng đồng – tìm hiểu nhu cầu của họ và cung cấp những gì họ cần."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_4210
@@ -1644,6 +1730,8 @@ msgid ""
 "Tag opportunities by interest type (e.g., “Day Pass,” “Private Office”) for "
 "better reporting."
 msgstr ""
+"Gán nhãn cho các cơ hội theo loại hình dịch vụ (ví dụ: “Vé ngày”, “Văn phòng "
+"riêng”) để cải thiện báo cáo."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -1675,7 +1763,7 @@ msgstr "Top Menu cho trang web 1"
 #. module: coworking
 #: model:crm.stage,name:coworking.crm_stage_5
 msgid "Tour scheduled"
-msgstr ""
+msgstr "Chuyến tham quan đã được lên lịch"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -1683,6 +1771,8 @@ msgid ""
 "Track and schedule repairs for equipment like printers, or coffee machines "
 "with <strong>Maintenance</strong>."
 msgstr ""
+"Theo dõi và lên lịch bảo trì cho các thiết bị như máy in hoặc máy pha cà phê "
+"với <strong>Bảo trì</strong>."
 
 #. module: coworking
 #: model:crm.tag,name:coworking.crm_tag_1
@@ -1694,6 +1784,8 @@ msgstr "Thẻ sử dụng không giới hạn"
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
 msgid "Use <strong>Auto-Plan</strong> to assign shifts based on availability."
 msgstr ""
+"Sử dụng <strong>Auto-Plan</strong> để phân công ca làm việc dựa trên sự sẵn "
+"có."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -1701,16 +1793,18 @@ msgid ""
 "Use <strong>Rental</strong> to support a \"Private office\" offer in your "
 "coworking."
 msgstr ""
+"Sử dụng <strong>Cho thuê</strong> để hỗ trợ gói \"Văn phòng riêng\" trong "
+"không gian làm việc chung của bạn."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
 msgid "Use Loyalty Cards for Day Pass Packs"
-msgstr ""
+msgstr "Sử dụng Thẻ Thành viên để mua gói vé ngày"
 
 #. module: coworking
 #: model:loyalty.program,portal_point_name:coworking.loyalty_program_2
 msgid "Valid day pass"
-msgstr ""
+msgstr "Vé ngày hợp lệ"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.homepage
@@ -1724,6 +1818,9 @@ msgid ""
 "collaborative atmosphere where creativity and productivity "
 "flourish.&amp;nbsp;"
 msgstr ""
+"Chào mừng bạn đến với cộng đồng không gian làm việc chung của chúng tôi! "
+"Chúng tôi mời bạn tận hưởng một môi trường tôn trọng và hợp tác, nơi sự sáng "
+"tạo và hiệu quả công việc được phát triển mạnh mẽ.&amp;nbsp;"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_3304
@@ -1739,7 +1836,7 @@ msgstr ""
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
 msgid "Welcome to the Odoo Coworking Management package!"
-msgstr ""
+msgstr "Chào mừng đến với gói Quản lý Không gian Làm việc Chung Odoo!"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.homepage
@@ -1752,6 +1849,8 @@ msgid ""
 "Whether it’s a day pass, monthly membership, or virtual office service, Odoo "
 "makes setup and sales easy."
 msgstr ""
+"Dù là vé ngày, thẻ thành viên hàng tháng hay dịch vụ văn phòng ảo, Odoo giúp "
+"việc thiết lập và bán hàng trở nên dễ dàng."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_4092
@@ -1783,6 +1882,11 @@ msgid "Would you like to discuss your Odoo setup with us or go even further?"
 msgstr ""
 "Bạn có muốn thảo luận với chúng tôi về thiết lập Odoo của mình hoặc tìm hiểu "
 "cụ thể hơn không?"
+
+#. module: coworking
+#: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_3303
+msgid "X"
+msgstr ""
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -1825,16 +1929,18 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
 msgid "Your website is both your public shop window and private member space."
 msgstr ""
+"Trang web của bạn vừa là cửa sổ trưng bày công khai vừa là không gian thành "
+"viên riêng tư."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_4092
 msgid "a dining room table with a bench underneath it"
-msgstr ""
+msgstr "Một bàn ăn có ghế dài ở phía dưới"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_3304
 msgid "a large building with a clock on it"
-msgstr ""
+msgstr "Một tòa nhà lớn có đồng hồ trên đó"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -1849,14 +1955,16 @@ msgstr "và"
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_3304
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_4092
+#, fuzzy
 msgid "brown leather couch near brown wooden table"
-msgstr ""
+msgstr "ghế sofa da nâu gần bàn gỗ nâu"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_3304
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_4092
+#, fuzzy
 msgid "brown wooden table with yellow steel frame"
-msgstr ""
+msgstr "Bàn gỗ màu nâu có khung thép màu vàng"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -1875,8 +1983,9 @@ msgstr "info@yourcompany.example.com"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.homepage
+#, fuzzy
 msgid "people sitting in front of computer monitors"
-msgstr ""
+msgstr "Những người ngồi trước màn hình máy tính"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -1885,8 +1994,9 @@ msgstr "đặt lịch demo"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_4092
+#, fuzzy
 msgid "white and blue paper on pink surface"
-msgstr ""
+msgstr "Giấy trắng và xanh trên nền hồng"
 
 #. module: coworking
 #: model_terms:event.event,description:coworking.event_event_2
@@ -1894,6 +2004,8 @@ msgid ""
 "☕ <strong>Quality Coffee &amp; Tea</strong> – Fuel for a productive day "
 "ahead."
 msgstr ""
+"☕ <strong>Cà phê &amp; trà chất lượng</strong> – Nguồn năng lượng cho một "
+"ngày làm việc hiệu quả."
 
 #. module: coworking
 #: model_terms:event.event,description:coworking.event_event_3
@@ -1901,6 +2013,8 @@ msgid ""
 "✍ <strong>Hands-On Exercises</strong> – Apply new methods immediately to "
 "your work."
 msgstr ""
+"✍ <strong>Bài tập thực hành</strong> – Áp dụng ngay các phương pháp mới vào "
+"công việc của bạn."
 
 #. module: coworking
 #: model_terms:event.event,description:coworking.event_event_1
@@ -1908,6 +2022,8 @@ msgid ""
 "🍹 <strong>Drinks &amp; Snacks</strong> – A curated selection to keep the "
 "conversation flowing."
 msgstr ""
+"🍹 <strong>Đồ uống &amp; đồ ăn nhẹ</strong> – Bộ sưu tập được chọn lọc kỹ "
+"lưỡng để cuộc trò chuyện luôn sôi nổi."
 
 #. module: coworking
 #: model_terms:event.event,description:coworking.event_event_2
@@ -1915,6 +2031,8 @@ msgid ""
 "👋 <strong>Morning Networking</strong> – Meet fellow members before diving "
 "into work."
 msgstr ""
+"👋 <strong>Networking buổi sáng</strong> – Gặp gỡ các thành viên khác trước "
+"khi bắt đầu làm việc."
 
 #. module: coworking
 #: model_terms:event.event,description:coworking.event_event_1
@@ -1922,6 +2040,8 @@ msgid ""
 "💡 <strong>Inspiration</strong> – Exchange ideas in a relaxed, social "
 "setting."
 msgstr ""
+"💡 <strong>Inspiration</strong> – Trao đổi ý tưởng trong một môi trường "
+"thoải mái và thân thiện."
 
 #. module: coworking
 #: model_terms:event.event,description:coworking.event_event_3
@@ -1929,13 +2049,18 @@ msgid ""
 "🤝 <strong>Collaborative Atmosphere</strong> – Connect with others who value "
 "creativity and growth."
 msgstr ""
+"🤝 <strong>Môi trường hợp tác</strong> – Kết nối với những người coi trọng "
+"sự sáng tạo và phát triển."
 
 #. module: coworking
 #: model_terms:event.event,description:coworking.event_event_1
+#, fuzzy
 msgid ""
 "🤝 <strong>Networking</strong> – Meet entrepreneurs, freelancers, and "
 "creatives."
 msgstr ""
+"🤝 <strong>Mạng lưới kết nối</strong> – Gặp gỡ các doanh nhân, freelancer và "
+"những người sáng tạo."
 
 #. module: coworking
 #: model_terms:event.event,description:coworking.event_event_2
@@ -1943,6 +2068,8 @@ msgid ""
 "🥯 <strong>Fresh Bagels</strong> – With a variety of toppings to suit every "
 "taste."
 msgstr ""
+"🥯 <strong>Bánh mì bagel tươi ngon</strong> – Với đa dạng loại topping phù "
+"hợp với mọi khẩu vị."
 
 #. module: coworking
 #: model_terms:event.event,description:coworking.event_event_3
@@ -1950,3 +2077,85 @@ msgid ""
 "🧠 <strong>Proven Strategies</strong> – Learn practical tools to stay "
 "productive and inspired."
 msgstr ""
+"🧠 <strong>Chiến lược đã được chứng minh</strong> – Học các công cụ thực "
+"tiễn để duy trì hiệu quả và cảm hứng."
+
+#~ msgid "+1 555-555-5556"
+#~ msgstr "+1 555-555-5556"
+
+#~ msgid ""
+#~ "<a class=\"o_translate_inline btn btn-primary\" t-att-"
+#~ "href=\"request.env.ref('coworking.product_product_11').website_url\">\n"
+#~ "                        <span style=\"font-family: Verdana, sans-serif;"
+#~ "\">\n"
+#~ "                          <strong>BUY</strong>\n"
+#~ "                        </span>\n"
+#~ "                      </a>"
+#~ msgstr ""
+#~ "<a class=\"o_translate_inline btn btn-primary\" t-att-"
+#~ "href=\"request.env.ref('coworking.product_product_11').website_url\">\n"
+#~ "                        <span style=\"font-family: Verdana, sans-serif;"
+#~ "\">\n"
+#~ "                          <strong>MUA</strong>\n"
+#~ "                        </span>\n"
+#~ "                      </a>"
+
+#~ msgid ""
+#~ "<a t-att-href=\"'/appointment/%s' % "
+#~ "request.env.ref('coworking.appointment_type_1').id\" "
+#~ "class=\"o_translate_inline btn btn-primary\">\n"
+#~ "                            <strong>Book</strong>\n"
+#~ "                          </a>"
+#~ msgstr ""
+#~ "<a t-att-href=\"'/appointment/%s' % "
+#~ "request.env.ref('coworking.appointment_type_1').id\" "
+#~ "class=\"o_translate_inline btn btn-primary\">\n"
+#~ "                            <strong>Đặt chỗ</strong>\n"
+#~ "                          </a>"
+
+#~ msgid ""
+#~ "<a t-att-href=\"'/appointment/%s' % "
+#~ "request.env.ref('coworking.appointment_type_1').id\" "
+#~ "class=\"o_translate_inline btn btn-secondary\">Book</a>"
+#~ msgstr ""
+#~ "<a t-att-href=\"'/appointment/%s' % "
+#~ "request.env.ref('coworking.appointment_type_1').id\" "
+#~ "class=\"o_translate_inline btn btn-secondary\">Đặt chỗ</a>"
+
+#~ msgid ""
+#~ "<a t-att-href=\"'/appointment/%s' % "
+#~ "request.env.ref('coworking.appointment_type_2').id\" "
+#~ "class=\"o_translate_inline btn btn-secondary\">Book a free tour</a>"
+#~ msgstr ""
+#~ "<a t-att-href=\"'/appointment/%s' % "
+#~ "request.env.ref('coworking.appointment_type_2').id\" "
+#~ "class=\"o_translate_inline btn btn-secondary\">Đặt tour miễn phí</a>"
+
+#~ msgid ""
+#~ "<a t-att-"
+#~ "href=\"request.env.ref('coworking.product_product_10').website_url\" "
+#~ "class=\"o_translate_inline btn btn-primary\">\n"
+#~ "                        <span style=\"font-family: Verdana, sans-serif;"
+#~ "\">\n"
+#~ "                          <strong>BUY</strong>\n"
+#~ "                        </span>\n"
+#~ "                      </a>"
+#~ msgstr ""
+#~ "<a t-att-"
+#~ "href=\"request.env.ref('coworking.product_product_10').website_url\" "
+#~ "class=\"o_translate_inline btn btn-primary\">\n"
+#~ "                        <span style=\"font-family: Verdana, sans-serif;"
+#~ "\">\n"
+#~ "                          <strong>MUA</strong>\n"
+#~ "                        </span>\n"
+#~ "                      </a>"
+
+#~ msgid ""
+#~ "Alex, with his extensive background in coworking, helps us cultivate a "
+#~ "thriving community. He is passionate about enhancing member experiences "
+#~ "and driving innovation within our spaces."
+#~ msgstr ""
+#~ "Với kinh nghiệm dày dặn trong lĩnh vực không gian làm việc chung, Alex "
+#~ "giúp chúng tôi xây dựng một cộng đồng phát triển mạnh mẽ. Anh đam mê nâng "
+#~ "cao trải nghiệm cho thành viên và thúc đẩy sự đổi mới trong không gian "
+#~ "của chúng tôi."

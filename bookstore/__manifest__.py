@@ -1,6 +1,6 @@
 {
     'name': 'Bookstore',
-    'version': '1.0',
+    'version': '1.1',
     'category': 'Retail',
     'depends': [
         'account_followup',
@@ -29,7 +29,6 @@
         'data/product_category.xml',
         'data/product_pricelist.xml',
         'data/product_product.xml',
-        'data/pos_payment_method.xml',
         'data/pos_config.xml',
         'data/knowledge_cover.xml',
         'data/knowledge_article.xml',
@@ -38,7 +37,7 @@
         'data/knowledge_tour.xml',
     ],
     'demo': [
-        'demo/res_users.xml',
+        'demo/res_company.xml',
         'demo/res_partner.xml',
         'demo/product_supplierinfo.xml',
         'demo/loyalty_program.xml',
@@ -64,6 +63,7 @@
     ],
     'license': 'OEEL-1',
     'author': 'Odoo S.A.',
+    'application': True,
     'images': ['images/main.png'],
     'url': "https://www.odoo.com/trial?industry&selected_app=bookstore",
     'website': "https://www.odoo.com/industries/book-store",

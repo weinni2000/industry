@@ -1,6 +1,6 @@
 {
     'name': 'Sports Club',
-    'version': '1.0',
+    'version': '1.1',
     'category': 'Health and Fitness',
     'depends': [
         'appointment_crm',
@@ -21,7 +21,6 @@
         'data/pos_category.xml',
         'data/restaurant_floor.xml',
         'data/restaurant_table.xml',
-        'data/pos_payment_method.xml',
         'data/pos_config.xml',
         'data/ir_attachment_pre.xml',
         'data/product_public_category.xml',
@@ -38,7 +37,7 @@
         'data/knowledge_tour.xml',
     ],
     'demo': [
-        'demo/res_users.xml',
+        'demo/res_company.xml',
         'demo/res_partner.xml',
         'demo/hr_employee.xml',
         'demo/crm_team.xml',
@@ -62,11 +61,12 @@
     ],
     'license': 'OEEL-1',
     'author': 'Odoo S.A.',
+    'application': True,
     'images': ['images/main.png'],
     'assets': {
         'web.assets_backend': [
             'sports_club/static/src/js/my_tour.js',
-        ]
+        ],
     },
     "cloc_exclude": [
         "data/knowledge_article.xml",

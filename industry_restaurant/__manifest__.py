@@ -1,6 +1,6 @@
 {
     'name': 'Fine Dining Restaurant',
-    'version': '1.1',
+    'version': '1.2',
     'category': 'Hospitality',
     'depends': [
         'account_followup',
@@ -33,8 +33,10 @@
         'data/knowledge_article.xml',
         'data/knowledge_article_favorite.xml',
         'data/mail_message.xml',
+        'data/pos_config.xml',
     ],
     'demo': [
+        'demo/res_company.xml',
         'demo/resource_calendar_data.xml',
         'demo/pos_payment_method.xml',
         'demo/payment_provider_demo_post.xml',
@@ -71,6 +73,7 @@
         "data/knowledge_article.xml",
         "demo/website_view.xml",
     ],
+    'application': True,
     'images': ['images/main.png'],
     'url': "https://www.odoo.com/trial?industry&selected_app=industry_restaurant",
     'website': "https://www.odoo.com/industries/fine-dining-restaurant",

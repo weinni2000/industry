@@ -4,13 +4,14 @@
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# "Tony Ng (ngto)" <ngto@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 14:30+0000\n"
-"PO-Revision-Date: 2025-11-17 11:13+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-06-12 18:41+0000\n"
+"PO-Revision-Date: 2026-04-21 22:26+0000\n"
+"Last-Translator: \"Tony Ng (ngto)\" <ngto@odoo.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://translate.odoo.com/"
 "projects/odoo-19/real_estate/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -18,37 +19,21 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.ir_ui_view_3154
-msgid "+1 555-555-5556"
-msgstr "+1 555-555-5556"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.homepage
-msgid "01"
-msgstr "01"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.homepage
-msgid "02"
-msgstr "02"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.homepage
-msgid "03"
-msgstr "03"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.homepage
-msgid "04"
-msgstr "04"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.homepage
 msgid "24/7 Property Search Assistance"
 msgstr "24/7 樓盤搜尋協助"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
+msgid ""
+"<b>CRM App</b>: Manage your leads efficiently, tracking ongoing buying and "
+"selling opportunities in a visual pipeline."
+msgstr ""
+"<b>客戶關係應用程式</b>：高效管理潛在客戶，利用視覺化管道，追蹤進行中的買賣機"
+"會。"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.ir_ui_view_3154
@@ -63,6 +48,13 @@ msgid ""
 msgstr ""
 "<b>My Company</b><br/>250 Executive Park Blvd, Suite 3400 <br/> San "
 "Francisco CA 94134 <br/>United States"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
+msgid ""
+"<b>Website App</b>: Drive qualified traffic by promoting your listings on a "
+"beautiful, mobile-responsive real estate portal."
+msgstr ""
 
 #. module: real_estate
 #: model:mail.template,body_html:real_estate.mail_template_42
@@ -2383,6 +2375,15 @@ msgid "<span class=\"o_force_ltr\">+1 555-555-5556</span>"
 msgstr "<span class=\"o_force_ltr\">+1 555-555-5556</span>"
 
 #. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.crm_lead_form_customization_view
+#: model_terms:ir.ui.view,arch_db:real_estate.product_template_product_form_customization_view
+msgid ""
+"<span class=\"o_stat_text\">\n"
+"                Sign Requests\n"
+"              </span>"
+msgstr ""
+
+#. module: real_estate
 #: model_terms:product.template,description_ecommerce:real_estate.product_template_3
 msgid ""
 "<span class=\"s_badge badge o_animable oe_snippet_body text-bg-info\" data-"
@@ -2408,11 +2409,6 @@ msgstr ""
 "<span class=\"s_website_form_label_content\">城市</span>\n"
 "                                <span class=\"s_website_form_mark\">      *"
 "（必填）</span>"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "<span class=\"s_website_form_label_content\">Condition</span>"
-msgstr "<span class=\"s_website_form_label_content\">狀態</span>"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.contactus
@@ -2475,11 +2471,6 @@ msgstr ""
 "*（必填）</span>"
 
 #. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "<span class=\"s_website_form_label_content\">Regions</span>"
-msgstr "<span class=\"s_website_form_label_content\">地區</span>"
-
-#. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.contactus
 msgid ""
 "<span class=\"s_website_form_label_content\">Street &amp;amp; number</span>\n"
@@ -2510,11 +2501,6 @@ msgstr ""
 "<span class=\"s_website_form_label_content\">主題</span>\n"
 "                            <span class=\"s_website_form_mark\">    *（必填）"
 "</span>"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "<span class=\"s_website_form_label_content\">Type</span>"
-msgstr "<span class=\"s_website_form_label_content\">類型</span>"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.contactus
@@ -2622,6 +2608,29 @@ msgstr ""
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
+msgid ""
+"<strong><b>Appointments App</b>:</strong> Allow clients to book property "
+"visits and consultations directly with agents, synchronizing calendars "
+"automatically.<br/>"
+msgstr ""
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
+msgid ""
+"<strong><b>Properties App</b>:</strong> Organize your portfolio with a "
+"dedicated app to manage property listings, details, and availability status."
+"<br/>"
+msgstr ""
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
+msgid ""
+"<strong><b>Sales App</b>:</strong> Handle offers, negotiations, and closing "
+"deals with professional quotations and digital signatures.<br/>"
+msgstr ""
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
 msgid "<strong><span class=\"h2-fs\">Tips for Success</span></strong>"
 msgstr "<strong><span class=\"h2-fs\">成功要訣</span></strong>"
 
@@ -2707,7 +2716,7 @@ msgstr "<strong>你的理想家居，</strong>"
 #. module: real_estate
 #: model_terms:product.template,description_ecommerce:real_estate.product_template_16
 msgid "<strong>💡 Project Potential</strong>"
-msgstr ""
+msgstr "<strong>💡 專案潛力</strong>"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
@@ -2804,9 +2813,20 @@ msgid "Attach legal documents, contracts, and plans"
 msgstr "加入法律文件、合約及圖則，作為附件"
 
 #. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.product_attribute_value_search_view
+msgid "Attribute"
+msgstr "屬性"
+
+#. module: real_estate
 #: model:ir.model.fields,field_description:real_estate.field_product_template_attribute_value_ids
 msgid "Attribute values"
 msgstr "屬性值"
+
+#. module: real_estate
+#: model:ir.actions.act_window,name:real_estate.attributes_act_window
+#: model:ir.ui.menu,name:real_estate.properties_attributes_menu
+msgid "Attributes"
+msgstr ""
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
@@ -2817,11 +2837,6 @@ msgstr "自動將參觀記錄，連結至相關的客戶關係商機"
 #: model:product.attribute,name:real_estate.product_attribute_13
 msgid "Available"
 msgstr "可用"
-
-#. module: real_estate
-#: model:product.attribute,name:real_estate.product_attribute_15
-msgid "Bathroom"
-msgstr "浴室"
 
 #. module: real_estate
 #: model:product.attribute,name:real_estate.product_attribute_17
@@ -2874,6 +2889,12 @@ msgstr "將自然之美，帶入你的生活空間"
 #: model:product.attribute.value,name:real_estate.product_attribute_value_28
 msgid "Brussels-Capital"
 msgstr "布魯塞爾 - 首都"
+
+#. module: real_estate
+#: model:product.public.category,name:real_estate.product_public_category_1
+#, fuzzy
+msgid "Buy"
+msgstr "買方"
 
 #. module: real_estate
 #: model:crm.team,name:real_estate.crm_team_4
@@ -2963,25 +2984,14 @@ msgid "Compact and functional studio near Botanique."
 msgstr "小巧實用的開放式單位，位處 Botanique 附近。"
 
 #. module: real_estate
-#: model:ir.model.fields,field_description:real_estate.field_res_partner_condition_ids
 #: model:product.attribute,name:real_estate.product_attribute_12
 msgid "Condition"
 msgstr "條件"
 
 #. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Construction Type: Exceptional Goods"
-msgstr "建築類型：特殊項目"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Construction Type: House"
-msgstr "建築類型：房屋"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Construction Type: Villa"
-msgstr "建築類型：別墅"
+#: model:ir.ui.menu,name:real_estate.properties_configuration_menu
+msgid "Configuration"
+msgstr ""
 
 #. module: real_estate
 #: model:ir.model.fields,field_description:real_estate.field_product_template_construction_year
@@ -3062,9 +3072,10 @@ msgid "Creating and sending quotations directly from the pipeline"
 msgstr "直接從客戶關係管道中，建立及傳送報價"
 
 #. module: real_estate
+#: model:ir.model.fields,field_description:real_estate.field_res_partner_criteria_ids
 #: model_terms:ir.ui.view,arch_db:real_estate.res_partner_form_customization_view
-msgid "Criterias"
-msgstr "準則"
+msgid "Criteria"
+msgstr ""
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
@@ -3108,9 +3119,15 @@ msgid "Do You Want to Go Further?"
 msgstr "想再探索更多？"
 
 #. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
-msgid "Drive qualified traffic via your <strong>Website</strong>"
-msgstr "透過你的<strong>網站</strong>，吸引合適銷售對象的流量"
+#: model:ir.actions.act_window,name:real_estate.crm_lead_sign_request_action
+#: model:ir.actions.act_window,name:real_estate.property_sign_request_action
+msgid "Documents"
+msgstr ""
+
+#. module: real_estate
+#: model:product.ribbon,name:real_estate.draft_ribbon
+msgid "Draft"
+msgstr ""
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.homepage
@@ -3136,7 +3153,7 @@ msgstr "物業價格每次更新後，物業便會再次符合資格，可成為
 #. module: real_estate
 #: model:ir.model.fields.selection,name:real_estate.field_product_template_orientation_selection_east
 msgid "East"
-msgstr ""
+msgstr "東"
 
 #. module: real_estate
 #: model:product.attribute.value,name:real_estate.product_attribute_value_2
@@ -3184,15 +3201,10 @@ msgid "External References"
 msgstr "外部參考"
 
 #. module: real_estate
-#: model:ir.model.fields,field_description:real_estate.field_product_template_field_surface
-msgid "Field Surface"
-msgstr "農田面積"
-
-#. module: real_estate
 #: model:sign.item.type,tip:real_estate.sign_item_type_14
 #: model:sign.item.type,tip:real_estate.sign_item_type_15
 msgid "Fill in"
-msgstr ""
+msgstr "填寫"
 
 #. module: real_estate
 #: model:product.attribute.value,name:real_estate.product_attribute_value_3
@@ -3219,18 +3231,6 @@ msgid ""
 msgstr ""
 "透過預先規劃的<strong>客戶關係活動</strong>，例如電話通話、電郵、參觀睇樓等，"
 "進行跟進"
-
-#. module: real_estate
-#: model:product.public.category,name:real_estate.product_public_category_2
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "For Rent"
-msgstr "出租"
-
-#. module: real_estate
-#: model:product.public.category,name:real_estate.product_public_category_1
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "For Sale"
-msgstr "出售"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
@@ -3267,12 +3267,6 @@ msgstr "好"
 #: model:product.attribute.value,name:real_estate.product_attribute_value_4
 msgid "Hainaut"
 msgstr "Hainaut"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
-msgid ""
-"Handle offers, negotiations, and deals in the <strong>Sales App</strong>"
-msgstr "使用<strong>銷售應用程式</strong>，處理報價、商議、交易等工作"
 
 #. module: real_estate
 #: model:product.attribute.value,name:real_estate.product_attribute_value_17
@@ -3454,6 +3448,12 @@ msgid "Last notification update"
 msgstr "最後通知更新"
 
 #. module: real_estate
+#: model:ir.model.fields,field_description:real_estate.field_crm_lead_id
+#, fuzzy
+msgid "Lead"
+msgstr "潛在商機"
+
+#. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.crm_lead_view_pivot
 msgid "Leads"
 msgstr "潛在商機"
@@ -3464,22 +3464,6 @@ msgid ""
 "Leave us your details and we'll reach you to organise an free "
 "visit&amp;nbsp;to estimate your property."
 msgstr "請留下查詢詳情，我們會回覆，安排免費上門為你的物業估價。"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
-msgid ""
-"Let clients book property visits easily through the <strong>Appointments "
-"App</strong>"
-msgstr "讓客戶利用<strong>預約應用程式</strong>，輕鬆預約參觀睇樓"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
-msgid ""
-"Let potential buyers subscribe to criteria and receive property matches with "
-"the <strong>Matchmaking Feature</strong>"
-msgstr ""
-"利用<strong>配對功能</strong>，讓潛在買家訂閱心儀的搜尋條件，接收符合要求的樓"
-"盤資料"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
@@ -3498,8 +3482,8 @@ msgstr "Limburg"
 
 #. module: real_estate
 #: model:ir.model.fields,field_description:real_estate.field_product_template_living_surface
-msgid "Living Surface"
-msgstr "居住面積"
+msgid "Livable Area"
+msgstr ""
 
 #. module: real_estate
 #: model:product.attribute.value,name:real_estate.product_attribute_value_5
@@ -3515,11 +3499,19 @@ msgid ""
 "and tranquil views, it offers both serenity and strategic access to one of "
 "Belgium’s cultural hubs."
 msgstr ""
+"星藤農莊位於安特衛普市郊，是將歷史悠久的佛拉蒙莊園改造成高級餐廳及迷人賓館的"
+"好選擇。農莊享有自然美景、單車徑及靜謐景觀環抱，既能讓你享受寧靜，亦可方便快"
+"捷地通往比利時其中一個文化中心。"
 
 #. module: real_estate
 #: model:product.attribute.value,name:real_estate.product_attribute_value_27
 msgid "Loft"
 msgstr "閣樓"
+
+#. module: real_estate
+#: model:ir.model.fields,field_description:real_estate.field_product_template_field_surface
+msgid "Lot Size"
+msgstr ""
 
 #. module: real_estate
 #: model:product.template,name:real_estate.product_template_27
@@ -3540,12 +3532,6 @@ msgstr "簡化安排，讓訪客可輕鬆預約睇樓及參觀物業："
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
 msgid "Manage agent availability and avoid double-bookings with calendar sync"
 msgstr "透過日曆同步，管理代理員的檔期，避免重複預約"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
-msgid ""
-"Manage your property listings in a dedicated <strong>Properties App</strong>"
-msgstr "使用專用的<strong>物業應用程式</strong>，管理你的物業列表"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
@@ -3593,6 +3579,7 @@ msgstr ""
 "也會在每個物業的頁面，以相同方式顯示。"
 
 #. module: real_estate
+#: model:ir.model.fields,field_description:real_estate.x_is_matchmaking_field_product_attribute
 #: model:website.menu,name:real_estate.website_menu_12
 #: model_terms:ir.ui.view,arch_db:real_estate.res_partner_form_customization_view
 msgid "Matchmaking"
@@ -3656,7 +3643,7 @@ msgstr "否"
 #. module: real_estate
 #: model:ir.model.fields.selection,name:real_estate.field_product_template_orientation_selection_north
 msgid "North"
-msgstr ""
+msgstr "北"
 
 #. module: real_estate
 #: model:ir.model.fields,field_description:real_estate.field_product_template_notary_id
@@ -3702,7 +3689,7 @@ msgstr "出價"
 #. module: real_estate
 #: model:product.template,name:real_estate.product_template_16
 msgid "Old farm to renovate"
-msgstr ""
+msgstr "舊農場有待翻新"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
@@ -3823,6 +3810,11 @@ msgid "Pool"
 msgstr "泳池"
 
 #. module: real_estate
+#: model:product.ribbon,name:real_estate.pre_published_ribbon
+msgid "Pre-published"
+msgstr ""
+
+#. module: real_estate
 #: model:base.automation,name:real_estate.prevent_publishing_draft_products
 msgid "Prevent Publishing Draft Products"
 msgstr "防止發佈草稿產品"
@@ -3840,6 +3832,7 @@ msgstr "物業"
 #: model:ir.model.fields,field_description:real_estate.field_appointment_type_property_id
 #: model:ir.model.fields,field_description:real_estate.field_calendar_event_property_id
 #: model:ir.model.fields,field_description:real_estate.field_product_template_line_property_id
+#: model:ir.model.fields,field_description:real_estate.field_property_id
 #: model:sign.item.type,name:real_estate.sign_item_type_14
 #: model_terms:ir.ui.view,arch_db:real_estate.crm_lead_search_opportunity_customization_view
 #: model_terms:ir.ui.view,arch_db:real_estate.product_template_product_form_customization_view
@@ -3872,6 +3865,12 @@ msgid "Reach us"
 msgstr "聯絡我們"
 
 #. module: real_estate
+#: model:base.automation,name:real_estate.uninstall_hook_base_automation
+#: model:ir.actions.server,name:real_estate.uninstall_hook_action_server
+msgid "Real Estate: Uninstall Hook"
+msgstr ""
+
+#. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.ir_ui_view_3166
 msgid "Receive alerts <i class=\"fa fa-long-arrow-right\" role=\"img\"/>"
 msgstr "收取通知 <i class=\"fa fa-long-arrow-right\" role=\"img\"/>"
@@ -3897,65 +3896,15 @@ msgid "Region"
 msgstr "地區"
 
 #. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Region: Antwerp"
-msgstr "地區：安特衛普"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Region: East Flanders"
-msgstr "地區：East Flanders"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Region: Flemish Brabant"
-msgstr "地區：Flemish Brabant"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Region: Hainaut"
-msgstr "地區：Hainaut"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Region: Limburg"
-msgstr "地區：Limburg"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Region: Liège"
-msgstr "地區：Liège"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Region: Luxembourg"
-msgstr "地區：盧森堡"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Region: Namur"
-msgstr "地區：Namur"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Region: Walloon Brabant"
-msgstr "地區：Walloon Brabant"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Region: West Flanders"
-msgstr "地區：West Flanders"
-
-#. module: real_estate
-#: model:ir.model.fields,field_description:real_estate.field_res_partner_regions_ids
-#: model_terms:ir.ui.view,arch_db:real_estate.res_partner_form_customization_view
-msgid "Regions"
-msgstr "地區"
-
-#. module: real_estate
 #: model:product.attribute.value,name:real_estate.product_attribute_value_31
 msgid "Renovated"
 msgstr "已翻新"
+
+#. module: real_estate
+#: model:product.public.category,name:real_estate.product_public_category_2
+#, fuzzy
+msgid "Rent"
+msgstr "出租"
 
 #. module: real_estate
 #: model:ir.actions.act_window,name:real_estate.reporting_act_window
@@ -3982,6 +3931,11 @@ msgstr "銷售 💶"
 #: model:ir.model.fields.selection,name:real_estate.x_receiver_customer_field_selection_salesperson
 msgid "Salesperson"
 msgstr "銷售人員"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.product_attribute_value_search_view
+msgid "Search Attribute Value"
+msgstr "搜尋屬性值"
 
 #. module: real_estate
 #: model:ir.actions.server,name:real_estate.search_for_property_reference_server_action
@@ -4072,6 +4026,12 @@ msgid "Showcase your latest listings with high-quality images and filters"
 msgstr "運用高解像度照片及各種濾鏡，展示最新樓盤的最佳一面"
 
 #. module: real_estate
+#: model:ir.model.fields,field_description:real_estate.x_sign_request_count_field_crm_lead
+#: model:ir.model.fields,field_description:real_estate.x_sign_request_count_field_property
+msgid "Sign Request Count"
+msgstr ""
+
+#. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.homepage
 msgid "Sign in"
 msgstr "登入"
@@ -4099,22 +4059,12 @@ msgstr "已售出"
 #. module: real_estate
 #: model:ir.model.fields.selection,name:real_estate.field_product_template_orientation_selection_south
 msgid "South"
-msgstr ""
+msgstr "南"
 
 #. module: real_estate
 #: model_terms:product.template,description_ecommerce:real_estate.product_template_32
 msgid "Spacious home with garden and garage, close to schools in Namur."
 msgstr "寬敞大宅，附設花園及車庫，位置鄰近 Namur 的學校。"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "State: Excellent"
-msgstr "狀態：優質"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "State: To refresh"
-msgstr "狀態：需要翻新"
 
 #. module: real_estate
 #: model:ir.model.fields,field_description:real_estate.field_product_template_street
@@ -4268,7 +4218,6 @@ msgstr ""
 "試試運用<strong>專案管理</strong>應用程式，管理多重步驟的翻新、修葺或開發工作"
 
 #. module: real_estate
-#: model:ir.model.fields,field_description:real_estate.field_res_partner_type_ids
 #: model:product.attribute,name:real_estate.product_attribute_11
 msgid "Type"
 msgstr "類型"
@@ -4303,14 +4252,6 @@ msgstr "利用<strong>電子簽名應用程式</strong>，以數碼方式傳送�
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
 msgid "Use a contact form to get lead with a Free Estimate promotion."
 msgstr "使用聯絡人表單，利用免費估價的推廣優惠，獲取潛在客戶。"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
-msgid ""
-"Use the <strong>CRM App</strong> to manage your leads and track ongoing "
-"buying/selling opportunities"
-msgstr ""
-"使用<strong>客戶關係應用程式</strong>，管理潛在客戶，並追蹤正在進行的買賣工作"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.homepage
@@ -4401,7 +4342,7 @@ msgstr "歡迎進入你的夢想家居"
 #. module: real_estate
 #: model:ir.model.fields.selection,name:real_estate.field_product_template_orientation_selection_west
 msgid "West"
-msgstr ""
+msgstr "西"
 
 #. module: real_estate
 #: model:product.attribute.value,name:real_estate.product_attribute_value_10
@@ -4474,30 +4415,45 @@ msgid "hello@mycompany.com"
 msgstr "hello@mycompany.com"
 
 #. module: real_estate
+#: model:website.base.unit,name:real_estate.base_unit_1
+msgid "m²"
+msgstr ""
+
+#. module: real_estate
 #: model:ir.model,name:real_estate.product_template_line_model
 #: model_terms:ir.ui.view,arch_db:real_estate.default_form_view_x_product_template_line
 msgid "product_template_line"
 msgstr "product_template_line"
 
 #. module: real_estate
+#: model:website.base.unit,name:real_estate.base_unit_2
+msgid "sqft"
+msgstr ""
+
+#. module: real_estate
+#: model:website.base.unit,name:real_estate.base_unit_3
+msgid "sqm"
+msgstr ""
+
+#. module: real_estate
 #: model_terms:product.template,description_ecommerce:real_estate.product_template_16
 msgid "🌼 Host private events, wellness retreats, or creative workshops"
-msgstr ""
+msgstr "🌼 舉辦私人活動、養生靜修、創意工作坊等"
 
 #. module: real_estate
 #: model_terms:product.template,description_ecommerce:real_estate.product_template_16
 msgid "🌿 <strong>A Rare Countryside Gem Minutes from Antwerp</strong>"
-msgstr ""
+msgstr "🌿 <strong>數分鐘車程便可到達安特衛普的鄉郊勝地</strong>"
 
 #. module: real_estate
 #: model_terms:product.template,description_ecommerce:real_estate.product_template_16
 msgid "🍷 Add a wine bar, microbrewery, or farm shop"
-msgstr ""
+msgstr "🍷 開設葡萄酒吧、小型啤酒廠、農產品商店等"
 
 #. module: real_estate
 #: model_terms:product.template,description_ecommerce:real_estate.product_template_16
 msgid "🍽️ Convert the barn into a destination restaurant"
-msgstr ""
+msgstr "🍽️ 將穀倉改造成特色餐廳"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
@@ -4522,7 +4478,125 @@ msgstr "🎓 網站"
 #. module: real_estate
 #: model_terms:product.template,description_ecommerce:real_estate.product_template_16
 msgid "🛏️ Renovate the outbuildings into a boutique B&amp;B or guesthouse"
-msgstr ""
+msgstr "🛏️ 將附屬建築改建成精品民宿或旅館"
+
+#~ msgid "Field Surface"
+#~ msgstr "農田面積"
+
+#~ msgid "Living Surface"
+#~ msgstr "居住面積"
+
+#~ msgid "+1 555-555-5556"
+#~ msgstr "+1 555-555-5556"
+
+#~ msgid "01"
+#~ msgstr "01"
+
+#~ msgid "02"
+#~ msgstr "02"
+
+#~ msgid "03"
+#~ msgstr "03"
+
+#~ msgid "04"
+#~ msgstr "04"
+
+#~ msgid "For Sale"
+#~ msgstr "出售"
+
+#~ msgid "<span class=\"s_website_form_label_content\">Condition</span>"
+#~ msgstr "<span class=\"s_website_form_label_content\">狀態</span>"
+
+#~ msgid "<span class=\"s_website_form_label_content\">Regions</span>"
+#~ msgstr "<span class=\"s_website_form_label_content\">地區</span>"
+
+#~ msgid "<span class=\"s_website_form_label_content\">Type</span>"
+#~ msgstr "<span class=\"s_website_form_label_content\">類型</span>"
+
+#~ msgid "Bathroom"
+#~ msgstr "浴室"
+
+#~ msgid "Criterias"
+#~ msgstr "準則"
+
+#~ msgid "Regions"
+#~ msgstr "地區"
+
+#~ msgid "Construction Type: Exceptional Goods"
+#~ msgstr "建築類型：特殊項目"
+
+#~ msgid "Construction Type: House"
+#~ msgstr "建築類型：房屋"
+
+#~ msgid "Construction Type: Villa"
+#~ msgstr "建築類型：別墅"
+
+#~ msgid "Drive qualified traffic via your <strong>Website</strong>"
+#~ msgstr "透過你的<strong>網站</strong>，吸引合適銷售對象的流量"
+
+#~ msgid ""
+#~ "Handle offers, negotiations, and deals in the <strong>Sales App</strong>"
+#~ msgstr "使用<strong>銷售應用程式</strong>，處理報價、商議、交易等工作"
+
+#~ msgid ""
+#~ "Let clients book property visits easily through the <strong>Appointments "
+#~ "App</strong>"
+#~ msgstr "讓客戶利用<strong>預約應用程式</strong>，輕鬆預約參觀睇樓"
+
+#~ msgid ""
+#~ "Let potential buyers subscribe to criteria and receive property matches "
+#~ "with the <strong>Matchmaking Feature</strong>"
+#~ msgstr ""
+#~ "利用<strong>配對功能</strong>，讓潛在買家訂閱心儀的搜尋條件，接收符合要求"
+#~ "的樓盤資料"
+
+#~ msgid ""
+#~ "Manage your property listings in a dedicated <strong>Properties App</"
+#~ "strong>"
+#~ msgstr "使用專用的<strong>物業應用程式</strong>，管理你的物業列表"
+
+#~ msgid "Region: Antwerp"
+#~ msgstr "地區：安特衛普"
+
+#~ msgid "Region: East Flanders"
+#~ msgstr "地區：East Flanders"
+
+#~ msgid "Region: Flemish Brabant"
+#~ msgstr "地區：Flemish Brabant"
+
+#~ msgid "Region: Hainaut"
+#~ msgstr "地區：Hainaut"
+
+#~ msgid "Region: Limburg"
+#~ msgstr "地區：Limburg"
+
+#~ msgid "Region: Liège"
+#~ msgstr "地區：Liège"
+
+#~ msgid "Region: Luxembourg"
+#~ msgstr "地區：盧森堡"
+
+#~ msgid "Region: Namur"
+#~ msgstr "地區：Namur"
+
+#~ msgid "Region: Walloon Brabant"
+#~ msgstr "地區：Walloon Brabant"
+
+#~ msgid "Region: West Flanders"
+#~ msgstr "地區：West Flanders"
+
+#~ msgid "State: Excellent"
+#~ msgstr "狀態：優質"
+
+#~ msgid "State: To refresh"
+#~ msgstr "狀態：需要翻新"
+
+#~ msgid ""
+#~ "Use the <strong>CRM App</strong> to manage your leads and track ongoing "
+#~ "buying/selling opportunities"
+#~ msgstr ""
+#~ "使用<strong>客戶關係應用程式</strong>，管理潛在客戶，並追蹤正在進行的買賣"
+#~ "工作"
 
 #~ msgid "fill in"
 #~ msgstr "填寫"

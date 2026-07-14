@@ -27,7 +27,7 @@
         'data/knowledge_tour.xml',
     ],
     'demo': [
-        'demo/res_users.xml',
+        'demo/res_company.xml',
         'demo/res_partner.xml',
         'demo/crm_lead.xml',
         'demo/calendar_event.xml',
@@ -48,6 +48,7 @@
         "data/knowledge_article.xml",
         "static/src/js/my_tour.js",
     ],
+    'application': True,
     'url': "https://www.odoo.com/trial?industry&selected_app=personal_trainer",
     'website': "https://www.odoo.com/all-industries",
 }

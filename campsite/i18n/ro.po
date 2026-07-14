@@ -3,13 +3,16 @@
 # * campsite
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Dorin Hongu <dhongu@gmail.com>, 2025.
+# Cuciureanu Larisa <larisa.cuciureanu@nexterp.ro>, 2026.
+# Odoo Translation Bot <c3p@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.5a1+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 10:44+0000\n"
-"PO-Revision-Date: 2025-11-17 11:10+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-07-03 17:46+0000\n"
+"PO-Revision-Date: 2026-04-04 09:41+0000\n"
+"Last-Translator: Odoo Translation Bot <c3p@odoo.com>\n"
 "Language-Team: Romanian <https://translate.odoo.com/projects/odoo-19/"
 "campsite/ro/>\n"
 "Language: ro\n"
@@ -18,7 +21,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -26,6 +29,8 @@ msgid ""
 ", and feel\n"
 "                    free to"
 msgstr ""
+", și simțiți-vă\n"
+"                    liber să"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
@@ -33,28 +38,21 @@ msgid ""
 "<a class=\"mb-2 o_translate_inline btn btn-secondary\" href=\"/shop\">Book "
 "Your Stay Now</a>"
 msgstr ""
+"<a class=\"mb-2 o_translate_inline btn btn-secondary\" href=\"/"
+"shop\">Rezervă acum cazarea ta</a>"
 
 #. module: campsite
-#: model_terms:ir.ui.view,arch_db:campsite.homepage
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
-"<a t-att-href=\"'/shop/category/' + "
-"str(env.ref('campsite.product_public_category_10').id)\" "
-"class=\"o_translate_inline btn btn-secondary\">Find out more</a>"
-msgstr ""
-
-#. module: campsite
-#: model_terms:ir.ui.view,arch_db:campsite.homepage
-msgid ""
-"<a t-att-href=\"'/shop/category/' + "
-"str(env.ref('campsite.product_public_category_11').id)\" "
-"class=\"o_translate_inline btn btn-secondary\">Explore Our Pitches Options</"
-"a>"
+"<em>Don't forget to check the results from time to time to make your guests "
+"happier!</em>"
 msgstr ""
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "<em>Don't forget to thank your guests with a warm goodbye!</em>"
 msgstr ""
+"<em>Nu uitați să vă mulțumiți oaspeților cu un rămas bun călduros!</em>"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
@@ -63,6 +61,9 @@ msgid ""
 "                  <br/>\n"
 "                  <font class=\"text-o-color-3\">Your perfect escape</font>"
 msgstr ""
+"<font class=\"text-o-color-3\">odoo campsite ®</font>\n"
+"                  <br/>\n"
+"                  <font class=\"text-o-color-3\">Evadarea ta perfectă</font>"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -70,14 +71,23 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\" aria-label=\"Banner Info\">🚀</i>"
+msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\" aria-label=\"Banner Info\">🚀</i>"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">💡</i>"
 msgstr ""
 
 #. module: campsite
@@ -86,8 +96,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\" aria-label=\"Banner Success\">✅</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Success\" aria-label=\"Banner Success\">✅</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\" aria-label=\"Banner Success\">✅</i>"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -95,6 +105,17 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\" aria-label=\"Banner Success\">🎉</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\" aria-label=\"Banner Success\">🎉</i>"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\">✅</i>"
+msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\">✅</i>"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -102,8 +123,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Warning\" aria-label=\"Banner Warning\">⚠️</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Warning\" aria-label=\"Banner Warning\">⚠️</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Warning\" aria-label=\"Banner Warning\">⚠️</i>"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -111,6 +132,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
 "normal\" aria-label=\"Banner Info\">💡</i>"
 msgstr ""
+"<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
+"normal\" aria-label=\"Banner Info\">💡</i>"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -118,6 +141,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\" aria-label=\"Banner Success\">✅</i>"
 msgstr ""
+"<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
+"fst-normal\" aria-label=\"Banner Success\">✅</i>"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
@@ -140,7 +165,7 @@ msgstr ""
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "<span class=\"display-4-fs\"><strong>Campsite</strong></span><br/>"
-msgstr ""
+msgstr "<span class=\"display-4-fs\"><strong>Campsite</strong></span><br/>"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
@@ -152,6 +177,12 @@ msgid ""
 "a bungalow</span>\n"
 "                          </span>"
 msgstr ""
+"<span class=\"o_small\">\n"
+"                            <strong>Jane DOE</strong>\n"
+"                            <br/>\n"
+"                            <span class=\"text-muted\"> Client, a stat la un "
+"bungalow</span>\n"
+"                          </span>"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
@@ -163,6 +194,11 @@ msgid ""
 "camping experience </span>\n"
 "                          </span>"
 msgstr ""
+"<span class=\"o_small\">\n"
+"                            <strong>John DOE d</strong>\n"
+"                            <br/> <span class=\"text-muted\"> Client, s-a "
+"bucurat de o experiență de camping </span>\n"
+"                          </span>"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
@@ -174,11 +210,21 @@ msgid ""
 "weekend retreat </span>\n"
 "                          </span>"
 msgstr ""
+"<span class=\"o_small\">\n"
+"                            <strong>John SMITH d</strong>\n"
+"                            <br/> <span class=\"text-muted\"> Client, s-a "
+"bucurat de o escapadă de weekend </span>\n"
+"                          </span>"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "<strong>Basics</strong>"
 msgstr "<strong>Baze</strong>"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "<strong>Company specific offers</strong>"
+msgstr "<strong>Oferte specifice companiei</strong>"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -188,7 +234,7 @@ msgstr "<strong>Vrei să mergi mai departe?</strong>"
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "<strong>Final word</strong>"
-msgstr ""
+msgstr "<strong>Cuvânt final</strong>"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -196,6 +242,24 @@ msgid ""
 "<strong>In such situation, feel free to experiment with this database and "
 "then\n"
 "                        to create a new one for your own usage.</strong>"
+msgstr ""
+"<strong>În această situație, nu ezitați să experimentați cu această bază de "
+"date și apoi\n"
+"să creați una nouă pentru uz personal.</strong>"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "<strong>Multiple resource blocking / period closure</strong>"
+msgstr ""
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "<strong>Shared offers</strong>"
+msgstr "<strong>Oferte comune</strong>"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "<strong>Single resource blocking</strong>"
 msgstr ""
 
 #. module: campsite
@@ -210,26 +274,34 @@ msgid ""
 "forest or bathed in sunlight in a peaceful clearing. Perfect for an "
 "intimate, close-to-nature getaway."
 msgstr ""
+"Un loc confortabil pentru cortul sau camperul dvs., ascuns în inima pădurii "
+"sau scăldat în lumina soarelui într-o poiană liniștită. Perfect pentru o "
+"evadare intimă, aproape de natură."
 
 #. module: campsite
 #: model:product.template,name:campsite.product_template_19
 msgid "AA Batteries (4)"
-msgstr ""
+msgstr "Baterii AA (4)"
 
 #. module: campsite
 #: model:product.template,name:campsite.product_template_20
 msgid "AAA Batteries (4)"
+msgstr "Baterii AAA (4)"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Access to more details clicking the slot."
 msgstr ""
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Add a line with Plancha or a Fan."
-msgstr ""
+msgstr "Adăugați o linie cu Plancha sau un ventilator."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Add here as many of them as needed."
-msgstr ""
+msgstr "Adăugați aici câte dintre ele sunt necesare."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -238,17 +310,26 @@ msgid ""
 "display and\n"
 "                bring them to your guests."
 msgstr ""
+"Adăugați câteva produse la comanda în curs și trimiteți-le la afișajul de "
+"pregătire și"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Adjust the number of stars, leave a comment and send it!"
-msgstr ""
+msgstr "Ajustați numărul de stele, lăsați un comentariu și trimiteți-l!"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
 "Adjust the rental dates, click the book button and then proceed to checkout."
 msgstr ""
+"Ajustați datele de închiriere, faceți clic pe butonul de rezervare și apoi "
+"continuați la finalizare."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Adjusting your offers in consequence"
+msgstr "Ajustarea ofertelor dvs. în consecință"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -256,11 +337,13 @@ msgid ""
 "Again, the <strong>Campsite App </strong>helps you manage the end of the "
 "stay!"
 msgstr ""
+"Din nou, <strong>Aplicația Campsite </strong>vă ajută să gestionați "
+"sfârșitul sejurului!"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.custom_product_name
 msgid "All Stay Offers"
-msgstr ""
+msgstr "Toate ofertele de ședere"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -271,6 +354,16 @@ msgid ""
 "                    account. At the end of the stay the customer account "
 "will be charged as well."
 msgstr ""
+"Alternativ, puteți utiliza Recepția din aplicația POS, selectând clientul, "
+"adăugând orice servicii suplimentare și apoi plătind cu contul clientului. "
+"La sfârșitul șederii, contul clientului va fi, de asemenea, taxat."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Alternatively to individual resource blocking slots described earlier, you "
+"can select a resource this leave applies to."
+msgstr ""
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -279,6 +372,8 @@ msgid ""
 ">Be\n"
 "                    careful not to double book a resource with such change!"
 msgstr ""
+"Alternativ, comutați la vizualizarea listei și apoi schimbați resursa.<br/> "
+"Aveți grijă să nu rezervați dublu o resursă cu o astfel de schimbare!"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -288,11 +383,36 @@ msgid ""
 "                    not during the visualized date range and update the "
 "booking date range."
 msgstr ""
+"Alternativ, comutați la vizualizarea listei, care este mai potrivită dacă "
+"rezervarea nu este în intervalul de date vizualizat și actualizați "
+"intervalul de date de rezervare."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
 "Alternatively, type in the search bar and select the appropriate filter."
+msgstr ""
+"Alternativ, tastați în bara de căutare și selectați filtrul corespunzător."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Alternatively, you can create a slot as placeholder from the planning "
+"directly:"
+msgstr ""
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "An automation is setup for an email to be sent automatically for you."
+msgstr ""
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Any time you create a new survey and save it with the setting \"is customer "
+"satisfaction survey\", previous ones\n"
+"                    will be archived so that it becomes your new default "
+"survey."
 msgstr ""
 
 #. module: campsite
@@ -302,17 +422,26 @@ msgid ""
 "home page\n"
 "                in a private tab to do so."
 msgstr ""
+"Oricine poate crea un cont de portal pe baza dvs. de date.<br/>Deschideți "
+"pagina de acasă a site-ului web într-un tab privat pentru a face acest lucru."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
 msgid "Are you considering a tentalo getaway?"
-msgstr ""
+msgstr "Te gândești la o evadare în tentalo?"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Assign them a resource, which helps you keeping track."
+msgstr "Atribuiți-le o resursă, care vă ajută să urmăriți."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
 "At any time during their stay, open their rental order from the Campsite App."
 msgstr ""
+"În orice moment în timpul șederii lor, deschideți comanda lor de închiriere "
+"din Aplicația Campsite."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -321,46 +450,48 @@ msgid ""
 "chatter\n"
 "                    to exchange with your guest."
 msgstr ""
+"În orice moment din comanda oaspeților, utilizați capacitatea Trimiteți "
+"mesajul în chatter pentru a schimba cu oaspeții dvs."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "At the end of their stay, your guests will pay for all those extras."
 msgstr ""
+"La sfârșitul șederii lor, oaspeții dvs. vor plăti pentru toate aceste "
+"suplimente."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Bar &amp; Restaurant and extra services"
+msgstr "Bar &amp; Restaurant și servicii suplimentare"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Beyond daily operations, the Steering menu serves as the \"Captain’s "
+"Bridge\" of your campsite. It provides a 500-day horizon to anticipate "
+"market trends, manage risks, and optimize your revenue."
 msgstr ""
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
-msgid "Blocking a bungalow"
+msgid "Blocking resources"
 msgstr ""
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
-msgid "Booking a room"
-msgstr ""
+msgid "Booking a pitch"
+msgstr "Rezervarea unui loc de campare"
 
 #. module: campsite
 #: model:product.template,name:campsite.product_template_17
 msgid "Bread"
-msgstr ""
-
-#. module: campsite
-#: model:planning.role,name:campsite.planning_role_4
-msgid "Bungalow-L"
-msgstr ""
-
-#. module: campsite
-#: model:planning.role,name:campsite.planning_role_5
-msgid "Bungalow-S"
-msgstr ""
+msgstr "Pâine"
 
 #. module: campsite
 #: model:product.public.category,name:campsite.product_public_category_9
 msgid "Bungalows"
-msgstr ""
+msgstr "Bungalouri"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -369,21 +500,24 @@ msgid ""
 "few products,\n"
 "            sale orders and more."
 msgstr ""
+"Prin încărcarea datelor demo ale acestui modul, baza dvs. de date a fost "
+"umplută cu câteva produse,\n"
+"            comenzi de vânzare și altele."
 
 #. module: campsite
-#: model:ir.ui.menu,name:booking_engine.booking_engine_menu_root
+#: model_terms:ir.ui.view,arch_db:campsite.res_config_settings_form_view_inherited
 msgid "Campsite"
-msgstr ""
+msgstr "Campsite"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
 msgid "Carousel Indicator"
-msgstr ""
+msgstr "Indicator carusel"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Charge your guests"
-msgstr ""
+msgstr "Taxează oaspeții"
 
 #. module: campsite
 #: model_terms:product.template,description_ecommerce:campsite.product_template_6
@@ -392,61 +526,70 @@ msgid ""
 "convenience. A snug retreat for couples or solo travelers looking for a "
 "warm, sheltered stay in nature."
 msgstr ""
+"Fermecătoare și compacte, aceste cabane în formă de A îmbină stilul rustic "
+"cu confortul modern. O retragere confortabilă pentru cupluri sau călători "
+"solitari care caută o ședere caldă și adăpostită în natură."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
 msgid "Check Out Out Stay Offers"
-msgstr ""
+msgstr "Consultați ofertele noastre de cazare"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Check guests in"
-msgstr ""
+msgstr "Înregistrează oaspeții"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Check guests out"
-msgstr ""
+msgstr "Finalizează sejurul oaspeților"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Check information and then confirm the booking."
-msgstr ""
+msgstr "Verificați informațiile și apoi confirmați rezervarea."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Click one of the offers to book."
-msgstr ""
+msgstr "Faceți clic pe una dintre oferte pentru a rezerva."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
 "Click the Check in button to confirm they are now staying at your place!"
 msgstr ""
+"Faceți clic pe butonul Check in pentru a confirma că aceștia stau acum la "
+"dvs.!"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Click the Check out button to capture they left their spot ."
 msgstr ""
+"Faceți clic pe butonul Check out pentru a înregistra că au părăsit locul."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Click the Create Order to open the order form."
 msgstr ""
+"Faceți clic pe Creează comandă pentru a deschide formularul de comandă."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
 "Click the Pay with demo button, and then Pay button to mimic the payment."
 msgstr ""
+"Faceți clic pe butonul Plătește cu demo, apoi pe butonul Plătește pentru a "
+"simula plata."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
-"Click the Payment button and select the payment mean, not forgetting to tick "
-"the\n"
-"                invoicing check box, prior clicking the Validate button."
+"Click the Settle PoS Orders button to add the corresponding order lines."
 msgstr ""
+"Faceți clic pe butonul Finalizează comenzile PoS pentru a adăuga liniile de "
+"comandă corespunzătoare."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -454,11 +597,50 @@ msgid ""
 "Click the tail of the corresponding booking and drag it to the requested "
 "date."
 msgstr ""
+"Faceți clic pe coada rezervării corespunzătoare și trageți-o la data "
+"solicitată."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Configure the email delay as you wish the email to be sent after the guest "
+"checkout."
+msgstr ""
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Create a new leave selecting the appropriate working schedule, the one from "
+"your stay resources."
+msgstr ""
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Create a new leave the same way as previously, but this time specify the "
+"resource this applies to."
+msgstr ""
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Created offers are assigned no company nor branch (default behavior).<br/>As "
+"a result, they are available from all companies and branches, as well as all "
+"websites from those."
+msgstr ""
+"Ofertele create nu sunt atribuite unei companii sau filiale (comportament "
+"implicit).<br/>Ca rezultat, acestea sunt disponibile de la toate companiile "
+"și filialele, precum și de pe toate site-urile web ale acestora."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Define start and end date time and save your leave."
+msgstr ""
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Deliver extra services"
-msgstr ""
+msgstr "Livrează servicii suplimentare"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -472,6 +654,9 @@ msgid ""
 "offers to\n"
 "            improve your experience."
 msgstr ""
+"Descoperiți elementele de bază ale acestui pachet și explorați toate "
+"posibilitățile pe care Odoo le oferă pentru\n"
+"            îmbunătățirea experienței dvs."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -479,12 +664,50 @@ msgid ""
 "Don't be limited to those examples, you could have a paddles and kayaks "
 "available or even bikes to rent!"
 msgstr ""
+"Nu vă limitați la aceste exemple, ați putea avea padele și caiace "
+"disponibile sau chiar biciclete de închiriat!"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Don't forget to save your setting changes."
+msgstr ""
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Don't forget to send them their invoice!"
+msgstr "Nu uitați să le trimiteți factura!"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
 "During an available period, click, drag and drop on a pitch line to create a "
 "slot."
+msgstr ""
+"În timpul unei perioade disponibile, faceți clic, trageți și plasați pe o "
+"linie de loc pentru a crea un slot."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Each company can have its own website!"
+msgstr "Fiecare companie poate avea propriul său site web!"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Employee assignations"
+msgstr "Atribuiri angajați"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Employee would open the tasks from their hand and update the status until "
+"Clean."
+msgstr ""
+"Angajatul va deschide sarcinile din mâna lor și va actualiza starea până la "
+"Curățat."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Enforcing weekly turnover"
 msgstr ""
 
 #. module: campsite
@@ -496,6 +719,11 @@ msgid ""
 "the guest x nights is\n"
 "                    2x3+1x1=7."
 msgstr ""
+"Exemplu: Un bungalow pentru 2 persoane este rezervat pentru 4 nopți, doi "
+"oaspeți au fost aici pentru primele\n"
+"                    trei nopți, dar doar unul a rămas ultima noapte. Atunci "
+"oaspete x nopți este\n"
+"                    2x3+1x1=7."
 
 #. module: campsite
 #: model_terms:product.template,description_ecommerce:campsite.product_template_5
@@ -504,11 +732,19 @@ msgid ""
 "Tentalos combine the charm of sleeping under canvas with proper beds, "
 "electricity, and stylish interiors."
 msgstr ""
+"Experimentați magia campingului cu confortul unei cabane confortabile. "
+"Tentalos-urile noastre combină farmecul dormitului sub pânză cu paturi "
+"adecvate, electricitate și interioare elegante."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.homepage
+msgid "Explore Our Pitches Options"
+msgstr ""
 
 #. module: campsite
 #: model:product.template,name:campsite.product_template_9
 msgid "Fan"
-msgstr ""
+msgstr "Ventilator"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
@@ -516,11 +752,18 @@ msgid ""
 "Fantastic staff! Always available and ready to help, they provide amazing "
 "pitches and cabin! We loved the stay!"
 msgstr ""
+"Personal fantastic! Mereu disponibil și gata să ajute, oferă locuri de cort "
+"și cabane uimitoare! Am iubit șederea!"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.homepage
+msgid "Find out more"
+msgstr ""
 
 #. module: campsite
 #: model:product.template,name:campsite.product_template_10
 msgid "Free Cancellation"
-msgstr ""
+msgstr "Anulare gratuită"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -531,6 +774,20 @@ msgid ""
 "with a few\n"
 "            customizations."
 msgstr ""
+"Din <strong>Aplicația Camping</strong>, puteți gestiona rezervările dvs.<br/"
+">Aplicația\n"
+"            Camping se bazează pe legătura dintre Aplicațiile de Închiriere "
+"și Planificare, cu câteva\n"
+"            personalizări."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"From the Roles sections, you can select the companies and branches this "
+"employee shall have access to as well as the default one."
+msgstr ""
+"Din secțiunea Roluri, puteți selecta companiile și filialele la care acest "
+"angajat va avea acces, precum și cea implicită."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
@@ -539,6 +796,9 @@ msgid ""
 "professional, friendly, and of good advice. I couldn't be happier with the "
 "entire experience!"
 msgstr ""
+"De la întrebarea inițială până la check-out, echipa a fost incredibil de "
+"profesională, prietenoasă și cu sfaturi bune. Nu aș fi putut fi mai fericit "
+"de întreaga experiență!"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -547,11 +807,18 @@ msgid ""
 "out\n"
 "                orders."
 msgstr ""
+"Din bara de căutare selectați filtrul Astăzi pentru a vedea comenzile de "
+"check-in și check-out."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "From there you can add new companies."
+msgstr "De acolo puteți adăuga companii noi."
 
 #. module: campsite
 #: model:product.template,name:campsite.product_template_18
 msgid "Gaz Can 100g"
-msgstr ""
+msgstr "Butelie Gaz 100g"
 
 #. module: campsite
 #: model_terms:product.template,description_ecommerce:campsite.product_template_7
@@ -560,6 +827,9 @@ msgid ""
 "families or friends to unwind together. Enjoy a private, fully equipped "
 "hideaway surrounded by nature."
 msgstr ""
+"Generoase ca dimensiuni și confort, aceste cabane mai mari în formă de A "
+"oferă spațiu pentru familii sau prieteni să se relaxeze împreună. Bucurați-"
+"vă de un refugiu privat, complet echipat, înconjurat de natură."
 
 #. module: campsite
 #: model:pos.category,name:campsite.pos_category_1
@@ -578,34 +848,30 @@ msgid ""
 "the\n"
 "                contact."
 msgstr ""
+"Dacă nu este OK, atunci faceți clic pe contact, completați secțiunea "
+"Identitate și salvați contactul."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
-"If the customer had a non null customer account, confirm its balancing "
-"during\n"
-"                this payment."
+"If they paid orders at any point of sale with their customer account, their "
+"customer account due amount will be displayed as well as a button for you to "
+"settle the associated orders."
 msgstr ""
+"Dacă au plătit comenzi la orice punct de vânzare cu contul lor de client, "
+"suma datorată din contul clientului va fi afișată împreună cu un buton "
+"pentru a decontenta comenzile asociate."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
-"If the customer is eligible to invoice settlement, proceed to charge them "
-"from their\n"
-"                final invoice for already invoiced orders which were paid "
-"with their customer\n"
-"                account."
+"If using the house keeping approver setting, designated\n"
+"                    approvers can check each room and set their state to "
+"ready to close the tasks."
 msgstr ""
-
-#. module: campsite
-#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
-msgid ""
-"If the customer is eligible to order settlement, proceed to charge them "
-"from\n"
-"                their final invoice for all their orders during the stay "
-"which were paid with their\n"
-"                customer account."
-msgstr ""
+"Dacă folosiți setarea de aprobare pentru menaj, aprobatorii desemnați pot "
+"verifica fiecare cameră și pot seta starea acestora la gata pentru a închide "
+"sarcinile."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -615,16 +881,27 @@ msgid ""
 "                    demo data and try the Demo - Use Case (In the next "
 "Knowledge Article)"
 msgstr ""
+"Dacă doriți să executați un tur ghidat practic al acestui modul, ar trebui "
+"să importați datele demo și să încercați Demo - Cazul de utilizare (În "
+"următorul articol din Baza de cunoștințe)"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
-"If you're not certain customers have ongoing bookings, before charging "
-"their\n"
-"                    customer accounts, open their contact details from their "
-"menu (from the\n"
-"                    customer list) and ask where they're staying in."
+"If you're not certain customers have ongoing bookings, before charging their "
+"customer accounts, open their contact details from their menu (from the "
+"customer list) and ask for the room they stay in<br/>Note: Their room is "
+"listed in the Guests tab of their order."
 msgstr ""
+"Dacă nu sunteți sigur că clienții au rezervări în curs, înainte de a taxa "
+"conturile lor de client, deschideți detaliile contactului din meniul lor "
+"(din lista de clienți) și întrebați despre camera în care stau<br/>Notă: "
+"Camera lor este listată în fila Oaspeți a comenzii lor."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "In any case, the resources are company and branch dependent."
+msgstr "În orice caz, resursele depind de companie și filială."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -633,6 +910,9 @@ msgid ""
 "able and which\n"
 "            might be an issue for your traceability."
 msgstr ""
+"În orice caz, este posibil să aveți înregistrări scrise în jurnale care nu "
+"sunt ștergabile și care ar putea reprezenta o problemă pentru trasabilitatea "
+"dvs."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -641,42 +921,60 @@ msgid ""
 "<strong>Purchase App</strong>\n"
 "                will help you to manage those aspects."
 msgstr ""
+"În cazul în care externalizați sau vă bazați mai mult pe furnizori, "
+"<strong>Aplicația de Achiziții</strong> vă va ajuta să gestionați aceste "
+"aspecte."
 
 #. module: campsite
-#: model:ir.model.fields,field_description:booking_engine.planning_model_planning_role_x_is_a_room_offer_field
-#: model:ir.model.fields,field_description:booking_engine.product_model_product_template_x_is_a_room_offer_field
-msgid "Is Stay Offer"
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"In the Options tab, you can see it is made the customer satisfaction survey "
+"in the participants section."
+msgstr ""
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"It enables each place manager to adjust the stay offers with greater "
+"flexibility without impacting other places."
+msgstr ""
+"Permite fiecărui manager de locație să ajusteze ofertele de ședere cu mai "
+"multă flexibilitate fără a afecta alte locații."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Keep your guests satisfied"
 msgstr ""
 
 #. module: campsite
 #: model:product.template,name:campsite.product_template_7
 msgid "Large Bungalow (up to 6 pers.)"
-msgstr ""
+msgstr "Bungalow mare (până la 6 pers.)"
 
 #. module: campsite
 #: model:product.template,name:campsite.product_template_4
 msgid "Large Pitch"
-msgstr ""
+msgstr "Loc mare de campare"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Leaving a review"
-msgstr ""
+msgstr "Lăsarea unei recenzii"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Let's book a pitch!"
-msgstr ""
+msgstr "Să rezervăm un loc de campare!"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
 msgid "Looking to refresh your outdoor space?"
-msgstr ""
+msgstr "Căutați să vă reîmprospătați spațiul în aer liber?"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Manage the city tax"
-msgstr ""
+msgstr "Gestionați taxa de oraș"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -686,10 +984,30 @@ msgid ""
 "                    <font class=\"text-o-color-5\">Accounting App</font>\n"
 "                </strong><font class=\"text-o-color-5\">.</font>"
 msgstr ""
+"Gestionați-vă contabilitatea mai ușor ca niciodată cu un mediu complet "
+"integrat î<font class=\"text-o-color-5\">n </font><strong>\n"
+"                    <font class=\"text-o-color-5\">Aplicația de "
+"Contabilitate</font>\n"
+"                </strong><font class=\"text-o-color-5\">.</font>"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Manage your customers from the <strong>Contact App</strong>"
+msgstr "Gestionați-vă clienții din <strong>Aplicația de Contacte</strong>"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Managing scarcity with availability"
+msgstr ""
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Managing your businesses"
+msgstr "Gestionarea afacerilor dvs."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Monitoring success with occupancy"
 msgstr ""
 
 #. module: campsite
@@ -704,6 +1022,19 @@ msgid ""
 "even more\n"
 "            comfortable!"
 msgstr ""
+"Acum că se relaxează, puteți oferi servicii suplimentare pentru a face ca "
+"oaspeții dvs. să se simtă și mai confortabil!"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Now that you have several companies or branches, you may want some of your "
+"employees to access only to some of them in case they always work in some of "
+"your places."
+msgstr ""
+"Acum că aveți mai multe companii sau filiale, este posibil să doriți ca unii "
+"dintre angajații dvs. să aibă acces doar la unele dintre ele în cazul în "
+"care lucrează întotdeauna în unele dintre locațiile dvs."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -718,16 +1049,34 @@ msgid ""
 "            to add new apps, delete/modify demo data, and test everything "
 "around!"
 msgstr ""
+"Desigur, aceasta este doar o prezentare generală a funcționalităților "
+"incluse în acest pachet. Nu ezitați să adăugați aplicații noi, să ștergeți/"
+"modificați datele demo și să testați tot!"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"On a daily basis, house keeping tasks are created depending\n"
+"                    the current stays."
+msgstr ""
+"Zilnic, sarcinile de menaj sunt create în funcție de sejururile actuale."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "On a resource to block line, click, drag and drop to create a slot."
+msgstr ""
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "On the City Tax line, adjust the number of guest x nights delivered."
-msgstr ""
+msgstr "Pe linia Taxei de Oraș, ajustați numărul de oaspeți x nopți furnizate."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
-msgid "On the bungalow to block line, click, drag and drop to create a slot."
+msgid "On top of guest and stay management, you need to keep the place clean!"
 msgstr ""
+"Pe lângă gestionarea oaspeților și sejururilor, trebuie să mențineți locul "
+"curat!"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
@@ -735,11 +1084,26 @@ msgid ""
 "On top of the wonderful pitch we had, <br/>we love the kayaking experience "
 "on the lake nearby. <br/>"
 msgstr ""
+"Pe lângă minunatul loc de campare pe care l-am avut, <br/>iubim experiența "
+"de canotaj pe lacul din apropiere. <br/>"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Once confirmed, the payment is done and the order booked seamlessly!"
 msgstr ""
+"Odată confirmat, plata este efectuată și comanda este rezervată fără "
+"probleme!"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Once defined, you can switch between companies or branches from the company "
+"selector at the top right of your screen.<br/>This will expose depending on "
+"where you are, only the selected companies and branches data."
+msgstr ""
+"Odată definite, puteți comuta între companii sau filiale din selectorul de "
+"companii din partea de sus dreapta a ecranului.<br/>Aceasta va expune, în "
+"funcție de unde vă aflați, doar datele companiilor și filialelor selectate."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -748,25 +1112,31 @@ msgid ""
 "and then\n"
 "                click the rental order link."
 msgstr ""
+"Odată ce ați terminat de adăugat toate locurile de campare necesare, faceți "
+"clic pe un slot adăugat recent și apoi faceți clic pe linkul comenzii de "
+"închiriere."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
 "Once done, let's click, drag and drop on another pitch line to create a slot."
 msgstr ""
+"Odată terminat, să facem clic, să tragem și să plasăm pe o altă linie de loc "
+"de campare pentru a crea un slot."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Once done, logged in as a portal user."
-msgstr ""
+msgstr "Odată terminat, conectați-vă ca utilizator portal."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
-"Once your guest order is all set after check out, open the Front Desk from "
-"the POS\n"
-"                App."
+"Once your guest order is all set after check out, create an invoice from "
+"their order."
 msgstr ""
+"Odată ce comanda oaspelui este setată după check-out, creați o factură din "
+"comanda lor."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -774,21 +1144,70 @@ msgid ""
 "Open a stay offer page from the website and scroll down to the Customer "
 "Reviews section."
 msgstr ""
+"Deschideți o pagină de ofertă de sejur din site și derulați în jos la "
+"secțiunea Recenziile Clienților."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Open now, the Tasks from the accommodation app, House Keeping menu.<br/>This "
+"is\n"
+"                the daily list of house keeping tasks to be tackled."
+msgstr ""
+"Deschideți acum Sarcinile din aplicația de cazare, meniul Menaj.<br/>Aceasta "
+"este lista zilnică de sarcini de menaj care trebuie abordate."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Open one, assign it to an employee to plan the house keeping of the day."
+msgstr ""
+"Deschideți una, atribuiți-o unui angajat pentru a planifica menajul zilei."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Open the <strong>Settings App</strong> and reach the companies from the menu "
+"Users &amp; Companies."
+msgstr ""
+"Deschideți <strong>Aplicația Setări</strong> și accesați companiile din "
+"meniul Utilizatori &amp; Companii."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Open the <strong>Settings App</strong> and reach the users from the menu "
+"Users &amp; Companies."
+msgstr ""
+"Deschideți <strong>Aplicația Setări</strong> și accesați utilizatorii din "
+"meniul Utilizatori &amp; Companii."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Open the <strong>Website App</strong> and navigate to the Stay Offers."
 msgstr ""
+"Deschideți <strong>Aplicația Website</strong> și navigați la Ofertele de "
+"Sejur."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
-msgid "Open the Campsite App Schedule."
+msgid ""
+"Open the Board from the accommodation app, House Keeping menu.<br/>Here you "
+"have an\n"
+"                overview of the cleanness state of your resources."
+msgstr ""
+"Deschideți Panoul din aplicația de cazare, meniul Menaj.<br/>Aici aveți o "
+"prezentare generală a stării de curățenie a resurselor dvs."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Open the Campsite App and navigate to the Configuration / Leaves menu."
 msgstr ""
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Open the Campsite App and then navigate to the orders from the menu."
-msgstr ""
+msgstr "Deschideți Aplicația Camping și apoi navigați la comenzi din meniu."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -796,15 +1215,36 @@ msgid ""
 "Open the Campsite App to appreciate the currently planned bookings with the\n"
 "                Schedule."
 msgstr ""
+"Deschideți Aplicația Camping pentru a aprecia rezervările planificate în "
+"prezent cu Programul."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Open the POS App and select one of the register, the Bar for example."
 msgstr ""
+"Deschideți Aplicația POS și selectați unul dintre casele de marcat, de "
+"exemplu Barul."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
-msgid "Open the customer selector from a new order."
+msgid ""
+"Open the Settings App and navigate to the Rental section or search for "
+"\"Unavailability days\"."
+msgstr ""
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Open the Steering menu and select Availability."
+msgstr ""
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Open the Steering menu and select Occupancy."
+msgstr ""
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Open the Survey App to find the customer satisfaction survey."
 msgstr ""
 
 #. module: campsite
@@ -814,15 +1254,26 @@ msgid ""
 "<strong>Studio\n"
 "                App</strong>."
 msgstr ""
+"Deschideți ușa pentru mai multe fluxuri de lucru și acțiuni personalizate cu "
+"puterea <strong>Aplicației Studio</strong>."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Open the order of you just arrived guests."
-msgstr ""
+msgstr "Deschideți comanda oaspeților tocmai sosiți."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Open your guest order from the Campsite App."
+msgstr "Deschideți comanda oaspeților din Aplicația Camping."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Optimizing weekly turnover to maximize occupancy during peak season, you can "
+"align your bookings to a weekly rental pattern (e.g., Saturday to Saturday). "
+"By restricting check-ins and check-outs to specific days, you synchronize "
+"your housekeeping and eliminate calendar gaps."
 msgstr ""
 
 #. module: campsite
@@ -834,21 +1285,16 @@ msgid ""
 "                    <font class=\"text-o-color-5\"> App</font>\n"
 "                </strong><font class=\"text-o-color-5\">.</font>"
 msgstr ""
-
-#. module: campsite
-#: model:planning.role,name:campsite.planning_role_2
-msgid "Pitch-L"
-msgstr ""
-
-#. module: campsite
-#: model:planning.role,name:campsite.planning_role_1
-msgid "Pitch-S"
-msgstr ""
+"Organizați programele angajaților cu<font class=\"text-o-color-5\"> "
+"<strong>\n"
+"                Aplicația de Planificare</strong></font><strong>\n"
+"                    <font class=\"text-o-color-5\"></font>\n"
+"                </strong><font class=\"text-o-color-5\">.</font>"
 
 #. module: campsite
 #: model:product.public.category,name:campsite.product_public_category_11
 msgid "Pitches"
-msgstr ""
+msgstr "Locuri de campare"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -856,11 +1302,13 @@ msgid ""
 "Plan, check in and and check out bookings with the <strong>Campsite App</"
 "strong>"
 msgstr ""
+"Planificați, faceți check-in și check-out pentru rezervări cu "
+"<strong>Aplicația Camping</strong>"
 
 #. module: campsite
 #: model:product.template,name:campsite.product_template_8
 msgid "Plancha"
-msgstr ""
+msgstr "Plancha"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
@@ -869,8 +1317,13 @@ msgstr "Anterior"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Proceed to the payment with your terminal and set the invoice as paid."
+msgstr "Procedați la plată cu terminalul dvs. și setați factura ca plătită."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Promote your offers through the <strong>Website App</strong>"
-msgstr ""
+msgstr "Promovați ofertele prin <strong>Aplicația Website</strong>"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -880,17 +1333,17 @@ msgstr "Contactează-ne"
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Record guest identity"
-msgstr ""
+msgstr "Înregistrați identitatea oaspeților"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
-msgid "Recording the guest presence is an obligation in numerous countries."
-msgstr ""
+msgid "Recording the guest attendance is an obligation in numerous countries."
+msgstr "Înregistrarea prezenței oaspeților este o obligație în numeroase țări."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Save the order with those extra services."
-msgstr ""
+msgstr "Salvați comanda cu acele servicii suplimentare."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
@@ -900,22 +1353,41 @@ msgstr "Vezi tot"
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
 msgid "See all<span class=\"fa fa-long-arrow-right ms-2\"/>"
-msgstr ""
+msgstr "Vezi tot<span class=\"fa fa-long-arrow-right ms-2\"/>"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Select one of your employee."
+msgstr "Selectați unul dintre angajații dvs."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Select or create a customer and then confirm the booking!"
+msgstr "Selectați sau creați un client și apoi confirmați rezervarea!"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Setup company or branch specific offers when relevant."
 msgstr ""
+"Configurați oferte specifice companiei sau filialei când este relevant."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Share your stay offers across your companies and branches (default behavior);"
+msgstr ""
+"Partajați ofertele de sejur între companiile și filialele dvs. (comportament "
+"implicit);"
 
 #. module: campsite
 #: model:product.template,name:campsite.product_template_6
 msgid "Small Bungalow (up to 4 pers.)"
-msgstr ""
+msgstr "Bungalow mic (până la 4 pers.)"
 
 #. module: campsite
 #: model:product.template,name:campsite.product_template_3
 msgid "Small Pitch"
-msgstr ""
+msgstr "Loc mic de campare"
 
 #. module: campsite
 #: model_terms:product.template,description_ecommerce:campsite.product_template_4
@@ -924,11 +1396,10 @@ msgid ""
 "motorhomes. Set in tranquil forest shade or open clearings, they’re ideal "
 "for families or groups seeking extra room to relax."
 msgstr ""
-
-#. module: campsite
-#: model:ir.ui.menu,name:booking_engine.booking_engine_rooms_menu
-msgid "Stay Offers"
-msgstr ""
+"Spațioase și confortabile, aceste locuri de campare primesc corturi mai "
+"mari, caravane sau autorulote. Situate în umbra liniștită a pădurii sau în "
+"luminișuri deschise, sunt ideale pentru familii sau grupuri care caută "
+"spațiu suplimentar pentru relaxare."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -936,21 +1407,43 @@ msgid ""
 "Still from the Campsite App Schedule, simply drag and drop a booking to "
 "another offer, from small pitch to large pitch for example!"
 msgstr ""
+"Tot din Programul Aplicației Camping, pur și simplu trageți și plasați o "
+"rezervare la o altă ofertă, de exemplu de la loc mic la loc mare de campare!"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
-msgid "Still from their Rental Order, open the Guest tab."
-msgstr ""
+msgid "Still from their Rental Order, open the Guests tab."
+msgstr "Tot din Comanda de Închiriere, deschideți fila Oaspeți."
 
 #. module: campsite
-#: model:planning.role,name:campsite.planning_role_3
 #: model:product.template,name:campsite.product_template_5
 msgid "Tentalo"
-msgstr ""
+msgstr "Tentalo"
 
 #. module: campsite
 #: model:product.public.category,name:campsite.product_public_category_10
 msgid "Tentalos"
+msgstr "Tentalos"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"The Gantt chart is color-coded to reflect on the availability for you to "
+"work on filling in."
+msgstr ""
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"The Gantt chart is color-coded to reflect on the occupancy, the higher the "
+"better."
+msgstr ""
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"The Occupancy view allows you to visualize your \"Sales Success\". It "
+"answers one simple question: <i>How well am I filling my campsite?</i>"
 msgstr ""
 
 #. module: campsite
@@ -960,13 +1453,24 @@ msgid ""
 "through the options and help you choose the perfect fit for your getaway. "
 "<br/> You can decide freely whether to proceed with your booking."
 msgstr ""
+"Sentimentul de libertate cu confortul unei cabane!<br/>Vă vom ghida prin "
+"opțiuni și vă vom ajuta să alegeți potrivirea perfectă pentru escapada dvs. "
+"<br/> Puteți decide liber dacă să continuați cu rezervarea."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
-"Then settle the rental order from the three dot menu to bring the line "
-"items\n"
-"                corresponding to stay offer and city tax."
+"The strength of Odoo is to separate the accounting and many other aspects "
+"which are company dependent!"
+msgstr ""
+"Puterea Odoo este să separe contabilitatea și multe alte aspecte care depind "
+"de companie!"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Then set the days during which you want to prevent check in and check out to "
+"take place, ex. All days but Saturday"
 msgstr ""
 
 #. module: campsite
@@ -979,18 +1483,48 @@ msgstr ""
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
-msgid "They want multiple pitches?"
+msgid ""
+"They as well share the same pricing, defined at the stay offer level, which "
+"has its pros and cons."
 msgstr ""
+"Ele partajează, de asemenea, aceleași prețuri, definite la nivelul ofertei "
+"de sejur, care au avantajele și dezavantajele lor."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "They want multiple pitches?"
+msgstr "Vor mai multe locuri de campare?"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "They were happy about their stay, let's ask them to leave a review."
-msgstr ""
+msgstr "Au fost fericiți de șederea lor, să-i rugăm să lase o recenzie."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "They will balance their customer account during the check out!"
+msgstr "Își vor echilibra contul de client în timpul check-out-ului!"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"This blocks simulataneously all resources related to this working schedule "
+"during the prescribed period."
 msgstr ""
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "This capability is enabled by a setting you can set/unset."
+msgstr ""
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"This setup is relevant in case of place specific offers or when pricing "
+"varies between places."
+msgstr ""
+"Această configurare este relevantă în cazul ofertelor specifice locației sau "
+"când prețurile variază între locații."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -999,6 +1533,8 @@ msgid ""
 "booking and\n"
 "                voila!"
 msgstr ""
+"De data aceasta faceți clic pe butonul Adaugă la ultima comandă pentru a "
+"adăuga acest loc la rezervare și gata!"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1006,6 +1542,8 @@ msgid ""
 "This time, simply leave a note about the why this is booked and save the "
 "slot."
 msgstr ""
+"De data aceasta, lăsați pur și simplu o notă despre motivul pentru care este "
+"rezervat și salvați slot-ul."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1014,17 +1552,35 @@ msgid ""
 "during the\n"
 "            stay."
 msgstr ""
+"Acele taxe de oraș sunt acum datorate, precum și orice alte servicii "
+"suplimentare consumate în timpul șederii."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"To ensure your guests no longer receive the satisfaction survey, you can "
+"easily archive it at any time."
+msgstr ""
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Trace guest attendance"
+msgstr "Urmăriți prezența oaspeților"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Two options are now available to you with multiple companies and branches:"
 msgstr ""
+"Două opțiuni vă sunt disponibile acum cu mai multe companii și filiale:"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
 "Type in the customer name in the Schedule search bar filtering by Customer."
 msgstr ""
+"Introduceți numele clientului în bara de căutare a Programului filtrând după "
+"Client."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
@@ -1032,11 +1588,30 @@ msgid ""
 "We offer small and large pitches, in the heart of the forest, in clearings "
 "and in fields."
 msgstr ""
+"Oferim locuri mici și mari de campare, în inima pădurii, în luminișuri și în "
+"câmpuri."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Welcome your guests as well from the <strong>Campsite App</strong>."
 msgstr ""
+"Primiți-vă oaspeții de asemenea din <strong>Aplicația Camping</strong>."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "When all is in order, confirm their invoice for payment."
+msgstr "Când totul este în regulă, confirmați factura lor pentru plată."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"When creating an offer, assign them a company or a branch.<br/>As a result, "
+"they are available only for the selected company or branch, and will be "
+"available only from its website."
+msgstr ""
+"Când creați o ofertă, atribuiți-le o companie sau o filială.<br/>Ca "
+"rezultat, acestea sunt disponibile doar pentru compania sau filiala "
+"selectată și vor fi disponibile doar de pe site-ul acesteia."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1049,22 +1624,44 @@ msgid ""
 "the payment and the\n"
 "                validation buttons!"
 msgstr ""
+"Când cer nota de plată, îi puteți taxa direct sau puteți adăuga nota la "
+"contul lor de client.<br/>Pentru a face acest lucru, deschideți comanda "
+"corespunzătoare de la masă sau din lista de comenzi și selectați clientul de "
+"taxat.<br/>Faceți clic pe butoanele de plată și validare!"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
 msgid "Where every stay becomes a retreat."
+msgstr "Unde fiecare ședere devine o retragere."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"While Occupancy focuses on what is full, the Availability view focuses on "
+"what is left to sell. It is your primary tool for operational safety and "
+"\"Scarcity Pricing.\""
 msgstr ""
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Willing to upgrade a booking?"
-msgstr ""
+msgstr "Doriți să faceți upgrade la o rezervare?"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
 msgid ""
 "With just a click, planning your perfect camping escape has never been "
 "simpler.<br/><br/>"
+msgstr ""
+"Cu doar un clic, planificarea escapadei perfecte de camping nu a fost "
+"niciodată mai simplă.<br/><br/>"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"With the create slot for this resource, no overlapping booking slot would be "
+"created.<br/>Care about the start and end time or this blockage to make to "
+"re-open when suited."
 msgstr ""
 
 #. module: campsite
@@ -1077,13 +1674,14 @@ msgstr ""
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "You Campsite is online and future guests found it!"
-msgstr ""
+msgstr "Campingul dvs. este online și viitorii oaspeți l-au găsit!"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
 "You are repairing a bungalow or simply welcoming family and don't want "
-"guests to book it?"
+"guests to book it?<br/>Alternatively, you are closing for a week during an "
+"inter season break?<br/>Let's have this reflected in your schedule!"
 msgstr ""
 
 #. module: campsite
@@ -1098,10 +1696,27 @@ msgstr ""
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
+"You can as well select your company and in the Branches tab define branches."
+msgstr ""
+"Puteți de asemenea să vă selectați compania și în fila Filiale să definiți "
+"filialele."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"You can find the participants and answers from the smart buttons of the "
+"survey."
+msgstr ""
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
 "You completed that demo use case! There are millions of other ways to adapt "
 "your\n"
 "                    Odoo setup to fit your business needs."
 msgstr ""
+"Ați completat acel caz de utilizare demo! Există milioane de alte modalități "
+"de a vă adapta configurarea Odoo pentru a se potrivi nevoilor afacerii dvs."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1112,6 +1727,9 @@ msgid ""
 "such customizations can\n"
 "                    quickly become messy."
 msgstr ""
+"Puteți personaliza această secțiune pentru a adăuga poza documentului de "
+"identitate sau câmpuri suplimentare după conveniența dvs. cu studio. Fiți "
+"atent, astfel de personalizări pot deveni rapid dezordonate."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1120,11 +1738,13 @@ msgid ""
 "&gt;\n"
 "                    Upgrade your package and check the related box"
 msgstr ""
+"Nu ați importat datele demo? Puteți să o faceți încă. Mergeți la Aplicații "
+"&gt; Industrii &gt; Actualizați pachetul și bifați caseta corespunzătoare"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "You have a future guest on the line willing to book a pitch?"
-msgstr ""
+msgstr "Aveți un viitor oaspete la telefon dornic să rezerve un loc?"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1134,14 +1754,28 @@ msgid ""
 "            is how you might centralize those and bind them to your "
 "customers in a single database."
 msgstr ""
+"Aveți un Camping dar este posibil să oferiți numeroase servicii și oferte "
+"periferice.<br/>Iată cum ați putea să le centralizați și să le legați de "
+"clienții dvs. într-o singură bază de date."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
 "You just installed the Odoo for Campsite package. By doing so, we have "
 "installed a\n"
-"            bunch of necessary apps to run your bar efficiently."
+"            bunch of necessary apps to run your business efficiently."
 msgstr ""
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"You may be running multiple places at the same time and most likely be "
+"willing to run them all from the same database.<b/>We got you covered with "
+"this using multiple companies or branches!"
+msgstr ""
+"Este posibil să gestionați mai multe locații în același timp și cel mai "
+"probabil să doriți să le gestionați pe toate din aceeași bază de date.<br/"
+">Vă acoperim cu aceasta folosind mai multe companii sau filiale!"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1152,11 +1786,15 @@ msgid ""
 "spent nights in practice\n"
 "            and not in theory.<br/>Let's adjust them now."
 msgstr ""
+"Ați putut observa că taxele de oraș au fost adăugate la comanda oaspeților "
+"din momentul în care au făcut check-in.<br/>Acest lucru se întâmplă pentru "
+"că taxele de oraș trebuie facturate pentru nopțile petrecute în practică și "
+"nu în teorie.<br/>Să le ajustăm acum."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "You might have tested this package with or without demo data."
-msgstr ""
+msgstr "Este posibil să fi testat acest pachet cu sau fără date demo."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1164,6 +1802,8 @@ msgid ""
 "You noticed that the Identity Check highlights whether you captured all the\n"
 "            necessary information for a guest?"
 msgstr ""
+"Ați observat că Verificarea Identității evidențiază dacă ați capturat toate "
+"informațiile necesare pentru un oaspete?"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1173,6 +1813,8 @@ msgid ""
 "                this time, without confirming the order (just saving it as "
 "draft)."
 msgstr ""
+"Acum știți cum să creați o comandă nouă.<br/>Să replicăm pașii anteriori dar "
+"de această dată, fără să confirmăm comanda (doar salvând-o ca ciornă)."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1181,22 +1823,19 @@ msgid ""
 "various flows\n"
 "            you can quickly execute with this package using Odoo."
 msgstr ""
+"Ar trebui să puteți executa următoarele fluxuri pentru a avea o prezentare "
+"generală a diferitelor fluxuri pe care le puteți executa rapid cu acest "
+"pachet folosind Odoo."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "You welcome your first guests, awesome!"
-msgstr ""
-
-#. module: campsite
-#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
-msgid ""
-"You're now done, the invoice downloaded as well as sent to your customer!"
-msgstr ""
+msgstr "Primiți primii oaspeți, extraordinar!"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "You're now waiting for your guest to arrive."
-msgstr ""
+msgstr "Acum așteptați ca oaspetele să sosească."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
@@ -1210,7 +1849,7 @@ msgstr ""
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Your customer wants to stay longer?"
-msgstr ""
+msgstr "Clientul dvs. vrea să stea mai mult?"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1233,6 +1872,8 @@ msgid ""
 "if you need\n"
 "                    help!"
 msgstr ""
+"dacă aveți nevoie\n"
+"                    de ajutor!"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1242,12 +1883,21 @@ msgstr "solicitați o demonstrație"
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "🌐 Online booking and reviews"
-msgstr ""
+msgstr "🌐 Rezervări și recenzii online"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "🍸 Beyond a place to stay"
+msgstr "🍸 Mai mult decât un loc de cazare"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"🎓\n"
+"                Companies"
 msgstr ""
+"🎓\n"
+"                Companii"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1255,6 +1905,8 @@ msgid ""
 "🎓\n"
 "                Contacts"
 msgstr ""
+"🎓\n"
+"                Contacte"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1262,20 +1914,8 @@ msgid ""
 "🎓\n"
 "                Invoicing"
 msgstr ""
-
-#. module: campsite
-#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
-msgid ""
 "🎓\n"
-"                Planning"
-msgstr ""
-
-#. module: campsite
-#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
-msgid ""
-"🎓\n"
-"                Rental"
-msgstr ""
+"                Facturare"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1283,6 +1923,17 @@ msgid ""
 "🎓\n"
 "                Taxes"
 msgstr ""
+"🎓\n"
+"                Taxe"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"🎓\n"
+"                Websites"
+msgstr ""
+"🎓\n"
+"                Site-uri web"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1290,6 +1941,8 @@ msgid ""
 "🎓\n"
 "                eCommerce"
 msgstr ""
+"🎓\n"
+"                eCommerț"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1297,28 +1950,107 @@ msgid ""
 "🎓\n"
 "            POS"
 msgstr ""
+"🎓\n"
+"            POS"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "🎓 POS"
-msgstr ""
+msgstr "🎓 POS"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "🎓 Preparation Display"
+msgstr "🎓 Afișaj de Preparare"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "🎓Booking Engine"
+msgstr "🎓Motor de Rezervări"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "🎓Planning"
+msgstr "🎓Planificare"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "🎓Rental"
+msgstr "🎓Închiriere"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "🎓Surveys"
 msgstr ""
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "👋 Wave your guests"
-msgstr ""
+msgstr "👋 Salutați oaspeții"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "🔢 Running multiple places"
+msgstr "🔢 Gestionarea mai multor locații"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "🗓️ Manage bookings"
-msgstr ""
+msgstr "🗓️ Gestionați rezervările"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "😎 Welcome guests"
+msgstr "😎 Primiți oaspeții"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "🚀 Strategic Oversight"
 msgstr ""
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "🧽 Managing house keeping"
+msgstr "🧽 Gestionarea menajului"
+
+#~ msgid ""
+#~ "<a t-att-href=\"'/shop/category/' + "
+#~ "str(env.ref('campsite.product_public_category_10').id)\" "
+#~ "class=\"o_translate_inline btn btn-secondary\">Find out more</a>"
+#~ msgstr ""
+#~ "<a t-att-href=\"'/shop/category/' + "
+#~ "str(env.ref('campsite.product_public_category_10').id)\" "
+#~ "class=\"o_translate_inline btn btn-secondary\">Aflați mai multe</a>"
+
+#~ msgid ""
+#~ "<a t-att-href=\"'/shop/category/' + "
+#~ "str(env.ref('campsite.product_public_category_11').id)\" "
+#~ "class=\"o_translate_inline btn btn-secondary\">Explore Our Pitches "
+#~ "Options</a>"
+#~ msgstr ""
+#~ "<a t-att-href=\"'/shop/category/' + "
+#~ "str(env.ref('campsite.product_public_category_11').id)\" "
+#~ "class=\"o_translate_inline btn btn-secondary\">Explorați opțiunile "
+#~ "noastre pentru locuri de campare</a>"
+
+#~ msgid "Blocking a bungalow"
+#~ msgstr "Blocarea unui bungalow"
+
+#~ msgid ""
+#~ "On the bungalow to block line, click, drag and drop to create a slot."
+#~ msgstr ""
+#~ "Pe linia de blocare a bungalowului, faceți clic, trageți și plasați "
+#~ "pentru a crea un slot."
+
+#~ msgid "Open the Campsite App Schedule."
+#~ msgstr "Deschideți Programul Aplicației Camping."
+
+#~ msgid ""
+#~ "You are repairing a bungalow or simply welcoming family and don't want "
+#~ "guests to book it?"
+#~ msgstr ""
+#~ "Reparați un bungalow sau pur și simplu primiți familia și nu doriți ca "
+#~ "oaspeții să-l rezerve?"
+
+#~ msgid "Is Stay Offer"
+#~ msgstr "Este ofertă de ședere"

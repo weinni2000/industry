@@ -3,15 +3,15 @@
 # * veterinary_clinic
 #
 # Odoo Translation Bot <c3p@odoo.com>, 2025.
-# "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
+# "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 14:21+0000\n"
-"PO-Revision-Date: 2025-11-17 11:19+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-04-10 19:51+0000\n"
+"PO-Revision-Date: 2026-04-24 19:33+0000\n"
+"Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
 "Language-Team: Russian <https://translate.odoo.com/projects/odoo-19/"
 "veterinary_clinic/ru/>\n"
 "Language: ru\n"
@@ -20,17 +20,12 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_pets_line_ids_field
 msgid " - (Consultations)"
-msgstr ""
-
-#. module: veterinary_clinic
-#: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
-msgid "+12"
-msgstr "+12"
+msgstr " - (Консультации)"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -38,16 +33,25 @@ msgid ""
 ", go to My Databases, then click the <strong>gear icon </strong>to\n"
 "                        duplicate your database. <br/>"
 msgstr ""
+", перейдите в «Мои базы данных», затем нажмите на <strong>значок шестеренки</"
+"strong>, чтобы\n"
+"                        дублировать вашу базу данных. <br/>"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.kanban_custom_view_for_x_pets
 msgid "- (Consultations)"
-msgstr ""
+msgstr "- (Консультации)"
 
 #. module: veterinary_clinic
-#: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
-msgid "22%"
-msgstr "22%"
+#: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
+msgid ""
+"<b>Contacts App</b>: Maintain a clean directory of pet owners, linked "
+"directly to their animal's medical\n"
+"                profiles for easy access."
+msgstr ""
+"<b>Модуль Контакты</b>: Ведите чистую базу владельцев домашних животных, "
+"связанную напрямую с медицинскими\n"
+"                профилями их питомцев для быстрого доступа."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
@@ -58,10 +62,16 @@ msgid ""
 "emergency, we’re here to help your pets live their happiest, healthiest "
 "lives."
 msgstr ""
+"<br/>В MyVeterinarian мы относимся к каждому питомцу как к дорогому члену "
+"семьи. Наша опытная команда стремится обеспечить бережный, экспертный уход в "
+"уютной атмосфере. Будь то плановый осмотр или непредвиденная экстренная "
+"ситуация, мы здесь, чтобы помочь вашим питомцам прожить самую счастливую и "
+"здоровую жизнь."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.contactus
-msgid "<i class=\"fa fa-1x fa-fw fa-envelope me-2\"/>info@yourcompany.example.com"
+msgid ""
+"<i class=\"fa fa-1x fa-fw fa-envelope me-2\"/>info@yourcompany.example.com"
 msgstr ""
 "<i class=\"fa fa-1x fa-fw fa-envelope me-2\"/>info@yourcompany.example.com"
 
@@ -69,7 +79,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.contactus
 msgid ""
 "<i class=\"fa fa-map-marker fa-fw me-2\"/>\n"
-"                            <span class=\"o_force_ltr\">3575 Fake Buena Vista Avenue</span>"
+"                            <span class=\"o_force_ltr\">3575 Fake Buena "
+"Vista Avenue</span>"
 msgstr ""
 "<i class=\"fa fa-map-marker fa-fw me-2\"/>\n"
 "                            <span class=\"o_force_ltr\">3575 Fake Buena "
@@ -79,11 +90,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.contactus
 msgid ""
 "<i class=\"fa fa-phone fa-fw me-2\"/>\n"
-"                            <span class=\"o_force_ltr\">+1 555-555-5556</span>"
+"                            <span class=\"o_force_ltr\">+1 555-555-5556</"
+"span>"
 msgstr ""
 "<i class=\"fa fa-phone fa-fw me-2\"/>\n"
-"                            <span class=\"o_force_ltr\">+1 "
-"555-555-5556</span>"
+"                            <span class=\"o_force_ltr\">+1 555-555-5556</"
+"span>"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -91,8 +103,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">💡</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Info\">💡</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">💡</i>"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -100,8 +112,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">✅</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Success\">✅</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\">✅</i>"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -109,14 +121,16 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Warning\">⚠️</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Warning\">⚠️</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Warning\">⚠️</i>"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid ""
 "<span class=\"display-4-fs\"><strong>Odoo for Veterinarians</strong></span>"
 msgstr ""
+"<span class=\"display-4-fs\"><strong>Odoo для ветеринарных клиник</strong></"
+"span>"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -126,48 +140,112 @@ msgstr "<span class=\"h1-fs\">Основы</span>"
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
 msgid ""
-"<span class=\"s_pricelist_boxed_item_title d-flex align-items-baseline fw-bold\">\n"
-"                              <span class=\"s_pricelist_boxed_item_name\"> Flea and Tick Prevention </span>\n"
-"                              <span class=\"s_pricelist_boxed_item_line flex-grow-1 ms-2 border-top\"/>\n"
-"                              <span class=\"s_pricelist_boxed_item_price ms-auto ps-3\"> $25.00 </span>\n"
+"<span class=\"s_pricelist_boxed_item_title d-flex align-items-baseline fw-"
+"bold\">\n"
+"                              <span class=\"s_pricelist_boxed_item_name\"> "
+"Flea and Tick Prevention </span>\n"
+"                              <span class=\"s_pricelist_boxed_item_line flex-"
+"grow-1 ms-2 border-top\"/>\n"
+"                              <span class=\"s_pricelist_boxed_item_price ms-"
+"auto ps-3\"> $25.00 </span>\n"
 "                            </span>\n"
-"                            <span class=\"s_pricelist_boxed_item_description d-block mt-2 pe-5 text-muted o_small\">\n"
-"        High-quality flea and tick prevention products available in various forms, providing long-lasting protection for your pets.\n"
+"                            <span class=\"s_pricelist_boxed_item_description "
+"d-block mt-2 pe-5 text-muted o_small\">\n"
+"        High-quality flea and tick prevention products available in various "
+"forms, providing long-lasting protection for your pets.\n"
 "    </span>"
 msgstr ""
+"<span class=\"s_pricelist_boxed_item_title d-flex align-items-baseline fw-"
+"bold\">\n"
+"                              <span class=\"s_pricelist_boxed_item_name\"> "
+"Профилактика от блох и клещей </span>\n"
+"                              <span class=\"s_pricelist_boxed_item_line flex-"
+"grow-1 ms-2 border-top\"/>\n"
+"                              <span class=\"s_pricelist_boxed_item_price ms-"
+"auto ps-3\"> 25,00 $ </span>\n"
+"                            </span>\n"
+"                            <span class=\"s_pricelist_boxed_item_description "
+"d-block mt-2 pe-5 text-muted o_small\"> \n"
+"        Высококачественные средства профилактики от блох и клещей, доступные "
+"в различных формах, обеспечивают длительную защиту ваших домашних животных.\n"
+"    </span>"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
 msgid ""
-"<span class=\"s_pricelist_boxed_item_title d-flex align-items-baseline fw-bold\">\n"
-"                              <span class=\"s_pricelist_boxed_item_name\"> Flea and Tick Treatment </span>\n"
-"                              <span class=\"s_pricelist_boxed_item_line flex-grow-1 ms-2 border-top\"/>\n"
-"                              <span class=\"s_pricelist_boxed_item_price ms-auto ps-3\"> $45.00 </span>\n"
+"<span class=\"s_pricelist_boxed_item_title d-flex align-items-baseline fw-"
+"bold\">\n"
+"                              <span class=\"s_pricelist_boxed_item_name\"> "
+"Flea and Tick Treatment </span>\n"
+"                              <span class=\"s_pricelist_boxed_item_line flex-"
+"grow-1 ms-2 border-top\"/>\n"
+"                              <span class=\"s_pricelist_boxed_item_price ms-"
+"auto ps-3\"> $45.00 </span>\n"
 "                            </span>\n"
-"                            <span class=\"s_pricelist_boxed_item_description d-block mt-2 pe-5 text-muted o_small\">\n"
-"        Effective treatment that protects your pet from fleas and ticks, ensuring comfort and health for your furry friend.\n"
+"                            <span class=\"s_pricelist_boxed_item_description "
+"d-block mt-2 pe-5 text-muted o_small\">\n"
+"        Effective treatment that protects your pet from fleas and ticks, "
+"ensuring comfort and health for your furry friend.\n"
 "    </span>"
 msgstr ""
+"<span class=\"s_pricelist_boxed_item_title d-flex align-items-baseline fw-"
+"bold\">\n"
+"                              <span class=\"s_pricelist_boxed_item_name\"> "
+"Лечение от блох и клещей </span>\n"
+"                              <span class=\"s_pricelist_boxed_item_line flex-"
+"grow-1 ms-2 border-top\"/>\n"
+"                              <span class=\"s_pricelist_boxed_item_price ms-"
+"auto ps-3\"> 45,00 $ </span>\n"
+"                            </span>\n"
+"                            <span class=\"s_pricelist_boxed_item_description "
+"d-block mt-2 pe-5 text-muted o_small\"> \n"
+"        Эффективное лечение, которое защищает вашего питомца от блох и "
+"клещей, обеспечивая комфорт и здоровье вашему пушистому другу.\n"
+"    </span>"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
 msgid ""
-"<span class=\"s_pricelist_boxed_item_title d-flex align-items-baseline fw-bold\">\n"
-"                              <span class=\"s_pricelist_boxed_item_name\"> Long-Lasting Pet Nutrition </span>\n"
-"                              <span class=\"s_pricelist_boxed_item_line flex-grow-1 ms-2 border-top\"/>\n"
-"                              <span class=\"s_pricelist_boxed_item_price ms-auto ps-3\"> $50.00 </span>\n"
+"<span class=\"s_pricelist_boxed_item_title d-flex align-items-baseline fw-"
+"bold\">\n"
+"                              <span class=\"s_pricelist_boxed_item_name\"> "
+"Long-Lasting Pet Nutrition </span>\n"
+"                              <span class=\"s_pricelist_boxed_item_line flex-"
+"grow-1 ms-2 border-top\"/>\n"
+"                              <span class=\"s_pricelist_boxed_item_price ms-"
+"auto ps-3\"> $50.00 </span>\n"
 "                            </span>\n"
-"                            <span class=\"s_pricelist_boxed_item_description d-block mt-2 pe-5 text-muted o_small\">\n"
-"        A gentle, effective dental cleaning service that promotes oral health while keeping your pet comfortable.\n"
+"                            <span class=\"s_pricelist_boxed_item_description "
+"d-block mt-2 pe-5 text-muted o_small\">\n"
+"        A gentle, effective dental cleaning service that promotes oral "
+"health while keeping your pet comfortable.\n"
 "    </span>"
 msgstr ""
+"<span class=\"s_pricelist_boxed_item_title d-flex align-items-baseline fw-"
+"bold\">\n"
+"                              <span class=\"s_pricelist_boxed_item_name\"> "
+"Чистка зубов </span>\n"
+"                              <span class=\"s_pricelist_boxed_item_line flex-"
+"grow-1 ms-2 border-top\"/>\n"
+"                              <span class=\"s_pricelist_boxed_item_price ms-"
+"auto ps-3\"> 50,00 $ </span>\n"
+"                            </span>\n"
+"                            <span class=\"s_pricelist_boxed_item_description "
+"d-block mt-2 pe-5 text-muted o_small\"> \n"
+"        Мягкая и эффективная услуга по чистке зубов, которая способствует "
+"здоровью полости рта, обеспечивая при этом комфорт вашему питомцу.\n"
+"    </span>"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.contactus
 msgid ""
 "<span class=\"s_website_form_label_content\">Details of your enquiry</span>\n"
-"                                      <span class=\"s_website_form_mark\"> *</span>"
+"                                      <span class=\"s_website_form_mark\"> "
+"*</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">Детали вашего запроса</span>\n"
+"                                      <span class=\"s_website_form_mark\"> "
+"*</span>"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.contactus
@@ -178,21 +256,30 @@ msgstr "<span class=\"s_website_form_label_content\">Номер телефона
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.contactus
 msgid ""
 "<span class=\"s_website_form_label_content\">Purpose of the visit</span>\n"
-"                                      <span class=\"s_website_form_mark\"> *</span>"
+"                                      <span class=\"s_website_form_mark\"> "
+"*</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">Цель визита</span>\n"
+"                                      <span class=\"s_website_form_mark\"> "
+"*</span>"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.contactus
 msgid ""
 "<span class=\"s_website_form_label_content\">Subject</span>\n"
-"                                      <span class=\"s_website_form_mark\"> *</span>"
+"                                      <span class=\"s_website_form_mark\"> "
+"*</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">Тема</span>\n"
+"                                      <span class=\"s_website_form_mark\"> "
+"*</span>"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.contactus
 msgid ""
 "<span class=\"s_website_form_label_content\">Your Email</span>\n"
-"                                      <span class=\"s_website_form_mark\"> *</span>"
+"                                      <span class=\"s_website_form_mark\"> "
+"*</span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Ваш e-mail</span>\n"
 "                                      <span class=\"s_website_form_mark\"> "
@@ -202,17 +289,83 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.contactus
 msgid ""
 "<span class=\"s_website_form_label_content\">Your Name</span>\n"
-"                                      <span class=\"s_website_form_mark\"> *</span>"
+"                                      <span class=\"s_website_form_mark\"> "
+"*</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">Ваше имя</span>\n"
+"                                      <span class=\"s_website_form_mark\"> "
+"*</span>"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid ""
 "<strong>\n"
-"            Use the Sign App to manage consent forms, employee contracts, and more !<br/>\n"
+"            Use the Sign App to manage consent forms, employee contracts, "
+"and more !<br/>\n"
 "            <br/>\n"
 "        </strong>"
 msgstr ""
+"<strong>\n"
+"            Используйте модуль Подпись для управления формами согласия, "
+"договорами с сотрудниками и многим другим!<br/>\n"
+"            <br/>\n"
+"        </strong>"
+
+#. module: veterinary_clinic
+#: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
+msgid ""
+"<strong><b>Appointments App</b>:</strong> Streamline the booking process for "
+"pet owners, allowing them to\n"
+"                schedule check-ups and surgeries online 24/7.<br/>"
+msgstr ""
+"<strong><b>Модуль Встречи</b>:</strong> Оптимизируйте процесс записи для "
+"владельцев животных, позволяя им\n"
+"                планировать осмотры и операции онлайн в режиме 24/7.<br/>"
+
+#. module: veterinary_clinic
+#: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
+msgid ""
+"<strong><b>Invoicing App</b>:</strong> Simplify your finances by "
+"automatically generating invoices from\n"
+"                completed consultations and product sales.<br/>"
+msgstr ""
+"<strong><b>Модуль Выставление счетов</b>:</strong> Упростите финансы, "
+"автоматически создавая счета на основе\n"
+"                проведенных консультаций и проданных товаров.<br/>"
+
+#. module: veterinary_clinic
+#: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
+msgid ""
+"<strong><b>Marketing App</b>: </strong>Engage your community with targeted "
+"email campaigns for vaccination\n"
+"                reminders and seasonal health check-ups.<br/>"
+msgstr ""
+"<strong><b>Модуль Маркетинг</b>: </strong>Взаимодействуйте с вашим "
+"сообществом с помощью целевых e-mail кампаний для напоминаний\n"
+"                о вакцинации и сезонных медосмотрах.<br/>"
+
+#. module: veterinary_clinic
+#: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
+msgid ""
+"<strong><b>Point of Sale App</b>: </strong>Facilitate a smooth checkout "
+"experience by linking consultations and\n"
+"                product sales directly to your payment terminal.<br/>"
+msgstr ""
+"<strong><b>Модуль POS</b>: </strong>Обеспечьте удобную оплату, связывая "
+"консультации и\n"
+"                продажи товаров напрямую с вашим платежным терминалом.<br/>"
+
+#. module: veterinary_clinic
+#: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
+msgid ""
+"<strong><b>Website App</b>: </strong>Build a professional online presence to "
+"market your clinic, share health\n"
+"                tips, and attract new pet owners.<br/>"
+msgstr ""
+"<strong><b>Модуль Вебсайт</b>: </strong>Создайте профессиональный имидж в "
+"сети для продвижения вашей клиники, делитесь\n"
+"                советами по здоровью и привлекайте новых владельцев домашних "
+"животных.<br/>"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -223,16 +376,12 @@ msgstr ""
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid ""
-"<strong>Appointments</strong> 📅: Let clients self‑book visits, synchronize "
-"calendars, and automate confirmation emails."
-msgstr ""
-
-#. module: veterinary_clinic
-#: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-msgid ""
 "<strong>Attachments</strong> store lab results, X‑rays, or referral letters "
 "alongside notes in the <strong>Lab Tests &amp; Diagnostics tab</strong>."
 msgstr ""
+"<strong>Вложения</strong> хранят результаты анализов, рентгеновские снимки "
+"или направления вместе с заметками на вкладке <strong>Лабораторные анализы и "
+"диагностика</strong>."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -240,6 +389,9 @@ msgid ""
 "<strong>Automate reminders.</strong> SMS or email nudges cut no‑shows and "
 "keep vaccinations on schedule."
 msgstr ""
+"<strong>Автоматизируйте напоминания.</strong> СМС или напоминания по "
+"электронной почте сокращают количество пропусков и помогают соблюдать график "
+"вакцинации."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -247,18 +399,20 @@ msgid ""
 "<strong>Automatic confirmations &amp; reminders</strong> via email/SMS keep "
 "owners informed."
 msgstr ""
+"<strong>Автоматические подтверждения и напоминания</strong> по электронной "
+"почте/СМС держат владельцев в курсе."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid ""
 "<strong>Barcode &amp; RFID</strong> scanning speeds up product selection."
-msgstr ""
+msgstr "Сканирование <strong>штрихкодов и RFID</strong> ускоряет выбор товаров."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.custom_appointment_info_heading
-msgid ""
-"<strong>Book an Appointment – Compassionate Care for Your Pets</strong>"
+msgid "<strong>Book an Appointment – Compassionate Care for Your Pets</strong>"
 msgstr ""
+"<strong>Запишитесь на прием – заботливый уход за вашими питомцами</strong>"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -266,25 +420,24 @@ msgid ""
 "<strong>Booking widget</strong> automatically links to the Appointment app "
 "for real‑time availability."
 msgstr ""
+"<strong>Виджет бронирования</strong> автоматически связывается с модулем "
+"Встречи для отображения доступности в реальном времени."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid "<strong>Buffer times</strong> between consults prevent overruns."
 msgstr ""
+"<strong>Запас времени</strong> между приемами предотвращает накладки в "
+"расписании и помогает специалистам соблюдать график."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid ""
-"<strong>Consultations</strong> 🩺: Log clinical notes, vitals, diagnoses, and"
-" treatments in structured veterinary encounter forms."
+"<strong>Custom fields</strong> capture weight, insurance, behavior notes, or "
+"anything you need."
 msgstr ""
-
-#. module: veterinary_clinic
-#: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-msgid ""
-"<strong>Custom fields</strong> capture weight, insurance, behavior notes, or"
-" anything you need."
-msgstr ""
+"<strong>Пользовательские поля</strong> позволяют фиксировать вес, страховку, "
+"заметки о поведении или любую необходимую информацию."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -292,6 +445,8 @@ msgid ""
 "<strong>Drag‑and‑drop builder</strong> to create service, team, and FAQ "
 "pages in minutes."
 msgstr ""
+"<strong>Конструктор с функцией перетаскивания</strong> для создания страниц "
+"услуг, команд и часто задаваемых вопросов за считанные минуты."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -299,6 +454,8 @@ msgid ""
 "<strong>Electronic signatures</strong> accelerate acceptance for surgeries "
 "or long‑term care plans."
 msgstr ""
+"<strong>Электронные подписи</strong> ускоряют согласие на операции или "
+"долгосрочные планы лечения."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -306,18 +463,23 @@ msgid ""
 "<strong>Experiment ! </strong>Did you know you can create a copy of your "
 "database to try things out ? Simply go to"
 msgstr ""
+"<strong>Экспериментируйте! </strong>Знаете ли вы, что можете создать копию "
+"своей базы данных для тестов? Просто перейдите в"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid ""
-"<strong>Live chat</strong> answers visitor questions and captures leads "
-"24/7."
+"<strong>Live chat</strong> answers visitor questions and captures leads 24/7."
 msgstr ""
+"С помощью модуля <strong>Онлайн-чат</strong> вы можете отвечать на вопросы "
+"посетителей и собирать лиды 24/7."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid "<strong>Lot/serial tracking</strong> meets pharmaceutical compliance."
 msgstr ""
+"<strong>Отслеживание партий/серийных номеров</strong> соответствует "
+"фармацевтическим нормам."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -325,6 +487,8 @@ msgid ""
 "<strong>Multiple payment methods</strong> (cash, card, vouchers) in one "
 "screen."
 msgstr ""
+"<strong>Несколько методов оплаты</strong> (наличные, карта, ваучеры) в одном "
+"окне."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -332,6 +496,8 @@ msgid ""
 "<strong>Multiple units</strong> (dose, box, bottle) with automatic "
 "conversions."
 msgstr ""
+"<strong>Несколько единиц измерения</strong> (доза, упаковка, флакон) с "
+"автоматическим пересчетом."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -339,6 +505,8 @@ msgid ""
 "<strong>One‑click product picker</strong> adds vaccines or meds directly to "
 "the visit through the <strong>catalog</strong>."
 msgstr ""
+"<strong>Выбор товаров в один клик</strong> добавляет вакцины или лекарства "
+"непосредственно в запись о визите через <strong>каталог</strong> ."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -346,19 +514,25 @@ msgid ""
 "<strong>One‑click quotation</strong> from consultation converts to invoice "
 "or POS ticket."
 msgstr ""
+"Функция <strong>Коммерческое предложение в один клик</strong> позволяет "
+"преобразовать данные консультации в счет или POS-чек."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid ""
 "<strong>Online calendar</strong> shows real‑time slots for each vet or room."
 msgstr ""
+"<strong>Онлайн-календарь</strong> показывает свободные слоты в реальном "
+"времени для каждого ветеринара или кабинета."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid ""
-"<strong>Our Appointment app enables self‑service booking, calendar sync, and"
-" effortless follow‑ups.</strong>"
+"<strong>Our Appointment app enables self‑service booking, calendar sync, and "
+"effortless follow‑ups.</strong>"
 msgstr ""
+"Наш модуль <strong>Встречи</strong> позволяет осуществлять самостоятельное "
+"бронирование, синхронизацию календаря и легко отслеживать встречи."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -366,13 +540,18 @@ msgid ""
 "<strong>Our Consultation sheets record symptoms, vitals, and actions while "
 "keeping the vet’s workflow fluid.</strong>"
 msgstr ""
+"<strong>Наши листы консультаций фиксируют симптомы, показатели "
+"жизнедеятельности и действия, сохраняя плавность рабочего процесса "
+"ветеринара.</strong>"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid ""
-"<strong>Our POS lets receptionists scan, split bills, and print "
-"receipts—while stock levels adjust instantly.</strong>"
+"<strong>Our POS lets receptionists scan, split bills, and print receipts—"
+"while stock levels adjust instantly.</strong>"
 msgstr ""
+"<strong>Наша POS-система позволяет администраторам сканировать, делить счета "
+"и печатать чеки – при этом уровень запасов корректируется мгновенно.</strong>"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -380,6 +559,9 @@ msgid ""
 "<strong>Our Pet records feature centralizes identity, vaccination status, "
 "and allergies for safer treatments.</strong>"
 msgstr ""
+"<strong>Наша функция «Карточки питомцев» централизует данные об "
+"идентификации, статусе вакцинации и аллергиях, что обеспечивает безопасность "
+"при назначении лечения.</strong>"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -387,6 +569,8 @@ msgid ""
 "<strong>Our Product management keeps pricing, barcodes, and expiry dates "
 "accurate across sales channels.</strong>"
 msgstr ""
+"<strong>Наша система управление товарами обеспечивает точность цен, "
+"штрихкодов и сроков годности по всем каналам продаж.</strong>"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -394,6 +578,8 @@ msgid ""
 "<strong>Our Sales app groups treatments, products, and services into neat "
 "documents owners trust.</strong>"
 msgstr ""
+"<strong>Наш модуль Продажи объединяет процедуры, товары и услуги в "
+"аккуратные документы, которым доверяют владельцы.</strong>"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -401,13 +587,17 @@ msgid ""
 "<strong>Our Website app lets you publish pages, embed booking widgets, and "
 "convert visitors into appointments.</strong>"
 msgstr ""
+"Наш <strong>модуль Вебсайт</strong> позволяет публиковать страницы, внедрять "
+"виджеты бронирования и превращать посетителей в клиентов."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid ""
-"<strong>Owner relationship</strong> connects contact details for billing and"
-" reminders."
+"<strong>Owner relationship</strong> connects contact details for billing and "
+"reminders."
 msgstr ""
+"<strong>Отношения с владельцем</strong> связывают контактные данные для "
+"выставления счетов и напоминаний."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -415,20 +605,8 @@ msgid ""
 "<strong>Payment terms</strong> handle deposits, installments, or immediate "
 "pay."
 msgstr ""
-
-#. module: veterinary_clinic
-#: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-msgid ""
-"<strong>Pets</strong> 🐾: Record pet profiles, species, breed, vaccines, and "
-"owner links for personalized care."
-msgstr ""
-
-#. module: veterinary_clinic
-#: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-msgid ""
-"<strong>Point of Sale</strong> 💳: Collect payments at reception with barcode"
-" scanning, split bills, and multiple tender types."
-msgstr ""
+"<strong>Условия оплаты</strong> позволяют работать с депозитами, рассрочками "
+"или немедленной оплатой."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -436,13 +614,8 @@ msgid ""
 "<strong>Price lists &amp; promos</strong> support wellness plans or "
 "discounted packages."
 msgstr ""
-
-#. module: veterinary_clinic
-#: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-msgid ""
-"<strong>Products</strong> 🛒: Maintain medicines, vaccines, food, and "
-"services with prices, stock, and barcodes."
-msgstr ""
+"<strong>Прайс-листы и акции</strong>: Поддержка велнес-планов и пакетных "
+"предложений со скидкой."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -450,12 +623,16 @@ msgid ""
 "<strong>Real‑time sync</strong> with accounting and inventory for zero "
 "re‑entry."
 msgstr ""
+"<strong>Синхронизация в режиме реального времени</strong> с бухгалтерским "
+"учетом и складом для полного исключения повторного ввода данных."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid ""
 "<strong>Reorder rules</strong> trigger purchase orders before you run out."
 msgstr ""
+"<strong>Правила повторного заказа</strong> инициируют заказы на закупку, "
+"прежде чем товары закончатся."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -463,6 +640,8 @@ msgid ""
 "<strong>Revenue reporting</strong> reveals top services, margins, and "
 "seasonal trends."
 msgstr ""
+"<strong>Отчет о доходах</strong> показывает ведущие услуги, маржу и сезонные "
+"тенденции."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -470,13 +649,8 @@ msgid ""
 "<strong>SEO tools</strong> improve ranking so local pet owners find you "
 "first."
 msgstr ""
-
-#. module: veterinary_clinic
-#: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-msgid ""
-"<strong>Sales</strong> 📝: Generate quotations and invoices from consultation"
-" products, tracking revenue easily."
-msgstr ""
+"<strong>SEO-инструменты</strong> улучшают позиции сайта в поиске, привлекая "
+"больше клиентов из вашего региона."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -484,6 +658,8 @@ msgid ""
 "<strong>Staff agenda integration</strong> syncs with Google, Outlook, and "
 "mobile calendars."
 msgstr ""
+"<strong>Интеграция с рабочим графиком сотрудников</strong> синхронизируется "
+"с Google, Outlook и мобильными календарями."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -492,6 +668,9 @@ msgid ""
 "appointments first, then add your products to the mix, before managing your "
 "consultations."
 msgstr ""
+"<strong>Начните с малого, развивайтесь постепенно.</strong> Настройте свой "
+"вебсайт и запись на прием в первую очередь, затем добавьте свои товары, "
+"прежде чем переходить к управлению консультациями."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -499,48 +678,52 @@ msgid ""
 "<strong>Template fields </strong>(vaccines, agression level, observed "
 "ilnesses, etc.) speed up SOAP or problem‑oriented entries."
 msgstr ""
+"<strong>Поля шаблона</strong> (вакцины, уровень агрессии, наблюдаемые "
+"заболевания и т. д.) ускоряют ввод данных по методу SOAP или проблемно-"
+"ориентированные протоколы."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid ""
-"<strong>The chatter </strong>can be used to track ongoing discussion about a"
-" pet's consultation for record keeping."
+"<strong>The chatter </strong>can be used to track ongoing discussion about a "
+"pet's consultation for record keeping."
 msgstr ""
+"<strong>Чат</strong> можно использовать для отслеживания текущих обсуждений "
+"по консультации питомца для ведения записей."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid ""
 "<strong>Touch interface</strong> optimized for tablets or desktop stations."
 msgstr ""
+"<strong>Сенсорный интерфейс</strong>, оптимизированный для планшетов или "
+"настольных компьютеров."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid ""
 "<strong>Unique pet IDs</strong> with breed, color, microchip, and photo."
 msgstr ""
+"<strong>Уникальные идентификаторы домашних животных</strong> с указанием "
+"породы, окраса, микрочипа и фотографии."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid ""
 "<strong>Vaccination timeline</strong> shows past and due shots at a glance."
 msgstr ""
+"<strong>График вакцинации</strong> позволяет сразу увидеть прошедшие и "
+"предстоящие прививки."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid "<strong>Visit our E-Learning platform </strong>on"
-msgstr ""
-
-#. module: veterinary_clinic
-#: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-msgid ""
-"<strong>Website</strong> 🌐: Publish services online and capture appointment "
-"requests through engaging, responsive pages."
-msgstr ""
+msgstr "<strong>Посетите нашу платформу электронного обучения </strong>на"
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_1
 msgid "Abyssinian"
-msgstr ""
+msgstr "Абиссинская"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.active_illnesses_model_field
@@ -554,89 +737,89 @@ msgstr "Активный"
 #: model:crm.tag,name:veterinary_clinic.crm_tag_4
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.contactus
 msgid "Active treatment"
-msgstr ""
+msgstr "Активное лечение"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_activity_level_exercise_pets_line_model_field
 msgid "Activity level & Exercise"
-msgstr ""
+msgstr "Уровень активности и упражнения"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_aggression_level_pets_line_field
 #: model:ir.model.fields,field_description:veterinary_clinic.x_aggression_level_pets_model_field
 msgid "Aggression level"
-msgstr ""
+msgstr "Уровень агрессии"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields.selection,name:veterinary_clinic.x_aggression_level_pets_model_field_selection_aggressive
 msgid "Aggressive"
-msgstr ""
+msgstr "Агрессивный"
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_2
 msgid "American shorthair"
-msgstr ""
+msgstr "Американская короткошерстная"
 
 #. module: veterinary_clinic
 #: model:appointment.question,name:veterinary_clinic.appointment_question_2
 msgid "Animal species"
-msgstr ""
+msgstr "Вид"
 
 #. module: veterinary_clinic
 #: model:appointment.answer,name:veterinary_clinic.appointment_answer_1
 msgid "Annual Checkup / General Consultation"
-msgstr ""
+msgstr "Ежегодный осмотр / Общая консультация"
 
 #. module: veterinary_clinic
 #: model:product.template,name:veterinary_clinic.product_template_2
 msgid "Antibiotics"
-msgstr ""
+msgstr "Антибиотики"
 
 #. module: veterinary_clinic
 #: model:product.template,name:veterinary_clinic.product_template_5
 msgid "Antifugal"
-msgstr ""
+msgstr "Противогрибковые"
 
 #. module: veterinary_clinic
 #: model:product.template,name:veterinary_clinic.product_template_4
 msgid "Antiparasitic"
-msgstr ""
+msgstr "Противопаразитарные"
 
 #. module: veterinary_clinic
 #: model:product.template,name:veterinary_clinic.product_template_7
 msgid "Antiviral for Dogs"
-msgstr ""
+msgstr "Противовирусное для собак"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.contactus
 msgid "Apply to have your pet become a patient with us.&amp;nbsp;"
-msgstr ""
+msgstr "Подайте заявку, чтобы ваш питомец стал нашим пациентом.&amp;nbsp;"
 
 #. module: veterinary_clinic
 #: model:base.automation,name:veterinary_clinic.appointment_sequence_automation_rule
 msgid "Appointment Sequence"
-msgstr ""
+msgstr "Последовательность записи"
 
 #. module: veterinary_clinic
 #: model:ir.actions.server,name:veterinary_clinic.action_server_appointment_sequence
 msgid "Appointment Sequence server action"
-msgstr ""
+msgstr "Действие сервера «Последовательность записи»"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_appointment_date_pets_line_field
 msgid "Appointment date"
-msgstr ""
+msgstr "Дата приема"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_pets
 msgid "Appointment log"
-msgstr ""
+msgstr "Журнал посещений"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_pets
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_pets_line_model
 msgid "Appointment summary"
-msgstr ""
+msgstr "Сводка приема"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_x_many2many_field_calendar_event_count_pets_model_field
@@ -647,12 +830,12 @@ msgstr "Встречи"
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid "Appointments Documentation"
-msgstr ""
+msgstr "Документация по модулю Встречи"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid "Appointments 📅"
-msgstr ""
+msgstr "Встречи 📅"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.search_view_for_x_illnesses_default
@@ -665,7 +848,7 @@ msgstr "Архивировано"
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_8
 msgid "Arthritis"
-msgstr ""
+msgstr "Артрит"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_avatar_image_pets_model_field
@@ -680,37 +863,37 @@ msgstr "Бэклог"
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_3
 msgid "Bengal"
-msgstr ""
+msgstr "Бенгальская"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_bloodwork_pets_line_field
 msgid "Bloodwork"
-msgstr ""
+msgstr "Анализ крови"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_bloodwork_filename_pets_line_field
 msgid "Bloodwork "
-msgstr ""
+msgstr "Анализ крови "
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_4
 msgid "Bombay"
-msgstr ""
+msgstr "Бомбейская"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
 msgid "Book a veterinary appointment"
-msgstr ""
+msgstr "Записаться на прием к ветеринару"
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_23
 msgid "Border Collie"
-msgstr ""
+msgstr "Бордер-колли"
 
 #. module: veterinary_clinic
 #: model:x_vaccines,x_name:veterinary_clinic.x_vaccines_4
 msgid "Bordetella (Kennel Cough)"
-msgstr ""
+msgstr "Бордетелла (собачий кашель)"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_breed_pets_line_field
@@ -718,28 +901,28 @@ msgstr ""
 #: model:ir.model.fields,field_description:veterinary_clinic.x_name_species_line_model_field
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_species_default
 msgid "Breed"
-msgstr ""
+msgstr "Порода"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_race_species_model_field
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_species_default
 msgid "Breeds"
-msgstr ""
+msgstr "Породы"
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_5
 msgid "British shorthair"
-msgstr ""
+msgstr "Британская короткошерстная"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
 msgid "Building connections with pets"
-msgstr ""
+msgstr "Устанавливая контакт с питомцами"
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_6
 msgid "Burmese"
-msgstr ""
+msgstr "Бурманская"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -748,22 +931,25 @@ msgid ""
 "invoiced) products to the consultation, the person in charge of collecting "
 "payments gets all the information they need to finalize the transaction."
 msgstr ""
+"Нажав кнопку «Каталог» во время консультации и добавив товары (подлежащие "
+"оплате) к консультации, ответственный за сбор платежей получает всю "
+"необходимую информацию для завершения транзакции."
 
 #. module: veterinary_clinic
 #: model:x_vaccines,x_name:veterinary_clinic.x_vaccines_6
 msgid "Canine Influenza (Dog Flu)"
-msgstr ""
+msgstr "Собачий грипп"
 
 #. module: veterinary_clinic
 #: model:appointment.answer,name:veterinary_clinic.appointment_answer_6
 #: model:x_species,x_name:veterinary_clinic.x_species_1
 msgid "Cat"
-msgstr ""
+msgstr "Кошка"
 
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_10
 msgid "Cat flu"
-msgstr ""
+msgstr "Кошачий грипп"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_pets_line_model
@@ -773,7 +959,7 @@ msgstr "Каталог"
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_15
 msgid "Chihuahua"
-msgstr ""
+msgstr "Чихуахуа"
 
 #. module: veterinary_clinic
 #: model:sign.template,redirect_url_text:veterinary_clinic.sign_template_2
@@ -784,12 +970,12 @@ msgstr "Закрыть"
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_coat_condition_pets_line_model_field
 msgid "Coat condition"
-msgstr ""
+msgstr "Состояние шерсти"
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_24
 msgid "Cocker Spaniel"
-msgstr ""
+msgstr "Кокер-спаниель"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.color_vaccines_tags_model_field
@@ -799,12 +985,12 @@ msgstr "Цвет"
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
 msgid "Compassion"
-msgstr ""
+msgstr "Сострадание"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
 msgid "Compassionate care for <br/>your furry friends"
-msgstr ""
+msgstr "Заботливый уход за <br/>вашими пушистыми друзьями"
 
 #. module: veterinary_clinic
 #: model:ir.ui.menu,name:veterinary_clinic.menu_pets_configuration
@@ -814,30 +1000,30 @@ msgstr "Конфигурация"
 #. module: veterinary_clinic
 #: model:appointment.type,name:veterinary_clinic.appointment_type_1
 msgid "Consultation - Checkup"
-msgstr ""
+msgstr "Консультация – Осмотр"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_name_pets_line_field
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_pets
 msgid "Consultation ID"
-msgstr ""
+msgstr "Идентификатор запроса"
 
 #. module: veterinary_clinic
 #: model:ir.actions.act_window,name:veterinary_clinic.consultations_pet_line_action_window
 #: model:ir.ui.menu,name:veterinary_clinic.menu_pets_consultations
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_pets
 msgid "Consultations"
-msgstr ""
+msgstr "Консультации"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid "Consultations 🩺"
-msgstr ""
+msgstr "Консультации 🩺"
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_7
 msgid "Cornish Rex"
-msgstr ""
+msgstr "Корниш-рекс"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.search_view_for_x_pets_default
@@ -848,7 +1034,7 @@ msgstr "Создано:"
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.created_by_field
 msgid "Created by "
-msgstr ""
+msgstr "Создано "
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.search_view_for_x_pets_default
@@ -863,12 +1049,12 @@ msgstr "Валюта"
 #. module: veterinary_clinic
 #: model:x_vaccines,x_name:veterinary_clinic.x_vaccines_2
 msgid "DHPP (Distemper, Hepatitis, Parvovirus, Parainfluenza)"
-msgstr ""
+msgstr "DHPP (чумка, гепатит, парвовирус, парагрипп)"
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_18
 msgid "Dachshund"
-msgstr ""
+msgstr "Такса"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_date_of_birth_pets_model_field
@@ -878,29 +1064,29 @@ msgstr "Дата рождения"
 #. module: veterinary_clinic
 #: model:ir.model.fields.selection,name:veterinary_clinic.x_aggression_level_pets_model_field_selection_defensive
 msgid "Defensive"
-msgstr ""
+msgstr "Оборонительный"
 
 #. module: veterinary_clinic
 #: model:product.attribute.value,name:veterinary_clinic.product_attribute_value_3
 msgid "Dental Extraction"
-msgstr ""
+msgstr "Удаление зуба"
 
 #. module: veterinary_clinic
 #: model:appointment.answer,name:veterinary_clinic.appointment_answer_3
 #: model:crm.tag,name:veterinary_clinic.crm_tag_3
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.contactus
 msgid "Dental checkup"
-msgstr ""
+msgstr "Стоматологический осмотр"
 
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_9
 msgid "Dental disease"
-msgstr ""
+msgstr "Стоматологические заболевания"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_dental_health_pets_line_model_field
 msgid "Dental health"
-msgstr ""
+msgstr "Состояние зубов"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.description_illnesse_model_field
@@ -922,23 +1108,23 @@ msgstr "Детали"
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_8
 msgid "Devon Rex"
-msgstr ""
+msgstr "Девон-рекс"
 
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_14
 msgid "Diabetes"
-msgstr ""
+msgstr "Диабет"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_diet_nutrition_pets_line_model_field
 msgid "Diet & Nutrition"
-msgstr ""
+msgstr "Диета и питание"
 
 #. module: veterinary_clinic
 #: model:product.attribute.value,name:veterinary_clinic.product_attribute_value_6
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_2
 msgid "Distemper"
-msgstr ""
+msgstr "Чума"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -949,17 +1135,17 @@ msgstr "Хотите продолжить?"
 #: model:appointment.answer,name:veterinary_clinic.appointment_answer_7
 #: model:x_species,x_name:veterinary_clinic.x_species_2
 msgid "Dog"
-msgstr ""
+msgstr "Собака"
 
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_5
 msgid "Ear Infenction"
-msgstr ""
+msgstr "Ушная инфекция"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_ear_health_pets_line_model_field
 msgid "Ear health"
-msgstr ""
+msgstr "Состояние ушей"
 
 #. module: veterinary_clinic
 #: model_terms:appointment.type,message_intro:veterinary_clinic.appointment_type_1
@@ -968,11 +1154,15 @@ msgid ""
 "your pet happy and healthy. Whether it’s a routine check-up, vaccinations, "
 "or specialized care, we’re here to provide expert, compassionate service."
 msgstr ""
+"Легко запишитесь на прием к нашей опытной ветеринарной команде, чтобы ваш "
+"питомец оставался счастливым и здоровым. Будь то плановый осмотр, вакцинация "
+"или специализированный уход, мы всегда готовы оказать квалифицированную "
+"помощь."
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_9
 msgid "Egyptian Mau"
-msgstr ""
+msgstr "Египетская мау"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
@@ -980,51 +1170,53 @@ msgid ""
 "Enhance your pet's health with our range of expert veterinary services and "
 "products. Tailored for every breed and size."
 msgstr ""
+"Улучшите здоровье вашего питомца с помощью нашего спектра экспертных "
+"ветеринарных услуг и товаров. Адаптировано для любой породы и размера."
 
 #. module: veterinary_clinic
 #: model:x_vaccines,x_name:veterinary_clinic.x_vaccines_12
 msgid "Equine Influenza"
-msgstr ""
+msgstr "Грипп лошадей"
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_25
 msgid "European Shorthair"
-msgstr ""
+msgstr "Европейская короткошерстная"
 
 #. module: veterinary_clinic
 #: model:x_vaccines,x_name:veterinary_clinic.x_vaccines_7
 msgid "FVRCP (Feline Viral Rhinotracheitis, Calicivirus, Panleukopenia)"
-msgstr ""
+msgstr "FVRCP (ринотрахеит, калицивироз, панлейкопения кошек)"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_fecal_exam_results_filename_pets_line_model_field
 msgid "Fecal Exam"
-msgstr ""
+msgstr "Анализ кала"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_fecal_exam_results_pets_line_model_field
 msgid "Fecal exam results"
-msgstr ""
+msgstr "Результаты анализа кала"
 
 #. module: veterinary_clinic
 #: model:x_vaccines,x_name:veterinary_clinic.x_vaccines_9
 msgid "Feline Immunodeficiency Virus (FIV)"
-msgstr ""
+msgstr "Вирус иммунодефицита кошек (FIV)"
 
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_12
 msgid "Feline Immunodeficiency virus"
-msgstr ""
+msgstr "Вирус иммунодефицита кошек"
 
 #. module: veterinary_clinic
 #: model:x_vaccines,x_name:veterinary_clinic.x_vaccines_8
 msgid "Feline Leukemia (FeLV)"
-msgstr ""
+msgstr "Кошачья лейкемия (FeLV)"
 
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_11
 msgid "Feline Leukemia Virus"
-msgstr ""
+msgstr "Вирус лейкемии кошек"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields.selection,name:veterinary_clinic.x_gender_pets_model_field_selection_female
@@ -1035,17 +1227,17 @@ msgstr "Женский"
 #: model:crm.tag,name:veterinary_clinic.crm_tag_2
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.contactus
 msgid "First Visit"
-msgstr ""
+msgstr "Первый визит"
 
 #. module: veterinary_clinic
 #: model:appointment.answer,name:veterinary_clinic.appointment_answer_4
 msgid "First visit"
-msgstr ""
+msgstr "Первый визит"
 
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_17
 msgid "Fleas"
-msgstr ""
+msgstr "Блохи"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
@@ -1055,20 +1247,23 @@ msgstr "Фокус"
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_17
 msgid "French Bulldog"
-msgstr ""
+msgstr "Французский бульдог"
 
 #. module: veterinary_clinic
 #: model:product.attribute,name:veterinary_clinic.product_attribute_11
 msgid "Frequency and/or dosage"
-msgstr ""
+msgstr "Частота и/или дозировка"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid ""
-"From the Point of Sale app, the person in charge of payments can simply load"
-" any Sales Order, and allow for the pet owner to pay directly using your "
+"From the Point of Sale app, the person in charge of payments can simply load "
+"any Sales Order, and allow for the pet owner to pay directly using your "
 "connected bank terminal."
 msgstr ""
+"В модуле POS ответственный за платежи может просто загрузить любой Заказ на "
+"продажу и позволить владельцу питомца оплатить его напрямую с помощью "
+"подключенного банковского терминала."
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_gender_pets_model_field
@@ -1079,17 +1274,17 @@ msgstr "Пол"
 #: model:ir.model.fields,field_description:veterinary_clinic.x_general_remarks_pets_line_field
 #: model:ir.model.fields,field_description:veterinary_clinic.x_general_remarks_pets_model_field
 msgid "General Remarks"
-msgstr ""
+msgstr "Общие замечания"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_pets_line_model
 msgid "General observations"
-msgstr ""
+msgstr "Общие наблюдения"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_pets
 msgid "General remarks"
-msgstr ""
+msgstr "Общие замечания"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.contactus
@@ -1099,59 +1294,66 @@ msgstr "Свяжитесь с нами"
 #. module: veterinary_clinic
 #: model:x_species,x_name:veterinary_clinic.x_species_3
 msgid "Hamster"
-msgstr ""
+msgstr "Хомяк"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid ""
-"Handle your <strong>HR needs</strong> through Odoo's suite of apps: from <strong>Time Off</strong> for holidays, to <strong>Expenses </strong>for small company expenses, to <strong>Sign</strong> for employee contracts and\n"
+"Handle your <strong>HR needs</strong> through Odoo's suite of apps: from "
+"<strong>Time Off</strong> for holidays, to <strong>Expenses </strong>for "
+"small company expenses, to <strong>Sign</strong> for employee contracts and\n"
 "            <strong>Fleet </strong>for company cars."
 msgstr ""
+"Решайте свои <strong>кадровые задачи</strong> с помощью набора модулей Odoo: "
+"<strong>модуль Отпуска</strong> для оформления отдыха, <strong>модуль "
+"Расходы</strong> для мелких корпоративных трат, <strong>модуль Подпись</"
+"strong> для договоров с сотрудниками и\n"
+"            <strong>модуль Автопарк</strong> для служебных автомобилей."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_pets
 msgid "Handling instructions"
-msgstr ""
+msgstr "Инструкции по обращению"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_heart_rate_pets_line_model_field
 msgid "Heart rate"
-msgstr ""
+msgstr "Частота сердечных сокращений"
 
 #. module: veterinary_clinic
 #: model:product.attribute.value,name:veterinary_clinic.product_attribute_value_8
 msgid "Heartworm Prevention"
-msgstr ""
+msgstr "Профилактика дирофиляриоза"
 
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_6
 msgid "Heartworm disease"
-msgstr ""
+msgstr "Дирофиляриоз"
 
 #. module: veterinary_clinic
 #: model:x_pets,x_name:veterinary_clinic.x_pets_12
 msgid "Heloise"
-msgstr ""
+msgstr "Элоиза"
 
 #. module: veterinary_clinic
 #: model:x_species,x_name:veterinary_clinic.x_species_5
 msgid "Horse"
-msgstr ""
+msgstr "Лошадь"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
 msgid "How we care for your pets"
-msgstr ""
+msgstr "Как мы заботимся о ваших питомцах"
 
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_15
 msgid "Hyperthyroidism"
-msgstr ""
+msgstr "Гипертиреоз"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_pets
 msgid "Identifiers"
-msgstr ""
+msgstr "Идентификаторы"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -1169,7 +1371,7 @@ msgstr ""
 #: model:ir.ui.menu,name:veterinary_clinic.menu_pets_illnesses
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_illnesses
 msgid "Illnesses"
-msgstr ""
+msgstr "Заболевания"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_pets
@@ -1179,12 +1381,12 @@ msgstr "Информация"
 #. module: veterinary_clinic
 #: model:sale.order.template.line,name:veterinary_clinic.sale_order_template_line_12
 msgid "Insert notes here"
-msgstr ""
+msgstr "Введите заметки здесь"
 
 #. module: veterinary_clinic
 #: model:sale.order.template.line,name:veterinary_clinic.sale_order_template_line_4
 msgid "Insert notes on treatment here"
-msgstr ""
+msgstr "Введите заметки о лечении здесь"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_instructions_pets_model_field
@@ -1194,12 +1396,12 @@ msgstr "Инструкции"
 #. module: veterinary_clinic
 #: model:ir.model.fields.selection,name:veterinary_clinic.x_reproductive_status_pets_model_field_selection_intact
 msgid "Intact"
-msgstr ""
+msgstr "Не кастрирован / Не стерилизована"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
 msgid "Join us and enjoy the pleasure of caring for your beloved pets."
-msgstr ""
+msgstr "Доверьте нам заботу о комфорте и здоровье ваших любимцев."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -1213,59 +1415,61 @@ msgstr ""
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid ""
-"Keep an eye on your company's performance through the <strong>Dashboard "
-"app</strong>."
+"Keep an eye on your company's performance through the <strong>Dashboard app</"
+"strong>."
 msgstr ""
+"Следите за эффективностью вашей компании через <strong>модуль Дашборд</"
+"strong>."
 
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_3
 msgid "Kennel Cough (Bordetella)"
-msgstr ""
+msgstr "Собачий кашель (бордетелла)"
 
 #. module: veterinary_clinic
 #: model:x_pets,x_name:veterinary_clinic.x_pets_6
 msgid "Ket"
-msgstr ""
+msgstr "Кет"
 
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_16
 msgid "Kidney disease"
-msgstr ""
+msgstr "Заболевание почек"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_pets_line_model
 msgid "Lab Tests & Diagnostics"
-msgstr ""
+msgstr "Лабораторные анализы и диагностика"
 
 #. module: veterinary_clinic
 #: model:x_vaccines,x_name:veterinary_clinic.x_vaccines_3
 msgid "Leptospirosis"
-msgstr ""
+msgstr "Лептоспироз"
 
 #. module: veterinary_clinic
 #: model:x_pets,x_name:veterinary_clinic.x_pets_2
 msgid "Lucie"
-msgstr ""
+msgstr "Люси"
 
 #. module: veterinary_clinic
 #: model:x_vaccines,x_name:veterinary_clinic.x_vaccines_5
 msgid "Lyme Disease"
-msgstr ""
+msgstr "Болезнь Лайма"
 
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_4
 msgid "Lyme disease"
-msgstr ""
+msgstr "Болезнь Лайма"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_mri_pets_line_model_field
 msgid "MRI"
-msgstr ""
+msgstr "МРТ"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_mri_filename_pets_line_model_field
 msgid "MRI "
-msgstr ""
+msgstr "МРТ "
 
 #. module: veterinary_clinic
 #: model:ir.model.fields.selection,name:veterinary_clinic.x_gender_pets_model_field_selection_male
@@ -1275,7 +1479,7 @@ msgstr "Мужской"
 #. module: veterinary_clinic
 #: model:x_pets,x_name:veterinary_clinic.x_pets_3
 msgid "Marcel"
-msgstr ""
+msgstr "Марсель"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
@@ -1285,28 +1489,28 @@ msgstr "Отметь разницу"
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_pets_line_model
 msgid "Meeting remarks"
-msgstr ""
+msgstr "Заметки по встрече"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_microchip_number_pets_line_model_field
 #: model:ir.model.fields,field_description:veterinary_clinic.x_microchip_number_pets_model_field
 msgid "Microchip number"
-msgstr ""
+msgstr "Номер микрочипа"
 
 #. module: veterinary_clinic
 #: model:x_pets,x_name:veterinary_clinic.x_pets_1
 msgid "Milos"
-msgstr ""
+msgstr "Милош"
 
 #. module: veterinary_clinic
 #: model:x_pets,x_name:veterinary_clinic.x_pets_8
 msgid "Mitsi"
-msgstr ""
+msgstr "Митси"
 
 #. module: veterinary_clinic
 #: model:x_pets,x_name:veterinary_clinic.x_pets_4
 msgid "Miyu"
-msgstr ""
+msgstr "Мию"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.contactus
@@ -1316,7 +1520,7 @@ msgstr "Компания"
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
 msgid "MyVeterinarian<br/>"
-msgstr ""
+msgstr "MyVeterinarian<br/>"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.name_vaccines_tags_model_field
@@ -1339,17 +1543,17 @@ msgstr "Имя..."
 #. module: veterinary_clinic
 #: model:ir.model.fields.selection,name:veterinary_clinic.x_reproductive_status_pets_model_field_selection_neutered
 msgid "Neutered"
-msgstr ""
+msgstr "Кастрирован"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid "Never lose, forget, or manually process signature requests anymore !"
-msgstr ""
+msgstr "Никаких забытых документов: автоматизируйте сбор подписей!"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_new_pet_model_field
 msgid "New pet"
-msgstr ""
+msgstr "Новый питомец"
 
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_20
@@ -1359,12 +1563,12 @@ msgstr "Нет"
 #. module: veterinary_clinic
 #: model:x_pets,x_name:veterinary_clinic.x_pets_5
 msgid "Nori"
-msgstr ""
+msgstr "Нори"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_nose_health_pets_line_model_field
 msgid "Nose health"
-msgstr ""
+msgstr "Состояние носа"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.notes_illnesses_model_field
@@ -1378,12 +1582,12 @@ msgstr "Заметки"
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_7
 msgid "Obesity"
-msgstr ""
+msgstr "Ожирение"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_observed_illnesses_pets_line_model_field
 msgid "Observed Illnesses"
-msgstr ""
+msgstr "Наблюдаемые заболевания"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -1391,16 +1595,19 @@ msgid ""
 "Odoo for Veterinarians is designed to enable you to manage all your "
 "operations fluently, from website to consultations, to accounting."
 msgstr ""
+"Решение для ветеринаров от Odoo разработано так, чтобы вы могли легко "
+"управлять всеми операциями: от вебсайта до консультаций и бухгалтерского "
+"учета."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid "Odoo.com"
-msgstr ""
+msgstr "Odoo.com"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid "Odoo.com/slides"
-msgstr ""
+msgstr "Odoo.com/slides"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -1410,12 +1617,12 @@ msgstr "Odoo.com/trial"
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_10
 msgid "Oriental Shorthair"
-msgstr ""
+msgstr "Ориентальная короткошерстная"
 
 #. module: veterinary_clinic
 #: model:product.attribute.value,name:veterinary_clinic.product_attribute_value_4
 msgid "Orthopedic Surgery"
-msgstr ""
+msgstr "Ортопедическая операция"
 
 #. module: veterinary_clinic
 #: model:appointment.answer,name:veterinary_clinic.appointment_answer_8
@@ -1425,7 +1632,7 @@ msgstr "Другое"
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
 msgid "Our Pet Care Collection"
-msgstr ""
+msgstr "Наша коллекция товаров для питомцев"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_owner_pets_model_field
@@ -1436,83 +1643,83 @@ msgstr "Собственник"
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_owner_email_pets_model_field
 msgid "Owner Email"
-msgstr ""
+msgstr "Электронная почта владельца"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_x_owner_x_pets_count_res_partner_field
 msgid "Owner count"
-msgstr ""
+msgstr "Количество владельцев"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_owner_phonemobile_pets_model_field
 msgid "Owner phone/mobile"
-msgstr ""
+msgstr "Телефон/мобильный владельца"
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_22
 msgid "Papillon"
-msgstr ""
+msgstr "Папильон"
 
 #. module: veterinary_clinic
 #: model:product.attribute.value,name:veterinary_clinic.product_attribute_value_7
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_1
 msgid "Parvovirus"
-msgstr ""
+msgstr "Парвовирус"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields.selection,name:veterinary_clinic.x_aggression_level_pets_model_field_selection_passive
 msgid "Passive"
-msgstr ""
+msgstr "Пассивный"
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_21
 msgid "Pekingese"
-msgstr ""
+msgstr "Пекинес"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_pet_sale_order_field
 msgid "Pet"
-msgstr ""
+msgstr "Питомец"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_pets_line_model
 msgid "Pet Details"
-msgstr ""
+msgstr "Детали питомца"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_pet_owner_pets_line_model_field
 msgid "Pet Owner"
-msgstr ""
+msgstr "Владелец питомца"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_x_pet_sale_order_count_pets_line_model_field
 msgid "Pet count"
-msgstr ""
+msgstr "Количество питомцев"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_pet_date_of_birth_pets_line_model_field
 msgid "Pet date of birth"
-msgstr ""
+msgstr "Дата рождения питомца"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_pet_id_sale_order_field
 msgid "Pet id"
-msgstr ""
+msgstr "Идентификатор питомца"
 
 #. module: veterinary_clinic
 #: model:appointment.answer,name:veterinary_clinic.appointment_answer_2
 msgid "Pet is sick"
-msgstr ""
+msgstr "Питомец болен"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_pet_name_pets_line_model_field
 msgid "Pet name"
-msgstr ""
+msgstr "Имя питомца"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.crm_lead_custom_kanban_view
 msgid "Pet owner"
-msgstr ""
+msgstr "Владелец питомца"
 
 #. module: veterinary_clinic
 #: model:ir.actions.act_window,name:veterinary_clinic.action_window_pets
@@ -1527,17 +1734,17 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.kanban_custom_view_for_x_pets
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.res_partner_custom_form_view
 msgid "Pets"
-msgstr ""
+msgstr "Питомцы"
 
 #. module: veterinary_clinic
 #: model:ir.actions.act_window,name:veterinary_clinic.pets_default_owner_window_action
 msgid "Pets "
-msgstr ""
+msgstr "Питомцы "
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid "Pets 🐾"
-msgstr ""
+msgstr "Питомцы 🐾"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_pets_line_model
@@ -1552,22 +1759,22 @@ msgstr "Изображение"
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid "Point of Sale 💳"
-msgstr ""
+msgstr "POS 💳"
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_16
 msgid "Pomeranian"
-msgstr ""
+msgstr "Померанский шпиц"
 
 #. module: veterinary_clinic
 #: model:project.task.type,name:veterinary_clinic.project_task_type_3
 msgid "Post Surgery"
-msgstr ""
+msgstr "После операции"
 
 #. module: veterinary_clinic
 #: model:project.task.type,name:veterinary_clinic.project_task_type_2
 msgid "Pre-Surgery"
-msgstr ""
+msgstr "Перед операцией"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_products_pets_line_model_field
@@ -1577,28 +1784,28 @@ msgstr "Товары"
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid "Products 🛒"
-msgstr ""
+msgstr "Товары 🛒"
 
 #. module: veterinary_clinic
 #: model:appointment.question,name:veterinary_clinic.appointment_question_1
 msgid "Purpose of the visit"
-msgstr ""
+msgstr "Цель визита"
 
 #. module: veterinary_clinic
 #: model:appointment.question,name:veterinary_clinic.appointment_question_5
 msgid "Questions or remarks"
-msgstr ""
+msgstr "Вопросы или замечания"
 
 #. module: veterinary_clinic
 #: model:x_species,x_name:veterinary_clinic.x_species_4
 msgid "Rabbit"
-msgstr ""
+msgstr "Кролик"
 
 #. module: veterinary_clinic
 #: model:product.attribute.value,name:veterinary_clinic.product_attribute_value_5
 #: model:x_vaccines,x_name:veterinary_clinic.x_vaccines_1
 msgid "Rabies"
-msgstr ""
+msgstr "Бешенство"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -1608,47 +1815,47 @@ msgstr "Свяжитесь с нами"
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
 msgid "Reaching new heights in pet care"
-msgstr ""
+msgstr "Достигая новых высот в уходе за домашними животными"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields.selection,name:veterinary_clinic.x_aggression_level_pets_model_field_selection_reactive
 msgid "Reactive"
-msgstr ""
+msgstr "Реактивный"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_pets_line_model
 msgid "Rehabilitation or Physical Therapy Plan"
-msgstr ""
+msgstr "План реабилитации или физиотерапии"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid "Reminders can be managed automatically"
-msgstr ""
+msgstr "Напоминаниями можно управлять автоматически"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_reproductive_status_pets_line_model_field
 msgid "Reproductive Status"
-msgstr ""
+msgstr "Репродуктивный статус"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_reproductive_status_pets_model_field
 msgid "Reproductive status"
-msgstr ""
+msgstr "Репродуктивный статус"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_respiration_rate_pets_line_model_field
 msgid "Respiration rate"
-msgstr ""
+msgstr "Частота дыхания"
 
 #. module: veterinary_clinic
 #: model:x_pets,x_name:veterinary_clinic.x_pets_7
 msgid "Rox"
-msgstr ""
+msgstr "Рокс"
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_11
 msgid "Russian Blue"
-msgstr ""
+msgstr "Русская голубая"
 
 #. module: veterinary_clinic
 #: model:ir.actions.act_window,name:veterinary_clinic.sale_order_x_pet_id_window_action
@@ -1664,12 +1871,12 @@ msgstr "Заказ на продажу"
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid "Sales 📝"
-msgstr ""
+msgstr "Продажи 📝"
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_12
 msgid "Savannah"
-msgstr ""
+msgstr "Саванна"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
@@ -1680,12 +1887,13 @@ msgstr "Записаться на просмотр объекта"
 #: model_terms:appointment.type,message_intro:veterinary_clinic.appointment_type_1
 msgid "Secure your spot today and give your pet the care they deserve!"
 msgstr ""
+"Забронируйте место сегодня и обеспечьте своему питомцу уход, которого он "
+"заслуживает!"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-msgid ""
-"Send out your documents digitally and keep them all stored in one place"
-msgstr ""
+msgid "Send out your documents digitally and keep them all stored in one place"
+msgstr "Отправляйте свои документы в цифровом виде и храните их в одном месте"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.sequence_illnesses_model_field
@@ -1700,37 +1908,37 @@ msgstr "Последовательность"
 #. module: veterinary_clinic
 #: model:ir.model.fields.selection,name:veterinary_clinic.x_aggression_level_pets_model_field_selection_severe_aggression
 msgid "Severe aggression"
-msgstr ""
+msgstr "Сильная агрессия"
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_20
 msgid "Shih Tzu"
-msgstr ""
+msgstr "Ши-тцу"
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_13
 msgid "Siamese"
-msgstr ""
+msgstr "Сиамская"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid "Sign app ✏"
-msgstr ""
+msgstr "Модуль Подпись ✏"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_skin_condition_pets_line_model_field
 msgid "Skin condition"
-msgstr ""
+msgstr "Состояние кожи"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields.selection,name:veterinary_clinic.x_reproductive_status_pets_model_field_selection_spayed
 msgid "Spayed"
-msgstr ""
+msgstr "Стерилизована"
 
 #. module: veterinary_clinic
 #: model:product.attribute.value,name:veterinary_clinic.product_attribute_value_1
 msgid "Spaying & Neutering"
-msgstr ""
+msgstr "Стерилизация и кастрация"
 
 #. module: veterinary_clinic
 #: model:ir.actions.act_window,name:veterinary_clinic.species_window_action
@@ -1745,12 +1953,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.search_view_for_x_illnesses_default
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.search_view_for_x_pets_default
 msgid "Species"
-msgstr ""
+msgstr "Вид"
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_14
 msgid "Sphynx"
-msgstr ""
+msgstr "Сфинкс"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.contactus
@@ -1761,24 +1969,24 @@ msgstr "Отправить"
 #: model:documents.document,name:veterinary_clinic.documents_document_12
 #: model:project.project,name:veterinary_clinic.project_project_1
 msgid "Surgeries"
-msgstr ""
+msgstr "Операции"
 
 #. module: veterinary_clinic
 #: model:crm.tag,name:veterinary_clinic.crm_tag_1
 #: model:sale.order.template.line,name:veterinary_clinic.sale_order_template_line_9
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.contactus
 msgid "Surgery"
-msgstr ""
+msgstr "Операция"
 
 #. module: veterinary_clinic
 #: model:product.attribute,name:veterinary_clinic.product_attribute_9
 msgid "Surgery Type"
-msgstr ""
+msgstr "Тип операции"
 
 #. module: veterinary_clinic
 #: model:product.template,name:veterinary_clinic.product_template_3
 msgid "Surgical Intervention"
-msgstr ""
+msgstr "Хирургическое вмешательство"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.tags_vaccines_model_field
@@ -1798,7 +2006,7 @@ msgstr "Температура"
 #. module: veterinary_clinic
 #: model:x_vaccines,x_name:veterinary_clinic.x_vaccines_10
 msgid "Tetanus"
-msgstr ""
+msgstr "Столбняк"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -1806,6 +2014,9 @@ msgid ""
 "The <strong>Accounting App </strong>is a fully featured accounting suite "
 "localized around over 120 countries around the world"
 msgstr ""
+"<strong>Модуль Бухгалтерия</strong> – это полнофункциональный пакет программ "
+"для бухгалтерского учета, локализованный для более чем 120 стран по всему "
+"миру"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -1813,6 +2024,8 @@ msgid ""
 "The Appointments module streamlines scheduling, avoids double‑booking, and "
 "sends automated reminders to reduce no‑shows."
 msgstr ""
+"Модуль Встречи оптимизирует планирование, предотвращает двойные бронирования "
+"и отправляет автоматические напоминания для уменьшения числа неявок."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -1820,6 +2033,8 @@ msgid ""
 "The Consultations module, located in the Pets app, captures clinical "
 "insights during the visit, driving accurate diagnoses and treatment plans."
 msgstr ""
+"Модуль Консультации фиксирует клинические данные во время визита, "
+"обеспечивая точность диагнозов и планов лечения."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -1827,6 +2042,8 @@ msgid ""
 "The Pets registry stores complete animal profiles, linking medical history "
 "to the right owner instantly."
 msgstr ""
+"Реестр питомцев хранит полные профили животных, мгновенно связывая историю "
+"болезни с нужным владельцем."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -1834,6 +2051,8 @@ msgid ""
 "The Point of Sale app delivers quick, front‑desk checkout with integrated "
 "payments and inventory updates."
 msgstr ""
+"Модуль POS обеспечивает быстрое оформление заказа на стойке регистрации с "
+"интегрированными платежами и обновлением запасов."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -1841,6 +2060,8 @@ msgid ""
 "The Products catalog organizes every vaccine, medication, or service with "
 "real‑time stock status."
 msgstr ""
+"Каталог товаров систематизирует все вакцины, лекарства или услуги с "
+"указанием состояния запасов в режиме реального времени."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -1848,6 +2069,8 @@ msgid ""
 "The Sales module turns consultations into clear quotations and invoices in "
 "seconds. $"
 msgstr ""
+"С модулем Продажи создание коммерческих предложений и счетов по итогам "
+"консультации занимает всего несколько секунд. $"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -1855,34 +2078,37 @@ msgid ""
 "The Website module helps you showcase clinic services, accept appointments, "
 "and nurture client relationships online."
 msgstr ""
+"Модуль Вебсайт помогает демонстрировать услуги клиники, принимать записи на "
+"прием и поддерживать отношения с клиентами онлайн."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid ""
-"The veterinarian can add notes, instructions and sections to the sales "
-"order."
+"The veterinarian can add notes, instructions and sections to the sales order."
 msgstr ""
+"Ветеринар может добавлять примечания, инструкции и разделы к заказу на "
+"продажу."
 
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_18
 msgid "Ticks"
-msgstr ""
+msgstr "Клещи"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields.selection,name:veterinary_clinic.x_aggression_level_pets_model_field_selection_tolerant
 msgid "Tolerant"
-msgstr ""
+msgstr "Контактный"
 
 #. module: veterinary_clinic
 #: model:sale.order.template.line,name:veterinary_clinic.sale_order_template_line_13
 #: model:sale.order.template.line,name:veterinary_clinic.sale_order_template_line_5
 msgid "Treatments"
-msgstr ""
+msgstr "Лечение"
 
 #. module: veterinary_clinic
 #: model:product.attribute.value,name:veterinary_clinic.product_attribute_value_2
 msgid "Tumor Removal"
-msgstr ""
+msgstr "Удаление опухоли"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_illnesses
@@ -1894,50 +2120,50 @@ msgstr "Заметки."
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_ultrasound_pets_line_model_field
 msgid "Ultrasound"
-msgstr ""
+msgstr "УЗИ"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_ultrasound_filename_pets_line_model_field
 msgid "Ultrasound "
-msgstr ""
+msgstr "УЗИ "
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_urinalysis_pets_line_model_field
 msgid "Urinalysis"
-msgstr ""
+msgstr "Анализ мочи"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_urinalysis_filename_pets_line_model_field
 msgid "Urinalysis "
-msgstr ""
+msgstr "Анализ мочи "
 
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_13
 msgid "Urinary Tract Infection"
-msgstr ""
+msgstr "Инфекция мочевыводящих путей"
 
 #. module: veterinary_clinic
 #: model:appointment.answer,name:veterinary_clinic.appointment_answer_5
 #: model:product.template,name:veterinary_clinic.product_template_6
 msgid "Vaccination"
-msgstr ""
+msgstr "Вакцинация"
 
 #. module: veterinary_clinic
 #: model:product.attribute,name:veterinary_clinic.product_attribute_10
 #: model:sale.order.template.line,name:veterinary_clinic.sale_order_template_line_1
 msgid "Vaccinations"
-msgstr ""
+msgstr "Вакцинации"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_name_vaccine_model_field
 msgid "Vaccine"
-msgstr ""
+msgstr "Вакцина"
 
 #. module: veterinary_clinic
 #: model:ir.ui.menu,name:veterinary_clinic.menu_contacts_vaccine_tags
 #: model:ir.ui.menu,name:veterinary_clinic.menu_pets_vaccine_tags
 msgid "Vaccine Tags"
-msgstr ""
+msgstr "Теги вакцинации"
 
 #. module: veterinary_clinic
 #: model:ir.actions.act_window,name:veterinary_clinic.vaccines_window_action
@@ -1946,7 +2172,7 @@ msgstr ""
 #: model:ir.ui.menu,name:veterinary_clinic.menu_pets_vaccines
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_vaccines_default
 msgid "Vaccines"
-msgstr ""
+msgstr "Вакцины"
 
 #. module: veterinary_clinic
 #: model:ir.ui.menu,name:veterinary_clinic.menu_contacts_vaccine_config
@@ -1958,22 +2184,22 @@ msgstr ""
 #: model:ir.model,name:veterinary_clinic.x_vaccines_tag_model
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_vaccines_tag
 msgid "Vaccines Tags"
-msgstr ""
+msgstr "Теги вакцин"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_vaccines_given_pets_line_field
 msgid "Vaccines given"
-msgstr ""
+msgstr "Сделанные вакцины"
 
 #. module: veterinary_clinic
 #: model:x_pets,x_name:veterinary_clinic.x_pets_9
 msgid "Vanya"
-msgstr ""
+msgstr "Ваня"
 
 #. module: veterinary_clinic
 #: model:ir.actions.act_window,name:veterinary_clinic.veterinary_visits_window_action
 msgid "Veterinary Visits"
-msgstr ""
+msgstr "Посещения ветеринара"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.calendar_event_custom_form_view
@@ -1983,27 +2209,27 @@ msgstr "Просмотр"
 #. module: veterinary_clinic
 #: model:ir.actions.server,name:veterinary_clinic.ir_actions_server_790
 msgid "View Action"
-msgstr ""
+msgstr "Просмотр действия"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_pets_line_model
 msgid "Visit remarks"
-msgstr ""
+msgstr "Замечания по визиту"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.contactus
 msgid "We'll do our best to get back to you as soon as possible."
-msgstr ""
+msgstr "Мы сделаем все возможное, чтобы ответить вам как можно скорее."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid "Website Documentation"
-msgstr ""
+msgstr "Документация по модулю Вебсайт"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid "Website 🌐"
-msgstr ""
+msgstr "Вебсайт 🌐"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_weight_pets_line_model_field
@@ -2014,43 +2240,44 @@ msgstr "Вес"
 #. module: veterinary_clinic
 #: model:x_vaccines,x_name:veterinary_clinic.x_vaccines_11
 msgid "West Nile Virus"
-msgstr ""
+msgstr "Вирус Западного Нила"
 
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_19
 msgid "Worms"
-msgstr ""
+msgstr "Глисты"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid ""
 "Would you like to discuss your Odoo setup with us or explore more features?"
-msgstr "Хотите обсудить с нами установку Odoo или узнать больше о его функциях?"
+msgstr ""
+"Хотите обсудить с нами установку Odoo или узнать больше о его функциях?"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_pets_id_pet_line_field
 msgid "X Pets"
-msgstr ""
+msgstr "X Питомцев"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_species_id_species_line_model_field
 msgid "X Species"
-msgstr ""
+msgstr "X Видов"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_x_ray_filename_pets_line_model_field
 msgid "X-Ray"
-msgstr ""
+msgstr "Рентген"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_x_ray_pets_line_model_field
 msgid "X-ray"
-msgstr ""
+msgstr "Рентген"
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_19
 msgid "Yorkshire Terrier"
-msgstr ""
+msgstr "Йоркширский терьер"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -2061,51 +2288,57 @@ msgstr ""
 #. module: veterinary_clinic
 #: model:ir.actions.server,name:veterinary_clinic.ir_actions_server_795
 msgid "catalog"
-msgstr ""
+msgstr "каталог"
 
 #. module: veterinary_clinic
 #: model:ir.model,name:veterinary_clinic.x_pets_line_model_record
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_pets_line_model
 msgid "pets_line"
-msgstr ""
+msgstr "pets_line"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_sale_order_link_pets_line_model_field
 msgid "sale order link"
-msgstr ""
+msgstr "ссылка на заказ на продажу"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_sale_order_line_count_pets_line_model_field
 msgid "sale_order_line_count"
-msgstr ""
+msgstr "sale_order_line_count"
 
 #. module: veterinary_clinic
 #: model:ir.model,name:veterinary_clinic.x_species_line_model
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_species_line
 msgid "species_line"
-msgstr ""
+msgstr "species_line"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_total_sale_price_pets_line_model_field
 msgid "total_sale_price"
-msgstr ""
+msgstr "total_sale_price"
 
 #. module: veterinary_clinic
 #: model_terms:appointment.type,message_intro:veterinary_clinic.appointment_type_1
 msgid "✔ Convenient online booking"
-msgstr ""
+msgstr "✔ Удобная онлайн-запись"
 
 #. module: veterinary_clinic
 #: model_terms:appointment.type,message_intro:veterinary_clinic.appointment_type_1
 msgid "✔ Experienced &amp; caring veterinarians"
-msgstr ""
+msgstr "✔ Опытные и заботливые ветеринары"
 
 #. module: veterinary_clinic
 #: model_terms:appointment.type,message_intro:veterinary_clinic.appointment_type_1
 msgid "✔ Flexible appointment times"
-msgstr ""
+msgstr "✔ Гибкое время приема"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
 msgid "✽ Veterinary Services"
-msgstr ""
+msgstr "✽ Ветеринарные услуги"
+
+#~ msgid "+12"
+#~ msgstr "+12"
+
+#~ msgid "22%"
+#~ msgstr "22%"

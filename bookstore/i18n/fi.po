@@ -11,13 +11,14 @@
 # Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2024
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Saara Hakanen <sahak@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 09:55+0000\n"
-"PO-Revision-Date: 2025-11-17 11:08+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-06-12 17:43+0000\n"
+"PO-Revision-Date: 2026-07-02 14:09+0000\n"
+"Last-Translator: Saara Hakanen <sahak@odoo.com>\n"
 "Language-Team: Finnish <https://translate.odoo.com/projects/odoo-19/"
 "bookstore/fi/>\n"
 "Language: fi\n"
@@ -25,14 +26,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid ""
 ", and feel free\n"
 "                        to"
-msgstr ", ja voit rohkeasti"
+msgstr ""
+"sivuilta,\n"
+"                        sekä"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -339,6 +342,72 @@ msgstr ""
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Barcode App</b>:</font> Use mobile "
+"scanners to perform inventory counts and receive new shipments efficiently, "
+"reducing manual entry errors."
+msgstr ""
+"<font class=\"text-o-color-1\"><b>Viivakoodi-sovellus</b>:</font> Käytä "
+"mobiiliskannereita varastolaskentaan sekä uusien lähetysten tehokkaaseen "
+"vastaanottamiseen vähentääksesi manuaalisten kirjausten virheitä."
+
+#. module: bookstore
+#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Inventory App</b>: </font>Master your "
+"library of titles, using barcode scanning for rapid stock adjustments and "
+"managing locations for different genres or sections."
+msgstr ""
+"<font class=\"text-o-color-1\"><b>Varastointi-sovellus</b>: </font>Hallitse "
+"kirjastoasi käyttämällä viivakoodiskannausta nopeisiin varastomuutoksiin "
+"sekä eri genrejen tai osioiden sijaintien hallintaan."
+
+#. module: bookstore
+#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Invoicing App</b>:</font> Simplify your "
+"bookkeeping by tracking daily sales and supplier invoices in one integrated "
+"financial system."
+msgstr ""
+"<font class=\"text-o-color-1\"><b>Laskutus-sovellus</b>:</font> "
+"Yksinkertaista kirjanpitosi seuraamalla päivittäisiä myyntejä ja "
+"toimittajien laskuja yhdellä integroidulla taloushallinnon järjestelmällä."
+
+#. module: bookstore
+#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Point of Sale App</b>: </font>Process "
+"transactions quickly using barcode scanners to read ISBNs, handling "
+"discounts and customer loyalty programs with ease."
+msgstr ""
+"<font class=\"text-o-color-1\"><b>Kassajärjestelmä-sovellus</b>: </"
+"font>Käsittele maksutapahtumat nopeasti ISBN-viivakoodilukijalla sekä hoida "
+"alennukset ja kanta-asiakasohjelmat helposti."
+
+#. module: bookstore
+#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Purchase App</b>:</font> Automate "
+"replenishment orders based on sales velocity, ensuring you never run out of "
+"the latest bestsellers."
+msgstr ""
+"<font class=\"text-o-color-1\"><b>Ostot-sovellus</b>:</font> Automatisoi "
+"täydennystilaukset myyntinopeuden perusteella varmistaaksesi, ettei uusimmat "
+"menestyskirjat lopu kesken."
+
+#. module: bookstore
+#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>eCommerce App</b>: </font>Expand your "
+"readership by selling books online, offering \"click and collect\" options "
+"or shipping directly to readers' homes."
+msgstr ""
+"<font class=\"text-o-color-1\"><b>Verkkokauppa-sovellus</b>: </font>Laajenna "
+"lukijakuntaasi myymällä kirjoja verkossa, tarjoamalla \"click and collect\" "
+"-vaihtoehtoja tai toimittamalla tuotteita suoraan lukijoiden koteihin."
+
+#. module: bookstore
+#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
 msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
 
@@ -375,7 +444,7 @@ msgstr ""
 "<span class=\"display-4-fs\">\n"
 "                        <strong>\n"
 "                        <font class=\"text-800\"><span class=\"h1-"
-"fs\">Käyttötapaus</span></font>\n"
+"fs\">Esimerkkitapaus</span></font>\n"
 "                        </strong>\n"
 "                </span>"
 
@@ -537,11 +606,6 @@ msgid "Author"
 msgstr "Tekijä"
 
 #. module: bookstore
-#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
-msgid "Basics"
-msgstr "Perustiedot"
-
-#. module: bookstore
 #: model:pos.category,name:bookstore.pos_category_1
 msgid "Books"
 msgstr "Kirjat"
@@ -554,16 +618,6 @@ msgid ""
 msgstr ""
 "Lataamalla tämän moduulin demotiedot, tietokantaasi on lisätty muutama tuote "
 "ja kaksi esimerkkiyhteystietoa."
-
-#. module: bookstore
-#: model:pos.payment.method,name:bookstore.pos_payment_method_1
-msgid "Cash"
-msgstr "Käteinen"
-
-#. module: bookstore
-#: model:account.journal,name:bookstore.cash
-msgid "Cash (Bookstore)"
-msgstr "Käteinen (kirjakauppa)"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -592,7 +646,7 @@ msgstr "Oletus"
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "Discover more about Odoo by diving into our"
-msgstr "Lue lisää Odoosta sukeltamalla meidän"
+msgstr "Lue lisää Odoosta"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -602,11 +656,6 @@ msgid ""
 msgstr ""
 "Tutustu tämän paketin perustietoihin ja kaikkiin Odoon tarjoamiin "
 "käyttökokemuksesi parannusmahdollisuuksiin."
-
-#. module: bookstore
-#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
-msgid "Do you want to go further?"
-msgstr "Haluatko jatkaa?"
 
 #. module: bookstore
 #: model_terms:product.template,description:bookstore.product_product_14_product_template
@@ -638,7 +687,7 @@ msgstr "Avaa koontinäytön kassakoneesi Kassajärjestelmästä."
 #. odoo-javascript
 #: code:addons/bookstore/static/src/js/my_tour.js:0
 msgid "Get on track and explore our recommendations for your Odoo usage here!"
-msgstr ""
+msgstr "Aloita ja tutustu Odoo-käyttöäsi koskeviin suosituksiimme täällä!"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -683,8 +732,9 @@ msgid ""
 "If you want to execute a practical guided tour of this module, you should "
 "Import demo data and try the Demo - Use Case. (In the next Knowledge Article)"
 msgstr ""
-"Jos haluat tutustua moduuliin käytännössä, sinun kannattaa tuoda demotiedot "
-"ja kokeilla Demo - käyttötapausta. (Seuraavassa Tietokirjaston artikkelissa)"
+"Jos haluat suorittaa tämän moduulin käytännönläheisen opastetun kierroksen, "
+"sinun kannattaa tuoda demotiedot ja kokeilla demon esimerkkitapausta "
+"(seuraavassa Tietokirjaston artikkelissa)"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -746,7 +796,7 @@ msgstr "Kanta-asiakaskortit"
 #. module: bookstore
 #: model:loyalty.program,portal_point_name:bookstore.loyalty_program_2
 msgid "Loyalty point(s)"
-msgstr "Kanta-asiakaspisteet"
+msgstr "Kanta-asiakaspiste(et)"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -758,12 +808,12 @@ msgid ""
 "Marketing</font></strong>, and <strong><font class=\"text-o-color-1\">SMS "
 "Marketing</font></strong>."
 msgstr ""
-"Hallinnoi kaikkia viestintäkanavia yhdestä paikasta yhdessä paikassa Odoon "
-"<strong><font class=\"text-o-color-1\">Markkinointiautomaation</font></"
-"strong>, <strong><font class=\"text-o-color-1\">Sähköpostimarkkinoinnin</"
-"font></strong>, \n"
+"Hallitse kaikkia viestintäkanaviasi yhdestä paikasta Odoon <strong><font "
+"class=\"text-o-color-1\">Markkinoinnin automaation</font></strong>, "
+"<strong><font class=\"text-o-color-1\">Sähköpostimarkkinoinnin</font></"
+"strong>, \n"
 "                        <strong><font class=\"text-o-"
-"color-1\">Somemarkkinoinnin</font></strong> ja<strong><font class=\"text-o-"
+"color-1\">Somemarkkinoinnin</font></strong> ja <strong><font class=\"text-o-"
 "color-1\">Tekstiviestimarkkinoinnin</font></strong> avulla."
 
 #. module: bookstore
@@ -773,9 +823,9 @@ msgid ""
 "environment. (<strong><font class=\"text-o-color-1\">Accounting App</font></"
 "strong>)"
 msgstr ""
-"Hallitse kirjanpitoa helpommin kuin koskaan täysin integroidussa "
-"ympäristössä. (<strong><font class=\"text-o-color-1\">Kirjanpito-sovellus</"
-"font></strong>)"
+"Hallinnoi kirjanpitoasi täysin integroidun ympäristön avulla helpommin kuin "
+"koskaan aiemmin. (<strong><font class=\"text-o-color-1\">Kirjanpito-"
+"sovellus</font></strong>)"
 
 #. module: bookstore
 #: model:product.template,name:bookstore.product_product_20_product_template
@@ -838,12 +888,7 @@ msgstr ""
 #. module: bookstore
 #: model:ir.model.fields.selection,name:bookstore.x_purchase_type_field_selection_new
 msgid "New releases"
-msgstr ""
-
-#. module: bookstore
-#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
-msgid "Odoo for Bookstore"
-msgstr "Odoo kirjakaupoille"
+msgstr "Uudet julkaisut"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -866,9 +911,9 @@ msgid ""
 "package. Feel free to add new apps, delete/modify demo data, and test "
 "everything around!"
 msgstr ""
-"Tämä on tietenkin vain yleiskatsaus paketin sisältämistä ominaisuuksista. "
-"Voit vapaasti lisätä uusia sovelluksia, poistaa/muuttaa demotietoja ja "
-"testata ihan kaikkea!"
+"Tämä on tietenkin vasta yleiskatsaus kaikista tähän pakettiin kuuluvista "
+"ominaisuuksista. Voit lisätä uusia sovelluksia, poistaa/muokata demotietoja "
+"sekä testata kaikkea mahdollista!"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -961,71 +1006,6 @@ msgstr "Päivitä toimittajan tiedot saapuvien tuotteiden osalta"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
-msgid "Use Case"
-msgstr "Käyttötapaus"
-
-#. module: bookstore
-#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
-msgid ""
-"Use the <strong><font class=\"text-o-color-1\">Barcode App</font></"
-"strong><font class=\"text-o-color-1\"> </font>to scan your products and "
-"create new entries directly from this App to encode new books faster than "
-"ever."
-msgstr ""
-"Käytä <strong><font class=\"text-o-color-1\">Viivakoodi-sovellusta</font></"
-"strong><font class=\"text-o-color-1\"> </font>skannataksesi tuotteesi ja "
-"luodaksesi uusia merkintöjä suoraan tästä sovelluksesta, jotta voit koodata "
-"uusia kirjoja nopeammin kuin koskaan."
-
-#. module: bookstore
-#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
-msgid ""
-"Use the <strong><font class=\"text-o-color-1\">Inventory App</font></strong> "
-"to manage your orders receive and deliver your products."
-msgstr ""
-"Käytä <strong><font class=\"text-o-color-1\">Varastointi-sovellusta</font></"
-"strong> hallitaksesi tilauksia, vastaanottaaksesi ja toimittaaksesi "
-"tuotteita."
-
-#. module: bookstore
-#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
-msgid ""
-"Use the <strong><font class=\"text-o-color-1\">Point of Sale</font></strong> "
-"for your sales at the desk. Manage your customer accounts and advantage in "
-"the <strong><font class=\"text-o-color-1\">Contacts App</font></strong>."
-msgstr ""
-"Käytä <strong><font class=\"text-o-color-1\">Kassajärjestelmää</font></"
-"strong> kassalla myyntiä varten. Hallinnoi asiakastilejäsi ja hanki "
-"itsellesi etumatkaa <strong><font class=\"text-o-color-1\">Yhteystiedot-"
-"sovelluksella</font></strong>."
-
-#. module: bookstore
-#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
-msgid ""
-"Use the <strong><font class=\"text-o-color-1\">Purchase App</font></strong> "
-"to order books from your distributors."
-msgstr ""
-"Käytä <strong><font class=\"text-o-color-1\">Ostot-sovellusta</font></"
-"strong> tilataksesi kirjoja jakelijoiltasi."
-
-#. module: bookstore
-#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
-msgid ""
-"Use the <strong><font class=\"text-o-color-1\">Sales App</font></strong> to "
-"order books for your customers, create quotations for your institutional "
-"clients (libraries, schools, etc.), and invoice them on the go using\n"
-"                        the <strong><font class=\"text-o-color-1\">Invoicing "
-"App</font></strong>."
-msgstr ""
-"Käytä <strong><font class=\"text-o-color-1\">Myynti-sovellusta</font></"
-"strong>, jotta voit tilata kirjoja asiakkaillesi, laatia tarjouksia "
-"institutionaalisille asiakkaillesi (kirjastot, koulut jne.) ja laskuttaa "
-"heitä käyttämällä\n"
-"                        <strong><font class=\"text-o-color-1\">Laskutus-"
-"sovellusta</font></strong>."
-
-#. module: bookstore
-#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid ""
 "Use the internal link button, at the right of the field, to view the new "
 "contact record created, and don't forget to add an email address for her to "
@@ -1059,8 +1039,7 @@ msgid ""
 "You can access every installed App in your Odoo database on your main "
 "dashboard."
 msgstr ""
-"Pääset käsiksi kaikkiin Odoo-tietokantaan asennettuihin sovelluksiin "
-"pääkoontinäytöltä."
+"Löydät kaikki Odoo-tietokantaasi asennetut sovellukset pääkoontinäytöltäsi."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -1098,7 +1077,7 @@ msgid ""
 "discount for every 200€ spent. Manage Promotions, and Loyalty programs under "
 "Point of Sale &gt; Products. <br/>"
 msgstr ""
-"Näet, että Elisillä on kanta-asiakaskortti. Demokirjastossa sovelletaan 5% "
+"Huomaat, että Elisellä on kanta-asiakaskortti. Demokirjasto soveltaa 5% "
 "alennusta jokaista käytettyä 200€ kohden. Hallitse kampanjoita ja kanta-"
 "asiakasohjelmia kohdassa Kassajärjestelmä &gt; Tuotteet. <br/>"
 
@@ -1108,8 +1087,8 @@ msgid ""
 "You completed that demo use case! There are millions of other ways to adapt "
 "your Odoo setup to fit your business needs."
 msgstr ""
-"Sait demon käyttötapauksen valmiiksi! On olemassa monia muitakin tapoja "
-"mukauttaa Odoo-asetuksia vastaamaan yrityksesi tarpeita."
+"Suoritit demon esimerkkitapauksen! On olemassa lukuisia muitakin tapoja "
+"räätälöidä Odoo-asetukset yrityksesi tarpeiden mukaiseksi."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -1127,8 +1106,9 @@ msgid ""
 "You just installed the Odoo for Bookstore package. By doing so, we have "
 "installed a bunch of necessary apps to run your bookstore efficiently."
 msgstr ""
-"Olet juuri asentanut Odoo Kirjakaupoille -paketin. Olemme asentaneet joukon "
-"tarvittavia sovelluksia, joita kirjakauppa tarvitsee toimiakseen tehokkaasti."
+"Asensit juuri Odoo Kirjakauppa -paketin. Sen myötä olemme asentaneet joukon "
+"vaadittavia sovelluksia, joiden avulla pyörität kirjakauppasi toimintaa "
+"tehokkaasti."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -1136,53 +1116,8 @@ msgid ""
 "You should be able to execute the following flows to have an overview of "
 "various flows you can quickly execute with this package using Odoo."
 msgstr ""
-"Sinun pitäisi pystyä suorittamaan seuraavat työnkulut saadaksesi yleiskuvan "
-"erilaisista työnkuluista, joita voit suorittaa nopeasti tämän paketin avulla."
-
-#. module: bookstore
-#: model:product.template,description_pickingin:bookstore.product_product_17_product_template
-msgid "[0.0]"
-msgstr "[0.0]"
-
-#. module: bookstore
-#: model:product.template,description_pickingin:bookstore.product_product_12_product_template
-msgid "[12.49]"
-msgstr "[12.49]"
-
-#. module: bookstore
-#: model:product.template,description_pickingin:bookstore.product_product_9_product_template
-msgid "[14.99]"
-msgstr "[14.99]"
-
-#. module: bookstore
-#: model:product.template,description_pickingin:bookstore.product_product_3_product_template
-msgid "[17.0]"
-msgstr "[17.0]"
-
-#. module: bookstore
-#: model:product.template,description_pickingin:bookstore.product_product_10_product_template
-msgid "[19.44]"
-msgstr "[19.44]"
-
-#. module: bookstore
-#: model:product.template,description_pickingin:bookstore.product_product_20_product_template
-msgid "[22.03]"
-msgstr "[22.03]"
-
-#. module: bookstore
-#: model:product.template,description_pickingin:bookstore.product_product_11_product_template
-msgid "[23.5]"
-msgstr "[23.5]"
-
-#. module: bookstore
-#: model:product.template,description_pickingin:bookstore.product_product_13_product_template
-msgid "[3.81]"
-msgstr "[3.81]"
-
-#. module: bookstore
-#: model:product.template,description_pickingin:bookstore.product_product_14_product_template
-msgid "[4.48]"
-msgstr "[4.48]"
+"Sinun pitäisi pystyä suorittamaan seuraavat toiminnot, jotta saat yleiskuvan "
+"erilaisista tämän Odoo-paketin avulla nopeasti suoritettavista työnkuluista."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -1197,7 +1132,7 @@ msgstr "ja"
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "documentation"
-msgstr "dokumentointi"
+msgstr "dokumentaatio"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -1207,7 +1142,7 @@ msgstr "jos tarvitset apua! <br/>"
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "request a demo"
-msgstr "pyytää esittelyä"
+msgstr "pyydä demoa"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -1226,3 +1161,100 @@ msgstr "Seuraa ostojesi suorituskykyä Ostot &gt; Raportointi &gt; Ostot"
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "​Track your sales order in Sales App &gt; Reporting &gt; Sales"
 msgstr "Seuraa myyntitilaustasi Myynti &gt; Raportointi &gt; Myynnit"
+
+#~ msgid "Cash"
+#~ msgstr "Käteinen"
+
+#~ msgid "Cash (Bookstore)"
+#~ msgstr "Käteinen (kirjakauppa)"
+
+#~ msgid "[0.0]"
+#~ msgstr "[0.0]"
+
+#~ msgid "[12.49]"
+#~ msgstr "[12.49]"
+
+#~ msgid "[14.99]"
+#~ msgstr "[14.99]"
+
+#~ msgid "[17.0]"
+#~ msgstr "[17.0]"
+
+#~ msgid "[19.44]"
+#~ msgstr "[19.44]"
+
+#~ msgid "[22.03]"
+#~ msgstr "[22.03]"
+
+#~ msgid "[23.5]"
+#~ msgstr "[23.5]"
+
+#~ msgid "[3.81]"
+#~ msgstr "[3.81]"
+
+#~ msgid "[4.48]"
+#~ msgstr "[4.48]"
+
+#~ msgid "Basics"
+#~ msgstr "Perustiedot"
+
+#~ msgid "Do you want to go further?"
+#~ msgstr "Haluatko jatkaa?"
+
+#~ msgid "Odoo for Bookstore"
+#~ msgstr "Odoo kirjakaupoille"
+
+#~ msgid "Use Case"
+#~ msgstr "Käyttötapaus"
+
+#~ msgid ""
+#~ "Use the <strong><font class=\"text-o-color-1\">Barcode App</font></"
+#~ "strong><font class=\"text-o-color-1\"> </font>to scan your products and "
+#~ "create new entries directly from this App to encode new books faster than "
+#~ "ever."
+#~ msgstr ""
+#~ "Käytä <strong><font class=\"text-o-color-1\">Viivakoodi-sovellusta</"
+#~ "font></strong><font class=\"text-o-color-1\"> </font>skannataksesi "
+#~ "tuotteesi ja luodaksesi uusia merkintöjä suoraan tästä sovelluksesta, "
+#~ "jotta voit koodata uusia kirjoja nopeammin kuin koskaan."
+
+#~ msgid ""
+#~ "Use the <strong><font class=\"text-o-color-1\">Inventory App</font></"
+#~ "strong> to manage your orders receive and deliver your products."
+#~ msgstr ""
+#~ "Käytä <strong><font class=\"text-o-color-1\">Varastointi-sovellusta</"
+#~ "font></strong> hallitaksesi tilauksia, vastaanottaaksesi ja "
+#~ "toimittaaksesi tuotteita."
+
+#~ msgid ""
+#~ "Use the <strong><font class=\"text-o-color-1\">Point of Sale</font></"
+#~ "strong> for your sales at the desk. Manage your customer accounts and "
+#~ "advantage in the <strong><font class=\"text-o-color-1\">Contacts App</"
+#~ "font></strong>."
+#~ msgstr ""
+#~ "Käytä <strong><font class=\"text-o-color-1\">Kassajärjestelmää</font></"
+#~ "strong> kassalla myyntiä varten. Hallinnoi asiakastilejäsi ja hanki "
+#~ "itsellesi etumatkaa <strong><font class=\"text-o-color-1\">Yhteystiedot-"
+#~ "sovelluksella</font></strong>."
+
+#~ msgid ""
+#~ "Use the <strong><font class=\"text-o-color-1\">Purchase App</font></"
+#~ "strong> to order books from your distributors."
+#~ msgstr ""
+#~ "Käytä <strong><font class=\"text-o-color-1\">Ostot-sovellusta</font></"
+#~ "strong> tilataksesi kirjoja jakelijoiltasi."
+
+#~ msgid ""
+#~ "Use the <strong><font class=\"text-o-color-1\">Sales App</font></strong> "
+#~ "to order books for your customers, create quotations for your "
+#~ "institutional clients (libraries, schools, etc.), and invoice them on the "
+#~ "go using\n"
+#~ "                        the <strong><font class=\"text-o-"
+#~ "color-1\">Invoicing App</font></strong>."
+#~ msgstr ""
+#~ "Käytä <strong><font class=\"text-o-color-1\">Myynti-sovellusta</font></"
+#~ "strong>, jotta voit tilata kirjoja asiakkaillesi, laatia tarjouksia "
+#~ "institutionaalisille asiakkaillesi (kirjastot, koulut jne.) ja laskuttaa "
+#~ "heitä käyttämällä\n"
+#~ "                        <strong><font class=\"text-o-color-1\">Laskutus-"
+#~ "sovellusta</font></strong>."

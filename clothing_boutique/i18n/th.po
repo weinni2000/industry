@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 11:52+0000\n"
+"POT-Creation-Date: 2026-06-12 17:49+0000\n"
 "PO-Revision-Date: 2025-11-17 11:08+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Thai <https://translate.odoo.com/projects/odoo-19/"
@@ -54,6 +54,68 @@ msgstr "ส่วนลด 5% สำหรับการสั่งซื้�
 #: model:product.template,name:clothing_boutique.product_template_56
 msgid "5% on your order for the loyalty points earned."
 msgstr "5% สำหรับการสั่งซื้อของคุณสำหรับคะแนนสะสมที่ได้รับ"
+
+#. module: clothing_boutique
+#: model_terms:ir.ui.view,arch_db:clothing_boutique.welcome_article_body
+msgid ""
+"<b>Email Marketing App</b>: Engage your customers with personalized "
+"newsletters about new collections,\n"
+"                    sales, and exclusive style advice."
+msgstr ""
+
+#. module: clothing_boutique
+#: model_terms:ir.ui.view,arch_db:clothing_boutique.welcome_article_body
+msgid ""
+"<b>Inventory App</b>: Manage complex product matrices (sizes, colors, fits) "
+"and use barcode/RFID scanning\n"
+"                    for rapid stock counts and transfers."
+msgstr ""
+
+#. module: clothing_boutique
+#: model_terms:ir.ui.view,arch_db:clothing_boutique.welcome_article_body
+msgid ""
+"<b>Point of Sale App</b>: Speed up checkout with an intuitive interface that "
+"handles multiple variants,\n"
+"                    returns, and customer loyalty programs seamlessly."
+msgstr ""
+
+#. module: clothing_boutique
+#: model_terms:ir.ui.view,arch_db:clothing_boutique.welcome_article_body
+msgid ""
+"<b>Purchase App</b>: Automate replenishment based on seasonal demand, "
+"ensuring you have the right mix of\n"
+"                    sizes and styles in stock."
+msgstr ""
+
+#. module: clothing_boutique
+#: model_terms:ir.ui.view,arch_db:clothing_boutique.welcome_article_body
+msgid ""
+"<b>Sales App</b>: Handle wholesale orders or B2B contracts with ease, using "
+"variant grids to quickly enter\n"
+"                    large orders for different sizes."
+msgstr ""
+
+#. module: clothing_boutique
+#: model_terms:ir.ui.view,arch_db:clothing_boutique.welcome_article_body
+msgid ""
+"<b>Website App</b>: Design a visually appealing brand site that showcases "
+"your latest arrivals, lookbooks,\n"
+"                    and store locations."
+msgstr ""
+
+#. module: clothing_boutique
+#: model_terms:ir.ui.view,arch_db:clothing_boutique.welcome_article_body
+msgid ""
+"<b>eCommerce App</b>: Create a stunning online storefront to sell your "
+"fashion collections globally,\n"
+"                    offering features like \"shop by look\" or dynamic "
+"filters."
+msgstr ""
+
+#. module: clothing_boutique
+#: model_terms:ir.ui.view,arch_db:clothing_boutique.welcome_article_body
+msgid "<br/>Basics"
+msgstr ""
 
 #. module: clothing_boutique
 #: model_terms:ir.ui.view,arch_db:clothing_boutique.homepage
@@ -146,8 +208,7 @@ msgstr ""
 msgid ""
 "Add the Barcode number in the Product Master and take a print to scan them "
 "during the POS session."
-msgstr ""
-"เพิ่มหมายเลขบาร์โค้ดในข้อมูลผลิตภัณฑ์หลักและพิมพ์เพื่อสแกนในระหว่างเซสชัน POS"
+msgstr "เพิ่มหมายเลขบาร์โค้ดในข้อมูลผลิตภัณฑ์หลักและพิมพ์เพื่อสแกนในระหว่างเซสชัน POS"
 
 #. module: clothing_boutique
 #: model_terms:ir.ui.view,arch_db:clothing_boutique.welcome_article_body
@@ -189,8 +250,7 @@ msgid ""
 "          <br/>"
 msgstr ""
 "ข้อเสนอ BOGO (ซื้อหนึ่ง แถมหนึ่ง) <br/>\n"
-"          "
-"โปรโมชั่นเป็นที่นิยมในหมู่ผู้ค้าปลีกเพราะสามารถเพิ่มยอดขายของผลิตภัณฑ์ที่กำลังส่งเสริมการขายได้ "
+"          โปรโมชั่นเป็นที่นิยมในหมู่ผู้ค้าปลีกเพราะสามารถเพิ่มยอดขายของผลิตภัณฑ์ที่กำลังส่งเสริมการขายได้ "
 "นอกจากนี้ ยังช่วยดึงดูดความสนใจไปที่สินค้าอื่นๆ ในร้าน "
 "ซึ่งถือเป็นเรื่องดีเมื่อคุณต้องการกำจัดสินค้าที่ขายไม่ออกหรือกระตุ้นยอดขาย\n"
 "          <br/>"
@@ -242,23 +302,13 @@ msgstr ""
 
 #. module: clothing_boutique
 #: model_terms:ir.ui.view,arch_db:clothing_boutique.welcome_article_body
-msgid "Business Flows:"
-msgstr "ขั้นตอนการทำงานของธุรกิจ:"
+msgid "Business Flows"
+msgstr ""
 
 #. module: clothing_boutique
 #: model:loyalty.program,name:clothing_boutique.loyalty_program_7
 msgid "Buy 1 jeans get 1 T-shirt Free"
 msgstr "ซื้อกางเกงยีนส์ 1 ตัว แถมเสื้อยืด 1 ตัว ฟรี"
-
-#. module: clothing_boutique
-#: model:pos.payment.method,name:clothing_boutique.pos_payment_method_1
-msgid "Cash"
-msgstr "เงินสด"
-
-#. module: clothing_boutique
-#: model:account.journal,name:clothing_boutique.cash
-msgid "Cash (Clothing boutique)"
-msgstr ""
 
 #. module: clothing_boutique
 #: model:product.template,name:clothing_boutique.product_template_13
@@ -318,11 +368,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:clothing_boutique.welcome_article_body
 msgid "Create a POS order through POS Application, select any customer"
 msgstr "สร้างใบสั่งซื้อ POS ผ่านแอป POS เลือกลูกค้ารายใดก็ได้"
-
-#. module: clothing_boutique
-#: model:pos.payment.method,name:clothing_boutique.pos_payment_method_2
-msgid "Customer Account"
-msgstr "บัญชีของลูกค้า"
 
 #. module: clothing_boutique
 #: model:product.attribute.value,name:clothing_boutique.product_attribute_value_dark_blue
@@ -437,8 +482,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:clothing_boutique.welcome_article_body
 msgid ""
 "Go to the Website Application and select Top from the Western wear category."
-msgstr ""
-"ไปที่แอปพลิเคชั่นเว็บไซต์และเลือกด้านบนจากหมวดหมู่เครื่องแต่งกายสไตล์ตะวันตก"
+msgstr "ไปที่แอปพลิเคชั่นเว็บไซต์และเลือกด้านบนจากหมวดหมู่เครื่องแต่งกายสไตล์ตะวันตก"
 
 #. module: clothing_boutique
 #: model:product.template,name:clothing_boutique.product_template_22
@@ -450,8 +494,7 @@ msgstr ""
 msgid ""
 "Here Promotion Program has been used for allocating the loyalty points on "
 "order and discount while claiming."
-msgstr ""
-"โปรแกรมส่งเสริมการขายนี้ใช้สำหรับจัดสรรคะแนนสะสมจากการสั่งซื้อและส่วนลดขณะรับสิทธิ์"
+msgstr "โปรแกรมส่งเสริมการขายนี้ใช้สำหรับจัดสรรคะแนนสะสมจากการสั่งซื้อและส่วนลดขณะรับสิทธิ์"
 
 #. module: clothing_boutique
 #: model_terms:ir.ui.view,arch_db:clothing_boutique.welcome_article_body
@@ -488,6 +531,11 @@ msgstr ""
 #. module: clothing_boutique
 #: model:product.template,name:clothing_boutique.product_template_26
 msgid "Kurta set"
+msgstr ""
+
+#. module: clothing_boutique
+#: model:product.attribute.value,name:clothing_boutique.product_attribute_value_9
+msgid "L"
 msgstr ""
 
 #. module: clothing_boutique
@@ -530,8 +578,12 @@ msgstr ""
 msgid ""
 "Loyalty points are given to customer on their purchase &amp; later on the "
 "customer can redeem discount in exchange of loyalty points"
+msgstr "ลูกค้าจะได้รับคะแนนสะสมเมื่อซื้อสินค้า และต่อมาลูกค้าสามารถแลกรับส่วนลดเป็นคะแนนสะสมได้"
+
+#. module: clothing_boutique
+#: model:product.attribute.value,name:clothing_boutique.product_attribute_value_8
+msgid "M"
 msgstr ""
-"ลูกค้าจะได้รับคะแนนสะสมเมื่อซื้อสินค้า และต่อมาลูกค้าสามารถแลกรับส่วนลดเป็นคะแนนสะสมได้"
 
 #. module: clothing_boutique
 #: model:loyalty.program,name:clothing_boutique.loyalty_program_2
@@ -673,11 +725,6 @@ msgid "T-shirts"
 msgstr "เสื้อยืด"
 
 #. module: clothing_boutique
-#: model_terms:ir.ui.view,arch_db:clothing_boutique.welcome_article_body
-msgid "The Glam Boutique"
-msgstr ""
-
-#. module: clothing_boutique
 #: model_terms:ir.ui.view,arch_db:clothing_boutique.homepage
 msgid "The Orchid Concept"
 msgstr "The Orchid Concept"
@@ -692,8 +739,7 @@ msgstr "มีดอกไม้<br/>สำหรับผู้ที่ต้�
 msgid ""
 "There is a Promotion Program created  in which the reward for Free Product "
 "has been defined."
-msgstr ""
-"มีการสร้างโปรแกรมส่งเสริมการขายโดยได้กำหนดรางวัลสำหรับผลิตภัณฑ์ฟรีไว้แล้ว"
+msgstr "มีการสร้างโปรแกรมส่งเสริมการขายโดยได้กำหนดรางวัลสำหรับผลิตภัณฑ์ฟรีไว้แล้ว"
 
 #. module: clothing_boutique
 #: model_terms:ir.ui.view,arch_db:clothing_boutique.welcome_article_body
@@ -795,8 +841,7 @@ msgstr "สีเหลือง"
 msgid ""
 "You can also search the Barcode number of that product from the POS session "
 "to recognise that product."
-msgstr ""
-"คุณยังสามารถค้นหาหมายเลขบาร์โค้ดของผลิตภัณฑ์นั้นจากเซสชัน POS เพื่อจดจำผลิตภัณฑ์นั้นได้"
+msgstr "คุณยังสามารถค้นหาหมายเลขบาร์โค้ดของผลิตภัณฑ์นั้นจากเซสชัน POS เพื่อจดจำผลิตภัณฑ์นั้นได้"
 
 #. module: clothing_boutique
 #: model_terms:ir.ui.view,arch_db:clothing_boutique.homepage
@@ -812,3 +857,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:clothing_boutique.homepage
 msgid "woman in black and white dress holding happy birthday signage"
 msgstr "ผู้หญิงในชุดสีดำและขาวถือป้ายสุขสันต์วันเกิด"
+
+#~ msgid "Cash"
+#~ msgstr "เงินสด"
+
+#~ msgid "Customer Account"
+#~ msgstr "บัญชีของลูกค้า"
+
+#~ msgid "Business Flows:"
+#~ msgstr "ขั้นตอนการทำงานของธุรกิจ:"

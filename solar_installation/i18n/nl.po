@@ -9,13 +9,14 @@
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2024
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Bren Driesen <brdri@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 09:39+0000\n"
-"PO-Revision-Date: 2025-11-17 11:09+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-04-10 19:40+0000\n"
+"PO-Revision-Date: 2026-05-30 09:32+0000\n"
+"Last-Translator: Bren Driesen <brdri@odoo.com>\n"
 "Language-Team: Dutch <https://translate.odoo.com/projects/odoo-19/"
 "solar_installation/nl/>\n"
 "Language: nl\n"
@@ -23,12 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
-
-#. module: solar_installation
-#: model_terms:ir.ui.view,arch_db:solar_installation.ir_ui_view_2702
-msgid "+1 (079) 400-5001"
-msgstr "+1 (079) 400-5001"
+"X-Generator: Weblate 5.17\n"
 
 #. module: solar_installation
 #: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
@@ -111,8 +107,8 @@ msgid ""
 "            warranty date is not under the warranty period, an invoice will "
 "be raised for the parts replaced and repairing charge."
 msgstr ""
-"- Voorraad gebruiker <strong><font style=\"color: rgb(107, 165, 74);\""
-">valideert</font></strong> geretourneerde apparatuur in Retour en "
+"- Voorraad gebruiker <strong><font style=\"color: rgb(107, 165, 74);"
+"\">valideert</font></strong> geretourneerde apparatuur in Retour en "
 "controleert de <font style=\"color: rgb(107, 165, 74);\"><strong>einddatum "
 "garantie</strong></font>. Als de\n"
 "            datum niet onder de garantieperiode valt, wordt er een factuur "
@@ -144,6 +140,80 @@ msgstr "2 kW"
 #: model:crm.tag,name:solar_installation.crm_tag_2
 msgid "3 kW"
 msgstr "3 kW"
+
+#. module: solar_installation
+#: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
+msgid ""
+"<b>CRM App</b>: Capture leads from your website and track them through the "
+"sales funnel, managing site visits\n"
+"                and technical feasibility checks."
+msgstr ""
+"<b>CRM-app</b>: Verzamel leads van je website en volg ze via de "
+"verkooptrechter, waarbij je websitebezoeken en technische "
+"haalbaarheidscontroles beheert."
+
+#. module: solar_installation
+#: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
+msgid ""
+"<b>Field Service App</b>: Schedule your installation crews and maintenance "
+"teams efficiently, allowing them to\n"
+"                log time and consume parts via mobile."
+msgstr ""
+"<b>Buitendienst-app</b>: Plan je installatieploegen en teams voor onderhoud "
+"efficiënt in, zodat zij via hun mobiele telefoon hun werktijd kunnen "
+"registreren en onderdelen kunnen verbruiken."
+
+#. module: solar_installation
+#: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
+msgid ""
+"<b>Inventory App</b>: Keep track of high-value stock like solar modules and "
+"batteries, ensuring you have the\n"
+"                right components for every job."
+msgstr ""
+"<b>Voorraad-app</b>: Houd hoogwaardige voorraad zoals zonnepanelen en accu's "
+"bij, zodat je voor elke klus over de juiste onderdelen beschikt."
+
+#. module: solar_installation
+#: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
+msgid ""
+"<b>Project App</b>: Manage installation projects with clear stages (e.g., "
+"\"Permitting,\" \"Installation,\"\n"
+"                \"Inspection\"), tracking tasks and deadlines."
+msgstr ""
+"<b>Project-app</b>: Beheer installatieprojecten met duidelijke fasen "
+"(bijvoorbeeld 'Vergunningen', 'Installatie', 'Inspectie'), waarbij taken en "
+"deadlines worden bijgehouden."
+
+#. module: solar_installation
+#: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
+msgid ""
+"<b>Sales App</b>: Create professional, detailed proposals that include "
+"technical specifications for panels,\n"
+"                inverters, and labor costs."
+msgstr ""
+"<b>Verkoop-app</b>: Maak professionele, gedetailleerde offertes met "
+"technische specificaties voor panelen, omvormers en arbeidskosten."
+
+#. module: solar_installation
+#: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
+msgid ""
+"<b>Sign App</b>: Securely collect digital signatures for contracts, "
+"interconnection agreements, and financing\n"
+"                documents."
+msgstr ""
+"<b>Ondertekenen-app</b>: Verzamel veilig digitale handtekeningen voor "
+"contracten, interconnectie-overeenkomsten en financieringsdocumenten."
+
+#. module: solar_installation
+#: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
+msgid ""
+"<b>Website App</b>: Showcase your portfolio of successful installations and "
+"attract new eco-conscious clients\n"
+"                with a professional online presence."
+msgstr ""
+"<b>Website-app</b>: Presenteer je portfolio met succesvolle installaties en "
+"trek nieuwe milieubewuste klanten aan met een professionele online "
+"aanwezigheid."
 
 #. module: solar_installation
 #: model_terms:ir.ui.view,arch_db:solar_installation.ir_ui_view_2702
@@ -229,7 +299,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
 msgid ""
 "<span style=\"font-size: 14px;\">Field Service Task for Installation</span>"
-msgstr "<span style=\"font-size: 14px;\">Velddiensttaak voor installatie</span>"
+msgstr ""
+"<span style=\"font-size: 14px;\">Velddiensttaak voor installatie</span>"
 
 #. module: solar_installation
 #: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
@@ -303,14 +374,19 @@ msgid ""
 "font></strong>."
 msgstr ""
 "De toegewezen medewerkers vullen het werkblad in na voltooiing van de "
-"installatie. Verschillende <strong><font style=\"color: rgb(107, 165, 74);\""
-">beelden van de Zonnesysteeminstallatie</font></strong> van de locatie van "
+"installatie. Verschillende <strong><font style=\"color: rgb(107, 165, 74);"
+"\">beelden van de Zonnesysteeminstallatie</font></strong> van de locatie van "
 "de klant worden vastgelegd, samen met de bevestiging en handtekening van de\n"
 "            bevestiging en handtekening van de klant in het werkblad. Het "
 "werkblad bevat aangepaste velden zoals startdatum, einddatum, plan, "
 "handtekening, enz. die worden geconfigureerd via\n"
-"            <strong><font style=\"color: rgb(165, 74, 123);\">Studio-"
-"app</font></strong>."
+"            <strong><font style=\"color: rgb(165, 74, 123);\">Studio-app</"
+"font></strong>."
+
+#. module: solar_installation
+#: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
+msgid "Basics"
+msgstr "Basisprincipes"
 
 #. module: solar_installation
 #: model:product.template,name:solar_installation.product_product_8_product_template
@@ -370,10 +446,9 @@ msgid ""
 "\">creates 1 Field Service Task</font></strong> automatically for Solar "
 "system installation in a Project dedicated to Installation."
 msgstr ""
-"Bevestiging van verkooporder <strong><font style="
-"\"color: rgb(107, 165, 74);\">maakt 1 buitendiensttaak</font></strong> "
-"automatisch voor de installatie van het Zonnesysteem in een Project gewijd "
-"aan Installatie."
+"Bevestiging van verkooporder <strong><font style=\"color: rgb(107, 165, 74);"
+"\">maakt 1 buitendiensttaak</font></strong> automatisch voor de installatie "
+"van het Zonnesysteem in een Project gewijd aan Installatie."
 
 #. module: solar_installation
 #: model_terms:ir.ui.view,arch_db:solar_installation.ir_ui_view_2702
@@ -439,7 +514,7 @@ msgstr "Standaard werkbon"
 #. module: solar_installation
 #: model:project.task.type,name:solar_installation.project_task_type_46
 msgid "Done"
-msgstr "Gereed"
+msgstr "Voltooid"
 
 #. module: solar_installation
 #: model:product.template,name:solar_installation.product_product_12_product_template
@@ -493,7 +568,8 @@ msgstr "Gratis onderzoek"
 #. odoo-javascript
 #: code:addons/solar_installation/static/src/js/my_tour.js:0
 msgid "Get on track and explore our recommendations for your Odoo usage here!"
-msgstr "Kom goed op weg en bekijk hier onze aanbevelingen voor je Odoo-gebruik!"
+msgstr ""
+"Kom goed op weg en bekijk hier onze aanbevelingen voor je Odoo-gebruik!"
 
 #. module: solar_installation
 #: model_terms:ir.ui.view,arch_db:solar_installation.homepage
@@ -650,9 +726,10 @@ msgstr ""
 "                <font class=\"text-o-color-5\"><span style=\"font-weight: "
 "normal;\">Offerte aanvragen</span></font>\n"
 "            </strong>\n"
-"            formulier in en verstuurt het, in <font class=\"text-o-color-5\""
-">CRM</font> <strong><font style=\"color: rgb(107, 165, 74);\">kans wordt "
-"aangemaakt</font></strong><font style=\"color: rgb(181, 214, 165);\">.</font>"
+"            formulier in en verstuurt het, in <font class=\"text-o-"
+"color-5\">CRM</font> <strong><font style=\"color: rgb(107, 165, 74);\">kans "
+"wordt aangemaakt</font></strong><font style=\"color: rgb(181, 214, 165);\">."
+"</font>"
 
 #. module: solar_installation
 #: model:ir.model.fields,field_description:solar_installation.x_comments_remarks_record
@@ -705,10 +782,10 @@ msgid ""
 "customer agrees the quotation, a site survey is planned and Opportunity is "
 "moved to the Site Survey stage."
 msgstr ""
-"Verkoper is toegewezen en <strong><font style=\"color: rgb(107, 165, 74);\""
-">Verkoopkans wordt verplaatst</font></strong> <strong><font style="
-"\"color: rgb(107, 165, 74);\">naar de Gekwalificeerd fase</font></strong>. "
-"De verkoopmedewerker volgt\n"
+"Verkoper is toegewezen en <strong><font style=\"color: rgb(107, 165, 74);"
+"\">Verkoopkans wordt verplaatst</font></strong> <strong><font style=\"color: "
+"rgb(107, 165, 74);\">naar de Gekwalificeerd fase</font></strong>. De "
+"verkoopmedewerker volgt\n"
 "            klanten door middel van activiteiten zoals gesprekken, "
 "vergaderingen, enz. Als de klant akkoord gaat met de offerte, wordt een "
 "locatieonderzoek gepland en gaat de verkoopkans naar de fase "
@@ -804,11 +881,11 @@ msgid ""
 "Installation."
 msgstr ""
 "Taken worden toegewezen aan werknemers/werkneemsters. Er wordt een "
-"locatiebezoek gepland en <strong><font style=\"color: rgb(107, 165, 74);\""
-">taak wordt verplaatst naar Geplande fase in project</font></strong>. <"
-"strong/> Toegewezenen nemen alle apparatuur mee die vermeld staat\n"
-"            in <strong><font style=\"color: rgb(107, 165, 74);\""
-">Leveringsbon</font></strong> mee naar de locatie van de klant voor "
+"locatiebezoek gepland en <strong><font style=\"color: rgb(107, 165, 74);"
+"\">taak wordt verplaatst naar Geplande fase in project</font></strong>. "
+"<strong/> Toegewezenen nemen alle apparatuur mee die vermeld staat\n"
+"            in <strong><font style=\"color: rgb(107, 165, 74);"
+"\">Leveringsbon</font></strong> mee naar de locatie van de klant voor "
 "installatie."
 
 #. module: solar_installation
@@ -893,6 +970,9 @@ msgstr "info@bedrijf.voorbeeld.com"
 #: model_terms:ir.ui.view,arch_db:solar_installation.report_custom_x_project_task_worksheet_template_1
 msgid "kW plan"
 msgstr "kW-plan"
+
+#~ msgid "+1 (079) 400-5001"
+#~ msgstr "+1 (079) 400-5001"
 
 #~ msgid "Execute Code"
 #~ msgstr "Code uitvoeren"

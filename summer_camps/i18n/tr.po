@@ -4,13 +4,15 @@
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # DeepL <noreply-mt-deepl@weblate.org>, 2025.
+# Odoo Turkish Import <dyki+tr@odoo.com>, 2025.
+# "Malaz Siddig Elsayed Abuidris (msea)" <msea@odoo.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 09:34+0000\n"
-"PO-Revision-Date: 2025-11-12 14:44+0000\n"
-"Last-Translator: DeepL <noreply-mt-deepl@weblate.org>\n"
+"POT-Creation-Date: 2026-03-17 19:46+0000\n"
+"PO-Revision-Date: 2025-11-29 19:52+0000\n"
+"Last-Translator: \"Malaz Siddig Elsayed Abuidris (msea)\" <msea@odoo.com>\n"
 "Language-Team: Turkish <https://translate.odoo.com/projects/odoo-19/"
 "summer_camps/tr/>\n"
 "Language: tr\n"
@@ -18,21 +20,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 ", go to My Databases, then click the <strong>gear icon </strong>to duplicate "
 "your database."
 msgstr ""
-"'e gidin, ardından veritabanınızı çoğaltmak için <strong>dişli simgesine "
-"</strong>tıklayın."
+"Veritabani'na gidin, ardından veritabanınızı çoğaltmak için <strong>dişli "
+"simgesine </strong>tıklayın."
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.ir_ui_view_916
-#, fuzzy
 msgid ""
 "2,000 campers<br/>\n"
 " have enjoyed our summer camp."
@@ -45,7 +45,6 @@ msgstr ""
 #: model_terms:event.event,description:summer_camps.event_event_2
 #: model_terms:event.event,description:summer_camps.event_event_3
 #: model_terms:event.event,description:summer_camps.event_event_4
-#, fuzzy
 msgid "24/7 supervision by certified coordinators"
 msgstr "Sertifikalı koordinatörler tarafından 7/24 gözetim"
 
@@ -54,23 +53,20 @@ msgstr "Sertifikalı koordinatörler tarafından 7/24 gözetim"
 #: model_terms:event.event,description:summer_camps.event_event_2
 #: model_terms:event.event,description:summer_camps.event_event_3
 #: model_terms:event.event,description:summer_camps.event_event_4
-#, fuzzy
 msgid "3 meals + 2 healthy snacks per day"
 msgstr "Günde 3 öğün + 2 sağlıklı atıştırmalık"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.ir_ui_view_916
-#, fuzzy
 msgid ""
 "<a class=\"btn btn-primary btn-lg o_translate_inline\" href=\"/"
 "event\">Upcoming Camp Sessions</a>"
 msgstr ""
-"<a class=\"btn btn-primary btn-lg o_translate_inline\" href=\"/event\""
-">Yaklaşan Kamp Seansları</a>"
+"<a class=\"btn btn-primary btn-lg o_translate_inline\" href=\"/"
+"event\">Yaklaşan Kamp Oturumları</a>"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.ir_ui_view_916
-#, fuzzy
 msgid ""
 "<a class=\"o_translate_inline btn btn-primary\" href=\"/event\">Discover "
 "this Summer's programme&amp;nbsp;<span class=\"fa fa-angle-right ms-2\"/>\n"
@@ -82,7 +78,6 @@ msgstr ""
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.ir_ui_view_916
-#, fuzzy
 msgid ""
 "<a href=\"#\" class=\"btn btn-secondary o_translate_inline\">Learn more</a>"
 msgstr ""
@@ -91,32 +86,40 @@ msgstr ""
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+#, fuzzy
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
+msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label=\"Afiş "
+"Bilgi\">💡</i>"
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
 msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">💡</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Afiş Bilgi\">💡</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label=\"Afiş "
+"Bilgi\">💡</i>"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
 "normal\">💡</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Info\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
+"<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
+"normal\">💡</i>"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\">✅</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Success\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\">✅</i>"
+"<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
+"fst-normal\">✅</i>"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
@@ -124,12 +127,11 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\">⚠️</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Afiş Uyarı\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
+"<i data-oe-aria-label=\"Afiş Uyarı\" class=\"o_editor_banner_icon mb-3 fst-"
+"normal\">⚠️</i>"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "<span class=\"display-4-fs\">\n"
 "                <strong>Odoo for Summer Camps</strong>\n"
@@ -144,33 +146,30 @@ msgstr ""
 #: model_terms:event.event,description:summer_camps.event_event_2
 #: model_terms:event.event,description:summer_camps.event_event_3
 #: model_terms:event.event,description:summer_camps.event_event_4
-#, fuzzy
 msgid ""
 "<span class=\"flex-grow-1\"><strong>How big are the groups?</strong><br></"
 "span>"
 msgstr ""
-"<span class=\"flex-grow-1\"><strong>Gruplar ne kadar büyük? "
-"</strong><br></span>"
+"<span class=\"flex-grow-1\"><strong>Gruplar ne kadar büyük? </strong><br></"
+"span>"
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_1
 #: model_terms:event.event,description:summer_camps.event_event_2
 #: model_terms:event.event,description:summer_camps.event_event_3
 #: model_terms:event.event,description:summer_camps.event_event_4
-#, fuzzy
 msgid ""
 "<span class=\"flex-grow-1\"><strong>What age group is this camp for?</"
 "strong></span>"
 msgstr ""
-"<span class=\"flex-grow-1\"><strong>Bu kamp hangi yaş grubu "
-"içindir?</strong></span>"
+"<span class=\"flex-grow-1\"><strong>Bu kamp hangi yaş grubu içindir?</"
+"strong></span>"
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_1
 #: model_terms:event.event,description:summer_camps.event_event_2
 #: model_terms:event.event,description:summer_camps.event_event_3
 #: model_terms:event.event,description:summer_camps.event_event_4
-#, fuzzy
 msgid ""
 "<span class=\"flex-grow-1\"><strong>What if my child has allergies or "
 "medical needs?</strong></span>"
@@ -183,7 +182,6 @@ msgstr ""
 #: model_terms:event.event,description:summer_camps.event_event_2
 #: model_terms:event.event,description:summer_camps.event_event_3
 #: model_terms:event.event,description:summer_camps.event_event_4
-#, fuzzy
 msgid ""
 "<span class=\"flex-grow-1\"><strong>Will my child be safe during activities?"
 "</strong></span>"
@@ -209,7 +207,53 @@ msgstr ""
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
+msgid ""
+"<strong><b>Appointments App</b>:</strong> Let families book meetings to "
+"discuss camp options easily, reducing no-shows with automatic reminders.<br/>"
+msgstr ""
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid ""
+"<strong><b>CRM App</b>: </strong>Capture inquiries from your website, "
+"qualify leads in a visual pipeline, and convert interest into confirmed "
+"bookings.<br/>"
+msgstr ""
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid ""
+"<strong><b>Events App</b>: </strong>Create and manage every camp session "
+"with custom forms, capacity tracking, and automated emails to keep parents "
+"informed.<br/>"
+msgstr ""
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid ""
+"<strong><b>Projects App</b>: </strong>Organize the behind-the-scenes "
+"logistics using task lists and deadlines to ensure every activity is "
+"prepared to perfection.<br/>"
+msgstr ""
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid ""
+"<strong><b>Sign App</b>: </strong>Collect parental consent securely with "
+"reusable digital signature templates, ensuring all legal documents are "
+"signed and stored centrally.<br/>"
+msgstr ""
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid ""
+"<strong><b>Website App</b>: </strong>Showcase your camps online with mobile-"
+"friendly pages, integrated registration, and secure payment processing to "
+"boost enrollments.<br/>"
+msgstr ""
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
 msgid ""
 "<strong>Accounting 📈</strong>: Handle invoicing, revenue tracking, and full "
 "financial reporting in one place."
@@ -219,37 +263,21 @@ msgstr ""
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Add custom tags</strong> like “IT Camp,” “Group Booking,” or "
 "“Special Needs” to filter and segment leads."
 msgstr ""
-"<strong>Potansiyel müşterileri filtrelemek ve segmentlere ayırmak için "
-"\"IT Kampı\", \"Grup Rezervasyonu\" veya \"Özel İhtiyaçlar\" gibi</strong> "
-"özel etiketler ekleyin."
+"<strong>Potansiyel müşterileri filtrelemek ve segmentlere ayırmak için \"IT "
+"Kampı\", \"Grup Rezervasyonu\" veya \"Özel İhtiyaçlar\" gibi</strong> özel "
+"etiketler ekleyin."
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
-msgid ""
-"<strong>Appointments 📅 :</strong>Let families book meetings to discuss camp "
-"options, sync your team’s calendars, and reduce no-shows with automatic "
-"reminders and structured scheduling."
-msgstr ""
-"<strong>Randevular 📅 :</strong>Ailelerin kamp seçeneklerini tartışmak için "
-"toplantı rezervasyonu yapmasına izin verin, ekibinizin takvimlerini "
-"senkronize edin ve otomatik hatırlatıcılar ve yapılandırılmış zamanlama ile "
-"gelmeyenleri azaltın."
-
-#. module: summer_camps
-#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid "<strong>Appointments 📅</strong>"
 msgstr "<strong>Randevular 📅</strong>"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Assign opportunities to the right team members</strong> based on "
 "region, language, or camp type."
@@ -259,17 +287,15 @@ msgstr ""
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Automated email and SMS reminders</strong> reduce no-shows and keep "
 "everyone informed."
 msgstr ""
-"<strong>Otomatik e-posta ve SMS hatırlatmaları</strong> gelmeyenleri azaltır "
-"ve herkesi bilgilendirir."
+"<strong>Otomatik e-posta ve SMS hatırlatmaları</strong> randevuya gelmeyen "
+"sayısını azaltır ve herkesi bilgilendirir."
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Built-in payment integration</strong> allows smooth and secure "
 "transactions."
@@ -279,22 +305,8 @@ msgstr ""
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
-msgid ""
-"<strong>CRM 🎯 :</strong>Capture inquiries from your website, organize and "
-"qualify leads in a visual pipeline, assign sales tasks, and convert interest "
-"into bookings with quotations and notes tracking."
-msgstr ""
-"<strong>CRM 🎯 :</strong>Web sitenizden gelen talepleri yakalayın, "
-"potansiyel müşterileri görsel bir boru hattında düzenleyin ve nitelendirin, "
-"satış görevleri atayın ve teklifler ve not takibi ile ilgiyi rezervasyonlara "
-"dönüştürün."
-
-#. module: summer_camps
-#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid "<strong>CRM 🎯</strong>"
-msgstr "<strong>CRM 🎯</strong>"
+msgstr "<strong>Müşteri İlişkileri Yönetimi 🎯</strong>"
 
 #. module: summer_camps
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_1
@@ -302,13 +314,11 @@ msgstr "<strong>CRM 🎯</strong>"
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_3
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_4
 #: model_terms:event.type,ticket_instructions:summer_camps.event_type_1
-#, fuzzy
 msgid "<strong>Camp Adventure – La Roche-en-Ardenne</strong>"
 msgstr "<strong>Kamp Macerası - La Roche-en-Ardenne</strong>"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Capture inquiries automatically</strong> from your website's contact "
 "forms."
@@ -318,7 +328,6 @@ msgstr ""
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Configure consent forms</strong> as reusable <strong>Sign document "
 "templates</strong> for different camps."
@@ -328,7 +337,6 @@ msgstr ""
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Create dedicated summer camp pages</strong> with detailed "
 "information, schedules, and visuals."
@@ -338,66 +346,54 @@ msgstr ""
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Create quotations</strong> directly from the CRM when the lead is "
 "ready to book, linking seamlessly with the Sales app."
 msgstr ""
 "<strong>Müşteri adayı rezervasyon yapmaya hazır olduğunda, Satış uygulaması "
-"ile sorunsuz bir şekilde bağlantı kurarak doğrudan CRM'den</strong> "
-"teklifler oluşturun."
+"ile sorunsuz bir şekilde bağlantı kurarak doğrudan Müşteri İlişkileri "
+"Yönetimi'nden</strong> teklifler oluşturun."
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
+msgid "<strong>Customized pricing per attendee</strong>"
+msgstr ""
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
 msgid ""
 "<strong>Drag and drop signature, text, and date fields</strong> to collect "
 "all necessary information (e.g., emergency contact, medical permissions)."
 msgstr ""
-"<strong>İmza, metin ve tarih alanlarını sürükleyip bırakın</strong> gerekli "
-"tüm bilgileri toplamak için (örn. acil durum irtibat kişisi, tıbbi izinler)."
+"<strong>Gerekli tüm bilgileri toplamak için</strong> imza, metin ve tarih "
+"alanlarını sürükleyip bırakın (örn. acil durum irtibat kişisi, tıbbi "
+"izinler)."
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Email Marketing 🌟</strong>: Promote upcoming camps or send follow-"
 "ups post-camp."
 msgstr ""
 "<strong>E-posta Pazarlama 🌟</strong>: Yaklaşan kampları tanıtın veya kamp "
-"sonrası takipler gönderin."
+"sonrası takip mesajları gönderin."
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
-msgid ""
-"<strong>Events 🏨 :</strong>Create and manage every camp session with custom "
-"forms, pricing, capacity, tags, attendee tracking, automated emails, and a "
-"live check-in desk—all in one central app."
-msgstr ""
-"<strong>Etkinlikler 🏨 :</strong>Özel formlar, fiyatlandırma, kapasite, "
-"etiketler, katılımcı takibi, otomatik e-postalar ve canlı check-in masası "
-"ile her kamp oturumunu tek bir merkezi uygulamada oluşturun ve yönetin."
-
-#. module: summer_camps
-#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid "<strong>Events 🏨</strong>"
 msgstr "<strong>Etkinlikler 🏨</strong>"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Experiment ! </strong>Did you know you can create a copy of your "
 "database to try things out ? Simply go to"
 msgstr ""
-"<strong>Deneme ! </strong>Bir şeyleri denemek için veritabanınızın bir "
+"<strong>Deneme ! </strong>Bir şeyleri deneyimlemek için veritabanınızın bir "
 "kopyasını oluşturabileceğinizi biliyor muydunuz? Basitçe şu adrese gidin"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Generate a public share link</strong> for each template that can be "
 "reused."
@@ -407,7 +403,6 @@ msgstr ""
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Insert the share link directly into your confirmation emails</"
 "strong> so parents can sign the document easily before arrival."
@@ -417,7 +412,6 @@ msgstr ""
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Integrated \"Register Now\" buttons</strong> link to event "
 "registration."
@@ -427,17 +421,15 @@ msgstr ""
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Let customers self-schedule</strong> discovery calls or info "
 "sessions at a time that suits them."
 msgstr ""
-"<strong>Müşterilerin kendilerine uygun bir zamanda</strong> keşif "
-"aramalarını veya bilgi oturumlarını kendilerinin planlamasına izin verin."
+"<strong>Müşterilerin keşif aramalarını veya bilgi oturumlarını </strong> "
+"kendilerine uygun bir zamanda , kendilerinin planlamasına izin verin."
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Mobile-friendly experience</strong> ensures easy booking from any "
 "device."
@@ -447,70 +439,39 @@ msgstr ""
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid "<strong>Odoo helps you:</strong>"
 msgstr "<strong>Odoo size yardımcı olur:</strong>"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Organize opportunities by stage</strong> (e.g., New, Contacted, "
 "Quotation Sent, Confirmed) using a visual kanban pipeline."
 msgstr ""
-"<strong>Görsel bir kanban boru hattı kullanarak fırsatları</strong> "
-"aşamasına göre düzenleyin (örneğin, Yeni, Temasa Geçildi, Teklif Gönderildi, "
-"Onaylandı)."
+"<strong>Fırsatları aşamalarına göre </strong> kanban görünümüyle düzenleyin "
+"(örneğin, Yeni, Temasa Geçildi, Teklif Gönderildi, Onaylandı)."
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
-msgid ""
-"<strong>Projects 📋 :</strong>Organize the behind-the-scenes work of each "
-"camp using task lists, deadlines, assignments, and logistics tracking to "
-"ensure smooth preparation and coordination."
-msgstr ""
-"<strong>Proje Yönetimi 📋 :</strong>Sorunsuz hazırlık ve koordinasyon "
-"sağlamak için görev listeleri, son tarihler, ödevler ve lojistik takibi "
-"kullanarak her kampın perde arkası çalışmalarını organize edin."
-
-#. module: summer_camps
-#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid "<strong>Projects 📋</strong>"
 msgstr "<strong>Proje Yönetimi 📋</strong>"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Schedule meetings or calls</strong> directly from the CRM and sync "
 "with your calendar."
 msgstr ""
 "<strong>Toplantıları veya aramaları</strong> doğrudan CRM'den planlayın ve "
-"takviminizle senkronize edin."
+"takviminizle uyumlu hale getirin."
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
-msgid ""
-"<strong>Sign ✍️ :</strong>Collect parental consent securely with reusable "
-"digital signature templates, embedded links in confirmation emails, and "
-"centralized access to signed documents."
-msgstr ""
-"<strong>Sign ✍️ :</strong>Yeniden kullanılabilir dijital imza şablonları, "
-"onay e-postalarına gömülü bağlantılar ve imzalı belgelere merkezi erişim ile "
-"ebeveyn onayını güvenli bir şekilde toplayın."
-
-#. module: summer_camps
-#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid "<strong>Sign ✍️</strong>"
-msgstr "<strong>✍️ adresini imzalayın</strong>"
+msgstr "<strong>✍️ İmzalayın</strong>"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Social Marketing 💊</strong>: Share updates and stories across "
 "social media platforms."
@@ -520,17 +481,15 @@ msgstr ""
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Survey 📊</strong>: Collect feedback from parents and campers to "
 "improve future sessions."
 msgstr ""
-"<strong>Anket 📊</strong>: Gelecekteki oturumları iyileştirmek için "
-"ebeveynlerden ve kampçılardan geri bildirim toplayın."
+"<strong>Anket 📊</strong>: Velilerden ve kamp katılımcılarından geri "
+"bildirim toplayarak gelecek oturumları geliştirin."
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Sync with Google or Outlook calendars</strong> to prevent conflicts "
 "and stay updated."
@@ -540,35 +499,20 @@ msgstr ""
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Take notes, log calls, and attach documents</strong> on the "
 "opportunity record to centralize communication."
 msgstr ""
-"<strong>İletişimi merkezileştirmek için fırsat kaydında</strong> notlar "
-"alın, aramaları kaydedin ve belgeler ekleyin."
+"<strong>Fırsat kaydında not alın, </strong> görüşmeleri kaydedin ve "
+"belgeleri ekleyerek iletişimi merkezi hâle getirin."
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid "<strong>Visit our E-Learning platform </strong>on"
 msgstr "<strong>E-Öğrenim platformumuzu </strong>adresinde ziyaret edin"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
-msgid ""
-"<strong>Website 🌐 :</strong>Showcase your camps online with dedicated "
-"pages, integrated registration, mobile-friendly design, and secure payment—"
-"all from a visually engaging and parent-friendly website."
-msgstr ""
-"<strong>Web sitesi 🌐 :</strong>Kamplarınızı özel sayfalar, entegre kayıt, "
-"mobil uyumlu tasarım ve güvenli ödeme ile çevrimiçi olarak sergileyin - "
-"hepsi görsel olarak ilgi çekici ve ebeveyn dostu bir web sitesinden."
-
-#. module: summer_camps
-#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid "<strong>Website 🌐</strong>"
 msgstr "<strong>Web sitesi 🌐</strong>"
 
@@ -577,7 +521,6 @@ msgstr "<strong>Web sitesi 🌐</strong>"
 #: model_terms:event.event,description:summer_camps.event_event_2
 #: model_terms:event.event,description:summer_camps.event_event_3
 #: model_terms:event.event,description:summer_camps.event_event_4
-#, fuzzy
 msgid "<strong>✅ What’s Included</strong>"
 msgstr "<strong>Neler Dahil</strong>"
 
@@ -586,9 +529,8 @@ msgstr "<strong>Neler Dahil</strong>"
 #: model_terms:event.event,description:summer_camps.event_event_2
 #: model_terms:event.event,description:summer_camps.event_event_3
 #: model_terms:event.event,description:summer_camps.event_event_4
-#, fuzzy
 msgid "<strong>❌ Not Included</strong>"
-msgstr "<strong>❌ Dahil Değildir</strong>"
+msgstr "<strong>❌ Neler Dahil Değil</strong>"
 
 #. module: summer_camps
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_1
@@ -596,18 +538,16 @@ msgstr "<strong>❌ Dahil Değildir</strong>"
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_3
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_4
 #: model_terms:event.type,ticket_instructions:summer_camps.event_type_1
-#, fuzzy
 msgid ""
 "A complete checklist will be sent 2 weeks before camp starts, with "
 "everything your child needs—from hiking shoes to silly costumes."
 msgstr ""
-"Kamp başlamadan 2 hafta önce, yürüyüş ayakkabılarından saçma kostümlere "
-"kadar çocuğunuzun ihtiyacı olan her şeyi içeren eksiksiz bir kontrol listesi "
-"gönderilecektir."
+"Kamp başlamadan 2 hafta önce, çocuğunuzun ihtiyacı olan her şeyi—yürüyüş "
+"ayakkabılarından eğlenceli kostümlere kadar—içeren eksiksiz bir kontrol "
+"listesi gönderilecektir."
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "Access real-time data like <strong>registration numbers, revenue per camp</"
 "strong>, and detailed attendee info."
@@ -621,6 +561,11 @@ msgid "Accommodation"
 msgstr "Konaklama"
 
 #. module: summer_camps
+#: model:base.automation,name:summer_camps.add_product_on_so
+msgid "Add product on SO"
+msgstr ""
+
+#. module: summer_camps
 #: model:crm.tag,name:summer_camps.crm_tag_29
 #: model:product.public.category,name:summer_camps.product_public_category_1
 msgid "Adventure"
@@ -628,38 +573,33 @@ msgstr "Macera"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.ir_ui_view_916
-#, fuzzy
 msgid "Adventure Camps"
 msgstr "Macera Kampları"
 
 #. module: summer_camps
 #: model:project.project,name:summer_camps.project_project_1
-#, fuzzy
 msgid "Adventure Summer Camp"
 msgstr "Macera Yaz Kampı"
 
 #. module: summer_camps
 #: model:event.event.ticket,description:summer_camps.event_event_ticket_1
 #: model:event.event.ticket,description:summer_camps.event_event_ticket_4
-#, fuzzy
 msgid ""
 "Adventure Summer Camp includes lodging in cozy cabins, all meals and snacks, "
 "daily outdoor and creative activities, trained coordinators, safety "
 "equipment, and 24/7 supervision."
 msgstr ""
-"Macera Yaz Kampı, rahat kabinlerde konaklama, tüm yemekler ve "
+"Adventure Yaz Kampı, konforlu kulübelerde konaklama, tüm öğünler ve "
 "atıştırmalıklar, günlük açık hava ve yaratıcı etkinlikler, eğitimli "
-"koordinatörler, güvenlik ekipmanları ve 7/24 gözetim içerir."
+"koordinatörler, güvenlik ekipmanları ve 7/24 gözetim içermektedir."
 
 #. module: summer_camps
 #: model:event.tag.category,name:summer_camps.event_tag_category_1
-#, fuzzy
 msgid "Age Group"
 msgstr "Yaş Grubu"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.custom_event_nav_reference
-#, fuzzy
 msgid "All Camps"
 msgstr "Tüm Kamplar"
 
@@ -668,60 +608,51 @@ msgstr "Tüm Kamplar"
 #: model_terms:event.event,description:summer_camps.event_event_2
 #: model_terms:event.event,description:summer_camps.event_event_3
 #: model_terms:event.event,description:summer_camps.event_event_4
-#, fuzzy
 msgid "All materials, gear, and safety equipment"
 msgstr "Tüm malzemeler, teçhizat ve güvenlik ekipmanları"
 
 #. module: summer_camps
 #: model:event.question,title:summer_camps.event_question_5
-#, fuzzy
 msgid "Allergies or Health Information"
 msgstr "Alerjiler veya Sağlık Bilgileri"
 
 #. module: summer_camps
 #: model:crm.tag,name:summer_camps.crm_tag_22
-#, fuzzy
 msgid "Allergy"
 msgstr "Alerji"
 
 #. module: summer_camps
 #: model:product.public.category,name:summer_camps.product_public_category_3
-#, fuzzy
 msgid "Apparel"
 msgstr "Konfeksiyon"
 
 #. module: summer_camps
 #: model:event.event.ticket,description:summer_camps.event_event_ticket_5
-#, fuzzy
 msgid ""
 "Art & Creative Camp includes cozy cabin lodging, all meals and materials, "
 "guided creative workshops, and 24/7 staff supervision. Just bring comfy "
 "clothes and your imagination—everything else is ready!"
 msgstr ""
-"Sanat ve Yaratıcılık Kampı, rahat kabin konaklama, tüm yemekler ve "
-"malzemeler, rehberli yaratıcı atölyeler ve 7/24 personel gözetimi içerir. "
-"Sadece rahat kıyafetlerinizi ve hayal gücünüzü getirin, geri kalan her şey "
-"hazır!"
+"Sanat ve Yaratıcılık Kampi, konforlu kulübelerde konaklama, tüm öğünler ve "
+"malzemeler, rehberli yaratıcı atölyeler ve 7/24 personel gözetimi sunar. "
+"Sadece rahat kıyafetlerinizi ve hayal gücünüzü getirin—gerisi hazır!"
 
 #. module: summer_camps
 #: model:product.template,name:summer_camps.product_template_5
-#, fuzzy
 msgid "Art Camp Registration"
 msgstr "Sanat Kampı Kayıtları"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "Assign different team members or time slots to specific <strong>camp types "
 "or age groups</strong> for optimized scheduling."
 msgstr ""
-"Optimize edilmiş planlama için farklı ekip üyelerini veya zaman dilimlerini "
-"belirli <strong>kamp türlerine veya yaş gruplarına</strong> atayın."
+"Farklı ekip üyelerini veya zaman dilimlerini, <strong> kamp türleri veya yaş "
+"grupları için atayarak planlamayı </strong> optimize edin."
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "Assign responsibilities to team members and <strong>track deadlines</strong>."
 msgstr ""
@@ -730,17 +661,15 @@ msgstr ""
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "Automate <strong>confirmation emails, reminders, and follow-up "
 "communications</strong>."
 msgstr ""
-"<strong>onay e-postalarını, hatırlatıcıları ve takip iletişimlerini "
+"<strong>Onay e-postalarını, hatırlatıcıları ve takip iletişimlerini "
 "otomatikleştirin</strong>."
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.custom_event_nav_reference
-#, fuzzy
 msgid "Back to All Events"
 msgstr "Tüm Etkinliklere Geri Dön"
 
@@ -751,23 +680,20 @@ msgstr "Yönetim Paneli"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "Break down camp preparation into <strong>task lists</strong>: material "
 "preparation, staff assignments, pre-camp checklists."
 msgstr ""
-"Kamp hazırlığını <strong>görev listelerine ayırın</strong>: malzeme "
-"hazırlığı, personel atamaları, kamp öncesi kontrol listeleri."
+"Kamp hazırlıklarını <strong>görev listelerine ayırın</strong>: malzeme "
+"hazırlığı, personel atamaları, kamp öncesi kontrol listeleri gibi."
 
 #. module: summer_camps
 #: model:event.tag.category,name:summer_camps.event_tag_category_2
-#, fuzzy
 msgid "Camp Type"
 msgstr "Kamp Tipi"
 
 #. module: summer_camps
 #: model_terms:product.public.category,website_description:summer_camps.product_public_category_8
-#, fuzzy
 msgid "Capture your camp journey with keepsakes and photo albums."
 msgstr "Hatıra eşyaları ve fotoğraf albümleri ile kamp yolculuğunuzu kaydedin."
 
@@ -777,19 +703,17 @@ msgstr "Hatıra eşyaları ve fotoğraf albümleri ile kamp yolculuğunuzu kayde
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_3
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_4
 #: model_terms:event.type,ticket_instructions:summer_camps.event_type_1
-#, fuzzy
 msgid "Chemin des Fougères 17, 6980 La Roche, Belgium"
 msgstr "Chemin des Fougères 17, 6980 La Roche, Belçika"
 
 #. module: summer_camps
 #: model_terms:appointment.type,message_intro:summer_camps.appointment_type_1
-#, fuzzy
 msgid ""
 "Choose a time that works for you, and we’ll be happy to guide you through "
 "everything."
 msgstr ""
-"Size uygun bir zaman seçin ve size her konuda rehberlik etmekten mutluluk "
-"duyacağız."
+"Size uygun bir zamanı seçin, gerisini size adım adım göstermekten memnuniyet "
+"duyarız."
 
 #. module: summer_camps
 #: model:sign.template,redirect_url_text:summer_camps.sign_template_2
@@ -798,18 +722,16 @@ msgstr "Kapat"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "Configure <strong>Email Templates</strong> to attach<strong>packing lists</"
 "strong> and consent forms as PDFs or shared links."
 msgstr ""
-"<strong>paketleme listelerini</strong> ve onay formlarını PDF veya "
-"paylaşılan bağlantılar olarak eklemek için <strong>E-posta Şablonlarını</"
-"strong> yapılandırın."
+"<strong>E-posta şablonlarını </strong>yapılandırarak <strong>paketleme "
+"listelerini </strong> ve onay formlarını PDF veya paylaşılan bağlantılar "
+"olarak ekleyin."
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "Configure <strong>custom registration forms</strong> to gather camper "
 "details, medical info, dietary restrictions, and more."
@@ -824,19 +746,16 @@ msgstr "Kurumsal"
 
 #. module: summer_camps
 #: model:product.public.category,name:summer_camps.product_public_category_2
-#, fuzzy
 msgid "Crafts"
 msgstr "El Sanatları"
 
 #. module: summer_camps
 #: model:crm.tag,name:summer_camps.crm_tag_23
-#, fuzzy
 msgid "Creative Camp"
 msgstr "Yaratıcı Kamp"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.ir_ui_view_916
-#, fuzzy
 msgid "Creative Camps"
 msgstr "Yaratıcı Kamplar"
 
@@ -845,39 +764,34 @@ msgstr "Yaratıcı Kamplar"
 #: model_terms:event.event,description:summer_camps.event_event_2
 #: model_terms:event.event,description:summer_camps.event_event_3
 #: model_terms:event.event,description:summer_camps.event_event_4
-#, fuzzy
 msgid "Daily guided activities with trained staff"
 msgstr "Eğitimli personel ile günlük rehberli aktiviteler"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "Define <strong>pricing, early bird discounts, and capacity limits</strong> "
 "per ticket type."
 msgstr ""
-"Bilet türü başına <strong>fiyatlandırmasını, erken rezervasyon indirimlerini "
-"ve kapasite sınırlarını</strong> tanımlayın."
+"Bilet türüne göre <strong>fiyatlandırmayı, erken kayıt indirimlerini ve "
+"kapasite sınırlarını</strong> belirleyin."
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "Design and publish summer camp listings using <strong>event templates</"
 "strong>."
 msgstr ""
-"<strong>etkinlik şablonlarını</strong> kullanarak yaz kampı listeleri "
+"<strong>Etkinlik şablonlarını</strong> kullanarak yaz kampı listeleri "
 "tasarlayın ve yayınlayın."
 
 #. module: summer_camps
 #: model:event.question,title:summer_camps.event_question_4
-#, fuzzy
 msgid "Dietary restrictions"
 msgstr "Diyet kısıtlamaları"
 
 #. module: summer_camps
 #: model_terms:product.public.category,website_description:summer_camps.product_public_category_6
-#, fuzzy
 msgid "Discover fun games that bring campers together."
 msgstr "Kampçıları bir araya getiren eğlenceli oyunları keşfedin."
 
@@ -893,9 +807,8 @@ msgstr "Yapıldı"
 
 #. module: summer_camps
 #: model_terms:product.public.category,website_description:summer_camps.product_public_category_3
-#, fuzzy
 msgid "Dress for fun with our stylish camp gear and accessories."
-msgstr "Şık kamp kıyafetlerimiz ve aksesuarlarımızla eğlenmek için giyinin."
+msgstr "Şık kamp kıyafetlerimiz ve aksesuarlarımızla eğlenceye uygun giyinin."
 
 #. module: summer_camps
 #: model:event.tag.category,name:summer_camps.event_tag_category_5
@@ -904,15 +817,13 @@ msgstr "Süre"
 
 #. module: summer_camps
 #: model:event.question,title:summer_camps.event_question_9
-#, fuzzy
 msgid "Emergency Phone Number"
 msgstr "Acil Durum Telefon Numarası"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid "Enhance your summer camp management with these additional Odoo apps:"
-msgstr "Bu ek Odoo uygulamalarıyla yaz kampı yönetiminizi geliştirin:"
+msgstr "Yaz kampı yönetiminizi Bu ek Odoo uygulamalarıyla  geliştirin:"
 
 #. module: summer_camps
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_1
@@ -920,13 +831,12 @@ msgstr "Bu ek Odoo uygulamalarıyla yaz kampı yönetiminizi geliştirin:"
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_3
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_4
 #: model_terms:event.type,ticket_instructions:summer_camps.event_type_1
-#, fuzzy
 msgid ""
 "Enter “Camp Sylva – Ardennes” into Google Maps or Waze. The entrance is "
 "marked by wooden signs and friendly faces!"
 msgstr ""
 "Google Maps veya Waze'e \"Camp Sylva - Ardennes\" yazın. Giriş ahşap "
-"tabelalar ve dost yüzlerle işaretlenmiştir!"
+"tabelalar ve güler yüzlü gorevlilerle işaretlenmiştir!"
 
 #. module: summer_camps
 #: model:product.public.category,name:summer_camps.product_public_category_4
@@ -935,7 +845,6 @@ msgstr "Ekipman"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.ir_ui_view_916
-#, fuzzy
 msgid ""
 "Escape the screen, dive into the wild, and find your inner explorer.<br/>\n"
 "                                        <br/>"
@@ -944,15 +853,19 @@ msgstr ""
 "                                        <br/>"
 
 #. module: summer_camps
+#: model:ir.model.fields,field_description:summer_camps.field_x_event_product_event_question_answer
+msgid "Event Product"
+msgstr ""
+
+#. module: summer_camps
 #: model_terms:product.public.category,website_description:summer_camps.product_public_category_1
-#, fuzzy
 msgid "Explore thrilling activities that ignite excitement and teamwork."
 msgstr ""
-"Heyecan ve ekip çalışmasını ateşleyen heyecan verici etkinlikleri keşfedin."
+"Heyecan ve takım ruhunu harekete geçiren heyecan verici aktiviteleri "
+"keşfedin."
 
 #. module: summer_camps
 #: model:crm.tag,name:summer_camps.crm_tag_19
-#, fuzzy
 msgid "Family"
 msgstr "Aile"
 
@@ -963,7 +876,6 @@ msgstr "Bayan"
 
 #. module: summer_camps
 #: model_terms:product.public.category,website_description:summer_camps.product_public_category_7
-#, fuzzy
 msgid "Find everything you need for a successful camp experience."
 msgstr "Başarılı bir kamp deneyimi için ihtiyacınız olan her şeyi bulun."
 
@@ -981,7 +893,6 @@ msgstr "Sık Sorulan Sorular"
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_3
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_4
 #: model_terms:event.type,ticket_instructions:summer_camps.event_type_1
-#, fuzzy
 msgid ""
 "From Brussels, take the E411 towards Namur, then follow signs to Marche-en-"
 "Famenne and La Roche. Free parking is available on-site for drop-off and "
@@ -993,38 +904,33 @@ msgstr ""
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "From the moment a lead is captured, you can qualify, follow up, and guide "
 "them through the booking process with clarity and ease."
 msgstr ""
-"Bir müşteri adayı yakalandığı andan itibaren onu niteleyebilir, takip "
+"Bir müşteri adayı yakalandığı andan itibaren onu nitelendirebilir, takip "
 "edebilir ve rezervasyon süreci boyunca net ve kolay bir şekilde "
 "yönlendirebilirsiniz."
 
 #. module: summer_camps
 #: model_terms:product.public.category,website_description:summer_camps.product_public_category_5
-#, fuzzy
 msgid "Fuel your adventures with delicious and energizing treats."
-msgstr "Maceralarınızı lezzetli ve enerji verici ikramlarla besleyin."
+msgstr "Maceralarınızı lezzetli ve enerji verici atıştırmalıklarla besleyin."
 
 #. module: summer_camps
 #: model:event.question,title:summer_camps.event_question_8
-#, fuzzy
 msgid "Full Address"
 msgstr "Tam Adres"
 
 #. module: summer_camps
 #: model:product.public.category,name:summer_camps.product_public_category_6
-#, fuzzy
 msgid "Games"
 msgstr "Oyunlar"
 
 #. module: summer_camps
 #: model_terms:product.public.category,website_description:summer_camps.product_public_category_4
-#, fuzzy
 msgid "Gear up with essential tools for every camp activity."
-msgstr "Her kamp etkinliği için gerekli araçlarla donatın."
+msgstr "Her kamp etkinliği için gerekli araçlarla donanın."
 
 #. module: summer_camps
 #: model:crm.tag,name:summer_camps.crm_tag_25
@@ -1033,17 +939,15 @@ msgstr "Grup"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "Group attendees by <strong>tags or registration form answers</strong> to "
 "tailor communications."
 msgstr ""
 "Katılımcıları <strong>etiketlerine veya kayıt formu yanıtlarına göre "
-"gruplandırın</strong> iletişimi özelleştirmek için."
+"gruplandırın</strong> iletişimi özelleştirin."
 
 #. module: summer_camps
 #: model_terms:appointment.type,message_intro:summer_camps.appointment_type_1
-#, fuzzy
 msgid ""
 "Have questions about our summer camps? Want to make sure it’s the right fit "
 "for your child? Book a one-on-one chat with one of our friendly camp "
@@ -1059,13 +963,11 @@ msgstr ""
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_3
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_4
 #: model_terms:event.type,ticket_instructions:summer_camps.event_type_1
-#, fuzzy
 msgid "Here’s what happens next:"
 msgstr "İşte bundan sonra olacaklar:"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.ir_ui_view_916
-#, fuzzy
 msgid ""
 "Hikes, survival skills, kayaking, and nature games in a beautiful setting."
 msgstr ""
@@ -1074,19 +976,16 @@ msgstr ""
 
 #. module: summer_camps
 #: model:crm.tag,name:summer_camps.crm_tag_27
-#, fuzzy
 msgid "IT Camp"
 msgstr "IT Kampı"
 
 #. module: summer_camps
 #: model:product.template,name:summer_camps.product_template_6
-#, fuzzy
 msgid "IT Camp Registration"
 msgstr "BT Kampı Kayıtları"
 
 #. module: summer_camps
 #: model:event.event.ticket,description:summer_camps.event_event_ticket_6
-#, fuzzy
 msgid ""
 "IT Summer Camp includes full lodging, meals, access to computers and tech "
 "equipment, guided coding workshops, and 24/7 support from trained staff. "
@@ -1094,7 +993,7 @@ msgid ""
 msgstr ""
 "IT Yaz Kampı tam konaklama, yemek, bilgisayar ve teknoloji ekipmanlarına "
 "erişim, rehberli kodlama atölyeleri ve eğitimli personelden 7/24 destek "
-"içerir. Siz sadece merakınızı getirin, gerisini biz hallederiz!"
+"sunar. Siz sadece merakınızı getirin, gerisini biz hallederiz!"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
@@ -1112,13 +1011,19 @@ msgstr "İşlemde"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "In the following examples, we used the \"/buttons\" function, and inserted "
 "the shared Consent Form document from the Sign app."
 msgstr ""
 "Aşağıdaki örneklerde, \"/buttons\" işlevini kullandık ve Sign uygulamasından "
 "paylaşılan Onay Formu belgesini ekledik."
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid ""
+"It is also possible to customize the attendance pricing based on the options "
+"an attendee selects during the registration process."
+msgstr ""
 
 #. module: summer_camps
 #: model:crm.tag,name:summer_camps.crm_tag_20
@@ -1135,11 +1040,15 @@ msgstr ""
 "yeni bir veri tabanı başlatarak"
 
 #. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.camps_button
+msgid "Learn More <i class=\"fa fa-chevron-right\"/>"
+msgstr ""
+
+#. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_1
 #: model_terms:event.event,description:summer_camps.event_event_2
 #: model_terms:event.event,description:summer_camps.event_event_3
 #: model_terms:event.event,description:summer_camps.event_event_4
-#, fuzzy
 msgid "Lodging in cozy, supervised cabins"
 msgstr "Rahat, gözetimli kabinlerde konaklama"
 
@@ -1150,7 +1059,6 @@ msgstr "Bay"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "Manage <strong>equipment logistics</strong>, staff planning, and on-site "
 "activity coordination."
@@ -1160,21 +1068,18 @@ msgstr ""
 
 #. module: summer_camps
 #: model:appointment.type,name:summer_camps.appointment_type_1
-#, fuzzy
 msgid "Meet a Counsellor"
 msgstr "Bir Danışmanla Tanışın"
 
 #. module: summer_camps
 #: model:product.public.category,name:summer_camps.product_public_category_8
-#, fuzzy
 msgid "Memories"
 msgstr "Anılar"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.ir_ui_view_916
-#, fuzzy
 msgid "MySummerCamps"
-msgstr "MySummerCamps"
+msgstr "Yaz Kamplarım"
 
 #. module: summer_camps
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_1
@@ -1182,7 +1087,6 @@ msgstr "MySummerCamps"
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_3
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_4
 #: model_terms:event.type,ticket_instructions:summer_camps.event_type_1
-#, fuzzy
 msgid ""
 "Need to make changes? You can manage your booking anytime via your personal "
 "account."
@@ -1192,13 +1096,11 @@ msgstr ""
 
 #. module: summer_camps
 #: model:event.event,name:summer_camps.event_event_4
-#, fuzzy
 msgid "New Camp (draft)"
 msgstr "Yeni Kamp (taslak)"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "Note : you can create as many email templates as you want, and associate "
 "them all to the desired events."
@@ -1208,13 +1110,11 @@ msgstr ""
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid "Odoo.com"
 msgstr "Odoo.com"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid "Odoo.com/slides"
 msgstr "Odoo.com/slaytlar"
 
@@ -1229,7 +1129,6 @@ msgstr "Odoo.com/trial"
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_3
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_4
 #: model_terms:event.type,ticket_instructions:summer_camps.event_type_1
-#, fuzzy
 msgid ""
 "One week before camp, you’ll receive a reminder with drop-off and pick-up "
 "times, and details about our welcome desk."
@@ -1244,7 +1143,6 @@ msgstr "Diğer"
 
 #. module: summer_camps
 #: model:event.question,title:summer_camps.event_question_7
-#, fuzzy
 msgid "Other preferences"
 msgstr "Diğer tercihler"
 
@@ -1253,27 +1151,23 @@ msgstr "Diğer tercihler"
 #: model_terms:event.event,description:summer_camps.event_event_2
 #: model_terms:event.event,description:summer_camps.event_event_3
 #: model_terms:event.event,description:summer_camps.event_event_4
-#, fuzzy
 msgid "Our Adventure Camp is perfect for kids aged <strong>8 to 13</strong>."
 msgstr ""
-"Macera Kampımız <strong>8 ila 13 yaş arası çocuklar için "
-"mükemmeldir</strong>."
+"Macera Kampımız <strong>8-13 yaş arası çocuklar için mükemmeldir</strong>."
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_1
 #: model_terms:event.event,description:summer_camps.event_event_3
 #: model_terms:event.event,description:summer_camps.event_event_4
-#, fuzzy
 msgid ""
 "Our days are structured yet full of freedom—led by experienced guides and "
 "packed with variety:"
 msgstr ""
-"Günlerimiz yapılandırılmış ancak özgürlük dolu, deneyimli rehberler "
-"tarafından yönetilen ve çeşitlilikle dolu:"
+"Günlerimiz deneyimli rehberlerin önderliğinde, çeşitlilikle dolu, "
+"yapılandırılmış ama bir o kadar da özgürlük doludur."
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.ir_ui_view_916
-#, fuzzy
 msgid ""
 "Our summer camps are designed to create unforgettable experiences for "
 "children of all ages. Whether it’s their first time away from home or their "
@@ -1285,7 +1179,6 @@ msgstr ""
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.ir_ui_view_916
-#, fuzzy
 msgid "Painting, theater, crafts, and music, all at your child's fingertips."
 msgstr ""
 "Resim, tiyatro, el sanatları ve müzik, hepsi çocuğunuzun parmaklarının "
@@ -1293,31 +1186,26 @@ msgstr ""
 
 #. module: summer_camps
 #: model:event.question,title:summer_camps.event_question_2
-#, fuzzy
 msgid "Parent Email"
 msgstr "Ebeveyn E-postası"
 
 #. module: summer_camps
 #: model:event.question,title:summer_camps.event_question_3
-#, fuzzy
 msgid "Parent Phone"
 msgstr "Ebeveyn Telefonu"
 
 #. module: summer_camps
 #: model:event.question,title:summer_camps.event_question_6
-#, fuzzy
 msgid "Participant Date of Birth"
 msgstr "Katılımcı Doğum Tarihi"
 
 #. module: summer_camps
 #: model:event.question,title:summer_camps.event_question_10
-#, fuzzy
 msgid "Participant's Gender"
 msgstr "Katılımcının Cinsiyeti"
 
 #. module: summer_camps
 #: model:event.question,title:summer_camps.event_question_1
-#, fuzzy
 msgid "Participant's Name"
 msgstr "Katılımcının Adı"
 
@@ -1326,7 +1214,6 @@ msgstr "Katılımcının Adı"
 #: model_terms:event.event,description:summer_camps.event_event_2
 #: model_terms:event.event,description:summer_camps.event_event_3
 #: model_terms:event.event,description:summer_camps.event_event_4
-#, fuzzy
 msgid "Personal gear (e.g., clothing, toiletries – see ﻿"
 msgstr "Kişisel ekipman (örn. giysi, tuvalet malzemeleri - bkz."
 
@@ -1335,7 +1222,6 @@ msgstr "Kişisel ekipman (örn. giysi, tuvalet malzemeleri - bkz."
 #: model_terms:event.event,description:summer_camps.event_event_2
 #: model_terms:event.event,description:summer_camps.event_event_3
 #: model_terms:event.event,description:summer_camps.event_event_4
-#, fuzzy
 msgid "Personal insurance"
 msgstr "Kişisel sigorta"
 
@@ -1344,7 +1230,6 @@ msgstr "Kişisel sigorta"
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_2
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_4
 #: model_terms:event.type,ticket_instructions:summer_camps.event_type_1
-#, fuzzy
 msgid ""
 "Please complete the required forms before your child’s first day. You’ll "
 "find them linked in your email or through your parent dashboard."
@@ -1354,7 +1239,6 @@ msgstr ""
 
 #. module: summer_camps
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_3
-#, fuzzy
 msgid ""
 "Please complete the required forms before your child’s first day. You’ll "
 "find them linked in your email."
@@ -1367,7 +1251,6 @@ msgstr ""
 #: model_terms:event.event,description:summer_camps.event_event_2
 #: model_terms:event.event,description:summer_camps.event_event_3
 #: model_terms:event.event,description:summer_camps.event_event_4
-#, fuzzy
 msgid "Pocket money (we don’t have a shop on-site)"
 msgstr "Cep harçlığı (tesisimizde bir dükkanımız yok)"
 
@@ -1379,31 +1262,26 @@ msgstr "Bize ulaşın"
 #. module: summer_camps
 #: model:event.event.ticket,name:summer_camps.event_event_ticket_1
 #: model:event.event.ticket,name:summer_camps.event_event_ticket_4
-#, fuzzy
 msgid "Registration for Summer Camp"
 msgstr "Yaz Kampı Kayıtları"
 
 #. module: summer_camps
 #: model:event.event.ticket,name:summer_camps.event_event_ticket_5
-#, fuzzy
 msgid "Registration for 🏕️ Creative Summer Camp"
 msgstr "🏕️ Yaratıcı Yaz Kampı için Kayıtlar"
 
 #. module: summer_camps
 #: model:event.event.ticket,name:summer_camps.event_event_ticket_6
-#, fuzzy
 msgid "Registration for 💻 Camp Pixel"
 msgstr "Pixel Kampı için Kayıt"
 
 #. module: summer_camps
 #: model:crm.tag,name:summer_camps.crm_tag_21
-#, fuzzy
 msgid "Returning Client"
 msgstr "Geri Dönen Müşteri"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "Running a summer camp involves more than just fun and games—it requires "
 "seamless organization, clear communication, and reliable data tracking. Odoo "
@@ -1422,13 +1300,12 @@ msgstr ""
 #: model_terms:event.event,description:summer_camps.event_event_2
 #: model_terms:event.event,description:summer_camps.event_event_3
 #: model_terms:event.event,description:summer_camps.event_event_4
-#, fuzzy
 msgid ""
 "Small group sizes of <strong>8–10 campers per coordinator</strong> ensure "
 "personal attention and a strong group spirit."
 msgstr ""
-"Küçük grup boyutları <strong>Koordinatör başına 8-10 kampçı</strong> kişisel "
-"ilgi ve güçlü bir grup ruhu sağlar."
+"Koordinatör başına <strong> 8-10 kampçı </strong> dan oluşan küçük gruplar, "
+"kişisel ilgi ve güçlü bir grup ruhu sağlar."
 
 #. module: summer_camps
 #: model:product.public.category,name:summer_camps.product_public_category_5
@@ -1437,19 +1314,16 @@ msgstr "Atıştırmalıklar"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.ir_ui_view_916
-#, fuzzy
 msgid "Sports Camps"
 msgstr "Spor Kampları"
 
 #. module: summer_camps
 #: model:event.type,name:summer_camps.event_type_1
-#, fuzzy
 msgid "Summer Camp"
 msgstr "Yaz Kampı"
 
 #. module: summer_camps
 #: model:product.template,name:summer_camps.product_template_4
-#, fuzzy
 msgid "Summer Camp Registration"
 msgstr "Yaz Kampı Kayıtları"
 
@@ -1460,7 +1334,6 @@ msgstr "Yaz Kampları"
 
 #. module: summer_camps
 #: model:product.public.category,name:summer_camps.product_public_category_7
-#, fuzzy
 msgid "Supplies"
 msgstr "Malzemeler"
 
@@ -1470,7 +1343,6 @@ msgstr "Malzemeler"
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_3
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_4
 #: model_terms:event.type,ticket_instructions:summer_camps.event_type_1
-#, fuzzy
 msgid ""
 "Take a train to <strong>Marloie Station</strong>. From there, we offer a "
 "supervised shuttle service to camp for an extra fee. Don’t forget to book it "
@@ -1490,7 +1362,6 @@ msgstr "Görevler"
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_2
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_4
 #: model_terms:event.type,ticket_instructions:summer_camps.event_type_1
-#, fuzzy
 msgid ""
 "Thank you for booking your child’s place at <strong>Camp Adventure</strong>! "
 "We’re thrilled to welcome them to an unforgettable summer in the heart of "
@@ -1502,7 +1373,6 @@ msgstr ""
 
 #. module: summer_camps
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_3
-#, fuzzy
 msgid ""
 "Thank you for booking your child’s place at <strong>Camp Arts</strong>! "
 "We’re thrilled to welcome them to an unforgettable summer in the heart of "
@@ -1514,7 +1384,6 @@ msgstr ""
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "The <strong>Appointments</strong> app makes it easy for families to connect "
 "with your team before committing to a camp. Whether they want to ask "
@@ -1530,7 +1399,6 @@ msgstr ""
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "The <strong>CRM</strong> app helps you manage every inquiry that comes "
 "through your website's contact form—turning initial interest into confirmed "
@@ -1542,23 +1410,21 @@ msgstr ""
 "gelen her soruyu yönetmenize yardımcı olarak ilk ilgiyi onaylanmış kayıtlara "
 "dönüştürür. İster daha fazla bilgi isteyen bir ebeveyn, ister grup "
 "rezervasyonu öneren bir okul veya müsaitlik durumunu soran geri dönen bir "
-"aile olsun, CRM satış hattınızı düzenli ve eyleme geçirilebilir tutar."
+"aile olsun, CRM fırsat havuzunuzu düzenli ve eyleme geçirilebilir tutar."
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "The <strong>Events</strong> app is the heart of summer camp management. It "
 "provides tools to create, customize, and manage all aspects of each camp "
 "session."
 msgstr ""
-"<strong>Events</strong> uygulaması yaz kampı yönetiminin kalbidir. Her kamp "
-"oturumunun tüm yönlerini oluşturmak, özelleştirmek ve yönetmek için araçlar "
-"sağlar."
+"<strong>Etkinlikler</strong> uygulaması yaz kampı yönetiminin kalbidir. Her "
+"kamp oturumunun tüm yönlerini oluşturmak, özelleştirmek ve yönetmek için "
+"araçlar sağlar."
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "The <strong>Projects</strong> app helps with behind-the-scenes preparation "
 "and operational planning."
@@ -1568,7 +1434,6 @@ msgstr ""
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "The <strong>Sign</strong> app allows you to collect parental authorizations "
 "quickly and securely through digital signatures. It's a reliable way to "
@@ -1580,7 +1445,6 @@ msgstr ""
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "The <strong>Website</strong> app allows you to showcase your summer camps in "
 "a visually appealing and informative way. It serves as the entry point for "
@@ -1595,24 +1459,37 @@ msgstr ""
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "The bottom of the Email template contains an \"Attachments\" section. Here, "
 "you can add files to send automatically with the template, such as a packing "
 "list, more information, etc."
 msgstr ""
-"E-posta şablonunun alt kısmında bir \"Ekler\" bölümü bulunur. Burada, "
-"şablonla birlikte otomatik olarak gönderilecek paketleme listesi, daha fazla "
-"bilgi vb. gibi dosyalar ekleyebilirsiniz."
+"E-posta şablonunun alt kısmında bir \"Ekler\" bölümü bulunur. Buraya, "
+"şablonla birlikte otomatik olarak gönderilecek paketleme listesi, ek "
+"bilgiler gibi dosyalar ekleyebilirsiniz."
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "The result? Better service, more trust, and a smoother registration journey."
 msgstr ""
 "Sonuç mu? Daha iyi hizmet, daha fazla güven ve daha sorunsuz bir kayıt "
 "yolculuğu."
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid ""
+"These are defined in the questions. To associate a product to a response, "
+"set the question type to \"<strong>Selection</strong>\". Following that, set "
+"a new or existing product in the \"Event Product\" column."
+msgstr ""
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid ""
+"These should now both appear during the payment process, and in the Sales "
+"Order that's associated to the attendee registration."
+msgstr ""
 
 #. module: summer_camps
 #: model:project.task.type,name:summer_camps.project_task_type_1
@@ -1621,46 +1498,40 @@ msgstr "Yapılacak"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid "Track real-time performance via the <strong>Events dashboard</strong>."
 msgstr ""
-"Gerçek zamanlı performansı <strong>Events gösterge paneli</strong> üzerinden "
-"takip edin."
+"Gerçek zamanlı performansı <strong>Etkinlikler gösterge paneli</strong> "
+"üzerinden takip edin."
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_1
 #: model_terms:event.event,description:summer_camps.event_event_2
 #: model_terms:event.event,description:summer_camps.event_event_3
 #: model_terms:event.event,description:summer_camps.event_event_4
-#, fuzzy
 msgid "Transport to/from the camp (optional shuttle service available)"
 msgstr "Kampa/ kamptan ulaşım (isteğe bağlı servis hizmeti mevcuttur)"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.ir_ui_view_916
-#, fuzzy
 msgid "Trust us with your children and enjoy your summer with peace of mind"
 msgstr ""
 "Çocuklarınızı bize emanet edin ve gönül rahatlığıyla yazın tadını çıkarın"
 
 #. module: summer_camps
 #: model_terms:product.public.category,website_description:summer_camps.product_public_category_2
-#, fuzzy
 msgid "Unleash creativity with supplies for unforgettable projects."
 msgstr "Unutulmaz projeler için malzemelerle yaratıcılığınızı ortaya çıkarın."
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "Use <strong>event templates</strong> for recurring camp formats to save time."
 msgstr ""
-"Zamandan tasarruf etmek için yinelenen kamp biçimleri için <strong>etkinlik "
-"şablonlarını</strong> kullanın."
+"Zamandan tasarruf etmek için, tekrarlayan kamp formatları için "
+"<strong>etkinlik şablonlarını</strong> kullanın."
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "Use <strong>tags</strong> to categorize camps by duration, activities, "
 "lodging type, or meal plans."
@@ -1670,7 +1541,6 @@ msgstr ""
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "Use the <strong>Registration Desk view</strong> to check campers in upon "
 "arrival."
@@ -1680,7 +1550,6 @@ msgstr ""
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.ir_ui_view_916
-#, fuzzy
 msgid ""
 "We focus on confidence-building, creativity, nature immersion, and friendship"
 "—all in a safe, supervised, and joy-filled environment."
@@ -1693,12 +1562,11 @@ msgstr ""
 #: model_terms:event.event,description:summer_camps.event_event_2
 #: model_terms:event.event,description:summer_camps.event_event_3
 #: model_terms:event.event,description:summer_camps.event_event_4
-#, fuzzy
 msgid ""
 "We handle allergies and medical needs with great care—just note everything "
 "during registration. Our staff is first-aid certified and always nearby."
 msgstr ""
-"Alerjileri ve tıbbi ihtiyaçları büyük bir özenle ele alıyoruz; kayıt "
+"Alerji ve tıbbi ihtiyaçlarınızı büyük bir özenle ele alıyoruz; kayıt "
 "sırasında her şeyi not etmeniz yeterli. Personelimiz ilk yardım "
 "sertifikalıdır ve her zaman yanınızdadır."
 
@@ -1707,14 +1575,12 @@ msgstr ""
 #: model_terms:event.event,description:summer_camps.event_event_2
 #: model_terms:event.event,description:summer_camps.event_event_3
 #: model_terms:event.event,description:summer_camps.event_event_4
-#, fuzzy
 msgid "Welcome kit with water bottle, badge &amp; field journal"
 msgstr "Su şişesi, rozet &amp; saha günlüğü içeren karşılama kiti"
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_1
 #: model_terms:event.event,description:summer_camps.event_event_4
-#, fuzzy
 msgid ""
 "Welcome to <strong>Adventure Summer Camp </strong>—where kids unplug from "
 "screens and reconnect with nature, challenge themselves, and build "
@@ -1732,7 +1598,6 @@ msgstr ""
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_3
-#, fuzzy
 msgid ""
 "Welcome to <strong>Art &amp; Creative Camp</strong> at Camp Sylva—a week-"
 "long adventure into color, creativity, and self-expression. Set in the "
@@ -1750,7 +1615,6 @@ msgstr ""
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_2
-#, fuzzy
 msgid ""
 "Welcome to IT Summer Camp at Camp Sylva—a unique tech adventure for curious "
 "minds ready to dive into the world of programming, robotics, and digital "
@@ -1760,14 +1624,12 @@ msgid ""
 msgstr ""
 "Programlama, robotik ve dijital yaratıcılık dünyasına dalmaya hazır meraklı "
 "beyinler için benzersiz bir teknoloji macerası olan Camp Sylva'daki BT Yaz "
-"Kampına hoş geldiniz. Doğa ile çevrili ancak inovasyondan güç alan "
-"kampçılar, haftayı temel kodlama becerilerini öğrenerek, ekip zorluklarının "
-"üstesinden gelerek ve çalışan şeyler inşa etmenin büyüsünü keşfederek "
-"geçirecekler."
+"Kampına hoş geldiniz. Doğa ile çevrili ve inovasyondan güç alan kampçılar, "
+"haftayı temel kodlama becerilerini öğrenerek, ekip zorluklarının üstesinden "
+"gelerek ve çalışan şeyler inşa etmenin büyüsünü keşfederek geçirecekler."
 
 #. module: summer_camps
 #: model_terms:appointment.type,message_intro:summer_camps.appointment_type_1
-#, fuzzy
 msgid ""
 "Whether you're wondering about daily activities, camper safety, food "
 "options, or what to pack—we're here to help."
@@ -1777,13 +1639,11 @@ msgstr ""
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.ir_ui_view_916
-#, fuzzy
 msgid "Why Choose Our Camps?"
 msgstr "Neden Kamplarımızı Seçmelisiniz?"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "With Odoo CRM, you stay on top of every conversation and never let a "
 "potential camper slip through the cracks."
@@ -1793,7 +1653,6 @@ msgstr ""
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "With Odoo, managing your summer camp becomes easier, more professional, and "
 "better connected. Ready to take your camp operations to the next level? "
@@ -1805,7 +1664,6 @@ msgstr ""
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
 msgid ""
 "With just a few clicks, parents can book a call or in-person meeting "
 "directly from your website or email campaigns. You and your colleagues stay "
@@ -1831,7 +1689,6 @@ msgstr ""
 #: model_terms:event.event,description:summer_camps.event_event_2
 #: model_terms:event.event,description:summer_camps.event_event_3
 #: model_terms:event.event,description:summer_camps.event_event_4
-#, fuzzy
 msgid ""
 "Yes. All activities are supervised, age-appropriate, and use certified "
 "safety gear. We never push kids beyond their comfort zones."
@@ -1842,7 +1699,13 @@ msgstr ""
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-#, fuzzy
+msgid ""
+"You can also export all answers in bulk in a template by opening the "
+"template, then clicking the gear icon, then \"Export Answers\"."
+msgstr ""
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
 msgid ""
 "You can easily edit your email templates. Enter \"/\" to access special "
 "styling features, such as buttons, tables, bold, italics, links, and so on."
@@ -1858,7 +1721,6 @@ msgstr "Uygulamalar bölümünden paket yükselterek bunu yapabilirsiniz."
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.ir_ui_view_916
-#, fuzzy
 msgid "Your choice of sports between football, basketball and windsurfing"
 msgstr "Futbol, basketbol ve rüzgar sörfü arasında spor seçiminiz"
 
@@ -1868,7 +1730,6 @@ msgstr "Futbol, basketbol ve rüzgar sörfü arasında spor seçiminiz"
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_3
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_4
 #: model_terms:event.type,ticket_instructions:summer_camps.event_type_1
-#, fuzzy
 msgid ""
 "You’ll receive a confirmation email shortly with all your camp details, "
 "including dates, payment summary, and a digital copy of your welcome guide."
@@ -1878,20 +1739,23 @@ msgstr ""
 "postası alacaksınız."
 
 #. module: summer_camps
+#: model:ir.actions.server,name:summer_camps.add_product_on_so_action
+msgid "add product on SO"
+msgstr ""
+
+#. module: summer_camps
 #: model:event.tag,name:summer_camps.event_tag_2
-#, fuzzy
 msgid "⚽️ Sports"
 msgstr "⚽️ Spor"
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_3
-#, fuzzy
 msgid ""
 "✂️ <strong>Crafting &amp; Sculpture</strong> – From nature-inspired mobiles "
 "to clay modeling and recycled art."
 msgstr ""
 "✂️ <strong>Crafting &amp; Sculpture</strong> - Doğadan ilham alan mobillerden "
-"kil modelleme ve geri dönüştürülmüş sanata."
+"kil modellemeye ve geri dönüştürülmüş sanata kadar."
 
 #. module: summer_camps
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_1
@@ -1899,13 +1763,11 @@ msgstr ""
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_3
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_4
 #: model_terms:event.type,ticket_instructions:summer_camps.event_type_1
-#, fuzzy
 msgid "✅ <strong>Next Steps</strong>"
 msgstr "✅ <strong>Sonraki Adımlar</strong>"
 
 #. module: summer_camps
 #: model:event.tag,name:summer_camps.event_tag_12
-#, fuzzy
 msgid "⭕️ No Meals included"
 msgstr "⭕️ Yemek dahil değildir"
 
@@ -1914,24 +1776,21 @@ msgstr "⭕️ Yemek dahil değildir"
 #: model_terms:event.event,description:summer_camps.event_event_2
 #: model_terms:event.event,description:summer_camps.event_event_3
 #: model_terms:event.event,description:summer_camps.event_event_4
-#, fuzzy
 msgid "﻿packing list﻿"
 msgstr "paketleme li̇stesi̇"
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_1
 #: model_terms:event.event,description:summer_camps.event_event_4
-#, fuzzy
 msgid ""
 "🌊 <strong>Water Fun</strong> – Kayaking and river games in shallow streams "
 "(lifejackets always)."
 msgstr ""
 "🌊 <strong>Su Eğlencesi</strong> - Sığ derelerde kano ve nehir oyunları (her "
-"zaman can yelekleri)."
+"zaman can yelekli)."
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_2
-#, fuzzy
 msgid ""
 "🌐 <strong>Digital Citizenship</strong> – Discuss internet safety, "
 "creativity, and how to be a responsible digital citizen."
@@ -1941,21 +1800,18 @@ msgstr ""
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_3
-#, fuzzy
 msgid "🌟 Express, Create, Imagine"
 msgstr "🌟 İfade Et, Yarat, Hayal Et"
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_1
 #: model_terms:event.event,description:summer_camps.event_event_4
-#, fuzzy
 msgid "🌟 Let the Wild Begin"
-msgstr "🌟 Vahşi Başlasın"
+msgstr "🌟 Vahşi Macera Başlasın"
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_1
 #: model_terms:event.event,description:summer_camps.event_event_4
-#, fuzzy
 msgid ""
 "🌲 <strong>Nature Hikes &amp; Survival Skills</strong> – Learn to read "
 "trails, build shelters, and identify plants."
@@ -1965,7 +1821,6 @@ msgstr ""
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_3
-#, fuzzy
 msgid ""
 "🌳 <strong>Outdoor Creation</strong> – Paint with forest brushes, sculpt "
 "with clay from the riverbank, or sketch under the trees."
@@ -1975,37 +1830,31 @@ msgstr ""
 
 #. module: summer_camps
 #: model:event.tag,name:summer_camps.event_tag_10
-#, fuzzy
 msgid "🍜 Full Board"
 msgstr "🍜 Tam Pano"
 
 #. module: summer_camps
 #: model:event.tag,name:summer_camps.event_tag_8
-#, fuzzy
 msgid "🎂 Ages 10-18"
 msgstr "🎂 10-18 yaş arası"
 
 #. module: summer_camps
 #: model:event.tag,name:summer_camps.event_tag_9
-#, fuzzy
 msgid "🎂 Ages 14-18"
 msgstr "🎂 14-18 yaş arası"
 
 #. module: summer_camps
 #: model:event.tag,name:summer_camps.event_tag_7
-#, fuzzy
 msgid "🎂 Ages 8-12"
 msgstr "🎂 8-12 Yaş"
 
 #. module: summer_camps
 #: model:event.tag,name:summer_camps.event_tag_1
-#, fuzzy
 msgid "🎂 Ages 8-14"
 msgstr "🎂 8-14 yaş arası"
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_2
-#, fuzzy
 msgid ""
 "🎤 <strong>Demo Day</strong> – Share your project with the group and "
 "celebrate what you’ve built!"
@@ -2016,7 +1865,6 @@ msgstr ""
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_1
 #: model_terms:event.event,description:summer_camps.event_event_4
-#, fuzzy
 msgid ""
 "🎨 <strong>Creative Downtime</strong> – Natural crafts, journaling, and "
 "painting with forest materials."
@@ -2026,19 +1874,16 @@ msgstr ""
 
 #. module: summer_camps
 #: model:event.event,name:summer_camps.event_event_3
-#, fuzzy
 msgid "🎨 Art & Creative Summer Camp"
 msgstr "🎨 Sanat ve Yaratıcılık Yaz Kampı"
 
 #. module: summer_camps
 #: model:event.tag,name:summer_camps.event_tag_5
-#, fuzzy
 msgid "🎨 Arts & Crafts"
 msgstr "🎨 Sanat ve El Sanatları"
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_3
-#, fuzzy
 msgid ""
 "🎭 <strong>Theater &amp; Storytelling</strong> – Improv games, costume play, "
 "and storytelling circles to build confidence and imagination."
@@ -2049,37 +1894,31 @@ msgstr ""
 
 #. module: summer_camps
 #: model:event.event,name:summer_camps.event_event_1
-#, fuzzy
 msgid "🏕️ Adventure Summer Camp"
 msgstr "🏕️ Macera Yaz Kampı"
 
 #. module: summer_camps
 #: model:event.tag,name:summer_camps.event_tag_3
-#, fuzzy
 msgid "🏕️ Camping"
 msgstr "🏕️ Kampçılık"
 
 #. module: summer_camps
 #: model:event.tag,name:summer_camps.event_tag_4
-#, fuzzy
 msgid "🏡 Residence"
 msgstr "🏡 Konut"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.custom_appointment_info_heading
-#, fuzzy
 msgid "👋 Meet a Camp Counsellor"
 msgstr "👋 Bir Kamp Danışmanıyla Tanışın"
 
 #. module: summer_camps
 #: model_terms:appointment.type,message_intro:summer_camps.appointment_type_1
-#, fuzzy
 msgid "👨‍👩‍👧‍👦 <strong>Parents and kids are both welcome</strong>"
 msgstr "👨‍👩‍👧‍👦 <strong>Ebeveynler ve çocuklar davetlidir</strong>"
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_2
-#, fuzzy
 msgid ""
 "💡 <strong>Intro to Coding</strong> – Learn the basics of Python, Scratch, "
 "or HTML through fun, interactive projects."
@@ -2089,56 +1928,48 @@ msgstr ""
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_2
-#, fuzzy
 msgid ""
 "💬 <strong>Team Hackathons</strong> – Collaborate on themed challenges to "
 "build mini apps or solutions in small groups."
 msgstr ""
-"💬 <strong>Takım Hackathonları</strong> - Küçük gruplar halinde mini "
-"uygulamalar veya çözümler oluşturmak için temalı zorluklar üzerinde "
-"işbirliği yapın."
+"💬 <strong>Takım Hackathonları</strong> - Küçük gruplar halinde temalı "
+"zorluklar üzerinde işbirliği yaparak mini uygulamalar veya çözümler "
+"oluşturun."
 
 #. module: summer_camps
 #: model:event.event,name:summer_camps.event_event_2
-#, fuzzy
 msgid "💻 Camp Pixel"
-msgstr "💻 Camp Pixel"
+msgstr "💻 Camp Piksel"
 
 #. module: summer_camps
 #: model:event.tag,name:summer_camps.event_tag_6
-#, fuzzy
 msgid "💻 IT Camp"
 msgstr "💻 BT Kampı"
 
 #. module: summer_camps
 #: model:event.tag,name:summer_camps.event_tag_13
-#, fuzzy
 msgid "📅 1 week"
 msgstr "📅 1 hafta"
 
 #. module: summer_camps
 #: model:event.tag,name:summer_camps.event_tag_14
-#, fuzzy
 msgid "📅 2 weeks"
 msgstr "📅 2 hafta"
 
 #. module: summer_camps
 #: model:event.tag,name:summer_camps.event_tag_15
-#, fuzzy
 msgid "📅 3 weeks"
 msgstr "📅 3 hafta"
 
 #. module: summer_camps
 #: model:event.tag,name:summer_camps.event_tag_16
-#, fuzzy
 msgid "📅 4 weeks"
 msgstr "📅 4 hafta"
 
 #. module: summer_camps
 #: model_terms:appointment.type,message_intro:summer_camps.appointment_type_1
-#, fuzzy
 msgid "📍 <strong>No commitment—just friendly advice</strong>"
-msgstr "📍 <strong>Taahhüt yok-sadece dostça tavsiye</strong>"
+msgstr "📍 <strong>Hiçbir taahhüt yok-sadece dostça tavsiye</strong>"
 
 #. module: summer_camps
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_1
@@ -2146,7 +1977,6 @@ msgstr "📍 <strong>Taahhüt yok-sadece dostça tavsiye</strong>"
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_3
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_4
 #: model_terms:event.type,ticket_instructions:summer_camps.event_type_1
-#, fuzzy
 msgid ""
 "📍 Tucked away in the lush forests near the Ourthe River, our camp is easily "
 "accessible by car or public transport."
@@ -2160,13 +1990,11 @@ msgstr ""
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_3
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_4
 #: model_terms:event.type,ticket_instructions:summer_camps.event_type_1
-#, fuzzy
 msgid "📬 <strong>Confirmation Email</strong>"
 msgstr "📬 <strong>Onay E-postası</strong>"
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_3
-#, fuzzy
 msgid ""
 "📸 <strong>Photography &amp; Journaling</strong> – Document the week with "
 "your own eyes and words."
@@ -2177,17 +2005,15 @@ msgstr ""
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_1
 #: model_terms:event.event,description:summer_camps.event_event_4
-#, fuzzy
 msgid ""
 "🔥 <strong>Evening Campfires</strong> – Songs, stories, and marshmallow "
 "roasting every evening."
 msgstr ""
 "🔥 <strong>Akşam Kamp Ateşleri</strong> - Her akşam şarkılar, hikayeler ve "
-"hatmi kavurma."
+"marşmelov kızartma."
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_3
-#, fuzzy
 msgid ""
 "🔥 <strong>Evening Talent Share</strong> – Campers can share songs, poems, "
 "skits, or creations by the campfire."
@@ -2201,13 +2027,11 @@ msgstr ""
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_3
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_4
 #: model_terms:event.type,ticket_instructions:summer_camps.event_type_1
-#, fuzzy
 msgid "🕒 <strong>Stay Informed</strong>"
 msgstr "🕒 <strong>Haberdar Olun</strong>"
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_2
-#, fuzzy
 msgid ""
 "🕹️ <strong>Game Design</strong> – Build simple games, experiment with "
 "mechanics, and get feedback from peers."
@@ -2217,17 +2041,15 @@ msgstr ""
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_3
-#, fuzzy
 msgid ""
 "🖌️ <strong>Painting &amp; Drawing</strong> – Daily workshops exploring "
 "different mediums like watercolor, acrylics, charcoal, and pastels."
 msgstr ""
 "🖌️ <strong>Resim &amp; Çizim</strong> - Suluboya, akrilik, karakalem ve "
-"pastel gibi farklı ortamları keşfeden günlük atölye çalışmaları."
+"pastel gibi farklı materyalleri keşfettiğimiz günlük atölye çalışmaları."
 
 #. module: summer_camps
 #: model_terms:appointment.type,message_intro:summer_camps.appointment_type_1
-#, fuzzy
 msgid "🗓️ <strong>Available by video or phone</strong>"
 msgstr "🗓️ <strong>Video veya telefon ile ulaşılabilir</strong>"
 
@@ -2236,7 +2058,6 @@ msgstr "🗓️ <strong>Video veya telefon ile ulaşılabilir</strong>"
 #: model_terms:event.event,description:summer_camps.event_event_2
 #: model_terms:event.event,description:summer_camps.event_event_3
 #: model_terms:event.event,description:summer_camps.event_event_4
-#, fuzzy
 msgid "🗓️ Programme Highlights"
 msgstr "🗓️ Programda Öne Çıkanlar"
 
@@ -2246,13 +2067,11 @@ msgstr "🗓️ Programda Öne Çıkanlar"
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_3
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_4
 #: model_terms:event.type,ticket_instructions:summer_camps.event_type_1
-#, fuzzy
 msgid "🗺️ <strong>How to Get There</strong>"
 msgstr "🗺️ <strong>Oraya Nasıl Gidilir</strong>"
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_2
-#, fuzzy
 msgid "🚀 Code, Create, Collaborate"
 msgstr "🚀 Kodlayın, Oluşturun, İşbirliği Yapın"
 
@@ -2262,9 +2081,8 @@ msgstr "🚀 Kodlayın, Oluşturun, İşbirliği Yapın"
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_3
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_4
 #: model_terms:event.type,ticket_instructions:summer_camps.event_type_1
-#, fuzzy
 msgid "🚉 <strong>By Train + Shuttle:</strong>"
-msgstr "🚉 <strong>Tren + Shuttle ile:</strong>"
+msgstr "🚉 <strong>Tren + Servis aracı ile:</strong>"
 
 #. module: summer_camps
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_1
@@ -2272,36 +2090,32 @@ msgstr "🚉 <strong>Tren + Shuttle ile:</strong>"
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_3
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_4
 #: model_terms:event.type,ticket_instructions:summer_camps.event_type_1
-#, fuzzy
 msgid "🚗 <strong>By Car:</strong>"
 msgstr "🚗 <strong>Araba ile:</strong>"
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_2
-#, fuzzy
 msgid ""
 "🤖 <strong>Robotics &amp; Logic Challenges</strong> – Work with robots and "
 "sensors to solve physical problems."
 msgstr ""
-"🤖 <strong>Robotics &amp; Logic Challenges</strong> - Fiziksel problemleri "
+"🤖 <strong>Robotik &amp; Mantık Oyunları</strong> - Fiziksel problemleri "
 "çözmek için robotlar ve sensörlerle çalışın."
 
 #. module: summer_camps
 #: model:event.tag,name:summer_camps.event_tag_11
-#, fuzzy
 msgid "🥐 Half Board"
 msgstr "🥐 Yarım Pansiyon"
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_1
 #: model_terms:event.event,description:summer_camps.event_event_4
-#, fuzzy
 msgid ""
 "🧗 <strong>Climbing &amp; Ropes Course</strong> – Safely challenge comfort "
 "zones on our climbing wall and low rope course."
 msgstr ""
 "🧗 <strong>Tırmanma &amp; İp Parkuru</strong> - Tırmanma duvarımızda ve "
-"alçak ip parkurumuzda konfor alanlarına güvenle meydan okuyun."
+"alçak ip parkurumuzda konfor alanlarımıza güvenle meydan okuyun."
 
 #. module: summer_camps
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_1
@@ -2309,20 +2123,18 @@ msgstr ""
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_3
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_4
 #: model_terms:event.type,ticket_instructions:summer_camps.event_type_1
-#, fuzzy
 msgid "🧭 <strong>Navigation Tip:</strong>"
-msgstr "🧭 <strong>Navigasyon İpucu:</strong>"
+msgstr "🧭 <strong>Yönlendirme İpucu:</strong>"
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_1
 #: model_terms:event.event,description:summer_camps.event_event_4
-#, fuzzy
 msgid ""
 "🧭 <strong>Team Missions &amp; Games</strong> – Scavenger hunts, obstacle "
 "courses, and forest team challenges."
 msgstr ""
-"🧭 <strong>Takım Görevleri &amp; Oyunlar</strong> - Çöpçü avları, engelli "
-"parkurlar ve orman takımı mücadeleleri."
+"🧭 <strong>Takım Görevleri &amp; Oyunlar</strong> - Hazine avları, engelli "
+"parkurlar ve orman takımı oyunları"
 
 #. module: summer_camps
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_1
@@ -2330,7 +2142,6 @@ msgstr ""
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_3
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_4
 #: model_terms:event.type,ticket_instructions:summer_camps.event_type_1
-#, fuzzy
 msgid "🧳 <strong>Packing List</strong>"
 msgstr "🧳 <strong>Ambalaj Listesi</strong>"
 
@@ -2340,6 +2151,62 @@ msgstr "🧳 <strong>Ambalaj Listesi</strong>"
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_3
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_4
 #: model_terms:event.type,ticket_instructions:summer_camps.event_type_1
-#, fuzzy
 msgid "🧾 <strong>Medical &amp; Emergency Form</strong>"
 msgstr "🧾 <strong>Tıbbi &amp; Acil Durum Formu</strong>"
+
+#~ msgid ""
+#~ "<strong>Appointments 📅 :</strong>Let families book meetings to discuss "
+#~ "camp options, sync your team’s calendars, and reduce no-shows with "
+#~ "automatic reminders and structured scheduling."
+#~ msgstr ""
+#~ "<strong>Randevular 📅 :</strong>Ailelerin kamp seçeneklerini tartışmak "
+#~ "için toplantı rezervasyonu yapmasına izin verin, ekibinizin takvimlerini "
+#~ "senkronize edin ve otomatik hatırlatıcılar ve yapılandırılmış zamanlama "
+#~ "ile gelmeyenleri azaltın."
+
+#~ msgid ""
+#~ "<strong>CRM 🎯 :</strong>Capture inquiries from your website, organize "
+#~ "and qualify leads in a visual pipeline, assign sales tasks, and convert "
+#~ "interest into bookings with quotations and notes tracking."
+#~ msgstr ""
+#~ "<strong>CRM 🎯 :</strong>Web sitenizden gelen talepleri yakalayın, "
+#~ "potansiyel müşterileri fırsat havuzunda düzenleyin ve nitelendirin, satış "
+#~ "görevleri atayın ve teklifler ve not takibi ile ilgiyi rezervasyonlara "
+#~ "dönüştürün."
+
+#~ msgid ""
+#~ "<strong>Events 🏨 :</strong>Create and manage every camp session with "
+#~ "custom forms, pricing, capacity, tags, attendee tracking, automated "
+#~ "emails, and a live check-in desk—all in one central app."
+#~ msgstr ""
+#~ "<strong>Etkinlikler 🏨 :</strong>Özel formlar, fiyatlandırma, kapasite, "
+#~ "etiketler, katılımcı takibi, otomatik e-postalar ve canlı giriş masası "
+#~ "ile her kamp oturumunu tek bir merkezi uygulamada oluşturun ve yönetin."
+
+#~ msgid ""
+#~ "<strong>Projects 📋 :</strong>Organize the behind-the-scenes work of each "
+#~ "camp using task lists, deadlines, assignments, and logistics tracking to "
+#~ "ensure smooth preparation and coordination."
+#~ msgstr ""
+#~ "<strong>Proje Yönetimi 📋 :</strong>Her kampın arka plan işlerini görev "
+#~ "listeleri, son tarihler, atamalar ve lojistik takibi ile düzenleyerek "
+#~ "hazırlık ve koordinasyonu sorunsuz hâle getirin."
+
+#~ msgid ""
+#~ "<strong>Sign ✍️ :</strong>Collect parental consent securely with reusable "
+#~ "digital signature templates, embedded links in confirmation emails, and "
+#~ "centralized access to signed documents."
+#~ msgstr ""
+#~ "<strong>Sign ✍️ :</strong> Velilerden onayı güvenli bir şekilde toplayın; "
+#~ "tekrar kullanılabilir dijital imza şablonları, onay e-postalarına gömülü "
+#~ "bağlantılar ve imzalanan belgelere merkezi erişim sağlayın."
+
+#~ msgid ""
+#~ "<strong>Website 🌐 :</strong>Showcase your camps online with dedicated "
+#~ "pages, integrated registration, mobile-friendly design, and secure payment"
+#~ "—all from a visually engaging and parent-friendly website."
+#~ msgstr ""
+#~ "<strong>Web sitesi 🌐 :</strong>Kamplarınızı özel sayfalar, entegre "
+#~ "kayıt, mobil uyumlu tasarım ve güvenli ödeme ile çevrimiçi olarak "
+#~ "sergileyin -bunu görsel olarak ilgi çekici ve ebeveyn dostu bir web "
+#~ "sitesinden yapın."

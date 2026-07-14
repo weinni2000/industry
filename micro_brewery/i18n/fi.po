@@ -12,13 +12,14 @@
 # Martin Trigaux, 2024
 # Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2024
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
+# Saara Hakanen <sahak@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-28 12:28+0000\n"
-"PO-Revision-Date: 2025-09-17 03:01+0000\n"
-"Last-Translator: \"Tiffany Chang (tic)\" <tic@odoo.com>\n"
+"POT-Creation-Date: 2026-04-10 19:31+0000\n"
+"PO-Revision-Date: 2026-06-24 17:00+0000\n"
+"Last-Translator: Saara Hakanen <sahak@odoo.com>\n"
 "Language-Team: Finnish <https://translate.odoo.com/projects/odoo-19/"
 "micro_brewery/fi/>\n"
 "Language: fi\n"
@@ -26,27 +27,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3686
-msgid "+1 555-555-5556"
-msgstr "+1 555-555-5556"
-
-#. module: micro_brewery
-#: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_17
-msgid "+16"
-msgstr "+16"
-
-#. module: micro_brewery
-#: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_18
-msgid "+18"
-msgstr "+18"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ", and feel free to"
-msgstr "ja voit rohkeasti"
+msgstr "sivuilta, sekä"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
@@ -65,7 +51,7 @@ msgid ""
 "span>"
 msgstr ""
 "<i class=\"fa fa-1x fa-fw fa-envelope me-2\"/>\n"
-"                                                <span>info@yourcompany.example.com</"
+"                                                <span>info@yrityksesi.esimerkki.fi</"
 "span>"
 
 #. module: micro_brewery
@@ -97,7 +83,7 @@ msgid ""
 "label=\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
 msgstr ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
-"label=\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
+"label=\"Banner Info\" aria-label=\"Info-banneri\">💡</i>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -106,7 +92,7 @@ msgid ""
 "label=\"Banner Success\" aria-label=\"Banner Success\">✅</i>"
 msgstr ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
-"label=\"Banner Success\" aria-label=\"Banner Success\">✅</i>"
+"label=\"Banner Success\" aria-label=\"Menestysbanneri\">✅</i>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -115,7 +101,7 @@ msgid ""
 "label=\"Banner Success\" aria-label=\"Banner Success\">🎉</i>"
 msgstr ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
-"label=\"Banner Success\" aria-label=\"Banner Success\">🎉</i>"
+"label=\"Banner Success\" aria-label=\"Menestysbanneri\">🎉</i>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -124,7 +110,16 @@ msgid ""
 "label=\"Banner Warning\" aria-label=\"Banner Warning\">⚠️</i>"
 msgstr ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
-"label=\"Banner Warning\" aria-label=\"Banner Warning\">⚠️</i>"
+"label=\"Banner Warning\" aria-label=\"Varoitusbanneri\">⚠️</i>"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Warning\">⚠️</i>"
+msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Varoitusbanneri\">⚠️</i>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -352,16 +347,6 @@ msgstr ""
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid "<strong>Excise categories maintenance</strong>"
-msgstr "<strong>Valmisteverokategorioiden ylläpito</strong>"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid "<strong>Excise reporting</strong>"
-msgstr "<strong>Valmisteveroraportointi</strong>"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
 "<strong>Indicate if there are instructions</strong> the operator should do "
 "during some operation, for example:"
@@ -387,7 +372,7 @@ msgstr "<strong>Myyminen💸</strong>"
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "<strong>Use case</strong>"
-msgstr "<strong>Käyttötapaus</strong>"
+msgstr "<strong>Esimerkkitapaus</strong>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -402,8 +387,8 @@ msgid ""
 "bottle, the last one being here to support the split use case at the bar."
 msgstr ""
 "Puolivalmis olutpullon yksikkötuote on pakattava laatikoihin, joka "
-"käytännössä vastaa valmista olutpulloa. Viimeinen etappi on täällä baarin "
-"käyttöä varten."
+"käytännössä vastaa valmista olutpulloa. Viimeinen etappi täällä on käytön "
+"jakamisen tukeminen baarissa."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3686
@@ -452,13 +437,8 @@ msgstr "Kullanruskea"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid ""
-"Apply DEP XX taxes to those products, creating some if necessary, and assign "
-"them a category with \"Is a deposit category\" set like the Deposit category."
-msgstr ""
-"Lisää DEP XX - verot näihin tuotteisiin tai luo ne tarvittaessa, ja aseta "
-"niille kategoria, jossa \"Ennakkomaksukategoria\" on asetettu "
-"asianmukaisesti."
+msgid "As workarounds, you might:"
+msgstr "Väliaikaisratkaisuna voit:"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -477,21 +457,6 @@ msgid ""
 msgstr ""
 "Voit milloin tahansa valita pöydän ja rekisteröidä maksun sulkeaksesi pöydän "
 "palvelun."
-
-#. module: micro_brewery
-#: model:base.automation,name:micro_brewery.auto_production
-msgid "Auto Production"
-msgstr "Automaattinen tuotanto"
-
-#. module: micro_brewery
-#: model:ir.model.fields,field_description:micro_brewery.field_aut_production
-msgid "Auto-production"
-msgstr "Automaattinen tuotanto"
-
-#. module: micro_brewery
-#: model:base.automation,name:micro_brewery.bom_automation
-msgid "Automated BoM"
-msgstr "Automatisoitu materiaaliluettelo"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -618,6 +583,16 @@ msgid "Bottle"
 msgstr "Pullo"
 
 #. module: micro_brewery
+#: model:product.template,name:micro_brewery.product_template_90
+msgid "Bottle 33cl"
+msgstr "Pullo 33cl"
+
+#. module: micro_brewery
+#: model:product.template,name:micro_brewery.product_template_53
+msgid "Bottles 24x33cl"
+msgstr "Pullot 24x33cl"
+
+#. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Bottling - Work center: Bottler"
 msgstr "Pullotus - Työkeskus: Pullottaja"
@@ -709,9 +684,9 @@ msgid ""
 "bunch of interesting presets to ensure you can easily execute the following "
 "use case."
 msgstr ""
-"Kun olet ladannut tämän moduulin demotiedot, tietokantaasi on lisätty joukko "
-"mielenkiintoisia esiasetuksia, joiden avulla voit helposti toteuttaa "
-"seuraavan käyttötapauksen."
+"Kun olet ladannut tämän moduulin demotiedot, tietokantaasi on täytetty "
+"joukko mielenkiintoisia esiasetuksia, joiden avulla voit helposti suorittaa "
+"seuraavan esimerkkitapauksen."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
@@ -736,16 +711,15 @@ msgstr "Chaudfontaine"
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
-"Collect deposit when you deliver your customer. It is easy. When validating "
-"your delivery, you can directly set a \"Return\" and precisely count the "
-"number of each type of deposit your customer gave you. It will automatically "
-"be\n"
-"        reflected on his invoice or issue a credit note."
+"Collect deposits when you deliver to your customer. It is easy. When "
+"validating your delivery, you can directly set a \"Return\" and precisely "
+"count the number of each type of deposit your customer gave you. It will "
+"automatically be reflected on his invoice or issue a credit note."
 msgstr ""
-"Kerää talletus, kun toimitat asiakkaalle. Se on helppoa: kun vahvistat "
-"toimituksen, voit asettaa \"Palautuksen\" ja laskea tarkasti kunkin "
-"asiakkaan antaman talletustyypin määrän. Se \n"
-"        näkyy automaattisesti hänen laskullaan tai luo hyvityslaskun."
+"Kerää pantteja asiakkaalle toimittaessasi. Se on helppoa. Kun vahvistat "
+"toimituksen, voit määrittää suoraan \"Palautuksen\" ja laskea tarkasti "
+"jokaisen asiakkaan antaman pantin määrän. Se näkyy automaattisesti hänen "
+"laskullaan tai luo hyvityslaskun."
 
 #. module: micro_brewery
 #: model:product.attribute,name:micro_brewery.product_attribute_3
@@ -782,11 +756,6 @@ msgstr ""
 "pian."
 
 #. module: micro_brewery
-#: model:ir.model.fields,field_description:micro_brewery.field_quantity_by_deposit_product
-msgid "Contains"
-msgstr "Sisältää"
-
-#. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
 "Crafting Beer - Using mainly the <font class=\"text-o-"
@@ -794,6 +763,30 @@ msgid ""
 msgstr ""
 "Oluen paneminen - käyttäen pääasiassa <font class=\"text-o-"
 "color-1\"><strong>Tuotanto-sovellusta</strong></font>"
+
+#. module: micro_brewery
+#: model:product.template,name:micro_brewery.product_template_55
+msgid "Crate & Bottles 24x33cl"
+msgstr "Laatikko & pullot 24x33cl"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"Crate &amp; Bottles 24x33cl is the complete deposit product (deposits of all "
+"bottles and crate)"
+msgstr ""
+"Laatikko &amp; pullot 24x33cl on täysi panttituote (kaikkien pullojen ja "
+"laatikon pantit)"
+
+#. module: micro_brewery
+#: model:product.template,name:micro_brewery.product_template_56
+msgid "Crate 24x33cl"
+msgstr "Laatikko 24x33cl"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "Crate 24x33cl is the empty deposit product"
+msgstr "Laatikko 24x33cl on tyhjä panttituote"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -811,42 +804,18 @@ msgstr "Luo resepti"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid "Create deposit products for each different type of consigns."
-msgstr "Luo panttituotteita kullekin erilaisille lähetystyypeille."
-
-#. module: micro_brewery
-#: model:account.tax,name:micro_brewery.account_tax_01_purchase
-#: model:account.tax,name:micro_brewery.account_tax_01_sale
-msgid "DEP 0.1"
-msgstr "DEP 0.1"
-
-#. module: micro_brewery
-#: model:account.tax,name:micro_brewery.account_tax_21_sale
-msgid "DEP 2.1"
-msgstr "DEP 2.1"
-
-#. module: micro_brewery
-#: model:account.tax,name:micro_brewery.account_tax_24_purchase
-#: model:account.tax,name:micro_brewery.account_tax_24_sale
-msgid "DEP 2.4"
-msgstr "DEP 2.4"
+msgid ""
+"Create deposit products for each different type of consignments and assign "
+"them a category with \"Is a deposit category\" set like the Deposit category."
+msgstr ""
+"Luo panttituotteita kullekin eri lähetystyypille ja määritä niille "
+"kategoria, jossa \"On panttikategoria\" on määritetty kuten pantin kategoria."
 
 #. module: micro_brewery
 #: model:account.tax,name:micro_brewery.account_tax_46_purchase
 #: model:account.tax,name:micro_brewery.account_tax_46_sale
 msgid "DEP 35"
 msgstr "DEP 35"
-
-#. module: micro_brewery
-#: model:account.tax,name:micro_brewery.account_tax_45_purchase
-#: model:account.tax,name:micro_brewery.account_tax_45_sale
-msgid "DEP 4.5"
-msgstr "DEP 4.5"
-
-#. module: micro_brewery
-#: model:base.automation,name:micro_brewery.make_deposit_storable_delivery_invoice
-msgid "Default fields for deposits"
-msgstr "Talletusten oletuskentät"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -859,78 +828,34 @@ msgid "Deliveries of beer boxes are clear."
 msgstr "Olutlaatikoiden toimitukset ovat selkeitä."
 
 #. module: micro_brewery
-#: model:account.tax.group,name:micro_brewery.deposit_tax_group
 #: model:pos.category,name:micro_brewery.pos_category_5
 msgid "Deposit"
 msgstr "Pantti"
 
 #. module: micro_brewery
-#: model:product.template,name:micro_brewery.product_template_90
-msgid "Deposit 0.1"
-msgstr "Talletus 0,1"
-
-#. module: micro_brewery
-#: model:product.template,name:micro_brewery.product_template_56
-msgid "Deposit 2.1"
-msgstr "Talletus 2.1"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid "Deposit 2.1 is the empty deposit product"
-msgstr "Talletus 2.1 on tyhjä talletustuote"
-
-#. module: micro_brewery
-#: model:product.template,name:micro_brewery.product_template_53
-msgid "Deposit 2.4"
-msgstr "Talletus 2.4"
-
-#. module: micro_brewery
-#: model:product.template,name:micro_brewery.product_template_55
-msgid "Deposit 4.5"
-msgstr "Talletus 4.5"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid ""
-"Deposit 4.5 is the complete deposit product (deposits of all bottles and "
-"crate)"
-msgstr ""
-"Talletus 4.5 on täysi talletustuote (kaikkien pullojen ja korien talletukset)"
-
-#. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_39_product_template
 msgid "Deposit Keg"
-msgstr "Talletustynnyri"
+msgstr "Panttitynnyri"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid "Deposit Management 🍻"
-msgstr "4. Vakuusmaksujen hallinta 🍻"
+msgid "Deposit Management ♻️"
+msgstr "Panttien hallinta ♻️"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Deposit assignation"
-msgstr "Talletuksen siirto"
-
-#. module: micro_brewery
-#: model:ir.model.fields,field_description:micro_brewery.field_deposit_product_1
-msgid "Deposit product"
-msgstr "Vakuusmaksutuote"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.product_template_form_custom
-msgid "Deposit product must be set in Deposit category"
-msgstr "Vakuusmaksutuote on asetettava Vakuus-kategoriaan"
+msgstr "Pantin määritys"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Deposit return from customers"
-msgstr "Asiakkaiden talletusten palautus"
+msgstr "Asiakkaiden panttien palautus"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Discover more about Odoo by diving into our"
-msgstr "Lue lisää Odoosta sukeltamalla meidän"
+msgstr "Lue lisää Odoosta"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
@@ -974,21 +899,16 @@ msgid "Email"
 msgstr "Sähköposti"
 
 #. module: micro_brewery
-#: model:ir.model.fields,field_description:micro_brewery.field_empty_deposit
-msgid "Empty deposit product"
-msgstr "Tyhjä vakuustuote"
-
-#. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
 "Entry from FD corresponds to products entering you fiscal deposit warehouse "
 "from the fiscal deposit of a supplier. To define such suppliers, adapt their "
 "fiscal position to handle excise tax."
 msgstr ""
-"Vienti kiinteästa talletuksesta koskee tuotteita, jotka tulevat omaan "
-"verotalletuksen varastoosi toimittajan verotalletuksen varastosta. Tällöin "
-"toimittajan verovelvollisuusasemaansaa tulee säätää valmisteveron "
-"käsittelyyn sopivaksi."
+"Saapuminen verotalletuksesta koskee tuotteita, jotka saapuvat "
+"verotalletusvarastoosi tavarantoimittajan verotalletusvarastosta. "
+"Määrittääksesi kyseiset toimittajat, mukauta heidän verokantasääntönsä "
+"valmisteveron käsittelemiseksi."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -997,9 +917,9 @@ msgid ""
 "from a fiscal deposit warehouse. In such case, you ask for excise credits "
 "with your excise declaration."
 msgstr ""
-"Vienti koskee tilanteita, joissa ostat tai saat palautuksena tuotteita, "
-"jotka eivät tule valmisteverovarastosta. Tällöin voit hakea valmisteveron "
-"palautuksia veroilmoituksessa."
+"Vienti on tilanteita varten, joissa ostat tai saat palautuksena "
+"valmisteverovaraston ulkopuolisia tuotteita. Tällöin voit hakea "
+"valmisteveropalautuksia veroilmoituksellasi."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1020,20 +940,18 @@ msgstr "Valmisteverojen hallinta 🧾"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "Excise categories maintenance"
+msgstr "Valmisteveroluokkien ylläpito"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Excise management consists in two dimensions in this package:"
 msgstr "Tässä paketissa valmisteveron hallinta jakautuu kahteen osa-alueeseen:"
 
 #. module: micro_brewery
-#: model:ir.actions.server,name:micro_brewery.action_make_deposit_storable_delivery_invoice
-#: model:ir.actions.server,name:micro_brewery.bom_server_action
-#: model:ir.actions.server,name:micro_brewery.update_sales_taxes_server_action
-msgid "Execute Code"
-msgstr "Suorita koodi"
-
-#. module: micro_brewery
-#: model:ir.actions.server,name:micro_brewery.update_state
-msgid "Execute Existing Actions"
-msgstr "Suorita olemassa oleva toiminto"
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "Excise reports"
+msgstr "Valmisteveroraportit"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1052,10 +970,10 @@ msgid ""
 "fiscal deposit of a customer. To define such customers, adapt their fiscal "
 "position to handle excise tax."
 msgstr ""
-"Poisto kiinteään talletukseen koskee tuotteita, jotka poistuvat "
-"verotalletuksen varastostasi asiakkaan verotalletuksen varastoon. "
-"Määrittääksesi tällaiset asiakkaat, mukauta heidän verovelvollisuusasemaansa "
-"niin, että se käsittää valmisteveron."
+"Poistuminen verotalletuksesta viittaa tuotteisiin, jotka lähtevät "
+"verotalletusvarastostasi asiakkaan verotalletusvarastoon. Määrittääksesi "
+"kyseiset asiakkaat, mukauta heidän verokantasääntönsä valmisteveron "
+"käsittelemiseksi."
 
 #. module: micro_brewery
 #: model_terms:appointment.type,message_intro:micro_brewery.appointment_type_1
@@ -1240,8 +1158,8 @@ msgid ""
 "If you want to execute a practical guided tour of this module, you should "
 "Import demo data and try the Use Case."
 msgstr ""
-"Jos haluat tutustua moduuliin käytännössä, sinun kannattaa tuoda demotiedot "
-"ja kokeilla käyttötapausta."
+"Jos haluat tutustua moduuliin käytännönläheisen ohjatun esittelyn kautta, "
+"sinun kannattaa tuoda demotiedot ja kokeilla esimerkkitapausta."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1298,16 +1216,6 @@ msgstr ""
 "miten olut valmistetaan."
 
 #. module: micro_brewery
-#: model:ir.model.fields,field_description:micro_brewery.x_is_a_deposit
-msgid "Is a deposit"
-msgstr "On vakuus"
-
-#. module: micro_brewery
-#: model:ir.model.fields,field_description:micro_brewery.x_is_a_deposit_category
-msgid "Is a deposit category"
-msgstr "On vakuusluokka"
-
-#. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
 "It could also be interesting for your customer to buy souvenirs, gifts or "
@@ -1343,6 +1251,12 @@ msgstr "Oluttynnyri"
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Kits only / Inventory in bottles"
 msgstr "Vain pakkaus / Pulloissa oleva varasto"
+
+#. module: micro_brewery
+#: model:product.attribute.value,name:micro_brewery.product_attribute_value_12
+#: model:website.base.unit,name:micro_brewery.base_unit_litre
+msgid "L"
+msgstr "L"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_22
@@ -1398,11 +1312,6 @@ msgid "Lautering - Work center: Lauter tun"
 msgstr "Keitto ja humalointi - Työpiste: Keittokattila"
 
 #. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.product_template_form_custom
-msgid "Leave empty if this product is the smallest unit"
-msgstr "Jätä tyhjäksi, jos tämä tuote on pienin yksikkö"
-
-#. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3686
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3854
 msgid "LinkedIn"
@@ -1412,6 +1321,11 @@ msgstr "LinkedIn"
 #: model:product.attribute,name:micro_brewery.beverage_product_attribute_13
 msgid "Local Brand"
 msgstr "Paikallinen tuotemerkki"
+
+#. module: micro_brewery
+#: model:product.attribute.value,name:micro_brewery.product_attribute_value_11
+msgid "M"
+msgstr "M"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_4_product_template
@@ -1441,12 +1355,12 @@ msgid ""
 "class=\"text-o-color-1\">Social Media Marketing</font></strong>, and "
 "<strong><font class=\"text-o-color-1\">SMS Marketing</font></strong>."
 msgstr ""
-"Hallinnoi kaikkia viestintäkanavia yhdestä paikasta Odoon <strong><font "
-"class=\"text-o-color-1\">Markkinointiautomaation</font></strong>, "
-"<strong><font class=\"text-o-color-1\">Sähköpostimarkkinoinnin</font></"
-"strong>, <strong><font class=\"text-o-color-1\">Some- markkinoinnin</font></"
-"strong> ja <strong><font class=\"text-o-color-1\">Tekstiviestimarkkinoinnin</"
-"font></strong> avulla."
+"Hallitse kaikkia viestintäkanaviasi yhdestä paikasta Odoon <strong><font "
+"class=\"text-o-color-1\">Markkinoinnin automaation</font></strong>, <strong>"
+"<font class=\"text-o-color-1\">Sähköpostimarkkinoinnin</font></strong>, "
+"<strong><font class=\"text-o-color-1\">Somemarkkinoinnin</font></strong> ja "
+"<strong><font class=\"text-o-color-1\">Tekstiviestimarkkinoinnin</font></"
+"strong> avulla."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1455,14 +1369,19 @@ msgid ""
 "environment. (<strong><font class=\"text-o-color-1\">Accounting App</font></"
 "strong>)"
 msgstr ""
-"Hallitse kirjanpitoa helpommin kuin koskaan täysin integroidussa "
-"ympäristössä. (<strong><font class=\"text-o-color-1\">Kirjanpito-sovellus</"
-"font></strong>)"
+"Hallinnoi kirjanpitoasi täysin integroidun ympäristön avulla helpommin kuin "
+"koskaan aiemmin. (<strong><font class=\"text-o-color-1\">Kirjanpito-"
+"sovellus</font></strong>)"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Manage your deposit more precisely and efficiently than ever before."
-msgstr "Hallinnoi talletuksiasi tarkemmin ja tehokkaammin kuin koskaan ennen."
+msgstr "Hallinnoi panttejasi tarkemmin ja tehokkaammin kuin koskaan ennen."
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "Manually convert crates into unit bottles at the bar on reception."
+msgstr "Muunna vastaanotetut laatikot yksikköpulloiksi manuaalisesti baarissa."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1558,20 +1477,22 @@ msgid ""
 "package. Feel free to add new apps, delete/modify demo data, and test "
 "everything around!"
 msgstr ""
-"Tämä on tietenkin vain yleiskatsaus paketin sisältämistä ominaisuuksista. "
-"Voit vapaasti lisätä uusia sovelluksia, poistaa/muuttaa demotietoja ja "
-"testata ihan kaikkea!"
+"Tämä on tietenkin vasta yleiskatsaus kaikista tähän pakettiin kuuluvista "
+"ominaisuuksista. Voit lisätä uusia sovelluksia, poistaa/muokata demotietoja "
+"sekä testata kaikkea mahdollista!"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
 "On a regular basis, excises need to be declared. To support you with this "
-"duty, a report is setup to reach the quantity by excise category entering "
-"and exiting your fiscal deposit warehouse."
+"duty, a report generated weekly provides the quantity by excise category "
+"entering and exiting your fiscal deposit warehouse with a dedicated activity "
+"for it."
 msgstr ""
-"Valmisteverot on ilmoitettava säännöllisesti. Jotta tämä velvollisuus olisi "
-"helppo täyttää, olemme luoneet raportin, josta näet valmisteveroluokittain "
-"varastoon saapuvien ja sieltä poistuvien tuotteiden määrän."
+"Valmisteverot on ilmoitettava säännöllisesti. Tämän velvollisuuden tueksi "
+"saat viikoittain laadittavan raportin, jossa ilmoitetaan verotalletukseen "
+"saapuvat ja sieltä lähtevät määrät sekä niihin liittyvät toimenpiteet "
+"valmisteveroluokittain."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1604,11 +1525,11 @@ msgstr ""
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
-"Open the <strong>Inventory app</strong> and reach from the Reporting menu "
-"the Excises."
+"Open the <strong>Inventory app</strong> and reach the Excise Reports from "
+"the Reporting menu."
 msgstr ""
-"Avaa <strong>Varastointi-sovellus</strong> ja siirry Raportointi-valikosta "
-"Valmisteveroihin."
+"Avaa <strong>Varastointi-sovellus</strong> ja siirry raportointivalikon "
+"Valmisteveroraportteihin."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1633,12 +1554,6 @@ msgid ""
 msgstr ""
 "Ulkoinen myynti (B2B - Baari ja vähittäiskauppa) - Käyttämällä <strong><font "
 "class=\"text-o-color-1\">Myynti-sovellusta</font></strong>"
-
-#. module: micro_brewery
-#: model:ir.model.fields,field_description:micro_brewery.field_parent_product_bom
-#: model:ir.model.fields,field_description:micro_brewery.field_parent_product_rr
-msgid "Parent product"
-msgstr "Yläkategorian tuote"
 
 #. module: micro_brewery
 #: model:uom.uom,name:micro_brewery.uom_uom_30
@@ -1690,6 +1605,8 @@ msgid ""
 "Receipts and Deliveries from and to Partners having no Fiscal Position "
 "defined are handled with the product taxes."
 msgstr ""
+"Vastaanotot ja toimitukset käsitellään tuoteverojen kanssa kumppaneille, "
+"joille ei ole määritetty verokantasääntöä."
 
 #. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.product_attribute_value_8
@@ -1705,14 +1622,25 @@ msgstr "Rekisteröi siivilöinnin lopussa syntyvän käytetyn viljan määrä."
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
-"Remember that only stock moves to or from your fiscal deposit warehouses are "
-"reported here.<br/>This is normal not to see any move related to a sale from "
-"a front store warehouse since it is not a fiscal deposit for example."
+"Rely on the kit setup mentioned in the \"Products and Bills of Material\" "
+"section."
 msgstr ""
-"Muista, että vain siirrot verotalletusten varastojen välillä tai niistä ulos "
-"näkyvät tässä raportissa.<br/>On normaalia, että et näe myymälävarastosta "
-"tapahtuvia myyntejä, ellei kyseinen varasto ole määritetty verotalletusten "
-"varastoksi."
+"Luota \"Tuotteet ja materiaaliluetteloet\" -osiossa mainitun setin "
+"kokoonpanoon."
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"Remember that only stock moves to or from your fiscal deposit warehouses are "
+"reported here."
+msgstr ""
+"Muista, että täällä raportoidaan vain verotalletusvarastoihisi siirtyvät tai "
+"niistä poistuvat varastosiirrot."
+
+#. module: micro_brewery
+#: model:product.attribute.value,name:micro_brewery.product_attribute_value_10
+msgid "S"
+msgstr "S"
 
 #. module: micro_brewery
 #: model:x_excise_category,x_name:micro_brewery.x_excise_category_S005
@@ -1722,7 +1650,7 @@ msgstr "S005"
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
 msgid "See All"
-msgstr "Näytä kaikki"
+msgstr "Katso kaikki"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
@@ -1746,11 +1674,11 @@ msgstr ""
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
-"Set a deposit product on your product to apply these taxes. This will ensure "
-"that you invoice correctly the price of consigns."
+"Set a deposit product on your product to apply deposit taxes. This will "
+"ensure that you invoice correctly the price of consignments."
 msgstr ""
-"Aseta tuotteellesi vakuustuote näiden verojen soveltamista varten. Näin "
-"varmistat, että laskutat lähetysten hinnan oikein."
+"Aseta tuotteellesi talletustuote talletusverojen soveltamiseksi. Näin "
+"varmistat, että laskutat lähetykset oikein."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3854
@@ -1829,6 +1757,24 @@ msgstr ""
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
+"The assignee of the excise reporting activities can be set from the "
+"Inventory settings."
+msgstr ""
+"Valmisteverojen raportointitoimintojen vastuuhenkilön voi määrittää "
+"Varastoinnin asetuksissa."
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"The automated crate split based on BoM (defined from crate products with "
+"\"contains\" fields) is not supported from the bar (PoS)."
+msgstr ""
+"Laatikon automaattista jakamista materiaaliluettelon perusteella (määritetty "
+"laatikon \"sisältää\"-kentistä) ei tueta baarista (Kassajärjestelmä)."
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
 "The bottled beer is directly the finished product and no semi-finished "
 "bottle product is required."
 msgstr ""
@@ -1843,15 +1789,6 @@ msgid ""
 msgstr ""
 "Olutlaatikoiden lukumäärä on vain informatiivinen, koska laatikot katsotaan "
 "olevan saatavilla heti, kun komponentit, olutpullot ja kori, ovat saatavilla."
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid ""
-"The default breakdown is done by week and you can configure it to be by "
-"month if needed."
-msgstr ""
-"Oletuserittely tehdään viikkokohtaisesti ja voit määrittää sen eriteltäväksi "
-"myös kuukausikohtaisesti tarvittaessa."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1957,11 +1894,11 @@ msgstr ""
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
-"This deposit management system is a specific features of this package. "
-"Proceed carefully if you need to adapt anything."
+"This is normal not to see any move related to a sale from a front store "
+"warehouse since it is not a fiscal deposit for example"
 msgstr ""
-"Tämä vakuusmaksujen hallintajärjestelmä on tämän paketin erityispiirre. "
-"Toimi varovasti, jos sinun täytyy mukauttaa jotain."
+"On normaalia, ettei liikkeen varastomyyntiin liittyviä siirtoja näy. "
+"Kyseessä ei ole esimerkiksi verotutalletus"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1985,23 +1922,13 @@ msgid ""
 "Transfer is here to handle the transfers between multiple fiscal deposit "
 "warehouses of yours."
 msgstr ""
-"Siirrot auttavat sinua käsittelemään siirrot, jotka tapahtuvat useiden omien "
-"verotalletusvarastojesi välillä."
+"Siirrot auttavat sinua käsittelemään useiden omien verotalletusvarastojesi "
+"välisiä siirtoja."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Two bills of material are needed."
 msgstr "Tarvitaan kaksi materiaaliluetteloa."
-
-#. module: micro_brewery
-#: model:ir.model.fields,field_description:micro_brewery.field_unit_sale_product
-msgid "Unit sale product"
-msgstr "Myyntituotteen yksikkö"
-
-#. module: micro_brewery
-#: model:base.automation,name:micro_brewery.update_sales_taxes
-msgid "Update Taxes"
-msgstr "Päivitä verot"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3686
@@ -2107,9 +2034,9 @@ msgid ""
 "<br/>Adjust the Fiscal Positions which are not to consider the Excise Taxes "
 "in your orders."
 msgstr ""
-"Kun asennat tämän moduulin, kaikki verovelvollisuusasemat määritetään "
-"verotalletuksiksi.<br/>Säädä verovelvollisuusasemia, joiden ei tulisi "
-"huomioida valmisteveroja tilauksissa."
+"Kun asennat tämän moduulin, kaikki verokantasäännöt määritetään "
+"verotalletuksiksi.<br/>Säädä verokantasääntöjä, joiden ei tulisi huomioida "
+"valmisteveroja tilauksissasi."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -2117,8 +2044,8 @@ msgid ""
 "When moving boxes from a place to another using box product, in practice, "
 "beer bottles and deposits are moved (see corresponding deliveries)."
 msgstr ""
-"Kun siirrät laatikoita paikasta toiseen laatikkotuotteina, käytännössä siis "
-"olutpulloja ja talletuksia siirretään (katso vastaavat toimitukset)."
+"Kun siirrät laatikoita paikasta toiseen laatikkotuotteina, käytännössä "
+"siirrät siis olutpulloja ja pantteja (katso vastaavat toimitukset)."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -2163,6 +2090,12 @@ msgstr ""
 "pidemmälle?"
 
 #. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3686
+#: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3854
+msgid "X"
+msgstr "X"
+
+#. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.product_attribute_value_13
 msgid "XL"
 msgstr "XL"
@@ -2194,17 +2127,16 @@ msgid ""
 "You can access every installed App in your Odoo database on your main "
 "dashboard."
 msgstr ""
-"Pääset käsiksi kaikkiin Odoo-tietokantaan asennettuihin sovelluksiin "
-"pääkoontinäytöltä."
+"Löydät kaikki Odoo-tietokantaasi asennetut sovellukset pääkoontinäytöltäsi."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
-"You can also collect deposit directly on your Point of Sale. Select the "
+"You can also collect deposits directly on your Point of Sale. Select the "
 "correct product and encode a negative quantity."
 msgstr ""
-"Voit myös kerätä vakuuden suoraan kassastasi. Valitse oikea tuote ja syötä "
-"negatiivinen määrä."
+"Voit kerätä pantteja myös suoraan kassajärjestelmässäsi. Valitse oikea tuote "
+"ja koodaa negatiivinen määrä."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -2242,8 +2174,8 @@ msgid ""
 "You completed that demo use case! There are millions of other ways to adapt "
 "your Odoo setup to fit your business needs."
 msgstr ""
-"Sait demon käyttötapauksen valmiiksi! On olemassa monia muitakin tapoja "
-"mukauttaa Odoo-asetuksia vastaamaan yrityksesi tarpeita."
+"Suoritit demon esimerkkitapauksen! On olemassa lukuisia muitakin tapoja "
+"räätälöidä Odoo-asetukset yrityksesi tarpeiden mukaiseksi."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -2272,19 +2204,11 @@ msgstr ""
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
-"You now have the keys to easily report those to the relevant authorities!"
-msgstr ""
-"Nyt sinulla on työkalut raportoida nämä tiedot helposti oleellisille "
-"viranomaisille!"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid ""
 "You should be able to execute the following flows to have an overview of "
 "various flows you can quickly execute with this package using Odoo."
 msgstr ""
-"Sinun pitäisi pystyä suorittamaan seuraavat työnkulut saadaksesi yleiskuvan "
-"erilaisista työnkuluista, joita voit suorittaa nopeasti tämän paketin avulla."
+"Sinun pitäisi pystyä suorittamaan seuraavat toiminnot, jotta saat yleiskuvan "
+"erilaisista tämän Odoo-paketin avulla nopeasti suoritettavista työnkuluista."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
@@ -2292,8 +2216,8 @@ msgid ""
 "Your Dynamic Snippet will be displayed here... This message is displayed "
 "because you did not provide both a filter and a template to use.<br/>"
 msgstr ""
-"Dynaaminen pätkäsi näytetään tässä... Tämä viesti näytetään, koska et ole "
-"antanut sekä suodatinta että mallia käytettäväksi.<br/>"
+"Dynaaminen katkelmasi näytetään tässä... Näet tämän viestin, koska et "
+"antanut suodatinta tai käytettävää mallipohjaa.<br/>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -2308,12 +2232,7 @@ msgstr "ja"
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "documentation"
-msgstr "dokumentointi"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.product_template_form_custom
-msgid "ex. Delta I.P.A. - 33cl"
-msgstr "ex. Delta I.P.A. - 33cl"
+msgstr "dokumentaatio"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -2323,7 +2242,7 @@ msgstr "jos tarvitset apua! <br/>"
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3686
 msgid "info@yourcompany.example.com"
-msgstr "info@yourcompany.example.com"
+msgstr "info@yrityksesi.esimerkki.fi"
 
 #. module: micro_brewery
 #: model:website.menu,name:micro_brewery.website_menu_5
@@ -2333,22 +2252,221 @@ msgstr "o-beer"
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "removing the deposit products from the bill of materials"
-msgstr "talletustuotteiden poistaminen materiaaliluettelosta"
+msgstr "panttituotteiden poistaminen materiaaliluettelosta"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "removing the tracking of deposit products (in the product form"
-msgstr "talletustuotteiden seurannan poistaminen (tuotelomakkeessa"
+msgstr "panttituotteiden seurannan poistaminen (tuotelomakkeessa"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "request a demo"
-msgstr "pyytää esittelyä"
+msgstr "pyydä demoa"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "﻿🎓 Deposit Management﻿"
+msgstr "🎓 Panttien hallinta"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "🎓 Excise Management"
+msgstr "🎓 Valmisteverojen hallinta"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "🎓 Units of measure"
 msgstr "🎓 Mittayksiköt"
+
+#~ msgid "+1 555-555-5556"
+#~ msgstr "+1 555-555-5556"
+
+#~ msgid "+16"
+#~ msgstr "+16"
+
+#~ msgid "+18"
+#~ msgstr "+18"
+
+#~ msgid ""
+#~ "You now have the keys to easily report those to the relevant authorities!"
+#~ msgstr ""
+#~ "Nyt sinulla on työkalut raportoida nämä tiedot helposti oleellisille "
+#~ "viranomaisille!"
+
+#~ msgid ""
+#~ "Apply DEP XX taxes to those products, creating some if necessary, and "
+#~ "assign them a category with \"Is a deposit category\" set like the "
+#~ "Deposit category."
+#~ msgstr ""
+#~ "Lisää DEP XX - verot näihin tuotteisiin tai luo ne tarvittaessa, ja aseta "
+#~ "niille kategoria, jossa \"Ennakkomaksukategoria\" on asetettu "
+#~ "asianmukaisesti."
+
+#~ msgid "Auto Production"
+#~ msgstr "Automaattinen tuotanto"
+
+#~ msgid "Auto-production"
+#~ msgstr "Automaattinen tuotanto"
+
+#~ msgid "Automated BoM"
+#~ msgstr "Automatisoitu materiaaliluettelo"
+
+#~ msgid ""
+#~ "Collect deposit when you deliver your customer. It is easy. When "
+#~ "validating your delivery, you can directly set a \"Return\" and precisely "
+#~ "count the number of each type of deposit your customer gave you. It will "
+#~ "automatically be\n"
+#~ "        reflected on his invoice or issue a credit note."
+#~ msgstr ""
+#~ "Kerää talletus, kun toimitat asiakkaalle. Se on helppoa: kun vahvistat "
+#~ "toimituksen, voit asettaa \"Palautuksen\" ja laskea tarkasti kunkin "
+#~ "asiakkaan antaman talletustyypin määrän. Se \n"
+#~ "        näkyy automaattisesti hänen laskullaan tai luo hyvityslaskun."
+
+#~ msgid "Contains"
+#~ msgstr "Sisältää"
+
+#~ msgid "Create deposit products for each different type of consigns."
+#~ msgstr "Luo panttituotteita kullekin erilaisille lähetystyypeille."
+
+#~ msgid "DEP 0.1"
+#~ msgstr "DEP 0.1"
+
+#~ msgid "DEP 2.1"
+#~ msgstr "DEP 2.1"
+
+#~ msgid "DEP 2.4"
+#~ msgstr "DEP 2.4"
+
+#~ msgid "DEP 4.5"
+#~ msgstr "DEP 4.5"
+
+#~ msgid "Default fields for deposits"
+#~ msgstr "Talletusten oletuskentät"
+
+#~ msgid "Deposit Management 🍻"
+#~ msgstr "4. Vakuusmaksujen hallinta 🍻"
+
+#~ msgid "Execute Code"
+#~ msgstr "Suorita koodi"
+
+#~ msgid "Execute Existing Actions"
+#~ msgstr "Suorita olemassa oleva toiminto"
+
+#~ msgid "Is a deposit"
+#~ msgstr "On vakuus"
+
+#~ msgid "Leave empty if this product is the smallest unit"
+#~ msgstr "Jätä tyhjäksi, jos tämä tuote on pienin yksikkö"
+
+#~ msgid "Parent product"
+#~ msgstr "Yläkategorian tuote"
+
+#~ msgid ""
+#~ "Set a deposit product on your product to apply these taxes. This will "
+#~ "ensure that you invoice correctly the price of consigns."
+#~ msgstr ""
+#~ "Aseta tuotteellesi vakuustuote näiden verojen soveltamista varten. Näin "
+#~ "varmistat, että laskutat lähetysten hinnan oikein."
+
+#~ msgid ""
+#~ "This deposit management system is a specific features of this package. "
+#~ "Proceed carefully if you need to adapt anything."
+#~ msgstr ""
+#~ "Tämä vakuusmaksujen hallintajärjestelmä on tämän paketin erityispiirre. "
+#~ "Toimi varovasti, jos sinun täytyy mukauttaa jotain."
+
+#~ msgid "Unit sale product"
+#~ msgstr "Myyntituotteen yksikkö"
+
+#~ msgid "Update Taxes"
+#~ msgstr "Päivitä verot"
+
+#~ msgid ""
+#~ "You can also collect deposit directly on your Point of Sale. Select the "
+#~ "correct product and encode a negative quantity."
+#~ msgstr ""
+#~ "Voit myös kerätä vakuuden suoraan kassastasi. Valitse oikea tuote ja "
+#~ "syötä negatiivinen määrä."
+
+#~ msgid "ex. Delta I.P.A. - 33cl"
+#~ msgstr "ex. Delta I.P.A. - 33cl"
+
+#~ msgid "<strong>Excise categories maintenance</strong>"
+#~ msgstr "<strong>Valmisteverokategorioiden ylläpito</strong>"
+
+#~ msgid "<strong>Excise reporting</strong>"
+#~ msgstr "<strong>Valmisteveroraportointi</strong>"
+
+#~ msgid "Deposit 0.1"
+#~ msgstr "Talletus 0,1"
+
+#~ msgid "Deposit 2.1"
+#~ msgstr "Talletus 2.1"
+
+#~ msgid "Deposit 2.1 is the empty deposit product"
+#~ msgstr "Talletus 2.1 on tyhjä talletustuote"
+
+#~ msgid "Deposit 2.4"
+#~ msgstr "Talletus 2.4"
+
+#~ msgid "Deposit 4.5"
+#~ msgstr "Talletus 4.5"
+
+#~ msgid ""
+#~ "Deposit 4.5 is the complete deposit product (deposits of all bottles and "
+#~ "crate)"
+#~ msgstr ""
+#~ "Talletus 4.5 on täysi talletustuote (kaikkien pullojen ja korien "
+#~ "talletukset)"
+
+#~ msgid "Deposit product"
+#~ msgstr "Vakuusmaksutuote"
+
+#~ msgid "Deposit product must be set in Deposit category"
+#~ msgstr "Vakuusmaksutuote on asetettava Vakuus-kategoriaan"
+
+#~ msgid "Empty deposit product"
+#~ msgstr "Tyhjä vakuustuote"
+
+#~ msgid "Is a deposit category"
+#~ msgstr "On vakuusluokka"
+
+#~ msgid ""
+#~ "On a regular basis, excises need to be declared. To support you with this "
+#~ "duty, a report is setup to reach the quantity by excise category entering "
+#~ "and exiting your fiscal deposit warehouse."
+#~ msgstr ""
+#~ "Valmisteverot on ilmoitettava säännöllisesti. Jotta tämä velvollisuus "
+#~ "olisi helppo täyttää, olemme luoneet raportin, josta näet "
+#~ "valmisteveroluokittain varastoon saapuvien ja sieltä poistuvien "
+#~ "tuotteiden määrän."
+
+#~ msgid ""
+#~ "Open the <strong>Inventory app</strong> and reach from the Reporting menu "
+#~ "the Excises."
+#~ msgstr ""
+#~ "Avaa <strong>Varastointi-sovellus</strong> ja siirry Raportointi-"
+#~ "valikosta Valmisteveroihin."
+
+#~ msgid ""
+#~ "Remember that only stock moves to or from your fiscal deposit warehouses "
+#~ "are reported here.<br/>This is normal not to see any move related to a "
+#~ "sale from a front store warehouse since it is not a fiscal deposit for "
+#~ "example."
+#~ msgstr ""
+#~ "Muista, että vain siirrot verotalletusten varastojen välillä tai niistä "
+#~ "ulos näkyvät tässä raportissa.<br/>On normaalia, että et näe "
+#~ "myymälävarastosta tapahtuvia myyntejä, ellei kyseinen varasto ole "
+#~ "määritetty verotalletusten varastoksi."
+
+#~ msgid ""
+#~ "The default breakdown is done by week and you can configure it to be by "
+#~ "month if needed."
+#~ msgstr ""
+#~ "Oletuserittely tehdään viikkokohtaisesti ja voit määrittää sen "
+#~ "eriteltäväksi myös kuukausikohtaisesti tarvittaessa."
 
 #~ msgid "New Decimal"
 #~ msgstr "Uusi desimaaliluku"

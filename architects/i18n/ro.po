@@ -3,13 +3,15 @@
 # * architects
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Dorin Hongu <dhongu@gmail.com>, 2025.
+# Cuciureanu Larisa <larisa.cuciureanu@nexterp.ro>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-13 08:16+0000\n"
-"PO-Revision-Date: 2025-11-14 15:28+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-05-01 17:37+0000\n"
+"PO-Revision-Date: 2026-02-03 12:50+0000\n"
+"Last-Translator: Cuciureanu Larisa <larisa.cuciureanu@nexterp.ro>\n"
 "Language-Team: Romanian <https://translate.odoo.com/projects/odoo-19/"
 "architects/ro/>\n"
 "Language: ro\n"
@@ -18,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.contactus
@@ -26,6 +28,8 @@ msgid ""
 "&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;3575 "
 "Fake Buena Vista Avenue"
 msgstr ""
+"&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;3575 "
+"Fake Buena Vista Avenue"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.contactus
@@ -34,6 +38,9 @@ msgid ""
 "class=\"o_translate_inline\" href=\"mail-to:info@yourcompany.example.com\" "
 "title=\"Send an email\">info@yourcompany.example.com</a>"
 msgstr ""
+"&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<a "
+"class=\"o_translate_inline\" href=\"mail-to:info@yourcompany.example.com\" "
+"title=\"Trimite un email\">info@yourcompany.example.com</a>"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.contactus
@@ -42,26 +49,9 @@ msgid ""
 "class=\"o_translate_inline\" href=\"tel:+1555-555-5556\" title=\"Call "
 "Customer Service\">+1555-555-5556</a>"
 msgstr ""
-
-#. module: architects
-#: model_terms:ir.ui.view,arch_db:architects.homepage
-msgid "2019"
-msgstr "2019"
-
-#. module: architects
-#: model_terms:ir.ui.view,arch_db:architects.homepage
-msgid "2021"
-msgstr "2021"
-
-#. module: architects
-#: model_terms:ir.ui.view,arch_db:architects.homepage
-msgid "2022"
-msgstr "2022"
-
-#. module: architects
-#: model_terms:ir.ui.view,arch_db:architects.homepage
-msgid "2023"
-msgstr "2023"
+"&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<a "
+"class=\"o_translate_inline\" href=\"tel:+1555-555-5556\" title=\"Sună "
+"Serviciul Clienți\">+1555-555-5556</a>"
 
 #. module: architects
 #: model:product.template,name:architects.product_product_36_product_template
@@ -74,26 +64,106 @@ msgid ""
 "<a class=\"btn btn-lg btn-primary o_translate_inline\" href=\"/"
 "contactus\">Get Started</a>"
 msgstr ""
+"<a class=\"btn btn-lg btn-primary o_translate_inline\" href=\"/"
+"contactus\">Începe acum</a>"
+
+#. module: architects
+#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
+msgid ""
+"<b>CRM App</b>: Centralize client interactions to effectively manage leads "
+"and convert design proposals into\n"
+"                signed contracts."
+msgstr ""
+"<b>Aplicația CRM</b>: Centralizează interacțiunile cu clienții pentru a "
+"gestiona eficient potențialii clienți și a transforma propunerile de design "
+"în\n"
+"                contracte semnate."
+
+#. module: architects
+#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
+msgid ""
+"<b>Documents App</b>: Securely organize, version, and share critical files "
+"such as architectural drawings,\n"
+"                permits, and blueprints."
+msgstr ""
+"<b>Aplicația Documente</b>: Organizează, versionează și partajează în "
+"siguranță fișiere critice precum desenele arhitecturale,\n"
+"                autorizațiile și planurile."
+
+#. module: architects
+#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
+msgid ""
+"<b>Invoicing App</b>: Maintain healthy cash flow by billing clients flexibly "
+"based on project milestones or\n"
+"                actual time spent."
+msgstr ""
+"<b>Aplicația Facturare</b>: Menține un flux de numerar sănătos prin "
+"facturarea flexibilă a clienților bazată pe reperele proiectului sau\n"
+"                timpul efectiv petrecut."
+
+#. module: architects
+#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
+msgid ""
+"<b>Knowledge App</b>: Centralize design standards, building codes, and "
+"internal guidelines to ensure consistency\n"
+"                across the team."
+msgstr ""
+"<b>Aplicația Cunoaștere</b>: Centralizează standardele de design, codurile "
+"de construcție și ghidurile interne pentru a asigura coerența\n"
+"                în cadrul echipei."
+
+#. module: architects
+#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
+msgid ""
+"<b>Project App</b>: Orchestrate complex architectural projects by managing "
+"distinct phases like schematic\n"
+"                design, development, and construction."
+msgstr ""
+"<b>Aplicația Proiecte</b>: Orchestrează proiecte arhitecturale complexe prin "
+"gestionarea fazelor distincte precum designul\n"
+"                schematic, dezvoltarea și construcția."
+
+#. module: architects
+#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
+msgid ""
+"<b>Sales App</b>: Create professional proposals and contracts tailored for "
+"architectural services, streamlining\n"
+"                the agreement process."
+msgstr ""
+"<b>Aplicația Vânzări</b>: Creeză propuneri și contracte profesionale "
+"personalizate pentru servicii arhitecturale, eficientizând\n"
+"                procesul de înțelegere."
+
+#. module: architects
+#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
+msgid ""
+"<b>Timesheets App</b>: Ensure profitability by accurately tracking time "
+"spent on design drafting, client\n"
+"                meetings, and site visits."
+msgstr ""
+"<b>Aplicația Pontaj</b>: Asigură rentabilitatea prin monitorizarea precisă a "
+"timpului petrecut pe proiectarea schematică, întâlnirile cu clienții\n"
+"                și vizitele pe șantier."
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
 msgid "<font class=\"text-o-color-1\">Eco-Friendly Office Space</font>"
-msgstr ""
+msgstr "<font class=\"text-o-color-1\">Spațiu de birouri ecologic</font>"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
 msgid "<font class=\"text-o-color-1\">Luxury Apartment Development</font>"
-msgstr ""
+msgstr "<font class=\"text-o-color-1\">Dezvoltare apartamente de lux</font>"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
 msgid "<font class=\"text-o-color-1\">Modern Home Design</font>"
-msgstr ""
+msgstr "<font class=\"text-o-color-1\">Design modern de locuințe</font>"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
 msgid "<font class=\"text-o-color-1\">Urban Oasis Project</font>"
-msgstr ""
+msgstr "<font class=\"text-o-color-1\">Proiect Oază Urbană</font>"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
@@ -101,6 +171,8 @@ msgid ""
 "<i class=\"fa fa-circle text-success\" aria-hidden=\"true\"/> AVAILABLE FOR "
 "NEW PROJECTS"
 msgstr ""
+"<i class=\"fa fa-circle text-success\" aria-hidden=\"true\"/> DISPONIBIL "
+"PENTRU PROIECTE NOI"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.contactus
@@ -108,6 +180,8 @@ msgid ""
 "<i class=\"fa fa-fw fa-building-o\" role=\"presentation\"/>\n"
 "                            Office"
 msgstr ""
+"<i class=\"fa fa-fw fa-building-o\" role=\"presentation\"/>\n"
+"                            Birou"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.contactus
@@ -115,12 +189,23 @@ msgid ""
 "<i class=\"fa fa-fw fa-envelope-o\" role=\"presentation\"/>\n"
 "                            Email"
 msgstr ""
+"<i class=\"fa fa-fw fa-envelope-o\" role=\"presentation\"/>\n"
+"                            Email"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.contactus
 msgid ""
 "<i class=\"fa fa-fw fa-phone\" role=\"presentation\"/>\n"
 "                            Phone"
+msgstr ""
+"<i class=\"fa fa-fw fa-phone\" role=\"presentation\"/>\n"
+"                            Telefon"
+
+#. module: architects
+#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">💡</i>"
 msgstr ""
 
 #. module: architects
@@ -131,6 +216,10 @@ msgid ""
 "exceptional designs through strategic planning and fostering long-term "
 "client partnerships.</span>"
 msgstr ""
+"<span class=\"h3-fs\">Abordarea noastră se bazează pe creativitate și "
+"inovație. Ceea ce a început ca o echipă mică a evoluat într-o firmă dedicată "
+"oferirii de designuri excepționale prin planificare strategică și cultivarea "
+"de parteneriate pe termen lung cu clienții.</span>"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
@@ -140,6 +229,10 @@ msgid ""
 "                            <span class=\"h5-fs\">Client Satisfaction Rate</"
 "span>"
 msgstr ""
+"<span class=\"s_number display-1-fs\">4.5</span>\n"
+"                            <br/>\n"
+"                            <span class=\"h5-fs\">Rata de satisfacție a "
+"clienților</span>"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
@@ -149,6 +242,10 @@ msgid ""
 "                            <span class=\"h5-fs\">Average project timeline</"
 "span>"
 msgstr ""
+"<span class=\"s_number display-1-fs\">40h</span>\n"
+"                            <br/>\n"
+"                            <span class=\"h5-fs\">Durata medie a "
+"proiectului</span>"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
@@ -157,6 +254,9 @@ msgid ""
 "                            <br/>\n"
 "                            <span class=\"h5-fs\">Satisfied clients</span>"
 msgstr ""
+"<span class=\"s_number display-1-fs\">50+</span>\n"
+"                            <br/>\n"
+"                            <span class=\"h5-fs\">Clienți satisfăcuți</span>"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.contactus
@@ -181,9 +281,9 @@ msgid ""
 "                                  <span class=\"s_website_form_mark\"> *</"
 "span>"
 msgstr ""
-"<span class=\"s_website_form_label_content\">Subiect</"
-"span>                                 <span class=\"s_website_form_mark\"> "
-"*</span>"
+"<span class=\"s_website_form_label_content\">Compania ta</span>\n"
+"                                  <span class=\"s_website_form_mark\"> *</"
+"span>"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.contactus
@@ -204,8 +304,8 @@ msgid ""
 "span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Numele tău</"
-"span>                                <span class=\"s_website_form_mark\"> "
-"*</span>"
+"span>                                <span class=\"s_website_form_mark\"> *</"
+"span>"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.contactus
@@ -215,91 +315,114 @@ msgid ""
 "span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Întrebarea ta</span>\n"
-"                            \"     <span class=\"s_website_form_mark\"> "
-"*</span>"
-
-#. module: architects
-#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
-msgid ""
-"<span style=\"font-size: 14px;\">\n"
-"                Automated actions have been created to create activities at "
-"appropriated times (an action to call the lead is created when there's a new "
-"opportunity, a to-do action is generated when the opportunity is at the "
-"\"needs analysis\n"
-"                stage\", a reminder and activity to cancel opportunity are "
-"created when the quotation is sent)\n"
-"            </span>"
-msgstr ""
-"<span style=\"font-size: 14px;\">\n"
-"                Acțiuni automate au fost create pentru a genera activități "
-"la momente potrivite (o acțiune de apelare a potențialului client este "
-"creată când există o nouă oportunitate, o activitate de tip to-do este "
-"generată când oportunitatea este în etapa \"analiză necesități\", un "
-"reminder și o activitate de anulare a oportunității sunt create când oferta "
-"este trimisă)\n"
-"            </span>"
-
-#. module: architects
-#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
-msgid ""
-"<span style=\"font-size: 14px;\">\n"
-"                From the opportunity, a quote can simply be created using "
-"the \"create quote\" button, and using one of the pre-created quotation "
-"template (services and quantities can be suited to the client's request)\n"
-"            </span>"
-msgstr ""
-"<span style=\"font-size: 14px;\">\n"
-"                Din oportunitate, o ofertă poate fi creată simplu folosind "
-"butonul \"creează ofertă\" și unul dintre șabloanele de ofertă predefinite ("
-"serviciile și cantitățile pot fi adaptate cererii clientului)\n"
-"            </span>"
-
-#. module: architects
-#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
-msgid ""
-"<span style=\"font-size: 14px;\">A set of architectural services have "
-"already been created and can be edited to match the architects' services.</"
+"                            \"     <span class=\"s_website_form_mark\"> *</"
 "span>"
-msgstr ""
-"<span style=\"font-size: 14px;\">Un set de servicii de arhitectură a fost "
-"deja creat și poate fi editat pentru a corespunde serviciilor "
-"arhitecților.</span>"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
 msgid ""
-"<span style=\"font-size: 14px;\">Leads get created in the CRM by filling the "
-"\"Contact us\" form of the website or manually by the salesperson.</span>"
+"<span style=\"font-size: 14px\">\n"
+"                        <span style=\"font-size: 14px\">Learn more on how to "
+"automate your business using <strong>Odoo Studio</strong></span>\n"
+"                    </span>\n"
+"                    <br/>"
 msgstr ""
-"<span style=\"font-size: 14px;"
-"\">Potențialii clienți sunt creați în CRM prin completarea formularului \""
-"Contactați-ne\" de pe site sau manual de către agentul de vânzări.</span>"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
 msgid ""
-"<span style=\"font-size: 14px;\">Thanks to the services configuration, a "
-"project gets created automatically once the quote is confirmed by the "
-"customer. A set of tasks are created in this project, based on the sale "
-"order lines.</span>"
+"<span style=\"font-size: 14px\">\n"
+"                <span style=\"font-size: 14px\">\n"
+"                    It's the heart of your architectural work. It's where "
+"you'll track the advancement of the various tasks,\n"
+"                    generate new invoices (if needed), and assign tasks to "
+"employees and contractors alike. Track your\n"
+"                    timesheets, margins, purchase orders, and more using the "
+"project menu to quickly access relevant information.\n"
+"                </span>\n"
+"            </span>"
 msgstr ""
-"<span style=\"font-size: 14px;\">Datorită configurării serviciilor, un "
-"proiect este creat automat odată ce oferta este confirmată de client. Un set "
-"de sarcini sunt create în acest proiect, pe baza liniilor de comandă de "
-"vânzare.</span>"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
 msgid ""
-"<span style=\"font-size: 14px;\">There is also a map view for the projects "
-"(projects are assigned a partner based on the projects location, either with "
-"the address or with the geolocation if there's no assigned address yet)</"
-"span>"
+"<span style=\"font-size: 14px\">\n"
+"                <span style=\"font-size: 14px\">\n"
+"                    Use the documents app to store and share all project "
+"documents. Sub-workspaces get created for each project, and link to these "
+"sub-workspace can be shared with customers so that they have a direct access "
+"to all produced documents.\n"
+"                </span>\n"
+"            </span>"
 msgstr ""
-"<span style=\"font-size: 14px;\">Există și o vizualizare pe hartă pentru "
-"proiecte (proiectelor li se asociază un partener pe baza locației "
-"proiectului, fie cu adresa, fie cu geolocalizarea dacă nu există încă o "
-"adresă asociată)</span>"
+
+#. module: architects
+#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
+msgid ""
+"<span style=\"font-size: 14px\">\n"
+"                <span style=\"font-size: 14px\">A set of architectural "
+"services have already been created and can be edited to match the "
+"architects'\n"
+"                    services.\n"
+"                </span>\n"
+"            </span>"
+msgstr ""
+
+#. module: architects
+#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
+msgid ""
+"<span style=\"font-size: 14px\">\n"
+"                The CRM App is designed to let architecture firms easily "
+"manage new prospects, called \"Opportunities\" in Odoo. Track expected "
+"revenue, manage communications, and never forget to reach out to interested "
+"parties. Opportunities get created in the CRM by filling the \"Contact us\" "
+"form on the website, or manually by a salesperson.\n"
+"            </span>"
+msgstr ""
+
+#. module: architects
+#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
+msgid ""
+"<span style=\"font-size: 14px\"><span style=\"font-size: 14px\">Use the "
+"Project Menu to quickly access</span></span>"
+msgstr ""
+
+#. module: architects
+#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
+msgid ""
+"<span style=\"font-size: 14px\">A reminder to cancel the opportunity is "
+"created when the quotation is sent</span>"
+msgstr ""
+
+#. module: architects
+#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
+msgid ""
+"<span style=\"font-size: 14px\">Create automated actions to never forget to "
+"execute your next steps to keep your business growing, for\n"
+"                        example:</span>"
+msgstr ""
+
+#. module: architects
+#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
+msgid ""
+"<span style=\"font-size: 14px\">Once a quotation has been confirmed, a "
+"project is automatically generated in the Project app, with associated "
+"tasks.\n"
+"            </span>"
+msgstr ""
+
+#. module: architects
+#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
+msgid ""
+"<span style=\"font-size: 14px\">When it's time to provide the customer with "
+"an estimate, a quote can be created by clicking the \"New Quotation\"\n"
+"                button on the opportunity. These can also be pre-filled "
+"using the Quotation Template feature. Quotation\n"
+"                Templates allow you to quickly choose a preset that contains "
+"sections and their products - especially useful\n"
+"                when you're working with similar, elaborate templates.\n"
+"            </span>"
+msgstr ""
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
@@ -318,74 +441,6 @@ msgstr ""
 "            </span>"
 
 #. module: architects
-#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
-msgid ""
-"<span style=\"width: 40px;\" class=\"oe-tabs\"> </span>​\n"
-"            <span style=\"font-size: 14px;\">\n"
-"                Set a cost on each employee and use the Expense application "
-"to record project expenses. It's not just about labor and materials, but "
-"also about tracking the costs of those undercover subcontractors and any "
-"other project-related\n"
-"                expenses. Open up the profitability report for your project, "
-"and there you'll see budgeted costs, actual costs, revenues, and profit "
-"margins. This will help you to figure out how to boost your profit.\n"
-"            </span>\n"
-"            <br/>"
-msgstr ""
-"<span style=\"width: 40px;\" class=\"oe-tabs\"> </span>​\n"
-"            <span style=\"font-size: 14px;\">\n"
-"                Stabilește un cost pentru fiecare angajat și folosește "
-"aplicația Cheltuieli pentru a înregistra cheltuielile proiectului. Nu este "
-"vorba doar despre muncă și materiale, ci și despre urmărirea costurilor "
-"subcontractorilor ascunși și a oricăror alte cheltuieli legate de proiect. "
-"Deschide raportul de profitabilitate pentru proiectul tău și vei vedea "
-"costurile bugetate, costurile reale, veniturile și marjele de profit. Acest "
-"lucru te va ajuta să îți crești profitul.\n"
-"            </span>\n"
-"            <br/>"
-
-#. module: architects
-#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
-msgid ""
-"<span style=\"width: 40px;\" class=\"oe-tabs\"> </span>​\n"
-"            <span style=\"font-size: 14px;\">\n"
-"                Use the documents app to store and share all project "
-"documents. Sub-workspaces get created for each project, <span style=\"width: "
-"40px;\" class=\"oe-tabs\"> </span>​and link to these sub-workspace can be "
-"shared with customers so\n"
-"                that they have a direct access to all produced <span "
-"style=\"width: 40px;\" class=\"oe-tabs\"> </span>​documents.\n"
-"            </span>"
-msgstr ""
-"<span style=\"width: 40px;\" class=\"oe-tabs\"> </span>​\n"
-"            <span style=\"font-size: 14px;\">\n"
-"                Folosește aplicația Documente pentru a stoca și partaja "
-"toate documentele proiectului. Se creează sub-spații de lucru pentru fiecare "
-"proiect, iar linkul către aceste sub-spații poate fi partajat cu clienții "
-"astfel încât aceștia să aibă acces direct la toate documentele generate.\n"
-"            </span>"
-
-#. module: architects
-#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
-msgid "<span style=\"width: 40px;\" class=\"oe-tabs\"> </span>​<br/>"
-msgstr "<span style=\"width: 40px;\" class=\"oe-tabs\"> </span>​<br/>"
-
-#. module: architects
-#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
-msgid ""
-"<span style=\"width: 40px;\" class=\"oe-tabs\"> </span>​Follow project "
-"profitability"
-msgstr ""
-"<span style=\"width: 40px;\" class=\"oe-tabs\"> </span>​Urmărește "
-"profitabilitatea proiectului"
-
-#. module: architects
-#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
-msgid "<span style=\"width: 40px;\" class=\"oe-tabs\"> </span>​Manage documents"
-msgstr ""
-"<span style=\"width: 40px;\" class=\"oe-tabs\"> </span>​Gestionează documente"
-
-#. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
 msgid ""
 "<strong>\n"
@@ -393,10 +448,26 @@ msgid ""
 "font>\n"
 "                            </strong>"
 msgstr ""
+"<strong>\n"
+"                              <font class=\"text-o-color-1\">ABORDAREA "
+"NOASTRĂ</font>\n"
+"                            </strong>"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
 msgid "<strong>We are ArchiDesign.</strong>"
+msgstr "<strong>Noi suntem ArchiDesign.</strong>"
+
+#. module: architects
+#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
+msgid "A phone call activity is created when there's a new opportunity"
+msgstr ""
+
+#. module: architects
+#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
+msgid ""
+"A to-do activity is created when the opportunity moves to the \"needs "
+"analysis\" stage\""
 msgstr ""
 
 #. module: architects
@@ -410,14 +481,15 @@ msgid "Architect Industry"
 msgstr "Industria Arhitecților"
 
 #. module: architects
-#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
-msgid "Architect industry"
-msgstr "Industria arhitecților"
+#: model:base.automation,name:architects.uninstall_hook_base_automation
+#: model:ir.actions.server,name:architects.uninstall_hook_action_server
+msgid "Architects: Uninstall Hook"
+msgstr ""
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
 msgid "Architectural Designer"
-msgstr ""
+msgstr "Designer Arhitectural"
 
 #. module: architects
 #: model:documents.document,name:architects.documents_document_15
@@ -426,9 +498,14 @@ msgid "Architectural Project"
 msgstr "Proiect Arhitectural"
 
 #. module: architects
+#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
+msgid "Architectural Projects"
+msgstr ""
+
+#. module: architects
 #: model:ir.model.fields.selection,name:architects.crm_lead_project_type_selection_design
 msgid "Architectural design"
-msgstr ""
+msgstr "Proiectare arhitecturală"
 
 #. module: architects
 #: model:ir.model.fields,field_description:architects.project_associated_location
@@ -451,6 +528,11 @@ msgid "BEP Study"
 msgstr "Studiu BEP"
 
 #. module: architects
+#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
+msgid "Basics"
+msgstr "Baza"
+
+#. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
 msgid "Ben Cole"
 msgstr "Ben Cole"
@@ -467,6 +549,11 @@ msgid "Business flows"
 msgstr "Fluxuri de business"
 
 #. module: architects
+#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
+msgid "CRM Documentation"
+msgstr ""
+
+#. module: architects
 #: model:ir.model.fields,field_description:architects.project_cadastral_number
 msgid "Cadastral number"
 msgstr "Număr cadastral"
@@ -474,23 +561,23 @@ msgstr "Număr cadastral"
 #. module: architects
 #: model:documents.document,name:architects.documents_document_26
 msgid "Concept & Design Development"
-msgstr ""
+msgstr "Concepție și dezvoltare design"
 
 #. module: architects
 #: model:product.template,name:architects.product_product_22_product_template
 msgid "Construction Documents (DCE)"
-msgstr ""
+msgstr "Documente de construcție (DCE)"
 
 #. module: architects
 #: model:documents.document,name:architects.documents_document_32
 #: model:sale.order.template.line,name:architects.sale_order_template_line_16
 msgid "Construction Phase"
-msgstr ""
+msgstr "Faza de construcție"
 
 #. module: architects
 #: model:documents.document,name:architects.documents_document_29
 msgid "Consultants & Engineering"
-msgstr ""
+msgstr "Consultanți și inginerie"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.contactus
@@ -507,6 +594,13 @@ msgstr ""
 #: model:sale.order.template.line,name:architects.sale_order_template_line_18
 msgid "Contractor selection, bid analysis, negotiation, contract assistance"
 msgstr ""
+"Selectarea antreprenorului, analiza ofertelor, negociere, asistență pentru "
+"contract"
+
+#. module: architects
+#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
+msgid "Create Quotations"
+msgstr ""
 
 #. module: architects
 #: model:base.automation,name:architects.base_automation_2
@@ -516,26 +610,26 @@ msgstr "Creează activitate pentru trimiterea ofertei"
 #. module: architects
 #: model:ir.actions.server,name:architects.create_activity_quote_server_action
 msgid "Create activity to send quote -server actions"
-msgstr ""
-
-#. module: architects
-#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
-msgid "Create quote"
-msgstr "Creează ofertă"
+msgstr "Creează activitate pentru trimiterea ofertei - acțiuni server"
 
 #. module: architects
 #: model:product.template,name:architects.product_product_24_product_template
 msgid "Design Development (APD)"
-msgstr ""
+msgstr "Dezvoltare design (APD)"
 
 #. module: architects
 #: model:sale.order.template.line,name:architects.sale_order_template_line_13
 msgid "Design Phases"
-msgstr ""
+msgstr "Faze de design"
 
 #. module: architects
 #: model:sale.order.template.line,name:architects.sale_order_template_line_21
 msgid "Detailed plans, elevations, 3D visuals, pre-permit package"
+msgstr "Planuri detaliate, elevații, vizualizări 3D, pachet pre-autorizare"
+
+#. module: architects
+#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
+msgid "Documentation"
 msgstr ""
 
 #. module: architects
@@ -546,7 +640,7 @@ msgstr "Finalizat"
 #. module: architects
 #: model:documents.document,name:architects.documents_document_27
 msgid "Drawings & Plans"
-msgstr ""
+msgstr "Desene și planuri"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
@@ -566,12 +660,12 @@ msgstr "Studiu de fezabilitate"
 #. module: architects
 #: model:sale.order.template.line,name:architects.sale_order_template_line_20
 msgid "Final visit, snag list, as-built drawings, documentation for client"
-msgstr ""
+msgstr "Vizită finală, listă de observații, desene conforme cu starea"
 
 #. module: architects
 #: model:documents.document,name:architects.documents_document_35
 msgid "First Floor Plan.jpg"
-msgstr ""
+msgstr "Plan Parter.jpg"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.contactus
@@ -593,17 +687,17 @@ msgstr ""
 #. module: architects
 #: model:sale.order.template.line,name:architects.sale_order_template_line_17
 msgid "Handover"
-msgstr ""
+msgstr "Predare"
 
 #. module: architects
 #: model:product.template,name:architects.product_product_23_product_template
 msgid "Handover & Closeout (AOR)"
-msgstr ""
+msgstr "Predare și închidere (AOR)"
 
 #. module: architects
 #: model:documents.document,name:architects.documents_document_33
 msgid "Handover & Post-Construction"
-msgstr ""
+msgstr "Predare și post-construcție"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
@@ -628,7 +722,7 @@ msgstr "Jane Ford"
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
 msgid "Lead Architect"
-msgstr ""
+msgstr "Arhitect Principal"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.contactus
@@ -638,17 +732,12 @@ msgstr "Hai să luăm legătura"
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
 msgid "Let's discuss how we can bring your vision to life<br/><br/>"
+msgstr "Hai să discutăm cum putem aduce viziunea ta la viață<br/><br/>"
+
+#. module: architects
+#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
+msgid "Manage leads in the CRM"
 msgstr ""
-
-#. module: architects
-#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
-msgid "Manage leads"
-msgstr "Gestionați potențialii clienți"
-
-#. module: architects
-#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
-msgid "Manage projects"
-msgstr "Gestionează proiecte"
 
 #. module: architects
 #: model:base.automation,name:architects.base_automation_3
@@ -659,6 +748,7 @@ msgstr "Marchează ca De făcut când oportunitatea necesită analiză"
 #: model:ir.actions.server,name:architects.mark_opportunity_server_action
 msgid "Mark as To-do when opportunity needs analysis -server actions"
 msgstr ""
+"Marchează ca De făcut când oportunitatea necesită analiză - acțiuni server"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
@@ -666,6 +756,8 @@ msgid ""
 "Meet the masterminds behind our firm. With them, your project is in good "
 "hands for sure."
 msgstr ""
+"Întâlnește mințile din spatele firmei noastre. Cu ei, proiectul tău este cu "
+"siguranță pe mâini bune."
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
@@ -686,6 +778,7 @@ msgstr "Cheltuieli cu kilometrajul"
 #: model:sale.order.template.line,name:architects.sale_order_template_line_23
 msgid "Mileage reimbursement: Included in fixed fees where applicable"
 msgstr ""
+"Restituirea kilometrajului: Inclusă în taxele fixe, acolo unde este cazul"
 
 #. module: architects
 #: model:crm.stage,name:architects.crm_stage_5
@@ -705,7 +798,7 @@ msgstr "În curs de desfășurare"
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
 msgid "Our portfolio"
-msgstr ""
+msgstr "Portofoliul nostru"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
@@ -714,26 +807,29 @@ msgid ""
 "team, we've grown into a firm focused on creating innovative spaces and "
 "building lasting client relationships."
 msgstr ""
+"Povestea noastră a început cu o pasiune pentru arhitectură și design. De la "
+"o echipă mică, am crescut într-o firmă axată pe crearea de spații inovatoare "
+"și construirea de relații durabile cu clienții."
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
 msgid "Our talented team"
-msgstr ""
+msgstr "Echipa noastră talentată"
 
 #. module: architects
 #: model:ir.model.fields.selection,name:architects.crm_lead_project_type_selection_peb
 msgid "PEB analysis"
-msgstr ""
+msgstr "Analiză PEB"
 
 #. module: architects
 #: model:sale.order.template.line,name:architects.sale_order_template_line_14
 msgid "Permitting"
-msgstr ""
+msgstr "Autorizare"
 
 #. module: architects
 #: model:sale.order.template.line,name:architects.sale_order_template_line_12
 msgid "Pre-Design & Feasibility"
-msgstr ""
+msgstr "Pre-proiectare și fezabilitate"
 
 #. module: architects
 #: model:product.template,name:architects.product_product_41_product_template
@@ -743,11 +839,16 @@ msgstr "Studiu pre-proiect "
 #. module: architects
 #: model:documents.document,name:architects.documents_document_24
 msgid "Project Administration"
-msgstr ""
+msgstr "Administrarea proiectului"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
 msgid "Project Coordinator"
+msgstr "Coordonator de proiect"
+
+#. module: architects
+#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
+msgid "Project Documentation"
 msgstr ""
 
 #. module: architects
@@ -767,7 +868,6 @@ msgstr "Referință proiect"
 
 #. module: architects
 #: model:ir.model.fields,field_description:architects.crm_lead_project_type
-#: model:ir.model.fields,field_description:architects.project_project_type
 msgid "Project type"
 msgstr "Tip proiect"
 
@@ -779,7 +879,7 @@ msgstr "Promotor"
 #. module: architects
 #: model:documents.document,name:architects.documents_document_28
 msgid "Regulatory & Permits"
-msgstr ""
+msgstr "Reglementări și autorizații"
 
 #. module: architects
 #: model:sale.order.template.line,name:architects.sale_order_template_line_24
@@ -787,6 +887,8 @@ msgid ""
 "Reimbursable expenses not included: Large prints, third-party studies (e.g., "
 "structural, thermal, acoustic), travel outside project zone"
 msgstr ""
+"Cheltuieli rambursabile neinclude: Tipar mare, studii terțe (de ex., "
+"structurale, termice, acustice), călătorii în afara zonei proiectului"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.crm_lead_form_customization_architects
@@ -799,14 +901,19 @@ msgid "Request date"
 msgstr "Data cererii"
 
 #. module: architects
+#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
+msgid "Sales Documentation"
+msgstr ""
+
+#. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
 msgid "Schedule a consultation"
-msgstr ""
+msgstr "Programează o consultație"
 
 #. module: architects
 #: model:product.template,name:architects.product_product_25_product_template
 msgid "Schematic Design (APS)"
-msgstr ""
+msgstr "Proiectare schematică (APS)"
 
 #. module: architects
 #: model:base.automation,name:architects.base_automation_4
@@ -816,12 +923,12 @@ msgstr "Setează un reminder când oferta este trimisă"
 #. module: architects
 #: model:ir.actions.server,name:architects.set_reminder_server_action
 msgid "Set a reminder when quote is sent -server actions"
-msgstr ""
+msgstr "Setează un reminder când oferta este trimisă - acțiuni server"
 
 #. module: architects
 #: model:documents.document,name:architects.documents_document_25
 msgid "Site Information"
-msgstr ""
+msgstr "Informații despre șantier"
 
 #. module: architects
 #: model:product.template,name:architects.product_product_42_product_template
@@ -837,7 +944,7 @@ msgstr ""
 #. module: architects
 #: model:documents.document,name:architects.documents_document_30
 msgid "Specifications & Materials"
-msgstr ""
+msgstr "Specificații și materiale"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.contactus
@@ -859,22 +966,23 @@ msgstr "Taskuri"
 #. module: architects
 #: model:sale.order.template.line,name:architects.sale_order_template_line_15
 msgid "Technical Documentation & Tendering"
-msgstr ""
+msgstr "Documentație tehnică și licitație"
 
 #. module: architects
 #: model:sale.order.template.line,name:architects.sale_order_template_line_19
 msgid "Technical drawings, finish schedules, written specs for tender"
 msgstr ""
+"Desene tehnice, programe de finisare, specificații scrise pentru licitație"
 
 #. module: architects
 #: model:documents.document,name:architects.documents_document_31
 msgid "Tendering & Procurement"
-msgstr ""
+msgstr "Licitație și achiziții"
 
 #. module: architects
 #: model:product.template,name:architects.product_product_21_product_template
 msgid "Tendering (ACT)"
-msgstr ""
+msgstr "Licitație (ACT)"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
@@ -920,6 +1028,8 @@ msgid ""
 "Worksite follow-up: Fixed rate assumes standard residential project of <12 "
 "months duration"
 msgstr ""
+"Urmărire șantier: Tariful fix presupune un proiect rezidențial standard cu o "
+"durată de <12 luni"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
@@ -928,18 +1038,307 @@ msgid ""
 "philosophy, or a specific project.<br/> To be successful, your content needs "
 "to resonate with your audience.<br/><br/>"
 msgstr ""
+"Scrieți unul sau două paragrafe descriind serviciile dvs. arhitecturale, "
+"filozofia de design sau un proiect specific.<br/> Pentru a reuși, conținutul "
+"dvs. trebuie să rezoneze cu publicul dvs.<br/><br/>"
 
 #. module: architects
 #: model:documents.document,name:architects.documents_document_36
 msgid "plan.jpg"
-msgstr ""
+msgstr "plan.jpg"
 
-#. module: architects
-#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
-msgid "​Follow project profitability"
-msgstr "​Urmărește profitabilitatea proiectului"
+#~ msgid ""
+#~ "<span style=\"font-size: 14px\">\n"
+#~ "                    Automated actions have been created to create "
+#~ "activities at appropriated times (an action to call the lead\n"
+#~ "                    is created when there's a new opportunity, a to-do "
+#~ "action is generated when the opportunity is at the \"needs\n"
+#~ "                    analysis stage\", a reminder and activity to cancel "
+#~ "opportunity are created when the quotation is sent)\n"
+#~ "                </span>"
+#~ msgstr ""
+#~ "<span style=\"font-size: 14px\">\n"
+#~ "                    Acțiuni automatizate au fost create pentru a genera "
+#~ "activități la momentele potrivite (o acțiune de apelare a potențialului "
+#~ "client\n"
+#~ "                    este creată când există o oportunitate nouă, o "
+#~ "acțiune de sarcină este generată când oportunitatea se află în stadiul de "
+#~ "\"analiză a\n"
+#~ "                    necesităților\", un reminder și o activitate de "
+#~ "anulare a oportunității sunt create când cotația este trimisă)\n"
+#~ "                </span>"
 
-#. module: architects
-#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
-msgid "​Manage documents"
-msgstr "​Gestionează documente"
+#~ msgid ""
+#~ "<span style=\"font-size: 14px\">\n"
+#~ "                    From the opportunity, a quote can simply be created "
+#~ "using the \"create quote\" button, and using one of the\n"
+#~ "                    pre-created quotation template (services and "
+#~ "quantities can be suited to the client's request)\n"
+#~ "                </span>"
+#~ msgstr ""
+#~ "<span style=\"font-size: 14px\">\n"
+#~ "                    Din oportunitate, o cotat̆ie poate fi creat̆ simplu "
+#~ "folosind butonul \"crează cotat̆ie\", și folosind unul dintre\n"
+#~ "                    șabloanele de cotat̆ie pre-create (serviciile și "
+#~ "cantit̆ăt̆ile pot fi adaptate cerint̆ei clientului)\n"
+#~ "                </span>"
+
+#~ msgid ""
+#~ "<span style=\"font-size: 14px\">\n"
+#~ "                    Set a cost on each employee and use the Expense "
+#~ "application to record project expenses. It's not just\n"
+#~ "                    about labor and materials, but also about tracking "
+#~ "the costs of those undercover subcontractors and any\n"
+#~ "                    other project-related expenses. Open up the "
+#~ "profitability report for your project, and there you'll see\n"
+#~ "                    budgeted costs, actual costs, revenues, and profit "
+#~ "margins. This will help you to figure out how to boost\n"
+#~ "                    your profit.\n"
+#~ "                </span>\n"
+#~ "                <br/>"
+#~ msgstr ""
+#~ "<span style=\"font-size: 14px\">\n"
+#~ "                    Setează un cost pentru fiecare angajat și folosește "
+#~ "aplicația de Cheltuieli pentru a înregistra cheltuielile proiectului. Nu "
+#~ "este doar\n"
+#~ "                    despre forța de muncă și materiale, ci și despre "
+#~ "urmărirea costurilor subcontractorilor și orice\n"
+#~ "                    alte cheltuieli legate de proiect. Deschide raportul "
+#~ "de rentabilitate pentru proiectul tău și acolo vei vedea\n"
+#~ "                    costurile bugetate, costurile reale, veniturile și "
+#~ "marjele de profit. Aceasta te va ajuta să afli cum să crești\n"
+#~ "                    profitul.\n"
+#~ "                </span>\n"
+#~ "                <br/>"
+
+#~ msgid ""
+#~ "<span style=\"font-size: 14px\">Thanks to the services configuration, a "
+#~ "project gets created automatically once the quote is confirmed by\n"
+#~ "                    the customer. A set of tasks are created in this "
+#~ "project, based on the sale order lines.</span>"
+#~ msgstr ""
+#~ "<span style=\"font-size: 14px\">Mulțumită configurării serviciilor, un "
+#~ "proiect este creat automat odată ce cotația este confirmată de\n"
+#~ "                    client. Un set de sarcini sunt create în acest "
+#~ "proiect, bazat pe liniile comenzii de vânzare.</span>"
+
+#~ msgid "<span style=\"width: 40px\" class=\"oe-tabs\"/>​<br/>"
+#~ msgstr "<span style=\"width: 40px\" class=\"oe-tabs\"/>​<br/>"
+
+#~ msgid ""
+#~ "A set of architectural services have already been created and can be "
+#~ "edited to match the architects' services."
+#~ msgstr ""
+#~ "Un set de servicii arhitecturale au fost deja create și pot fi editate "
+#~ "pentru a se potrivi serviciilor arhitecților."
+
+#~ msgid "Create quote"
+#~ msgstr "Creează ofertă"
+
+#~ msgid "Follow project profitability"
+#~ msgstr "Urmărește rentabilitatea proiectului"
+
+#~ msgid ""
+#~ "Leads get created in the CRM by filling the \"Contact us\" form of the "
+#~ "website or manually by the salesperson."
+#~ msgstr ""
+#~ "Potențialii clienți sunt creați în CRM prin completarea formularului "
+#~ "\"„Contactați-ne\" de pe site-ul web sau manual de către vânzător."
+
+#~ msgid "Manage documents"
+#~ msgstr "Gestionează documente"
+
+#~ msgid "Manage leads"
+#~ msgstr "Gestionați potențialii clienți"
+
+#~ msgid "Manage projects"
+#~ msgstr "Gestionează proiecte"
+
+#~ msgid ""
+#~ "There is also a map view for the projects (projects are assigned a "
+#~ "partner based on the projects location,\n"
+#~ "                either with the address or with the geolocation if "
+#~ "there's no assigned address yet)"
+#~ msgstr ""
+#~ "Există de asemenea o vizualizare pe hartă pentru proiecte (proiectele "
+#~ "sunt asociate unui partener pe baza locației proiectelor,\n"
+#~ "                fie cu adresa sau cu geolocația dacă nu există încă o "
+#~ "adresă atribuită)"
+
+#~ msgid ""
+#~ "​\n"
+#~ "                <span style=\"font-size: 14px\">\n"
+#~ "                    Use the documents app to store and share all project "
+#~ "documents. Sub-workspaces get created for each project,\n"
+#~ "                    and link to these sub-workspace can be shared with "
+#~ "customers so that they have a direct access to all\n"
+#~ "                    produced documents.\n"
+#~ "                </span>"
+#~ msgstr ""
+#~ "​\n"
+#~ "                <span style=\"font-size: 14px\">\n"
+#~ "                    Folosește aplicația de documente pentru a stoca și "
+#~ "partaja toate documentele proiectului. Sub-spații de lucru sunt create "
+#~ "pentru fiecare proiect,\n"
+#~ "                    și link-ul către aceste sub-spații de lucru poate fi "
+#~ "partajat cu clienții astfel încât aceștia să aibă acces direct la toate\n"
+#~ "                    documentele produse.\n"
+#~ "                </span>"
+
+#~ msgid "2019"
+#~ msgstr "2019"
+
+#~ msgid "2021"
+#~ msgstr "2021"
+
+#~ msgid "2022"
+#~ msgstr "2022"
+
+#~ msgid "2023"
+#~ msgstr "2023"
+
+#~ msgid ""
+#~ "<span style=\"font-size: 14px;\">\n"
+#~ "                Automated actions have been created to create activities "
+#~ "at appropriated times (an action to call the lead is created when there's "
+#~ "a new opportunity, a to-do action is generated when the opportunity is at "
+#~ "the \"needs analysis\n"
+#~ "                stage\", a reminder and activity to cancel opportunity "
+#~ "are created when the quotation is sent)\n"
+#~ "            </span>"
+#~ msgstr ""
+#~ "<span style=\"font-size: 14px;\">\n"
+#~ "                Acțiuni automate au fost create pentru a genera "
+#~ "activități la momente potrivite (o acțiune de apelare a potențialului "
+#~ "client este creată când există o nouă oportunitate, o activitate de tip "
+#~ "to-do este generată când oportunitatea este în etapa \"analiză "
+#~ "necesități\", un reminder și o activitate de anulare a oportunității sunt "
+#~ "create când oferta este trimisă)\n"
+#~ "            </span>"
+
+#~ msgid ""
+#~ "<span style=\"font-size: 14px;\">\n"
+#~ "                From the opportunity, a quote can simply be created using "
+#~ "the \"create quote\" button, and using one of the pre-created quotation "
+#~ "template (services and quantities can be suited to the client's request)\n"
+#~ "            </span>"
+#~ msgstr ""
+#~ "<span style=\"font-size: 14px;\">\n"
+#~ "                Din oportunitate, o ofertă poate fi creată simplu "
+#~ "folosind butonul \"creează ofertă\" și unul dintre șabloanele de ofertă "
+#~ "predefinite (serviciile și cantitățile pot fi adaptate cererii "
+#~ "clientului)\n"
+#~ "            </span>"
+
+#~ msgid ""
+#~ "<span style=\"font-size: 14px;\">A set of architectural services have "
+#~ "already been created and can be edited to match the architects' services."
+#~ "</span>"
+#~ msgstr ""
+#~ "<span style=\"font-size: 14px;\">Un set de servicii de arhitectură a fost "
+#~ "deja creat și poate fi editat pentru a corespunde serviciilor "
+#~ "arhitecților.</span>"
+
+#~ msgid ""
+#~ "<span style=\"font-size: 14px;\">Leads get created in the CRM by filling "
+#~ "the \"Contact us\" form of the website or manually by the salesperson.</"
+#~ "span>"
+#~ msgstr ""
+#~ "<span style=\"font-size: 14px;\">Potențialii clienți sunt creați în CRM "
+#~ "prin completarea formularului \"Contactați-ne\" de pe site sau manual de "
+#~ "către agentul de vânzări.</span>"
+
+#~ msgid ""
+#~ "<span style=\"font-size: 14px;\">Thanks to the services configuration, a "
+#~ "project gets created automatically once the quote is confirmed by the "
+#~ "customer. A set of tasks are created in this project, based on the sale "
+#~ "order lines.</span>"
+#~ msgstr ""
+#~ "<span style=\"font-size: 14px;\">Datorită configurării serviciilor, un "
+#~ "proiect este creat automat odată ce oferta este confirmată de client. Un "
+#~ "set de sarcini sunt create în acest proiect, pe baza liniilor de comandă "
+#~ "de vânzare.</span>"
+
+#~ msgid ""
+#~ "<span style=\"font-size: 14px;\">There is also a map view for the "
+#~ "projects (projects are assigned a partner based on the projects location, "
+#~ "either with the address or with the geolocation if there's no assigned "
+#~ "address yet)</span>"
+#~ msgstr ""
+#~ "<span style=\"font-size: 14px;\">Există și o vizualizare pe hartă pentru "
+#~ "proiecte (proiectelor li se asociază un partener pe baza locației "
+#~ "proiectului, fie cu adresa, fie cu geolocalizarea dacă nu există încă o "
+#~ "adresă asociată)</span>"
+
+#~ msgid ""
+#~ "<span style=\"width: 40px;\" class=\"oe-tabs\"> </span>​\n"
+#~ "            <span style=\"font-size: 14px;\">\n"
+#~ "                Set a cost on each employee and use the Expense "
+#~ "application to record project expenses. It's not just about labor and "
+#~ "materials, but also about tracking the costs of those undercover "
+#~ "subcontractors and any other project-related\n"
+#~ "                expenses. Open up the profitability report for your "
+#~ "project, and there you'll see budgeted costs, actual costs, revenues, and "
+#~ "profit margins. This will help you to figure out how to boost your "
+#~ "profit.\n"
+#~ "            </span>\n"
+#~ "            <br/>"
+#~ msgstr ""
+#~ "<span style=\"width: 40px;\" class=\"oe-tabs\"> </span>​\n"
+#~ "            <span style=\"font-size: 14px;\">\n"
+#~ "                Stabilește un cost pentru fiecare angajat și folosește "
+#~ "aplicația Cheltuieli pentru a înregistra cheltuielile proiectului. Nu "
+#~ "este vorba doar despre muncă și materiale, ci și despre urmărirea "
+#~ "costurilor subcontractorilor ascunși și a oricăror alte cheltuieli legate "
+#~ "de proiect. Deschide raportul de profitabilitate pentru proiectul tău și "
+#~ "vei vedea costurile bugetate, costurile reale, veniturile și marjele de "
+#~ "profit. Acest lucru te va ajuta să îți crești profitul.\n"
+#~ "            </span>\n"
+#~ "            <br/>"
+
+#~ msgid ""
+#~ "<span style=\"width: 40px;\" class=\"oe-tabs\"> </span>​\n"
+#~ "            <span style=\"font-size: 14px;\">\n"
+#~ "                Use the documents app to store and share all project "
+#~ "documents. Sub-workspaces get created for each project, <span "
+#~ "style=\"width: 40px;\" class=\"oe-tabs\"> </span>​and link to these sub-"
+#~ "workspace can be shared with customers so\n"
+#~ "                that they have a direct access to all produced <span "
+#~ "style=\"width: 40px;\" class=\"oe-tabs\"> </span>​documents.\n"
+#~ "            </span>"
+#~ msgstr ""
+#~ "<span style=\"width: 40px;\" class=\"oe-tabs\"> \n"
+#~ "</span>​ <span style=\"font-size: 14px;\">\n"
+#~ "Utilizați aplicația pentru documente pentru a stoca și partaja toate "
+#~ "documentele proiectului. Pentru fiecare proiect se creează sub-spații de "
+#~ "lucru, <span style=\"width: 40px;\" class=\"oe-tabs\"> </span>iar link-"
+#~ "urile către aceste sub-spații de lucru pot fi partajate cu clienții, "
+#~ "astfel încât\n"
+#~ "aceștia să aibă acces direct la toate documentele produse <span "
+#~ "style=\"width: 40px;\" class=\"oe-tabs\"> </span>.\n"
+#~ "           </span>"
+
+#~ msgid "<span style=\"width: 40px;\" class=\"oe-tabs\"> </span>​<br/>"
+#~ msgstr "<span style=\"width: 40px;\" class=\"oe-tabs\"> </span>​<br/>"
+
+#~ msgid ""
+#~ "<span style=\"width: 40px;\" class=\"oe-tabs\"> </span>​Follow project "
+#~ "profitability"
+#~ msgstr ""
+#~ "<span style=\"width: 40px;\" class=\"oe-tabs\"> </span>​Urmărește "
+#~ "profitabilitatea proiectului"
+
+#~ msgid ""
+#~ "<span style=\"width: 40px;\" class=\"oe-tabs\"> </span>​Manage documents"
+#~ msgstr ""
+#~ "<span style=\"width: 40px;\" class=\"oe-tabs\"> </span>​Gestionează "
+#~ "documente"
+
+#~ msgid "Architect industry"
+#~ msgstr "Industria arhitecților"
+
+#~ msgid "​Follow project profitability"
+#~ msgstr "​Urmărește profitabilitatea proiectului"
+
+#~ msgid "​Manage documents"
+#~ msgstr "​Gestionează documente"

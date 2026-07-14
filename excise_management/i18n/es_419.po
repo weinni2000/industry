@@ -3,13 +3,14 @@
 # * excise_management
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# "Fernanda Alvarez (mfar)" <mfar@odoo.com>, 2025.
+# "Fernanda Alvarez (mfar)" <mfar@odoo.com>, 2025, 2026.
+# "Patricia Gutiérrez (pagc)" <pagc@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-28 12:27+0000\n"
-"PO-Revision-Date: 2025-10-30 17:24+0000\n"
+"POT-Creation-Date: 2026-03-17 19:06+0000\n"
+"PO-Revision-Date: 2026-02-20 06:59+0000\n"
 "Last-Translator: \"Fernanda Alvarez (mfar)\" <mfar@odoo.com>\n"
 "Language-Team: Spanish (Latin America) <https://translate.odoo.com/projects/"
 "odoo-19/excise_management/es_419/>\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: excise_management
 #: model_terms:ir.ui.view,arch_db:excise_management.report_invoice_document_inherit_custom
@@ -29,17 +30,17 @@ msgstr "<span>Precio unitario sin impuestos especiales</span>"
 #. module: excise_management
 #: model_terms:ir.ui.view,arch_db:excise_management.report_invoice_document_inherit_custom
 #: model_terms:ir.ui.view,arch_db:excise_management.report_saleorder_custom_inherit
-msgid "<span>Total Deposits</span>"
-msgstr "<span>Depósitos totales</span>"
-
-#. module: excise_management
-#: model_terms:ir.ui.view,arch_db:excise_management.report_invoice_document_inherit_custom
-#: model_terms:ir.ui.view,arch_db:excise_management.report_saleorder_custom_inherit
 msgid "<span>Total Excises</span>"
 msgstr "<span>Total de impuestos especiales</span>"
 
 #. module: excise_management
+#: model_terms:ir.ui.view,arch_db:excise_management.report_invoice_document_inherit_custom
+msgid "<strong>External IDs</strong>"
+msgstr "<strong>ID externos</strong>"
+
+#. module: excise_management
 #: model:ir.model.fields,field_description:excise_management.active_excise_category
+#: model:ir.model.fields,field_description:excise_management.excise_license_active
 msgid "Active"
 msgstr "Activo"
 
@@ -64,6 +65,16 @@ msgid "Add/Remove excise tax on Product"
 msgstr "Agregar o eliminar impuesto indirecto en el producto"
 
 #. module: excise_management
+#: model:ir.model.fields,field_description:excise_management.stock_move_color
+msgid "Color"
+msgstr "Color"
+
+#. module: excise_management
+#: model:ir.actions.server,name:excise_management.ir_action_compute_excise_report_line
+msgid "Compute excise report line"
+msgstr "Calcular línea de reporte del impuesto indirecto"
+
+#. module: excise_management
 #: model:base.automation,name:excise_management.create_excise_tax
 msgid "Create Excise Taxes"
 msgstr "Crear impuestos indirectos"
@@ -74,20 +85,16 @@ msgid "Create excise tax"
 msgstr "Crear impuesto indirecto"
 
 #. module: excise_management
+#: model:ir.model.fields,field_description:excise_management.currency_id_excise_category
+#: model:ir.model.fields,field_description:excise_management.excise_report_line_currency_id
 #: model:ir.model.fields,field_description:excise_management.stock_move_currency
 msgid "Currency"
 msgstr "Moneda"
 
 #. module: excise_management
 #: model:ir.model.fields,field_description:excise_management.product_template_currency_symbol
-msgid "Currency symbol"
+msgid "Currency Symbol"
 msgstr "Símbolo de moneda"
-
-#. module: excise_management
-#: model:ir.model.fields,field_description:excise_management.account_move_line_total_deposits_field
-#: model:ir.model.fields,field_description:excise_management.sale_order_line_total_deposits_field
-msgid "Deposits"
-msgstr "Depósitos"
 
 #. module: excise_management
 #: model:ir.model.fields,field_description:excise_management.description_excise_category
@@ -95,19 +102,52 @@ msgid "Description"
 msgstr "Descripción"
 
 #. module: excise_management
-#: model:ir.model.fields.selection,name:excise_management.stock_move_fiscal_deposit_move_selection_entry
+#: model_terms:ir.ui.view,arch_db:excise_management.res_config_settings_view_form_reporter
+msgid "Designated contact receiving weekly report activity"
+msgstr "Contacto designado que recibe reportes de actividades semanales"
+
+#. module: excise_management
+#: model_terms:ir.ui.view,arch_db:excise_management.form_view_x_excise_report
+msgid "Details"
+msgstr "Detalles"
+
+#. module: excise_management
+#: model:ir.model.fields,field_description:excise_management.document_excise_report
+msgid "Document"
+msgstr "Documento"
+
+#. module: excise_management
+#: model:ir.model.fields.selection,name:excise_management.state_excise_report_selection_done
+#: model_terms:ir.ui.view,arch_db:excise_management.search_view_x_excise_report
+msgid "Done"
+msgstr "Hecho"
+
+#. module: excise_management
+#: model_terms:ir.ui.view,arch_db:excise_management.form_view_x_excise_report
+msgid "Eg: 25W42"
+msgstr "Por ejemplo, 25W42"
+
+#. module: excise_management
+#: model:ir.model.fields.selection,name:excise_management.excise_report_line_excise_move_type_selection_entry
 msgid "Entry"
 msgstr "Asiento"
 
 #. module: excise_management
-#: model:ir.model.fields.selection,name:excise_management.stock_move_fiscal_deposit_move_selection_entry_fd
+#: model:ir.model.fields.selection,name:excise_management.excise_report_line_excise_move_type_selection_entry_fd
 msgid "Entry from FD"
 msgstr "Entrada de depósito fiscal"
 
 #. module: excise_management
-#: model:ir.ui.menu,name:excise_management.excises_menu_section
+#: model:ir.ui.menu,name:excise_management.menu_excise_in_config_stock
 msgid "Excise"
 msgstr "Impuesto indirecto"
+
+#. module: excise_management
+#: model:ir.model.fields,field_description:excise_management.excise_report_line_excise_amount
+#: model:ir.model.fields,field_description:excise_management.product_template_excise_amount
+#: model:ir.model.fields,field_description:excise_management.stock_move_excise_amount
+msgid "Excise Amount"
+msgstr "Monto de impuesto indirecto"
 
 #. module: excise_management
 #: model:ir.ui.menu,name:excise_management.excises_categories
@@ -117,6 +157,9 @@ msgstr "Categorías de impuestos indirectos"
 #. module: excise_management
 #: model:ir.actions.act_window,name:excise_management.excise_category_act_window
 #: model:ir.model,name:excise_management.excise_category
+#: model:ir.model.fields,field_description:excise_management.excise_report_line_excise_category
+#: model:ir.model.fields,field_description:excise_management.product_template_excise_category
+#: model:ir.model.fields,field_description:excise_management.stock_move_excise_category
 msgid "Excise Category"
 msgstr "Categoría de impuesto indirecto"
 
@@ -127,9 +170,45 @@ msgid "Excise Free Unit Price"
 msgstr "Precio unitario sin impuestos especiales"
 
 #. module: excise_management
+#: model:ir.model,name:excise_management.excise_license
+#: model:ir.model.fields,field_description:excise_management.excise_license_id_excise_report
+#: model:ir.model.fields,field_description:excise_management.stock_warehouse_excise_license
+msgid "Excise License"
+msgstr "Licencia de impuesto especial"
+
+#. module: excise_management
+#: model:ir.actions.act_window,name:excise_management.excise_license_act_window
+#: model:ir.ui.menu,name:excise_management.excises_license
+msgid "Excise Licenses"
+msgstr "Licencias de impuesto especial"
+
+#. module: excise_management
 #: model:ir.model.fields,field_description:excise_management.purchase_tax_excise_category
 msgid "Excise Purchase Tax"
 msgstr "Impuesto indirecto de compra"
+
+#. module: excise_management
+#: model:ir.model.fields,field_description:excise_management.product_template_excise_quantity
+#: model:ir.model.fields,field_description:excise_management.stock_move_excise_quantity
+msgid "Excise Quantity"
+msgstr "Cantidad de impuesto especial"
+
+#. module: excise_management
+#: model:ir.model,name:excise_management.excise_report
+#: model_terms:ir.ui.view,arch_db:excise_management.form_view_x_excise_report
+msgid "Excise Report"
+msgstr "Reporte de impuestos especiales"
+
+#. module: excise_management
+#: model:ir.model,name:excise_management.excise_report_line
+msgid "Excise Report Line"
+msgstr "Línea de reporte del impuesto indirecto"
+
+#. module: excise_management
+#: model:ir.actions.act_window,name:excise_management.excise_report_act_window
+#: model:ir.ui.menu,name:excise_management.inventory_excises_report_1
+msgid "Excise Reports"
+msgstr "Reportes sobre impuestos indirectos"
 
 #. module: excise_management
 #: model:ir.model.fields,field_description:excise_management.sales_tax_excise_category
@@ -142,27 +221,19 @@ msgid "Excise Unit"
 msgstr "Unidad de impuesto indirecto"
 
 #. module: excise_management
-#: model:ir.model.fields,field_description:excise_management.product_template_excise_amount
-#: model:ir.model.fields,field_description:excise_management.stock_move_excise_amount
-msgid "Excise amount"
-msgstr "Monto de impuesto indirecto"
-
-#. module: excise_management
-#: model:ir.model.fields,field_description:excise_management.product_template_excise_category
-#: model:ir.model.fields,field_description:excise_management.stock_move_excise_category
-msgid "Excise category"
-msgstr "Categoría de impuesto indirecto"
-
-#. module: excise_management
 #: model:ir.model.fields,field_description:excise_management.product_template_excise_description
 msgid "Excise description"
 msgstr "Descripción de impuesto indirecto"
 
 #. module: excise_management
-#: model:ir.model.fields,field_description:excise_management.product_template_excise_quantity
-#: model:ir.model.fields,field_description:excise_management.stock_move_excise_quantity
-msgid "Excise quantity"
-msgstr "Cantidad de impuesto indirecto"
+#: model:ir.model.fields,field_description:excise_management.product_template_x_excise_packaging_tax
+msgid "Excise packaging tax"
+msgstr "Impuesto indirecto de embalaje"
+
+#. module: excise_management
+#: model:ir.model.fields,field_description:excise_management.excise_report_line_excise_report
+msgid "Excise report ID"
+msgstr "ID del reporte de impuestos indirectos"
 
 #. module: excise_management
 #: model:ir.model.fields,field_description:excise_management.product_template_uom
@@ -171,39 +242,54 @@ msgstr "Unidad de impuesto indirecto"
 
 #. module: excise_management
 #: model:account.tax.group,name:excise_management.excises_tax_group
-#: model:ir.actions.act_window,name:excise_management.excises_done_act_window
 #: model:ir.model.fields,field_description:excise_management.account_move_line_total_excise_field
 #: model:ir.model.fields,field_description:excise_management.sale_order_line_total_excises_field
-#: model:ir.ui.menu,name:excise_management.inventory_excises_report
 #: model_terms:ir.ui.view,arch_db:excise_management.product_template_view_form
+#: model_terms:ir.ui.view,arch_db:excise_management.res_config_settings_view_form_reporter
+#: model_terms:ir.ui.view,arch_db:excise_management.view_picking_form
 msgid "Excises"
 msgstr "Impuestos sobre el consumo"
 
 #. module: excise_management
-#: model_terms:ir.ui.view,arch_db:excise_management.stock_move_view_pivot
-msgid "Excises Analysis"
-msgstr "Análisis de impuesto indirecto"
-
-#. module: excise_management
-#: model:ir.model.fields.selection,name:excise_management.stock_move_fiscal_deposit_move_selection_entry_exit
+#: model:ir.model.fields.selection,name:excise_management.excise_report_line_excise_move_type_selection_entry_exit
 msgid "Exit"
 msgstr "Salida"
 
 #. module: excise_management
-#: model:ir.model.fields.selection,name:excise_management.stock_move_fiscal_deposit_move_selection_exit_fd
+#: model:ir.model.fields.selection,name:excise_management.excise_report_line_excise_move_type_selection_exit_fd
 msgid "Exit to FD"
 msgstr "Salida a depósito fiscal"
 
 #. module: excise_management
-#: model:ir.model.fields,field_description:excise_management.stock_move_fiscal_deposit_move
-msgid "Fiscal deposit move"
-msgstr "Movimiento de depósito fiscal"
+#: model:ir.model.fields,field_description:excise_management.external_id_excise_report
+#: model:ir.model.fields,field_description:excise_management.stock_picking_external_id
+msgid "External ID"
+msgstr "ID externo"
 
 #. module: excise_management
-#: model:ir.model.fields,field_description:excise_management.account_move_has_deposit_line_field
-#: model:ir.model.fields,field_description:excise_management.sale_order_has_deposit_line_field
-msgid "Has Deposit Line"
-msgstr "Tiene una línea de depósito"
+#: model:ir.model.fields,field_description:excise_management.field_account_move_external_ids_count
+msgid "External ID count"
+msgstr "Cantidad de ID externos"
+
+#. module: excise_management
+#: model:ir.model.fields,field_description:excise_management.field_account_move_x_external_ids
+msgid "External IDs"
+msgstr "ID externos"
+
+#. module: excise_management
+#: model_terms:ir.ui.view,arch_db:excise_management.account_move_form_view
+msgid "External Transfers"
+msgstr "Transferencias externas"
+
+#. module: excise_management
+#: model:ir.model.fields,field_description:excise_management.from_date_excise_report
+msgid "From Date"
+msgstr "Fecha desde"
+
+#. module: excise_management
+#: model:ir.actions.server,name:excise_management.cron_generate_excise_report_ir_actions_server
+msgid "Generate Excise Report"
+msgstr "Generar reporte de impuestos indirectos"
 
 #. module: excise_management
 #: model:ir.model.fields,field_description:excise_management.account_move_has_excise_line_field
@@ -212,10 +298,14 @@ msgid "Has Excise Line"
 msgstr "Tiene una línea de impuestos especiales"
 
 #. module: excise_management
-#: model:ir.model.fields,field_description:excise_management.account_tax_deposit_field
-#: model:ir.model.fields,field_description:excise_management.account_tax_group_is_deposit
-msgid "Is Deposit"
-msgstr "Es un depósito"
+#: model:ir.model.fields.selection,name:excise_management.state_excise_report_selection_progress
+msgid "In progress"
+msgstr "En progreso"
+
+#. module: excise_management
+#: model:ir.model.fields,field_description:excise_management.stock_picking_invoice_ids
+msgid "Invoice IDs"
+msgstr "ID de factura"
 
 #. module: excise_management
 #: model:ir.model.fields,field_description:excise_management.account_tax_group_is_excise
@@ -230,12 +320,35 @@ msgid "Is Fiscal Deposit"
 msgstr "Es depósito fiscal"
 
 #. module: excise_management
+#: model:ir.model.fields,field_description:excise_management.details_computation_excise_report
+msgid "Line Computation"
+msgstr "Cálculo de la línea"
+
+#. module: excise_management
+#: model:ir.model.fields,field_description:excise_management.excise_report_excise_report_line
+msgid "Lines IDs"
+msgstr "ID de las líneas"
+
+#. module: excise_management
+#: model:ir.model.fields,field_description:excise_management.excise_report_line_move_ids
+msgid "Move IDs"
+msgstr "ID de movimientos"
+
+#. module: excise_management
+#: model:ir.model.fields,field_description:excise_management.excise_report_line_excise_move_type
+msgid "Move Type"
+msgstr "Tipo de movimiento"
+
+#. module: excise_management
+#: model_terms:ir.ui.view,arch_db:excise_management.form_view_x_excise_report
 #: model_terms:ir.ui.view,arch_db:excise_management.stock_move_view_list
 msgid "Moves"
 msgstr "Movimientos"
 
 #. module: excise_management
+#: model:ir.model.fields,field_description:excise_management.excise_license_name
 #: model:ir.model.fields,field_description:excise_management.name_excise_category
+#: model:ir.model.fields,field_description:excise_management.name_excise_report
 msgid "Name"
 msgstr "Nombre"
 
@@ -246,9 +359,82 @@ msgid "No Excises"
 msgstr "Sin impuestos especiales"
 
 #. module: excise_management
-#: model:ir.model.fields.selection,name:excise_management.stock_move_fiscal_deposit_move_selection_none
+#: model:ir.model.fields.selection,name:excise_management.excise_report_line_excise_move_type_selection_none
 msgid "None"
 msgstr "Ninguno"
+
+#. module: excise_management
+#: model:ir.actions.server,name:excise_management.action_excise_report_stock_moves
+msgid "Open stock moves from Excise Report"
+msgstr ""
+"Abre los movimientos de existencias desde el reporte de impuesto especial"
+
+#. module: excise_management
+#: model:ir.actions.server,name:excise_management.action_excise_report_line_stock_moves
+msgid "Open stock moves from Excise Report Line"
+msgstr ""
+"Abre los movimientos de existencias desde la línea del reporte de impuesto "
+"especial"
+
+#. module: excise_management
+#: model:ir.model.fields,field_description:excise_management.excise_report_line_excise_packaging_amount
+#: model:ir.model.fields,field_description:excise_management.stock_move_excise_packaging_amount
+msgid "Packaging Amount"
+msgstr "Cantidad de embalaje"
+
+#. module: excise_management
+#: model:ir.model.fields,field_description:excise_management.excise_report_line_excise_packaging_units
+#: model:ir.model.fields,field_description:excise_management.stock_move_excise_packaging_units
+msgid "Packaging Units"
+msgstr "Unidades de embalaje"
+
+#. module: excise_management
+#: model:ir.model.fields,field_description:excise_management.packaging_tax_excise_category
+msgid "Packaging tax"
+msgstr "Impuestos de embalaje"
+
+#. module: excise_management
+#: model:ir.model.fields,help:excise_management.packaging_tax_excise_category
+msgid "Packaging tax per product packaging units for reporting purpose."
+msgstr ""
+"El impuesto sobre el embalaje por unidades de embalaje del producto para "
+"fines de reportes."
+
+#. module: excise_management
+#: model:ir.model.fields,field_description:excise_management.product_template_excise_packaging_units
+msgid "Packaging units"
+msgstr "Unidades de embalaje"
+
+#. module: excise_management
+#: model_terms:ir.ui.view,arch_db:excise_management.form_view_x_excise_report
+msgid "Period"
+msgstr "Periodo"
+
+#. module: excise_management
+#: model:ir.model.fields,field_description:excise_management.field_account_move_picking_ids
+msgid "Picking IDs"
+msgstr "ID de recolección"
+
+#. module: excise_management
+#: model:ir.actions.act_window,name:excise_management.action_account_move_pickings
+msgid "Pickings"
+msgstr "Recolecciones"
+
+#. module: excise_management
+#: model:ir.model.fields,field_description:excise_management.excise_report_line_excise_quantity
+msgid "Quantity"
+msgstr "Cantidad"
+
+#. module: excise_management
+#: model:ir.model.fields,field_description:excise_management.res_company_reporter
+#: model:ir.model.fields,field_description:excise_management.res_config_reporter
+msgid "Reporter"
+msgstr "Persona que reporta"
+
+#. module: excise_management
+#: model:ir.model.fields,field_description:excise_management.reporter_id_excise_report
+msgid "Reporter ID"
+msgstr "ID de la persona que reporta"
 
 #. module: excise_management
 #: model_terms:ir.ui.view,arch_db:excise_management.x_excise_category_view_list
@@ -282,16 +468,37 @@ msgstr "Secuencia"
 
 #. module: excise_management
 #: model:base.automation,name:excise_management.base_automation_8
-#: model:ir.actions.server,name:excise_management.resequence_the_order_of_taxes
-msgid "Sequence the taxes"
-msgstr "Secuencia los impuestos"
+msgid "Sequence the Excise taxes"
+msgstr "Secuencia de impuestos indirectos"
 
 #. module: excise_management
-#: model:ir.model.fields.selection,name:excise_management.stock_move_fiscal_deposit_move_selection_transfer
+#: model:ir.actions.server,name:excise_management.resequence_the_order_of_taxes
+msgid "Sequence the excise taxes"
+msgstr "Secuencia de impuestos indirectos"
+
+#. module: excise_management
+#: model:ir.model.fields,field_description:excise_management.state_excise_report
+#: model_terms:ir.ui.view,arch_db:excise_management.search_view_x_excise_report
+msgid "State"
+msgstr "Estado"
+
+#. module: excise_management
+#: model:ir.model.fields,field_description:excise_management.to_date_excise_report
+msgid "To Date"
+msgstr "Fecha hasta"
+
+#. module: excise_management
+#: model_terms:ir.ui.view,arch_db:excise_management.search_view_x_excise_report
+msgid "To do"
+msgstr "Actividades pendientes"
+
+#. module: excise_management
+#: model:ir.model.fields.selection,name:excise_management.excise_report_line_excise_move_type_selection_transfer
 msgid "Transfer"
 msgstr "Transferir"
 
 #. module: excise_management
+#: model:ir.model.fields,field_description:excise_management.excise_report_line_excise_unit
 #: model:ir.model.fields,field_description:excise_management.unit_excise_category
 msgid "Unit"
 msgstr "Unidad"
@@ -312,6 +519,50 @@ msgid "W101"
 msgstr "W101"
 
 #. module: excise_management
+#: model:ir.model.fields,field_description:excise_management.excise_license_warehouse_ids
+msgid "Warehouses"
+msgstr "Almacenes"
+
+#. module: excise_management
 #: model:uom.uom,name:excise_management.uom_hl
 msgid "hL"
 msgstr "hL"
+
+#~ msgid "Excises Analysis"
+#~ msgstr "Análisis de impuesto indirecto"
+
+#~ msgid "Fiscal deposit move"
+#~ msgstr "Movimiento de depósito fiscal"
+
+#~ msgid "Open stock moves"
+#~ msgstr "Movimientos de existencias abiertos"
+
+#~ msgid "Amount"
+#~ msgstr "Cantidad"
+
+#~ msgid "<span>Total Deposits</span>"
+#~ msgstr "<span>Depósitos totales</span>"
+
+#~ msgid "Currency symbol"
+#~ msgstr "Símbolo de moneda"
+
+#~ msgid "Deposits"
+#~ msgstr "Depósitos"
+
+#~ msgid "Excise amount"
+#~ msgstr "Monto de impuesto indirecto"
+
+#~ msgid "Excise category"
+#~ msgstr "Categoría de impuesto indirecto"
+
+#~ msgid "Excise quantity"
+#~ msgstr "Cantidad de impuesto indirecto"
+
+#~ msgid "Has Deposit Line"
+#~ msgstr "Tiene una línea de depósito"
+
+#~ msgid "Is Deposit"
+#~ msgstr "Es un depósito"
+
+#~ msgid "Sequence the taxes"
+#~ msgstr "Secuencia los impuestos"

@@ -7,14 +7,14 @@
 # Junko Augias, 2024
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# "Junko Augias (juau)" <juau@odoo.com>, 2025.
-# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# "Junko Augias (juau)" <juau@odoo.com>, 2025, 2026.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 12:53+0000\n"
-"PO-Revision-Date: 2025-11-12 13:39+0000\n"
+"POT-Creation-Date: 2026-04-03 19:33+0000\n"
+"PO-Revision-Date: 2026-06-13 10:10+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-19/"
 "industry_restaurant/ja/>\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.website_page_menu
@@ -127,8 +127,9 @@ msgstr "お気軽に"
 msgid ""
 "1. First, create all your employees in the database. Navigate to the "
 "<strong>Employees App </strong>to do so."
-msgstr "1. まず、すべての従業員をデータベースに作成します。そのために "
-"<strong>従業員アプリ</strong>に移動してください。"
+msgstr ""
+"1. まず、すべての従業員をデータベースに作成します。そのために <strong>従業員"
+"アプリ</strong>に移動してください。"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -138,9 +139,9 @@ msgid ""
 "and their Hourly Cost in the Settings tab for your profitability "
 "computations."
 msgstr ""
-"1. <strong>従業員アプリ</strong>から "
-"新しい従業員を作成し、「勤務情報」タブで役割を割り当ててシフトを自動的に計画"
-"できるようにし、「設定」タブで時間単価を設定して収益性の計算に使用します。"
+"1. <strong>従業員アプリ</strong>から 新しい従業員を作成し、「勤務情報」タブで"
+"役割を割り当ててシフトを自動的に計画できるようにし、「設定」タブで時間単価を"
+"設定して収益性の計算に使用します。"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -161,17 +162,19 @@ msgstr ""
 msgid ""
 "1. Open the Attendances App &gt; Settings and copy the kiosk Url available "
 "in the Kiosk Settings."
-msgstr "1. 勤怠管理アプリ&gt; 管理設定 "
-"を開き、「キオスク設定」にあるキオスクURLをコピーします。"
+msgstr ""
+"1. 勤怠管理アプリ&gt; 管理設定 を開き、「キオスク設定」にあるキオスクURLをコ"
+"ピーします。"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
+#, fuzzy
 msgid ""
-"2. Create your employees' roles under the \"Work Information\" tab. Some are "
-"already created for this demo."
+"2. Create your employees' roles under the \"Settings\" tab. Some are already "
+"created for this demo."
 msgstr ""
-"2. \"勤務情報\" タブで従業員の役割を作成します。このデモ用に既に作成されてい"
-"るものもあります。"
+"2. 「管理設定」タブで従業員の役割を作成してください。このデモ用に、すでにいく"
+"つか作成されています。"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -180,18 +183,17 @@ msgid ""
 "Settings, assign the appropriate rights to those new employees in the POS "
 "interface section."
 msgstr ""
-"2. <strong> POSアプリ </strong>&gt; 設定 &gt; "
-"管理設定から、POSインターフェースセクションで、それらの新しい従業員に適切な権"
-"限を割り当ててください。"
+"2. <strong> POSアプリ </strong>&gt; 設定 &gt; 管理設定から、POSインターフェー"
+"スセクションで、それらの新しい従業員に適切な権限を割り当ててください。"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
 msgid ""
 "2. Open the Kiosk Url in another device so that every employee has access to "
 "it."
-msgstr "2. "
-"すべての従業員がアクセスできるように、別のデバイスでキオスクURLを開いてくださ"
-"い。"
+msgstr ""
+"2. すべての従業員がアクセスできるように、別のデバイスでキオスクURLを開いてく"
+"ださい。"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -314,6 +316,88 @@ msgstr ""
 "界へと誘います。"
 
 #. module: industry_restaurant
+#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
+#, fuzzy
+msgid ""
+"<font class=\"text-o-color-1\"><b>Appointments App</b>: </font>Allow "
+"customers to book tables online 24/7, reducing phone calls and optimizing "
+"your seating capacity."
+msgstr ""
+"<font class=\"text-o-color-1\"><b>アポイントメントアプリ</b>: </font>24時間対"
+"応のオンライン予約で、電話対応を削減し、座席稼働率を最大化します。"
+
+#. module: industry_restaurant
+#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
+#, fuzzy
+msgid ""
+"<font class=\"text-o-color-1\"><b>Inventory App</b>: </font>Track "
+"ingredients and recipes in real-time, using \"Bill of Materials\" (BoM) to "
+"deduct stock automatically as dishes are sold."
+msgstr ""
+"<font class=\"text-o-color-1\"><b>在庫アプリ</b>: </font>「部品表」(BoM)を活"
+"用して、料理の販売に応じて在庫を自動的に差し引きながら、食材やレシピを"
+"リアルタイムで管理します。"
+
+#. module: industry_restaurant
+#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
+#, fuzzy
+msgid ""
+"<font class=\"text-o-color-1\"><b>Kitchen Display / Printers</b>:</font> "
+"Send orders instantly to the kitchen or bar with specific printing "
+"instructions for different stations (e.g., \"Cold Station\", \"Grill\")."
+msgstr ""
+"<font class=\"text-o-color-1\"><b>キッチンディスプレイ / プリンタ</b>:</"
+"font> オーダをキッチンやバーへ即時に送信し、「コールドステーション」「グリル"
+"」など、各ステーションごとに指定した印刷指示に対応します。"
+
+#. module: industry_restaurant
+#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
+#, fuzzy
+msgid ""
+"<font class=\"text-o-color-1\"><b>Planning App</b>:</font> Organize shifts "
+"for chefs, servers, and bartenders, ensuring you are adequately staffed for "
+"peak service hours."
+msgstr ""
+"<font class=\"text-o-color-1\"><b>計画アプリ</b>:</font> シェフ、サーバー、"
+"バーテンダーのシフトを整理し、ピーク時のサービスに十分なスタッフを確保しまし"
+"ょう。"
+
+#. module: industry_restaurant
+#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
+#, fuzzy
+msgid ""
+"<font class=\"text-o-color-1\"><b>Purchase App</b>:</font> Automate the "
+"reordering of fresh produce and dry goods based on minimum stock rules and "
+"supplier lead times."
+msgstr ""
+"<font class=\"text-o-color-1\"><b>購買アプリ</b>:</font> 最小在庫ルールと仕入"
+"先のリードタイムに基づいて、生鮮食品や乾物の再発注を自動化しましょう。"
+
+#. module: industry_restaurant
+#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
+#, fuzzy
+msgid ""
+"<font class=\"text-o-color-1\"><b>Restaurant App (POS)</b>:</font> Manage "
+"your floor plan visually, handling table seating, order taking, and bill "
+"splitting directly from the interface."
+msgstr ""
+"<font class=\"text-o-color-1\"><b>レストランアプリ(POS)</b>:</font> "
+"フロアプランを視覚的に管理し、テーブルの座席配置、オーダ受付、会計分割を"
+"インターフェースから直接行えます。"
+
+#. module: industry_restaurant
+#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
+#, fuzzy
+msgid ""
+"<font class=\"text-o-color-1\"><b>Website App</b>:</font> Showcase your "
+"menu, share chef bios, and promote special events with a mouth-watering "
+"online presence."
+msgstr ""
+"<font class=\"text-o-color-1\"><b>ウェブサイトアプリ</b>:</font> 魅力的な"
+"オンラインプレゼンスで、メニューを紹介し、シェフのプロフィールを共有し、特別"
+"イベントをアピールしましょう。"
+
+#. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.homepage
 msgid "<font class=\"text-white\">Seasoned | Savory | Delicious</font>"
 msgstr "<font class=\"text-white\">味付 | 風味 | 美味しさ</font>"
@@ -349,8 +433,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">✏️</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Info\">✏️</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">✏️</i>"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -358,8 +442,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">💡</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Info\">💡</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">💡</i>"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -367,8 +451,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">🔑</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Info\">🔑</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">🔑</i>"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -376,8 +460,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">🕣</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Info\">🕣</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">🕣</i>"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -385,8 +469,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">✅</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Success\">✅</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\">✅</i>"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -394,8 +478,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">🔑</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Success\">🔑</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\">🔑</i>"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.homepage
@@ -419,11 +503,11 @@ msgid ""
 "every week, and you can personalize it with a checklist to avoid forgetting "
 "anything."
 msgstr ""
-"<strong>1. フロー1:</strong> "
-"ほとんどのプロダクトは、残量を自動計算できないため、人による確認作業が必要で"
-"す。そのようなプロダクト用に、<strong>プロジェクトアプリ</strong>で定期タスク"
-"を作成できます。このタスクは週次で表示され、チェックリストでパーソナライズで"
-"きるので、タスクのやり忘れを防ぐことができます。"
+"<strong>1. フロー1:</strong> ほとんどのプロダクトは、残量を自動計算できないた"
+"め、人による確認作業が必要です。そのようなプロダクト用に、<strong>プロジェク"
+"トアプリ</strong>で定期タスクを作成できます。このタスクは週次で表示され、"
+"チェックリストでパーソナライズできるので、タスクのやり忘れを防ぐことができま"
+"す。"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -540,8 +624,9 @@ msgstr ""
 msgid ""
 "Check our documentation to leverage UrbanPiper to connect with many channel "
 "providers."
-msgstr "多くのチャネルプロバイダーと接続するために UrbanPiper "
-"を活用する方法は、弊社のドキュメンテーションをご確認ください。"
+msgstr ""
+"多くのチャネルプロバイダーと接続するために UrbanPiper を活用する方法は、弊社"
+"のドキュメンテーションをご確認ください。"
 
 #. module: industry_restaurant
 #: model:product.template,name:industry_restaurant.product_product_56_product_template
@@ -610,17 +695,9 @@ msgstr "ファインダイニングレストラン"
 msgid ""
 "From the <strong>Point of Sale App</strong>, open your register on the main "
 "dashboard using the 3333 PIN code."
-msgstr "<strong>POSアプリ</strong>から、メインダッシュボードで3333 "
-"のPINコードを使用してレジを開いてください。"
-
-#. module: industry_restaurant
-#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
-msgid ""
-"Get visibility and share your menu with a great <font class=\"text-o-"
-"color-1\"><strong>Website</strong></font>."
 msgstr ""
-"素晴らしい<font class=\"text-o-color-1\"><strong>ウェブサイト</strong></font>"
-"で認知度を高め、メニューを共有しましょう。"
+"<strong>POSアプリ</strong>から、メインダッシュボードで3333 のPINコードを使用"
+"してレジを開いてください。"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -697,16 +774,19 @@ msgid ""
 "If you want each employee to have their own access as users, you will need "
 "to create users for them and associate them to the newly created employees "
 "from the Settings tab."
-msgstr "各従業員にユーザとして個別のアクセス権を付与したい場合は、ユーザを "
-"作成し、管理設定タブから新しく作成した従業員に関連付ける必要があります。"
+msgstr ""
+"各従業員にユーザとして個別のアクセス権を付与したい場合は、ユーザを 作成し、管"
+"理設定タブから新しく作成した従業員に関連付ける必要があります。"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
+#, fuzzy
 msgid ""
 "If you want to assign them an Odoo user account, you can select a related "
-"user in the \"hr/ Settings\" tab."
-msgstr "Odooユーザアカウントを割り当てたい場合は、「hr/ "
-"管理設定」タブで関連するユーザを選択してください。"
+"user in the same \"Settings\" tab."
+msgstr ""
+"Odooのユーザアカウントを割り当てる場合は、同じ「管理設定」タブ内で関連する"
+"ユーザを選択できます。"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -721,7 +801,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.homepage
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.website_page_menu
 msgid "Join us and make your company a better place."
-msgstr "私たちに参加して、会社をより良い場所にしていきましょう。"
+msgstr "私たちと共に、一歩進んだ企業づくりを。"
 
 #. module: industry_restaurant
 #: model:product.template,name:industry_restaurant.product_product_57_product_template
@@ -734,15 +814,6 @@ msgid "Kitchen"
 msgstr "キッチン"
 
 #. module: industry_restaurant
-#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
-msgid ""
-"Let your customer book a table anytime with the <font class=\"text-o-"
-"color-1\"><strong>Appointment App</strong></font>."
-msgstr ""
-"<font class=\"text-o-color-1\"><strong>予約アプリ</strong></font>で顧客がいつ"
-"でもテーブルを予約できるようにしましょう。"
-
-#. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.website_page_menu
 msgid "Main Course"
 msgstr "メインコース"
@@ -750,7 +821,8 @@ msgstr "メインコース"
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
 msgid "Make sure your menu is available and up to date!"
-msgstr "メニューが利用可能で、最新のものに更新されていることを確認してください。"
+msgstr ""
+"メニューが利用可能で、最新のものに更新されていることを確認してください。"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -942,23 +1014,14 @@ msgstr "タスク"
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
 msgid ""
-"The <font class=\"text-o-color-1\"><strong>Kitchen Display</strong></font> "
-"will ensure a great follow-up of every order in your bar and kitchen."
-msgstr ""
-"<font class=\"text-o-color-1\"><strong>キッチンディスプレイ</strong></font> "
-"バーやキッチンで全てのオーダを確実にフォローします。"
-
-#. module: industry_restaurant
-#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
-msgid ""
 "The Point of Sale is protected to assign different rights to employees "
 "depending on your level of trust. <br/>You can remove this PIN code "
 "requirement : Point of Sale &gt; Configuration &gt; Setting &gt; PoS "
 "Inferface unselecting the Log in with Employees setting."
 msgstr ""
-"POSは、信頼レベルに応じて従業員に異なる権限を割り当てるために保護されています"
-"。 <br/>このPINコードの要件を削除するには、POS &gt; 設定 &gt; 管理設定 &gt; "
-"POSインターフェイスに進み、従業員でログイン の設定をオフにしてください。"
+"POSは、信頼レベルに応じて従業員に異なる権限を割り当てるために保護されていま"
+"す。 <br/>このPINコードの要件を削除するには、POS &gt; 設定 &gt; 管理設定 "
+"&gt; POSインターフェイスに進み、従業員でログイン の設定をオフにしてください。"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -993,53 +1056,6 @@ msgid "To Do"
 msgstr "未処理"
 
 #. module: industry_restaurant
-#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
-msgid ""
-"Use the <font class=\"text-o-color-1\"><strong>Inventory App</strong></font> "
-"to manage your stock and receive products."
-msgstr ""
-"<font class=\"text-o-color-1\"><strong>在庫アプリ</strong></font> を使って在"
-"庫とプロダクトの入荷を管理しましょう。"
-
-#. module: industry_restaurant
-#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
-msgid ""
-"Use the <font class=\"text-o-color-1\"><strong>Planning App</strong></font> "
-"to schedule and share your shifts with your employees."
-msgstr ""
-"<font class=\"text-o-color-1\"><strong>計画アプリ</strong></font> を使ってシ"
-"フトを組み、従業員と共有しましょう。"
-
-#. module: industry_restaurant
-#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
-msgid ""
-"Use the <font class=\"text-o-color-1\"><strong>Point of Sale</strong></font> "
-"at the desk for your sales. You can also download the Odoo Mobile App on any "
-"phone to take orders."
-msgstr ""
-"販売には、デスクから <font class=\"text-o-color-1\"><strong>POS</strong></"
-"font>をご利用下さい。また、Odooモバイルアプリをダウンロードしてあらゆる電話か"
-"らオーダを取ることができます。"
-
-#. module: industry_restaurant
-#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
-msgid ""
-"Use the <font class=\"text-o-color-1\"><strong>Project App</strong></font> "
-"to never miss a reordering or a cleaning task."
-msgstr ""
-"<font class=\"text-o-color-1\"><strong>プロジェクトアプリ</strong></font> を"
-"利用すれば再オーダや清掃タスクを見逃しません。"
-
-#. module: industry_restaurant
-#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
-msgid ""
-"Use the <font class=\"text-o-color-1\"><strong>Purchase App</strong></font> "
-"to reorder your products."
-msgstr ""
-"<font class=\"text-o-color-1\"><strong>購買アプリ</strong></font> を使用して"
-"プロダクトを再オーダしましょう。"
-
-#. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.website_page_menu
 msgid "Vegetable Salad, Beef Burger and Mango Ice Cream"
 msgstr "ベジタブルサラダ、ビーフバーガー、マンゴアイスクリーム"
@@ -1049,7 +1065,8 @@ msgstr "ベジタブルサラダ、ビーフバーガー、マンゴアイスク
 msgid ""
 "When editing your Point of Sale plan, if adding tables, make sure the book-"
 "able tables are listed in the resources of your appointment."
-msgstr "POSのフロアプランを編集する際にテーブルを追加する場合は、予約可能なテーブルが"
+msgstr ""
+"POSのフロアプランを編集する際にテーブルを追加する場合は、予約可能なテーブルが"
 "予約のリソースにリストされていることを確認してください。"
 
 #. module: industry_restaurant
@@ -1057,8 +1074,9 @@ msgstr "POSのフロアプランを編集する際にテーブルを追加する
 msgid ""
 "Willing your employees to clock in and out? The <strong>Attendances App </"
 "strong>enables you to follow up on this."
-msgstr "従業員に出勤・退勤の打刻をしてもらいたいですか?<strong>勤怠管理アプリ</strong"
-">を使えば、その管理・追跡が可能です。"
+msgstr ""
+"従業員に出勤・退勤の打刻をしてもらいたいですか?<strong>勤怠管理アプリ</"
+"strong>を使えば、その管理・追跡が可能です。"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -1070,8 +1088,9 @@ msgstr "Odooのセットアップについてご相談、またはそれ以上�
 msgid ""
 "You can access all products and their reordering rules from the Inventory "
 "&gt; Operations &gt; Replenishment"
-msgstr "在庫 &gt; オペレーション &gt; "
-"補充から、すべてのプロダクトとその再オーダ規則にアクセスできます。"
+msgstr ""
+"在庫 &gt; オペレーション &gt; 補充から、すべてのプロダクトとその再オーダ規則"
+"にアクセスできます。"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -1123,8 +1142,8 @@ msgid ""
 "and check the Employee PIN identification."
 msgstr ""
 "従業員のPINコードを使用して、出勤および退勤の打刻を保護することができます。こ"
-"れを行うには、勤怠 &gt; 設定 &gt; 管理設定 &gt; "
-"キオスクに移動し、「従業員PIN識別」をチェックします。"
+"れを行うには、勤怠 &gt; 設定 &gt; 管理設定 &gt; キオスクに移動し、「従業員PIN"
+"識別」をチェックします。"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -1188,9 +1207,9 @@ msgid ""
 "purpose, Odoo comes with an integration of <strong>UrbanPiper</strong> with "
 "the <strong>Point of Sales App</strong>."
 msgstr ""
-"店舗で料理のデリバリーサービスを提供している場合、Odooでは、<strong>UrbanPipe"
-"r</strong>と<strong>POSアプリ</strong>の統合機能を利用することで対応できます"
-"。"
+"店舗で料理のデリバリーサービスを提供している場合、Odooでは、"
+"<strong>UrbanPiper</strong>と<strong>POSアプリ</strong>の統合機能を利用するこ"
+"とで対応できます。"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -1208,9 +1227,9 @@ msgid ""
 "App</strong> to discover a sample website and explore millions of "
 "possibilities by clicking on the \"Edit\" button."
 msgstr ""
-"ウェブサイト管理がこれまでになく簡単になりました。<strong>ウェブサイトアプリ<"
-"/strong> にアクセスしてサンプルウェブサイトを見つけ、 "
-"「編集」ボタンをクリックして、無限の可能性をお試し下さい。"
+"ウェブサイト管理がこれまでになく簡単になりました。<strong>ウェブサイトアプリ"
+"</strong> にアクセスしてサンプルウェブサイトを見つけ、 「編集」ボタンをクリッ"
+"クして、無限の可能性をお試し下さい。"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -1273,6 +1292,72 @@ msgid "🎓 Website"
 msgstr "🎓 ウェブサイト"
 
 #~ msgid ""
+#~ "If you want to assign them an Odoo user account, you can select a related "
+#~ "user in the \"hr/ Settings\" tab."
+#~ msgstr ""
+#~ "Odooユーザアカウントを割り当てたい場合は、「hr/ 管理設定」タブで関連する"
+#~ "ユーザを選択してください。"
+
+#~ msgid ""
+#~ "Get visibility and share your menu with a great <font class=\"text-o-"
+#~ "color-1\"><strong>Website</strong></font>."
+#~ msgstr ""
+#~ "素晴らしい<font class=\"text-o-color-1\"><strong>ウェブサイト</strong></"
+#~ "font>で認知度を高め、メニューを共有しましょう。"
+
+#~ msgid ""
+#~ "Let your customer book a table anytime with the <font class=\"text-o-"
+#~ "color-1\"><strong>Appointment App</strong></font>."
+#~ msgstr ""
+#~ "<font class=\"text-o-color-1\"><strong>予約アプリ</strong></font>で顧客が"
+#~ "いつでもテーブルを予約できるようにしましょう。"
+
+#~ msgid ""
+#~ "The <font class=\"text-o-color-1\"><strong>Kitchen Display</strong></"
+#~ "font> will ensure a great follow-up of every order in your bar and "
+#~ "kitchen."
+#~ msgstr ""
+#~ "<font class=\"text-o-color-1\"><strong>キッチンディスプレイ</strong></"
+#~ "font> バーやキッチンで全てのオーダを確実にフォローします。"
+
+#~ msgid ""
+#~ "Use the <font class=\"text-o-color-1\"><strong>Inventory App</strong></"
+#~ "font> to manage your stock and receive products."
+#~ msgstr ""
+#~ "<font class=\"text-o-color-1\"><strong>在庫アプリ</strong></font> を使って"
+#~ "在庫とプロダクトの入荷を管理しましょう。"
+
+#~ msgid ""
+#~ "Use the <font class=\"text-o-color-1\"><strong>Planning App</strong></"
+#~ "font> to schedule and share your shifts with your employees."
+#~ msgstr ""
+#~ "<font class=\"text-o-color-1\"><strong>計画アプリ</strong></font> を使って"
+#~ "シフトを組み、従業員と共有しましょう。"
+
+#~ msgid ""
+#~ "Use the <font class=\"text-o-color-1\"><strong>Point of Sale</strong></"
+#~ "font> at the desk for your sales. You can also download the Odoo Mobile "
+#~ "App on any phone to take orders."
+#~ msgstr ""
+#~ "販売には、デスクから <font class=\"text-o-color-1\"><strong>POS</strong></"
+#~ "font>をご利用下さい。また、Odooモバイルアプリをダウンロードしてあらゆる電"
+#~ "話からオーダを取ることができます。"
+
+#~ msgid ""
+#~ "Use the <font class=\"text-o-color-1\"><strong>Project App</strong></"
+#~ "font> to never miss a reordering or a cleaning task."
+#~ msgstr ""
+#~ "<font class=\"text-o-color-1\"><strong>プロジェクトアプリ</strong></font> "
+#~ "を利用すれば再オーダや清掃タスクを見逃しません。"
+
+#~ msgid ""
+#~ "Use the <font class=\"text-o-color-1\"><strong>Purchase App</strong></"
+#~ "font> to reorder your products."
+#~ msgstr ""
+#~ "<font class=\"text-o-color-1\"><strong>購買アプリ</strong></font> を使用し"
+#~ "てプロダクトを再オーダしましょう。"
+
+#~ msgid ""
 #~ "1. First, create all your employees in the database. Navigate to the "
 #~ "Employee App to do so."
 #~ msgstr ""
@@ -1328,13 +1413,6 @@ msgstr "🎓 ウェブサイト"
 #~ msgstr ""
 #~ " 購買アプリに移動すると、送信準備の整った新しい購買オーダが表示されます。"
 #~ "既存の梱包がある場合は、プロダクトに梱包を選択することができます。"
-
-#~ msgid ""
-#~ "If you want to assign them an Odoo user account, you can select a related "
-#~ "user in the \"HR Settings\" tab."
-#~ msgstr ""
-#~ " Odooユーザーアカウントを割当てたい場合は、 \"人事設定\" タブで関連ユーザ"
-#~ "を選択することができます。"
 
 #~ msgid "Manage your booking using the Appointment App."
 #~ msgstr "アポイントメントアプリを使って予約を管理しましょう。"

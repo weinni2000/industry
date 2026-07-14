@@ -2,14 +2,14 @@
 # This file contains the translation of the following modules:
 # * hotel
 #
-# "Junko Augias (juau)" <juau@odoo.com>, 2025.
+# "Junko Augias (juau)" <juau@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.5a1+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-24 12:00+0000\n"
-"PO-Revision-Date: 2025-11-20 09:41+0000\n"
+"POT-Creation-Date: 2026-07-03 18:15+0000\n"
+"PO-Revision-Date: 2026-01-27 22:44+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-19/hotel/"
 "ja/>\n"
@@ -18,7 +18,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.14.3\n"
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_home
+msgid "&amp;nbsp;"
+msgstr ""
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -30,38 +35,55 @@ msgstr ""
 "                    お気軽に"
 
 #. module: hotel
-#: model_terms:ir.ui.view,arch_db:hotel.homepage
-msgid "01"
-msgstr "01"
-
-#. module: hotel
-#: model_terms:ir.ui.view,arch_db:hotel.homepage
-msgid "02"
-msgstr "02"
-
-#. module: hotel
-#: model_terms:ir.ui.view,arch_db:hotel.homepage
-msgid "03"
-msgstr "03"
-
-#. module: hotel
-#: model_terms:ir.ui.view,arch_db:hotel.homepage
-msgid "04"
-msgstr "04"
-
-#. module: hotel
-#: model_terms:ir.ui.view,arch_db:hotel.homepage
-msgid ""
-"<a class=\"btn btn-primary btn-lg o_translate_inline\" href=\"/shop\">Book "
-"Your Stay</a>"
+#: model:website,contact_us_button_url:hotel.website_industry
+msgid "/contactus"
 msgstr ""
-"<a class=\"btn btn-primary btn-lg o_translate_inline\" href=\"/shop\""
-">宿泊予約</a>"
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_home
+msgid ""
+"<a class=\"o_translate_inline btn btn-custom text-o-color-4\" href=\"/shop/"
+"21\" style=\"background-color: rgb(176, 158, 150); border-width: 1px; border-"
+"color: rgba(0, 0, 0, 0); border-style: solid; \">Discover the room</a>"
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_home
+msgid ""
+"<a class=\"o_translate_inline btn btn-custom\" href=\"/shop/22\" "
+"style=\"color: #FFFFFF; background-color: rgb(176, 158, 150); border-width: "
+"1px; border-color: rgba(0, 0, 0, 0); border-style: solid; \">Discover the "
+"room</a>"
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_home
+msgid ""
+"<a class=\"o_translate_inline btn btn-custom\" href=\"/shop/23\" "
+"style=\"color: #FFFFFF; background-color: rgb(176, 158, 150); border-width: "
+"1px; border-color: rgba(0, 0, 0, 0); border-style: solid; \">Discover the "
+"room</a>"
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid ""
+"<em>Don't forget to check the results from time to time to make your guests "
+"happier!</em>"
+msgstr ""
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "<em>Don't forget to thank your guests with a warm goodbye!</em>"
-msgstr "<em>ゲストに心のこもったお別れの挨拶で感謝の気持ちを伝えるのを忘れずに!</em>"
+msgstr ""
+"<em>ゲストに心のこもったお別れの挨拶で感謝の気持ちを伝えるのを忘れずに!</em>"
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_home
+msgid ""
+"<i aria-label=\"Warning\" class=\"fa fa-warning\" role=\"img\"/><span "
+"name=\"renting_warning_message\"/>"
+msgstr ""
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -69,8 +91,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -78,8 +100,15 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">💡</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Info\">💡</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">💡</i>"
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\" aria-label=\"Banner Success\">✅</i>"
+msgstr ""
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -87,8 +116,15 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">✅</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Success\">✅</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\">✅</i>"
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Warning\" aria-label=\"Banner Warning\">⚠️</i>"
+msgstr ""
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -96,8 +132,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
 "normal\">💡</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Info\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
+"<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
+"normal\">💡</i>"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -105,8 +141,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
 "normal\">🚀</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Info\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
+"<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
+"normal\">🚀</i>"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -114,8 +150,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\">✅</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Success\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\">✅</i>"
+"<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
+"fst-normal\">✅</i>"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -123,8 +159,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\">🎉</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Success\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\">🎉</i>"
+"<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
+"fst-normal\">🎉</i>"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -132,26 +168,58 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\">⚠️</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Warning\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
+"<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
+"fst-normal\">⚠️</i>"
 
 #. module: hotel
-#: model_terms:ir.ui.view,arch_db:hotel.homepage
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_home
 msgid ""
-"<span class=\"carousel-control-next-icon\" aria-hidden=\"true\"/>\n"
-"                  <span class=\"visually-hidden\">Next</span>"
+"<small class=\"text-muted\" style=\"text-align: center;\">Enjoy a generous "
+"breakfast every morning.</small><small class=\"text-muted\" style=\"text-"
+"align: center;\">The perfect beginning to your Alpine day.</small>"
 msgstr ""
-"<span class=\"carousel-control-next-icon\" aria-hidden=\"true\"/>\n"
-"                  <span class=\"visually-hidden\">次へ</span>"
 
 #. module: hotel
-#: model_terms:ir.ui.view,arch_db:hotel.homepage
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_home
 msgid ""
-"<span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"/>\n"
-"                  <span class=\"visually-hidden\">Previous</span>"
+"<small class=\"text-muted\" style=\"text-align: center;\">Relax and recharge "
+"with free access<br/>to our full spa and wellness facilities.</small>"
 msgstr ""
-"<span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"/>\n"
-"                  <span class=\"visually-hidden\">前へ</span>"
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_home
+msgid ""
+"<small class=\"text-muted\" style=\"text-align: center;\">Skiing, "
+"paragliding, mountain trails</small><small class=\"text-muted\" style=\"text-"
+"align: center;\">&amp;nbsp;and iconic Swiss landscapes within easy reach.</"
+"small>"
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_home
+msgid ""
+"<span class=\"d-md-none me-2\">Search period</span><i class=\"oi oi-search\" "
+"role=\"img\"/>"
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_home
+msgid ""
+"<span class=\"display-1-fs\">\n"
+"                                                <span style=\"color: "
+"rgba(96, 70, 59, 0.74);\">\n"
+"                                                    Enhance Your "
+"<strong>Experience</strong>\n"
+"                                                </span>\n"
+"                                            </span>"
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_home
+msgid ""
+"<span class=\"display-3-fs\" style=\"color: rgb(245, 235, 224);\">Our luxury "
+"rooms</span>"
+msgstr ""
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -167,150 +235,376 @@ msgstr ""
 "            <br/>"
 
 #. module: hotel
-#: model_terms:ir.ui.view,arch_db:hotel.homepage
-msgid ""
-"<span class=\"o_small\">\n"
-"                            <strong>Iris DOE</strong>\n"
-"                            <br/>\n"
-"                            <span class=\"text-muted\">Manager of OurHotel</"
-"span>\n"
-"                          </span>"
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_home
+msgid "<span class=\"fa fa-hotel\"/>&amp;nbsp; Discover our rooms"
 msgstr ""
-"<span class=\"o_small\">\n"
-"                            <strong>アイリス・ドー</strong>\n"
-"                            <br/>\n"
-"                            <span class=\"text-muted\">OurHotel支配人</span>"
-"\n"
-"                          </span>"
 
 #. module: hotel
-#: model_terms:ir.ui.view,arch_db:hotel.homepage
-msgid ""
-"<span class=\"o_small\">\n"
-"                            <strong>Jane DOE</strong>\n"
-"                            <br/>\n"
-"                            <span class=\"text-muted\">CEO of OurHotel</"
-"span>\n"
-"                          </span>"
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_home
+msgid "<span class=\"fa fa-phone\"/>&amp;nbsp; Contact us"
 msgstr ""
-"<span class=\"o_small\">\n"
-"                            <strong>ジェーン・ドー</strong>\n"
-"                            <br/>\n"
-"                            <span class=\"text-muted\""
-">OurHotel代表取締役</span>\n"
-"                          </span>"
 
 #. module: hotel
-#: model_terms:ir.ui.view,arch_db:hotel.homepage
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_contactus
 msgid ""
-"<span class=\"o_small\">\n"
-"                            <strong>John DOE</strong>\n"
-"                            <br/>\n"
-"                            <span class=\"text-muted\">CCO of OurHotel</"
-"span>\n"
-"                          </span>"
+"<span class=\"h2-fs\">\n"
+"                                        <span style=\"color: rgb(198, 185, "
+"179);\">\n"
+"                                            Norris\n"
+"                                        </span>\n"
+"                                    </span>"
 msgstr ""
-"<span class=\"o_small\">\n"
-"                            <strong>ジョン・ドウ</strong>\n"
-"                            <br/>\n"
-"                            <span class=\"text-muted\""
-">OurHotel最高顧客責任者</span>\n"
-"                          </span>"
 
 #. module: hotel
-#: model_terms:ir.ui.view,arch_db:hotel.homepage
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_home
 msgid ""
-"<span class=\"s_pricelist_cafe_item_name\">Deluxe Room</span>\n"
-"                          <span class=\"s_pricelist_cafe_item_line flex-"
-"grow-1 ms-2 border-top\"/>\n"
-"                          <span class=\"s_pricelist_cafe_item_price ms-auto "
-"ps-3\">$200.00</span>"
+"<span class=\"h2-fs\"><span style=\"color: rgb(198, 185, 179);\">The story</"
+"span></span>"
 msgstr ""
-"<span class=\"s_pricelist_cafe_item_name\">デラックスルーム</span>\n"
-"                          <span class="
-"\"s_pricelist_cafe_item_line flex-grow-1 ms-2 border-top\"/>\n"
-"                          <span class="
-"\"s_pricelist_cafe_item_price ms-auto ps-3\">$200.00</span>"
 
 #. module: hotel
-#: model_terms:ir.ui.view,arch_db:hotel.homepage
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_home
 msgid ""
-"<span class=\"s_pricelist_cafe_item_name\">Executive Suite</span>\n"
-"                          <span class=\"s_pricelist_cafe_item_line flex-"
-"grow-1 ms-2 border-top\"/>\n"
-"                          <span class=\"s_pricelist_cafe_item_price ms-auto "
-"ps-3\">$300.00</span>"
+"<span class=\"h4-fs text-o-color-1\">Breakfast included<br/>all rooms</span>"
 msgstr ""
-"<span class=\"s_pricelist_cafe_item_name\">エグゼクティブスイート</span>\n"
-"                          <span class="
-"\"s_pricelist_cafe_item_line flex-grow-1 ms-2 border-top\"/>\n"
-"                          <span class="
-"\"s_pricelist_cafe_item_price ms-auto ps-3\">$300.00</span>"
 
 #. module: hotel
-#: model_terms:ir.ui.view,arch_db:hotel.homepage
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_contactus
 msgid ""
-"<span class=\"s_pricelist_cafe_item_name\">Family Room</span>\n"
-"                          <span class=\"s_pricelist_cafe_item_line flex-"
-"grow-1 ms-2 border-top\"/>\n"
-"                          <span class=\"s_pricelist_cafe_item_price ms-auto "
-"ps-3\">$180.00</span>"
+"<span class=\"h4-fs\">\n"
+"                                        <span class=\"text-o-color-1\">\n"
+"                                            Feel free to contact us if you "
+"have any questions\n"
+"                                        </span>\n"
+"                                    </span>"
 msgstr ""
-"<span class=\"s_pricelist_cafe_item_name\">ファミリールーム</span>\n"
-"                          <span class="
-"\"s_pricelist_cafe_item_line flex-grow-1 ms-2 border-top\"/>\n"
-"                          <span class="
-"\"s_pricelist_cafe_item_price ms-auto ps-3\">$180.00</span>"
 
 #. module: hotel
-#: model_terms:ir.ui.view,arch_db:hotel.homepage
+#: model_terms:ir.ui.view,arch_db:hotel.footer_copyright_company_name
 msgid ""
-"<span class=\"s_pricelist_cafe_item_name\">Luxury Suite</span>\n"
-"                          <span class=\"s_pricelist_cafe_item_line flex-"
-"grow-1 ms-2 border-top\"/>\n"
-"                          <span class=\"s_pricelist_cafe_item_price ms-auto "
-"ps-3\">$250.00</span>"
+"<span class=\"o_footer_copyright_name me-2 small\" style=\"text-align: "
+"center;\">Copyright &amp;copy; <strong>GRAND NORRIS PALACE</strong></span>"
 msgstr ""
-"<span class=\"s_pricelist_cafe_item_name\">ラグジュアリースイート</span>\n"
-"                          <span class="
-"\"s_pricelist_cafe_item_line flex-grow-1 ms-2 border-top\"/>\n"
-"                          <span class="
-"\"s_pricelist_cafe_item_price ms-auto ps-3\">$250.00</span>"
 
 #. module: hotel
-#: model_terms:ir.ui.view,arch_db:hotel.homepage
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_contactus
 msgid ""
-"<span class=\"s_pricelist_cafe_item_name\">Poolside Cabana</span>\n"
-"                          <span class=\"s_pricelist_cafe_item_line flex-"
-"grow-1 ms-2 border-top\"/>\n"
-"                          <span class=\"s_pricelist_cafe_item_price ms-auto "
-"ps-3\">$75.00</span>"
+"<span class=\"o_small-fs\">\n"
+"                                                <br/>Our reception is open "
+"24/7, and you can reach us<br/>anytime at\n"
+"                                                <span class=\"text-o-"
+"color-1\">\n"
+"                                                    +41 27 000 00 00\n"
+"                                                </span>\n"
+"                                                .\n"
+"                                            </span>"
 msgstr ""
-"<span class=\"s_pricelist_cafe_item_name\">プールサイドキャビン</span>\n"
-"                          <span class="
-"\"s_pricelist_cafe_item_line flex-grow-1 ms-2 border-top\"/>\n"
-"                          <span class="
-"\"s_pricelist_cafe_item_price ms-auto ps-3\">$75.00</span>"
 
 #. module: hotel
-#: model_terms:ir.ui.view,arch_db:hotel.homepage
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_contactus
 msgid ""
-"<span class=\"s_pricelist_cafe_item_name\">Standard Room</span>\n"
-"                          <span class=\"s_pricelist_cafe_item_line flex-"
-"grow-1 ms-2 border-top\"/>\n"
-"                          <span class=\"s_pricelist_cafe_item_price ms-auto "
-"ps-3\">$150.00</span>"
+"<span class=\"o_small-fs\"><br/>Route des Glaciers 14</span><br/>1937 "
+"Orsières,\n"
+"                                            <span class=\"text-o-color-1\">\n"
+"                                                Switzerland\n"
+"                                            </span>"
 msgstr ""
-"<span class=\"s_pricelist_cafe_item_name\">スタンダードルーム</span>\n"
-"                          <span class="
-"\"s_pricelist_cafe_item_line flex-grow-1 ms-2 border-top\"/>\n"
-"                          <span class="
-"\"s_pricelist_cafe_item_price ms-auto ps-3\">$150.00</span>"
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_contactus
+msgid "<span class=\"s_website_form_label_content\">Phone Number</span>"
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_contactus
+msgid ""
+"<span class=\"s_website_form_label_content\">Subject</span> <span "
+"class=\"s_website_form_mark\">*</span>"
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_contactus
+msgid "<span class=\"s_website_form_label_content\">Your Company</span>"
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_contactus
+msgid ""
+"<span class=\"s_website_form_label_content\">Your Email</span> <span "
+"class=\"s_website_form_mark\">*</span>"
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_contactus
+msgid ""
+"<span class=\"s_website_form_label_content\">Your Name</span> <span "
+"class=\"s_website_form_mark\">*</span>"
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_contactus
+msgid ""
+"<span class=\"s_website_form_label_content\">Your Question</span> <span "
+"class=\"s_website_form_mark\">*</span>"
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_contactus
+msgid ""
+"<span class=\"text-gradient\" style=\"background-image: linear-"
+"gradient(135deg, rgb(169, 169, 152) 15%, rgb(96, 70, 59) 100%);\">\n"
+"                                                <strong>Contact us</strong>\n"
+"                                            </span>"
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_home
+msgid ""
+"<span class=\"text-o-color-1 h4-fs\">+100 activities<br/>around the palace</"
+"span>"
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_home
+msgid ""
+"<span class=\"text-o-color-1 h4-fs\">Free access to<br/>our wellness</span>"
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_home
+msgid ""
+"<span class=\"text-o-color-4\"><span class=\"fa fa-tv\"/>&amp;nbsp; "
+"&amp;nbsp;<span class=\"fa fa-bathtub\"/>&amp;nbsp; &amp;nbsp;<span "
+"class=\"fa fa-wifi\"/>&amp;nbsp; &amp;nbsp;<span class=\"fa fa-free-code-"
+"camp\"/>&amp;nbsp;&amp;nbsp;<span class=\"fa fa-coffee\"/>&amp;nbsp; <span "
+"class=\"o_small-fs\">and more</span></span><br/><br/>"
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_home
+msgid ""
+"<span class=\"text-o-color-4\"><strong>LA CLAUDIA<br/></strong> <span "
+"class=\"h5-fs\"><strong>★★★<span class=\"h5-fs\">★</span></strong></span></"
+"span>"
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_home
+msgid ""
+"<span class=\"text-o-color-4\"><strong>LA MARIA<br/></strong> <span "
+"class=\"h5-fs\"><strong>★★★<span class=\"h5-fs\">★</span></strong></span></"
+"span>"
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_home
+msgid ""
+"<span class=\"text-o-color-4\"><strong>LA NINA<br/></strong> <span "
+"class=\"h5-fs\"><strong>★★★<br/></strong></span></span>"
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_home
+msgid ""
+"<span class=\"text-o-color-4\">La Claudia invites you into a bright and "
+"contemporary environment, where soft colors and chic furnishings enhance "
+"your sense of well-being. Whether you are unwinding after an active day or "
+"enjoying a quiet morning with a view, this room brings together elegance, "
+"space, and serenity for an unforgettable stay.</span>"
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_home
+msgid ""
+"<span class=\"text-o-color-4\">La Maria is a beautifully designed retreat "
+"featuring contemporary aesthetics and high-end finishes. Enjoy generous "
+"comfort, a stylish seating area, and peaceful mountain surroundings all "
+"crafted to elevate your stay.</span>"
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_home
+msgid ""
+"<span class=\"text-o-color-4\">La Nina is a sophisticated haven combining "
+"contemporary elegance with the charm of alpine living. Its thoughtfully "
+"curated decor, premium bedding, and high-end comforts create a serene "
+"environment for true rest.</span>"
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_contactus
+msgid ""
+"<span style=\"background-image: linear-gradient(135deg, rgb(169, 169, 152) "
+"15%, rgb(96, 70, 59) 100%);\" class=\"text-gradient\">\n"
+"                                                Find us\n"
+"                                            </span>\n"
+"                                            <br/>"
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_contactus
+msgid ""
+"<span style=\"background-image: linear-gradient(45deg, rgb(169, 169, 152) "
+"15%, rgb(96, 70, 59) 100%);\" class=\"text-gradient\">\n"
+"                                                Call us\n"
+"                                            </span>\n"
+"                                            <br/>"
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_contactus
+msgid ""
+"<span style=\"background-image: linear-gradient(45deg, rgb(169, 169, 152) "
+"15%, rgb(96, 70, 59) 100%);\" class=\"text-gradient\">\n"
+"                                                Email us\n"
+"                                            </span>\n"
+"                                            <br/>"
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_home
+msgid ""
+"<span style=\"color: rgba(96, 70, 59, 0.74);\"><br/>From private ski-in "
+"access to curated alpine dining, every detail at the Grand Norris Palace is "
+"designed to elevate your stay. Indulge in experiences as unique as the "
+"landscape that surrounds you.<br/><br/></span>"
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_home
+msgid ""
+"<span style=\"color: rgba(96, 70, 59, 0.74);\"><strong>Grand Norris Palace</"
+"strong></span>"
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_home
+msgid ""
+"<span style=\"color: rgba(96, 70, 59, 0.74);\"><strong>Swiss Alps</strong></"
+"span>"
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_home
+msgid ""
+"<span style=\"font-size: 120px; color: rgb(245, 235, 224);\">\n"
+"                                                GRAND NORRIS<br/>\n"
+"                                                PALACE\n"
+"                                            </span>"
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_home
+msgid ""
+"<span style=\"font-size: 18px; color: rgb(245, 235, 224);\">A hidden jewel "
+"in the heart of the Swiss Alps. Where discreet luxury, pure mountain air, "
+"and breathtaking horizons come together to create moments that last a "
+"lifetime.</span>"
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_home
+msgid ""
+"<span style=\"font-size: 30px; color: rgb(198, 185, 179);\">Norris</span>"
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_home
+msgid ""
+"<span style=\"font-size: 40px; color: rgb(198, 185, 179);\">Our beloved</"
+"span><br/>"
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_home
+msgid ""
+"<span style=\"font-size: 60px; color: rgb(245, 235, 224);\">\n"
+"                                                GRAND NORRIS PALACE\n"
+"                                            </span>"
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_contactus
+msgid ""
+"<span style=\"font-style: normal;\" class=\"o_small-fs\">\n"
+"                                                <br/>You can reach us at\n"
+"                                                <span class=\"text-o-"
+"color-1\">\n"
+"                                                    info@grandnorrispalace.com\n"
+"                                                </span>\n"
+"                                                or by using the contact form "
+"below.\n"
+"                                            </span>"
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid ""
+"<strong><b>Contacts App</b>: </strong>Record guest identities securely, "
+"linking them to their rental orders for\n"
+"                compliance and personalized service."
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid ""
+"<strong><b>Discuss App</b>: </strong>Facilitate communication between staff "
+"members, ensuring that maintenance\n"
+"                requests or special guest needs are shared instantly.<br/>"
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid ""
+"<strong><b>Invoicing App</b>: </strong>Simplify billing by generating "
+"professional invoices that include room\n"
+"                charges, extra services, and automatically computed city "
+"taxes."
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid ""
+"<strong><b>Planning App</b>: </strong>Organize housekeeping and front desk "
+"shifts, binding them to rental orders\n"
+"                to ensure rooms are ready for new arrivals."
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid ""
+"<strong><b>Rental App</b>: </strong>Manage room availability and pricing "
+"models, ensuring that every booking is\n"
+"                tracked and double-bookings are impossible.<br/>"
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid ""
+"<strong><b>Website &amp; eCommerce App</b>: </strong>specific your rooms and "
+"amenities online, enabling\n"
+"                customers to book directly through a professional, mobile-"
+"friendly portal.<br/>"
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_home
+msgid ""
+"<strong><span class=\"text-o-color-1\">The Grand Norris Palace</span></"
+"strong> is a place where <b><span class=\"text-o-color-1\">luxury meets "
+"wilderness</span></b>, where silence becomes a form of poetry, and where "
+"every horizon reminds you how vast and beautiful the world can be."
+msgstr ""
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "<strong>Basics</strong>"
 msgstr "<strong>基本</strong>"
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid "<strong>Company specific offers</strong>"
+msgstr "<strong>会社固有のオファー</strong>"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -330,30 +624,28 @@ msgid ""
 "                        to create a new one for your own usage.</strong>"
 msgstr ""
 "<strong>そのような場合は、このデータベースを自由に試してみて、\n"
-"                        "
-"ご自分の用途に合わせて新しいデータベースを作成してください。</strong>"
+"                        ご自分の用途に合わせて新しいデータベースを作成してく"
+"ださい。</strong>"
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid "<strong>Multiple resource blocking / period closure</strong>"
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid "<strong>Shared offers</strong>"
+msgstr "<strong>共有オファー</strong>"
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid "<strong>Single resource blocking</strong>"
+msgstr ""
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "<strong>Use case</strong>"
 msgstr "<strong>ユースケース</strong>"
-
-#. module: hotel
-#: model_terms:ir.ui.view,arch_db:hotel.homepage
-msgid "A Journey into Comfort and Luxury"
-msgstr "快適なラグジュアリー体験"
-
-#. module: hotel
-#: model_terms:ir.ui.view,arch_db:hotel.homepage
-msgid "A perfect getaway for families and couples alike"
-msgstr "ご家族連れにもカップルにも最適な理想のリゾート"
-
-#. module: hotel
-#: model_terms:ir.ui.view,arch_db:hotel.homepage
-msgid ""
-"A welcoming atmosphere that makes you feel right at home, no matter where "
-"you are from."
-msgstr "自宅のようにくつろげる温かい雰囲気でお迎えします。"
 
 #. module: hotel
 #: model_terms:product.template,description_ecommerce:hotel.product_template_12
@@ -363,8 +655,13 @@ msgid ""
 "available"
 msgstr ""
 "地元の魅力が詰まった素敵なセレクション<br>スイーツからおつまみスナックまで取"
-"り揃え<br>新鮮な果物や野菜もたっぷり<br>地元で焙煎された本格イタリアンコーヒ"
-"ー<br>ベジタリアン・ヴィーガン対応メニューもご用意しています"
+"り揃え<br>新鮮な果物や野菜もたっぷり<br>地元で焙煎された本格イタリアンコー"
+"ヒー<br>ベジタリアン・ヴィーガン対応メニューもご用意しています"
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid "Access to more details clicking the slot."
+msgstr ""
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -373,8 +670,8 @@ msgid ""
 "per guest\n"
 "                request."
 msgstr ""
-"ディナートレイまたは空港シャトルの行を追加し、"
-"ゲストのリクエストに応じて数量を\n"
+"ディナートレイまたは空港シャトルの行を追加し、ゲストのリクエストに応じて数量"
+"を\n"
 "                更新してください。"
 
 #. module: hotel
@@ -401,8 +698,14 @@ msgstr "星の数をお選びいただき、コメントをご記入のうえ、
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid ""
 "Adjust the rental dates, click the book button and then proceed to checkout."
-msgstr "滞在日を選択し、「予約」ボタンをクリックしてから、チェックアウトに進んでくだ"
+msgstr ""
+"滞在日を選択し、「予約」ボタンをクリックしてから、チェックアウトに進んでくだ"
 "さい。"
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid "Adjusting your offers in consequence"
+msgstr "それに応じてオファーを調整します"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -416,6 +719,11 @@ msgid "Airport Shuttle"
 msgstr "エアポートシャトル"
 
 #. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.products_oe_structure_website_sale_products_1
+msgid "All our rooms"
+msgstr ""
+
+#. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid ""
 "Alternativelly, you can use the Front Desk from the POS App, selecting the\n"
@@ -427,8 +735,15 @@ msgstr ""
 "または、POSアプリの「フロントデスク」機能を利用して、お客様を選択し、追加サー"
 "ビスを登録したうえで、\n"
 "                    お客様アカウントでお支払いいただくことも可能です。\n"
-"                    "
-"滞在終了時に、お客様のアカウントにすべての料金が請求されます。"
+"                    滞在終了時に、お客様のアカウントにすべての料金が請求され"
+"ます。"
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid ""
+"Alternatively to individual resource blocking slots described earlier, you "
+"can select a resource this leave applies to."
+msgstr ""
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -437,8 +752,8 @@ msgid ""
 ">Be\n"
 "                    careful not to double book a resource with such change!"
 msgstr ""
-"またはリストビューに切り替えてから、リソースを変更してください。<br/>その際、"
-"\n"
+"またはリストビューに切り替えてから、リソースを変更してください。<br/>その"
+"際、\n"
 "                    リソースがダブルブッキングにならないように注意しましょう!"
 
 #. module: hotel
@@ -449,10 +764,10 @@ msgid ""
 "                    not during the visualized date range and update the "
 "booking date range."
 msgstr ""
-"あるいは、リストビューに切り替えてください。視覚化された日付範囲外の予約には"
-"、\n"
-"                    "
-"リストビューのほうが適しています。その後、予約の日付範囲を更新しましょう。"
+"あるいは、リストビューに切り替えてください。視覚化された日付範囲外の予約に"
+"は、\n"
+"                    リストビューのほうが適しています。その後、予約の日付範囲"
+"を更新しましょう。"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -463,20 +778,47 @@ msgstr "または、検索バーに入力して、適切なフィルタを選択
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid ""
+"Alternatively, you can create a slot as placeholder from the planning "
+"directly:"
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid "An automation is setup for an email to be sent automatically for you."
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid ""
+"Any time you create a new survey and save it with the setting \"is customer "
+"satisfaction survey\", previous ones\n"
+"                    will be archived so that it becomes your new default "
+"survey."
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid ""
 "Anyone can create a portal account on your database.<br/>Open your website "
 "home page\n"
 "                in a private tab to do so."
 msgstr ""
-"誰でもあなたのデータベース上でポータルアカウントを作成できます。<br/"
-">そのためには、\n"
-"                "
-"ウェブサイトのホームページをプライベートタブで開いてください。"
+"誰でもあなたのデータベース上でポータルアカウントを作成できます。<br/>そのため"
+"には、\n"
+"                ウェブサイトのホームページをプライベートタブで開いてくださ"
+"い。"
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid "Assign them a resource, which helps you keeping track."
+msgstr "リソースを割り当てることで、管理がしやすくなります。"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid ""
 "At any time during their stay, open their rental order from the Hotel App."
-msgstr "滞在中はいつでも、ホテルアプリからそのお客様のレンタルオーダを開くことができ"
+msgstr ""
+"滞在中はいつでも、ホテルアプリからそのお客様のレンタルオーダを開くことができ"
 "ます。"
 
 #. module: hotel
@@ -486,8 +828,8 @@ msgid ""
 "chatter\n"
 "                    to exchange with your guest."
 msgstr ""
-"ゲストのオーダ画面からは、いつでもチャッターの「メッセージを送信」"
-"機能を使って\n"
+"ゲストのオーダ画面からは、いつでもチャッターの「メッセージを送信」機能を使っ"
+"て\n"
 "                    ゲストとやり取りできます。"
 
 #. module: hotel
@@ -495,8 +837,9 @@ msgstr ""
 msgid ""
 "At any time you can adjust the city tax count delivered by re-opening the "
 "city tax widget clicking the City Tax button on the guest order."
-msgstr "いつでも、ゲストのオーダ画面にある「宿泊税」ボタンをクリックして宿泊税ウィジ"
-"ェットを再度開くことで、宿泊税の数を調整できます。"
+msgstr ""
+"いつでも、ゲストのオーダ画面にある「宿泊税」ボタンをクリックして宿泊税ウィ"
+"ジェットを再度開くことで、宿泊税の数を調整できます。"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -510,8 +853,16 @@ msgstr "バー・レストランおよび追加サービス"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
-msgid "Blocking a room"
-msgstr "部屋のブロック"
+msgid ""
+"Beyond daily operations, the Steering menu serves as the \"Captain’s "
+"Bridge\" of your hotel. It provides a 500-day horizon to anticipate market "
+"trends, manage risks, and optimize your revenue."
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid "Blocking resources"
+msgstr ""
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -540,19 +891,21 @@ msgstr ""
 "            販売オーダなどが追加されました。"
 
 #. module: hotel
-#: model_terms:ir.ui.view,arch_db:hotel.homepage
-msgid "Carousel indicator"
-msgstr "カルーセルインジケータ"
-
-#. module: hotel
 #: model:product.template,name:hotel.product_template_16
 msgid "Champagne Bottle"
-msgstr ""
+msgstr "シャンパンボトル"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "Charge your guests"
 msgstr "ゲストに料金を請求する"
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_contactus
+msgid ""
+"Chat with us or fill in this form to get information about anything related "
+"to our rooms or the palace.<br/><br/>"
+msgstr ""
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -561,6 +914,8 @@ msgid ""
 "confirm the number of city tax to be charged, which updated the delivered "
 "city tax count."
 msgstr ""
+"各部屋に滞在した宿泊者数を確認し、必要に応じて調整します。その後、請求すべき"
+"宿泊税の数を確定すると、実際に発生した宿泊税の件数が更新されます。"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -583,6 +938,8 @@ msgid ""
 "City Taxes are to be billed to spent nights in practice and not in theory "
 "and are counted as the sum of nights each guest stayed."
 msgstr ""
+"宿泊税は、理論上ではなく実際に宿泊した宿泊日数に対して請求され、各宿泊者の宿"
+"泊日数の合計としてカウントされます。"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -593,12 +950,14 @@ msgstr "部屋をクリックして予約してください。"
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid ""
 "Click the Check in button to confirm they are now staying at your place!"
-msgstr "「チェックイン」ボタンをクリックして、滞在を開始したことを確認しましょう!"
+msgstr ""
+"「チェックイン」ボタンをクリックして、滞在を開始したことを確認しましょう!"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "Click the Check out button to capture they return you the keys."
-msgstr "鍵の返却を記録するには、「チェックアウト」ボタンをクリックしてください。"
+msgstr ""
+"鍵の返却を記録するには、「チェックアウト」ボタンをクリックしてください。"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -609,19 +968,17 @@ msgstr "オーダフォームを開くには、「オーダ作成」ボタンを
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid ""
 "Click the Pay with demo button, and then Pay button to mimic the payment."
-msgstr "デモで支払うには、「デモで支払」ボタンをクリックし、その後「支払」ボタンをク"
+msgstr ""
+"デモで支払うには、「デモで支払」ボタンをクリックし、その後「支払」ボタンをク"
 "リックしてください。"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid ""
-"Click the Payment button and select the payment mean, not forgetting to tick "
-"the\n"
-"                invoicing check box, prior clicking the Validate button."
+"Click the Settle PoS Orders button to add the corresponding order lines."
 msgstr ""
-"「支払い」ボタンをクリックし、支払手段を選択してください。その際、「請求書発"
-"行」チェックボックスにチェックを入れるのを忘れずに、\n"
-"                「検証」ボタンをクリックする前に行ってください。"
+"「POSオーダを精算」ボタンをクリックして、対応するオーダ明細を追加してくださ"
+"い。"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -631,20 +988,46 @@ msgid ""
 msgstr "該当する予約の末尾をクリックし、希望の日付までドラッグしてください。"
 
 #. module: hotel
-#: model_terms:ir.ui.view,arch_db:hotel.homepage
-msgid "Coffees"
-msgstr "コーヒー"
-
-#. module: hotel
-#: model_terms:ir.ui.view,arch_db:hotel.homepage
-msgid "Comfort and elegance in every room"
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid ""
+"Configure the email delay as you wish the email to be sent after the guest "
+"checkout."
 msgstr ""
 
 #. module: hotel
-#: model_terms:ir.ui.view,arch_db:hotel.homepage
+#: model_terms:ir.ui.view,arch_db:hotel.template_footer_minimalist
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_contactus
+msgid "Contact us"
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid ""
-"Contemporary design with a touch of sophistication, ensuring a memorable "
-"stay."
+"Create a new leave selecting the appropriate working schedule, the one from "
+"your stay resources."
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid ""
+"Create a new leave the same way as previously, but this time specify the "
+"resource this applies to."
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid ""
+"Created offers are assigned no company nor branch (default behavior).<br/>As "
+"a result, they are available from all companies and branches, as well as all "
+"websites from those."
+msgstr ""
+"作成されたオファーには、会社も支店も割り当てられません(デフォルト動作)。<br/>"
+"その結果、すべての会社と支店、およびそれらのすべてのウェブサイトから利用可能"
+"となります。"
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid "Define start and end date time and save your leave."
 msgstr ""
 
 #. module: hotel
@@ -653,33 +1036,14 @@ msgid "Deliver extra services"
 msgstr "追加サービスを提供する"
 
 #. module: hotel
-#: model:planning.role,name:hotel.planning_role_2
-#: model:product.template,name:hotel.product_template_9
-msgid "Deluxe Room"
-msgstr ""
-
-#. module: hotel
-#: model:planning.role,name:hotel.planning_role_3
-#: model:product.template,name:hotel.product_template_10
-msgid "Deluxe Suite"
-msgstr ""
-
-#. module: hotel
 #: model:product.template,name:hotel.product_template_15
 msgid "Dinner Tray"
-msgstr ""
+msgstr "ディナートレイ"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "Discover more about Odoo by diving into our"
 msgstr "Odooについて更に知りましょう。"
-
-#. module: hotel
-#: model_terms:ir.ui.view,arch_db:hotel.homepage
-msgid ""
-"Discover our luxurious accommodations, exceptional service, and stunning "
-"views. Experience comfort like never before!"
-msgstr ""
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -698,28 +1062,52 @@ msgid ""
 "members or a\n"
 "            spa with massages!"
 msgstr ""
+"これらの例に限らず、会員が利用できるジムエリアや、マッサージ付きの\n"
+"            スパを用意することもできます!"
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid "Don't forget to send them their invoice!"
+msgstr "請求書の送付を忘れずに!"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid ""
 "During an available period, click, drag and drop on a room line to create a "
 "slot."
-msgstr "空き時間の間に、部屋の行をクリック&ドラッグしてスロットを作成してください。"
+msgstr ""
+"空き時間の間に、部屋の行をクリック&ドラッグしてスロットを作成してください。"
 
 #. module: hotel
-#: model_terms:ir.ui.view,arch_db:hotel.homepage
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid "Each company can have its own website!"
+msgstr "各社は独自のウェブサイトを持つことができます!"
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_home
 msgid ""
-"Elevate your experience with our luxurious amenities, where comfort meets "
-"style. Enjoy breathtaking views and personalized service that caters to your "
-"every need."
+"Each stone was carved from the surrounding cliffs, each beam of larch wood "
+"carried up the slopes by mule. The architecture blended <b><span "
+"class=\"text-o-color-1\">Belle Époque elegance</span></b> with <b><span "
+"class=\"text-o-color-1\">mountain authenticity</span></b>, creating an "
+"atmosphere that felt both majestic and deeply intimate."
 msgstr ""
 
 #. module: hotel
-#: model_terms:ir.ui.view,arch_db:hotel.homepage
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid "Employee assignations"
+msgstr "従業員の割り当て"
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid ""
-"Enjoy the finest in hospitality with our tailored services. Whether you’re "
-"here for business or leisure, our offerings are designed to make your stay "
-"unforgettable.<br/><br/> Experience the warmth of our hospitality."
+"Employee would open the tasks from their hand and update the status until "
+"Clean."
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_home
+msgid "End date"
 msgstr ""
 
 #. module: hotel
@@ -733,22 +1121,9 @@ msgstr ""
 "のみが宿泊した場合、宿泊者数×宿泊数は 2×3 + 1×1 = 7 となります。"
 
 #. module: hotel
-#: model_terms:ir.ui.view,arch_db:hotel.homepage
-msgid ""
-"Experience a truly exquisite dining experience at our hotel restaurant. I "
-"highly recommend trying our Mustard Sauce, it's out of this world."
-msgstr "当ホテルのレストランでは、洗練された極上のダイニング体験をお楽しみいただけま"
-"す。特製のマスタードソースは格別で、ぜひ一度ご賞味ください。"
-
-#. module: hotel
-#: model_terms:ir.ui.view,arch_db:hotel.homepage
-msgid "Experience our commitment to exceptional hospitality"
-msgstr "私たちの卓越したおもてなしへのこだわりを、ぜひご体感ください"
-
-#. module: hotel
-#: model_terms:ir.ui.view,arch_db:hotel.homepage
-msgid "Explore our amenities"
-msgstr "館内設備・アメニティのご案内"
+#: model_terms:ir.ui.view,arch_db:hotel.template_footer_minimalist
+msgid "Follow us"
+msgstr ""
 
 #. module: hotel
 #: model:product.template,name:hotel.product_template_11
@@ -764,9 +1139,18 @@ msgid ""
 "            customizations."
 msgstr ""
 "<strong>ホテルアプリ</strong>から、予約の管理ができます。<br/>\n"
-"            ホテルアプリは、レンタルアプリと計画アプリの連携を基盤とし、"
-"いくつかのカスタマイズが\n"
+"            ホテルアプリは、レンタルアプリと計画アプリの連携を基盤とし、いく"
+"つかのカスタマイズが\n"
 "            加えられています。"
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid ""
+"From the Roles sections, you can select the companies and branches this "
+"employee shall have access to as well as the default one."
+msgstr ""
+"「役割」セクションから、この従業員がアクセスできる会社と支店、および(デフォル"
+"ト)の会社と支店を選択できます。"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -775,14 +1159,50 @@ msgid ""
 "out\n"
 "                orders."
 msgstr ""
-"検索バーから「本日」フィルターを選択すると、"
-"本日のチェックインおよびチェックアウトの予約を\n"
+"検索バーから「本日」フィルターを選択すると、本日のチェックインおよびチェック"
+"アウトの予約を\n"
 "                確認できます。"
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid "From there you can add new companies."
+msgstr "そこから新しい会社を追加できます。"
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_home
+msgid ""
+"Guided by this vision, Norris chose a secluded plateau overlooking a "
+"pristine valley, where the silence of the pines mingled with the distant "
+"echo of cowbells. There, with the help of local craftsmen and artisans, he "
+"began to build what would become the <b><span class=\"text-o-color-1\">Grand "
+"Norris Palace</span></b>."
+msgstr ""
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "Hello there!"
 msgstr "こんにちは!"
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_home
+msgid ""
+"Here, nature reigns supreme. Mornings begin with the scent of larch and the "
+"sound of distant waterfalls; evenings end under a canopy of stars untouched "
+"by city lights. The Palace's terraces open onto sweeping views of the <span "
+"class=\"text-o-color-1\"><b>Mont Blanc massif</b></span> and the <b><span "
+"class=\"text-o-color-1\">Trient Glacier</span></b>, offering a sense of "
+"peace that feels almost sacred."
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.template_footer_minimalist
+msgid "Home"
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.res_config_settings_form_view_inherited
+msgid "Hotel"
+msgstr ""
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -791,46 +1211,27 @@ msgid ""
 "the\n"
 "                contact."
 msgstr ""
-"問題がある場合は、該当の連絡先をクリックし、「本人確認」"
-"セクションに必要事項を入力してから\n"
+"問題がある場合は、該当の連絡先をクリックし、「本人確認」セクションに必要事項"
+"を入力してから\n"
 "                保存してください。"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid ""
-"If the customer had a non null customer account, confirm its balancing "
-"during\n"
-"                this payment."
+"If they paid orders at any point of sale with their customer account, their "
+"customer account due amount will be displayed as well as a button for you to "
+"settle the associated orders."
 msgstr ""
-"顧客に有効な（ゼロでない）顧客勘定がある場合、"
-"この支払い処理で残高が正しく一致していること\n"
-"                を確認してください。"
+"顧客アカウントでいずれかのPOSオーダを支払っている場合、その顧客アカウントの未"
+"精算金額が表示され、関連するオーダを精算するボタンも表示されます。"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid ""
-"If the customer is eligible to invoice settlement, proceed to charge them "
-"from their\n"
-"                final invoice for already invoiced orders which were paid "
-"with their customer\n"
-"                account."
+"If using the house keeping approver setting, designated\n"
+"                    approvers can check each room and set their state to "
+"ready to close the tasks."
 msgstr ""
-"顧客が請求書による精算の対象である場合、\n"
-"                顧客アカウントで支払い済みのオーダについて、最終請求書から\n"
-"                請求処理を行ってください。"
-
-#. module: hotel
-#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
-msgid ""
-"If the customer is eligible to order settlement, proceed to charge them "
-"from\n"
-"                their final invoice for all their orders during the stay "
-"which were paid with their\n"
-"                customer account."
-msgstr ""
-"顧客がオーダ精算の対象である場合、滞在中に顧客アカウントで\n"
-"                支払われたすべてのオーダを、最終請求書から\n"
-"                請求処理してください。"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -842,18 +1243,26 @@ msgid ""
 msgstr ""
 "このモジュールの実践的なガイド付きツアーを実行したい場合は、デモデータをイン"
 "ポートし、\n"
-"                    「デモ - "
-"ユースケース」を試してみてください。(次のナレッジ記事参照)"
+"                    「デモ - ユースケース」を試してみてください。(次のナレッ"
+"ジ記事参照)"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid ""
-"If you're not certain customers have ongoing bookings, before charging "
-"their\n"
-"                    customer accounts, open their contact details from their "
-"menu (from the\n"
-"                    customer list) and ask for the room they stay in."
+"If you're not certain customers have ongoing bookings, before charging their "
+"customer accounts, open their contact details from their menu (from the "
+"customer list) and ask for the room they stay in.<br/>Note: Their room is "
+"listed in the Guests tab of their order."
 msgstr ""
+"顧客に現在の予約があるか確信が持てない場合は、顧客アカウントに請求する前に、"
+"顧客リストから該当の顧客を選択し、メニューから連絡先の詳細を開いて、宿泊して"
+"いる部屋を確認してください。<br/>メモ: 部屋番号は、そのオーダの「ゲスト」タブ"
+"に表示されています。"
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid "In any case, the resources are company and branch dependent."
+msgstr "いずれにせよ、リソースは会社および支店によって異なります。"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -876,8 +1285,69 @@ msgstr ""
 "                を活用することで、これらの業務を効率的に管理できます。"
 
 #. module: hotel
-#: model_terms:ir.ui.view,arch_db:hotel.homepage
-msgid "Indulge in Our Exquisite Accommodations"
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid ""
+"In the Options tab, you can see it is made the customer satisfaction survey "
+"in the participants section."
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid ""
+"It enables each place manager to adjust the stay offers with greater "
+"flexibility without impacting other places."
+msgstr ""
+"これにより、各施設の管理者は他の施設に影響を与えることなく、宿泊プランをより"
+"柔軟に調整できるようになります。"
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid "Keep your guests satisfied"
+msgstr ""
+
+#. module: hotel
+#: model:product.template,name:hotel.product_template_8
+msgid "La Claudia"
+msgstr ""
+
+#. module: hotel
+#: model_terms:product.template,description_ecommerce:hotel.product_template_8
+msgid ""
+"La Claudia invites you into a bright and contemporary environment, where "
+"soft colors and chic furnishings enhance your sense of well-being. Whether "
+"you are unwinding after an active day or enjoying a quiet morning with a "
+"view, this room brings together elegance, space, and serenity for an "
+"unforgettable stay."
+msgstr ""
+
+#. module: hotel
+#: model:product.template,name:hotel.product_template_9
+msgid "La Maria"
+msgstr ""
+
+#. module: hotel
+#: model_terms:product.template,description_ecommerce:hotel.product_template_9
+msgid ""
+"La Maria welcomes you with a bright and refined atmosphere, blending modern "
+"comfort with subtle alpine charm. Soft textures, elegant furnishings, and "
+"thoughtfully designed spaces create the ideal setting to relax and recharge. "
+"With its soothing ambiance and premium amenities, La Maria offers a serene "
+"escape in the heart of the Swiss Alps."
+msgstr ""
+
+#. module: hotel
+#: model:product.template,name:hotel.product_template_10
+msgid "La Nina"
+msgstr ""
+
+#. module: hotel
+#: model_terms:product.template,description_ecommerce:hotel.product_template_10
+msgid ""
+"La Nina is a sophisticated haven combining contemporary elegance with the "
+"charm of alpine living. Its thoughtfully curated decor, premium bedding, and "
+"high-end comforts create a serene environment for true rest. Enjoy the "
+"mountain view from your private space, indulge in a moment of calm, and "
+"experience a stay where every detail is designed for your well-being."
 msgstr ""
 
 #. module: hotel
@@ -898,26 +1368,26 @@ msgid ""
 "                    <font class=\"text-o-color-5\">Accounting App</font>\n"
 "                </strong><font class=\"text-o-color-5\">.</font>"
 msgstr ""
-"完全に連携した環境で、これまでになく簡単に会計を管理するには<font class="
-"\"text-o-color-5\">n </font><strong>\n"
-"                    <font class=\"text-o-color-5\">会計アプリ</font>"
-"をご活用ください\n"
+"完全に連携した環境で、これまでになく簡単に会計を管理するには<font "
+"class=\"text-o-color-5\">n </font><strong>\n"
+"                    <font class=\"text-o-color-5\">会計アプリ</font>をご活用"
+"ください\n"
 "                </strong><font class=\"text-o-color-5\">.</font>"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
-msgid "Manage your customers from the <strong>Contact App</strong>"
-msgstr "<strong>連絡先アプリ</strong>で顧客を管理しましょう"
-
-#. module: hotel
-#: model_terms:ir.ui.view,arch_db:hotel.homepage
-msgid "Modern rooms equipped with all the amenities for a comfortable stay."
+msgid "Managing scarcity with availability"
 msgstr ""
 
 #. module: hotel
-#: model_terms:ir.ui.view,arch_db:hotel.homepage
-msgid "Next"
-msgstr "次へ"
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid "Managing your businesses"
+msgstr "ビジネスの管理"
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid "Monitoring success with occupancy"
+msgstr ""
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -928,6 +1398,16 @@ msgid ""
 msgstr ""
 "ゲストがさらに快適に過ごせるよう、追加サービスを\n"
 "            提供しましょう!"
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid ""
+"Now that you have several companies or branches, you may want some of your "
+"employees to access only to some of them in case they always work in some of "
+"your places."
+msgstr ""
+"複数の会社や支社を管理している場合、特定の従業員が常に特定の拠点で勤務するよ"
+"うであれば、それらの拠点のみにアクセスを制限したいことがあるかもしれません。"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -948,14 +1428,37 @@ msgstr ""
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
-msgid "On the room to block line, click, drag and drop to create a slot."
-msgstr "ブロックしたい部屋の明細行で、クリックしてドラッグ＆ドロップするとスロットを"
-"作成できます。"
+msgid ""
+"On a daily basis, house keeping tasks are created depending\n"
+"                    the current stays."
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid "On a resource to block line, click, drag and drop to create a slot."
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid "On top of guest and stay management, you need to keep the place clean!"
+msgstr ""
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "Once confirmed, the payment is done and the order booked seamlessly!"
-msgstr "確認が完了すると、支払いが行われ、オーダの予約がスムーズに確定されます!"
+msgstr ""
+"確認が完了すると、支払いが行われ、オーダの予約がスムーズに確定されます!"
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid ""
+"Once defined, you can switch between companies or branches from the company "
+"selector at the top right of your screen.<br/>This will expose depending on "
+"where you are, only the selected companies and branches data."
+msgstr ""
+"一度設定すれば、画面右上の会社セレクタから会社や支社を切り替えることができま"
+"す。<br/>これにより、現在の操作場所に応じて、選択した会社や支社のデータのみが"
+"表示されます。"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -964,15 +1467,16 @@ msgid ""
 "then\n"
 "                click the rental order link."
 msgstr ""
-"必要な部屋の追加がすべて完了したら、最近追加したスロットをクリックし、"
-"レンタルオーダリンクを\n"
+"必要な部屋の追加がすべて完了したら、最近追加したスロットをクリックし、レンタ"
+"ルオーダリンクを\n"
 "               クリックしてください。"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid ""
 "Once done, let's click, drag and drop on another room line to create a slot."
-msgstr "完了したら、別の部屋の明細行をクリックしてドラッグ＆ドロップし、スロットを作"
+msgstr ""
+"完了したら、別の部屋の明細行をクリックしてドラッグ＆ドロップし、スロットを作"
 "成しましょう。"
 
 #. module: hotel
@@ -983,21 +1487,52 @@ msgstr "完了したら、ポータルユーザとしてログインします。
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid ""
-"Once your guest order is all set after check out, open the Front Desk from "
-"the POS\n"
-"                App."
+"Once your guest order is all set after check out, create an invoice from "
+"their order."
 msgstr ""
-"ゲストのオーダがチェックアウト後にすべて完了したら、POSアプリから「フロントデ"
-"スク」\n"
-"                を開いてください。"
+"ゲストオーダがチェックアウト後に確定したら、そのオーダから請求書を作成してく"
+"ださい。"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid ""
 "Open a room page from the website and scroll down to the Customer Reviews "
 "section."
-msgstr "ウェブサイトで部屋のページを開き、「カスタマーレビュー」セクションまでスクロ"
-"ールしてください。"
+msgstr ""
+"ウェブサイトで部屋のページを開き、「カスタマーレビュー」セクションまでスク"
+"ロールしてください。"
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid ""
+"Open now, the Tasks from the accommodation app, House Keeping menu.<br/>This "
+"is\n"
+"                the daily list of house keeping tasks to be tackled."
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid ""
+"Open one, assign it to an employee to plan the house keeping of the day."
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid ""
+"Open the <strong>Settings App</strong> and reach the companies from the menu "
+"Users &amp; Companies."
+msgstr ""
+"<strong>設定アプリ</strong>を開き、メニューの「ユーザと会社」から会社にアクセ"
+"スします。"
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid ""
+"Open the <strong>Settings App</strong> and reach the users from the menu "
+"Users &amp; Companies."
+msgstr ""
+"<strong>設定アプリ</strong> を開き、メニューからユーザ&amp; 会社にアクセスし"
+"ます。"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1006,13 +1541,21 @@ msgstr "<strong>ウェブサイトアプリ</strong>を開き、部屋まで進�
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
-msgid "Open the Hotel App Schedule."
+msgid ""
+"Open the Board from the accommodation app, House Keeping menu.<br/>Here you "
+"have an\n"
+"                overview of the cleanness state of your resources."
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid "Open the Hotel App and navigate to the Configuration / Leaves menu."
 msgstr ""
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "Open the Hotel App and then navigate to the orders from the menu."
-msgstr ""
+msgstr "ホテルアプリを開き、メニューからオーダ画面に移動してください。"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1020,6 +1563,8 @@ msgid ""
 "Open the Hotel App to appreciate the currently planned bookings with the\n"
 "                Schedule."
 msgstr ""
+"ホテルアプリを開いて、スケジュールで現在予定されている予約を\n"
+"                確認してください。"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1028,8 +1573,18 @@ msgstr "POSアプリを開き、レジのいずれかを選択してください
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
-msgid "Open the customer selector from a new order."
-msgstr "新規オーダから顧客セレクタを開いてください。"
+msgid "Open the Steering menu and select Availability."
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid "Open the Steering menu and select Occupancy."
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid "Open the Survey App to find the customer satisfaction survey."
+msgstr ""
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1039,9 +1594,8 @@ msgid ""
 "                App</strong>."
 msgstr ""
 "<strong>スタジオ\n"
-"                "
-"アプリ</strong>の機能を活用して、カスタムワークフローやアクションの可能性を広"
-"げましょう。"
+"                アプリ</strong>の機能を活用して、カスタムワークフローやアク"
+"ションの可能性を広げましょう。"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1051,7 +1605,7 @@ msgstr "到着したばかりのゲストのオーダを開きます。"
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "Open your guest order from the Hotel App."
-msgstr ""
+msgstr "ホテルアプリからお客様の予約を開きます。"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1065,30 +1619,30 @@ msgstr ""
 "従業員のスケジュールを<font class=\"text-o-color-5\"> <strong>\n"
 "                計画</strong></font><strong>\n"
 "                    <font class=\"text-o-color-5\">アプリ</font>\n"
-"                </strong><font class=\"text-o-color-5\""
-">から管理します。</font>"
+"                </strong><font class=\"text-o-color-5\">から管理します。</"
+"font>"
 
 #. module: hotel
-#: model_terms:ir.ui.view,arch_db:hotel.homepage
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_contactus
 msgid ""
-"Our hotel restaurant is the perfect spot for groups or a casual date night."
+"Our team will be delighted to assist you and will respond to your message "
+"within 2 open&amp;nbsp;days"
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_home
+msgid ""
+"Perched high above the valley of <b><span class=\"text-o-color-1\">Orsières</"
+"span></b>, in the enchanting <b><span class=\"text-o-color-1\">Valais "
+"region</span></b> of Switzerland, the <b><span class=\"text-o-"
+"color-1\">Grand Norris Palace</span></b> enjoys one of the most breathtaking "
+"settings in the Alps.&amp;nbsp;"
 msgstr ""
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
-msgid ""
-"Plan, check in and and check out bookings with the <strong>Hotel App</strong>"
-msgstr ""
-
-#. module: hotel
-#: model_terms:ir.ui.view,arch_db:hotel.homepage
-msgid "Previous"
-msgstr "前へ"
-
-#. module: hotel
-#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
-msgid "Promote your offers through the <strong>Website App</strong>"
-msgstr "<strong>ウェブサイトアプリ</strong>で提供しているサービスを宣伝します"
+msgid "Proceed to the payment with your terminal and set the invoice as paid."
+msgstr "端末で支払いを進め、請求書を支払済みとして設定してください。"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1102,23 +1656,23 @@ msgstr "ゲストの本人確認を記録する"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
-msgid "Recording the guest presence is an obligation in numerous countries."
-msgstr "多くの国では、ゲストの滞在記録を残すことが義務付けられています。"
+msgid "Recording the guest attendance is an obligation in numerous countries."
+msgstr "ゲストの宿泊記録は多くの国で義務付けられています。"
 
 #. module: hotel
-#: model_terms:ir.ui.view,arch_db:hotel.homepage
-msgid "Relax and Unwind in Style"
-msgstr ""
-
-#. module: hotel
-#: model_terms:ir.ui.view,arch_db:hotel.homepage
-msgid "Relaxing spaces that cater to your every need"
+#: model_terms:ir.ui.view,arch_db:hotel.template_footer_minimalist
+msgid "Rooms"
 msgstr ""
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "Save the order with those extra services."
 msgstr "これらの追加サービス付きオーダを保存してください。"
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid "Select one of your employee."
+msgstr "従業員の中から1人を選択してください。"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1131,26 +1685,19 @@ msgid "Service"
 msgstr "サービス"
 
 #. module: hotel
-#: model_terms:ir.ui.view,arch_db:hotel.homepage
-msgid "Spacious family accommodations designed for togetherness and fun."
-msgstr ""
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid "Setup company or branch specific offers when relevant."
+msgstr "該当する場合、会社または支店固有のオファーを設定します。"
 
 #. module: hotel
-#: model_terms:ir.ui.view,arch_db:hotel.homepage
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid ""
-"Spacious suites designed for relaxation, featuring plush bedding and "
-"stunning views."
-msgstr ""
+"Share your stay offers across your companies and branches (default behavior);"
+msgstr "宿泊プランを全会社および支店間で共有します(デフォルト動作)；"
 
 #. module: hotel
-#: model:planning.role,name:hotel.planning_role_1
-#: model:product.template,name:hotel.product_template_8
-msgid "Standard Room"
-msgstr ""
-
-#. module: hotel
-#: model_terms:ir.ui.view,arch_db:hotel.homepage
-msgid "Stay &amp; Enjoy"
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_home
+msgid "Start date"
 msgstr ""
 
 #. module: hotel
@@ -1160,37 +1707,96 @@ msgid ""
 "another\n"
 "                more comfortable room!"
 msgstr ""
+"ホテルアプリのスケジュール画面から、予約をより快適な別の部屋へドラッグ＆ド"
+"ロップするだけ\n"
+"                で移動できます!"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
-msgid "Still from their Rental Order, open the Guest tab."
-msgstr "レンタルオーダ画面から、そのまま「ゲスト」タブを開いてください。"
+msgid "Still from their Rental Order, open the Guests tab."
+msgstr "レンタルオーダから、ゲストタブを開いてください。"
 
 #. module: hotel
-#: model_terms:ir.ui.view,arch_db:hotel.homepage
-msgid ""
-"Stylish and cozy rooms that provide a perfect retreat after a day of "
-"exploration."
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_contactus
+msgid "Submit"
 msgstr ""
 
 #. module: hotel
-#: model_terms:ir.ui.view,arch_db:hotel.homepage
-msgid "Teas"
-msgstr "お茶"
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_home
+msgid ""
+"Surrounded by <span class=\"text-o-color-1\"><b>snow-capped peaks, pine "
+"forests, and crystal-clear mountain lakes</b>,</span> the Palace overlooks a "
+"panorama that changes with every season <em>from the golden glow of autumn "
+"to the soft, shimmering silence of winter.</em>"
+msgstr ""
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid ""
-"Then settle the rental order from the three dot menu to bring the line "
-"items\n"
-"                corresponding to rooms and city tax."
+"The Gantt chart is color-coded to reflect on the availability for you to "
+"work on filling in."
 msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid ""
+"The Gantt chart is color-coded to reflect on the occupancy, the higher the "
+"better."
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid ""
+"The Occupancy view allows you to visualize your \"Sales Success\". It "
+"answers one simple question: <i>How well am I filling my hotel?</i>"
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_home
+msgid ""
+"The estate lies at the crossroads of ancient mountain paths once used by "
+"shepherds and traders crossing into Italy. Today, it remains a place of "
+"quiet majesty, far from the noise of the world yet easily accessible from "
+"<b><span class=\"text-o-color-1\">Verbier, Montreux, or Geneva</span></b>. "
+"Guests arrive along a winding alpine road that reveals, turn after turn, a "
+"landscape of pure wonder — until, at last, the turrets of the Grand Norris "
+"Palace emerge against the sky."
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.view_page_home
+msgid ""
+"The story begins in <b><span class=\"text-o-color-1\">1897</span></b>, when "
+"visionary hotelier <b><span class=\"text-o-color-1\">Edmond Norris</span></"
+"b> , captivated by the untouched majesty of the Valais mountains, dreamt of "
+"creating a sanctuary unlike any other — a place where the rugged purity of "
+"the Alps would meet the grace and refinement of European hospitality."
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid ""
+"The strength of Odoo is to separate the accounting and many other aspects "
+"which are company dependent!"
+msgstr ""
+"Odooの強みは、会計をはじめとした多くの会社依存の要素を明確に分離できることで"
+"す!"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid ""
 "These all go free in your current subscription; feel free to explore! 🙃"
-msgstr "これらは全て、現在ご契約中のサブスクリプションで無料でご利用いただけます!🙃"
+msgstr ""
+"これらは全て、現在ご契約中のサブスクリプションで無料でご利用いただけます!🙃"
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid ""
+"They as well share the same pricing, defined at the stay offer level, which "
+"has its pros and cons."
+msgstr ""
+"同様に、宿泊プランレベルで定義された同一の価格設定を共有しており、これには長"
+"所と短所があります。"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1200,7 +1806,8 @@ msgstr "複数のお部屋をご希望ですか?"
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "They were happy about their stay, let's ask them to leave a review."
-msgstr "ご満足いただけたとのことで、大変うれしく思います。よろしければ、ご感想をお聞"
+msgstr ""
+"ご満足いただけたとのことで、大変うれしく思います。よろしければ、ご感想をお聞"
 "かせください。"
 
 #. module: hotel
@@ -1211,12 +1818,33 @@ msgstr "チェックアウト時に顧客アカウントの残高を精算しま
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid ""
+"This blocks simulataneously all resources related to this working schedule "
+"during the prescribed period."
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid "This capability is enabled by a setting you can set/unset."
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid ""
+"This setup is relevant in case of place specific offers or when pricing "
+"varies between places."
+msgstr ""
+"この設定は、地域限定のプランがある場合や、場所によって価格が異なる場合に適用"
+"されます。"
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid ""
 "This time click the Add to last order button to add this room to the booking "
 "and\n"
 "                voila!"
 msgstr ""
-"今回は「前回の予約に追加」ボタンをクリックして、このお部屋を予約に追加しまし"
-"ょう。\n"
+"今回は「前回の予約に追加」ボタンをクリックして、このお部屋を予約に追加しま"
+"しょう。\n"
 "                これで完了です!"
 
 #. module: hotel
@@ -1228,8 +1856,21 @@ msgstr "今回は、この予約の理由をメモに残して、スロットを
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid ""
+"To ensure your guests no longer receive the satisfaction survey, you can "
+"easily archive it at any time."
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "Trace guest attendance"
 msgstr "ゲストの利用履歴を記録する"
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid ""
+"Two options are now available to you with multiple companies and branches:"
+msgstr "複数の会社や支店がある場合、以下の2つの選択肢が利用可能です："
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1238,17 +1879,25 @@ msgid ""
 msgstr "スケジュールの検索バーに顧客名を入力し、「顧客」で絞り込みましょう。"
 
 #. module: hotel
-#: model_terms:ir.ui.view,arch_db:hotel.homepage
-msgid ""
-"Welcome to our cozy and friendly hotel, where you can enjoy a great "
-"atmosphere and delicious food. Don't miss our signature dish, the spiced "
-"fruit crumble."
-msgstr ""
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid "Welcome your guests as well from the <strong>Hotel App</strong>."
+msgstr "<strong>ホテルアプリからもお客様をお迎えください</strong>"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
-msgid "Welcome your guests as well from the <strong>Hotel App</strong>."
+msgid "When all is in order, confirm their invoice for payment."
+msgstr "問題がなければ、請求書を確定し支払い処理を進めます。"
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid ""
+"When creating an offer, assign them a company or a branch.<br/>As a result, "
+"they are available only for the selected company or branch, and will be "
+"available only from its website."
 msgstr ""
+"プランを作成する際には、会社または支店を割り当ててください。<br/>これにより、"
+"選択した会社または支店でのみ利用可能となり、そのウェブサイトからのみアクセス"
+"可能となります。"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1262,15 +1911,31 @@ msgid ""
 "                validation buttons!"
 msgstr ""
 "お客様から会計のご依頼があった際は、直接お支払いいただくことも、\n"
-"                顧客アカウントに請求を追加することもできます。<br/"
-">そのためには、テーブルまたは注文一覧から該当のオーダを開き、\n"
+"                顧客アカウントに請求を追加することもできます。<br/>そのために"
+"は、テーブルまたは注文一覧から該当のオーダを開き、\n"
 "                請求先の顧客を選択してください。<br/>支払いボタン\n"
 "                と検証ボタンをクリックしてください!"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid ""
+"While Occupancy focuses on what is full, the Availability view focuses on "
+"what is left to sell. It is your primary tool for operational safety and "
+"\"Scarcity Pricing.\""
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "Willing to upgrade a booking?"
 msgstr "ご予約のアップグレードをご希望ですか?"
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid ""
+"With the create slot for this resource, no overlapping booking slot would be "
+"created.<br/>Care about the start and end time or this blockage to make to "
+"re-open when suited."
+msgstr ""
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1280,22 +1945,37 @@ msgstr "Odooのセットアップについてご相談、またはそれ以上�
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "You Hotel is online and future guests found it!"
-msgstr ""
+msgstr "あなたのホテルはオンラインで公開され、未来のお客様の目にとまりました!"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid ""
 "You are repairing a room or simply welcoming family and don't want guests to "
-"book a room?"
-msgstr "部屋の修理中や家族を迎える予定があり、ゲストの予約受付の停止をご希望ですか?"
+"book it?<br/>Alternatively, you are closing for a week during an inter "
+"season break?<br/>Let's have this reflected in your schedule!"
+msgstr ""
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid ""
 "You can access every installed App in your Odoo database on your main "
 "dashboard."
-msgstr "メインダッシュボードからOdooデータベースにインストールされている全てのアプリ"
+msgstr ""
+"メインダッシュボードからOdooデータベースにインストールされている全てのアプリ"
 "にアクセスできます。"
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid ""
+"You can as well select your company and in the Branches tab define branches."
+msgstr "会社を選択することもでき、「支店」タブで支店を定義できます。"
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid ""
+"You can find the participants and answers from the smart buttons of the "
+"survey."
+msgstr ""
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1305,8 +1985,8 @@ msgid ""
 "                    Odoo setup to fit your business needs."
 msgstr ""
 "このデモのユースケースは完了しました!Odooの設定は、\n"
-"                    "
-"ビジネスのニーズに合わせて無限の方法でカスタマイズできます。"
+"                    ビジネスのニーズに合わせて無限の方法でカスタマイズできま"
+"す。"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1318,8 +1998,8 @@ msgid ""
 "                    quickly become messy."
 msgstr ""
 "このセクションには、Studio を使って身分証明書の写真や追加フィールドを\n"
-"                    必要に応じて追加できます。ただし、"
-"過度なカスタマイズは管理が煩雑になる\n"
+"                    必要に応じて追加できます。ただし、過度なカスタマイズは管"
+"理が煩雑になる\n"
 "                    可能性があるためご注意ください。"
 
 #. module: hotel
@@ -1331,9 +2011,8 @@ msgid ""
 msgstr ""
 "デモデータをインポートしていない場合でも、あとから追加することができます。ア"
 "プリ&gt;インダストリー &gt;\n"
-"                    "
-"パッケージをアップグレードに進み、該当するボックスにチェックを入れてください"
-"。"
+"                    パッケージをアップグレードに進み、該当するボックスに"
+"チェックを入れてください。"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1348,6 +2027,10 @@ msgid ""
 "            is how you might centralize those and bind them to your "
 "customers in a single database."
 msgstr ""
+"ホテルを経営する際、数多くの周辺サービスや特典を提供している場合があります。"
+"<br/>\n"
+"            それらを一元化し、単一のデータベースで顧客に紐付ける方法をご紹介"
+"します。"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1356,11 +2039,25 @@ msgid ""
 "installed a\n"
 "            bunch of necessary apps to run your Hotel efficiently."
 msgstr ""
+"Odooホテルパッケージをインストールしました。これにより、ホテルを効率的に運営"
+"するために必要なアプリ群がインストールされました。"
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid ""
+"You may be running multiple places at the same time and most likely be "
+"willing to run them all from the same database.<b/>We got you covered with "
+"this using multiple companies or branches!"
+msgstr ""
+"複数の施設を同時に運営しており、それらをすべて同じデータベースで管理したいと"
+"お考えかもしれません。<b/>その点もご安心ください。Odoo では、複数の会社や支社"
+"機能を使って対応できます!"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "You might have tested this package with or without demo data."
-msgstr "このパッケージを、デモデータの有無にかかわらずテストされたかもしれません。"
+msgstr ""
+"このパッケージを、デモデータの有無にかかわらずテストされたかもしれません。"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1379,10 +2076,10 @@ msgid ""
 "                this time, without confirming the order (just saving it as "
 "draft)."
 msgstr ""
-"以上が新規オーダの作成方法です。<br/"
-">では先ほどの手順を繰り返してみましょう。ただし、\n"
-"                "
-"今回は、オーダを確定せず、ドラフトとして保存するだけにします。"
+"以上が新規オーダの作成方法です。<br/>では先ほどの手順を繰り返してみましょう。"
+"ただし、\n"
+"                今回は、オーダを確定せず、ドラフトとして保存するだけにしま"
+"す。"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1398,12 +2095,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "You welcome your first guests, awesome!"
 msgstr "初めてのゲストをお迎えしました。すばらしい!"
-
-#. module: hotel
-#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
-msgid ""
-"You're now done, the invoice downloaded as well as sent to your customer!"
-msgstr "処理が完了しました。請求書はダウンロードされ、お客様にも送信されました!"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1458,6 +2149,15 @@ msgstr "🍸 ワンランク上の滞在を"
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid ""
 "🎓\n"
+"                Companies"
+msgstr ""
+"🎓\n"
+"                会社"
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid ""
+"🎓\n"
 "                Contacts"
 msgstr ""
 "🎓\n"
@@ -1476,28 +2176,19 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid ""
 "🎓\n"
-"                Planning"
-msgstr ""
-"🎓\n"
-"                計画"
-
-#. module: hotel
-#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
-msgid ""
-"🎓\n"
-"                Rental"
-msgstr ""
-"🎓\n"
-"                レンタル"
-
-#. module: hotel
-#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
-msgid ""
-"🎓\n"
 "                Taxes"
 msgstr ""
 "🎓\n"
 "                税"
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid ""
+"🎓\n"
+"                Websites"
+msgstr ""
+"🎓\n"
+"                ウェブサイト"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1529,8 +2220,33 @@ msgstr "🎓 準備ディスプレイ"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid "🎓Booking Engine"
+msgstr "🎓予約システム"
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid "🎓Planning"
+msgstr "🎓計画"
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid "🎓Rental"
+msgstr "🎓レンタル"
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid "🎓Surveys"
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "👋 Wave your guests"
 msgstr "👋 ゲストをあたたかく迎えましょう"
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid "🔢 Running multiple places"
+msgstr "🔢 複数の施設を運営する"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1541,3 +2257,429 @@ msgstr "🗓️ 予約管理"
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "😎 Welcome guests"
 msgstr "😎 ゲストをお迎えしましょう"
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid "🚀 Strategic Oversight"
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid "🧽 Managing house keeping"
+msgstr ""
+
+#~ msgid ""
+#~ "<a class=\"btn btn-primary btn-lg o_translate_inline\" href=\"/"
+#~ "shop\">Book Your Stay</a>"
+#~ msgstr ""
+#~ "<a class=\"btn btn-primary btn-lg o_translate_inline\" href=\"/shop\">宿泊"
+#~ "予約</a>"
+
+#~ msgid ""
+#~ "<span class=\"carousel-control-next-icon\" aria-hidden=\"true\"/>\n"
+#~ "                  <span class=\"visually-hidden\">Next</span>"
+#~ msgstr ""
+#~ "<span class=\"carousel-control-next-icon\" aria-hidden=\"true\"/>\n"
+#~ "                  <span class=\"visually-hidden\">次へ</span>"
+
+#~ msgid ""
+#~ "<span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"/>\n"
+#~ "                  <span class=\"visually-hidden\">Previous</span>"
+#~ msgstr ""
+#~ "<span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"/>\n"
+#~ "                  <span class=\"visually-hidden\">前へ</span>"
+
+#~ msgid ""
+#~ "<span class=\"o_small\">\n"
+#~ "                            <strong>Iris DOE</strong>\n"
+#~ "                            <br/>\n"
+#~ "                            <span class=\"text-muted\">Manager of "
+#~ "OurHotel</span>\n"
+#~ "                          </span>"
+#~ msgstr ""
+#~ "<span class=\"o_small\">\n"
+#~ "                            <strong>アイリス・ドー</strong>\n"
+#~ "                            <br/>\n"
+#~ "                            <span class=\"text-muted\">OurHotel支配人</"
+#~ "span>\n"
+#~ "                          </span>"
+
+#~ msgid ""
+#~ "<span class=\"o_small\">\n"
+#~ "                            <strong>Jane DOE</strong>\n"
+#~ "                            <br/>\n"
+#~ "                            <span class=\"text-muted\">CEO of OurHotel</"
+#~ "span>\n"
+#~ "                          </span>"
+#~ msgstr ""
+#~ "<span class=\"o_small\">\n"
+#~ "                            <strong>ジェーン・ドー</strong>\n"
+#~ "                            <br/>\n"
+#~ "                            <span class=\"text-muted\">OurHotel代表取締役"
+#~ "</span>\n"
+#~ "                          </span>"
+
+#~ msgid ""
+#~ "<span class=\"o_small\">\n"
+#~ "                            <strong>John DOE</strong>\n"
+#~ "                            <br/>\n"
+#~ "                            <span class=\"text-muted\">CCO of OurHotel</"
+#~ "span>\n"
+#~ "                          </span>"
+#~ msgstr ""
+#~ "<span class=\"o_small\">\n"
+#~ "                            <strong>ジョン・ドウ</strong>\n"
+#~ "                            <br/>\n"
+#~ "                            <span class=\"text-muted\">OurHotel最高顧客責"
+#~ "任者</span>\n"
+#~ "                          </span>"
+
+#~ msgid ""
+#~ "<span class=\"s_pricelist_cafe_item_name\">Deluxe Room</span>\n"
+#~ "                          <span class=\"s_pricelist_cafe_item_line flex-"
+#~ "grow-1 ms-2 border-top\"/>\n"
+#~ "                          <span class=\"s_pricelist_cafe_item_price ms-"
+#~ "auto ps-3\">$200.00</span>"
+#~ msgstr ""
+#~ "<span class=\"s_pricelist_cafe_item_name\">デラックスルーム</span>\n"
+#~ "                          <span class=\"s_pricelist_cafe_item_line flex-"
+#~ "grow-1 ms-2 border-top\"/>\n"
+#~ "                          <span class=\"s_pricelist_cafe_item_price ms-"
+#~ "auto ps-3\">$200.00</span>"
+
+#~ msgid ""
+#~ "<span class=\"s_pricelist_cafe_item_name\">Executive Suite</span>\n"
+#~ "                          <span class=\"s_pricelist_cafe_item_line flex-"
+#~ "grow-1 ms-2 border-top\"/>\n"
+#~ "                          <span class=\"s_pricelist_cafe_item_price ms-"
+#~ "auto ps-3\">$300.00</span>"
+#~ msgstr ""
+#~ "<span class=\"s_pricelist_cafe_item_name\">エグゼクティブスイート</span>\n"
+#~ "                          <span class=\"s_pricelist_cafe_item_line flex-"
+#~ "grow-1 ms-2 border-top\"/>\n"
+#~ "                          <span class=\"s_pricelist_cafe_item_price ms-"
+#~ "auto ps-3\">$300.00</span>"
+
+#~ msgid ""
+#~ "<span class=\"s_pricelist_cafe_item_name\">Family Room</span>\n"
+#~ "                          <span class=\"s_pricelist_cafe_item_line flex-"
+#~ "grow-1 ms-2 border-top\"/>\n"
+#~ "                          <span class=\"s_pricelist_cafe_item_price ms-"
+#~ "auto ps-3\">$180.00</span>"
+#~ msgstr ""
+#~ "<span class=\"s_pricelist_cafe_item_name\">ファミリールーム</span>\n"
+#~ "                          <span class=\"s_pricelist_cafe_item_line flex-"
+#~ "grow-1 ms-2 border-top\"/>\n"
+#~ "                          <span class=\"s_pricelist_cafe_item_price ms-"
+#~ "auto ps-3\">$180.00</span>"
+
+#~ msgid ""
+#~ "<span class=\"s_pricelist_cafe_item_name\">Luxury Suite</span>\n"
+#~ "                          <span class=\"s_pricelist_cafe_item_line flex-"
+#~ "grow-1 ms-2 border-top\"/>\n"
+#~ "                          <span class=\"s_pricelist_cafe_item_price ms-"
+#~ "auto ps-3\">$250.00</span>"
+#~ msgstr ""
+#~ "<span class=\"s_pricelist_cafe_item_name\">ラグジュアリースイート</span>\n"
+#~ "                          <span class=\"s_pricelist_cafe_item_line flex-"
+#~ "grow-1 ms-2 border-top\"/>\n"
+#~ "                          <span class=\"s_pricelist_cafe_item_price ms-"
+#~ "auto ps-3\">$250.00</span>"
+
+#~ msgid ""
+#~ "<span class=\"s_pricelist_cafe_item_name\">Poolside Cabana</span>\n"
+#~ "                          <span class=\"s_pricelist_cafe_item_line flex-"
+#~ "grow-1 ms-2 border-top\"/>\n"
+#~ "                          <span class=\"s_pricelist_cafe_item_price ms-"
+#~ "auto ps-3\">$75.00</span>"
+#~ msgstr ""
+#~ "<span class=\"s_pricelist_cafe_item_name\">プールサイドキャビン</span>\n"
+#~ "                          <span class=\"s_pricelist_cafe_item_line flex-"
+#~ "grow-1 ms-2 border-top\"/>\n"
+#~ "                          <span class=\"s_pricelist_cafe_item_price ms-"
+#~ "auto ps-3\">$75.00</span>"
+
+#~ msgid ""
+#~ "<span class=\"s_pricelist_cafe_item_name\">Standard Room</span>\n"
+#~ "                          <span class=\"s_pricelist_cafe_item_line flex-"
+#~ "grow-1 ms-2 border-top\"/>\n"
+#~ "                          <span class=\"s_pricelist_cafe_item_price ms-"
+#~ "auto ps-3\">$150.00</span>"
+#~ msgstr ""
+#~ "<span class=\"s_pricelist_cafe_item_name\">スタンダードルーム</span>\n"
+#~ "                          <span class=\"s_pricelist_cafe_item_line flex-"
+#~ "grow-1 ms-2 border-top\"/>\n"
+#~ "                          <span class=\"s_pricelist_cafe_item_price ms-"
+#~ "auto ps-3\">$150.00</span>"
+
+#~ msgid "A Journey into Comfort and Luxury"
+#~ msgstr "快適なラグジュアリー体験"
+
+#~ msgid "A perfect getaway for families and couples alike"
+#~ msgstr "ご家族連れにもカップルにも最適な理想のリゾート"
+
+#~ msgid ""
+#~ "A welcoming atmosphere that makes you feel right at home, no matter where "
+#~ "you are from."
+#~ msgstr "自宅のようにくつろげる温かい雰囲気でお迎えします。"
+
+#~ msgid "Carousel indicator"
+#~ msgstr "カルーセルインジケータ"
+
+#~ msgid "Comfort and elegance in every room"
+#~ msgstr "全室に快適さとエレガンスを"
+
+#~ msgid ""
+#~ "Contemporary design with a touch of sophistication, ensuring a memorable "
+#~ "stay."
+#~ msgstr "洗練された現代的なデザインで、思い出に残る滞在をお約束します。"
+
+#~ msgid "Deluxe Room"
+#~ msgstr "デラックスルーム"
+
+#~ msgid "Deluxe Suite"
+#~ msgstr "デラックス・スイート"
+
+#~ msgid ""
+#~ "Discover our luxurious accommodations, exceptional service, and stunning "
+#~ "views. Experience comfort like never before!"
+#~ msgstr ""
+#~ "贅沢な宿泊施設、卓越したサービス、そして息をのむ景色をご堪能ください。これ"
+#~ "までにない快適さをご体験いただけます!"
+
+#~ msgid ""
+#~ "Elevate your experience with our luxurious amenities, where comfort meets "
+#~ "style. Enjoy breathtaking views and personalized service that caters to "
+#~ "your every need."
+#~ msgstr ""
+#~ "快適さとスタイルが融合したラグジュアリーなアメニティで、ご滞在をさらに充実"
+#~ "したものに。息をのむような眺望と、お客様のあらゆるニーズにお応えするパーソ"
+#~ "ナルサービスをお楽しみください。"
+
+#~ msgid ""
+#~ "Enjoy the finest in hospitality with our tailored services. Whether "
+#~ "you’re here for business or leisure, our offerings are designed to make "
+#~ "your stay unforgettable.<br/><br/> Experience the warmth of our "
+#~ "hospitality."
+#~ msgstr ""
+#~ "ビジネスでもレジャーでも、私たちのきめ細かなサービスで最高のおもてなしをお"
+#~ "楽しみください。忘れられないご滞在となるよう、心を込めてご提供します。<br/"
+#~ "><br/> あたたかいおもてなしで皆さまをお待ちしております。"
+
+#~ msgid ""
+#~ "Experience a truly exquisite dining experience at our hotel restaurant. I "
+#~ "highly recommend trying our Mustard Sauce, it's out of this world."
+#~ msgstr ""
+#~ "当ホテルのレストランでは、洗練された極上のダイニング体験をお楽しみいただけ"
+#~ "ます。特製のマスタードソースは格別で、ぜひ一度ご賞味ください。"
+
+#~ msgid "Experience our commitment to exceptional hospitality"
+#~ msgstr "私たちの卓越したおもてなしへのこだわりを、ぜひご体感ください"
+
+#~ msgid "Explore our amenities"
+#~ msgstr "館内設備・アメニティのご案内"
+
+#~ msgid "Indulge in Our Exquisite Accommodations"
+#~ msgstr "当ホテルの洗練された客室でくつろぎのひとときをお過ごしください"
+
+#~ msgid "Modern rooms equipped with all the amenities for a comfortable stay."
+#~ msgstr ""
+#~ "快適な滞在のための設備がそろった、モダンなお部屋をご用意しています。"
+
+#~ msgid "Next"
+#~ msgstr "次へ"
+
+#~ msgid ""
+#~ "Our hotel restaurant is the perfect spot for groups or a casual date "
+#~ "night."
+#~ msgstr ""
+#~ "当ホテルのレストランは、グループ利用にもカジュアルなデートにもぴったりの場"
+#~ "所です。"
+
+#~ msgid "Previous"
+#~ msgstr "前へ"
+
+#~ msgid "Relax and Unwind in Style"
+#~ msgstr "優雅にリラックスしてくつろぎましょう"
+
+#~ msgid "Relaxing spaces that cater to your every need"
+#~ msgstr "あらゆるニーズに応えるくつろぎの空間"
+
+#~ msgid "Spacious family accommodations designed for togetherness and fun."
+#~ msgstr "広々とした家族向け宿泊施設。ファミリーでのご宿泊にぴったりです。"
+
+#~ msgid ""
+#~ "Spacious suites designed for relaxation, featuring plush bedding and "
+#~ "stunning views."
+#~ msgstr ""
+#~ "ゆったりとおくつろぎいただけるよう設計された広々としたスイートルーム。豪華"
+#~ "な寝具と素晴らしい景色をお楽しみください。"
+
+#~ msgid "Standard Room"
+#~ msgstr "スタンダードルーム"
+
+#~ msgid "Stay &amp; Enjoy"
+#~ msgstr "滞在をお楽しみください"
+
+#~ msgid ""
+#~ "Stylish and cozy rooms that provide a perfect retreat after a day of "
+#~ "exploration."
+#~ msgstr ""
+#~ "一日中の散策のあとにゆったりとくつろげる、スタイリッシュで居心地の良い客室"
+#~ "です。"
+
+#~ msgid ""
+#~ "Welcome to our cozy and friendly hotel, where you can enjoy a great "
+#~ "atmosphere and delicious food. Don't miss our signature dish, the spiced "
+#~ "fruit crumble."
+#~ msgstr ""
+#~ "当ホテルへようこそ。居心地の良い温かい雰囲気と美味しい料理をお楽しみいただ"
+#~ "けます。当店の看板メニュー、スパイスフルーツクランブルもおすすめです。"
+
+#~ msgid "01"
+#~ msgstr "01"
+
+#~ msgid "02"
+#~ msgstr "02"
+
+#~ msgid "03"
+#~ msgstr "03"
+
+#~ msgid "04"
+#~ msgstr "04"
+
+#~ msgid "Blocking a room"
+#~ msgstr "部屋のブロック"
+
+#~ msgid "On the room to block line, click, drag and drop to create a slot."
+#~ msgstr ""
+#~ "ブロックしたい部屋の明細行で、クリックしてドラッグ＆ドロップするとスロット"
+#~ "を作成できます。"
+
+#~ msgid "Open the Hotel App Schedule."
+#~ msgstr "ホテルアプリのスケジュールを開きます。"
+
+#~ msgid ""
+#~ "You are repairing a room or simply welcoming family and don't want guests "
+#~ "to book a room?"
+#~ msgstr ""
+#~ "部屋の修理中や家族を迎える予定があり、ゲストの予約受付の停止をご希望です"
+#~ "か?"
+
+#~ msgid "Manage your customers from the <strong>Contact App</strong>"
+#~ msgstr "<strong>連絡先アプリ</strong>で顧客を管理しましょう"
+
+#~ msgid ""
+#~ "Plan, check in and and check out bookings with the <strong>Hotel App</"
+#~ "strong>"
+#~ msgstr ""
+#~ "<strong>ホテルアプリ</strong>で予約の計画、チェックイン、チェックアウトを"
+#~ "管理"
+
+#~ msgid "Promote your offers through the <strong>Website App</strong>"
+#~ msgstr ""
+#~ "<strong>ウェブサイトアプリ</strong>で提供しているサービスを宣伝します"
+
+#~ msgid "Coffees"
+#~ msgstr "コーヒー"
+
+#~ msgid "Teas"
+#~ msgstr "お茶"
+
+#~ msgid ""
+#~ "If you're not certain customers have ongoing bookings, before charging "
+#~ "their\n"
+#~ "                    customer accounts, open their contact details from "
+#~ "their menu (from the\n"
+#~ "                    customer list) and ask for the room they stay in."
+#~ msgstr ""
+#~ "顧客に継続的な予約があるか確信が持てない場合、\n"
+#~ "                    顧客アカウントに課金する前に、\n"
+#~ "                    顧客リストからメニューを開き、\n"
+#~ "                    滞在している部屋を確認してください。"
+
+#~ msgid "Recording the guest presence is an obligation in numerous countries."
+#~ msgstr "多くの国では、ゲストの滞在記録を残すことが義務付けられています。"
+
+#~ msgid "Still from their Rental Order, open the Guest tab."
+#~ msgstr "レンタルオーダ画面から、そのまま「ゲスト」タブを開いてください。"
+
+#~ msgid ""
+#~ "Click the Payment button and select the payment mean, not forgetting to "
+#~ "tick the\n"
+#~ "                invoicing check box, prior clicking the Validate button."
+#~ msgstr ""
+#~ "「支払い」ボタンをクリックし、支払手段を選択してください。その際、「請求書"
+#~ "発行」チェックボックスにチェックを入れるのを忘れずに、\n"
+#~ "                「検証」ボタンをクリックする前に行ってください。"
+
+#~ msgid ""
+#~ "If the customer had a non null customer account, confirm its balancing "
+#~ "during\n"
+#~ "                this payment."
+#~ msgstr ""
+#~ "顧客に有効な（ゼロでない）顧客勘定がある場合、この支払い処理で残高が正しく"
+#~ "一致していること\n"
+#~ "                を確認してください。"
+
+#~ msgid ""
+#~ "If the customer is eligible to invoice settlement, proceed to charge them "
+#~ "from their\n"
+#~ "                final invoice for already invoiced orders which were paid "
+#~ "with their customer\n"
+#~ "                account."
+#~ msgstr ""
+#~ "顧客が請求書による精算の対象である場合、\n"
+#~ "                顧客アカウントで支払い済みのオーダについて、最終請求書か"
+#~ "ら\n"
+#~ "                請求処理を行ってください。"
+
+#~ msgid ""
+#~ "If the customer is eligible to order settlement, proceed to charge them "
+#~ "from\n"
+#~ "                their final invoice for all their orders during the stay "
+#~ "which were paid with their\n"
+#~ "                customer account."
+#~ msgstr ""
+#~ "顧客がオーダ精算の対象である場合、滞在中に顧客アカウントで\n"
+#~ "                支払われたすべてのオーダを、最終請求書から\n"
+#~ "                請求処理してください。"
+
+#~ msgid ""
+#~ "Once your guest order is all set after check out, open the Front Desk "
+#~ "from the POS\n"
+#~ "                App."
+#~ msgstr ""
+#~ "ゲストのオーダがチェックアウト後にすべて完了したら、POSアプリから「フロン"
+#~ "トデスク」\n"
+#~ "                を開いてください。"
+
+#~ msgid "Open the customer selector from a new order."
+#~ msgstr "新規オーダから顧客セレクタを開いてください。"
+
+#~ msgid ""
+#~ "Then settle the rental order from the three dot menu to bring the line "
+#~ "items\n"
+#~ "                corresponding to rooms and city tax."
+#~ msgstr ""
+#~ "次に、３点メニューからレンタルオーダを確定し、\n"
+#~ "                部屋と宿泊税に対応する明細項目を表示します。"
+
+#~ msgid ""
+#~ "You're now done, the invoice downloaded as well as sent to your customer!"
+#~ msgstr ""
+#~ "処理が完了しました。請求書はダウンロードされ、お客様にも送信されました!"
+
+#~ msgid ""
+#~ "🎓\n"
+#~ "                Planning"
+#~ msgstr ""
+#~ "🎓\n"
+#~ "                計画"
+
+#~ msgid ""
+#~ "🎓\n"
+#~ "                Rental"
+#~ msgstr ""
+#~ "🎓\n"
+#~ "                レンタル"

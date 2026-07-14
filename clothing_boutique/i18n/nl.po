@@ -6,15 +6,15 @@
 # Tiffany Chang, 2024
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2024
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# Bren Driesen <brdri@odoo.com>, 2025.
+# Bren Driesen <brdri@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 11:52+0000\n"
-"PO-Revision-Date: 2025-11-17 11:08+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-06-12 17:49+0000\n"
+"PO-Revision-Date: 2026-04-24 19:27+0000\n"
+"Last-Translator: Bren Driesen <brdri@odoo.com>\n"
 "Language-Team: Dutch <https://translate.odoo.com/projects/odoo-19/"
 "clothing_boutique/nl/>\n"
 "Language: nl\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: clothing_boutique
 #: model:product.template,name:clothing_boutique.product_template_51
@@ -55,6 +55,87 @@ msgstr "5% op je bestellingloyaliteit"
 #: model:product.template,name:clothing_boutique.product_template_56
 msgid "5% on your order for the loyalty points earned."
 msgstr "5% on je order voor de verdiende loyaliteitspunten."
+
+#. module: clothing_boutique
+#: model_terms:ir.ui.view,arch_db:clothing_boutique.welcome_article_body
+msgid ""
+"<b>Email Marketing App</b>: Engage your customers with personalized "
+"newsletters about new collections,\n"
+"                    sales, and exclusive style advice."
+msgstr ""
+"<b>E-mailmarketing-app</b>: Betrek je klanten met gepersonaliseerde "
+"nieuwsbrieven over nieuwe collecties, solden en exclusief stijladvies."
+
+#. module: clothing_boutique
+#: model_terms:ir.ui.view,arch_db:clothing_boutique.welcome_article_body
+msgid ""
+"<b>Inventory App</b>: Manage complex product matrices (sizes, colors, fits) "
+"and use barcode/RFID scanning\n"
+"                    for rapid stock counts and transfers."
+msgstr ""
+"<b>Voorraad-app</b>: Beheer complexe productmatrices (maten, kleuren, "
+"pasvormen) en gebruik barcode-/RFID-scanning\n"
+"voor snelle voorraadtellingen en -verplaatsingen."
+
+#. module: clothing_boutique
+#: model_terms:ir.ui.view,arch_db:clothing_boutique.welcome_article_body
+msgid ""
+"<b>Point of Sale App</b>: Speed up checkout with an intuitive interface that "
+"handles multiple variants,\n"
+"                    returns, and customer loyalty programs seamlessly."
+msgstr ""
+"<b>Kassa-app</b>: Versnel het afrekenen met een intuïtieve interface die "
+"naadloos omgaat met meerdere varianten, retours en loyaliteitsprogramma's "
+"voor klanten."
+
+#. module: clothing_boutique
+#: model_terms:ir.ui.view,arch_db:clothing_boutique.welcome_article_body
+msgid ""
+"<b>Purchase App</b>: Automate replenishment based on seasonal demand, "
+"ensuring you have the right mix of\n"
+"                    sizes and styles in stock."
+msgstr ""
+"<b>Inkoop-app</b>: Automatiseer de aanvulling op basis van seizoensgebonden "
+"vraag, zodat je altijd de juiste mix van\n"
+"                    maten en stijlen op voorraad hebt."
+
+#. module: clothing_boutique
+#: model_terms:ir.ui.view,arch_db:clothing_boutique.welcome_article_body
+msgid ""
+"<b>Sales App</b>: Handle wholesale orders or B2B contracts with ease, using "
+"variant grids to quickly enter\n"
+"                    large orders for different sizes."
+msgstr ""
+"<b>Verkoop-app</b>: Verwerk groothandelorders of B2B-contracten met gemak, "
+"met behulp van variantenmatrixen om snel grote bestellingen voor "
+"verschillende maten in te voeren."
+
+#. module: clothing_boutique
+#: model_terms:ir.ui.view,arch_db:clothing_boutique.welcome_article_body
+msgid ""
+"<b>Website App</b>: Design a visually appealing brand site that showcases "
+"your latest arrivals, lookbooks,\n"
+"                    and store locations."
+msgstr ""
+"<b>Website-app</b>: Ontwerp een visueel aantrekkelijke site voor je merk "
+"waarop je nieuwste aanwinsten, lookbooks en winkeladressen worden getoond."
+
+#. module: clothing_boutique
+#: model_terms:ir.ui.view,arch_db:clothing_boutique.welcome_article_body
+msgid ""
+"<b>eCommerce App</b>: Create a stunning online storefront to sell your "
+"fashion collections globally,\n"
+"                    offering features like \"shop by look\" or dynamic "
+"filters."
+msgstr ""
+"<b>E-commerce-app</b>: Creëer een prachtige online winkel om je "
+"modecollecties wereldwijd te verkopen, met functies zoals 'shop de look' of "
+"dynamische filters."
+
+#. module: clothing_boutique
+#: model_terms:ir.ui.view,arch_db:clothing_boutique.welcome_article_body
+msgid "<br/>Basics"
+msgstr "<br/>Basisprincipes"
 
 #. module: clothing_boutique
 #: model_terms:ir.ui.view,arch_db:clothing_boutique.homepage
@@ -138,7 +219,8 @@ msgstr ""
 #. module: clothing_boutique
 #: model_terms:ir.ui.view,arch_db:clothing_boutique.welcome_article_body
 msgid "Add any “Jumpsuit” from the western wear category."
-msgstr "Voeg een willekeurige \"Jumpsuit\" uit de categorie Westernkleding toe."
+msgstr ""
+"Voeg een willekeurige \"Jumpsuit\" uit de categorie Westernkleding toe."
 
 #. module: clothing_boutique
 #: model_terms:ir.ui.view,arch_db:clothing_boutique.welcome_article_body
@@ -243,23 +325,13 @@ msgstr "Onderbroeken"
 
 #. module: clothing_boutique
 #: model_terms:ir.ui.view,arch_db:clothing_boutique.welcome_article_body
-msgid "Business Flows:"
-msgstr "Bedrijfsstromen:"
+msgid "Business Flows"
+msgstr "Bedrijfsstromen"
 
 #. module: clothing_boutique
 #: model:loyalty.program,name:clothing_boutique.loyalty_program_7
 msgid "Buy 1 jeans get 1 T-shirt Free"
 msgstr "Koop 1 jeans en krijg 1 T-shirt gratis"
-
-#. module: clothing_boutique
-#: model:pos.payment.method,name:clothing_boutique.pos_payment_method_1
-msgid "Cash"
-msgstr "Cash"
-
-#. module: clothing_boutique
-#: model:account.journal,name:clothing_boutique.cash
-msgid "Cash (Clothing boutique)"
-msgstr "Contant geld (kledingboetiek)"
 
 #. module: clothing_boutique
 #: model:product.template,name:clothing_boutique.product_template_13
@@ -273,9 +345,9 @@ msgid ""
 "Free Product T-Shirt (Purple)”. You can see the free product is added along "
 "in the point of sale order."
 msgstr ""
-"Klik op de beloningsknop en het systeem toont het "
-"\"Koop 1 Krijg 1 Gratis T-Shirt (Paars)\". Je ziet dat het gratis product "
-"wordt toegevoegd aan de order in het verkooppunt."
+"Klik op de beloningsknop en het systeem toont het \"Koop 1 Krijg 1 Gratis T-"
+"Shirt (Paars)\". Je ziet dat het gratis product wordt toegevoegd aan de "
+"order in het verkooppunt."
 
 #. module: clothing_boutique
 #: model:product.public.category,name:clothing_boutique.product_public_category_11
@@ -325,11 +397,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:clothing_boutique.welcome_article_body
 msgid "Create a POS order through POS Application, select any customer"
 msgstr "Maak een Kassaorder aan via de Kassa-app, selecteer een klant"
-
-#. module: clothing_boutique
-#: model:pos.payment.method,name:clothing_boutique.pos_payment_method_2
-msgid "Customer Account"
-msgstr "Klant account"
 
 #. module: clothing_boutique
 #: model:product.attribute.value,name:clothing_boutique.product_attribute_value_dark_blue
@@ -439,7 +506,8 @@ msgstr "Trui met volledige mouwen"
 #. odoo-javascript
 #: code:addons/clothing_boutique/static/src/js/my_tour.js:0
 msgid "Get on track and explore our recommendations for your Odoo usage here!"
-msgstr "Kom goed op weg en bekijk hier onze aanbevelingen voor je Odoo-gebruik!"
+msgstr ""
+"Kom goed op weg en bekijk hier onze aanbevelingen voor je Odoo-gebruik!"
 
 #. module: clothing_boutique
 #: model_terms:ir.ui.view,arch_db:clothing_boutique.welcome_article_body
@@ -503,6 +571,11 @@ msgid "Kurta set"
 msgstr "Kurta set"
 
 #. module: clothing_boutique
+#: model:product.attribute.value,name:clothing_boutique.product_attribute_value_9
+msgid "L"
+msgstr "L"
+
+#. module: clothing_boutique
 #: model_terms:ir.ui.view,arch_db:clothing_boutique.homepage
 msgid "Learn more"
 msgstr "Meer informatie"
@@ -545,6 +618,11 @@ msgid ""
 msgstr ""
 "Klanten krijgen spaarpunten bij hun aankoop; later kunnen klanten korting "
 "inwisselen in ruil voor spaarpunten"
+
+#. module: clothing_boutique
+#: model:product.attribute.value,name:clothing_boutique.product_attribute_value_8
+msgid "M"
+msgstr "M"
 
 #. module: clothing_boutique
 #: model:loyalty.program,name:clothing_boutique.loyalty_program_2
@@ -686,11 +764,6 @@ msgstr "T-shirt "
 #: model:product.public.category,name:clothing_boutique.product_public_category_6
 msgid "T-shirts"
 msgstr "T-shirts"
-
-#. module: clothing_boutique
-#: model_terms:ir.ui.view,arch_db:clothing_boutique.welcome_article_body
-msgid "The Glam Boutique"
-msgstr "De glamboetiek"
 
 #. module: clothing_boutique
 #: model_terms:ir.ui.view,arch_db:clothing_boutique.homepage
@@ -836,3 +909,18 @@ msgstr "wit en bruin gebloemd shirt met lange mouwen"
 #: model_terms:ir.ui.view,arch_db:clothing_boutique.homepage
 msgid "woman in black and white dress holding happy birthday signage"
 msgstr "vrouw in zwart-witte jurk met gelukkige verjaardagssignalering"
+
+#~ msgid "Cash"
+#~ msgstr "Cash"
+
+#~ msgid "Cash (Clothing boutique)"
+#~ msgstr "Contant geld (kledingboetiek)"
+
+#~ msgid "Customer Account"
+#~ msgstr "Klant account"
+
+#~ msgid "The Glam Boutique"
+#~ msgstr "De glamboetiek"
+
+#~ msgid "Business Flows:"
+#~ msgstr "Bedrijfsstromen:"

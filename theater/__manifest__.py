@@ -1,6 +1,6 @@
 {
     'name': 'Theater',
-    'version': '1.0',
+    'version': '1.2',
     'category': 'Hospitality',
     'author': 'Odoo S.A.',
     'depends': [
@@ -16,6 +16,7 @@
         'website_sale_mass_mailing',
     ],
     'data': [
+        'data/pos_config.xml',
         'data/res_config_settings.xml',
         'data/knowledge_article.xml',
         'data/product_category.xml',
@@ -27,15 +28,14 @@
         'data/knowledge_article_favorite.xml',
         'data/res_partner_grade.xml',
         'data/ir_attachment.xml',
-        'data/event_event.xml',
-        'data/event_slot.xml',
-        'data/event_event_ticket.xml',
     ],
     'demo': [
+        'demo/res_company.xml',
         'demo/product_product.xml',
         'demo/event_event.xml',
+        'demo/event_slot.xml',
+        'demo/event_event_ticket.xml',
         'demo/ir_attachment_post.xml',
-        'demo/pos_config.xml',
         'demo/website_view.xml',
         'demo/crm_lead.xml',
         'demo/mail_activity.xml',
@@ -51,6 +51,7 @@
         'data/knowledge_article.xml',
         'demo/website_view.xml',
     ],
+    'application': True,
     'images': [
         'images/main.png',
     ],

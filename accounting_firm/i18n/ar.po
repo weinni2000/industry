@@ -4,15 +4,15 @@
 #
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# "Malaz Siddig Elsayed Abuidris (msea)" <msea@odoo.com>, 2025.
+# "Malaz Siddig Elsayed Abuidris (msea)" <msea@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-04 14:33+0000\n"
-"PO-Revision-Date: 2025-11-13 07:46+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-01-12 09:27+0000\n"
+"PO-Revision-Date: 2026-01-20 11:02+0000\n"
+"Last-Translator: \"Malaz Siddig Elsayed Abuidris (msea)\" <msea@odoo.com>\n"
 "Language-Team: Arabic <https://translate.odoo.com/projects/odoo-19/"
 "accounting_firm/ar/>\n"
 "Language: ar\n"
@@ -21,7 +21,79 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.14.3\n"
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
+"<b>Accounting App</b>: Streamline your billing cycle and manage the firm's "
+"own financials with robust invoicing tools."
+msgstr ""
+"<b>تطبيق المحاسبة</b>: قم بتبسيط عملية إعداد الفواتير وإدارة الشؤون المالية "
+"للشركة باستخدام أدوات الفوترة المتطورة."
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
+"<b>Contacts App</b>: Centralize all client data and maintain a clean, "
+"organized directory of customers and contacts."
+msgstr ""
+"<b>تطبيق جهات الاتصال</b>: قم بتجميع كافة بيانات العملاء في مكان واحد أنشئ "
+"دليلاً واضحاً ومنظماً لعملائك وجهات اتصالك."
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
+"<b>Databases App</b>: Access and interact with your clients' Odoo databases "
+"instantly from a single dashboard."
+msgstr ""
+"<b>تطبيق قواعد البيانات</b>: يمكنك الوصول إلى قواعد بيانات أودو الخاصة "
+"بعملائك والتفاعل معها على الفور من لوحة تحكم واحدة."
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
+"<b>Documents App</b>: Automate the request, collection, and management of "
+"client files for a paperless office."
+msgstr ""
+"<b>تطبيق المستندات</b>: تمكن من طلب ملفات العملاء وجمعها وإدارتها بشكل آلي "
+"للحصول على مكتب خالٍ من الأوراق."
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
+"<b>Equity App</b>: Simplify compliance by gathering and visualizing Ultimate "
+"Beneficial Owners (UBOs) structures."
+msgstr ""
+"<b>تطبيق الأسهم</b>: قم بتبسيط عملية الامتثال عن طريق جمع وعرض هياكل "
+"المالكين المستفيدين النهائيين (UBOs)."
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
+"<b>Project App</b>: Organize client files, track tasks, and manage your "
+"team's workload to meet every deadline."
+msgstr ""
+"<b>تطبيق المشاريع</b>: تمكن من تنظيم ملفات العملاء وتتبع المهام وإدارة عبء "
+"عمل أعضاء الفريق لضمان الالتزام بجميع المواعيد النهائية."
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
+"<b>Sign App</b>: Accelerate approvals and agreements by capturing secure "
+"electronic document signatures instantly."
+msgstr ""
+"<b>تطبيق التوقيع الإلكتروني</b>: قم بتسريع عمليات الموافقة والاتفاقيات عن "
+"طريق التوقيع إلكترونياً على المستندات بشكل آمن وفوري."
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
+"<b>Timesheets App</b>: Track billable hours with precision and analyze your "
+"team's efforts for better profitability."
+msgstr ""
+"<b>تطبيق الجداول الزمنية</b>: تتبع ساعات العمل القابلة للفوترة بدقة وحلل "
+"جهود فريقك لتحقيق ربحية أفضل."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -38,6 +110,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\" aria-label=\"Banner Info\">🔃</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\" aria-label=\"Banner Info\">🔃</i>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -101,8 +175,13 @@ msgstr "<span class=\"h1-fs\">حالة استخدام</span>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid "<strong>Connecting your customer database</strong>"
+msgstr "<strong>ربط قاعدة بيانات العملاء الخاصة بك</strong>"
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "<strong>Customer identity management</strong>"
-msgstr ""
+msgstr "<strong>إدارة هوية العملاء</strong>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -141,7 +220,7 @@ msgstr "<strong>إعداد الاسم المستعار للبريد الإلكت
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "<strong>Setup the project</strong>"
-msgstr ""
+msgstr "<strong>قم بإعداد المشروع</strong>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -166,12 +245,12 @@ msgstr ""
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
 msgid "AML"
-msgstr ""
+msgstr "AML"
 
 #. module: accounting_firm
 #: model:ir.model,name:accounting_firm.x_aml_risk_model
 msgid "AML Risk"
-msgstr ""
+msgstr "مخاطر AML"
 
 #. module: accounting_firm
 #: model:product.template,name:accounting_firm.product_product_7_product_template
@@ -206,17 +285,17 @@ msgstr "المحاسبة - ضريبة القيمة المضافة ربع الس�
 #. module: accounting_firm
 #: model:base.automation,name:accounting_firm.base_automation_on_id_scan_changed
 msgid "Accounting Firm: On ID Scan Changed"
-msgstr ""
+msgstr "شركة محاسبة: تغيير على مسح الهوية"
 
 #. module: accounting_firm
 #: model:ir.actions.server,name:accounting_firm.ir_cron_request_contact_id_document_ir_actions_server
 msgid "Accounting Firm: Request Contact Identity Document"
-msgstr ""
+msgstr "شركة محاسبة: طلب وثيقة هوية للاتصال"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
 msgid "Accounting Management"
-msgstr ""
+msgstr "إدارة المحاسبة"
 
 #. module: accounting_firm
 #: model:project.tags,name:accounting_firm.project_tags_1
@@ -251,6 +330,7 @@ msgid ""
 "Among your activities, you might as well handle the anti-money laundering "
 "aspect."
 msgstr ""
+"من بين أنشطتك، يمكنك أيضًا التعامل مع الجانب المتعلق بمكافحة غسل الأموال."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -270,6 +350,9 @@ msgid ""
 "                    Make sure to check the open document request from "
 "Documents App."
 msgstr ""
+"يتم تشغيل عملية آلية يومياً لطلب وثائق الهوية التي انتهت صلاحيتها بالفعل "
+"والتي ستنتهي صلاحيتها قريباً من جهات الاتصال الخاصة بك.\n"
+"                    تأكد من التحقق من طلب المستند المفتوح من تطبيق المستندات."
 
 #. module: accounting_firm
 #: model:project.tags,name:accounting_firm.project_tags_4
@@ -295,20 +378,13 @@ msgstr "المُسند إليه"
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_assistant_ids_field_project_project
 msgid "Assistants"
-msgstr ""
+msgstr "المساعدون"
 
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_closing_month_field_selection_8
 #: model:project.tags,name:accounting_firm.project_tags_16
 msgid "August"
 msgstr "أغسطس"
-
-#. module: accounting_firm
-#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-msgid ""
-"Bill easily and manage your accounts with the <strong>Accounting App</"
-"strong>."
-msgstr "تمكن من إدارة حساباتك بسهولة باستخدام <strong>تطبيق المحاسبة</strong>."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.x_mandate_view_list
@@ -318,12 +394,12 @@ msgstr "الفئة"
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_has_chatter_message_field_documents_request_wizard
 msgid "Chatter Message"
-msgstr ""
+msgstr "رسالة في الدردشة"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_mandate_child_ids_field_x_mandate
 msgid "Childs"
-msgstr ""
+msgstr "الفروع"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -364,7 +440,7 @@ msgstr "قائمة العملاء (حزمة)"
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_closing_month_field_res_partner
 msgid "Closing Month"
-msgstr ""
+msgstr "شهر الإغلاق"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_color_field_x_mandate
@@ -374,7 +450,7 @@ msgstr "اللون"
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
 msgid "Companies House"
-msgstr ""
+msgstr "سجل الشركات"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -409,7 +485,7 @@ msgstr ""
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
 msgid "Crossroads Bank for Enterprises"
-msgstr ""
+msgstr "بنك كروسرودز للمؤسسات"
 
 #. module: accounting_firm
 #: model:product.template,name:accounting_firm.product_product_11_product_template
@@ -463,6 +539,8 @@ msgstr "تم الانتهاء"
 msgid ""
 "Easily request identity document from the gear icon (⚙️) in the bread crumb."
 msgstr ""
+"يمكنك بسهولة طلب وثيقة الهوية عن طريق الضغط على رمز الترس (⚙️) الموجود في "
+"شريط التنقل."
 
 #. module: accounting_firm
 #: model:hr.department,name:accounting_firm.hr_department_2
@@ -482,12 +560,12 @@ msgstr ""
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_vat_declaration_recurrence_field_selection_exempted
 msgid "Exempted"
-msgstr ""
+msgstr "معفى"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.accounting_firm_view_res_partner_search
 msgid "Expired IDs"
-msgstr ""
+msgstr "بطاقات الهوية منتهية الصلاحية"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_explanation_field_x_aml_risk
@@ -516,11 +594,6 @@ msgstr "قم بتعديل البريد الإلكتروني إذا لزم الأ
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-msgid "Follow up on missions leveraging the <strong>Project App</strong>."
-msgstr "تابع مهامك باستخدام <strong>تطبيق إدارة المشاريع</strong>."
-
-#. module: accounting_firm
-#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid ""
 "For such typical request, you can leverage email templates for ask recurrent "
 "questions and save time exposing your services!"
@@ -540,19 +613,12 @@ msgstr ""
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_vat_declaration_recurrence_field_selection_franchise
 msgid "Franchise"
-msgstr ""
+msgstr "امتياز"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
 msgid "French Business Directory"
-msgstr ""
-
-#. module: accounting_firm
-#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-msgid ""
-"Generate quote and manage sale order from the <strong>Sales App</strong>."
-msgstr ""
-"قم بإنشاء عروض الأسعار وإدارة أوامر البيع من <strong>تطبيق المبيعات</strong>."
+msgstr "دليل الأعمال الفرنسي"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -574,10 +640,11 @@ msgstr ""
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid ""
-"Have a central repository for requested documents in<strong> Documents App</"
-"strong>."
+"Having access in record time to all activities and metrics from your "
+"customer databases is key."
 msgstr ""
-"قم بإنشاء مستودع مركزي للوثائق المطلوبة في <strong>تطبيق المستندات</strong>."
+"تُعد إمكانية الوصول السريع إلى جميع الأنشطة والمقاييس من قواعد بيانات عملائك "
+"أمرًا لا غنى عنه."
 
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_level_risk_field_selection_high
@@ -592,7 +659,7 @@ msgstr "المُعرف"
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_id_expiration_date_field_res_partner
 msgid "ID Expiration Date"
-msgstr ""
+msgstr "تاريخ انتهاء صلاحية بطاقة الهوية"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -600,6 +667,8 @@ msgid ""
 "Identity management is a must do activity in your business and to support "
 "you with that, the contacts encompass all the necessary."
 msgstr ""
+"إدارة الهوية هي نشاط لا بد منه في عملك، ولدعمك في ذلك، تشمل جهات الاتصال كل "
+"ما هو ضروري."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -636,9 +705,22 @@ msgstr "قيد التنفيذ"
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid ""
+"In the Database tab, set the appropriate hosting option and then fill in the "
+"additional required inputs, including API credentials provided by your "
+"customer."
+msgstr ""
+"في علامة تبويب ”قاعدة البيانات“، قم بتعيين خيار الاستضافة المناسب ثم املأ "
+"المدخلات الإضافية المطلوبة، بما في ذلك بيانات اعتماد الواجهة البرمجية (API) "
+"التي قدمها عميلك."
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
 "Information captured here are informative only and do not trigger or "
 "interact with any capability."
 msgstr ""
+"المعلومات الواردة هنا هي معلومات إرشادية فقط ولا تؤدي إلى تشغيل أي وظيفة أو "
+"التفاعل معها."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -653,7 +735,7 @@ msgstr ""
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_interim_situation_field_res_partner
 msgid "Interim Situation"
-msgstr ""
+msgstr "الوضع المؤقت"
 
 #. module: accounting_firm
 #: model:project.tags,name:accounting_firm.project_tags_22
@@ -672,7 +754,7 @@ msgstr ""
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_is_identity_document_request_field_documents_request_wizard
 msgid "Is Identity Document Request"
-msgstr ""
+msgstr "طلب وثيقة هوية"
 
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_closing_month_field_selection_1
@@ -709,7 +791,7 @@ msgstr ""
 #. module: accounting_firm
 #: model:ir.actions.server,name:accounting_firm.server_action_keep_scan_in_chatter
 msgid "Keep Scan in Chatter"
-msgstr ""
+msgstr "احتفظ بالصورة الممسوحة ضوئياً في الدردشة"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_aml_last_update_field_res_partner
@@ -734,12 +816,12 @@ msgstr "ربط CBE"
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
 msgid "Link Companies House"
-msgstr ""
+msgstr "رابط سجل الشركات"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
 msgid "Link FBD"
-msgstr ""
+msgstr "رابط FBD"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
@@ -752,11 +834,6 @@ msgid "Low"
 msgstr "منخفض"
 
 #. module: accounting_firm
-#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-msgid "Manage opportunities with the <strong>CRM App</strong>."
-msgstr "قم بإدارة الفرص باستخدام <strong>تطبيق إدارة علاقات العملاء</strong>."
-
-#. module: accounting_firm
 #: model:ir.model,name:accounting_firm.x_mandate_model
 msgid "Mandate"
 msgstr "توكيل"
@@ -764,7 +841,7 @@ msgstr "توكيل"
 #. module: accounting_firm
 #: model:ir.actions.act_window,name:accounting_firm.action_mandate_list_view
 msgid "Mandate list view"
-msgstr ""
+msgstr "عرض قائمة التفويضات"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_mandate_ids_field_res_partner
@@ -772,7 +849,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:accounting_firm.x_mandate_view_form
 #: model_terms:ir.ui.view,arch_db:accounting_firm.x_mandate_view_list
 msgid "Mandates"
-msgstr ""
+msgstr "التفويضات"
 
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_closing_month_field_selection_3
@@ -796,7 +873,7 @@ msgstr "متنوعة"
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_mission_expiration_date_field_res_partner
 msgid "Mission Expiration"
-msgstr ""
+msgstr "انتهاء المهمة"
 
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_interim_situation_field_selection_monthly
@@ -812,12 +889,12 @@ msgstr "الاسم"
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
 msgid "National Bank of Belgium"
-msgstr ""
+msgstr "البنك الوطني البلجيكي"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "Navigate to the AML tab to appreciate the last assessment performed."
-msgstr ""
+msgstr "انتقل إلى علامة تبويب AML لرؤية آخر تقييم تم إجراؤه."
 
 #. module: accounting_firm
 #: model:project.task.type,name:accounting_firm.project_task_type_1
@@ -895,7 +972,7 @@ msgstr ""
 #. module: accounting_firm
 #: model:ir.model.fields,help:accounting_firm.x_mandate_ids_field_res_partner
 msgid "Online platform mandates you have for this customer"
-msgstr ""
+msgstr "تفويضات المنصات الإلكترونية التي تمتلكها لهذا العميل"
 
 #. module: accounting_firm
 #: model:ir.actions.server,name:accounting_firm.parner_link_action
@@ -924,6 +1001,7 @@ msgstr "افتح <strong>تطبيق إدارة علاقات العملاء</stro
 msgid ""
 "Open the <strong>Contacts App</strong> and reach your new customer form."
 msgstr ""
+"افتح <strong>تطبيق جهات الاتصال</strong> وانتقل إلى استمارة العميل الجديد."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -972,6 +1050,14 @@ msgstr "افتح مهمة ” تأهيل العملاء الجدد“ لتحري
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
+"Open the Databases App to have your customer database metrics at your finger "
+"tips!"
+msgstr ""
+"افتح تطبيق قواعد البيانات حتى تصبح مقاييس قاعدة بيانات عملائك في متناول يديك!"
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "Open the Project App and click the Dashboard button from the top bar."
 msgstr "افتح تطبيق المشروع واضغط على زر لوحة البيانات من الشريط العلوي."
 
@@ -990,6 +1076,8 @@ msgid ""
 "Open the contact form of the company you have to handle this for, Second "
 "Company for example."
 msgstr ""
+"افتح استمارة التواصل الخاصة بالشركة التي عليك التعامل معها، على سبيل المثال "
+"الشركة الثانية."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1009,6 +1097,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "Open the the project you worked on."
 msgstr "افتح المشروع الذي عملت عليه."
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid "Open your new customer project settings."
+msgstr "افتح الإعدادات الخاصة بمشروع العميل الجديد."
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_mandate_parent_id_field_x_mandate
@@ -1087,7 +1180,7 @@ msgstr "الإيصال"
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_relation_nature_field_res_partner
 msgid "Relation Nature"
-msgstr ""
+msgstr "طبيعة العلاقة"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.document_request_wizard_form_view_inherited
@@ -1097,33 +1190,33 @@ msgstr "طلب"
 #. module: accounting_firm
 #: model:ir.actions.server,name:accounting_firm.server_action_request_document_with_chatter_message
 msgid "Request Document with Chatter Message"
-msgstr ""
+msgstr "طلب مستند عن طريق إرسال رسالة دردشة"
 
 #. module: accounting_firm
 #: model:ir.actions.server,name:accounting_firm.action_server_request_identity_document
 msgid "Request Identity Document"
-msgstr ""
+msgstr "طلب مستند الهوية"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_reviewer_ids_field_project_project
 msgid "Reviewers"
-msgstr ""
+msgstr "المراجعون"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_name_field_x_aml_risk_type
 #: model:ir.model.fields,field_description:accounting_firm.x_risk_type_field_x_aml_risk
 msgid "Risk"
-msgstr ""
+msgstr "الخطر"
 
 #. module: accounting_firm
 #: model:ir.model,name:accounting_firm.x_aml_risk_type_model
 msgid "Risk Type"
-msgstr ""
+msgstr "نوع الخطر"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_risk_ids_field_res_partner
 msgid "Risks"
-msgstr ""
+msgstr "المخاطر"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1163,7 +1256,7 @@ msgstr ""
 msgid ""
 "Sending a document request creates an activity for you to follow up without "
 "mental load!"
-msgstr ""
+msgstr "يؤدي إرسال طلب مستند إلى إنشاء نشاط ستتمكن من تتبعه دون أي جهد يُذكر!"
 
 #. module: accounting_firm
 #: model:planning.role,name:accounting_firm.planning_role_1
@@ -1267,6 +1360,15 @@ msgstr ""
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid ""
+"The Databases App comes with capabilities to efficiently manage tasks, "
+"access rights and more!"
+msgstr ""
+"يتميز تطبيق ”قواعد البيانات“ بوظائف فعالة لمساعدة المستخدمين على إدارة "
+"المهام وصلاحيات الوصول وغير ذلك الكثير!"
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
 "The documents sent to the email alias of this project will arrive in the "
 "root folder of the project. This can be considered as an inbox while sub "
 "folders contain treated documents in an organized fashion."
@@ -1299,6 +1401,8 @@ msgid ""
 "and open the settings of the project, clicking the three dots in the top "
 "right corner of the corresponding tile."
 msgstr ""
+"لتعيين مدير المشروع ومساعده والمراجع، اذهب إلى تطبيق المشاريع وافتح إعدادات "
+"المشروع، ثم اضغط على النقاط الثلاث الموجودة أعلى يمين المربع."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1345,18 +1449,18 @@ msgstr "سجل المالكين المستفيدين النهائيين (حزم�
 #. module: accounting_firm
 #: model:ir.actions.server,name:accounting_firm.server_action_update_document_partner_identity
 msgid "Update Document Partner ID"
-msgstr ""
+msgstr "تحديث معرف شريك المستند"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.document_document_kanban_view_inherited
 msgid "Update Identity Document"
-msgstr ""
+msgstr "تحديث مستند الهوية"
 
 #. module: accounting_firm
 #: model:ir.actions.server,name:accounting_firm.server_action_update_owner_id
 #: model_terms:ir.ui.view,arch_db:accounting_firm.equity_ubo_form_view_inherited
 msgid "Update Owner ID"
-msgstr ""
+msgstr "تحديث هوية المالك"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1364,11 +1468,12 @@ msgid ""
 "Update the captured insights as you need and then update the last update "
 "date."
 msgstr ""
+"قم بتحديث الآراء التي حصلت عليها حسب حاجتك ثم قم بتحديث تاريخ آخر تحديث."
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_vat_declaration_recurrence_field_res_partner
 msgid "VAT Declaration Recurrence"
-msgstr ""
+msgstr "تكرار إقرار ضريبة القيمة المضافة"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1386,6 +1491,8 @@ msgid ""
 "When filling in the identity document expiration date, you can leverage the "
 "contacts filter \"Expired IDs\" to efficiently find the IDs to update!"
 msgstr ""
+"عند ملء تاريخ انتهاء صلاحية مستند الهوية، يمكنك استخدام فلتر جهات الاتصال "
+"\"بطاقات الهوية منتهية الصلاحية\" للعثور على بطاقات الهوية التي عليك تحديثها!"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1393,6 +1500,8 @@ msgid ""
 "When the document is available, reach the contact ID tab to fill in the "
 "contact details."
 msgstr ""
+"عندما يكون المستند متاحًا، انتقل إلى علامة تبويب \"معرف جهة الاتصال\" لملء "
+"تفاصيل جهة الاتصال."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1402,6 +1511,9 @@ msgid ""
 "customer onboarding actions or folder architecture so that you save time in "
 "the future."
 msgstr ""
+"عندما تقوم بتأكيد أمر بيع، اعلم أن المشروع المكرر محدد في المنتج الذي قمت "
+"ببيعه. يمكنك تعديل المشروع ليتم ضبط القائمة الخاصة بإجراءات تأهيل العميل "
+"للعمل أو بنية المجلدات حتى تتمكن من توفير الوقت في المستقبل."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1597,7 +1709,7 @@ msgstr "﻿🎓 إدارة علاقات العملاء"
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿🎓 Contacts﻿"
-msgstr ""
+msgstr "﻿🎓 جهات الاتصال﻿"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1637,12 +1749,12 @@ msgstr "👋 الترحيب بالعملاء المحتملين"
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "💵 Billing your efforts"
-msgstr ""
+msgstr "💵 قم بفوترة الوقت والجهد المبذولين"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "💸 Anti-Money Laundering"
-msgstr ""
+msgstr "💸 مكافحة غسل الأموال"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1656,13 +1768,44 @@ msgstr "📜 الوصول إلى نقطة ”الانطلاق”"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid "📬 Follow up on your customer database"
+msgstr "📬 تابع قاعدة بيانات عملائك"
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "🗂️ Document management"
-msgstr ""
+msgstr "🗂️ إدارة المستند"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "🧮 Ultimate beneficial owners' hunt"
 msgstr "🧮 البحث عن المالكين المستفيدين النهائيين"
+
+#~ msgid ""
+#~ "Bill easily and manage your accounts with the <strong>Accounting App</"
+#~ "strong>."
+#~ msgstr ""
+#~ "تمكن من إدارة حساباتك بسهولة باستخدام <strong>تطبيق المحاسبة</strong>."
+
+#~ msgid "Follow up on missions leveraging the <strong>Project App</strong>."
+#~ msgstr "تابع مهامك باستخدام <strong>تطبيق إدارة المشاريع</strong>."
+
+#~ msgid ""
+#~ "Generate quote and manage sale order from the <strong>Sales App</strong>."
+#~ msgstr ""
+#~ "قم بإنشاء عروض الأسعار وإدارة أوامر البيع من <strong>تطبيق المبيعات</"
+#~ "strong>."
+
+#~ msgid ""
+#~ "Have a central repository for requested documents in<strong> Documents "
+#~ "App</strong>."
+#~ msgstr ""
+#~ "قم بإنشاء مستودع مركزي للوثائق المطلوبة في <strong>تطبيق المستندات</"
+#~ "strong>."
+
+#~ msgid "Manage opportunities with the <strong>CRM App</strong>."
+#~ msgstr ""
+#~ "قم بإدارة الفرص باستخدام <strong>تطبيق إدارة علاقات العملاء</strong>."
 
 #~ msgid "<strong>Requesting UBO</strong>"
 #~ msgstr "<strong>جاري طلبب المالك المستفيد النهائي (UBO)</strong>"

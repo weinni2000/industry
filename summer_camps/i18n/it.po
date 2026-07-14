@@ -4,13 +4,14 @@
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
+# "Marianna Ciofani (cima)" <cima@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 09:34+0000\n"
-"PO-Revision-Date: 2025-09-18 03:01+0000\n"
-"Last-Translator: \"Tiffany Chang (tic)\" <tic@odoo.com>\n"
+"POT-Creation-Date: 2026-03-17 19:46+0000\n"
+"PO-Revision-Date: 2026-03-19 08:32+0000\n"
+"Last-Translator: \"Marianna Ciofani (cima)\" <cima@odoo.com>\n"
 "Language-Team: Italian <https://translate.odoo.com/projects/odoo-19/"
 "summer_camps/it/>\n"
 "Language: it\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
@@ -83,6 +84,16 @@ msgid ""
 msgstr ""
 "<a href=\"#\" class=\"btn btn-secondary o_translate_inline\">Scopri di più</"
 "a>"
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+#, fuzzy
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
+msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">💡</i>"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
@@ -198,6 +209,72 @@ msgstr ""
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
 msgid ""
+"<strong><b>Appointments App</b>:</strong> Let families book meetings to "
+"discuss camp options easily, reducing no-shows with automatic reminders.<br/>"
+msgstr ""
+"<strong><b>Appuntamenti</b>:</strong> permetti alle famiglie di prenotare "
+"meeting per parlare facilmente delle opzioni disponibili così da ridurre i "
+"no-show con promemoria automatici.<br/>"
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid ""
+"<strong><b>CRM App</b>: </strong>Capture inquiries from your website, "
+"qualify leads in a visual pipeline, and convert interest into confirmed "
+"bookings.<br/>"
+msgstr ""
+"<strong><b>CRM</b>: </strong>acquisisci le richieste dal sito web, qualifica "
+"i lead in una pipeline visiva e converti l'interesse in prenotazioni.<br/>"
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid ""
+"<strong><b>Events App</b>: </strong>Create and manage every camp session "
+"with custom forms, capacity tracking, and automated emails to keep parents "
+"informed.<br/>"
+msgstr ""
+"<strong><b>Eventi</b>: </strong>crea e gestisci ogni sessione di campeggio "
+"tramite moduli personalizzati, monitoraggio della capacità ed e-mail "
+"automatizzate per informare regolarmente i genitori.<br/>"
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid ""
+"<strong><b>Projects App</b>: </strong>Organize the behind-the-scenes "
+"logistics using task lists and deadlines to ensure every activity is "
+"prepared to perfection.<br/>"
+msgstr ""
+"<strong><b>Progetti</b>: </strong>organizza la logistica dietro le quinte "
+"utilizzando un elenco di attività da portare a termine con le relative date "
+"di scadenza per assicurarti che ogni attività venga preparata in modo "
+"perfetto.<br/>"
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid ""
+"<strong><b>Sign App</b>: </strong>Collect parental consent securely with "
+"reusable digital signature templates, ensuring all legal documents are "
+"signed and stored centrally.<br/>"
+msgstr ""
+"<strong><b>Firma</b>: </strong>raccogli i moduli di consenso dei genitori in "
+"modo sicuro grazie a modelli di firma digitali riutilizzabili così da "
+"assicurarti che tutti i documenti legali siano stati firmati e conservati."
+"<br/>"
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid ""
+"<strong><b>Website App</b>: </strong>Showcase your camps online with mobile-"
+"friendly pages, integrated registration, and secure payment processing to "
+"boost enrollments.<br/>"
+msgstr ""
+"<strong><b>Sito web</b>: </strong>illustra le opzioni di campeggio online "
+"con pagine mobile-friendly, registrazioni integrate e pagamenti sicuri per "
+"aumentare le iscrizioni.<br/>"
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid ""
 "<strong>Accounting 📈</strong>: Handle invoicing, revenue tracking, and full "
 "financial reporting in one place."
 msgstr ""
@@ -213,18 +290,6 @@ msgstr ""
 "<strong>Aggiungi tag personalizzati</strong> come “Campeggio IT,” "
 "“Prenotazione di gruppo” o “Bisogni speciali” per filtrare e segmentare i "
 "lead"
-
-#. module: summer_camps
-#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-msgid ""
-"<strong>Appointments 📅 :</strong>Let families book meetings to discuss camp "
-"options, sync your team’s calendars, and reduce no-shows with automatic "
-"reminders and structured scheduling."
-msgstr ""
-"<strong>Appuntamenti 📅 :</strong>permetti alle famiglie di prenotare "
-"meeting per parlare delle varie opzioni del campeggio, sincronizzare i "
-"calendari dei membri del team e ridurre i no-show con promemoria automatici "
-"e una programmazione strutturata"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
@@ -257,17 +322,6 @@ msgid ""
 msgstr ""
 "<strong>L'integrazione dei pagamenti</strong> permette transazioni regolari "
 "e sicure."
-
-#. module: summer_camps
-#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-msgid ""
-"<strong>CRM 🎯 :</strong>Capture inquiries from your website, organize and "
-"qualify leads in a visual pipeline, assign sales tasks, and convert interest "
-"into bookings with quotations and notes tracking."
-msgstr ""
-"<strong>CRM 🎯 :</strong>cattura le richieste dal tuo sito web, organizza e "
-"qualifica i lead in una pipeline visiva, assegna compiti di vendita e "
-"converti l'interesse in prenotazioni con preventivi e tracciamento delle note"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
@@ -321,6 +375,11 @@ msgstr ""
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid "<strong>Customized pricing per attendee</strong>"
+msgstr "<strong>Prezzi personalizzati per partecipante</strong>"
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
 msgid ""
 "<strong>Drag and drop signature, text, and date fields</strong> to collect "
 "all necessary information (e.g., emergency contact, medical permissions)."
@@ -337,18 +396,6 @@ msgid ""
 msgstr ""
 "<strong>Marketing e-mail 🌟</strong>: promuovi i prossimi campeggi o invia "
 "comunicazioni di follow-up"
-
-#. module: summer_camps
-#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-msgid ""
-"<strong>Events 🏨 :</strong>Create and manage every camp session with custom "
-"forms, pricing, capacity, tags, attendee tracking, automated emails, and a "
-"live check-in desk—all in one central app."
-msgstr ""
-"<strong>Eventi 🏨 :</strong>crea e gestisci ogni sessione di campeggio con "
-"moduli personalizzati, prezzi, capienza, tag, monitoraggio dei partecipanti, "
-"e-mail automatiche e un banco check-in live, il tutto in un'unica app "
-"centralizzata"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
@@ -427,17 +474,6 @@ msgstr ""
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-msgid ""
-"<strong>Projects 📋 :</strong>Organize the behind-the-scenes work of each "
-"camp using task lists, deadlines, assignments, and logistics tracking to "
-"ensure smooth preparation and coordination."
-msgstr ""
-"<strong>Progetti 📋 :</strong>organizza il lavoro dietro le quinte di ogni "
-"campeggio utilizzando elenchi di lavori, scadenze, incarichi e monitoraggio "
-"logistico per garantire una preparazione e un coordinamento senza problemi"
-
-#. module: summer_camps
-#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
 msgid "<strong>Projects 📋</strong>"
 msgstr "<strong>Progetti 📋</strong>"
 
@@ -449,17 +485,6 @@ msgid ""
 msgstr ""
 "<strong>Pianifica meeting o chiamate</strong> direttamente dal CRM e "
 "sincronizza il tutto con il tuo calendario"
-
-#. module: summer_camps
-#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-msgid ""
-"<strong>Sign ✍️ :</strong>Collect parental consent securely with reusable "
-"digital signature templates, embedded links in confirmation emails, and "
-"centralized access to signed documents."
-msgstr ""
-"<strong>Firma ✍️ :</strong>ottieni il consenso dei genitori in modo sicuro "
-"con modelli di firma digitale riutilizzabili, link incorporati nelle e-mail "
-"di conferma e accesso centralizzato ai documenti firmati."
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
@@ -509,18 +534,6 @@ msgstr "<strong>Visita la nostra piattaforma E-learning </strong>su"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-msgid ""
-"<strong>Website 🌐 :</strong>Showcase your camps online with dedicated "
-"pages, integrated registration, mobile-friendly design, and secure payment—"
-"all from a visually engaging and parent-friendly website."
-msgstr ""
-"<strong>Sito web 🌐 :</strong>presenta i campeggi online con pagine "
-"dedicate, registrazioni integrate, design ottimizzato per dispositivi mobili "
-"e pagamenti sicuri, il tutto da un sito web visivamente accattivante e "
-"intuitivo per i genitori"
-
-#. module: summer_camps
-#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
 msgid "<strong>Website 🌐</strong>"
 msgstr "<strong>Sito web 🌐</strong>"
 
@@ -567,6 +580,11 @@ msgstr ""
 #: model:event.tag.category,name:summer_camps.event_tag_category_3
 msgid "Accommodation"
 msgstr "Alloggio"
+
+#. module: summer_camps
+#: model:base.automation,name:summer_camps.add_product_on_so
+msgid "Add product on SO"
+msgstr "Aggiungi prodotto all'OdV"
 
 #. module: summer_camps
 #: model:crm.tag,name:summer_camps.crm_tag_29
@@ -862,6 +880,11 @@ msgstr ""
 "                                        <br/>"
 
 #. module: summer_camps
+#: model:ir.model.fields,field_description:summer_camps.field_x_event_product_event_question_answer
+msgid "Event Product"
+msgstr "Prodotto evento"
+
+#. module: summer_camps
 #: model_terms:product.public.category,website_description:summer_camps.product_public_category_1
 msgid "Explore thrilling activities that ignite excitement and teamwork."
 msgstr ""
@@ -1023,6 +1046,15 @@ msgstr ""
 "documento condiviso del modulo di consenso dall'app Firma."
 
 #. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid ""
+"It is also possible to customize the attendance pricing based on the options "
+"an attendee selects during the registration process."
+msgstr ""
+"È inoltre possibile personalizzare il prezzo di partecipazione in base alle "
+"opzioni selezionate dal partecipante durante il processo di registrazione."
+
+#. module: summer_camps
 #: model:crm.tag,name:summer_camps.crm_tag_20
 msgid "July"
 msgstr "Luglio"
@@ -1035,6 +1067,11 @@ msgid ""
 msgstr ""
 "Attenzione, una volta installati i dati demo, non sarà possibile rimuoverli "
 "facilmente. Tuttavia, puoi inizializzare un nuovo database su"
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.camps_button
+msgid "Learn More <i class=\"fa fa-chevron-right\"/>"
+msgstr "Scopri di più <i class=\"fa fa-chevron-right\"/>"
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_1
@@ -1479,6 +1516,27 @@ msgstr ""
 "registrazione senza problemi."
 
 #. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid ""
+"These are defined in the questions. To associate a product to a response, "
+"set the question type to \"<strong>Selection</strong>\". Following that, set "
+"a new or existing product in the \"Event Product\" column."
+msgstr ""
+"Questi sono definiti nelle domande. Per associare un prodotto a una "
+"risposta, imposta il tipo di domanda su \"<strong>Selezione</strong>\". "
+"Successivamente, imposta un prodotto nuovo o esistente nella colonna "
+"\"Prodotto evento\"."
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid ""
+"These should now both appear during the payment process, and in the Sales "
+"Order that's associated to the attendee registration."
+msgstr ""
+"Questi dovrebbero ora apparire sia durante il processo di pagamento, sia "
+"nell'Ordine di vendita associato alla registrazione del partecipante."
+
+#. module: summer_camps
 #: model:project.task.type,name:summer_camps.project_task_type_1
 msgid "To do"
 msgstr "Da fare"
@@ -1691,6 +1749,16 @@ msgstr ""
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
 msgid ""
+"You can also export all answers in bulk in a template by opening the "
+"template, then clicking the gear icon, then \"Export Answers\"."
+msgstr ""
+"È anche possibile esportare tutte le risposte in blocco in un modello "
+"aprendo il modello, quindi facendo clic sull'icona a forma di ingranaggio e "
+"infine su \"Esporta risposte\"."
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid ""
 "You can easily edit your email templates. Enter \"/\" to access special "
 "styling features, such as buttons, tables, bold, italics, links, and so on."
 msgstr ""
@@ -1721,6 +1789,11 @@ msgstr ""
 "Riceverai a breve un'e-mail di conferma con tutti i dettagli relativi al "
 "campeggio, comprese le date, il riepilogo dei pagamenti e una copia digitale "
 "della guida di benvenuto."
+
+#. module: summer_camps
+#: model:ir.actions.server,name:summer_camps.add_product_on_so_action
+msgid "add product on SO"
+msgstr "aggiungi il prodotto all'OdV"
 
 #. module: summer_camps
 #: model:event.tag,name:summer_camps.event_tag_2
@@ -2132,3 +2205,62 @@ msgstr "🧳 <strong>Lista di cosa portare</strong>"
 #: model_terms:event.type,ticket_instructions:summer_camps.event_type_1
 msgid "🧾 <strong>Medical &amp; Emergency Form</strong>"
 msgstr "🧾 <strong>Modulo medico e di emergenza</strong>"
+
+#~ msgid ""
+#~ "<strong>Appointments 📅 :</strong>Let families book meetings to discuss "
+#~ "camp options, sync your team’s calendars, and reduce no-shows with "
+#~ "automatic reminders and structured scheduling."
+#~ msgstr ""
+#~ "<strong>Appuntamenti 📅 :</strong>permetti alle famiglie di prenotare "
+#~ "meeting per parlare delle varie opzioni del campeggio, sincronizzare i "
+#~ "calendari dei membri del team e ridurre i no-show con promemoria "
+#~ "automatici e una programmazione strutturata"
+
+#~ msgid ""
+#~ "<strong>CRM 🎯 :</strong>Capture inquiries from your website, organize "
+#~ "and qualify leads in a visual pipeline, assign sales tasks, and convert "
+#~ "interest into bookings with quotations and notes tracking."
+#~ msgstr ""
+#~ "<strong>CRM 🎯 :</strong>cattura le richieste dal tuo sito web, organizza "
+#~ "e qualifica i lead in una pipeline visiva, assegna compiti di vendita e "
+#~ "converti l'interesse in prenotazioni con preventivi e tracciamento delle "
+#~ "note"
+
+#~ msgid ""
+#~ "<strong>Events 🏨 :</strong>Create and manage every camp session with "
+#~ "custom forms, pricing, capacity, tags, attendee tracking, automated "
+#~ "emails, and a live check-in desk—all in one central app."
+#~ msgstr ""
+#~ "<strong>Eventi 🏨 :</strong>crea e gestisci ogni sessione di campeggio "
+#~ "con moduli personalizzati, prezzi, capienza, tag, monitoraggio dei "
+#~ "partecipanti, e-mail automatiche e un banco check-in live, il tutto in "
+#~ "un'unica app centralizzata"
+
+#~ msgid ""
+#~ "<strong>Projects 📋 :</strong>Organize the behind-the-scenes work of each "
+#~ "camp using task lists, deadlines, assignments, and logistics tracking to "
+#~ "ensure smooth preparation and coordination."
+#~ msgstr ""
+#~ "<strong>Progetti 📋 :</strong>organizza il lavoro dietro le quinte di "
+#~ "ogni campeggio utilizzando elenchi di lavori, scadenze, incarichi e "
+#~ "monitoraggio logistico per garantire una preparazione e un coordinamento "
+#~ "senza problemi"
+
+#~ msgid ""
+#~ "<strong>Sign ✍️ :</strong>Collect parental consent securely with reusable "
+#~ "digital signature templates, embedded links in confirmation emails, and "
+#~ "centralized access to signed documents."
+#~ msgstr ""
+#~ "<strong>Firma ✍️ :</strong>ottieni il consenso dei genitori in modo sicuro "
+#~ "con modelli di firma digitale riutilizzabili, link incorporati nelle e-"
+#~ "mail di conferma e accesso centralizzato ai documenti firmati."
+
+#~ msgid ""
+#~ "<strong>Website 🌐 :</strong>Showcase your camps online with dedicated "
+#~ "pages, integrated registration, mobile-friendly design, and secure payment"
+#~ "—all from a visually engaging and parent-friendly website."
+#~ msgstr ""
+#~ "<strong>Sito web 🌐 :</strong>presenta i campeggi online con pagine "
+#~ "dedicate, registrazioni integrate, design ottimizzato per dispositivi "
+#~ "mobili e pagamenti sicuri, il tutto da un sito web visivamente "
+#~ "accattivante e intuitivo per i genitori"

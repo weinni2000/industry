@@ -7,22 +7,23 @@
 # Wil Odoo, 2024
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
+# "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 11:57+0000\n"
-"PO-Revision-Date: 2025-10-24 03:00+0000\n"
-"Last-Translator: \"Dylan Kiss (dyki)\" <dyki@odoo.com>\n"
+"POT-Creation-Date: 2026-06-12 18:15+0000\n"
+"PO-Revision-Date: 2026-06-06 14:58+0000\n"
+"Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@odoo.com>\n"
 "Language-Team: Spanish <https://translate.odoo.com/projects/odoo-19/"
 "hardware_shop/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
-" ? 1 : 2);\n"
-"X-Generator: Weblate 5.12.2\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
+"0) ? 1 : 2);\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: hardware_shop
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
@@ -95,8 +96,8 @@ msgid ""
 msgstr ""
 "Un <strong><span style=\"color: #875A7B;\">sitio web</span></strong> "
 "gratuito, personalizado e integrado en unos pocos clics. Comience a recibir "
-"pedidos directamente en Odoo o habilite su <strong><span style="
-"\"color: #875A7B;\">tienda en línea</span></strong> en tan solo unos minutos."
+"pedidos directamente en Odoo o habilite su <strong><span style=\"color: "
+"#875A7B;\">tienda en línea</span></strong> en tan solo unos minutos."
 
 #. module: hardware_shop
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
@@ -150,8 +151,9 @@ msgid ""
 "date you expect the shipment to be made."
 msgstr ""
 "Planifique el envío para después en caso de que no tenga suficientes "
-"productos disponibles. En la pantalla de pago puede seleccionar el botón “"
-"Enviar más tarde” y proporcionar la fecha en la que espera realizar el envío."
+"productos disponibles. En la pantalla de pago puede seleccionar el botón "
+"“Enviar más tarde” y proporcionar la fecha en la que espera realizar el "
+"envío."
 
 #. module: hardware_shop
 #: model:product.template,name:hardware_shop.product_template_100
@@ -162,11 +164,6 @@ msgstr "Impermeabilizante Asian"
 #: model:product.template,name:hardware_shop.product_template_102
 msgid "BIRLA (arc) WALL PUTTY RAFF (MF) 40 kg"
 msgstr "MASILLA ACRÍLICA (MF) PARA PAREDES BIRLA (arc) 40 kg"
-
-#. module: hardware_shop
-#: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
-msgid "Basics"
-msgstr "Básicos"
 
 #. module: hardware_shop
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
@@ -203,16 +200,6 @@ msgid "CP-Bath"
 msgstr "Baño CP"
 
 #. module: hardware_shop
-#: model:pos.payment.method,name:hardware_shop.pos_payment_method_1
-msgid "Cash"
-msgstr "Efectivo"
-
-#. module: hardware_shop
-#: model:account.journal,name:hardware_shop.cash
-msgid "Cash (Hardware shop)"
-msgstr "Efectivo (ferretería)"
-
-#. module: hardware_shop
 #: model:pos.category,name:hardware_shop.pos_category_4
 msgid "Chemical"
 msgstr "Químicos"
@@ -233,16 +220,6 @@ msgid "Color"
 msgstr "Color"
 
 #. module: hardware_shop
-#: model:pos.payment.method,name:hardware_shop.pos_payment_method_2
-msgid "Customer Account"
-msgstr "Cuenta de cliente"
-
-#. module: hardware_shop
-#: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
-msgid "Deliver your products"
-msgstr "Entregar sus productos"
-
-#. module: hardware_shop
 #: model:product.attribute,name:hardware_shop.product_attribute_5
 msgid "Design"
 msgstr "Diseño"
@@ -260,7 +237,7 @@ msgstr "Descubra más sobre Odoo en nuestra"
 #. module: hardware_shop
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
 msgid "Do you want to go further?"
-msgstr "¿Quiere llegar más lejos?"
+msgstr "¿Quieres saber más?"
 
 #. module: hardware_shop
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
@@ -278,11 +255,13 @@ msgstr "Muebles y accesorios"
 #: code:addons/hardware_shop/static/src/js/my_tour.js:0
 msgid "Get on track and explore our recommendations for your Odoo usage here!"
 msgstr ""
+"¡Ponte al día y explora nuestras recomendaciones para sacarle más partido a "
+"Odoo!"
 
 #. module: hardware_shop
 #: model:product.template,name:hardware_shop.product_template_7
 msgid "Gift Card"
-msgstr "Tarjeta de regalo"
+msgstr "Tarjeta regalo"
 
 #. module: hardware_shop
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
@@ -301,14 +280,14 @@ msgid ""
 "            Discover the basics of this package and explore all the "
 "possibilities Odoo offers to improve your experience."
 msgstr ""
-"Hola.\n"
+"Hola:\n"
 "            <br/><br/>\n"
-"            Acaba de instalar el paquete Odoo para ferreterías y con él "
-"instalamos varias aplicaciones necesarias para que pueda gestionar su tienda "
-"eficientemente.\n"
+"            Acabas de instalar el paquete de Odoo para ferreterías. Al "
+"hacerlo, hemos instalado un conjunto de aplicaciones necesarias para que "
+"puedas gestionar tu tienda de manera eficiente.\n"
 "            <br/><br/>\n"
-"            Descubra las funciones básicas de este paquete y explore todas "
-"las posibilidades que Odoo le ofrece para mejorar su experiencia."
+"            Descubre las funciones básicas de este paquete y explora todas "
+"las posibilidades que Odoo te ofrece para mejorar tu experiencia."
 
 #. module: hardware_shop
 #: model:product.attribute.value,name:hardware_shop.product_attribute_value_7
@@ -371,9 +350,9 @@ msgstr ""
 "Gestione todos sus canales de comunicación en un solo lugar con las "
 "aplicaciones <strong><span style=\"color: #875A7B;\">Automatización de "
 "marketing</span></strong>, <strong><span style=\"color: #875A7B;\">Marketing "
-"por correo electrónico</span></strong>, <strong><span style="
-"\"color: #875A7B;\">Marketing social</span></strong> y <strong><span style="
-"\"color: #875A7B;\">Marketing por SMS</span></strong> de Odoo."
+"por correo electrónico</span></strong>, <strong><span style=\"color: #875A7B;"
+"\">Marketing social</span></strong> y <strong><span style=\"color: #875A7B;"
+"\">Marketing por SMS</span></strong> de Odoo."
 
 #. module: hardware_shop
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
@@ -383,8 +362,8 @@ msgid ""
 "strong>)"
 msgstr ""
 "Gestione su contabilidad con mayor facilidad gracias a un entorno "
-"completamente integrado. (<strong><span style=\"color: #875A7B;\""
-">Contabilidad</span></strong>)"
+"completamente integrado. (<strong><span style=\"color: #875A7B;"
+"\">Contabilidad</span></strong>)"
 
 #. module: hardware_shop
 #: model:product.template,name:hardware_shop.product_template_70
@@ -417,8 +396,8 @@ msgid ""
 msgstr ""
 "Considere que si necesita que el cliente pague la entrega, entonces puede "
 "crear un producto de entrega y añadirlo a su cesta. En esta demostración "
-"puede utilizar “Entrega del TPV” para añadir un precio de entrega de 5,00 € ("
-"no incluye impuestos)."
+"puede utilizar “Entrega del TPV” para añadir un precio de entrega de 5,00 € "
+"(no incluye impuestos)."
 
 #. module: hardware_shop
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
@@ -441,7 +420,7 @@ msgstr ""
 #. module: hardware_shop
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
 msgid "Odoo offers you infinite possibilities, such as:"
-msgstr "Odoo le ofrece posibilidades infinitas, como:"
+msgstr "Odoo te ofrece infinitas posibilidades, tales como:"
 
 #. module: hardware_shop
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
@@ -467,11 +446,6 @@ msgstr ""
 "vez."
 
 #. module: hardware_shop
-#: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
-msgid "Order from the sales application"
-msgstr "Pedir desde la aplicación Ventas"
-
-#. module: hardware_shop
 #: model:product.template,name:hardware_shop.product_pos_delivery_product_template
 msgid "POS delivery"
 msgstr "Entrega del TPV"
@@ -482,16 +456,6 @@ msgid "Pioneer PVC Adhesive"
 msgstr "Cemento para PVC Pioneer"
 
 #. module: hardware_shop
-#: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
-msgid "Point of Sale, customer management"
-msgstr "Punto de venta: gestión de clientes"
-
-#. module: hardware_shop
-#: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
-msgid "Point of Sale, ship later"
-msgstr "Punto de venta: enviar más tarde"
-
-#. module: hardware_shop
 #: model:product.pricelist,name:hardware_shop.product_pricelist_2
 msgid "Pricelist For Local Customer"
 msgstr "Lista de precios para clientes locales"
@@ -500,11 +464,6 @@ msgstr "Lista de precios para clientes locales"
 #: model:product.pricelist,name:hardware_shop.product_pricelist_1
 msgid "Pricelist For Special Customer"
 msgstr "Lista de precios para clientes especiales"
-
-#. module: hardware_shop
-#: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
-msgid "Purchase products"
-msgstr "Comprar productos"
 
 #. module: hardware_shop
 #: model:product.attribute,name:hardware_shop.product_attribute_brand
@@ -595,7 +554,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
 msgid ""
 "These all go free in your current subscription; feel free to explore! 😊"
-msgstr "Todo esto está incluido en su suscripción actual, no dude en explorar 😊"
+msgstr ""
+"Todo esto está incluido en tu suscripción actual. ¡Échale un vistazo! 😊"
 
 #. module: hardware_shop
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
@@ -654,8 +614,8 @@ msgid ""
 msgstr ""
 "Utilice la aplicación <strong><span style=\"color: #875A7B;\">Ventas</span></"
 "strong> para crear presupuestos y pedidos de venta para sus clientes, luego "
-"factúrelos en cualquier momento con la aplicación <strong><span style="
-"\"color: #875A7B;\">Facturación</span></strong>."
+"factúrelos en cualquier momento con la aplicación <strong><span "
+"style=\"color: #875A7B;\">Facturación</span></strong>."
 
 #. module: hardware_shop
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
@@ -681,7 +641,7 @@ msgstr ""
 #. module: hardware_shop
 #: model_terms:web_tour.tour,rainbow_man_message:hardware_shop.knowledge_tour
 msgid "Welcome! Happy exploring."
-msgstr "¡Bienvenido! Disfrute del sitio."
+msgstr "¡Te damos la bienvenida! Disfruta explorando."
 
 #. module: hardware_shop
 #: model:product.attribute.value,name:hardware_shop.product_attribute_value_4
@@ -691,7 +651,9 @@ msgstr "Blanco"
 #. module: hardware_shop
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
 msgid "Would you like to discuss your Odoo setup with us or go even further?"
-msgstr "¿Le gustaría que le ayudemos con su configuración de Odoo?"
+msgstr ""
+"¿Quieres que te ayudemos con la configuración de Odoo o a explorar otras "
+"posibilidades?"
 
 #. module: hardware_shop
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
@@ -738,9 +700,8 @@ msgid ""
 "You completed that demo use case! There are millions of other ways to adapt "
 "your Odoo setup to fit your business needs."
 msgstr ""
-"Ha completado este caso de uso de demostración. Hay miles de formas de "
-"adaptar la configuración de Odoo para ajustarse a las necesidades "
-"específicas de su empresa."
+"¡Has acabado el caso de uso de demostración! Hay miles de formas de adaptar "
+"tu configuración de Odoo para ajustarla a las necesidades de tu negocio."
 
 #. module: hardware_shop
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
@@ -763,7 +724,7 @@ msgstr ""
 #. module: hardware_shop
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
 msgid "academy"
-msgstr "academia"
+msgstr "Odoo academy"
 
 #. module: hardware_shop
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
@@ -784,3 +745,30 @@ msgstr "si necesita ayuda."
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
 msgid "request a demo"
 msgstr "solicitar una demostración"
+
+#~ msgid "Cash"
+#~ msgstr "Efectivo"
+
+#~ msgid "Cash (Hardware shop)"
+#~ msgstr "Efectivo (ferretería)"
+
+#~ msgid "Customer Account"
+#~ msgstr "Cuenta de cliente"
+
+#~ msgid "Basics"
+#~ msgstr "Básicos"
+
+#~ msgid "Deliver your products"
+#~ msgstr "Entregar sus productos"
+
+#~ msgid "Order from the sales application"
+#~ msgstr "Pedir desde la aplicación Ventas"
+
+#~ msgid "Point of Sale, customer management"
+#~ msgstr "Punto de venta: gestión de clientes"
+
+#~ msgid "Point of Sale, ship later"
+#~ msgstr "Punto de venta: enviar más tarde"
+
+#~ msgid "Purchase products"
+#~ msgstr "Comprar productos"

@@ -9,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 13:19+0000\n"
-"PO-Revision-Date: 2025-11-17 11:16+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-04-10 19:42+0000\n"
+"PO-Revision-Date: 2025-12-11 08:32+0000\n"
+"Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@odoo.com>\n"
 "Language-Team: Korean <https://translate.odoo.com/projects/odoo-19/"
 "sport_events/ko/>\n"
 "Language: ko\n"
@@ -19,17 +19,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: sport_events
 #: model:event.event.ticket,name:sport_events.event_event_ticket_4
 msgid "+ Cup"
 msgstr "+ 컵"
-
-#. module: sport_events
-#: model_terms:ir.ui.view,arch_db:sport_events.ir_ui_view_3140
-msgid "+1 555-555-5556"
-msgstr "+1 555-555-5556"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -291,74 +286,49 @@ msgstr "<strong>42K 와일드 마라톤</strong> — €40"
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid ""
-"<strong><font class=\"text-o-color-1\">CRM</font></strong>: Manage "
-"relationships with sponsors, partners, and key contacts."
+"<strong><font class=\"text-o-color-1\"><b>Contacts App</b>:</font></"
+"strong>Maintain a database of teams, athletes, sponsors, and volunteers to "
+"streamline communication and coordination.<br/>"
 msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid ""
-"<strong><font class=\"text-o-color-1\">Documents</font></strong>: Centralize "
-"spreadsheets and materials checklists."
-msgstr ""
-"<strong><font class=\"text-o-color-1\">문서</font></strong>: 스프레드시트와 "
-"장비 체크리스트를 한곳에서 관리하세요."
-
-#. module: sport_events
-#: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-msgid ""
-"<strong><font class=\"text-o-color-1\">Events</font></strong>: Plan and "
-"manage sport competitions, races, or tournaments."
+"<strong><font class=\"text-o-color-1\"><b>Email Marketing App</b>: </font></"
+"strong>Keep the excitement high by sending automated updates, newsletters, "
+"and reminders to attendees and participants.<br/>"
 msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid ""
-"<strong><font class=\"text-o-color-1\">Inventory</font></strong>: Track "
-"sports gear, event equipment, merchandise, and manage stock of all materials."
+"<strong><font class=\"text-o-color-1\"><b>Events App</b>:</font></"
+"strong>Orchestrate tournaments and matches with ease, handling participant "
+"registrations, ticketing, and capacity management online.<br/>"
 msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid ""
-"<strong><font class=\"text-o-color-1\">Planning</font></strong>: Create "
-"staff schedules, assign roles, and manage shifts."
+"<strong><font class=\"text-o-color-1\"><b>Project App</b>: </font></"
+"strong>Manage the logistical setup of the event, assigning tasks to staff "
+"and volunteers to ensure the venue is ready on time."
 msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid ""
-"<strong><font class=\"text-o-color-1\">Project</font></strong>: Organize "
-"event planning, deadlines, and task responsibilities."
+"<strong><font class=\"text-o-color-1\"><b>Website App</b>: </font></"
+"strong>Build a dedicated event portal to publish schedules, results, and "
+"venue information for fans and athletes.<br/>"
 msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid ""
-"<strong><font class=\"text-o-color-1\">Purchase</font>: </strong>Order "
-"ravitaillement supplies, gear, equipment, and other essentials for sport "
-"events.<strong/><br/>"
-msgstr ""
-
-#. module: sport_events
-#: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-msgid ""
-"<strong><font class=\"text-o-color-1\">Sign</font></strong>: Digitally sign "
-"sponsorship agreements or volunteer forms."
-msgstr ""
-
-#. module: sport_events
-#: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-msgid ""
-"<strong><font class=\"text-o-color-1\">Survey</font></strong>: Gather "
-"feedback from participants, staff, and sponsors."
-msgstr ""
-
-#. module: sport_events
-#: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-msgid ""
-"<strong><font class=\"text-o-color-1\">Website</font></strong>: Promote "
-"events, sell tickets, and gather sponsorships online."
+"<strong><font class=\"text-o-color-1\"><b>eCommerce App</b>: </font></"
+"strong>Boost revenue by selling event merchandise, gear, and concessions "
+"directly through your event website.<br/>"
 msgstr ""
 
 #. module: sport_events
@@ -399,6 +369,9 @@ msgid ""
 "ravitaillement points) or to use them to demonstrate the event's impact on "
 "local tourism when negotiating new editions or funding."
 msgstr ""
+"<strong>응답 분석</strong>을 통해 향후 행사 개선 방안으로 활용하거나(예: 보"
+"충 지점 추가), 새로운 행사 개최 또는 자금 조달 협상 시 지역 관광에 미치는 효"
+"과를 보여주는 데 이용할 수 있습니다."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -560,6 +533,9 @@ msgid ""
 "there's a challenge for every level — from newcomers to experienced trail "
 "athletes.</strong>"
 msgstr ""
+"<strong>마레드수스 수도원 주변의 아름다운 숲과 언덕을 가로지르는 트레일 러닝"
+"을 즐기는 하루에 함께하세요. 세 가지 트랙으로 구성되어 초보자부터 전문 트레"
+"일 선수까지 모든 레벨에 맞게 준비되어 있습니다.</strong>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -588,6 +564,10 @@ msgid ""
 "em>, and <em>Equipment</em>. This helps you and your team find materials "
 "quickly when setting up for the event."
 msgstr ""
+"<strong>위치별 재고 정리 및 모니터링</strong>: Odoo에서 <em>제품 및 의류</"
+"em>, <em>라비토</em> 및 <em>장비</em>와 같이 보관 위치를 명확하게 지정하여 생"
+"성하세요. 이렇게 하면 팀에서 행사 준비 시 필요한 자재를 빨리 찾아낼 수 있습니"
+"다."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -662,6 +642,9 @@ msgid ""
 "levels. Example: Keep at least 200 gels in stock, and replenish up to 500 "
 "when you drop below the threshold."
 msgstr ""
+"<strong>재주문 규칙 설정</strong> 메뉴에서 최소 및 최대 재고 수준을 지정하세"
+"요. 예: 젤 품목에 대한 재고를 최소 200개 이상 유지하고, 기준치 미달로 떨어질 "
+"경우 최대 500개까지 보충합니다."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -781,6 +764,8 @@ msgid ""
 "such as emergency contact details or T-shirt size, so you collect all "
 "necessary information from participants during the registration process."
 msgstr ""
+"<em>행사</em> 앱의 등록 양식에 비상 연락처나 티셔츠 사이즈 등 구체적인 질문"
+"을 추가하세요. 등록 과정에서 참가자에 대해 필요한 모든 정보를 수집하세요."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -788,6 +773,9 @@ msgid ""
 "Add vendor lead times on each product to plan ahead. For example, if "
 "importing race medals takes 10 days, set that lead time so you order in time."
 msgstr ""
+"각 품목별로 공급업체 리드타임을 추가하여 사전에 계획을 완료해 보세요. 예를 들"
+"어, 레이스 메달을 입고받는 기간으로 10일이 소요된다면, 적시에 주문할 수 있도"
+"록 해당 리드타임을 설정하세요."
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
@@ -833,6 +821,9 @@ msgid ""
 "sponsors your trail race. They have a booth at the finish line where they "
 "sell running equipment and promote their latest trail gear."
 msgstr ""
+"<strong> </strong>스폰서 부스나 구역을 지정하세요. 예를 들어, Sports 회사는 "
+"트레일 레이스 스폰서입니다. 결승선에 부스를 설치하여 러닝 장비를 판매하고 최"
+"신 트레일 장비를 홍보합니다."
 
 #. module: sport_events
 #: model:product.pricelist,name:sport_events.product_pricelist_2
@@ -893,8 +884,9 @@ msgstr "건물 및 시설 건설 및 유지 보수 서비스"
 msgid ""
 "By uploading this module's demo data, your database has been filled with a "
 "few contacts."
-msgstr "이 모듈의 데모 데이터를 업로드하면 데이터베이스가 몇 개의 연락처로 "
-"채워집니다."
+msgstr ""
+"이 모듈의 데모 데이터를 업로드하면 데이터베이스가 몇 개의 연락처로 채워집니"
+"다."
 
 #. module: sport_events
 #: model:project.tags,name:sport_events.project_tags_11
@@ -989,6 +981,12 @@ msgid ""
 "finalizing contracts in <strong><font class=\"text-o-color-1\">Sign</font></"
 "strong>, add confirmed sponsors with their booth locations."
 msgstr ""
+"<strong> </strong><font class=\"text-o-color-1\"><strong>행사 앱</strong></"
+"font>에 모든 세부 정보(날짜, 장소, 티켓 종류, 수용 인원)를 입력하여 행사를 생"
+"성하세요. <font class=\"text-o-color-1\"><strong>CRM</strong></font>에서 스폰"
+"서십 계약 협상을 진행하고 <strong><font class=\"text-o-color-1\">전자 서명</"
+"font></strong>을 통해 계약을 확정한 후, 스폰서 확정 내용과 부스 위치를 추가하"
+"세요."
 
 #. module: sport_events
 #: model:product.template,name:sport_events.product_product_32_product_template
@@ -1161,8 +1159,9 @@ msgstr "젤"
 msgid ""
 "Get in touch with your customers to provide them with better service. You "
 "can modify the form fields to gather more precise information."
-msgstr "고객에게 연락하여 더 나은 서비스를 제공하세요. 양식 필드를 조정하여 보다 "
-"정확한 정보를 수집할 수 있습니다."
+msgstr ""
+"고객에게 연락하여 더 나은 서비스를 제공하세요. 양식 필드를 조정하여 보다 정확"
+"한 정보를 수집할 수 있습니다."
 
 #. module: sport_events
 #. odoo-javascript
@@ -1187,6 +1186,9 @@ msgid ""
 "back to you as quickly as possible. We’re here to help you have an amazing "
 "event experience."
 msgstr ""
+"궁금한 점이나 아이디어가 있으신가요? 혹은 도움이 필요하신가요? 저희 쪽으로 문"
+"의해 주세요. 최대한 빨리 답변해 드리겠습니다. 모든 분들이 최고의 행사를 경험"
+"하실 수 있도록 지원해 드립니다."
 
 #. module: sport_events
 #: model:survey.question,title:sport_events.survey_question_5
@@ -1409,6 +1411,9 @@ msgid ""
 "inventory and scheduling staff, Odoo empowers sports event professionals "
 "with fully integrated tools."
 msgstr ""
+"Odoo는 모든 운영 과정을 중앙 집중식으로 관리합니다. 행사 기획, 스폰서 및 파트"
+"너와의 작업 동기화, 재고 관리, 직원 스케줄 관리까지, Odoo는 스포츠 행사 전문"
+"가들이 완벽한 통합 도구로 활용할 수 있습니다."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1423,20 +1428,25 @@ msgid ""
 "delivering an unforgettable experience for sport lovers, partners, and "
 "spectators."
 msgstr ""
+"Odoo를 통해 팀 협업 방식을 개선하고, 온라인에서 행사 노출을 극대화하며, 모든 "
+"행사를 원활하게 진행합니다. 스포츠 팬이나, 파트너, 그리고 관중에게 잊지 못할 "
+"경험을 선사하는 데만 집중할 수 있습니다."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid ""
 "Odoo is entirely integrated into an App. Download it to turn your phone into "
 "a tool to manage your entire workflow."
-msgstr "Odoo는 모바일 앱과도 완벽하게 통합되어 있습니다. 스마트폰에 앱을 도구로 "
-"다운로드하여 비즈니스 흐름 전체를 관리하세요."
+msgstr ""
+"Odoo는 모바일 앱과도 완벽하게 통합되어 있습니다. 스마트폰에 앱을 도구로 다운"
+"로드하여 비즈니스 흐름 전체를 관리하세요."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid ""
 "Odoo offers endless customization possibilities for your Sport Event company:"
-msgstr "Odoo는 스포츠 행사 에이전시용으로 무제한 맞춤 기능을 제공하고 있습니다."
+msgstr ""
+"Odoo는 스포츠 행사 에이전시용으로 무제한 맞춤 기능을 제공하고 있습니다."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1445,8 +1455,8 @@ msgid ""
 "package. Feel free to add new apps, delete/modify demo data, and test "
 "everything around!"
 msgstr ""
-"이 개요에서는 이 패키지에 포함된 기능을 중점적으로 설명합니다. 자유롭게 새 "
-"앱을 추가하고, 데모 데이터를 수정 또는 삭제하고, 모든 기능을 테스트해 보세요!"
+"이 개요에서는 이 패키지에 포함된 기능을 중점적으로 설명합니다. 자유롭게 새 앱"
+"을 추가하고, 데모 데이터를 수정 또는 삭제하고, 모든 기능을 테스트해 보세요!"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1617,6 +1627,10 @@ msgid ""
 "color-1\"><strong>Barcode</strong></font> app to scan participant tickets "
 "and assign bib numbers; check your staff planning and enjoy the event."
 msgstr ""
+"행사 운영: 재고 목록을 통해 물류 관리자는 어떤 물품을 가져와야 하는지 정확히 "
+"파악할 수 있습니다. <font class=\"text-o-color-1\"><strong>바코드</strong></"
+"font> 앱을 사용하여 참가자 티켓을 스캔하고 번호표를 배부하세요. 직원 계획을 "
+"확인하고 행사를 즐기세요."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1780,6 +1794,10 @@ msgid ""
 "technical cycling, and rugged trail running, it’s designed for both "
 "passionate athletes and newcomers seeking adventure."
 msgstr ""
+"<strong>트라이 챌린지</strong>는 가장 아름다운 경관을 자랑하는 벨기에의 중심"
+"부에서 매년 개최되는례 트라이애슬론 대회입니다. 오픈 워터 수영, 전문 사이클"
+"링, 험난한 트레일 러닝을 결합한 이 대회는 열정적인 선수들과 모험을 찾는 초보"
+"자 모두를 위해 마련되었습니다."
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
@@ -1919,6 +1937,9 @@ msgid ""
 "accessibility to nearby attractions and facilities. Your input helps us "
 "improve the experience for future participants and promote local tourism."
 msgstr ""
+"경마장 주위 환경에 대한 의견을 듣고자 합니다. 주변 경관과 접근성, 인근 명소 "
+"및 시설 등 모든 범위를 포함합니다. 소중한 의견을 통해 향후 참가자 경험을 개선"
+"할 수 있으며 지역 관광을 활성화하는 데 활용하겠습니다."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1929,6 +1950,11 @@ msgid ""
 "sponsorships, and staff scheduling, Odoo empowers sports event professionals "
 "with fully integrated tools."
 msgstr ""
+"마라톤과 트레일 러닝, 트라이애슬론, 토너먼트 경기 등 주최하는 행사를 불문하"
+"고, Odoo는 모든 운영 과정을 중앙에서 집중적으로 관리합니다. 기획 및 공급업체 "
+"조율부터 자재 재고 관리, 행사 홍보, 스폰서십, 직원 일정 관리에 이르기까지, "
+"Odoo는 스포츠 행사 전문가들이 완벽하게 통합 활용할 수 있는 도구의 역할을 합니"
+"다."
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
@@ -1982,8 +2008,9 @@ msgstr ""
 msgid ""
 "You completed that demo use case! There are millions of other ways to adapt "
 "your Odoo setup to fit your business needs."
-msgstr "데모 사용 사례를 완료했습니다! 비즈니스 요구에 맞게 Odoo 설정을 조정할 수 "
-"있는 다른 방법은 무수히 많습니다."
+msgstr ""
+"데모 사용 사례를 완료했습니다! 비즈니스 요구에 맞게 Odoo 설정을 조정할 수 있"
+"는 다른 방법은 무수히 많습니다."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1991,8 +2018,8 @@ msgid ""
 "You should be able to execute the following flows to have an overview of "
 "various processes you can quickly execute with this package using Odoo."
 msgstr ""
-"다음의 플로우에 따라 진행하면 다양한 프로세스에 대해 전체보기를 할 수 "
-"있습니다. Odoo를 사용한 패키지로 빠르게 실행해 보세요."
+"다음의 플로우에 따라 진행하면 다양한 프로세스에 대해 전체보기를 할 수 있습니"
+"다. Odoo를 사용한 패키지로 빠르게 실행해 보세요."
 
 #. module: sport_events
 #: model:survey.survey,title:sport_events.survey_survey_1
@@ -2042,6 +2069,16 @@ msgid "if you need help!"
 msgstr "도움이 필요하신가요?"
 
 #. module: sport_events
+#: model:event.question.answer,name:sport_events.event_question_answer_4
+msgid "l"
+msgstr ""
+
+#. module: sport_events
+#: model:event.question.answer,name:sport_events.event_question_answer_3
+msgid "m"
+msgstr ""
+
+#. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
 msgid "people walking on street during daytime"
 msgstr "낮 시간대 도로를 걷는 사람들"
@@ -2055,6 +2092,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid "request a demo"
 msgstr "데모 요청하기"
+
+#. module: sport_events
+#: model:event.question.answer,name:sport_events.event_question_answer_2
+msgid "s"
+msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
@@ -2080,3 +2122,13 @@ msgstr "🏆 트로피 수여 대상:"
 #: model_terms:event.event,description:sport_events.event_event_3
 msgid "🚲 Relay teams welcome (1 leg per person)"
 msgstr "🚲 릴레이 팀 환영 (1인당 1구간)"
+
+#~ msgid "+1 555-555-5556"
+#~ msgstr "+1 555-555-5556"
+
+#~ msgid ""
+#~ "<strong><font class=\"text-o-color-1\">Documents</font></strong>: "
+#~ "Centralize spreadsheets and materials checklists."
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">문서</font></strong>: 스프레드시트"
+#~ "와 장비 체크리스트를 한곳에서 관리하세요."

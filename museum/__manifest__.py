@@ -1,6 +1,6 @@
 {
     'name': 'Museum',
-    'version': '1.0',
+    'version': '1.2',
     'category': 'Services',
     'author': 'Odoo S.A.',
     'depends': [
@@ -28,7 +28,6 @@
         'data/knowledge_cover.xml',
         'data/knowledge_article.xml',
         'data/planning_role.xml',
-        'data/pos_payment_method.xml',
         'data/pos_config.xml',
         'data/product_public_category.xml',
         'data/sign_template.xml',
@@ -41,12 +40,11 @@
         'data/hr_job.xml',
     ],
     'demo': [
-        'demo/res_users.xml',
+        'demo/res_company.xml',
         'demo/event_event.xml',
         'demo/event_question.xml',
         'demo/event_slot.xml',
         'demo/event_event_ticket.xml',
-        'demo/pos_config.xml',
         'demo/website_view.xml',
         'demo/planning_recurrency.xml',
         'demo/pos_session.xml',
@@ -86,6 +84,7 @@
         'demo/website_view.xml',
         'static/src/js/my_tour.js',
     ],
+    'application': True,
     'images': [
         'images/main.png',
     ],

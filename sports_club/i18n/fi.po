@@ -15,13 +15,14 @@
 # Martin Trigaux, 2024
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Saara Hakanen <sahak@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-13 08:17+0000\n"
-"PO-Revision-Date: 2025-11-17 11:09+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-06-12 18:46+0000\n"
+"PO-Revision-Date: 2026-06-06 13:23+0000\n"
+"Last-Translator: Saara Hakanen <sahak@odoo.com>\n"
 "Language-Team: Finnish <https://translate.odoo.com/projects/odoo-19/"
 "sports_club/fi/>\n"
 "Language: fi\n"
@@ -29,7 +30,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
@@ -37,24 +38,9 @@ msgid "&amp;nbsp;and get to play with our members"
 msgstr "&amp;nbsp;ja pääset mukaan hauskanpitoon jäsentemme kanssa"
 
 #. module: sports_club
-#: model_terms:ir.ui.view,arch_db:sports_club.footer_custom
-msgid "+1 (650) 555-0111"
-msgstr "+1 (650) 555-0111"
-
-#. module: sports_club
-#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
-msgid "1. Gears"
-msgstr "1. Varusteet"
-
-#. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
 msgid "1. Gears<br/>"
 msgstr "1. Varusteet<br/>"
-
-#. module: sports_club
-#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
-msgid "2. Bar Management"
-msgstr "2. Baarin hallinnointi"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
@@ -67,9 +53,86 @@ msgid "3. Court Booking"
 msgstr "3. Kenttävaraukset"
 
 #. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid ""
+"<b>Appointments App</b>: Enable members to book courts or coaching sessions "
+"online 24/7, reducing front-desk\n"
+"                workload and double-bookings."
+msgstr ""
+"<b>Ajanvaraukset-sovellus</b>: Anna jäsenten varata kenttiä tai "
+"valmennustunteja verkossa 24/7, mikä vähentää vastaanoton\n"
+"                työmäärää ja päällekkäisiä varauksia."
+
+#. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid ""
+"<b>CRM App</b>: Manage member relationships and track potential leads for "
+"new sign-ups or corporate\n"
+"                sponsorships."
+msgstr ""
+"<b>CRM-sovellus</b>: Hallitse jäsensuhteita ja seuraa potentiaalisia liidejä "
+"uusien ilmoittautumisten tai yrityssponsorointien\n"
+"                osalta."
+
+#. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid ""
+"<b>Inventory App</b>: Keep track of rental equipment and retail stock, "
+"ensuring you always have the necessary\n"
+"                gear and refreshments on hand."
+msgstr ""
+"<b>Varastointi-sovellus</b>: Pidä kirjaa vuokravarusteista ja jälleenmyynnin "
+"varastosta varmistaen, että sinulla on aina tarvittavat\n"
+"                varusteet ja virvokkeet saatavilla."
+
+#. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid ""
+"<b>Planning App</b>: Optimize facility usage and staff schedules, ensuring "
+"the right resources are available for\n"
+"                peak times and tournaments."
+msgstr ""
+"<b>Suunnittelu-sovellus</b>: Optimoi tilojen käyttö ja henkilöstön työvuorot "
+"varmistaen, että oikeat resurssit ovat käytettävissä\n"
+"                ruuhka-aikoina ja turnauksissa."
+
+#. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid ""
+"<b>Point of Sale App</b>: Streamline operations in your cafeteria and pro "
+"shop, handling sales of food, drinks,\n"
+"                and sports gear with ease."
+msgstr ""
+"<b>Kassajärjestelmä-sovellus</b>: Suoraviivaista kahvilan ja myymälän "
+"toimintaa sekä hoida ruokien, juomien\n"
+"                ja urheiluvälineiden myynti helposti."
+
+#. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
 msgid "<b>Ready to play?</b>"
 msgstr "<b>Oletko valmiina pelaamaan?</b>"
+
+#. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid ""
+"<b>Social Marketing App</b>: Promote club events, tournaments, and special "
+"offers across social media to keep\n"
+"                your community engaged."
+msgstr ""
+"<b>Somemarkkinointi-sovellus</b>: Mainosta seuran tapahtumia, turnauksia ja "
+"erikoistarjouksia sosiaalisessa mediassa pitääksesi\n"
+"                yhteisösi sitoutuneena."
+
+#. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid ""
+"<b>Website &amp; eCommerce App</b>: specific your club's activities online "
+"and sell merchandise or memberships\n"
+"                directly to your community."
+msgstr ""
+"<b>Verkkosivu- &amp; Verkkokauppa-sovellus</b>: esittele seurasi toimintaa "
+"verkossa ja myy tuotteita tai jäsenyyksiä\n"
+"                suoraan yhteisöllesi."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
@@ -85,14 +148,14 @@ msgid ""
 "balls to your order."
 msgstr ""
 "<br/>\n"
-"            a) Varusteita voi ostaa seuran verkkokaupassa joko <font class="
-"\"text-o-color-1\"><strong>maksullisella kotiinkuljetuksella</strong></font> "
-"tai ne voi <strong><font class=\"text-o-color-1\">noutaa ilmaiseksi</font></"
-"strong> seuran tiloista, tai suoraan \n"
+"            a) Varusteita voi ostaa seuran verkkokaupassa joko <font "
+"class=\"text-o-color-1\"><strong>maksullisella kotiinkuljetuksella</strong></"
+"font> tai ne voi <strong><font class=\"text-o-color-1\">noutaa ilmaiseksi</"
+"font></strong> seuran tiloista, tai suoraan \n"
 "            seuran \"Kaupan\" Kassajärjestelmän kautta. Kun mailat ostetaan "
-"verkkokaupasta, tavallisimpia <font class=\"text-o-color-1\""
-"><strong>lisämyyntivaihtoehtoja</strong></font> ehdotetaan: lisää pyyhe tai "
-"muutama pallo tilaukseesi."
+"verkkokaupasta, tavallisimpia <font class=\"text-o-"
+"color-1\"><strong>lisämyyntivaihtoehtoja</strong></font> ehdotetaan: lisää "
+"pyyhe tai muutama pallo tilaukseesi."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
@@ -234,7 +297,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sports_club.about-us
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
 msgid "An address must be specified for a map to be embedded"
-msgstr "Osoite on määritettävä, jotta kartta voidaan upottaa"
+msgstr "Osoite on määritettävä kartan upottamiseksi"
 
 #. module: sports_club
 #: model:product.template,name:sports_club.product_template_18
@@ -272,6 +335,11 @@ msgid "Barman/Maid"
 msgstr "Baarimikko"
 
 #. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid "Basics"
+msgstr "Perustiedot"
+
+#. module: sports_club
 #: model:product.template,name:sports_club.product_template_14
 msgid "Beer"
 msgstr "Olut"
@@ -292,16 +360,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sports_club.sports_club_custom_cta_btn
 msgid "Book a Court"
 msgstr "Varaa kenttä"
-
-#. module: sports_club
-#: model:pos.payment.method,name:sports_club.pos_payment_method_1
-msgid "Cash"
-msgstr "Käteinen"
-
-#. module: sports_club
-#: model:account.journal,name:sports_club.cash
-msgid "Cash (Sports)"
-msgstr "Käteinen (urheilu)"
 
 #. module: sports_club
 #: model:product.template,name:sports_club.product_template_5
@@ -339,11 +397,6 @@ msgid "Croque-Monsieur"
 msgstr "Croque-Monsieur"
 
 #. module: sports_club
-#: model:pos.payment.method,name:sports_club.pos_payment_method_2
-msgid "Customer Account"
-msgstr "Asiakastili"
-
-#. module: sports_club
 #: model:pos.category,name:sports_club.pos_category_1
 msgid "Drinks"
 msgstr "Juomat"
@@ -356,12 +409,7 @@ msgstr "Laite"
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
 msgid "F.A.Q."
-msgstr "UKK"
-
-#. module: sports_club
-#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
-msgid "Flows"
-msgstr "Prosessit"
+msgstr "Usein kysytyt kysymykset"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.footer_custom
@@ -419,7 +467,7 @@ msgstr "Furiosa"
 #. odoo-javascript
 #: code:addons/sports_club/static/src/js/my_tour.js:0
 msgid "Get on track and explore our recommendations for your Odoo usage here!"
-msgstr ""
+msgstr "Aloita ja tutustu Odoo-käyttöäsi koskeviin suosituksiimme täällä!"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
@@ -556,10 +604,9 @@ msgid ""
 "class=\"text-o-color-1\">Appointments &gt; Resource Schedule</font></strong> "
 "menu."
 msgstr ""
-"Sen lisäksi työntekijät, jotka työskentelevät tiskillä, voivat myös vastata "
-"puheluihin ja varata kenttiä. Tätä varten he käyttävät <strong><font class="
-"\"text-o-color-1\">Ajanvaraukset &gt;  Resurssien aikataulut</font></strong> "
-"-valikkoa."
+"Sen lisäksi tiskin työntekijät voivat myös vastata puheluihin ja varata "
+"kenttiä. Tätä varten he käyttävät <strong><font class=\"text-o-"
+"color-1\">Ajanvaraukset &gt; Resurssiaikataulut</font></strong> -valikkoa."
 
 #. module: sports_club
 #: model:product.template,name:sports_club.product_product_7_product_template
@@ -622,11 +669,6 @@ msgid "Sport Court Booking"
 msgstr "Urheiluseuran varaus"
 
 #. module: sports_club
-#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
-msgid "Sports Club"
-msgstr "Urheiluseura"
-
-#. module: sports_club
 #: model:website.menu,name:sports_club.website_menu_11
 msgid "The Club"
 msgstr "Seura"
@@ -652,9 +694,9 @@ msgid ""
 msgstr ""
 "Seuralle on määritelty kaksi ajanvaraustyyppiä.<br/>\n"
 "            <br/>\n"
-"            a) Ensimmäinen on \"<strong><font class=\"text-o-color-1\""
-">Kentän varaaminen</font></strong>\": pelaajat voivat varata kentän 60 "
-"minuutiksi. Vuorot alkavat 30 minuutin välein."
+"            a) Ensimmäinen on \"<strong><font class=\"text-o-"
+"color-1\">Kentän varaaminen</font></strong>\": pelaajat voivat varata kentän "
+"60 minuutiksi. Vuorot alkavat 30 minuutin välein."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
@@ -708,8 +750,8 @@ msgid ""
 "Your Dynamic Snippet will be displayed here... This message is displayed "
 "because you did not provided both a filter and a template to use.<br/>"
 msgstr ""
-"Dynaaminen snippettisi näytetään tässä... Tämä viesti näytetään, koska et "
-"ole antanut suodatinta tai mallipohjaa käytettäväksi.<br/>"
+"Dynaaminen katkelmasi näytetään tässä... Näet tämän viestin, koska et "
+"antanut suodatinta tai käytettävää mallipohjaa.<br/>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
@@ -751,9 +793,9 @@ msgid ""
 "color-1\"><strong>SHOP </strong></font><font class=\"text-black\">POS</font> "
 "<font class=\"text-black\">can </font>also be used."
 msgstr ""
-"b) Pelaajille, jotka tarvitsevat ratkaisun paikan päällä, <font class="
-"\"text-o-color-1\"><strong>KAUPPA </strong></font><font class=\"text-black\""
-">KASSAJÄRJESTELMÄ</font> <font class=\"text-black\">voi </font>toimia "
+"b) Pelaajille, jotka tarvitsevat ratkaisun paikan päällä, <font class=\"text-"
+"o-color-1\"><strong>KAUPPA </strong></font><font class=\"text-"
+"black\">KASSAJÄRJESTELMÄ</font> <font class=\"text-black\">voi </font>toimia "
 "ratkaisuna."
 
 #. module: sports_club
@@ -774,9 +816,9 @@ msgid ""
 "play\"</font></strong> is only available on Fridays and allows player to "
 "join other games."
 msgstr ""
-"b) Toinen vaihtoehto, \"<strong><font class=\"text-o-color-1\""
-">Perjantaiöisin ilmaiset pelivuorot\"</font></strong> on saatavilla vain "
-"perjantaisin ja pelaajat voivat liittyä pelaamaan muiden kanssa."
+"b) Toinen vaihtoehto, \"<strong><font class=\"text-o-"
+"color-1\">Perjantaiöisin ilmaiset pelivuorot\"</font></strong> on saatavilla "
+"vain perjantaisin ja pelaajat voivat liittyä pelaamaan muiden kanssa."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
@@ -791,7 +833,7 @@ msgstr "tyytyväiset asiakkaat"
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.footer_custom
 msgid "info@yourcompany.example.com"
-msgstr "info@yourcompany.example.com"
+msgstr "info@yrityksesi.esimerkki.fi"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
@@ -812,3 +854,27 @@ msgstr "🤔 Missä voin pelata...<br/>"
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
 msgid "🤔I don't have a racket<br/>"
 msgstr "🤔Minulla ei ole mailaa<br/>"
+
+#~ msgid "Cash"
+#~ msgstr "Käteinen"
+
+#~ msgid "Cash (Sports)"
+#~ msgstr "Käteinen (urheilu)"
+
+#~ msgid "Customer Account"
+#~ msgstr "Asiakastili"
+
+#~ msgid "+1 (650) 555-0111"
+#~ msgstr "+1 (650) 555-0111"
+
+#~ msgid "1. Gears"
+#~ msgstr "1. Varusteet"
+
+#~ msgid "2. Bar Management"
+#~ msgstr "2. Baarin hallinnointi"
+
+#~ msgid "Flows"
+#~ msgstr "Prosessit"
+
+#~ msgid "Sports Club"
+#~ msgstr "Urheiluseura"

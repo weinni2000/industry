@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 09:34+0000\n"
+"POT-Creation-Date: 2026-03-17 19:46+0000\n"
 "PO-Revision-Date: 2025-11-17 11:14+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-19/"
@@ -80,6 +80,16 @@ msgid ""
 "<a href=\"#\" class=\"btn btn-secondary o_translate_inline\">Learn more</a>"
 msgstr ""
 "<a href=\"#\" class=\"btn btn-secondary o_translate_inline\">さらに詳しく</a>"
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+#, fuzzy
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
+msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">💡</i>"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
@@ -194,6 +204,53 @@ msgstr ""
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
 msgid ""
+"<strong><b>Appointments App</b>:</strong> Let families book meetings to "
+"discuss camp options easily, reducing no-shows with automatic reminders.<br/>"
+msgstr ""
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid ""
+"<strong><b>CRM App</b>: </strong>Capture inquiries from your website, "
+"qualify leads in a visual pipeline, and convert interest into confirmed "
+"bookings.<br/>"
+msgstr ""
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid ""
+"<strong><b>Events App</b>: </strong>Create and manage every camp session "
+"with custom forms, capacity tracking, and automated emails to keep parents "
+"informed.<br/>"
+msgstr ""
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid ""
+"<strong><b>Projects App</b>: </strong>Organize the behind-the-scenes "
+"logistics using task lists and deadlines to ensure every activity is "
+"prepared to perfection.<br/>"
+msgstr ""
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid ""
+"<strong><b>Sign App</b>: </strong>Collect parental consent securely with "
+"reusable digital signature templates, ensuring all legal documents are "
+"signed and stored centrally.<br/>"
+msgstr ""
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid ""
+"<strong><b>Website App</b>: </strong>Showcase your camps online with mobile-"
+"friendly pages, integrated registration, and secure payment processing to "
+"boost enrollments.<br/>"
+msgstr ""
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid ""
 "<strong>Accounting 📈</strong>: Handle invoicing, revenue tracking, and full "
 "financial reporting in one place."
 msgstr ""
@@ -208,17 +265,6 @@ msgid ""
 msgstr ""
 "「ITキャンプ」や「団体予約」、「特別ケア」などの<strong>カスタムタグ</strong>"
 "を追加して、リードを絞り込み・セグメント化できます。"
-
-#. module: summer_camps
-#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-msgid ""
-"<strong>Appointments 📅 :</strong>Let families book meetings to discuss camp "
-"options, sync your team’s calendars, and reduce no-shows with automatic "
-"reminders and structured scheduling."
-msgstr ""
-"<strong>アポイントメント 📅：</strong>顧客ファミリーがキャンプの相談予約をで"
-"きるようにし、チームのカレンダーを同期。自動リマインダとスケジューリング管理"
-"により、無断キャンセルを削減しましょう。"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
@@ -250,17 +296,6 @@ msgid ""
 "transactions."
 msgstr ""
 "<strong>内蔵の決済機能</strong>により、スムーズで安全な取引が可能になります。"
-
-#. module: summer_camps
-#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-msgid ""
-"<strong>CRM 🎯 :</strong>Capture inquiries from your website, organize and "
-"qualify leads in a visual pipeline, assign sales tasks, and convert interest "
-"into bookings with quotations and notes tracking."
-msgstr ""
-"<strong>CRM 🎯：</strong>ウェブサイトからのお問い合わせを自動で取り込み、視覚"
-"的なパイプラインでリードを整理・評価。営業タスクを割り当て、見積もりやメモの"
-"管理を通じて関心を予約へとつなげます。"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
@@ -315,6 +350,11 @@ msgstr ""
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid "<strong>Customized pricing per attendee</strong>"
+msgstr ""
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
 msgid ""
 "<strong>Drag and drop signature, text, and date fields</strong> to collect "
 "all necessary information (e.g., emergency contact, medical permissions)."
@@ -330,17 +370,6 @@ msgid ""
 msgstr ""
 "<strong>Eメールマーケティング🌟</strong>: 次回のキャンプを宣伝したり、キャン"
 "プ終了後にフォローアップを送信したりできます。"
-
-#. module: summer_camps
-#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-msgid ""
-"<strong>Events 🏨 :</strong>Create and manage every camp session with custom "
-"forms, pricing, capacity, tags, attendee tracking, automated emails, and a "
-"live check-in desk—all in one central app."
-msgstr ""
-"<strong>イベント 🏨：</strong>すべてのキャンプセッションを、カスタムフォー"
-"ム、料金設定、定員管理、タグ付け、参加者の追跡、自動メール配信、ライブの"
-"チェックインデスクなどを使って、ひとつのアプリで作成・管理できます。"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
@@ -416,17 +445,6 @@ msgstr ""
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-msgid ""
-"<strong>Projects 📋 :</strong>Organize the behind-the-scenes work of each "
-"camp using task lists, deadlines, assignments, and logistics tracking to "
-"ensure smooth preparation and coordination."
-msgstr ""
-"<strong>プロジェクト 📋 :</strong>各キャンプの舞台裏の作業を、タスクリスト、"
-"締切、担当割り当て、物流の追跡を活用して整理し、スムーズな準備と連携を実現し"
-"ます。"
-
-#. module: summer_camps
-#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
 msgid "<strong>Projects 📋</strong>"
 msgstr "<strong>プロジェクト 📋</strong>"
 
@@ -438,17 +456,6 @@ msgid ""
 msgstr ""
 "<strong>CRMから直接ミーティングや通話をスケジュール</strong>し、カレンダーと"
 "同期させます。"
-
-#. module: summer_camps
-#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-msgid ""
-"<strong>Sign ✍️ :</strong>Collect parental consent securely with reusable "
-"digital signature templates, embedded links in confirmation emails, and "
-"centralized access to signed documents."
-msgstr ""
-"<strong>署名 ✍️ :</strong>保護者の同意を、安全に収集しましょう。再利用可能な電"
-"子署名テンプレート、確認メールに埋め込まれたリンク、署名済み書類への一元管理"
-"されたアクセスを活用できます。"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
@@ -498,17 +505,6 @@ msgstr "<strong>Eラーニングプラットフォームのご紹介 </strong>�
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-msgid ""
-"<strong>Website 🌐 :</strong>Showcase your camps online with dedicated "
-"pages, integrated registration, mobile-friendly design, and secure payment—"
-"all from a visually engaging and parent-friendly website."
-msgstr ""
-"<strong>ウェブサイト 🌐 :</strong>専用ページ、申込機能、モバイル対応デザイ"
-"ン、そして安全な決済機能を備えた、保護者にも使いやすい魅力的なウェブサイトを"
-"構築して、キャンププログラムをオンラインで紹介しましょう。"
-
-#. module: summer_camps
-#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
 msgid "<strong>Website 🌐</strong>"
 msgstr "<strong>ウェブサイト 🌐</strong>"
 
@@ -554,6 +550,11 @@ msgstr ""
 #: model:event.tag.category,name:summer_camps.event_tag_category_3
 msgid "Accommodation"
 msgstr "宿泊施設"
+
+#. module: summer_camps
+#: model:base.automation,name:summer_camps.add_product_on_so
+msgid "Add product on SO"
+msgstr ""
 
 #. module: summer_camps
 #: model:crm.tag,name:summer_camps.crm_tag_29
@@ -758,14 +759,16 @@ msgstr "訓練を受けたスタッフによる毎日のガイド付きアクテ
 msgid ""
 "Define <strong>pricing, early bird discounts, and capacity limits</strong> "
 "per ticket type."
-msgstr "チケット種別ごとに、<strong>価格・早割・定員</strong>を設定しましょう。"
+msgstr ""
+"チケット種別ごとに、<strong>価格・早割・定員</strong>を設定しましょう。"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
 msgid ""
 "Design and publish summer camp listings using <strong>event templates</"
 "strong>."
-msgstr "<strong>イベントテンプレート</strong>を使って、サマーキャンプの一覧を作成・公"
+msgstr ""
+"<strong>イベントテンプレート</strong>を使って、サマーキャンプの一覧を作成・公"
 "開しましょう。"
 
 #. module: summer_camps
@@ -791,8 +794,9 @@ msgstr "完了"
 #. module: summer_camps
 #: model_terms:product.public.category,website_description:summer_camps.product_public_category_3
 msgid "Dress for fun with our stylish camp gear and accessories."
-msgstr "楽しさあふれるスタイルで!おしゃれなキャンプ用ギア＆アクセサリーを身につけよう"
-"。"
+msgstr ""
+"楽しさあふれるスタイルで!おしゃれなキャンプ用ギア＆アクセサリーを身につけよ"
+"う。"
 
 #. module: summer_camps
 #: model:event.tag.category,name:summer_camps.event_tag_category_5
@@ -807,7 +811,8 @@ msgstr "緊急連絡先"
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
 msgid "Enhance your summer camp management with these additional Odoo apps:"
-msgstr "夏のキャンプ運営をさらに効率化するために、以下の追加Odooアプリをご活用くださ"
+msgstr ""
+"夏のキャンプ運営をさらに効率化するために、以下の追加Odooアプリをご活用くださ"
 "い:"
 
 #. module: summer_camps
@@ -820,9 +825,8 @@ msgid ""
 "Enter “Camp Sylva – Ardennes” into Google Maps or Waze. The entrance is "
 "marked by wooden signs and friendly faces!"
 msgstr ""
-"「Camp Sylva – "
-"Ardennes」とGoogleマップまたはWazeに入力してください。入口にの木製の看板とフ"
-"レンドリーなスタッフが目印です!"
+"「Camp Sylva – Ardennes」とGoogleマップまたはWazeに入力してください。入口にの"
+"木製の看板とフレンドリーなスタッフが目印です!"
 
 #. module: summer_camps
 #: model:product.public.category,name:summer_camps.product_public_category_4
@@ -837,6 +841,11 @@ msgid ""
 msgstr ""
 "画面から離れて、大自然に飛び込もう。自分の中の探検家を見つける旅へ。<br/>\n"
 "                                        <br/>"
+
+#. module: summer_camps
+#: model:ir.model.fields,field_description:summer_camps.field_x_event_product_event_question_answer
+msgid "Event Product"
+msgstr ""
 
 #. module: summer_camps
 #: model_terms:product.public.category,website_description:summer_camps.product_public_category_1
@@ -877,16 +886,17 @@ msgid ""
 "Famenne and La Roche. Free parking is available on-site for drop-off and "
 "pickup days."
 msgstr ""
-"ブリュッセルからは、E411号線をナミュール方面へ進み、その後マルシュ＝アン＝フ"
-"ァメンヌおよびラ・ロッシュの標識に従ってください。送迎日には、現地で無料駐車"
-"場をご利用いただけます。"
+"ブリュッセルからは、E411号線をナミュール方面へ進み、その後マルシュ＝アン＝"
+"ファメンヌおよびラ・ロッシュの標識に従ってください。送迎日には、現地で無料駐"
+"車場をご利用いただけます。"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
 msgid ""
 "From the moment a lead is captured, you can qualify, follow up, and guide "
 "them through the booking process with clarity and ease."
-msgstr "リードを獲得したその瞬間から、明確かつスムーズに、見込み客の見極め・フォロー"
+msgstr ""
+"リードを獲得したその瞬間から、明確かつスムーズに、見込み客の見極め・フォロー"
 "アップ・予約プロセスの案内までを一貫して行うことができます。"
 
 #. module: summer_camps
@@ -919,7 +929,8 @@ msgstr "グループ"
 msgid ""
 "Group attendees by <strong>tags or registration form answers</strong> to "
 "tailor communications."
-msgstr "参加者を<strong>タグや登録フォームの回答</strong>でグループ分けすることで、個"
+msgstr ""
+"参加者を<strong>タグや登録フォームの回答</strong>でグループ分けすることで、個"
 "別に合わせたコミュニケーションが可能になります。"
 
 #. module: summer_camps
@@ -929,9 +940,9 @@ msgid ""
 "for your child? Book a one-on-one chat with one of our friendly camp "
 "counsellors!"
 msgstr ""
-"サマーキャンプについてご質問、プログラム内容について詳しく知りたい方は、ぜひ"
-"、お気軽にキャンプカウンセラーとの個別相談をご予約ください。親切で経験豊富な"
-"スタッフが、あなたの疑問に丁寧にお答えします!"
+"サマーキャンプについてご質問、プログラム内容について詳しく知りたい方は、ぜ"
+"ひ、お気軽にキャンプカウンセラーとの個別相談をご予約ください。親切で経験豊富"
+"なスタッフが、あなたの疑問に丁寧にお答えします!"
 
 #. module: summer_camps
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_1
@@ -946,7 +957,8 @@ msgstr "次に、以下を行います:"
 #: model_terms:ir.ui.view,arch_db:summer_camps.ir_ui_view_916
 msgid ""
 "Hikes, survival skills, kayaking, and nature games in a beautiful setting."
-msgstr "美しい自然の中で、ハイキング、サバイバルスキル、カヤック、そして自然を楽しむ"
+msgstr ""
+"美しい自然の中で、ハイキング、サバイバルスキル、カヤック、そして自然を楽しむ"
 "ゲームを体験できます。"
 
 #. module: summer_camps
@@ -976,7 +988,8 @@ msgstr ""
 msgid ""
 "If you want to easily discover every features of this package, try "
 "downloading the Demo Data."
-msgstr "このパッケージの機能を手軽に試してみたい場合は、デモデータのダウンロードをお"
+msgstr ""
+"このパッケージの機能を手軽に試してみたい場合は、デモデータのダウンロードをお"
 "試し下さい。"
 
 #. module: summer_camps
@@ -989,9 +1002,16 @@ msgstr "進行中"
 msgid ""
 "In the following examples, we used the \"/buttons\" function, and inserted "
 "the shared Consent Form document from the Sign app."
-msgstr "以下の例では、「/buttons」 "
-"機能を使用し、署名アプリから共有された同意書フォームドキュメントを挿入しまし"
-"た。"
+msgstr ""
+"以下の例では、「/buttons」 機能を使用し、署名アプリから共有された同意書フォー"
+"ムドキュメントを挿入しました。"
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid ""
+"It is also possible to customize the attendance pricing based on the options "
+"an attendee selects during the registration process."
+msgstr ""
 
 #. module: summer_camps
 #: model:crm.tag,name:summer_camps.crm_tag_20
@@ -1003,8 +1023,14 @@ msgstr "7月"
 msgid ""
 "Just be careful, once demo data are uploaded, it cannot be easily deleted. "
 "But you can restart a fresh database on"
-msgstr "ただ、デモデータがアップロードされると、簡単に削除することはできませんのでご"
+msgstr ""
+"ただ、デモデータがアップロードされると、簡単に削除することはできませんのでご"
 "注意下さい。ただし、新しいデータベースを再起動することは可能です。"
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.camps_button
+msgid "Learn More <i class=\"fa fa-chevron-right\"/>"
+msgstr ""
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_1
@@ -1024,7 +1050,8 @@ msgstr "男"
 msgid ""
 "Manage <strong>equipment logistics</strong>, staff planning, and on-site "
 "activity coordination."
-msgstr "<strong>機材のロジスティクス管理</strong>、スタッフの配置計画、現地での活動調"
+msgstr ""
+"<strong>機材のロジスティクス管理</strong>、スタッフの配置計画、現地での活動調"
 "整を行います。"
 
 #. module: summer_camps
@@ -1051,7 +1078,8 @@ msgstr "MySummerCamps"
 msgid ""
 "Need to make changes? You can manage your booking anytime via your personal "
 "account."
-msgstr "ご予約の変更が必要な場合は、ご自分のアカウントからいつでも変更可能です。"
+msgstr ""
+"ご予約の変更が必要な場合は、ご自分のアカウントからいつでも変更可能です。"
 
 #. module: summer_camps
 #: model:event.event,name:summer_camps.event_event_4
@@ -1063,9 +1091,9 @@ msgstr "新規キャンプ (ドラフト)"
 msgid ""
 "Note : you can create as many email templates as you want, and associate "
 "them all to the desired events."
-msgstr "メモ: "
-"メールテンプレートは必要なだけ作成でき、任意のイベントに関連付けることができ"
-"ます。"
+msgstr ""
+"メモ: メールテンプレートは必要なだけ作成でき、任意のイベントに関連付けること"
+"ができます。"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
@@ -1091,7 +1119,8 @@ msgstr "Odoo.com/trial"
 msgid ""
 "One week before camp, you’ll receive a reminder with drop-off and pick-up "
 "times, and details about our welcome desk."
-msgstr "キャンプの1週間前には、送迎時間やウェルカムデスクの詳細を記載したリマインダー"
+msgstr ""
+"キャンプの1週間前には、送迎時間やウェルカムデスクの詳細を記載したリマインダー"
 "をお送りします。"
 
 #. module: summer_camps
@@ -1110,7 +1139,8 @@ msgstr "その他ご希望"
 #: model_terms:event.event,description:summer_camps.event_event_3
 #: model_terms:event.event,description:summer_camps.event_event_4
 msgid "Our Adventure Camp is perfect for kids aged <strong>8 to 13</strong>."
-msgstr "アドベンチャーキャンプは、<strong>8歳から13歳</strong>のお子さまに最適です。"
+msgstr ""
+"アドベンチャーキャンプは、<strong>8歳から13歳</strong>のお子さまに最適です。"
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_1
@@ -1119,7 +1149,8 @@ msgstr "アドベンチャーキャンプは、<strong>8歳から13歳</strong>�
 msgid ""
 "Our days are structured yet full of freedom—led by experienced guides and "
 "packed with variety:"
-msgstr "私たちのキャンプでの一日は、しっかりとしたスケジュールの中にも自由があり、経"
+msgstr ""
+"私たちのキャンプでの一日は、しっかりとしたスケジュールの中にも自由があり、経"
 "験豊富なガイドのもと、多彩なアクティビティをご用意しています。"
 
 #. module: summer_camps
@@ -1130,8 +1161,8 @@ msgid ""
 "fifth year with us, every camper is welcomed like family.&amp;nbsp;"
 msgstr ""
 "私たちのサマーキャンプは、すべての年齢のお子さまにとって忘れられない体験とな"
-"るように設計されています。初めて親元を離れるお子さまでも、5年目の常連キャンパ"
-"ーでも、すべての参加者を家族のように温かく迎え入れます。&amp;nbsp;"
+"るように設計されています。初めて親元を離れるお子さまでも、5年目の常連キャン"
+"パーでも、すべての参加者を家族のように温かく迎え入れます。&amp;nbsp;"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.ir_ui_view_916
@@ -1196,7 +1227,8 @@ msgstr ""
 msgid ""
 "Please complete the required forms before your child’s first day. You’ll "
 "find them linked in your email."
-msgstr "お子様の参加される初日前に、必要フォームへのご記入をお願いいたします。フォー"
+msgstr ""
+"お子様の参加される初日前に、必要フォームへのご記入をお願いいたします。フォー"
 "ムへのリンクは、メールからご確認いただけます。"
 
 #. module: summer_camps
@@ -1244,9 +1276,9 @@ msgid ""
 msgstr ""
 "サマーキャンプの運営は、単なる遊びやゲームだけではありません。円滑な運営、明"
 "確なコミュニケーション、信頼性の高いデータ管理が求められます。Odooは、サマー"
-"キャンプの主催者に対して、登録・支払い・参加者情報・ロジスティクス・連絡手段"
-"・キャンプ後のフィードバックまでを一元管理できるオールインワンプラットフォー"
-"ムを提供します。"
+"キャンプの主催者に対して、登録・支払い・参加者情報・ロジスティクス・連絡手"
+"段・キャンプ後のフィードバックまでを一元管理できるオールインワンプラット"
+"フォームを提供します。"
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_1
@@ -1256,7 +1288,8 @@ msgstr ""
 msgid ""
 "Small group sizes of <strong>8–10 campers per coordinator</strong> ensure "
 "personal attention and a strong group spirit."
-msgstr "1人の指導員につき<strong>8〜10人の少人数グループ制</strong>により、きめ細やか"
+msgstr ""
+"1人の指導員につき<strong>8〜10人の少人数グループ制</strong>により、きめ細やか"
 "な対応と強い団結力が育まれます。"
 
 #. module: summer_camps
@@ -1300,9 +1333,9 @@ msgid ""
 "supervised shuttle service to camp for an extra fee. Don’t forget to book it "
 "in advance through your dashboard."
 msgstr ""
-"列車で<strong>マルロワ駅</strong>までお越しください。そこからキャンプ場までは"
-"、スタッフ付きの送迎シャトルサービス(有料)をご利用いただけます。ご利用の際は"
-"、お客様のダッシュボードから事前にご予約ください。"
+"列車で<strong>マルロワ駅</strong>までお越しください。そこからキャンプ場まで"
+"は、スタッフ付きの送迎シャトルサービス(有料)をご利用いただけます。ご利用の際"
+"は、お客様のダッシュボードから事前にご予約ください。"
 
 #. module: summer_camps
 #: model:project.project,label_tasks:summer_camps.project_project_1
@@ -1330,10 +1363,9 @@ msgid ""
 "We’re thrilled to welcome them to an unforgettable summer in the heart of "
 "the Ardennes."
 msgstr ""
-"このたびは、お子さまの<strong>キャンプアーツ</"
-"strong>へのご予約ありがとうございます! "
-"アルデンヌの中心で、忘れられない夏の思い出を一緒に作れることを、スタッフ一同"
-"楽しみにしています。"
+"このたびは、お子さまの<strong>キャンプアーツ</strong>へのご予約ありがとうござ"
+"います! アルデンヌの中心で、忘れられない夏の思い出を一緒に作れることを、ス"
+"タッフ一同楽しみにしています。"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
@@ -1372,15 +1404,16 @@ msgid ""
 "provides tools to create, customize, and manage all aspects of each camp "
 "session."
 msgstr ""
-"<strong>イベント</strong>アプリは、サマーキャンプ運営の中心的な存在です。各キ"
-"ャンプセッションを作成・カスタマイズ・管理するための機能がそろっています。"
+"<strong>イベント</strong>アプリは、サマーキャンプ運営の中心的な存在です。各"
+"キャンプセッションを作成・カスタマイズ・管理するための機能がそろっています。"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
 msgid ""
 "The <strong>Projects</strong> app helps with behind-the-scenes preparation "
 "and operational planning."
-msgstr "<strong>プロジェクト</strong>アプリは、裏方での準備作業や業務運営の計画立案を"
+msgstr ""
+"<strong>プロジェクト</strong>アプリは、裏方での準備作業や業務運営の計画立案を"
 "サポートします。"
 
 #. module: summer_camps
@@ -1421,7 +1454,23 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
 msgid ""
 "The result? Better service, more trust, and a smoother registration journey."
-msgstr "その結果、より良いサービス、信頼の向上、そしてスムーズな登録が実現します。"
+msgstr ""
+"その結果、より良いサービス、信頼の向上、そしてスムーズな登録が実現します。"
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid ""
+"These are defined in the questions. To associate a product to a response, "
+"set the question type to \"<strong>Selection</strong>\". Following that, set "
+"a new or existing product in the \"Event Product\" column."
+msgstr ""
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid ""
+"These should now both appear during the payment process, and in the Sales "
+"Order that's associated to the attendee registration."
+msgstr ""
 
 #. module: summer_camps
 #: model:project.task.type,name:summer_camps.project_task_type_1
@@ -1431,7 +1480,8 @@ msgstr "To do"
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
 msgid "Track real-time performance via the <strong>Events dashboard</strong>."
-msgstr "<strong>イベントダッシュボード</strong>で、リアルタイムのパフォーマンスを確認"
+msgstr ""
+"<strong>イベントダッシュボード</strong>で、リアルタイムのパフォーマンスを確認"
 "できます。"
 
 #. module: summer_camps
@@ -1456,7 +1506,8 @@ msgstr "心に残るプロジェクトを彩る、クリエイティブなアイ
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
 msgid ""
 "Use <strong>event templates</strong> for recurring camp formats to save time."
-msgstr "定期開催のキャンプには<strong>イベントテンプレート</strong>を使用すると、作業"
+msgstr ""
+"定期開催のキャンプには<strong>イベントテンプレート</strong>を使用すると、作業"
 "効率が向上します。"
 
 #. module: summer_camps
@@ -1464,7 +1515,8 @@ msgstr "定期開催のキャンプには<strong>イベントテンプレート<
 msgid ""
 "Use <strong>tags</strong> to categorize camps by duration, activities, "
 "lodging type, or meal plans."
-msgstr "<strong>タグ</strong>を使って、キャンプを期間・アクティビティ・宿泊タイプ・食"
+msgstr ""
+"<strong>タグ</strong>を使って、キャンプを期間・アクティビティ・宿泊タイプ・食"
 "事プランで分類しましょう。"
 
 #. module: summer_camps
@@ -1472,7 +1524,8 @@ msgstr "<strong>タグ</strong>を使って、キャンプを期間・アクテ�
 msgid ""
 "Use the <strong>Registration Desk view</strong> to check campers in upon "
 "arrival."
-msgstr "<strong>登録デスクビュー</strong>を使って、到着時にキャンパーのチェックインを"
+msgstr ""
+"<strong>登録デスクビュー</strong>を使って、到着時にキャンパーのチェックインを"
 "行いましょう。"
 
 #. module: summer_camps
@@ -1494,10 +1547,10 @@ msgid ""
 "We handle allergies and medical needs with great care—just note everything "
 "during registration. Our staff is first-aid certified and always nearby."
 msgstr ""
-"アレルギーや医療的な配慮が必要な場合も、私たちは細心の注意を払って対応します"
-"。登録時に必要事項をご記入いただければ、スタッフがしっかりと把握し、安心して"
-"過ごしていただけるようサポートします。すべてのスタッフは応急処置の資格を持ち"
-"、常に近くで見守っています。"
+"アレルギーや医療的な配慮が必要な場合も、私たちは細心の注意を払って対応しま"
+"す。登録時に必要事項をご記入いただければ、スタッフがしっかりと把握し、安心し"
+"て過ごしていただけるようサポートします。すべてのスタッフは応急処置の資格を持"
+"ち、常に近くで見守っています。"
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_1
@@ -1518,13 +1571,12 @@ msgid ""
 "muddy boots. Every day brings a new thrill—from forest games to climbing and "
 "campfire stories.<br><br>"
 msgstr ""
-"ようこそ、<strong>アドベンチャー・サマーキャンプ </strong> "
-"へ!子どもたちがスクリーンから離れ、自然とふれあい、自分に挑戦し、一生の友達を"
-"つくる場所。 "
-"<strong>ベルギー・アルデンヌ</strong>の大自然の中にあるこのキャンプでは、動き"
-"・チームワーク・泥だらけのブーツが日常の一部になります。森の中でのゲームや、"
-"クライミング、キャンプファイヤーまで、盛りだくさんのロプログラムをご用意して"
-"おります。<br><br>"
+"ようこそ、<strong>アドベンチャー・サマーキャンプ </strong> へ!子どもたちがス"
+"クリーンから離れ、自然とふれあい、自分に挑戦し、一生の友達をつくる場所。 "
+"<strong>ベルギー・アルデンヌ</strong>の大自然の中にあるこのキャンプでは、動"
+"き・チームワーク・泥だらけのブーツが日常の一部になります。森の中でのゲーム"
+"や、クライミング、キャンプファイヤーまで、盛りだくさんのロプログラムをご用意"
+"しております。<br><br>"
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_3
@@ -1536,12 +1588,11 @@ msgid ""
 "disciplines in a playful, encouraging environment that celebrates "
 "individuality."
 msgstr ""
-"ようこそ、<strong>アート&amp;クリエイティブ・キャンプ</strong>へ — "
-"キャンプ・シルヴァで過ごす、色彩と創造力、そして自己表現の冒険の1週間です。ベ"
-"ルギー・アルデンヌの静かな森の中にあるこのキャンプは、好奇心旺盛な心と、絵の"
-"具で汚れた手のためにデザインされています。参加者たちは、遊び心にあふれた励ま"
-"しのある環境の中で、個性を大切にしながら、幅広いアートの世界に飛び込んでいき"
-"ます。"
+"ようこそ、<strong>アート&amp;クリエイティブ・キャンプ</strong>へ — キャンプ・"
+"シルヴァで過ごす、色彩と創造力、そして自己表現の冒険の1週間です。ベルギー・ア"
+"ルデンヌの静かな森の中にあるこのキャンプは、好奇心旺盛な心と、絵の具で汚れた"
+"手のためにデザインされています。参加者たちは、遊び心にあふれた励ましのある環"
+"境の中で、個性を大切にしながら、幅広いアートの世界に飛び込んでいきます。"
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_2
@@ -1552,19 +1603,20 @@ msgid ""
 "spend the week learning essential coding skills, tackling team challenges, "
 "and discovering the magic of building things that work."
 msgstr ""
-"ようこそ、ITサマーキャンプへ — "
-"キャンプ・シルヴァで行われる、プログラミング、ロボティクス、そしてデジタルク"
-"リエイティビティの世界に飛び込む、好奇心あふれる頭脳のためのユニークなテック"
-"・アドベンチャーです。自然に囲まれながらも、イノベーションの力で動くこのキャ"
-"ンプでは、参加者たちは1週間を通して基本的なコーディングスキルを学び、チームチ"
-"ャレンジに取り組み、「動くものを自分で作る」ことの魔法を発見していきます。"
+"ようこそ、ITサマーキャンプへ — キャンプ・シルヴァで行われる、プログラミング、"
+"ロボティクス、そしてデジタルクリエイティビティの世界に飛び込む、好奇心あふれ"
+"る頭脳のためのユニークなテック・アドベンチャーです。自然に囲まれながらも、イ"
+"ノベーションの力で動くこのキャンプでは、参加者たちは1週間を通して基本的なコー"
+"ディングスキルを学び、チームチャレンジに取り組み、「動くものを自分で作る」こ"
+"との魔法を発見していきます。"
 
 #. module: summer_camps
 #: model_terms:appointment.type,message_intro:summer_camps.appointment_type_1
 msgid ""
 "Whether you're wondering about daily activities, camper safety, food "
 "options, or what to pack—we're here to help."
-msgstr "毎日のアクティビティ、キャンパーの安全、食事の内容、持ち物についてなど、どん"
+msgstr ""
+"毎日のアクティビティ、キャンパーの安全、食事の内容、持ち物についてなど、どん"
 "なことでもご不明な点があれば、私たちがしっかりサポートいたします。"
 
 #. module: summer_camps
@@ -1578,9 +1630,9 @@ msgid ""
 "With Odoo CRM, you stay on top of every conversation and never let a "
 "potential camper slip through the cracks."
 msgstr ""
-"Odoo "
-"CRMを活用すれば、すべてのやり取りを一元管理できるので、見込み顧客であるキャン"
-"パーとのチャンスを逃すことなく、確実に次のステップへつなげることができます。"
+"Odoo CRMを活用すれば、すべてのやり取りを一元管理できるので、見込み顧客である"
+"キャンパーとのチャンスを逃すことなく、確実に次のステップへつなげることができ"
+"ます。"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
@@ -1610,7 +1662,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
 msgid ""
 "Would you like to discuss your Odoo setup with us or explore more features?"
-msgstr "Odooのセットアップについてご相談、またはそれ以上の機能をお知りになりたいです"
+msgstr ""
+"Odooのセットアップについてご相談、またはそれ以上の機能をお知りになりたいです"
 "か?"
 
 #. module: summer_camps
@@ -1629,13 +1682,20 @@ msgstr ""
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
 msgid ""
+"You can also export all answers in bulk in a template by opening the "
+"template, then clicking the gear icon, then \"Export Answers\"."
+msgstr ""
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid ""
 "You can easily edit your email templates. Enter \"/\" to access special "
 "styling features, such as buttons, tables, bold, italics, links, and so on."
 msgstr ""
-"メールテンプレートは、誰でも簡単に編集できます。「/(スラッシュ)」を入力すると"
-"、ボタンの追加、表の挿入、太字・斜体・リンクなど、便利なスタイリング機能にす"
-"ぐアクセス可能です。デザイン性の高いメールも、コード不要で直感的に作成できま"
-"す。"
+"メールテンプレートは、誰でも簡単に編集できます。「/(スラッシュ)」を入力する"
+"と、ボタンの追加、表の挿入、太字・斜体・リンクなど、便利なスタイリング機能に"
+"すぐアクセス可能です。デザイン性の高いメールも、コード不要で直感的に作成でき"
+"ます。"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
@@ -1645,7 +1705,8 @@ msgstr "アプリのパッケージをアップグレードすれば、まだ可
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.ir_ui_view_916
 msgid "Your choice of sports between football, basketball and windsurfing"
-msgstr "サッカー、バスケットボール、またはウィンドサーフィンからご希望のスポーツをお"
+msgstr ""
+"サッカー、バスケットボール、またはウィンドサーフィンからご希望のスポーツをお"
 "選びください"
 
 #. module: summer_camps
@@ -1663,6 +1724,11 @@ msgstr ""
 "確認ください。"
 
 #. module: summer_camps
+#: model:ir.actions.server,name:summer_camps.add_product_on_so_action
+msgid "add product on SO"
+msgstr ""
+
+#. module: summer_camps
 #: model:event.tag,name:summer_camps.event_tag_2
 msgid "⚽️ Sports"
 msgstr "⚽️ スポーツ"
@@ -1673,10 +1739,9 @@ msgid ""
 "✂️ <strong>Crafting &amp; Sculpture</strong> – From nature-inspired mobiles "
 "to clay modeling and recycled art."
 msgstr ""
-"✂️ <strong>クラフト&amp; 彫刻</strong> – "
-"自然をテーマにしたモビール作りから、粘土造形、リサイクル素材を使ったアートま"
-"で。創造力を引き出す多彩なアクティビティが、お子さまの感性をのびのびと育てま"
-"す。"
+"✂️ <strong>クラフト&amp; 彫刻</strong> – 自然をテーマにしたモビール作りから、"
+"粘土造形、リサイクル素材を使ったアートまで。創造力を引き出す多彩なアクティビ"
+"ティが、お子さまの感性をのびのびと育てます。"
 
 #. module: summer_camps
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_1
@@ -1706,8 +1771,9 @@ msgstr "持ち物リスト"
 msgid ""
 "🌊 <strong>Water Fun</strong> – Kayaking and river games in shallow streams "
 "(lifejackets always)."
-msgstr "🌊 <strong>ウォーターファン</strong> – "
-"浅瀬でのカヤック体験やリバ―ゲームを楽しめます(ライフジャケットは常時着用)。"
+msgstr ""
+"🌊 <strong>ウォーターファン</strong> – 浅瀬でのカヤック体験やリバ―ゲームを楽"
+"しめます(ライフジャケットは常時着用)。"
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_2
@@ -1715,9 +1781,9 @@ msgid ""
 "🌐 <strong>Digital Citizenship</strong> – Discuss internet safety, "
 "creativity, and how to be a responsible digital citizen."
 msgstr ""
-"🌐 <strong>デジタル・シチズンシップ</strong> – "
-"インターネットの安全な使い方、オンラインでの創造性の発揮、そして責任あるデジ"
-"タル市民としてのあり方について話し合います。"
+"🌐 <strong>デジタル・シチズンシップ</strong> – インターネットの安全な使い方、"
+"オンラインでの創造性の発揮、そして責任あるデジタル市民としてのあり方について"
+"話し合います。"
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_3
@@ -1737,8 +1803,8 @@ msgid ""
 "🌲 <strong>Nature Hikes &amp; Survival Skills</strong> – Learn to read "
 "trails, build shelters, and identify plants."
 msgstr ""
-"🌲 <strong>ネイチャーハイク&amp; サバイバルスキル</strong> – "
-"トレイルの読み方、シェルターの作り方、植物の見分け方を学びます。"
+"🌲 <strong>ネイチャーハイク&amp; サバイバルスキル</strong> – トレイルの読み"
+"方、シェルターの作り方、植物の見分け方を学びます。"
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_3
@@ -1746,9 +1812,8 @@ msgid ""
 "🌳 <strong>Outdoor Creation</strong> – Paint with forest brushes, sculpt "
 "with clay from the riverbank, or sketch under the trees."
 msgstr ""
-"🌳 <strong>アウトドア・クリエーション</strong> – "
-"森の枝や葉を筆にして描いたり、川辺の粘土で造形したり、木陰でスケッチを楽しみ"
-"ます。"
+"🌳 <strong>アウトドア・クリエーション</strong> – 森の枝や葉を筆にして描いた"
+"り、川辺の粘土で造形したり、木陰でスケッチを楽しみます。"
 
 #. module: summer_camps
 #: model:event.tag,name:summer_camps.event_tag_10
@@ -1781,9 +1846,8 @@ msgid ""
 "🎤 <strong>Demo Day</strong> – Share your project with the group and "
 "celebrate what you’ve built!"
 msgstr ""
-"🎤 <strong>デモ・デー</strong> – "
-"自分のプロジェクトをみんなの前で発表しよう。これまでの成果をシェアし、お互い"
-"のアイデアや努力を称え合う特別な時間です!"
+"🎤 <strong>デモ・デー</strong> – 自分のプロジェクトをみんなの前で発表しよう。"
+"これまでの成果をシェアし、お互いのアイデアや努力を称え合う特別な時間です!"
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_1
@@ -1792,9 +1856,8 @@ msgid ""
 "🎨 <strong>Creative Downtime</strong> – Natural crafts, journaling, and "
 "painting with forest materials."
 msgstr ""
-"🎨 <strong>クリエイティブ・ダウンタイム</strong> – "
-"自然素材を使ったクラフトや、森の中での絵画、ジャーナリングなど、心をゆるめて"
-"創造力を楽しむひととき。"
+"🎨 <strong>クリエイティブ・ダウンタイム</strong> – 自然素材を使ったクラフト"
+"や、森の中での絵画、ジャーナリングなど、心をゆるめて創造力を楽しむひととき。"
 
 #. module: summer_camps
 #: model:event.event,name:summer_camps.event_event_3
@@ -1812,9 +1875,8 @@ msgid ""
 "🎭 <strong>Theater &amp; Storytelling</strong> – Improv games, costume play, "
 "and storytelling circles to build confidence and imagination."
 msgstr ""
-"🎭 <strong>シアター&amp;ストーリーテリング</strong> – "
-"即興ゲーム、コスチューム遊び、ストーリーテリング・サークルを通して、自信と想"
-"像力を育てます。"
+"🎭 <strong>シアター&amp;ストーリーテリング</strong> – 即興ゲーム、コスチュー"
+"ム遊び、ストーリーテリング・サークルを通して、自信と想像力を育てます。"
 
 #. module: summer_camps
 #: model:event.event,name:summer_camps.event_event_1
@@ -1847,9 +1909,8 @@ msgid ""
 "💡 <strong>Intro to Coding</strong> – Learn the basics of Python, Scratch, "
 "or HTML through fun, interactive projects."
 msgstr ""
-"💡 <strong>はじめてのコーディング</strong> – "
-"Python、Scratch、HTMLの基本を、楽しくてインタラクティブなプロジェクトを通して"
-"学びます。"
+"💡 <strong>はじめてのコーディング</strong> – Python、Scratch、HTMLの基本を、"
+"楽しくてインタラクティブなプロジェクトを通して学びます。"
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_2
@@ -1857,9 +1918,9 @@ msgid ""
 "💬 <strong>Team Hackathons</strong> – Collaborate on themed challenges to "
 "build mini apps or solutions in small groups."
 msgstr ""
-"💬 <strong> チーム・ハッカソン</strong> – "
-"テーマに沿ったチャレンジに、小さなグループで協力しながら取り組み、ミニアプリ"
-"やユニークな解決策をつくっていきます。"
+"💬 <strong> チーム・ハッカソン</strong> – テーマに沿ったチャレンジに、小さな"
+"グループで協力しながら取り組み、ミニアプリやユニークな解決策をつくっていきま"
+"す。"
 
 #. module: summer_camps
 #: model:event.event,name:summer_camps.event_event_2
@@ -1905,9 +1966,9 @@ msgstr "📍 <strong>お申し込み不要—お気軽にご相談ください</
 msgid ""
 "📍 Tucked away in the lush forests near the Ourthe River, our camp is easily "
 "accessible by car or public transport."
-msgstr "📍 "
-"キャンプ場はウルト川のほとりに広がる美しい森の中にあります。車でも公共交通機"
-"関でもアクセス可能で、自然に囲まれながらも便利な立地です。"
+msgstr ""
+"📍 キャンプ場はウルト川のほとりに広がる美しい森の中にあります。車でも公共交通"
+"機関でもアクセス可能で、自然に囲まれながらも便利な立地です。"
 
 #. module: summer_camps
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_1
@@ -1923,8 +1984,9 @@ msgstr "📬 <strong>確認メール</strong>"
 msgid ""
 "📸 <strong>Photography &amp; Journaling</strong> – Document the week with "
 "your own eyes and words."
-msgstr "📸 <strong>写真&amp; ジャーナリング</strong> – "
-"自分の目でみて、自分の言葉で、1週間を振り返りましょう。"
+msgstr ""
+"📸 <strong>写真&amp; ジャーナリング</strong> – 自分の目でみて、自分の言葉で、"
+"1週間を振り返りましょう。"
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_1
@@ -1932,8 +1994,9 @@ msgstr "📸 <strong>写真&amp; ジャーナリング</strong> – "
 msgid ""
 "🔥 <strong>Evening Campfires</strong> – Songs, stories, and marshmallow "
 "roasting every evening."
-msgstr "🔥 <strong>夜のキャンプファイヤー</strong> – "
-"毎晩、歌、物語、マシュマロをご用意します。"
+msgstr ""
+"🔥 <strong>夜のキャンプファイヤー</strong> – 毎晩、歌、物語、マシュマロをご用"
+"意します。"
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_3
@@ -1941,9 +2004,8 @@ msgid ""
 "🔥 <strong>Evening Talent Share</strong> – Campers can share songs, poems, "
 "skits, or creations by the campfire."
 msgstr ""
-"🔥 <strong>イブニング・タレント・シェア</strong> – "
-"キャンプファイヤーを囲んで、参加者が歌や詩、寸劇、自分の作品などを自由に披露"
-"できる時間です。"
+"🔥 <strong>イブニング・タレント・シェア</strong> – キャンプファイヤーを囲ん"
+"で、参加者が歌や詩、寸劇、自分の作品などを自由に披露できる時間です。"
 
 #. module: summer_camps
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_1
@@ -1959,9 +2021,9 @@ msgstr "🕒 <strong>最新情報をチェック</strong>"
 msgid ""
 "🕹️ <strong>Game Design</strong> – Build simple games, experiment with "
 "mechanics, and get feedback from peers."
-msgstr "🕹️ <strong>ゲームデザイン</strong> – "
-"シンプルなゲームをつくって、仕組みを試し、仲間からフィードバックをもらいまし"
-"ょう。"
+msgstr ""
+"🕹️ <strong>ゲームデザイン</strong> – シンプルなゲームをつくって、仕組みを試"
+"し、仲間からフィードバックをもらいましょう。"
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_3
@@ -1969,9 +2031,8 @@ msgid ""
 "🖌️ <strong>Painting &amp; Drawing</strong> – Daily workshops exploring "
 "different mediums like watercolor, acrylics, charcoal, and pastels."
 msgstr ""
-"🖌️ <strong>絵画&amp;ドローイング </strong>– "
-"水彩、アクリル、木炭、パステルなど、さまざまな画材を使って表現を楽しむ日替わ"
-"りワークショップです。"
+"🖌️ <strong>絵画&amp;ドローイング </strong>– 水彩、アクリル、木炭、パステルな"
+"ど、さまざまな画材を使って表現を楽しむ日替わりワークショップです。"
 
 #. module: summer_camps
 #: model_terms:appointment.type,message_intro:summer_camps.appointment_type_1
@@ -2024,8 +2085,8 @@ msgid ""
 "🤖 <strong>Robotics &amp; Logic Challenges</strong> – Work with robots and "
 "sensors to solve physical problems."
 msgstr ""
-"🤖 <strong>ロボティクス&amp;ロジックチャレンジ </strong>– "
-"ロボットやセンサーを使って、実際の課題にチャレンジしましょう。"
+"🤖 <strong>ロボティクス&amp;ロジックチャレンジ </strong>– ロボットやセンサー"
+"を使って、実際の課題にチャレンジしましょう。"
 
 #. module: summer_camps
 #: model:event.tag,name:summer_camps.event_tag_11
@@ -2039,8 +2100,8 @@ msgid ""
 "🧗 <strong>Climbing &amp; Ropes Course</strong> – Safely challenge comfort "
 "zones on our climbing wall and low rope course."
 msgstr ""
-"🧗 <strong>クライミング&amp; ロープコース</strong> – "
-"クライミングウォール&ロープコースで、安全にコンフォートゾーンを超えましょう。"
+"🧗 <strong>クライミング&amp; ロープコース</strong> – クライミングウォール&"
+"ロープコースで、安全にコンフォートゾーンを超えましょう。"
 
 #. module: summer_camps
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_1
@@ -2057,8 +2118,9 @@ msgstr "🧭 <strong>ナビゲーションのヒント:</strong>"
 msgid ""
 "🧭 <strong>Team Missions &amp; Games</strong> – Scavenger hunts, obstacle "
 "courses, and forest team challenges."
-msgstr "🧭 <strong>チームミッション &amp; ゲーム</strong> – "
-"宝探しゲーム、障害物コース、森のチームチャレンジ。"
+msgstr ""
+"🧭 <strong>チームミッション &amp; ゲーム</strong> – 宝探しゲーム、障害物コー"
+"ス、森のチームチャレンジ。"
 
 #. module: summer_camps
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_1
@@ -2077,3 +2139,57 @@ msgstr "🧳 <strong>持ち物</strong>"
 #: model_terms:event.type,ticket_instructions:summer_camps.event_type_1
 msgid "🧾 <strong>Medical &amp; Emergency Form</strong>"
 msgstr "🧾 <strong>医療 &amp; 緊急時用連絡フォーム</strong>"
+
+#~ msgid ""
+#~ "<strong>Appointments 📅 :</strong>Let families book meetings to discuss "
+#~ "camp options, sync your team’s calendars, and reduce no-shows with "
+#~ "automatic reminders and structured scheduling."
+#~ msgstr ""
+#~ "<strong>アポイントメント 📅：</strong>顧客ファミリーがキャンプの相談予約を"
+#~ "できるようにし、チームのカレンダーを同期。自動リマインダとスケジューリング"
+#~ "管理により、無断キャンセルを削減しましょう。"
+
+#~ msgid ""
+#~ "<strong>CRM 🎯 :</strong>Capture inquiries from your website, organize "
+#~ "and qualify leads in a visual pipeline, assign sales tasks, and convert "
+#~ "interest into bookings with quotations and notes tracking."
+#~ msgstr ""
+#~ "<strong>CRM 🎯：</strong>ウェブサイトからのお問い合わせを自動で取り込み、"
+#~ "視覚的なパイプラインでリードを整理・評価。営業タスクを割り当て、見積もりや"
+#~ "メモの管理を通じて関心を予約へとつなげます。"
+
+#~ msgid ""
+#~ "<strong>Events 🏨 :</strong>Create and manage every camp session with "
+#~ "custom forms, pricing, capacity, tags, attendee tracking, automated "
+#~ "emails, and a live check-in desk—all in one central app."
+#~ msgstr ""
+#~ "<strong>イベント 🏨：</strong>すべてのキャンプセッションを、カスタムフォー"
+#~ "ム、料金設定、定員管理、タグ付け、参加者の追跡、自動メール配信、ライブの"
+#~ "チェックインデスクなどを使って、ひとつのアプリで作成・管理できます。"
+
+#~ msgid ""
+#~ "<strong>Projects 📋 :</strong>Organize the behind-the-scenes work of each "
+#~ "camp using task lists, deadlines, assignments, and logistics tracking to "
+#~ "ensure smooth preparation and coordination."
+#~ msgstr ""
+#~ "<strong>プロジェクト 📋 :</strong>各キャンプの舞台裏の作業を、タスクリス"
+#~ "ト、締切、担当割り当て、物流の追跡を活用して整理し、スムーズな準備と連携を"
+#~ "実現します。"
+
+#~ msgid ""
+#~ "<strong>Sign ✍️ :</strong>Collect parental consent securely with reusable "
+#~ "digital signature templates, embedded links in confirmation emails, and "
+#~ "centralized access to signed documents."
+#~ msgstr ""
+#~ "<strong>署名 ✍️ :</strong>保護者の同意を、安全に収集しましょう。再利用可能"
+#~ "な電子署名テンプレート、確認メールに埋め込まれたリンク、署名済み書類への一"
+#~ "元管理されたアクセスを活用できます。"
+
+#~ msgid ""
+#~ "<strong>Website 🌐 :</strong>Showcase your camps online with dedicated "
+#~ "pages, integrated registration, mobile-friendly design, and secure payment"
+#~ "—all from a visually engaging and parent-friendly website."
+#~ msgstr ""
+#~ "<strong>ウェブサイト 🌐 :</strong>専用ページ、申込機能、モバイル対応デザイ"
+#~ "ン、そして安全な決済機能を備えた、保護者にも使いやすい魅力的なウェブサイト"
+#~ "を構築して、キャンププログラムをオンラインで紹介しましょう。"

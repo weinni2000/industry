@@ -6,13 +6,13 @@
 # Maksym <ms@myodoo.pl>, 2024
 # Wil Odoo, 2024
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 10:02+0000\n"
-"PO-Revision-Date: 2025-11-11 13:49+0000\n"
+"POT-Creation-Date: 2026-04-03 20:07+0000\n"
+"PO-Revision-Date: 2026-06-13 10:44+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Polish <https://translate.odoo.com/projects/odoo-19/"
 "wellness_practitioner/pl/>\n"
@@ -20,10 +20,10 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && ("
-"n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && "
+"(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
 "n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -32,61 +32,129 @@ msgstr "i nie wahaj się"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+#, fuzzy
 msgid "1. Create a new opportunity"
-msgstr ""
+msgstr "1. Utwórz nową szansę sprzedaży"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+#, fuzzy
 msgid "2. Book an appointment"
-msgstr ""
+msgstr "2. Umów się na spotkanie"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+#, fuzzy
 msgid "3. Verify your schedule"
-msgstr ""
+msgstr "3. Zweryfikuj swój grafik"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+#, fuzzy
 msgid "4. Take notes during your appointment"
-msgstr ""
+msgstr "4. Rób notatki podczas wizyty"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+#, fuzzy
 msgid "5. Check your invoices"
+msgstr "5. Sprawdź swoje faktury"
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+msgid ""
+"<b>Appointments App</b>: Offer seamless online booking for consultations and "
+"sessions, allowing clients to schedule\n"
+"                time with you 24/7."
 msgstr ""
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
-msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
-
-#. module: wellness_practitioner
-#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🌐</i>"
+msgid ""
+"<b>Calendar App</b>: Manage your daily schedule efficiently, avoiding double "
+"bookings and ensuring you have adequate\n"
+"                preparation time between clients."
 msgstr ""
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🎉</i>"
-msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🎉</i>"
-
-#. module: wellness_practitioner
-#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
-msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
-
-#. module: wellness_practitioner
-#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
-msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
-
-#. module: wellness_practitioner
-#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🪂</i>"
+msgid ""
+"<b>Contacts App</b>: Maintain a clean and organized directory of all your "
+"clients, suppliers, and professional\n"
+"                partners."
 msgstr ""
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+msgid ""
+"<b>Invoicing App</b>: Simplify your finances by generating professional "
+"invoices for sessions and packages, ensuring\n"
+"                you get paid on time."
+msgstr ""
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+#, fuzzy
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">💡</i>"
+msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">💡</i>"
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+#, fuzzy
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">🚀</i>"
+msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Informacyjny\">🚀</i>"
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+#, fuzzy
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\">🌐</i>"
+msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner powodzenie\">🌐</i>"
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+#, fuzzy
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\">🎉</i>"
+msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\">🎉</i>"
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+#, fuzzy
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\">🪂</i>"
+msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner powodzenie\">🪂</i>"
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+#, fuzzy
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Warning\">⚠️</i>"
+msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Warning\">⚠️</i>"
 
 #. module: wellness_practitioner
 #: model:mail.template,body_html:wellness_practitioner.booking_suggestion
+#, fuzzy
 msgid ""
 "<p>\n"
 "                Hello,\n"
@@ -105,13 +173,32 @@ msgid ""
 "            </p>\n"
 "        "
 msgstr ""
+"<p>\n"
+"                Dzień dobry,\n"
+"           </p>\n"
+"            <p> \n"
+"                Dziękuję za Państwa obecność. Zachęcam do umówienia "
+"kolejnego spotkania, jeśli zajdzie taka potrzeba.\n"
+"           </p>\n"
+"            <p> \n"
+"                Czekam na spotkanie z Państwem.\n"
+"           </p>\n"
+"            \n"
+"            <p> \n"
+"               <a class=\"btn btn-secondary\" href=\"/book/"
+"wellness_session\">Umów się na spotkanie</a>\n"
+"            </p>\n"
+"        "
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+#, fuzzy
 msgid ""
 "<span class=\"display-4-fs\"><strong><font class=\"text-800\"><span "
 "class=\"h1-fs\">Use Case</span></font></strong></span>"
 msgstr ""
+"<span class=\"display-4-fs\"><strong><font class=\"text-800\"><span "
+"class=\"h1-fs\">Przypadek użycia</span></font></strong></span>"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -128,10 +215,35 @@ msgstr ""
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
 msgid ""
-"<strong><font class=\"text-black\"><span style=\"font-weight: normal;"
-"\">Manage your schedule and your availability in the </span></font><font "
-"class=\"text-o-color-1\">Calendar App</font><font class=\"text-black\"><span "
-"style=\"font-weight: normal;\">.</span></font></strong>"
+"<strong>1. Canned responses</strong><br/><br/>Click \"<strong>Send message</"
+"strong>\", then type <strong>\"::\"</strong> in the message content to "
+"display canned responses in the system. Then just select the one you want, "
+"click send, and the customer receives the message! It's that easy! <br/><br/>"
+msgstr ""
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+msgid "<strong>2. Email templates</strong>"
+msgstr ""
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+msgid ""
+"<strong><font class=\"text-black\"><span style=\"font-weight: "
+"normal\"><b>CRM App</b>: Nurture long-term relationships by tracking client "
+"interactions, preferences, and\n"
+"                follow-up reminders in one central hub.</span></font><font "
+"class=\"text-o-color-1\"/></strong><br/>"
+msgstr ""
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+msgid ""
+"<strong><font class=\"text-black\"><span style=\"font-weight: "
+"normal\"><b>Knowledge App</b>: Securely store and organize detailed patient "
+"notes, treatment plans, and holistic\n"
+"                health records for easy reference.</span></font></strong><br/"
+">"
 msgstr ""
 
 #. module: wellness_practitioner
@@ -144,28 +256,59 @@ msgstr ""
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
 msgid ""
+"<strong>Email templates </strong>can be set up in the Email Templates "
+"technical menu. To access it, admins can enable debug mode and search for "
+"the \"Email Templates\" menu from the homescreen."
+msgstr ""
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+#, fuzzy
+msgid ""
 "A free, personalized, integrated<strong><font class=\"text-o-color-1\"> "
 "Website </font></strong>in a few clicks. Get new leads or direct appointment "
 "online in a few clicks."
 msgstr ""
+"Bezpłatna, spersonalizowana, zintegrowana <strong><font class=\"text-o-color-"
+"1\">strona internetowa</font></strong> w kilka kliknięć. Pozyskaj nowych "
+"potencjalnych klientów lub umów się na spotkanie online w kilka sekund."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+#, fuzzy
 msgid "Add an upfront payment in your Appointment Type."
-msgstr ""
+msgstr "Dodaj opcję płatności z góry w typie spotkania."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+#, fuzzy
 msgid ""
 "Add the Subscription App and invoice automatically based on a subscription "
 "type."
 msgstr ""
+"Dodaj aplikację Subskrypcje i automatycznie wystawiaj faktury w oparciu o "
+"typ subskrypcji."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
 msgid ""
-"After each appointment, an automatic email will be sent to suggest your "
-"patient to already book its next appointment."
+"After each appointment, you can use the <strong>same methods </strong>to "
+"plan your next session with your patient."
+msgstr ""
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+msgid ""
+"Alternatively, you can also use the \"Log Note\" button on your contacts or "
+"create a specific knowledge article (like this one) for each of your "
+"patients."
+msgstr ""
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+msgid ""
+"Any meeting within Odoo contains a \"Notes\" field. Type, upload images, "
+"create tables, and much more."
 msgstr ""
 
 #. module: wellness_practitioner
@@ -177,33 +320,25 @@ msgstr ""
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+#, fuzzy
 msgid "Auto-post your invoice on a regular basis."
-msgstr ""
+msgstr "Regularnie automatycznie wysyłaj swoje faktury."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+#, fuzzy
 msgid ""
 "Automated recurring invoicing with the <strong><font class=\"text-o-"
 "color-1\">Subscription App</font></strong>."
 msgstr ""
-
-#. module: wellness_practitioner
-#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid "Basics"
-msgstr "Podstawy"
-
-#. module: wellness_practitioner
-#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid ""
-"Be careful, using the \"Log Note\" in your contact with be displayed only "
-"for you and your eventual team. If you select the \"Send message\" option, "
-"this will notify your customer (which can be really interesting also)."
-msgstr ""
+"Zautomatyzowane cykliczne fakturowanie z <strong><font class=\"text-o-color-"
+"1\">aplikacją Subskrypcje</font></strong>."
 
 #. module: wellness_practitioner
 #: model:mail.template,name:wellness_practitioner.booking_suggestion
+#, fuzzy
 msgid "Book your next appointment"
-msgstr ""
+msgstr "Zarezerwuj następne spotkanie"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -224,27 +359,27 @@ msgstr ""
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+msgid ""
+"Click \"<strong>Send message</strong>\", then click the \"<strong>Expand</"
+"strong>\" button on the bottom right of the composer."
+msgstr ""
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
 msgid "Discover more about Odoo by diving into our"
 msgstr "Odkryj więcej na temat Odoo, zapoznając się z naszą"
-
-#. module: wellness_practitioner
-#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid "Do you want to go further?"
-msgstr "Czy chcesz iść dalej?"
-
-#. module: wellness_practitioner
-#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid ""
-"Ease your invoicing process with the <strong><font class=\"text-o-"
-"color-1\">Invoice App</font></strong>."
-msgstr ""
-"Uprość swój proces fakturowania z <strong><font class=\"text-o-"
-"color-1\">aplikacją Fakturowanie</font></strong>."
 
 #. module: wellness_practitioner
 #: model:calendar.alarm,name:wellness_practitioner.alarm_mail_1
 msgid "Follow up"
 msgstr "Monitorowanie"
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+msgid ""
+"From any opportunity, the next step is to easily send an invitation to book "
+"an appointment with you."
+msgstr ""
 
 #. module: wellness_practitioner
 #. odoo-javascript
@@ -256,26 +391,24 @@ msgstr ""
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid ""
-"Getting Started\n"
-"            To begin, you'll find the key applications you need on your Odoo "
-"dashboard. Let's take a closer look at how you can use these tools."
+#, fuzzy
+msgid "Getting Started"
+msgstr "Pierwsze kroki"
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+msgid "Give both options a shot!"
 msgstr ""
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+#, fuzzy
 msgid ""
 "If you navigate to the Invoice App, you can manage your invoices. You have "
 "many possibilities to streamline your invoicing process:"
 msgstr ""
-
-#. module: wellness_practitioner
-#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid ""
-"If you open Emily's opportunity in your CRM, you can see in the Chatter (on "
-"the right column) that she received an email from you with a call to action "
-"to book an appointment."
-msgstr ""
+"Przechodząc do aplikacji Fakturowanie, możesz zarządzać swoimi fakturami. "
+"Masz wiele możliwości usprawnienia procesu fakturowania:"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -307,21 +440,25 @@ msgstr "Nieaktywne"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+#, fuzzy
 msgid "Invoice yourself, manually."
-msgstr ""
+msgstr "Wystaw fakturę samodzielnie, ręcznie."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+#, fuzzy
 msgid "Let's Try"
-msgstr ""
+msgstr "Spróbujmy"
 
 #. module: wellness_practitioner
 #: model:mail.template,subject:wellness_practitioner.booking_suggestion
+#, fuzzy
 msgid "Looking forward to meeting you"
-msgstr ""
+msgstr "Czekamy na Ciebie"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+#, fuzzy
 msgid ""
 "Manage all your communication channels in one place with Odoo<strong><font "
 "class=\"text-o-color-1\"> Marketing Automation </font></strong>,"
@@ -330,6 +467,12 @@ msgid ""
 "strong>, and <strong><font class=\"text-o-color-1\">SMS Marketing </font></"
 "strong>."
 msgstr ""
+"Zarządzaj wszystkimi kanałami komunikacji w jednym miejscu z <strong><font "
+"class=\"text-o-color-1\">Automatyzacją Marketingu</font></strong>, <strong>"
+"<font class=\"text-o-color-1\">E-mail Marketingiem</font></strong>, <strong>"
+"<font class=\"text-o-color-1\">Marketingiem Społecznościowym</font></strong> "
+"i <strong><font class=\"text-o-color-1\">SMS Marketingiem</font></strong> w "
+"Odoo."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -350,11 +493,6 @@ msgid ""
 msgstr ""
 "Zarządzaj swoim zespołem i angażuj ich we wszystkie procesy dodając "
 "<strong><font class=\"text-o-color-1\">aplikację Pracownicy</font></strong>."
-
-#. module: wellness_practitioner
-#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid "Odoo for Therapy Practices"
-msgstr ""
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -398,8 +536,9 @@ msgstr ""
 
 #. module: wellness_practitioner
 #: model:crm.stage,name:wellness_practitioner.crm_stage_6
+#, fuzzy
 msgid "Redirect to Another Practitioner"
-msgstr ""
+msgstr "Przekieruj do innego specjalisty"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -407,51 +546,28 @@ msgid "Schedule a demo"
 msgstr "Zaplanuj demo"
 
 #. module: wellness_practitioner
-#: model:ir.actions.server,name:wellness_practitioner.ir_act_server_1
-msgid "Send Email when Qualified"
-msgstr ""
-
-#. module: wellness_practitioner
 #: model:mail.template,description:wellness_practitioner.booking_suggestion
 msgid "Sent to all attendees if a reminder is set"
 msgstr "Wyślij do wszystkich uczestników jeżeli przypomnienie jest ustawione"
-
-#. module: wellness_practitioner
-#: model:base.automation,name:wellness_practitioner.base_automation_1
-msgid "Stage is set to \"Qualified\""
-msgstr ""
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
 msgid ""
 "The <strong><font class=\"text-o-color-1\">Appointment App</font></strong> "
 "is automatically updated based on your Calendar. You can easily lock slots, "
-"change appointment hoursand send communication to your patients fromthe "
+"change appointment times and send communication to your patients fromthe "
 "Calendar App."
 msgstr ""
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid ""
-"The <strong><font class=\"text-o-color-1\">Appointments App</font><font "
-"class=\"text-black\"><span style=\"font-weight: normal;\"> manages your "
-"appointment types.</span></font><font class=\"text-o-color-1\"/></strong>"
-msgstr ""
-
-#. module: wellness_practitioner
-#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid ""
-"The <strong><font class=\"text-o-color-1\">CRM App</font></strong>(Customer "
-"Relationship Management) is the heart of your therapy practice's patient "
-"management."
-msgstr ""
-
-#. module: wellness_practitioner
-#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+#, fuzzy
 msgid ""
 "The Odoo Calendar App is compatible with Outlook and Google Calendar. "
 "Activate the sync in the Calendar App settings."
 msgstr ""
+"Aplikacja kalendarza Odoo jest kompatybilna z Outlookiem i Kalendarzem "
+"Google. Aktywuj synchronizację w ustawieniach aplikacji kalendarza."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -471,7 +587,39 @@ msgstr ""
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+msgid ""
+"This opens up the <strong>Mail composer. </strong>Once you're in the "
+"composer, just press the <strong>three dot icon </strong>in the toolbar, "
+"then choose your desired <strong>email template</strong>."
+msgstr ""
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+#, fuzzy
+msgid ""
+"To begin, you'll find the key applications you need on your Odoo dashboard. "
+"Let's take a closer look at how you can use these tools."
+msgstr ""
+"Na początek, na konsoli Odoo znajdziesz kluczowe aplikacje, których "
+"potrzebujesz. Przyjrzyjmy się bliżej, jak możesz korzystać z tych narzędzi."
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+msgid ""
+"To create, edit and delete existing canned responses, just open the "
+"<strong>Discuss App</strong>, then go to <strong>Configuration &gt; Canned "
+"Responses</strong> and set up the message you'd like to easily send."
+msgstr ""
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+#, fuzzy
 msgid "To do so, go to CRM &gt; Configuration &gt; Sales Teams."
+msgstr "Aby to zrobić, przejdź do CRM &gt; Konfiguracja &gt; Zespoły sprzedaży."
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+msgid "To do that easily, you have two possibilities :"
 msgstr ""
 
 #. module: wellness_practitioner
@@ -483,20 +631,7 @@ msgstr ""
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid "Try it !"
-msgstr ""
-
-#. module: wellness_practitioner
-#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid "Use Case"
-msgstr "Przypadek użycia"
-
-#. module: wellness_practitioner
-#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid ""
-"Using Odoo, you can easily take notes during your appointments, you can "
-"either use the \"Log Note\" button on your contact record or create a "
-"specific knowledge article (like this one) for each of your patient."
+msgid "Using Odoo, you can easily take notes during your appointments."
 msgstr ""
 
 #. module: wellness_practitioner
@@ -533,9 +668,19 @@ msgstr ""
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+#, fuzzy
 msgid ""
 "You can also configure an email alias so everyone sending email to this one "
 "will create a new opportunity for you."
+msgstr ""
+"Możesz również skonfigurować alias e-mail, dzięki czemu każdy, kto wyśle "
+"wiadomość na ten adres, utworzy dla Ciebie nową szansę sprzedaży."
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+msgid ""
+"You can even start a sound recording using the <strong>\"/voice transcript\" "
+"</strong>command !"
 msgstr ""
 
 #. module: wellness_practitioner
@@ -563,10 +708,14 @@ msgstr ""
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+#, fuzzy
 msgid ""
 "You may also create a personalized website in a few clicks by adding the "
 "Website App, your appointment page will be automatically added."
 msgstr ""
+"Możesz również stworzyć spersonalizowaną stronę internetową za pomocą kilku "
+"kliknięć. Kiedy dodasz aplikację Strony Internetowe Twoja strona z terminami "
+"spotkań zostanie dodana automatycznie."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -608,3 +757,31 @@ msgstr "jeśli potrzebujesz pomocy!<br/>"
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
 msgid "request a demo"
 msgstr "poprosić o demo"
+
+#~ msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
+#~ msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
+
+#~ msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🎉</i>"
+#~ msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🎉</i>"
+
+#~ msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
+#~ msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
+
+#~ msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
+#~ msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
+
+#~ msgid "Basics"
+#~ msgstr "Podstawy"
+
+#~ msgid "Do you want to go further?"
+#~ msgstr "Czy chcesz iść dalej?"
+
+#~ msgid "Use Case"
+#~ msgstr "Przypadek użycia"
+
+#~ msgid ""
+#~ "Ease your invoicing process with the <strong><font class=\"text-o-"
+#~ "color-1\">Invoice App</font></strong>."
+#~ msgstr ""
+#~ "Uprość swój proces fakturowania z <strong><font class=\"text-o-"
+#~ "color-1\">aplikacją Fakturowanie</font></strong>."

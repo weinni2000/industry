@@ -9,13 +9,14 @@
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2024
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Bren Driesen <brdri@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 09:29+0000\n"
-"PO-Revision-Date: 2025-11-17 11:08+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-06-12 18:07+0000\n"
+"PO-Revision-Date: 2026-06-24 16:58+0000\n"
+"Last-Translator: Bren Driesen <brdri@odoo.com>\n"
 "Language-Team: Dutch <https://translate.odoo.com/projects/odoo-19/fmcg_store/"
 "nl/>\n"
 "Language: nl\n"
@@ -23,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: fmcg_store
 #: model:product.attribute.value,name:fmcg_store.product_attribute_value_38
@@ -108,8 +109,8 @@ msgid ""
 "            </strong>"
 msgstr ""
 "<strong>\n"
-"                <span style=\"font-size: 36px;\">De kruidenierswinkel</span>"
-"\n"
+"                <span style=\"font-size: 36px;\">De kruidenierswinkel</"
+"span>\n"
 "            </strong>"
 
 #. module: fmcg_store
@@ -176,11 +177,6 @@ msgid "As it's set an invoice and mark \"Ship Later\""
 msgstr "Stel een factuur op en markeer \"Later verzenden\""
 
 #. module: fmcg_store
-#: model:pos.payment.method,name:fmcg_store.pos_payment_method_1
-msgid "Bank"
-msgstr "Bank"
-
-#. module: fmcg_store
 #: model:product.template,name:fmcg_store.product_product_26_product_template
 msgid "Bournville Cranberry Dark Chocolate Bars"
 msgstr "Bournville Cranberry Pure Chocolade Repen"
@@ -216,8 +212,8 @@ msgid ""
 "Click on the “Reward” Button then after automatic Free product add "
 "“‘Toothbrush Ultrasoft[Pack of 4]."
 msgstr ""
-"Klik op de knop \"Belonen\" en voeg na automatisch gratis product toe \""
-"'Tandenborstel Ultrasoft[Pak van 4]."
+"Klik op de knop \"Belonen\" en voeg na automatisch gratis product toe "
+"\"'Tandenborstel Ultrasoft[Pak van 4]."
 
 #. module: fmcg_store
 #: model:product.template,name:fmcg_store.product_template_11
@@ -279,19 +275,9 @@ msgid "Create an RFQ for \"Grocery outlet\""
 msgstr "Maak een inkoopofferte voor \"Kruidenierswinkel\""
 
 #. module: fmcg_store
-#: model:pos.payment.method,name:fmcg_store.pos_payment_method_2
-msgid "Credit Card"
-msgstr "Creditcard"
-
-#. module: fmcg_store
 #: model:loyalty.program,portal_point_name:fmcg_store.loyalty_program_8
 msgid "Credit(s)"
 msgstr "Krediet(en)"
-
-#. module: fmcg_store
-#: model:pos.payment.method,name:fmcg_store.pos_payment_method_3
-msgid "Customer Account"
-msgstr "Klant account"
 
 #. module: fmcg_store
 #: model_terms:ir.ui.view,arch_db:fmcg_store.welcome_article_body
@@ -318,32 +304,6 @@ msgstr "Droog fruit & noten"
 #: model:product.template,name:fmcg_store.product_product_12_product_template
 msgid "Energy Drink"
 msgstr "Energiedrank"
-
-#. module: fmcg_store
-#: model_terms:ir.ui.view,arch_db:fmcg_store.welcome_article_body
-msgid "Flow 1 : Purchase Flow."
-msgstr "Stroom 1 : Aankoopstroom."
-
-#. module: fmcg_store
-#: model_terms:ir.ui.view,arch_db:fmcg_store.welcome_article_body
-msgid "Flow 2: Point of sale - Regular flow with Buy one get one free product"
-msgstr ""
-"Stroom 2: Verkooppunt - Normale stroom met koop een krijg een gratis product"
-
-#. module: fmcg_store
-#: model_terms:ir.ui.view,arch_db:fmcg_store.welcome_article_body
-msgid "Flow 3: Point of sale - Customer Account"
-msgstr "Stroom 3: Verkooppunt - Klantenrekening"
-
-#. module: fmcg_store
-#: model_terms:ir.ui.view,arch_db:fmcg_store.welcome_article_body
-msgid "Flow 4: Point of Sale - Ship Later &amp; Global discount @10%"
-msgstr "Stroom 4: Verkooppunt - Later verzenden &amp; Wereldwijde korting @10%"
-
-#. module: fmcg_store
-#: model_terms:ir.ui.view,arch_db:fmcg_store.welcome_article_body
-msgid "Flow 5: Sale Flow – B2B Customer"
-msgstr "Stroom 5: Verkoopstroom - B2B klant"
 
 #. module: fmcg_store
 #: model:pos.category,name:fmcg_store.pos_category_1
@@ -377,7 +337,8 @@ msgstr "Gratis product - Ultrazachte tandenborstel"
 #. odoo-javascript
 #: code:addons/fmcg_store/static/src/js/my_tour.js:0
 msgid "Get on track and explore our recommendations for your Odoo usage here!"
-msgstr "Kom goed op weg en bekijk hier onze aanbevelingen voor je Odoo-gebruik!"
+msgstr ""
+"Kom goed op weg en bekijk hier onze aanbevelingen voor je Odoo-gebruik!"
 
 #. module: fmcg_store
 #: model:product.attribute,name:fmcg_store.product_attribute_1
@@ -410,7 +371,7 @@ msgid ""
 "feature becomes essential. For instance, when selecting a Monster Energy "
 "drink bottles are in packs of 5 and 10 in the shelves:"
 msgstr ""
-"Als klanten ervoor kiezen om verpakkingen in de winkel uit elkaar te halen, "
+"Als klanten ervoor kiezen om pakketten in de winkel uit elkaar te halen, "
 "wordt de verpakkingsfunctie essentieel. Bij het kiezen van een Monster "
 "Energy drankje liggen de flesjes bijvoorbeeld in verpakkingen van 5 en 10 in "
 "de schappen:"
@@ -465,6 +426,11 @@ msgstr "Nestle Maggi 2-Minuten Instant Noedels, Masala - 560g zak"
 #: model:product.template,name:fmcg_store.product_product_45_product_template
 msgid "Nuggets"
 msgstr "Klompjes"
+
+#. module: fmcg_store
+#: model:pos.payment.method,name:fmcg_store.pos_payment_method_2
+msgid "Online Payment"
+msgstr "Online betaling"
 
 #. module: fmcg_store
 #: model_terms:ir.ui.view,arch_db:fmcg_store.welcome_article_body
@@ -669,6 +635,34 @@ msgstr "<strong>stroom 6: Product met meerdere barcodeverpakkingen</strong>"
 #: model_terms:ir.ui.view,arch_db:fmcg_store.welcome_article_body
 msgid "​Give the Global Discount @ 10%"
 msgstr "geef de Wereldwijde Korting @ 10%"
+
+#~ msgid "Bank"
+#~ msgstr "Bank"
+
+#~ msgid "Credit Card"
+#~ msgstr "Creditcard"
+
+#~ msgid "Customer Account"
+#~ msgstr "Klant account"
+
+#~ msgid "Flow 1 : Purchase Flow."
+#~ msgstr "Stroom 1 : Aankoopstroom."
+
+#~ msgid ""
+#~ "Flow 2: Point of sale - Regular flow with Buy one get one free product"
+#~ msgstr ""
+#~ "Stroom 2: Verkooppunt - Normale stroom met koop een krijg een gratis "
+#~ "product"
+
+#~ msgid "Flow 3: Point of sale - Customer Account"
+#~ msgstr "Stroom 3: Verkooppunt - Klantenrekening"
+
+#~ msgid "Flow 4: Point of Sale - Ship Later &amp; Global discount @10%"
+#~ msgstr ""
+#~ "Stroom 4: Verkooppunt - Later verzenden &amp; Wereldwijde korting @10%"
+
+#~ msgid "Flow 5: Sale Flow – B2B Customer"
+#~ msgstr "Stroom 5: Verkoopstroom - B2B klant"
 
 #~ msgid "Best Before"
 #~ msgstr "Best Before"

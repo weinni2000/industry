@@ -3,16 +3,16 @@
 # * gallery
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# Bren Driesen <brdri@odoo.com>, 2025.
+# Bren Driesen <brdri@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-13 08:20+0000\n"
-"PO-Revision-Date: 2025-11-19 15:20+0000\n"
-"Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>\n"
+"POT-Creation-Date: 2026-06-12 18:11+0000\n"
+"PO-Revision-Date: 2026-03-18 08:30+0000\n"
+"Last-Translator: Bren Driesen <brdri@odoo.com>\n"
 "Language-Team: Dutch <https://translate.odoo.com/projects/odoo-19/gallery/nl/"
 ">\n"
 "Language: nl\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: gallery
 #: model:product.template,description_sale:gallery.product_template_11
@@ -68,7 +68,7 @@ msgid ""
 "            Do You Want to Go Further?"
 msgstr ""
 "<br/>\n"
-"            Wil je verder gaan?"
+"            Wil je nog verder gaan?"
 
 #. module: gallery
 #: model_terms:ir.ui.view,arch_db:gallery.welcome_article_body
@@ -296,6 +296,15 @@ msgstr "<strong>Boekhouding en betalingen</strong>:"
 
 #. module: gallery
 #: model_terms:ir.ui.view,arch_db:gallery.welcome_article_body
+msgid ""
+"<strong>Accounting</strong>: Easily generate tax reports and other financial "
+"documents thanks to our localization packages."
+msgstr ""
+"<strong>Boekhouding</strong>: genereer eenvoudig belastingrapporten en "
+"andere financiële documenten dankzij onze lokalisatiepakketten."
+
+#. module: gallery
+#: model_terms:ir.ui.view,arch_db:gallery.welcome_article_body
 msgid "<strong>Add Images &amp; Categorization</strong>:"
 msgstr "<strong>Afbeeldingen en categorisatie toevoegen</strong>:"
 
@@ -479,16 +488,6 @@ msgstr ""
 #. module: gallery
 #: model_terms:ir.ui.view,arch_db:gallery.welcome_article_body
 msgid ""
-"Accounting:Accounting:Accounting:<strong/> Easily generate tax reports and "
-"other financial documents thanks to our localization packages."
-msgstr ""
-"Boekhouding:Boekhouding:Boekhouding:<strong/> Genereer eenvoudig "
-"belastingrapporten en andere financiële documenten dankzij onze "
-"lokalisatiepakketten."
-
-#. module: gallery
-#: model_terms:ir.ui.view,arch_db:gallery.welcome_article_body
-msgid ""
 "Acquiring new pieces for your gallery is seamless with <strong>CRM</strong> "
 "and the <strong>Purchase App</strong>."
 msgstr ""
@@ -648,16 +647,6 @@ msgid "Capture customer details for future engagement."
 msgstr "Leg klantgegevens vast voor toekomstige betrokkenheid."
 
 #. module: gallery
-#: model:pos.payment.method,name:gallery.pos_payment_method_2
-msgid "Card"
-msgstr "Kaart"
-
-#. module: gallery
-#: model:pos.payment.method,name:gallery.pos_payment_method_1
-msgid "Cash"
-msgstr "Cash"
-
-#. module: gallery
 #: model:product.template,name:gallery.product_template_20
 msgid "Chair"
 msgstr "Stoel"
@@ -783,11 +772,6 @@ msgstr ""
 "artiest, met daarin commissiepercentages, exclusiviteit en "
 "verkoopvoorwaarden.<br/>\n"
 "                        <br/>"
-
-#. module: gallery
-#: model:pos.payment.method,name:gallery.pos_payment_method_3
-msgid "Customer Account"
-msgstr "Klant account"
 
 #. module: gallery
 #: model:product.pricelist,name:gallery.product_pricelist_2
@@ -979,9 +963,9 @@ msgid ""
 "deleted, so consider testing it in a trial environment first."
 msgstr ""
 "Als je alle functies gemakkelijk wilt verkennen, probeer dan de demodata te "
-"downloaden in je Odoo database. Eenmaal geüpload kunnen demogegevens echter "
-"niet gemakkelijk worden verwijderd, dus overweeg om ze eerst te testen in "
-"een testomgeving."
+"downloaden in je Odoo database. Eenmaal geüpload kunnen demodata echter niet "
+"gemakkelijk worden verwijderd, dus overweeg om ze eerst te testen in een "
+"testomgeving."
 
 #. module: gallery
 #: model_terms:ir.ui.view,arch_db:gallery.welcome_article_body
@@ -1189,7 +1173,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:gallery.welcome_article_body
 msgid "Once the artwork is confirmed, open the <strong>Purchase App</strong>."
 msgstr ""
-"Zodra het kunstwerk is bevestigd, open je de <strong>Aankoop App</strong>."
+"Zodra het kunstwerk is bevestigd, open je de <strong>Inkoop-app</strong>."
 
 #. module: gallery
 #: model_terms:ir.ui.view,arch_db:gallery.welcome_article_body
@@ -1199,9 +1183,9 @@ msgid ""
 "documentation on sending and creating quotations."
 msgstr ""
 "Zodra de klant heeft bevestigd, kun je de <strong>verkooporder</"
-"strong>versturen <strong>- gefeliciteerd</strong>met de verkoop van een "
-"kunstwerk! Raadpleeg voor meer informatie de officiële documentatie over het "
-"verzenden en maken van offertes."
+"strong>versturen. Gefeliciteerd met de verkoop van een kunstwerk! Raadpleeg "
+"voor meer informatie de officiële documentatie over het verzenden en maken "
+"van offertes."
 
 #. module: gallery
 #: model_terms:ir.ui.view,arch_db:gallery.welcome_article_body
@@ -1707,7 +1691,8 @@ msgstr "Het spoor van tranen"
 #: model_terms:ir.ui.view,arch_db:gallery.welcome_article_body
 msgid ""
 "These all go free in your current subscription; feel free to explore! 🙃"
-msgstr "Deze zitten allemaal gratis in je huidige abonnement. Ontdekken maar! 🙃"
+msgstr ""
+"Deze zitten allemaal gratis in je huidige abonnement. Ontdekken maar! 🙃"
 
 #. module: gallery
 #: model_terms:ir.ui.view,arch_db:gallery.welcome_article_body
@@ -1916,8 +1901,8 @@ msgid ""
 "then \"Request Signature\". </strong>"
 msgstr ""
 "Je kunt contracten vanuit elke app versturen door op het "
-"<strong>tandwielpictogram te klikken en vervolgens op "
-"\"Handtekening aanvragen\". </strong>"
+"<strong>tandwielicoon te klikken en vervolgens op \"Handtekening "
+"aanvragen\". </strong>"
 
 #. module: gallery
 #: model_terms:ir.ui.view,arch_db:gallery.ir_ui_view_3577
@@ -1938,3 +1923,20 @@ msgstr "officiële website"
 #: model_terms:ir.ui.view,arch_db:gallery.welcome_article_body
 msgid "or"
 msgstr "of"
+
+#~ msgid "Card"
+#~ msgstr "Kaart"
+
+#~ msgid "Cash"
+#~ msgstr "Cash"
+
+#~ msgid "Customer Account"
+#~ msgstr "Klant account"
+
+#~ msgid ""
+#~ "Accounting:Accounting:Accounting:<strong/> Easily generate tax reports "
+#~ "and other financial documents thanks to our localization packages."
+#~ msgstr ""
+#~ "Boekhouding:Boekhouding:Boekhouding:<strong/> Genereer eenvoudig "
+#~ "belastingrapporten en andere financiële documenten dankzij onze "
+#~ "lokalisatiepakketten."

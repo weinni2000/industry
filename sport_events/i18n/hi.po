@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 13:19+0000\n"
+"POT-Creation-Date: 2026-04-10 19:42+0000\n"
 "PO-Revision-Date: 2025-11-17 11:16+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Hindi <https://translate.odoo.com/projects/odoo-19/"
@@ -22,11 +22,6 @@ msgstr ""
 #. module: sport_events
 #: model:event.event.ticket,name:sport_events.event_event_ticket_4
 msgid "+ Cup"
-msgstr ""
-
-#. module: sport_events
-#: model_terms:ir.ui.view,arch_db:sport_events.ir_ui_view_3140
-msgid "+1 555-555-5556"
 msgstr ""
 
 #. module: sport_events
@@ -124,8 +119,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">💡</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Info\">💡</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">💡</i>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -147,8 +142,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Warning\">⚠️</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Warning\">⚠️</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Warning\">⚠️</i>"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
@@ -195,8 +190,8 @@ msgid ""
 "span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">विषय</span>\n"
-"                                  <span class=\"s_website_form_mark\"> "
-"*</span>"
+"                                  <span class=\"s_website_form_mark\"> *</"
+"span>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.contactus
@@ -213,8 +208,8 @@ msgid ""
 "span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">आपकी कंपनी</span>\n"
-"                                  <span class=\"s_website_form_mark\"> "
-"*</span>"
+"                                  <span class=\"s_website_form_mark\"> *</"
+"span>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
@@ -224,8 +219,8 @@ msgid ""
 "span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">आपका ईमेल</span>\n"
-"                                  <span class=\"s_website_form_mark\"> "
-"*</span>"
+"                                  <span class=\"s_website_form_mark\"> *</"
+"span>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
@@ -235,8 +230,8 @@ msgid ""
 "span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">आपका नाम</span>\n"
-"                                  <span class=\"s_website_form_mark\"> "
-"*</span>"
+"                                  <span class=\"s_website_form_mark\"> *</"
+"span>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
@@ -264,72 +259,49 @@ msgstr ""
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid ""
-"<strong><font class=\"text-o-color-1\">CRM</font></strong>: Manage "
-"relationships with sponsors, partners, and key contacts."
+"<strong><font class=\"text-o-color-1\"><b>Contacts App</b>:</font></"
+"strong>Maintain a database of teams, athletes, sponsors, and volunteers to "
+"streamline communication and coordination.<br/>"
 msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid ""
-"<strong><font class=\"text-o-color-1\">Documents</font></strong>: Centralize "
-"spreadsheets and materials checklists."
+"<strong><font class=\"text-o-color-1\"><b>Email Marketing App</b>: </font></"
+"strong>Keep the excitement high by sending automated updates, newsletters, "
+"and reminders to attendees and participants.<br/>"
 msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid ""
-"<strong><font class=\"text-o-color-1\">Events</font></strong>: Plan and "
-"manage sport competitions, races, or tournaments."
+"<strong><font class=\"text-o-color-1\"><b>Events App</b>:</font></"
+"strong>Orchestrate tournaments and matches with ease, handling participant "
+"registrations, ticketing, and capacity management online.<br/>"
 msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid ""
-"<strong><font class=\"text-o-color-1\">Inventory</font></strong>: Track "
-"sports gear, event equipment, merchandise, and manage stock of all materials."
+"<strong><font class=\"text-o-color-1\"><b>Project App</b>: </font></"
+"strong>Manage the logistical setup of the event, assigning tasks to staff "
+"and volunteers to ensure the venue is ready on time."
 msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid ""
-"<strong><font class=\"text-o-color-1\">Planning</font></strong>: Create "
-"staff schedules, assign roles, and manage shifts."
+"<strong><font class=\"text-o-color-1\"><b>Website App</b>: </font></"
+"strong>Build a dedicated event portal to publish schedules, results, and "
+"venue information for fans and athletes.<br/>"
 msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid ""
-"<strong><font class=\"text-o-color-1\">Project</font></strong>: Organize "
-"event planning, deadlines, and task responsibilities."
-msgstr ""
-
-#. module: sport_events
-#: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-msgid ""
-"<strong><font class=\"text-o-color-1\">Purchase</font>: </strong>Order "
-"ravitaillement supplies, gear, equipment, and other essentials for sport "
-"events.<strong/><br/>"
-msgstr ""
-
-#. module: sport_events
-#: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-msgid ""
-"<strong><font class=\"text-o-color-1\">Sign</font></strong>: Digitally sign "
-"sponsorship agreements or volunteer forms."
-msgstr ""
-
-#. module: sport_events
-#: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-msgid ""
-"<strong><font class=\"text-o-color-1\">Survey</font></strong>: Gather "
-"feedback from participants, staff, and sponsors."
-msgstr ""
-
-#. module: sport_events
-#: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-msgid ""
-"<strong><font class=\"text-o-color-1\">Website</font></strong>: Promote "
-"events, sell tickets, and gather sponsorships online."
+"<strong><font class=\"text-o-color-1\"><b>eCommerce App</b>: </font></"
+"strong>Boost revenue by selling event merchandise, gear, and concessions "
+"directly through your event website.<br/>"
 msgstr ""
 
 #. module: sport_events
@@ -848,8 +820,7 @@ msgstr ""
 msgid ""
 "By uploading this module's demo data, your database has been filled with a "
 "few contacts."
-msgstr ""
-"इस मॉड्यूल के डेमो डेटा को अपलोड करके, आपका डेटाबेस कुछ संपर्कों से भर गया है।"
+msgstr "इस मॉड्यूल के डेमो डेटा को अपलोड करके, आपका डेटाबेस कुछ संपर्कों से भर गया है।"
 
 #. module: sport_events
 #: model:project.tags,name:sport_events.project_tags_11
@@ -1377,8 +1348,8 @@ msgid ""
 "Odoo is entirely integrated into an App. Download it to turn your phone into "
 "a tool to manage your entire workflow."
 msgstr ""
-"Odoo पूरी तरह से एक ऐप्लिकेशन में उपलब्ध है. इसे डाउनलोड करके, फ़ोन से ही अपना पूरा काम मैने"
-"ज करें।"
+"Odoo पूरी तरह से एक ऐप्लिकेशन में उपलब्ध है. इसे डाउनलोड करके, फ़ोन से ही अपना पूरा काम "
+"मैनेज करें।"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1393,8 +1364,8 @@ msgid ""
 "package. Feel free to add new apps, delete/modify demo data, and test "
 "everything around!"
 msgstr ""
-"यह इस पैकेज में शामिल सुविधाओं का बस एक ओवरव्यू है. बेझिझक नए ऐप जोड़ें, डेमो डेटा मिटाएं/बदलें"
-", और सब कुछ आज़माकर देखें!"
+"यह इस पैकेज में शामिल सुविधाओं का बस एक ओवरव्यू है. बेझिझक नए ऐप जोड़ें, डेमो डेटा मिटाएं/"
+"बदलें, और सब कुछ आज़माकर देखें!"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1831,8 +1802,8 @@ msgid ""
 "problems. Our products are designed for small to medium size companies "
 "willing to optimize their performance."
 msgstr ""
-"हम उत्साहित लोगों की एक टीम हैं जिसका लक्ष्य बेहतरीन प्रॉडक्ट बनाकर हर किसी की ज़िंदगी बे"
-"हतर बनाना है. हम आपके कारोबार की समस्याओं को हल करने के लिए शानदार प्रॉडक्ट बनाते हैं. "
+"हम उत्साहित लोगों की एक टीम हैं जिसका लक्ष्य बेहतरीन प्रॉडक्ट बनाकर हर किसी की ज़िंदगी "
+"बेहतर बनाना है. हम आपके कारोबार की समस्याओं को हल करने के लिए शानदार प्रॉडक्ट बनाते हैं. "
 "हमारे प्रॉडक्ट छोटे से मध्यम आकार की कंपनियों के लिए डिज़ाइन किए गए हैं जो अपनी परफ़ॉर्मेंस "
 "को बेहतर बनाना चाहते हैं।"
 
@@ -1937,8 +1908,8 @@ msgid ""
 "You should be able to execute the following flows to have an overview of "
 "various processes you can quickly execute with this package using Odoo."
 msgstr ""
-"इस पैकेज में Odoo का इस्तेमाल करके, आप इन फ़्लो को चलाकर उन प्रक्रियाओं का ब्यौरा देख सकते हैं"
-" जिन्हें आप जल्दी से चला सकते हैं।"
+"इस पैकेज में Odoo का इस्तेमाल करके, आप इन फ़्लो को चलाकर उन प्रक्रियाओं का ब्यौरा देख सकते "
+"हैं जिन्हें आप जल्दी से चला सकते हैं।"
 
 #. module: sport_events
 #: model:survey.survey,title:sport_events.survey_survey_1
@@ -1988,6 +1959,16 @@ msgid "if you need help!"
 msgstr "अगर आपको कोई मदद चाहिए!"
 
 #. module: sport_events
+#: model:event.question.answer,name:sport_events.event_question_answer_4
+msgid "l"
+msgstr ""
+
+#. module: sport_events
+#: model:event.question.answer,name:sport_events.event_question_answer_3
+msgid "m"
+msgstr ""
+
+#. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
 msgid "people walking on street during daytime"
 msgstr ""
@@ -2001,6 +1982,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid "request a demo"
 msgstr "डेमो के लिए रिक्वेस्ट करें"
+
+#. module: sport_events
+#: model:event.question.answer,name:sport_events.event_question_answer_2
+msgid "s"
+msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage

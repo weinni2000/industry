@@ -3,13 +3,14 @@
 # * shoe_maker
 #
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
+# Saara Hakanen <sahak@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 13:50+0000\n"
-"PO-Revision-Date: 2025-09-17 03:02+0000\n"
-"Last-Translator: \"Tiffany Chang (tic)\" <tic@odoo.com>\n"
+"POT-Creation-Date: 2026-04-10 19:39+0000\n"
+"PO-Revision-Date: 2026-06-24 16:58+0000\n"
+"Last-Translator: Saara Hakanen <sahak@odoo.com>\n"
 "Language-Team: Finnish <https://translate.odoo.com/projects/odoo-19/"
 "shoe_maker/fi/>\n"
 "Language: fi\n"
@@ -17,12 +18,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
 msgid ", and feel free to"
-msgstr "ja voit rohkeasti"
+msgstr "sivuilta, sekä"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
@@ -50,24 +51,9 @@ msgid "3. Replenishment"
 msgstr "3. Täydennys"
 
 #. module: shoe_maker
-#: model:product.attribute.value,name:shoe_maker.product_attribute_value_22
-msgid "36-38"
-msgstr "36-38"
-
-#. module: shoe_maker
 #: model:product.attribute.value,name:shoe_maker.product_attribute_value_7
 msgid "36mm"
 msgstr "36mm"
-
-#. module: shoe_maker
-#: model:product.attribute.value,name:shoe_maker.product_attribute_value_19
-msgid "38"
-msgstr "38"
-
-#. module: shoe_maker
-#: model:product.attribute.value,name:shoe_maker.product_attribute_value_20
-msgid "38-40"
-msgstr "38-40"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
@@ -80,16 +66,6 @@ msgstr ""
 "4. Esittele maksutavat, maksa ja tilaus on valmis!<br/>\n"
 "            5. Tilauksen laskutuksen jälkeen järjestelmä merkitsee ne täysin "
 "laskutetuiksi <strong>Kassajärjestelmä-sovelluksessa</strong>."
-
-#. module: shoe_maker
-#: model:product.attribute.value,name:shoe_maker.product_attribute_value_21
-msgid "40-42"
-msgstr "40-42"
-
-#. module: shoe_maker
-#: model:product.attribute.value,name:shoe_maker.product_attribute_value_23
-msgid "42-44"
-msgstr "42-44"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
@@ -143,7 +119,7 @@ msgstr ""
 "out=\"object.sale_order_id.name or ''\">S00049</span> on valmis.<br/>\n"
 "    Kiitos luottamuksesta ja kärsivällisyydestä!<br/>\n"
 "    <br/>\n"
-"    Ota meihin yhteyttä, jos sinulla on kysyttävää.<br/>\n"
+"    Otathan meihin yhteyttä, mikäli sinulla on kysyttävää.<br/>\n"
 "    <br/>\n"
 "    <t t-if=\"not is_html_empty(object.sale_order_id.user_id.signature)\" "
 "data-o-mail-quote-container=\"1\">\n"
@@ -231,12 +207,12 @@ msgid ""
 "services by leveraging the filters in the sidebar on the left side of the "
 "screen!"
 msgstr ""
-"<strong>Skenaario 1:</strong> Yksinkertaisin tapa lisätä tuote tilaukseen on "
-"valitsemalla palvelusi suoraan <strong>tuoteluettelosta</strong>. Klikkaa "
-"vain \"tuoteluettelo\"-painiketta myyntitilauksesi riveillä ja valitse\n"
-"              ne tuotteet, jotka haluat myydä. Huomioithan, että voit "
-"suodattaa tuotteita ja palveluja hyödyntämällä sivupalkin suodattimia, jotka "
-"löytyvät ruudun vasemmalta puolelta."
+"<strong>Skenaario 1:</strong> Yksinkertaisin tapa lisätä tuotteita "
+"tilaukseen on valita palvelut suoraan <strong>tuotekuvastosta</strong>. "
+"Klikkaa vain \"Tuotekuvasto\"-painiketta myyntitilauksesi riveillä ja "
+"valitse\n"
+"              tuotteet, jotka haluat myydä. Huomaa, että voit suodattaa "
+"tuotteita ja palveluita ruudun vasemmapuoleisen sivupalkin suodattimilla!"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
@@ -366,7 +342,7 @@ msgstr "Kulutustarvikkeet"
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
 msgid "Discover more about Odoo by diving into our"
-msgstr "Lue lisää Odoosta sukeltamalla meidän"
+msgstr "Lue lisää Odoosta"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
@@ -485,9 +461,9 @@ msgid ""
 "populated with demo products, sales orders, purchase orders, and so on. "
 "These are nice to go through the various use cases demonstrated below."
 msgstr ""
-"Jos olet lisännyt demotiedot luodessasi tätä tietokantaa, demotuotteet, "
-"myyntitilaukset ja ostotilaukset jne. on lisätty tietokantaasi. Ne tekevät "
-"erilaisten käyttötapausten läpikäymisestä interaktiivisempaa."
+"Jos olet lisännyt demotiedot tätä tietokantaa luodessasi, siihen lisätään "
+"demotuotteita, -myyntitilauksia ja -ostotilauksia, jne. Ne ovat hyvä lisä "
+"erilaisia esimerkkitapauksia läpi käytäessä."
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
@@ -899,6 +875,9 @@ msgid ""
 "to add new apps and discover new features that can help you manage your "
 "shoemaker business!"
 msgstr ""
+"Tämä on vasta yleiskatsaus tämän paketin sisältämistä ominaisuuksista. Lisää "
+"uusia sovelluksia ja löydä uusia ominaisuuksia, jotka auttavat sinua "
+"hallinnoimaan suutariyritystäsi!"
 
 #. module: shoe_maker
 #: model:project.task.type,name:shoe_maker.project_task_type_19
@@ -1028,6 +1007,8 @@ msgid ""
 "You can still import this industry's demo data. In order to do so, go to "
 "Apps &gt; Industries &gt; Upgrade your \"Shoemaker\" package."
 msgstr ""
+"Voit yhä tuoda tämän toimialan demotiedot. Mene Sovellukset &gt; Toimialat "
+"&gt; Päivitä \"Suutaripalvelut\" pakettisi."
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
@@ -1046,8 +1027,8 @@ msgid ""
 "You completed that demo use case! There are millions of other ways to adapt "
 "your Odoo setup to fit your business needs."
 msgstr ""
-"Sait demon käyttötapauksen valmiiksi! On olemassa monia muitakin tapoja "
-"mukauttaa Odoo-asetuksia vastaamaan yrityksesi tarpeita."
+"Suoritit demon esimerkkitapauksen! On olemassa lukuisia muitakin tapoja "
+"räätälöidä Odoo-asetukset yrityksesi tarpeiden mukaiseksi."
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
@@ -1073,6 +1054,9 @@ msgid ""
 "You just installed the Odoo for Shoemakers package. By doing so, we have "
 "installed a bunch of recommended apps to run your services efficiently."
 msgstr ""
+"Olet juuri asentanut Odoo Suutareille -paketin. Sen myötä olemme asentaneet "
+"joukon suositeltuja sovelluksia, joiden avulla pyörität palveluitasi "
+"tehokkaasti."
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
@@ -1092,7 +1076,7 @@ msgstr "automaation dokumentaatio"
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
 msgid "documentation"
-msgstr "dokumentointi"
+msgstr "dokumentaatio"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
@@ -1112,7 +1096,7 @@ msgstr "jos tarvitset apua!"
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
 msgid "request a demo"
-msgstr "pyytää esittelyä"
+msgstr "pyydä demoa"
 
 #. module: shoe_maker
 #: model:mail.template,subject:shoe_maker.mail_template_45
@@ -1120,5 +1104,20 @@ msgid ""
 "{{ object.sale_order_id.company_id.name }} - Order ready (Ref. "
 "{{ object.sale_order_id.name or 'n/a' }})"
 msgstr ""
-"{{ object.sale_order_id.company_id.name }} - Tilaus valmis (viite "
-"{{ object.sale_order_id.name tai 'n/a' }})"
+"{{ object.sale_order_id.company_id.name }} - Tilaus valmis (viite {{ "
+"object.sale_order_id.name or 'n/a' }})"
+
+#~ msgid "36-38"
+#~ msgstr "36-38"
+
+#~ msgid "38"
+#~ msgstr "38"
+
+#~ msgid "38-40"
+#~ msgstr "38-40"
+
+#~ msgid "40-42"
+#~ msgstr "40-42"
+
+#~ msgid "42-44"
+#~ msgstr "42-44"

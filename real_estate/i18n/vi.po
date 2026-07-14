@@ -3,15 +3,15 @@
 # * real_estate
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# "Thi Huong Nguyen (thng)" <thng@odoo.com>, 2025.
+# "Thi Huong Nguyen (thng)" <thng@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 14:30+0000\n"
-"PO-Revision-Date: 2025-11-17 11:13+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-06-12 18:41+0000\n"
+"PO-Revision-Date: 2026-01-05 08:08+0000\n"
+"Last-Translator: \"Thi Huong Nguyen (thng)\" <thng@odoo.com>\n"
 "Language-Team: Vietnamese <https://translate.odoo.com/projects/odoo-19/"
 "real_estate/vi/>\n"
 "Language: vi\n"
@@ -19,37 +19,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.ir_ui_view_3154
-msgid "+1 555-555-5556"
-msgstr "+1 555-555-5556"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.homepage
-msgid "01"
-msgstr "01"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.homepage
-msgid "02"
-msgstr "02"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.homepage
-msgid "03"
-msgstr "03"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.homepage
-msgid "04"
-msgstr "04"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.homepage
 msgid "24/7 Property Search Assistance"
 msgstr "Hỗ trợ tìm bất động sản 24/7"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
+msgid ""
+"<b>CRM App</b>: Manage your leads efficiently, tracking ongoing buying and "
+"selling opportunities in a visual pipeline."
+msgstr ""
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.ir_ui_view_3154
@@ -64,6 +46,13 @@ msgid ""
 msgstr ""
 "<b>My Company</b><br/>250 Executive Park Blvd, Suite 3400 <br/> San "
 "Francisco CA 94134 <br/>Hoa Kỳ"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
+msgid ""
+"<b>Website App</b>: Drive qualified traffic by promoting your listings on a "
+"beautiful, mobile-responsive real estate portal."
+msgstr ""
 
 #. module: real_estate
 #: model:mail.template,body_html:real_estate.mail_template_42
@@ -2391,6 +2380,15 @@ msgid "<span class=\"o_force_ltr\">+1 555-555-5556</span>"
 msgstr "<span class=\"o_force_ltr\">+1 555-555-5556</span>"
 
 #. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.crm_lead_form_customization_view
+#: model_terms:ir.ui.view,arch_db:real_estate.product_template_product_form_customization_view
+msgid ""
+"<span class=\"o_stat_text\">\n"
+"                Sign Requests\n"
+"              </span>"
+msgstr ""
+
+#. module: real_estate
 #: model_terms:product.template,description_ecommerce:real_estate.product_template_3
 msgid ""
 "<span class=\"s_badge badge o_animable oe_snippet_body text-bg-info\" data-"
@@ -2416,11 +2414,6 @@ msgstr ""
 "<span class=\"s_website_form_label_content\">Thành phố</span>\n"
 "                                <span class=\"s_website_form_mark\">      *</"
 "span>"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "<span class=\"s_website_form_label_content\">Condition</span>"
-msgstr "<span class=\"s_website_form_label_content\">Điều kiện</span>"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.contactus
@@ -2482,11 +2475,6 @@ msgstr ""
 "*</span>"
 
 #. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "<span class=\"s_website_form_label_content\">Regions</span>"
-msgstr "<span class=\"s_website_form_label_content\">Khu vực</span>"
-
-#. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.contactus
 msgid ""
 "<span class=\"s_website_form_label_content\">Street &amp;amp; number</span>\n"
@@ -2516,11 +2504,6 @@ msgid ""
 msgstr ""
 "<span class=\"s_website_form_label_content\">Chủ đề</span>\n"
 "                            <span class=\"s_website_form_mark\">    *</span>"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "<span class=\"s_website_form_label_content\">Type</span>"
-msgstr "<span class=\"s_website_form_label_content\">Loại</span>"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.contactus
@@ -2627,6 +2610,29 @@ msgstr ""
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
+msgid ""
+"<strong><b>Appointments App</b>:</strong> Allow clients to book property "
+"visits and consultations directly with agents, synchronizing calendars "
+"automatically.<br/>"
+msgstr ""
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
+msgid ""
+"<strong><b>Properties App</b>:</strong> Organize your portfolio with a "
+"dedicated app to manage property listings, details, and availability status."
+"<br/>"
+msgstr ""
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
+msgid ""
+"<strong><b>Sales App</b>:</strong> Handle offers, negotiations, and closing "
+"deals with professional quotations and digital signatures.<br/>"
+msgstr ""
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
 msgid "<strong><span class=\"h2-fs\">Tips for Success</span></strong>"
 msgstr "<strong><span class=\"h2-fs\">Mẹo thành công</span></strong>"
 
@@ -2658,7 +2664,7 @@ msgid ""
 msgstr ""
 "<strong>Hoa hồng được quản lý trong</strong> <em>Bán hàng &gt;  Hoa hồng</"
 "em>. Bạn có thể thêm một kế hoạch hoa hồng và tính hoa hồng cho cả "
-"<strong>Chuyên viên sales</strong> (người đã chốt giao dịch) và \n"
+"<strong>Nhân viên sales</strong> (người đã chốt giao dịch) và \n"
 "<strong>Người bán</strong> của bất động sản."
 
 #. module: real_estate
@@ -2817,9 +2823,20 @@ msgid "Attach legal documents, contracts, and plans"
 msgstr "Đính kèm tài liệu pháp lý, hợp đồng và bản vẽ"
 
 #. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.product_attribute_value_search_view
+msgid "Attribute"
+msgstr ""
+
+#. module: real_estate
 #: model:ir.model.fields,field_description:real_estate.field_product_template_attribute_value_ids
 msgid "Attribute values"
 msgstr "Giá trị thuộc tính"
+
+#. module: real_estate
+#: model:ir.actions.act_window,name:real_estate.attributes_act_window
+#: model:ir.ui.menu,name:real_estate.properties_attributes_menu
+msgid "Attributes"
+msgstr ""
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
@@ -2832,11 +2849,6 @@ msgstr ""
 #: model:product.attribute,name:real_estate.product_attribute_13
 msgid "Available"
 msgstr "Có hàng"
-
-#. module: real_estate
-#: model:product.attribute,name:real_estate.product_attribute_15
-msgid "Bathroom"
-msgstr "Phòng tắm"
 
 #. module: real_estate
 #: model:product.attribute,name:real_estate.product_attribute_17
@@ -2893,6 +2905,12 @@ msgstr "Bringing the Beauty of Nature to Your Space"
 #: model:product.attribute.value,name:real_estate.product_attribute_value_28
 msgid "Brussels-Capital"
 msgstr "Thủ đô Brussels"
+
+#. module: real_estate
+#: model:product.public.category,name:real_estate.product_public_category_1
+#, fuzzy
+msgid "Buy"
+msgstr "Người mua"
 
 #. module: real_estate
 #: model:crm.team,name:real_estate.crm_team_4
@@ -2984,25 +3002,14 @@ msgid "Compact and functional studio near Botanique."
 msgstr "Căn hộ studio nhỏ gọn và tiện nghi gần khu Botanique"
 
 #. module: real_estate
-#: model:ir.model.fields,field_description:real_estate.field_res_partner_condition_ids
 #: model:product.attribute,name:real_estate.product_attribute_12
 msgid "Condition"
 msgstr "Điều kiện"
 
 #. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Construction Type: Exceptional Goods"
-msgstr "Loại công trình: Tuyệt đỉnh"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Construction Type: House"
-msgstr "Loại công trình: Nhà"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Construction Type: Villa"
-msgstr "Loại công trình: Biệt thự"
+#: model:ir.ui.menu,name:real_estate.properties_configuration_menu
+msgid "Configuration"
+msgstr ""
 
 #. module: real_estate
 #: model:ir.model.fields,field_description:real_estate.field_product_template_construction_year
@@ -3086,9 +3093,10 @@ msgid "Creating and sending quotations directly from the pipeline"
 msgstr "Tạo và gửi báo giá trực tiếp từ quy trình"
 
 #. module: real_estate
+#: model:ir.model.fields,field_description:real_estate.field_res_partner_criteria_ids
 #: model_terms:ir.ui.view,arch_db:real_estate.res_partner_form_customization_view
-msgid "Criterias"
-msgstr "Tiêu chí"
+msgid "Criteria"
+msgstr ""
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
@@ -3134,11 +3142,15 @@ msgid "Do You Want to Go Further?"
 msgstr "Bạn có muốn tiến xa hơn không?"
 
 #. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
-msgid "Drive qualified traffic via your <strong>Website</strong>"
+#: model:ir.actions.act_window,name:real_estate.crm_lead_sign_request_action
+#: model:ir.actions.act_window,name:real_estate.property_sign_request_action
+msgid "Documents"
 msgstr ""
-"Thu hút lượng truy cập chất lượng thông qua <strong>Trang web</strong> của "
-"bạn"
+
+#. module: real_estate
+#: model:product.ribbon,name:real_estate.draft_ribbon
+msgid "Draft"
+msgstr ""
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.homepage
@@ -3216,11 +3228,6 @@ msgid "External References"
 msgstr "Tham chiếu bên ngoài"
 
 #. module: real_estate
-#: model:ir.model.fields,field_description:real_estate.field_product_template_field_surface
-msgid "Field Surface"
-msgstr "Diện tích đất"
-
-#. module: real_estate
 #: model:sign.item.type,tip:real_estate.sign_item_type_14
 #: model:sign.item.type,tip:real_estate.sign_item_type_15
 msgid "Fill in"
@@ -3253,18 +3260,6 @@ msgid ""
 msgstr ""
 "Theo dõi khách hàng thông qua các <strong>Hoạt động CRM</strong> đã lên kế "
 "hoạch như cuộc gọi, email và các buổi đi xem bất động sản."
-
-#. module: real_estate
-#: model:product.public.category,name:real_estate.product_public_category_2
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "For Rent"
-msgstr "Cho thuê"
-
-#. module: real_estate
-#: model:product.public.category,name:real_estate.product_public_category_1
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "For Sale"
-msgstr "Bán"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
@@ -3303,14 +3298,6 @@ msgstr "Tốt"
 #: model:product.attribute.value,name:real_estate.product_attribute_value_4
 msgid "Hainaut"
 msgstr "Hainaut"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
-msgid ""
-"Handle offers, negotiations, and deals in the <strong>Sales App</strong>"
-msgstr ""
-"Xử lý các đề nghị, đàm phán và giao dịch trong <strong>Ứng dụng Bán hàng</"
-"strong>."
 
 #. module: real_estate
 #: model:product.attribute.value,name:real_estate.product_attribute_value_17
@@ -3352,10 +3339,10 @@ msgid ""
 "the seller. Otherwise, the salesperson is rewarded both the salesperson and "
 "seller shares."
 msgstr ""
-"Nếu người bán được chỉ định trên hóa đơn và khác với chuyên viên sales, thì "
-"hệ thống sẽ tự động điều chỉnh hoa hồng để thưởng cho người bán. Ngược lại, "
-"nếu không có người bán riêng, chuyên viên sales sẽ nhận cả phần hoa hồng của "
-"chuyên viên sales và người bán."
+"Nếu người bán được chỉ định trên hóa đơn và khác với nhân viên sales, thì hệ "
+"thống sẽ tự động điều chỉnh hoa hồng để thưởng cho người bán. Ngược lại, nếu "
+"không có người bán riêng, nhân viên sales sẽ nhận cả phần hoa hồng của nhân "
+"viên sales và người bán."
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
@@ -3503,6 +3490,12 @@ msgid "Last notification update"
 msgstr "Cập nhật thông báo cuối cùng"
 
 #. module: real_estate
+#: model:ir.model.fields,field_description:real_estate.field_crm_lead_id
+#, fuzzy
+msgid "Lead"
+msgstr "Lead"
+
+#. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.crm_lead_view_pivot
 msgid "Leads"
 msgstr "Lead"
@@ -3515,24 +3508,6 @@ msgid ""
 msgstr ""
 "Hãy để lại thông tin và chúng tôi sẽ liên hệ để sắp xếp một buổi đi xem miễn "
 "phí nhằm định hình bất động sản của bạn."
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
-msgid ""
-"Let clients book property visits easily through the <strong>Appointments "
-"App</strong>"
-msgstr ""
-"Cho phép khách hàng dễ dàng đặt lịch xem bất động sản qua <strong>Ứng dụng "
-"Lịch hẹn</strong>."
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
-msgid ""
-"Let potential buyers subscribe to criteria and receive property matches with "
-"the <strong>Matchmaking Feature</strong>"
-msgstr ""
-"Cho phép khách hàng tiềm năng đăng ký tiêu chí tìm kiếm và nhận bất động sản "
-"phù hợp thông qua <strong>Tính năng Khớp nối</strong>."
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
@@ -3553,8 +3528,8 @@ msgstr "Limburg"
 
 #. module: real_estate
 #: model:ir.model.fields,field_description:real_estate.field_product_template_living_surface
-msgid "Living Surface"
-msgstr "Diện tích sử dụng"
+msgid "Livable Area"
+msgstr ""
 
 #. module: real_estate
 #: model:product.attribute.value,name:real_estate.product_attribute_value_5
@@ -3582,6 +3557,11 @@ msgid "Loft"
 msgstr "Loft"
 
 #. module: real_estate
+#: model:ir.model.fields,field_description:real_estate.field_product_template_field_surface
+msgid "Lot Size"
+msgstr ""
+
+#. module: real_estate
 #: model:product.template,name:real_estate.product_template_27
 msgid "Louise Loft"
 msgstr "Louise Loft"
@@ -3602,14 +3582,6 @@ msgid "Manage agent availability and avoid double-bookings with calendar sync"
 msgstr ""
 "Quản lý lịch làm việc của nhân viên và tránh đặt lịch trùng lặp bằng cách "
 "đồng bộ lịch."
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
-msgid ""
-"Manage your property listings in a dedicated <strong>Properties App</strong>"
-msgstr ""
-"Quản lý danh tin mua bán bất động sản của bạn trong <strong>Ứng dụng Bất "
-"động sản</strong> chuyên biệt."
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
@@ -3660,6 +3632,7 @@ msgstr ""
 "trang Bất động sản."
 
 #. module: real_estate
+#: model:ir.model.fields,field_description:real_estate.x_is_matchmaking_field_product_attribute
 #: model:website.menu,name:real_estate.website_menu_12
 #: model_terms:ir.ui.view,arch_db:real_estate.res_partner_form_customization_view
 msgid "Matchmaking"
@@ -3898,6 +3871,11 @@ msgid "Pool"
 msgstr "Bể bơi"
 
 #. module: real_estate
+#: model:product.ribbon,name:real_estate.pre_published_ribbon
+msgid "Pre-published"
+msgstr ""
+
+#. module: real_estate
 #: model:base.automation,name:real_estate.prevent_publishing_draft_products
 msgid "Prevent Publishing Draft Products"
 msgstr "Ngăn chặn việc đăng các sản phẩm nháp"
@@ -3915,6 +3893,7 @@ msgstr "Thuộc tính"
 #: model:ir.model.fields,field_description:real_estate.field_appointment_type_property_id
 #: model:ir.model.fields,field_description:real_estate.field_calendar_event_property_id
 #: model:ir.model.fields,field_description:real_estate.field_product_template_line_property_id
+#: model:ir.model.fields,field_description:real_estate.field_property_id
 #: model:sign.item.type,name:real_estate.sign_item_type_14
 #: model_terms:ir.ui.view,arch_db:real_estate.crm_lead_search_opportunity_customization_view
 #: model_terms:ir.ui.view,arch_db:real_estate.product_template_product_form_customization_view
@@ -3944,7 +3923,13 @@ msgstr "Số bất động sản phù hợp (Liên hệ)"
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
 msgid "Reach us"
-msgstr "Liên hệ với chúng tôi"
+msgstr "Liên hệ"
+
+#. module: real_estate
+#: model:base.automation,name:real_estate.uninstall_hook_base_automation
+#: model:ir.actions.server,name:real_estate.uninstall_hook_action_server
+msgid "Real Estate: Uninstall Hook"
+msgstr ""
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.ir_ui_view_3166
@@ -3972,65 +3957,15 @@ msgid "Region"
 msgstr "Khu vực"
 
 #. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Region: Antwerp"
-msgstr "Khu vực: Antwerp"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Region: East Flanders"
-msgstr "Khu vực: East Flanders"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Region: Flemish Brabant"
-msgstr "Khu vực: Flemish Brabant"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Region: Hainaut"
-msgstr "Khu vực: Hainaut"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Region: Limburg"
-msgstr "Khu vực: Limburg"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Region: Liège"
-msgstr "Khu vực: Liège"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Region: Luxembourg"
-msgstr "Khu vực: Luxembourg"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Region: Namur"
-msgstr "Khu vực: Namur"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Region: Walloon Brabant"
-msgstr "Khu vực: Walloon Brabant"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Region: West Flanders"
-msgstr "Khu vực: West Flanders"
-
-#. module: real_estate
-#: model:ir.model.fields,field_description:real_estate.field_res_partner_regions_ids
-#: model_terms:ir.ui.view,arch_db:real_estate.res_partner_form_customization_view
-msgid "Regions"
-msgstr "Khu vực"
-
-#. module: real_estate
 #: model:product.attribute.value,name:real_estate.product_attribute_value_31
 msgid "Renovated"
 msgstr "Đã cải tạo"
+
+#. module: real_estate
+#: model:product.public.category,name:real_estate.product_public_category_2
+#, fuzzy
+msgid "Rent"
+msgstr "Cho thuê"
 
 #. module: real_estate
 #: model:ir.actions.act_window,name:real_estate.reporting_act_window
@@ -4056,7 +3991,12 @@ msgstr "Bán hàng 💶"
 #. module: real_estate
 #: model:ir.model.fields.selection,name:real_estate.x_receiver_customer_field_selection_salesperson
 msgid "Salesperson"
-msgstr "Chuyên viên sales"
+msgstr "Nhân viên sales"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.product_attribute_value_search_view
+msgid "Search Attribute Value"
+msgstr ""
 
 #. module: real_estate
 #: model:ir.actions.server,name:real_estate.search_for_property_reference_server_action
@@ -4153,6 +4093,12 @@ msgstr ""
 "lọc."
 
 #. module: real_estate
+#: model:ir.model.fields,field_description:real_estate.x_sign_request_count_field_crm_lead
+#: model:ir.model.fields,field_description:real_estate.x_sign_request_count_field_property
+msgid "Sign Request Count"
+msgstr ""
+
+#. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.homepage
 msgid "Sign in"
 msgstr "Đăng nhập"
@@ -4188,16 +4134,6 @@ msgstr ""
 #: model_terms:product.template,description_ecommerce:real_estate.product_template_32
 msgid "Spacious home with garden and garage, close to schools in Namur."
 msgstr "Ngôi nhà rộng rãi với sân vườn và gara, gần các trường học ở Namur."
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "State: Excellent"
-msgstr "Tình trạng: Tuyệt vời"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "State: To refresh"
-msgstr "Tình trạng: Cần chỉnh trang"
 
 #. module: real_estate
 #: model:ir.model.fields,field_description:real_estate.field_product_template_street
@@ -4364,7 +4300,6 @@ msgstr ""
 "hoặc phát triển nhiều bước."
 
 #. module: real_estate
-#: model:ir.model.fields,field_description:real_estate.field_res_partner_type_ids
 #: model:product.attribute,name:real_estate.product_attribute_11
 msgid "Type"
 msgstr "Loại"
@@ -4404,15 +4339,6 @@ msgid "Use a contact form to get lead with a Free Estimate promotion."
 msgstr ""
 "Sử dụng biểu mẫu liên hệ để thu hút lead thông qua chương trình khuyến mãi "
 "Ước tính miễn phí."
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
-msgid ""
-"Use the <strong>CRM App</strong> to manage your leads and track ongoing "
-"buying/selling opportunities"
-msgstr ""
-"Sử dụng <strong>Ứng dụng CRM</strong> để quản lý lead và theo dõi các cơ hội "
-"mua/bán đang diễn ra."
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.homepage
@@ -4589,10 +4515,25 @@ msgid "hello@mycompany.com"
 msgstr "support@openerp.vn"
 
 #. module: real_estate
+#: model:website.base.unit,name:real_estate.base_unit_1
+msgid "m²"
+msgstr ""
+
+#. module: real_estate
 #: model:ir.model,name:real_estate.product_template_line_model
 #: model_terms:ir.ui.view,arch_db:real_estate.default_form_view_x_product_template_line
 msgid "product_template_line"
 msgstr "product_template_line"
+
+#. module: real_estate
+#: model:website.base.unit,name:real_estate.base_unit_2
+msgid "sqft"
+msgstr ""
+
+#. module: real_estate
+#: model:website.base.unit,name:real_estate.base_unit_3
+msgid "sqm"
+msgstr ""
 
 #. module: real_estate
 #: model_terms:product.template,description_ecommerce:real_estate.product_template_16
@@ -4638,6 +4579,132 @@ msgstr "🎓 Trang web"
 #: model_terms:product.template,description_ecommerce:real_estate.product_template_16
 msgid "🛏️ Renovate the outbuildings into a boutique B&amp;B or guesthouse"
 msgstr ""
+
+#~ msgid "Field Surface"
+#~ msgstr "Diện tích đất"
+
+#~ msgid "Living Surface"
+#~ msgstr "Diện tích sử dụng"
+
+#~ msgid "+1 555-555-5556"
+#~ msgstr "+1 555-555-5556"
+
+#~ msgid "01"
+#~ msgstr "01"
+
+#~ msgid "02"
+#~ msgstr "02"
+
+#~ msgid "03"
+#~ msgstr "03"
+
+#~ msgid "04"
+#~ msgstr "04"
+
+#~ msgid "For Sale"
+#~ msgstr "Bán"
+
+#~ msgid "<span class=\"s_website_form_label_content\">Condition</span>"
+#~ msgstr "<span class=\"s_website_form_label_content\">Điều kiện</span>"
+
+#~ msgid "<span class=\"s_website_form_label_content\">Regions</span>"
+#~ msgstr "<span class=\"s_website_form_label_content\">Khu vực</span>"
+
+#~ msgid "<span class=\"s_website_form_label_content\">Type</span>"
+#~ msgstr "<span class=\"s_website_form_label_content\">Loại</span>"
+
+#~ msgid "Bathroom"
+#~ msgstr "Phòng tắm"
+
+#~ msgid "Criterias"
+#~ msgstr "Tiêu chí"
+
+#~ msgid "Regions"
+#~ msgstr "Khu vực"
+
+#~ msgid "Construction Type: Exceptional Goods"
+#~ msgstr "Loại công trình: Tuyệt đỉnh"
+
+#~ msgid "Construction Type: House"
+#~ msgstr "Loại công trình: Nhà"
+
+#~ msgid "Construction Type: Villa"
+#~ msgstr "Loại công trình: Biệt thự"
+
+#~ msgid "Drive qualified traffic via your <strong>Website</strong>"
+#~ msgstr ""
+#~ "Thu hút lượng truy cập chất lượng thông qua <strong>Trang web</strong> "
+#~ "của bạn"
+
+#~ msgid ""
+#~ "Handle offers, negotiations, and deals in the <strong>Sales App</strong>"
+#~ msgstr ""
+#~ "Xử lý các đề nghị, đàm phán và giao dịch trong <strong>Ứng dụng Bán hàng</"
+#~ "strong>."
+
+#~ msgid ""
+#~ "Let clients book property visits easily through the <strong>Appointments "
+#~ "App</strong>"
+#~ msgstr ""
+#~ "Cho phép khách hàng dễ dàng đặt lịch xem bất động sản qua <strong>Ứng "
+#~ "dụng Lịch hẹn</strong>."
+
+#~ msgid ""
+#~ "Let potential buyers subscribe to criteria and receive property matches "
+#~ "with the <strong>Matchmaking Feature</strong>"
+#~ msgstr ""
+#~ "Cho phép khách hàng tiềm năng đăng ký tiêu chí tìm kiếm và nhận bất động "
+#~ "sản phù hợp thông qua <strong>Tính năng Khớp nối</strong>."
+
+#~ msgid ""
+#~ "Manage your property listings in a dedicated <strong>Properties App</"
+#~ "strong>"
+#~ msgstr ""
+#~ "Quản lý danh tin mua bán bất động sản của bạn trong <strong>Ứng dụng Bất "
+#~ "động sản</strong> chuyên biệt."
+
+#~ msgid "Region: Antwerp"
+#~ msgstr "Khu vực: Antwerp"
+
+#~ msgid "Region: East Flanders"
+#~ msgstr "Khu vực: East Flanders"
+
+#~ msgid "Region: Flemish Brabant"
+#~ msgstr "Khu vực: Flemish Brabant"
+
+#~ msgid "Region: Hainaut"
+#~ msgstr "Khu vực: Hainaut"
+
+#~ msgid "Region: Limburg"
+#~ msgstr "Khu vực: Limburg"
+
+#~ msgid "Region: Liège"
+#~ msgstr "Khu vực: Liège"
+
+#~ msgid "Region: Luxembourg"
+#~ msgstr "Khu vực: Luxembourg"
+
+#~ msgid "Region: Namur"
+#~ msgstr "Khu vực: Namur"
+
+#~ msgid "Region: Walloon Brabant"
+#~ msgstr "Khu vực: Walloon Brabant"
+
+#~ msgid "Region: West Flanders"
+#~ msgstr "Khu vực: West Flanders"
+
+#~ msgid "State: Excellent"
+#~ msgstr "Tình trạng: Tuyệt vời"
+
+#~ msgid "State: To refresh"
+#~ msgstr "Tình trạng: Cần chỉnh trang"
+
+#~ msgid ""
+#~ "Use the <strong>CRM App</strong> to manage your leads and track ongoing "
+#~ "buying/selling opportunities"
+#~ msgstr ""
+#~ "Sử dụng <strong>Ứng dụng CRM</strong> để quản lý lead và theo dõi các cơ "
+#~ "hội mua/bán đang diễn ra."
 
 #~ msgid "fill in"
 #~ msgstr "điền vào"

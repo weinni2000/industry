@@ -1,6 +1,6 @@
 {
     'name': 'Architecture Firm',
-    'version': '1.0',
+    'version': '1.3',
     'category': 'Services',
     'depends': [
         'account_followup',
@@ -44,9 +44,10 @@
         'data/website_view.xml',
         'data/website_theme_apply.xml',
         'data/knowledge_tour.xml',
+        'data/uninstall_hook.xml',
     ],
     'demo': [
-        'demo/res_users.xml',
+        'demo/res_company.xml',
         'demo/res_partner.xml',
         'demo/appointment_type.xml',
         'demo/crm_lead.xml',
@@ -69,10 +70,12 @@
     'author': 'Odoo S.A.',
     "cloc_exclude": [
         "data/knowledge_article.xml",
+        "data/uninstall_hook.xml",
         "static/src/js/my_tour.js",
         "data/website_view.xml",
         "demo/website_view.xml",
     ],
+    'application': True,
     'images': ['images/main.png'],
     'url': "https://www.odoo.com/trial?industry&selected_app=architects",
     'website': "https://www.odoo.com/industries/architecture-firm",

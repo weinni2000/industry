@@ -3,13 +3,14 @@
 # * campsite
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# "Thi Huong Nguyen (thng)" <thng@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.5a1+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 10:44+0000\n"
-"PO-Revision-Date: 2025-11-17 11:10+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-07-03 17:46+0000\n"
+"PO-Revision-Date: 2026-04-11 09:35+0000\n"
+"Last-Translator: \"Thi Huong Nguyen (thng)\" <thng@odoo.com>\n"
 "Language-Team: Vietnamese <https://translate.odoo.com/projects/odoo-19/"
 "campsite/vi/>\n"
 "Language: vi\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -25,6 +26,8 @@ msgid ""
 ", and feel\n"
 "                    free to"
 msgstr ""
+"của chúng tôi, và đừng\n"
+"                        ngần ngại"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
@@ -32,28 +35,22 @@ msgid ""
 "<a class=\"mb-2 o_translate_inline btn btn-secondary\" href=\"/shop\">Book "
 "Your Stay Now</a>"
 msgstr ""
+"<a class=\"mb-2 o_translate_inline btn btn-secondary\" href=\"/shop\">Đặt "
+"chỗ lưu trú ngay</a>"
 
 #. module: campsite
-#: model_terms:ir.ui.view,arch_db:campsite.homepage
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
-"<a t-att-href=\"'/shop/category/' + "
-"str(env.ref('campsite.product_public_category_10').id)\" "
-"class=\"o_translate_inline btn btn-secondary\">Find out more</a>"
-msgstr ""
-
-#. module: campsite
-#: model_terms:ir.ui.view,arch_db:campsite.homepage
-msgid ""
-"<a t-att-href=\"'/shop/category/' + "
-"str(env.ref('campsite.product_public_category_11').id)\" "
-"class=\"o_translate_inline btn btn-secondary\">Explore Our Pitches Options</"
-"a>"
+"<em>Don't forget to check the results from time to time to make your guests "
+"happier!</em>"
 msgstr ""
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "<em>Don't forget to thank your guests with a warm goodbye!</em>"
 msgstr ""
+"<em>Đừng quên gửi lời cảm ơn chân thành đến khách của bạn bằng một lời chào "
+"tạm biệt ấm áp!</em>"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
@@ -62,6 +59,10 @@ msgid ""
 "                  <br/>\n"
 "                  <font class=\"text-o-color-3\">Your perfect escape</font>"
 msgstr ""
+"<font class=\"text-o-color-3\">odoo campsite ®</font>\n"
+"                  <br/>\n"
+"                  <font class=\"text-o-color-3\">Chuyến cắm trại tuyệt vời "
+"của bạn</font>"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -69,14 +70,23 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\" aria-label=\"Banner Info\">🚀</i>"
+msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\" aria-label=\"Banner Info\">🚀</i>"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">💡</i>"
 msgstr ""
 
 #. module: campsite
@@ -85,8 +95,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\" aria-label=\"Banner Success\">✅</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Success\" aria-label=\"Banner Success\">✅</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\" aria-label=\"Banner Success\">✅</i>"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -94,8 +104,18 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\" aria-label=\"Banner Success\">🎉</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Success\" aria-label=\"Banner Success\">🎉</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\" aria-label=\"Banner Success\">🎉</i>"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+#, fuzzy
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\">✅</i>"
+msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\">✅</i>"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -103,8 +123,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Warning\" aria-label=\"Banner Warning\">⚠️</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Warning\" aria-label=\"Banner Warning\">⚠️</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Warning\" aria-label=\"Banner Warning\">⚠️</i>"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -112,8 +132,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
 "normal\" aria-label=\"Banner Info\">💡</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Info\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\" aria-label=\"Banner Info\">💡</i>"
+"<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
+"normal\" aria-label=\"Banner Info\">💡</i>"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -121,6 +141,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\" aria-label=\"Banner Success\">✅</i>"
 msgstr ""
+"<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
+"fst-normal\" aria-label=\"Banner Success\">✅</i>"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
@@ -143,7 +165,7 @@ msgstr ""
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "<span class=\"display-4-fs\"><strong>Campsite</strong></span><br/>"
-msgstr ""
+msgstr "<span class=\"display-4-fs\"><strong>Khu cắm trại</strong></span><br/>"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
@@ -155,6 +177,12 @@ msgid ""
 "a bungalow</span>\n"
 "                          </span>"
 msgstr ""
+"<span class=\"o_small\">\n"
+"                            <strong>Jane DOE</strong>\n"
+"                            <br/>\n"
+"                            <span class=\"text-muted\">Khách hàng, đã lưu "
+"trú tại một bungalow</span>\n"
+"                          </span>"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
@@ -166,6 +194,12 @@ msgid ""
 "camping experience </span>\n"
 "                          </span>"
 msgstr ""
+"<span class=\"o_small\">\n"
+"                            <strong>John DOE</strong>\n"
+"                            <br/>\n"
+"                            <span class=\"text-muted\">Khách hàng, đã tận "
+"hưởng trải nghiệm cắm trại</span>\n"
+"                          </span>"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
@@ -177,11 +211,22 @@ msgid ""
 "weekend retreat </span>\n"
 "                          </span>"
 msgstr ""
+"<span class=\"o_small\">\n"
+"                            <strong>John SMITH</strong>\n"
+"                            <br/>\n"
+"                            <span class=\"text-muted\">Khách hàng, đã tận "
+"hưởng kỳ nghỉ cuối tuần</span>\n"
+"                          </span>"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "<strong>Basics</strong>"
 msgstr "<strong>Cơ bản</strong>"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "<strong>Company specific offers</strong>"
+msgstr "<strong>Các lựa chọn riêng theo công ty</strong>"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -200,6 +245,24 @@ msgid ""
 "then\n"
 "                        to create a new one for your own usage.</strong>"
 msgstr ""
+"<strong>Trong trường hợp đó, bạn có thể thoải mái thử nghiệm với cơ sở dữ "
+"liệu này và sau đó\n"
+"tạo một cơ sở dữ liệu mới để sử dụng cho mục đích riêng của mình.</strong>"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "<strong>Multiple resource blocking / period closure</strong>"
+msgstr ""
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "<strong>Shared offers</strong>"
+msgstr "<strong>Lựa chọn chung</strong>"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "<strong>Single resource blocking</strong>"
+msgstr ""
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -213,26 +276,34 @@ msgid ""
 "forest or bathed in sunlight in a peaceful clearing. Perfect for an "
 "intimate, close-to-nature getaway."
 msgstr ""
+"Một chỗ ấm cúng cho lều hoặc xe cắm trại nhỏ của bạn, ẩn mình trong lòng "
+"rừng hoặc ngập tràn ánh nắng ở một khoảng trống yên bình. Hoàn hảo cho một "
+"kỳ nghỉ gần gũi với thiên nhiên và riêng tư."
 
 #. module: campsite
 #: model:product.template,name:campsite.product_template_19
 msgid "AA Batteries (4)"
-msgstr ""
+msgstr "Pin AA (4)"
 
 #. module: campsite
 #: model:product.template,name:campsite.product_template_20
 msgid "AAA Batteries (4)"
+msgstr "Pin AAA (4)"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Access to more details clicking the slot."
 msgstr ""
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Add a line with Plancha or a Fan."
-msgstr ""
+msgstr "Thêm một dòng với plancha hoặc quạt."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Add here as many of them as needed."
-msgstr ""
+msgstr "Thêm vào đây số lượng khách cần thiết."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -241,17 +312,26 @@ msgid ""
 "display and\n"
 "                bring them to your guests."
 msgstr ""
+"Thêm một số sản phẩm vào đơn hàng đang xử lý và gửi chúng đến màn hình khâu "
+"chuẩn bị,\n"
+"sau đó mang đến cho khách của bạn."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Adjust the number of stars, leave a comment and send it!"
-msgstr ""
+msgstr "Điều chỉnh số sao, để lại bình luận và gửi đi!"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
 "Adjust the rental dates, click the book button and then proceed to checkout."
 msgstr ""
+"Điều chỉnh ngày thuê, nhấp vào nút đặt chỗ và sau đó tiến hành thanh toán."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Adjusting your offers in consequence"
+msgstr "Điều chỉnh các lựa chọn của bạn cho phù hợp"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -259,11 +339,13 @@ msgid ""
 "Again, the <strong>Campsite App </strong>helps you manage the end of the "
 "stay!"
 msgstr ""
+"Một lần nữa, <strong>Ứng dụng Khu cắm trại</strong> giúp bạn quản lý việc "
+"kết thúc kỳ lưu trú!"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.custom_product_name
 msgid "All Stay Offers"
-msgstr ""
+msgstr "Tất cả lựa chọn lưu trú"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -274,6 +356,18 @@ msgid ""
 "                    account. At the end of the stay the customer account "
 "will be charged as well."
 msgstr ""
+"Hoặc bạn có thể sử dụng Quầy lễ tân từ ứng dụng POS, chọn\n"
+"                    khách hàng, thêm các dịch vụ bổ sung và thanh toán bằng "
+"tài khoản của khách hàng.\n"
+"                    Vào cuối kỳ lưu trú, tài khoản của khách hàng cũng sẽ bị "
+"tính phí."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Alternatively to individual resource blocking slots described earlier, you "
+"can select a resource this leave applies to."
+msgstr ""
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -282,6 +376,9 @@ msgid ""
 ">Be\n"
 "                    careful not to double book a resource with such change!"
 msgstr ""
+"Ngoài ra, hãy chuyển sang chế độ xem danh sách, rồi thay đổi tài nguyên.<br/"
+">\n"
+"Hãy cẩn thận để không đặt trùng tài nguyên khi thực hiện thay đổi này!"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -292,14 +389,35 @@ msgid ""
 "booking date range."
 msgstr ""
 "Ngoài ra, bạn có thể chuyển sang chế độ xem danh sách, phù hợp hơn nếu đặt "
-"phòng\n"
+"lịch\n"
 "không nằm trong phạm vi ngày được hiển thị, và cập nhật lại phạm vi ngày đặt "
-"phòng."
+"lịch."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
 "Alternatively, type in the search bar and select the appropriate filter."
+msgstr "Ngoài ra, nhập vào thanh tìm kiếm và chọn bộ lọc phù hợp."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Alternatively, you can create a slot as placeholder from the planning "
+"directly:"
+msgstr ""
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "An automation is setup for an email to be sent automatically for you."
+msgstr ""
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Any time you create a new survey and save it with the setting \"is customer "
+"satisfaction survey\", previous ones\n"
+"                    will be archived so that it becomes your new default "
+"survey."
 msgstr ""
 
 #. module: campsite
@@ -309,17 +427,27 @@ msgid ""
 "home page\n"
 "                in a private tab to do so."
 msgstr ""
+"Bất kỳ ai cũng có thể tạo một tài khoản cổng thông tin trên cơ sở dữ liệu "
+"của bạn.<br/>Mở trang chủ trang web\n"
+"trong một tab riêng để thực hiện việc này."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
 msgid "Are you considering a tentalo getaway?"
-msgstr ""
+msgstr "Bạn đang cân nhắc một kỳ nghỉ tentalo?"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Assign them a resource, which helps you keeping track."
+msgstr "Gán tài nguyên để giúp bạn theo dõi tiến trình."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
 "At any time during their stay, open their rental order from the Campsite App."
 msgstr ""
+"Trong thời gian lưu trú, bạn có thể mở đơn cho thuê của họ từ Ứng dụng Khu "
+"cắm trại bất cứ lúc nào."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -328,46 +456,49 @@ msgid ""
 "chatter\n"
 "                    to exchange with your guest."
 msgstr ""
+"Tại bất kỳ thời điểm nào sau khi khách đặt hàng, hãy sử dụng tính năng Gửi "
+"tin nhắn trong cửa sổ trò chuyện\n"
+"                    để trao đổi với khách hàng."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "At the end of their stay, your guests will pay for all those extras."
 msgstr ""
+"Kết thúc kỳ lưu trú, khách của bạn sẽ thanh toán cho tất cả các dịch vụ bổ "
+"sung đó."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Bar &amp; Restaurant and extra services"
+msgstr "Bar &amp; nhà hàng và các dịch vụ khác"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Beyond daily operations, the Steering menu serves as the \"Captain’s "
+"Bridge\" of your campsite. It provides a 500-day horizon to anticipate "
+"market trends, manage risks, and optimize your revenue."
 msgstr ""
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
-msgid "Blocking a bungalow"
+msgid "Blocking resources"
 msgstr ""
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
-msgid "Booking a room"
-msgstr "Đặt phòng"
+msgid "Booking a pitch"
+msgstr "Đặt chỗ cắm trại"
 
 #. module: campsite
 #: model:product.template,name:campsite.product_template_17
 msgid "Bread"
-msgstr ""
-
-#. module: campsite
-#: model:planning.role,name:campsite.planning_role_4
-msgid "Bungalow-L"
-msgstr ""
-
-#. module: campsite
-#: model:planning.role,name:campsite.planning_role_5
-msgid "Bungalow-S"
-msgstr ""
+msgstr "Bánh mì"
 
 #. module: campsite
 #: model:product.public.category,name:campsite.product_public_category_9
 msgid "Bungalows"
-msgstr ""
+msgstr "Bungalow"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -376,16 +507,19 @@ msgid ""
 "few products,\n"
 "            sale orders and more."
 msgstr ""
+"Bằng cách tải lên dữ liệu demo của phân hệ này, cơ sở dữ liệu của bạn đã có "
+"sẵn một số sản phẩm,\n"
+"đơn bán hàng và nhiều dữ liệu khác."
 
 #. module: campsite
-#: model:ir.ui.menu,name:booking_engine.booking_engine_menu_root
+#: model_terms:ir.ui.view,arch_db:campsite.res_config_settings_form_view_inherited
 msgid "Campsite"
 msgstr "Khu cắm trại"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
 msgid "Carousel Indicator"
-msgstr ""
+msgstr "Chỉ báo băng chuyền"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -399,11 +533,14 @@ msgid ""
 "convenience. A snug retreat for couples or solo travelers looking for a "
 "warm, sheltered stay in nature."
 msgstr ""
+"Nhỏ nhắn và duyên dáng, những cabin hình chữ A này kết hợp phong cách mộc "
+"mạc với tiện nghi hiện đại. Một nơi nghỉ dưỡng ấm áp, lý tưởng cho các cặp "
+"đôi hoặc du khách một mình muốn tận hưởng không gian thiên nhiên có mái che."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
 msgid "Check Out Out Stay Offers"
-msgstr ""
+msgstr "Khám phá các lựa chọn lưu trú của chúng tôi"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -418,48 +555,88 @@ msgstr "Check-out cho khách"
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Check information and then confirm the booking."
-msgstr ""
+msgstr "Kiểm tra thông tin và sau đó xác nhận đặt chỗ."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Click one of the offers to book."
-msgstr ""
+msgstr "Nhấp vào một trong các lựa chọn để đặt chỗ."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
 "Click the Check in button to confirm they are now staying at your place!"
 msgstr ""
+"Nhấp vào nút check in để xác nhận rằng họ hiện đang lưu trú tại cơ sở của "
+"bạn!"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Click the Check out button to capture they left their spot ."
-msgstr ""
+msgstr "Nhấp vào nút Check out để ghi nhận rằng họ đã rời vị trí cắm trại."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Click the Create Order to open the order form."
-msgstr ""
+msgstr "Nhấp vào Tạo đơn hàng để mở biểu mẫu đặt hàng."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
 "Click the Pay with demo button, and then Pay button to mimic the payment."
 msgstr ""
+"Nhấp vào nút Thanh toán bằng demo, sau đó nhấn nút Thanh toán để mô phỏng "
+"thanh toán."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
-"Click the Payment button and select the payment mean, not forgetting to tick "
-"the\n"
-"                invoicing check box, prior clicking the Validate button."
+"Click the Settle PoS Orders button to add the corresponding order lines."
 msgstr ""
+"Nhấp vào nút \"Thanh toán đơn hàng POS\" để thêm các dòng đơn hàng tương ứng."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
 "Click the tail of the corresponding booking and drag it to the requested "
 "date."
+msgstr "Nhấp vào phần cuối của đặt chỗ tương ứng và kéo nó đến ngày yêu cầu."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Configure the email delay as you wish the email to be sent after the guest "
+"checkout."
+msgstr ""
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Create a new leave selecting the appropriate working schedule, the one from "
+"your stay resources."
+msgstr ""
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Create a new leave the same way as previously, but this time specify the "
+"resource this applies to."
+msgstr ""
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Created offers are assigned no company nor branch (default behavior).<br/>As "
+"a result, they are available from all companies and branches, as well as all "
+"websites from those."
+msgstr ""
+"Các lựa chọn được tạo không được gán cho bất kỳ công ty hay chi nhánh nào "
+"(hành vi mặc định).<br/>Do đó, chúng có sẵn cho tất cả các công ty và chi "
+"nhánh, cũng như tất cả trang web của các công ty và chi nhánh đó."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Define start and end date time and save your leave."
 msgstr ""
 
 #. module: campsite
@@ -479,6 +656,9 @@ msgid ""
 "offers to\n"
 "            improve your experience."
 msgstr ""
+"Khám phá những tính năng cơ bản của lựa chọn này và tìm hiểu tất cả khả năng "
+"mà Odoo cung cấp để\n"
+"cải thiện trải nghiệm của bạn."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -486,12 +666,48 @@ msgid ""
 "Don't be limited to those examples, you could have a paddles and kayaks "
 "available or even bikes to rent!"
 msgstr ""
+"Đừng giới hạn trong những ví dụ đó, bạn có thể cung cấp thuyền kayak và mái "
+"chèo hoặc thậm chí là xe đạp để cho thuê!"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Don't forget to save your setting changes."
+msgstr ""
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Don't forget to send them their invoice!"
+msgstr "Đừng quên gửi hóa đơn cho họ!"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
 "During an available period, click, drag and drop on a pitch line to create a "
 "slot."
+msgstr ""
+"Trong một khoảng thời gian có sẵn, hãy nhấp, kéo và thả trên dòng vị trí cắm "
+"trại để tạo một khung giờ."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Each company can have its own website!"
+msgstr "Mỗi công ty có thể có trang web riêng!"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Employee assignations"
+msgstr "Phân công công việc cho nhân viên"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Employee would open the tasks from their hand and update the status until "
+"Clean."
+msgstr ""
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Enforcing weekly turnover"
 msgstr ""
 
 #. module: campsite
@@ -503,6 +719,11 @@ msgid ""
 "the guest x nights is\n"
 "                    2x3+1x1=7."
 msgstr ""
+"Ví dụ: Một căn bungalow cho 2 người được đặt trong 4 đêm, hai khách ở trong "
+"ba\n"
+"đêm đầu nhưng chỉ còn một người ở lại đêm cuối. Khi đó, tổng số khách x đêm "
+"là\n"
+"2x3 + 1x1 = 7."
 
 #. module: campsite
 #: model_terms:product.template,description_ecommerce:campsite.product_template_5
@@ -511,17 +732,33 @@ msgid ""
 "Tentalos combine the charm of sleeping under canvas with proper beds, "
 "electricity, and stylish interiors."
 msgstr ""
+"Trải nghiệm sự kỳ diệu của hoạt động cắm trại nhưng vẫn thoải mái như ở "
+"cabin ấm cúng. Các lều Tentalo của chúng tôi kết hợp sự quyến rũ của việc "
+"ngủ dưới lều vải với giường ngủ thoải mái, điện và nội thất sang trọng."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.homepage
+msgid "Explore Our Pitches Options"
+msgstr ""
 
 #. module: campsite
 #: model:product.template,name:campsite.product_template_9
 msgid "Fan"
-msgstr ""
+msgstr "Quạt"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
 msgid ""
 "Fantastic staff! Always available and ready to help, they provide amazing "
 "pitches and cabin! We loved the stay!"
+msgstr ""
+"Đội ngũ nhân viên tuyệt vời! Luôn sẵn sàng và nhiệt tình hỗ trợ, họ cung cấp "
+"những vị trí cắm trại và cabin tuyệt vời! Chúng tôi đã rất thích kỳ nghỉ ở "
+"đây!"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.homepage
+msgid "Find out more"
 msgstr ""
 
 #. module: campsite
@@ -538,6 +775,20 @@ msgid ""
 "with a few\n"
 "            customizations."
 msgstr ""
+"Từ <strong>ứng dụng Khu cắm trại</strong>, bạn có thể quản lý các đặt chỗ "
+"một cách dễ dàng.<br/>\n"
+"Ứng dụng Khu cắm trại dựa trên sự liên kết giữa các ứng dụng Cho thuê và Kế "
+"hoạch, kèm một số\n"
+"tùy chỉnh bổ sung."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"From the Roles sections, you can select the companies and branches this "
+"employee shall have access to as well as the default one."
+msgstr ""
+"Từ phần \"Vai trò\", bạn có thể chọn các công ty và chi nhánh mà nhân viên "
+"này sẽ có quyền truy cập, cũng như công ty/chi nhánh mặc định."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
@@ -546,6 +797,9 @@ msgid ""
 "professional, friendly, and of good advice. I couldn't be happier with the "
 "entire experience!"
 msgstr ""
+"Từ bước hỏi thông tin ban đầu đến khi thanh toán, đội ngũ vô cùng chuyên "
+"nghiệp, thân thiện và đưa ra những lời khuyên hữu ích. Tôi vô cùng hài lòng "
+"với toàn bộ trải nghiệm này!"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -554,11 +808,18 @@ msgid ""
 "out\n"
 "                orders."
 msgstr ""
+"Từ thanh tìm kiếm, chọn bộ lọc Hôm nay để xem các đơn hàng đến và \n"
+"đi."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "From there you can add new companies."
+msgstr "Từ đó, bạn có thể thêm các công ty mới."
 
 #. module: campsite
 #: model:product.template,name:campsite.product_template_18
 msgid "Gaz Can 100g"
-msgstr ""
+msgstr "Bình gas 100g"
 
 #. module: campsite
 #: model_terms:product.template,description_ecommerce:campsite.product_template_7
@@ -567,6 +828,10 @@ msgid ""
 "families or friends to unwind together. Enjoy a private, fully equipped "
 "hideaway surrounded by nature."
 msgstr ""
+"Với không gian rộng rãi và thoải mái, những căn nhà gỗ hình chữ A lớn này "
+"cung cấp không gian lý tưởng cho gia đình hoặc bạn bè thư giãn cùng nhau. "
+"Hãy tận hưởng một không gian riêng tư, đầy đủ tiện nghi, giữa lòng thiên "
+"nhiên."
 
 #. module: campsite
 #: model:pos.category,name:campsite.pos_category_1
@@ -585,33 +850,26 @@ msgid ""
 "the\n"
 "                contact."
 msgstr ""
+"Nếu chưa ổn, hãy nhấp vào liên hệ, điền vào phần Thông tin cá nhân và lưu\n"
+"liên hệ."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
-"If the customer had a non null customer account, confirm its balancing "
-"during\n"
-"                this payment."
+"If they paid orders at any point of sale with their customer account, their "
+"customer account due amount will be displayed as well as a button for you to "
+"settle the associated orders."
 msgstr ""
+"Nếu khách hàng thanh toán đơn hàng tại bất kỳ POS nào bằng tài khoản khách "
+"hàng của họ, số tiền còn nợ trong tài khoản khách hàng sẽ được hiển thị cùng "
+"với nút để bạn thanh toán các đơn hàng liên quan."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
-"If the customer is eligible to invoice settlement, proceed to charge them "
-"from their\n"
-"                final invoice for already invoiced orders which were paid "
-"with their customer\n"
-"                account."
-msgstr ""
-
-#. module: campsite
-#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
-msgid ""
-"If the customer is eligible to order settlement, proceed to charge them "
-"from\n"
-"                their final invoice for all their orders during the stay "
-"which were paid with their\n"
-"                customer account."
+"If using the house keeping approver setting, designated\n"
+"                    approvers can check each room and set their state to "
+"ready to close the tasks."
 msgstr ""
 
 #. module: campsite
@@ -630,12 +888,21 @@ msgstr ""
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
-"If you're not certain customers have ongoing bookings, before charging "
-"their\n"
-"                    customer accounts, open their contact details from their "
-"menu (from the\n"
-"                    customer list) and ask where they're staying in."
+"If you're not certain customers have ongoing bookings, before charging their "
+"customer accounts, open their contact details from their menu (from the "
+"customer list) and ask for the room they stay in<br/>Note: Their room is "
+"listed in the Guests tab of their order."
 msgstr ""
+"Nếu bạn không chắc chắn khách hàng có đơn đặt phòng đang diễn ra hay không, "
+"trước khi tính phí vào tài khoản khách hàng, hãy mở thông tin liên hệ của họ "
+"từ menu (từ danh sách khách hàng) và hỏi về phòng họ đang ở<br/>Lưu ý: Phòng "
+"của họ được liệt kê trong tab Khách hàng của đơn đặt hàng."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "In any case, the resources are company and branch dependent."
+msgstr ""
+"Trong mọi trường hợp, các tài nguyên phụ thuộc vào công ty và chi nhánh."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -645,8 +912,8 @@ msgid ""
 "            might be an issue for your traceability."
 msgstr ""
 "Trong quá trình hoạt động, bạn có thể đã có các bản ghi trong sổ nhật ký mà "
-"không thể xóa được, và điều này\n"
-"có thể gây ảnh hưởng đến khả năng theo dõi của bạn."
+"không thể xóa, và điều này\n"
+"có thể gây ảnh hưởng đến khả năng truy xuất."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -655,22 +922,40 @@ msgid ""
 "<strong>Purchase App</strong>\n"
 "                will help you to manage those aspects."
 msgstr ""
+"Nếu bạn thuê ngoài hoặc phụ thuộc nhiều hơn vào nhà cung cấp, <strong>Ứng "
+"dụng Mua hàng</strong>\n"
+"sẽ giúp bạn quản lý những khía cạnh đó."
 
 #. module: campsite
-#: model:ir.model.fields,field_description:booking_engine.planning_model_planning_role_x_is_a_room_offer_field
-#: model:ir.model.fields,field_description:booking_engine.product_model_product_template_x_is_a_room_offer_field
-msgid "Is Stay Offer"
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"In the Options tab, you can see it is made the customer satisfaction survey "
+"in the participants section."
+msgstr ""
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"It enables each place manager to adjust the stay offers with greater "
+"flexibility without impacting other places."
+msgstr ""
+"Nó cho phép mỗi quản lý địa điểm điều chỉnh các lựa chọn lưu trú với sự linh "
+"hoạt cao hơn mà không ảnh hưởng đến các địa điểm khác."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Keep your guests satisfied"
 msgstr ""
 
 #. module: campsite
 #: model:product.template,name:campsite.product_template_7
 msgid "Large Bungalow (up to 6 pers.)"
-msgstr ""
+msgstr "Bungalow lớn (dành cho tối đa 6 người)"
 
 #. module: campsite
 #: model:product.template,name:campsite.product_template_4
 msgid "Large Pitch"
-msgstr ""
+msgstr "Vị trí cắm trại lớn"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -680,12 +965,12 @@ msgstr "Nhận xét"
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Let's book a pitch!"
-msgstr ""
+msgstr "Hãy đặt một vị trí cắm trại!"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
 msgid "Looking to refresh your outdoor space?"
-msgstr ""
+msgstr "Bạn đang muốn làm mới không gian ngoài trời của mình?"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -700,10 +985,29 @@ msgid ""
 "                    <font class=\"text-o-color-5\">Accounting App</font>\n"
 "                </strong><font class=\"text-o-color-5\">.</font>"
 msgstr ""
+"Quản lý kế toán của bạn dễ dàng hơn bao giờ hết với một môi trường hoàn toàn "
+"tích hợp trong <font class=\"text-o-color-5\"></font><strong>\n"
+"<font class=\"text-o-color-5\">Ứng dụng Kế toán</font>\n"
+"</strong><font class=\"text-o-color-5\">.</font>"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Manage your customers from the <strong>Contact App</strong>"
+msgstr "Quản lý khách hàng từ <strong>ứng dụng Liên hệ</strong>"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Managing scarcity with availability"
+msgstr ""
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Managing your businesses"
+msgstr "Quản lý doanh nghiệp của bạn"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Monitoring success with occupancy"
 msgstr ""
 
 #. module: campsite
@@ -718,6 +1022,20 @@ msgid ""
 "even more\n"
 "            comfortable!"
 msgstr ""
+"Giờ khi họ đã thư giãn, bạn có thể cung cấp thêm các dịch vụ để khiến khách "
+"cảm thấy\n"
+"thoải mái hơn nữa!"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Now that you have several companies or branches, you may want some of your "
+"employees to access only to some of them in case they always work in some of "
+"your places."
+msgstr ""
+"Bây giờ khi bạn đã có nhiều công ty hoặc chi nhánh, bạn có thể muốn một số "
+"nhân viên của mình chỉ có quyền truy cập vào một số trong số đó nếu họ luôn "
+"làm việc tại một số địa điểm của bạn."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -738,12 +1056,24 @@ msgstr ""
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
-msgid "On the City Tax line, adjust the number of guest x nights delivered."
+msgid ""
+"On a daily basis, house keeping tasks are created depending\n"
+"                    the current stays."
 msgstr ""
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
-msgid "On the bungalow to block line, click, drag and drop to create a slot."
+msgid "On a resource to block line, click, drag and drop to create a slot."
+msgstr ""
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "On the City Tax line, adjust the number of guest x nights delivered."
+msgstr "Trên dòng Thuế du lịch, điều chỉnh số lượng khách x số đêm lưu trú."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "On top of guest and stay management, you need to keep the place clean!"
 msgstr ""
 
 #. module: campsite
@@ -752,11 +1082,27 @@ msgid ""
 "On top of the wonderful pitch we had, <br/>we love the kayaking experience "
 "on the lake nearby. <br/>"
 msgstr ""
+"Ngoài vị trí cắm trại tuyệt vời, <br/>chúng tôi còn rất thích trải nghiệm "
+"chèo kayak trên hồ gần đó. <br/>"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Once confirmed, the payment is done and the order booked seamlessly!"
 msgstr ""
+"Khi được xác nhận, thanh toán đã hoàn tất và đơn đặt chỗ được thực hiện một "
+"cách liền mạch!"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Once defined, you can switch between companies or branches from the company "
+"selector at the top right of your screen.<br/>This will expose depending on "
+"where you are, only the selected companies and branches data."
+msgstr ""
+"Sau khi đã chọn, bạn có thể chuyển đổi giữa các công ty hoặc chi nhánh thông "
+"qua trình chọn công ty ở góc trên bên phải màn hình.<br/>Tùy thuộc vào vị "
+"trí của bạn, chỉ dữ liệu của các công ty và chi nhánh đã chọn sẽ được hiển "
+"thị."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -765,25 +1111,31 @@ msgid ""
 "and then\n"
 "                click the rental order link."
 msgstr ""
+"Sau khi thêm tất cả vị trí cắm trại cần thiết, hãy nhấp vào một khung giờ "
+"vừa được thêm và sau đó\n"
+"                nhấp vào liên kết đơn cho thuê."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
 "Once done, let's click, drag and drop on another pitch line to create a slot."
 msgstr ""
+"Khi xong, hãy nhấp, kéo và thả trên một dòng vị trí cắm trại khác để tạo một "
+"khung giờ."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Once done, logged in as a portal user."
-msgstr ""
+msgstr "Sau khi hoàn tất, đăng nhập với tư cách là người dùng cổng thông tin."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
-"Once your guest order is all set after check out, open the Front Desk from "
-"the POS\n"
-"                App."
+"Once your guest order is all set after check out, create an invoice from "
+"their order."
 msgstr ""
+"Sau khi đơn hàng của khách hàng đã được xác nhận sau khi thanh toán, hãy tạo "
+"hóa đơn từ đơn hàng của họ."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -791,21 +1143,63 @@ msgid ""
 "Open a stay offer page from the website and scroll down to the Customer "
 "Reviews section."
 msgstr ""
+"Mở trang lựa chọn lưu trú từ trang web và cuộn xuống phần Nhận xét của khách "
+"hàng."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
-msgid "Open the <strong>Website App</strong> and navigate to the Stay Offers."
+msgid ""
+"Open now, the Tasks from the accommodation app, House Keeping menu.<br/>This "
+"is\n"
+"                the daily list of house keeping tasks to be tackled."
 msgstr ""
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
-msgid "Open the Campsite App Schedule."
+msgid ""
+"Open one, assign it to an employee to plan the house keeping of the day."
+msgstr ""
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Open the <strong>Settings App</strong> and reach the companies from the menu "
+"Users &amp; Companies."
+msgstr ""
+"Mở <strong>ứng dụng Cài đặt</strong> và truy cập vào các công ty từ menu "
+"Người dùng &amp; công ty."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Open the <strong>Settings App</strong> and reach the users from the menu "
+"Users &amp; Companies."
+msgstr ""
+"Mở <strong>ứng dụng Cài đặt</strong> và truy cập vào người dùng từ menu "
+"Người dùng &amp; công ty."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Open the <strong>Website App</strong> and navigate to the Stay Offers."
+msgstr "Mở <strong>ứng dụng Trang web</strong> và đi đến các Lựa chọn lưu trú."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Open the Board from the accommodation app, House Keeping menu.<br/>Here you "
+"have an\n"
+"                overview of the cleanness state of your resources."
+msgstr ""
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Open the Campsite App and navigate to the Configuration / Leaves menu."
 msgstr ""
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Open the Campsite App and then navigate to the orders from the menu."
-msgstr ""
+msgstr "Mở ứng dụng Khu cắm trại và sau đó đi đến các đơn hàng từ menu."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -813,15 +1207,35 @@ msgid ""
 "Open the Campsite App to appreciate the currently planned bookings with the\n"
 "                Schedule."
 msgstr ""
+"Mở ứng dụng Khu cắm trại để xem các đặt chỗ hiện đang được lập kế hoạch "
+"qua \n"
+"Lịch trình."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Open the POS App and select one of the register, the Bar for example."
+msgstr "Mở ứng dụng POS và chọn một trong các quầy thu ngân, ví dụ bar."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Open the Settings App and navigate to the Rental section or search for "
+"\"Unavailability days\"."
 msgstr ""
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
-msgid "Open the customer selector from a new order."
+msgid "Open the Steering menu and select Availability."
+msgstr ""
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Open the Steering menu and select Occupancy."
+msgstr ""
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Open the Survey App to find the customer satisfaction survey."
 msgstr ""
 
 #. module: campsite
@@ -831,15 +1245,27 @@ msgid ""
 "<strong>Studio\n"
 "                App</strong>."
 msgstr ""
+"Có được nhiều quy trình làm việc và hành động tùy chỉnh hơn với sức mạnh của "
+"<strong>Ứng dụng\n"
+"Studio</strong>."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Open the order of you just arrived guests."
-msgstr ""
+msgstr "Mở đơn đặt hàng của những vị khách vừa đến."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Open your guest order from the Campsite App."
+msgstr "Mở đơn đặt hàng của khách từ ứng dụng Khu cắm trại."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Optimizing weekly turnover to maximize occupancy during peak season, you can "
+"align your bookings to a weekly rental pattern (e.g., Saturday to Saturday). "
+"By restricting check-ins and check-outs to specific days, you synchronize "
+"your housekeeping and eliminate calendar gaps."
 msgstr ""
 
 #. module: campsite
@@ -851,21 +1277,16 @@ msgid ""
 "                    <font class=\"text-o-color-5\"> App</font>\n"
 "                </strong><font class=\"text-o-color-5\">.</font>"
 msgstr ""
-
-#. module: campsite
-#: model:planning.role,name:campsite.planning_role_2
-msgid "Pitch-L"
-msgstr ""
-
-#. module: campsite
-#: model:planning.role,name:campsite.planning_role_1
-msgid "Pitch-S"
-msgstr ""
+"Sắp xếp lịch làm việc của nhân viên với<font class=\"text-o-color-5\"> "
+"<strong>\n"
+"ứng dụng</strong></font><strong>\n"
+"<font class=\"text-o-color-5\">Kế hoạch</font>\n"
+"</strong><font class=\"text-o-color-5\">.</font>"
 
 #. module: campsite
 #: model:product.public.category,name:campsite.product_public_category_11
 msgid "Pitches"
-msgstr ""
+msgstr "Vị trí cắm trại"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -873,11 +1294,13 @@ msgid ""
 "Plan, check in and and check out bookings with the <strong>Campsite App</"
 "strong>"
 msgstr ""
+"Lên kế hoạch, check in và check out các đặt chỗ với <strong>ứng dụng Khu cắm "
+"trại</strong>"
 
 #. module: campsite
 #: model:product.template,name:campsite.product_template_8
 msgid "Plancha"
-msgstr ""
+msgstr "Plancha"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
@@ -886,28 +1309,38 @@ msgstr "Trước đó"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Proceed to the payment with your terminal and set the invoice as paid."
+msgstr ""
+"Tiến hành thanh toán qua thiết bị thanh toán của bạn và đánh dấu hóa đơn là "
+"đã thanh toán."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Promote your offers through the <strong>Website App</strong>"
 msgstr ""
+"Quảng bá các lựa chọn của bạn thông qua <strong>ứng dụng Trang web</strong>"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Reach us"
-msgstr "Liên hệ với chúng tôi"
+msgstr "Liên hệ"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Record guest identity"
-msgstr ""
+msgstr "Ghi lại thông tin danh tính của khách"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
-msgid "Recording the guest presence is an obligation in numerous countries."
+msgid "Recording the guest attendance is an obligation in numerous countries."
 msgstr ""
+"Việc ghi chép sự xuất hiện của khách là một nghĩa vụ pháp lý tại nhiều quốc "
+"gia."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Save the order with those extra services."
-msgstr ""
+msgstr "Lưu đơn hàng kèm theo các dịch vụ bổ sung."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
@@ -921,18 +1354,37 @@ msgstr "Xem tất cả<span class=\"fa fa-long-arrow-right ms-2\"/>"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Select one of your employee."
+msgstr "Chọn một trong các nhân viên của bạn."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Select or create a customer and then confirm the booking!"
+msgstr "Chọn hoặc tạo một khách hàng, sau đó xác nhận đặt chỗ!"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Setup company or branch specific offers when relevant."
 msgstr ""
+"Thiết lập các lựa chọn dành riêng cho công ty hoặc chi nhánh khi cần thiết."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Share your stay offers across your companies and branches (default behavior);"
+msgstr ""
+"Chia sẻ những lựa chọn lưu trú trên các công ty và chi nhánh của bạn (hành "
+"vi mặc định);"
 
 #. module: campsite
 #: model:product.template,name:campsite.product_template_6
 msgid "Small Bungalow (up to 4 pers.)"
-msgstr ""
+msgstr "Bungalow nhỏ (tối đa 4 người)"
 
 #. module: campsite
 #: model:product.template,name:campsite.product_template_3
 msgid "Small Pitch"
-msgstr ""
+msgstr "Vị trí cắm trại nhỏ"
 
 #. module: campsite
 #: model_terms:product.template,description_ecommerce:campsite.product_template_4
@@ -941,11 +1393,10 @@ msgid ""
 "motorhomes. Set in tranquil forest shade or open clearings, they’re ideal "
 "for families or groups seeking extra room to relax."
 msgstr ""
-
-#. module: campsite
-#: model:ir.ui.menu,name:booking_engine.booking_engine_rooms_menu
-msgid "Stay Offers"
-msgstr ""
+"Rộng rãi và thoải mái, các lô đất cắm trại này phù hợp với lều lớn, caravan "
+"hoặc xe nhà di động. Nằm dưới bóng râm yên tĩnh của rừng hoặc trên những "
+"khoảng trống thoáng, chúng lý tưởng cho các gia đình hoặc nhóm muốn có thêm "
+"không gian để thư giãn."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -953,21 +1404,43 @@ msgid ""
 "Still from the Campsite App Schedule, simply drag and drop a booking to "
 "another offer, from small pitch to large pitch for example!"
 msgstr ""
+"Vẫn trong Lịch trình của ứng dụng Khu cắm trại, bạn chỉ cần kéo và thả một "
+"đặt chỗ sang một lựa chọn khác, ví dụ từ vị trí nhỏ sang vị trí lớn!"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
-msgid "Still from their Rental Order, open the Guest tab."
-msgstr ""
+msgid "Still from their Rental Order, open the Guests tab."
+msgstr "Từ Đơn cho thuê của họ, hãy mở tab Khách."
 
 #. module: campsite
-#: model:planning.role,name:campsite.planning_role_3
 #: model:product.template,name:campsite.product_template_5
 msgid "Tentalo"
-msgstr ""
+msgstr "Tentalo"
 
 #. module: campsite
 #: model:product.public.category,name:campsite.product_public_category_10
 msgid "Tentalos"
+msgstr "Tentalo"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"The Gantt chart is color-coded to reflect on the availability for you to "
+"work on filling in."
+msgstr ""
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"The Gantt chart is color-coded to reflect on the occupancy, the higher the "
+"better."
+msgstr ""
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"The Occupancy view allows you to visualize your \"Sales Success\". It "
+"answers one simple question: <i>How well am I filling my campsite?</i>"
 msgstr ""
 
 #. module: campsite
@@ -977,13 +1450,25 @@ msgid ""
 "through the options and help you choose the perfect fit for your getaway. "
 "<br/> You can decide freely whether to proceed with your booking."
 msgstr ""
+"Cảm giác tự do nhưng vẫn tiện nghi như trong một cabin!<br/>Chúng tôi sẽ "
+"hướng dẫn bạn qua các lựa chọn và giúp bạn chọn phương án hoàn hảo cho kỳ "
+"nghỉ của mình.<br/>Bạn hoàn toàn có thể tự do quyết định có tiếp tục đặt chỗ "
+"hay không."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
-"Then settle the rental order from the three dot menu to bring the line "
-"items\n"
-"                corresponding to stay offer and city tax."
+"The strength of Odoo is to separate the accounting and many other aspects "
+"which are company dependent!"
+msgstr ""
+"Điểm mạnh của Odoo là tách biệt kế toán và nhiều khía cạnh khác phụ thuộc "
+"vào từng công ty!"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Then set the days during which you want to prevent check in and check out to "
+"take place, ex. All days but Saturday"
 msgstr ""
 
 #. module: campsite
@@ -996,18 +1481,48 @@ msgstr ""
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
-msgid "They want multiple pitches?"
+msgid ""
+"They as well share the same pricing, defined at the stay offer level, which "
+"has its pros and cons."
 msgstr ""
+"Chúng cũng có cùng một mức giá, được xác định ở cấp độ lựa chọn lưu trú, "
+"điều này có những ưu và nhược điểm riêng."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "They want multiple pitches?"
+msgstr "Họ muốn nhiều vị trí cắm trại?"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "They were happy about their stay, let's ask them to leave a review."
-msgstr ""
+msgstr "Họ đã hài lòng với kỳ lưu trú, hãy mời họ để lại nhận xét."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "They will balance their customer account during the check out!"
+msgstr "Họ sẽ cân đối tài khoản khách hàng trong quá trình check out!"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"This blocks simulataneously all resources related to this working schedule "
+"during the prescribed period."
 msgstr ""
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "This capability is enabled by a setting you can set/unset."
+msgstr ""
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"This setup is relevant in case of place specific offers or when pricing "
+"varies between places."
+msgstr ""
+"Cài đặt này áp dụng trong trường hợp có các lựa chọn cụ thể theo địa điểm "
+"hoặc khi giá cả thay đổi giữa các địa điểm."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1016,6 +1531,9 @@ msgid ""
 "booking and\n"
 "                voila!"
 msgstr ""
+"Lần này, nhấp vào nút Thêm vào đơn hàng cuối để thêm khu cắm trại này vào "
+"đặt chỗ và \n"
+"thế là xong!"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1023,6 +1541,7 @@ msgid ""
 "This time, simply leave a note about the why this is booked and save the "
 "slot."
 msgstr ""
+"Lần này, chỉ cần để lại một ghi chú về lý do đặt chỗ này và lưu khung giờ."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1031,17 +1550,34 @@ msgid ""
 "during the\n"
 "            stay."
 msgstr ""
+"Các loại thuế du lịch cũng như những dịch vụ bổ sung đã sử dụng trong suốt "
+"thời gian lưu trú\n"
+"hiện đã đến hạn thanh toán."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"To ensure your guests no longer receive the satisfaction survey, you can "
+"easily archive it at any time."
+msgstr ""
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Trace guest attendance"
-msgstr ""
+msgstr "Theo dõi sự hiện diện của khách"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Two options are now available to you with multiple companies and branches:"
+msgstr "Hiện tại, bạn có hai lựa chọn với nhiều công ty và chi nhánh:"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
 "Type in the customer name in the Schedule search bar filtering by Customer."
 msgstr ""
+"Nhập tên khách hàng vào thanh tìm kiếm Lịch trình, lọc theo Khách hàng."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
@@ -1049,11 +1585,30 @@ msgid ""
 "We offer small and large pitches, in the heart of the forest, in clearings "
 "and in fields."
 msgstr ""
+"Chúng tôi cung cấp các khu cắm trại nhỏ và lớn, nằm giữa rừng, trên các khu "
+"đất trống và trên các cánh đồng."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Welcome your guests as well from the <strong>Campsite App</strong>."
 msgstr ""
+"Chào đón khách của bạn thông qua <strong>ứng dụng Khu cắm trại</strong>."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "When all is in order, confirm their invoice for payment."
+msgstr "Khi mọi thứ đã sẵn sàng, hãy xác nhận hóa đơn của họ để thanh toán."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"When creating an offer, assign them a company or a branch.<br/>As a result, "
+"they are available only for the selected company or branch, and will be "
+"available only from its website."
+msgstr ""
+"Khi tạo một lựa chọn, hãy gán cho nó một công ty hoặc chi nhánh.<br/>Do đó, "
+"lựa chọn này chỉ có sẵn cho công ty hoặc chi nhánh đã chọn và chỉ có thể "
+"truy cập từ trang web của công ty hoặc chi nhánh đó."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1066,22 +1621,47 @@ msgid ""
 "the payment and the\n"
 "                validation buttons!"
 msgstr ""
+"Khi khách hàng yêu cầu thanh toán, bạn có thể thu tiền trực tiếp hoặc thêm "
+"hóa đơn vào\n"
+"                tài khoản khách hàng của họ.<br/>Để thực hiện, mở đơn hàng "
+"tương ứng từ bảng hoặc từ\n"
+"                danh sách đơn hàng và chọn khách hàng để thu tiền.<br/>Nhấp "
+"vào nút thanh toán và nút\n"
+"                xác nhận!"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
 msgid "Where every stay becomes a retreat."
+msgstr "Nơi mỗi kỳ nghỉ trở thành một kỳ nghỉ dưỡng."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"While Occupancy focuses on what is full, the Availability view focuses on "
+"what is left to sell. It is your primary tool for operational safety and "
+"\"Scarcity Pricing.\""
 msgstr ""
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Willing to upgrade a booking?"
-msgstr ""
+msgstr "Bạn muốn nâng cấp đặt chỗ?"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
 msgid ""
 "With just a click, planning your perfect camping escape has never been "
 "simpler.<br/><br/>"
+msgstr ""
+"Chỉ với một cú nhấp chuột, việc lên kế hoạch cho chuyến cắm trại hoàn hảo "
+"của bạn chưa bao giờ dễ dàng đến thế.<br/><br/>"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"With the create slot for this resource, no overlapping booking slot would be "
+"created.<br/>Care about the start and end time or this blockage to make to "
+"re-open when suited."
 msgstr ""
 
 #. module: campsite
@@ -1095,12 +1675,15 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "You Campsite is online and future guests found it!"
 msgstr ""
+"Khu cắm trại của bạn đã hiện diện trên môi trường số và tiếp cận được các "
+"khách hàng tiềm năng!"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
 "You are repairing a bungalow or simply welcoming family and don't want "
-"guests to book it?"
+"guests to book it?<br/>Alternatively, you are closing for a week during an "
+"inter season break?<br/>Let's have this reflected in your schedule!"
 msgstr ""
 
 #. module: campsite
@@ -1115,10 +1698,28 @@ msgstr ""
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
+"You can as well select your company and in the Branches tab define branches."
+msgstr ""
+"Bạn cũng có thể chọn công ty của mình và xác định các chi nhánh trong tab "
+"Chi nhánh."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"You can find the participants and answers from the smart buttons of the "
+"survey."
+msgstr ""
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
 "You completed that demo use case! There are millions of other ways to adapt "
 "your\n"
 "                    Odoo setup to fit your business needs."
 msgstr ""
+"Vậy là bạn đã hoàn thành trường hợp vận dụng bản demo đó! Có hàng triệu cách "
+"khác để điều chỉnh\n"
+"thiết lập Odoo cho phù hợp với nhu cầu kinh doanh của bạn."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1147,7 +1748,7 @@ msgstr ""
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "You have a future guest on the line willing to book a pitch?"
-msgstr ""
+msgstr "Bạn có một khách sắp tới đang muốn đặt một vị trí cắm trại?"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1157,14 +1758,29 @@ msgid ""
 "            is how you might centralize those and bind them to your "
 "customers in a single database."
 msgstr ""
+"Bạn có một Khu cắm trại nhưng có thể cung cấp nhiều dịch vụ và lựa chọn bổ "
+"sung.<br/>Dưới đây\n"
+"là cách bạn có thể tập trung chúng và liên kết với khách hàng của mình trong "
+"một cơ sở dữ liệu duy nhất."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
 "You just installed the Odoo for Campsite package. By doing so, we have "
 "installed a\n"
-"            bunch of necessary apps to run your bar efficiently."
+"            bunch of necessary apps to run your business efficiently."
 msgstr ""
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"You may be running multiple places at the same time and most likely be "
+"willing to run them all from the same database.<b/>We got you covered with "
+"this using multiple companies or branches!"
+msgstr ""
+"Bạn có thể đang quản lý nhiều địa điểm cùng một lúc và rất có thể muốn quản "
+"lý tất cả từ cùng một cơ sở dữ liệu.<b/>Chúng tôi đã có giải pháp cho bạn "
+"với việc sử dụng nhiều công ty hoặc chi nhánh!"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1175,8 +1791,8 @@ msgid ""
 "spent nights in practice\n"
 "            and not in theory.<br/>Let's adjust them now."
 msgstr ""
-"Bạn có thể nhận thấy thuế du lịch đã được cộng vào đơn đặt phòng của khách "
-"ngay từ lúc họ làm thủ tục nhận phòng.<br/>\n"
+"Bạn có thể nhận thấy thuế du lịch đã được cộng vào đơn đặt lịch của khách "
+"ngay từ lúc họ làm thủ tục check in.<br/>\n"
 "Điều này là do trên thực tế, thuế du lịch được tính dựa trên số đêm khách "
 "thực sự lưu trú chứ không phải chỉ trên lý thuyết.<br/>\n"
 "Giờ hãy điều chỉnh lại nhé."
@@ -1192,6 +1808,9 @@ msgid ""
 "You noticed that the Identity Check highlights whether you captured all the\n"
 "            necessary information for a guest?"
 msgstr ""
+"Bạn nhận thấy rằng tính năng Kiểm tra danh tính sẽ nêu rõ liệu bạn đã thu "
+"thập đầy đủ\n"
+"            thông tin cần thiết về khách hàng hay chưa?"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1219,18 +1838,12 @@ msgstr ""
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "You welcome your first guests, awesome!"
-msgstr ""
-
-#. module: campsite
-#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
-msgid ""
-"You're now done, the invoice downloaded as well as sent to your customer!"
-msgstr ""
+msgstr "Bạn chào đón những vị khách đầu tiên. Tuyệt vời!"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "You're now waiting for your guest to arrive."
-msgstr ""
+msgstr "Bạn đang chờ khách đến."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
@@ -1244,7 +1857,7 @@ msgstr ""
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Your customer wants to stay longer?"
-msgstr ""
+msgstr "Khách của bạn muốn ở lại lâu hơn?"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1267,6 +1880,8 @@ msgid ""
 "if you need\n"
 "                    help!"
 msgstr ""
+"nếu bạn cần\n"
+"                    trợ giúp!"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1276,12 +1891,21 @@ msgstr "đặt lịch demo"
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "🌐 Online booking and reviews"
-msgstr ""
+msgstr "🌐 Đặt chỗ online và nhận xét"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "🍸 Beyond a place to stay"
+msgstr "🍸 Hơn cả một nơi lưu trú"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"🎓\n"
+"                Companies"
 msgstr ""
+"🎓\n"
+"            Công ty"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1289,6 +1913,8 @@ msgid ""
 "🎓\n"
 "                Contacts"
 msgstr ""
+"🎓\n"
+"                Liên hệ"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1296,20 +1922,8 @@ msgid ""
 "🎓\n"
 "                Invoicing"
 msgstr ""
-
-#. module: campsite
-#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
-msgid ""
 "🎓\n"
-"                Planning"
-msgstr ""
-
-#. module: campsite
-#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
-msgid ""
-"🎓\n"
-"                Rental"
-msgstr ""
+"                Hoá đơn"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1317,6 +1931,17 @@ msgid ""
 "🎓\n"
 "                Taxes"
 msgstr ""
+"🎓\n"
+"                Thuế"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"🎓\n"
+"                Websites"
+msgstr ""
+"🎓\n"
+"             Trang web"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1324,6 +1949,8 @@ msgid ""
 "🎓\n"
 "                eCommerce"
 msgstr ""
+"🎓\n"
+"                Thương mại điện tử"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1331,28 +1958,223 @@ msgid ""
 "🎓\n"
 "            POS"
 msgstr ""
+"🎓\n"
+"            POS"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "🎓 POS"
-msgstr ""
+msgstr "🎓 POS"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "🎓 Preparation Display"
+msgstr "🎓 Màn hình khâu chuẩn bị"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "🎓Booking Engine"
+msgstr "🎓Hệ thống đặt chỗ"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "🎓Planning"
+msgstr "🎓Kế hoạch"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "🎓Rental"
+msgstr "🎓Cho thuê"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "🎓Surveys"
 msgstr ""
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "👋 Wave your guests"
-msgstr ""
+msgstr "👋 Tạm biệt khách"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "🔢 Running multiple places"
+msgstr "🔢 Vận hành nhiều địa điểm"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "🗓️ Manage bookings"
-msgstr "🗓️ Quản lý đặt phòng"
+msgstr "🗓️ Quản lý đặt lịch"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "😎 Welcome guests"
 msgstr "😎 Chào mừng khách"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "🚀 Strategic Oversight"
+msgstr ""
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "🧽 Managing house keeping"
+msgstr ""
+
+#~ msgid ""
+#~ "<a t-att-href=\"'/shop/category/' + "
+#~ "str(env.ref('campsite.product_public_category_10').id)\" "
+#~ "class=\"o_translate_inline btn btn-secondary\">Find out more</a>"
+#~ msgstr ""
+#~ "<a t-att-href=\"'/shop/category/' + "
+#~ "str(env.ref('campsite.product_public_category_10').id)\" "
+#~ "class=\"o_translate_inline btn btn-secondary\">Tìm hiểu thêm</a>"
+
+#~ msgid ""
+#~ "<a t-att-href=\"'/shop/category/' + "
+#~ "str(env.ref('campsite.product_public_category_11').id)\" "
+#~ "class=\"o_translate_inline btn btn-secondary\">Explore Our Pitches "
+#~ "Options</a>"
+#~ msgstr ""
+#~ "<a t-att-href=\"'/shop/category/' + "
+#~ "str(env.ref('campsite.product_public_category_11').id)\" "
+#~ "class=\"o_translate_inline btn btn-secondary\">Khám phá các lựa chọn vị "
+#~ "trí cắm trại của chúng tôi</a>"
+
+#~ msgid "Blocking a bungalow"
+#~ msgstr "Chặn một bungalow"
+
+#~ msgid ""
+#~ "On the bungalow to block line, click, drag and drop to create a slot."
+#~ msgstr "Trên dòng bungalow cần chặn, nhấp, kéo và thả để tạo một khung giờ."
+
+#~ msgid "Open the Campsite App Schedule."
+#~ msgstr "Mở lịch trình của ứng dụng Khu cắm trại."
+
+#~ msgid ""
+#~ "You are repairing a bungalow or simply welcoming family and don't want "
+#~ "guests to book it?"
+#~ msgstr ""
+#~ "Bạn đang sửa chữa một bungalow hoặc chỉ đơn giản là đón tiếp gia đình và "
+#~ "không muốn khách đặt chỗ?"
+
+#~ msgid "Bungalow-L"
+#~ msgstr "Bungalow-L"
+
+#~ msgid "Bungalow-S"
+#~ msgstr "Bungalow-S"
+
+#~ msgid "Pitch-L"
+#~ msgstr "Vị trí cắm trại-L"
+
+#~ msgid "Pitch-S"
+#~ msgstr "Vị trí cắm trại-S"
+
+#~ msgid ""
+#~ "If you're not certain customers have ongoing bookings, before charging "
+#~ "their\n"
+#~ "                    customer accounts, open their contact details from "
+#~ "their menu (from the\n"
+#~ "                    customer list) and ask where they're staying in."
+#~ msgstr ""
+#~ "Nếu bạn không chắc khách hàng hiện đang có đặt chỗ hay không, trước khi "
+#~ "tính phí\n"
+#~ "vào tài khoản khách hàng của họ, hãy mở chi tiết liên hệ từ menu của họ "
+#~ "(từ danh sách\n"
+#~ "khách hàng) và hỏi về nơi mà họ ở."
+
+#~ msgid "Recording the guest presence is an obligation in numerous countries."
+#~ msgstr "Ghi nhận sự hiện diện của khách là một nghĩa vụ ở nhiều quốc gia."
+
+#~ msgid "Still from their Rental Order, open the Guest tab."
+#~ msgstr "Từ đơn cho thuê của họ, hãy mở tab Khách hàng."
+
+#~ msgid "Booking a room"
+#~ msgstr "Đặt vị trí cắm trại"
+
+#~ msgid ""
+#~ "Click the Payment button and select the payment mean, not forgetting to "
+#~ "tick the\n"
+#~ "                invoicing check box, prior clicking the Validate button."
+#~ msgstr ""
+#~ "Nhấn nút Thanh toán và chọn phương thức thanh toán, nhớ đánh dấu\n"
+#~ "vào ô lập hóa đơn trước khi nhấn nút Xác nhận."
+
+#~ msgid ""
+#~ "If the customer had a non null customer account, confirm its balancing "
+#~ "during\n"
+#~ "                this payment."
+#~ msgstr ""
+#~ "Nếu khách hàng có tài khoản khách hàng không rỗng, hãy xác nhận việc cân "
+#~ "đối tài khoản\n"
+#~ "trong thanh toán này."
+
+#~ msgid ""
+#~ "If the customer is eligible to invoice settlement, proceed to charge them "
+#~ "from their\n"
+#~ "                final invoice for already invoiced orders which were paid "
+#~ "with their customer\n"
+#~ "                account."
+#~ msgstr ""
+#~ "Nếu khách hàng đủ điều kiện thực hiện quyết toán hoá đơn, hãy gộp\n"
+#~ "tất cả các đơn hàng đã được xuất hóa đơn trước đó và đã thanh toán bằng "
+#~ "tài khoản khách hàng\n"
+#~ "vào hóa đơn cuối cùng của họ."
+
+#~ msgid ""
+#~ "If the customer is eligible to order settlement, proceed to charge them "
+#~ "from\n"
+#~ "                their final invoice for all their orders during the stay "
+#~ "which were paid with their\n"
+#~ "                customer account."
+#~ msgstr ""
+#~ "Nếu khách hàng đủ điều kiện thực hiện quyết toán đơn hàng, hãy gộp\n"
+#~ "tất cả đơn hàng đã phát sinh trong thời gian lưu trú và đã được thanh "
+#~ "toán bằng tài khoản khách hàng của họ\n"
+#~ "vào hóa đơn cuối cùng ."
+
+#~ msgid "Is Stay Offer"
+#~ msgstr "Là lựa chọn lưu trú"
+
+#~ msgid ""
+#~ "Once your guest order is all set after check out, open the Front Desk "
+#~ "from the POS\n"
+#~ "                App."
+#~ msgstr ""
+#~ "Khi đơn hàng của khách đã được hoàn tất sau khi thanh toán, mở Lễ tân từ "
+#~ "Ứng dụng \n"
+#~ "POS."
+
+#~ msgid "Open the customer selector from a new order."
+#~ msgstr "Mở trình chọn khách hàng từ một đơn hàng mới."
+
+#~ msgid "Stay Offers"
+#~ msgstr "Lựa chọn lưu trú"
+
+#~ msgid ""
+#~ "Then settle the rental order from the three dot menu to bring the line "
+#~ "items\n"
+#~ "                corresponding to stay offer and city tax."
+#~ msgstr ""
+#~ "Sau đó, quyết toán đơn cho thuê từ menu ba chấm để hiển thị các mục chi "
+#~ "tiết\n"
+#~ "liên quan đến lựa chọn lưu trú và thuế du lịch."
+
+#~ msgid ""
+#~ "You're now done, the invoice downloaded as well as sent to your customer!"
+#~ msgstr ""
+#~ "Thế là xong, hóa đơn đã được tải xuống và gửi đến khách hàng của bạn!"
+
+#~ msgid ""
+#~ "🎓\n"
+#~ "                Planning"
+#~ msgstr ""
+#~ "🎓\n"
+#~ "                Kế hoạch"
+
+#~ msgid ""
+#~ "🎓\n"
+#~ "                Rental"
+#~ msgstr ""
+#~ "🎓\n"
+#~ "                Cho thuê"

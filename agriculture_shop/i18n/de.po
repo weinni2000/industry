@@ -6,13 +6,13 @@
 # Tiffany Chang, 2024
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025.
+# "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-28 10:42+0000\n"
-"PO-Revision-Date: 2025-11-18 09:01+0000\n"
+"POT-Creation-Date: 2026-01-12 09:28+0000\n"
+"PO-Revision-Date: 2026-05-02 09:34+0000\n"
 "Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
 "Language-Team: German <https://translate.odoo.com/projects/odoo-19/"
 "agriculture_shop/de/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: agriculture_shop
 #: model:crm.tag,name:agriculture_shop.crm_tag_28
@@ -148,39 +148,74 @@ msgstr "5 l"
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid ""
 "<b>\n"
-"                    <font class=\"text-o-color-1\">The Invoice App:</font>\n"
-"                </b> Keep a\n"
-"                clear record of all your invoices."
-msgstr ""
-"<b>\n"
-"                    <font class=\"text-o-color-1\">Die "
-"Rechnungsstellungsapp:</font>\n"
-"                </b> Bewahren\n"
-"                 Sie alle Rechnungen sorgfältig auf."
-
-#. module: agriculture_shop
-#: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
-msgid ""
-"<b>\n"
-"                    <font class=\"text-o-color-1\">The Point Of Sales App:</"
-"font>\n"
-"                </b>Manage\n"
-"                all your shop operations."
-msgstr ""
-"<b>\n"
-"                    <font class=\"text-o-color-1\">Die Kassensystem-"
-"App:</font>\n"
-"                </b>Verwalten Sie\n"
-"                alle Ihre Verkaufsvorgänge."
-
-#. module: agriculture_shop
-#: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
-msgid ""
-"<b>\n"
 "                    SEO features</b>"
 msgstr ""
 "<b>\n"
 "                    SEO-Funktionen</b>"
+
+#. module: agriculture_shop
+#: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
+msgid ""
+"<b><font class=\"text-o-color-1\">Inventory App:</font></b> Keep precise "
+"track of stock levels for diverse products\n"
+"                like pesticides and equipment."
+msgstr ""
+"<b><font class=\"text-o-color-1\">Lagerapp:</font></b> Behalten Sie den "
+"genauen Überblick über die Lagerbestände verschiedener Produkte\n"
+"                wie Pestizide und Ausrüstung."
+
+#. module: agriculture_shop
+#: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
+msgid ""
+"<b><font class=\"text-o-color-1\">Point of Sale App:</font></b> Manage in-"
+"store transactions efficiently, handling sales of seeds, tools, and supplies "
+"with ease."
+msgstr ""
+"<b><font class=\"text-o-color-1\">Kassensystemapp:</font></b> Verwalten Sie "
+"Transaktionen im Laden effizient und wickeln Sie den Verkauf von Saatgut, "
+"Werkzeugen und Zubehör mühelos ab."
+
+#. module: agriculture_shop
+#: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
+msgid ""
+"<b><font class=\"text-o-color-1\">Purchase App:</font></b> Streamline the "
+"procurement of farming products from suppliers, managing costs and lead "
+"times."
+msgstr ""
+"<b><font class=\"text-o-color-1\">Einkaufsapp:</font></b> Optimieren Sie die "
+"Beschaffung landwirtschaftlicher Produkte von Lieferanten und verwalten Sie "
+"Kosten und Lieferzeiten."
+
+#. module: agriculture_shop
+#: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
+msgid ""
+"<b><font class=\"text-o-color-1\">Sales App:</font></b> Handle B2B orders "
+"and contracts for large farming clients, ensuring accurate pricing."
+msgstr ""
+"<b><font class=\"text-o-color-1\">Verkaufsapp:</font></b> Bearbeiten Sie B2B-"
+"Aufträge und Verträge für große Landwirtschaftskunden und stellen Sie dabei "
+"eine korrekte Preisgestaltung sicher."
+
+#. module: agriculture_shop
+#: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
+msgid ""
+"<b><font class=\"text-o-color-1\">Website App:</font></b><font class=\"text-"
+"o-color-3\"> Build a professional online presence to showcase your catalog "
+"and attract new customers.</font>"
+msgstr ""
+"<b><font class=\"text-o-color-1\">Website-App:</font></b><font class="
+"\"text-o-color-3\"> Bauen Sie eine professionelle Online-Präsenz auf, um "
+"Ihren Katalog zu präsentieren und neue Kunden zu gewinnen.</font>"
+
+#. module: agriculture_shop
+#: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
+msgid ""
+"<b><font class=\"text-o-color-1\">eCommerce App:</font></b> Expand your "
+"reach by selling products online, offering convenience to modern farmers."
+msgstr ""
+"<b><font class=\"text-o-color-1\">E-Commerce-App:</font></b> Erweitern Sie "
+"Ihre Reichweite, indem Sie Produkte online verkaufen und modernen Landwirten "
+"Komfort bieten."
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -332,8 +367,8 @@ msgid ""
 "editor</b>."
 msgstr ""
 "<b>Layout-Einstellungen:</b> Passen Sie die visuelle\n"
-"                    Präsentation und das Layout von Produkten mit dem <b"
-">Website-Editor</b> an."
+"                    Präsentation und das Layout von Produkten mit dem "
+"<b>Website-Editor</b> an."
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -446,8 +481,8 @@ msgid ""
 "                    settings directly on the <b>product form</b>."
 msgstr ""
 "<b>Einstellungen auf Produktebene:</b> Definieren Sie zentrale\n"
-"                    Produkteinstellungen direkt auf dem "
-"<b>Produktformular</b>."
+"                    Produkteinstellungen direkt auf dem <b>Produktformular</"
+"b>."
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -509,33 +544,6 @@ msgstr "<b>Verwenden Sie die</b>"
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid ""
-"<font class=\"text-o-color-1\">\n"
-"                        <b>The CRM &amp; Sales App's:</b>\n"
-"                    </font> Manage all your\n"
-"                    client contacts and quotations."
-msgstr ""
-"<font class=\"text-o-color-1\">\n"
-"                        <b>Die Apps CRM &amp; Verkauf:</b>\n"
-"                    </font> Verwalten Sie alle Ihre\n"
-"                    Kundenkontakte und Angebote."
-
-#. module: agriculture_shop
-#: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
-msgid ""
-"<font class=\"text-o-color-1\">\n"
-"                        <b>The Website App:</b>\n"
-"                    </font> Use this app as a virtual\n"
-"                    showroom and a powerful tool for generating new leads."
-msgstr ""
-"<font class=\"text-o-color-1\">\n"
-"                        <b>Die Website-App:</b>\n"
-"                    </font> Nutzen Sie diese App als virtuelles\n"
-"                    Schaufenster und ein leistungsfähiges Instrument zur "
-"Generierung neuer Leads."
-
-#. module: agriculture_shop
-#: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
-msgid ""
 "<font color=\"#343541\">Welcome to the <strong>\n"
 "                    <font class=\"text-o-color-1\">Odoo Agricultural Store "
 "package.</font>\n"
@@ -585,8 +593,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">💡</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner für Info\">💡</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner für Info\">💡</i>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -594,8 +602,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">🚀</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner für Info\">🚀</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner für Info\">🚀</i>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -603,8 +611,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">✅</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner für Erfolg\">✅</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner für Erfolg\">✅</i>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -612,8 +620,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">🚀</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner für Erfolg\">🚀</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner für Erfolg\">🚀</i>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -621,8 +629,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\">⚠️</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner für Warnung\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
+"<i data-oe-aria-label=\"Banner für Warnung\" class=\"o_editor_banner_icon "
+"mb-3 fst-normal\">⚠️</i>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.pricing
@@ -1124,7 +1132,7 @@ msgstr "Mehr entdecken"
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "Do You Want to Go Further?"
-msgstr "Möchten Sie noch weiter gehen?"
+msgstr "Möchten Sie noch weitergehen?"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.red_revolution_tomato_seeds
@@ -1253,7 +1261,8 @@ msgstr "Zugang zu allen Modulen und Funktionen erhalten"
 #: code:addons/agriculture_shop/static/src/js/my_tour.js:0
 msgid "Get on track and explore our recommendations for your Odoo usage here!"
 msgstr ""
-"Los geht’s! Entdecken Sie hier unsere Empfehlungen für die Nutzung von Odoo!"
+"Los geht’s! Entdecken Sie hier unsere Empfehlungen, um Odoo optimal zu "
+"nutzen!"
 
 #. module: agriculture_shop
 #: model:product.template,name:agriculture_shop.product_product_25_product_template
@@ -2066,7 +2075,7 @@ msgstr "Willkommen! Viel Spaß beim Erkunden!"
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "When an <b>e-commerce order</b> is placed:"
-msgstr "Wenn eine <b>E-Commerce-Bestellung<b> aufgegeben wird:"
+msgstr "Wenn eine <b>E-Commerce-Bestellung</b> aufgegeben wird:"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -2084,7 +2093,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "Would you like to discuss your Odoo setup with us or go even further?"
 msgstr ""
-"Möchten Sie Ihre Odoo-Einrichtung mit uns besprechen oder noch weiter gehen?"
+"Möchten Sie Ihre Odoo-Konfiguration mit uns besprechen oder noch einen "
+"Schritt weiter gehen?"
 
 #. module: agriculture_shop
 #: model:product.attribute.value,name:agriculture_shop.product_attribute_value_1
@@ -2097,8 +2107,8 @@ msgid ""
 "You also have the option to require a <b>down payment</b> initially, with\n"
 "                            the remainder invoiced later."
 msgstr ""
-"Sie haben auch die Möglichkeit, zunächst eine <b>Anzahlung</b> zu verlangen,"
-"\n"
+"Sie haben auch die Möglichkeit, zunächst eine <b>Anzahlung</b> zu "
+"verlangen,\n"
 "                            der Restbetrag später in Rechnung gestellt wird."
 
 #. module: agriculture_shop
@@ -2147,7 +2157,8 @@ msgstr ""
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "You have flexibility regarding when to generate invoices:"
-msgstr "Sie können flexibel entscheiden, wann Sie Rechnungen erstellen möchten:"
+msgstr ""
+"Sie können flexibel entscheiden, wann Sie Rechnungen erstellen möchten:"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -2156,8 +2167,8 @@ msgid ""
 "            Settings</b>, <b>Website-Wide Settings</b>, and <b>Payment &amp; "
 "Delivery Methods</b>."
 msgstr ""
-"Die Einrichtung Ihres E-Commerce umfasst drei Hauptbereiche: <b>"
-"Produkteinstcllungen\n"
+"Die Einrichtung Ihres E-Commerce umfasst drei Hauptbereiche: "
+"<b>Produkteinstcllungen\n"
 "            </b>, <b>Website-Einstellungen</b> und <b>Zahlungs- &amp; "
 "Liefermethoden</b>."
 
@@ -2208,6 +2219,55 @@ msgid ""
 msgstr ""
 "🎓\n"
 "                Website"
+
+#~ msgid ""
+#~ "<b>\n"
+#~ "                    <font class=\"text-o-color-1\">The Invoice App:</"
+#~ "font>\n"
+#~ "                </b> Keep a\n"
+#~ "                clear record of all your invoices."
+#~ msgstr ""
+#~ "<b>\n"
+#~ "                    <font class=\"text-o-color-1\">Die "
+#~ "Rechnungsstellungsapp:</font>\n"
+#~ "                </b> Bewahren\n"
+#~ "                 Sie alle Rechnungen sorgfältig auf."
+
+#~ msgid ""
+#~ "<b>\n"
+#~ "                    <font class=\"text-o-color-1\">The Point Of Sales App:"
+#~ "</font>\n"
+#~ "                </b>Manage\n"
+#~ "                all your shop operations."
+#~ msgstr ""
+#~ "<b>\n"
+#~ "                    <font class=\"text-o-color-1\">Die Kassensystem-App:</"
+#~ "font>\n"
+#~ "                </b>Verwalten Sie\n"
+#~ "                alle Ihre Verkaufsvorgänge."
+
+#~ msgid ""
+#~ "<font class=\"text-o-color-1\">\n"
+#~ "                        <b>The CRM &amp; Sales App's:</b>\n"
+#~ "                    </font> Manage all your\n"
+#~ "                    client contacts and quotations."
+#~ msgstr ""
+#~ "<font class=\"text-o-color-1\">\n"
+#~ "                        <b>Die Apps CRM &amp; Verkauf:</b>\n"
+#~ "                    </font> Verwalten Sie alle Ihre\n"
+#~ "                    Kundenkontakte und Angebote."
+
+#~ msgid ""
+#~ "<font class=\"text-o-color-1\">\n"
+#~ "                        <b>The Website App:</b>\n"
+#~ "                    </font> Use this app as a virtual\n"
+#~ "                    showroom and a powerful tool for generating new leads."
+#~ msgstr ""
+#~ "<font class=\"text-o-color-1\">\n"
+#~ "                        <b>Die Website-App:</b>\n"
+#~ "                    </font> Nutzen Sie diese App als virtuelles\n"
+#~ "                    Schaufenster und ein leistungsfähiges Instrument zur "
+#~ "Generierung neuer Leads."
 
 #~ msgid ""
 #~ "<font class=\"text-black\"><strong>Flow 2: Sales from Website (B2B / B2C) "

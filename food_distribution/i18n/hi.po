@@ -3,13 +3,14 @@
 # * food_distribution
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# "Ujjawal Pathak (pauj)" <pauj@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 12:24+0000\n"
-"PO-Revision-Date: 2025-11-17 11:12+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-06-12 18:08+0000\n"
+"PO-Revision-Date: 2026-04-04 09:46+0000\n"
+"Last-Translator: \"Ujjawal Pathak (pauj)\" <pauj@odoo.com>\n"
 "Language-Team: Hindi <https://translate.odoo.com/projects/odoo-19/"
 "food_distribution/hi/>\n"
 "Language: hi\n"
@@ -17,7 +18,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.16.2\n"
+
+#. module: food_distribution
+#: model:ir.actions.report,print_report_name:food_distribution.mrp_bom_product_label_action_report
+msgid "'Products Labels - %s' % (object.name)"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -38,6 +44,55 @@ msgstr "25 लीटर जेरीकैन"
 #: model:uom.uom,name:food_distribution.uom_uom_30
 msgid "5L Bucket"
 msgstr "5 लीटर बाल्टी"
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"<b>Documents App</b>: Centralize supplier certificates, quality control "
+"reports, and shipping manifests for easy\n"
+"          retrieval during audits."
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"<b>Fleet App</b>: Manage your delivery trucks and vans, tracking fuel logs, "
+"maintenance schedules, and driver\n"
+"          assignments in one place."
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"<b>Inventory App</b>: Master your stock with advanced features like Lots "
+"&amp; Serial Numbers for traceability\n"
+"          and Expiration Dates to enforce FEFO (First Expired, First Out) "
+"removal strategies."
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"<b>Invoicing App</b>: Streamline your billing with automated invoicing based "
+"on delivered quantities, ensuring\n"
+"          accurate financial records."
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"<b>Purchase App</b>: Automate your procurement process with reordering rules "
+"that account for vendor lead times\n"
+"          and seasonal demand spikes."
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"<b>Sales App</b>: Manage complex pricing structures with Pricelists, "
+"allowing you to offer specific deals to\n"
+"          restaurants, retailers, or wholesalers."
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -82,6 +137,13 @@ msgid ""
 msgstr ""
 
 #. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid ""
+"<span>Batch/Lot: </span>\n"
+"                                                                        <br/>"
+msgstr ""
+
+#. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "<strong>Basics</strong>"
 msgstr "<strong>बेसिक</strong>"
@@ -107,6 +169,21 @@ msgstr ""
 "             अपने इस्तेमाल के लिए एक नया डेटाबेस बनाएं.</strong>"
 
 #. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid "<strong>Ingredients: </strong>"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid "<strong>Nutritional Fact</strong>"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid "<strong>Per 100g</strong>"
+msgstr ""
+
+#. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "<strong>Use case</strong>"
 msgstr "<strong>इस्तेमाल के उदाहरण</strong>"
@@ -120,16 +197,32 @@ msgid ""
 "production at all time\n"
 "          accordingly!"
 msgstr ""
-"आने वाले महीनों के लिए अपनी सेल्स के हिसाब से उन अनुमानों को अप-टू-डेट रखना एक अच्छी प्रैक्टि"
-"स हो सकती है, \n"
+"आने वाले महीनों के लिए अपनी सेल्स के हिसाब से उन अनुमानों को अप-टू-डेट रखना एक अच्छी "
+"प्रैक्टिस हो सकती है, \n"
 "ताकि मैन्युफ़ैक्चरिंग टीम हर समय उसी के हिसाब से बेहतर तरीके \n"
 "से प्रॉडक्शन की योजना बना सके!"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-msgid "Add some Salt and Sugar to secure suppliers for longer on those sides."
+msgid ""
+"Activate the Food &amp; Drinks Labels settings in the Food Distribution "
+"section."
 msgstr ""
-"लंबे समय के लिए सप्लायरों को सुरक्षित रखने के लिए इसमें कुछ नमक और चीनी मिलाएं।"
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_nutritional_facts_active
+msgid "Active"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid "Add some Salt and Sugar to secure suppliers for longer on those sides."
+msgstr "लंबे समय के लिए सप्लायरों को सुरक्षित रखने के लिए इसमें कुछ नमक और चीनी मिलाएं।"
+
+#. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_4
+msgid "Added Sugar"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -148,6 +241,11 @@ msgid "Also order the Mayonnaise so you can fill those buckets with sauce."
 msgstr "मेयोनीज़ का भी ऑर्डर दें, ताकि आप इन बाल्टियों को सॉस से भर सकें।"
 
 #. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.x_nutritional_facts_search_view
+msgid "Archived"
+msgstr ""
+
+#. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
 "As an Inventory Manager you need to make sure that the production team never "
@@ -156,6 +254,11 @@ msgid ""
 msgstr ""
 "इन्वेंट्री मैनेजर के तौर पर, आपको यह पक्का करना होगा कि प्रॉडक्शन टीम का सामान \n"
 "कभी खत्म न हो!"
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid "B.b."
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -182,6 +285,17 @@ msgstr ""
 "वगैरह से भर गया है।"
 
 #. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.res_config_settings_form_view_inherited
+msgid ""
+"Capture food and drink data on product and leverage them in printed labels."
+msgstr ""
+
+#. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_3
+msgid "Carbohydrates"
+msgstr ""
+
+#. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "Click on one of the Ready orders to produce some Mayonnaise."
 msgstr "मेयोनीज़ बनाने के लिए, तैयार ऑर्डर में से किसी एक पर क्लिक करें।"
@@ -193,8 +307,8 @@ msgid ""
 "steps. Great\n"
 "        you manufactured you first Mayonnaise batch!"
 msgstr ""
-"सभी चरण पूरे होने पर, टाइल के आखिर में 'प्रॉडक्शन बंद करें' बटन पर क्लिक करें. बहुत बढ़िया, "
-"\n"
+"सभी चरण पूरे होने पर, टाइल के आखिर में 'प्रॉडक्शन बंद करें' बटन पर क्लिक करें. बहुत "
+"बढ़िया, \n"
 "आपने मेयोनीज़ का अपना पहला बैच बना लिया है!"
 
 #. module: food_distribution
@@ -231,6 +345,16 @@ msgstr ""
 "शुरुआती ऑर्डर कई छोटे ऑर्डर में बंट गया है।"
 
 #. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid "Demo Lot/SN"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid "Demo Product"
+msgstr ""
+
+#. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
 "Depending on your current stock level, an appropriate replenishment "
@@ -243,6 +367,16 @@ msgstr ""
 "लिए, \n"
 "दोबारा ऑर्डर करने का सुझाव अपने-आप बनाया जाएगा. \n"
 "उदाहरण के लिए, यहां बाल्टी, डिस्पेंसर और मेयोनीज़।"
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_nutritional_facts_name
+msgid "Description"
+msgstr ""
+
+#. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_5
+msgid "Dietary Fibre"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -287,8 +421,23 @@ msgstr ""
 "तरह से तैयार हैं!"
 
 #. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_1
+msgid "Energy"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid "Exp."
+msgstr ""
+
+#. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "Expiration Dates"
+msgstr ""
+
+#. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_6
+msgid "Fat"
 msgstr ""
 
 #. module: food_distribution
@@ -323,18 +472,26 @@ msgid "Follow the step from each operation to prepare your Mayonnaise batch."
 msgstr "अपने मेयोनीज़ बैच को बनाने के लिए, हर काम के चरणों का पालन करें।"
 
 #. module: food_distribution
-#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-msgid "Food distribution"
-msgstr "फ़ूड डिस्ट्रिब्यूशन"
+#: model:ir.model.fields,field_description:food_distribution.field_res_company_x_module_food_drinks_labels
+#: model:ir.model.fields,field_description:food_distribution.field_res_config_setting_x_module_food_drinks_labels
+msgid "Food & Drinks Labels"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.res_config_settings_form_view_inherited
+msgid "Food Distribution"
+msgstr ""
+
+#. module: food_distribution
+#: model:base.automation,name:food_distribution.automation_toggle_food_drinks_labels
+#: model:ir.actions.server,name:food_distribution.action_toggle_food_drinks_labels
+msgid "Food Distribution: Toggle Food & Drinks Labels"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-msgid ""
-"From the <strong>Inventory App</strong>, keep track of produced lots and "
-"expiration dates."
-msgstr ""
-"<strong>'इन्वेंट्री ऐप'</strong> से, बनाए गए लॉट और प्रॉडक्ट के खत्म होने की तारीखों का "
-"हिसाब रखें।"
+msgid "Food distribution"
+msgstr "फ़ूड डिस्ट्रिब्यूशन"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -353,8 +510,8 @@ msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-msgid "Generate crystal clear quotations with the <strong>Sales App</strong>."
-msgstr "<strong>'सेल्स ऐप'</strong> से एकदम साफ़ कोटेशन बनाएं।"
+msgid "From your product form, open the Labels tab."
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -372,8 +529,8 @@ msgid ""
 msgstr ""
 "सामान के स्टॉक का हिसाब रखना एक बार-बार होने वाला काम है और आप इसे भूल सकते हैं...\n"
 "इसमें \n"
-"आपकी मदद करने के लिए, आप उन ऑर्डर को ऑटोमेट कर सकते हैं. पहले से ऑटोमेटेड 'रिप्लेनिशमेंट रू"
-"ल' देखने के लिए, \n"
+"आपकी मदद करने के लिए, आप उन ऑर्डर को ऑटोमेट कर सकते हैं. पहले से ऑटोमेटेड 'रिप्लेनिशमेंट "
+"रूल' देखने के लिए, \n"
 "बाईं ओर के टैब में 'ऑटो ट्रिगर' पर फ़िल्टर करें. ये नियम अपने-आप शुरू हो जाएंगे, \n"
 "ताकि आपके कंटेनर कभी खत्म न हों. बाल्टियों की कमी के कारण \n"
 "स्वादिष्ट मेयोनीज़ को फेंकना बुरा होगा..।"
@@ -401,6 +558,23 @@ msgstr ""
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
+"In food industry, ingredients and nutritional facts matter and shall be "
+"captured on labels."
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_ingredients_ingredient_id
+msgid "Ingredient"
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_product_template_ingredients
+msgid "Ingredients"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
 "Introduce more capabilities from the <strong>\n"
 "          <font class=\"text-o-color-1\">Quality App</font>\n"
 "        </strong> to meet the requirements\n"
@@ -412,9 +586,26 @@ msgstr ""
 "        जोड़ सकते हैं।"
 
 #. module: food_distribution
-#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-msgid "Invoice your customers from the <strong>Invoicing App</strong>."
-msgstr "<strong>'इनवॉइसिंग ऐप'</strong> से अपने ग्राहकों को बिल भेजें।"
+#: model:ir.model.fields,field_description:food_distribution.field_product_template_is_allergen
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_ingredients_is_allergen
+msgid "Is Allergen"
+msgstr ""
+
+#. module: food_distribution
+#: model:uom.uom,name:food_distribution.uom_uom_36
+msgid "Kcal"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_product_template_only_form_view
+msgid "Label"
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_product_template_label_note
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid "Label Note"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -438,12 +629,6 @@ msgstr ""
 "          <font class=\"text-o-color-1\"> बारकोड ऐप्लिकेशन</font>\n"
 "        </strong> का फ़ायदा\n"
 "        उठाएं।"
-
-#. module: food_distribution
-#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-msgid ""
-"Manage the purchase of raw materials from the <strong>Purchase App</strong>."
-msgstr "<strong>'परचेज़ ऐप'</strong> से कच्चे माल की खरीद मैनेज करें।"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -473,9 +658,19 @@ msgid "Mayonnaise Dispenser 2.6L"
 msgstr "मेयोनीज़ डिस्पेंसर 2.6 ली"
 
 #. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_8
+msgid "Mono saturated fatty acids"
+msgstr ""
+
+#. module: food_distribution
 #: model:product.template,name:food_distribution.product_template_5
 msgid "Mustard"
 msgstr "सरसों"
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.x_nutritional_facts_form_view
+msgid "Name..."
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -537,8 +732,21 @@ msgstr ""
 msgid ""
 "Now let's see how spread the work load from the resulting manufacturing "
 "orders."
+msgstr "आइए अब देखें कि मैन्युफ़ैक्चरिंग ऑर्डर से काम का बोझ कैसे बांटा जाता है।"
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_nutritional_fact_nutritional_fact_id
+msgid "Nutritional Fact"
 msgstr ""
-"आइए अब देखें कि मैन्युफ़ैक्चरिंग ऑर्डर से काम का बोझ कैसे बांटा जाता है।"
+
+#. module: food_distribution
+#: model:ir.actions.act_window,name:food_distribution.act_window_x_nutritional_facts
+#: model:ir.model,name:food_distribution.model_x_nutritional_facts
+#: model:ir.model.fields,field_description:food_distribution.field_product_template_nutritional_facts
+#: model:ir.ui.menu,name:food_distribution.inventory_nutritional_facts_menu
+#: model_terms:ir.ui.view,arch_db:food_distribution.x_nutritional_facts_form_view
+msgid "Nutritional Facts"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -592,8 +800,7 @@ msgstr "तैयार प्रॉडक्ट में से किसी �
 msgid ""
 "Open the <strong>Purchase App </strong>and the recently created Purchase "
 "Order."
-msgstr ""
-"<strong>'परचेज़ ऐप'</strong> खोलें और हाल ही में बनाया गया 'परचेज़ ऑर्डर' देखें।"
+msgstr "<strong>'परचेज़ ऐप'</strong> खोलें और हाल ही में बनाया गया 'परचेज़ ऑर्डर' देखें।"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -647,19 +854,24 @@ msgid "Pallet 250x 1/6Gn Dispenser"
 msgstr "पैलेट 250x 1/6Gn डिस्पेंसर"
 
 #. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_nutritional_facts_parent
+msgid "Parent"
+msgstr ""
+
+#. module: food_distribution
 #: model:product.template,name:food_distribution.product_template_8
 msgid "Pasteurised Liquid Egg"
 msgstr "पास्चुराइज़्ड लिक्विड एग"
 
 #. module: food_distribution
-#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-msgid ""
-"Process manufacturing work orders with instructions from the "
-"<strong>Shopfloor App</strong>\n"
-"        ."
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_nutritional_fact_per_100g
+msgid "Per 100g"
 msgstr ""
-"<strong>'शॉपफ़्लोर ऐप'</strong> से मिले निर्देशों के साथ, प्रॉडक्शन से जुड़े कामों को मैनेज "
-"करें।"
+
+#. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_9
+msgid "Poly saturated fatty acids"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -671,6 +883,37 @@ msgid ""
 msgstr ""
 "बिना सामान खत्म हुए, कुशलता से प्रॉडक्शन करना आपके कारोबार के लिए बहुत ज़रूरी है. \n"
 "इस काम को मैनेज करने का तरीका जानने के लिए, आइए <strong>'इन्वेंट्री ऐप'</strong> खोलें।"
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_ingredients_product_template_id
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_nutritional_fact_product_template_id
+msgid "Product"
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.actions.report,name:food_distribution.mrp_bom_product_label_action_report
+msgid "Product Label"
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.model,name:food_distribution.model_x_product_template_ingredients
+msgid "Product Template Ingredients"
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.model,name:food_distribution.model_x_product_template_nutritional_fact
+msgid "Product Template Nutritional Fact"
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_ingredients_share
+msgid "Proportion (%)"
+msgstr ""
+
+#. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_2
+msgid "Protein"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -688,14 +931,15 @@ msgid "Replenishment Rules"
 msgstr "स्टॉक भरने के नियम"
 
 #. module: food_distribution
-#: model:account.journal,name:food_distribution.cash
-msgid "Sales"
-msgstr "सेल्स"
-
-#. module: food_distribution
 #: model:product.template,name:food_distribution.product_template_6
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_10
 msgid "Salt"
 msgstr "सॉल्ट"
+
+#. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_7
+msgid "Saturated fatty acids"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -714,6 +958,13 @@ msgstr "इंस्टॉलेशन के लिए समय बचान�
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "Send your quotation for online signature."
 msgstr "अपने कोटेशन को ऑनलाइन सिग्नेचर के लिए भेजें।"
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_nutritional_facts_sequence
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_ingredients_sequence
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_nutritional_fact_sequence
+msgid "Sequence"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -773,16 +1024,15 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
 "The Bill of Material is accessible from the Manufacturing App Products menu."
-msgstr ""
-"'बिल ऑफ़ मटेरियल' को 'मैन्युफ़ैक्चरिंग ऐप' के प्रॉडक्ट मेन्यू से ऐक्सेस किया जा सकता है।"
+msgstr "'बिल ऑफ़ मटेरियल' को 'मैन्युफ़ैक्चरिंग ऐप' के प्रॉडक्ट मेन्यू से ऐक्सेस किया जा सकता है।"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
 "The Dates section allows you to detail the expiration dates of your products."
 msgstr ""
-"'तारीखें' नाम का सेक्शन आपको अपने प्रॉडक्ट की एक्सपायरी तारीखों की पूरी जानकारी जोड़ने की"
-" सुविधा देता है।"
+"'तारीखें' नाम का सेक्शन आपको अपने प्रॉडक्ट की एक्सपायरी तारीखों की पूरी जानकारी जोड़ने "
+"की सुविधा देता है।"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -791,9 +1041,16 @@ msgid ""
 "advantage of\n"
 "          this capability to optimize your operations!"
 msgstr ""
-"मिक्सिंग टैंक वर्क सेंटर को सेटअप और सफ़ाई के समय के साथ कॉन्फ़िगर किया गया है. अपने कामों को"
-" बेहतर बनाने के लिए \n"
+"मिक्सिंग टैंक वर्क सेंटर को सेटअप और सफ़ाई के समय के साथ कॉन्फ़िगर किया गया है. अपने कामों "
+"को बेहतर बनाने के लिए \n"
 "इस सुविधा का फ़ायदा उठाएं!"
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"The nutritional fact list is available from the Inventory App, Configuration "
+"menu."
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -806,8 +1063,8 @@ msgid ""
 "Purchase Orders."
 msgstr ""
 "जिन प्रॉडक्ट के लिए आपने 'स्टॉक भरने के नियम' शुरू किए हैं, वे यहां हैं. हालांकि, \n"
-"इस चरण में सभी प्रॉडक्ट में स्टॉक भरने के नियम नहीं हैं. कुछ प्रॉडक्ट या अन्य सप्लायरों के लिए, "
-"\n"
+"इस चरण में सभी प्रॉडक्ट में स्टॉक भरने के नियम नहीं हैं. कुछ प्रॉडक्ट या अन्य सप्लायरों के "
+"लिए, \n"
 "आप उन्हें मैन्युअल रूप से 'परचेज़ ऑर्डर' में जोड़ना और नए 'परचेज़ ऑर्डर' बनाना चुन सकते हैं।"
 
 #. module: food_distribution
@@ -819,8 +1076,8 @@ msgid ""
 "your forecast!"
 msgstr ""
 "बाल्टियों और डिस्पेंसर का कुछ स्टॉक है, इसलिए मौजूदा अवधि के लिए ऑर्डर करने की ज़रूरत \n"
-"नहीं है. <br/>हालांकि, अपने पूर्वानुमान को पूरा करने के लिए आपको मेयोनीज़ बकेट का ऑर्डर देना"
-" होगा!"
+"नहीं है. <br/>हालांकि, अपने पूर्वानुमान को पूरा करने के लिए आपको मेयोनीज़ बकेट का ऑर्डर "
+"देना होगा!"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -858,6 +1115,17 @@ msgstr ""
 "ऐप'</strong> के साथ काम कर सकते हैं!"
 
 #. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.res_config_settings_form_view_inherited
+msgid "Traceability"
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_nutritional_facts_unit
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_nutritional_fact_unit
+msgid "Unit"
+msgstr ""
+
+#. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
 "Use the <strong>\n"
@@ -869,17 +1137,6 @@ msgstr ""
 "          <font class=\"text-o-color-1\">मेंटनेंस ऐप्लिकेशन</font>\n"
 "        </strong> का इस्तेमाल \n"
 "        करें।"
-
-#. module: food_distribution
-#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-msgid ""
-"Use the <strong>Manufacturing App</strong> to efficiently plan and execute "
-"production\n"
-"        orders to meet customer demand."
-msgstr ""
-"ग्राहकों की मांग को पूरा करने के लिए, <strong>'मैन्युफ़ैक्चरिंग ऐप'</strong> का इस्तेमाल करके"
-" प्रॉडक्शन ऑर्डर की \n"
-"बेहतर योजना बनाएं और उन्हें पूरा करें।"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -905,8 +1162,8 @@ msgstr ""
 "किसी प्रॉडक्ट की पूर्ति के लिए 'ऑर्डर' बटन पर माउस ले जाने पर, एक सेल हाइलाइट हो जाता "
 "है. \n"
 "इस बटन पर क्लिक करने से, 'स्टॉक भरने के इनपुट' के हिसाब से, उस अवधि के लिए संबंधित \n"
-"प्रॉडक्ट ऑर्डर हो जाता है.<br/> इससे प्रॉडक्ट के कॉन्फ़िगरेशन के आधार पर, एक मैन्युफ़ैक्चरिंग ऑर्"
-"डर या \n"
+"प्रॉडक्ट ऑर्डर हो जाता है.<br/> इससे प्रॉडक्ट के कॉन्फ़िगरेशन के आधार पर, एक मैन्युफ़ैक्चरिंग "
+"ऑर्डर या \n"
 "परचेज़ ऑर्डर बनता है।"
 
 #. module: food_distribution
@@ -919,8 +1176,8 @@ msgid ""
 "        lines. You're now ready to product Mayonnaise for some time!"
 msgstr ""
 "जब ट्रक आ जाए और आप उन सामान को अपने स्टॉक में जोड़ दें, तो अपने स्टॉक स्तर को अपडेट \n"
-"करने के लिए डिलीवरी को मान्य करें. डिलीवरी की जानकारी में लॉट का रेफ़रेंस सेट करना न भूलें. "
-"\n"
+"करने के लिए डिलीवरी को मान्य करें. डिलीवरी की जानकारी में लॉट का रेफ़रेंस सेट करना न "
+"भूलें. \n"
 "अब आप कुछ समय के लिए मेयोनीज़ बनाने के लिए तैयार हैं!"
 
 #. module: food_distribution
@@ -934,8 +1191,8 @@ msgid ""
 msgstr ""
 "आप चाहें तो मौजूदा सेल्स ऑर्डर या अनुमान के आधार पर अपनी प्रॉडक्शन की योजना बनाना चाहते "
 "हैं, \n"
-"तो <strong>'मैन्युफ़ैक्चरिंग ऐप'</strong> से 'मास्टर प्रॉडक्शन शेड्यूल' का इस्तेमाल कर सकते हैं"
-"\n"
+"तो <strong>'मैन्युफ़ैक्चरिंग ऐप'</strong> से 'मास्टर प्रॉडक्शन शेड्यूल' का इस्तेमाल कर सकते "
+"हैं\n"
 "।"
 
 #. module: food_distribution
@@ -947,8 +1204,8 @@ msgid ""
 "different products you\n"
 "        manipulate."
 msgstr ""
-"जब आप <strong>'इन्वेंट्री ऐप'</strong> का इस्तेमाल कर रहे हों, तो प्रॉडक्ट मेन्यू से प्रॉडक्"
-"ट कैटलॉग खोलें. \n"
+"जब आप <strong>'इन्वेंट्री ऐप'</strong> का इस्तेमाल कर रहे हों, तो प्रॉडक्ट मेन्यू से "
+"प्रॉडक्ट कैटलॉग खोलें. \n"
 "यह आपको उन अलग-अलग प्रॉडक्ट की ज़्यादा जानकारी देता है \n"
 "जिन्हें आप मैनेज करते हैं।"
 
@@ -959,8 +1216,8 @@ msgid ""
 "Price from\n"
 "          BoM\" action available from the Product form or any Products list."
 msgstr ""
-"क्या आप अपने मार्जिन को बेहतर बनाने के लिए अपनी कीमतों पर काम कर रहे हैं? आप प्रॉडक्ट फ़ॉर्"
-"म या किसी भी प्रॉडक्ट की लिस्ट से उपलब्ध \n"
+"क्या आप अपने मार्जिन को बेहतर बनाने के लिए अपनी कीमतों पर काम कर रहे हैं? आप प्रॉडक्ट "
+"फ़ॉर्म या किसी भी प्रॉडक्ट की लिस्ट से उपलब्ध \n"
 "\"कंप्यूट प्राइस फ़्रॉम बीओएम\" सुविधा का लाभ उठा सकते हैं।"
 
 #. module: food_distribution
@@ -987,6 +1244,13 @@ msgid ""
 "dashboard."
 msgstr ""
 "आप अपने मुख्य डैशबोर्ड पर अपने Odoo डेटाबेस में इंस्टॉल किए गए हर ऐप को ऐक्सेस कर सकते हैं।"
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"You can easily maintain from here for each product its list of ingredients, "
+"the nutritional facts and specific notes to add to the label."
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -1041,8 +1305,8 @@ msgid ""
 msgstr ""
 "आप अपनी उत्पादन प्रक्रियाओं के हिसाब से अपने 'बिल ऑफ़ मटेरियल' को सेट कर सकते हैं. इसमें आप "
 "चाहें तो चरण, \n"
-"क्वालिटी की जांच को शामिल कर सकते हैं, जैसा कि इस उदाहरण में है. आप चाहें तो उत्पादन के बा"
-"द भी क्वालिटी की जांच कर सकते हैं।"
+"क्वालिटी की जांच को शामिल कर सकते हैं, जैसा कि इस उदाहरण में है. आप चाहें तो उत्पादन के "
+"बाद भी क्वालिटी की जांच कर सकते हैं।"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -1059,11 +1323,8 @@ msgstr ""
 msgid ""
 "You didn't import demo data? You can still do it. Go to Apps &gt; Industries "
 "&gt; Upgrade\n"
-"          your Bar &amp; Pub package and check the related box"
+"          your Food Distribution package and check the related box"
 msgstr ""
-"आपने डेमो डेटा इंपोर्ट नहीं किया? आप अभी भी कर सकते हैं. 'ऐप' &gt;'इंडस्ट्री' पर जाएं &gt;"
-" अपने 'बार और पब पैकेज' को अपग्रेड करें \n"
-"और संबंधित बॉक्स को चुनें"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -1131,6 +1392,11 @@ msgid "if you need help!"
 msgstr "अगर आपको कोई मदद चाहिए!"
 
 #. module: food_distribution
+#: model:uom.uom,name:food_distribution.uom_uom_37
+msgid "mg"
+msgstr ""
+
+#. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "request a demo"
 msgstr "डेमो के लिए रिक्वेस्ट करें"
@@ -1194,6 +1460,11 @@ msgstr "📦 अपनी सप्लाय मैनेज करना"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid "🖨️ Labels with ingredients and nutritional facts"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "🗓️ Planning your production"
 msgstr "🗓️ अपने प्रॉडक्शन की प्लानिंग करना"
 
@@ -1201,3 +1472,51 @@ msgstr "🗓️ अपने प्रॉडक्शन की प्लान�
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "🥘 Manufacturing quality products"
 msgstr "🥘 अच्छी क्वालिटी वाले प्रॉडक्ट बनाना"
+
+#~ msgid "Sales"
+#~ msgstr "सेल्स"
+
+#~ msgid ""
+#~ "You didn't import demo data? You can still do it. Go to Apps &gt; "
+#~ "Industries &gt; Upgrade\n"
+#~ "          your Bar &amp; Pub package and check the related box"
+#~ msgstr ""
+#~ "आपने डेमो डेटा इंपोर्ट नहीं किया? आप अभी भी कर सकते हैं. 'ऐप' &gt;'इंडस्ट्री' पर जाएं "
+#~ "&gt; अपने 'बार और पब पैकेज' को अपग्रेड करें \n"
+#~ "और संबंधित बॉक्स को चुनें"
+
+#~ msgid ""
+#~ "From the <strong>Inventory App</strong>, keep track of produced lots and "
+#~ "expiration dates."
+#~ msgstr ""
+#~ "<strong>'इन्वेंट्री ऐप'</strong> से, बनाए गए लॉट और प्रॉडक्ट के खत्म होने की तारीखों "
+#~ "का हिसाब रखें।"
+
+#~ msgid ""
+#~ "Generate crystal clear quotations with the <strong>Sales App</strong>."
+#~ msgstr "<strong>'सेल्स ऐप'</strong> से एकदम साफ़ कोटेशन बनाएं।"
+
+#~ msgid "Invoice your customers from the <strong>Invoicing App</strong>."
+#~ msgstr "<strong>'इनवॉइसिंग ऐप'</strong> से अपने ग्राहकों को बिल भेजें।"
+
+#~ msgid ""
+#~ "Manage the purchase of raw materials from the <strong>Purchase App</"
+#~ "strong>."
+#~ msgstr "<strong>'परचेज़ ऐप'</strong> से कच्चे माल की खरीद मैनेज करें।"
+
+#~ msgid ""
+#~ "Process manufacturing work orders with instructions from the "
+#~ "<strong>Shopfloor App</strong>\n"
+#~ "        ."
+#~ msgstr ""
+#~ "<strong>'शॉपफ़्लोर ऐप'</strong> से मिले निर्देशों के साथ, प्रॉडक्शन से जुड़े कामों को "
+#~ "मैनेज करें।"
+
+#~ msgid ""
+#~ "Use the <strong>Manufacturing App</strong> to efficiently plan and "
+#~ "execute production\n"
+#~ "        orders to meet customer demand."
+#~ msgstr ""
+#~ "ग्राहकों की मांग को पूरा करने के लिए, <strong>'मैन्युफ़ैक्चरिंग ऐप'</strong> का इस्तेमाल "
+#~ "करके प्रॉडक्शन ऑर्डर की \n"
+#~ "बेहतर योजना बनाएं और उन्हें पूरा करें।"

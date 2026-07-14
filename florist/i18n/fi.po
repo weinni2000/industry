@@ -3,13 +3,14 @@
 # * florist
 #
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
+# Saara Hakanen <sahak@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 10:54+0000\n"
-"PO-Revision-Date: 2025-09-17 03:01+0000\n"
-"Last-Translator: \"Tiffany Chang (tic)\" <tic@odoo.com>\n"
+"POT-Creation-Date: 2026-06-12 18:07+0000\n"
+"PO-Revision-Date: 2026-07-02 14:05+0000\n"
+"Last-Translator: Saara Hakanen <sahak@odoo.com>\n"
 "Language-Team: Finnish <https://translate.odoo.com/projects/odoo-19/florist/"
 "fi/>\n"
 "Language: fi\n"
@@ -17,37 +18,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
-
-#. module: florist
-#: model_terms:ir.ui.view,arch_db:florist.ir_ui_view_3407
-msgid "+1 555-555-5556"
-msgstr "+1 555-555-5556"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
 msgid ", and feel free to"
-msgstr "ja voit rohkeasti"
-
-#. module: florist
-#: model_terms:ir.ui.view,arch_db:florist.homepage
-msgid "01"
-msgstr "01"
-
-#. module: florist
-#: model_terms:ir.ui.view,arch_db:florist.homepage
-msgid "02"
-msgstr "02"
-
-#. module: florist
-#: model_terms:ir.ui.view,arch_db:florist.homepage
-msgid "03"
-msgstr "03"
-
-#. module: florist
-#: model_terms:ir.ui.view,arch_db:florist.homepage
-msgid "04"
-msgstr "04"
+msgstr "sivuilta, sekä"
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.ir_ui_view_3407
@@ -183,7 +159,7 @@ msgid ""
 "                        </small>"
 msgstr ""
 "<small><i class=\"fa fa-1x fa-fw fa-envelope me-1\"/>\n"
-"                            info@yourcompany.example.com\n"
+"                            info@yrityksesi.esimerkki.fi\n"
 "                        </small>"
 
 #. module: florist
@@ -193,7 +169,7 @@ msgid ""
 "info@yourcompany.example.com</small>"
 msgstr ""
 "<small><i class=\"fa fa-1x fa-fw fa-envelope me-1\"/> "
-"info@yourcompany.example.com</small>"
+"info@yrityksesi.esimerkki.fi</small>"
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.ir_ui_view_3596
@@ -269,7 +245,7 @@ msgid ""
 "                                  <span class=\"s_website_form_mark\"> *</"
 "span>"
 msgstr ""
-"<span class=\"s_website_form_label_content\">Kysymys</span>\n"
+"<span class=\"s_website_form_label_content\">Kysymyksesi</span>\n"
 "                                  <span class=\"s_website_form_mark\"> *</"
 "span>"
 
@@ -469,7 +445,7 @@ msgstr ""
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
 msgid "<strong>Use Case</strong>"
-msgstr "<strong>Käyttötapaus</strong>"
+msgstr "<strong>Esimerkkitapaus</strong>"
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
@@ -559,23 +535,13 @@ msgid ""
 "By uploading this module's demo data, your database has been filled with a "
 "few contacts."
 msgstr ""
-"Kun lataat tämän moduulin demotiedot, tietokantaasi lisätään muutama "
-"yhteystieto."
+"Tietokantaasi täydennetään muutamalla yhteystiedolla ladatessasi tämän "
+"moduulin demotiedot."
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.homepage
 msgid "Camille Rose"
 msgstr "Camille Rose"
-
-#. module: florist
-#: model:pos.payment.method,name:florist.pos_payment_method_2
-msgid "Card"
-msgstr "Kortti"
-
-#. module: florist
-#: model:pos.payment.method,name:florist.pos_payment_method_1
-msgid "Cash"
-msgstr "Käteinen"
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.contactus
@@ -600,11 +566,6 @@ msgid "Creativity"
 msgstr "Luovuus"
 
 #. module: florist
-#: model:pos.payment.method,name:florist.pos_payment_method_3
-msgid "Customer Account"
-msgstr "Asiakastili"
-
-#. module: florist
 #: model:product.template,name:florist.product_template_19
 msgid "Delivery & Setup"
 msgstr "Toimitus & asennus"
@@ -612,7 +573,7 @@ msgstr "Toimitus & asennus"
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
 msgid "Discover more about Odoo by diving into our"
-msgstr "Lue lisää Odoosta sukeltamalla meidän"
+msgstr "Lue lisää Odoosta"
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
@@ -802,8 +763,8 @@ msgid ""
 "Odoo is entirely integrated into an App. Download it to turn your phone into "
 "a tool to manage your entire workflow."
 msgstr ""
-"Odoo on täysin integroitu sovellukseen. Lataa se ja tee puhelimestasi "
-"työkalu, jolla voit hallita koko työnkulkuasi."
+"Odoo on täysin integroitu sovellukseen. Sen lataaminen tekee puhelimestasi "
+"työkalun, jolla hallitset koko työnkulkuasi."
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
@@ -819,9 +780,9 @@ msgid ""
 "package. Feel free to add new apps, delete/modify demo data, and test "
 "everything around!"
 msgstr ""
-"Tämä on tietenkin vain yleiskatsaus paketin sisältämistä ominaisuuksista. "
-"Voit vapaasti lisätä uusia sovelluksia, poistaa/muuttaa demotietoja ja "
-"testata ihan kaikkea!"
+"Tämä on tietenkin vasta yleiskatsaus kaikista tähän pakettiin kuuluvista "
+"ominaisuuksista. Voit lisätä uusia sovelluksia, poistaa/muokata demotietoja "
+"sekä testata kaikkea mahdollista!"
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
@@ -850,7 +811,7 @@ msgstr "Pionit"
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
 msgid "Schedule a demo"
-msgstr "Varaa esittely"
+msgstr "Varaa demo"
 
 #. module: florist
 #: model:product.template,name:florist.product_template_11
@@ -1016,7 +977,7 @@ msgid ""
 "problems. Our products are designed for small to medium size companies "
 "willing to optimize their performance."
 msgstr ""
-"Olemme intohimoinen tiimi, jonka tavoitteena on parantaa kaikkien elämää "
+"Olemme intohimoinen tiimi, jonka tavoite on parantaa jokaisen elämää "
 "mullistavien tuotteiden avulla. Kehitämme loistavia tuotteita "
 "liiketoimintasi ongelmien ratkaisemiseksi. Tuotteemme on suunniteltu "
 "pienille ja keskisuurille yrityksille, jotka haluavat optimoida "
@@ -1078,8 +1039,7 @@ msgid ""
 "You can access every installed App in your Odoo database on your main "
 "dashboard."
 msgstr ""
-"Pääset käsiksi kaikkiin Odoo-tietokantaan asennettuihin sovelluksiin "
-"pääkoontinäytöltä."
+"Löydät kaikki Odoo-tietokantaasi asennetut sovellukset pääkoontinäytöltäsi."
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
@@ -1087,8 +1047,8 @@ msgid ""
 "You should be able to execute the following flows to have an overview of "
 "various processes you can quickly execute with this package using Odoo."
 msgstr ""
-"Sinun pitäisi pystyä suorittamaan seuraavat työnkulut, jotta saat yleiskuvan "
-"erilaisista prosesseista, joita voit suorittaa nopeasti tämän moduulin "
+"Sinun pitäisi pystyä suorittamaan seuraavat työnkulut saadaksesi yleiskuvan "
+"erilaisista prosesseista, joita voit suorittaa nopeasti tämän Odoo-paketin "
 "avulla."
 
 #. module: florist
@@ -1109,7 +1069,7 @@ msgstr "sininen kukka mustaa taustaa vasten"
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
 msgid "documentation"
-msgstr "dokumentointi"
+msgstr "dokumentaatio"
 
 #. module: florist
 #: model:crm.tag,name:florist.crm_tag_1
@@ -1129,7 +1089,7 @@ msgstr "vihreät lehdet"
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.ir_ui_view_3407
 msgid "hello@mycompany.com"
-msgstr "hello@mycompany.com"
+msgstr "hei@yritykseni.fi"
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
@@ -1174,7 +1134,7 @@ msgstr "punainen"
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
 msgid "request a demo"
-msgstr "pyytää esittelyä"
+msgstr "pyydä demoa"
 
 #. module: florist
 #: model:product.attribute.value,name:florist.product_attribute_value_4
@@ -1205,3 +1165,27 @@ msgstr "keltainen"
 #: model_terms:ir.ui.view,arch_db:florist.homepage
 msgid "yellow and red flower under blue sky during daytime"
 msgstr "keltaipunainen kukka sinisen taivaan alla päiväsaikaan"
+
+#~ msgid "Card"
+#~ msgstr "Kortti"
+
+#~ msgid "Cash"
+#~ msgstr "Käteinen"
+
+#~ msgid "Customer Account"
+#~ msgstr "Asiakastili"
+
+#~ msgid "+1 555-555-5556"
+#~ msgstr "+1 555-555-5556"
+
+#~ msgid "01"
+#~ msgstr "01"
+
+#~ msgid "02"
+#~ msgstr "02"
+
+#~ msgid "03"
+#~ msgstr "03"
+
+#~ msgid "04"
+#~ msgstr "04"

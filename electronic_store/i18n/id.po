@@ -7,15 +7,15 @@
 # Abe Manyo, 2024
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# "Abe Manyo (abem)" <abem@odoo.com>, 2025.
+# "Abe Manyo (abem)" <abem@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-13 08:19+0000\n"
-"PO-Revision-Date: 2025-11-17 11:08+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-06-12 18:01+0000\n"
+"PO-Revision-Date: 2026-01-06 09:25+0000\n"
+"Last-Translator: \"Abe Manyo (abem)\" <abem@odoo.com>\n"
 "Language-Team: Indonesian <https://translate.odoo.com/projects/odoo-19/"
 "electronic_store/id/>\n"
 "Language: id\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: electronic_store
 #: model:product.template,name:electronic_store.product_product_1048_product_template
@@ -51,7 +51,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
 msgid ""
 "<font style=\"color: var(--color) !important;\">Go to the reception</font>"
-msgstr "<font style=\"color: var(--color) !important;\">Kunjungi resepsi</font>"
+msgstr ""
+"<font style=\"color: var(--color) !important;\">Kunjungi resepsi</font>"
 
 #. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.contactus
@@ -338,7 +339,7 @@ msgstr "Setelah penyelesaian kerja, update remark"
 #. module: electronic_store
 #: model:ir.model.fields.selection,name:electronic_store.field_type_of_installation_selection_air_conditioner
 msgid "Air Conditioner"
-msgstr ""
+msgstr "Air Conditioner"
 
 #. module: electronic_store
 #: model:documents.document,name:electronic_store.documents_folder_7
@@ -386,16 +387,6 @@ msgstr "Alur Bisnis"
 #: model_terms:ir.ui.view,arch_db:electronic_store.contactus
 msgid "CA&amp; 92277"
 msgstr "CA&amp; 92277"
-
-#. module: electronic_store
-#: model:pos.payment.method,name:electronic_store.pos_payment_method_1
-msgid "Cash"
-msgstr "Cash"
-
-#. module: electronic_store
-#: model:account.journal,name:electronic_store.cash
-msgid "Cash (Electronic Store)"
-msgstr "Cash (Electronic Store)"
 
 #. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
@@ -451,11 +442,6 @@ msgid "Create the purchase order"
 msgstr "Buat pesanan pembelian"
 
 #. module: electronic_store
-#: model:pos.payment.method,name:electronic_store.pos_payment_method_2
-msgid "Customer Account"
-msgstr "Akun Pelanggan"
-
-#. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
 msgid ""
 "Customer can register their complaint for the existing purchased products "
@@ -504,11 +490,6 @@ msgstr "Dokumen - Pedoman Penginstalan"
 #: model:product.template,name:electronic_store.product_product_1040_product_template
 msgid "Dyson Purifier Cool (White/Silver) - TP07"
 msgstr "Dyson Purifier Cool (White/Silver) - TP07"
-
-#. module: electronic_store
-#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
-msgid "ELECTRONICS STORE"
-msgstr "TOKO ELEKTRONIK"
 
 #. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
@@ -564,26 +545,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
 msgid "Fill the form:"
 msgstr "Isi formulir:"
-
-#. module: electronic_store
-#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
-msgid "Flow 1. Purchase"
-msgstr "Alur 1. Pembelian"
-
-#. module: electronic_store
-#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
-msgid "Flow 2. Sale with serial number"
-msgstr "Alur 2. Penjualan dengan nomor seri"
-
-#. module: electronic_store
-#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
-msgid "Flow 3. Delivery"
-msgstr "Alur 3. Pengiriman"
-
-#. module: electronic_store
-#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
-msgid "Flow 4: Field Service Installation - AC"
-msgstr "Alur 4: Layanan Lapangan - Penginstalan AC"
 
 #. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
@@ -780,9 +741,9 @@ msgid ""
 "font>\" and then \"<font style=\"color: rgb(156, 0, 255);\">Done</font>\" "
 "when it's finished and sign the service report."
 msgstr ""
-"Pindahkan task \"<font style=\"color: rgb(156, 0, 255);"
-"\">Sedang Berlangsung</font>\" menjadi \"<font style=\"color: rgb(156, 0, "
-"255);\">Selesai</font>\" saat sudah selesai dan tandatangani laporan layanan."
+"Pindahkan task \"<font style=\"color: rgb(156, 0, 255);\">Sedang "
+"Berlangsung</font>\" menjadi \"<font style=\"color: rgb(156, 0, 255);"
+"\">Selesai</font>\" saat sudah selesai dan tandatangani laporan layanan."
 
 #. module: electronic_store
 #: model:ir.model.fields,field_description:electronic_store.x_name_record
@@ -846,13 +807,13 @@ msgid ""
 "Provide the serial number <font style=\"color: rgb(156, 0, 255);"
 "\">804KCPY43321</font>"
 msgstr ""
-"Sediakan nomor seri <font style=\"color: rgb(156, 0, 255);\""
-">804KCPY43321</font>"
+"Sediakan nomor seri <font style=\"color: rgb(156, 0, 255);\">804KCPY43321</"
+"font>"
 
 #. module: electronic_store
 #: model:ir.model.fields.selection,name:electronic_store.field_type_of_installation_selection_refrigerator
 msgid "Refrigerator"
-msgstr ""
+msgstr "Kulkas"
 
 #. module: electronic_store
 #: model:documents.document,name:electronic_store.documents_folder_10
@@ -1184,6 +1145,30 @@ msgid ""
 msgstr ""
 "produk: <strong><font style=\"color: rgb(156, 0, 255);\">LG Dual Inverter "
 "Window Air Conditioner </font></strong>"
+
+#~ msgid "Cash"
+#~ msgstr "Cash"
+
+#~ msgid "Cash (Electronic Store)"
+#~ msgstr "Cash (Electronic Store)"
+
+#~ msgid "Customer Account"
+#~ msgstr "Akun Pelanggan"
+
+#~ msgid "ELECTRONICS STORE"
+#~ msgstr "TOKO ELEKTRONIK"
+
+#~ msgid "Flow 1. Purchase"
+#~ msgstr "Alur 1. Pembelian"
+
+#~ msgid "Flow 2. Sale with serial number"
+#~ msgstr "Alur 2. Penjualan dengan nomor seri"
+
+#~ msgid "Flow 3. Delivery"
+#~ msgstr "Alur 3. Pengiriman"
+
+#~ msgid "Flow 4: Field Service Installation - AC"
+#~ msgstr "Alur 4: Layanan Lapangan - Penginstalan AC"
 
 #~ msgid "Execute Code"
 #~ msgstr "Jalankan Kode"

@@ -1,6 +1,6 @@
 {
     'name': 'Sport Events',
-    'version': '1.0',
+    'version': '1.1',
     'category': 'Services',
     'author': 'Odoo S.A.',
     'depends': [
@@ -19,10 +19,7 @@
         'data/res_config_settings.xml',
         'data/crm_tag.xml',
         'data/project_tags.xml',
-        'data/event_tag_category.xml',
-        'data/event_tag.xml',
         'data/spreadsheet_template.xml',
-        'data/event_booth_category.xml',
         'data/ir_attachment_pre.xml',
         'data/hr_job.xml',
         'data/res_partner_category.xml',
@@ -47,7 +44,7 @@
         'data/knowledge_article_favorite.xml',
     ],
     'demo': [
-        'demo/res_users.xml',
+        'demo/res_company.xml',
         'demo/survey_survey.xml',
         'demo/website_view.xml',
         'demo/survey_question.xml',
@@ -66,6 +63,9 @@
         'demo/planning_slot.xml',
         'demo/sale_order.xml',
         'demo/ir_attachment_post.xml',
+        'demo/event_tag_category.xml',
+        'demo/event_tag.xml',
+        'demo/event_booth_category.xml',
         'demo/event_event.xml',
         'demo/event_event_ticket.xml',
         'demo/event_sponsor.xml',
@@ -96,6 +96,7 @@
         'demo/website_view.xml',
         'static/src/js/my_tour.js',
     ],
+    'application': True,
     'images': [
         'images/main.png',
     ],

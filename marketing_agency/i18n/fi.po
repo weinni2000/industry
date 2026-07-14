@@ -3,13 +3,14 @@
 # * marketing_agency
 #
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
+# Saara Hakanen <sahak@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 14:06+0000\n"
-"PO-Revision-Date: 2025-09-17 03:02+0000\n"
-"Last-Translator: \"Tiffany Chang (tic)\" <tic@odoo.com>\n"
+"POT-Creation-Date: 2026-01-12 09:47+0000\n"
+"PO-Revision-Date: 2026-07-11 09:35+0000\n"
+"Last-Translator: Saara Hakanen <sahak@odoo.com>\n"
 "Language-Team: Finnish <https://translate.odoo.com/projects/odoo-19/"
 "marketing_agency/fi/>\n"
 "Language: fi\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.ir_ui_view_1840
@@ -200,7 +201,7 @@ msgstr ""
 #. module: marketing_agency
 #: model_terms:event.event,description:marketing_agency.event_event_3
 msgid "3:30 PM - 4:00 PM: Implementation Resources &amp; Tools Review"
-msgstr "15:30 – 16:00 Implementaation resurssit &amp; työkalujen katsaus"
+msgstr "15:30 – 16:00: Toteutuksen resurssien &amp; työkalujen katsaus"
 
 #. module: marketing_agency
 #: model_terms:event.event,description:marketing_agency.event_event_4
@@ -394,7 +395,7 @@ msgstr ""
 msgid ""
 "<i class=\"fa fa-1x fa-fw fa-envelope me-2\"/>info@yourcompany.example.com"
 msgstr ""
-"<i class=\"fa fa-1x fa-fw fa-envelope me-2\"/>info@yourcompany.example.com"
+"<i class=\"fa fa-1x fa-fw fa-envelope me-2\"/>info@yrityksesi.esimerkki.fi"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.ir_ui_view_3354
@@ -637,7 +638,76 @@ msgstr ""
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.ir_ui_view_1840
 msgid "<span style=\"font-weight: normal;\">Use cases</span>"
-msgstr "<span style=\"font-weight: normal;\">Käyttötapaukset</span>"
+msgstr "<span style=\"font-weight: normal;\">Esimerkkitapaukset</span>"
+
+#. module: marketing_agency
+#: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
+msgid ""
+"<strong><b>Planning App</b>:</strong> Schedule your creative team's workload "
+"visually to prevent burnout and\n"
+"        ensure the right talent is assigned to the right project."
+msgstr ""
+"<strong><b>Suunnittelu-sovellus</b>:</strong> Suunnittele luovan tiimisi "
+"työmäärä visuaalisesti, jotta vältät työuupumuksen ja\n"
+"        varmistat oikeiden osaajien työskentelevän oikeiden projektien "
+"parissa."
+
+#. module: marketing_agency
+#: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
+msgid ""
+"<strong><b>Project App</b>:</strong> Plan and execute complex marketing "
+"campaigns with task lists, Kanban\n"
+"        boards, and milestones to keep your team on deadline.<br/>"
+msgstr ""
+"<strong><b>Projekti-sovellus</b>:</strong> Suunnittele ja toteuta "
+"monimutkaisia markkinointikampanjoita tehtävälistojen, Kanban-taulujen\n"
+"        ja välitavoitteiden avulla, jotta tiimisi pysyy aikataulussa.<br/>"
+
+#. module: marketing_agency
+#: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
+msgid ""
+"<strong><b>Social Marketing App</b>:</strong> Manage social media campaigns "
+"for multiple clients from one\n"
+"        central dashboard, scheduling posts and tracking engagement."
+msgstr ""
+"<strong><b>Somemarkkinointi-sovellus</b>:</strong> Hallitse useiden "
+"asiakkaiden somekampanjoita yhdeltä\n"
+"        keskitetyltä koontinäytöltä, aikatauluta julkaisuja sekä seuraa "
+"sitoutumista."
+
+#. module: marketing_agency
+#: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
+msgid ""
+"<strong><b>Subscriptions App</b>:</strong> Manage recurring revenue streams "
+"for retainer clients, automating\n"
+"        monthly invoicing and renewal management."
+msgstr ""
+"<strong><b>Tilaukset-sovellus</b>:</strong> Hallitse pitkäaikaisten "
+"asiakkaiden toistuvia tulovirtoja automatisoimalla\n"
+"        kuukausittaisen laskutuksen ja uusimisten hallinnan."
+
+#. module: marketing_agency
+#: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
+msgid ""
+"<strong><b>Timesheets App</b>:</strong> Track time spent on client projects "
+"effortlessly, ensuring accurate\n"
+"        billing for hourly work and better resource planning.<br/>"
+msgstr ""
+"<strong><b>Työaikakirjaukset-sovellus</b>:</strong> Seuraa "
+"asiakasprojekteihin käytettyä aikaa vaivattomasti, varmistaen tarkan\n"
+"        tuntityön laskutuksen sekä paremman resurssisuunnittelun.<br/>"
+
+#. module: marketing_agency
+#: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
+msgid ""
+"<strong><b>Website App</b>:</strong> Showcase your agency's portfolio and "
+"case studies with a professional,\n"
+"        easy-to-update website that attracts new business."
+msgstr ""
+"<strong><b>Verkkosivu-sovellus</b>:</strong> Esittele toimistosi portfoliota "
+"ja esimerkkitapauksia ammattimaisella,\n"
+"        helposti muokattavalla verkkosivustolla, joka houkuttelee uusia "
+"asiakkaita."
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
@@ -680,12 +750,13 @@ msgstr ""
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid ""
-"<strong>CRM App</strong>: Track leads and opportunities, manage your sales "
-"pipeline, and never miss a potential client."
+"<strong>CRM App</strong>: Track leads and opportunities in a visual "
+"pipeline, ensuring you never miss a\n"
+"        potential client pitch or follow-up."
 msgstr ""
-"<strong>CRM-sovellus</strong>: Seuraa liidejä ja myyntimahdollisuuksia, "
-"hallitse linjastoasi ja varmista, ettei yksikään potentiaalinen asiakas jää "
-"huomaamatta."
+"<strong>CRM-sovellus</strong>: Seuraa liidejä ja myyntimahdollisuuksia "
+"visuaalisessa myyntiputkessa, jotta et koskaan missaa\n"
+"        potentiaalista asiakasta tai seurantatoimenpidettä."
 
 #. module: marketing_agency
 #: model_terms:event.event,description:marketing_agency.event_event_4
@@ -724,15 +795,6 @@ msgid "<strong>Event Schedule:</strong>"
 msgstr "<strong>Tapahtuma-aikataulu:</strong>"
 
 #. module: marketing_agency
-#: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
-msgid ""
-"<strong>Events App</strong>: Organise client workshops, training sessions, "
-"and marketing events."
-msgstr ""
-"<strong>Tapahtumat-sovellus</strong>: Järjestä asiakkaille työpajoja, "
-"koulutuksia ja markkinointitapahtumia."
-
-#. module: marketing_agency
 #: model_terms:event.event,description:marketing_agency.event_event_2
 msgid "<strong>Harness the Power of Authentic Influence</strong>"
 msgstr "<strong>Hyödynnä autenttisen vaikuttamisen voimaa</strong>"
@@ -761,15 +823,6 @@ msgstr ""
 "<strong>Integroi kaikki</strong>: Linkitä CRM-mahdollisuudet projekteihin, "
 "työaikakirjaukset laskutukseen ja tilaukset jatkuviin palveluihin sujuvan "
 "työnkulun takaamiseksi."
-
-#. module: marketing_agency
-#: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
-msgid ""
-"<strong>Invoicing App</strong>: Bill clients professionally and track "
-"payments."
-msgstr ""
-"<strong>Laskutus-sovellus</strong>: Laskuta asiakkaita ammattimaisesti ja "
-"seuraa maksuja."
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
@@ -808,24 +861,6 @@ msgstr "<strong>Ei sisälly:</strong>"
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid ""
-"<strong>Planning App</strong>: Schedule your team's workload and manage "
-"resource allocation."
-msgstr ""
-"<strong>Suunnittelu-sovellus</strong>: Aikatauluta tiimisi työkuorma ja "
-"hallitse resurssien kohdentamista."
-
-#. module: marketing_agency
-#: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
-msgid ""
-"<strong>Project App</strong>: Plan and track all your client projects with "
-"task management and milestones."
-msgstr ""
-"<strong>Projekti-sovellus</strong>: Suunnittele ja seuraa kaikkia "
-"asiakasprojekteja tehtävien hallinnan ja välietappien avulla."
-
-#. module: marketing_agency
-#: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
-msgid ""
 "<strong>Purchase</strong>: Manage freelancers and subcontractors with "
 "purchase orders and vendor bills."
 msgstr ""
@@ -842,36 +877,9 @@ msgstr ""
 "hakijaseurannan ja haastattelujen hallinnan avulla."
 
 #. module: marketing_agency
-#: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
-msgid ""
-"<strong>Sales App</strong>: Create professional proposals and manage your "
-"service offerings."
-msgstr ""
-"<strong>Myynti-sovellus</strong>: Luo ammattimaisia tarjouksia ja hallitse "
-"palvelutarjontaasi."
-
-#. module: marketing_agency
-#: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
-msgid ""
-"<strong>Social Marketing App</strong>: Manage social media campaigns for "
-"your clients from one dashboard."
-msgstr ""
-"<strong>Somemarkkinointi -sovellus</strong>: Hallitse asiakkaidesi "
-"sosiaalisen median kampanjoita yhdeltä koontinäytöltä."
-
-#. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.ir_ui_view_1840
 msgid "<strong>Social Media</strong>"
 msgstr "<strong>Sosiaalinen media</strong>"
-
-#. module: marketing_agency
-#: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
-msgid ""
-"<strong>Subscriptions App</strong>: Set up recurring revenue streams for "
-"retainer clients."
-msgstr ""
-"<strong>Tilaukset-sovellus</strong>: Aseta jatkuvia tulovirtoja "
-"sopimusasiakkaille."
 
 #. module: marketing_agency
 #: model_terms:event.event,description:marketing_agency.event_event_2
@@ -914,16 +922,7 @@ msgstr ""
 #: model_terms:sale.order.template,note:marketing_agency.sale_order_template_4
 msgid "<strong>Timeline:</strong> 6-8 weeks from project kickoff to launch"
 msgstr ""
-"<strong>Aikajana:</strong> 6–8 viikkoa projektin käynnistämisestä julkaisuun."
-
-#. module: marketing_agency
-#: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
-msgid ""
-"<strong>Timesheets App</strong>: Track time spent on client work for "
-"accurate billing and resource planning."
-msgstr ""
-"<strong>Työaikakirjaus-sovellus</strong>: Seuraa asiakastyöhön käytettyä "
-"aikaa tarkkaa laskutusta ja resurssien suunnittelua varten."
+"<strong>Aikajana:</strong> 6–8 viikkoa projektin käynnistämisestä julkaisuun"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
@@ -956,15 +955,6 @@ msgstr ""
 "<strong>Käytä tehtäväpohjia</strong>: Luo vakiotehtäviä toistuvaan työhön, "
 "kuten kuukausiraportointiin, sisällön tarkastuksiin tai kampanjan "
 "lanseerauksiin, varmistaaksesi johdonmukaisuuden."
-
-#. module: marketing_agency
-#: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
-msgid ""
-"<strong>Website App</strong>: Showcase your agency's portfolio and services "
-"to attract new clients."
-msgstr ""
-"<strong>Verkkosivu-sovellus</strong>: Esittele toimistosi portfolio ja "
-"palvelut houkutellaksesi uusia asiakkaita."
 
 #. module: marketing_agency
 #: model_terms:sale.order.template,note:marketing_agency.sale_order_template_4
@@ -1027,7 +1017,7 @@ msgstr "AD"
 #. module: marketing_agency
 #: model_terms:sale.order.template,note:marketing_agency.sale_order_template_4
 msgid "Administrator access to content management system"
-msgstr "Järjestelmänvalvojan pääsy sisällönhallintajärjestelmään"
+msgstr "Ylläpitäjän pääsy sisällönhallintajärjestelmään"
 
 #. module: marketing_agency
 #: model_terms:event.event,description:marketing_agency.event_event_4
@@ -1189,8 +1179,8 @@ msgid ""
 "Comprehensive analysis of current brand assets and positioning to identify "
 "strengths, weaknesses, and market opportunities."
 msgstr ""
-"Kattava analyysi nykyisistä brändivaroista ja -asemoinnista vahvuuksien, "
-"heikkouksien ja markkinamahdollisuuksien tunnistamiseksi."
+"Kattava analyysi brändin nykyisistä ominaisuuksista sekä asemasta "
+"vahvuuksien, heikkouksien ja markkinamahdollisuuksien tunnistamiseksi."
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
@@ -1297,7 +1287,7 @@ msgstr ""
 "JPG, PNG) ja väripaletin määrittelyt. Kaksi tarkastuskierrosta per "
 "elementti. Lopputoimitukset toimitetaan 30 päivän kuluessa projektin "
 "käynnistämisestä. 50% maksusta aloituksen yhteydessä, 50% toimituksen "
-"yhteydessä. Lisäkorjaukset laskutetaan tuntihinnalla. Asiakas omistaa "
+"yhteydessä. Lisäkorjaukset laskutetaan tuntihinnalla. Asiakas omistaa kaikki "
 "oikeudet täyden maksun jälkeen."
 
 #. module: marketing_agency
@@ -1328,7 +1318,7 @@ msgstr "Design 🎨"
 #. module: marketing_agency
 #: model_terms:event.event,description:marketing_agency.event_event_3
 msgid "Develop a strategic roadmap for immediate implementation"
-msgstr "Kehitä strateginen ojekartta välitöntä implementaatiota varten"
+msgstr "Kehitä strateginen suunnitelma välitöntä toteutusta varten"
 
 #. module: marketing_agency
 #: model_terms:event.event,description:marketing_agency.event_event_2
@@ -1422,8 +1412,8 @@ msgid ""
 "End-to-end coordination of your rebranding initiative, ensuring timely "
 "delivery, quality control, and seamless implementation."
 msgstr ""
-"Uudelleenbrändäyshankkeesi viimeistely, joka varmistaa ajantasaisen "
-"toimituksen, laadunvalvonnan ja sujuvan toteutuksen."
+"Uudelleenbrändäyshankkeesi koordinointi alusta loppuun varmistaa "
+"ajantasaisen toimituksen, laadunvalvonnan sekä sujuvan toteutuksen."
 
 #. module: marketing_agency
 #: model:sale.order.template.line,name:marketing_agency.sale_order_template_line_2
@@ -1540,8 +1530,8 @@ msgid ""
 "Helped SaaS startup capture 15% market share in 6 months through targeted "
 "content strategy"
 msgstr ""
-"SaaS-startup-yritys saavutti 15% markkinaosuuden vain kuudessa kuukaudessa "
-"kohdennetun sisältöstrategian avulla."
+"Auttoi SaaS startup-yritystä saavuttamaan 15% markkinaosuuden kuudessa "
+"kuukaudessa kohdennetun sisältöstrategian avulla"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
@@ -1559,8 +1549,8 @@ msgid ""
 "If you want to easily discover every features of this package, try "
 "downloading the Demo Data."
 msgstr ""
-"Jos haluat helposti tutustua tämän paketin kaikkiin ominaisuuksiin, kokeile "
-"ladata Demotiedot."
+"Jos haluat tutustua kaikkiin tämän paketin ominaisuuksiin helposti, kokeile "
+"demotietojen lataamista."
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
@@ -1583,7 +1573,7 @@ msgid ""
 "Increased senior care provider's qualified leads by 85% while reducing costs "
 "through empathetic storytelling."
 msgstr ""
-"Vanhustenhoidon palveluntarjoajan pätevien liidien määrä kasvoi 85% ja "
+"Vanhustenhoidon palveluntarjoajan kvalifioitujen liidien määrä kasvoi 85% ja "
 "kustannukset vähenivät empaattisen tarinankerronnan avulla."
 
 #. module: marketing_agency
@@ -1649,29 +1639,27 @@ msgstr "Liidien luominen"
 #: model_terms:event.event,description:marketing_agency.event_event_3
 msgid "Learn advanced techniques not covered in typical training"
 msgstr ""
-"Opi kehittyneitä tekniikoita, joita ei käsitellä tavanomaisissa "
-"koulutuksissa."
+"Opi edistyksellisiä tekniikoita, joita ei käsitellä tavanomaisissa "
+"koulutuksissa"
 
 #. module: marketing_agency
 #: model_terms:event.event,description:marketing_agency.event_event_1
 msgid "Learn from real-world case studies relevant to your specific industry"
 msgstr ""
-"Opi tosielämän tapaustutkimuksista, jotka liittyvät erityisesti omaan "
-"toimialaasi."
+"Opi tosielämän esimerkkitapauksista, jotka liittyvät erityisesti omaan "
+"toimialaasi"
 
 #. module: marketing_agency
 #: model_terms:event.event,description:marketing_agency.event_event_2
 msgid "Learn to measure ROI beyond simple engagement metrics"
 msgstr ""
-"Opi lukemaan tuottoprosenttiasi (ROI) syvemmälle kuin vain "
-"sitoutumismittareiden lukuihin."
+"Opi mittaamaan tuottoprosenttiasi (ROI) pelkkiä sitoutumismittareita "
+"syvällisemmin"
 
 #. module: marketing_agency
 #: model_terms:event.event,description:marketing_agency.event_event_1
 msgid "Leave with actionable strategies you can implement immediately"
-msgstr ""
-"Lähdet koulutuksesta kädessäsi nippu käyttökelpoisia strategioita, jotka "
-"voit laittaa toteutukseen välittömästi."
+msgstr "Saat toimintakelpoisia strategioita, jotka voit laittaa heti käytäntöön"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
@@ -2020,7 +2008,7 @@ msgstr "Jaa tietoja edistymisestä asiakkaiden kanssa asiakasportaalien kautta"
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid "Showcase your agency's work and organise marketing events:"
-msgstr "Esittele toimistosi työtä ja järjestä markkinointitapahtumia"
+msgstr "Esittele toimistosi työtä ja järjestä markkinointitapahtumia:"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.ir_ui_view_1840
@@ -2040,7 +2028,7 @@ msgstr "SoMe"
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid "Social Marketing 📱"
-msgstr "Some-markkinointi 📱"
+msgstr "Somemarkkinointi 📱"
 
 #. module: marketing_agency
 #: model:crm.tag,name:marketing_agency.crm_tag_13
@@ -2096,12 +2084,12 @@ msgstr "TechPulse yritysosto"
 #. module: marketing_agency
 #: model:project.tags,name:marketing_agency.project_tags_1
 msgid "Template"
-msgstr "Malli"
+msgstr "Mallipohja"
 
 #. module: marketing_agency
 #: model:project.project.stage,name:marketing_agency.project_project_stage_5
 msgid "Templates"
-msgstr "Mallit"
+msgstr "Mallipohja"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
@@ -2199,8 +2187,8 @@ msgid ""
 "Transformed family coffee roastery into trending brand with 300% sales "
 "increase through strategic rebranding"
 msgstr ""
-"Perheomisteinen kahvipaahtimo muunnettiin trendikkääksi brändiksi, mikä "
-"johti 300%:n myynnin kasvuun strategisen uudelleenbrändäyksen avulla"
+"Muunti perheomisteisen kahvipaahtimon trendikkääksi brändiksi, mikä kasvatti "
+"myyntiä 300% strategisen uudelleenbrändäyksen avulla"
 
 #. module: marketing_agency
 #: model_terms:event.event,description:marketing_agency.event_event_4
@@ -2271,8 +2259,8 @@ msgstr "Työpajat"
 msgid ""
 "Would you like to discuss your Odoo setup with us or explore more features?"
 msgstr ""
-"Haluaisitko keskustella kanssamme Odoo-asennuksestasi tai tutkia lisää "
-"ominaisuuksia?"
+"Haluatko keskustella kanssamme Odoon käyttöönotosta tai tutustua muihinkin "
+"sen ominaisuuksiin?"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
@@ -2290,8 +2278,8 @@ msgid ""
 "Your Odoo for Marketing Agencies package includes the essential apps to "
 "manage your client relationships, projects, and agency operations:"
 msgstr ""
-"Odoo Markkinointitoimistopaketti sisältää olennaiset sovellukset "
-"asiakassuhteiden, projektien ja toimiston hallintaan."
+"Odoon Markkinointitoimisto-paketti sisältää olennaiset sovellukset "
+"asiakassuhteiden, projektien ja toimiston hallintaan:"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
@@ -2368,3 +2356,74 @@ msgstr "🎓 Myynti"
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid "🎓 Social Marketing"
 msgstr "🎓 Somemarkkinointi"
+
+#~ msgid ""
+#~ "<strong>CRM App</strong>: Track leads and opportunities, manage your "
+#~ "sales pipeline, and never miss a potential client."
+#~ msgstr ""
+#~ "<strong>CRM-sovellus</strong>: Seuraa liidejä ja myyntimahdollisuuksia, "
+#~ "hallitse linjastoasi ja varmista, ettei yksikään potentiaalinen asiakas "
+#~ "jää huomaamatta."
+
+#~ msgid ""
+#~ "<strong>Events App</strong>: Organise client workshops, training "
+#~ "sessions, and marketing events."
+#~ msgstr ""
+#~ "<strong>Tapahtumat-sovellus</strong>: Järjestä asiakkaille työpajoja, "
+#~ "koulutuksia ja markkinointitapahtumia."
+
+#~ msgid ""
+#~ "<strong>Invoicing App</strong>: Bill clients professionally and track "
+#~ "payments."
+#~ msgstr ""
+#~ "<strong>Laskutus-sovellus</strong>: Laskuta asiakkaita ammattimaisesti ja "
+#~ "seuraa maksuja."
+
+#~ msgid ""
+#~ "<strong>Planning App</strong>: Schedule your team's workload and manage "
+#~ "resource allocation."
+#~ msgstr ""
+#~ "<strong>Suunnittelu-sovellus</strong>: Aikatauluta tiimisi työkuorma ja "
+#~ "hallitse resurssien kohdentamista."
+
+#~ msgid ""
+#~ "<strong>Project App</strong>: Plan and track all your client projects "
+#~ "with task management and milestones."
+#~ msgstr ""
+#~ "<strong>Projekti-sovellus</strong>: Suunnittele ja seuraa kaikkia "
+#~ "asiakasprojekteja tehtävien hallinnan ja välietappien avulla."
+
+#~ msgid ""
+#~ "<strong>Sales App</strong>: Create professional proposals and manage your "
+#~ "service offerings."
+#~ msgstr ""
+#~ "<strong>Myynti-sovellus</strong>: Luo ammattimaisia tarjouksia ja "
+#~ "hallitse palvelutarjontaasi."
+
+#~ msgid ""
+#~ "<strong>Social Marketing App</strong>: Manage social media campaigns for "
+#~ "your clients from one dashboard."
+#~ msgstr ""
+#~ "<strong>Somemarkkinointi -sovellus</strong>: Hallitse asiakkaidesi "
+#~ "sosiaalisen median kampanjoita yhdeltä koontinäytöltä."
+
+#~ msgid ""
+#~ "<strong>Subscriptions App</strong>: Set up recurring revenue streams for "
+#~ "retainer clients."
+#~ msgstr ""
+#~ "<strong>Tilaukset-sovellus</strong>: Aseta jatkuvia tulovirtoja "
+#~ "sopimusasiakkaille."
+
+#~ msgid ""
+#~ "<strong>Timesheets App</strong>: Track time spent on client work for "
+#~ "accurate billing and resource planning."
+#~ msgstr ""
+#~ "<strong>Työaikakirjaus-sovellus</strong>: Seuraa asiakastyöhön käytettyä "
+#~ "aikaa tarkkaa laskutusta ja resurssien suunnittelua varten."
+
+#~ msgid ""
+#~ "<strong>Website App</strong>: Showcase your agency's portfolio and "
+#~ "services to attract new clients."
+#~ msgstr ""
+#~ "<strong>Verkkosivu-sovellus</strong>: Esittele toimistosi portfolio ja "
+#~ "palvelut houkutellaksesi uusia asiakkaita."

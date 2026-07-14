@@ -3,13 +3,13 @@
 # * food_distribution
 #
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
-# "Marta (wacm)" <wacm@odoo.com>, 2025.
+# "Marta (wacm)" <wacm@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 12:24+0000\n"
-"PO-Revision-Date: 2025-11-04 13:56+0000\n"
+"POT-Creation-Date: 2026-06-12 18:08+0000\n"
+"PO-Revision-Date: 2026-04-04 09:47+0000\n"
 "Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
 "Language-Team: Polish <https://translate.odoo.com/projects/odoo-19/"
 "food_distribution/pl/>\n"
@@ -19,7 +19,12 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.16.2\n"
+
+#. module: food_distribution
+#: model:ir.actions.report,print_report_name:food_distribution.mrp_bom_product_label_action_report
+msgid "'Products Labels - %s' % (object.name)"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -44,6 +49,76 @@ msgstr "Wiaderko 5L"
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
+"<b>Documents App</b>: Centralize supplier certificates, quality control "
+"reports, and shipping manifests for easy\n"
+"          retrieval during audits."
+msgstr ""
+"<b>Aplikacja Dokumenty</b>: Scentralizuj certyfikaty dostawców, raporty "
+"kontroli jakości i listy przewozowe, aby ułatwić\n"
+"          ich wyszukiwanie podczas audytów."
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"<b>Fleet App</b>: Manage your delivery trucks and vans, tracking fuel logs, "
+"maintenance schedules, and driver\n"
+"          assignments in one place."
+msgstr ""
+"<b>Aplikacja Flota</b>: Zarządzaj samochodami dostawczymi i furgonetkami, "
+"śledź zużycie paliwa, harmonogramy konserwacji i zadania kierowców\n"
+"          w jednym miejscu."
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"<b>Inventory App</b>: Master your stock with advanced features like Lots "
+"&amp; Serial Numbers for traceability\n"
+"          and Expiration Dates to enforce FEFO (First Expired, First Out) "
+"removal strategies."
+msgstr ""
+"<b>Aplikacja Magazyn</b>: Zapanuj nad swoimi zapasami dzięki zaawansowanym "
+"funkcjom, takim jak numery seryjne partii &amp; umożliwiające śledzenie\n"
+"          i daty ważności, które pozwalają na stosowanie strategii usuwania "
+"FEFO (First Expired, First Out – najpierw wycofaj produkty, których termin "
+"ważności upłynął najwcześniej)."
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"<b>Invoicing App</b>: Streamline your billing with automated invoicing based "
+"on delivered quantities, ensuring\n"
+"          accurate financial records."
+msgstr ""
+"<b>Aplikacja Fakturowanie</b>: Usprawnij proces rozliczeń dzięki "
+"automatycznemu fakturowaniu na podstawie dostarczonych ilości, zapewniając\n"
+"          dokładność dokumentacji finansowej."
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"<b>Purchase App</b>: Automate your procurement process with reordering rules "
+"that account for vendor lead times\n"
+"          and seasonal demand spikes."
+msgstr ""
+"<b>Aplikacja Zakupy</b>: Zautomatyzuj proces zaopatrzenia dzięki regułom "
+"ponownego zamawiania, które uwzględniają terminy realizacji dostaw przez "
+"dostawców\n"
+"          i sezonowe wzrosty popytu."
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"<b>Sales App</b>: Manage complex pricing structures with Pricelists, "
+"allowing you to offer specific deals to\n"
+"          restaurants, retailers, or wholesalers."
+msgstr ""
+"<b>Aplikacja Sprzedaż</b>: Zarządzaj złożonymi strukturami cenowymi za "
+"pomocą cenników, które pozwalają oferować konkretne promocje\n"
+"          restauracjom, detalistom lub hurtownikom."
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
 msgstr ""
@@ -83,8 +158,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\" aria-label=\"Banner Success\">🎉</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
-"fst-normal\" aria-label=\"Banner Success\">🎉</i>"
+"<i data-oe-aria-label=\"Banner powodzenie\" class=\"o_editor_banner_icon "
+"mb-3 fst-normal\" aria-label=\"Banner powodzenie\">🎉</i>"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -92,8 +167,15 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\" aria-label=\"Banner Warning\">⚠️</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
-"fst-normal\" aria-label=\"Banner Warning\">⚠️</i>"
+"<i data-oe-aria-label=\"Banner ostrzegawczy\" class=\"o_editor_banner_icon "
+"mb-3 fst-normal\" aria-label=\"Banner ostrzegawczy\">⚠️</i>"
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid ""
+"<span>Batch/Lot: </span>\n"
+"                                                                        <br/>"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -122,6 +204,21 @@ msgstr ""
 "           nową na własny użytek.</strong>"
 
 #. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid "<strong>Ingredients: </strong>"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid "<strong>Nutritional Fact</strong>"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid "<strong>Per 100g</strong>"
+msgstr ""
+
+#. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "<strong>Use case</strong>"
 msgstr "<strong>Przykład użycia</strong>"
@@ -143,8 +240,25 @@ msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"Activate the Food &amp; Drinks Labels settings in the Food Distribution "
+"section."
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_nutritional_facts_active
+msgid "Active"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "Add some Salt and Sugar to secure suppliers for longer on those sides."
 msgstr "Dodaj Sól i Cukier, aby zapewnić dostawy tych dodatków na dłużej."
+
+#. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_4
+msgid "Added Sugar"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -163,6 +277,11 @@ msgid "Also order the Mayonnaise so you can fill those buckets with sauce."
 msgstr "Zamów także Majonez, abyś mógł napełnić te wiaderka sosem."
 
 #. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.x_nutritional_facts_search_view
+msgid "Archived"
+msgstr ""
+
+#. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
 "As an Inventory Manager you need to make sure that the production team never "
@@ -172,6 +291,11 @@ msgstr ""
 "Jako menadżer magazynu, musisz się upewnić, że zespołowi produkcyjnemu nigdy "
 "nie zabraknie\n"
 "          zapasów!"
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid "B.b."
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -197,6 +321,17 @@ msgstr ""
 "Przesyłając dane demo tego modułu, Twoja baza danych została wypełniona "
 "nowymi produktami, zamówieniami\n"
 "      sprzedaży i więcej."
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.res_config_settings_form_view_inherited
+msgid ""
+"Capture food and drink data on product and leverage them in printed labels."
+msgstr ""
+
+#. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_3
+msgid "Carbohydrates"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -250,6 +385,16 @@ msgstr ""
 "        wiele mniejszych zamówień."
 
 #. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid "Demo Lot/SN"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid "Demo Product"
+msgstr ""
+
+#. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
 "Depending on your current stock level, an appropriate replenishment "
@@ -263,6 +408,16 @@ msgstr ""
 "        stworzona dla produktu końcowego i jego komponentów przez "
 "niebezpośrednie zapytanie. Na przykład:\n"
 "        Wiaderko i dystrybutor oraz Majonez poniżej."
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_nutritional_facts_name
+msgid "Description"
+msgstr ""
+
+#. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_5
+msgid "Dietary Fibre"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -310,9 +465,24 @@ msgstr ""
 "na produkcję!"
 
 #. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_1
+msgid "Energy"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid "Exp."
+msgstr ""
+
+#. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "Expiration Dates"
 msgstr "Daty przydatności"
+
+#. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_6
+msgid "Fat"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -347,18 +517,26 @@ msgstr ""
 "Wykonaj kroki z każdej operacji, aby przygotować swoją partię majonezu."
 
 #. module: food_distribution
-#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-msgid "Food distribution"
-msgstr "Dystrybucja żywności"
+#: model:ir.model.fields,field_description:food_distribution.field_res_company_x_module_food_drinks_labels
+#: model:ir.model.fields,field_description:food_distribution.field_res_config_setting_x_module_food_drinks_labels
+msgid "Food & Drinks Labels"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.res_config_settings_form_view_inherited
+msgid "Food Distribution"
+msgstr ""
+
+#. module: food_distribution
+#: model:base.automation,name:food_distribution.automation_toggle_food_drinks_labels
+#: model:ir.actions.server,name:food_distribution.action_toggle_food_drinks_labels
+msgid "Food Distribution: Toggle Food & Drinks Labels"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-msgid ""
-"From the <strong>Inventory App</strong>, keep track of produced lots and "
-"expiration dates."
-msgstr ""
-"Śledź produkowane partie i daty ważności z aplikacji <strong>Magazyn</"
-"strong>."
+msgid "Food distribution"
+msgstr "Dystrybucja żywności"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -379,10 +557,8 @@ msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-msgid "Generate crystal clear quotations with the <strong>Sales App</strong>."
+msgid "From your product form, open the Labels tab."
 msgstr ""
-"Generuj krystalicznie przejrzyste oferty z aplikacją <strong>Sprzedaż</"
-"strong>."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -434,6 +610,23 @@ msgstr ""
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
+"In food industry, ingredients and nutritional facts matter and shall be "
+"captured on labels."
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_ingredients_ingredient_id
+msgid "Ingredient"
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_product_template_ingredients
+msgid "Ingredients"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
 "Introduce more capabilities from the <strong>\n"
 "          <font class=\"text-o-color-1\">Quality App</font>\n"
 "        </strong> to meet the requirements\n"
@@ -445,9 +638,26 @@ msgstr ""
 "        rynkowym."
 
 #. module: food_distribution
-#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-msgid "Invoice your customers from the <strong>Invoicing App</strong>."
-msgstr "Wystawiaj faktury klientom w aplikacji <strong>Fakturowanie</strong>."
+#: model:ir.model.fields,field_description:food_distribution.field_product_template_is_allergen
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_ingredients_is_allergen
+msgid "Is Allergen"
+msgstr ""
+
+#. module: food_distribution
+#: model:uom.uom,name:food_distribution.uom_uom_36
+msgid "Kcal"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_product_template_only_form_view
+msgid "Label"
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_product_template_label_note
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid "Label Note"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -471,13 +681,6 @@ msgstr ""
 "          <font class=\"text-o-color-1\"> aplikację Kody Kreskowe</font>\n"
 "        </strong>, aby bezbłędnie obsługiwać produkty\n"
 "        i serie."
-
-#. module: food_distribution
-#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-msgid ""
-"Manage the purchase of raw materials from the <strong>Purchase App</strong>."
-msgstr ""
-"Zarządzaj zakupem surowych materiałów z aplikacji <strong>Zakupy</strong>."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -508,9 +711,19 @@ msgid "Mayonnaise Dispenser 2.6L"
 msgstr "Dozownik majonezu 2,6L"
 
 #. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_8
+msgid "Mono saturated fatty acids"
+msgstr ""
+
+#. module: food_distribution
 #: model:product.template,name:food_distribution.product_template_5
 msgid "Mustard"
 msgstr "Musztarda"
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.x_nutritional_facts_form_view
+msgid "Name..."
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -580,6 +793,20 @@ msgid ""
 "orders."
 msgstr ""
 "Zobaczmy jak rozprowadzić nakład pracy z wynikłych zleceń produkcyjnych."
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_nutritional_fact_nutritional_fact_id
+msgid "Nutritional Fact"
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.actions.act_window,name:food_distribution.act_window_x_nutritional_facts
+#: model:ir.model,name:food_distribution.model_x_nutritional_facts
+#: model:ir.model.fields,field_description:food_distribution.field_product_template_nutritional_facts
+#: model:ir.ui.menu,name:food_distribution.inventory_nutritional_facts_menu
+#: model_terms:ir.ui.view,arch_db:food_distribution.x_nutritional_facts_form_view
+msgid "Nutritional Facts"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -691,19 +918,24 @@ msgid "Pallet 250x 1/6Gn Dispenser"
 msgstr "Paleta 250x dozownik 1/6Gn"
 
 #. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_nutritional_facts_parent
+msgid "Parent"
+msgstr ""
+
+#. module: food_distribution
 #: model:product.template,name:food_distribution.product_template_8
 msgid "Pasteurised Liquid Egg"
 msgstr "Pasteryzowane płynne jajko"
 
 #. module: food_distribution
-#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-msgid ""
-"Process manufacturing work orders with instructions from the "
-"<strong>Shopfloor App</strong>\n"
-"        ."
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_nutritional_fact_per_100g
+msgid "Per 100g"
 msgstr ""
-"Przetwarzaj zamówienia produkcyjne z instrukcjami z aplikacji <strong>Hala "
-"produkcyjna</strong>."
+
+#. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_9
+msgid "Poly saturated fatty acids"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -717,6 +949,37 @@ msgstr ""
 "wyczerpania zasobów\n"
 "      jest najważniejsza. Otwórzmy aplikację <strong>Magazyn</strong>, żeby "
 "zobaczyć jak zająć się tym aspektem."
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_ingredients_product_template_id
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_nutritional_fact_product_template_id
+msgid "Product"
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.actions.report,name:food_distribution.mrp_bom_product_label_action_report
+msgid "Product Label"
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.model,name:food_distribution.model_x_product_template_ingredients
+msgid "Product Template Ingredients"
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.model,name:food_distribution.model_x_product_template_nutritional_fact
+msgid "Product Template Nutritional Fact"
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_ingredients_share
+msgid "Proportion (%)"
+msgstr ""
+
+#. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_2
+msgid "Protein"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -734,14 +997,15 @@ msgid "Replenishment Rules"
 msgstr "Reguły uzupełniania zapasów"
 
 #. module: food_distribution
-#: model:account.journal,name:food_distribution.cash
-msgid "Sales"
-msgstr "Sprzedaż"
-
-#. module: food_distribution
 #: model:product.template,name:food_distribution.product_template_6
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_10
 msgid "Salt"
 msgstr "Sól"
+
+#. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_7
+msgid "Saturated fatty acids"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -761,6 +1025,13 @@ msgstr "Wybierz szablon oferty, aby oszczędzić czas na instalację."
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "Send your quotation for online signature."
 msgstr "Wyślij swoją ofertę do podpisania online."
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_nutritional_facts_sequence
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_ingredients_sequence
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_nutritional_fact_sequence
+msgid "Sequence"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -846,6 +1117,13 @@ msgstr ""
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
+"The nutritional fact list is available from the Inventory App, Configuration "
+"menu."
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
 "The products from the Replenishment Rules you triggered are here but not all "
 "products have\n"
 "        Replenishment Rules at this stage. For some products or other "
@@ -912,6 +1190,17 @@ msgstr ""
 "<strong>Kody Kreskowe</strong> może się okazać bardzo pomocna!"
 
 #. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.res_config_settings_form_view_inherited
+msgid "Traceability"
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_nutritional_facts_unit
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_nutritional_fact_unit
+msgid "Unit"
+msgstr ""
+
+#. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
 "Use the <strong>\n"
@@ -923,17 +1212,6 @@ msgstr ""
 "          <font class=\"text-o-color-1\">aplikacji Konserwacja</font>\n"
 "        </strong>, aby upewnić się, że wszystkie\n"
 "        gniazda produkcyjne są gotowe do pracy."
-
-#. module: food_distribution
-#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-msgid ""
-"Use the <strong>Manufacturing App</strong> to efficiently plan and execute "
-"production\n"
-"        orders to meet customer demand."
-msgstr ""
-"Skorzystaj z aplikacji <strong>Produkcja</strong>, aby efektywnie planować i "
-"wykonywać zamówienia\n"
-"         produkcji, aby sprostać popytowi."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -1048,6 +1326,13 @@ msgstr ""
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
+"You can easily maintain from here for each product its list of ingredients, "
+"the nutritional facts and specific notes to add to the label."
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
 "You can now hurry to manufacture the needed products, deliver them prior "
 "sending the invoice\n"
 "      to bill your customer."
@@ -1117,11 +1402,8 @@ msgstr ""
 msgid ""
 "You didn't import demo data? You can still do it. Go to Apps &gt; Industries "
 "&gt; Upgrade\n"
-"          your Bar &amp; Pub package and check the related box"
+"          your Food Distribution package and check the related box"
 msgstr ""
-"Nie zaimportowałeś danych demo? Nadal możesz to zrobić. Przejdź do: "
-"Aplikacje &gt; Gałęzie przemysłu &gt; Zaktualizuj\n"
-"          swój pakiet Bar i Pub i zaznacz odpowiednie pole."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -1192,6 +1474,11 @@ msgid "if you need help!"
 msgstr "jeśli potrzebujesz pomocy!"
 
 #. module: food_distribution
+#: model:uom.uom,name:food_distribution.uom_uom_37
+msgid "mg"
+msgstr ""
+
+#. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "request a demo"
 msgstr "poprosić o demo"
@@ -1255,6 +1542,11 @@ msgstr "📦 Zarządzanie zapasami"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid "🖨️ Labels with ingredients and nutritional facts"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "🗓️ Planning your production"
 msgstr "🗓️ Planowanie produkcji"
 
@@ -1262,6 +1554,58 @@ msgstr "🗓️ Planowanie produkcji"
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "🥘 Manufacturing quality products"
 msgstr "🥘 Produkcja produktów wysokiej jakości"
+
+#~ msgid "Sales"
+#~ msgstr "Sprzedaż"
+
+#~ msgid ""
+#~ "You didn't import demo data? You can still do it. Go to Apps &gt; "
+#~ "Industries &gt; Upgrade\n"
+#~ "          your Bar &amp; Pub package and check the related box"
+#~ msgstr ""
+#~ "Nie zaimportowałeś danych demo? Nadal możesz to zrobić. Przejdź do: "
+#~ "Aplikacje &gt; Gałęzie przemysłu &gt; Zaktualizuj\n"
+#~ "          swój pakiet Bar i Pub i zaznacz odpowiednie pole."
+
+#~ msgid ""
+#~ "From the <strong>Inventory App</strong>, keep track of produced lots and "
+#~ "expiration dates."
+#~ msgstr ""
+#~ "Śledź produkowane partie i daty ważności z aplikacji <strong>Magazyn</"
+#~ "strong>."
+
+#~ msgid ""
+#~ "Generate crystal clear quotations with the <strong>Sales App</strong>."
+#~ msgstr ""
+#~ "Generuj krystalicznie przejrzyste oferty z aplikacją <strong>Sprzedaż</"
+#~ "strong>."
+
+#~ msgid "Invoice your customers from the <strong>Invoicing App</strong>."
+#~ msgstr ""
+#~ "Wystawiaj faktury klientom w aplikacji <strong>Fakturowanie</strong>."
+
+#~ msgid ""
+#~ "Manage the purchase of raw materials from the <strong>Purchase App</"
+#~ "strong>."
+#~ msgstr ""
+#~ "Zarządzaj zakupem surowych materiałów z aplikacji <strong>Zakupy</strong>."
+
+#~ msgid ""
+#~ "Process manufacturing work orders with instructions from the "
+#~ "<strong>Shopfloor App</strong>\n"
+#~ "        ."
+#~ msgstr ""
+#~ "Przetwarzaj zamówienia produkcyjne z instrukcjami z aplikacji "
+#~ "<strong>Hala produkcyjna</strong>."
+
+#~ msgid ""
+#~ "Use the <strong>Manufacturing App</strong> to efficiently plan and "
+#~ "execute production\n"
+#~ "        orders to meet customer demand."
+#~ msgstr ""
+#~ "Skorzystaj z aplikacji <strong>Produkcja</strong>, aby efektywnie "
+#~ "planować i wykonywać zamówienia\n"
+#~ "         produkcji, aby sprostać popytowi."
 
 #~ msgid ""
 #~ "Now come back to the list of manufacturing orders and open the calendar "

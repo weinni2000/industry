@@ -4,13 +4,14 @@
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# "Thi Huong Nguyen (thng)" <thng@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 13:19+0000\n"
-"PO-Revision-Date: 2025-11-17 11:16+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-04-10 19:42+0000\n"
+"PO-Revision-Date: 2026-01-03 19:55+0000\n"
+"Last-Translator: \"Thi Huong Nguyen (thng)\" <thng@odoo.com>\n"
 "Language-Team: Vietnamese <https://translate.odoo.com/projects/odoo-19/"
 "sport_events/vi/>\n"
 "Language: vi\n"
@@ -18,17 +19,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: sport_events
 #: model:event.event.ticket,name:sport_events.event_event_ticket_4
 msgid "+ Cup"
 msgstr "+ Cúp"
-
-#. module: sport_events
-#: model_terms:ir.ui.view,arch_db:sport_events.ir_ui_view_3140
-msgid "+1 555-555-5556"
-msgstr "+1 555-555-5556"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -59,6 +55,8 @@ msgstr ""
 #: model_terms:event.event,description:sport_events.event_event_3
 msgid "3 full-service aid stations: water, isotonic drinks, fruit, energy bars"
 msgstr ""
+"3 trạm tiếp tế đầy đủ dịch vụ: nước, nước uống isotonic, trái cây, thanh "
+"năng lượng"
 
 #. module: sport_events
 #: model:survey.question.answer,value:sport_events.survey_question_answer_3
@@ -68,7 +66,7 @@ msgstr ""
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
 msgid "6 players on court per team (substitutes allowed)"
-msgstr ""
+msgstr "Mỗi nhóm có 6 vận động viên trên sân (cho phép thay người)"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.ir_ui_view_3140
@@ -101,6 +99,9 @@ msgid ""
 "<br/>Every event we create brings people closer to nature, fostering "
 "endurance, unity, and a deep respect for the landscapes we cross."
 msgstr ""
+"<br/>Mỗi sự kiện chúng tôi tổ chức đưa con người gần hơn với thiên nhiên, "
+"rèn luyện sức bền, sự đoàn kết và lòng tôn trọng sâu sắc với những cảnh quan "
+"mà chúng ta đi qua."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.contactus
@@ -270,6 +271,9 @@ msgid ""
 "                                  <span class=\"s_website_form_mark\"> *</"
 "span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">Đề xuất của bạn</span>\n"
+"                                  <span class=\"s_website_form_mark\"> *</"
+"span>"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
@@ -289,78 +293,55 @@ msgstr "<strong>Marathon nơi thiên nhiên hoang dã 42K</strong> — €40"
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid ""
-"<strong><font class=\"text-o-color-1\">CRM</font></strong>: Manage "
-"relationships with sponsors, partners, and key contacts."
+"<strong><font class=\"text-o-color-1\"><b>Contacts App</b>:</font></"
+"strong>Maintain a database of teams, athletes, sponsors, and volunteers to "
+"streamline communication and coordination.<br/>"
 msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid ""
-"<strong><font class=\"text-o-color-1\">Documents</font></strong>: Centralize "
-"spreadsheets and materials checklists."
+"<strong><font class=\"text-o-color-1\"><b>Email Marketing App</b>: </font></"
+"strong>Keep the excitement high by sending automated updates, newsletters, "
+"and reminders to attendees and participants.<br/>"
 msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid ""
-"<strong><font class=\"text-o-color-1\">Events</font></strong>: Plan and "
-"manage sport competitions, races, or tournaments."
+"<strong><font class=\"text-o-color-1\"><b>Events App</b>:</font></"
+"strong>Orchestrate tournaments and matches with ease, handling participant "
+"registrations, ticketing, and capacity management online.<br/>"
 msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid ""
-"<strong><font class=\"text-o-color-1\">Inventory</font></strong>: Track "
-"sports gear, event equipment, merchandise, and manage stock of all materials."
+"<strong><font class=\"text-o-color-1\"><b>Project App</b>: </font></"
+"strong>Manage the logistical setup of the event, assigning tasks to staff "
+"and volunteers to ensure the venue is ready on time."
 msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid ""
-"<strong><font class=\"text-o-color-1\">Planning</font></strong>: Create "
-"staff schedules, assign roles, and manage shifts."
+"<strong><font class=\"text-o-color-1\"><b>Website App</b>: </font></"
+"strong>Build a dedicated event portal to publish schedules, results, and "
+"venue information for fans and athletes.<br/>"
 msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid ""
-"<strong><font class=\"text-o-color-1\">Project</font></strong>: Organize "
-"event planning, deadlines, and task responsibilities."
-msgstr ""
-
-#. module: sport_events
-#: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-msgid ""
-"<strong><font class=\"text-o-color-1\">Purchase</font>: </strong>Order "
-"ravitaillement supplies, gear, equipment, and other essentials for sport "
-"events.<strong/><br/>"
-msgstr ""
-
-#. module: sport_events
-#: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-msgid ""
-"<strong><font class=\"text-o-color-1\">Sign</font></strong>: Digitally sign "
-"sponsorship agreements or volunteer forms."
-msgstr ""
-
-#. module: sport_events
-#: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-msgid ""
-"<strong><font class=\"text-o-color-1\">Survey</font></strong>: Gather "
-"feedback from participants, staff, and sponsors."
-msgstr ""
-
-#. module: sport_events
-#: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-msgid ""
-"<strong><font class=\"text-o-color-1\">Website</font></strong>: Promote "
-"events, sell tickets, and gather sponsorships online."
+"<strong><font class=\"text-o-color-1\"><b>eCommerce App</b>: </font></"
+"strong>Boost revenue by selling event merchandise, gear, and concessions "
+"directly through your event website.<br/>"
 msgstr ""
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
 msgid "<strong>A Day of Competition, Energy &amp; Team Spirit</strong>"
-msgstr ""
+msgstr "<strong>Một ngày thi đấu, năng lượng &amp; tinh thần đồng đội</strong>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -368,6 +349,8 @@ msgid ""
 "<strong>Add contact forms </strong>for participants to send questions, "
 "feedback, or requests."
 msgstr ""
+"<strong>Thêm biểu mẫu liên hệ </strong>để người tham gia có thể gửi câu hỏi, "
+"phản hồi hoặc yêu cầu."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -375,6 +358,8 @@ msgid ""
 "<strong>Add your event details</strong> in the <em>Events</em> app, "
 "including dates, locations, ticket types, and capacity."
 msgstr ""
+"<strong>Thêm thông tin sự kiện của bạn</strong> vào trong ứng dụng <em>Sự "
+"kiện</em>, bao gồm ngày, địa điểm, loại vé và sức chứa."
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
@@ -404,6 +389,8 @@ msgid ""
 "<strong>Automate reordering</strong> so when stock falls below the minimum, "
 "Odoo generates a purchase order automatically."
 msgstr ""
+"<strong>Tự động tái đặt hàng</strong> để khi tồn kho giảm xuống dưới mức tối "
+"thiểu, Odoo sẽ tự động tạo đơn mua hàng."
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
@@ -416,6 +403,8 @@ msgid ""
 "<strong>Bike</strong>: 40 km road &amp; forest loop, moderate elevation "
 "(+800m)"
 msgstr ""
+"<strong>Đạp xe</strong>: 40 km đường bộ &amp; vòng rừng, độ cao trung bình "
+"(+800m)"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -428,6 +417,8 @@ msgid ""
 "<strong>Categorize expenses</strong> (Logistics, Accommodation, Meals, "
 "Travel) for clear reporting."
 msgstr ""
+"<strong>Phân loại chi phí</strong> (Logistics, Nơi ở, Ăn uống, và Đi lại) để "
+"báo cáo rõ ràng."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -435,6 +426,8 @@ msgid ""
 "<strong>Categorize products</strong> into groups like Apparel, First Aid, "
 "Technical Equipment, and Merchandise."
 msgstr ""
+"<strong>Phân loại sản phẩm</strong> thành các nhóm như Trang phục, Y tế, "
+"Thiết bị kỹ thuật và Hàng hóa."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -448,6 +441,9 @@ msgid ""
 "ravitaillement supplies, race bibs, signage, timing systems, volunteer "
 "uniforms, or safety equipment."
 msgstr ""
+"<strong>Tạo đơn mua hàng</strong> trong <em>Mua hàng</em> khi bạn cần vật tư "
+"tiếp tế, BIB chạy, biển báo, hệ thống chấm thời gian, đồng phục tình nguyện "
+"viên hoặc thiết bị an toàn."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -455,6 +451,8 @@ msgid ""
 "<strong>Create engaging announcements </strong>and highlight reels to "
 "promote upcoming events."
 msgstr ""
+"<strong>Tạo các thông báo hấp dẫn </strong>và video điểm nhấn để quảng bá "
+"các sự kiện sắp tới."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -462,6 +460,8 @@ msgid ""
 "<strong>Create surveys</strong> on event organization, facilities, or "
 "satisfaction."
 msgstr ""
+"<strong>Tạo các cuộc khảo sát</strong> về tổ chức sự kiện, cơ sở vật chất "
+"hoặc mức độ hài lòng."
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
@@ -518,6 +518,8 @@ msgstr "<strong>Vạch đích &amp; Phần thưởng</strong>"
 msgid ""
 "<strong>Generate invoices</strong> for sponsors, partners, or booth rentals."
 msgstr ""
+"<strong>Tạo hóa đơn</strong> cho nhà tài trợ, đối tác hoặc cho thuê gian "
+"hàng."
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
@@ -525,6 +527,8 @@ msgid ""
 "<strong>Ideal for</strong>: Beginners, walkers, and those looking for a "
 "short but rewarding trail experience."
 msgstr ""
+"<strong>Phù hợp cho</strong>: Người mới bắt đầu, người đi bộ và những ai "
+"đang tìm kiếm một trải nghiệm trail ngắn nhưng đầy ý nghĩa."
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
@@ -532,6 +536,8 @@ msgid ""
 "<strong>Ideal for</strong>: Experienced trail runners seeking a technical "
 "and physically demanding course."
 msgstr ""
+"<strong>Phù hợp cho</strong>: Những vận động viên chạy đường mòn có kinh "
+"nghiệm đang tìm kiếm một cung đường kỹ thuật cao và đòi hỏi thể lực."
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
@@ -539,6 +545,8 @@ msgid ""
 "<strong>Ideal for</strong>: Intermediate runners used to off-road conditions "
 "and elevation."
 msgstr ""
+"<strong>Phù hợp cho</strong>: Vận động viên chạy bộ trung cấp đã quen với "
+"điều kiện địa hình off-road và độ cao."
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
@@ -564,6 +572,8 @@ msgid ""
 "<strong>Log expenses</strong> like staff accommodation the day before the "
 "event, catering, or travel."
 msgstr ""
+"<strong>Ghi chép chi phí</strong> như chỗ ở cho nhân viên vào ngày trước sự "
+"kiện, ăn uống hoặc chi phí đi lại."
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
@@ -576,6 +586,8 @@ msgid ""
 "<strong>Open the Inventory app</strong> and find the product or equipment to "
 "manage (e.g., finish line arch, water station tables, first aid kits)."
 msgstr ""
+"<strong>Mở ứng dụng Tồn kho</strong> và tìm sản phẩm hoặc thiết bị cần quản "
+"lý (ví dụ: cổng đích, bàn trạm nước, bộ dụng cụ sơ cứu)."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -617,6 +629,8 @@ msgid ""
 "<strong>Receive the goods</strong> using the <em>Receipt</em> smart button "
 "and validate them to update your records."
 msgstr ""
+"<strong>Nhận hàng</strong> bằng cách sử dụng nút thông minh <em>Phiếu nhập "
+"kho</em> và xác thực để cập nhật bản ghi của bạn."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -624,6 +638,8 @@ msgid ""
 "<strong>Record and manage sponsor details</strong> in <em>CRM </em>and add "
 "them on the<em> Event </em>when it's confirmed"
 msgstr ""
+"<strong>Ghi lại và quản lý thông tin nhà tài trợ</strong> trong <em>CRM</"
+"em>và thêm chúng vào <em>Sự kiện</em> khi sự kiện được xác nhận"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
@@ -635,6 +651,8 @@ msgstr "<strong>Đăng ký</strong>"
 msgid ""
 "<strong>Run</strong>: 10 km trail with technical singletrack sections (+300m)"
 msgstr ""
+"<strong>Chạy</strong>: Chạy trail 10 km với các đoạn đường mòn đơn kỹ thuật "
+"(+300m)"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -642,6 +660,9 @@ msgid ""
 "<strong>Select the right vendor</strong> by comparing prices, delivery "
 "times, and supplier reliability to ensure quality and timely delivery."
 msgstr ""
+"<strong>Chọn nhà cung cấp phù hợp</strong> bằng cách so sánh giá cả, thời "
+"gian giao hàng và độ tin cậy của nhà cung cấp để đảm bảo chất lượng và giao "
+"hàng đúng hạn."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -649,6 +670,8 @@ msgid ""
 "<strong>Send a Request for Quotation (RFQ)</strong> to suppliers directly "
 "from Odoo or confirm the order when you've made your choice."
 msgstr ""
+"<strong>Gửi Yêu cầu báo giá (RFQ)</strong> tới nhà cung cấp trực tiếp từ "
+"Odoo hoặc xác nhận đơn hàng khi bạn đã lựa chọn."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -656,6 +679,8 @@ msgid ""
 "<strong>Send them to participants,</strong> staff, and sponsors after the "
 "event."
 msgstr ""
+"<strong>Gửi cho các những người tham dự</strong>, nhân viên và các nhà tài "
+"trợ sau sự kiện."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -674,6 +699,9 @@ msgid ""
 "<strong>Set up a project</strong> in the <em>Project</em> app to assign and "
 "track tasks such as venue booking, course setup, and sponsor contact."
 msgstr ""
+"<strong>Thiết lập một dự án</strong> trong <em>ứng dụng Dự án</em> để phân "
+"công và theo dõi các nhiệm vụ như đặt địa điểm, chuẩn bị khóa học và liên hệ "
+"với nhà tài trợ."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -697,26 +725,28 @@ msgid ""
 "<strong>Start &amp; Finish:</strong> Microbrasserie de Maredsous – Abtei "
 "Maredsous, Belgium"
 msgstr ""
+"<strong>Bắt đầu &amp; kết thúc:</strong> Microbrasserie de Maredsous – Tu "
+"viện Maredsous, Bỉ"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
 msgid "<strong>Support</strong>: 1 aid station at halfway point"
-msgstr ""
+msgstr "<strong>Hỗ trợ</strong>: 1 trạm tiếp tế tại điểm giữa chặng đường"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
 msgid "<strong>Support</strong>: 2 aid stations (KM 7 and KM 14)"
-msgstr ""
+msgstr "<strong>Hỗ trợ</strong>: 2 trạm tiếp tế (KM 7 và KM 14)"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
 msgid "<strong>Support</strong>: 4 aid stations, positioned every 10 km"
-msgstr ""
+msgstr "<strong>Hỗ trợ</strong>: 4 trạm tiếp tế, được đặt cách nhau mỗi 10 km"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
 msgid "<strong>Swim. Bike. Run. Embrace the Challenge.</strong>"
-msgstr ""
+msgstr "<strong>Bơi. Đạp xe. Chạy. Hãy đón nhận thử thách.</strong>"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
@@ -724,11 +754,13 @@ msgid ""
 "<strong>Swim</strong>: 1.5 km open-water in Lac de Nisramont (wetsuit "
 "recommended)"
 msgstr ""
+"<strong>Bơi</strong>: 1,5 km bơi nước mở tại Hồ Nisramont (khuyên dùng áo "
+"phao)"
 
 #. module: sport_events
 #: model_terms:survey.survey,description_done:sport_events.survey_survey_1
 msgid "<strong>Thank you for sharing your thoughts!</strong>"
-msgstr ""
+msgstr "<strong>Cảm ơn bạn đã chia sẻ ý kiến!</strong>"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
@@ -740,6 +772,8 @@ msgstr ""
 msgid ""
 "<strong>Track payments</strong> and send reminders for overdue invoices."
 msgstr ""
+"<strong>Theo dõi thanh toán</strong> và gửi thông báo nhắc nhở cho các hóa "
+"đơn quá hạn."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -747,6 +781,8 @@ msgid ""
 "<strong>Track the order</strong> in <em>Purchase</em> to monitor expected "
 "delivery dates."
 msgstr ""
+"<strong>Theo dõi đơn hàng</strong> trong <em>Mua hàng</em> để theo dõi ngày "
+"giao hàng dự kiến."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -754,6 +790,8 @@ msgid ""
 "<strong>Use Smart Buttons</strong> to view stock moves and track the history "
 "of each item."
 msgstr ""
+"<strong>Sử dụng các nút thông minh</strong> để xem các điều chuyển tồn kho "
+"và theo dõi lịch sử của từng mặt hàng."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -774,12 +812,12 @@ msgstr "Dành cho những tinh thần đam mê thể thao"
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
 msgid "A group of people in wetsuits standing in the water"
-msgstr ""
+msgstr "Một nhóm người mặc đồ lặn đứng trong nước"
 
 #. module: sport_events
 #: model:event.event.ticket,description:sport_events.event_event_ticket_6
 msgid "Access to seating & facilities + 1 free drink"
-msgstr ""
+msgstr "Quyền sử dụng chỗ ngồi và tiện nghi + 1 đồ uống miễn phí"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -806,12 +844,12 @@ msgstr ""
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
 msgid "Aid stations with water, electrolytes, and snacks"
-msgstr ""
+msgstr "Trạm tiếp tế với nước, chất điện giải và đồ ăn nhẹ"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
 msgid "All games played according to official FIVB rules"
-msgstr ""
+msgstr "Tất cả trận đấu được tổ chức theo quy tắc chính thức của FIVB"
 
 #. module: sport_events
 #: model:survey.question.answer,value:sport_events.survey_question_answer_6
@@ -832,6 +870,8 @@ msgstr "Arden Volley Cup 2025"
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid "Assign and communicate staff roles via the <em>Planning</em> app."
 msgstr ""
+"Phân công và thông báo vai trò của nhân viên thông qua ứng dụng <em>Kế "
+"hoạch<em>."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -839,6 +879,9 @@ msgid ""
 "Assign staff shifts in <font class=\"text-o-color-1\"><strong>Planning</"
 "strong></font> for setup, race marshaling, registration, and cleanup."
 msgstr ""
+"Phân công ca làm cho nhân viên trong <font class=\"text-o-"
+"color-1\"><strong>Kế hoạch</strong></font> về việc chuẩn bị, điều phối cuộc "
+"đua, đăng ký và dọn dẹp."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -892,12 +935,12 @@ msgstr "Số BIB và chip tính thời gian"
 #. module: sport_events
 #: model:event.event.ticket,description:sport_events.event_event_ticket_9
 msgid "Bib, aid station access, finisher snack"
-msgstr ""
+msgstr "BIB, trạm tiếp tế, bữa ăn nhẹ cho người hoàn thành"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
 msgid "Bike service zone before and during race"
-msgstr ""
+msgstr "Khu vực dịch vụ xe đạp trước và trong suốt cuộc đua"
 
 #. module: sport_events
 #: model:event.booth,name:sport_events.event_booth_1
@@ -907,7 +950,7 @@ msgstr ""
 #. module: sport_events
 #: model:res.partner.category,name:sport_events.res_partner_category_3
 msgid "Building and Facility Construction and Maintenance Services"
-msgstr ""
+msgstr "Dịch vụ xây dựng và bảo dưỡng công trình và cơ sở hạ tầng"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -926,7 +969,7 @@ msgstr "CRM"
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
 msgid "Camping option nearby (partner discounts available)"
-msgstr ""
+msgstr "Tùy chọn cắm trại xung quanh (có ưu đãi cho đối tác)"
 
 #. module: sport_events
 #: model:res.partner.category,name:sport_events.res_partner_category_7
@@ -940,6 +983,9 @@ msgid ""
 "strong>, update the spreadsheet with the quantities required for the event, "
 "and identify any shortages."
 msgstr ""
+"Kiểm tra toàn bộ <strong><font class=\"text-o-color-1\">tồn kho</font></"
+"strong> của bạn, cập nhật bảng tính với số lượng cần thiết cho sự kiện và "
+"xác định các mặt hàng thiếu."
 
 #. module: sport_events
 #: model:planning.role,name:sport_events.planning_role_1
@@ -964,7 +1010,7 @@ msgstr "CLB"
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid "Collect feedback using the Survey app."
-msgstr ""
+msgstr "Sử dụng ứng dụng Khảo sát để thu thập phản hồi."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
@@ -992,6 +1038,8 @@ msgid ""
 "Create pricelists  to offer specific prices tailored to different groups, "
 "such as partners, athletes with a license, or staff members."
 msgstr ""
+"Tạo bảng giá để cung cấp mức giá riêng phù hợp với những nhóm khác nhau, "
+"chẳng hạn như đối tác, vận động viên có giấy phép, hoặc nhân viên."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1000,6 +1048,9 @@ msgid ""
 "“Course Marshal,” and assign them to each team member’s record, on "
 "<em>Employee</em> app"
 msgstr ""
+"Tạo các vai trò như “Bảo vệ,” “Nhân viên y tế,” “Quầy đăng ký,” hoặc “Điều "
+"phối khóa huấn luyện,” và gán chúng vào hồ sơ từng thành viên trong ứng dụng "
+"<em>Nhân viên</em>."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1032,11 +1083,13 @@ msgstr "Thời hạn: 25/8/2025"
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid "Define your event hours (e.g., 7am–8pm, race day and setup days)"
 msgstr ""
+"Xác định giờ tổ chức sự kiện (VD: từ 7 giờ sáng đến 8 giờ tối, ngày thi đấu "
+"và ngày chuẩn bị)"
 
 #. module: sport_events
 #: model:survey.question,title:sport_events.survey_question_4
 msgid "Did you stay in the area this weekend? *"
-msgstr ""
+msgstr "Bạn có ở lại khu vực này vào cuối tuần này không? *"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1055,8 +1108,9 @@ msgstr "Hoàn tất"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
+#, fuzzy
 msgid "Drink voucher redeemable at the Microbrasserie de Maredsous"
-msgstr ""
+msgstr "Phiếu uống có thể đổi tại Microbrasserie de Maredsous"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1064,6 +1118,8 @@ msgid ""
 "Each staff member can view their schedule via their portal or receive it by "
 "email"
 msgstr ""
+"Mỗi nhân viên có thể xem lịch làm việc của mình qua cổng thông tin cá nhân "
+"hoặc nhận qua email"
 
 #. module: sport_events
 #: model:sign.item.role,name:sport_events.sign_item_role_6
@@ -1073,7 +1129,7 @@ msgstr "Nhân viên"
 #. module: sport_events
 #: model:documents.document,name:sport_events.documents_document_18
 msgid "Event Material Inventory (Maredsous Sunrise Trail )"
-msgstr ""
+msgstr "Tồn kho vật tư sự kiện (Đường mòn Maredsous Sunrise)"
 
 #. module: sport_events
 #: model:documents.document,name:sport_events.documents_document_14
@@ -1089,7 +1145,7 @@ msgstr ""
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid "Example Workflow for a Sport Event"
-msgstr ""
+msgstr "Quy trình làm việc mẫu cho sự kiện thể thao"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
@@ -1100,6 +1156,7 @@ msgstr "Khám phá các sự kiện tiếp theo"
 #: model:event.event,subtitle:sport_events.event_event_1
 msgid "Explore the forest trails around the iconic Maredsous Abbey."
 msgstr ""
+"Khám phá các con đường mòn trong rừng xung quanh Tu viện Maredsous nổi tiếng."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
@@ -1167,7 +1224,7 @@ msgstr "Nhà sáng lập"
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
 msgid "Free massage station for all finishers"
-msgstr ""
+msgstr "Trạm massage miễn phí cho tất cả vận động viên hoàn thành cuộc đua"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
@@ -1198,11 +1255,12 @@ msgstr ""
 #: code:addons/sport_events/static/src/js/my_tour.js:0
 msgid "Get on track and explore our recommendations for your Odoo usage here!"
 msgstr ""
+"Hãy bắt đầu và khám phá các gợi ý của chúng tôi về cách sử dụng Odoo tại đây!"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
 msgid "Group stage in the morning, knockout rounds in the afternoon"
-msgstr ""
+msgstr "Vòng bảng vào buổi sáng, vòng loại trực tiếp vào buổi chiều"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1224,7 +1282,7 @@ msgstr ""
 #: model:survey.question,title:sport_events.survey_question_5
 msgid ""
 "Have you eaten/had a drink in the Horeca establishments in the region? *"
-msgstr ""
+msgstr "Bạn đã ăn uống tại các cơ sở Horeca trong khu vực chưa? *"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1232,6 +1290,9 @@ msgid ""
 "In <em>CRM</em>, create a new opportunity for each sponsor or partner. "
 "Record all discussions, meeting notes, and agreed conditions."
 msgstr ""
+"Trong <em>CRM</em>, tạo một cơ hội mới cho mỗi nhà tài trợ hoặc đối tác. Ghi "
+"lại tất cả các cuộc thảo luận, ghi chú cuộc họp và các điều kiện đã thỏa "
+"thuận."
 
 #. module: sport_events
 #: model:project.task.type,name:sport_events.project_task_type_2
@@ -1244,16 +1305,19 @@ msgid ""
 "In the <em>Events</em> app, open your event and use the <em>Sponsor Smart "
 "Button</em> to add the confirmed sponsor. Upload their logo and details."
 msgstr ""
+"Trong ứng dụng <em>Sự kiện</em>, mở sự kiện của bạn và sử dụng <em>Nút thông "
+"minh Nhà tài Trợ</em> để thêm nhà tài trợ đã xác nhận. Tải lên logo và thông "
+"tin của họ."
 
 #. module: sport_events
 #: model:event.event.ticket,description:sport_events.event_event_ticket_7
 msgid "Individual bib, access to all 3 disciplines, aid stations"
-msgstr ""
+msgstr "BIB cá nhân, quyền tham gia tất cả 3 môn thi đấu, trạm tiếp tế"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
 msgid "Indoor courts with official markings and lighting"
-msgstr ""
+msgstr "Sân thi đấu trong nhà có vạch kẻ chính thức và hệ thống chiếu sáng"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1263,6 +1327,10 @@ msgid ""
 "font><font class=\"text-o-color-1\"> VoIP</font></strong> to communicate "
 "instantly with your team during the event."
 msgstr ""
+"Tích hợp <strong><font class=\"text-o-color-1\">WhatsApp </font><font "
+"class=\"text-o-color-2\"><span style=\"font-weight: normal;\">và/hoặc</"
+"span></font><font class=\"text-o-color-1\"> VoIP</font></strong> để trao đổi "
+"nhanh chóng với đội ngũ của bạn trong suốt sự kiện."
 
 #. module: sport_events
 #: model:product.template,name:sport_events.product_product_12_product_template
@@ -1272,7 +1340,7 @@ msgstr ""
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid "Keep Your Community Engaged with Your Website"
-msgstr ""
+msgstr "Giữ cho cộng đồng luôn tương tác với trang web của bạn"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1280,6 +1348,8 @@ msgid ""
 "Keep sports gear and event materials organized with the <em>Inventory</em> "
 "app."
 msgstr ""
+"Giữ cho dụng cụ thể thao và vật liệu sự kiện luôn gọn gàng với ứng dụng "
+"<em>Tồn kho</em>."
 
 #. module: sport_events
 #: model:project.tags,name:sport_events.project_tags_3
@@ -1293,21 +1363,25 @@ msgid ""
 "strong><font class=\"bg-o-color-3 text-o-color-1\">​</font> to share event "
 "highlights and engage your audience online."
 msgstr ""
+"Sử dụng <strong><font class=\"text-o-color-1\">Marketing trên MXH</font></"
+"strong><font class=\"bg-o-color-3 text-o-color-1\"></font> để chia sẻ những "
+"điểm nhấn của sự kiện và tương tác online với khán giả."
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
 msgid "Limited spots available — first come, first served"
-msgstr ""
+msgstr "Số lượng có hạn — ưu tiên người đến trước"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
 msgid "Live match schedule and results via mobile app"
-msgstr ""
+msgstr "Lịch thi đấu và kết quả trực tiếp qua ứng dụng di động"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
 msgid "Live tracking and timing (with intermediate split mats)"
 msgstr ""
+"Theo dõi trực tiếp và đo thời gian (với các tấm chia thời gian giữa chừng)"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
@@ -1335,11 +1409,14 @@ msgid ""
 "Manage all event-related finances seamlessly using the <strong><font "
 "class=\"text-o-color-1\">Accounting</font></strong> app."
 msgstr ""
+"Quản lý tất cả khoản tài chính liên quan đến sự kiện một cách thuận tiện "
+"thông qua ứng dụng <strong><font class=\"text-o-color-1\">Kế toán</font></"
+"strong>."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid "Manage event finances with the Invoicing and Expenses apps."
-msgstr ""
+msgstr "Quản lý tài chính sự kiện với các ứng dụng Hoá đơn và Chi phí."
 
 #. module: sport_events
 #: model:project.project,name:sport_events.project_project_1
@@ -1384,7 +1461,7 @@ msgstr "Hỗ trợ y tế và phối hợp cứu hộ"
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
 msgid "Mixed, Men's &amp; Women's teams accepted"
-msgstr ""
+msgstr "Giải đấu hỗn hợp, đồng đội nam &amp; nữ được chấp nhận"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
@@ -1402,6 +1479,8 @@ msgid ""
 "Need to make last-minute changes? Drag-and-drop scheduling updates keep "
 "everyone informed instantly."
 msgstr ""
+"Bạn cần thực hiện các thay đổi vào phút chót? Tính năng kéo và thả để cập "
+"nhật lịch trình giúp mọi người được thông báo ngay lập tức."
 
 #. module: sport_events
 #: model:crm.stage,name:sport_events.crm_stage_5
@@ -1474,6 +1553,8 @@ msgstr ""
 msgid ""
 "Odoo offers endless customization possibilities for your Sport Event company:"
 msgstr ""
+"Odoo cung cấp vô số tùy chọn tùy chỉnh cho công ty tổ chức sự kiện thể thao "
+"của bạn:"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1492,11 +1573,13 @@ msgid ""
 "Offer <strong><font class=\"text-o-color-1\">memberships or subscriptions</"
 "font></strong> for regular access to your events."
 msgstr ""
+"Cung cấp <strong><font class=\"text-o-color-1\">các gói thành viên hoặc đăng "
+"ký</font></strong> dành cho những khách hàng thường tham gia sự kiện của bạn."
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
 msgid "On-site food &amp; drink (available for all)"
-msgstr ""
+msgstr "Thực phẩm &amp; đồ uống tại chỗ (có sẵn cho tất cả mọi người)"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1504,16 +1587,18 @@ msgid ""
 "Once terms are approved, send the sponsorship contract via the <em>Sign</em> "
 "app for a quick, legally binding e-signature."
 msgstr ""
+"Khi các điều khoản được chấp thuận, gửi hợp đồng tài trợ qua ứng dụng <em>Ký "
+"tên</em> để ký điện tử nhanh chóng và có giá trị pháp lý."
 
 #. module: sport_events
 #: model:event.event.ticket,description:sport_events.event_event_ticket_8
 msgid "One athlete per discipline, team bib, nutrition support"
-msgstr ""
+msgstr "Mỗi môn thể thao một vận động viên, áo số đội, hỗ trợ dinh dưỡng"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
 msgid "Online registration only. Payment via credit card or PayPal."
-msgstr ""
+msgstr "Đăng ký online. Thanh toán bằng thẻ tín dụng hoặc PayPal."
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
@@ -1538,12 +1623,14 @@ msgstr "Có bãi đỗ xe &amp; xe đưa đón"
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
 msgid "Participant briefing 30 minutes before race start"
-msgstr ""
+msgstr "Hướng dẫn cho người tham gia 30 phút trước khi cuộc đua bắt đầu"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
 msgid "Partner gifts, raffles &amp; merchandise throughout the day"
 msgstr ""
+"Quà tặng từ đối tác, bốc thăm trúng thưởng &amp; các sản phẩm được phân phát "
+"suốt cả ngày"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
@@ -1563,7 +1650,7 @@ msgstr "Giấy phép"
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
 msgid "Places are limited. No on-site registration available."
-msgstr ""
+msgstr "Số lượng chỗ ngồi có hạn. Không có đăng ký tại chỗ."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1571,6 +1658,8 @@ msgid ""
 "Plan and launch your sport event using <em>Project</em>, <em>CRM</em>, "
 "<em>Events</em>, and <em>Website.</em>"
 msgstr ""
+"Lập kế hoạch và tổ chức sự kiện thể thao của bạn bằng cách sử dụng <em>Dự "
+"án</em>, <em>CRM</em>, <em>Sự kiện</em>, và <em>Trang web.</em>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
@@ -1593,6 +1682,8 @@ msgid ""
 "Promote new events and connect with your community using the <em>Website "
 "app</em>."
 msgstr ""
+"Quảng bá các sự kiện mới và kết nối với cộng đồng của bạn thông qua <em>ứng "
+"dụng Trang web</em>."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1601,6 +1692,9 @@ msgid ""
 "strong></font> with sponsor logos, descriptions, media from previous "
 "editions, practical info, and ticket registration."
 msgstr ""
+"Quảng bá sự kiện trên <font class=\"text-o-color-1\"><strong>Trang web</"
+"strong></font> với logo nhà tài trợ, mô tả, tư liệu từ các mùa trước, thông "
+"tin hữu ích và đăng ký vé."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1702,6 +1796,9 @@ msgid ""
 "strong> system to sell food, drinks, and merchandise on-site with integrated "
 "stock tracking."
 msgstr ""
+"Thiết lập một hệ thống <strong><font class=\"text-o-color-1\">PoS</font></"
+"strong> để bán đồ ăn, thức uống và hàng hóa tại chỗ với tính năng theo dõi "
+"tồn kho tích hợp."
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
@@ -1742,7 +1839,7 @@ msgstr "Áo phông thể thao"
 #. module: sport_events
 #: model:res.partner.category,name:sport_events.res_partner_category_4
 msgid "Sports and Recreational Equipment and Supplies and Accessories"
-msgstr ""
+msgstr "Thiết bị, dụng cụ và phụ kiện thể thao và giải trí"
 
 #. module: sport_events
 #: model:project.tags,name:sport_events.project_tags_15
@@ -1755,6 +1852,8 @@ msgid ""
 "Streamline purchasing for sport event supplies using the <em>Purchase</em> "
 "app."
 msgstr ""
+"Tối ưu hóa quy trình mua sắm vật tư cho sự kiện thể thao bằng ứng dụng "
+"<em>Mua hàng</em>."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.contactus
@@ -1857,6 +1956,7 @@ msgstr "Việc cần làm"
 #: model:event.event.ticket,description:sport_events.event_event_ticket_5
 msgid "Tournament entry, team bibs, water & lunch for players"
 msgstr ""
+"Phí tham gia giải đấu, BIB nhóm, nước uống và bữa trưa cho vận động viên"
 
 #. module: sport_events
 #: model:event.tag,name:sport_events.event_tag_1
@@ -1891,6 +1991,8 @@ msgid ""
 "descriptions, and (if relevant) booth details so attendees know where to "
 "find them."
 msgstr ""
+"Sử dụng ứng dụng <em>Trang web</em> để quảng bá các nhà tài trợ với logo, mô "
+"tả và thông tin gian hàng (nếu có), giúp người tham dự biết nơi để tìm họ."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1899,6 +2001,9 @@ msgid ""
 "to organize the event by creating tasks, assigning assignees, setting "
 "deadlines, and tracking progress."
 msgstr ""
+"Sử dụng <font class=\"text-o-color-1\"><strong>ứng dụng Dự án</strong></"
+"font> để tổ chức sự kiện bằng cách tạo nhiệm vụ, phân công người thực hiện, "
+"đặt hạn chót và theo dõi tiến độ."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1906,6 +2011,8 @@ msgid ""
 "Use the Barcode app to scan tickets and give participants their race bibs or "
 "event packs easily."
 msgstr ""
+"Sử dụng ứng dụng Mã vạch để quét vé và phát cho người tham gia số BIB hoặc "
+"gói sự kiện một cách dễ dàng."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1913,6 +2020,8 @@ msgid ""
 "Use the auto-plan feature to assign staff based on their availability and "
 "expertise."
 msgstr ""
+"Sử dụng tính năng lập kế hoạch tự động để phân công nhân viên dựa trên thời "
+"gian rảnh và chuyên môn của họ."
 
 #. module: sport_events
 #: model:event.tag,name:sport_events.event_tag_2
@@ -1937,7 +2046,7 @@ msgstr ""
 #. module: sport_events
 #: model:survey.question,title:sport_events.survey_question_2
 msgid "Was this your first visit to the region? *"
-msgstr ""
+msgstr "Đây có phải là lần đầu tiên bạn đến khu vực này không? *"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.ir_ui_view_3140
@@ -1966,7 +2075,7 @@ msgstr "Bảng giá mặc định trên trang web"
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid "Welcome to the Odoo Sport Event Management package!"
-msgstr ""
+msgstr "Chào mừng bạn đến với gói Quản lý sự kiện thể thao Odoo!"
 
 #. module: sport_events
 #: model_terms:web_tour.tour,rainbow_man_message:sport_events.knowledge_tour
@@ -2007,16 +2116,19 @@ msgid ""
 "promises unforgettable terrain, community-driven support, and a "
 "professionally managed race experience."
 msgstr ""
+"Dù bạn tham gia thi đấu một mình hay theo nhóm, <strong>ATC 2025</strong> "
+"hứa hẹn mang đến địa hình đáng nhớ, sự hỗ trợ từ cộng đồng và trải nghiệm "
+"cuộc đua được quản lý chuyên nghiệp."
 
 #. module: sport_events
 #: model:survey.question,title:sport_events.survey_question_1
 msgid "Which race did you participate in? *"
-msgstr ""
+msgstr "Bạn đã tham gia cuộc đua nào? *"
 
 #. module: sport_events
 #: model:survey.question,title:sport_events.survey_question_3
 msgid "Who did you come to the event with? *"
-msgstr ""
+msgstr "Bạn đến sự kiện này cùng ai? *"
 
 #. module: sport_events
 #: model:survey.question.answer,value:sport_events.survey_question_answer_7
@@ -2121,6 +2233,16 @@ msgid "if you need help!"
 msgstr "nếu bạn cần trợ giúp!"
 
 #. module: sport_events
+#: model:event.question.answer,name:sport_events.event_question_answer_4
+msgid "l"
+msgstr ""
+
+#. module: sport_events
+#: model:event.question.answer,name:sport_events.event_question_answer_3
+msgid "m"
+msgstr ""
+
+#. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
 msgid "people walking on street during daytime"
 msgstr ""
@@ -2128,12 +2250,17 @@ msgstr ""
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
 msgid "person in green and black shorts riding on black and red bicycle"
-msgstr ""
+msgstr "Người mặc quần short xanh và đen đang đi xe đạp màu đen và đỏ"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid "request a demo"
 msgstr "đặt lịch demo"
+
+#. module: sport_events
+#: model:event.question.answer,name:sport_events.event_question_answer_2
+msgid "s"
+msgstr ""
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
@@ -2158,4 +2285,81 @@ msgstr "🏆 Cúp dành cho:"
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
 msgid "🚲 Relay teams welcome (1 leg per person)"
-msgstr ""
+msgstr "🚲 Đội tiếp sức được chào đón (mỗi người tham gia một chặng)"
+
+#~ msgid "+1 555-555-5556"
+#~ msgstr "+1 555-555-5556"
+
+#~ msgid ""
+#~ "<strong><font class=\"text-o-color-1\">CRM</font></strong>: Manage "
+#~ "relationships with sponsors, partners, and key contacts."
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">CRM</font></strong>: Quản lý quan "
+#~ "hệ với nhà tài trợ, đối tác và những đầu mối liên hệ quan trọng."
+
+#~ msgid ""
+#~ "<strong><font class=\"text-o-color-1\">Documents</font></strong>: "
+#~ "Centralize spreadsheets and materials checklists."
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">Tài liệu</font></strong>: Tập "
+#~ "trung các bảng tính và danh sách vật liệu."
+
+#~ msgid ""
+#~ "<strong><font class=\"text-o-color-1\">Events</font></strong>: Plan and "
+#~ "manage sport competitions, races, or tournaments."
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">Sự kiện</font></strong>: Lập kế "
+#~ "hoạch và quản lý các giải đấu thể thao, cuộc đua hoặc giải vô địch."
+
+#~ msgid ""
+#~ "<strong><font class=\"text-o-color-1\">Inventory</font></strong>: Track "
+#~ "sports gear, event equipment, merchandise, and manage stock of all "
+#~ "materials."
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">Tồn kho</font></strong>: Theo dõi "
+#~ "dụng cụ thể thao, thiết bị sự kiện, hàng hóa và quản lý tồn kho của tất "
+#~ "cả vật liệu."
+
+#~ msgid ""
+#~ "<strong><font class=\"text-o-color-1\">Planning</font></strong>: Create "
+#~ "staff schedules, assign roles, and manage shifts."
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">Kế hoạch</font></strong>: Tạo lịch "
+#~ "làm việc cho nhân viên, phân công nhiệm vụ và quản lý ca làm."
+
+#~ msgid ""
+#~ "<strong><font class=\"text-o-color-1\">Project</font></strong>: Organize "
+#~ "event planning, deadlines, and task responsibilities."
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">Dự án</font></strong>: Tổ chức kế "
+#~ "hoạch sự kiện, thời hạn và phân công trách nhiệm công việc."
+
+#~ msgid ""
+#~ "<strong><font class=\"text-o-color-1\">Purchase</font>: </strong>Order "
+#~ "ravitaillement supplies, gear, equipment, and other essentials for sport "
+#~ "events.<strong/><br/>"
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">Mua hàng</font>: </strong>Đặt hàng "
+#~ "các vật dụng, trang thiết bị, dụng cụ và những vật phẩm thiết yếu khác "
+#~ "cho các sự kiện thể thao.<strong/><br/>"
+
+#~ msgid ""
+#~ "<strong><font class=\"text-o-color-1\">Sign</font></strong>: Digitally "
+#~ "sign sponsorship agreements or volunteer forms."
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">Ký tên</font></strong>: Ký tên "
+#~ "điện tử vào các thỏa thuận tài trợ hoặc biểu mẫu tình nguyện."
+
+#~ msgid ""
+#~ "<strong><font class=\"text-o-color-1\">Survey</font></strong>: Gather "
+#~ "feedback from participants, staff, and sponsors."
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">Khảo sát</font></strong>: Thu thập "
+#~ "phản hồi từ người tham gia, nhân viên và nhà tài trợ."
+
+#~ msgid ""
+#~ "<strong><font class=\"text-o-color-1\">Website</font></strong>: Promote "
+#~ "events, sell tickets, and gather sponsorships online."
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">Trang web</font></strong>: Quảng "
+#~ "bá sự kiện, bán vé và thu hút tài trợ trực tuyến."

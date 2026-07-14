@@ -1,6 +1,6 @@
 {
     'name': 'Bowling Alley',
-    'version': '1.0',
+    'version': '1.1',
     'category': 'Hospitality',
     'depends': [
         'base_industry_data',
@@ -21,8 +21,10 @@
         'data/knowledge_article.xml',
         'data/knowledge_article_favorite.xml',
         'data/mail_message.xml',
+        'data/pos_config.xml',
     ],
     'demo': [
+        'demo/res_company.xml',
         'demo/website_view.xml',
         'demo/website_theme_apply.xml',
         'demo/res_partner.xml',
@@ -44,6 +46,7 @@
         "data/knowledge_article.xml",
         "demo/website_view.xml",
     ],
+    'application': True,
     'images': ['images/main.png'],
     'url': "https://www.odoo.com/trial?industry&selected_app=bowling",
     'website': "https://www.odoo.com/all-industries",

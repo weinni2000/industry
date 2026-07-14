@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<odoo noupdate="1">
+<odoo noupdate="1" context="{'mail_auto_subscribe_no_notify': True}">
     <record id="res_partner_13" model="res.partner">
         <field name="name">Compost Vendor</field>
     </record>
@@ -63,12 +63,12 @@
     </record>
     <record id="res_partner_30" model="res.partner">
         <field name="name">Éléonore Chidée</field>
-        <field name="email">eleonore.chidee@gardening.odoo</field>
+        <field name="email">eleonore.chidee@MyGardening.example.com</field>
         <field name="image_1920" type="base64" file="gardening/static/src/binary/hr_employee/eleonore.jpg"/>
     </record>
     <record id="res_partner_31" model="res.partner">
         <field name="name">Tom Mates</field>
         <field name="image_1920" type="base64" file="gardening/static/src/binary/hr_employee/tomate.jpg"/>
-        <field name="email">tom.mates@gardening.odoo</field>
+        <field name="email">tom.mates@MyGardening.example.com</field>
     </record>
 </odoo>

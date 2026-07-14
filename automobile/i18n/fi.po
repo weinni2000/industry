@@ -14,13 +14,14 @@
 # Eino Mäkitalo <eino.makitalo@netitbe.fi>, 2024
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Saara Hakanen <sahak@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-04 20:17+0000\n"
-"PO-Revision-Date: 2025-11-17 11:08+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-01-12 09:32+0000\n"
+"PO-Revision-Date: 2026-06-16 12:19+0000\n"
+"Last-Translator: Saara Hakanen <sahak@odoo.com>\n"
 "Language-Team: Finnish <https://translate.odoo.com/projects/odoo-19/"
 "automobile/fi/>\n"
 "Language: fi\n"
@@ -28,7 +29,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
@@ -36,6 +37,8 @@ msgid ""
 "1. Create a request for quotation (RFQ) for the Vendor and select the "
 "desired products. Then send the RFQ via email."
 msgstr ""
+"1. Luo tarjouspyyntö toimittajalle ja valitse haluamasi tuotteet. Lähetä "
+"sitten tarjouspyyntö sähköpostitse."
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
@@ -48,6 +51,12 @@ msgid ""
 "\"Quantities\" column and is considered completed when the delivery is "
 "validated.<br/>"
 msgstr ""
+"1. Yritysten välisissä (B2B) kaupoissa noudatetaan perusmyyntiprosessia "
+"tarjouksen luomiseksi. Valitse ensin tuotteet ja lähetä sitten tarjous. "
+"Neuvottelujen jälkeen voit vahvistaa sovittujen määrien ja hintojen mukaisen "
+"tarjouksen, jolloin toimitus luodaan automaattisesti. Toimituksessa "
+"lähetettävien tuotteiden määrä kirjataan \"Määrät\" -sarakkeen alle ja "
+"katsotaan valmiiksi, kun se on vahvistettu.<br/>"
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
@@ -57,6 +66,9 @@ msgid ""
 "parts being sold and the payment by the customer are all handled within the "
 "PoS.<br/>"
 msgstr ""
+"1. Yritykseltä asiakkaalle (B2C) -myynneissä asiakkaiden oletetaan saapuvan "
+"myymälään ja myyjän myyvän heille osia Kassajärjestelmä-sovellusta käyttäen. "
+"Myytävät osat ja asiakasmaksut käsitellään Kassajärjestelmässä.<br/>"
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
@@ -64,6 +76,8 @@ msgid ""
 "2. After negotiations are completed, put the price of the product in the RFQ "
 "and confirm it so that it becomes a Purchase Order (PO)."
 msgstr ""
+"2. Neuvottelujen jälkeen voit lisätä tuotteen hinnan tarjouspyyntöön ja "
+"vahvistaa sen, jolloin tarjouspyyntö muuttuu ostotilaukseksi."
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
@@ -76,6 +90,13 @@ msgid ""
 "of warranty days will automatically be applied to the lot/serial number "
 "based on the delivery date and stored under its expiration date field."
 msgstr ""
+"2. Jos haluat hallinnoida tiettyjen tuotteiden takuita: ota ensin erä- &amp; "
+"sarjanumerot sekä voimassaoloaikojen seuranta käyttöön asetuksissa. Salli "
+"sitten seuranta erä- tai sarjanumeroiden perusteella haluamiesi tuotteiden "
+"lomakenäkymissä. Kun toiminto on aktivoitu, aseta takuuaika päivinä saman "
+"lomakenäkymän 'Voimassaoloaika' -kenttään. Kun tuote on toimitettu, tämä "
+"takuupäivien määrä lisätään automaattisesti erä-/sarjanumeroon "
+"toimituspäivän perusteella ja tallennetaan sen voimassaoloaika-kenttään."
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
@@ -89,6 +110,14 @@ msgid ""
 "based on the delivery date and stored under its expiration date field.\n"
 "            <br/>"
 msgstr ""
+"2. Jos haluat hallinnoida tiettyjen tuotteiden takuita: ota ensin erä- &amp; "
+"sarjanumerot sekä eräpäivät käyttöön asetuksissa. Salli sitten erä- tai "
+"sarjanumerokohtainen seuranta oikeiden tuotteiden lomakenäkymissä. "
+"Aktivoinnin jälkeen voit asettaa takuuajan päivinä ennen eräpäivää samassa "
+"lomakenäkymässä. Kun tuote on toimitettu, tämä takuuaika lisätään "
+"automaattisesti erä/sarjanumeroon toimituspäivän perusteella ja näytetään "
+"eräpäivä-kentän alla.\n"
+"            <br/>"
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
@@ -99,6 +128,77 @@ msgid ""
 "serial number, then you have to\n"
 "            provide these values before validating the receipt."
 msgstr ""
+"3. Vahvistettuasi ostotilauksen, tuotemäärän perusteella luodaan kuitti. Se "
+"kertoo vastaanotetun lukumäärän tuotekohtaisesti \"Määrä\"-sarakkeen alla. "
+"Jos joillain tuotteilla on erä- tai sarjanumero, sinun tulee\n"
+"            syöttää nämä arvot ennen kuitin vahvistamista."
+
+#. module: automobile
+#: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
+msgid ""
+"<b>Inventory App</b>: Manage a vast catalog of automotive parts with "
+"precision, tracking stock levels across\n"
+"                brands, models, and compatibility."
+msgstr ""
+"<b>Varastointi-sovellus</b>: Hallitse tarkasti laajaa autonosavalikoimaa ja "
+"seuraa varastotasoja eri\n"
+"                merkkien, mallien tai yhteensopivuuksien osalta."
+
+#. module: automobile
+#: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
+msgid ""
+"<b>Planning App</b>: Organize team shifts and resource allocation to ensure "
+"your shop floor or warehouse is\n"
+"                always adequately staffed."
+msgstr ""
+"<b>Suunnittelu-sovellus</b>: Järjestä tiimin työvuorot sekä resurssien "
+"allokointi, jotta valmistusketjussasi tai varastossasi on\n"
+"                aina riittävästi työntekijöitä."
+
+#. module: automobile
+#: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
+msgid ""
+"<b>Point of Sale App</b>: Speed up counter sales for spare parts and "
+"accessories with a user-friendly interface\n"
+"                designed for high-volume retail."
+msgstr ""
+"<b>Kassajärjestelmä-sovellus</b>: Nopeuta varaosien ja lisävarusteiden "
+"myyntiä käyttäjäystävällisellä suurten volyymien vähittäiskauppaan\n"
+"                suunnitellulla käyttöliittymällä."
+
+#. module: automobile
+#: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
+msgid ""
+"<b>Purchase App</b>: Automate the replenishment of fast-moving items like "
+"filters and oil, ensuring your shelves\n"
+"                are always stocked."
+msgstr ""
+"<b>Ostot-sovellus</b>: Automatisoi suodattimien tai öljyn kaltaisten "
+"nopeasti liikkuvien tuotteiden täydennys varmistaaksesi,\n"
+"                että hyllysi pysyvät täysinä."
+
+#. module: automobile
+#: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
+msgid ""
+"<b>Sales App</b>: Handle B2B orders for garages and fleet partners "
+"efficiently, creating professional quotes and\n"
+"                managing contract pricing."
+msgstr ""
+"<b>Myynti-sovellus</b>: Käsittele tehokkaasti korjaamoiden sekä "
+"kuljetuskalustokumppaneiden B2B-tilauksia luomalla ammattimaisia tarjouksia "
+"ja\n"
+"                hallinnoimalla sopimusten hinnoittelua."
+
+#. module: automobile
+#: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
+msgid ""
+"<b>eCommerce App</b>: Launch a robust online store to sell parts directly to "
+"consumers, with search filters for\n"
+"                vehicle compatibility."
+msgstr ""
+"<b>Verkkokauppa-sovellus</b>: Avaa verkkokauppa myydäksesi osia suoraan "
+"kuluttajille. Sovelluksessa on hakusuodattimet\n"
+"                ajoneuvojen yhteensopivuuden tarkistamiseksi."
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
@@ -106,6 +206,8 @@ msgid ""
 "<font style=\"color: rgb(255, 156, 0);\">Brands</font>: new field to record "
 "the relevant car brands the part is used in."
 msgstr ""
+"<font style=\"color: rgb(255, 156, 0);\">Tuotemerkit</font>: uusi kenttä "
+"oleellisten automerkkien kirjaamiseksi, joissa osaa käytetään."
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
@@ -115,6 +217,10 @@ msgid ""
 "to this. This is to clarify that every product is expected to use its "
 "standard global EAN/UPC code.<br/>"
 msgstr ""
+"<font style=\"color: rgb(255, 156, 0);\">EAN/UPC-koodi</font><font "
+"class=\"text-o-color-2\">:</font> tämä on viivakoodikentän uusi nimi. Se "
+"vaihdettiin selventämään, että jokaisen tuotteen odotetaan käyttävän "
+"vakiintunutta globaalia EAN/UPC-koodiaan.<br/>"
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
@@ -124,6 +230,10 @@ msgid ""
 "manufactured by the company that provides that same part for the "
 "manufacturing of the vehicle, then it should have a OEM Number."
 msgstr ""
+"<font style=\"color: rgb(255, 156, 0);\">OEM-numero</font>: uusi kenttä "
+"alkuperäisen laitevalmistajan toimittamille osille. Jos tuotteen on "
+"valmistanut yritys, joka toimittaa saman osan ajoneuvon tuotantoon, sillä "
+"pitäisi olla OEM-numero."
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
@@ -132,6 +242,9 @@ msgid ""
 "Internal Reference field has been renamed to this, to follow the industry "
 "naming standard."
 msgstr ""
+"<font style=\"color: rgb(255, 156, 0);\">Osanumero</font>: tämä on tuotteen "
+"sisäisen viitekentän uusi nimi, joka muutettiin toimialan "
+"nimeämiskäytäntöjen mukaiseksi."
 
 #. module: automobile
 #: model:product.template,name:automobile.product_template_13
@@ -156,12 +269,17 @@ msgstr "Arkistoitu"
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
 msgid "Automobile spare parts retailer"
-msgstr ""
+msgstr "Auton varaosien jälleenmyyjä"
 
 #. module: automobile
 #: model:product.pricelist,name:automobile.product_pricelist_2
 msgid "B2B Price list"
 msgstr "B2B-hinnasto"
+
+#. module: automobile
+#: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
+msgid "Basics"
+msgstr "Perustiedot"
 
 #. module: automobile
 #: model:product.attribute,name:automobile.product_attribute_1
@@ -238,7 +356,7 @@ msgstr "Vaihe 2: B2B-asiakas<br/>"
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
 msgid "Flow 3: B2C Customer - Point of Sale<br/>"
-msgstr ""
+msgstr "Kulku 3: B2C asiakas - Kassajärjestelmä<br/>"
 
 #. module: automobile
 #: model:product.attribute.value,name:automobile.product_attribute_value_2
@@ -254,17 +372,12 @@ msgstr "Etujarrupalat"
 #. odoo-javascript
 #: code:addons/automobile/static/src/js/my_tour.js:0
 msgid "Get on track and explore our recommendations for your Odoo usage here!"
-msgstr ""
+msgstr "Aloita ja tutustu Odoo-käyttöäsi koskeviin suosituksiimme täällä!"
 
 #. module: automobile
 #: model:product.template,name:automobile.product_template_8
 msgid "Gift Card"
 msgstr "Lahjakortti"
-
-#. module: automobile
-#: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
-msgid "Inventory - to manage the stock of the parts,"
-msgstr ""
 
 #. module: automobile
 #: model:product.attribute.value,name:automobile.product_attribute_value_3
@@ -297,11 +410,6 @@ msgid "Part Number"
 msgstr "Osanumero"
 
 #. module: automobile
-#: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
-msgid "Point of Sale (PoS) - for face-to-face sales with customers,"
-msgstr ""
-
-#. module: automobile
 #: model:product.template,name:automobile.product_template_11
 msgid "Rear Brake Pads"
 msgstr "Takajarrupalat"
@@ -309,7 +417,7 @@ msgstr "Takajarrupalat"
 #. module: automobile
 #: model:ir.model.fields,field_description:automobile.field_x_brands_x_sequence
 msgid "Sequence"
-msgstr "Järjestys"
+msgstr "Sekvenssi"
 
 #. module: automobile
 #: model:product.attribute.value,name:automobile.product_attribute_value_5
@@ -324,11 +432,9 @@ msgid ""
 "components and needs of a car such as the engine, maintenance, and "
 "accessories."
 msgstr ""
-
-#. module: automobile
-#: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
-msgid "To support the business, the following applications are included:"
-msgstr ""
+"Tämä kokonaisuus on autojen varaosia myyville yrityksille. Näiden yritysten "
+"odotetaan tarjoavan eri automerkkien osia, jotka kattavat auton tärkeimmät "
+"komponentit ja tarpeet, kuten moottorin, huollon sekä lisävarusteet."
 
 #. module: automobile
 #: model:product.attribute.value,name:automobile.product_attribute_value_1
@@ -362,18 +468,13 @@ msgstr "Tervetuloa! Mukavia tutustumishetkiä."
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
-msgid "and Sales, Purchase and Accounting to support smooth operations."
-msgstr ""
-
-#. module: automobile
-#: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
 msgid "for B2B customers you can use the B2B Price list."
-msgstr ""
+msgstr "voit käyttää B2B-asiakkaille B2B-hinnastoa."
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
 msgid "for B2C customers, you can use the B2C Pricelist."
-msgstr ""
+msgstr "voit käyttää B2C-asiakkaille B2C-hinnastoa."
 
 #. module: automobile
 #: model:ir.actions.server,name:automobile.update_the_warranty__f6563e1c-89cd-4350-b2c5-0558e726fded

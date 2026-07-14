@@ -8,15 +8,15 @@
 # Wil Odoo, 2024
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2024
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# Bren Driesen <brdri@odoo.com>, 2025.
+# Bren Driesen <brdri@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 12:10+0000\n"
-"PO-Revision-Date: 2025-11-17 11:08+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-01-20 12:51+0000\n"
+"PO-Revision-Date: 2026-05-30 09:38+0000\n"
+"Last-Translator: Bren Driesen <brdri@odoo.com>\n"
 "Language-Team: Dutch <https://translate.odoo.com/projects/odoo-19/gardening/"
 "nl/>\n"
 "Language: nl\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -89,7 +89,7 @@ msgstr "<strong>Basis</strong>"
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "<strong>Do you want to go further?</strong>"
-msgstr "<strong>Wil je verder gaan?</strong>"
+msgstr "<strong>Wil je nog verder gaan?</strong>"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -225,11 +225,6 @@ msgstr ""
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
-msgid "Basics"
-msgstr "Basisprincipes"
-
-#. module: gardening
-#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid ""
 "Before generating an intermediary invoice in the <strong>\n"
 "                                        <font class=\"text-o-"
@@ -269,16 +264,11 @@ msgid ""
 "each needed storable\n"
 "                                product."
 msgstr ""
-"Zorg dat je genoeg voorraad hebt voordat je aan het project begint. De\n"
-"                                bevestiging van de offerte zorgt er ook voor "
-"dat er een\n"
-"                                levering in de <strong>\n"
-"                                        <font class=\"text-o-"
-"color-1\">Voorraad</font>\n"
-"                                </strong>\n"
-"                                app waar je de voorraadniveaus kunt "
-"controleren van elk benodigde\n"
-"                                product."
+"Zorg dat je genoeg voorraad hebt voordat je aan het project begint. De "
+"bevestiging van de offerte zorgt er ook voor dat er een levering wordt "
+"aangemaakt in de <strong><font class=\"text-o-color-1\">Voorraad</font></"
+"strong>-app, waar je de voorraadniveaus kunt controleren van elk benodigde "
+"voorraadproduct."
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -310,14 +300,9 @@ msgid "Dashboard ➡️ Your project's status at a glance."
 msgstr "Dashboard ➡️ De status van je project in één oogopslag."
 
 #. module: gardening
-#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
-msgid "Do you want to go further?"
-msgstr "Wil je verder gaan?"
-
-#. module: gardening
 #: model:project.task.type,name:gardening.project_task_type_16
 msgid "Done"
-msgstr "Gereed"
+msgstr "Voltooid"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -355,12 +340,8 @@ msgstr "Tuinvernieuwing Projectmanagement"
 #. odoo-javascript
 #: code:addons/gardening/static/src/js/my_tour.js:0
 msgid "Get on track and explore our recommendations for your Odoo usage here!"
-msgstr "Kom goed op weg en bekijk hier onze aanbevelingen voor je Odoo-gebruik!"
-
-#. module: gardening
-#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
-msgid "Helpdesk &amp; services 🆘"
-msgstr "Helpdesk &amp; diensten 🆘"
+msgstr ""
+"Kom goed op weg en bekijk hier onze aanbevelingen voor je Odoo-gebruik!"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -455,18 +436,8 @@ msgstr ""
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
-msgid "Inventory 📦"
-msgstr "Voorraad 📦"
-
-#. module: gardening
-#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "Invoices"
 msgstr "Facturen"
-
-#. module: gardening
-#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
-msgid "Invoicing 📈"
-msgstr "Facturatie 📈"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -508,8 +479,8 @@ msgid ""
 "Manage recurring products and automate renewal with the <strong><font "
 "class=\"text-o-color-1\">Subscription</font></strong> app."
 msgstr ""
-"Beheer herhalende producten en automatiseer verlenging met de <strong><font "
-"class=\"text-o-color-1\">Abonnement</font></strong> app."
+"Beheer terugkerende producten en automatiseer verlenging met de "
+"<strong><font class=\"text-o-color-1\">Abonnement</font></strong> app."
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -597,9 +568,8 @@ msgid ""
 "often.                                        This will save you time when "
 "preparing when preparing your next quotations."
 msgstr ""
-"Voel je natuurlijk vrij om alle producten die je vaak gebruikt aan te "
-"maken.                                        Dit bespaart je tijd bij het "
-"voorbereiden van je volgende offertes."
+"Voeg gerust alle producten toe die je vaak gebruikt. Dit bespaart je tijd "
+"bij het voorbereiden van je volgende offertes."
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -628,28 +598,13 @@ msgstr ""
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
-msgid "Opportunities 🎯"
-msgstr "Kansen 🎯"
-
-#. module: gardening
-#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "Planification"
-msgstr "Planificatie"
+msgstr "Planning"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "Planning"
 msgstr "Planning"
-
-#. module: gardening
-#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
-msgid "Planning and timesheets 📆"
-msgstr "Planning en urenstaten 📆"
-
-#. module: gardening
-#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
-msgid "Projects  🌱️"
-msgstr "Projecten 🌱️"
 
 #. module: gardening
 #: model:product.template,name:gardening.product_product_12_product_template
@@ -660,11 +615,6 @@ msgstr "Snoeien (Uren)"
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "Purchase Orders"
 msgstr "Inkooporders"
-
-#. module: gardening
-#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
-msgid "Quotations💲"
-msgstr "Citaten💲"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -797,7 +747,7 @@ msgstr ""
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "The customer reminders."
-msgstr "De herinneringen van de klant."
+msgstr "Betaalherinneringen aan klanten."
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -830,14 +780,12 @@ msgid ""
 "effective collaboration with third parties, meticulous budget follow-up, \n"
 "                        prompt invoicing, and exceptional customer service."
 msgstr ""
-"Deze branche is op maat gemaakt voor hoveniersbedrijven die uitblinken in "
-"het beheren van hoveniersprojecten.\n"
-"                        Het omvat projectconceptualisatie, nauwkeurige "
-"offertes, naadloze projectstart, nauwgezette planning,\n"
-"                        gestroomlijnde (her)bevoorrading, vlekkeloze "
-"uitvoering, effectieve samenwerking met derden, nauwgezette "
-"budgetopvolging,\n"
-"                        snelle facturering en uitzonderlijke klantenservice."
+"Deze bedrijfstak is op maat gemaakt voor hoveniersbedrijven die uitblinken "
+"in het beheren van hoveniersprojecten. Het omvat alles: Van projectconcept "
+"en nauwkeurige offertes tot een vlotte opstart, zorgvuldige planning, "
+"efficiënte (her)bevoorrading, perfecte uitvoering, effectieve samenwerking "
+"met derden, nauwgezette budgetopvolging, tijdige facturatie en "
+"uitzonderlijke klantenservice."
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -972,9 +920,9 @@ msgid ""
 "including* :"
 msgstr ""
 "Je kunt je overzicht voor elk project aanpassen door het kleine "
-"\"schuifregelaars\" pictogram rechtsboven in je scherm te selecteren. "
-"Hiermee kun je een aantal praktische weergaven toevoegen om een compleet "
-"overzicht van je project te krijgen, waaronder* :"
+"\"schuifregelaars\" icoon rechtsboven in je scherm te selecteren. Hiermee "
+"kun je een aantal praktische weergaven toevoegen om een compleet overzicht "
+"van je project te krijgen, waaronder* :"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -1127,6 +1075,33 @@ msgstr "🎓 Werknemers"
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "🎓 Subscriptions"
 msgstr "🎓 Abonnementen"
+
+#~ msgid "Basics"
+#~ msgstr "Basisprincipes"
+
+#~ msgid "Do you want to go further?"
+#~ msgstr "Wil je nog verder gaan?"
+
+#~ msgid "Helpdesk &amp; services 🆘"
+#~ msgstr "Helpdesk &amp; diensten 🆘"
+
+#~ msgid "Inventory 📦"
+#~ msgstr "Voorraad 📦"
+
+#~ msgid "Invoicing 📈"
+#~ msgstr "Facturatie 📈"
+
+#~ msgid "Opportunities 🎯"
+#~ msgstr "Kansen 🎯"
+
+#~ msgid "Planning and timesheets 📆"
+#~ msgstr "Planning en urenstaten 📆"
+
+#~ msgid "Projects  🌱️"
+#~ msgstr "Projecten 🌱️"
+
+#~ msgid "Quotations💲"
+#~ msgstr "Citaten💲"
 
 #~ msgid "Compost (50KG) (Worm)"
 #~ msgstr "Compost (50KG) (Worm)"

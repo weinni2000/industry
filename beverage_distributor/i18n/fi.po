@@ -13,13 +13,14 @@
 # Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2024
 # Miika Nissi <miika.nissi@tawasta.fi>, 2024
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
+# Saara Hakanen <sahak@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-19 08:48+0000\n"
-"PO-Revision-Date: 2025-09-17 03:00+0000\n"
-"Last-Translator: \"Tiffany Chang (tic)\" <tic@odoo.com>\n"
+"POT-Creation-Date: 2026-07-10 17:43+0000\n"
+"PO-Revision-Date: 2026-06-29 08:02+0000\n"
+"Last-Translator: Saara Hakanen <sahak@odoo.com>\n"
 "Language-Team: Finnish <https://translate.odoo.com/projects/odoo-19/"
 "beverage_distributor/fi/>\n"
 "Language: fi\n"
@@ -27,7 +28,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -35,44 +36,9 @@ msgid "$ 32M"
 msgstr "$ 32M"
 
 #. module: beverage_distributor
-#: model:product.attribute.value,name:beverage_distributor.product_attribute_value_17
-msgid "+16"
-msgstr "+16"
-
-#. module: beverage_distributor
-#: model:product.attribute.value,name:beverage_distributor.product_attribute_value_18
-msgid "+18"
-msgstr "+18"
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
-msgid "+25.000"
-msgstr "+25.000"
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
-msgid "01"
-msgstr "01"
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
-msgid "02"
-msgstr "02"
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
-msgid "03"
-msgstr "03"
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
-msgid "04"
-msgstr "04"
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
-msgid "75%"
-msgstr "75%"
+#: model:x_excise_report,x_name:beverage_distributor.excise_report_1
+msgid "26W27"
+msgstr ""
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -82,6 +48,81 @@ msgid ""
 msgstr ""
 "85% asiakkaistamme ovat luottaneet meihin juomien jakelutarpeidensa "
 "täyttämiseen jo yli viiden vuoden ajan."
+
+#. module: beverage_distributor
+#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
+msgid ""
+"<b>Barcode App</b>: Accelerate picking and packing processes with mobile "
+"scanners, ensuring accurate\n"
+"                            inventory counts and faster loading."
+msgstr ""
+"<b>Viivakoodi-sovellus</b>: Nopeuta keräily- ja pakkausprosesseja "
+"mobiiliskannereilla, varmistaen tarkan\n"
+"                            varastolaskennan ja nopeamman lastauksen."
+
+#. module: beverage_distributor
+#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
+msgid ""
+"<b>Inventory App</b>: Serve as the central hub for stock, managing "
+"consignments, batch tracking, and\n"
+"                            warehouse operations with precision."
+msgstr ""
+"<b>Varastointi-sovellus</b>: Toimii varastojen, lähetysten hallinnan, erien "
+"seurannan sekä\n"
+"                            varastotoimintojen hallintakeskuksena."
+
+#. module: beverage_distributor
+#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
+msgid ""
+"<b>Manufacturing App</b>: Manage the repackaging of bulk items into smaller "
+"saleable units automatically."
+msgstr ""
+"<b>Tuotanto-sovellus</b>: Hallitse irtotavaran uudelleenpakkaamista "
+"pienempiin myyntiyksiköihin automaattisesti."
+
+#. module: beverage_distributor
+#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
+msgid ""
+"<b>Point of Sale App</b>: process B2C sales efficiently at your distribution "
+"center's front counter or\n"
+"                            cash-and-carry section."
+msgstr ""
+"<b>Kassajärjestelmä-sovellus</b>: käsittele B2C-myyntiä tehokkaasti "
+"jakelukeskuksesi asiakaspalvelupisteessä tai\n"
+"                            noutotukku-osastolla."
+
+#. module: beverage_distributor
+#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
+msgid ""
+"<b>Purchase App</b>: Automate replenishment from suppliers, ensuring you "
+"have the right mix of beverages to\n"
+"                            meet seasonal demand."
+msgstr ""
+"<b>Ostot-sovellus</b>: Automatisoi täydennys tavarantoimittajien kanssa "
+"varmistaaksesi kausikysynnän\n"
+"                            mukaisen juomavalikoiman."
+
+#. module: beverage_distributor
+#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
+msgid ""
+"<b>Sales App</b>: Handle high-volume client orders and manage complex "
+"product catalogs with varying units of\n"
+"                            measure (e.g., crate vs. bottle)."
+msgstr ""
+"<b>Myynti-sovellus</b>: Käsittele suuria myyntitilauksia ja hallinnoi "
+"monimutkaisia tuotekuvastoja erilaisilla mittayksiköillä\n"
+"                            (esim. laatikko vs. pullo)."
+
+#. module: beverage_distributor
+#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
+msgid ""
+"<b>eCommerce App</b>: Expand your reach with a B2B portal that allows "
+"restaurants and retailers to place\n"
+"                            restocking orders online 24/7."
+msgstr ""
+"<b>Verkkokauppa-sovellus</b>: Laajenna liiketoimintaasi B2B-portaalilla, "
+"jonka avulla ravintolat ja jälleenmyyjät voivat tehdä\n"
+"                            täydennystilauksia verkossa 24/7."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -126,16 +167,7 @@ msgid ""
 "label=\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
 msgstr ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
-"label=\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
-msgid ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
-"label=\"Banner Info\">💡</i>"
-msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
-"label=\"Banner Info\">💡</i>"
+"label=\"Banner Info\" aria-label=\"Info-banneri\">💡</i>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -198,8 +230,8 @@ msgstr "<strong>Valmisteverokategorioiden ylläpito</strong>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
-msgid "<strong>Excise reporting</strong>"
-msgstr "<strong>Valmisteveroraportointi</strong>"
+msgid "<strong>Excise reports</strong>"
+msgstr "<strong>Valmisteveroilmoitukset</strong>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -228,13 +260,8 @@ msgstr "Kullanruskea"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
-msgid "Apply DEP XX taxes to these consigns."
-msgstr "Sovella DEP XX -veroja näihin lähetyksiin."
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "As workarounds, you might:"
-msgstr ""
+msgstr "Väliaikaisratkaisuna voit:"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -244,31 +271,6 @@ msgid ""
 msgstr ""
 "Määritä asiaankuuluva valmisteverokategoria, syötä valmisteveron summa ja "
 "sen määrä raportointiyksikköön ja tallenna sitten tuotteesi."
-
-#. module: beverage_distributor
-#: model:base.automation,name:beverage_distributor.auto_production
-msgid "Auto Production"
-msgstr "Automaattinen tuotanto"
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.product_template_form_custom
-msgid "Auto-BOM"
-msgstr ""
-
-#. module: beverage_distributor
-#: model:ir.model.fields,field_description:beverage_distributor.field_aut_production
-msgid "Auto-production"
-msgstr "Automaattinen tuotanto"
-
-#. module: beverage_distributor
-#: model:base.automation,name:beverage_distributor.bom_automation
-msgid "Automated BoM"
-msgstr "Automatisoitu materiaaliluettelo"
-
-#. module: beverage_distributor
-#: model:ir.model.fields,field_description:beverage_distributor.field_deposit_categ_id
-msgid "Available Deposit Category"
-msgstr ""
 
 #. module: beverage_distributor
 #: model:product.pricelist,name:beverage_distributor.product_pricelist_2
@@ -283,24 +285,22 @@ msgstr "Viivakoodin skannaus 📱"
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_9
 msgid "Beer Bottle 33cl"
-msgstr ""
+msgstr "Olutpullo 33 cl"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_53
 msgid "Beer Bottles 24x33cl"
-msgstr ""
+msgstr "Olutpullot 24x33cl"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_55
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.product_template_form_custom
 msgid "Beer Crate & Bottles 24x33cl"
-msgstr ""
+msgstr "Olutlaatikko & pullot 24x33cl"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_56
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.product_template_form_custom
 msgid "Beer Crate 24x33cl"
-msgstr ""
+msgstr "Olutlaatikko 24x33cl"
 
 #. module: beverage_distributor
 #: model:product.attribute,name:beverage_distributor.product_attribute_10
@@ -345,11 +345,6 @@ msgid "Bubbles"
 msgstr "Kuplat"
 
 #. module: beverage_distributor
-#: model:ir.model.fields,field_description:beverage_distributor.field_empty_deposit
-msgid "By-Deposit"
-msgstr ""
-
-#. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_67
 msgid "Cava Brut Il Lusio - Josep Masachs 6x75cl"
 msgstr "Cava Brut Il Lusio - Josep Masachs 6x75cl"
@@ -383,21 +378,20 @@ msgstr "Coca-cola 24x33cl"
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_deposit_coke
 msgid "Coke Bottles 24x33cl"
-msgstr ""
+msgstr "Kokispullot 24x33cl"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid ""
-"Collect deposit when you deliver your customer. It is easy. When validating "
-"your delivery, you can directly set a \"Return\" and precisely count the "
-"number of each type of deposit your customer gave you. It will automatically "
-"be\n"
-"                        reflected on his invoice or issue a credit note."
+"Collect deposits when you deliver to your customer. It is easy. When "
+"validating your delivery, you can directly set a \"Return\" and precisely "
+"count the number of each type of deposit your customer gave you. It will "
+"automatically be reflected on his invoice or issue a credit note."
 msgstr ""
-"Kerää vakuusmaksu, kun toimitat asiakkaalle. Se on helppoa. Kun vahvistat "
-"toimituksen, voit asettaa suoraan \"Palautuksen\" ja laskea tarkasti kunkin "
-"asiakkaan antaman vakuusmaksun määrän. Se \n"
-"        näkyy automaattisesti hänen laskussaan tai antaa hyvityslaskun."
+"Kerää pantteja asiakkaalle toimittaessasi. Se on helppoa. Kun vahvistat "
+"toimituksen, voit määrittää suoraan \"Palautuksen\" ja laskea tarkasti "
+"jokaisen asiakkaan antaman pantin määrän. Se näkyy automaattisesti hänen "
+"laskullaan tai luo hyvityslaskun."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -408,11 +402,6 @@ msgstr "Ota yhteyttä"
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
 msgid "Contact us"
 msgstr "Ota yhteyttä"
-
-#. module: beverage_distributor
-#: model:ir.model.fields,field_description:beverage_distributor.field_quantity_by_deposit_product
-msgid "Contains"
-msgstr "Sisältää"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -430,18 +419,17 @@ msgstr "Luo ja seuraa myyntitilauksia"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
-msgid "Create deposit products for each different type of consigns"
-msgstr "Luo panttituotteita kullekin erilaisille lähetystyypeille"
+msgid ""
+"Create deposit products for each different type of consignments and assign "
+"them a category with \"Is a deposit category\" set like the Deposit category."
+msgstr ""
+"Luo panttituotteita kullekin eri lähetystyypille ja määritä niille "
+"kategoria, jossa \"On panttikategoria\" on määritetty kuten pantin kategoria."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Create purchase orders"
 msgstr "Luo ostotilauksia"
-
-#. module: beverage_distributor
-#: model:base.automation,name:beverage_distributor.update_deposit_taxes
-msgid "Create/assign deposit Taxes"
-msgstr ""
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -464,38 +452,9 @@ msgid "Cuvée Grillo - Villa Carumé 75cl"
 msgstr "Cuvée Grillo - Villa Carumé 75cl"
 
 #. module: beverage_distributor
-#: model:account.tax,name:beverage_distributor.account_tax_01_purchase
-#: model:account.tax,name:beverage_distributor.account_tax_01_sale
-msgid "DEP 0.1"
-msgstr "DEP 0.1"
-
-#. module: beverage_distributor
-#: model:account.tax,name:beverage_distributor.account_tax_21_purchase
-#: model:account.tax,name:beverage_distributor.account_tax_21_sale
-msgid "DEP 2.1"
-msgstr "DEP 2.1"
-
-#. module: beverage_distributor
-#: model:account.tax,name:beverage_distributor.account_tax_24_purchase
-#: model:account.tax,name:beverage_distributor.account_tax_24_sale
-msgid "DEP 2.4"
-msgstr "DEP 2.4"
-
-#. module: beverage_distributor
-#: model:account.tax,name:beverage_distributor.account_tax_45_purchase
-#: model:account.tax,name:beverage_distributor.account_tax_45_sale
-msgid "DEP 4.5"
-msgstr "DEP 4.5"
-
-#. module: beverage_distributor
 #: model:product.pricelist,name:beverage_distributor.product_pricelist_1
 msgid "Default"
 msgstr "Oletus"
-
-#. module: beverage_distributor
-#: model:base.automation,name:beverage_distributor.make_deposit_storable_delivery_invoice
-msgid "Default fields for deposits"
-msgstr "Talletusten oletuskentät"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -503,22 +462,24 @@ msgid "Define the required product fields."
 msgstr "Määritä vaaditut tuotekentät."
 
 #. module: beverage_distributor
-#: model:account.tax.group,name:beverage_distributor.deposit_tax_group
-#: model:ir.model.fields,help:beverage_distributor.field_empty_deposit
 #: model:pos.category,name:beverage_distributor.pos_category_5
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.product_template_search_inherit
 msgid "Deposit"
 msgstr "Pantti"
 
 #. module: beverage_distributor
-#: model:ir.model.fields,field_description:beverage_distributor.x_deposit_amount
-msgid "Deposit Amount"
-msgstr ""
+#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
+msgid "Deposit Management ♻️"
+msgstr "Panttien hallinta ♻️"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
-msgid "Deposit Management 🍻"
-msgstr "4. Vakuusmaksujen hallinta 🍻"
+msgid "Deposit assignation"
+msgstr "Pantin määritys"
+
+#. module: beverage_distributor
+#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
+msgid "Deposit return from customers"
+msgstr "Asiakkaiden panttien palautus"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -551,10 +512,10 @@ msgid ""
 "from the fiscal deposit of a supplier. To define such suppliers, adapt their "
 "fiscal position to handle excise tax."
 msgstr ""
-"Vienti kiinteästa talletuksesta koskee tuotteita, jotka tulevat omaan "
-"verotalletuksen varastoosi toimittajan verotalletuksen varastosta. Tällöin "
-"toimittajan verovelvollisuusasemaa tulee säätää valmisteveron käsittelyyn "
-"sopivaksi."
+"Saapuminen verotalletuksesta koskee tuotteita, jotka saapuvat "
+"verotalletusvarastoosi tavarantoimittajan verotalletusvarastosta. "
+"Määrittääksesi kyseiset toimittajat, mukauta heidän verokantasääntönsä "
+"valmisteveron käsittelemiseksi."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -563,20 +524,9 @@ msgid ""
 "from a fiscal deposit warehouse. In such case, you ask for excise credits "
 "with your excise declaration."
 msgstr ""
-"Vienti koskee tilanteita, joissa ostat tai saat palautuksena tuotteita, "
-"jotka eivät tule valmisteverovarastosta. Tällöin voit hakea valmisteveron "
-"palautuksia veroilmoituksessa."
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
-msgid ""
-"Every time you need to sell a single Mobius Blanche - 33cl, if you don't "
-"have enough in stock, it will split your main product in 24 units and take "
-"into account an extra empty bin that will be left at the end."
-msgstr ""
-"Aina, kun myyt yhden Mobius Blanche - 33cl, mutta jos sinulla ei ole "
-"tarpeeksi varastossa, se jakaa päätuotteesi 24 yksikköön ja ottaa huomioon "
-"ylimääräisen tyhjän korin, joka jää lopussa."
+"Vienti on tilanteita varten, joissa ostat tai saat palautuksena "
+"valmisteverovaraston ulkopuolisia tuotteita. Tällöin voit hakea "
+"valmisteveropalautuksia veroilmoituksellasi."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -587,19 +537,6 @@ msgstr "Valmisteverojen hallinta 🧾"
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Excise management consists in two dimensions in this package:"
 msgstr "Tässä paketissa valmisteveron hallinta jakautuu kahteen osa-alueeseen:"
-
-#. module: beverage_distributor
-#: model:ir.actions.server,name:beverage_distributor.action_make_deposit_storable_delivery_invoice
-#: model:ir.actions.server,name:beverage_distributor.bom_server_action
-#: model:ir.actions.server,name:beverage_distributor.deposit_taxes_server_action
-#: model:ir.actions.server,name:beverage_distributor.update_sales_taxes_server_action
-msgid "Execute Code"
-msgstr "Suorita koodi"
-
-#. module: beverage_distributor
-#: model:ir.actions.server,name:beverage_distributor.update_state
-msgid "Execute Existing Actions"
-msgstr "Suorita olemassa oleva toiminto"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -618,10 +555,10 @@ msgid ""
 "fiscal deposit of a customer. To define such customers, adapt their fiscal "
 "position to handle excise tax."
 msgstr ""
-"Poisto kiinteään talletukseen koskee tuotteita, jotka poistuvat "
-"verotalletuksen varastostasi asiakkaan verotalletuksen varastoon. "
-"Määrittääksesi tällaiset asiakkaat, mukauta heidän verovelvollisuusasemaansa "
-"niin, että se käsittää valmisteveron."
+"Poistuminen verotalletuksesta viittaa tuotteisiin, jotka lähtevät "
+"verotalletusvarastostasi asiakkaan verotalletusvarastoon. Määrittääksesi "
+"kyseiset asiakkaat, mukauta heidän verokantasääntönsä valmisteveron "
+"käsittelemiseksi."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -650,7 +587,7 @@ msgstr "Fanta 24x33cl"
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_deposit_fanta
 msgid "Fanta Bottles 24x33cl"
-msgstr ""
+msgstr "Fanta-pullot 24x33cl"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -661,11 +598,6 @@ msgstr "Seuraa potentiaalisia asiakkaita"
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "For B2C sales, the POS app enables you to:"
 msgstr "B2C-myynnissä Kassajärjestelmä-sovelluksen avulla voit:"
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
-msgid "For example:"
-msgstr "Esimerkiksi:"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -682,7 +614,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/beverage_distributor/static/src/js/my_tour.js:0
 msgid "Get on track and explore our recommendations for your Odoo usage here!"
-msgstr ""
+msgstr "Aloita ja tutustu Odoo-käyttöäsi koskeviin suosituksiimme täällä!"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -702,7 +634,7 @@ msgstr "Jäätee 24x33cl"
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_deposit_icetea
 msgid "Ice Tea Bottles 24x33cl"
-msgstr ""
+msgstr "Jäätee-pullot 24x33cl"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -711,17 +643,9 @@ msgid ""
 "to replicate the configuration of BoM and replinishment rules for already "
 "setup products."
 msgstr ""
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
-msgid ""
-"If you want to automatically split products sold in a specific packaging, "
-"precise a unit sale product in the so-called field and the number of units "
-"contained in the main product."
-msgstr ""
-"Jos haluat automaattisesti erotella tietyssä pakkauksessa myytävät tuotteet, "
-"tarkenna yksikkömyyntituote niin sanottuun kenttään ja päätuotteen "
-"sisältämien yksikköjen määrä."
+"Jos lisäät uuden toimipisteen laajennuksen jälkeen (onnittelut🙌), sinun on "
+"replikoitava materiaaliluettelo sekä täydennyssäännöt jo määritetyille "
+"tuotteille."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -729,8 +653,8 @@ msgid ""
 "If you want to easily discover every features of this package, try "
 "downloading the Demo Data."
 msgstr ""
-"Jos haluat helposti tutustua tämän paketin kaikkiin ominaisuuksiin, kokeile "
-"ladata Demotiedot."
+"Jos haluat tutustua kaikkiin tämän paketin ominaisuuksiin helposti, kokeile "
+"demotietojen lataamista."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -770,16 +694,6 @@ msgid "Inventory Management 📦"
 msgstr "Varastonhallinta 📦"
 
 #. module: beverage_distributor
-#: model:ir.model.fields,field_description:beverage_distributor.x_is_a_deposit_category
-msgid "Is a Deposit Category"
-msgstr ""
-
-#. module: beverage_distributor
-#: model:ir.model.fields,field_description:beverage_distributor.x_is_a_deposit
-msgid "Is a deposit"
-msgstr "On vakuus"
-
-#. module: beverage_distributor
 #: model:product.attribute.value,name:beverage_distributor.product_attribute_value_23
 msgid "Jack Daniels"
 msgstr "Jack Daniels"
@@ -813,11 +727,6 @@ msgstr "Pidä varastosi ajan tasalla reaaliaikaisesti"
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
 msgid "Key Metrics of Company's<br/>Success Stories"
 msgstr "Yrityksen menestystarinan<br/> keskeiset mittarit"
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.product_template_form_custom
-msgid "Leave empty if this product is the smallest unit"
-msgstr "Jätä tyhjäksi, jos tämä tuote on pienin yksikkö"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -856,7 +765,7 @@ msgstr "Toimittajasuhteiden hallinta"
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Manage your deposit more precisely and efficiently than ever before."
-msgstr "Hallinnoi talletuksiasi tarkemmin ja tehokkaammin kuin koskaan ennen."
+msgstr "Hallinnoi panttejasi tarkemmin ja tehokkaammin kuin koskaan ennen."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -871,7 +780,7 @@ msgstr "Hallitse myyntiputkeasi"
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Manually convert crates into unit bottles at the bar on reception."
-msgstr ""
+msgstr "Muunna vastaanotetut laatikot yksikköpulloiksi manuaalisesti baarissa."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -882,16 +791,6 @@ msgstr "Tapaa juoma-alan asiantuntijamme"
 #: model:product.attribute.value,name:beverage_distributor.product_attribute_value_12
 msgid "Mobius"
 msgstr "Mobius"
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
-msgid "Mobius Blanche - 24x33cl is your main product"
-msgstr "Mobius Blanche - 24x33cl on päätuotteesi"
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
-msgid "Mobius Blanche - 33cl is the unit sale product"
-msgstr "Mobius Blanche - 33cl on yksikkömyyntituote"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_6
@@ -940,21 +839,23 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid ""
 "On a regular basis, excises need to be declared. To support you with this "
-"duty, a report is setup to reach the quantity by excise category entering "
-"and exiting your fiscal deposit warehouse."
+"duty, a report generated weekly provides the quantity by excise category "
+"entering and exiting your fiscal deposit warehouse with a dedicated activity "
+"for it."
 msgstr ""
-"Valmisteverot on ilmoitettava säännöllisesti. Jotta tämä velvollisuus olisi "
-"helppo täyttää, olemme luoneet raportin, josta näet valmisteveroluokittain "
-"varastoon saapuvien ja sieltä poistuvien tuotteiden määrän."
+"Valmisteverot on ilmoitettava säännöllisesti. Tämän velvollisuuden tueksi "
+"saat viikoittain laadittavan raportin, jossa ilmoitetaan verotalletukseen "
+"saapuvat ja sieltä lähtevät määrät sekä niihin liittyvät toimenpiteet "
+"valmisteveroluokittain."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid ""
-"Open the <strong>Inventory app</strong> and reach from the Reporting menu "
-"the Excises."
+"Open the <strong>Inventory app</strong> and reach the Excise Reports from "
+"the Reporting menu."
 msgstr ""
-"Avaa <strong>Varastointi-sovellus</strong> ja siirry Raportointi-valikosta "
-"Valmisteveroihin."
+"Avaa <strong>Varastointi-sovellus</strong> ja siirry raportointivalikon "
+"Valmisteveroraportteihin."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -975,12 +876,6 @@ msgstr ""
 "Keskeiset mittarimme jakelun tehokkuudesta asiakastyytyväisyyteen ja "
 "markkinakattavuuteen korostavat strategista osaamistamme ja sitoutumistamme "
 "kestävään menestykseen juomamarkkinoilla."
-
-#. module: beverage_distributor
-#: model:ir.model.fields,field_description:beverage_distributor.field_parent_product_bom
-#: model:ir.model.fields,field_description:beverage_distributor.field_parent_product_rr
-msgid "Parent product"
-msgstr "Yläkategorian tuote"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -1013,16 +908,6 @@ msgid "Process quick sales at your distribution center"
 msgstr "Käsittele pikamyynti jakelukeskuksessasi"
 
 #. module: beverage_distributor
-#: model:ir.model.fields,help:beverage_distributor.field_deposit_product_1
-msgid "Product capturing the total deposits due on sale"
-msgstr ""
-
-#. module: beverage_distributor
-#: model:ir.model.fields,help:beverage_distributor.x_is_a_deposit_category
-msgid "Products assigned with this category are considered deposit products."
-msgstr ""
-
-#. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
 msgid "Progress bar"
 msgstr "Edistymispalkki"
@@ -1048,6 +933,8 @@ msgid ""
 "Receipts and Deliveries from and to Partners having no Fiscal Position "
 "defined are handled with the product taxes."
 msgstr ""
+"Vastaanotot ja toimitukset käsitellään tuoteverojen kanssa kumppaneille, "
+"joille ei ole määritetty verokantasääntöä."
 
 #. module: beverage_distributor
 #: model:product.attribute.value,name:beverage_distributor.product_attribute_value_10
@@ -1071,6 +958,8 @@ msgid ""
 "Rely on the kit setup mentioned in the \"Products and Bills of Material\" "
 "section."
 msgstr ""
+"Luota \"Tuotteet ja materiaaliluetteloet\" -osiossa mainitun setin "
+"kokoonpanoon."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -1122,7 +1011,7 @@ msgstr "Schweppes 24x33cl"
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_deposit_schweppes
 msgid "Schweppes Bottles 24x33cl"
-msgstr ""
+msgstr "Schweppes-pullot 24x33cl"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -1132,11 +1021,11 @@ msgstr "Katso lisää<i class=\"fa fa-long-arrow-right\" role=\"presentation\"/>
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid ""
-"Set a deposit product on your product to apply these taxes. This will ensure "
-"that you invoice correctly the price of consigns."
+"Set a deposit product on your product to apply deposit taxes. This will "
+"ensure that you invoice correctly the price of consignments."
 msgstr ""
-"Aseta tuotteellesi vakuustuote näiden verojen soveltamista varten. Näin "
-"varmistat, että laskutat lähetysten hinnan oikein."
+"Aseta tuotteellesi talletustuote talletusverojen soveltamiseksi. Näin "
+"varmistat, että laskutat lähetykset oikein."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -1173,22 +1062,22 @@ msgstr "Spa"
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_deposit_bottle
 msgid "Spa Bottle 33cl"
-msgstr ""
+msgstr "Spa-pullo 33cl"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_deposit_spa
 msgid "Spa Bottles 24x33cl"
-msgstr ""
+msgstr "Spa-pullot 24x33cl"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_deposit_crate_bottles
 msgid "Spa Crate & Bottles 24x33cl"
-msgstr ""
+msgstr "Spa-laatikko & pullot 24x33cl"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_deposit_crate_spa
 msgid "Spa Crate 24x33cl"
-msgstr ""
+msgstr "Spa-laatikko 24x33cl"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_54
@@ -1245,9 +1134,20 @@ msgstr "Ostosovelluksen avulla voit:"
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid ""
+"The assignee of the excise reporting activities can be set from the "
+"Inventory settings."
+msgstr ""
+"Valmisteverojen raportointitoimintojen vastuuhenkilön voi määrittää "
+"Varastoinnin asetuksissa."
+
+#. module: beverage_distributor
+#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
+msgid ""
 "The automated crate split based on BoM (defined from crate products with "
 "\"contains\" fields) is not supported from the bar (PoS)."
 msgstr ""
+"Laatikon automaattista jakamista materiaaliluettelon perusteella (määritetty "
+"laatikon \"sisältää\"-kentistä) ei tueta baarista (Kassajärjestelmä)."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -1257,15 +1157,11 @@ msgid ""
 "configuration as listed above. Make sure to properly define your branches "
 "and warehouses prior configuring your products."
 msgstr ""
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
-msgid ""
-"The default breakdown is done by week and you can configure it to be by "
-"month if needed."
-msgstr ""
-"Oletuserittely tehdään viikkokohtaisesti ja voit määrittää sen eriteltäväksi "
-"myös kuukausikohtaisesti tarvittaessa."
+"Automatisoitujen materiaaliluetteloiden ja täydennyssääntöjen luominen "
+"pakattujen tuotteiden jakamiseksi yksittäisiksi tuotteiksi toimii vain, kun "
+"toimipiste-asetusten jälkeinen kokoonpano on listattu yllä. Varmista "
+"toimipisteiden ja varastojen asianmukainen määritys ennen tuotteidesi "
+"määrittämistä."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -1278,11 +1174,12 @@ msgid ""
 "Create a warehouse for each branch: Go to Inventory &gt; Configuration &gt; "
 "Warehouses"
 msgstr ""
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
-msgid "The inventory of all products will be updated accordingly."
-msgstr "Kaikkien tuotteiden varastotasot päivitetään vastaavasti."
+"Talletuksia tuetaan myös yrityksen pienemmissä toimipisteissä!\n"
+"Luo toimipisteesi yrityksen asetuksissa: Navigoi kohtaan Asetukset &gt; "
+"Yleiset asetukset &gt; Yritykset &gt; Toimipisteet-välilehti\n"
+"Vaihda kunkin sivuliikkeen omaan näkymään yläpalkin pudotusvalikosta\n"
+"Luo varasto kullekin toimipisteelle: Siirry kohtaan Varastointi &gt; "
+"Asetukset &gt; Varastot"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -1317,31 +1214,6 @@ msgstr ""
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
-msgid ""
-"This deposit management system is a specific features of this package. "
-"Proceed carefully if you need to adapt anything."
-msgstr ""
-"Tämä vakuusmaksujen hallintajärjestelmä on tämän paketin erityispiirre. "
-"Toimi varovasti, jos sinun täytyy mukauttaa jotain."
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
-msgid ""
-"This will automatically create a Bill of Material and process a Manufacture "
-"Order each time you need to split your product and reflect this operation in "
-"your stock perfectly."
-msgstr ""
-"Tämä luo automaattisesti materiaaliluettelon ja käsittelee tuotantotilauksen "
-"aina, kun tuote on jaettava osiin, ja näyttää tämän toimenpiteen "
-"varastotasossasi täydellisesti."
-
-#. module: beverage_distributor
-#: model:ir.model.fields,field_description:beverage_distributor.field_deposit_product_1
-msgid "Total Deposits"
-msgstr ""
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Track incoming shipments"
 msgstr "Seuraa saapuvia lähetyksiä"
 
@@ -1370,8 +1242,8 @@ msgid ""
 "Transfer is here to handle the transfers between multiple fiscal deposit "
 "warehouses of yours."
 msgstr ""
-"Siirrot auttavat sinua käsittelemään siirrot, jotka tapahtuvat useiden omien "
-"verotalletusvarastojesi välillä."
+"Siirrot auttavat sinua käsittelemään useiden omien verotalletusvarastojesi "
+"välisiä siirtoja."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -1385,19 +1257,9 @@ msgstr ""
 "tyytyväisyyden."
 
 #. module: beverage_distributor
-#: model:ir.model.fields,field_description:beverage_distributor.field_unit_sale_product
-msgid "Unit sale product"
-msgstr "Myyntituotteen yksikkö"
-
-#. module: beverage_distributor
 #: model:pos.category,name:beverage_distributor.pos_category_9
 msgid "Unit sales"
 msgstr "Myyntiyksikkö"
-
-#. module: beverage_distributor
-#: model:base.automation,name:beverage_distributor.update_sales_taxes
-msgid "Update Taxes"
-msgstr "Päivitä verot"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -1433,7 +1295,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Utilize the Fleet app to manage your delivery vehicles efficiently"
 msgstr ""
-"Hyödynnä Ajokalusto-sovellusta jakeluajoneuvojen tehokkaaseen hallintaan"
+"Käytä Kuljetuskalusto-sovellusta hallinnoidaksesi jakeluajoneuvojasi "
+"tehokkaasti"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -1511,23 +1374,15 @@ msgid "What you will get"
 msgstr "Mitä saat"
 
 #. module: beverage_distributor
-#: model:ir.model.fields,help:beverage_distributor.field_quantity_by_deposit_product
-msgid ""
-"When filled in, an automated BoM is setup to automatically break down this "
-"product in those components. Leave second field empty if this product is the "
-"smallest unit."
-msgstr ""
-
-#. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid ""
 "When installing this module, all Fiscal Positions are set as Fiscal Deposit."
 "<br/>Adjust the Fiscal Positions which are not to consider the Excise Taxes "
 "in your orders."
 msgstr ""
-"Kun asennat tämän moduulin, kaikki verovelvollisuusasemat määritetään "
-"verotalletuksiksi.<br/>Säädä verovelvollisuusasemia, joiden ei tulisi "
-"huomioida valmisteveroja tilauksissa."
+"Kun asennat tämän moduulin, kaikki verokantasäännöt määritetään "
+"verotalletuksiksi.<br/>Säädä verokantasääntöjä, joiden ei tulisi huomioida "
+"valmisteveroja tilauksissasi."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -1563,8 +1418,8 @@ msgstr "Viinit"
 msgid ""
 "Would you like to discuss your Odoo setup with us or explore more features?"
 msgstr ""
-"Haluaisitko keskustella kanssamme Odoo-asennuksestasi tai tutkia lisää "
-"ominaisuuksia?"
+"Haluatko keskustella kanssamme Odoon käyttöönotosta tai tutustua muihinkin "
+"sen ominaisuuksiin?"
 
 #. module: beverage_distributor
 #: model:product.attribute.value,name:beverage_distributor.product_attribute_value_15
@@ -1575,11 +1430,11 @@ msgstr "Kyllä"
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid ""
-"You can also collect deposit directly on your Point of Sale. Select the "
+"You can also collect deposits directly on your Point of Sale. Select the "
 "correct product and encode a negative quantity."
 msgstr ""
-"Voit myös kerätä vakuuden suoraan kassastasi. Valitse oikea tuote ja syötä "
-"negatiivinen määrä."
+"Voit kerätä pantteja myös suoraan kassajärjestelmässäsi. Valitse oikea tuote "
+"ja koodaa negatiivinen määrä."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -1588,39 +1443,13 @@ msgstr "Voit vielä tehdä sen päivittämällä pakettisi sovelluksissa."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
-msgid ""
-"You now have the keys to easily report those to the relevant authorities!"
-msgstr ""
-"Nyt sinulla on työkalut raportoida nämä tiedot helposti oleellisille "
-"viranomaisille!"
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Your B2B eCommerce portal allows clients to:"
 msgstr "B2B-verkkokauppaportaalisi avulla asiakkaat voivat:"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
-msgid ""
-"[EMPTY 33 BIN] Regular 24x33 Bin is the empty deposit product (2.1$ value)"
-msgstr "[EMPTY 33 BIN] Tavallinen 24x33 kori on tyhjä pantti tuote (2.1$ arvo)"
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
-msgid ""
-"[FULL 33 BIN] Regular 24x33 Bin is the complete deposit product (4.5$ value)"
-msgstr ""
-"[FULL 33 BIN] Tavallinen 24x33 kori on täydellinen panttituote (4,5$ arvo)"
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "eCommerce Website 🌐"
 msgstr "verkkokaupan verkkosivusto 🌐"
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.product_template_form_custom
-msgid "ex. Delta I.P.A. - 33cl"
-msgstr "ex. Delta I.P.A. - 33cl"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -1630,12 +1459,22 @@ msgstr "🎓 Viivakoodi"
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "🎓 Branches"
-msgstr ""
+msgstr "🎓 Toimipisteet"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "🎓 CRM"
 msgstr "🎓 CRM"
+
+#. module: beverage_distributor
+#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
+msgid "🎓 Deposit Management"
+msgstr "🎓 Panttien hallinta"
+
+#. module: beverage_distributor
+#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
+msgid "🎓 Excise Management"
+msgstr "🎓 Valmisteverojen hallinta"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -1661,6 +1500,261 @@ msgstr "🎓 Myynti"
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "🎓 Website"
 msgstr "🎓 Verkkosivu"
+
+#~ msgid "26W25"
+#~ msgstr "26W25"
+
+#~ msgid "26W24"
+#~ msgstr "26W24"
+
+#~ msgid "26W23"
+#~ msgstr "26W23"
+
+#~ msgid "26W22"
+#~ msgstr "26W22"
+
+#~ msgid "26W21"
+#~ msgstr "26W21"
+
+#~ msgid "26W20"
+#~ msgstr "26W20"
+
+#~ msgid "26W19"
+#~ msgstr "26W19"
+
+#~ msgid "26W18"
+#~ msgstr "26W18"
+
+#~ msgid "26W17"
+#~ msgstr "26W17"
+
+#~ msgid "26W16"
+#~ msgstr "26W16"
+
+#~ msgid "26W15"
+#~ msgstr "26W15"
+
+#~ msgid "26W14"
+#~ msgstr "26W14"
+
+#~ msgid "+16"
+#~ msgstr "+16"
+
+#~ msgid "+18"
+#~ msgstr "+18"
+
+#~ msgid "+25.000"
+#~ msgstr "+25.000"
+
+#~ msgid "01"
+#~ msgstr "01"
+
+#~ msgid "02"
+#~ msgstr "02"
+
+#~ msgid "03"
+#~ msgstr "03"
+
+#~ msgid "04"
+#~ msgstr "04"
+
+#~ msgid "26W13"
+#~ msgstr "26W13"
+
+#~ msgid "75%"
+#~ msgstr "75%"
+
+#~ msgid "26W03"
+#~ msgstr "26W03"
+
+#~ msgid "<strong>Excise reporting</strong>"
+#~ msgstr "<strong>Valmisteveroraportointi</strong>"
+
+#~ msgid ""
+#~ "You now have the keys to easily report those to the relevant authorities!"
+#~ msgstr ""
+#~ "Nyt sinulla on työkalut raportoida nämä tiedot helposti oleellisille "
+#~ "viranomaisille!"
+
+#~ msgid "25W51"
+#~ msgstr "25W51"
+
+#~ msgid "25W49"
+#~ msgstr "25W49"
+
+#~ msgid ""
+#~ "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+#~ "label=\"Banner Info\">💡</i>"
+#~ msgstr ""
+#~ "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+#~ "label=\"Banner Info\">💡</i>"
+
+#~ msgid "Apply DEP XX taxes to these consigns."
+#~ msgstr "Sovella DEP XX -veroja näihin lähetyksiin."
+
+#~ msgid "Auto Production"
+#~ msgstr "Automaattinen tuotanto"
+
+#~ msgid "Auto-production"
+#~ msgstr "Automaattinen tuotanto"
+
+#~ msgid "Automated BoM"
+#~ msgstr "Automatisoitu materiaaliluettelo"
+
+#~ msgid ""
+#~ "Collect deposit when you deliver your customer. It is easy. When "
+#~ "validating your delivery, you can directly set a \"Return\" and precisely "
+#~ "count the number of each type of deposit your customer gave you. It will "
+#~ "automatically be\n"
+#~ "                        reflected on his invoice or issue a credit note."
+#~ msgstr ""
+#~ "Kerää vakuusmaksu, kun toimitat asiakkaalle. Se on helppoa. Kun vahvistat "
+#~ "toimituksen, voit asettaa suoraan \"Palautuksen\" ja laskea tarkasti "
+#~ "kunkin asiakkaan antaman vakuusmaksun määrän. Se \n"
+#~ "        näkyy automaattisesti hänen laskussaan tai antaa hyvityslaskun."
+
+#~ msgid "Contains"
+#~ msgstr "Sisältää"
+
+#~ msgid "Create deposit products for each different type of consigns"
+#~ msgstr "Luo panttituotteita kullekin erilaisille lähetystyypeille"
+
+#~ msgid "DEP 0.1"
+#~ msgstr "DEP 0.1"
+
+#~ msgid "DEP 2.1"
+#~ msgstr "DEP 2.1"
+
+#~ msgid "DEP 2.4"
+#~ msgstr "DEP 2.4"
+
+#~ msgid "DEP 4.5"
+#~ msgstr "DEP 4.5"
+
+#~ msgid "Default fields for deposits"
+#~ msgstr "Talletusten oletuskentät"
+
+#~ msgid "Deposit Management 🍻"
+#~ msgstr "4. Vakuusmaksujen hallinta 🍻"
+
+#~ msgid ""
+#~ "Every time you need to sell a single Mobius Blanche - 33cl, if you don't "
+#~ "have enough in stock, it will split your main product in 24 units and "
+#~ "take into account an extra empty bin that will be left at the end."
+#~ msgstr ""
+#~ "Aina, kun myyt yhden Mobius Blanche - 33cl, mutta jos sinulla ei ole "
+#~ "tarpeeksi varastossa, se jakaa päätuotteesi 24 yksikköön ja ottaa "
+#~ "huomioon ylimääräisen tyhjän korin, joka jää lopussa."
+
+#~ msgid "Execute Code"
+#~ msgstr "Suorita koodi"
+
+#~ msgid "Execute Existing Actions"
+#~ msgstr "Suorita olemassa oleva toiminto"
+
+#~ msgid "For example:"
+#~ msgstr "Esimerkiksi:"
+
+#~ msgid ""
+#~ "If you want to automatically split products sold in a specific packaging, "
+#~ "precise a unit sale product in the so-called field and the number of "
+#~ "units contained in the main product."
+#~ msgstr ""
+#~ "Jos haluat automaattisesti erotella tietyssä pakkauksessa myytävät "
+#~ "tuotteet, tarkenna yksikkömyyntituote niin sanottuun kenttään ja "
+#~ "päätuotteen sisältämien yksikköjen määrä."
+
+#~ msgid "Is a deposit"
+#~ msgstr "On vakuus"
+
+#~ msgid "Leave empty if this product is the smallest unit"
+#~ msgstr "Jätä tyhjäksi, jos tämä tuote on pienin yksikkö"
+
+#~ msgid "Mobius Blanche - 24x33cl is your main product"
+#~ msgstr "Mobius Blanche - 24x33cl on päätuotteesi"
+
+#~ msgid "Mobius Blanche - 33cl is the unit sale product"
+#~ msgstr "Mobius Blanche - 33cl on yksikkömyyntituote"
+
+#~ msgid "Parent product"
+#~ msgstr "Yläkategorian tuote"
+
+#~ msgid ""
+#~ "Set a deposit product on your product to apply these taxes. This will "
+#~ "ensure that you invoice correctly the price of consigns."
+#~ msgstr ""
+#~ "Aseta tuotteellesi vakuustuote näiden verojen soveltamista varten. Näin "
+#~ "varmistat, että laskutat lähetysten hinnan oikein."
+
+#~ msgid "The inventory of all products will be updated accordingly."
+#~ msgstr "Kaikkien tuotteiden varastotasot päivitetään vastaavasti."
+
+#~ msgid ""
+#~ "This deposit management system is a specific features of this package. "
+#~ "Proceed carefully if you need to adapt anything."
+#~ msgstr ""
+#~ "Tämä vakuusmaksujen hallintajärjestelmä on tämän paketin erityispiirre. "
+#~ "Toimi varovasti, jos sinun täytyy mukauttaa jotain."
+
+#~ msgid ""
+#~ "This will automatically create a Bill of Material and process a "
+#~ "Manufacture Order each time you need to split your product and reflect "
+#~ "this operation in your stock perfectly."
+#~ msgstr ""
+#~ "Tämä luo automaattisesti materiaaliluettelon ja käsittelee "
+#~ "tuotantotilauksen aina, kun tuote on jaettava osiin, ja näyttää tämän "
+#~ "toimenpiteen varastotasossasi täydellisesti."
+
+#~ msgid "Unit sale product"
+#~ msgstr "Myyntituotteen yksikkö"
+
+#~ msgid "Update Taxes"
+#~ msgstr "Päivitä verot"
+
+#~ msgid ""
+#~ "You can also collect deposit directly on your Point of Sale. Select the "
+#~ "correct product and encode a negative quantity."
+#~ msgstr ""
+#~ "Voit myös kerätä vakuuden suoraan kassastasi. Valitse oikea tuote ja "
+#~ "syötä negatiivinen määrä."
+
+#~ msgid ""
+#~ "[EMPTY 33 BIN] Regular 24x33 Bin is the empty deposit product (2.1$ value)"
+#~ msgstr ""
+#~ "[EMPTY 33 BIN] Tavallinen 24x33 kori on tyhjä pantti tuote (2.1$ arvo)"
+
+#~ msgid ""
+#~ "[FULL 33 BIN] Regular 24x33 Bin is the complete deposit product (4.5$ "
+#~ "value)"
+#~ msgstr ""
+#~ "[FULL 33 BIN] Tavallinen 24x33 kori on täydellinen panttituote (4,5$ arvo)"
+
+#~ msgid "ex. Delta I.P.A. - 33cl"
+#~ msgstr "ex. Delta I.P.A. - 33cl"
+
+#~ msgid ""
+#~ "On a regular basis, excises need to be declared. To support you with this "
+#~ "duty, a report is setup to reach the quantity by excise category entering "
+#~ "and exiting your fiscal deposit warehouse."
+#~ msgstr ""
+#~ "Valmisteverot on ilmoitettava säännöllisesti. Jotta tämä velvollisuus "
+#~ "olisi helppo täyttää, olemme luoneet raportin, josta näet "
+#~ "valmisteveroluokittain varastoon saapuvien ja sieltä poistuvien "
+#~ "tuotteiden määrän."
+
+#~ msgid ""
+#~ "Open the <strong>Inventory app</strong> and reach from the Reporting menu "
+#~ "the Excises."
+#~ msgstr ""
+#~ "Avaa <strong>Varastointi-sovellus</strong> ja siirry Raportointi-"
+#~ "valikosta Valmisteveroihin."
+
+#~ msgid ""
+#~ "The default breakdown is done by week and you can configure it to be by "
+#~ "month if needed."
+#~ msgstr ""
+#~ "Oletuserittely tehdään viikkokohtaisesti ja voit määrittää sen "
+#~ "eriteltäväksi myös kuukausikohtaisesti tarvittaessa."
 
 #~ msgid "Deposit 0.1"
 #~ msgstr "Talletus 0,1"

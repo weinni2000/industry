@@ -3,13 +3,13 @@
 # * diy_workshops
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025.
+# "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 11:32+0000\n"
-"PO-Revision-Date: 2025-11-04 13:56+0000\n"
+"POT-Creation-Date: 2026-04-10 19:02+0000\n"
+"PO-Revision-Date: 2026-04-24 19:32+0000\n"
 "Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
 "Language-Team: German <https://translate.odoo.com/projects/odoo-19/"
 "diy_workshops/de/>\n"
@@ -18,12 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
-
-#. module: diy_workshops
-#: model_terms:ir.ui.view,arch_db:diy_workshops.ir_ui_view_3984
-msgid "+1 555-555-5556"
-msgstr "+1 555-555-5556"
+"X-Generator: Weblate 5.17\n"
 
 #. module: diy_workshops
 #: model_terms:event.event,description:diy_workshops.event_event_3
@@ -49,7 +44,7 @@ msgstr "5er-Karte – Nähen & sparen"
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.homepage
 msgid "5-Class Pass – \"Sew &amp;amp; Save\""
-msgstr "5er-Karte – Nähen & sparen"
+msgstr "5er-Karte – Nähen &amp;amp; sparen"
 
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.ir_ui_view_3984
@@ -179,8 +174,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\">⚠️</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner für Warnung\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
+"<i data-oe-aria-label=\"Banner für Warnung\" class=\"o_editor_banner_icon "
+"mb-3 fst-normal\">⚠️</i>"
 
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.ir_ui_view_4344
@@ -1019,9 +1014,9 @@ msgid ""
 "Odoo is entirely integrated into an App. Download it to turn your phone into "
 "a tool to manage your entire workflow."
 msgstr ""
-"Odoo ist vollständig in einer App integriert. Laden Sie sie herunter, um Ihr "
-"Telefon in ein Tool zu verwandeln, sodass Sie ihr gesamtes Unternehmen "
-"verwalten können."
+"Odoo ist vollständig in eine App integriert. Laden Sie sie herunter, um Ihr "
+"Smartphone in ein Hilfsmittel zu verwandeln, mit dem Sie Ihren gesamten "
+"Arbeitsablauf verwalten können."
 
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.welcome_article_body
@@ -1038,7 +1033,7 @@ msgid ""
 msgstr ""
 "Das ist natürlich nur eine Übersicht über die Funktionen, die in diesem "
 "Paket enthalten sind. Sie können gerne neue Apps hinzufügen, Demodaten "
-"löschen/anpassen und etwas herumspielen."
+"löschen oder anpassen und etwas herumspielen."
 
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.welcome_article_body
@@ -1634,7 +1629,8 @@ msgstr "Workshop-Anmeldung"
 #: model_terms:ir.ui.view,arch_db:diy_workshops.welcome_article_body
 msgid "Would you like to discuss your Odoo setup with us or go even further?"
 msgstr ""
-"Möchten Sie Ihre Odoo-Einrichtung mit uns besprechen oder noch weiter gehen?"
+"Möchten Sie Ihre Odoo-Konfiguration mit uns besprechen oder noch einen "
+"Schritt weiter gehen?"
 
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.welcome_article_body
@@ -1700,7 +1696,7 @@ msgstr "Angebot für Stammkunden mit flexiblen Zeitplänen"
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.ir_ui_view_3984
 msgid "hello@mycompany.com"
-msgstr "hello@meinunternehmen.com"
+msgstr "hallo@meinunternehmen.de"
 
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.homepage
@@ -1732,13 +1728,11 @@ msgstr "95 € für 5 Unterrichtsstunden (gültig für 3 Monate)"
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.homepage
 msgid ""
-"﻿<a t-att-"
-"href=\"request.env.ref('diy_workshops.product_product_22').website_url\" "
-"class=\"o_translate_inline btn btn-secondary\">﻿Buy Gift Card﻿</a>﻿"
+"﻿<a href=\"*gift_card_product*\" class=\"o_translate_inline btn btn-"
+"secondary\">﻿Buy Gift Card﻿</a>﻿"
 msgstr ""
-"﻿<a t-att-"
-"href=\"request.env.ref('diy_workshops.product_product_22').website_url\" "
-"class=\"o_translate_inline btn btn-secondary\">﻿Geschenkkarte kaufen﻿</a>﻿"
+"﻿<a href=\"*gift_card_product*\" class=\"o_translate_inline btn btn-"
+"secondary\">﻿Geschenkkarte kaufen﻿</a>﻿"
 
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.homepage
@@ -1759,3 +1753,15 @@ msgstr "Kontakt"
 #: model_terms:ir.ui.view,arch_db:diy_workshops.homepage
 msgid "﻿Read more﻿"
 msgstr "Mehr lesen"
+
+#~ msgid "+1 555-555-5556"
+#~ msgstr "+1 555-555-5556"
+
+#~ msgid ""
+#~ "﻿<a t-att-"
+#~ "href=\"request.env.ref('diy_workshops.product_product_22').website_url\" "
+#~ "class=\"o_translate_inline btn btn-secondary\">﻿Buy Gift Card﻿</a>﻿"
+#~ msgstr ""
+#~ "﻿<a t-att-"
+#~ "href=\"request.env.ref('diy_workshops.product_product_22').website_url\" "
+#~ "class=\"o_translate_inline btn btn-secondary\">﻿Geschenkkarte kaufen﻿</a>﻿"

@@ -5,13 +5,15 @@
 # Odoo Translation Bot <c3p@odoo.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # DeepL <noreply-mt-deepl@weblate.org>, 2025.
+# Odoo Turkish Import <dyki+tr@odoo.com>, 2025.
+# "Malaz Siddig Elsayed Abuidris (msea)" <msea@odoo.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 14:21+0000\n"
-"PO-Revision-Date: 2025-11-12 14:45+0000\n"
-"Last-Translator: DeepL <noreply-mt-deepl@weblate.org>\n"
+"POT-Creation-Date: 2026-04-10 19:51+0000\n"
+"PO-Revision-Date: 2025-12-01 08:14+0000\n"
+"Last-Translator: \"Malaz Siddig Elsayed Abuidris (msea)\" <msea@odoo.com>\n"
 "Language-Team: Turkish <https://translate.odoo.com/projects/odoo-19/"
 "veterinary_clinic/tr/>\n"
 "Language: tr\n"
@@ -19,44 +21,38 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_pets_line_ids_field
-#, fuzzy
 msgid " - (Consultations)"
 msgstr " - (İstişareler)"
 
 #. module: veterinary_clinic
-#: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
-msgid "+12"
-msgstr "12'den fazla"
-
-#. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
 ", go to My Databases, then click the <strong>gear icon </strong>to\n"
 "                        duplicate your database. <br/>"
 msgstr ""
-"'e gidin, Veritabanlarım'a gidin, ardından <strong>dişli simgesine "
-"</strong>tıklayın.\n"
+"'e gidin, Veritabanlarım'a gidin, ardından <strong>dişli simgesine </"
+"strong>tıklayın.\n"
 "                        veritabanınızı çoğaltın. <br/>"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.kanban_custom_view_for_x_pets
-#, fuzzy
 msgid "- (Consultations)"
 msgstr "- (İstişareler)"
 
 #. module: veterinary_clinic
-#: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
-msgid "22%"
-msgstr "%22"
+#: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
+msgid ""
+"<b>Contacts App</b>: Maintain a clean directory of pet owners, linked "
+"directly to their animal's medical\n"
+"                profiles for easy access."
+msgstr ""
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
-#, fuzzy
 msgid ""
 "<br/>At MyVeterinarian, we treat every pet like a cherished member of the "
 "family. Our experienced team is dedicated to providing gentle, expert care "
@@ -72,7 +68,8 @@ msgstr ""
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.contactus
-msgid "<i class=\"fa fa-1x fa-fw fa-envelope me-2\"/>info@yourcompany.example.com"
+msgid ""
+"<i class=\"fa fa-1x fa-fw fa-envelope me-2\"/>info@yourcompany.example.com"
 msgstr ""
 "<i class=\"fa fa-1x fa-fw fa-envelope me-2\"/>info@yourcompany.example.com"
 
@@ -80,7 +77,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.contactus
 msgid ""
 "<i class=\"fa fa-map-marker fa-fw me-2\"/>\n"
-"                            <span class=\"o_force_ltr\">3575 Fake Buena Vista Avenue</span>"
+"                            <span class=\"o_force_ltr\">3575 Fake Buena "
+"Vista Avenue</span>"
 msgstr ""
 "<i class=\"fa fa-map-marker fa-fw me-2\"/>\n"
 "                            <span class=\"o_force_ltr\">3575 Fake Buena "
@@ -90,11 +88,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.contactus
 msgid ""
 "<i class=\"fa fa-phone fa-fw me-2\"/>\n"
-"                            <span class=\"o_force_ltr\">+1 555-555-5556</span>"
+"                            <span class=\"o_force_ltr\">+1 555-555-5556</"
+"span>"
 msgstr ""
 "<i class=\"fa fa-phone fa-fw me-2\"/>\n"
-"                            <span class=\"o_force_ltr\">+1 "
-"555-555-5556</span>"
+"                            <span class=\"o_force_ltr\">+1 555-555-5556</"
+"span>"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -102,37 +101,34 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">💡</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Afiş Bilgi\">💡</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label=\"Afiş "
+"Bilgi\">💡</i>"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">✅</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Success\">✅</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\">✅</i>"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Warning\">⚠️</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Warning\">⚠️</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Warning\">⚠️</i>"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
 "<span class=\"display-4-fs\"><strong>Odoo for Veterinarians</strong></span>"
 msgstr ""
-"<span class=\"display-4-fs\"><strong>Veteriner Hekimler için "
-"Odoo</strong></span>"
+"<span class=\"display-4-fs\"><strong>Veteriner Hekimler için Odoo</strong></"
+"span>"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -141,97 +137,109 @@ msgstr "<span class=\"h1-fs\">Temel Bilgiler</span>"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
-#, fuzzy
 msgid ""
-"<span class=\"s_pricelist_boxed_item_title d-flex align-items-baseline fw-bold\">\n"
-"                              <span class=\"s_pricelist_boxed_item_name\"> Flea and Tick Prevention </span>\n"
-"                              <span class=\"s_pricelist_boxed_item_line flex-grow-1 ms-2 border-top\"/>\n"
-"                              <span class=\"s_pricelist_boxed_item_price ms-auto ps-3\"> $25.00 </span>\n"
+"<span class=\"s_pricelist_boxed_item_title d-flex align-items-baseline fw-"
+"bold\">\n"
+"                              <span class=\"s_pricelist_boxed_item_name\"> "
+"Flea and Tick Prevention </span>\n"
+"                              <span class=\"s_pricelist_boxed_item_line flex-"
+"grow-1 ms-2 border-top\"/>\n"
+"                              <span class=\"s_pricelist_boxed_item_price ms-"
+"auto ps-3\"> $25.00 </span>\n"
 "                            </span>\n"
-"                            <span class=\"s_pricelist_boxed_item_description d-block mt-2 pe-5 text-muted o_small\">\n"
-"        High-quality flea and tick prevention products available in various forms, providing long-lasting protection for your pets.\n"
+"                            <span class=\"s_pricelist_boxed_item_description "
+"d-block mt-2 pe-5 text-muted o_small\">\n"
+"        High-quality flea and tick prevention products available in various "
+"forms, providing long-lasting protection for your pets.\n"
 "    </span>"
 msgstr ""
-"<span class="
-"\"s_pricelist_boxed_item_title d-flex align-items-baseline fw-bold\">\n"
+"<span class=\"s_pricelist_boxed_item_title d-flex align-items-baseline fw-"
+"bold\">\n"
 "                              <span class=\"s_pricelist_boxed_item_name\"> "
 "Pire ve Kene Önleme </span>\n"
-"                              <span class="
-"\"s_pricelist_boxed_item_line flex-grow-1 ms-2 border-top\"/>\n"
-"                              <span class="
-"\"s_pricelist_boxed_item_price ms-auto ps-3\"> $25.00 </span>\n"
+"                              <span class=\"s_pricelist_boxed_item_line flex-"
+"grow-1 ms-2 border-top\"/>\n"
+"                              <span class=\"s_pricelist_boxed_item_price ms-"
+"auto ps-3\"> $25.00 </span>\n"
 "                            </span>\n"
-"                           <span class="
-"\"s_pricelist_boxed_item_description d-block mt-2 pe-5 text-muted o_small\">"
-"\n"
+"                           <span class=\"s_pricelist_boxed_item_description "
+"d-block mt-2 pe-5 text-muted o_small\">\n"
 "        Evcil hayvanlarınız için uzun süreli koruma sağlayan yüksek kaliteli "
 "pire ve kene önleme ürünleri çeşitli formlarda mevcuttur.\n"
 "   </span>"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
-#, fuzzy
 msgid ""
-"<span class=\"s_pricelist_boxed_item_title d-flex align-items-baseline fw-bold\">\n"
-"                              <span class=\"s_pricelist_boxed_item_name\"> Flea and Tick Treatment </span>\n"
-"                              <span class=\"s_pricelist_boxed_item_line flex-grow-1 ms-2 border-top\"/>\n"
-"                              <span class=\"s_pricelist_boxed_item_price ms-auto ps-3\"> $45.00 </span>\n"
+"<span class=\"s_pricelist_boxed_item_title d-flex align-items-baseline fw-"
+"bold\">\n"
+"                              <span class=\"s_pricelist_boxed_item_name\"> "
+"Flea and Tick Treatment </span>\n"
+"                              <span class=\"s_pricelist_boxed_item_line flex-"
+"grow-1 ms-2 border-top\"/>\n"
+"                              <span class=\"s_pricelist_boxed_item_price ms-"
+"auto ps-3\"> $45.00 </span>\n"
 "                            </span>\n"
-"                            <span class=\"s_pricelist_boxed_item_description d-block mt-2 pe-5 text-muted o_small\">\n"
-"        Effective treatment that protects your pet from fleas and ticks, ensuring comfort and health for your furry friend.\n"
+"                            <span class=\"s_pricelist_boxed_item_description "
+"d-block mt-2 pe-5 text-muted o_small\">\n"
+"        Effective treatment that protects your pet from fleas and ticks, "
+"ensuring comfort and health for your furry friend.\n"
 "    </span>"
 msgstr ""
-"<span class="
-"\"s_pricelist_boxed_item_title d-flex align-items-baseline fw-bold\">\n"
+"<span class=\"s_pricelist_boxed_item_title d-flex align-items-baseline fw-"
+"bold\">\n"
 "                              <span class=\"s_pricelist_boxed_item_name\"> "
 "Pire ve Kene Tedavisi </span>\n"
-"                              <span class="
-"\"s_pricelist_boxed_item_line flex-grow-1 ms-2 border-top\"/>\n"
-"                              <span class="
-"\"s_pricelist_boxed_item_price ms-auto ps-3\"> $45.00 </span>\n"
+"                              <span class=\"s_pricelist_boxed_item_line flex-"
+"grow-1 ms-2 border-top\"/>\n"
+"                              <span class=\"s_pricelist_boxed_item_price ms-"
+"auto ps-3\"> $45.00 </span>\n"
 "                            </span>\n"
-"                           <span class="
-"\"s_pricelist_boxed_item_description d-block mt-2 pe-5 text-muted o_small\">"
-"\n"
+"                           <span class=\"s_pricelist_boxed_item_description "
+"d-block mt-2 pe-5 text-muted o_small\">\n"
 "        Evcil hayvanınızı pire ve kenelerden koruyan etkili tedavi, tüylü "
 "dostunuz için konfor ve sağlık sağlar.\n"
 "   </span>"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
-#, fuzzy
 msgid ""
-"<span class=\"s_pricelist_boxed_item_title d-flex align-items-baseline fw-bold\">\n"
-"                              <span class=\"s_pricelist_boxed_item_name\"> Long-Lasting Pet Nutrition </span>\n"
-"                              <span class=\"s_pricelist_boxed_item_line flex-grow-1 ms-2 border-top\"/>\n"
-"                              <span class=\"s_pricelist_boxed_item_price ms-auto ps-3\"> $50.00 </span>\n"
+"<span class=\"s_pricelist_boxed_item_title d-flex align-items-baseline fw-"
+"bold\">\n"
+"                              <span class=\"s_pricelist_boxed_item_name\"> "
+"Long-Lasting Pet Nutrition </span>\n"
+"                              <span class=\"s_pricelist_boxed_item_line flex-"
+"grow-1 ms-2 border-top\"/>\n"
+"                              <span class=\"s_pricelist_boxed_item_price ms-"
+"auto ps-3\"> $50.00 </span>\n"
 "                            </span>\n"
-"                            <span class=\"s_pricelist_boxed_item_description d-block mt-2 pe-5 text-muted o_small\">\n"
-"        A gentle, effective dental cleaning service that promotes oral health while keeping your pet comfortable.\n"
+"                            <span class=\"s_pricelist_boxed_item_description "
+"d-block mt-2 pe-5 text-muted o_small\">\n"
+"        A gentle, effective dental cleaning service that promotes oral "
+"health while keeping your pet comfortable.\n"
 "    </span>"
 msgstr ""
-"<span class="
-"\"s_pricelist_boxed_item_title d-flex align-items-baseline fw-bold\">\n"
+"<span class=\"s_pricelist_boxed_item_title d-flex align-items-baseline fw-"
+"bold\">\n"
 "                              <span class=\"s_pricelist_boxed_item_name\"> "
 "Uzun Ömürlü Evcil Hayvan Beslenmesi </span>\n"
-"                              <span class="
-"\"s_pricelist_boxed_item_line flex-grow-1 ms-2 border-top\"/>\n"
-"                              <span class="
-"\"s_pricelist_boxed_item_price ms-auto ps-3\"> $50.00 </span>\n"
+"                              <span class=\"s_pricelist_boxed_item_line flex-"
+"grow-1 ms-2 border-top\"/>\n"
+"                              <span class=\"s_pricelist_boxed_item_price ms-"
+"auto ps-3\"> $50.00 </span>\n"
 "                            </span>\n"
-"                           <span class="
-"\"s_pricelist_boxed_item_description d-block mt-2 pe-5 text-muted o_small\">"
-"\n"
+"                           <span class=\"s_pricelist_boxed_item_description "
+"d-block mt-2 pe-5 text-muted o_small\">\n"
 "        Evcil hayvanınızı rahat ettirirken ağız sağlığını destekleyen nazik, "
 "etkili bir diş temizliği hizmeti.\n"
 "   </span>"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.contactus
-#, fuzzy
 msgid ""
 "<span class=\"s_website_form_label_content\">Details of your enquiry</span>\n"
-"                                      <span class=\"s_website_form_mark\"> *</span>"
+"                                      <span class=\"s_website_form_mark\"> "
+"*</span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Sorunuzun ayrıntıları</span>\n"
 "                                      <span class=\"s_website_form_mark\"> "
@@ -244,10 +252,10 @@ msgstr "<span class=\"s_website_form_label_content\">Telefon Numarası</span>"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.contactus
-#, fuzzy
 msgid ""
 "<span class=\"s_website_form_label_content\">Purpose of the visit</span>\n"
-"                                      <span class=\"s_website_form_mark\"> *</span>"
+"                                      <span class=\"s_website_form_mark\"> "
+"*</span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Ziyaretin amacı</span>\n"
 "                                      <span class=\"s_website_form_mark\"> "
@@ -255,10 +263,10 @@ msgstr ""
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.contactus
-#, fuzzy
 msgid ""
 "<span class=\"s_website_form_label_content\">Subject</span>\n"
-"                                      <span class=\"s_website_form_mark\"> *</span>"
+"                                      <span class=\"s_website_form_mark\"> "
+"*</span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Konu</span>\n"
 "                                      <span class=\"s_website_form_mark\"> "
@@ -266,10 +274,10 @@ msgstr ""
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.contactus
-#, fuzzy
 msgid ""
 "<span class=\"s_website_form_label_content\">Your Email</span>\n"
-"                                      <span class=\"s_website_form_mark\"> *</span>"
+"                                      <span class=\"s_website_form_mark\"> "
+"*</span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">E-postanız</span>\n"
 "                                      <span class=\"s_website_form_mark\"> "
@@ -277,10 +285,10 @@ msgstr ""
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.contactus
-#, fuzzy
 msgid ""
 "<span class=\"s_website_form_label_content\">Your Name</span>\n"
-"                                      <span class=\"s_website_form_mark\"> *</span>"
+"                                      <span class=\"s_website_form_mark\"> "
+"*</span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Adınız</span>\n"
 "                                      <span class=\"s_website_form_mark\"> "
@@ -288,18 +296,58 @@ msgstr ""
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>\n"
-"            Use the Sign App to manage consent forms, employee contracts, and more !<br/>\n"
+"            Use the Sign App to manage consent forms, employee contracts, "
+"and more !<br/>\n"
 "            <br/>\n"
 "        </strong>"
 msgstr ""
 "<strong>\n"
 "            Onay formlarını, çalışan sözleşmelerini ve daha fazlasını "
-"yönetmek için Sign Uygulamasını kullanın!<br/>\n"
+"yönetmek için Imza Uygulamasını kullanın!<br/>\n"
 "            <br/>\n"
 "       </strong>"
+
+#. module: veterinary_clinic
+#: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
+msgid ""
+"<strong><b>Appointments App</b>:</strong> Streamline the booking process for "
+"pet owners, allowing them to\n"
+"                schedule check-ups and surgeries online 24/7.<br/>"
+msgstr ""
+
+#. module: veterinary_clinic
+#: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
+msgid ""
+"<strong><b>Invoicing App</b>:</strong> Simplify your finances by "
+"automatically generating invoices from\n"
+"                completed consultations and product sales.<br/>"
+msgstr ""
+
+#. module: veterinary_clinic
+#: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
+msgid ""
+"<strong><b>Marketing App</b>: </strong>Engage your community with targeted "
+"email campaigns for vaccination\n"
+"                reminders and seasonal health check-ups.<br/>"
+msgstr ""
+
+#. module: veterinary_clinic
+#: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
+msgid ""
+"<strong><b>Point of Sale App</b>: </strong>Facilitate a smooth checkout "
+"experience by linking consultations and\n"
+"                product sales directly to your payment terminal.<br/>"
+msgstr ""
+
+#. module: veterinary_clinic
+#: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
+msgid ""
+"<strong><b>Website App</b>: </strong>Build a professional online presence to "
+"market your clinic, share health\n"
+"                tips, and attract new pet owners.<br/>"
+msgstr ""
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -308,18 +356,6 @@ msgstr "<strong><span class=\"h2-fs\">Başarı İçin İpuçları</span></strong
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
-msgid ""
-"<strong>Appointments</strong> 📅: Let clients self‑book visits, synchronize "
-"calendars, and automate confirmation emails."
-msgstr ""
-"<strong>Randevular</strong> 📅: Müşterilerin kendi kendilerine ziyaret "
-"rezervasyonu yapmalarına, takvimleri senkronize etmelerine ve onay e-"
-"postalarını otomatikleştirmelerine izin verin."
-
-#. module: veterinary_clinic
-#: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Attachments</strong> store lab results, X‑rays, or referral letters "
 "alongside notes in the <strong>Lab Tests &amp; Diagnostics tab</strong>."
@@ -330,7 +366,6 @@ msgstr ""
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Automate reminders.</strong> SMS or email nudges cut no‑shows and "
 "keep vaccinations on schedule."
@@ -341,7 +376,6 @@ msgstr ""
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Automatic confirmations &amp; reminders</strong> via email/SMS keep "
 "owners informed."
@@ -351,69 +385,51 @@ msgstr ""
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Barcode &amp; RFID</strong> scanning speeds up product selection."
 msgstr "<strong>Barkod &amp; RFID</strong> tarama, ürün seçimini hızlandırır."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.custom_appointment_info_heading
-#, fuzzy
-msgid ""
-"<strong>Book an Appointment – Compassionate Care for Your Pets</strong>"
-msgstr "<strong>Randevu Alın - Evcil Hayvanlarınız için Şefkatli Bakım</strong>"
+msgid "<strong>Book an Appointment – Compassionate Care for Your Pets</strong>"
+msgstr ""
+"<strong>Randevu Alın - Evcil Hayvanlarınız için Şefkatli Bakım</strong>"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Booking widget</strong> automatically links to the Appointment app "
 "for real‑time availability."
 msgstr ""
-"<strong>Rezervasyon widget'ı</strong> gerçek zamanlı müsaitlik için otomatik "
+"<strong>Rezervasyon bileşeni</strong> gerçek zamanlı müsaitlik için otomatik "
 "olarak Randevu uygulamasına bağlanır."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid "<strong>Buffer times</strong> between consults prevent overruns."
 msgstr ""
 "<strong>Konsültasyonlar arasındaki tampon süreler</strong> taşmaları önler."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
-"<strong>Consultations</strong> 🩺: Log clinical notes, vitals, diagnoses, and"
-" treatments in structured veterinary encounter forms."
-msgstr ""
-"<strong>Konsültasyonlar</strong> 🩺: Yapılandırılmış veteriner karşılaşma "
-"formlarında klinik notları, hayati bulguları, teşhisleri ve tedavileri "
-"kaydedin."
-
-#. module: veterinary_clinic
-#: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
-msgid ""
-"<strong>Custom fields</strong> capture weight, insurance, behavior notes, or"
-" anything you need."
+"<strong>Custom fields</strong> capture weight, insurance, behavior notes, or "
+"anything you need."
 msgstr ""
 "<strong>Özel alanlar</strong> ağırlık, sigorta, davranış notları veya "
-"ihtiyacınız olan her şeyi yakalar."
+"ihtiyacınız olan her bilgiyi kaydeder."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Drag‑and‑drop builder</strong> to create service, team, and FAQ "
 "pages in minutes."
 msgstr ""
-"<strong>Hizmet, ekip ve SSS sayfalarını dakikalar içinde oluşturmak için "
-"sürükle ve bırak oluşturucu</strong>."
+"Hizmet, ekip ve SSS sayfalarını dakikalar içinde oluşturmak için "
+"<strong>sürükle ve bırak oluşturucu</strong>."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Electronic signatures</strong> accelerate acceptance for surgeries "
 "or long‑term care plans."
@@ -423,7 +439,6 @@ msgstr ""
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Experiment ! </strong>Did you know you can create a copy of your "
 "database to try things out ? Simply go to"
@@ -433,23 +448,19 @@ msgstr ""
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
-"<strong>Live chat</strong> answers visitor questions and captures leads "
-"24/7."
+"<strong>Live chat</strong> answers visitor questions and captures leads 24/7."
 msgstr ""
 "<strong>Canlı sohbet</strong> ziyaretçi sorularını yanıtlar ve 7/24 "
 "potansiyel müşteri yakalar."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid "<strong>Lot/serial tracking</strong> meets pharmaceutical compliance."
 msgstr "<strong>Lot/seri takibi</strong> farmasötik uyumluluğu karşılar."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Multiple payment methods</strong> (cash, card, vouchers) in one "
 "screen."
@@ -459,7 +470,6 @@ msgstr ""
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Multiple units</strong> (dose, box, bottle) with automatic "
 "conversions."
@@ -469,7 +479,6 @@ msgstr ""
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>One‑click product picker</strong> adds vaccines or meds directly to "
 "the visit through the <strong>catalog</strong>."
@@ -479,7 +488,6 @@ msgstr ""
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>One‑click quotation</strong> from consultation converts to invoice "
 "or POS ticket."
@@ -489,7 +497,6 @@ msgstr ""
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Online calendar</strong> shows real‑time slots for each vet or room."
 msgstr ""
@@ -498,17 +505,15 @@ msgstr ""
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
-"<strong>Our Appointment app enables self‑service booking, calendar sync, and"
-" effortless follow‑ups.</strong>"
+"<strong>Our Appointment app enables self‑service booking, calendar sync, and "
+"effortless follow‑ups.</strong>"
 msgstr ""
-"<strong>Randevu uygulamamız self servis rezervasyon, takvim senkronizasyonu "
-"ve zahmetsiz takip imkanı sağlar.</strong>"
+"<strong>Randevu uygulamamız kendi kendine rezervasyon, takvim "
+"senkronizasyonu ve zahmetsiz takip imkanı sağlar.</strong>"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Our Consultation sheets record symptoms, vitals, and actions while "
 "keeping the vet’s workflow fluid.</strong>"
@@ -518,10 +523,9 @@ msgstr ""
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
-"<strong>Our POS lets receptionists scan, split bills, and print "
-"receipts—while stock levels adjust instantly.</strong>"
+"<strong>Our POS lets receptionists scan, split bills, and print receipts—"
+"while stock levels adjust instantly.</strong>"
 msgstr ""
 "<strong>Satış Noktası'mız resepsiyonistlerin faturaları taramasına, "
 "bölmesine ve makbuzları yazdırmasına olanak sağlarken stok seviyeleri anında "
@@ -529,27 +533,24 @@ msgstr ""
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Our Pet records feature centralizes identity, vaccination status, "
 "and allergies for safer treatments.</strong>"
 msgstr ""
-"<strong>Evcil hayvan kayıtları özelliğimiz, daha güvenli tedaviler için "
-"kimlik, aşılama durumu ve alerjileri merkezileştirir.</strong>"
+"<strong>Evcil hayvan kayıtları özelliğimiz, kimlik, aşı durumu ve alerjileri "
+"merkezi bir şekilde yöneterek daha güvenli tedaviler sağlar.</strong>"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Our Product management keeps pricing, barcodes, and expiry dates "
 "accurate across sales channels.</strong>"
 msgstr ""
 "<strong>Ürün yönetimimiz, satış kanalları genelinde fiyatlandırma, barkodlar "
-"ve son kullanma tarihlerinin doğru olmasını sağlar.</strong>"
+"ve son kullanma tarihlerinin güncel olmasını sağlar.</strong>"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Our Sales app groups treatments, products, and services into neat "
 "documents owners trust.</strong>"
@@ -559,7 +560,6 @@ msgstr ""
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Our Website app lets you publish pages, embed booking widgets, and "
 "convert visitors into appointments.</strong>"
@@ -570,17 +570,15 @@ msgstr ""
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
-"<strong>Owner relationship</strong> connects contact details for billing and"
-" reminders."
+"<strong>Owner relationship</strong> connects contact details for billing and "
+"reminders."
 msgstr ""
 "<strong>Sahip ilişkisi</strong> faturalandırma ve hatırlatmalar için "
 "iletişim bilgilerini bağlar."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Payment terms</strong> handle deposits, installments, or immediate "
 "pay."
@@ -590,28 +588,6 @@ msgstr ""
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
-msgid ""
-"<strong>Pets</strong> 🐾: Record pet profiles, species, breed, vaccines, and "
-"owner links for personalized care."
-msgstr ""
-"<strong>Evcil hayvanlar</strong> 🐾: Kişiselleştirilmiş bakım için evcil "
-"hayvan profillerini, türlerini, cinslerini, aşılarını ve sahip "
-"bağlantılarını kaydedin."
-
-#. module: veterinary_clinic
-#: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
-msgid ""
-"<strong>Point of Sale</strong> 💳: Collect payments at reception with barcode"
-" scanning, split bills, and multiple tender types."
-msgstr ""
-"<strong>Satış Noktası</strong> 💳: Barkod tarama, bölünmüş faturalar ve "
-"çoklu ihale türleri ile resepsiyonda ödemeleri toplayın."
-
-#. module: veterinary_clinic
-#: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Price lists &amp; promos</strong> support wellness plans or "
 "discounted packages."
@@ -621,27 +597,15 @@ msgstr ""
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
-msgid ""
-"<strong>Products</strong> 🛒: Maintain medicines, vaccines, food, and "
-"services with prices, stock, and barcodes."
-msgstr ""
-"<strong>Ürünler</strong> 🛒: İlaçları, aşıları, yiyecekleri ve hizmetleri "
-"fiyat, stok ve barkodlarla koruyun."
-
-#. module: veterinary_clinic
-#: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Real‑time sync</strong> with accounting and inventory for zero "
 "re‑entry."
 msgstr ""
-"<strong>Sıfır yeniden giriş için muhasebe ve envanter ile gerçek zamanlı "
-"senkronizasyon</strong>."
+"<strong>gerçek zamanlı senkronizasyon</strong> muhasebe ve stok ile tekrar "
+"veri girişi olmadan çalışır."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Reorder rules</strong> trigger purchase orders before you run out."
 msgstr ""
@@ -650,7 +614,6 @@ msgstr ""
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Revenue reporting</strong> reveals top services, margins, and "
 "seasonal trends."
@@ -660,7 +623,6 @@ msgstr ""
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>SEO tools</strong> improve ranking so local pet owners find you "
 "first."
@@ -670,17 +632,6 @@ msgstr ""
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
-msgid ""
-"<strong>Sales</strong> 📝: Generate quotations and invoices from consultation"
-" products, tracking revenue easily."
-msgstr ""
-"<strong>Satış</strong> 📝: Danışma ürünlerinden teklifler ve faturalar "
-"oluşturun, geliri kolayca takip edin."
-
-#. module: veterinary_clinic
-#: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Staff agenda integration</strong> syncs with Google, Outlook, and "
 "mobile calendars."
@@ -690,19 +641,17 @@ msgstr ""
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Start small, iterate.</strong> Configure your website and "
 "appointments first, then add your products to the mix, before managing your "
 "consultations."
 msgstr ""
-"<strong>Küçük başlayın, yineleyin.</strong> Önce web sitenizi ve "
-"randevularınızı yapılandırın, ardından danışmanlıklarınızı yönetmeden önce "
-"ürünlerinizi karışıma ekleyin."
+"<strong>Küçük başlayın, geliştirin.</strong>Önce web sitenizi ve "
+"randevularınızı yapılandırın, ardından ürünlerinizi ekleyin ve son olarak "
+"danışmanlıklarınızı yönetin."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Template fields </strong>(vaccines, agression level, observed "
 "ilnesses, etc.) speed up SOAP or problem‑oriented entries."
@@ -712,17 +661,15 @@ msgstr ""
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
-"<strong>The chatter </strong>can be used to track ongoing discussion about a"
-" pet's consultation for record keeping."
+"<strong>The chatter </strong>can be used to track ongoing discussion about a "
+"pet's consultation for record keeping."
 msgstr ""
 "<strong>Sohbet </strong>, kayıt tutmak amacıyla bir evcil hayvanın "
 "konsültasyonu hakkında devam eden tartışmaları izlemek için kullanılabilir."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Touch interface</strong> optimized for tablets or desktop stations."
 msgstr ""
@@ -731,16 +678,14 @@ msgstr ""
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Unique pet IDs</strong> with breed, color, microchip, and photo."
 msgstr ""
-"<strong>Cins, renk, mikroçip ve fotoğraf içeren benzersiz evcil hayvan "
+"Cins, renk, mikroçip ve fotoğraf içeren <strong>benzersiz evcil hayvan "
 "kimlikleri</strong>."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Vaccination timeline</strong> shows past and due shots at a glance."
 msgstr ""
@@ -749,25 +694,13 @@ msgstr ""
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid "<strong>Visit our E-Learning platform </strong>on"
 msgstr "<strong>E-Öğrenim platformumuzu </strong>adresinde ziyaret edin"
 
 #. module: veterinary_clinic
-#: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
-msgid ""
-"<strong>Website</strong> 🌐: Publish services online and capture appointment "
-"requests through engaging, responsive pages."
-msgstr ""
-"<strong>Web sitesi</strong> 🌐: İlgi çekici, duyarlı sayfalar aracılığıyla "
-"hizmetleri çevrimiçi yayınlayın ve randevu taleplerini alın."
-
-#. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_1
-#, fuzzy
 msgid "Abyssinian"
-msgstr "Habeşistan"
+msgstr "Abyssinian"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.active_illnesses_model_field
@@ -780,105 +713,89 @@ msgstr "Etkin"
 #. module: veterinary_clinic
 #: model:crm.tag,name:veterinary_clinic.crm_tag_4
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.contactus
-#, fuzzy
 msgid "Active treatment"
 msgstr "Aktif tedavi"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_activity_level_exercise_pets_line_model_field
-#, fuzzy
 msgid "Activity level & Exercise"
 msgstr "Aktivite seviyesi & Egzersiz"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_aggression_level_pets_line_field
 #: model:ir.model.fields,field_description:veterinary_clinic.x_aggression_level_pets_model_field
-#, fuzzy
 msgid "Aggression level"
 msgstr "Saldırganlık seviyesi"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields.selection,name:veterinary_clinic.x_aggression_level_pets_model_field_selection_aggressive
-#, fuzzy
 msgid "Aggressive"
 msgstr "Agresif"
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_2
-#, fuzzy
 msgid "American shorthair"
 msgstr "Amerikan shorthair"
 
 #. module: veterinary_clinic
 #: model:appointment.question,name:veterinary_clinic.appointment_question_2
-#, fuzzy
 msgid "Animal species"
 msgstr "Hayvan türleri"
 
 #. module: veterinary_clinic
 #: model:appointment.answer,name:veterinary_clinic.appointment_answer_1
-#, fuzzy
 msgid "Annual Checkup / General Consultation"
 msgstr "Yıllık Kontrol / Genel Konsültasyon"
 
 #. module: veterinary_clinic
 #: model:product.template,name:veterinary_clinic.product_template_2
-#, fuzzy
 msgid "Antibiotics"
 msgstr "Antibiyotikler"
 
 #. module: veterinary_clinic
 #: model:product.template,name:veterinary_clinic.product_template_5
-#, fuzzy
 msgid "Antifugal"
 msgstr "Antifüj"
 
 #. module: veterinary_clinic
 #: model:product.template,name:veterinary_clinic.product_template_4
-#, fuzzy
 msgid "Antiparasitic"
 msgstr "Antiparaziter"
 
 #. module: veterinary_clinic
 #: model:product.template,name:veterinary_clinic.product_template_7
-#, fuzzy
 msgid "Antiviral for Dogs"
 msgstr "Köpekler için Antiviral"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.contactus
-#, fuzzy
 msgid "Apply to have your pet become a patient with us.&amp;nbsp;"
-msgstr "Evcil hayvanınızın bizde hasta olması için başvurun.&amp;nbsp;"
+msgstr ""
+"Evcil hayvanınızın bizde hasta olarak kaydetmek için başvurun.&amp;nbsp;"
 
 #. module: veterinary_clinic
 #: model:base.automation,name:veterinary_clinic.appointment_sequence_automation_rule
-#, fuzzy
 msgid "Appointment Sequence"
 msgstr "Randevu Sırası"
 
 #. module: veterinary_clinic
 #: model:ir.actions.server,name:veterinary_clinic.action_server_appointment_sequence
-#, fuzzy
 msgid "Appointment Sequence server action"
 msgstr "Randevu Sırası sunucu eylemi"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_appointment_date_pets_line_field
-#, fuzzy
 msgid "Appointment date"
 msgstr "Randevu tarihi"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_pets
-#, fuzzy
 msgid "Appointment log"
 msgstr "Randevu kaydı"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_pets
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_pets_line_model
-#, fuzzy
 msgid "Appointment summary"
 msgstr "Randevu özeti"
 
@@ -890,13 +807,11 @@ msgstr "Randevular"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid "Appointments Documentation"
 msgstr "Randevu Dokümantasyonu"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid "Appointments 📅"
 msgstr "Randevular 📅"
 
@@ -910,7 +825,6 @@ msgstr "Arşivlendi"
 
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_8
-#, fuzzy
 msgid "Arthritis"
 msgstr "Artrit"
 
@@ -926,43 +840,36 @@ msgstr "Birikmiş İşler"
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_3
-#, fuzzy
 msgid "Bengal"
 msgstr "Bengal"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_bloodwork_pets_line_field
-#, fuzzy
 msgid "Bloodwork"
 msgstr "Kan tahlili"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_bloodwork_filename_pets_line_field
-#, fuzzy
 msgid "Bloodwork "
 msgstr "Kan tahlili "
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_4
-#, fuzzy
 msgid "Bombay"
 msgstr "Bombay"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
-#, fuzzy
 msgid "Book a veterinary appointment"
 msgstr "Veteriner randevusu alın"
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_23
-#, fuzzy
 msgid "Border Collie"
 msgstr "Border Collie"
 
 #. module: veterinary_clinic
 #: model:x_vaccines,x_name:veterinary_clinic.x_vaccines_4
-#, fuzzy
 msgid "Bordetella (Kennel Cough)"
 msgstr "Bordetella (Kennel Cough)"
 
@@ -971,38 +878,32 @@ msgstr "Bordetella (Kennel Cough)"
 #: model:ir.model.fields,field_description:veterinary_clinic.x_breed_pets_model_field
 #: model:ir.model.fields,field_description:veterinary_clinic.x_name_species_line_model_field
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_species_default
-#, fuzzy
 msgid "Breed"
 msgstr "Cins"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_race_species_model_field
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_species_default
-#, fuzzy
 msgid "Breeds"
 msgstr "Irklar"
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_5
-#, fuzzy
 msgid "British shorthair"
-msgstr "İngiliz stenografi"
+msgstr "British shorthair"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
-#, fuzzy
 msgid "Building connections with pets"
 msgstr "Evcil hayvanlarla bağlantı kurma"
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_6
-#, fuzzy
 msgid "Burmese"
-msgstr "Birmanya"
+msgstr "Burmese"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
 "By clicking the Catalog button from a consultation, and adding the (to be "
 "invoiced) products to the consultation, the person in charge of collecting "
@@ -1014,20 +915,17 @@ msgstr ""
 
 #. module: veterinary_clinic
 #: model:x_vaccines,x_name:veterinary_clinic.x_vaccines_6
-#, fuzzy
 msgid "Canine Influenza (Dog Flu)"
 msgstr "Köpek Gribi (Canine Influenza)"
 
 #. module: veterinary_clinic
 #: model:appointment.answer,name:veterinary_clinic.appointment_answer_6
 #: model:x_species,x_name:veterinary_clinic.x_species_1
-#, fuzzy
 msgid "Cat"
 msgstr "Kedi"
 
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_10
-#, fuzzy
 msgid "Cat flu"
 msgstr "Kedi gribi"
 
@@ -1038,7 +936,6 @@ msgstr "Katalog"
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_15
-#, fuzzy
 msgid "Chihuahua"
 msgstr "Chihuahua"
 
@@ -1050,13 +947,11 @@ msgstr "Kapat"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_coat_condition_pets_line_model_field
-#, fuzzy
 msgid "Coat condition"
-msgstr "Palto durumu"
+msgstr "Tüy durumu"
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_24
-#, fuzzy
 msgid "Cocker Spaniel"
 msgstr "Cocker Spaniel"
 
@@ -1067,13 +962,11 @@ msgstr "Renk"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
-#, fuzzy
 msgid "Compassion"
 msgstr "Merhamet"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
-#, fuzzy
 msgid "Compassionate care for <br/>your furry friends"
 msgstr "Tüylü dostlarınız için <br/>şefkatli bakım"
 
@@ -1084,34 +977,29 @@ msgstr "Ayarlar"
 
 #. module: veterinary_clinic
 #: model:appointment.type,name:veterinary_clinic.appointment_type_1
-#, fuzzy
 msgid "Consultation - Checkup"
-msgstr "Konsültasyon - Checkup"
+msgstr "Muayene - Checkup"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_name_pets_line_field
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_pets
-#, fuzzy
 msgid "Consultation ID"
-msgstr "Danışma Kimliği"
+msgstr "Muayene Kimliği"
 
 #. module: veterinary_clinic
 #: model:ir.actions.act_window,name:veterinary_clinic.consultations_pet_line_action_window
 #: model:ir.ui.menu,name:veterinary_clinic.menu_pets_consultations
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_pets
-#, fuzzy
 msgid "Consultations"
-msgstr "İstişareler"
+msgstr "Muayeneler"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid "Consultations 🩺"
-msgstr "İstişareler 🩺"
+msgstr "Muayeneler 🩺"
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_7
-#, fuzzy
 msgid "Cornish Rex"
 msgstr "Cornish Rex"
 
@@ -1123,7 +1011,6 @@ msgstr "Tarafından oluşturuldu"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.created_by_field
-#, fuzzy
 msgid "Created by "
 msgstr "Tarafından oluşturuldu "
 
@@ -1139,13 +1026,11 @@ msgstr "Kur"
 
 #. module: veterinary_clinic
 #: model:x_vaccines,x_name:veterinary_clinic.x_vaccines_2
-#, fuzzy
 msgid "DHPP (Distemper, Hepatitis, Parvovirus, Parainfluenza)"
 msgstr "DHPP (Distemper, Hepatit, Parvovirüs, Parainfluenza)"
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_18
-#, fuzzy
 msgid "Dachshund"
 msgstr "Dachshund"
 
@@ -1156,13 +1041,11 @@ msgstr "Doğum Tarihi"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields.selection,name:veterinary_clinic.x_aggression_level_pets_model_field_selection_defensive
-#, fuzzy
 msgid "Defensive"
 msgstr "Defansif"
 
 #. module: veterinary_clinic
 #: model:product.attribute.value,name:veterinary_clinic.product_attribute_value_3
-#, fuzzy
 msgid "Dental Extraction"
 msgstr "Diş Çekimi"
 
@@ -1170,19 +1053,16 @@ msgstr "Diş Çekimi"
 #: model:appointment.answer,name:veterinary_clinic.appointment_answer_3
 #: model:crm.tag,name:veterinary_clinic.crm_tag_3
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.contactus
-#, fuzzy
 msgid "Dental checkup"
 msgstr "Diş muayenesi"
 
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_9
-#, fuzzy
 msgid "Dental disease"
 msgstr "Diş hastalıkları"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_dental_health_pets_line_model_field
-#, fuzzy
 msgid "Dental health"
 msgstr "Diş sağlığı"
 
@@ -1205,26 +1085,22 @@ msgstr "Detaylar"
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_8
-#, fuzzy
 msgid "Devon Rex"
 msgstr "Devon Rex"
 
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_14
-#, fuzzy
 msgid "Diabetes"
 msgstr "Diyabet"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_diet_nutrition_pets_line_model_field
-#, fuzzy
 msgid "Diet & Nutrition"
 msgstr "Diyet ve Beslenme"
 
 #. module: veterinary_clinic
 #: model:product.attribute.value,name:veterinary_clinic.product_attribute_value_6
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_2
-#, fuzzy
 msgid "Distemper"
 msgstr "Distemper"
 
@@ -1236,25 +1112,21 @@ msgstr "Daha Fazlasını İster misiniz?"
 #. module: veterinary_clinic
 #: model:appointment.answer,name:veterinary_clinic.appointment_answer_7
 #: model:x_species,x_name:veterinary_clinic.x_species_2
-#, fuzzy
 msgid "Dog"
 msgstr "Köpek"
 
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_5
-#, fuzzy
 msgid "Ear Infenction"
 msgstr "Kulak Enfeksiyonu"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_ear_health_pets_line_model_field
-#, fuzzy
 msgid "Ear health"
 msgstr "Kulak sağlığı"
 
 #. module: veterinary_clinic
 #: model_terms:appointment.type,message_intro:veterinary_clinic.appointment_type_1
-#, fuzzy
 msgid ""
 "Easily schedule an appointment with our experienced veterinary team to keep "
 "your pet happy and healthy. Whether it’s a routine check-up, vaccinations, "
@@ -1266,13 +1138,11 @@ msgstr ""
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_9
-#, fuzzy
 msgid "Egyptian Mau"
-msgstr "Mısırlı Mau"
+msgstr "Egyptian Mau"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
-#, fuzzy
 msgid ""
 "Enhance your pet's health with our range of expert veterinary services and "
 "products. Tailored for every breed and size."
@@ -1282,55 +1152,46 @@ msgstr ""
 
 #. module: veterinary_clinic
 #: model:x_vaccines,x_name:veterinary_clinic.x_vaccines_12
-#, fuzzy
 msgid "Equine Influenza"
 msgstr "At Gribi"
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_25
-#, fuzzy
 msgid "European Shorthair"
-msgstr "Avrupa Shorthair"
+msgstr "European Shorthair"
 
 #. module: veterinary_clinic
 #: model:x_vaccines,x_name:veterinary_clinic.x_vaccines_7
-#, fuzzy
 msgid "FVRCP (Feline Viral Rhinotracheitis, Calicivirus, Panleukopenia)"
 msgstr "FVRCP (Feline Viral Rhinotracheitis, Calicivirus, Panleukopenia)"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_fecal_exam_results_filename_pets_line_model_field
-#, fuzzy
 msgid "Fecal Exam"
 msgstr "Dışkı Muayenesi"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_fecal_exam_results_pets_line_model_field
-#, fuzzy
 msgid "Fecal exam results"
-msgstr "Fekal muayene sonuçları"
+msgstr "Dışkı muayenesi sonuçları"
 
 #. module: veterinary_clinic
 #: model:x_vaccines,x_name:veterinary_clinic.x_vaccines_9
-#, fuzzy
 msgid "Feline Immunodeficiency Virus (FIV)"
 msgstr "Kedi Bağışıklık Yetmezliği Virüsü (FIV)"
 
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_12
-#, fuzzy
 msgid "Feline Immunodeficiency virus"
 msgstr "Kedi Bağışıklık Yetmezliği virüsü"
 
 #. module: veterinary_clinic
 #: model:x_vaccines,x_name:veterinary_clinic.x_vaccines_8
-#, fuzzy
 msgid "Feline Leukemia (FeLV)"
 msgstr "Kedi Lösemisi (FeLV)"
 
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_11
-#, fuzzy
 msgid "Feline Leukemia Virus"
 msgstr "Kedi Lösemi Virüsü"
 
@@ -1342,19 +1203,16 @@ msgstr "Bayan"
 #. module: veterinary_clinic
 #: model:crm.tag,name:veterinary_clinic.crm_tag_2
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.contactus
-#, fuzzy
 msgid "First Visit"
 msgstr "İlk Ziyaret"
 
 #. module: veterinary_clinic
 #: model:appointment.answer,name:veterinary_clinic.appointment_answer_4
-#, fuzzy
 msgid "First visit"
 msgstr "İlk ziyaret"
 
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_17
-#, fuzzy
 msgid "Fleas"
 msgstr "Pireler"
 
@@ -1365,22 +1223,19 @@ msgstr "Odak"
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_17
-#, fuzzy
 msgid "French Bulldog"
-msgstr "Fransız Bulldog"
+msgstr "French Bulldog"
 
 #. module: veterinary_clinic
 #: model:product.attribute,name:veterinary_clinic.product_attribute_11
-#, fuzzy
 msgid "Frequency and/or dosage"
 msgstr "Sıklık ve/veya dozaj"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
-"From the Point of Sale app, the person in charge of payments can simply load"
-" any Sales Order, and allow for the pet owner to pay directly using your "
+"From the Point of Sale app, the person in charge of payments can simply load "
+"any Sales Order, and allow for the pet owner to pay directly using your "
 "connected bank terminal."
 msgstr ""
 "Satış Noktası uygulamasından, ödemelerden sorumlu kişi herhangi bir Satış "
@@ -1395,19 +1250,16 @@ msgstr "Cinsiyeti"
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_general_remarks_pets_line_field
 #: model:ir.model.fields,field_description:veterinary_clinic.x_general_remarks_pets_model_field
-#, fuzzy
 msgid "General Remarks"
 msgstr "Genel Açıklamalar"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_pets_line_model
-#, fuzzy
 msgid "General observations"
 msgstr "Genel gözlemler"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_pets
-#, fuzzy
 msgid "General remarks"
 msgstr "Genel açıklamalar"
 
@@ -1418,15 +1270,15 @@ msgstr "İletişime geçin"
 
 #. module: veterinary_clinic
 #: model:x_species,x_name:veterinary_clinic.x_species_3
-#, fuzzy
 msgid "Hamster"
 msgstr "Hamster"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
-"Handle your <strong>HR needs</strong> through Odoo's suite of apps: from <strong>Time Off</strong> for holidays, to <strong>Expenses </strong>for small company expenses, to <strong>Sign</strong> for employee contracts and\n"
+"Handle your <strong>HR needs</strong> through Odoo's suite of apps: from "
+"<strong>Time Off</strong> for holidays, to <strong>Expenses </strong>for "
+"small company expenses, to <strong>Sign</strong> for employee contracts and\n"
 "            <strong>Fleet </strong>for company cars."
 msgstr ""
 "Odoo'nun uygulama paketi aracılığıyla <strong>İK ihtiyaçlarınızı</strong> "
@@ -1437,55 +1289,46 @@ msgstr ""
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_pets
-#, fuzzy
 msgid "Handling instructions"
 msgstr "Kullanım talimatları"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_heart_rate_pets_line_model_field
-#, fuzzy
 msgid "Heart rate"
 msgstr "Kalp atış hızı"
 
 #. module: veterinary_clinic
 #: model:product.attribute.value,name:veterinary_clinic.product_attribute_value_8
-#, fuzzy
 msgid "Heartworm Prevention"
 msgstr "Kalp Kurdu Önleme"
 
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_6
-#, fuzzy
 msgid "Heartworm disease"
 msgstr "Kalp kurdu hastalığı"
 
 #. module: veterinary_clinic
 #: model:x_pets,x_name:veterinary_clinic.x_pets_12
-#, fuzzy
 msgid "Heloise"
 msgstr "Heloise"
 
 #. module: veterinary_clinic
 #: model:x_species,x_name:veterinary_clinic.x_species_5
-#, fuzzy
 msgid "Horse"
 msgstr "At"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
-#, fuzzy
 msgid "How we care for your pets"
 msgstr "Evcil hayvanlarınıza nasıl bakıyoruz"
 
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_15
-#, fuzzy
 msgid "Hyperthyroidism"
 msgstr "Hipertiroidizm"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_pets
-#, fuzzy
 msgid "Identifiers"
 msgstr "Tanımlayıcılar"
 
@@ -1504,7 +1347,6 @@ msgstr ""
 #: model:ir.ui.menu,name:veterinary_clinic.menu_contacts_illnesses
 #: model:ir.ui.menu,name:veterinary_clinic.menu_pets_illnesses
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_illnesses
-#, fuzzy
 msgid "Illnesses"
 msgstr "Hastalıklar"
 
@@ -1515,13 +1357,11 @@ msgstr "Bilgi"
 
 #. module: veterinary_clinic
 #: model:sale.order.template.line,name:veterinary_clinic.sale_order_template_line_12
-#, fuzzy
 msgid "Insert notes here"
 msgstr "Notları buraya ekleyin"
 
 #. module: veterinary_clinic
 #: model:sale.order.template.line,name:veterinary_clinic.sale_order_template_line_4
-#, fuzzy
 msgid "Insert notes on treatment here"
 msgstr "Tedaviye ilişkin notları buraya ekleyin"
 
@@ -1532,13 +1372,11 @@ msgstr "Açıklamalar"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields.selection,name:veterinary_clinic.x_reproductive_status_pets_model_field_selection_intact
-#, fuzzy
 msgid "Intact"
 msgstr "Sağlam"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
-#, fuzzy
 msgid "Join us and enjoy the pleasure of caring for your beloved pets."
 msgstr "Bize katılın ve sevgili evcil hayvanlarınıza bakmanın keyfini çıkarın."
 
@@ -1553,71 +1391,60 @@ msgstr ""
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
-"Keep an eye on your company's performance through the <strong>Dashboard "
-"app</strong>."
+"Keep an eye on your company's performance through the <strong>Dashboard app</"
+"strong>."
 msgstr ""
-"<strong>Gösterge Paneli uygulaması</strong> aracılığıyla şirketinizin "
+"<strong>Rapor Paneli uygulaması</strong> aracılığıyla şirketinizin "
 "performansını takip edin."
 
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_3
-#, fuzzy
 msgid "Kennel Cough (Bordetella)"
-msgstr "Köpek Kulübesi Öksürüğü (Bordetella)"
+msgstr "Köpeklerde pansiyon öksürüğü (Bordetella)"
 
 #. module: veterinary_clinic
 #: model:x_pets,x_name:veterinary_clinic.x_pets_6
-#, fuzzy
 msgid "Ket"
 msgstr "Ket"
 
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_16
-#, fuzzy
 msgid "Kidney disease"
 msgstr "Böbrek hastalığı"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_pets_line_model
-#, fuzzy
 msgid "Lab Tests & Diagnostics"
 msgstr "Laboratuvar Testleri ve Teşhis"
 
 #. module: veterinary_clinic
 #: model:x_vaccines,x_name:veterinary_clinic.x_vaccines_3
-#, fuzzy
 msgid "Leptospirosis"
 msgstr "Leptospiroz"
 
 #. module: veterinary_clinic
 #: model:x_pets,x_name:veterinary_clinic.x_pets_2
-#, fuzzy
 msgid "Lucie"
 msgstr "Lucie"
 
 #. module: veterinary_clinic
 #: model:x_vaccines,x_name:veterinary_clinic.x_vaccines_5
-#, fuzzy
 msgid "Lyme Disease"
 msgstr "Lyme Hastalığı"
 
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_4
-#, fuzzy
 msgid "Lyme disease"
 msgstr "Lyme hastalığı"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_mri_pets_line_model_field
-#, fuzzy
 msgid "MRI"
 msgstr "MRI"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_mri_filename_pets_line_model_field
-#, fuzzy
 msgid "MRI "
 msgstr "MRI "
 
@@ -1628,7 +1455,6 @@ msgstr "Bay"
 
 #. module: veterinary_clinic
 #: model:x_pets,x_name:veterinary_clinic.x_pets_3
-#, fuzzy
 msgid "Marcel"
 msgstr "Marcel"
 
@@ -1639,32 +1465,27 @@ msgstr "Farkı işaretle"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_pets_line_model
-#, fuzzy
 msgid "Meeting remarks"
 msgstr "Toplantı açıklamaları"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_microchip_number_pets_line_model_field
 #: model:ir.model.fields,field_description:veterinary_clinic.x_microchip_number_pets_model_field
-#, fuzzy
 msgid "Microchip number"
 msgstr "Mikroçip numarası"
 
 #. module: veterinary_clinic
 #: model:x_pets,x_name:veterinary_clinic.x_pets_1
-#, fuzzy
 msgid "Milos"
 msgstr "Milos"
 
 #. module: veterinary_clinic
 #: model:x_pets,x_name:veterinary_clinic.x_pets_8
-#, fuzzy
 msgid "Mitsi"
 msgstr "Mitsi"
 
 #. module: veterinary_clinic
 #: model:x_pets,x_name:veterinary_clinic.x_pets_4
-#, fuzzy
 msgid "Miyu"
 msgstr "Miyu"
 
@@ -1675,7 +1496,6 @@ msgstr "Şirketim"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
-#, fuzzy
 msgid "MyVeterinarian<br/>"
 msgstr "MyVeterinarian<br/>"
 
@@ -1699,13 +1519,11 @@ msgstr "İsim..."
 
 #. module: veterinary_clinic
 #: model:ir.model.fields.selection,name:veterinary_clinic.x_reproductive_status_pets_model_field_selection_neutered
-#, fuzzy
 msgid "Neutered"
 msgstr "Kısırlaştırılmış"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid "Never lose, forget, or manually process signature requests anymore !"
 msgstr ""
 "İmza taleplerini artık asla kaybetmeyin, unutmayın veya manuel olarak "
@@ -1713,7 +1531,6 @@ msgstr ""
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_new_pet_model_field
-#, fuzzy
 msgid "New pet"
 msgstr "Yeni evcil hayvan"
 
@@ -1724,13 +1541,11 @@ msgstr "Hiçbiri"
 
 #. module: veterinary_clinic
 #: model:x_pets,x_name:veterinary_clinic.x_pets_5
-#, fuzzy
 msgid "Nori"
 msgstr "Nori"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_nose_health_pets_line_model_field
-#, fuzzy
 msgid "Nose health"
 msgstr "Burun sağlığı"
 
@@ -1745,36 +1560,31 @@ msgstr "Notlar"
 
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_7
-#, fuzzy
 msgid "Obesity"
 msgstr "Obezite"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_observed_illnesses_pets_line_model_field
-#, fuzzy
 msgid "Observed Illnesses"
 msgstr "Gözlemlenen Hastalıklar"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
 "Odoo for Veterinarians is designed to enable you to manage all your "
 "operations fluently, from website to consultations, to accounting."
 msgstr ""
-"Odoo for Veterinarians, web sitesinden konsültasyonlara ve muhasebeye kadar "
-"tüm operasyonlarınızı akıcı bir şekilde yönetmenizi sağlamak için "
-"tasarlanmıştır."
+"Veterinerler için Odoo web sitesinden muayenelere ve muhasebeye kadar tüm "
+"operasyonlarınızı sorunsuz bir şekilde yönetmenizi sağlayacak şekilde "
+"tasarlanmıştır"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid "Odoo.com"
 msgstr "Odoo.com"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid "Odoo.com/slides"
 msgstr "Odoo.com/slaytlar"
 
@@ -1785,13 +1595,11 @@ msgstr "Odoo.com/trial"
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_10
-#, fuzzy
 msgid "Oriental Shorthair"
 msgstr "Oriental Shorthair"
 
 #. module: veterinary_clinic
 #: model:product.attribute.value,name:veterinary_clinic.product_attribute_value_4
-#, fuzzy
 msgid "Orthopedic Surgery"
 msgstr "Ortopedik Cerrahi"
 
@@ -1802,7 +1610,6 @@ msgstr "Diğer"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
-#, fuzzy
 msgid "Our Pet Care Collection"
 msgstr "Evcil Hayvan Bakım Koleksiyonumuz"
 
@@ -1814,98 +1621,82 @@ msgstr "Sahibi"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_owner_email_pets_model_field
-#, fuzzy
 msgid "Owner Email"
 msgstr "Sahip E-posta"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_x_owner_x_pets_count_res_partner_field
-#, fuzzy
 msgid "Owner count"
 msgstr "Sahip sayısı"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_owner_phonemobile_pets_model_field
-#, fuzzy
 msgid "Owner phone/mobile"
 msgstr "Sahip telefonu/cep telefonu"
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_22
-#, fuzzy
 msgid "Papillon"
 msgstr "Papillon"
 
 #. module: veterinary_clinic
 #: model:product.attribute.value,name:veterinary_clinic.product_attribute_value_7
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_1
-#, fuzzy
 msgid "Parvovirus"
 msgstr "Parvovirüs"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields.selection,name:veterinary_clinic.x_aggression_level_pets_model_field_selection_passive
-#, fuzzy
 msgid "Passive"
 msgstr "Pasif"
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_21
-#, fuzzy
 msgid "Pekingese"
 msgstr "Pekingese"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_pet_sale_order_field
-#, fuzzy
 msgid "Pet"
 msgstr "Evcil hayvan"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_pets_line_model
-#, fuzzy
 msgid "Pet Details"
 msgstr "Evcil Hayvan Detayları"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_pet_owner_pets_line_model_field
-#, fuzzy
 msgid "Pet Owner"
 msgstr "Evcil Hayvan Sahibi"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_x_pet_sale_order_count_pets_line_model_field
-#, fuzzy
 msgid "Pet count"
 msgstr "Evcil hayvan sayısı"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_pet_date_of_birth_pets_line_model_field
-#, fuzzy
 msgid "Pet date of birth"
 msgstr "Evcil hayvanın doğum tarihi"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_pet_id_sale_order_field
-#, fuzzy
 msgid "Pet id"
 msgstr "Evcil hayvan kimliği"
 
 #. module: veterinary_clinic
 #: model:appointment.answer,name:veterinary_clinic.appointment_answer_2
-#, fuzzy
 msgid "Pet is sick"
 msgstr "Evcil hayvan hasta"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_pet_name_pets_line_model_field
-#, fuzzy
 msgid "Pet name"
 msgstr "Evcil hayvan adı"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.crm_lead_custom_kanban_view
-#, fuzzy
 msgid "Pet owner"
 msgstr "Evcil hayvan sahibi"
 
@@ -1921,25 +1712,21 @@ msgstr "Evcil hayvan sahibi"
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_pets
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.kanban_custom_view_for_x_pets
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.res_partner_custom_form_view
-#, fuzzy
 msgid "Pets"
 msgstr "Evcil Hayvanlar"
 
 #. module: veterinary_clinic
 #: model:ir.actions.act_window,name:veterinary_clinic.pets_default_owner_window_action
-#, fuzzy
 msgid "Pets "
 msgstr "Evcil Hayvanlar "
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid "Pets 🐾"
 msgstr "Evcil Hayvanlar 🐾"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_pets_line_model
-#, fuzzy
 msgid "Physical"
 msgstr "Fiziksel"
 
@@ -1950,25 +1737,21 @@ msgstr "Görsel"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid "Point of Sale 💳"
 msgstr "Satış Noktası 💳"
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_16
-#, fuzzy
 msgid "Pomeranian"
 msgstr "Pomeranian"
 
 #. module: veterinary_clinic
 #: model:project.task.type,name:veterinary_clinic.project_task_type_3
-#, fuzzy
 msgid "Post Surgery"
 msgstr "Ameliyat Sonrası"
 
 #. module: veterinary_clinic
 #: model:project.task.type,name:veterinary_clinic.project_task_type_2
-#, fuzzy
 msgid "Pre-Surgery"
 msgstr "Ameliyat Öncesi"
 
@@ -1979,32 +1762,27 @@ msgstr "Ürünler"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid "Products 🛒"
 msgstr "Ürünler 🛒"
 
 #. module: veterinary_clinic
 #: model:appointment.question,name:veterinary_clinic.appointment_question_1
-#, fuzzy
 msgid "Purpose of the visit"
 msgstr "Ziyaretin amacı"
 
 #. module: veterinary_clinic
 #: model:appointment.question,name:veterinary_clinic.appointment_question_5
-#, fuzzy
 msgid "Questions or remarks"
 msgstr "Sorular veya açıklamalar"
 
 #. module: veterinary_clinic
 #: model:x_species,x_name:veterinary_clinic.x_species_4
-#, fuzzy
 msgid "Rabbit"
 msgstr "Tavşan"
 
 #. module: veterinary_clinic
 #: model:product.attribute.value,name:veterinary_clinic.product_attribute_value_5
 #: model:x_vaccines,x_name:veterinary_clinic.x_vaccines_1
-#, fuzzy
 msgid "Rabies"
 msgstr "Kuduz"
 
@@ -2015,55 +1793,46 @@ msgstr "Bize ulaşın"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
-#, fuzzy
 msgid "Reaching new heights in pet care"
 msgstr "Evcil hayvan bakımında yeni zirvelere ulaşmak"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields.selection,name:veterinary_clinic.x_aggression_level_pets_model_field_selection_reactive
-#, fuzzy
 msgid "Reactive"
 msgstr "Reaktif"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_pets_line_model
-#, fuzzy
 msgid "Rehabilitation or Physical Therapy Plan"
 msgstr "Rehabilitasyon veya Fizik Tedavi Planı"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid "Reminders can be managed automatically"
 msgstr "Hatırlatmalar otomatik olarak yönetilebilir"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_reproductive_status_pets_line_model_field
-#, fuzzy
 msgid "Reproductive Status"
 msgstr "Üreme Durumu"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_reproductive_status_pets_model_field
-#, fuzzy
 msgid "Reproductive status"
 msgstr "Üreme durumu"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_respiration_rate_pets_line_model_field
-#, fuzzy
 msgid "Respiration rate"
 msgstr "Solunum hızı"
 
 #. module: veterinary_clinic
 #: model:x_pets,x_name:veterinary_clinic.x_pets_7
-#, fuzzy
 msgid "Rox"
 msgstr "Rox"
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_11
-#, fuzzy
 msgid "Russian Blue"
 msgstr "Rus Mavisi"
 
@@ -2080,13 +1849,11 @@ msgstr "Satış Siparişi"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid "Sales 📝"
 msgstr "Satış 📝"
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_12
-#, fuzzy
 msgid "Savannah"
 msgstr "Savannah"
 
@@ -2097,16 +1864,14 @@ msgstr "Bir randevu ayarla"
 
 #. module: veterinary_clinic
 #: model_terms:appointment.type,message_intro:veterinary_clinic.appointment_type_1
-#, fuzzy
 msgid "Secure your spot today and give your pet the care they deserve!"
 msgstr "Bugün yerinizi ayırtın ve evcil hayvanınıza hak ettiği bakımı verin!"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
-msgid ""
-"Send out your documents digitally and keep them all stored in one place"
-msgstr "Belgelerinizi dijital olarak gönderin ve hepsini tek bir yerde saklayın"
+msgid "Send out your documents digitally and keep them all stored in one place"
+msgstr ""
+"Belgelerinizi dijital olarak gönderin ve hepsini tek bir yerde saklayın"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.sequence_illnesses_model_field
@@ -2120,43 +1885,36 @@ msgstr "Sıralama"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields.selection,name:veterinary_clinic.x_aggression_level_pets_model_field_selection_severe_aggression
-#, fuzzy
 msgid "Severe aggression"
 msgstr "Şiddetli saldırganlık"
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_20
-#, fuzzy
 msgid "Shih Tzu"
 msgstr "Shih Tzu"
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_13
-#, fuzzy
 msgid "Siamese"
 msgstr "Siyam"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid "Sign app ✏"
-msgstr "İşaret uygulaması ✏"
+msgstr "İmza uygulaması ✏"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_skin_condition_pets_line_model_field
-#, fuzzy
 msgid "Skin condition"
 msgstr "Cilt durumu"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields.selection,name:veterinary_clinic.x_reproductive_status_pets_model_field_selection_spayed
-#, fuzzy
 msgid "Spayed"
 msgstr "Kısırlaştırılmış"
 
 #. module: veterinary_clinic
 #: model:product.attribute.value,name:veterinary_clinic.product_attribute_value_1
-#, fuzzy
 msgid "Spaying & Neutering"
 msgstr "Kısırlaştırma"
 
@@ -2172,13 +1930,11 @@ msgstr "Kısırlaştırma"
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_species_default
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.search_view_for_x_illnesses_default
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.search_view_for_x_pets_default
-#, fuzzy
 msgid "Species"
 msgstr "Türler"
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_14
-#, fuzzy
 msgid "Sphynx"
 msgstr "Sphynx"
 
@@ -2190,7 +1946,6 @@ msgstr "Gönder"
 #. module: veterinary_clinic
 #: model:documents.document,name:veterinary_clinic.documents_document_12
 #: model:project.project,name:veterinary_clinic.project_project_1
-#, fuzzy
 msgid "Surgeries"
 msgstr "Ameliyatlar"
 
@@ -2198,19 +1953,16 @@ msgstr "Ameliyatlar"
 #: model:crm.tag,name:veterinary_clinic.crm_tag_1
 #: model:sale.order.template.line,name:veterinary_clinic.sale_order_template_line_9
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.contactus
-#, fuzzy
 msgid "Surgery"
 msgstr "Ameliyat"
 
 #. module: veterinary_clinic
 #: model:product.attribute,name:veterinary_clinic.product_attribute_9
-#, fuzzy
 msgid "Surgery Type"
 msgstr "Ameliyat Türü"
 
 #. module: veterinary_clinic
 #: model:product.template,name:veterinary_clinic.product_template_3
-#, fuzzy
 msgid "Surgical Intervention"
 msgstr "Cerrahi Müdahale"
 
@@ -2226,19 +1978,16 @@ msgstr "Görevler"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_temperature_pets_line_model_field
-#, fuzzy
 msgid "Temperature"
 msgstr "Sıcaklık"
 
 #. module: veterinary_clinic
 #: model:x_vaccines,x_name:veterinary_clinic.x_vaccines_10
-#, fuzzy
 msgid "Tetanus"
 msgstr "Tetanos"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
 "The <strong>Accounting App </strong>is a fully featured accounting suite "
 "localized around over 120 countries around the world"
@@ -2248,7 +1997,6 @@ msgstr ""
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
 "The Appointments module streamlines scheduling, avoids double‑booking, and "
 "sends automated reminders to reduce no‑shows."
@@ -2258,28 +2006,25 @@ msgstr ""
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
 "The Consultations module, located in the Pets app, captures clinical "
 "insights during the visit, driving accurate diagnoses and treatment plans."
 msgstr ""
-"Evcil Hayvanlar uygulamasında bulunan Konsültasyonlar modülü, ziyaret "
-"sırasında klinik bilgileri yakalayarak doğru teşhis ve tedavi planlarını "
-"yönlendirir."
+"Evcil Hayvanlar uygulamasında bulunan Muayeneler modülü, ziyaret sırasında "
+"klinik bilgileri kaydeder ve doğru tanı ile tedavi planlarının "
+"oluşturulmasını sağlar."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
 "The Pets registry stores complete animal profiles, linking medical history "
 "to the right owner instantly."
 msgstr ""
-"Evcil Hayvanlar kayıt defteri, eksiksiz hayvan profillerini saklar ve tıbbi "
-"geçmişi anında doğru sahibine bağlar."
+"Evcil Hayvanlar kaydı, tam hayvan profillerini saklar ve tıbbi geçmişi doğru "
+"sahibine anında bağlar."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
 "The Point of Sale app delivers quick, front‑desk checkout with integrated "
 "payments and inventory updates."
@@ -2289,7 +2034,6 @@ msgstr ""
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
 "The Products catalog organizes every vaccine, medication, or service with "
 "real‑time stock status."
@@ -2299,7 +2043,6 @@ msgstr ""
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
 "The Sales module turns consultations into clear quotations and invoices in "
 "seconds. $"
@@ -2309,7 +2052,6 @@ msgstr ""
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
 "The Website module helps you showcase clinic services, accept appointments, "
 "and nurture client relationships online."
@@ -2320,35 +2062,29 @@ msgstr ""
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid ""
-"The veterinarian can add notes, instructions and sections to the sales "
-"order."
+"The veterinarian can add notes, instructions and sections to the sales order."
 msgstr ""
 "Veteriner hekim satış siparişine notlar, talimatlar ve bölümler ekleyebilir."
 
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_18
-#, fuzzy
 msgid "Ticks"
 msgstr "Keneler"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields.selection,name:veterinary_clinic.x_aggression_level_pets_model_field_selection_tolerant
-#, fuzzy
 msgid "Tolerant"
 msgstr "Toleranslı"
 
 #. module: veterinary_clinic
 #: model:sale.order.template.line,name:veterinary_clinic.sale_order_template_line_13
 #: model:sale.order.template.line,name:veterinary_clinic.sale_order_template_line_5
-#, fuzzy
 msgid "Treatments"
 msgstr "Tedaviler"
 
 #. module: veterinary_clinic
 #: model:product.attribute.value,name:veterinary_clinic.product_attribute_value_2
-#, fuzzy
 msgid "Tumor Removal"
 msgstr "Tümör Çıkarma"
 
@@ -2361,58 +2097,49 @@ msgstr "Notlarınızı buraya yazın..."
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_ultrasound_pets_line_model_field
-#, fuzzy
 msgid "Ultrasound"
 msgstr "Ultrason"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_ultrasound_filename_pets_line_model_field
-#, fuzzy
 msgid "Ultrasound "
 msgstr "Ultrason "
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_urinalysis_pets_line_model_field
-#, fuzzy
 msgid "Urinalysis"
 msgstr "İdrar Tahlili"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_urinalysis_filename_pets_line_model_field
-#, fuzzy
 msgid "Urinalysis "
 msgstr "İdrar Tahlili "
 
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_13
-#, fuzzy
 msgid "Urinary Tract Infection"
 msgstr "İdrar Yolu Enfeksiyonu"
 
 #. module: veterinary_clinic
 #: model:appointment.answer,name:veterinary_clinic.appointment_answer_5
 #: model:product.template,name:veterinary_clinic.product_template_6
-#, fuzzy
 msgid "Vaccination"
 msgstr "Aşılama"
 
 #. module: veterinary_clinic
 #: model:product.attribute,name:veterinary_clinic.product_attribute_10
 #: model:sale.order.template.line,name:veterinary_clinic.sale_order_template_line_1
-#, fuzzy
 msgid "Vaccinations"
 msgstr "Aşılar"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_name_vaccine_model_field
-#, fuzzy
 msgid "Vaccine"
 msgstr "Aşı"
 
 #. module: veterinary_clinic
 #: model:ir.ui.menu,name:veterinary_clinic.menu_contacts_vaccine_tags
 #: model:ir.ui.menu,name:veterinary_clinic.menu_pets_vaccine_tags
-#, fuzzy
 msgid "Vaccine Tags"
 msgstr "Aşı Etiketleri"
 
@@ -2422,13 +2149,11 @@ msgstr "Aşı Etiketleri"
 #: model:ir.ui.menu,name:veterinary_clinic.menu_contacts_vaccines
 #: model:ir.ui.menu,name:veterinary_clinic.menu_pets_vaccines
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_vaccines_default
-#, fuzzy
 msgid "Vaccines"
 msgstr "Aşılar"
 
 #. module: veterinary_clinic
 #: model:ir.ui.menu,name:veterinary_clinic.menu_contacts_vaccine_config
-#, fuzzy
 msgid "Vaccines Items"
 msgstr "Aşı Ürünleri"
 
@@ -2436,25 +2161,21 @@ msgstr "Aşı Ürünleri"
 #: model:ir.actions.act_window,name:veterinary_clinic.vaccines_tags_window_action
 #: model:ir.model,name:veterinary_clinic.x_vaccines_tag_model
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_vaccines_tag
-#, fuzzy
 msgid "Vaccines Tags"
 msgstr "Aşı Etiketleri"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_vaccines_given_pets_line_field
-#, fuzzy
 msgid "Vaccines given"
 msgstr "Verilen aşılar"
 
 #. module: veterinary_clinic
 #: model:x_pets,x_name:veterinary_clinic.x_pets_9
-#, fuzzy
 msgid "Vanya"
 msgstr "Vanya"
 
 #. module: veterinary_clinic
 #: model:ir.actions.act_window,name:veterinary_clinic.veterinary_visits_window_action
-#, fuzzy
 msgid "Veterinary Visits"
 msgstr "Veteriner Ziyaretleri"
 
@@ -2465,32 +2186,27 @@ msgstr "Görüntüle"
 
 #. module: veterinary_clinic
 #: model:ir.actions.server,name:veterinary_clinic.ir_actions_server_790
-#, fuzzy
 msgid "View Action"
 msgstr "Eylemi Görüntüle"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_pets_line_model
-#, fuzzy
 msgid "Visit remarks"
 msgstr "Açıklamaları ziyaret edin"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.contactus
-#, fuzzy
 msgid "We'll do our best to get back to you as soon as possible."
 msgstr ""
 "Size mümkün olan en kısa sürede geri dönmek için elimizden geleni yapacağız."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid "Website Documentation"
 msgstr "Web Sitesi Dokümantasyonu"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-#, fuzzy
 msgid "Website 🌐"
 msgstr "Web sitesi 🌐"
 
@@ -2502,13 +2218,11 @@ msgstr "Ağırlık"
 
 #. module: veterinary_clinic
 #: model:x_vaccines,x_name:veterinary_clinic.x_vaccines_11
-#, fuzzy
 msgid "West Nile Virus"
 msgstr "Batı Nil Virüsü"
 
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_19
-#, fuzzy
 msgid "Worms"
 msgstr "Solucanlar"
 
@@ -2522,31 +2236,26 @@ msgstr ""
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_pets_id_pet_line_field
-#, fuzzy
 msgid "X Pets"
 msgstr "X Evcil Hayvanlar"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_species_id_species_line_model_field
-#, fuzzy
 msgid "X Species"
 msgstr "X Türleri"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_x_ray_filename_pets_line_model_field
-#, fuzzy
 msgid "X-Ray"
 msgstr "X-Ray"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_x_ray_pets_line_model_field
-#, fuzzy
 msgid "X-ray"
 msgstr "X-ışını"
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_19
-#, fuzzy
 msgid "Yorkshire Terrier"
 msgstr "Yorkshire Terrier"
 
@@ -2557,62 +2266,110 @@ msgstr "Uygulamalar bölümünden paket yükselterek bunu yapabilirsiniz."
 
 #. module: veterinary_clinic
 #: model:ir.actions.server,name:veterinary_clinic.ir_actions_server_795
-#, fuzzy
 msgid "catalog"
-msgstr "Katalog"
+msgstr "katalog"
 
 #. module: veterinary_clinic
 #: model:ir.model,name:veterinary_clinic.x_pets_line_model_record
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_pets_line_model
-#, fuzzy
 msgid "pets_line"
 msgstr "pets_line"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_sale_order_link_pets_line_model_field
-#, fuzzy
 msgid "sale order link"
-msgstr "Satış Siparişi bağlantisi"
+msgstr "Satış siparişi bağlantısı"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_sale_order_line_count_pets_line_model_field
-#, fuzzy
 msgid "sale_order_line_count"
 msgstr "sale_order_line_count"
 
 #. module: veterinary_clinic
 #: model:ir.model,name:veterinary_clinic.x_species_line_model
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_species_line
-#, fuzzy
 msgid "species_line"
 msgstr "species_line"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_total_sale_price_pets_line_model_field
-#, fuzzy
 msgid "total_sale_price"
 msgstr "toplam_satış_fiyatı"
 
 #. module: veterinary_clinic
 #: model_terms:appointment.type,message_intro:veterinary_clinic.appointment_type_1
-#, fuzzy
 msgid "✔ Convenient online booking"
 msgstr "✔ Uygun online rezervasyon"
 
 #. module: veterinary_clinic
 #: model_terms:appointment.type,message_intro:veterinary_clinic.appointment_type_1
-#, fuzzy
 msgid "✔ Experienced &amp; caring veterinarians"
 msgstr "✔ Deneyimli &amp; ilgili veteriner hekimler"
 
 #. module: veterinary_clinic
 #: model_terms:appointment.type,message_intro:veterinary_clinic.appointment_type_1
-#, fuzzy
 msgid "✔ Flexible appointment times"
 msgstr "✔ Esnek randevu saatleri"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
-#, fuzzy
 msgid "✽ Veterinary Services"
 msgstr "✽ Veterinerlik Hizmetleri"
+
+#~ msgid "+12"
+#~ msgstr "12'den fazla"
+
+#~ msgid "22%"
+#~ msgstr "%22"
+
+#~ msgid ""
+#~ "<strong>Appointments</strong> 📅: Let clients self‑book visits, "
+#~ "synchronize calendars, and automate confirmation emails."
+#~ msgstr ""
+#~ "<strong>Randevular</strong> 📅: Müşterilerin kendi kendilerine ziyaret "
+#~ "rezervasyonu yapmalarına, takvimleri senkronize etmelerine ve onay e-"
+#~ "postalarını otomatikleştirmelerine izin verin."
+
+#~ msgid ""
+#~ "<strong>Consultations</strong> 🩺: Log clinical notes, vitals, diagnoses, "
+#~ "and treatments in structured veterinary encounter forms."
+#~ msgstr ""
+#~ "<strong>Konsültasyonlar</strong> 🩺: Yapılandırılmış veteriner karşılaşma "
+#~ "formlarında klinik notları, hayati bulguları, teşhisleri ve tedavileri "
+#~ "kaydedin."
+
+#~ msgid ""
+#~ "<strong>Pets</strong> 🐾: Record pet profiles, species, breed, vaccines, "
+#~ "and owner links for personalized care."
+#~ msgstr ""
+#~ "<strong>Evcil hayvanlar</strong> 🐾: Kişiselleştirilmiş bakım için evcil "
+#~ "hayvan profillerini, türlerini, cinslerini, aşılarını ve sahip "
+#~ "bağlantılarını kaydedin."
+
+#~ msgid ""
+#~ "<strong>Point of Sale</strong> 💳: Collect payments at reception with "
+#~ "barcode scanning, split bills, and multiple tender types."
+#~ msgstr ""
+#~ "<strong>Satış Noktası</strong> 💳: Barkod tarama, bölünmüş faturalar ve "
+#~ "çoklu ihale türleri ile resepsiyonda ödemeleri toplayın."
+
+#~ msgid ""
+#~ "<strong>Products</strong> 🛒: Maintain medicines, vaccines, food, and "
+#~ "services with prices, stock, and barcodes."
+#~ msgstr ""
+#~ "<strong>Ürünler</strong> 🛒: İlaçları, aşıları, yiyecekleri ve hizmetleri "
+#~ "fiyat, stok ve barkodlarla koruyun."
+
+#~ msgid ""
+#~ "<strong>Sales</strong> 📝: Generate quotations and invoices from "
+#~ "consultation products, tracking revenue easily."
+#~ msgstr ""
+#~ "<strong>Satış</strong> 📝: Danışma ürünlerinden teklifler ve faturalar "
+#~ "oluşturun, geliri kolayca takip edin."
+
+#~ msgid ""
+#~ "<strong>Website</strong> 🌐: Publish services online and capture "
+#~ "appointment requests through engaging, responsive pages."
+#~ msgstr ""
+#~ "<strong>Web sitesi</strong> 🌐: İlgi çekici, duyarlı sayfalar "
+#~ "aracılığıyla hizmetleri çevrimiçi yayınlayın ve randevu taleplerini alın."

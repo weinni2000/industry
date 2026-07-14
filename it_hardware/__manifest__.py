@@ -40,7 +40,7 @@
         'data/knowledge_tour.xml',
     ],
     'demo': [
-        'demo/res_users.xml',
+        'demo/res_company.xml',
         'demo/res_partner.xml',
         'demo/product_supplierinfo.xml',
         'demo/product_template.xml',
@@ -71,6 +71,7 @@
         "static/src/js/my_tour.js",
         "demo/website_view.xml",
     ],
+    'application': True,
     'images': ['images/main.png'],
     'url': "https://www.odoo.com/trial?industry&selected_app=it_hardware",
     'website': "https://www.odoo.com/industries/it-hardware-support",

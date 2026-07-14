@@ -7,13 +7,13 @@
 # Larissa Manderfeld, 2024
 # Wil Odoo, 2024
 #
-# "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025.
+# "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 09:29+0000\n"
-"PO-Revision-Date: 2025-10-20 08:13+0000\n"
+"POT-Creation-Date: 2026-06-12 18:07+0000\n"
+"PO-Revision-Date: 2026-06-16 12:12+0000\n"
 "Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
 "Language-Team: German <https://translate.odoo.com/projects/odoo-19/"
 "fmcg_store/de/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: fmcg_store
 #: model:product.attribute.value,name:fmcg_store.product_attribute_value_38
@@ -176,11 +176,6 @@ msgstr ""
 "Da es sich um eine Rechnung handelt, markieren Sie es als „Später versenden“."
 
 #. module: fmcg_store
-#: model:pos.payment.method,name:fmcg_store.pos_payment_method_1
-msgid "Bank"
-msgstr "Bank"
-
-#. module: fmcg_store
 #: model:product.template,name:fmcg_store.product_product_26_product_template
 msgid "Bournville Cranberry Dark Chocolate Bars"
 msgstr "Bournville: dunkle Schokolade mit Cranberries"
@@ -280,19 +275,9 @@ msgid "Create an RFQ for \"Grocery outlet\""
 msgstr "Erstellen Sie eine Angebotsanfrage für „Lebensmittelladen“."
 
 #. module: fmcg_store
-#: model:pos.payment.method,name:fmcg_store.pos_payment_method_2
-msgid "Credit Card"
-msgstr "Kreditkarte"
-
-#. module: fmcg_store
 #: model:loyalty.program,portal_point_name:fmcg_store.loyalty_program_8
 msgid "Credit(s)"
 msgstr "Guthaben"
-
-#. module: fmcg_store
-#: model:pos.payment.method,name:fmcg_store.pos_payment_method_3
-msgid "Customer Account"
-msgstr "Kundenkonto"
 
 #. module: fmcg_store
 #: model_terms:ir.ui.view,arch_db:fmcg_store.welcome_article_body
@@ -319,33 +304,6 @@ msgstr "Trockenfrüchte & Nüsse"
 #: model:product.template,name:fmcg_store.product_product_12_product_template
 msgid "Energy Drink"
 msgstr "Energydrink"
-
-#. module: fmcg_store
-#: model_terms:ir.ui.view,arch_db:fmcg_store.welcome_article_body
-msgid "Flow 1 : Purchase Flow."
-msgstr "Ablauf 1: Einkaufsablauf"
-
-#. module: fmcg_store
-#: model_terms:ir.ui.view,arch_db:fmcg_store.welcome_article_body
-msgid "Flow 2: Point of sale - Regular flow with Buy one get one free product"
-msgstr ""
-"Ablauf 2: Kassensystem – Regulärer Verkauf mit „1 kaufen, gratis Produkt "
-"erhalten“"
-
-#. module: fmcg_store
-#: model_terms:ir.ui.view,arch_db:fmcg_store.welcome_article_body
-msgid "Flow 3: Point of sale - Customer Account"
-msgstr "Ablauf 3: Kassensystem – Kundenkonto"
-
-#. module: fmcg_store
-#: model_terms:ir.ui.view,arch_db:fmcg_store.welcome_article_body
-msgid "Flow 4: Point of Sale - Ship Later &amp; Global discount @10%"
-msgstr "Ablauf 4: Kassensystem – Später versenden &amp; Gesamtrabatt von 10 %"
-
-#. module: fmcg_store
-#: model_terms:ir.ui.view,arch_db:fmcg_store.welcome_article_body
-msgid "Flow 5: Sale Flow – B2B Customer"
-msgstr "Ablauf 5: Verkaufsablauf – B2B-Kunde"
 
 #. module: fmcg_store
 #: model:pos.category,name:fmcg_store.pos_category_1
@@ -380,7 +338,8 @@ msgstr "Gratis Produkt – Zahnbürste, ultra weich"
 #: code:addons/fmcg_store/static/src/js/my_tour.js:0
 msgid "Get on track and explore our recommendations for your Odoo usage here!"
 msgstr ""
-"Los geht’s! Entdecken Sie hier unsere Empfehlungen für die Nutzung von Odoo!"
+"Los geht’s! Entdecken Sie hier unsere Empfehlungen, um Odoo optimal zu "
+"nutzen!"
 
 #. module: fmcg_store
 #: model:product.attribute,name:fmcg_store.product_attribute_1
@@ -468,6 +427,11 @@ msgstr "Nestle Maggi, 2-Minuten-Instantnudeln, Masala – 560-g-Beutel"
 #: model:product.template,name:fmcg_store.product_product_45_product_template
 msgid "Nuggets"
 msgstr "Nuggets"
+
+#. module: fmcg_store
+#: model:pos.payment.method,name:fmcg_store.pos_payment_method_2
+msgid "Online Payment"
+msgstr "Online-Zahlung"
 
 #. module: fmcg_store
 #: model_terms:ir.ui.view,arch_db:fmcg_store.welcome_article_body
@@ -675,6 +639,34 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:fmcg_store.welcome_article_body
 msgid "​Give the Global Discount @ 10%"
 msgstr "Gewähren Sie den Gesamtrabatt von 10 %."
+
+#~ msgid "Bank"
+#~ msgstr "Bank"
+
+#~ msgid "Credit Card"
+#~ msgstr "Kreditkarte"
+
+#~ msgid "Customer Account"
+#~ msgstr "Kundenkonto"
+
+#~ msgid "Flow 1 : Purchase Flow."
+#~ msgstr "Ablauf 1: Einkaufsablauf"
+
+#~ msgid ""
+#~ "Flow 2: Point of sale - Regular flow with Buy one get one free product"
+#~ msgstr ""
+#~ "Ablauf 2: Kassensystem – Regulärer Verkauf mit „1 kaufen, gratis Produkt "
+#~ "erhalten“"
+
+#~ msgid "Flow 3: Point of sale - Customer Account"
+#~ msgstr "Ablauf 3: Kassensystem – Kundenkonto"
+
+#~ msgid "Flow 4: Point of Sale - Ship Later &amp; Global discount @10%"
+#~ msgstr ""
+#~ "Ablauf 4: Kassensystem – Später versenden &amp; Gesamtrabatt von 10 %"
+
+#~ msgid "Flow 5: Sale Flow – B2B Customer"
+#~ msgstr "Ablauf 5: Verkaufsablauf – B2B-Kunde"
 
 #~ msgid "Best Before"
 #~ msgstr "Mindestens haltbar bis"

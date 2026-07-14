@@ -3,13 +3,13 @@
 # * campsite
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
-# "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025.
+# "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.5a1+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 10:44+0000\n"
-"PO-Revision-Date: 2025-11-10 16:13+0000\n"
+"POT-Creation-Date: 2026-07-03 17:46+0000\n"
+"PO-Revision-Date: 2026-07-11 09:34+0000\n"
 "Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
 "Language-Team: German <https://translate.odoo.com/projects/odoo-19/campsite/"
 "de/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -39,28 +39,13 @@ msgstr ""
 "buchen!</a>"
 
 #. module: campsite
-#: model_terms:ir.ui.view,arch_db:campsite.homepage
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
-"<a t-att-href=\"'/shop/category/' + "
-"str(env.ref('campsite.product_public_category_10').id)\" "
-"class=\"o_translate_inline btn btn-secondary\">Find out more</a>"
+"<em>Don't forget to check the results from time to time to make your guests "
+"happier!</em>"
 msgstr ""
-"<a t-att-href=\"'/shop/category/' + "
-"str(env.ref('campsite.product_public_category_10').id)\" "
-"class=\"o_translate_inline btn btn-secondary\">Mehr erfahren</a>"
-
-#. module: campsite
-#: model_terms:ir.ui.view,arch_db:campsite.homepage
-msgid ""
-"<a t-att-href=\"'/shop/category/' + "
-"str(env.ref('campsite.product_public_category_11').id)\" "
-"class=\"o_translate_inline btn btn-secondary\">Explore Our Pitches Options</"
-"a>"
-msgstr ""
-"<a t-att-href=\"'/shop/category/' + "
-"str(env.ref('campsite.product_public_category_11').id)\" "
-"class=\"o_translate_inline btn btn-secondary\">Unsere Stellplätze entdecken</"
-"a>"
+"<em>Vergessen Sie nicht, die Ergebnisse von Zeit zu Zeit zu überprüfen, um "
+"Ihre Gäste zufriedener zu machen!</em>"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -103,6 +88,15 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">💡</i>"
+msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner für Info\">💡</i>"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\" aria-label=\"Banner Success\">✅</i>"
 msgstr ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
@@ -116,6 +110,15 @@ msgid ""
 msgstr ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner für Erfolg\" aria-label=\"Banner für Erfolg\">🎉</i>"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\">✅</i>"
+msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner für Erfolg\">✅</i>"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -225,6 +228,11 @@ msgstr "<strong>Grundlagen</strong>"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "<strong>Company specific offers</strong>"
+msgstr "<strong>Unternehmensspezifische Angebote</strong>"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "<strong>Do you want to go further?</strong>"
 msgstr "<strong>Möchten Sie weitergehen?</strong>"
 
@@ -244,6 +252,21 @@ msgstr ""
 "experimentieren und\n"
 "                        anschließend eine neue Datenbank für Ihren eigenen "
 "Gebrauch erstellen.</strong>"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "<strong>Multiple resource blocking / period closure</strong>"
+msgstr "<strong>Blockierung mehrerer Ressourcen/Zeitraumabschluss</strong>"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "<strong>Shared offers</strong>"
+msgstr "<strong>Geteilte Angebote</strong>"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "<strong>Single resource blocking</strong>"
+msgstr "<strong>Blockierung einer einzelnen Ressource</strong>"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -270,6 +293,11 @@ msgstr "AA-Batterien (4)"
 #: model:product.template,name:campsite.product_template_20
 msgid "AAA Batteries (4)"
 msgstr "AAA-Batterien (4)"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Access to more details clicking the slot."
+msgstr "Weitere Details erhalten Sie durch Klicken auf das Zeitfenster."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -309,6 +337,11 @@ msgstr ""
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Adjusting your offers in consequence"
+msgstr "Ihre Angebote entsprechend anpassen"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
 "Again, the <strong>Campsite App </strong>helps you manage the end of the "
 "stay!"
@@ -336,6 +369,15 @@ msgstr ""
 "das Kundenkonto bezahlen.\n"
 "                    Am Ende des Aufenthalts wird das Kundenkonto ebenfalls "
 "belastet."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Alternatively to individual resource blocking slots described earlier, you "
+"can select a resource this leave applies to."
+msgstr ""
+"Alternativ zu den zuvor beschriebenen blockierten Zeitfenstern einzelner "
+"Ressourcen können Sie eine Ressource auswählen, für die dieser Urlaub gilt."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -373,6 +415,36 @@ msgstr ""
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
+"Alternatively, you can create a slot as placeholder from the planning "
+"directly:"
+msgstr ""
+"Alternativ können Sie ein Zeitfenster direkt aus der Planung als Platzhalter "
+"erstellen:"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "An automation is setup for an email to be sent automatically for you."
+msgstr ""
+"Es wurde eine Automatisierung eingerichtet, damit eine E-Mail automatisch "
+"für Sie versendet wird."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Any time you create a new survey and save it with the setting \"is customer "
+"satisfaction survey\", previous ones\n"
+"                    will be archived so that it becomes your new default "
+"survey."
+msgstr ""
+"Jedes Mal, wenn Sie eine neue Umfrage erstellen und diese mit der "
+"Einstellung „ist eine Umfrage zur Kundenzufriedenheit“ speichern, werden die "
+"vorherigen\n"
+"                    archiviert, sodass diese zu Ihrer neuen Standardumfrage "
+"wird."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
 "Anyone can create a portal account on your database.<br/>Open your website "
 "home page\n"
 "                in a private tab to do so."
@@ -385,6 +457,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
 msgid "Are you considering a tentalo getaway?"
 msgstr "Erwägen Sie einen Urlaub in einem Zelt?"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Assign them a resource, which helps you keeping track."
+msgstr ""
+"Weisen Sie ihnen eine Ressource zu, die Ihnen dabei hilft, den Überblick zu "
+"behalten."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -418,28 +497,30 @@ msgstr "Bar und Restaurant sowie zusätzliche Dienstleistungen"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
-msgid "Blocking a bungalow"
-msgstr "Bungalow blockieren"
+msgid ""
+"Beyond daily operations, the Steering menu serves as the \"Captain’s "
+"Bridge\" of your campsite. It provides a 500-day horizon to anticipate "
+"market trends, manage risks, and optimize your revenue."
+msgstr ""
+"Über den täglichen Betrieb hinaus dient das Menü „Steuerung“ als "
+"„Kommandobrücke“ Ihres Campingplatzes. Es bietet einen 500-Tage-Horizont, um "
+"Markttrends zu antizipieren, Risiken zu managen und Ihre Einnahmen zu "
+"optimieren."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
-msgid "Booking a room"
-msgstr "Ein Zimmer buchen"
+msgid "Blocking resources"
+msgstr "Ressourcen blockieren"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Booking a pitch"
+msgstr "Stellplatz reservieren"
 
 #. module: campsite
 #: model:product.template,name:campsite.product_template_17
 msgid "Bread"
 msgstr "Brot"
-
-#. module: campsite
-#: model:planning.role,name:campsite.planning_role_4
-msgid "Bungalow-L"
-msgstr "Bungalow-L"
-
-#. module: campsite
-#: model:planning.role,name:campsite.planning_role_5
-msgid "Bungalow-S"
-msgstr "Bungalow-S"
 
 #. module: campsite
 #: model:product.public.category,name:campsite.product_public_category_9
@@ -458,7 +539,7 @@ msgstr ""
 "            mehr gefüllt."
 
 #. module: campsite
-#: model:ir.ui.menu,name:booking_engine.booking_engine_menu_root
+#: model_terms:ir.ui.view,arch_db:campsite.res_config_settings_form_view_inherited
 msgid "Campsite"
 msgstr "Campingplatz"
 
@@ -540,14 +621,10 @@ msgstr ""
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
-"Click the Payment button and select the payment mean, not forgetting to tick "
-"the\n"
-"                invoicing check box, prior clicking the Validate button."
+"Click the Settle PoS Orders button to add the corresponding order lines."
 msgstr ""
-"Klicken Sie auf die Schaltfläche „Zahlung“ und wählen Sie die Zahlungsart "
-"aus. Vergessen Sie nicht, das Kontrollkästchen „Rechnungsstellung“\n"
-"                zu aktivieren, bevor Sie auf die Schaltfläche „Validieren“ "
-"klicken."
+"Klicken Sie auf die Schaltfläche „Kassenaufträge abrechnen“, um die "
+"entsprechenden Bestellpositionen hinzuzufügen."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -557,6 +634,50 @@ msgid ""
 msgstr ""
 "Klicken Sie auf das Ende der entsprechenden Buchung und ziehen Sie sie auf "
 "das angefragte Datum."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Configure the email delay as you wish the email to be sent after the guest "
+"checkout."
+msgstr ""
+"Konfigurieren Sie die E-Mail-Verzögerung so, wie Sie möchten, dass die E-"
+"Mail nach dem Gast-Checkout versendet wird."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Create a new leave selecting the appropriate working schedule, the one from "
+"your stay resources."
+msgstr ""
+"Erstellen Sie einen neuen Urlaub, indem Sie den entsprechenden Arbeitsplan "
+"aus Ihren Aufenthaltsressourcen auswählen."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Create a new leave the same way as previously, but this time specify the "
+"resource this applies to."
+msgstr ""
+"Erstellen Sie einen neuen Urlaub auf dieselbe Weise wie zuvor, aber geben "
+"Sie diesmal die Ressource an, für die dieser Urlaub gilt."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Created offers are assigned no company nor branch (default behavior).<br/>As "
+"a result, they are available from all companies and branches, as well as all "
+"websites from those."
+msgstr ""
+"Erstellte Angebote werden weder einem Unternehmen noch einer Niederlassung "
+"zugeordnet (Standardverhalten).<br/>Dadurch sind sie für alle Unternehmen "
+"und Niederlassungen sowie für alle Websites dieser Unternehmen und "
+"Niederlassungen verfügbar."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Define start and end date time and save your leave."
+msgstr "Legen Sie das Start- und Enddatum fest und speichern Sie Ihren Urlaub."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -590,12 +711,46 @@ msgstr ""
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Don't forget to save your setting changes."
+msgstr "Vergessen Sie nicht, Ihre geänderten Einstellungen zu speichern."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Don't forget to send them their invoice!"
+msgstr "Vergessen Sie nicht, ihnen die Rechnung zu schicken!"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
 "During an available period, click, drag and drop on a pitch line to create a "
 "slot."
 msgstr ""
 "Klicken Sie während eines verfügbaren Zeitraums auf eine Stellplatz-Zeile "
 "und verschieben sie sie, um ein Zeitfenster zu erstellen."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Each company can have its own website!"
+msgstr "Jedes Unternehmen kann seine eigene Website haben!"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Employee assignations"
+msgstr "Mitarbeiterzuweisungen"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Employee would open the tasks from their hand and update the status until "
+"Clean."
+msgstr ""
+"Der Mitarbeiter würde die Aufgaben direkt auf seinem Mobiltelefon öffnen und "
+"den Status auf „Sauber“ aktualisieren."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Enforcing weekly turnover"
+msgstr "Wochenumsatz durchsetzen"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -625,6 +780,11 @@ msgstr ""
 "Innenausstattung."
 
 #. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.homepage
+msgid "Explore Our Pitches Options"
+msgstr "Entdecken Sie unsere Stellplatzoptionen"
+
+#. module: campsite
 #: model:product.template,name:campsite.product_template_9
 msgid "Fan"
 msgstr "Ventilator"
@@ -638,6 +798,11 @@ msgstr ""
 "Das Personal ist hervorragend. Es ist stets verfügbar und hilfsbereit und "
 "bietet ausgezeichnete Stellplätze und Hütten. Wir haben den Aufenthalt sehr "
 "genossen."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.homepage
+msgid "Find out more"
+msgstr "Mehr erfahren"
 
 #. module: campsite
 #: model:product.template,name:campsite.product_template_10
@@ -660,6 +825,16 @@ msgstr ""
 "            Anpassungen."
 
 #. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"From the Roles sections, you can select the companies and branches this "
+"employee shall have access to as well as the default one."
+msgstr ""
+"Im Abschnitt „Rollen“ können Sie die Unternehmen und Niederlassungen "
+"auswählen, auf die dieser Mitarbeiter Zugriff haben soll, sowie die "
+"Standardauswahl."
+
+#. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
 msgid ""
 "From the initial inquiry to the check out, the team was incredibly "
@@ -678,6 +853,11 @@ msgid ""
 msgstr ""
 "Wählen Sie in der Suchleiste den Filter „Heute“ aus, um die Gäste\n"
 "                ein- und auszuchecken."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "From there you can add new companies."
+msgstr "Von dort aus können Sie neue Unternehmen hinzufügen."
 
 #. module: campsite
 #: model:product.template,name:campsite.product_template_18
@@ -703,7 +883,7 @@ msgstr "Produkte"
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Hello there!"
-msgstr "Hallo!"
+msgstr "Guten Tag!"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -719,42 +899,25 @@ msgstr ""
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
-"If the customer had a non null customer account, confirm its balancing "
-"during\n"
-"                this payment."
+"If they paid orders at any point of sale with their customer account, their "
+"customer account due amount will be displayed as well as a button for you to "
+"settle the associated orders."
 msgstr ""
-"Wenn der Kunde über ein Kundenkonto verfügt, das kein Saldo von 0 hat, "
-"bestätigen Sie dessen Ausgleich während\n"
-"                dieser Zahlung."
+"Wenn sie Aufträge an einem beliebigen Kassensystem mit ihrem Kundenkonto "
+"bezahlt haben, wird der ausstehende Betrag ihres Kundenkontos angezeigt, "
+"sowie eine Schaltfläche, über die Sie die entsprechenden Aufträge begleichen "
+"können."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
-"If the customer is eligible to invoice settlement, proceed to charge them "
-"from their\n"
-"                final invoice for already invoiced orders which were paid "
-"with their customer\n"
-"                account."
+"If using the house keeping approver setting, designated\n"
+"                    approvers can check each room and set their state to "
+"ready to close the tasks."
 msgstr ""
-"Wenn der Kunde zur Rechnungsbegleichung berechtigt ist, fahren Sie fort, ihm "
-"die\n"
-"                letzte Rechnung für bereits in Rechnung gestellte "
-"Bestellungen, die über sein Kundenkonto bezahlt wurden,\n"
-"                in Rechnung zu stellen."
-
-#. module: campsite
-#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
-msgid ""
-"If the customer is eligible to order settlement, proceed to charge them "
-"from\n"
-"                their final invoice for all their orders during the stay "
-"which were paid with their\n"
-"                customer account."
-msgstr ""
-"Wenn der Kunde für Auftragsabrechnung berechtigt ist, berechnen Sie ihm\n"
-"                die endgültige Rechnung für alle Bestellungen während seines "
-"Aufenthalts, die über sein\n"
-"                Kundenkonto bezahlt wurden."
+"Bei Verwendung der Einstellung für Genehmiger der Reinigung können benannte\n"
+"Genehmiger jeden Raum überprüfen und seinen Status auf „Bereit“ setzen, um "
+"die Aufgaben abzuschließen."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -772,18 +935,22 @@ msgstr ""
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
-"If you're not certain customers have ongoing bookings, before charging "
-"their\n"
-"                    customer accounts, open their contact details from their "
-"menu (from the\n"
-"                    customer list) and ask where they're staying in."
+"If you're not certain customers have ongoing bookings, before charging their "
+"customer accounts, open their contact details from their menu (from the "
+"customer list) and ask for the room they stay in<br/>Note: Their room is "
+"listed in the Guests tab of their order."
 msgstr ""
-"Sollten Sie sich nicht sicher sein, ob Kunden eine laufende Buchung haben, "
-"öffnen Sie vor der\n"
-"                    Belastung ihres Kundenkontos die Kontaktdaten aus dem "
-"Menü (aus der Kundenliste)\n"
-"                    und fragen Sie nach dem Zimmer, in dem sie untergebracht "
-"sind."
+"Wenn Sie nicht sicher sind, ob Kunden eine laufende Buchung haben, öffnen "
+"Sie vor der Abrechnung ihrer Kundenkonten deren Kontaktdaten über das Menü "
+"(aus der Kundenliste) und fragen Sie nach dem Zimmer, in dem sie "
+"übernachten<br/>Hinweis: Das Zimmer ist im Reiter „Gäste“ ihres Auftrags "
+"aufgeführt."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "In any case, the resources are company and branch dependent."
+msgstr ""
+"In jedem Fall sind die Ressourcen unternehmens- und niederlassungsabhängig."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -808,10 +975,27 @@ msgstr ""
 "                bei der Verwaltung dieser Aspekte."
 
 #. module: campsite
-#: model:ir.model.fields,field_description:booking_engine.planning_model_planning_role_x_is_a_room_offer_field
-#: model:ir.model.fields,field_description:booking_engine.product_model_product_template_x_is_a_room_offer_field
-msgid "Is Stay Offer"
-msgstr "Ist Angebot"
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"In the Options tab, you can see it is made the customer satisfaction survey "
+"in the participants section."
+msgstr ""
+"Im Reiter „Optionen“ können Sie im Teilnehmer-Abschnitt sehen, dass die "
+"Umfrage zur Kundenzufriedenheit erstellt wurde."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"It enables each place manager to adjust the stay offers with greater "
+"flexibility without impacting other places."
+msgstr ""
+"Dadurch kann jeder Standortmanager die Aufenthaltsangebote flexibler "
+"anpassen, ohne Auswirkungen auf andere Standorte zu haben."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Keep your guests satisfied"
+msgstr "Sorgen Sie für zufriedene Gäste"
 
 #. module: campsite
 #: model:product.template,name:campsite.product_template_7
@@ -863,6 +1047,21 @@ msgid "Manage your customers from the <strong>Contact App</strong>"
 msgstr "Verwalten Sie Ihre Kunden über die <strong>Kontakte-App</strong>."
 
 #. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Managing scarcity with availability"
+msgstr "Umgang mit Knappheit und Verfügbarkeit"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Managing your businesses"
+msgstr "Unternehmen verwalten"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Monitoring success with occupancy"
+msgstr "Erfolgsmessung anhand der Auslastung"
+
+#. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
 msgid "Next"
 msgstr "Weiter"
@@ -877,6 +1076,17 @@ msgstr ""
 "Jetzt, da sie sich entspannen, können Sie Ihren Gästen zusätzliche "
 "Dienstleistungen anbieten, damit sie sich noch wohler\n"
 "            fühlen."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Now that you have several companies or branches, you may want some of your "
+"employees to access only to some of them in case they always work in some of "
+"your places."
+msgstr ""
+"Da Sie nun mehrere Unternehmen oder Niederlassungen haben, möchten Sie "
+"vielleicht, dass einige Ihrer Mitarbeiter nur auf bestimmte davon zugreifen "
+"können, falls sie immer an bestimmten Standorten arbeiten."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -898,6 +1108,22 @@ msgstr ""
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"On a daily basis, house keeping tasks are created depending\n"
+"                    the current stays."
+msgstr ""
+"Täglich werden je nach den aktuellen Aufenthalten Reinigungsaufgaben\n"
+"erstellt."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "On a resource to block line, click, drag and drop to create a slot."
+msgstr ""
+"Klicken Sie auf eine Ressource in einer Blockierungszeile, ziehen Sie sie "
+"und legen Sie sie ab, um ein Zeitfenster zu erstellen."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "On the City Tax line, adjust the number of guest x nights delivered."
 msgstr ""
 "Passen Sie in der Zeile „Touristensteuer“ die Anzahl der Gäste x "
@@ -905,10 +1131,10 @@ msgstr ""
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
-msgid "On the bungalow to block line, click, drag and drop to create a slot."
+msgid "On top of guest and stay management, you need to keep the place clean!"
 msgstr ""
-"Klicken Sie auf die zu sperrende Bungalow-Zeile und verschieben Sie sie, um "
-"ein Zeitfenster zu erstellen."
+"Neben der Verwaltung der Gäste und Aufenthalte müssen Sie auch für "
+"Sauberkeit sorgen!"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
@@ -925,6 +1151,18 @@ msgid "Once confirmed, the payment is done and the order booked seamlessly!"
 msgstr ""
 "Nach der Bestätigung ist die Zahlung abgeschlossen und der Aufenthalt "
 "gebucht."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Once defined, you can switch between companies or branches from the company "
+"selector at the top right of your screen.<br/>This will expose depending on "
+"where you are, only the selected companies and branches data."
+msgstr ""
+"Sobald Sie dies festgelegt haben, können Sie über die Unternehmensauswahl "
+"oben rechts auf Ihrem Bildschirm zwischen Unternehmen oder Niederlassungen "
+"wechseln.<br/>Dadurch werden je nach Ihrem Standort nur die Daten der "
+"ausgewählten Unternehmen und Niederlassungen angezeigt."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -953,13 +1191,11 @@ msgstr "Melden Sie sich danach als Portalbenutzer an."
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
-"Once your guest order is all set after check out, open the Front Desk from "
-"the POS\n"
-"                App."
+"Once your guest order is all set after check out, create an invoice from "
+"their order."
 msgstr ""
-"Sobald Ihre Gästebestellung nach dem Check-out fertig ist, öffnen Sie die "
-"Rezeption über die\n"
-"                Kassensystem-App."
+"Sobald Ihre Buchung nach dem Check-out fertig ist, erstellen Sie eine "
+"Rechnung für den Aufenthalt."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -972,6 +1208,43 @@ msgstr ""
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Open now, the Tasks from the accommodation app, House Keeping menu.<br/>This "
+"is\n"
+"                the daily list of house keeping tasks to be tackled."
+msgstr ""
+"Öffnen Sie nun die Aufgaben aus der Unterkunftsapp und gehen Sie zum Menü "
+"„Reinigung“.<br/>Dies ist\n"
+"                die tägliche Liste der zu erledigenden Reinigungsaufgaben."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Open one, assign it to an employee to plan the house keeping of the day."
+msgstr ""
+"Öffnen Sie eine, weisen Sie sie einem Mitarbeiter zu, um die Reinigung des "
+"Tages zu planen."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Open the <strong>Settings App</strong> and reach the companies from the menu "
+"Users &amp; Companies."
+msgstr ""
+"Öffnen Sie die <strong>Einstellungen-App</strong> und rufen Sie die "
+"Unternehmen über das Menü „Benutzer &amp; Unternehmen“ auf."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Open the <strong>Settings App</strong> and reach the users from the menu "
+"Users &amp; Companies."
+msgstr ""
+"Öffnen Sie die <strong>Einstellungen-App</strong> und rufen Sie die Benutzer "
+"über das Menü „Benutzer &amp; Unternehmen“ auf."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Open the <strong>Website App</strong> and navigate to the Stay Offers."
 msgstr ""
 "Öffnen Sie die <strong>Website-App</strong> und navigieren Sie zu den "
@@ -979,8 +1252,21 @@ msgstr ""
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
-msgid "Open the Campsite App Schedule."
-msgstr "Öffnen Sie den Zeitplan der Campingplatz-App."
+msgid ""
+"Open the Board from the accommodation app, House Keeping menu.<br/>Here you "
+"have an\n"
+"                overview of the cleanness state of your resources."
+msgstr ""
+"Öffnen Sie das Dashboard über die Unterkunftsapp im Menü „Reinigung“.<br/"
+">Hier erhalten Sie einen\n"
+"                Überblick über den Sauberkeitszustand Ihrer Ressourcen."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Open the Campsite App and navigate to the Configuration / Leaves menu."
+msgstr ""
+"Öffnen Sie die Campingplatz-App und navigieren Sie zum Menü „Konfiguration / "
+"Urlaube“."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1008,8 +1294,28 @@ msgstr ""
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
-msgid "Open the customer selector from a new order."
-msgstr "Öffnen Sie die Kundenauswahl aus einem neuen Auftrag."
+msgid ""
+"Open the Settings App and navigate to the Rental section or search for "
+"\"Unavailability days\"."
+msgstr ""
+"Öffnen Sie die Einstellungen-App und navigieren Sie zum Abschnitt "
+"„Vermietung“ oder suchen Sie nach „Nicht verfügbare Tage“."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Open the Steering menu and select Availability."
+msgstr "Öffnen Sie das Menü „Steuerung“ und wählen Sie „Verfügbarkeit“."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Open the Steering menu and select Occupancy."
+msgstr "Öffnen Sie das Menü „Steuerung“ und wählen Sie „Belegung“."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Open the Survey App to find the customer satisfaction survey."
+msgstr ""
+"Öffnen Sie die Umfrage-App, um die Umfrage zur Kundenzufriedenheit zu finden."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1035,27 +1341,31 @@ msgstr "Öffnen Sie Ihre Gästebuchung aus der Campingplatz-App."
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
+"Optimizing weekly turnover to maximize occupancy during peak season, you can "
+"align your bookings to a weekly rental pattern (e.g., Saturday to Saturday). "
+"By restricting check-ins and check-outs to specific days, you synchronize "
+"your housekeeping and eliminate calendar gaps."
+msgstr ""
+"Durch die Optimierung des wöchentlichen Umsatzes zur Maximierung der "
+"Auslastung während der Hochsaison können Sie Ihre Buchungen an ein "
+"wöchentliches Vermietungsmuster (z. B. Samstag bis Samstag) anpassen. Indem "
+"Sie Check-ins und Check-outs auf bestimmte Tage beschränken, synchronisieren "
+"Sie Ihre Reinigungsdienste und vermeiden dadurch Lücken im Kalender."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
 "Organize your employees' schedules with<font class=\"text-o-color-5\"> "
 "<strong>\n"
 "                Planning</strong></font><strong>\n"
 "                    <font class=\"text-o-color-5\"> App</font>\n"
 "                </strong><font class=\"text-o-color-5\">.</font>"
 msgstr ""
-"Organisieren Sie die Zeitpläne Ihrer Mitarbeiter mit der<font class="
-"\"text-o-color-5\"> <strong>\n"
+"Organisieren Sie die Zeitpläne Ihrer Mitarbeiter mit der<font class=\"text-o-"
+"color-5\"> <strong>\n"
 "                Planungsapp</strong></font><strong>\n"
 "                    <font class=\"text-o-color-5\"></font>\n"
 "                </strong><font class=\"text-o-color-5\">.</font>"
-
-#. module: campsite
-#: model:planning.role,name:campsite.planning_role_2
-msgid "Pitch-L"
-msgstr "Stellplatz - L"
-
-#. module: campsite
-#: model:planning.role,name:campsite.planning_role_1
-msgid "Pitch-S"
-msgstr "Stellplatz - S"
 
 #. module: campsite
 #: model:product.public.category,name:campsite.product_public_category_11
@@ -1083,6 +1393,13 @@ msgstr "Zurück"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Proceed to the payment with your terminal and set the invoice as paid."
+msgstr ""
+"Fahren Sie mit der Zahlung über Ihr Terminal fort und setzen Sie die "
+"Rechnung auf „Bezahlt“."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Promote your offers through the <strong>Website App</strong>"
 msgstr "Bewerben Sie Ihre Angebote mit der <strong>Website-App</strong>."
 
@@ -1098,10 +1415,10 @@ msgstr "Identität der Gäste protokollieren"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
-msgid "Recording the guest presence is an obligation in numerous countries."
+msgid "Recording the guest attendance is an obligation in numerous countries."
 msgstr ""
 "Die Erfassung der Anwesenheit von Gästen ist in zahlreichen Ländern "
-"gesetzlich vorgeschrieben."
+"verpflichtend."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1120,10 +1437,30 @@ msgstr "Alle ansehen<span class=\"fa fa-long-arrow-right ms-2\"/>"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Select one of your employee."
+msgstr "Wählen Sie einen Ihrer Mitarbeiter aus."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Select or create a customer and then confirm the booking!"
 msgstr ""
 "Wählen Sie einen Kunden aus oder erstellen Sie einen neuen, und bestätigen "
 "Sie anschließend die Buchung."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Setup company or branch specific offers when relevant."
+msgstr ""
+"Richten Sie bei Bedarf unternehmens- oder niederlassungspezifische Angebote "
+"ein."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Share your stay offers across your companies and branches (default behavior);"
+msgstr ""
+"Teilen Sie Ihre Aufenthaltsangebote unternehmens- und "
+"niederlassungsübergreifend (Standardverhalten);"
 
 #. module: campsite
 #: model:product.template,name:campsite.product_template_6
@@ -1148,11 +1485,6 @@ msgstr ""
 "die zusätzlichen Platz zum Entspannen suchen."
 
 #. module: campsite
-#: model:ir.ui.menu,name:booking_engine.booking_engine_rooms_menu
-msgid "Stay Offers"
-msgstr "Aufenthaltsangebote"
-
-#. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
 "Still from the Campsite App Schedule, simply drag and drop a booking to "
@@ -1164,11 +1496,10 @@ msgstr ""
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
-msgid "Still from their Rental Order, open the Guest tab."
-msgstr "Öffnen Sie über den Mietauftrag den Reiter „Gast“."
+msgid "Still from their Rental Order, open the Guests tab."
+msgstr "Öffnen Sie über den Mietauftrag den Reiter „Gäste“."
 
 #. module: campsite
-#: model:planning.role,name:campsite.planning_role_3
 #: model:product.template,name:campsite.product_template_5
 msgid "Tentalo"
 msgstr "Tentalo"
@@ -1177,6 +1508,34 @@ msgstr "Tentalo"
 #: model:product.public.category,name:campsite.product_public_category_10
 msgid "Tentalos"
 msgstr "Tentalos"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"The Gantt chart is color-coded to reflect on the availability for you to "
+"work on filling in."
+msgstr ""
+"Das Gantt-Diagramm ist farblich gekennzeichnet, um die Verfügbarkeit der "
+"Felder anzuzeigen, die Sie ausfüllen können."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"The Gantt chart is color-coded to reflect on the occupancy, the higher the "
+"better."
+msgstr ""
+"Das Gantt-Diagramm ist farblich gekennzeichnet, um die Auslastung "
+"widerzuspiegeln; je höher, desto besser."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"The Occupancy view allows you to visualize your \"Sales Success\". It "
+"answers one simple question: <i>How well am I filling my campsite?</i>"
+msgstr ""
+"Die Ansicht „Belegung“ ermöglicht es Ihnen, Ihren „Verkaufserfolg“ zu "
+"visualisieren. Sie beantwortet eine einfache Frage: <i>Wie gut ist mein "
+"Campingplatz ausgelastet?</i>"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
@@ -1193,20 +1552,37 @@ msgstr ""
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
-"Then settle the rental order from the three dot menu to bring the line "
-"items\n"
-"                corresponding to stay offer and city tax."
+"The strength of Odoo is to separate the accounting and many other aspects "
+"which are company dependent!"
 msgstr ""
-"Wickeln Sie die Buchung anschließend über das Drei-Punkte-Menü ab, um die "
-"Einzelposten\n"
-"                für Zimmer und Touristensteuern zu übertragen."
+"Die Stärke von Odoo liegt darin, die Buchhaltung und viele andere "
+"unternehmensabhängige Aspekte voneinander zu trennen!"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Then set the days during which you want to prevent check in and check out to "
+"take place, ex. All days but Saturday"
+msgstr ""
+"Legen Sie dann die Tage fest, an denen Sie das Ein- und Auschecken "
+"verhindern möchten, z. B. alle Tage außer Samstag."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
 "These all go free in your current subscription; feel free to explore! 🙃"
 msgstr ""
-"Sie sind alle in Ihrem aktuellen Abonnement enthalten. Entdecken Sie sie! 🙃"
+"All diese Apps sind in Ihrem aktuellen Abonnement enthalten. Erkunden Sie "
+"sie! 🙃"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"They as well share the same pricing, defined at the stay offer level, which "
+"has its pros and cons."
+msgstr ""
+"Sie haben auch die gleichen Preise, die auf der Ebene des "
+"Aufenthaltsangebots festgelegt sind, was Vor- und Nachteile hat."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1224,6 +1600,31 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "They will balance their customer account during the check out!"
 msgstr "Sie werden das Kundenkonto beim Check-out begleichen."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"This blocks simulataneously all resources related to this working schedule "
+"during the prescribed period."
+msgstr ""
+"Dadurch werden alle Ressourcen, die mit diesem Arbeitsplan in Verbindung "
+"stehen, während des festgelegten Zeitraums gleichzeitig gesperrt."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "This capability is enabled by a setting you can set/unset."
+msgstr ""
+"Diese Funktion wird durch eine Einstellung aktiviert, die Sie ein- oder "
+"ausschalten können."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"This setup is relevant in case of place specific offers or when pricing "
+"varies between places."
+msgstr ""
+"Diese Einstellung ist relevant, wenn es um ortsspezifische Angebote geht "
+"oder wenn die Preise je nach Ort variieren."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1258,8 +1659,25 @@ msgstr ""
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"To ensure your guests no longer receive the satisfaction survey, you can "
+"easily archive it at any time."
+msgstr ""
+"Um sicherzustellen, dass Ihre Gäste die Zufriedenheitsumfrage nicht mehr "
+"erhalten, können Sie diese jederzeit ganz einfach archivieren."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Trace guest attendance"
 msgstr "Gastanwesenheit protokollieren"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Two options are now available to you with multiple companies and branches:"
+msgstr ""
+"Bei mehreren Unternehmen und Niederlassungen stehen Ihnen nun zwei Optionen "
+"zur Verfügung:"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1283,6 +1701,23 @@ msgstr ""
 msgid "Welcome your guests as well from the <strong>Campsite App</strong>."
 msgstr ""
 "Begrüßen Sie Ihre Gäste auch über die <strong>Campingplatz-App</strong>."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "When all is in order, confirm their invoice for payment."
+msgstr "Wenn alles in Ordnung ist, bestätigen Sie die Rechnung zur Zahlung."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"When creating an offer, assign them a company or a branch.<br/>As a result, "
+"they are available only for the selected company or branch, and will be "
+"available only from its website."
+msgstr ""
+"Weisen Sie ihnen beim Erstellen eines Angebots ein Unternehmen oder eine "
+"Niederlassung zu.<br/>Dadurch sind sie nur für das ausgewählte Unternehmen "
+"oder die ausgewählte Niederlassung verfügbar und können nur über deren "
+"Website abgerufen werden."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1310,6 +1745,18 @@ msgstr "Hier wird jeder Aufenthalt zu einer Erholung."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"While Occupancy focuses on what is full, the Availability view focuses on "
+"what is left to sell. It is your primary tool for operational safety and "
+"\"Scarcity Pricing.\""
+msgstr ""
+"Während sich die Belegungsansicht darauf konzentriert, was ausgebucht ist, "
+"konzentriert sich die Verfügbarkeitsansicht darauf, was noch zu verkaufen "
+"ist. Sie ist Ihr wichtigstes Werkzeug für die Betriebssicherheit und die "
+"„Preisgestaltung bei Knappheit“."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Willing to upgrade a booking?"
 msgstr "Möchten Sie eine Buchung upgraden?"
 
@@ -1324,9 +1771,21 @@ msgstr ""
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"With the create slot for this resource, no overlapping booking slot would be "
+"created.<br/>Care about the start and end time or this blockage to make to "
+"re-open when suited."
+msgstr ""
+"Mit dem Erstellungszeitfenster für diese Ressource würde kein überlappendes "
+"Buchungszeitfenster erstellt werden.<br/>Achten Sie auf die Start- und "
+"Endzeit oder diese Blockierung, um sie bei Bedarf wieder zu öffnen."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Would you like to discuss your Odoo setup with us or go even further?"
 msgstr ""
-"Möchten Sie Ihre Odoo-Einrichtung mit uns besprechen oder noch weiter gehen?"
+"Möchten Sie Ihre Odoo-Konfiguration mit uns besprechen oder noch einen "
+"Schritt weiter gehen?"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1337,10 +1796,13 @@ msgstr "Ihr Campingplatz ist online und zukünftige Gäste können ihn finden."
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
 "You are repairing a bungalow or simply welcoming family and don't want "
-"guests to book it?"
+"guests to book it?<br/>Alternatively, you are closing for a week during an "
+"inter season break?<br/>Let's have this reflected in your schedule!"
 msgstr ""
-"Sie renovieren einen Bungalow oder erwarten Familienbesuch und möchten "
-"nicht, dass Gäste ihn buchen?"
+"Sie renovieren einen Bungalow oder empfangen einfach Ihre Familie und "
+"möchten nicht, dass Gäste ihn buchen?<br/>Oder Sie schließen während einer "
+"Zwischensaisonpause für eine Woche?<br/>Lassen Sie dies in Ihrem Kalender "
+"widerspiegeln!"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1350,6 +1812,23 @@ msgid ""
 msgstr ""
 "Sie können auf jede installierte App in Ihrer Odoo-Datenbank über Ihr "
 "Hauptdashboard zugreifen."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"You can as well select your company and in the Branches tab define branches."
+msgstr ""
+"Sie können auch Ihr Unternehmen auswählen und im Reiter „Niederlassungen“ "
+"Niederlassungen definieren."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"You can find the participants and answers from the smart buttons of the "
+"survey."
+msgstr ""
+"Die Teilnehmer und Antworten finden Sie über die intelligenten Schaltflächen "
+"der Umfrage."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1414,12 +1893,23 @@ msgstr ""
 msgid ""
 "You just installed the Odoo for Campsite package. By doing so, we have "
 "installed a\n"
-"            bunch of necessary apps to run your bar efficiently."
+"            bunch of necessary apps to run your business efficiently."
 msgstr ""
 "Sie haben gerade das Odoo-Paket für Campingplätze installiert. Dadurch haben "
 "wir eine Reihe\n"
-"            von notwendigen Apps installiert, um Ihren Campingplatz "
-"effizient zu betreiben."
+"            von notwendigen Apps installiert, um Ihr Unternehmen effizient "
+"zu betreiben."
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"You may be running multiple places at the same time and most likely be "
+"willing to run them all from the same database.<b/>We got you covered with "
+"this using multiple companies or branches!"
+msgstr ""
+"Möglicherweise betreiben Sie mehrere Standorte gleichzeitig und möchten sie "
+"höchstwahrscheinlich alle über dieselbe Datenbank verwalten.<b/>Wir haben "
+"die Lösung für Sie, wenn Sie mehrere Unternehmen oder Niederlassungen haben!"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1484,14 +1974,6 @@ msgstr "Sie begrüßen Ihre ersten Gäste, großartig!"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
-msgid ""
-"You're now done, the invoice downloaded as well as sent to your customer!"
-msgstr ""
-"Sie sind nun fertig, die Rechnung wurde heruntergeladen und an Ihren Kunden "
-"gesendet!"
-
-#. module: campsite
-#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "You're now waiting for your guest to arrive."
 msgstr "Sie warten nun auf die Ankunft Ihres Gastes."
 
@@ -1537,7 +2019,7 @@ msgstr ""
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "request a demo"
-msgstr "bitten Sie um eine Demo"
+msgstr "eine Demo buchen"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1548,6 +2030,15 @@ msgstr "🌐 Online-Buchung und Rezensionen"
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "🍸 Beyond a place to stay"
 msgstr "🍸 Mehr als nur eine Unterkunft"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"🎓\n"
+"                Companies"
+msgstr ""
+"🎓\n"
+"                Unternehmen"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1571,28 +2062,19 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
 "🎓\n"
-"                Planning"
-msgstr ""
-"🎓\n"
-"                Planung"
-
-#. module: campsite
-#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
-msgid ""
-"🎓\n"
-"                Rental"
-msgstr ""
-"🎓\n"
-"            Vermietung"
-
-#. module: campsite
-#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
-msgid ""
-"🎓\n"
 "                Taxes"
 msgstr ""
 "🎓\n"
 "            Steuern"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"🎓\n"
+"                Websites"
+msgstr ""
+"🎓\n"
+"                Websites"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1624,8 +2106,33 @@ msgstr "🎓 Zubereitungsdisplay"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "🎓Booking Engine"
+msgstr "🎓 Buchungsplattform"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "🎓Planning"
+msgstr "🎓Planung"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "🎓Rental"
+msgstr "🎓Vermietung"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "🎓Surveys"
+msgstr "🎓 Umfragen"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "👋 Wave your guests"
 msgstr "👋 Gäste verabschieden"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "🔢 Running multiple places"
+msgstr "🔢 Mehreren Orten verwalten"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1636,3 +2143,180 @@ msgstr "🗓️ Buchungen verwalten"
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "😎 Welcome guests"
 msgstr "😎 Gäste begrüßen"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "🚀 Strategic Oversight"
+msgstr "🚀 Strategische Aufsicht"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "🧽 Managing house keeping"
+msgstr "🧽 Reinigung verwalten"
+
+#~ msgid ""
+#~ "<a t-att-href=\"'/shop/category/' + "
+#~ "str(env.ref('campsite.product_public_category_10').id)\" "
+#~ "class=\"o_translate_inline btn btn-secondary\">Find out more</a>"
+#~ msgstr ""
+#~ "<a t-att-href=\"'/shop/category/' + "
+#~ "str(env.ref('campsite.product_public_category_10').id)\" "
+#~ "class=\"o_translate_inline btn btn-secondary\">Mehr erfahren</a>"
+
+#~ msgid ""
+#~ "<a t-att-href=\"'/shop/category/' + "
+#~ "str(env.ref('campsite.product_public_category_11').id)\" "
+#~ "class=\"o_translate_inline btn btn-secondary\">Explore Our Pitches "
+#~ "Options</a>"
+#~ msgstr ""
+#~ "<a t-att-href=\"'/shop/category/' + "
+#~ "str(env.ref('campsite.product_public_category_11').id)\" "
+#~ "class=\"o_translate_inline btn btn-secondary\">Unsere Stellplätze "
+#~ "entdecken</a>"
+
+#~ msgid "Blocking a bungalow"
+#~ msgstr "Bungalow blockieren"
+
+#~ msgid ""
+#~ "On the bungalow to block line, click, drag and drop to create a slot."
+#~ msgstr ""
+#~ "Klicken Sie auf die zu sperrende Bungalow-Zeile und verschieben Sie sie, "
+#~ "um ein Zeitfenster zu erstellen."
+
+#~ msgid "Open the Campsite App Schedule."
+#~ msgstr "Öffnen Sie den Zeitplan der Campingplatz-App."
+
+#~ msgid ""
+#~ "You are repairing a bungalow or simply welcoming family and don't want "
+#~ "guests to book it?"
+#~ msgstr ""
+#~ "Sie renovieren einen Bungalow oder erwarten Familienbesuch und möchten "
+#~ "nicht, dass Gäste ihn buchen?"
+
+#~ msgid "Bungalow-L"
+#~ msgstr "Bungalow-L"
+
+#~ msgid "Bungalow-S"
+#~ msgstr "Bungalow-S"
+
+#~ msgid "Pitch-L"
+#~ msgstr "Stellplatz - L"
+
+#~ msgid "Pitch-S"
+#~ msgstr "Stellplatz - S"
+
+#~ msgid ""
+#~ "If you're not certain customers have ongoing bookings, before charging "
+#~ "their\n"
+#~ "                    customer accounts, open their contact details from "
+#~ "their menu (from the\n"
+#~ "                    customer list) and ask where they're staying in."
+#~ msgstr ""
+#~ "Sollten Sie sich nicht sicher sein, ob Kunden eine laufende Buchung "
+#~ "haben, öffnen Sie vor der\n"
+#~ "                    Belastung ihres Kundenkontos die Kontaktdaten aus dem "
+#~ "Menü (aus der Kundenliste)\n"
+#~ "                    und fragen Sie nach dem Zimmer, in dem sie "
+#~ "untergebracht sind."
+
+#~ msgid "Recording the guest presence is an obligation in numerous countries."
+#~ msgstr ""
+#~ "Die Erfassung der Anwesenheit von Gästen ist in zahlreichen Ländern "
+#~ "gesetzlich vorgeschrieben."
+
+#~ msgid "Still from their Rental Order, open the Guest tab."
+#~ msgstr "Öffnen Sie über den Mietauftrag den Reiter „Gast“."
+
+#~ msgid "Booking a room"
+#~ msgstr "Ein Zimmer buchen"
+
+#~ msgid ""
+#~ "Click the Payment button and select the payment mean, not forgetting to "
+#~ "tick the\n"
+#~ "                invoicing check box, prior clicking the Validate button."
+#~ msgstr ""
+#~ "Klicken Sie auf die Schaltfläche „Zahlung“ und wählen Sie die Zahlungsart "
+#~ "aus. Vergessen Sie nicht, das Kontrollkästchen „Rechnungsstellung“\n"
+#~ "                zu aktivieren, bevor Sie auf die Schaltfläche "
+#~ "„Validieren“ klicken."
+
+#~ msgid ""
+#~ "If the customer had a non null customer account, confirm its balancing "
+#~ "during\n"
+#~ "                this payment."
+#~ msgstr ""
+#~ "Wenn der Kunde über ein Kundenkonto verfügt, das kein Saldo von 0 hat, "
+#~ "bestätigen Sie dessen Ausgleich während\n"
+#~ "                dieser Zahlung."
+
+#~ msgid ""
+#~ "If the customer is eligible to invoice settlement, proceed to charge them "
+#~ "from their\n"
+#~ "                final invoice for already invoiced orders which were paid "
+#~ "with their customer\n"
+#~ "                account."
+#~ msgstr ""
+#~ "Wenn der Kunde zur Rechnungsbegleichung berechtigt ist, fahren Sie fort, "
+#~ "ihm die\n"
+#~ "                letzte Rechnung für bereits in Rechnung gestellte "
+#~ "Bestellungen, die über sein Kundenkonto bezahlt wurden,\n"
+#~ "                in Rechnung zu stellen."
+
+#~ msgid ""
+#~ "If the customer is eligible to order settlement, proceed to charge them "
+#~ "from\n"
+#~ "                their final invoice for all their orders during the stay "
+#~ "which were paid with their\n"
+#~ "                customer account."
+#~ msgstr ""
+#~ "Wenn der Kunde für Auftragsabrechnung berechtigt ist, berechnen Sie ihm\n"
+#~ "                die endgültige Rechnung für alle Bestellungen während "
+#~ "seines Aufenthalts, die über sein\n"
+#~ "                Kundenkonto bezahlt wurden."
+
+#~ msgid "Is Stay Offer"
+#~ msgstr "Ist Angebot"
+
+#~ msgid ""
+#~ "Once your guest order is all set after check out, open the Front Desk "
+#~ "from the POS\n"
+#~ "                App."
+#~ msgstr ""
+#~ "Sobald Ihre Gästebestellung nach dem Check-out fertig ist, öffnen Sie die "
+#~ "Rezeption über die\n"
+#~ "                Kassensystem-App."
+
+#~ msgid "Open the customer selector from a new order."
+#~ msgstr "Öffnen Sie die Kundenauswahl aus einem neuen Auftrag."
+
+#~ msgid "Stay Offers"
+#~ msgstr "Aufenthaltsangebote"
+
+#~ msgid ""
+#~ "Then settle the rental order from the three dot menu to bring the line "
+#~ "items\n"
+#~ "                corresponding to stay offer and city tax."
+#~ msgstr ""
+#~ "Wickeln Sie die Buchung anschließend über das Drei-Punkte-Menü ab, um die "
+#~ "Einzelposten\n"
+#~ "                für Zimmer und Touristensteuern zu übertragen."
+
+#~ msgid ""
+#~ "You're now done, the invoice downloaded as well as sent to your customer!"
+#~ msgstr ""
+#~ "Sie sind nun fertig, die Rechnung wurde heruntergeladen und an Ihren "
+#~ "Kunden gesendet!"
+
+#~ msgid ""
+#~ "🎓\n"
+#~ "                Planning"
+#~ msgstr ""
+#~ "🎓\n"
+#~ "                Planung"
+
+#~ msgid ""
+#~ "🎓\n"
+#~ "                Rental"
+#~ msgstr ""
+#~ "🎓\n"
+#~ "            Vermietung"

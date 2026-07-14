@@ -13,15 +13,17 @@
 # Umur Akın <umura@projetgrup.com>, 2024
 # Murat Kaplan <muratk@projetgrup.com>, 2024
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 # DeepL <noreply-mt-deepl@weblate.org>, 2025.
+# Odoo Turkish Import <dyki+tr@odoo.com>, 2025.
+# "Malaz Siddig Elsayed Abuidris (msea)" <msea@odoo.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 14:57+0000\n"
-"PO-Revision-Date: 2025-11-12 14:43+0000\n"
-"Last-Translator: DeepL <noreply-mt-deepl@weblate.org>\n"
+"POT-Creation-Date: 2026-03-20 19:06+0000\n"
+"PO-Revision-Date: 2026-06-13 09:45+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Turkish <https://translate.odoo.com/projects/odoo-19/"
 "hair_salon/tr/>\n"
 "Language: tr\n"
@@ -29,17 +31,55 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: hair_salon
 #: model:loyalty.reward,description:hair_salon.loyalty_reward_4
-#, fuzzy
 msgid "$ 20 on your order"
 msgstr "Siparişinizde 20 $"
 
 #. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid ""
+"<b>Appointments App</b>: Allow clients to book specific services and "
+"stylists online, syncing directly with your\n"
+"                team's calendar to prevent double-booking."
+msgstr ""
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid ""
+"<b>Employees App</b>: specific stylist schedules and track attendance, "
+"ensuring you have the right talent\n"
+"                available for peak hours."
+msgstr ""
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid ""
+"<b>Inventory App</b>: Manage your stock of retail products (like shampoos "
+"and gels) and professional supplies\n"
+"                (like color tubes and developers) in real-time."
+msgstr ""
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid ""
+"<b>Point of Sale App</b>: Process payments quickly at the chair or front "
+"desk, handling tips, gift cards, and\n"
+"                product sales seamlessly."
+msgstr ""
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid ""
+"<b>Website App</b>: Showcase your portfolio of cuts and colors, list your "
+"services, and attract new clients with\n"
+"                a professional online presence."
+msgstr ""
+
+#. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.homepage
-#, fuzzy
 msgid ""
 "<font class=\"text-o-color-3\">Schedule an\n"
 "                                                                                    appointment\n"
@@ -47,10 +87,9 @@ msgid ""
 "font>"
 msgstr ""
 "<font class=\"text-o-color-3\">Bir randevu ayarlayın\n"
-"                                                                                    "
-"randevu\n"
-"                                                                           "
-"</font>"
+"                                                                                    \n"
+"                                                                           </"
+"font>"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
@@ -68,29 +107,35 @@ msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
 msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
 
 #. module: hair_salon
-#: model_terms:ir.ui.view,arch_db:hair_salon.homepage
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
 #, fuzzy
+msgid ""
+"<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
+"fst-normal\" aria-label=\"Banner Warning\">⚠️</i>"
+msgstr ""
+"<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
+"fst-normal\" aria-label=\"Banner Warning\">⚠️</i>"
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.homepage
 msgid "<span class=\"display-2-fs\">Step into our salon</span>"
 msgstr "<span class=\"display-2-fs\">Salonumuza adım atın</span>"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
 msgid ""
 "<span class=\"display-4-fs\"><strong>Odoo for Hair Salons</strong></span>"
 msgstr ""
-"<span class=\"display-4-fs\"><strong>Kuaför Salonları için "
-"Odoo</strong></span>"
+"<span class=\"display-4-fs\"><strong>Kuaför Salonları için Odoo</strong></"
+"span>"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
 msgid "<span class=\"h1-fs\">Basics:&amp;nbsp;</span>"
 msgstr "<span class=\"h1-fs\">Temel bilgiler:&amp;nbsp;</span>"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
 msgid "<span class=\"h1-fs\">Do you want to go further?&amp;nbsp;🚀</span>"
 msgstr ""
 "<span class=\"h1-fs\">Daha ileri gitmek ister misiniz?&amp;nbsp;🚀</span>"
@@ -98,51 +143,45 @@ msgstr ""
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
 #, fuzzy
+msgid "<strong>Use case</strong>"
+msgstr "<strong>Kullanım durumu</strong>"
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
 msgid "Allow clients to book appointments online"
 msgstr "Müşterilerin çevrimiçi randevu almasına izin verin"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
 msgid "Appointment Scheduling &amp;amp; calendar 📆&amp;nbsp;"
 msgstr "Randevu Planlama &amp;amp; takvim 📆&amp;nbsp;"
 
 #. module: hair_salon
-#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
-msgid "Basics:&amp;nbsp;"
-msgstr "Temel bilgiler:&amp;nbsp;"
-
-#. module: hair_salon
 #: model:appointment.type,name:hair_salon.appointment_type_6
-#, fuzzy
 msgid "Beard Shaping"
 msgstr "Sakal Şekillendirme"
 
 #. module: hair_salon
 #: model:appointment.type,name:hair_salon.appointment_type_8
-#, fuzzy
 msgid "Beard Shaping JP"
 msgstr "Sakal Şekillendirme JP"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.homepage
-#, fuzzy
 msgid ""
 "Because nothing is impossible, and hair transformations are the salon's\n"
 "                                                                            specialty, "
 "at Hair Salon Industry, every customer is treated as an\n"
 "                                                                            individual.&amp;nbsp;"
 msgstr ""
-"Çünkü hiçbir şey imkansız değildir ve saç dönüşümleri salonun\n"
-"                                                                            "
-"Hair Salon Industry'de her müşteriye özel bir müşteri olarak davranılır.\n"
-"                                                                            "
-"bireysel.&amp;nbsp;"
+"İmkânsız diye bir şey olmadığı ve saç dönüşümlerinin salonumuzun\n"
+"                                                                            uzmanlık "
+"alanı olduğu için, Hair Salon Industry’de her müşteri bireysel olarak ele "
+"alınır.\n"
+"                                                                            &amp;nbsp;"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.homepage
-#, fuzzy
 msgid "Book your appointment"
 msgstr "Randevunuzu ayırtın"
 
@@ -153,36 +192,39 @@ msgstr "Bozulan"
 
 #. module: hair_salon
 #: model:base.automation,name:hair_salon.delete_subpart_calendar_event
-#, fuzzy
 msgid "Break Appointment"
-msgstr "Mola Randevusu"
+msgstr "Molayı Bitir"
 
 #. module: hair_salon
 #: model:ir.model.fields,field_description:hair_salon.calendar_x_break_end
 #: model:ir.model.fields,field_description:hair_salon.x_break_end_appointment_model
-#, fuzzy
 msgid "Break End"
 msgstr "Mola Sonu"
 
 #. module: hair_salon
 #: model:ir.model.fields,field_description:hair_salon.calendar_x_break_start
 #: model:ir.model.fields,field_description:hair_salon.x_break_start_appointment_model
-#, fuzzy
 msgid "Break Start"
 msgstr "Mola Başlangıcı"
 
 #. module: hair_salon
 #: model:appointment.type,name:hair_salon.appointment_type_3
 #: model:product.template,name:hair_salon.product_product_27_product_template
-#, fuzzy
 msgid "Brushing"
-msgstr "Fırçalama"
+msgstr "Fön"
 
 #. module: hair_salon
 #: model:appointment.type,name:hair_salon.appointment_type_7
-#, fuzzy
 msgid "Brushing JP"
-msgstr "Fırçalama JP"
+msgstr "Fön JP"
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid ""
+"By uploading this module's demo data, your database has been filled with a "
+"few products, sale\n"
+"        orders and more."
+msgstr ""
 
 #. module: hair_salon
 #: model:pos.category,name:hair_salon.pos_category_4
@@ -191,65 +233,53 @@ msgstr "Bakım Ürünleri"
 
 #. module: hair_salon
 #: model:product.pricelist,name:hair_salon.product_pricelist_2
-#, fuzzy
 msgid "Color & Haircut & Brushing"
-msgstr "Renk & Saç Kesimi & Fırçalama"
+msgstr "Renk & Saç Kesimi & Fön"
 
 #. module: hair_salon
 #: model:product.template,name:hair_salon.product_template_20
-#, fuzzy
 msgid "Conditioner - 500ml"
 msgstr "Saç Kremi - 500ml"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
 msgid ""
 "Configure Appointment Types: In the Appointment app, create types that match "
 "your services."
-msgstr ""
-"Randevu Türlerini Yapılandırın: Randevu uygulamasında, hizmetlerinizle "
-"eşleşen türler oluşturun."
+msgstr "Randevu uygulamasında, hizmetlerinize uygun randevu türleri oluşturun."
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
 msgid "Configure loyalty programs or promotions within your Point of Sale."
 msgstr "Satış Noktanızda sadakat programları veya promosyonlar yapılandırın."
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
 msgid "Create an attractive website to display your services"
 msgstr "Hizmetlerinizi sergilemek için çekici bir web sitesi oluşturun"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
 msgid "Create and manage your salon services and products:"
 msgstr "Salon hizmetlerinizi ve ürünlerinizi oluşturun ve yönetin:"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
 msgid "Create loyalty programs and gift cards."
 msgstr "Sadakat programları ve hediye kartları oluşturun."
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
 msgid "Define pricing for each service and product."
 msgstr "Her bir hizmet ve ürün için fiyatlandırmayı tanımlayın."
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
 msgid "Define your stylists' availability"
 msgstr "Stilistlerinizin müsaitlik durumunu belirleyin"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
 msgid ""
 "Design Your Website: Use the Website app to create an attractive online "
 "presence for your salon."
@@ -264,35 +294,25 @@ msgstr "Daha fazlasını keşfet"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.homepage
-#, fuzzy
 msgid "Discover your best look at our innovative hair salon."
 msgstr "Yenilikçi kuaför salonumuzda en iyi görünümünüzü keşfedin."
 
 #. module: hair_salon
-#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
-msgid "Do you want to go further?&amp;nbsp;🚀"
-msgstr "Daha ileri gitmek ister misiniz?&amp;nbsp;🚀"
-
-#. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.homepage
-#, fuzzy
 msgid "Elevate your hair game."
-msgstr "Saç oyununuzu geliştirin."
+msgstr "Saç stilinizi bir üst seviyeye taşıyın."
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
 msgid ""
 "Encourage clients to book through your online Appointment page to reduce "
 "your efforts.&amp;nbsp;"
 msgstr ""
-"Çabalarınızı azaltmak için müşterilerinizi çevrimiçi Randevu sayfanız "
-"üzerinden rezervasyon yapmaya teşvik edin.&amp;nbsp;"
+"Müşterilerinizi, iş yükünüzü azaltmak için online Randevu sayfanızdan "
+"randevu almaya teşvik edin."
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
 msgid ""
 "Engage clients with targeted campaigns using Email Marketing and Social "
 "Marketing."
@@ -307,7 +327,6 @@ msgstr "Kodu Çalıştırın"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.homepage
-#, fuzzy
 msgid ""
 "Experience the ultimate transformation at our hair salon, where style meets\n"
 "                                                                            innovation, "
@@ -315,27 +334,24 @@ msgid ""
 "                                                                            <br/"
 ">"
 msgstr ""
-"Tarzın kuaför salonumuzda buluştuğu nihai dönüşümü deneyimleyin\n"
-"                                                                            "
-"yeniliktir ve her tel bir güzellik hikayesi anlatır.\n"
-"                                                                           <"
-"br/>"
+"Tarzın salonumuzda hayat bulduğu nihai dönüşümü deneyimleyin;\n"
+"                                                                            yenilik "
+"bizim işimizdir ve her saç teli bir güzellik hikâyesi anlatır.\n"
+"                                                                           <br/"
+">"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.homepage
-#, fuzzy
 msgid "Experienced hairstylists"
 msgstr "Deneyimli kuaförler"
 
 #. module: hair_salon
 #: model:loyalty.program,name:hair_salon.loyalty_program_4
-#, fuzzy
 msgid "Fidelity Cards - 20€ off after 5 visits of 50€"
-msgstr "Fidelity Kartları - 50€'luk 5 ziyaretten sonra 20€ indirim"
+msgstr "Sadakat Kartları - 5 ziyaret (50€) sonrası 20€ indirim"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
 msgid "Gather client feedback and preferences using the Survey app."
 msgstr ""
 "Anket uygulamasını kullanarak müşteri geri bildirimlerini ve tercihlerini "
@@ -344,10 +360,8 @@ msgstr ""
 #. module: hair_salon
 #. odoo-javascript
 #: code:addons/hair_salon/static/src/js/my_tour.js:0
-#, fuzzy
 msgid "Get on track and explore our recommendations for your Odoo usage here!"
-msgstr ""
-"Yolunuza devam edin ve Odoo kullanımınız için önerilerimizi buradan keşfedin!"
+msgstr "Odoo deneyiminizi geliştirecek önerilerimizi keşfedin!"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
@@ -361,55 +375,52 @@ msgstr "Hediye Kartı"
 
 #. module: hair_salon
 #: model:product.template,name:hair_salon.product_template_5
-#, fuzzy
 msgid "Hair Coloring"
 msgstr "Saç Boyama"
 
 #. module: hair_salon
 #: model:product.template,name:hair_salon.product_template_23
-#, fuzzy
 msgid "Hair Dye Kit"
 msgstr "Saç Boyası Kiti"
 
 #. module: hair_salon
 #: model:product.attribute,name:hair_salon.product_attribute_1
-#, fuzzy
 msgid "Hair Length"
 msgstr "Saç Uzunluğu"
 
 #. module: hair_salon
+#: model:base.automation,name:hair_salon.uninstall_hook_base_automation
+#: model:ir.actions.server,name:hair_salon.uninstall_hook_action_server
+msgid "Hair Salon: Uninstall Hook"
+msgstr ""
+
+#. module: hair_salon
 #: model:product.template,name:hair_salon.product_template_22
-#, fuzzy
 msgid "Hair Spray - 250ml"
 msgstr "Saç Spreyi - 250ml"
 
 #. module: hair_salon
 #: model:product.template,name:hair_salon.product_template_21
-#, fuzzy
 msgid "Hair Styling Gel - 250ml"
 msgstr "Saç Şekillendirici Jel - 250ml"
 
 #. module: hair_salon
 #: model:appointment.type,name:hair_salon.appointment_type_1
-#, fuzzy
 msgid "Haircut & Brushing"
-msgstr "Saç Kesimi & Fırçalama"
+msgstr "Saç Kesimi & Fön"
 
 #. module: hair_salon
 #: model:appointment.type,name:hair_salon.appointment_type_2
-#, fuzzy
 msgid "Haircut & Color & Brushing"
-msgstr "Saç Kesimi & Renk & Fırçalama"
+msgstr "Saç Kesimi & Renk & Fön"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
 msgid "Handle walk-ins and product sales efficiently:"
 msgstr "Gelen ziyaretçileri ve ürün satışlarını verimli bir şekilde ele alın:"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.homepage
-#, fuzzy
 msgid ""
 "Here, more than anywhere else, we take the time to listen and advise, in\n"
 "                                                                            order "
@@ -417,38 +428,34 @@ msgid ""
 "                                                                            of "
 "the service."
 msgstr ""
-"Burada, başka her yerden daha fazla, dinlemek ve tavsiyelerde bulunmak için "
-"zaman ayırıyoruz.\n"
-"                                                                            "
-"sonunda bir rahatlama anı ve tam bir memnuniyet sunmak için\n"
-"                                                                            "
-"hizmetin."
+"Burada, her zamankinden daha fazla, sizi dinlemeye ve doğru önerilerde "
+"bulunmaya özen gösteriyoruz;\n"
+"                                                                            amaç, "
+"hizmetin sonunda size rahatlatıcı ve tam bir memnuniyet dolu bir deneyim\n"
+"                                                                            sunmaktır."
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
 msgid ""
 "If you want to completely avoid no-shows, you can set a pre-payment for "
 "online booking, by linking each appointment type with a specific product and "
 "defining a payment method."
 msgstr ""
-"No-show'ları tamamen önlemek istiyorsanız, her randevu türünü belirli bir "
-"ürünle ilişkilendirerek ve bir ödeme yöntemi tanımlayarak çevrimiçi "
-"rezervasyon için bir ön ödeme ayarlayabilirsiniz."
+"Hiç gelinmeyen randevuları tamamen önlemek istiyorsanız, her randevu türünü "
+"belirli bir ürünle ilişkilendirip bir ödeme yöntemi tanımlayarak online "
+"randevularda ön ödeme almayı ayarlayabilirsiniz."
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
 msgid ""
 "If you want to optimize your planning, you can also set breaks in "
 "appointment."
 msgstr ""
-"Planlamanızı optimize etmek istiyorsanız, randevuda molalar da "
-"ayarlayabilirsiniz."
+"Planlamanızı optimize etmek istiyorsanız, randevular arasında molalar da "
+"ekleyebilirsiniz."
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
 msgid ""
 "Implement a loyalty program to reward repeat customers using the eCommerce "
 "features."
@@ -458,7 +465,6 @@ msgstr ""
 
 #. module: hair_salon
 #: model:ir.model.fields,help:hair_salon.x_break
-#, fuzzy
 msgid "Insert a free time in your booking."
 msgstr "Rezervasyonunuza boş bir zaman ekleyin."
 
@@ -469,7 +475,6 @@ msgstr "Daha fazla bilgi edin"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
 msgid "Let clients book directly through your booking page"
 msgstr ""
 "Müşterilerin doğrudan rezervasyon sayfanız üzerinden rezervasyon yapmasına "
@@ -477,25 +482,21 @@ msgstr ""
 
 #. module: hair_salon
 #: model:ir.model.fields,field_description:hair_salon.x_parent_id
-#, fuzzy
 msgid "Linked to"
 msgstr "Bağlantılı"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.calendar_event_view_form_gantt_booking_inherit
-#, fuzzy
 msgid "Linked to:"
 msgstr "Bağlantılı:"
 
 #. module: hair_salon
 #: model:product.attribute.value,name:hair_salon.product_attribute_value_1
-#, fuzzy
 msgid "Long hair"
 msgstr "Uzun saç"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
 msgid ""
 "Manage Your Inventory: Input your hair care products and stock levels in the "
 "Inventory app."
@@ -505,80 +506,69 @@ msgstr ""
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
 msgid "Manage cash and card payments"
 msgstr "Nakit ve kart ödemelerini yönetin"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
 msgid ""
 "Manage inventory for hair care products and replenish with the Purchase App."
 msgstr ""
-"Saç bakım ürünleri için envanteri yönetin ve Satın Alma Uygulaması ile "
+"Saç bakım ürünlerinizin stoklarını yönetin ve Satınalma Uygulaması ile "
 "yenileyin."
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
 msgid "Manage your staff's booking directly the Appointment App."
 msgstr ""
-"Personelinizin rezervasyonlarını doğrudan Randevu Uygulaması ile yönetin."
+"Personelinizin randevularını doğrudan Randevu Uygulaması üzerinden yönetin."
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
 msgid ""
 "Manage your team of stylists efficiently with the Employees and Planning "
 "apps."
 msgstr ""
-"Çalışanlar ve Planlama uygulamaları ile stilist ekibinizi verimli bir "
-"şekilde yönetin."
+"Kuaför ekibinizi Çalışanlar ve Planlama uygulamaları ile verimli bir şekilde "
+"yönetin."
 
 #. module: hair_salon
 #: model:appointment.type,name:hair_salon.appointment_type_4
 #: model:product.template,name:hair_salon.product_product_30_product_template
-#, fuzzy
 msgid "Men's Haircut"
 msgstr "Erkek Saç Kesimi"
 
 #. module: hair_salon
 #: model:appointment.type,name:hair_salon.appointment_type_5
-#, fuzzy
 msgid "Men's Haircut + Beard Shaping"
 msgstr "Erkek Saç Kesimi + Sakal Şekillendirme"
 
 #. module: hair_salon
 #: model:appointment.type,name:hair_salon.appointment_type_9
-#, fuzzy
 msgid "Men's Haircut JP"
 msgstr "Erkek Saç Kesimi JP"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
 msgid ""
 "Monitor your inventory levels closely to ensure you have popular products in "
 "stock."
 msgstr ""
-"Stoklarınızda popüler ürünlerin bulunduğundan emin olmak için envanter "
-"seviyelerinizi yakından takip edin."
+"Popüler ürünlerin stokta olduğundan emin olmak için envanter seviyelerinizi "
+"yakından takip edin."
 
 #. module: hair_salon
 #: model:product.template,name:hair_salon.product_product_7_product_template
-#, fuzzy
 msgid "Mustache and beard shaping"
 msgstr "Bıyık ve sakal şekillendirme"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.homepage
-#, fuzzy
 msgid "Natural products"
 msgstr "Doğal ürünler"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
 msgid ""
 "Odoo offers you infinite possibilities to enhance your hair salon business, "
 "such as:"
@@ -588,13 +578,20 @@ msgstr ""
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
+msgid ""
+"Of course, this is just an overview of the features included in this "
+"package. Feel free to\n"
+"        add new apps, delete/modify demo data, and test everything around!"
+msgstr ""
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
 msgid ""
 "Organize hair styling workshops or product demonstrations with the Events "
 "app."
 msgstr ""
-"Etkinlikler uygulaması ile saç şekillendirme atölyeleri veya ürün "
-"tanıtımları düzenleyin."
+"Etkinlikler uygulaması ile saç stili atölyeleri veya ürün tanıtımları "
+"düzenleyin."
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.homepage
@@ -603,33 +600,29 @@ msgstr "Misyonumuz"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.homepage
-#, fuzzy
 msgid ""
 "Our hairstylists are experienced and able to give\n"
 "                                                                                            you "
 "the best advices and haircuts."
 msgstr ""
 "Kuaförlerimiz deneyimlidir ve size\n"
-"                                                                                            "
-"size en iyi tavsiyeleri ve saç kesimlerini sunar."
+"                                                                                            size "
+"en iyi tavsiyeleri ve saç kesimlerini sunar."
 
 #. module: hair_salon
 #: model:ir.model.fields,field_description:hair_salon.x_appointment_part_1
-#, fuzzy
 msgid "Part 1"
 msgstr "Bölüm 1"
 
 #. module: hair_salon
 #: model:ir.model.fields,field_description:hair_salon.x_appointment_part_2
-#, fuzzy
 msgid "Part 2"
 msgstr "Bölüm 2"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
 msgid "Point of Sale 💳&amp;nbsp;"
-msgstr "Satış Noktası 💳&amp;nbsp;"
+msgstr "Satış Noktası- POS💳&amp;nbsp;"
 
 #. module: hair_salon
 #: model:loyalty.program,portal_point_name:hair_salon.loyalty_program_4
@@ -638,9 +631,8 @@ msgstr "Puanlar"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
 msgid "Process quick transactions for services and products"
-msgstr "Hizmetler ve ürünler için hızlı işlem yapma"
+msgstr "Hizmetler ve ürünler için hızlı işlemler gerçekleştirin."
 
 #. module: hair_salon
 #: model:pos.category,name:hair_salon.pos_category_3
@@ -649,13 +641,11 @@ msgstr "Ürünler"
 
 #. module: hair_salon
 #: model:product.template,name:hair_salon.product_template_25
-#, fuzzy
 msgid "Professional Conditionner 2L"
-msgstr "Profesyonel Kondisyoner 2L"
+msgstr "Profesyonel Saç Kremi 2L"
 
 #. module: hair_salon
 #: model:product.template,name:hair_salon.product_template_24
-#, fuzzy
 msgid "Professional Shampoo 2L"
 msgstr "Profesyonel Şampuan 2L"
 
@@ -666,13 +656,13 @@ msgstr "Bize ulaşın"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
 msgid ""
 "Remember, Odoo is flexible and can adapt to your specific salon needs. Don't "
 "hesitate to explore and customize as your business grows!"
 msgstr ""
-"Unutmayın, Odoo esnektir ve özel salon ihtiyaçlarınıza uyum sağlayabilir. "
-"İşiniz büyüdükçe keşfetmekten ve özelleştirmekten çekinmeyin!"
+"Odoo ile salonunuzu tamamen kontrol edin! Esnek yapısı sayesinde "
+"ihtiyaçlarınıza uyum sağlar ve işletmeniz büyüdükçe kolayca "
+"özelleştirilebilir. Keşfedin, geliştirin, fark yaratın!"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.header_call_to_action
@@ -681,23 +671,20 @@ msgstr "Bir randevu ayarla"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
 msgid "Services and Product Management 💇‍♀️&amp;nbsp;"
 msgstr "Hizmetler ve Ürün Yönetimi 💇‍♀️&amp;nbsp;"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
 msgid ""
 "Set Up Your Point of Sale: Configure your POS system for efficient in-salon "
 "transactions."
 msgstr ""
-"Satış Noktası Kurun: Salon içi işlemlerin verimli olması için Satış Noktası "
-"sisteminizi yapılandırın."
+"Satış Noktası Kurun: Salon içi işlemlerin verimli olması için Satış Noktası- "
+"POS sisteminizi yapılandırın."
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
 msgid ""
 "Set Up Your Services: Navigate to Sales &amp;gt; Products and set up your "
 "hair salon services and products."
@@ -707,50 +694,42 @@ msgstr ""
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
 msgid "Set up Reminders on appointments to reduce no-show rate."
 msgstr "Randevulara gelmeme oranını azaltmak için hatırlatıcılar kurun."
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
 msgid "Set up appointment types (e.g., \"Women's Haircut\", \"Hair Coloring\")"
 msgstr ""
 "Randevu türlerini ayarlama (örneğin, \"Kadın Saç Kesimi\", \"Saç Boyama\")"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
 msgid "Set up services like \"Women's Haircut\" or \"Hair Coloring\""
 msgstr "\"Kadın Saç Kesimi\" veya \"Saç Boyama\" gibi hizmetler ayarlayın"
 
 #. module: hair_salon
 #: model:product.template,name:hair_salon.product_template_6
-#, fuzzy
 msgid "Shampoo - 500ml"
 msgstr "Şampuan - 500ml"
 
 #. module: hair_salon
 #: model:product.attribute.value,name:hair_salon.product_attribute_value_2
-#, fuzzy
 msgid "Short hair"
 msgstr "Kısa saç"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
 msgid "Showcase your salon and enable online bookings:"
-msgstr "Salonunuzu sergileyin ve çevrimiçi rezervasyonları etkinleştirin:"
+msgstr "Salonunuzu öne çıkarın ve online randevu alınmasını sağlayın:"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
 msgid "Showcase your stylists and their specialties"
 msgstr "Stilistlerinizi ve uzmanlıklarını sergileyin"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
 msgid ""
 "Start Booking Appointments: Begin using the Appointment app to schedule "
 "client services."
@@ -760,23 +739,20 @@ msgstr ""
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.homepage
-#, fuzzy
 msgid "The Hair Salon&amp;nbsp;Concept"
 msgstr "Kuaför Salonu&amp;nbsp;Konsept"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
 msgid ""
 "These additional features are available in your current subscription; feel "
 "free to explore and expand your salon's capabilities! 🙃"
 msgstr ""
-"Bu ek özellikler mevcut aboneliğinizde mevcuttur; salonunuzun yeteneklerini "
-"keşfetmekten ve genişletmekten çekinmeyin! 🙃"
+"Mevcut aboneliğinizde bu ek özellikler de kullanılabilir; keşfedin ve "
+"salonunuzun imkanlarını genişletmekten çekinmeyin! 🙃"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
 msgid ""
 "This guide will help you navigate the key features and get your salon "
 "business up and running efficiently. From&amp;nbsp;managing appointments, "
@@ -784,34 +760,30 @@ msgid ""
 "your online presence, this package has everything you need to streamline "
 "your operations and delight your clients."
 msgstr ""
-"Bu kılavuz, temel özelliklerde gezinmenize ve salon işletmenizi verimli bir "
-"şekilde kurup çalıştırmanıza yardımcı olacaktır. &amp;nbsp; adresinden "
-"randevuları yönetmeye, hizmet ve ürün satmaya, envanterinizi yönetmeye "
-"ve&amp;nbsp;adresinden çevrimiçi varlığınızı oluşturmaya kadar, bu paket "
-"operasyonlarınızı kolaylaştırmak ve müşterilerinizi memnun etmek için "
-"ihtiyacınız olan her şeye sahiptir."
+"Bu rehber, salon işinizi verimli bir şekilde yönetmeniz için temel "
+"özellikleri keşfetmenize yardımcı olacak. Randevuları yönetmekten, hizmet ve "
+"ürün satışı yapmaya, stok takibinden&nbsp;çevrimiçi varlığınızı oluşturmaya "
+"kadar, bu paket operasyonlarınızı kolaylaştırmak ve müşterilerinizi memnun "
+"etmek için ihtiyacınız olan her şeyi sunar."
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
 msgid ""
 "This will split an appointment to free the planning during the break. This "
 "way, you can start a Coloring, take another client, and return&amp;nbsp;to "
 "your first client right after."
 msgstr ""
-"Bu, mola sırasında planlamayı serbest bırakmak için bir randevuyu "
-"bölecektir. Bu şekilde, bir Renklendirmeye başlayabilir, başka bir müşteriyi "
-"alabilir ve hemen ardından ilk müşterinize&amp;nbsp;dönebilirsiniz."
+"Bu özellik, bir randevuyu bölerek mola sırasında planlamayı boşaltmanızı "
+"sağlar. Böylece bir Boyama işlemine başlayabilir, başka bir müşteriyi "
+"alabilir ve hemen ardından ilk müşterinize dönebilirsiniz."
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
 msgid "Tips for Success"
 msgstr "Başarı için İpuçları"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
 msgid "Track daily sales and reconcile at closing"
 msgstr "Günlük satışları takip edin ve kapanışta mutabakat sağlayın"
 
@@ -822,7 +794,6 @@ msgstr "Uniseks"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
 msgid "Use the Appointment app to allow clients to book hair services easily:"
 msgstr ""
 "Müşterilerin saç hizmetleri için kolayca rezervasyon yapmalarını sağlamak "
@@ -830,10 +801,10 @@ msgstr ""
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
 msgid "Use the POS system to upsell hair care products during checkout."
 msgstr ""
-"Ödeme sırasında saç bakım ürünleri satmak için Satış Noktası'nı kullanın."
+"Ödeme sırasında saç bakım ürünleri satmak için Satış Noktası'nı POS'u "
+"kullanın."
 
 #. module: hair_salon
 #: model:pos.category,name:hair_salon.pos_category_5
@@ -842,39 +813,35 @@ msgstr "Çeşitli"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.homepage
-#, fuzzy
 msgid ""
 "We offer services for long and short hair. Everyone\n"
 "                                                                                            is "
 "welcome whatever their gender."
 msgstr ""
-"Uzun ve kısa saçlar için hizmet sunuyoruz. Herkes\n"
-"                                                                                            "
-"cinsiyetleri ne olursa olsun hoş karşılanır."
+"Uzun ve kısa saçlar için hizmetler sunuyoruz. Herkesin\n"
+"                                                                                            cinsiyeti "
+"ne olursa olsun salonumuza davetlidir."
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.homepage
-#, fuzzy
 msgid ""
 "We work with eco-friendly natural products to\n"
 "                                                                                            protect "
 "your hair and the environment."
 msgstr ""
-"Çevre dostu doğal ürünlerle çalışıyoruz\n"
-"                                                                                            "
-"saçınızı ve çevreyi koruyun."
+"Çevre dostu doğal ürünlerle \n"
+"                                                                                            saçınızı "
+"ve çevreyi korumak için çalışıyoruz."
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
 msgid "Website and Online Booking 🌐&amp;nbsp;"
 msgstr "Web Sitesi ve Online Rezervasyon 🌐&amp;nbsp;"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-#, fuzzy
 msgid "Welcome to your new Odoo Hair Salon package!&amp;nbsp;"
-msgstr "Yeni Odoo Kuaför Salonu paketinize hoş geldiniz!&amp;nbsp;"
+msgstr "Yeni Odoo Kuaför Salonu paketinize Hoş Geldiniz!&amp;nbsp;"
 
 #. module: hair_salon
 #: model_terms:web_tour.tour,rainbow_man_message:hair_salon.knowledge_tour
@@ -883,7 +850,6 @@ msgstr "Hoş geldiniz! Mutlu keşifler."
 
 #. module: hair_salon
 #: model:product.template,name:hair_salon.product_template_28
-#, fuzzy
 msgid "Women's Haircut"
 msgstr "Kadın Saç Kesimi"
 
@@ -894,14 +860,28 @@ msgstr ""
 "Odoo kurulumunuzu bizimle konuşmak veya daha da ileri gitmek ister misiniz?"
 
 #. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid ""
+"You didn't import demo data? You can still do it. Go to Apps &gt; Industries "
+"&gt; Upgrade\n"
+"            your Hair Salon package and check the related box"
+msgstr ""
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid ""
+"You should be able to execute the following flows to have an overview of "
+"various flows you\n"
+"        can quickly execute with this package using Odoo."
+msgstr ""
+
+#. module: hair_salon
 #: model:ir.model.fields,field_description:hair_salon.x_visibility
-#, fuzzy
 msgid "invisibility in gantt"
-msgstr "gantt'ta görünmezlik"
+msgstr "Gantt’ta görünmezlik"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.homepage
-#, fuzzy
 msgid "woman arranging the hair of woman sitting on chair"
 msgstr "sandalyede oturan kadının saçını düzenleyen kadın"
 
@@ -914,6 +894,12 @@ msgstr "🎓 Satış Noktası"
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
 msgid "🎓 Website"
 msgstr "🎓 Web Sitesi"
+
+#~ msgid "Basics:&amp;nbsp;"
+#~ msgstr "Temel bilgiler:&amp;nbsp;"
+
+#~ msgid "Do you want to go further?&amp;nbsp;🚀"
+#~ msgstr "Daha ileri gitmek ister misiniz?&amp;nbsp;🚀"
 
 #~ msgid "About Us"
 #~ msgstr "Hakkımızda"

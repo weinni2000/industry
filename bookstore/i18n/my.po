@@ -3,13 +3,14 @@
 # * bookstore
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Oakarmin Iron <oakarminiron@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 09:55+0000\n"
-"PO-Revision-Date: 2025-11-17 11:11+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-06-12 17:43+0000\n"
+"PO-Revision-Date: 2026-02-05 15:28+0000\n"
+"Last-Translator: Oakarmin Iron <oakarminiron@gmail.com>\n"
 "Language-Team: Burmese <https://translate.odoo.com/projects/odoo-19/"
 "bookstore/my/>\n"
 "Language: my\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -276,6 +277,54 @@ msgstr ""
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Barcode App</b>:</font> Use mobile "
+"scanners to perform inventory counts and receive new shipments efficiently, "
+"reducing manual entry errors."
+msgstr ""
+
+#. module: bookstore
+#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Inventory App</b>: </font>Master your "
+"library of titles, using barcode scanning for rapid stock adjustments and "
+"managing locations for different genres or sections."
+msgstr ""
+
+#. module: bookstore
+#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Invoicing App</b>:</font> Simplify your "
+"bookkeeping by tracking daily sales and supplier invoices in one integrated "
+"financial system."
+msgstr ""
+
+#. module: bookstore
+#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Point of Sale App</b>: </font>Process "
+"transactions quickly using barcode scanners to read ISBNs, handling "
+"discounts and customer loyalty programs with ease."
+msgstr ""
+
+#. module: bookstore
+#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Purchase App</b>:</font> Automate "
+"replenishment orders based on sales velocity, ensuring you never run out of "
+"the latest bestsellers."
+msgstr ""
+
+#. module: bookstore
+#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>eCommerce App</b>: </font>Expand your "
+"readership by selling books online, offering \"click and collect\" options "
+"or shipping directly to readers' homes."
+msgstr ""
+
+#. module: bookstore
+#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
 msgstr ""
 
@@ -412,11 +461,6 @@ msgid "Author"
 msgstr "စာရေးသူ"
 
 #. module: bookstore
-#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
-msgid "Basics"
-msgstr ""
-
-#. module: bookstore
 #: model:pos.category,name:bookstore.pos_category_1
 msgid "Books"
 msgstr ""
@@ -426,16 +470,6 @@ msgstr ""
 msgid ""
 "By uploading this module's demo data, your database has been filled with a "
 "few products and 2 sample contacts."
-msgstr ""
-
-#. module: bookstore
-#: model:pos.payment.method,name:bookstore.pos_payment_method_1
-msgid "Cash"
-msgstr "ငွေသား"
-
-#. module: bookstore
-#: model:account.journal,name:bookstore.cash
-msgid "Cash (Bookstore)"
 msgstr ""
 
 #. module: bookstore
@@ -470,11 +504,6 @@ msgstr ""
 msgid ""
 "Discover the basics of this package and explore all the possibilities Odoo "
 "offers to improve your experience."
-msgstr ""
-
-#. module: bookstore
-#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
-msgid "Do you want to go further?"
 msgstr ""
 
 #. module: bookstore
@@ -664,11 +693,6 @@ msgstr ""
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
-msgid "Odoo for Bookstore"
-msgstr ""
-
-#. module: bookstore
-#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid ""
 "Odoo is entirely integrated into an App. Download it to turn your phone into "
 "an additional scanner (and much more)."
@@ -715,7 +739,7 @@ msgstr ""
 #. module: bookstore
 #: model:ir.model.fields.selection,name:bookstore.x_purchase_type_field_selection_replenishment
 msgid "Replenishment"
-msgstr ""
+msgstr "ပြန်လည်ဖြည့်တင်းခြင်း"
 
 #. module: bookstore
 #: model:product.template,name:bookstore.product_product_12_product_template
@@ -760,52 +784,6 @@ msgstr ""
 #. module: bookstore
 #: model:base.automation,name:bookstore.base_automation_1
 msgid "Update supplier info on incoming products"
-msgstr ""
-
-#. module: bookstore
-#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
-msgid "Use Case"
-msgstr ""
-
-#. module: bookstore
-#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
-msgid ""
-"Use the <strong><font class=\"text-o-color-1\">Barcode App</font></"
-"strong><font class=\"text-o-color-1\"> </font>to scan your products and "
-"create new entries directly from this App to encode new books faster than "
-"ever."
-msgstr ""
-
-#. module: bookstore
-#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
-msgid ""
-"Use the <strong><font class=\"text-o-color-1\">Inventory App</font></strong> "
-"to manage your orders receive and deliver your products."
-msgstr ""
-
-#. module: bookstore
-#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
-msgid ""
-"Use the <strong><font class=\"text-o-color-1\">Point of Sale</font></strong> "
-"for your sales at the desk. Manage your customer accounts and advantage in "
-"the <strong><font class=\"text-o-color-1\">Contacts App</font></strong>."
-msgstr ""
-
-#. module: bookstore
-#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
-msgid ""
-"Use the <strong><font class=\"text-o-color-1\">Purchase App</font></strong> "
-"to order books from your distributors."
-msgstr ""
-
-#. module: bookstore
-#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
-msgid ""
-"Use the <strong><font class=\"text-o-color-1\">Sales App</font></strong> to "
-"order books for your customers, create quotations for your institutional "
-"clients (libraries, schools, etc.), and invoice them on the go using\n"
-"                        the <strong><font class=\"text-o-color-1\">Invoicing "
-"App</font></strong>."
 msgstr ""
 
 #. module: bookstore
@@ -897,51 +875,6 @@ msgid ""
 msgstr ""
 
 #. module: bookstore
-#: model:product.template,description_pickingin:bookstore.product_product_17_product_template
-msgid "[0.0]"
-msgstr ""
-
-#. module: bookstore
-#: model:product.template,description_pickingin:bookstore.product_product_12_product_template
-msgid "[12.49]"
-msgstr ""
-
-#. module: bookstore
-#: model:product.template,description_pickingin:bookstore.product_product_9_product_template
-msgid "[14.99]"
-msgstr ""
-
-#. module: bookstore
-#: model:product.template,description_pickingin:bookstore.product_product_3_product_template
-msgid "[17.0]"
-msgstr ""
-
-#. module: bookstore
-#: model:product.template,description_pickingin:bookstore.product_product_10_product_template
-msgid "[19.44]"
-msgstr ""
-
-#. module: bookstore
-#: model:product.template,description_pickingin:bookstore.product_product_20_product_template
-msgid "[22.03]"
-msgstr ""
-
-#. module: bookstore
-#: model:product.template,description_pickingin:bookstore.product_product_11_product_template
-msgid "[23.5]"
-msgstr ""
-
-#. module: bookstore
-#: model:product.template,description_pickingin:bookstore.product_product_13_product_template
-msgid "[3.81]"
-msgstr ""
-
-#. module: bookstore
-#: model:product.template,description_pickingin:bookstore.product_product_14_product_template
-msgid "[4.48]"
-msgstr ""
-
-#. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "academy"
 msgstr ""
@@ -981,3 +914,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "​Track your sales order in Sales App &gt; Reporting &gt; Sales"
 msgstr ""
+
+#~ msgid "Cash"
+#~ msgstr "ငွေသား"

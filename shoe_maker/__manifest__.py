@@ -1,6 +1,6 @@
 {
     'name': 'Shoemaker',
-    'version': '1.0',
+    'version': '1.1',
     'category': 'Services',
     'author': 'Odoo S.A.',
     'depends': [
@@ -39,6 +39,7 @@
         'data/knowledge_article_favorite.xml',
     ],
     'demo': [
+        'demo/res_company.xml',
         'demo/res_partner.xml',
         'demo/hr_department.xml',
         'demo/hr_employee.xml',
@@ -54,6 +55,7 @@
     'cloc_exclude': [
         'data/knowledge_article.xml',
     ],
+    'application': True,
     'images': ['images/main.png'],
     'url': "https://www.odoo.com/trial?industry&selected_app=shoe_maker",
     'website': "https://www.odoo.com/industries/shoe-maker",

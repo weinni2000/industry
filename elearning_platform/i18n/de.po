@@ -2,14 +2,15 @@
 # This file contains the translation of the following modules:
 # * elearning_platform
 #
-# "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025.
+# "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Bren Driesen <brdri@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-13 08:09+0000\n"
-"PO-Revision-Date: 2025-11-14 15:31+0000\n"
+"POT-Creation-Date: 2026-04-10 19:04+0000\n"
+"PO-Revision-Date: 2026-06-24 16:59+0000\n"
 "Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
 "Language-Team: German <https://translate.odoo.com/projects/odoo-19/"
 "elearning_platform/de/>\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
@@ -88,14 +89,14 @@ msgid ""
 "    print(\"Hello,\", name + \"!\")"
 msgstr ""
 "# Wiederholung\n"
-"print(\"Hallo, Alice!\")\n"
-"print(\"Hallo, Bob!\")\n"
-"print(\"Hallo, Carol!\")\n"
+"print(\"Guten Tag, Alice!\")\n"
+"print(\"Guten Tag, Bob!\")\n"
+"print(\"Guten Tag, Carol!\")\n"
 "\n"
 "# DRY-Version\n"
 "names = [\"Alice\", \"Bob\", \"Carol\"]\n"
 "for name in names:\n"
-"    print(\"Hallo,\", name + \"!\")"
+"    print(\"Guten Tag,\", name + \"!\")"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
@@ -147,11 +148,6 @@ msgstr "80 Stunden"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
-msgid "85%"
-msgstr "85 %"
-
-#. module: elearning_platform
-#: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
 msgid ""
 "<a class=\"o_translate_inline btn btn-primary\" href=\"/slides\">Browse "
 "Courses</a>"
@@ -180,8 +176,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
 "normal\">💡</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner für Info\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
+"<i data-oe-aria-label=\"Banner für Info\" class=\"o_editor_banner_icon mb-3 "
+"fst-normal\">💡</i>"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -189,8 +185,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\">✅</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner für Erfolg\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\">✅</i>"
+"<i data-oe-aria-label=\"Banner für Erfolg\" class=\"o_editor_banner_icon "
+"mb-3 fst-normal\">✅</i>"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -198,8 +194,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\">⚠️</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner für Warnung\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
+"<i data-oe-aria-label=\"Banner für Warnung\" class=\"o_editor_banner_icon "
+"mb-3 fst-normal\">⚠️</i>"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
@@ -225,8 +221,8 @@ msgid ""
 "<span class=\"display-4-fs\"><strong>Odoo for eLearning Platforms</strong></"
 "span>"
 msgstr ""
-"<span class=\"display-4-fs\"><strong>Odoo für E-Learning-"
-"Plattformen</strong></span>"
+"<span class=\"display-4-fs\"><strong>Odoo für E-Learning-Plattformen</"
+"strong></span>"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -274,8 +270,8 @@ msgid ""
 "perceived value and average cart size.<strong/><br/>"
 msgstr ""
 "<strong>Angebote bündeln</strong>: Erstellen Sie Kurspakete, um den "
-"wahrgenommenen Wert und den durchschnittlichen Warenkorbwert zu steigern.<"
-"strong/><br/>"
+"wahrgenommenen Wert und den durchschnittlichen Warenkorbwert zu steigern."
+"<strong/><br/>"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,description:elearning_platform.slide_slide_43
@@ -347,7 +343,6 @@ msgstr "<strong>Benutzerdefinierter Bereich</strong>"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Dashboards</strong>: Monitor KPIs like course sales, student "
 "engagement, or marketing performance in real time."
@@ -1073,7 +1068,6 @@ msgstr ""
 
 #. module: elearning_platform
 #: model:product.attribute,name:elearning_platform.product_attribute_20
-#, fuzzy
 msgid "Difficulty"
 msgstr "Schwierigkeit"
 
@@ -1105,9 +1099,8 @@ msgstr "Dem Benutzer das Ergebnis anzeigen."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
-#, fuzzy
 msgid "Do You Want to Go Further?"
-msgstr "Möchten Sie noch weiter gehen?"
+msgstr "Möchten Sie noch weitergehen?"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_43
@@ -1207,11 +1200,10 @@ msgstr ""
 "mit unserem Kurs „Einführung in die Informatik – Python“ zu üben und Ihre "
 "Fortschritte zu speichern!\n"
 "\n"
-"Kurs-Link: https://www.khanacademy.org/computing/"
-"intro-to-python-fundamentals/x5279a44ae0ab15d6:computational-thinking-with-"
-"variables\n"
-"Kurs-Wiedergabeliste: https://www.youtube.com/playlist?list"
-"=PLSQl0a2vh4HDkbhG0sDW0b-VZXykEIAe5\n"
+"Kurs-Link: https://www.khanacademy.org/computing/intro-to-python-"
+"fundamentals/x5279a44ae0ab15d6:computational-thinking-with-variables\n"
+"Kurs-Wiedergabeliste: https://www.youtube.com/playlist?"
+"list=PLSQl0a2vh4HDkbhG0sDW0b-VZXykEIAe5\n"
 "\n"
 "Khan Academy ist eine gemeinnützige Organisation, die es sich zur Aufgabe "
 "gemacht hat, kostenlose, erstklassige Bildung für jedermann und überall "
@@ -1229,8 +1221,8 @@ msgstr ""
 "Spenden Sie oder helfen Sie uns noch heute! Spenden Sie hier: https://"
 "www.khanacademy.org/donate?utm_source=youtube&amp;utm_medium=desc \n"
 "\n"
-"Helfen Sie hier mit: https://www.khanacademy.org/"
-"contribute?utm_source=youtube&amp;utm_medium=desc\n"
+"Helfen Sie hier mit: https://www.khanacademy.org/contribute?"
+"utm_source=youtube&amp;utm_medium=desc\n"
 "\n"
 "ZEITSTAMPS: \n"
 "00:00 - 00:13: Einführung \n"
@@ -1299,10 +1291,10 @@ msgid ""
 "<em>what to do</em> with the result. A program might look like this in "
 "Python:"
 msgstr ""
-"Wenn Sie einem Computer beispielsweise sagen, er solle „zwei Zahlen addieren“"
-", müssen Sie ausdrücklich angeben, <em>welche</em> Zahlen, <em>wie</em> sie "
-"addiert werden sollen und <em>was</em> mit dem Ergebnis geschehen soll. Ein "
-"Programm könnte in Python wie folgt aussehen:"
+"Wenn Sie einem Computer beispielsweise sagen, er solle „zwei Zahlen "
+"addieren“, müssen Sie ausdrücklich angeben, <em>welche</em> Zahlen, <em>wie</"
+"em> sie addiert werden sollen und <em>was</em> mit dem Ergebnis geschehen "
+"soll. Ein Programm könnte in Python wie folgt aussehen:"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
@@ -1338,7 +1330,8 @@ msgstr "Erste Schritte in der Programmierung"
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "Good indentation makes it clear where blocks of logic begin and end."
-msgstr "Eine gute Einrückung macht deutlich, wo Logikblöcke beginnen und enden."
+msgstr ""
+"Eine gute Einrückung macht deutlich, wo Logikblöcke beginnen und enden."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
@@ -1585,8 +1578,8 @@ msgstr ""
 "Fragen in Text- und Sprachform stellt und dann einen Lebenslauf generiert, "
 "mit dem Sie Ihr Portfolio präsentieren können.\n"
 "\n"
-"Ich freue mich sehr darauf, Ihre Karriere im technischen Bereich zu starten."
-"\n"
+"Ich freue mich sehr darauf, Ihre Karriere im technischen Bereich zu "
+"starten.\n"
 "\n"
 "Lasst uns das tun\n"
 "\n"
@@ -1949,7 +1942,6 @@ msgstr ""
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
-#, fuzzy
 msgid "Odoo.com/trial"
 msgstr "odoo.com/trial"
 
@@ -2057,7 +2049,6 @@ msgstr ""
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
-#, fuzzy
 msgid "Previous"
 msgstr "Vorherige"
 
@@ -2143,7 +2134,6 @@ msgstr ""
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
-#, fuzzy
 msgid "Reach us"
 msgstr "Kontakt"
 
@@ -2212,7 +2202,6 @@ msgstr "Spart Zeit bei der Behebung von Fehlern."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.ir_ui_view_3213
-#, fuzzy
 msgid "Search courses"
 msgstr "Kurse suchen"
 
@@ -2230,7 +2219,6 @@ msgstr ""
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.ir_ui_view_3213
-#, fuzzy
 msgid ""
 "Skill up and have an impact! Your business career starts here.<br/>Time to "
 "start a course."
@@ -2240,7 +2228,6 @@ msgstr ""
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
-#, fuzzy
 msgid "Social Marketing Documentation"
 msgstr "Dokumentation zu Social Marketing"
 
@@ -2268,7 +2255,6 @@ msgstr "Bücherregal aufrecht hinstellen."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.ir_ui_view_3213
-#, fuzzy
 msgid "Start your online course today!"
 msgstr "Beginnen Sie heute Ihren Online-Kurs!"
 
@@ -2332,7 +2318,6 @@ msgstr "Strategien zum Aufschlüsseln von Problemen"
 
 #. module: elearning_platform
 #: model:product.tag,name:elearning_platform.product_tag_3
-#, fuzzy
 msgid "Subscription Plan"
 msgstr "Aboplan"
 
@@ -2363,10 +2348,10 @@ msgid ""
 "(<em>a complete bookshelf</em>) and dividing it into smaller, executable "
 "actions (<em>attach this board, insert this screw</em>)."
 msgstr ""
-"Genau das ist Programmieren - man nimmt ein großes, einschüchterndes Ziel ("
-"<em>ein komplettes Bücherregal</em>) und unterteilt es in kleinere, "
-"ausführbare Aktionen (<em>dieses Brett anbringen, diese Schraube "
-"einsetzen</em>)."
+"Genau das ist Programmieren - man nimmt ein großes, einschüchterndes Ziel "
+"(<em>ein komplettes Bücherregal</em>) und unterteilt es in kleinere, "
+"ausführbare Aktionen (<em>dieses Brett anbringen, diese Schraube einsetzen</"
+"em>)."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
@@ -2427,7 +2412,7 @@ msgstr ""
 "Die E-Learning-App ist die Grundlage für Ihre digitale Ausbildung. Sie "
 "ermöglicht es Ihnen, Kurse mit multimedialen Inhalten wie Videos, Artikeln "
 "oder herunterladbaren Materialien zu erstellen. Fügen Sie interaktive "
-"Elemente wie Quizze, Zertifikate und\n"
+"Elemente wie Quiz, Zertifikate und\n"
 "            Gamification, um die Motivation der Lernenden zu steigern. "
 "Weisen Sie Kursmanager zu, um die Inhalte auf dem neuesten Stand zu halten "
 "und auf Feedback zu reagieren."
@@ -2520,8 +2505,8 @@ msgid ""
 "Think of it like following a recipe. Instead of just saying, <em>“Bake a "
 "cake,”</em> the recipe tells you:"
 msgstr ""
-"Stellen Sie sich vor, Sie befolgen ein Rezept. Anstatt einfach zu sagen, <em>"
-"\"Einen Kuchen backen\",</em> sagt das Rezept:"
+"Stellen Sie sich vor, Sie befolgen ein Rezept. Anstatt einfach zu sagen, "
+"<em>\"Einen Kuchen backen\",</em> sagt das Rezept:"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
@@ -2587,7 +2572,6 @@ msgstr ""
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.ir_ui_view_3213
-#, fuzzy
 msgid "Toggle navigation"
 msgstr "Navigation an/aus"
 
@@ -2642,13 +2626,11 @@ msgstr "PIN überprüfen."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.ir_ui_view_3213
-#, fuzzy
 msgid "View"
 msgstr "Ansicht"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.ir_ui_view_3213
-#, fuzzy
 msgid "View all"
 msgstr "Alle ansehen"
 
@@ -2813,12 +2795,11 @@ msgid ""
 "Without breaking it down first, it’s easy to miss something important (like "
 "converting text input into numbers)."
 msgstr ""
-"Ohne eine erste Aufschlüsselung ist es leicht, etwas Wichtiges zu übersehen ("
-"z. B. die Umwandlung von Texteingaben in Zahlen)."
+"Ohne eine erste Aufschlüsselung ist es leicht, etwas Wichtiges zu übersehen "
+"(z. B. die Umwandlung von Texteingaben in Zahlen)."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
-#, fuzzy
 msgid ""
 "Would you like to discuss your Odoo setup with us or explore more features?"
 msgstr ""
@@ -2856,11 +2837,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
 msgid "You can still do it by upgrading your package in Apps."
 msgstr ""
-"Sie können dies weiterhin tun, indem Sie Ihr Paket in Apps aktualisieren."
+"Sie können dies weiterhin tun, indem Sie Ihr Paket im Apps-Modul "
+"aktualisieren."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.ir_ui_view_3213
-#, fuzzy
 msgid "You may now participate in our eLearning."
 msgstr "Sie können jetzt an unserem E-Learning teilnehmen."
 
@@ -2907,7 +2888,6 @@ msgstr ""
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.ir_ui_view_3213
-#, fuzzy
 msgid "and join this Community"
 msgstr "und treten Sie der Community bei"
 
@@ -2937,7 +2917,6 @@ msgstr ""
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
-#, fuzzy
 msgid "eCommerce Documentation"
 msgstr "📖 Dokumention zu E-Commerce"
 
@@ -3018,11 +2997,10 @@ msgstr ""
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_42
 msgid "print(\"Hello, World!\")"
-msgstr "print(\"Hallo, Welt!\")"
+msgstr "print(\"Guten Tag, Welt!\")"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
-#, fuzzy
 msgid "​<br/>"
 msgstr "​<br/>"
 
@@ -3036,3 +3014,6 @@ msgstr "„Machen Sie mir ein Sandwich.“"
 #: model_terms:product.template,description_ecommerce:elearning_platform.product_template_73
 msgid "✨ <strong>What you’ll get:</strong>"
 msgstr "✨ <strong>Was Sie bekommen:</strong>"
+
+#~ msgid "85%"
+#~ msgstr "85 %"

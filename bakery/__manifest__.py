@@ -1,6 +1,6 @@
 {
     'name': 'Bakery',
-    'version': '1.0',
+    'version': '1.1',
     'category': 'Retail',
     'author': 'Odoo S.A.',
     'depends': [
@@ -25,7 +25,7 @@
         'data/hr_job.xml',
     ],
     'demo': [
-        'demo/res_users.xml',
+        'demo/res_company.xml',
         'demo/website_view.xml',
         'demo/delivery_carrier.xml',
         'demo/crm_tag.xml',
@@ -55,6 +55,7 @@
         'static/src/js/my_tour.js',
         'demo/website_view.xml',
     ],
+    'application': True,
     'images': ['images/main.png'],
     'url': "https://www.odoo.com/trial?industry&selected_app=bakery",
     'website': "https://www.odoo.com/industries/bakery",

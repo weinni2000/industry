@@ -4,13 +4,14 @@
 #
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# "Chloe Wang (chwa)" <chwa@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 11:05+0000\n"
-"PO-Revision-Date: 2025-11-17 11:11+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-06-12 18:05+0000\n"
+"PO-Revision-Date: 2026-04-11 09:36+0000\n"
+"Last-Translator: \"Chloe Wang (chwa)\" <chwa@odoo.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/"
 "projects/odoo-19/fast_food/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -59,9 +60,9 @@ msgstr ""
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
 msgid ""
-"2. Create your employees' roles under the \"Work Information\" tab. Some are "
-"already created for this demo."
-msgstr "2. 在 “工作信息” 选项卡下创建员工角色。本次演示中已经创建了部分角色。"
+"2. Create your employees' roles under the \"Settings\" tab. Some are already "
+"created for this demo."
+msgstr ""
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -236,19 +237,9 @@ msgstr ""
 "择 “关闭收银机”。然后，您就可以精确计算现金数额，并验证结账。"
 
 #. module: fast_food
-#: model:pos.payment.method,name:fast_food.pos_payment_method_3
-msgid "Bank"
-msgstr "银行"
-
-#. module: fast_food
 #: model:planning.role,name:fast_food.planning_role_2
 msgid "Bar"
 msgstr "条"
-
-#. module: fast_food
-#: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
-msgid "Basics:"
-msgstr "基础知识："
 
 #. module: fast_food
 #: model:product.template,name:fast_food.product_product_54_product_template
@@ -285,11 +276,6 @@ msgstr ""
 "以及一个范例规划。"
 
 #. module: fast_food
-#: model:pos.payment.method,name:fast_food.pos_payment_method_4
-msgid "Cash (Restaurant)"
-msgstr "现金（餐厅）"
-
-#. module: fast_food
 #: model:product.template,name:fast_food.product_product_56_product_template
 msgid "Cheese 250gr"
 msgstr "奶酪 250 克"
@@ -317,11 +303,6 @@ msgid ""
 "Discover the basics of this package and explore all the possibilities Odoo "
 "offers to improve your experience."
 msgstr "发掘该软件包的基础知识，探索 Odoo 为改善您的体验而提供的所有可能性。"
-
-#. module: fast_food
-#: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
-msgid "Do you want to go further?"
-msgstr "想再进一步吗？"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -379,10 +360,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
 msgid ""
 "If you want to assign them an Odoo user account, you can select a related "
-"user in the \"HR Settings\" tab."
+"user in the same \"Settings\" tab."
 msgstr ""
-"如果要为他们分配一个 Odoo 用户账户，可以在 “人力资源设置” 选项卡中选择相关用"
-"户。"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -552,11 +531,6 @@ msgid "Service"
 msgstr "服务"
 
 #. module: fast_food
-#: model:pos.payment.method,name:fast_food.pos_payment_method_1
-msgid "Sodexo Card Payment"
-msgstr "Sodexo 卡支付"
-
-#. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
 msgid ""
 "The <strong><font class=\"text-o-color-1\">Kitchen Displays</font></strong> "
@@ -586,11 +560,6 @@ msgstr "库存仅在您关闭收银机时更新。让我们在继续下一步之
 msgid ""
 "These all go free in your current subscription; feel free to explore! 🙃"
 msgstr "这些都是您当前订阅中的免费内容；请随意浏览！🙃"
-
-#. module: fast_food
-#: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
-msgid "Use case:"
-msgstr "使用案例："
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -767,3 +736,21 @@ msgstr "如果您需要帮助！<br/>"
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
 msgid "request a demo"
 msgstr "请求演示"
+
+#~ msgid "Bank"
+#~ msgstr "银行"
+
+#~ msgid "Cash (Restaurant)"
+#~ msgstr "现金（餐厅）"
+
+#~ msgid "Sodexo Card Payment"
+#~ msgstr "Sodexo 卡支付"
+
+#~ msgid "Basics:"
+#~ msgstr "基础知识："
+
+#~ msgid "Do you want to go further?"
+#~ msgstr "想再进一步吗？"
+
+#~ msgid "Use case:"
+#~ msgstr "使用案例："

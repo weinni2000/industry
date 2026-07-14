@@ -1,6 +1,6 @@
 {
     'name': 'Student Organization',
-    'version': '1.0',
+    'version': '1.1',
     'category': 'Hospitality',
     'author': 'Odoo S.A.',
     'depends': [
@@ -35,7 +35,6 @@
         'data/product_template_attribute_line.xml',
         'data/product_template_attribute_value.xml',
         'data/product_product.xml',
-        'data/pos_payment_method.xml',
         'data/pos_config.xml',
         'data/product_pricelist_item.xml',
         'data/project_task_type.xml',
@@ -43,10 +42,9 @@
         'data/knowledge_article.xml',
         'data/mail_message.xml',
         'data/knowledge_article_favorite.xml',
-        'data/event_event.xml',
-        'data/event_event_ticket.xml',
     ],
     'demo': [
+        'demo/res_company.xml',
         'demo/product_template.xml',
         'demo/res_partner.xml',
         'demo/purchase_order.xml',
@@ -59,6 +57,7 @@
         'demo/hr_expense.xml',
         'demo/hr_expense_action.xml',
         'demo/event_event.xml',
+        'demo/event_event_ticket.xml',
         'demo/website_view.xml',
         'demo/website_theme_apply.xml',
         'demo/sale_order_confirm.xml',
@@ -70,6 +69,7 @@
         'data/knowledge_article.xml',
         'demo/website_view.xml',
     ],
+    'application': True,
     'images': [
         'images/main.png',
     ],

@@ -5,13 +5,14 @@
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# "Maitê Dietze (madi)" <madi@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 11:20+0000\n"
-"PO-Revision-Date: 2025-11-13 13:44+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-04-10 19:02+0000\n"
+"PO-Revision-Date: 2026-01-06 09:27+0000\n"
+"Last-Translator: \"Maitê Dietze (madi)\" <madi@odoo.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.odoo.com/projects/"
 "odoo-19/driving_school/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.homepage
@@ -35,26 +36,6 @@ msgstr "\"O simulador de direção foi super útil!\""
 #: model_terms:ir.ui.view,arch_db:driving_school.homepage
 msgid "\"The instructor was patient and made learning fun!\""
 msgstr "\"O instrutor foi paciente e fez o processo ficar divertido!\""
-
-#. module: driving_school
-#: model_terms:ir.ui.view,arch_db:driving_school.homepage
-msgid "$184.00"
-msgstr "US$ 184,00"
-
-#. module: driving_school
-#: model_terms:ir.ui.view,arch_db:driving_school.homepage
-msgid "$349.00"
-msgstr "US$ 349,00"
-
-#. module: driving_school
-#: model_terms:ir.ui.view,arch_db:driving_school.homepage
-msgid "$80.00"
-msgstr "US$ 80,00"
-
-#. module: driving_school
-#: model_terms:ir.ui.view,arch_db:driving_school.homepage
-msgid "$859.00"
-msgstr "US$ 859,00"
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
@@ -291,7 +272,6 @@ msgstr ""
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.contactus
-#, fuzzy
 msgid ""
 "<i class=\"fa fa-1x fa-fw fa-envelope me-2\"/"
 "><span>info@yourcompany.example.com</span>"
@@ -310,7 +290,6 @@ msgstr ""
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.contactus
-#, fuzzy
 msgid ""
 "<i class=\"fa fa-phone fa-fw me-2\"/><span class=\"o_force_ltr\">+1 "
 "555-555-5556</span>"
@@ -320,7 +299,6 @@ msgstr ""
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
-#, fuzzy
 msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">▶️</i>"
@@ -357,7 +335,6 @@ msgstr ""
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
-#, fuzzy
 msgid ""
 "<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
 "normal\">🚀</i>"
@@ -367,7 +344,6 @@ msgstr ""
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
-#, fuzzy
 msgid ""
 "<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\">✅</i>"
@@ -386,7 +362,6 @@ msgstr ""
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
-#, fuzzy
 msgid ""
 "<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\">🎉</i>"
@@ -396,7 +371,6 @@ msgstr ""
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
-#, fuzzy
 msgid ""
 "<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\">⚠️</i>"
@@ -445,7 +419,6 @@ msgstr ""
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.homepage
-#, fuzzy
 msgid ""
 "<span class=\"o_small\">\n"
 "                            <strong> Emma </strong>\n"
@@ -459,7 +432,6 @@ msgstr ""
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.homepage
-#, fuzzy
 msgid ""
 "<span class=\"o_small\">\n"
 "                            <strong> Mike </strong>\n"
@@ -473,7 +445,6 @@ msgstr ""
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.homepage
-#, fuzzy
 msgid ""
 "<span class=\"o_small\">\n"
 "                            <strong> Sarah </strong>\n"
@@ -546,6 +517,55 @@ msgstr ""
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
+msgid ""
+"<strong><b>Appointments App</b>:</strong> Allow students to book lessons "
+"online 24/7, syncing automatically with\n"
+"            instructor availability to prevent double-booking.<br/>"
+msgstr ""
+
+#. module: driving_school
+#: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
+msgid ""
+"<strong><b>Fleet App</b>:</strong> Track and maintain your vehicles, "
+"monitoring fuel logs, service contracts,\n"
+"            and odometer readings to keep your cars road-ready.<br/>"
+msgstr ""
+
+#. module: driving_school
+#: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
+msgid ""
+"<strong><b>Planning App</b>:</strong> Manage instructors' schedules "
+"efficiently, assigning shifts and ensuring\n"
+"            the right teacher is available for the right class.<br/>"
+msgstr ""
+
+#. module: driving_school
+#: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
+msgid ""
+"<strong><b>Sales App</b>:</strong> Sell lessons, exams, and course packages "
+"directly to students, managing\n"
+"            invoices and payments in one place.<br/>"
+msgstr ""
+
+#. module: driving_school
+#: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
+msgid ""
+"<strong><b>Sign App</b>:</strong> Handle legal waivers and student "
+"agreements digitally, ensuring all necessary\n"
+"            documentation is signed and stored securely.<br/>"
+msgstr ""
+
+#. module: driving_school
+#: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
+msgid ""
+"<strong><b>Website App</b>:</strong> Boost your school's visibility and "
+"manage your site, creating a\n"
+"            professional portal for new students to register and learn about "
+"your services.<br/>"
+msgstr ""
+
+#. module: driving_school
+#: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
 msgid "<strong>Basics</strong>"
 msgstr "<strong>Noções básicas</strong>"
 
@@ -584,6 +604,11 @@ msgid "<strong>We are proud to reach 95% pass rate with this format!</strong>"
 msgstr ""
 "<strong>Estamos orgulhosos de atingir uma taxa de aprovação de 95% com este "
 "formato!</strong>"
+
+#. module: driving_school
+#: model:product.attribute.value,name:driving_school.product_attribute_value_1
+msgid "A"
+msgstr ""
 
 #. module: driving_school
 #: model:sale.order.template.line,name:driving_school.sale_order_template_line_12
@@ -697,6 +722,11 @@ msgstr ""
 "recompensa aplicável, o que zera o total da cotação."
 
 #. module: driving_school
+#: model:product.attribute.value,name:driving_school.product_attribute_value_2
+msgid "B"
+msgstr ""
+
+#. module: driving_school
 #: model:product.template,name:driving_school.product_template_23
 msgid "B Practical Exam"
 msgstr "Prova prática B"
@@ -749,6 +779,11 @@ msgid ""
 msgstr ""
 "Ao fazer o upload dos dados de demonstração desse módulo, sua base de dados "
 "foi populada com alguns produtos, pedidos de vendas e outros."
+
+#. module: driving_school
+#: model:product.attribute.value,name:driving_school.product_attribute_value_3
+msgid "C"
+msgstr ""
 
 #. module: driving_school
 #: model:product.template,name:driving_school.product_template_24
@@ -860,6 +895,11 @@ msgid ""
 msgstr "Formando motoristas com confiança,<br/>habilidade e segurança."
 
 #. module: driving_school
+#: model:product.attribute.value,name:driving_school.product_attribute_value_4
+msgid "D"
+msgstr ""
+
+#. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.homepage
 msgid "Defensive Driving Course"
 msgstr "Curso de direção defensiva"
@@ -931,8 +971,8 @@ msgid ""
 "              You can as well access the list of services from the Fleet "
 "menu."
 msgstr ""
-"Acompanhe o planejamento de serviços de manutenção e reparos de um veículo.<"
-"br/>\n"
+"Acompanhe o planejamento de serviços de manutenção e reparos de um veículo."
+"<br/>\n"
 "Você também pode acessar a lista de serviços no menu Frota."
 
 #. module: driving_school
@@ -963,11 +1003,6 @@ msgid ""
 msgstr ""
 "No portal, os alunos podem acessar suas reservas de aulas, seus pedidos e, o "
 "mais importante, seu saldo de aulas e provas!"
-
-#. module: driving_school
-#: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
-msgid "Generate visibility through the <strong>Website App</strong>"
-msgstr "Ganhe visibilidade através do <strong>app Site</strong>"
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.homepage
@@ -1049,15 +1084,6 @@ msgid "Lessons and exams"
 msgstr "Aulas e exames"
 
 #. module: driving_school
-#: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
-msgid ""
-"Let your customers book lessons online thanks to the<strong> Appointment "
-"App</strong>"
-msgstr ""
-"Permita que seus clientes reservem aulas online graças ao<strong>app "
-"Compromissos</strong>"
-
-#. module: driving_school
 #: model:product.attribute,name:driving_school.product_attribute_10
 msgid "License"
 msgstr "Licença"
@@ -1066,11 +1092,6 @@ msgstr "Licença"
 #: model_terms:ir.ui.view,arch_db:driving_school.homepage
 msgid "Luxury Driving Experience"
 msgstr "Experiência de condução de luxo"
-
-#. module: driving_school
-#: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
-msgid "Manage waiver with the <strong>Sign App</strong>"
-msgstr "Gerencie renúncias com o <strong>app Assinaturas</strong>"
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
@@ -1084,18 +1105,6 @@ msgstr ""
 "totalmente integrado do app i<font class=\"text-o-color-5\">n </"
 "font><strong><font class=\"text-o-color-5\">Financeiro</font></strong><font "
 "class=\"text-o-color-5\">.</font>"
-
-#. module: driving_school
-#: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
-msgid "Manage your employees' shifts with the <strong>Planning App</strong>"
-msgstr ""
-"Gerencie os turnos dos seus funcionários com o <strong>app "
-"Planejamento</strong>"
-
-#. module: driving_school
-#: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
-msgid "Manage your vehicles with the <strong>Fleet App</strong>"
-msgstr "Gerencie seus veículos com o <strong>app Frota</strong>"
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.contactus
@@ -1200,7 +1209,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
 msgid ""
 "Open the Appointments App, and go to the Leaves from the Configuration menu."
-msgstr "Abra o aplicativo Compromissos e vá para Licenças no menu Configuração."
+msgstr ""
+"Abra o aplicativo Compromissos e vá para Licenças no menu Configuração."
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
@@ -1373,7 +1383,7 @@ msgstr "Aula teórica pré-paga B"
 #. module: driving_school
 #: model:product.template,name:driving_school.product_template_41
 msgid "Prepaid Theory Lesson C+D"
-msgstr ""
+msgstr "Aula teórica pré-paga C+D"
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.homepage
@@ -1394,7 +1404,7 @@ msgstr "Entre em contato"
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.homepage
 msgid "Safety first<br/>on the road"
-msgstr ""
+msgstr "Segurança <br/> na estrada em primeiro lugar"
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
@@ -1402,6 +1412,8 @@ msgid ""
 "Save the leave and voila, no more appointments can be booked with this "
 "instructor!"
 msgstr ""
+"Salve a licença e pronto, não é possível marcar mais aulas com este "
+"instrutor!"
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
@@ -1415,7 +1427,7 @@ msgstr ""
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
 msgid "Save your new contact."
-msgstr ""
+msgstr "Salve seu novo contato."
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.ir_ui_view_2891
@@ -1427,21 +1439,19 @@ msgstr "Agendar um compromisso"
 msgid ""
 "Select a quotation template to save time for a B driving license for example."
 msgstr ""
+"Selecione um modelo de cotação para economizar tempo para uma carteira de "
+"habilitação B, por exemplo."
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
 msgid "Select as template the waiver to be signed and Send it for signature."
 msgstr ""
-
-#. module: driving_school
-#: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
-msgid "Sell lessons, exams and packs from the <strong>Sales App</strong>"
-msgstr ""
+"Selecione como modelo a renúncia a ser assinada e envie-a para assinatura."
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
 msgid "Sell packs"
-msgstr ""
+msgstr "Venda pacotes"
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
@@ -1456,7 +1466,7 @@ msgstr "Signatário 1"
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.homepage
 msgid "Student Benefits"
-msgstr ""
+msgstr "Benefícios para estudantes"
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.contactus
@@ -1468,6 +1478,8 @@ msgstr "Enviar"
 msgid ""
 "The <strong>Fleet App</strong> is tailored to help you manage your vehicles."
 msgstr ""
+"O aplicativo <strong> Frota</strong> foi desenvolvido para ajudá-lo a "
+"gerenciar seus veículos."
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
@@ -1476,6 +1488,9 @@ msgid ""
 "customers sending them emails. This turns out very handy to plan exam "
 "sessions with traceability!"
 msgstr ""
+"O chatter de Contatos é a melhor maneira de interagir com seus clientes para "
+"enviar e-mails. Isso é muito útil para planejar sessões de exames com "
+"rastreabilidade!"
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
@@ -1483,6 +1498,8 @@ msgid ""
 "The models; defined from the Configuration menu, allows you typically to "
 "capture the different vehicles you have."
 msgstr ""
+"Os modelos, definidos no menu Configuração, permitem que você capture os "
+"diferentes veículos que possui."
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
@@ -1491,6 +1508,9 @@ msgid ""
 "                  This means that customers can directly buy packs, and "
 "lessons from your website and then book lessons!"
 msgstr ""
+"O site também está configurado com o aplicativo e-Commerce.<br/>\n"
+"Isso significa que os clientes podem comprar pacotes e aulas diretamente do "
+"seu site e, em seguida, agendar as aulas!"
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
@@ -1498,6 +1518,9 @@ msgid ""
 "Then open the Sales App and create a new sale order for this customer but "
 "this time add the product corresponding to the lesson or exam."
 msgstr ""
+"Em seguida, abra o aplicativo Vendas e crie um novo pedido de venda para "
+"esse cliente, mas desta vez adicione o produto correspondente à aula ou "
+"exame."
 
 #. module: driving_school
 #: model:product.attribute.value,name:driving_school.product_attribute_value_6
@@ -1510,27 +1533,27 @@ msgstr "Teoria"
 #. module: driving_school
 #: model:loyalty.program,portal_point_name:driving_school.loyalty_program_2
 msgid "Theory Exam A"
-msgstr ""
+msgstr "Exame teórico A"
 
 #. module: driving_school
 #: model:loyalty.program,portal_point_name:driving_school.loyalty_program_6
 msgid "Theory Exam B"
-msgstr ""
+msgstr "Exame teórico B"
 
 #. module: driving_school
 #: model:loyalty.program,portal_point_name:driving_school.loyalty_program_10
 msgid "Theory Exam C+D"
-msgstr ""
+msgstr "Exame teórico C+D"
 
 #. module: driving_school
 #: model:loyalty.program,name:driving_school.loyalty_program_2
 msgid "Theory Exams A"
-msgstr ""
+msgstr "Exames teóricos A"
 
 #. module: driving_school
 #: model:loyalty.program,name:driving_school.loyalty_program_6
 msgid "Theory Exams B"
-msgstr ""
+msgstr "Exames teóricos B"
 
 #. module: driving_school
 #: model:loyalty.program,name:driving_school.loyalty_program_10
@@ -1553,22 +1576,22 @@ msgstr ""
 #: model:appointment.type,name:driving_school.appointment_type_3
 #: model:loyalty.program,portal_point_name:driving_school.loyalty_program_11
 msgid "Theory Lesson C+D"
-msgstr ""
+msgstr "Aula teórica C+D"
 
 #. module: driving_school
 #: model:loyalty.program,name:driving_school.loyalty_program_3
 msgid "Theory Lessons A"
-msgstr ""
+msgstr "Aulas teóricas A"
 
 #. module: driving_school
 #: model:loyalty.program,name:driving_school.loyalty_program_7
 msgid "Theory Lessons B"
-msgstr ""
+msgstr "Aulas teóricas B"
 
 #. module: driving_school
 #: model:loyalty.program,name:driving_school.loyalty_program_11
 msgid "Theory Lessons C+D"
-msgstr ""
+msgstr "Aulas teóricas C+D"
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
@@ -1585,6 +1608,9 @@ msgid ""
 "paid lessons on their loyalty cards. Then they can reach the website and "
 "click the Schedule an appointment button."
 msgstr ""
+"Para reservar uma aula, o aluno deve primeiro comprar algumas aulas para ter "
+"aulas pré-pagas em seus cartões de fidelidade. Em seguida, ele pode acessar "
+"o site e clicar no botão Agendar uma consulta."
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
@@ -1593,6 +1619,9 @@ msgid ""
 "learners, <strong>Appointments App </strong>will expose self bookable "
 "appointments."
 msgstr ""
+"Para ajudá-lo a planejar aulas sem o obstáculo de atribuir horários aos "
+"alunos, o aplicativo <strong>Compromissos </strong> disponibilizará "
+"agendamentos que podem ser feitos pelos próprios alunos."
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
@@ -1602,13 +1631,20 @@ msgid ""
 "how instructors can use <strong>Calendar App </strong>then to know their "
 "planning."
 msgstr ""
+"Para ajudá-lo a planejar aulas sem o obstáculo de atribuir horários aos "
+"alunos, o aplicativo Appointments exibirá horários que podem ser agendados "
+"pelos próprios alunos. Vamos ver como os instrutores podem usar o aplicativo "
+"de calendário <strong> </strong> para conhecer seu planejamento."
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
+#, fuzzy
 msgid ""
 "To manage waivers, we take advantage of the <strong>Sign App </strong>from "
 "the customer form."
 msgstr ""
+"Para gerenciar isenções, utilizamos o aplicativo <strong>Assinar</strong> a "
+"partir do formulário do cliente."
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.homepage
@@ -1616,6 +1652,8 @@ msgid ""
 "Transform your driving skills with<br/>our lessons. Contact us<br/>to start "
 "your journey!<br/>"
 msgstr ""
+"Transforme suas habilidades ao volante com as nossas<br/>aulas. Entre em "
+"contato conosco<br/>para começar sua jornada!<br/>"
 
 #. module: driving_school
 #: model:product.attribute,name:driving_school.product_attribute_11
@@ -1625,7 +1663,7 @@ msgstr "Tipo"
 #. module: driving_school
 #: model:mail.template,name:driving_school.mail_template_43
 msgid "URLs Driving C"
-msgstr ""
+msgstr "URLs que direcionam para C"
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.homepage
@@ -1634,11 +1672,14 @@ msgid ""
 "cancel or reschedule, please notify us at least 24 hours in advance to avoid "
 "a cancellation fee."
 msgstr ""
+"Oferecemos uma política de cancelamento de 24 horas para todas as aulas. Se "
+"precisar cancelar ou remarcar, avise-nos com pelo menos 24 horas de "
+"antecedência para evitar uma taxa de cancelamento."
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.homepage
 msgid "We're here to help you, every step of the way."
-msgstr ""
+msgstr "Estamos aqui para ajudá-lo em cada etapa do processo."
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.homepage
@@ -1646,6 +1687,8 @@ msgid ""
 "We’re committed to providing prompt and effective solutions to ensure your "
 "driving experience is enjoyable and stress-free."
 msgstr ""
+"Estamos empenhados em fornecer soluções rápidas e eficazes para garantir que "
+"a sua experiência de condução seja agradável e sem stress."
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
@@ -1656,6 +1699,11 @@ msgid ""
 "as follow, or let them book lessons by themselves as described in below "
 "section."
 msgstr ""
+"Quando um cliente vem para uma aula pré-paga, ela deve ser descontada no "
+"cartão de fidelidade.<br/>\n"
+"          Você pode reservar aulas no aplicativo de agendamento e fazer com "
+"que o aluno pague da seguinte forma, ou deixá-lo reservar as aulas por conta "
+"própria, conforme descrito na seção abaixo."
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
@@ -1663,6 +1711,8 @@ msgid ""
 "When an instructor takes some time off, you can prevent the booking of "
 "appointments during this period."
 msgstr ""
+"Quando um instrutor tira uma folga, você pode impedir a marcação de "
+"compromissos durante esse período."
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
@@ -1672,6 +1722,10 @@ msgid ""
 "                  You can configure those from the Sales / Products / "
 "Discounts &amp; Loyalty menu."
 msgstr ""
+"Ao vender produtos como pacotes, crédito é adicionado aos cartões de "
+"fidelidade, cujos pontos serão consumidos durante as aulas e exames.<br/>\n"
+"Você pode configurá-los no menu Vendas / Produtos / Descontos &amp; "
+"Fidelidade."
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
@@ -1680,6 +1734,9 @@ msgid ""
 "button at the top of the contact form labelled Signature Requested and "
 "Resend the request."
 msgstr ""
+"Enquanto o documento estiver aguardando assinatura, você pode acessá-lo "
+"através do botão inteligente na parte superior do formulário de contato "
+"intitulado “Assinatura solicitada” e reenviar a solicitação."
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.homepage
@@ -1690,6 +1747,12 @@ msgid ""
 "to become responsible drivers. Each lesson is tailored to meet individual "
 "needs while ensuring a fun and engaging learning experience."
 msgstr ""
+"Com anos de experiência no ensino de direção, oferecemos um treinamento "
+"abrangente que combina segurança, habilidade e confiança ao volante. Nosso "
+"foco é equipar os alunos com o conhecimento e as técnicas necessárias para "
+"se tornarem motoristas responsáveis. Cada aula é personalizada para atender "
+"às necessidades individuais, garantindo uma experiência de aprendizado "
+"divertida e envolvente."
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
@@ -1702,11 +1765,14 @@ msgid ""
 "You are ready to sign your first customers? To do so, open the Sales App, "
 "create a new order and the customer."
 msgstr ""
+"Você está pronto para assinar com seus primeiros clientes? Para isso, abra o "
+"aplicativo Vendas, crie um novo pedido\n"
+"e o cliente."
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
 msgid "You can"
-msgstr ""
+msgstr "Você pode"
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
@@ -1723,12 +1789,16 @@ msgid ""
 "You can as well directly create quotes for one lesson without having to use "
 "the loyalty card."
 msgstr ""
+"Você também pode criar cotações diretamente para uma aula sem precisar usar "
+"o cartão de fidelidade."
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
 msgid ""
 "You can define your own waiver form from the Sign App, within the templates."
 msgstr ""
+"Você pode definir seu próprio formulário de renúncia no app Assinar, dentro "
+"dos modelos."
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.homepage
@@ -1738,6 +1808,11 @@ msgid ""
 "dedicated team is available 24/7 to assist with any inquiries or scheduling "
 "needs."
 msgstr ""
+"Você pode entrar em contato com nossa equipe de suporte enviando um e-mail "
+"para info@drivingschool.example.com, ligando para +1 555-555-5556 ou usando "
+"o chat ao vivo em nosso site. Nossa equipe dedicada está disponível 24 horas "
+"por dia, 7 dias por semana, para ajudar com qualquer dúvida ou necessidade "
+"de agendamento."
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
@@ -1776,6 +1851,9 @@ msgid ""
 "You just installed the Odoo for Driving School package. By doing so, we have "
 "installed a bunch of necessary apps to run your Driving School efficiently."
 msgstr ""
+"Você acabou de instalar o pacote Odoo para Autoescolas. Ao fazer isso, "
+"instalamos vários aplicativos necessários para administrar sua autoescola "
+"com eficiência."
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
@@ -1797,11 +1875,13 @@ msgid ""
 "Your account is provided with pre-paid lessons for B license to be able to "
 "test the flow."
 msgstr ""
+"Sua conta é fornecida com aulas pré-pagas para a licença B, para que você "
+"possa testar o fluxo."
 
 #. module: driving_school
 #: model:mail.template,subject:driving_school.mail_template_43
 msgid "Your driving lesson booking links"
-msgstr ""
+msgstr "Links para agendar aulas de direção"
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
@@ -1892,3 +1972,41 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
 msgid "🚙 Fleet management"
 msgstr ""
+
+#~ msgid "$184.00"
+#~ msgstr "US$ 184,00"
+
+#~ msgid "$349.00"
+#~ msgstr "US$ 349,00"
+
+#~ msgid "$80.00"
+#~ msgstr "US$ 80,00"
+
+#~ msgid "$859.00"
+#~ msgstr "US$ 859,00"
+
+#~ msgid "Generate visibility through the <strong>Website App</strong>"
+#~ msgstr "Ganhe visibilidade através do <strong>app Site</strong>"
+
+#~ msgid ""
+#~ "Let your customers book lessons online thanks to the<strong> Appointment "
+#~ "App</strong>"
+#~ msgstr ""
+#~ "Permita que seus clientes reservem aulas online graças ao<strong>app "
+#~ "Compromissos</strong>"
+
+#~ msgid "Manage waiver with the <strong>Sign App</strong>"
+#~ msgstr "Gerencie renúncias com o <strong>app Assinaturas</strong>"
+
+#~ msgid "Manage your employees' shifts with the <strong>Planning App</strong>"
+#~ msgstr ""
+#~ "Gerencie os turnos dos seus funcionários com o <strong>app Planejamento</"
+#~ "strong>"
+
+#~ msgid "Manage your vehicles with the <strong>Fleet App</strong>"
+#~ msgstr "Gerencie seus veículos com o <strong>app Frota</strong>"
+
+#~ msgid "Sell lessons, exams and packs from the <strong>Sales App</strong>"
+#~ msgstr ""
+#~ "Venda aulas, exames e pacotes a partir do aplicativo <strong>Vendas.</"
+#~ "strong>"

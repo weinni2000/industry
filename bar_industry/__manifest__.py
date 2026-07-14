@@ -1,6 +1,6 @@
 {
     'name': 'Bar & Pub',
-    'version': '1.1',
+    'version': '1.2',
     'category': 'Hospitality',
     'depends': [
         'hr_attendance',
@@ -32,7 +32,7 @@
         'data/kitchen_display.xml',
     ],
     'demo': [
-        'demo/res_users.xml',
+        'demo/res_company.xml',
         'demo/res_partner.xml',
         'demo/hr_department.xml',
         'demo/hr_employee.xml',
@@ -60,6 +60,7 @@
         "data/knowledge_article.xml",
         "static/src/js/my_tour.js",
     ],
+    'application': True,
     'images': ['images/main.png'],
     'url': "https://www.odoo.com/trial?industry&selected_app=bar_industry",
     'website': "https://www.odoo.com/industries/bar-pub",

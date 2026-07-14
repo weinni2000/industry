@@ -9,13 +9,14 @@
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2024
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Bren Driesen <brdri@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 14:10+0000\n"
-"PO-Revision-Date: 2025-11-17 11:08+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-01-20 12:58+0000\n"
+"PO-Revision-Date: 2026-05-30 09:32+0000\n"
+"Last-Translator: Bren Driesen <brdri@odoo.com>\n"
 "Language-Team: Dutch <https://translate.odoo.com/projects/odoo-19/"
 "odoo_partner/nl/>\n"
 "Language: nl\n"
@@ -23,12 +24,96 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: odoo_partner
 #: model:sale.order.template.line,name:odoo_partner.sale_order_template_line_19
 msgid "10 analysis workshops"
 msgstr "10 analyse workshops"
+
+#. module: odoo_partner
+#: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
+msgid ""
+"<b>CRM App</b>: Manage your leads and opportunities in a dedicated pipeline, "
+"tracking stages from \"New Lead\"\n"
+"                    to \"Won\" efficiently."
+msgstr ""
+"<b>CRM-app</b>: Beheer je leads en verkoopkansen in een speciale pijplijn en "
+"volg de fasen van \"Nieuwe lead\" tot \"Gewonnen\" op een efficiënte manier."
+
+#. module: odoo_partner
+#: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
+msgid ""
+"<b>Documents App</b>: Store and organize crucial client documents, "
+"contracts, and technical specifications\n"
+"                    in a secure, central repository."
+msgstr ""
+"<b>Documenten-app</b>: Sla belangrijke klantdocumenten, contracten en "
+"technische specificaties op en orden ze in een veilige, centrale "
+"opslagplaats."
+
+#. module: odoo_partner
+#: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
+msgid ""
+"<b>Helpdesk App</b>: Handle client support requests and tickets "
+"systematically, ensuring timely resolution and\n"
+"                high service levels."
+msgstr ""
+"<b>Helpdesk-app</b>: Behandel verzoeken om klantenondersteuning en tickets "
+"systematisch, zodat ze tijdig worden opgelost en een hoog serviceniveau "
+"wordt gegarandeerd."
+
+#. module: odoo_partner
+#: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
+msgid ""
+"<b>Planning App</b>: Schedule your consultants' and developers' workload to "
+"optimize resource allocation and\n"
+"                    prevent bottlenecks."
+msgstr ""
+"<b>Planning-app</b>: Plan de werkbelasting van je consultants en "
+"ontwikkelaars om de toewijzing van middelen te optimaliseren en knelpunten "
+"te voorkomen."
+
+#. module: odoo_partner
+#: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
+msgid ""
+"<b>Project App</b>: Manage Success Packs and large implementations with task "
+"management, milestones, and\n"
+"                    shared customer views."
+msgstr ""
+"<b>Project-app</b>: Beheer Success Packs en grote implementaties met "
+"taakbeheer, mijlpalen en gemeenschappelijke weergaven met klanten."
+
+#. module: odoo_partner
+#: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
+msgid ""
+"<b>Sales App</b>: Create professional proposals using an advanced Quote "
+"Calculator and PDF Quote Builder to\n"
+"                    impress prospective clients."
+msgstr ""
+"<b>Verkoop-app</b>: Maak professionele offertes met behulp van een "
+"geavanceerde Offertecalculator en Pdf-offertebouwer om indruk te maken op "
+"potentiële klanten."
+
+#. module: odoo_partner
+#: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
+msgid ""
+"<b>Sign App</b>: Send contracts and engagement letters for fast, legally "
+"binding digital signatures.<br/>"
+msgstr ""
+"<b>Ondertekenen-app</b>: Verstuur contracten en opdrachtbevestigingen voor "
+"snelle, juridisch bindende digitale handtekeningen.<br/>"
+
+#. module: odoo_partner
+#: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
+msgid ""
+"<b>Timesheets App</b>: Track billable hours spent on client projects to "
+"ensure accurate invoicing and\n"
+"                    profitability analysis."
+msgstr ""
+"<b>Urenstaten-app</b>: Houd factureerbare uren bij die aan klantprojecten "
+"zijn besteed om nauwkeurige facturatie en winstgevendheidsanalyse te "
+"garanderen."
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
@@ -119,11 +204,6 @@ msgstr "Analyse, schatting en opstellen van rapporten"
 #: model:project.task.type,name:odoo_partner.project_task_type_15
 msgid "Backlog"
 msgstr "Backlog"
-
-#. module: odoo_partner
-#: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
-msgid "Basics"
-msgstr "Basisprincipes"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
@@ -234,7 +314,7 @@ msgstr "Developer"
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid "Do You Want to Go Further?"
-msgstr "Wil je verder gaan?"
+msgstr "Wil je nog verder gaan?"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
@@ -254,7 +334,7 @@ msgstr ""
 #: model:project.task.type,name:odoo_partner.project_task_type_14
 #: model:project.task.type,name:odoo_partner.project_task_type_28
 msgid "Done"
-msgstr "Gereed"
+msgstr "Voltooid"
 
 #. module: odoo_partner
 #: model:product.pricelist,name:odoo_partner.product_pricelist_2
@@ -270,7 +350,8 @@ msgstr "Vragen en voorstellen opvolgen"
 #. odoo-javascript
 #: code:addons/odoo_partner/static/src/js/my_tour.js:0
 msgid "Get on track and explore our recommendations for your Odoo usage here!"
-msgstr "Kom goed op weg en bekijk hier onze aanbevelingen voor je Odoo-gebruik!"
+msgstr ""
+"Kom goed op weg en bekijk hier onze aanbevelingen voor je Odoo-gebruik!"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
@@ -514,8 +595,8 @@ msgid ""
 "want to start the venture with us."
 msgstr ""
 "Deze gids geeft je een basisoverzicht van wat je kunt doen in deze "
-"specifieke branche. Niet hoe je een Odoo Partner kunt worden. Neem contact "
-"op met ons team als je met ons in zee wilt gaan."
+"specifieke bedrijfstak. Niet hoe je een Odoo Partner kunt worden. Neem "
+"contact op met ons team als je met ons in zee wilt gaan."
 
 #. module: odoo_partner
 #: model:project.task.type,name:odoo_partner.project_task_type_26
@@ -674,3 +755,6 @@ msgstr "🎓 Projectbeheer"
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid "🎓 Sales"
 msgstr "🎓 Verkoop"
+
+#~ msgid "Basics"
+#~ msgstr "Basisprincipes"

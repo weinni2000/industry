@@ -3,13 +3,14 @@
 # * accounting_firm
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+# "Thi Huong Nguyen (thng)" <thng@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-04 14:33+0000\n"
-"PO-Revision-Date: 2025-11-13 07:47+0000\n"
+"POT-Creation-Date: 2026-01-12 09:27+0000\n"
+"PO-Revision-Date: 2026-06-13 10:42+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Vietnamese <https://translate.odoo.com/projects/odoo-19/"
 "accounting_firm/vi/>\n"
@@ -18,7 +19,63 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
+"<b>Accounting App</b>: Streamline your billing cycle and manage the firm's "
+"own financials with robust invoicing tools."
+msgstr ""
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
+"<b>Contacts App</b>: Centralize all client data and maintain a clean, "
+"organized directory of customers and contacts."
+msgstr ""
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
+"<b>Databases App</b>: Access and interact with your clients' Odoo databases "
+"instantly from a single dashboard."
+msgstr ""
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
+"<b>Documents App</b>: Automate the request, collection, and management of "
+"client files for a paperless office."
+msgstr ""
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
+"<b>Equity App</b>: Simplify compliance by gathering and visualizing Ultimate "
+"Beneficial Owners (UBOs) structures."
+msgstr ""
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
+"<b>Project App</b>: Organize client files, track tasks, and manage your "
+"team's workload to meet every deadline."
+msgstr ""
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
+"<b>Sign App</b>: Accelerate approvals and agreements by capturing secure "
+"electronic document signatures instantly."
+msgstr ""
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
+"<b>Timesheets App</b>: Track billable hours with precision and analyze your "
+"team's efforts for better profitability."
+msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -92,6 +149,11 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid "<strong>Connecting your customer database</strong>"
+msgstr ""
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "<strong>Customer identity management</strong>"
 msgstr ""
 
@@ -142,7 +204,7 @@ msgid ""
 "helps you following up project profitability with the project Dashboard."
 msgstr ""
 "Một phần quan trọng trong kinh doanh là đảm bảo hoạt động có lãi. Odoo hỗ "
-"trợ bạn theo dõi lợi nhuận của dự án thông qua Bảng điều khiển dự án."
+"trợ bạn theo dõi lợi nhuận của dự án thông qua Báo cáo tổng quan dự án."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -158,8 +220,9 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
+#, fuzzy
 msgid "AML"
-msgstr ""
+msgstr "AML"
 
 #. module: accounting_firm
 #: model:ir.model,name:accounting_firm.x_aml_risk_model
@@ -253,6 +316,8 @@ msgid ""
 "An activity has been created for you to follow up on this.<br/>\n"
 "    It self closes once your contact submits its UBO list."
 msgstr ""
+"Một hoạt động đã được tạo cho bạn để theo dõi việc này.<br/>\n"
+"Hoạt động sẽ tự động đóng khi liên hệ của bạn nộp danh sách UBO."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -262,6 +327,9 @@ msgid ""
 "                    Make sure to check the open document request from "
 "Documents App."
 msgstr ""
+"Một tự động hóa sẽ chạy hằng ngày để yêu cầu các liên hệ cung cấp giấy tờ "
+"tùy thân sắp hết hạn hoặc đã hết hạn.\n"
+"Hãy nhớ kiểm tra các yêu cầu tài liệu đang mở trong ứng dụng Tài liệu."
 
 #. module: accounting_firm
 #: model:project.tags,name:accounting_firm.project_tags_4
@@ -296,15 +364,6 @@ msgid "August"
 msgstr "Tháng 8"
 
 #. module: accounting_firm
-#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-msgid ""
-"Bill easily and manage your accounts with the <strong>Accounting App</"
-"strong>."
-msgstr ""
-"Lập hóa đơn dễ dàng và quản lý tài khoản của bạn với <strong>ứng dụng Kế "
-"toán</strong>."
-
-#. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.x_mandate_view_list
 msgid "Category"
 msgstr "Danh mục"
@@ -327,6 +386,10 @@ msgid ""
 "the sale order is confirmed and recorded time sheets any time there is time "
 "not yet invoiced."
 msgstr ""
+"Nhấp vào nút Tạo hóa đơn để tạo một hóa đơn nháp.<br/>\n"
+"Lưu ý rằng sản phẩm có giá cố định có thể được ghi nhận chi phí ngay khi đơn "
+"bán hàng được xác nhận, và bảng chấm công có thể được ghi nhận bất cứ khi "
+"nào có thời gian chưa được lập hóa đơn."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -334,6 +397,8 @@ msgid ""
 "Click the Document shortcut to open the Documents folder of this particular "
 "project, and deploy the information panel (top right corner i icon)."
 msgstr ""
+"Nhấp vào phím tắt Tài liệu để mở thư mục Tài liệu của dự án này, và hiển thị "
+"bảng thông tin (biểu tượng chữ i ở góc trên bên phải)."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -371,6 +436,8 @@ msgid ""
 "Confirm the invoice and send it to you customer for payment.<br/>\n"
 "                    Once payed, you know the drill to reconcile the payment."
 msgstr ""
+"Xác nhận hóa đơn và gửi đến khách hàng để thanh toán.<br/>\n"
+"Khi đã thanh toán, bạn biết quy trình để đối chiếu khoản thanh toán."
 
 #. module: accounting_firm
 #: model:project.tags,name:accounting_firm.project_tags_5
@@ -477,7 +544,7 @@ msgstr ""
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.accounting_firm_view_res_partner_search
 msgid "Expired IDs"
-msgstr ""
+msgstr "ID đã hết hạn"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_explanation_field_x_aml_risk
@@ -490,8 +557,8 @@ msgid ""
 "Explore the Dashboard App to follow up overall work, progress and "
 "profitability cross projects at will."
 msgstr ""
-"Khám phá ứng dụng Bảng điều khiển để theo dõi tổng thể công việc, tiến độ và "
-"lợi nhuận giữa các dự án theo ý muốn."
+"Khám phá ứng dụng Báo cáo tổng quan để theo dõi tổng thể công việc, tiến độ "
+"và lợi nhuận giữa các dự án theo ý muốn."
 
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_closing_month_field_selection_2
@@ -503,13 +570,6 @@ msgstr "Tháng 2"
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "Fine tune the email if needed and hit the send button."
 msgstr ""
-
-#. module: accounting_firm
-#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-msgid "Follow up on missions leveraging the <strong>Project App</strong>."
-msgstr ""
-"Theo dõi tiến độ các nhiệm vụ bằng cách sử dụng <strong>ứng dụng Dự án</"
-"strong>."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -532,20 +592,14 @@ msgstr ""
 
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_vat_declaration_recurrence_field_selection_franchise
+#, fuzzy
 msgid "Franchise"
-msgstr ""
+msgstr "Nhượng quyền"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
 msgid "French Business Directory"
 msgstr ""
-
-#. module: accounting_firm
-#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-msgid ""
-"Generate quote and manage sale order from the <strong>Sales App</strong>."
-msgstr ""
-"Tạo báo giá và quản lý đơn bán hàng từ <strong>ứng dụng Bán hàng</strong>."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -566,11 +620,9 @@ msgstr ""
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid ""
-"Have a central repository for requested documents in<strong> Documents App</"
-"strong>."
+"Having access in record time to all activities and metrics from your "
+"customer databases is key."
 msgstr ""
-"Có một kho lưu trữ trung tâm cho các tài liệu được yêu cầu trong <strong>ứng "
-"dụng Tài liệu</strong>."
 
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_level_risk_field_selection_high
@@ -593,6 +645,8 @@ msgid ""
 "Identity management is a must do activity in your business and to support "
 "you with that, the contacts encompass all the necessary."
 msgstr ""
+"Quản lý danh tính là một hoạt động bắt buộc trong doanh nghiệp của bạn, và "
+"để hỗ trợ việc này, phần liên hệ đã bao gồm tất cả những gì cần thiết."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -626,6 +680,18 @@ msgstr ""
 #: model:project.task.type,name:accounting_firm.project_task_type_2
 msgid "In progress"
 msgstr "Đang thực hiện"
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+#, fuzzy
+msgid ""
+"In the Database tab, set the appropriate hosting option and then fill in the "
+"additional required inputs, including API credentials provided by your "
+"customer."
+msgstr ""
+"Trong tab Cơ sở dữ liệu, chọn tùy chọn lưu trữ phù hợp và sau đó điền các "
+"thông tin bắt buộc bổ sung, bao gồm thông tin xác thực API do khách hàng "
+"cung cấp."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -698,6 +764,8 @@ msgid ""
 "Just be careful, once demo data are uploaded, it cannot be easily deleted. "
 "But you can restart a fresh database on ﻿"
 msgstr ""
+"Hãy cẩn thận, một khi dữ liệu demo đã được tải lên, sẽ không thể xóa dễ "
+"dàng. Nhưng bạn có thể khởi tạo một cơ sở dữ liệu mới tại"
 
 #. module: accounting_firm
 #: model:ir.actions.server,name:accounting_firm.server_action_keep_scan_in_chatter
@@ -743,11 +811,6 @@ msgstr ""
 #: model:ir.model.fields.selection,name:accounting_firm.x_level_risk_field_selection_low
 msgid "Low"
 msgstr "Thấp"
-
-#. module: accounting_firm
-#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-msgid "Manage opportunities with the <strong>CRM App</strong>."
-msgstr "Quản lý cơ hội với <strong>ứng dụng CRM</strong>."
 
 #. module: accounting_firm
 #: model:ir.model,name:accounting_firm.x_mandate_model
@@ -833,6 +896,8 @@ msgid ""
 "Note that Equity App comes first with capabilities to capture transactions "
 "and valuation which you will find useful."
 msgstr ""
+"Lưu ý rằng ứng dụng Vốn chủ sở hữu đứng đầu với các khả năng ghi nhận giao "
+"dịch và định giá mà bạn sẽ thấy hữu ích."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -904,6 +969,9 @@ msgid ""
 "a quotation.<br/>\n"
 "Otherwise, open the <strong>Sales App</strong> and create a new quote."
 msgstr ""
+"Mở <strong>ứng dụng CRM</strong> nếu đây là kết quả của một cơ hội, sau đó "
+"nhấp vào nút Báo giá mới để chuyển đổi thành một báo giá.<br/>\n"
+"Ngược lại, hãy mở <strong>ứng dụng Bán hàng</strong> và tạo một báo giá mới."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -963,9 +1031,16 @@ msgstr "Mở nhiệm vụ onboarding khách hàng để chỉnh sửa danh sách
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
+"Open the Databases App to have your customer database metrics at your finger "
+"tips!"
+msgstr ""
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "Open the Project App and click the Dashboard button from the top bar."
 msgstr ""
-"Mở ứng dụng Dự án, sau đó nhấp vào nút Bảng điều khiển trên thanh công cụ "
+"Mở ứng dụng Dự án, sau đó nhấp vào nút Báo cáo tổng quan trên thanh công cụ "
 "phía trên cùng."
 
 #. module: accounting_firm
@@ -983,6 +1058,8 @@ msgid ""
 "Open the contact form of the company you have to handle this for, Second "
 "Company for example."
 msgstr ""
+"Mở biểu mẫu liên hệ của công ty mà bạn cần xử lý việc này, ví dụ như Công ty "
+"Thứ Hai."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1001,6 +1078,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "Open the the project you worked on."
 msgstr "Mở dự án mà bạn đã thực hiện."
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid "Open your new customer project settings."
+msgstr ""
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_mandate_parent_id_field_x_mandate
@@ -1105,8 +1187,9 @@ msgstr ""
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_name_field_x_aml_risk_type
 #: model:ir.model.fields,field_description:accounting_firm.x_risk_type_field_x_aml_risk
+#, fuzzy
 msgid "Risk"
-msgstr ""
+msgstr "Rủi ro"
 
 #. module: accounting_firm
 #: model:ir.model,name:accounting_firm.x_aml_risk_type_model
@@ -1115,8 +1198,9 @@ msgstr ""
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_risk_ids_field_res_partner
+#, fuzzy
 msgid "Risks"
-msgstr ""
+msgstr "Rủi ro"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1247,6 +1331,9 @@ msgid ""
 "needs...<br/>\n"
 "                Fortunately, Odoo got you covered:"
 msgstr ""
+"Gói Công ty kế toán thực sự rất hữu ích, nhưng có thể chưa đáp ứng đầy đủ "
+"mọi nhu cầu của bạn...<br/>\n"
+"May mắn thay, Odoo đã sẵn sàng hỗ trợ bạn toàn diện:"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1256,6 +1343,13 @@ msgid ""
 msgstr ""
 "Công việc onboarding khách hàng chứa thông tin về các việc làm cần thực hiện "
 "để quản lý khách hàng của bạn một cách hiệu quả."
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
+"The Databases App comes with capabilities to efficiently manage tasks, "
+"access rights and more!"
+msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1293,6 +1387,9 @@ msgid ""
 "and open the settings of the project, clicking the three dots in the top "
 "right corner of the corresponding tile."
 msgstr ""
+"Để chỉ định Quản lý dự án, Trợ lý và Người đánh giá, hãy mở ứng dụng Dự án "
+"và vào phần cài đặt của dự án, nhấp vào biểu tượng ba chấm ở góc trên bên "
+"phải của ô tương ứng."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1318,6 +1415,9 @@ msgid ""
 "UBO identification can be a tedious task you don't want to lose time on. The "
 "Equity App comes with capabilities which will help you with this duty."
 msgstr ""
+"Xác định UBO có thể là một công việc tốn thời gian mà bạn không muốn lãng "
+"phí. Ứng dụng Vốn chủ sở hữu chứa các tính năng sẽ hỗ trợ bạn trong nhiệm vụ "
+"này."
 
 #. module: accounting_firm
 #: model:mail.activity.type,name:accounting_firm.mail_activity_ubo_update
@@ -1380,6 +1480,8 @@ msgid ""
 "When filling in the identity document expiration date, you can leverage the "
 "contacts filter \"Expired IDs\" to efficiently find the IDs to update!"
 msgstr ""
+"Khi điền ngày hết hạn của giấy tờ tùy thân, bạn có thể sử dụng bộ lọc \"ID "
+"đã hết hạn\" trong liên hệ để nhanh chóng tìm các ID cần cập nhật!"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1396,6 +1498,10 @@ msgid ""
 "customer onboarding actions or folder architecture so that you save time in "
 "the future."
 msgstr ""
+"Khi bạn xác nhận đơn bán hàng, hãy lưu ý rằng dự án được sao chép đã được "
+"xác định trong sản phẩm mà bạn bán. Bạn có thể chỉnh sửa dự án để điều chỉnh "
+"danh sách các tác vụ onboarding cho khách hàng hoặc cấu trúc thư mục, giúp "
+"tiết kiệm thời gian trong tương lai."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1480,6 +1586,10 @@ msgid ""
 "                        Don't forget to update your employee costs, in the "
 "setting tab, to compute relevant costs."
 msgstr ""
+"Bạn có quyền truy cập vào tất cả tài liệu liên quan trong Báo cáo tổng quan "
+"dự án và có thể theo dõi thu nhập cũng như chi phí một cách dễ dàng.<br/>\n"
+"Đừng quên cập nhật chi phí nhân sự của bạn trong tab Cài đặt để hệ thống "
+"tính toán chi phí một cách chính xác."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1508,6 +1618,10 @@ msgid ""
 "                In any case, you may have written records in journals which "
 "are not deletable and which might be an issue for your traceability."
 msgstr ""
+"Bạn có thể đã kiểm thử gói Công ty kế toán khi có hoặc không có dữ liệu mẫu."
+"<br/>\n"
+"Dù trong trường hợp nào, bạn có thể đã ghi dữ liệu vào các sổ nhật ký mà "
+"không thể xóa được, điều này có thể ảnh hưởng đến khả năng truy xuất của bạn."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1541,8 +1655,9 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+#, fuzzy
 msgid "﻿ , and feel free to ﻿"
-msgstr ""
+msgstr "của chúng tôi, và đừng ngần ngại"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1556,33 +1671,39 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+#, fuzzy
 msgid "﻿Odoo.com/trial﻿"
-msgstr ""
+msgstr "﻿Odoo.com/trial﻿"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+#, fuzzy
 msgid "﻿Reach us﻿"
-msgstr ""
+msgstr "﻿Liên hệ với chúng tôi﻿"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+#, fuzzy
 msgid "﻿academy﻿"
-msgstr ""
+msgstr "khoá học"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+#, fuzzy
 msgid "﻿documentation﻿"
-msgstr ""
+msgstr "tài liệu"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+#, fuzzy
 msgid "﻿request a demo﻿"
-msgstr ""
+msgstr "đặt lịch demo"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+#, fuzzy
 msgid "﻿🎓 CRM﻿"
-msgstr ""
+msgstr "﻿🎓 CRM﻿"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1596,8 +1717,9 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+#, fuzzy
 msgid "﻿🎓 Invoicing﻿"
-msgstr ""
+msgstr "🎓 Hoá đơn"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1646,6 +1768,11 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid "📬 Follow up on your customer database"
+msgstr ""
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "🗂️ Document management"
 msgstr ""
 
@@ -1653,6 +1780,33 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "🧮 Ultimate beneficial owners' hunt"
 msgstr ""
+
+#~ msgid ""
+#~ "Bill easily and manage your accounts with the <strong>Accounting App</"
+#~ "strong>."
+#~ msgstr ""
+#~ "Lập hóa đơn dễ dàng và quản lý tài khoản của bạn với <strong>ứng dụng Kế "
+#~ "toán</strong>."
+
+#~ msgid "Follow up on missions leveraging the <strong>Project App</strong>."
+#~ msgstr ""
+#~ "Theo dõi tiến độ các nhiệm vụ bằng cách sử dụng <strong>ứng dụng Dự án</"
+#~ "strong>."
+
+#~ msgid ""
+#~ "Generate quote and manage sale order from the <strong>Sales App</strong>."
+#~ msgstr ""
+#~ "Tạo báo giá và quản lý đơn bán hàng từ <strong>ứng dụng Bán hàng</strong>."
+
+#~ msgid ""
+#~ "Have a central repository for requested documents in<strong> Documents "
+#~ "App</strong>."
+#~ msgstr ""
+#~ "Có một kho lưu trữ trung tâm cho các tài liệu được yêu cầu trong "
+#~ "<strong>ứng dụng Tài liệu</strong>."
+
+#~ msgid "Manage opportunities with the <strong>CRM App</strong>."
+#~ msgstr "Quản lý cơ hội với <strong>ứng dụng CRM</strong>."
 
 #~ msgid ""
 #~ "Rename the project at your will to better identify them by customer name "

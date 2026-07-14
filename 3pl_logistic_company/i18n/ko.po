@@ -3,14 +3,14 @@
 # * 3pl_logistic_company
 #
 # Odoo Translation Bot <c3p@odoo.com>, 2025.
-# "Kwanghee Park (kwpa)" <kwpa@odoo.com>, 2025.
+# "Kwanghee Park (kwpa)" <kwpa@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-13 08:44+0000\n"
-"PO-Revision-Date: 2025-11-20 09:41+0000\n"
+"POT-Creation-Date: 2026-01-12 09:26+0000\n"
+"PO-Revision-Date: 2026-02-10 08:14+0000\n"
 "Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@odoo.com>\n"
 "Language-Team: Korean <https://translate.odoo.com/projects/odoo-19/"
 "3pl_logistic_company/ko/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.ir_ui_view_2473
@@ -27,18 +27,23 @@ msgid ""
 "&amp;nbsp;<a class=\"btn btn-secondary mb-2 o_translate_inline\" href=\"/"
 "contactus\">Contact us</a>"
 msgstr ""
-"&amp;nbsp;<a class=\"btn btn-secondary mb-2 o_translate_inline\" href="
-"\"/contactus\">문의하기</a>"
+"&amp;nbsp;<a class=\"btn btn-secondary mb-2 o_translate_inline\" href=\"/"
+"contactus\">문의하기</a>"
 
 #. module: 3pl_logistic_company
 #: model:spreadsheet.dashboard.group,name:3pl_logistic_company.spreadsheet_dashboard_group_3pl
 msgid "3PL - INVOICING"
-msgstr ""
+msgstr "3PL - 청구서 발행"
 
 #. module: 3pl_logistic_company
 #: model:spreadsheet.dashboard,name:3pl_logistic_company.spreadsheet_dashboard_15
 msgid "3PL Data"
 msgstr "3PL 데이터"
+
+#. module: 3pl_logistic_company
+#: model:ir.actions.server,name:3pl_logistic_company.server_action_account_move_create_next
+msgid "3PL Logistic Company: Invoice - create next action"
+msgstr ""
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.ir_ui_view_2473
@@ -97,18 +102,35 @@ msgstr ""
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
+msgid ""
+"<b>Generate a new invoice</b> directly from the existing <b>Sales\n"
+"                                    Order.</b>"
+msgstr ""
+
+#. module: 3pl_logistic_company
+#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "<b>Going Further!</b>"
 msgstr "<b>더 확인해 보세요!</b>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "<b>In the Contact App:</b>"
-msgstr ""
+msgstr "<b>연락처 앱:</b>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "<b>In the Inventory App:</b>"
+msgstr "<b>재고 관리 앱:</b>"
+
+#. module: 3pl_logistic_company
+#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
+msgid "<b>Locate the customer's last invoice.</b>"
 msgstr ""
+
+#. module: 3pl_logistic_company
+#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
+msgid "<b>Login as:</b>"
+msgstr "<b>로그인:</b>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -139,8 +161,27 @@ msgstr ""
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
+msgid ""
+"<b>Odoo will automatically duplicate</b> the previous invoice,\n"
+"                                    using the correct start date (based on "
+"your defined invoice\n"
+"                                    period) but setting <b>all\n"
+"                                        quantity lines to\n"
+"                                        zero</b>. This prevents accidental "
+"overbilling and allows\n"
+"                                    you to input the current period's "
+"quantities accurately."
+msgstr ""
+
+#. module: 3pl_logistic_company
+#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "<b>Open the CRM app</b> and create a new opportunity."
 msgstr ""
+
+#. module: 3pl_logistic_company
+#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
+msgid "<b>Password:</b> portal"
+msgstr "<b>비밀번호:</b> 포털"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -164,6 +205,8 @@ msgid ""
 "<b>Quality Report:</b> Gives information on the number of quality checks\n"
 "                            performed."
 msgstr ""
+"<b>품질 보고서:</b> 품질 검사 진행 횟수에 대한 자세한 정보를\n"
+"                            담고 있습니다."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -203,8 +246,13 @@ msgstr ""
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
+msgid "<b>User:</b> portal@portal.com"
+msgstr "<b>사용자:</b> portal@portal.com"
+
+#. module: 3pl_logistic_company
+#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "<b>Validate</b> the invoice."
-msgstr ""
+msgstr "청구서를 <b>승인</b>하세요."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -214,12 +262,12 @@ msgstr ""
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "<b>Validate</b> the transfer."
-msgstr ""
+msgstr "이동을 <b>승인</b>하세요."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "<b>Validate</b> to finalize the order."
-msgstr ""
+msgstr "<b>승인</b> 하면 주문이 완료됩니다."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.ir_ui_view_2473
@@ -240,6 +288,75 @@ msgstr ""
 msgid ""
 "<em>Example: A client who had 150 pallets at €0.30/day and 55 pallets at\n"
 "                        €0.45/day in August.</em>"
+msgstr ""
+
+#. module: 3pl_logistic_company
+#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Barcode App</b>:</font> Streamlines "
+"warehouse floor operations by enabling\n"
+"                    fast and accurate scanning of pallets, locations, and "
+"stock movements."
+msgstr ""
+
+#. module: 3pl_logistic_company
+#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>CRM App</b>:</font> Tracks leads and "
+"opportunities efficiently, helping\n"
+"                    logistics companies follow up on prospects and manage "
+"long-term customer relationships."
+msgstr ""
+
+#. module: 3pl_logistic_company
+#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Documents App</b>:</font> Centralizes "
+"contracts, delivery notes, and\n"
+"                    transport documentation in a searchable digital space."
+msgstr ""
+
+#. module: 3pl_logistic_company
+#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Inventory App</b>:</font> Enables precise "
+"stock management across multiple\n"
+"                    warehouses and clients, ensuring full tracking of "
+"inbound, outbound, and internal movements."
+msgstr ""
+
+#. module: 3pl_logistic_company
+#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Invoicing App</b>:</font> Automates "
+"billing calculations based on storage\n"
+"                    duration, volume, and handling services, with support "
+"for custom pricing per client."
+msgstr ""
+
+#. module: 3pl_logistic_company
+#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Sales App</b>:</font> Generates "
+"professional quotations and sales orders for\n"
+"                    storage, transport, and value-added logistics services."
+msgstr ""
+
+#. module: 3pl_logistic_company
+#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Subscriptions App</b>:</font> Manages "
+"recurring billing for long-term\n"
+"                    storage services with customizable plans."
+msgstr ""
+
+#. module: 3pl_logistic_company
+#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Website &amp; Portal</b>:</font> Provides "
+"clients with a self-service portal\n"
+"                    for real-time access to stock levels, service requests, "
+"and downloadable documents."
 msgstr ""
 
 #. module: 3pl_logistic_company
@@ -277,8 +394,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">💡</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Info\">💡</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">💡</i>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -286,8 +403,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">✅</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Success\">✅</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\">✅</i>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -295,8 +412,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Warning\">⚠️</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Warning\">⚠️</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Warning\">⚠️</i>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -304,8 +421,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
 "normal\">💡</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Info\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
+"<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
+"normal\">💡</i>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -313,8 +430,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
 "normal\">🚀</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Info\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
+"<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
+"normal\">🚀</i>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -324,6 +441,10 @@ msgid ""
 "            </span>\n"
 "            <br/>"
 msgstr ""
+"<span class=\"h1-fs\">\n"
+"                <strong>활동</strong>\n"
+"            </span>\n"
+"            <br/>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -332,11 +453,14 @@ msgid ""
 "                <strong>Basics</strong>\n"
 "            </span>"
 msgstr ""
+"<span class=\"h1-fs\">\n"
+"                <strong>기본</strong>\n"
+"            </span>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "<span class=\"h2-fs\">Configure quality checks ✅</span>"
-msgstr ""
+msgstr "<span class=\"h2-fs\">품질 검사 환경설정 ✅</span>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -351,6 +475,8 @@ msgid ""
 "<span class=\"h2-fs\">Fixed-Space\n"
 "            Subscription Management</span>🔁"
 msgstr ""
+"<span class=\"h2-fs\">고정 보유 공간\n"
+"            구독 관리</span>🔁"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -358,6 +484,8 @@ msgid ""
 "<span class=\"h2-fs\">Invoice customer💲</span>\n"
 "            <br/>"
 msgstr ""
+"<span class=\"h2-fs\">고객 청구서 발행💲</span>\n"
+"            <br/>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -367,12 +495,12 @@ msgstr ""
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "<span class=\"h2-fs\">Manage Stock Moves 🔄</span>"
-msgstr ""
+msgstr "<span class=\"h2-fs\">재고 작업 관리 🔄</span>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "<span class=\"h2-fs\">Manage quotations 🤝</span>"
-msgstr ""
+msgstr "<span class=\"h2-fs\">견적서 관리 🤝</span>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -445,14 +573,21 @@ msgid ""
 "                <strong>Internal Moves</strong>\n"
 "            </span>"
 msgstr ""
+"<span class=\"h6-fs\">\n"
+"                <strong>내부 작업</strong>\n"
+"            </span>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
+#, fuzzy
 msgid ""
 "<span class=\"h6-fs\">\n"
 "                <strong>Outbound Deliveries</strong>\n"
 "            </span>"
 msgstr ""
+"<span class=\"h6-fs\">\n"
+"                <strong>출고 배송</strong>\n"
+"            </span>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -545,6 +680,8 @@ msgid ""
 "<span class=\"h6-fs\">​</span>\n"
 "            <br/>"
 msgstr ""
+"<span class=\"h6-fs\">​</span>\n"
+"            <br/>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.ir_ui_view_3810
@@ -559,8 +696,8 @@ msgid ""
 "span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">제목</span>\n"
-"                                  <span class=\"s_website_form_mark\"> "
-"*</span>"
+"                                  <span class=\"s_website_form_mark\"> *</"
+"span>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.ir_ui_view_3810
@@ -570,8 +707,8 @@ msgid ""
 "span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">회사명</span>\n"
-"                                  <span class=\"s_website_form_mark\"> "
-"*</span>"
+"                                  <span class=\"s_website_form_mark\"> *</"
+"span>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.ir_ui_view_3810
@@ -581,8 +718,8 @@ msgid ""
 "span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">이메일</span>\n"
-"                                  <span class=\"s_website_form_mark\"> "
-"*</span>"
+"                                  <span class=\"s_website_form_mark\"> *</"
+"span>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.ir_ui_view_3810
@@ -592,8 +729,8 @@ msgid ""
 "span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">이름</span>\n"
-"                                  <span class=\"s_website_form_mark\"> "
-"*</span>"
+"                                  <span class=\"s_website_form_mark\"> *</"
+"span>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.ir_ui_view_3810
@@ -603,13 +740,13 @@ msgid ""
 "span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">문의 내용</span>\n"
-"                                  <span class=\"s_website_form_mark\"> "
-"*</span>"
+"                                  <span class=\"s_website_form_mark\"> *</"
+"span>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "<span style=\"font-size: 21px;\">Barcode App</span> 🤳"
-msgstr ""
+msgstr "<span style=\"font-size: 21px;\">바코드 앱</span> 🤳"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.ir_ui_view_2473
@@ -629,12 +766,12 @@ msgstr ""
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "<strong>Accounting made easy 🧮</strong>"
-msgstr ""
+msgstr "<strong>회계가 정말 간편해집니다 🧮</strong>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "<strong>In the Manufacturing App:</strong>"
-msgstr ""
+msgstr "<strong>제조 관리 앱:</strong>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -714,11 +851,16 @@ msgstr ""
 #. module: 3pl_logistic_company
 #: model:product.template,name:3pl_logistic_company.product_template_10
 msgid "Christmas Tree Waterfall Lights"
-msgstr ""
+msgstr "크리스마스 트리 폭포 조명"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "Click on <b>Mark as to do</b>."
+msgstr ""
+
+#. module: 3pl_logistic_company
+#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
+msgid "Click the \"<b>Create Next</b>\" button on that invoice."
 msgstr ""
 
 #. module: 3pl_logistic_company
@@ -738,14 +880,14 @@ msgid ""
 "                                    We'll do our best to get back to you as "
 "soon as possible."
 msgstr ""
-"저희 회사나 저희의 서비스에 대해 궁금한 점이 있으시면 문의 주시기 바랍니다.<"
-"br/>\n"
+"저희 회사나 저희의 서비스에 대해 궁금한 점이 있으시면 문의 주시기 바랍니다."
+"<br/>\n"
 "                                   최대한 빨리 답변드릴 수 있도록 하겠습니다."
 
 #. module: 3pl_logistic_company
 #: model:ir.model.fields,field_description:3pl_logistic_company.x_point_id_title_field_quality_check
 msgid "Control Point Title"
-msgstr ""
+msgstr "관리 지점 제목"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -757,7 +899,7 @@ msgstr ""
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "Create a new internal transfer."
-msgstr ""
+msgstr "새로운 내부 이송 항목을 생성합니다."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -776,9 +918,14 @@ msgid ""
 msgstr ""
 
 #. module: 3pl_logistic_company
+#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.account_move_form_view_inherit
+msgid "Create next"
+msgstr "생성:"
+
+#. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "Create product categories."
-msgstr ""
+msgstr "품목 카테고리를 생성합니다."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -852,6 +999,13 @@ msgid "Energy Packaging"
 msgstr "에너지 패키지"
 
 #. module: 3pl_logistic_company
+#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
+msgid ""
+"Ensure you select the <b>correct \"Invoice Period\"</b> and specify\n"
+"                                    the appropriate <b>Invoice date</b>."
+msgstr ""
+
+#. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.ir_ui_view_2473
 msgid "Entrust your logistics to an expert!&amp;nbsp;"
 msgstr ""
@@ -871,7 +1025,7 @@ msgstr "만료 일자"
 #. module: 3pl_logistic_company
 #: model:product.template,name:3pl_logistic_company.product_template_14
 msgid "Extra Quality Check"
-msgstr ""
+msgstr "추가 품질 검사"
 
 #. module: 3pl_logistic_company
 #: model:product.template,name:3pl_logistic_company.product_template_17
@@ -889,7 +1043,7 @@ msgstr "수수료 요율"
 #. module: 3pl_logistic_company
 #: model:ir.actions.act_window,name:3pl_logistic_company.action_fee_rate_list_view
 msgid "Fee rate list view"
-msgstr ""
+msgstr "수수료율 목록 보기"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -913,12 +1067,12 @@ msgstr ""
 #. module: 3pl_logistic_company
 #: model:product.template,name:3pl_logistic_company.product_template_15
 msgid "Handling Charges Input"
-msgstr ""
+msgstr "취급 수수료 입력"
 
 #. module: 3pl_logistic_company
 #: model:product.template,name:3pl_logistic_company.product_template_16
 msgid "Handling Charges Output"
-msgstr ""
+msgstr "취급 수수료 결과"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -958,9 +1112,7 @@ msgstr ""
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
-msgid ""
-"If it's the first time invoicing, create a new invoice from the\n"
-"                            previously created <b>Sales Order</b>."
+msgid "If it's the first time invoicing:"
 msgstr ""
 
 #. module: 3pl_logistic_company
@@ -989,8 +1141,7 @@ msgstr ""
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
-msgid ""
-"If you've invoiced this customer before, duplicate the previous invoice."
+msgid "If you've invoiced this customer before:"
 msgstr ""
 
 #. module: 3pl_logistic_company
@@ -1015,6 +1166,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "In the pop-up window, click <b>\"Grant Access.\"</b>"
 msgstr ""
+
+#. module: 3pl_logistic_company
+#: model:ir.model.fields,field_description:3pl_logistic_company.x_invoice_period_id_field_account_move
+msgid "Invoice Period"
+msgstr "청구서 발행 기간"
 
 #. module: 3pl_logistic_company
 #: model:ir.model.fields,field_description:3pl_logistic_company.x_location_id_field_x_stock_history
@@ -1043,7 +1199,7 @@ msgstr ""
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.portal_my_home_products
 msgid "Manage you products and stock"
-msgstr ""
+msgstr "품목 및 재고를 관리하세요"
 
 #. module: 3pl_logistic_company
 #: model:sale.order.template.line,name:3pl_logistic_company.sale_order_template_line_4
@@ -1086,16 +1242,20 @@ msgid ""
 "data, and test everything\n"
 "            around!"
 msgstr ""
+"물론 이 내용은 패키지에 포함된 기능을 전체적으로 설명한 것에 불과합니다.\n"
+"                            새로운 앱을 추가하거나 데모 데이터를 수정 또는 삭"
+"제하는 등 모든 기능을 자유롭게 테스트해\n"
+"                            보세요!"
 
 #. module: 3pl_logistic_company
 #: model:base.automation,name:3pl_logistic_company.base_automation_on_move_line_created
 msgid "On Move Line Created"
-msgstr ""
+msgstr "이동 내역 생성 시"
 
 #. module: 3pl_logistic_company
 #: model:base.automation,name:3pl_logistic_company.base_automation_on_owner_set_change_tracking
 msgid "On Owner Set On Product"
-msgstr ""
+msgstr "품목에 대한 소유자 설정"
 
 #. module: 3pl_logistic_company
 #: model:base.automation,name:3pl_logistic_company.base_automation_on_stock_move_changed
@@ -1164,7 +1324,7 @@ msgstr "패키지"
 #. module: 3pl_logistic_company
 #: model:ir.model.fields,field_description:3pl_logistic_company.x_package_master_container_id_field_stock_quants
 msgid "Package Master Container"
-msgstr ""
+msgstr "패키지 마스터 컨테이너"
 
 #. module: 3pl_logistic_company
 #: model:ir.model.fields,field_description:3pl_logistic_company.x_package_type_field_x_stock_history
@@ -1179,7 +1339,7 @@ msgstr "패키지"
 #. module: 3pl_logistic_company
 #: model:ir.actions.act_window,name:3pl_logistic_company.action_window_partner_see_products
 msgid "Partner related products view"
-msgstr ""
+msgstr "파트너 관련 품목 보기"
 
 #. module: 3pl_logistic_company
 #: model:stock.picking.type,name:3pl_logistic_company.picking_type_pick
@@ -1219,12 +1379,12 @@ msgstr ""
 #. module: 3pl_logistic_company
 #: model:product.template,name:3pl_logistic_company.product_template_12
 msgid "Reserved Warehouse Space - Ground"
-msgstr ""
+msgstr "예약된 창고 공간 - 지상"
 
 #. module: 3pl_logistic_company
 #: model:product.template,name:3pl_logistic_company.product_template_13
 msgid "Reserved Warehouse Space - High-Bay"
-msgstr ""
+msgstr "예약된 창고 공간 - 고측 랙 구역"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.portal_products
@@ -1234,7 +1394,7 @@ msgstr "예약된 수량"
 #. module: 3pl_logistic_company
 #: model:ir.actions.server,name:3pl_logistic_company.product_route
 msgid "Route displaying products"
-msgstr ""
+msgstr "경로 표시 품목"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1242,6 +1402,8 @@ msgid ""
 "Schedule a\n"
 "                        demo"
 msgstr ""
+"데모\n"
+"                        예약하기"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1325,7 +1487,7 @@ msgstr "재고 이력"
 #. module: 3pl_logistic_company
 #: model:ir.actions.server,name:3pl_logistic_company.ir_cron_update_dgi_state_ir_actions_server
 msgid "Stock History-Create Daily Records"
-msgstr ""
+msgstr "재고 이력-일일 기록 생성하기"
 
 #. module: 3pl_logistic_company
 #: model:ir.actions.act_window,name:3pl_logistic_company.action_window_stock_occupation_list_view
@@ -1347,57 +1509,17 @@ msgstr "보관소 "
 #. module: 3pl_logistic_company
 #: model:product.template,name:3pl_logistic_company.product_template_19
 msgid "Storage - Ground"
-msgstr ""
+msgstr "보관소 - 지상"
 
 #. module: 3pl_logistic_company
 #: model:product.template,name:3pl_logistic_company.product_template_20
 msgid "Storage - High-Bay"
-msgstr ""
+msgstr "보관소 - 대형 창고"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.ir_ui_view_3810
 msgid "Submit"
 msgstr "제출하기"
-
-#. module: 3pl_logistic_company
-#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
-msgid ""
-"The <strong>\n"
-"                        <font style=\"color: rgb(113, 75, 103);\">CRM &amp; "
-"Sales Apps</font>\n"
-"                    </strong> handle\n"
-"                    your market research and sales orders"
-msgstr ""
-
-#. module: 3pl_logistic_company
-#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
-msgid ""
-"The <strong>\n"
-"                        <font style=\"color: rgb(113, 75, 103);\">Dashboard "
-"App</font> </strong>gives\n"
-"                    a clear overview of all operations performed for each "
-"client."
-msgstr ""
-
-#. module: 3pl_logistic_company
-#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
-msgid ""
-"The <strong>\n"
-"                        <font style=\"color: rgb(113, 75, 103);\">Quality "
-"App </font>\n"
-"                    </strong>defines\n"
-"                    the type of Quality checks to perform and register it."
-msgstr ""
-
-#. module: 3pl_logistic_company
-#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
-msgid ""
-"The <strong>\n"
-"                        <font style=\"color: rgb(113, 75, 103);"
-"\">Subscription App </font>\n"
-"                    </strong>manages\n"
-"                    your fixed spaces reservation for clients"
-msgstr ""
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1480,34 +1602,6 @@ msgid "The vendor bills payment."
 msgstr "공급업체에서 결제 대금을 청구합니다."
 
 #. module: 3pl_logistic_company
-#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
-msgid ""
-"The<strong> </strong><font style=\"color: rgb(113, 75, 103);\">\n"
-"                        <strong>Invoicing App</strong>\n"
-"                    </font> manages the\n"
-"                    periodic invoicing based on the Dashboard data."
-msgstr ""
-
-#. module: 3pl_logistic_company
-#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
-msgid ""
-"The<strong> </strong><font style=\"color: rgb(113, 75, 103);\">\n"
-"                        <strong>Website App</strong>\n"
-"                    </font> gives an\n"
-"                    overview of your activity and the portal allows your "
-"client too see their\n"
-"                    stock levels live."
-msgstr ""
-
-#. module: 3pl_logistic_company
-#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
-msgid ""
-"The<strong> <font class=\"text-o-color-1\">Inventory App</font></strong> "
-"tracks\n"
-"                    and registers all your stock moves."
-msgstr ""
-
-#. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.portal_products
 msgid "There are currently no products for your account."
 msgstr ""
@@ -1523,6 +1617,13 @@ msgstr ""
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "Tips for success:"
+msgstr "성공 팁:"
+
+#. module: 3pl_logistic_company
+#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
+msgid ""
+"To access this database with the demonstration data\n"
+"                    and view the live stock from a customer's perspective:"
 msgstr ""
 
 #. module: 3pl_logistic_company
@@ -1589,6 +1690,15 @@ msgstr ""
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid ""
+"Upon successful login, you will be connected as the <b>Second\n"
+"                    Company</b> and will see their <b>real-time stock "
+"information</b> precisely as a\n"
+"                    customer would view it."
+msgstr ""
+
+#. module: 3pl_logistic_company
+#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
+msgid ""
 "Use barcode scanners to validate stock movements, identify\n"
 "            pallet positions, and perform fast, accurate stock operations. "
 "Greatly improves\n"
@@ -1647,12 +1757,12 @@ msgstr "<strong>재고 관리 앱</strong>에서"
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "Within the Quality<strong> App</strong>"
-msgstr ""
+msgstr "품질<strong>앱</strong>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "Within the Sales app"
-msgstr ""
+msgstr "판매 앱"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1804,6 +1914,8 @@ msgid ""
 "🎓\n"
 "            Import - Export"
 msgstr ""
+"🎓\n"
+"            가져오기 - 내보내기"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1838,4 +1950,4 @@ msgstr "🎓 전자 서명"
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "🎓 Third party carrier"
-msgstr ""
+msgstr "🎓 외부 운송업체"

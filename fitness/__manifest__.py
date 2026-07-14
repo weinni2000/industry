@@ -1,6 +1,6 @@
 {
     'name': 'Fitness Center',
-    'version': '1.1',
+    'version': '1.2',
     'category': 'Health and Fitness',
     'depends': [
         'calendar',
@@ -29,7 +29,6 @@
         'data/project_task.xml',
         'data/res_partner_grade.xml',
         'data/product_product.xml',
-        'data/pos_payment_method.xml',
         'data/pos_config.xml',
         'data/knowledge_cover.xml',
         'data/knowledge_article.xml',
@@ -43,7 +42,7 @@
         'data/knowledge_tour.xml',
     ],
     'demo': [
-        'demo/res_users.xml',
+        'demo/res_company.xml',
         'demo/res_partner.xml',
         'demo/hr_employee.xml',
         'demo/appointment_type.xml',
@@ -81,6 +80,7 @@
         "static/src/js/my_tour.js",
         "demo/website_view.xml",
     ],
+    'application': True,
     'images': ['images/main.png'],
     'url': "https://www.odoo.com/trial?industry&selected_app=fitness",
     'website': "https://www.odoo.com/industries/fitness-center",

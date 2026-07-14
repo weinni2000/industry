@@ -3,13 +3,13 @@
 # * museum
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025.
+# "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 11:36+0000\n"
-"PO-Revision-Date: 2025-11-04 13:56+0000\n"
+"POT-Creation-Date: 2026-06-12 18:33+0000\n"
+"PO-Revision-Date: 2026-05-05 11:08+0000\n"
 "Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
 "Language-Team: German <https://translate.odoo.com/projects/odoo-19/museum/de/"
 ">\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: museum
 #: model:product.template,name:museum.product_product_12_product_template
@@ -38,27 +38,7 @@ msgstr "&amp;nbsp;Frozen Breath"
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid ", and feel free to"
-msgstr "und"
-
-#. module: museum
-#: model_terms:ir.ui.view,arch_db:museum.homepage
-msgid "01"
-msgstr "01"
-
-#. module: museum
-#: model_terms:ir.ui.view,arch_db:museum.homepage
-msgid "02"
-msgstr "02"
-
-#. module: museum
-#: model_terms:ir.ui.view,arch_db:museum.homepage
-msgid "03"
-msgstr "03"
-
-#. module: museum
-#: model_terms:ir.ui.view,arch_db:museum.homepage
-msgid "04"
-msgstr "04"
+msgstr "und Sie können"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.homepage
@@ -278,8 +258,8 @@ msgid ""
 "span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Name</span>\n"
-"                                    <span class=\"s_website_form_mark\"> "
-"*</span>"
+"                                    <span class=\"s_website_form_mark\"> *</"
+"span>"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.contactus
@@ -735,16 +715,6 @@ msgstr ""
 "einigen Kontakten gefüllt."
 
 #. module: museum
-#: model:pos.payment.method,name:museum.pos_payment_method_2
-msgid "Card"
-msgstr "Karte"
-
-#. module: museum
-#: model:pos.payment.method,name:museum.pos_payment_method_1
-msgid "Cash"
-msgstr "Bargeld"
-
-#. module: museum
 #: model:product.template,name:museum.product_product_13_product_template
 msgid "Ceramic Mug – Limited Edition\t"
 msgstr "Keramikbecher – Limitierte Auflage\t"
@@ -886,11 +856,6 @@ msgstr ""
 #: model:pos.category,name:museum.pos_category_2
 msgid "Creative & Educational"
 msgstr "Kreativ & Bildend"
-
-#. module: museum
-#: model:pos.payment.method,name:museum.pos_payment_method_3
-msgid "Customer Account"
-msgstr "Kundenkonto"
 
 #. module: museum
 #: model:product.pricelist,name:museum.product_pricelist_1
@@ -1199,7 +1164,8 @@ msgstr ""
 #: code:addons/museum/static/src/js/my_tour.js:0
 msgid "Get on track and explore our recommendations for your Odoo usage here!"
 msgstr ""
-"Los geht’s! Entdecken Sie hier unsere Empfehlungen für die Nutzung von Odoo!"
+"Los geht’s! Entdecken Sie hier unsere Empfehlungen, um Odoo optimal zu "
+"nutzen!"
 
 #. module: museum
 #: model_terms:product.template,description:museum.product_product_19_product_template
@@ -1506,7 +1472,7 @@ msgid ""
 msgstr ""
 "Das ist natürlich nur eine Übersicht über die Funktionen, die in diesem "
 "Paket enthalten sind. Sie können gerne neue Apps hinzufügen, Demodaten "
-"löschen/anpassen und etwas herumspielen."
+"löschen oder anpassen und etwas herumspielen."
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
@@ -1973,7 +1939,7 @@ msgid ""
 "Registration Desk tab."
 msgstr ""
 "Die Tickets werden per E-Mail mit einem Barcode versandt, der bei der "
-"Ankunft über den Reiter „Registrierungsschalter” gescannt werden kann."
+"Ankunft über den Reiter „Anmeldeschalter” gescannt werden kann."
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.exhibitions
@@ -2230,7 +2196,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid "Would you like to discuss your Odoo setup with us or go even further?"
 msgstr ""
-"Möchten Sie Ihre Odoo-Einrichtung mit uns besprechen oder noch weiter gehen?"
+"Möchten Sie Ihre Odoo-Konfiguration mit uns besprechen oder noch einen "
+"Schritt weiter gehen?"
 
 #. module: museum
 #: model_terms:product.template,description:museum.product_product_31_product_template
@@ -2258,7 +2225,7 @@ msgid ""
 "your Odoo setup to fit your business needs."
 msgstr ""
 "Sie haben diesen Demo-Anwendungsfall abgeschlossen! Es gibt Millionen "
-"anderer Möglichkeiten, Ihre Odoo-Einrichtung an Ihre geschäftlichen "
+"anderer Möglichkeiten, Ihre Odoo-Konfiguration an Ihre geschäftlichen "
 "Anforderungen anzupassen."
 
 #. module: museum
@@ -2378,7 +2345,7 @@ msgstr "von <em>Emily Carr</em>"
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.homepage
 msgid "by <em>John Doe</em>"
-msgstr "von <em>John Doe</em>"
+msgstr "von <em>Max Mustermann</em>"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.homepage
@@ -2427,7 +2394,7 @@ msgstr "Fuß unter einem Gemälde"
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid "request a demo"
-msgstr "bitten Sie um eine Demo"
+msgstr "eine Demo buchen"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.exhibitions
@@ -2458,3 +2425,24 @@ msgstr "Frau mit gefesselten Händen"
 #: model_terms:ir.ui.view,arch_db:museum.homepage
 msgid "—&amp;nbsp;Edgar Degas"
 msgstr "—&amp;nbsp;Edgar Degas"
+
+#~ msgid "Card"
+#~ msgstr "Karte"
+
+#~ msgid "Cash"
+#~ msgstr "Bargeld"
+
+#~ msgid "Customer Account"
+#~ msgstr "Kundenkonto"
+
+#~ msgid "01"
+#~ msgstr "01"
+
+#~ msgid "02"
+#~ msgstr "02"
+
+#~ msgid "03"
+#~ msgstr "03"
+
+#~ msgid "04"
+#~ msgstr "04"

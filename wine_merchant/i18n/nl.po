@@ -3,13 +3,13 @@
 # * wine_merchant
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# Bren Driesen <brdri@odoo.com>, 2025.
+# Bren Driesen <brdri@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 13:58+0000\n"
-"PO-Revision-Date: 2025-11-17 20:57+0000\n"
+"POT-Creation-Date: 2026-06-12 18:59+0000\n"
+"PO-Revision-Date: 2026-06-24 16:59+0000\n"
 "Last-Translator: Bren Driesen <brdri@odoo.com>\n"
 "Language-Team: Dutch <https://translate.odoo.com/projects/odoo-19/"
 "wine_merchant/nl/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.homepage
@@ -28,7 +28,7 @@ msgstr "&amp;nbsp;Onze Selectie"
 #. module: wine_merchant
 #: model_terms:event.event,description:wine_merchant.event_event_2
 msgid "**Course Highlights:**"
-msgstr ""
+msgstr "**Hoogtepunten van de cursus:**"
 
 #. module: wine_merchant
 #: model_terms:event.event,description:wine_merchant.event_event_2
@@ -37,6 +37,9 @@ msgid ""
 "including winemakers, sommeliers, and viticulturists, who will share their "
 "knowledge and passion for wine."
 msgstr ""
+"**Deskundige instructeurs:** Leer van ervaren professionals uit de branche, "
+"waaronder wijnmakers, sommeliers en wijnbouwers, die hun kennis en passie "
+"voor wijn met je willen delen."
 
 #. module: wine_merchant
 #: model_terms:event.event,description:wine_merchant.event_event_2
@@ -45,6 +48,9 @@ msgid ""
 "visits, and tastings that will enhance your sensory skills and deepen your "
 "appreciation for different wine styles and regions."
 msgstr ""
+"**Praktijkervaring:** Neem deel aan hands-on workshops, bezoeken aan "
+"wijngaarden en proeverijen om je zintuiglijke vaardigheden aan te scherpen "
+"en je waardering voor verschillende wijnstijlen en regio's te verdiepen."
 
 #. module: wine_merchant
 #: model_terms:event.event,description:wine_merchant.event_event_2
@@ -53,6 +59,9 @@ msgid ""
 "processes, and the art of blending. Each module is crafted to provide a "
 "thorough understanding of the wine-making journey from grape to glass."
 msgstr ""
+"**Diepgaande leerstof:** Verken de wetenschap achter wijnbouw, "
+"fermentatieprocessen en de kunst van het blenden. In elke module krijg je "
+"een grondig inzicht in het proces van wijn maken, van druif tot glas."
 
 #. module: wine_merchant
 #: model_terms:event.event,description:wine_merchant.event_event_2
@@ -60,16 +69,13 @@ msgid ""
 "**Networking Opportunities:** Connect with fellow wine lovers and industry "
 "professionals, expanding your network and enhancing your learning experience."
 msgstr ""
+"**Netwerkmogelijkheden:** Leer andere wijnliefhebbers en professionals "
+"kennen uit de sector, breid je netwerk uit en verrijk je leerervaring."
 
 #. module: wine_merchant
 #: model_terms:event.event,description:wine_merchant.event_event_2
 msgid "**Who Should Enroll:**"
-msgstr ""
-
-#. module: wine_merchant
-#: model_terms:ir.ui.view,arch_db:wine_merchant.ir_ui_view_3281
-msgid "+1 555-555-5556"
-msgstr "+1 555-555-5556"
+msgstr "**Voor wie dit bedoeld is:**"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -77,26 +83,95 @@ msgid ""
 "2. Add products to your cart, choose your favorite <strong>payment provider</"
 "strong> and <strong>delivery method</strong>"
 msgstr ""
+"2. Voeg producten toe aan je winkelmandje, kies je favoriete "
+"<strong>betaalprovider</strong> en <strong>leveringsmethode</strong>"
 
 #. module: wine_merchant
-#: model:product.attribute.value,name:wine_merchant.product_attribute_value_9
-msgid "2023"
-msgstr "2023"
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid ""
+"<b>Auto-BoM (Product Breakdown):</b> Automatically manage the inventory "
+"\"breakdown\" of bulk items (e.g., a crate of wine) into sub-products "
+"(individual bottles) and empty packaging assets."
+msgstr ""
+"<b>Automatische stuklijst (Product opdelen):</b> Beheer automatisch de "
+"'voorraad-uitsplitsing' van bulkartikelen (bv. een krat wijn) in "
+"subproducten (afzonderlijke flessen) en lege verpakkingsmaterialen."
 
 #. module: wine_merchant
-#: model:product.attribute.value,name:wine_merchant.product_attribute_value_10
-msgid "2024"
-msgstr "2024"
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid ""
+"<b>Automate Compliance:</b> Generate weekly excise reports by license and "
+"track legal document statuses."
+msgstr ""
+"<b>Automatische voldoen aan regelgeving:</b> Genereer wekelijkse "
+"accijnsrapporten per licentie en houd de status van juridische documenten "
+"bij."
 
 #. module: wine_merchant
-#: model:product.attribute.value,name:wine_merchant.product_attribute_value_11
-msgid "2025"
-msgstr "2025"
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid ""
+"<b>Automate Deposit Surcharges:</b> Automatically link deposit products (and "
+"their associated taxes) to sellable items, ensuring the correct deposit "
+"amount is charged without manual entry."
+msgstr ""
+"<b>Automatische statiegeld bijrekenen:</b> Koppel statiegeldproducten (en de "
+"bijbehorende btw) automatisch aan verkoopbare artikelen, zodat het juiste "
+"statiegeldbedrag in rekening wordt gebracht zonder handmatige invoer."
+
+#. module: wine_merchant
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid ""
+"<b>CRM App</b>: Cultivate lasting relationships with wine lovers by managing "
+"interactions and tracking potential\n"
+"            leads for private sales or memberships."
+msgstr ""
+"<b>CRM-app</b>: Bouw duurzame relaties op met wijnliefhebbers door "
+"interacties te beheren en potentiële leads voor particuliere verkopen of "
+"lidmaatschappen bij te houden."
+
+#. module: wine_merchant
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid ""
+"<b>Define &amp; Assign:</b> Create excise categories and link them to "
+"products with specific reporting units."
+msgstr ""
+"<b> Definiëren &amp; toewijzen:</b> Maak accijnscategorieën en koppelen ze "
+"aan producten met specifieke rapportage-eenheden."
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.ir_ui_view_3281
 msgid "<b>Designed</b> for companies"
 msgstr "<b>Ontworpen</b> voor bedrijven"
+
+#. module: wine_merchant
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid ""
+"<b>Events App</b>: Engage your community by organizing and managing "
+"registrations for wine tastings, workshops, and\n"
+"            exclusive release parties."
+msgstr ""
+"<b>Evenementen-app</b>: Betrek je community door registraties voor "
+"wijnproeverijen, workshops en exclusieve releasefeesten te organiseren en te "
+"beheren."
+
+#. module: wine_merchant
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid ""
+"<b>Inventory App</b>: Manage your cellar with precision, ensuring structure "
+"and clarity for thousands of bottles,\n"
+"            vintages, and locations."
+msgstr ""
+"<b>Voorraad-app</b>: Beheer je wijnkelder nauwkeurig en zorg voor structuur "
+"en overzichtelijkheid voor duizenden flessen, wijnen en locaties."
+
+#. module: wine_merchant
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid ""
+"<b>Manage Fiscal Deposits:</b> Monitor stock movements (Entry/Exit) "
+"specifically for warehouses designated as fiscal deposits."
+msgstr ""
+"<b>Accijnsmagazijnen beheren:</b> Bewaak voorraadverplaatsingen (Invoer/"
+"Uitvoer) specifiek voor magazijnen die zijn aangewezen als accijnsmagazijnen."
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.ir_ui_view_3281
@@ -108,6 +183,94 @@ msgstr ""
 "Francisco CA 94134 <br/>United States"
 
 #. module: wine_merchant
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid ""
+"<b>Point of Sale App</b>: Deliver a smooth in-store experience with an "
+"intuitive interface that handles bottle and\n"
+"            case sales seamlessly."
+msgstr ""
+"<b>Kassa-app</b>: Zorg voor een soepele winkelervaring met een intuïtieve "
+"interface die de verkoop van flessen en dozen vlot afhandelt."
+
+#. module: wine_merchant
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid ""
+"<b>Protect Margins:</b> Calculate customer discounts independently of excise "
+"taxes to ensure tax liabilities don't eat into your profit."
+msgstr ""
+"<b>Marges bewaken:</b> Bereken klantkortingen onafhankelijk van accijnzen om "
+"ervoor te zorgen dat belastingverplichtingen geen aanslag doen op je winst."
+
+#. module: wine_merchant
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid ""
+"<b>Purchase App</b>: Automate the replenishment of your stock by tracking "
+"purchase orders and managing supplier\n"
+"            relationships effectively."
+msgstr ""
+"<b>Inkoop-app</b>: Automatiseer de aanvulling van je voorraad door "
+"inkooporders bij te houden en leveranciersrelaties effectief te beheren."
+
+#. module: wine_merchant
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid ""
+"<b>Sales App</b>: Streamline your B2B and B2C transactions by creating "
+"professional quotations and sales orders\n"
+"            efficiently."
+msgstr ""
+"<b>Verkoop-app</b>: Stroomlijn je B2B- en B2C-transacties door op efficiënte "
+"wijze professionele offertes en verkooporders op te stellen."
+
+#. module: wine_merchant
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid ""
+"<b>Smart Fiscal Positions:</b> Automatically include or exclude excise taxes "
+"based on whether a partner holds their own fiscal deposit."
+msgstr ""
+"<b>Slimme fiscale posities:</b> Neem accijnzen automatisch op of sluit ze "
+"uit, afhankelijk van of een partner een eigen accijnsmagazijn heeft."
+
+#. module: wine_merchant
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid ""
+"<b>Smart Replenishment:</b> Trigger automated rules to replenish sub-"
+"products from bulk stock as soon as they are needed for sale."
+msgstr ""
+"<b>Slimme aanvulling:</b> Activeer geautomatiseerde regels om subproducten "
+"uit de bulkvoorraad aan te vullen zodra ze nodig zijn voor de verkoop."
+
+#. module: wine_merchant
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid ""
+"<b>Streamline Returns:</b> Capture returned bottles or crates during the "
+"delivery process or directly at the Point of Sale to credit customers "
+"instantly."
+msgstr ""
+"<b>Retours optimaliseren:</b> Registreer geretourneerde flessen of kratten "
+"tijdens het proces van de levering of direct bij de kassa om klanten "
+"onmiddellijk te crediteren."
+
+#. module: wine_merchant
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid ""
+"<b>Transparent Accounting:</b> Clearly expose deposit totals on sales orders "
+"and invoices through dedicated tax groups for better customer clarity."
+msgstr ""
+"<b>Transparante boekhouding:</b> Maak accijnstotalen op verkooporders en "
+"verkoopfacturen duidelijk zichtbaar via speciale belastinggroepen voor meer "
+"duidelijkheid voor de klant."
+
+#. module: wine_merchant
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid ""
+"<b>eCommerce App</b>: Expand your reach beyond the shop floor by showcasing "
+"your wine selection and enabling secure\n"
+"            online purchases."
+msgstr ""
+"<b>E-commerce-app</b>: Vergroot je bereik buiten de werkvloer door je "
+"wijnassortiment te presenteren en veilige online aankopen mogelijk te maken."
+
+#. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.contactus
 msgid ""
 "<i class=\"fa fa-1x fa-fw fa-envelope me-2\"/>info@yourcompany.example.com"
@@ -133,6 +296,15 @@ msgid ""
 msgstr ""
 "<i class=\"fa fa-phone fa-fw me-2\"/>\n"
 "                        <span class=\"o_force_ltr\">+1 555-555-5556</span>"
+
+#. module: wine_merchant
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
+msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\" aria-label=\"Infobanner\">💡</i>"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -152,7 +324,16 @@ msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
 msgid "<span class=\"display-4-fs\"><strong>🍷Wine Shop</strong></span><br/>"
+msgstr "<span class=\"display-4-fs\"><strong>🍷Wijnhandel</strong></span><br/>"
+
+#. module: wine_merchant
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid ""
+"<span class=\"h1-fs\">Addons</span>\n"
+"        <br/>"
 msgstr ""
+"<span class=\"h1-fs\">Add-ons</span>\n"
+"        <br/>"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -162,12 +343,12 @@ msgstr "<span class=\"h1-fs\">Basis</span>"
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
 msgid "<span class=\"h1-fs\">Flows</span>"
-msgstr ""
+msgstr "<span class=\"h1-fs\">Flows</span>"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
 msgid "<span class=\"h1-fs\">Use Case</span>"
-msgstr ""
+msgstr "<span class=\"h1-fs\">Gebruiksscenario</span>"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.contactus
@@ -234,6 +415,8 @@ msgstr ""
 msgid ""
 "A chance to mingle with fellow wine lovers and share your own experiences."
 msgstr ""
+"Een kans om andere wijnliefhebbers te ontmoeten en je eigen ervaringen te "
+"delen."
 
 #. module: wine_merchant
 #: model_terms:event.event,description:wine_merchant.event_event_1
@@ -241,11 +424,13 @@ msgid ""
 "A tasting of [insert number] exquisite Bordeaux wines, including iconic "
 "châteaux and hidden gems."
 msgstr ""
+"Een proeverij van [voeg aantal in] voortreffelijke Bordeaux-wijnen, "
+"waaronder iconische châteaux en verborgen pareltjes."
 
 #. module: wine_merchant
 #: model_terms:website.menu,mega_menu_content:wine_merchant.website_menu_15
 msgid "ALL PRODUCTS"
-msgstr ""
+msgstr "ALLE PRODUCTEN"
 
 #. module: wine_merchant
 #: model:pos.category,name:wine_merchant.pos_category_4
@@ -259,7 +444,7 @@ msgstr "Accessoires"
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
 msgid "Activate payment and delivery methods."
-msgstr ""
+msgstr "Activeer betalings- en leveringsmethoden."
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -270,6 +455,7 @@ msgstr "Voeg de producten toe aan de winkelwagen"
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
 msgid "Add the products to the quotation and send it by email to your customer"
 msgstr ""
+"Voeg de producten toe aan de offerte en stuur deze per e-mail naar je klant"
 
 #. module: wine_merchant
 #: model_terms:website.menu,mega_menu_content:wine_merchant.website_menu_15
@@ -286,16 +472,22 @@ msgid ""
 "art of blending, and the influence of terroir that make Bordeaux wines so "
 "exceptional."
 msgstr ""
+"Terwijl je geniet van een zorgvuldig samengestelde selectie Bordeaux-wijnen, "
+"variërend van de robuuste rode wijnen van de linkeroever tot de elegante "
+"witte wijnen van de rechteroever, leidt onze deskundige sommelier je langs "
+"de unieke kenmerken en verhalen achter elke fles. Leer meer over de beroemde "
+"druivenrassen, de kunst van het blenden en de invloed van het terroir die "
+"Bordeaux-wijnen zo uitzonderlijk maken."
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
 msgid "Assign <strong>attributes and attribute values</strong> to this product"
-msgstr ""
+msgstr "Voeg <strong>kenmerken en kenmerkwaarden</strong> toe aan dit product"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.homepage
 msgid "Awaken your senses:"
-msgstr ""
+msgstr "Prikkel je zintuigen:"
 
 #. module: wine_merchant
 #: model:product.pricelist,name:wine_merchant.product_pricelist_2
@@ -310,13 +502,13 @@ msgstr "B2C"
 #. module: wine_merchant
 #: model:pos.category,name:wine_merchant.pos_category_6
 msgid "Baujolais"
-msgstr ""
+msgstr "Baujolais"
 
 #. module: wine_merchant
 #: model:pos.category,name:wine_merchant.pos_category_13
 #: model:product.attribute.value,name:wine_merchant.product_attribute_value_5
 msgid "Bordeaux"
-msgstr ""
+msgstr "Bordeaux"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -324,27 +516,19 @@ msgid ""
 "By uploading this module's demo data, your database has been filled with a "
 "few demo data."
 msgstr ""
-
-#. module: wine_merchant
-#: model:pos.payment.method,name:wine_merchant.pos_payment_method_2
-msgid "Card"
-msgstr "Kaart"
-
-#. module: wine_merchant
-#: model:pos.payment.method,name:wine_merchant.pos_payment_method_1
-msgid "Cash"
-msgstr "Cash"
+"Door de demodata van deze module te uploaden, is je databank gevuld met "
+"enkele voorbeeldgegevens."
 
 #. module: wine_merchant
 #: model:product.attribute.value,name:wine_merchant.product_attribute_value_16
 msgid "Celestial Vineyard"
-msgstr ""
+msgstr "Celestial Vineyard"
 
 #. module: wine_merchant
 #: model:product.public.category,name:wine_merchant.product_public_category_5
 #: model_terms:website.menu,mega_menu_content:wine_merchant.website_menu_15
 msgid "Champagne"
-msgstr ""
+msgstr "Champagne"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -352,33 +536,35 @@ msgid ""
 "Choose the right<strong> Unit of Measure</strong> (bottle) and create "
 "different<strong> packagings</strong> (case)"
 msgstr ""
+"Kies de juiste <strong>Maateenheid</strong> (fles) en maak verschillende "
+"<strong>verpakkingen</strong> (doos)"
 
 #. module: wine_merchant
 #: model:pos.category,name:wine_merchant.pos_category_12
 #: model:product.public.category,name:wine_merchant.product_public_category_8
 #: model_terms:website.menu,mega_menu_content:wine_merchant.website_menu_15
 msgid "Cognac"
-msgstr ""
+msgstr "Cognac"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
 msgid "Configure Product Packagings"
-msgstr ""
+msgstr "Productverpakkingen configureren"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
 msgid "Configure delivery methods"
-msgstr "Bezorgmethoden configureren"
+msgstr "Leveringsmethoden configureren"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
 msgid "Configure payment providers"
-msgstr ""
+msgstr "Betaalproviders configureren"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
 msgid "Configure quotation templates"
-msgstr ""
+msgstr "Offertesjablonen configureren"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -387,6 +573,9 @@ msgid ""
 "a special event, configure the <strong>tickets, pricing, communication</"
 "strong> around it,..."
 msgstr ""
+"Configureer je volgende evenement. Bijvoorbeeld een wijncursus, een "
+"wijnproeverij of een speciaal evenement. Configureer de <strong>tickets, "
+"prijzen, communicatie</strong>..."
 
 #. module: wine_merchant
 #: model:website.menu,name:wine_merchant.website_menu_6
@@ -410,12 +599,12 @@ msgstr ""
 #: model:product.public.category,name:wine_merchant.product_public_category_13
 #: model_terms:website.menu,mega_menu_content:wine_merchant.website_menu_15
 msgid "Corkscrews"
-msgstr ""
+msgstr "Kurkentrekkers"
 
 #. module: wine_merchant
 #: model:product.template,name:wine_merchant.product_template_14
 msgid "Corskcrew"
-msgstr ""
+msgstr "Kurkentrekker"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.ir_ui_view_3796
@@ -428,11 +617,8 @@ msgid ""
 "Create your products and use <strong>attributes and attribute values</"
 "strong> to structure and classify them"
 msgstr ""
-
-#. module: wine_merchant
-#: model:pos.payment.method,name:wine_merchant.pos_payment_method_3
-msgid "Customer Account"
-msgstr "Klant account"
+"Maak je producten aan en gebruik <strong>kenmerken en hun kenmerkwaarden</"
+"strong> om ze te structureren en te classificeren"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -440,6 +626,13 @@ msgid ""
 "Demo attributes and attribute values have been added but feel free to add as "
 "many attributes and attribute values as you would like!"
 msgstr ""
+"Er zijn demo-kenmerken en -kenmerkwaarden toegevoegd, maar voeg gerust "
+"zoveel kenmerken en kenmerkwaarden toe als je wilt!"
+
+#. module: wine_merchant
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid "Deposit management"
+msgstr "Statiegeldbeheer"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.homepage
@@ -447,6 +640,8 @@ msgid ""
 "Discover our selection of artisanal wines, carefully chosen to convey the "
 "richness, elegance, and authenticity of the terroirs."
 msgstr ""
+"Ontdek onze selectie ambachtelijke wijnen, zorgvuldig gekozen om de rijkdom, "
+"elegantie en authenticiteit van de terroirs tot uitdrukking te brengen."
 
 #. module: wine_merchant
 #: model_terms:event.event,description:wine_merchant.event_event_2
@@ -458,6 +653,11 @@ msgid ""
 "education!artners' case studies, methodology or developments. Be there and "
 "see directly from the source the features of the new version!"
 msgstr ""
+"Grijp je kans om je wijnkennis en -vaardigheden naar een hoger niveau te "
+"tillen! Reserveer vandaag nog je plaats en begin aan een smaakvolle reis "
+"door de wereld van oenologie. Ga voor meer informatie en om je in te "
+"schrijven naar [website invoegen] of neem contact met ons op via "
+"[contactgegevens invoegen]. Proost op je wijnopleiding!"
 
 #. module: wine_merchant
 #: model:hr.department,name:wine_merchant.hr_department_2
@@ -467,7 +667,7 @@ msgstr "Werknemers"
 #. module: wine_merchant
 #: model:product.attribute.value,name:wine_merchant.product_attribute_value_18
 msgid "Enchanted Vines"
-msgstr ""
+msgstr "Enchanted Vines"
 
 #. module: wine_merchant
 #: model_terms:event.event,description:wine_merchant.event_event_1
@@ -475,6 +675,8 @@ msgid ""
 "Engaging discussions and insights into the history and culture of Bordeaux "
 "winemaking."
 msgstr ""
+"Boeiende gesprekken en inzichten in de geschiedenis en cultuur van de "
+"wijnbouw in Bordeaux."
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.homepage
@@ -483,6 +685,9 @@ msgid ""
 "advice. We offer a variety of options that bring warmth and richness of "
 "flavors to your table."
 msgstr ""
+"Verrijk je maaltijden met onze selectie voortreffelijke wijnen en ons advies "
+"over wijn-spijscombinaties. Wij bieden een verscheidenheid aan opties die "
+"warmte en rijke smaken op tafel brengen."
 
 #. module: wine_merchant
 #: model:website.menu,name:wine_merchant.website_menu_11
@@ -491,13 +696,19 @@ msgstr "Evenementen"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid "Excise management"
+msgstr "Accijnsbeheer"
+
+#. module: wine_merchant
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
 msgid "Find here documentation about product packagings:"
-msgstr ""
+msgstr "Hier vind je documentatie over productverpakkingen:"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
 msgid "Flow 1: Create your products database in a clear and structured way"
 msgstr ""
+"Flow 1: Maak je productendatabase op een duidelijke en gestructureerde manier"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -505,21 +716,23 @@ msgid ""
 "Flow 2: Manage leads and client relationship with the CRM App and create "
 "your first sale order with the Sales App"
 msgstr ""
+"Flow 2: Beheer leads en klantrelaties met de CRM-app en maak je eerste "
+"verkooporder aan met de Verkoop-app"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
 msgid "Flow 3: Sell your products online..."
-msgstr ""
+msgstr "Flow 3: Verkoop je producten online..."
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
 msgid "Flow 4: ... or in your shop with the Point of Sale App"
-msgstr ""
+msgstr "Flow 4: ...of in je winkel, met de Kassa-app"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
 msgid "Flow 5: Organize events around wine with our Events App"
-msgstr ""
+msgstr "Flow 5: Organiseer evenementen over wijn met onze Evenementen-app"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -527,6 +740,8 @@ msgid ""
 "Flow 6: Manage the replenishment of your products with the Purchase App and "
 "your stock levels with the Inventory App"
 msgstr ""
+"Flow 6: Beheer de aanvulling van je producten met de Inkoop-app en beheer je "
+"voorraadniveaus in de Voorraad-app"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.ir_ui_view_3281
@@ -539,16 +754,43 @@ msgid ""
 "For a more structured point of sale catalog, create different Point of Sale "
 "categories. These can be defined on your product forms."
 msgstr ""
+"Voor een meer gestructureerde kassacatalogus kun je verschillende "
+"kassacategorieën aanmaken. Deze kun je definiëren in de records van "
+"producten."
+
+#. module: wine_merchant
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid ""
+"For beverage businesses handling returnable packaging like glass bottles or "
+"crates, the <b>Deposit Management Module</b> automates the financial and "
+"logistical tracking of these assets."
+msgstr ""
+"Voor drankbedrijven die met statiegeldverpakkingen zoals glazen flessen of "
+"kratten werken, automatiseert de <b>module voor statiegeldbeheer</b> de "
+"financiële en logistieke tracking van deze verpakkingen."
+
+#. module: wine_merchant
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid ""
+"For businesses operating as an <b>Fiscal Deposit</b>, managing complex tax "
+"requirements is a critical operational need. Our <b>Excises Module</b>, "
+"available on the App Store, streamlines this process directly within your "
+"Odoo environment."
+msgstr ""
+"Voor bedrijven die opereren als een <b>accijnsmagazijn</b>, is het beheren "
+"van complexe belastingvereisten een cruciale operationele noodzaak. Onze "
+"<b>Accijns-module</b>, beschikbaar in de Odoo-appstore, stroomlijnt dit "
+"proces direct binnen je Odoo-omgeving."
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
 msgid "From the POS app"
-msgstr ""
+msgstr "In de Kassa-app:"
 
 #. module: wine_merchant
 #: model:product.attribute.value,name:wine_merchant.product_attribute_value_15
 msgid "Gamay"
-msgstr ""
+msgstr "Gamay"
 
 #. module: wine_merchant
 #: model:product.template,name:wine_merchant.product_template_8
@@ -565,17 +807,22 @@ msgstr "Gin"
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
 msgid "Give it a <strong>sales price </strong>"
-msgstr ""
+msgstr "Geef het een <strong>verkoopprijs</strong>"
 
 #. module: wine_merchant
 #: model:product.template,name:wine_merchant.product_template_10
 msgid "Golden Dragon - Legendary Vineyards - 2023"
-msgstr ""
+msgstr "Golden Dragon - Legendary Vineyards - 2023"
+
+#. module: wine_merchant
+#: model:product.attribute,name:wine_merchant.product_attribute_grape_variety
+msgid "Grape Variety"
+msgstr "Druivensoort"
 
 #. module: wine_merchant
 #: model:product.attribute.value,name:wine_merchant.product_attribute_value_13
 msgid "Grenache"
-msgstr ""
+msgstr "Grenache"
 
 #. module: wine_merchant
 #: model:website.menu,name:wine_merchant.website_menu_5
@@ -589,16 +836,20 @@ msgid ""
 "wine tasting event! Immerse yourself in the rich heritage and exquisite "
 "flavors of one of the world’s most celebrated wine regions."
 msgstr ""
+"Kom naar ons Bordeaux Bliss-wijnproeverij-evenement en beleef een "
+"betoverende avond vol wijnontdekkingen! Dompel jezelf onder in het rijke "
+"erfgoed en de voortreffelijke smaken van een van 's werelds meest gevierde "
+"wijnregio's."
 
 #. module: wine_merchant
 #: model_terms:event.event,description:wine_merchant.event_event_2
 msgid "Join us for this brand new class!"
-msgstr ""
+msgstr "Schrijf je in voor deze gloednieuwe cursus!"
 
 #. module: wine_merchant
 #: model_terms:event.event,description:wine_merchant.event_event_1
 msgid "Join us for this exclusive event"
-msgstr ""
+msgstr "Schrijf je in voor dit exclusieve evenement"
 
 #. module: wine_merchant
 #: model:product.template,name:wine_merchant.product_template_13
@@ -609,12 +860,12 @@ msgstr "Juniper's Enigma - 2024"
 #: model:pos.category,name:wine_merchant.pos_category_7
 #: model:product.attribute.value,name:wine_merchant.product_attribute_value_6
 msgid "Languedoc"
-msgstr ""
+msgstr "Languedoc"
 
 #. module: wine_merchant
 #: model:product.attribute.value,name:wine_merchant.product_attribute_value_17
 msgid "Legendary Vineyard"
-msgstr ""
+msgstr "Legendary Vineyard"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -623,11 +874,14 @@ msgid ""
 "to<strong> track the progress of each lead</strong> (e.g., New → Qualified → "
 "Proposition → Won)"
 msgstr ""
+"Registreer vergaderingen, telefoongesprekken en e-mails in CRM. Gebruik de "
+"pijplijn om <strong>de voortgang van elke lead bij te houden</strong> (bv. "
+"Nieuw → Gekwalificeerd → Voorstel → Gewonnen)"
 
 #. module: wine_merchant
 #: model:product.template,name:wine_merchant.product_template_12
 msgid "Lost Secrets Cuvée - Mystery Château - 2024"
-msgstr ""
+msgstr "Lost Secrets Cuvée - Mystery Château - 2024"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.contactus
@@ -637,12 +891,12 @@ msgstr "Mijn bedrijf"
 #. module: wine_merchant
 #: model:product.attribute.value,name:wine_merchant.product_attribute_value_23
 msgid "Mystery Chateau"
-msgstr ""
+msgstr "Mystery Chateau"
 
 #. module: wine_merchant
 #: model:event.event,name:wine_merchant.event_event_2
 msgid "Oenology Class"
-msgstr ""
+msgstr "Oenologiecursus"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -652,7 +906,7 @@ msgid ""
 "everything around!"
 msgstr ""
 "Dit is natuurlijk slechts een overzicht van de functies in dit pakket. Je "
-"kan gerust nieuwe apps toevoegen, demogegevens verwijderen/wijzigen en alles "
+"kan gerust nieuwe apps toevoegen, demodata verwijderen/wijzigen en alles "
 "uitproberen!"
 
 #. module: wine_merchant
@@ -662,6 +916,10 @@ msgid ""
 "gather at our winery for a delightful experience that will transport you "
 "straight to the sun-drenched vineyards of Bordeaux, France."
 msgstr ""
+"Op 8 april vanaf 17.30 uur nodigen we zowel wijnliefhebbers als beginners "
+"uit om naar onze wijnmakerij te komen voor een heerlijke ervaring die je "
+"rechtstreeks naar de zonovergoten wijngaarden van Bordeaux in Frankrijk "
+"brengt."
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -670,6 +928,8 @@ msgid ""
 "different events and you will be able to manage the participants from the "
 "Events App"
 msgstr ""
+"Je klanten kunnen nu tickets kopen op je website voor je verschillende "
+"evenementen en jij kunt de deelnemers beheren vanuit de Evenementen-app"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -677,6 +937,8 @@ msgid ""
 "Once you have received your products <strong>store</strong> them in your "
 "shop or warehouse"
 msgstr ""
+"Zodra je je producten hebt ontvangen <strong>kun je ze opslaan</strong>in je "
+"winkel of magazijn"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -684,6 +946,8 @@ msgid ""
 "Once your customer confirmed the quotation, you can transfor it into a sale "
 "order and...voila!"
 msgstr ""
+"Zodra je klant de offerte heeft bevestigd, kun je deze omzetten in een "
+"verkooporder en... voilà!"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -691,6 +955,8 @@ msgid ""
 "Once your lead has shown interest, generate a <strong>quotation in the Sales "
 "App</strong> offering your different wines"
 msgstr ""
+"Zodra je lead interesse heeft getoond, genereer je een offerte in de "
+"<strong>Verkoop-app</strong> waarin je verschillende wijnen aanbiedt."
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -699,11 +965,14 @@ msgid ""
 "wishing to order a large quantity of different wines and assign the lead to "
 "a team member"
 msgstr ""
+"Open de <strong>CRM-app</strong>, maak een nieuwe lead aan voor een klant "
+"die een grote hoeveelheid verschillende wijnen wil bestellen en wijs de lead "
+"toe aan een teamlid"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
 msgid "Open the Events App"
-msgstr ""
+msgstr "Open de Evenementen-app"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -712,6 +981,9 @@ msgid ""
 "a new product. Choose well your name to keep a good structure among all "
 "products; Ex: name of the bottle - domain - vintage"
 msgstr ""
+"Open het productmenu (vanuit de Verkoop- of Voorraad-app) en maak een nieuw "
+"product aan. Kies een goede naam om een duidelijke structuur tussen alle "
+"producten te behouden. Bv.: naam van de fles - domein - oogstjaar"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -719,6 +991,8 @@ msgid ""
 "Open your website, add different blocks to build the perfect website. Get "
 "your clients to know you, your offer and the events you organize"
 msgstr ""
+"Open je website en voeg verschillende blokken toe om de perfecte website te "
+"bouwen. Laat je klanten je bedrijf, je aanbod en je evenementen ontdekken"
 
 #. module: wine_merchant
 #: model:product.attribute.value,name:wine_merchant.product_attribute_value_22
@@ -730,7 +1004,7 @@ msgstr "Oranje"
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
 msgid "Organize sparkling events in your shop!"
-msgstr ""
+msgstr "Organiseer bruisende evenementen in je winkel!"
 
 #. module: wine_merchant
 #: model_terms:event.event,description:wine_merchant.event_event_1
@@ -738,21 +1012,39 @@ msgid ""
 "Pairing of artisanal cheeses and gourmet bites that complement the wines "
 "perfectly."
 msgstr ""
+"Combinatie van ambachtelijke kazen en gastronomische hapjes die perfect bij "
+"de wijnen passen."
 
 #. module: wine_merchant
 #: model:product.attribute.value,name:wine_merchant.product_attribute_value_12
 msgid "Pinot Noir, Chardonnay"
+msgstr "Pinot Noir, Chardonnay"
+
+#. module: wine_merchant
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid ""
+"Please note that because this module utilizes Odoo Studio and custom Python "
+"logic, installing it will increase your subscription cost based on the added "
+"lines of code."
 msgstr ""
+"Houd er rekening mee dat, aangezien deze module gebruikmaakt van Odoo Studio "
+"en aangepaste Python-logica, de installatie ervan je abonnementskosten zal "
+"verhogen op basis van de toegevoegde regels code."
+
+#. module: wine_merchant
+#: model:product.attribute,name:wine_merchant.product_attribute_category
+msgid "Product Category"
+msgstr "Productcategorie"
 
 #. module: wine_merchant
 #: model:product.attribute.value,name:wine_merchant.product_attribute_value_8
 msgid "Provence"
-msgstr ""
+msgstr "Provence"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
 msgid "Publish it on your website"
-msgstr ""
+msgstr "Publiceer het op je website"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -764,6 +1056,8 @@ msgstr "Contacteer ons"
 msgid ""
 "Ready to embark on this wine journey? Let’s raise a glass to success! 🥂"
 msgstr ""
+"Klaar om aan deze wijnreis te beginnen? Laten we het glas heffen op succes! "
+"🥂"
 
 #. module: wine_merchant
 #: model:product.attribute.value,name:wine_merchant.product_attribute_value_19
@@ -775,22 +1069,27 @@ msgstr "Rood"
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.homepage
 msgid "Refined wines delivered to your home!"
-msgstr ""
+msgstr "Verfijnde wijnen bij jou thuis bezorgd!"
+
+#. module: wine_merchant
+#: model:product.attribute,name:wine_merchant.product_attribute_region
+msgid "Region"
+msgstr "Streek"
 
 #. module: wine_merchant
 #: model:event.event.ticket,name:wine_merchant.event_event_ticket_2
 msgid "Registration for Oenology Class"
-msgstr ""
+msgstr "Registratie voor Oenologiecursus"
 
 #. module: wine_merchant
 #: model:event.event.ticket,name:wine_merchant.event_event_ticket_1
 msgid "Registration for Wine Tasting - Bordeaux"
-msgstr ""
+msgstr "Registratie voor Wijnproeverij - Bordeaux"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
 msgid "Replenishment strategies"
-msgstr ""
+msgstr "Aanvulstrategieën"
 
 #. module: wine_merchant
 #: model_terms:event.event,description:wine_merchant.event_event_1
@@ -798,49 +1097,51 @@ msgid ""
 "Reserve your spot today and raise a glass to the timeless elegance of "
 "Bordeaux!"
 msgstr ""
+"Reserveer vandaag nog je plaats en hef het glas op de tijdloze elegantie van "
+"Bordeaux!"
 
 #. module: wine_merchant
 #: model:pos.category,name:wine_merchant.pos_category_9
 msgid "Rhone"
-msgstr ""
+msgstr "Rhone"
 
 #. module: wine_merchant
 #: model:product.public.category,name:wine_merchant.product_public_category_7
 #: model_terms:website.menu,mega_menu_content:wine_merchant.website_menu_15
 msgid "Rhum"
-msgstr ""
+msgstr "Rum"
 
 #. module: wine_merchant
 #: model:product.attribute.value,name:wine_merchant.product_attribute_value_7
 msgid "Rhône"
-msgstr ""
+msgstr "Rhône"
 
 #. module: wine_merchant
 #: model:product.attribute.value,name:wine_merchant.product_attribute_value_21
 #: model:product.public.category,name:wine_merchant.product_public_category_11
 #: model_terms:website.menu,mega_menu_content:wine_merchant.website_menu_15
 msgid "Rosé"
-msgstr ""
+msgstr "Rosé"
 
 #. module: wine_merchant
 #: model:pos.category,name:wine_merchant.pos_category_11
 msgid "Rum"
-msgstr ""
+msgstr "Rum"
 
 #. module: wine_merchant
 #: model:pos.category,name:wine_merchant.pos_category_8
 msgid "Savoie"
-msgstr ""
+msgstr "Savoie"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.homepage
 msgid "See all <i class=\"fa fa-long-arrow-right ms-2\"/>"
-msgstr "Bekijk alle <i class=\"fa fa-long-arrow-right ms-2\"/>"
+msgstr "Alles bekijken <i class=\"fa fa-long-arrow-right ms-2\"/>"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
 msgid "Select any of the payment methods and proceed to payment"
-msgstr ""
+msgstr "Selecteer een van de betaalmethoden en ga verder met de betaling"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -859,7 +1160,7 @@ msgstr "Shop"
 #: model:sale.order.template.line,name:wine_merchant.sale_order_template_line_4
 #: model_terms:website.menu,mega_menu_content:wine_merchant.website_menu_15
 msgid "Sparkling"
-msgstr ""
+msgstr "Mousserend"
 
 #. module: wine_merchant
 #: model:pos.category,name:wine_merchant.pos_category_3
@@ -868,12 +1169,12 @@ msgstr ""
 #: model:sale.order.template.line,name:wine_merchant.sale_order_template_line_2
 #: model_terms:website.menu,mega_menu_content:wine_merchant.website_menu_15
 msgid "Spirits"
-msgstr "Geesten"
+msgstr "Sterkedranken"
 
 #. module: wine_merchant
 #: model:product.template,name:wine_merchant.product_template_9
 msgid "Starlight - Celestial Vineyard - 2023"
-msgstr ""
+msgstr "Starlight - Celestial Vineyard - 2023"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.contactus
@@ -883,56 +1184,7 @@ msgstr "Indienen"
 #. module: wine_merchant
 #: model:product.attribute.value,name:wine_merchant.product_attribute_value_14
 msgid "Syrah"
-msgstr ""
-
-#. module: wine_merchant
-#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
-msgid ""
-"The <font class=\"text-o-color-1\"><strong>CRM App</strong></font> helps you "
-"manage client interactions and track potential leads"
-msgstr ""
-
-#. module: wine_merchant
-#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
-msgid ""
-"The <strong><font class=\"text-o-color-1\">Ecommerce App </font></"
-"strong>showcases your different wines and allow customers to buy them online"
-msgstr ""
-
-#. module: wine_merchant
-#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
-msgid ""
-"The <strong><font class=\"text-o-color-1\">Event App</font></strong> will "
-"allow your clients to participate in different events around wine"
-msgstr ""
-
-#. module: wine_merchant
-#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
-msgid ""
-"The <strong><font class=\"text-o-color-1\">Inventory App</font></strong> "
-"help you manage your stock levels"
-msgstr ""
-
-#. module: wine_merchant
-#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
-msgid ""
-"The <strong><font class=\"text-o-color-1\">Point of Sale App</font></strong> "
-"allows you to easily sell wine in your store"
-msgstr ""
-
-#. module: wine_merchant
-#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
-msgid ""
-"The <strong><font class=\"text-o-color-1\">Purchase App</font></strong> "
-"gathers all the different purchase orders you have made"
-msgstr ""
-
-#. module: wine_merchant
-#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
-msgid ""
-"The <strong><font class=\"text-o-color-1\">Sales App</font></strong> "
-"streamlines quotations"
-msgstr ""
+msgstr "Syrah"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -940,6 +1192,9 @@ msgid ""
 "The Ecommerce categories will help you structure and organize your online "
 "catalog making it easier for customers to browse and find what they need."
 msgstr ""
+"De E-commerce-categorieën helpen je bij het structureren en organiseren van "
+"je online catalogus, zodat klanten gemakkelijker kunnen zoeken en vinden wat "
+"ze nodig hebben."
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -947,16 +1202,23 @@ msgid ""
 "The attributes defined on the products will allow your customers to filter "
 "on different attribute values to refine their search."
 msgstr ""
+"Door de kenmerken die voor de producten zijn ingesteld, kunnen je klanten op "
+"verschillende kenmerkwaarden filteren om hun zoekopdracht te verfijnen."
 
 #. module: wine_merchant
 #: model_terms:event.event,description:wine_merchant.event_event_1
 msgid "The evening will feature:"
-msgstr ""
+msgstr "De avond zal bestaan uit:"
+
+#. module: wine_merchant
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid "The module enables you to:"
+msgstr "Met deze module kun je:"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
 msgid "The shop page will automatically showcase your different products"
-msgstr ""
+msgstr "De winkelpagina zal automatisch je verschillende producten tonen"
 
 #. module: wine_merchant
 #: model_terms:event.event,description:wine_merchant.event_event_2
@@ -965,6 +1227,9 @@ msgid ""
 "looking to learn the basics or a seasoned enthusiast wanting to deepen your "
 "knowledge. No prior experience is necessary!"
 msgstr ""
+"Deze cursus is perfect voor iedereen die geïnteresseerd is in wijn, of je nu "
+"een beginner bent die de basis wil leren of een doorgewinterde liefhebber "
+"die zijn kennis wil verdiepen. Ervaring is niet vereist!"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -976,6 +1241,11 @@ msgid ""
 "        making it easy to manage wines, spirits, and exclusive selections "
 "effortlessly."
 msgstr ""
+"Dit pakket is ontworpen om eigenaren van wijnhandels te helpen hun "
+"productaanbod te structureren, de verkoop te stroomlijnen en klanten meer te "
+"betrekken. En dat alles binnen één enkel, intuïtief platform. Met Odoo wordt "
+"je catalogus overzichtelijk en goed georganiseerd, waardoor je wijnen, "
+"sterke dranken en exclusieve selecties moeiteloos kunt beheren."
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -983,11 +1253,14 @@ msgid ""
 "This will allow you to<strong> plan your receptions</strong> and know when "
 "your stock will be replenished with your novelties or best sellers"
 msgstr ""
+"Zo kun je <strong>ontvangsten inplannen</strong> en weet je wanneer je "
+"voorraad wordt aangevuld met nieuwigheden of bestsellers"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
 msgid "To speed up the creation of the quotation use a quotation template."
 msgstr ""
+"Gebruik een offertesjabloon om het maken van een offerte te versnellen."
 
 #. module: wine_merchant
 #: model:website.menu,name:wine_merchant.website_menu_4
@@ -1002,7 +1275,7 @@ msgstr "Spoor potentiële klanten op en beheer interacties effectief."
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
 msgid "Track your purchases and manage your stock levels"
-msgstr ""
+msgstr "Volg je inkopen en beheer je voorraadniveaus"
 
 #. module: wine_merchant
 #: model_terms:event.event,description:wine_merchant.event_event_2
@@ -1012,6 +1285,20 @@ msgid ""
 "take you on a journey through the fascinating world of wine production, "
 "tasting, and appreciation."
 msgstr ""
+"Ontdek de geheimen van wijn met onze uitgebreide cursus oenologie van 6 "
+"maanden! Dit onderdompelende programma is bedoeld voor zowel beginners als "
+"wijnliefhebbers en neemt je mee op een reis door de fascinerende wereld van "
+"wijnproductie, proeven en waardering."
+
+#. module: wine_merchant
+#: model:product.attribute,name:wine_merchant.product_attribute_vineyard
+msgid "Vineyard"
+msgstr "Wijngaard"
+
+#. module: wine_merchant
+#: model:product.attribute,name:wine_merchant.product_attribute_vintage
+msgid "Vintage"
+msgstr "Vintage"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -1019,6 +1306,8 @@ msgid ""
 "Want to make sure you never run out of stock? Check our different "
 "replenishment strategies"
 msgstr ""
+"Wil je nooit zonder voorraad komen te zitten? Bekijk onze verschillende "
+"aanvulstrategieën"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.ir_ui_view_3281
@@ -1036,12 +1325,13 @@ msgstr ""
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.homepage
 msgid "We bring the art of winemaking to your glass"
-msgstr ""
+msgstr "Wij brengen de kunst van het wijnmaken naar je glas"
 
 #. module: wine_merchant
 #: model_terms:event.event,description:wine_merchant.event_event_1
 msgid "We look forward to sharing this exquisite experience with you! Cheers!"
 msgstr ""
+"We kijken ernaar uit je te ontvangen voor deze geweldige ervaring! Proost!"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.homepage
@@ -1053,6 +1343,12 @@ msgid ""
 "curated selection and experience the taste of excellence in every pour. "
 "Cheers to unforgettable moments—one glass at a time."
 msgstr ""
+"Welkom bij MijnWijnHandelaar, waar elke fles een verhaal vertelt over "
+"traditie, passie en terroir. Onze ambachtelijke brengen het karakter van "
+"elke oogst tot leven, recht uit zonovergoten wijngaarden tot bij jou in het "
+"glas. Of je nu een ervaren wijnliefhebber bent of net begint aan je "
+"wijnavontuur, ontdek onze zorgvuldig samengestelde selectie en geniet van "
+"kwaliteit in elke slok. Proost op onvergetelijke momenten – glas voor glas."
 
 #. module: wine_merchant
 #: model_terms:event.event,description:wine_merchant.event_event_1
@@ -1061,11 +1357,14 @@ msgid ""
 "Bordeaux Bliss promises to be an unforgettable evening filled with flavor, "
 "knowledge, and camaraderie."
 msgstr ""
+"Of je nu een ervaren wijnliefhebber bent of net begint aan je wijnavontuur, "
+"Bordeaux Bliss belooft een onvergetelijke avond te worden vol smaak, kennis "
+"en gezelligheid."
 
 #. module: wine_merchant
 #: model:product.template,name:wine_merchant.product_template_11
 msgid "Whispering Pines - Enchanted Vines - 2024"
-msgstr ""
+msgstr "Whispering Pines - Enchanted Vines - 2024"
 
 #. module: wine_merchant
 #: model:product.attribute.value,name:wine_merchant.product_attribute_value_24
@@ -1080,12 +1379,12 @@ msgstr "Wit"
 #: model:product.public.category,name:wine_merchant.product_public_category_1
 #: model_terms:website.menu,mega_menu_content:wine_merchant.website_menu_15
 msgid "Wine"
-msgstr ""
+msgstr "Wijn"
 
 #. module: wine_merchant
 #: model:event.event,name:wine_merchant.event_event_1
 msgid "Wine Tasting - Bordeaux"
-msgstr ""
+msgstr "Wijnproeverij - Bordeaux"
 
 #. module: wine_merchant
 #: model:sale.order.template.line,name:wine_merchant.sale_order_template_line_1
@@ -1099,6 +1398,9 @@ msgid ""
 "opportunities, sell in your shop and online, organize engaging events and "
 "have a clear overview of your purchase as well as your stock levels."
 msgstr ""
+"Met deze module kun je je productaanbod structureren, verkoopkansen beheren, "
+"verkopen in je winkel en online, boeiende evenementen organiseren en een "
+"duidelijk overzicht krijgen van je inkoop en je voorraadniveaus."
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -1109,7 +1411,7 @@ msgstr "Wil je je Odoo setup met ons bespreken of meer functies ontdekken?"
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
 msgid "Write an attracting <strong>description</strong>"
-msgstr ""
+msgstr "Schrijf een aantrekkelijke <strong>beschrijving</strong>"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -1117,6 +1419,9 @@ msgid ""
 "You didn't import demo data? You can still do it. Go to Apps &gt; Industries "
 "&gt; Upgrade your Wine Shop package and check the related box."
 msgstr ""
+"Heb je geen demodata geïmporteerd? Dat kan nog steeds. Ga naar Apps &gt; "
+"Bedrijfstakken &gt; Upgrade je Wijnhandel-pakket en vink het betreffende "
+"vakje aan."
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -1125,6 +1430,9 @@ msgid ""
 "to keep a trace of your recent purchases? Record them in the<strong> "
 "purchase app</strong>"
 msgstr ""
+"Heb je onlangs een rondleiding door de wijngaarden in Frankrijk of Italië "
+"gedaan en wil je een overzicht houden van je recente aankopen? Registreer ze "
+"in de <strong>Inkoop-app</strong>"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -1148,7 +1456,7 @@ msgstr ""
 #. module: wine_merchant
 #: model:product.template,name:wine_merchant.product_template_15
 msgid "[Delivery_008] On site Picking"
-msgstr ""
+msgstr "[Delivery_008] Ter plaatse ophalen"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -1159,3 +1467,99 @@ msgstr "en"
 #: model_terms:ir.ui.view,arch_db:wine_merchant.ir_ui_view_3281
 msgid "hello@mycompany.com"
 msgstr "hallo@mijnbedrijf.com"
+
+#. module: wine_merchant
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid "﻿Deposit Module﻿"
+msgstr "Statiegeldmodule"
+
+#. module: wine_merchant
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid "﻿Excise Module﻿"
+msgstr "﻿Accijnsmodule﻿"
+
+#~ msgid "Card"
+#~ msgstr "Kaart"
+
+#~ msgid "Cash"
+#~ msgstr "Cash"
+
+#~ msgid "Customer Account"
+#~ msgstr "Klant account"
+
+#~ msgid "+1 555-555-5556"
+#~ msgstr "+1 555-555-5556"
+
+#~ msgid "2023"
+#~ msgstr "2023"
+
+#~ msgid "2024"
+#~ msgstr "2024"
+
+#~ msgid "2025"
+#~ msgstr "2025"
+
+#~ msgid ""
+#~ "Don’t miss this opportunity to elevate your wine knowledge and skills! "
+#~ "Secure your spot today and embark on a flavorful journey through the "
+#~ "world of oenology. For more information and to register, please visit "
+#~ "[Insert Website] or contact us at [Insert Contact Information]. Cheers to "
+#~ "your wine education!"
+#~ msgstr ""
+#~ "Mis deze kans niet om je wijnkennis en -vaardigheden naar een hoger "
+#~ "niveau te tillen! Reserveer vandaag nog je plaats en begin aan een "
+#~ "smaakvolle reis door de wereld van de oenologie. Ga voor meer informatie "
+#~ "en om je in te schrijven naar [website invoegen] of neem contact met ons "
+#~ "op via [contactgegevens invoegen]. Proost op jouw wijnopleiding!"
+
+#~ msgid ""
+#~ "The <font class=\"text-o-color-1\"><strong>CRM App</strong></font> helps "
+#~ "you manage client interactions and track potential leads"
+#~ msgstr ""
+#~ "De <font class=\"text-o-color-1\"><strong>CRM-app</strong></font> helpt "
+#~ "je bij het beheren van interacties met klanten en het volgen van "
+#~ "potentiële leads"
+
+#~ msgid ""
+#~ "The <strong><font class=\"text-o-color-1\">Ecommerce App </font></"
+#~ "strong>showcases your different wines and allow customers to buy them "
+#~ "online"
+#~ msgstr ""
+#~ "Met de <strong><font class=\"text-o-color-1\">E-commerce-app</font></"
+#~ "strong> kan je je verschillende wijnen presenteren en klanten ze online "
+#~ "laten kopen"
+
+#~ msgid ""
+#~ "The <strong><font class=\"text-o-color-1\">Event App</font></strong> will "
+#~ "allow your clients to participate in different events around wine"
+#~ msgstr ""
+#~ "Dankzij de <strong><font class=\"text-o-color-1\">Evenementen-app</font></"
+#~ "strong> kunnen klanten deelnemen aan verschillende evenementen over wijn"
+
+#~ msgid ""
+#~ "The <strong><font class=\"text-o-color-1\">Inventory App</font></strong> "
+#~ "help you manage your stock levels"
+#~ msgstr ""
+#~ "Met de <strong><font class=\"text-o-color-1\">Voorraad-app</font></"
+#~ "strong> kan je je voorraadniveaus beheren"
+
+#~ msgid ""
+#~ "The <strong><font class=\"text-o-color-1\">Point of Sale App</font></"
+#~ "strong> allows you to easily sell wine in your store"
+#~ msgstr ""
+#~ "Met <strong><font class=\"text-o-color-1\">Kassa-app</font></strong> kan "
+#~ "je vlot wijn verkopen in je winkel"
+
+#~ msgid ""
+#~ "The <strong><font class=\"text-o-color-1\">Purchase App</font></strong> "
+#~ "gathers all the different purchase orders you have made"
+#~ msgstr ""
+#~ "De <strong><font class=\"text-o-color-1\">Inkoop-app</font></strong> "
+#~ "verzamelt alle verschillende inkooporders die je hebt geplaatst"
+
+#~ msgid ""
+#~ "The <strong><font class=\"text-o-color-1\">Sales App</font></strong> "
+#~ "streamlines quotations"
+#~ msgstr ""
+#~ "De <strong><font class=\"text-o-color-1\">Verkoop-app</font></strong> "
+#~ "stroomlijnt offertes"

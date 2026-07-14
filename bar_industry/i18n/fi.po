@@ -4,20 +4,21 @@
 #
 # Translators:
 # Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2024
-# Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2024
+# Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2024, 2026.
 # Tuomas Lyyra <tuomas.lyyra@legenda.fi>, 2024
 # Tuomo Aura <tuomo.aura@web-veistamo.fi>, 2024
 # Svante Suominen <svante.suominen@web-veistamo.fi>, 2024
 # Martin Trigaux, 2024
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Saara Hakanen <sahak@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 11:41+0000\n"
-"PO-Revision-Date: 2025-11-17 11:08+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-06-12 17:38+0000\n"
+"PO-Revision-Date: 2026-06-24 16:59+0000\n"
+"Last-Translator: Saara Hakanen <sahak@odoo.com>\n"
 "Language-Team: Finnish <https://translate.odoo.com/projects/odoo-19/"
 "bar_industry/fi/>\n"
 "Language: fi\n"
@@ -25,12 +26,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
 msgid ", and feel free to"
-msgstr "ja voit rohkeasti"
+msgstr "sivuilta, sekä"
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -59,10 +60,10 @@ msgstr ""
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
 msgid ""
-"2. Create your employees' roles under the \"Work Information\" tab. Some are "
-"already created for this demo."
+"2. Create your employees' roles under the \"Settings\" tab. Some are already "
+"created for this demo."
 msgstr ""
-"2. Luo työntekijöidesi roolit \"Työtiedot\" -välilehdellä. Joitakin rooleja "
+"2. Luo työntekijöidesi roolit \"Asetukset\" -välilehdellä. Joitakin rooleja "
 "on jo luotu tätä demoa varten."
 
 #. module: bar_industry
@@ -74,18 +75,18 @@ msgstr "2. Täydennys"
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
 msgid ""
 "2. To make it more interesting, feel free to create a second order. For this "
-"one, you can simulate an Happy Hour. To do so, click the \"More\" button in "
+"one, you can simulate an Happy Hour. To do so, click the three dots menu in "
 "the order summary, and choose the pricelist \"Happy Hour\" instead of the "
 "Default one.\n"
 "                You will see that if you take twice the same drink, it'll "
 "cost half the price."
 msgstr ""
-"2. Voit tehdä siitä mielenkiintoisemman luomalla vapaasti toisen tilauksen. "
-"Tätä varten voit simuloida Happy Houria. Napsauta tilauksen yhteenvedossa "
-"olevaa \"Lisää\"-painiketta ja valitse hinnasto \"Happy Hour\" "
-"oletushinnaston sijasta.\n"
-"                Näet, että jos ostat kaksi kertaa saman juoman, se maksaa "
-"puolet vähemmän."
+"2. Voit tehdä siitä mielenkiintoisemman luomalla toisen tilauksen. Tätä "
+"varten voit simuloida Happy Hour -tarjouksen. Klikkaa tilauksen yhteenvedon "
+"kolmipistevalikkoa ja valitse oletushinnaston sijaan \"Happy Hour\" "
+"-hinnasto.\n"
+"                Huomaat, että kahden juoman valitseminen maksaa puolet "
+"vähemmän."
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -187,7 +188,7 @@ msgstr ""
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
 msgid "<span class=\"h1-fs\"><strong>Use case:</strong></span>"
-msgstr "<span class=\"h1-fs\"><strong>Käyttötapaus:</strong></span>"
+msgstr "<span class=\"h1-fs\"><strong>Esimerkkitapaus:</strong></span>"
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -263,17 +264,12 @@ msgstr ""
 #. module: bar_industry
 #: model:planning.role,name:bar_industry.planning_role_2
 msgid "Bar"
-msgstr "Palkki"
+msgstr "Baari"
 
 #. module: bar_industry
 #: model:planning.role,name:bar_industry.planning_role_3
 msgid "Bar & Service"
 msgstr "Baari & palvelu"
-
-#. module: bar_industry
-#: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
-msgid "Basics:"
-msgstr "Perustiedot:"
 
 #. module: bar_industry
 #: model:pos.category,name:bar_industry.pos_category_3
@@ -321,7 +317,7 @@ msgstr "Siivous"
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
 msgid "Discover more about Odoo by diving into our"
-msgstr "Lue lisää Odoosta sukeltamalla meidän"
+msgstr "Lue lisää Odoosta"
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -331,11 +327,6 @@ msgid ""
 msgstr ""
 "Tutustu tämän paketin perustietoihin ja kaikkiin Odoon tarjoamiin "
 "käyttökokemuksesi parannusmahdollisuuksiin."
-
-#. module: bar_industry
-#: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
-msgid "Do you want to go further?"
-msgstr "Haluatko jatkaa?"
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -365,12 +356,7 @@ msgstr "Avaa kassakone Kassajärjestelmän pääkoontinäytöltä."
 #. odoo-javascript
 #: code:addons/bar_industry/static/src/js/my_tour.js:0
 msgid "Get on track and explore our recommendations for your Odoo usage here!"
-msgstr ""
-
-#. module: bar_industry
-#: model:product.template,name:bar_industry.product_product_3_product_template
-msgid "Gift Card"
-msgstr "Lahjakortti"
+msgstr "Aloita ja tutustu Odoo-käyttöäsi koskeviin suosituksiimme täällä!"
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -415,10 +401,10 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
 msgid ""
 "If you want to assign them an Odoo user account, you can select a related "
-"user in the \"HR Settings\" tab."
+"user in the same \"Settings\" tab."
 msgstr ""
 "Jos haluat määrittää heille Odoo-käyttäjätilin, voit valita siihen liittyvän "
-"käyttäjän \"Henkilöstöhallinto-asetukset\" -välilehdellä."
+"käyttäjän \"Asetukset\" -välilehdellä."
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -426,8 +412,9 @@ msgid ""
 "If you want to execute a practical guided tour of this module, you should "
 "Import demo data and try the Demo - Use Case (In the next Knowledge Article)."
 msgstr ""
-"Jos haluat tutustua moduuliin käytännössä, sinun kannattaa tuoda demotietoja "
-"ja kokeilla Demo - käyttötapausta. (Seuraavassa Tietokirjasto-artikkelissa)."
+"Jos haluat suorittaa tämän moduulin käytännönläheisen opastetun kierroksen, "
+"sinun kannattaa tuoda demotiedot ja kokeilla demon esimerkkitapausta "
+"(seuraavassa Tietokirjaston artikkelissa)."
 
 #. module: bar_industry
 #: model:product.template,name:bar_industry.product_product_27_product_template
@@ -444,12 +431,12 @@ msgid ""
 "Marketing</font></strong>, and <strong><font class=\"text-o-color-1\">SMS "
 "Marketing</font></strong>."
 msgstr ""
-"Hallinnoi kaikkia viestintäkanavia yhdestä paikasta yhdessä paikassa Odoon "
-"<strong><font class=\"text-o-color-1\">Markkinointiautomaation</font></"
-"strong>, <strong><font class=\"text-o-color-1\">Sähköpostimarkkinoinnin</"
-"font></strong>, \n"
+"Hallitse kaikkia viestintäkanaviasi yhdestä paikasta Odoon <strong><font "
+"class=\"text-o-color-1\">Markkinoinnin automaation</font></strong>, "
+"<strong><font class=\"text-o-color-1\">Sähköpostimarkkinoinnin</font></"
+"strong>, \n"
 "                        <strong><font class=\"text-o-"
-"color-1\">Somemarkkinoinnin</font></strong> ja<strong><font class=\"text-o-"
+"color-1\">Somemarkkinoinnin</font></strong> ja <strong><font class=\"text-o-"
 "color-1\">Tekstiviestimarkkinoinnin</font></strong> avulla."
 
 #. module: bar_industry
@@ -459,9 +446,9 @@ msgid ""
 "environment. (<strong><font class=\"text-o-color-1\">Accounting App</font></"
 "strong>)"
 msgstr ""
-"Hallitse kirjanpitoa helpommin kuin koskaan täysin integroidussa "
-"ympäristössä. (<strong><font class=\"text-o-color-1\">Kirjanpito-sovellus</"
-"font></strong>)"
+"Hallinnoi kirjanpitoasi täysin integroidun ympäristön avulla helpommin kuin "
+"koskaan aiemmin. (<strong><font class=\"text-o-color-1\">Kirjanpito-"
+"sovellus</font></strong>)"
 
 #. module: bar_industry
 #: model:product.template,name:bar_industry.product_product_28_product_template
@@ -489,9 +476,9 @@ msgid ""
 "package. Feel free to add new apps, delete/modify demo data, and test "
 "everything around!"
 msgstr ""
-"Tämä on tietenkin vain yleiskatsaus paketin sisältämistä ominaisuuksista. "
-"Voit vapaasti lisätä uusia sovelluksia, poistaa/muuttaa demotietoja ja "
-"testata ihan kaikkea!"
+"Tämä on tietenkin vasta yleiskatsaus kaikista tähän pakettiin kuuluvista "
+"ominaisuuksista. Voit lisätä uusia sovelluksia, poistaa/muokata demotietoja "
+"sekä testata kaikkea mahdollista!"
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -606,11 +593,6 @@ msgstr "Tehtävät"
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
-msgid "Use case:"
-msgstr "Käyttötapaus:"
-
-#. module: bar_industry
-#: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
 msgid ""
 "Use the <strong><font class=\"text-o-color-1\">Inventory App</font></strong> "
 "to manage your stock and receive products."
@@ -675,8 +657,7 @@ msgid ""
 "You can access every installed App in your Odoo database on your main "
 "dashboard."
 msgstr ""
-"Pääset käsiksi kaikkiin Odoo-tietokantaan asennettuihin sovelluksiin "
-"pääkoontinäytöltä."
+"Löydät kaikki Odoo-tietokantaasi asennetut sovellukset pääkoontinäytöltäsi."
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -712,8 +693,8 @@ msgid ""
 "You completed that demo use case! There are millions of other ways to adapt "
 "your Odoo setup to fit your business needs."
 msgstr ""
-"Sait demon käyttötapauksen valmiiksi! On olemassa monia muitakin tapoja "
-"mukauttaa Odoo-asetuksia vastaamaan yrityksesi tarpeita."
+"Suoritit demon esimerkkitapauksen! On olemassa lukuisia muitakin tapoja "
+"räätälöidä Odoo-asetukset yrityksesi tarpeiden mukaiseksi."
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -750,8 +731,8 @@ msgid ""
 "You just installed the Odoo for Bar package. By doing so, we have installed "
 "a bunch of necessary apps to run your bar efficiently."
 msgstr ""
-"Olet juuri asentanut Odoo Baareille -paketin. Olemme asentaneet joukon "
-"tarvittavia sovelluksia baarisi tehokkaaseen pyörittämiseen."
+"Asensit juuri Odoo Baari -paketin. Sen myötä olemme asentaneet joukon "
+"vaadittavia sovelluksia, joiden avulla pyörität baaritoimintaa tehokkaasti."
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -759,8 +740,8 @@ msgid ""
 "You should be able to execute the following flows to have an overview of "
 "various flows you can quickly execute with this package using Odoo."
 msgstr ""
-"Sinun pitäisi pystyä suorittamaan seuraavat työnkulut saadaksesi yleiskuvan "
-"erilaisista työnkuluista, joita voit suorittaa nopeasti tämän paketin avulla."
+"Sinun pitäisi pystyä suorittamaan seuraavat toiminnot, jotta saat yleiskuvan "
+"erilaisista tämän Odoo-paketin avulla nopeasti suoritettavista työnkuluista."
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -775,7 +756,7 @@ msgstr "ja"
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
 msgid "documentation"
-msgstr "dokumentointi"
+msgstr "dokumentaatio"
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -785,7 +766,19 @@ msgstr "jos tarvitset apua! <br/>"
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
 msgid "request a demo"
-msgstr "pyytää esittelyä"
+msgstr "pyydä demoa"
+
+#~ msgid "Gift Card"
+#~ msgstr "Lahjakortti"
+
+#~ msgid "Basics:"
+#~ msgstr "Perustiedot:"
+
+#~ msgid "Do you want to go further?"
+#~ msgstr "Haluatko jatkaa?"
+
+#~ msgid "Use case:"
+#~ msgstr "Käyttötapaus:"
 
 #~ msgid "Default"
 #~ msgstr "Oletus"

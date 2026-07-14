@@ -1,7 +1,7 @@
 {
     'name': 'Account - Point of Sale Settle Due',
-    'version': '1.0',
-    'category': 'Point of Sale',
+    'version': '1.2',
+    'category': 'Hospitality',
     'author': 'Odoo S.A.',
     'depends': [
         'pos_settle_due',
@@ -12,9 +12,6 @@
         'data/ir_actions_server.xml',
         'data/base_automation.xml',
         'data/ir_ui_view.xml',
-    ],
-    'demo': [
-        'demo/res_users.xml',
     ],
     'license': 'OEEL-1',
 }

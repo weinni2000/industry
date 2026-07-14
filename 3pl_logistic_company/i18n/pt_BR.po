@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-13 08:44+0000\n"
-"PO-Revision-Date: 2025-11-19 08:46+0000\n"
+"POT-Creation-Date: 2026-01-12 09:26+0000\n"
+"PO-Revision-Date: 2025-12-17 15:56+0000\n"
 "Last-Translator: \"Maitê Dietze (madi)\" <madi@odoo.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.odoo.com/projects/"
 "odoo-19/3pl_logistic_company/pt_BR/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.ir_ui_view_2473
@@ -39,6 +39,11 @@ msgstr "3PL - FATURAMENTO"
 #: model:spreadsheet.dashboard,name:3pl_logistic_company.spreadsheet_dashboard_15
 msgid "3PL Data"
 msgstr "Dados 3PL"
+
+#. module: 3pl_logistic_company
+#: model:ir.actions.server,name:3pl_logistic_company.server_action_account_move_create_next
+msgid "3PL Logistic Company: Invoice - create next action"
+msgstr ""
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.ir_ui_view_2473
@@ -121,6 +126,13 @@ msgstr ""
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
+msgid ""
+"<b>Generate a new invoice</b> directly from the existing <b>Sales\n"
+"                                    Order.</b>"
+msgstr ""
+
+#. module: 3pl_logistic_company
+#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "<b>Going Further!</b>"
 msgstr "<b>Vamos mais além!</b>"
 
@@ -133,6 +145,16 @@ msgstr "<b>No aplicativo Contatos:</b>"
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "<b>In the Inventory App:</b>"
 msgstr "<b>No aplicativo Inventário:</b>"
+
+#. module: 3pl_logistic_company
+#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
+msgid "<b>Locate the customer's last invoice.</b>"
+msgstr ""
+
+#. module: 3pl_logistic_company
+#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
+msgid "<b>Login as:</b>"
+msgstr ""
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -175,8 +197,27 @@ msgstr ""
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
+msgid ""
+"<b>Odoo will automatically duplicate</b> the previous invoice,\n"
+"                                    using the correct start date (based on "
+"your defined invoice\n"
+"                                    period) but setting <b>all\n"
+"                                        quantity lines to\n"
+"                                        zero</b>. This prevents accidental "
+"overbilling and allows\n"
+"                                    you to input the current period's "
+"quantities accurately."
+msgstr ""
+
+#. module: 3pl_logistic_company
+#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "<b>Open the CRM app</b> and create a new opportunity."
 msgstr "<b>Abra o app CRM</b> e criar uma nova oportunidade."
+
+#. module: 3pl_logistic_company
+#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
+msgid "<b>Password:</b> portal"
+msgstr ""
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -264,6 +305,11 @@ msgstr ""
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
+msgid "<b>User:</b> portal@portal.com"
+msgstr ""
+
+#. module: 3pl_logistic_company
+#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "<b>Validate</b> the invoice."
 msgstr "<b>Valide</b> a fatura."
 
@@ -310,6 +356,75 @@ msgstr ""
 "                        € 0,45/dia em agosto.</em>"
 
 #. module: 3pl_logistic_company
+#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Barcode App</b>:</font> Streamlines "
+"warehouse floor operations by enabling\n"
+"                    fast and accurate scanning of pallets, locations, and "
+"stock movements."
+msgstr ""
+
+#. module: 3pl_logistic_company
+#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>CRM App</b>:</font> Tracks leads and "
+"opportunities efficiently, helping\n"
+"                    logistics companies follow up on prospects and manage "
+"long-term customer relationships."
+msgstr ""
+
+#. module: 3pl_logistic_company
+#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Documents App</b>:</font> Centralizes "
+"contracts, delivery notes, and\n"
+"                    transport documentation in a searchable digital space."
+msgstr ""
+
+#. module: 3pl_logistic_company
+#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Inventory App</b>:</font> Enables precise "
+"stock management across multiple\n"
+"                    warehouses and clients, ensuring full tracking of "
+"inbound, outbound, and internal movements."
+msgstr ""
+
+#. module: 3pl_logistic_company
+#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Invoicing App</b>:</font> Automates "
+"billing calculations based on storage\n"
+"                    duration, volume, and handling services, with support "
+"for custom pricing per client."
+msgstr ""
+
+#. module: 3pl_logistic_company
+#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Sales App</b>:</font> Generates "
+"professional quotations and sales orders for\n"
+"                    storage, transport, and value-added logistics services."
+msgstr ""
+
+#. module: 3pl_logistic_company
+#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Subscriptions App</b>:</font> Manages "
+"recurring billing for long-term\n"
+"                    storage services with customizable plans."
+msgstr ""
+
+#. module: 3pl_logistic_company
+#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Website &amp; Portal</b>:</font> Provides "
+"clients with a self-service portal\n"
+"                    for real-time access to stock levels, service requests, "
+"and downloadable documents."
+msgstr ""
+
+#. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.ir_ui_view_3810
 msgid ""
 "<i class=\"fa fa-1x fa-fw fa-envelope me-2\"/>\n"
@@ -344,8 +459,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">💡</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Info\">💡</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">💡</i>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -353,8 +468,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">✅</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Success\">✅</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\">✅</i>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -362,8 +477,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Warning\">⚠️</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Warning\">⚠️</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Warning\">⚠️</i>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -371,8 +486,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
 "normal\">💡</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Info\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
+"<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
+"normal\">💡</i>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -380,8 +495,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
 "normal\">🚀</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Info\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
+"<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
+"normal\">🚀</i>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -391,6 +506,10 @@ msgid ""
 "            </span>\n"
 "            <br/>"
 msgstr ""
+"<span class=\"h1-fs\">\n"
+"                <strong>Atividades</strong>\n"
+"            </span>\n"
+"            <br/>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -399,11 +518,14 @@ msgid ""
 "                <strong>Basics</strong>\n"
 "            </span>"
 msgstr ""
+"<span class=\"h1-fs\">\n"
+"                <strong>Noções Básicas</strong>\n"
+"            </span>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "<span class=\"h2-fs\">Configure quality checks ✅</span>"
-msgstr ""
+msgstr "<span class=\"h2-fs\">Configurar verificações de qualidade ✅</span>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -411,6 +533,8 @@ msgid ""
 "<span class=\"h2-fs\">Designing an Optimized Warehouse and Operations System "
 "📦</span>"
 msgstr ""
+"<span class=\"h2-fs\">Projetando um sistema otimizado de armazenamento e "
+"operações 📦</span>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -418,6 +542,8 @@ msgid ""
 "<span class=\"h2-fs\">Fixed-Space\n"
 "            Subscription Management</span>🔁"
 msgstr ""
+"<span class=\"h2-fs\">Espaço fixo\n"
+"Gerenciamento de assinaturas</span>🔁"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -425,21 +551,23 @@ msgid ""
 "<span class=\"h2-fs\">Invoice customer💲</span>\n"
 "            <br/>"
 msgstr ""
+"<span class=\"h2-fs\">Faturar cliente💲</span>\n"
+"            <br/>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "<span class=\"h2-fs\">Manage Clients and Products 📖</span>"
-msgstr ""
+msgstr "<span class=\"h2-fs\">Gerenciar clientes e produtos 📖</span>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "<span class=\"h2-fs\">Manage Stock Moves 🔄</span>"
-msgstr ""
+msgstr "<span class=\"h2-fs\">Gerenciar movimentações de estoque 🔄</span>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "<span class=\"h2-fs\">Manage quotations 🤝</span>"
-msgstr ""
+msgstr "<span class=\"h2-fs\">Gerenciar cotações 🤝</span>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -454,6 +582,11 @@ msgid ""
 "            </span>\n"
 "            <br/>"
 msgstr ""
+"<span class=\"h4-fs\">\n"
+"                <strong>Criar pedidos de venda a partir de um cliente "
+"potencial</strong>\n"
+"            </span>\n"
+"           <br/>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -462,6 +595,9 @@ msgid ""
 "                <strong>Create a new Subscription Order</strong>\n"
 "            </span>"
 msgstr ""
+"<span class=\"h4-fs\">\n"
+"                <strong>Criar um novo pedido de assinatura</strong>\n"
+"            </span>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -470,6 +606,9 @@ msgid ""
 "                <strong>Monitor Stock Occupation</strong>\n"
 "            </span>"
 msgstr ""
+"<span class=\"h4-fs\">\n"
+"                <strong>Monitorar a ocupação do estoque</strong>\n"
+"            </span>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -479,6 +618,10 @@ msgid ""
 "strong>\n"
 "            </span>"
 msgstr ""
+"<span class=\"h4-fs\">\n"
+"                <strong>Forneça aos clientes acesso em tempo real ao "
+"estoque</strong>\n"
+"            </span>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -488,6 +631,10 @@ msgid ""
 "            </span>\n"
 "            <br/>"
 msgstr ""
+"<span class=\"h6-fs\">\n"
+"                <b>Centralizar documentos 📄</b>\n"
+"            </span>\n"
+"           <br/>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -496,6 +643,9 @@ msgid ""
 "                <b>Manage your purchase 🛒</b>\n"
 "            </span>"
 msgstr ""
+"<span class=\"h6-fs\">\n"
+"                <b>Gerencie sua compra 🛒</b>\n"
+"            </span>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -504,6 +654,9 @@ msgid ""
 "                <strong>Creating the Invoice</strong>\n"
 "            </span>"
 msgstr ""
+"<span class=\"h6-fs\">\n"
+"                <strong>Gerar a fatura</strong>\n"
+"            </span>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -512,6 +665,9 @@ msgid ""
 "                <strong>Internal Moves</strong>\n"
 "            </span>"
 msgstr ""
+"<span class=\"h6-fs\">\n"
+"                <strong>Movimentações internas</strong>\n"
+"            </span>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -520,6 +676,9 @@ msgid ""
 "                <strong>Outbound Deliveries</strong>\n"
 "            </span>"
 msgstr ""
+"<span class=\"h6-fs\">\n"
+"                <strong>Remessas enviadas</strong>\n"
+"            </span>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -529,6 +688,10 @@ msgid ""
 "                transfer can be validated.</span>\n"
 "            <br/>"
 msgstr ""
+"<span class=\"h6-fs\">Uma vez configurado o controle de qualidade, ele deve "
+"ser executado para que seja possível\n"
+"validar a transferência.</span>\n"
+"            <br/>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -546,6 +709,18 @@ msgid ""
 "visibility.</font></span>\n"
 "            <br/>"
 msgstr ""
+"<span class=\"h6-fs\">Este módulo do Odoo <b>otimiza sua logística e "
+"armazenamento</b>,\n"
+"                oferecendo uma solução completa para aumentar a eficiência e "
+"a satisfação do cliente em\n"
+"                todos os serviços. Ele simplifica todas as operações, desde "
+"armazenamento de longo prazo até\n"
+"                gestão de paletes e transporte. Você pode gerenciar "
+"facilmente o estoque do cliente, programar\n"
+"                movimentações, garantir rastreabilidade total, otimizar o "
+"faturamento e fornecer aos clientes <font class=\"text-o-"
+"color-5\">visibilidade do estoque em tempo real.</font></span>\n"
+"           <br/>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -555,6 +730,9 @@ msgid ""
 "                document and use the Sign App for automated customer "
 "signature</span>"
 msgstr ""
+"<span class=\"h6-fs\">Use o aplicativo <b>Documentos</b> para gerenciar "
+"todos os seus documentos internos e externos, e use o aplicativo Assinar "
+"para automatizar a assinatura do cliente.</span>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -563,6 +741,9 @@ msgid ""
 "internal product\n"
 "                purchasing.</span>"
 msgstr ""
+"<span class=\"h6-fs\">Use o aplicativo <b>Compras</b> para gerenciar todas "
+"as suas compras internas de produtos.\n"
+".</span>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -574,6 +755,12 @@ msgid ""
 "                !</span>\n"
 "            <br/>"
 msgstr ""
+"<span class=\"h6-fs\">Boas-vindas ao <strong>\n"
+"                    <font style=\"color: rgb(113, 75, 103);\">Pacote Odoo "
+"Empresa de Lógistica</font>\n"
+"                </strong>\n"
+"!</span>\n"
+"            <br/>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -585,6 +772,12 @@ msgid ""
 "                internal transfer.<strong/></span>\n"
 "            <br/>"
 msgstr ""
+"<span class=\"h6-fs\">Quando você precisar mover manualmente o estoque — "
+"como devolver itens para um\n"
+"local de verificação de qualidade ou mover produtos após a validação do "
+"cliente — use uma\n"
+"transferência interna.<strong/></span>\n"
+"           <br/>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -595,6 +788,10 @@ msgid ""
 "should be completed, and\n"
 "                which samples it applies to.</span>"
 msgstr ""
+"<span class=\"h6-fs\">Você pode adicionar verificações de qualidade "
+"específicas exigidas pelo seu cliente. Defina como cada verificação deve ser "
+"realizada, quando deve ser concluída e\n"
+"                a quais amostras se aplica.</span>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -605,6 +802,11 @@ msgid ""
 "from the Inventory app.</span>\n"
 "            <br/>"
 msgstr ""
+"<span class=\"h6-fs\">Você pode facilmente <b>criar e gerenciar todos os "
+"seus clientes</b> a partir do\n"
+"aplicativo Contatos. Enquanto isso, todos os produtos dos clientes são "
+"gerenciados a partir do aplicativo Inventário.</span>\n"
+"            <br/>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -612,6 +814,8 @@ msgid ""
 "<span class=\"h6-fs\">​</span>\n"
 "            <br/>"
 msgstr ""
+"<span class=\"h6-fs\">​</span>\n"
+"            <br/>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.ir_ui_view_3810
@@ -626,8 +830,8 @@ msgid ""
 "span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Assunto</span>\n"
-"                                  <span class=\"s_website_form_mark\"> "
-"*</span>"
+"                                  <span class=\"s_website_form_mark\"> *</"
+"span>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.ir_ui_view_3810
@@ -637,8 +841,8 @@ msgid ""
 "span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Sua empresa</span>\n"
-"                                  <span class=\"s_website_form_mark\"> "
-"*</span>"
+"                                  <span class=\"s_website_form_mark\"> *</"
+"span>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.ir_ui_view_3810
@@ -648,8 +852,8 @@ msgid ""
 "span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Seu e-mail</span>\n"
-"                                  <span class=\"s_website_form_mark\"> "
-"*</span>"
+"                                  <span class=\"s_website_form_mark\"> *</"
+"span>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.ir_ui_view_3810
@@ -659,8 +863,8 @@ msgid ""
 "span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Seu nome</span>\n"
-"                                  <span class=\"s_website_form_mark\"> "
-"*</span>"
+"                                  <span class=\"s_website_form_mark\"> *</"
+"span>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.ir_ui_view_3810
@@ -670,13 +874,13 @@ msgid ""
 "span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Sua pergunta</span>\n"
-"                                  <span class=\"s_website_form_mark\"> "
-"*</span>"
+"                                  <span class=\"s_website_form_mark\"> *</"
+"span>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "<span style=\"font-size: 21px;\">Barcode App</span> 🤳"
-msgstr ""
+msgstr "<span style=\"font-size: 21px;\">app Código de Barras</span> 🤳"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.ir_ui_view_2473
@@ -684,6 +888,8 @@ msgid ""
 "<span style=\"font-weight: normal;\">Your Logistics, Perfected.</span>\n"
 "                  <br/>"
 msgstr ""
+"<span style=\"font-weight: normal;\">Sua logística aperfeiçoada.</span>\n"
+"                  <br/>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -692,6 +898,10 @@ msgid ""
 "                <span class=\"display-4-fs\">3PL - Logistic company</span>\n"
 "            </strong>"
 msgstr ""
+"<strong>\n"
+"                <span class=\"display-4-fs\">3PL - Empresa de logística</"
+"span>\n"
+"            </strong>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -701,17 +911,17 @@ msgstr "<strong>Contabilidade simplificada 🧮</strong>"
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "<strong>In the Manufacturing App:</strong>"
-msgstr ""
+msgstr "<strong>No aplicativo de Fabricação:</strong>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "<strong>Inbound</strong>"
-msgstr ""
+msgstr "<strong>Entrada</strong>"
 
 #. module: 3pl_logistic_company
 #: model_terms:sale.order.template,note:3pl_logistic_company.sale_order_template_1
 msgid "A monthly invoice will be generated using actual, collected data."
-msgstr ""
+msgstr "Uma fatura mensal será gerada usando dados reais coletados."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -719,17 +929,21 @@ msgid ""
 "A specific report is available to view your occupation based on "
 "subscriptions."
 msgstr ""
+"Um relatório específico está disponível para visualizar sua ocupação com "
+"base nas assinaturas."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "Add a note to the invoice specifying the invoicing period."
-msgstr ""
+msgstr "Adicione uma nota à fatura especificando o período de faturamento."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid ""
 "Add the services to be offered on the lines and adjust prices as needed."
 msgstr ""
+"Adicione os serviços a serem oferecidos nas linhas e ajuste os preços "
+"conforme necessário."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -741,11 +955,16 @@ msgid ""
 "from within the\n"
 "            opportunity."
 msgstr ""
+"É possível gerenciar todos os novos leads e clientes em potencial\n"
+"diretamente do <b>aplicativo CRM</b> . Depois de criar oportunidade é criada "
+"e reunir todas as informações necessárias, você pode criar uma nova "
+"<b>cotação </b> a partir da\n"
+"oportunidade."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.portal_products
 msgid "Available quantity"
-msgstr ""
+msgstr "Quantidade disponível"
 
 #. module: 3pl_logistic_company
 #: model:uom.uom,name:3pl_logistic_company.uom_uom_29
@@ -762,6 +981,12 @@ msgid ""
 "shipping connectors</b>,\n"
 "            and <b>barcode configuration</b> to ensure maximum efficiency."
 msgstr ""
+"<b>Ao configurar o armazém e as operações</b> , podemos\n"
+"criar um sistema adaptado às suas necessidades específicas. Isso envolve "
+"personalizar todas as configurações\n"
+"relacionadas a <b>locais de armazenamento, embalagem, tipos de movimentação "
+"de estoque, conectores de envio</b> e\n"
+"<b>configuração de código de barras </b> para garantir a máxima eficiência."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -769,6 +994,8 @@ msgid ""
 "By uploading this module's demo data, your database has been\n"
 "            filled with a few contacts."
 msgstr ""
+"Ao carregar os dados de demonstração deste módulo, sua base de dados foi "
+"preenchida com alguns contatos."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -777,21 +1004,30 @@ msgid ""
 "subscription's\n"
 "                end date."
 msgstr ""
+"Escolha o <b>Plano Recorrente </b> e defina a <b>data em Até</b> como a data "
+"de término da assinatura."
 
 #. module: 3pl_logistic_company
 #: model:product.template,name:3pl_logistic_company.product_template_10
 msgid "Christmas Tree Waterfall Lights"
-msgstr ""
+msgstr "Luzes de Natal em cascata"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "Click on <b>Mark as to do</b>."
+msgstr "Clique em <b>Marcar como A fazer</b>."
+
+#. module: 3pl_logistic_company
+#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
+msgid "Click the \"<b>Create Next</b>\" button on that invoice."
 msgstr ""
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "Click the gear icon (⚙️) and choose <b>\"Grant portal access.\"</b>"
 msgstr ""
+"Clique no ícone de engrenagem (⚙️) e selecione <b> Conceder acesso ao portal."
+"</b>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.ir_ui_view_3810
@@ -812,7 +1048,7 @@ msgstr ""
 #. module: 3pl_logistic_company
 #: model:ir.model.fields,field_description:3pl_logistic_company.x_point_id_title_field_quality_check
 msgid "Control Point Title"
-msgstr ""
+msgstr "Título do Ponto de Controle"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -820,16 +1056,19 @@ msgid ""
 "Create <strong>Quotation Templates</strong> to\n"
 "                        use for your predefined offers."
 msgstr ""
+"Crie <strong>modelos de cotação</strong> para\n"
+"                        utilizar em ofertas predefinidas."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "Create a new internal transfer."
-msgstr ""
+msgstr "Crie uma nova transferência interna."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "Create clients and their specific delivery locations as needed."
 msgstr ""
+"Crie clientes e seus locais de entrega específicos, conforme necessário."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -841,21 +1080,32 @@ msgid ""
 "items must be shipped\n"
 "                        together."
 msgstr ""
+"Crie kits usando a seção <b>Lista de materiais</b>. Isso permite\n"
+"                        agrupar vários produtos para que sejam separados "
+"como uma única unidade.\n"
+"                        Isso é útil para atender a pedidos em que vários "
+"itens precisam ser enviados\n"
+"                        juntos."
+
+#. module: 3pl_logistic_company
+#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.account_move_form_view_inherit
+msgid "Create next"
+msgstr ""
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "Create product categories."
-msgstr ""
+msgstr "Crie categorias de produtos."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "Create products and link them to the correct owner."
-msgstr ""
+msgstr "Crie produtos e vincule-os ao proprietário correto."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "Create the kit as a separate product first."
-msgstr ""
+msgstr "Crie primeiro o kit como um produto separado."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -867,6 +1117,10 @@ msgid ""
 "<strong>Yearly </strong>or <strong>\n"
 "                        Monthly.</strong>"
 msgstr ""
+"Cria os serviços para aluguel recorrente\n"
+"Navegue até a aba <strong>Preços Recorrentes</strong> e defina\n"
+"o preço recorrente, especificando se é <strong>Anual </strong>ou "
+"<strong>Mensal.</strong>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.default_stock_history_search_view
@@ -876,7 +1130,7 @@ msgstr "Mês atual"
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.extension_stock_occupation_search_view
 msgid "Current Occupation"
-msgstr ""
+msgstr "Ocupação atual"
 
 #. module: 3pl_logistic_company
 #: model:ir.model.fields,field_description:3pl_logistic_company.x_date_field_x_stock_history
@@ -893,7 +1147,7 @@ msgstr "Exibir nome"
 msgid ""
 "Do you want to go\n"
 "            further?"
-msgstr ""
+msgstr "Quer ir mais além?"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -902,26 +1156,36 @@ msgid ""
 "or a\n"
 "                pack on a larger one."
 msgstr ""
+"Durante esse processo, você também pode colocar um produto em uma embalagem "
+"(como um palete) ou uma\n"
+"                embalagem em outra maior."
 
 #. module: 3pl_logistic_company
 #: model:product.template,name:3pl_logistic_company.product_template_7
 msgid "Energy Bar"
-msgstr ""
+msgstr "Barra de energia"
 
 #. module: 3pl_logistic_company
 #: model:product.template,name:3pl_logistic_company.product_template_8
 msgid "Energy Pack"
-msgstr ""
+msgstr "Pacote de Energia"
 
 #. module: 3pl_logistic_company
 #: model:product.template,name:3pl_logistic_company.product_template_9
 msgid "Energy Packaging"
+msgstr "Embalagem de energia"
+
+#. module: 3pl_logistic_company
+#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
+msgid ""
+"Ensure you select the <b>correct \"Invoice Period\"</b> and specify\n"
+"                                    the appropriate <b>Invoice date</b>."
 msgstr ""
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.ir_ui_view_2473
 msgid "Entrust your logistics to an expert!&amp;nbsp;"
-msgstr ""
+msgstr "Confie sua logística a um especialista!&amp;nbsp;"
 
 #. module: 3pl_logistic_company
 #: model:ir.actions.server,name:3pl_logistic_company.action_change_product_storable_lots
@@ -938,12 +1202,12 @@ msgstr "Data de expiração"
 #. module: 3pl_logistic_company
 #: model:product.template,name:3pl_logistic_company.product_template_14
 msgid "Extra Quality Check"
-msgstr ""
+msgstr "Verificação extra de qualidade"
 
 #. module: 3pl_logistic_company
 #: model:product.template,name:3pl_logistic_company.product_template_17
 msgid "Extra's"
-msgstr ""
+msgstr "Extras"
 
 #. module: 3pl_logistic_company
 #: model:ir.model,name:3pl_logistic_company.x_fee_rate_model
@@ -951,17 +1215,19 @@ msgstr ""
 #: model:ir.model.fields,field_description:3pl_logistic_company.x_location_fee_rate_id_field_stock_location
 #: model:ir.ui.menu,name:3pl_logistic_company.fee_rate_menuitem
 msgid "Fee Rate"
-msgstr ""
+msgstr "Taxa de comissão"
 
 #. module: 3pl_logistic_company
 #: model:ir.actions.act_window,name:3pl_logistic_company.action_fee_rate_list_view
 msgid "Fee rate list view"
-msgstr ""
+msgstr "Lista de taxas"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "Filter by the customer you want to charge and the relevant date range."
 msgstr ""
+"Filtre pelo cliente que você pretende cobrar e pelo intervalo de datas "
+"relevante."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -971,41 +1237,45 @@ msgid ""
 "will default to <b>FIFO\n"
 "                                    (First-In, First-Out)</b>."
 msgstr ""
+"Em cada categoria, selecione a estratégia de <b>remoção adequada </b> .\n"
+"Se nenhuma estratégia for escolhida, o sistema utilizará por padrão <b>FIFO\n"
+"(First-In, First-Out)</b>."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "Go to <b>Reporting &gt; Stock Occupation</b>."
-msgstr ""
+msgstr "Acesse <b>Relatórios &gt; Ocupação do estoque</b>."
 
 #. module: 3pl_logistic_company
 #: model:product.template,name:3pl_logistic_company.product_template_15
 msgid "Handling Charges Input"
-msgstr ""
+msgstr "Entrada de Taxas de manuseio"
 
 #. module: 3pl_logistic_company
 #: model:product.template,name:3pl_logistic_company.product_template_16
 msgid "Handling Charges Output"
-msgstr ""
+msgstr "Saída de Taxas de manuseio"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "Here's how to create an outbound delivery:"
-msgstr ""
+msgstr "Veja como criar uma remessa enviada:"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "Here's how to invoice your customer based on operations and storage:"
 msgstr ""
+"Veja como faturar seu cliente com base nas operações e no armazenamento:"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "Here's how:"
-msgstr ""
+msgstr "Veja como:"
 
 #. module: 3pl_logistic_company
 #: model:product.template,name:3pl_logistic_company.product_template_5
 msgid "Hydrate powder"
-msgstr ""
+msgstr "Pó hidratante"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1014,6 +1284,8 @@ msgid ""
 "<b>Contact\n"
 "                            Notes</b> section."
 msgstr ""
+"Se o cliente der instruções específicas de manuseio, adicione-as à seção "
+"“ <b>Notas de contato</b>."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1022,12 +1294,13 @@ msgid ""
 "the\n"
 "                opportunity."
 msgstr ""
+"Se for um novo cliente, é possível criar o registro de contato diretamente "
+"da\n"
+"oportunidade."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
-msgid ""
-"If it's the first time invoicing, create a new invoice from the\n"
-"                            previously created <b>Sales Order</b>."
+msgid "If it's the first time invoicing:"
 msgstr ""
 
 #. module: 3pl_logistic_company
@@ -1037,6 +1310,10 @@ msgid ""
 "on <b>\n"
 "                Details</b> and then <b>Import Serials/Lots</b>."
 msgstr ""
+"Se tiver os <b>números de lote</b> disponíveis, poderá adicioná-los clicando "
+"em <b>\n"
+"                Detalhes</b> e, em seguida, <b>Importar números de série/"
+"lotes</b>."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1045,6 +1322,8 @@ msgid ""
 "<b>quality\n"
 "                            check spreadsheet</b>."
 msgstr ""
+"Se precisar gerenciar processos de controle de qualidade mais complexos, use "
+"a <b>planilha de verificação de qualidade</b> ."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1053,11 +1332,12 @@ msgid ""
 "connection with\n"
 "                external carriers."
 msgstr ""
+"Se você empacotar produtos, poderá usar a conexão de envio automatizada com "
+"transportadoras externas."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
-msgid ""
-"If you've invoiced this customer before, duplicate the previous invoice."
+msgid "If you've invoiced this customer before:"
 msgstr ""
 
 #. module: 3pl_logistic_company
@@ -1069,6 +1349,10 @@ msgid ""
 "process, select <b>\n"
 "                Delivery</b> instead.)"
 msgstr ""
+"No aplicativo <b>Inventário </b> , clique em <b>Separação</b> e em <b> Criar "
+"novo </b>.\n"
+"(Se as definições do seu armazém estiverem definidas para um processo de uma "
+"etapa, selecione <b>Entrega</b>.)"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1077,10 +1361,18 @@ msgid ""
 "new one</b>\n"
 "                ."
 msgstr ""
+"No aplicativo <b>Inventário</b>, clique em <b>Recebimento </b> e, em "
+"seguida, em <b>Criar novo</b>\n"
+"."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "In the pop-up window, click <b>\"Grant Access.\"</b>"
+msgstr "Na janela pop-up, clique em <b>Conceder Acesso.</b>"
+
+#. module: 3pl_logistic_company
+#: model:ir.model.fields,field_description:3pl_logistic_company.x_invoice_period_id_field_account_move
+msgid "Invoice Period"
 msgstr ""
 
 #. module: 3pl_logistic_company
@@ -1096,7 +1388,7 @@ msgstr "Lote"
 #. module: 3pl_logistic_company
 #: model:ir.model.fields,field_description:3pl_logistic_company.x_stock_lot_id_field_x_stock_history
 msgid "Lot/SN"
-msgstr "Lote/NS"
+msgstr "Número de lote/série"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1106,16 +1398,20 @@ msgid ""
 "subscriptions, such as a set\n"
 "            number of pallet spots for a specific period (e.g., 3 months)."
 msgstr ""
+"Gerencie contratos de aluguel de espaço em armazéns com o aplicativo "
+"<b>Assinaturas</b>. Isso permite oferecer assinaturas por espaço fixo, como "
+"um número definido\n"
+"de vagas para paletes por um período específico (ex.: três meses)."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.portal_my_home_products
 msgid "Manage you products and stock"
-msgstr ""
+msgstr "Gerencie seus produtos e estoque"
 
 #. module: 3pl_logistic_company
 #: model:sale.order.template.line,name:3pl_logistic_company.sale_order_template_line_4
 msgid "Manutention"
-msgstr ""
+msgstr "Manutenção"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.ir_ui_view_3810
@@ -1134,6 +1430,8 @@ msgid ""
 "entire\n"
 "                    business from your phone</b>.<br/>"
 msgstr ""
+"O Odoo é totalmente integrado em um aplicativo. Baixe-o para <b>gerenciar "
+"toda a sua empresa apelo celular</b>.<br/>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1144,6 +1442,11 @@ msgid ""
 "showcase your latest\n"
 "            services, and much more!"
 msgstr ""
+"O Odoo ajuda a adaptar seu site para que combine perfeitamente com as "
+"necessidades dos seus clientes. Integre\n"
+"            suas políticas internas, personalize o formulário de contato, "
+"mostre os principais serviços\n"
+"            e muito mais!"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1153,21 +1456,25 @@ msgid ""
 "data, and test everything\n"
 "            around!"
 msgstr ""
+"É claro que esta é apenas uma visão geral dos recursos incluídos\n"
+"            neste pacote. Fique à vontade para adicionar novos aplicativos, "
+"excluir/modificar dados de demonstração e testar tudo\n"
+"            !"
 
 #. module: 3pl_logistic_company
 #: model:base.automation,name:3pl_logistic_company.base_automation_on_move_line_created
 msgid "On Move Line Created"
-msgstr ""
+msgstr "Ao criar linha de movimentação"
 
 #. module: 3pl_logistic_company
 #: model:base.automation,name:3pl_logistic_company.base_automation_on_owner_set_change_tracking
 msgid "On Owner Set On Product"
-msgstr ""
+msgstr "Ao Definir proprietário no produto"
 
 #. module: 3pl_logistic_company
 #: model:base.automation,name:3pl_logistic_company.base_automation_on_stock_move_changed
 msgid "On Stock Move Create"
-msgstr ""
+msgstr "Ao Criar movimentação de estoque"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1176,6 +1483,9 @@ msgid ""
 "put the\n"
 "                product into stock."
 msgstr ""
+"Assim que um recebimento é confirmado, é criada automaticamente uma operação "
+"de armazenamento para colocar o\n"
+"produto em estoque."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1184,17 +1494,21 @@ msgid ""
 "<b>\n"
 "                Quotation</b>."
 msgstr ""
+"Depois que todas as informações estiver levantadas e aprovadas pelo cliente, "
+"crie uma nova <b>cotação\n"
+"               </b> ."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "Once validated, the delivery operation will be created."
-msgstr ""
+msgstr "Após a validação, a operação de entrega será criada."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid ""
 "Open the <b>Dashboard app</b> and go to the <b>3PL - Invoicing Section</b>."
 msgstr ""
+"Abra o aplicativo <b>Painel</b> e acesse a seção <b>3PL - Faturamento</b>."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1215,6 +1529,8 @@ msgstr "Outros"
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.ir_ui_view_2473
 msgid "Our solutions are custom-built to meet your exact needs.<br/><br/>"
 msgstr ""
+"Nossas soluções são personalizadas para atender às suas necessidades.<br/"
+"><br/>"
 
 #. module: 3pl_logistic_company
 #: model:ir.model.fields,field_description:3pl_logistic_company.x_history_owner_id_field_x_stock_history
@@ -1231,7 +1547,7 @@ msgstr "Embalagem"
 #. module: 3pl_logistic_company
 #: model:ir.model.fields,field_description:3pl_logistic_company.x_package_master_container_id_field_stock_quants
 msgid "Package Master Container"
-msgstr ""
+msgstr "Contêiner principal da embalagem"
 
 #. module: 3pl_logistic_company
 #: model:ir.model.fields,field_description:3pl_logistic_company.x_package_type_field_x_stock_history
@@ -1246,7 +1562,7 @@ msgstr "Pacotes"
 #. module: 3pl_logistic_company
 #: model:ir.actions.act_window,name:3pl_logistic_company.action_window_partner_see_products
 msgid "Partner related products view"
-msgstr ""
+msgstr "Visualização de produtos relacionados a parceiros"
 
 #. module: 3pl_logistic_company
 #: model:stock.picking.type,name:3pl_logistic_company.picking_type_pick
@@ -1274,6 +1590,7 @@ msgstr "Quantidade"
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "Quantity data is stored in this report every night."
 msgstr ""
+"Os dados de quantidade são armazenados neste relatório todas as noites."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1282,26 +1599,29 @@ msgid ""
 "two steps,\n"
 "            which directly affects how products are received and shipped out."
 msgstr ""
+"Lembre-se de que esta base de dados está configurada para lidar com "
+"recebimentos e entregas em duas etapas,\n"
+"o que afeta diretamente a forma como os produtos são recebidos e enviados."
 
 #. module: 3pl_logistic_company
 #: model:product.template,name:3pl_logistic_company.product_template_12
 msgid "Reserved Warehouse Space - Ground"
-msgstr ""
+msgstr "Espaço reservado no armazém - Térreo"
 
 #. module: 3pl_logistic_company
 #: model:product.template,name:3pl_logistic_company.product_template_13
 msgid "Reserved Warehouse Space - High-Bay"
-msgstr ""
+msgstr "Espaço reservado no armazém - Piso alto"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.portal_products
 msgid "Reserved quantity"
-msgstr ""
+msgstr "Quantidade reservada"
 
 #. module: 3pl_logistic_company
 #: model:ir.actions.server,name:3pl_logistic_company.product_route
 msgid "Route displaying products"
-msgstr ""
+msgstr "Rota exibindo produtos"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1309,21 +1629,25 @@ msgid ""
 "Schedule a\n"
 "                        demo"
 msgstr ""
+"Agendar uma\n"
+"demonstração"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "Select or scan the <b>destination location</b>."
-msgstr ""
+msgstr "Selecione ou digitalize o  <b>local de destino</b> ."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "Select or scan the <b>products</b> or <b>packages</b> you want to move."
 msgstr ""
+"Selecione ou digitalize os <b>produtos</b> ou <b>pacotes </b> que pretende "
+"movimentar."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "Select or scan the <b>source location</b>."
-msgstr ""
+msgstr "Selecione ou digitalize o <b>local de origem</b> ."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1332,6 +1656,9 @@ msgid ""
 "date of the\n"
 "                subscription."
 msgstr ""
+"Selecione o cliente e defina a <b>Data da Cotação</b> como a data desejada "
+"do início da\n"
+"                assinatura."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1340,18 +1667,24 @@ msgid ""
 "current\n"
 "                    commitments."
 msgstr ""
+"Selecione o filtro predefinido <b>Ocupação atual</b> para ver o que está "
+"atualmente comprometido."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid ""
 "Select the scheduled pick date and add all products with their quantities."
 msgstr ""
+"Selecione a data de separação programada e adicione todos os produtos com "
+"suas respectivas quantidades."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid ""
 "Select the scheduled receipt date and add all products with their quantities."
 msgstr ""
+"Selecione a data de recebimento programada e adicione todos os produtos com "
+"suas respectivas quantidades."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1360,26 +1693,28 @@ msgid ""
 "needed\n"
 "                based on the client's specific requirements."
 msgstr ""
+"Selecione os serviços a realizar e atualize o preço e a descrição conforme "
+"necessário, com base nos requisitos específicos do cliente."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "Select their contact in the <b>Contacts</b> app."
-msgstr ""
+msgstr "Selecione o contato no app <b>Contatos</b>."
 
 #. module: 3pl_logistic_company
 #: model:product.template,name:3pl_logistic_company.product_template_2
 msgid "Shampoo"
-msgstr ""
+msgstr "Shampoo"
 
 #. module: 3pl_logistic_company
 #: model:product.template,name:3pl_logistic_company.product_template_3
 msgid "Soap"
-msgstr ""
+msgstr "Sabonete"
 
 #. module: 3pl_logistic_company
 #: model:product.template,name:3pl_logistic_company.product_template_6
 msgid "Sports Gel"
-msgstr ""
+msgstr "Gel Desportivo"
 
 #. module: 3pl_logistic_company
 #: model:ir.actions.act_window,name:3pl_logistic_company.action_window_stock_history_list_view
@@ -1387,19 +1722,19 @@ msgstr ""
 #: model:ir.ui.menu,name:3pl_logistic_company.stock_history_menuitem
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.default_stock_history_pivot_view
 msgid "Stock History"
-msgstr ""
+msgstr "Histórico do estoque"
 
 #. module: 3pl_logistic_company
 #: model:ir.actions.server,name:3pl_logistic_company.ir_cron_update_dgi_state_ir_actions_server
 msgid "Stock History-Create Daily Records"
-msgstr ""
+msgstr "Histórico do estoque - Criar registros diários"
 
 #. module: 3pl_logistic_company
 #: model:ir.actions.act_window,name:3pl_logistic_company.action_window_stock_occupation_list_view
 #: model:ir.ui.menu,name:3pl_logistic_company.stock_occupation_menuitem
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.default_stock_occupation_pivot_view
 msgid "Stock Occupation"
-msgstr ""
+msgstr "Ocupação do estoque"
 
 #. module: 3pl_logistic_company
 #: model:stock.picking.type,name:3pl_logistic_company.picking_type_store
@@ -1409,17 +1744,17 @@ msgstr "Armazenamento"
 #. module: 3pl_logistic_company
 #: model:sale.order.template.line,name:3pl_logistic_company.sale_order_template_line_1
 msgid "Storage "
-msgstr ""
+msgstr "Armazenamento "
 
 #. module: 3pl_logistic_company
 #: model:product.template,name:3pl_logistic_company.product_template_19
 msgid "Storage - Ground"
-msgstr ""
+msgstr "Armazenamento - Solo"
 
 #. module: 3pl_logistic_company
 #: model:product.template,name:3pl_logistic_company.product_template_20
 msgid "Storage - High-Bay"
-msgstr ""
+msgstr "Armazenamento - Piso alto"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.ir_ui_view_3810
@@ -1429,48 +1764,10 @@ msgstr "Enviar"
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid ""
-"The <strong>\n"
-"                        <font style=\"color: rgb(113, 75, 103);\">CRM &amp; "
-"Sales Apps</font>\n"
-"                    </strong> handle\n"
-"                    your market research and sales orders"
-msgstr ""
-
-#. module: 3pl_logistic_company
-#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
-msgid ""
-"The <strong>\n"
-"                        <font style=\"color: rgb(113, 75, 103);\">Dashboard "
-"App</font> </strong>gives\n"
-"                    a clear overview of all operations performed for each "
-"client."
-msgstr ""
-
-#. module: 3pl_logistic_company
-#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
-msgid ""
-"The <strong>\n"
-"                        <font style=\"color: rgb(113, 75, 103);\">Quality "
-"App </font>\n"
-"                    </strong>defines\n"
-"                    the type of Quality checks to perform and register it."
-msgstr ""
-
-#. module: 3pl_logistic_company
-#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
-msgid ""
-"The <strong>\n"
-"                        <font style=\"color: rgb(113, 75, 103);"
-"\">Subscription App </font>\n"
-"                    </strong>manages\n"
-"                    your fixed spaces reservation for clients"
-msgstr ""
-
-#. module: 3pl_logistic_company
-#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
-msgid ""
 "The Storage Report pulls data from <b>Inventory/Reporting/Stock History</b>."
 msgstr ""
+"O Relatório de Armazenamento extrai dados de <b>Inventário/Relatórios/"
+"Histórico do estoque</b>."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1480,6 +1777,10 @@ msgid ""
 "and dates to help\n"
 "            anticipate and manage your storage capacity."
 msgstr ""
+"O aplicativo simplifica o processo de faturamento desses\n"
+"contratos. Além disso, você pode acessar relatórios sobre ocupação e datas "
+"para ajudar a\n"
+"antecipar e gerenciar sua capacidade de armazenamento."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1489,6 +1790,10 @@ msgid ""
 "can use it without\n"
 "                        having access to the rest of the database."
 msgstr ""
+"O Código de Barras pode ser instalado como\n"
+"aplicativo independente nos dispositivos. Isso significa que é possível usá-"
+"lo sem\n"
+"ter acesso ao restante da base de dados."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1500,7 +1805,7 @@ msgstr "Os lembretes dos clientes."
 msgid ""
 "The customer will then receive an email with instructions to create their "
 "account."
-msgstr ""
+msgstr "O cliente receberá um e-mail com instruções para criar sua conta."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1512,11 +1817,15 @@ msgid ""
 "on your invoices using\n"
 "            this data."
 msgstr ""
+"O painel fornece todas as informações necessárias,\n"
+"            incluindo ocupação do armazenamento, transferências concluídas, "
+"pacotes criados e verificações de qualidade realizadas. Você só precisa "
+"ajustar manualmente as quantidades em suas faturas usando esses dados."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "The dashboard provides the following reports:"
-msgstr ""
+msgstr "O painel fornece os seguintes relatórios:"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1528,6 +1837,7 @@ msgstr "Os relatórios financeiros."
 msgid ""
 "The process for outbound product deliveries is similar to receiving products."
 msgstr ""
+"O processo para entregas de produtos é semelhante ao recebimento de produtos."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1535,6 +1845,9 @@ msgid ""
 "The standard settings for customer products are <b>traced by lot</b>\n"
 "                                    with <b>no expiration date</b>."
 msgstr ""
+"As configurações padrão para produtos do cliente são <b>rastreados por lote</"
+"b>\n"
+"                                    e <b>sem data de validade</b>."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1547,37 +1860,9 @@ msgid "The vendor bills payment."
 msgstr "O fornecedor cobra o pagamento."
 
 #. module: 3pl_logistic_company
-#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
-msgid ""
-"The<strong> </strong><font style=\"color: rgb(113, 75, 103);\">\n"
-"                        <strong>Invoicing App</strong>\n"
-"                    </font> manages the\n"
-"                    periodic invoicing based on the Dashboard data."
-msgstr ""
-
-#. module: 3pl_logistic_company
-#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
-msgid ""
-"The<strong> </strong><font style=\"color: rgb(113, 75, 103);\">\n"
-"                        <strong>Website App</strong>\n"
-"                    </font> gives an\n"
-"                    overview of your activity and the portal allows your "
-"client too see their\n"
-"                    stock levels live."
-msgstr ""
-
-#. module: 3pl_logistic_company
-#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
-msgid ""
-"The<strong> <font class=\"text-o-color-1\">Inventory App</font></strong> "
-"tracks\n"
-"                    and registers all your stock moves."
-msgstr ""
-
-#. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.portal_products
 msgid "There are currently no products for your account."
-msgstr ""
+msgstr "Atualmente, não há produtos na sua conta."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1586,16 +1871,26 @@ msgid ""
 "following\n"
 "            details:"
 msgstr ""
+"Através do portal, os clientes podem visualizar seus níveis de estoque "
+"atuais com os seguintes detalhes:\n"
+"- Quantidade de cada item em estoque"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "Tips for success:"
+msgstr "Dicas para o sucesso:"
+
+#. module: 3pl_logistic_company
+#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
+msgid ""
+"To access this database with the demonstration data\n"
+"                    and view the live stock from a customer's perspective:"
 msgstr ""
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "To boost efficiency even more, consider these topics:"
-msgstr ""
+msgstr "Para aumentar ainda mais a eficiência, considere estes tópicos:"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1605,11 +1900,14 @@ msgid ""
 "configure the settings to suit\n"
 "            your business."
 msgstr ""
+"Para obter uma compreensão rápida dos processos que este pacote Odoo "
+"oferece, você pode executar os seguintes fluxos e configurar as definições "
+"para se adequar à sua empresa."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "To grant a customer access to the portal:"
-msgstr ""
+msgstr "Para conceder acesso ao portal a um cliente:"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1618,16 +1916,19 @@ msgid ""
 "for\n"
 "                        Fee Rates includes \"Cat\"."
 msgstr ""
+"Para manter a codificação por cores no Relatório de Armazenamento, "
+"certifique-se de que o nome das\n"
+"Taxas inclua “Cat”."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "To receive products, you must first create a new receipt."
-msgstr ""
+msgstr "Para receber produtos, você deve primeiro criar um novo recebimento."
 
 #. module: 3pl_logistic_company
 #: model:product.template,name:3pl_logistic_company.product_template_4
 msgid "Toothpaste"
-msgstr ""
+msgstr "Pasta de dentes"
 
 #. module: 3pl_logistic_company
 #: model:product.template,name:3pl_logistic_company.product_template_18
@@ -1645,12 +1946,25 @@ msgid ""
 "Update all quantities on the invoice with the numbers from the dashboard "
 "reports."
 msgstr ""
+"Atualize todas as quantidades na fatura com os números dos relatórios do "
+"painel."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid ""
 "Update or create <b>quality control points</b> by selecting the appropriate\n"
 "                        settings."
+msgstr ""
+"Crie ou atualize <b>pontos de controle de qualidade</b> selecionando as "
+"configurações apropriadas."
+
+#. module: 3pl_logistic_company
+#: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
+msgid ""
+"Upon successful login, you will be connected as the <b>Second\n"
+"                    Company</b> and will see their <b>real-time stock "
+"information</b> precisely as a\n"
+"                    customer would view it."
 msgstr ""
 
 #. module: 3pl_logistic_company
@@ -1661,6 +1975,11 @@ msgid ""
 "Greatly improves\n"
 "            warehouse efficiency and reduces human error."
 msgstr ""
+"Use leitores de código de barras para validar movimentações de estoque, "
+"identificar\n"
+"a localização de paletes e realizar operações de estoque rápidas e precisas. "
+"Melhora significativamente a\n"
+"eficiência do armazém e reduz erros humanos."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1668,6 +1987,8 @@ msgid ""
 "Use the <b>failures location</b> feature to automatically send failed\n"
 "                        products to a designated area."
 msgstr ""
+"Use o recurso <b>Local de falha</b> para enviar os produtos com falha\n"
+"                        automaticamente ara uma área designada."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1675,11 +1996,13 @@ msgid ""
 "Use the <strong>Accounting</strong> app to easily\n"
 "            handle:"
 msgstr ""
+"Use o aplicativo <strong>Financeiro</strong> para lidar facilmente com:\n"
+"            :"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "Use this information to create your invoice:"
-msgstr ""
+msgstr "Use essas informações para criar sua fatura:"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1687,6 +2010,9 @@ msgid ""
 "Users with <b>Inventory Admin</b> rights can directly delete,\n"
 "                                create, or import records within this report."
 msgstr ""
+"Os usuários com direitos de <b>Admin no Inventário</b> podem excluir,\n"
+"                                criar ou importar registros diretamente "
+"neste relatório."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.ir_ui_view_2473
@@ -1694,6 +2020,9 @@ msgid ""
 "We handle your entire supply chain, from <b>stock management</b> and <b>on-"
 "time delivery</b> to <b>re-packaging</b> and <b>quality checks</b>.&amp;nbsp;"
 msgstr ""
+"Nós cuidamos de toda a sua cadeia de suprimentos, desde a <b>gestão de "
+"estoque</b> e <b>entregas pontuais</b> até <b>reembalagem</b> e "
+"<b>verificações de qualidade</b>.&amp;nbsp;"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1705,6 +2034,10 @@ msgid ""
 "moves and allows for proper\n"
 "                        tracking of the sales order and invoicing."
 msgstr ""
+"Ao criar novas ofertas de serviços para os clientes,\n"
+"use o tipo de produto <b>Serviços</b>  para criar a cotação. Isso garante "
+"que não serão geradas movimentações de estoque e permite o rastreamento "
+"adequado do pedido de venda e do faturamento."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1714,17 +2047,17 @@ msgstr "No <strong>app Inventário</strong>"
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "Within the Quality<strong> App</strong>"
-msgstr ""
+msgstr "No app <strong>Qualidade</strong>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "Within the Sales app"
-msgstr ""
+msgstr "No app Vendas"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "Within the Subscriptions app"
-msgstr ""
+msgstr "No app Assinaturas"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1748,6 +2081,10 @@ msgid ""
 "provides the situation\n"
 "                    for one specific date, not a date range."
 msgstr ""
+"Você também pode adaptar este filtro alterando a data para ver a projeção de "
+"ocupação\n"
+"futura. Lembre-se de que este filtro fornece a situação\n"
+"de uma data específica, não de um intervalo de datas."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1761,17 +2098,28 @@ msgid ""
 "aligns with your business\n"
 "                        workflow."
 msgstr ""
+"Você pode personalizar as configurações de cada\n"
+"tipo de operação no aplicativo Código de Barras e, assim, controlar o que é "
+"permitido\n"
+"durante o processo. Isso permite que você defina regras específicas para "
+"operações\n"
+"como separação, garantindo que a funcionalidade do código de barras se "
+"alinhe ao fluxo de trabalho da sua empresa."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "You can either validate the pick or manage it using a barcode scanner."
 msgstr ""
+"Você pode validar a separação ou gerenciá-la usando um leitor de código de "
+"barras."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid ""
 "You can either validate the receipt or manage it using a barcode scanner."
 msgstr ""
+"Você pode validar o recebimento ou gerenciá-lo usando um leitor de código de "
+"barras."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1780,6 +2128,9 @@ msgid ""
 "                        streamline your operations with quick scanning "
 "actions."
 msgstr ""
+"Você pode imprimir <b>comandos de código de barras</b> para\n"
+"                        otimizar suas operações com ações rápidas de "
+"digitalização."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1788,16 +2139,19 @@ msgid ""
 "&gt;\n"
 "                    Upgrade your 3PL package and select the relevant checkbox"
 msgstr ""
+"Você não importou os dados de demonstração? Ainda há tempo. Vá para "
+"Aplicativos &gt; Setores &gt;\n"
+"faça upgrade do pacote 3PL e marque a caixa de seleção relevante"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.portal_my_home_products
 msgid "Your Products"
-msgstr ""
+msgstr "Seus produtos"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.ir_ui_view_2473
 msgid "brown wooden shelf on white floor tiles"
-msgstr ""
+msgstr "prateleira de madeira marrom sobre piso branco"
 
 #. module: 3pl_logistic_company
 #: model:ir.model.fields,field_description:3pl_logistic_company.x_operation_type_field_stock_move_line
@@ -1810,6 +2164,8 @@ msgid ""
 "🎓\n"
 "                    Document"
 msgstr ""
+"🎓\n"
+"Documento"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1817,6 +2173,8 @@ msgid ""
 "🎓\n"
 "                Accounting"
 msgstr ""
+"🎓\n"
+"Financeiro"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1824,6 +2182,8 @@ msgid ""
 "🎓\n"
 "                Dashboard"
 msgstr ""
+"🎓\n"
+"Painel"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1831,6 +2191,8 @@ msgid ""
 "🎓\n"
 "                Quality"
 msgstr ""
+"🎓\n"
+"Qualidade"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1838,6 +2200,8 @@ msgid ""
 "🎓\n"
 "                Subscription"
 msgstr ""
+"🎓\n"
+"Assinatura"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1845,6 +2209,8 @@ msgid ""
 "🎓\n"
 "                Website"
 msgstr ""
+"🎓\n"
+"Site"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1852,6 +2218,8 @@ msgid ""
 "🎓\n"
 "            CRM"
 msgstr ""
+"🎓\n"
+"CRM"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1859,6 +2227,8 @@ msgid ""
 "🎓\n"
 "            Import - Export"
 msgstr ""
+"🎓\n"
+"Importação - Exportação"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1873,7 +2243,7 @@ msgstr "🎓 Inventário"
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "🎓 Printer"
-msgstr ""
+msgstr "🎓 Impressora"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1893,4 +2263,104 @@ msgstr "🎓 Assinar"
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "🎓 Third party carrier"
-msgstr ""
+msgstr "🎓 Transportadora terceirizada"
+
+#~ msgid ""
+#~ "If it's the first time invoicing, create a new invoice from the\n"
+#~ "                            previously created <b>Sales Order</b>."
+#~ msgstr ""
+#~ "Se é a primeira vez que emite uma fatura, crie-a a partir do\n"
+#~ "<b>Pedido de Venda</b> criado anteriormente."
+
+#~ msgid ""
+#~ "If you've invoiced this customer before, duplicate the previous invoice."
+#~ msgstr ""
+#~ "Se você já faturou esse cliente anteriormente, duplique a fatura anterior."
+
+#~ msgid ""
+#~ "The <strong>\n"
+#~ "                        <font style=\"color: rgb(113, 75, 103);\">CRM "
+#~ "&amp; Sales Apps</font>\n"
+#~ "                    </strong> handle\n"
+#~ "                    your market research and sales orders"
+#~ msgstr ""
+#~ "Os apps<strong>\n"
+#~ "                        <font style=\"color: rgb(113, 75, 103);\">CRM e "
+#~ "Vendas &amp;</font>\n"
+#~ "                    </strong>                     cuidam de suas "
+#~ "pesquisas de mercado e pedidos de vendas"
+
+#~ msgid ""
+#~ "The <strong>\n"
+#~ "                        <font style=\"color: rgb(113, 75, 103);"
+#~ "\">Dashboard App</font> </strong>gives\n"
+#~ "                    a clear overview of all operations performed for each "
+#~ "client."
+#~ msgstr ""
+#~ "O app <strong>\n"
+#~ "                        <font style=\"color: rgb(113, 75, 103);\">Painel</"
+#~ "font> </strong> oferece\n"
+#~ "                    uma visão geral clara de todas as operações "
+#~ "realizadas para cada cliente."
+
+#~ msgid ""
+#~ "The <strong>\n"
+#~ "                        <font style=\"color: rgb(113, 75, 103);\">Quality "
+#~ "App </font>\n"
+#~ "                    </strong>defines\n"
+#~ "                    the type of Quality checks to perform and register it."
+#~ msgstr ""
+#~ "O app <strong>\n"
+#~ "                        <font style=\"color: rgb(113, 75, 103);\"> "
+#~ "Qualidade</font>\n"
+#~ "                    </strong> define\n"
+#~ "                    os tipos de verificações de qualidade realizadas e as "
+#~ "registra."
+
+#~ msgid ""
+#~ "The <strong>\n"
+#~ "                        <font style=\"color: rgb(113, 75, 103);"
+#~ "\">Subscription App </font>\n"
+#~ "                    </strong>manages\n"
+#~ "                    your fixed spaces reservation for clients"
+#~ msgstr ""
+#~ "O app <strong>\n"
+#~ "                        <font style=\"color: rgb(113, 75, 103);"
+#~ "\">Assinatura </font>\n"
+#~ "                    </strong> gerencia\n"
+#~ "                    as reservas de vagas fixas para clientes"
+
+#~ msgid ""
+#~ "The<strong> </strong><font style=\"color: rgb(113, 75, 103);\">\n"
+#~ "                        <strong>Invoicing App</strong>\n"
+#~ "                    </font> manages the\n"
+#~ "                    periodic invoicing based on the Dashboard data."
+#~ msgstr ""
+#~ "O app <strong> </strong><font style=\"color: rgb(113, 75, 103);\">\n"
+#~ "                        <strong>Faturamento</strong>\n"
+#~ "                    </font> gerencia o\n"
+#~ "                    faturamento periódico com base nos dados do Painel."
+
+#~ msgid ""
+#~ "The<strong> </strong><font style=\"color: rgb(113, 75, 103);\">\n"
+#~ "                        <strong>Website App</strong>\n"
+#~ "                    </font> gives an\n"
+#~ "                    overview of your activity and the portal allows your "
+#~ "client too see their\n"
+#~ "                    stock levels live."
+#~ msgstr ""
+#~ "O app<strong> </strong><font style=\"color: rgb(113, 75, 103);\">\n"
+#~ "                        <strong>Site </strong>\n"
+#~ "                    </font> fornece uma\n"
+#~ "                    visão geral da sua atividade e o portal permite que o "
+#~ "seu cliente veja os seus\n"
+#~ "                    níveis de estoque em tempo real."
+
+#~ msgid ""
+#~ "The<strong> <font class=\"text-o-color-1\">Inventory App</font></strong> "
+#~ "tracks\n"
+#~ "                    and registers all your stock moves."
+#~ msgstr ""
+#~ "O app <strong> <font class=\"text-o-color-1\">Inventário</font></strong> "
+#~ "rastreia\n"
+#~ "e registra todas as movimentações do seu estoque."

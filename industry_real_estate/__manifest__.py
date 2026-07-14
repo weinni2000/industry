@@ -1,6 +1,6 @@
 {
-    'name': 'Estate Management',
-    'version': '1.0',
+    'name': 'Property Management',
+    'version': '1.4',
     'category': 'Services',
     'depends': [
         'base_automation',
@@ -43,9 +43,10 @@
         'data/ir_filters.xml',
         'data/x_meters.xml',
         'data/knowledge_tour.xml',
+        'data/uninstall_hook.xml',
     ],
     'demo': [
-        'demo/res_users.xml',
+        'demo/res_company.xml',
         'demo/x_buildings.xml',
         'demo/account_analytic_account.xml',
         'demo/ir_attachment.xml',
@@ -76,10 +77,12 @@
         "data/knowledge_article.xml",
         "data/website_view.xml",
         "data/website_controller_page.xml",
+        "data/uninstall_hook.xml",
         "static/src/js/my_tour.js",
         "demo/website_view.xml",
     ],
+    'application': True,
     'images': ['images/main.png'],
     'url': "https://www.odoo.com/trial?industry&selected_app=industry_real_estate",
-    'website': "https://www.odoo.com/industries/estate-management",
+    'website': "https://www.odoo.com/industries/property-management",
 }

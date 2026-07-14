@@ -4,13 +4,14 @@
 #
 # "Marta (wacm)" <wacm@odoo.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Bren Driesen <brdri@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-13 08:09+0000\n"
-"PO-Revision-Date: 2025-11-17 11:17+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-04-10 19:04+0000\n"
+"PO-Revision-Date: 2026-01-08 15:01+0000\n"
+"Last-Translator: Bren Driesen <brdri@odoo.com>\n"
 "Language-Team: Polish <https://translate.odoo.com/projects/odoo-19/"
 "elearning_platform/pl/>\n"
 "Language: pl\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
@@ -96,7 +97,7 @@ msgstr ""
 "# wersja DRY\n"
 "names = [\"Ala\", \"Bartek\", \"Karol\"]\n"
 "for name in names:\n"
-"    print(\"Hello,\", name + \"!\")"
+"    print(\"Hej,\", name + \"!\")"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
@@ -146,11 +147,6 @@ msgstr "80 godzin"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
-msgid "85%"
-msgstr "85%"
-
-#. module: elearning_platform
-#: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
 msgid ""
 "<a class=\"o_translate_inline btn btn-primary\" href=\"/slides\">Browse "
 "Courses</a>"
@@ -179,8 +175,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
 "normal\">💡</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Informacyjny\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
+"<i data-oe-aria-label=\"Banner Informacyjny\" class=\"o_editor_banner_icon "
+"mb-3 fst-normal\">💡</i>"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -188,8 +184,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\">✅</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner powodzenie\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\">✅</i>"
+"<i data-oe-aria-label=\"Banner powodzenie\" class=\"o_editor_banner_icon "
+"mb-3 fst-normal\">✅</i>"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -197,8 +193,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\">⚠️</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Ostrzegawczy\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
+"<i data-oe-aria-label=\"Banner Ostrzegawczy\" class=\"o_editor_banner_icon "
+"mb-3 fst-normal\">⚠️</i>"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
@@ -224,8 +220,8 @@ msgid ""
 "<span class=\"display-4-fs\"><strong>Odoo for eLearning Platforms</strong></"
 "span>"
 msgstr ""
-"<span class=\"display-4-fs\"><strong>Odoo dla platform "
-"eLearningowych</strong></span>"
+"<span class=\"display-4-fs\"><strong>Odoo dla platform eLearningowych</"
+"strong></span>"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -738,12 +734,16 @@ msgid ""
 "<strong>if/elif/else</strong> checks the guess against the secret number and "
 "gives feedback."
 msgstr ""
+"<strong>if/elif/else</strong> sprawdza zgadywaną liczbę względem tajnej "
+"liczby i udziela informacji zwrotnej."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid ""
 "<strong>import random</strong> brings in Python’s random number generator."
 msgstr ""
+"<strong>import random</strong> wprowadza generator liczb losowych języka "
+"Python."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
@@ -751,37 +751,42 @@ msgid ""
 "<strong>random.randint(1, 20)</strong> picks a secret number between 1 and "
 "20."
 msgstr ""
+"<strong>random.randint(1, 20)</strong> wybiera tajną liczbę z przedziału od "
+"1 do 20 w procesie kompletacji."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid ""
 "A human might know what to do, but a computer doesn’t. So we break it down:"
 msgstr ""
+"Człowiek może wiedzieć, co należy zrobić, ale komputer nie. Dlatego "
+"rozkładamy to na czynniki pierwsze:"
 
 #. module: elearning_platform
 #: model_terms:product.template,description_ecommerce:elearning_platform.product_template_73
 msgid "A solid foundation to branch into more advanced IT studies"
 msgstr ""
+"Solidna podstawa do podjęcia bardziej zaawansowanych studiów informatycznych"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_42
 msgid "Add 1 slice of cheese."
-msgstr ""
+msgstr "Dodaj 1 plasterek sera."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Add the two variables together."
-msgstr ""
+msgstr "Dodaj dwie zmienne do siebie."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "After a correct guess, ask:"
-msgstr ""
+msgstr "Po prawidłowej odpowiedzi zapytaj:"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
 msgid "Amazing Courses&amp;nbsp;"
-msgstr ""
+msgstr "Niesamowite kursy&amp;nbsp;"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
@@ -795,33 +800,37 @@ msgstr ""
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "Ask the player to enter a guess."
-msgstr ""
+msgstr "Poproś gracza o wpisanie odpowiedzi."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Ask the user for their PIN."
-msgstr ""
+msgstr "Poproś użytkownika o podanie kodu PIN."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Ask the user how much money they want to withdraw."
-msgstr ""
+msgstr "Zapytaj użytkownika, ile pieniędzy chce wypłacić."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid ""
 "At first, it seems simple: <em>“Add two numbers and show the result.”</em>"
 msgstr ""
+"Na pierwszy rzut oka wydaje się to proste: <em>„Dodaj dwie liczby i pokaż "
+"wynik”.</em>"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Bake for 45 minutes."
-msgstr ""
+msgstr "Piec przez 45 minut."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "Before coding, let’s break down the problem (algorithmic thinking):"
 msgstr ""
+"Przed przystąpieniem do kodowania przeanalizujmy problem (myślenie "
+"algorytmiczne):"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
@@ -837,12 +846,12 @@ msgstr ""
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Break it down into steps:"
-msgstr ""
+msgstr "Podziel to na etapy:"
 
 #. module: elearning_platform
 #: model:slide.slide,name:elearning_platform.slide_slide_50
 msgid "Breaking Down Problems into Steps"
-msgstr ""
+msgstr "Rozkładanie problemów na poszczególne etapy"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
@@ -852,26 +861,25 @@ msgid ""
 "problems, writing the actual code becomes far less intimidating. It’s like "
 "translating from everyday goals into a language the computer can execute."
 msgstr ""
-"Rozbijanie problemów na etapy polega na <strong>myśleniu jak "
-"komputer</strong>: precyzyjnym, logicznym i systematycznym. Gdy nauczysz się "
-"rozkładać problemy na części, pisanie kodu stanie się znacznie mniej "
-"onieśmielające. To jak tłumaczenie codziennych celów na język, który "
-"komputer może wykonać."
+"Rozbijanie problemów na etapy polega na <strong>myśleniu jak komputer</"
+"strong>: precyzyjnym, logicznym i systematycznym. Gdy nauczysz się rozkładać "
+"problemy na części, pisanie kodu stanie się znacznie mniej onieśmielające. "
+"To jak tłumaczenie codziennych celów na język, który komputer może wykonać."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
 msgid "Build Skills for Life"
-msgstr ""
+msgstr "Rozwijaj umiejętności na całe życie"
 
 #. module: elearning_platform
 #: model_terms:product.template,description_ecommerce:elearning_platform.product_template_67
 msgid "Build confidence. Build furniture. Build your future. 🪚"
-msgstr ""
+msgstr "Buduj pewność siebie. Buduj meble. Buduj swoją przyszłość. 🪚"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
 msgid "Build the Pieces You’ll Love"
-msgstr ""
+msgstr "Zbuduj elementy, które pokochasz"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -880,16 +888,19 @@ msgid ""
 "create engaging content, attract learners, manage access, and track progress "
 "seamlessly."
 msgstr ""
+"Budowanie i prowadzenie platformy e-learningowej może być złożonym zadaniem: "
+"trzeba tworzyć angażujące treści, przyciągać uczniów, zarządzać dostępem i "
+"płynnie śledzić postępy."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_42
 msgid "But a computer would need:"
-msgstr ""
+msgstr "Ale komputer potrzebowałby:"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "But to write code, we need to expand this into steps:"
-msgstr ""
+msgstr "Aby jednak napisać kod, musimy rozszerzyć to na kolejne kroki:"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
@@ -899,17 +910,17 @@ msgstr "Wskaźnik karuzeli"
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
 msgid "Certification rate"
-msgstr ""
+msgstr "Wskaźnik certyfikacji"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Check if they have enough balance."
-msgstr ""
+msgstr "Sprawdź, czy mają wystarczające saldo."
 
 #. module: elearning_platform
 #: model_terms:product.template,description_ecommerce:elearning_platform.product_template_73
 msgid "Clear explanations of core IT concepts"
-msgstr ""
+msgstr "Jasne wyjaśnienia podstawowych pojęć z zakresu IT"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.ir_ui_view_3213
@@ -919,7 +930,7 @@ msgstr "Kliknij \"Nowy\" w prawym górnym rogu by stworzyć swój pierwszy kurs.
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "Combine all the basics into a working program."
-msgstr ""
+msgstr "Połącz wszystkie podstawowe elementy w działający program."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
@@ -928,16 +939,21 @@ msgid ""
 "<em>what</em> it does. Avoid stating the obvious, but leave notes for tricky "
 "logic."
 msgstr ""
+"Komentarze wyjaśniają <em>dlaczego</em> napisałeś kod w określony sposób, a "
+"nie tylko <em>co</em> on robi. Unikaj stwierdzania oczywistych rzeczy, ale "
+"zostawiaj notatki dotyczące skomplikowanej logiki."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "Compare the guess to the secret number."
-msgstr ""
+msgstr "Porównaj zgadywaną liczbę z tajną liczbą."
 
 #. module: elearning_platform
 #: model_terms:product.template,description_ecommerce:elearning_platform.product_template_73
 msgid "Complete lifetime access to all modules and updates"
 msgstr ""
+"Pełen dostęp do wszystkich modułów i aktualizacji przez cały okres "
+"użytkowania"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_42
@@ -965,10 +981,10 @@ msgid ""
 "the gaps. It needs every single step spelled out, clearly and unambiguously."
 msgstr ""
 "Komputery są potężne, ale brakuje im wyobraźni. Jeśli poprosisz człowieka, "
-"aby „zrobił kawę”, potrafi on domyślić się wszystkich brakujących szczegółów:"
-" zagotować wodę, odmierzyć kawę, nalać ją do kubka itp. Komputer nie potrafi "
-"jednak wypełnić tych luk. Potrzebuje jasnych i jednoznacznych instrukcji "
-"dotyczących każdego kroku."
+"aby „zrobił kawę”, potrafi on domyślić się wszystkich brakujących "
+"szczegółów: zagotować wodę, odmierzyć kawę, nalać ją do kubka itp. Komputer "
+"nie potrafi jednak wypełnić tych luk. Potrzebuje jasnych i jednoznacznych "
+"instrukcji dotyczących każdego kroku."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,description:elearning_platform.slide_slide_42
@@ -992,7 +1008,7 @@ msgstr ""
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "Consistency helps readers recognize patterns. That includes:"
-msgstr ""
+msgstr "Spójność pomaga czytelnikom rozpoznać wzorce. Obejmuje to:"
 
 #. module: elearning_platform
 #: model_terms:slide.channel,enroll_msg:elearning_platform.slide_channel_8
@@ -1002,17 +1018,17 @@ msgstr "Kontakt z osobą odpowiedzialną"
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "Core Principles of Clean Code"
-msgstr ""
+msgstr "Podstawowe zasady czystego kodu"
 
 #. module: elearning_platform
 #: model:slide.slide,name:elearning_platform.slide_slide_44
 msgid "Core Programming Concepts"
-msgstr ""
+msgstr "Podstawowe pojęcia programowania"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
 msgid "Course registrations"
-msgstr ""
+msgstr "Rejestracja na kursy"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -1020,11 +1036,13 @@ msgid ""
 "Create Mail Marketing templates, schedule posts for the right hours, and "
 "expand your userbase."
 msgstr ""
+"Twórz szablony marketingu e-mailowego, planuj publikacje na odpowiednie "
+"godziny i poszerzaj bazę użytkowników."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
 msgid "Create and Customize Courses 🎓"
-msgstr ""
+msgstr "Twórz i dostosowuj kursy 🎓"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
@@ -1032,11 +1050,13 @@ msgid ""
 "Detailed: “Find the smallest number, place it first, repeat until the list "
 "is sorted.”"
 msgstr ""
+"Szczegółowo: „Znajdź najmniejszą liczbę, umieść ją na pierwszym miejscu i "
+"powtarzaj tę czynność, aż lista zostanie posortowana”."
 
 #. module: elearning_platform
 #: model:product.attribute,name:elearning_platform.product_attribute_20
 msgid "Difficulty"
-msgstr ""
+msgstr "Trudność"
 
 #. module: elearning_platform
 #: model_terms:product.template,description_ecommerce:elearning_platform.product_template_67
@@ -1056,12 +1076,12 @@ msgstr ""
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Display a message asking the user for the first number."
-msgstr ""
+msgstr "Wyświetl komunikat z prośbą o podanie pierwszej liczby."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Display the result to the user."
-msgstr ""
+msgstr "Wyświetl wynik użytkownikowi."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -1089,21 +1109,25 @@ msgid ""
 "Each of these steps is clear, ordered, and executable. That’s exactly how "
 "computers need problems expressed."
 msgstr ""
+"Każdy z tych kroków jest jasny, uporządkowany i możliwy do wykonania. "
+"Dokładnie tak komputery potrzebują, aby wyrażano problemy."
 
 #. module: elearning_platform
 #: model:product.attribute.value,name:elearning_platform.product_attribute_value_102
 msgid "Easy"
-msgstr ""
+msgstr "Łatwe"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
 msgid "Easy-to-follow guides that take you from blueprint to build."
 msgstr ""
+"Łatwe do zrozumienia instrukcje, które poprowadzą Cię od projektu do "
+"realizacji."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
 msgid "Email Marketing Documentation"
-msgstr ""
+msgstr "Dokumentacja dotycząca marketingu e-mailowego"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,description:elearning_platform.slide_slide_46
@@ -1162,11 +1186,10 @@ msgstr ""
 "swoje postępy — już teraz dzięki naszemu kursowi „Wprowadzenie do "
 "informatyki — Python”!\n"
 "\n"
-"Link do kursu: https://www.khanacademy.org/computing/"
-"intro-to-python-fundamentals/x5279a44ae0ab15d6:computational-thinking-with-"
-"variables\n"
-"Lista odtwarzania kursu: https://www.youtube.com/playlist?list"
-"=PLSQl0a2vh4HDkbhG0sDW0b-VZXykEIAe5\n"
+"Link do kursu: https://www.khanacademy.org/computing/intro-to-python-"
+"fundamentals/x5279a44ae0ab15d6:computational-thinking-with-variables\n"
+"Lista odtwarzania kursu: https://www.youtube.com/playlist?"
+"list=PLSQl0a2vh4HDkbhG0sDW0b-VZXykEIAe5\n"
 "\n"
 "Khan Academy to organizacja non-profit, której misją jest zapewnienie "
 "bezpłatnej edukacji na światowym poziomie dla każdego, w dowolnym miejscu. "
@@ -1181,11 +1204,11 @@ msgstr ""
 "liczymy na Twoją pomoc!\n"
 "\n"
 "Przekaż darowiznę lub zgłoś się jako wolontariusz już dziś! Przekaż "
-"darowiznę tutaj: https://www.khanacademy.org/"
-"donate?utm_source=youtube&utm_medium=desc \n"
+"darowiznę tutaj: https://www.khanacademy.org/donate?"
+"utm_source=youtube&amp;utm_medium=desc\n"
 "\n"
-"Zgłoś się jako wolontariusz tutaj: https://www.khanacademy.org/"
-"contribute?utm_source=youtube&utm_medium=desc\n"
+"Zgłoś się jako wolontariusz tutaj: https://www.khanacademy.org/contribute?"
+"utm_source=youtube&amp;utm_medium=desc\n"
 "\n"
 "CZAS:\n"
 "00:00 - 00:13 : wprowadzenie\n"
@@ -1197,12 +1220,12 @@ msgstr ""
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Everyday Example: Making Toast"
-msgstr ""
+msgstr "Przykład z życia codziennego: przygotowanie tostów"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "Example Run"
-msgstr ""
+msgstr "Przykładowy przebieg"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
@@ -1210,11 +1233,13 @@ msgid ""
 "Example: A calculator needs <em>two numbers</em> and an <em>operation</em>, "
 "then produces a <em>result</em>."
 msgstr ""
+"Przykład: Kalkulator potrzebuje <em>dwóch liczb</em> i operacji <em></em> , "
+"a następnie generuje wynik <em></em> ."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "Example: Clean vs. Messy Code"
-msgstr ""
+msgstr "Przykład: Czysty kod a nieuporządkowany kod"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
@@ -1222,6 +1247,8 @@ msgid ""
 "Example: In a guessing game, you repeat asking for guesses until the player "
 "is correct."
 msgstr ""
+"Przykład: W grze polegającej na zgadywaniu powtarzasz prośbę o podanie "
+"odpowiedzi, aż gracz udzieli prawidłowej odpowiedzi."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
@@ -1231,7 +1258,7 @@ msgstr "Przeglądaj nasze<br/> kluczowe statystyki"
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
 msgid "Explore our<br/>variety of DIY workshops"
-msgstr ""
+msgstr "Zapoznaj się<br/> z naszą ofertą warsztatów \"zrób to sam\""
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
@@ -1239,6 +1266,8 @@ msgid ""
 "Flowcharts, diagrams, or even bullet points help clarify logic before "
 "writing code."
 msgstr ""
+"Schematy blokowe, diagramy, a nawet wypunktowanie pomagają wyjaśnić logikę "
+"przed napisaniem kodu."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_41
@@ -1259,31 +1288,35 @@ msgid ""
 "library covers a wide range of practical topics designed to keep you "
 "inspired and moving forward."
 msgstr ""
+"Od przyjaznych dla początkujących wprowadzeń po zaawansowane projekty - "
+"nasza stale powiększająca się biblioteka obejmuje szeroki zakres "
+"praktycznych tematów, które inspirują i motywują do dalszego rozwoju."
 
 #. module: elearning_platform
 #: model:product.template,name:elearning_platform.product_template_67
 msgid "Furniture Workshop Essentials"
-msgstr ""
+msgstr "Niezbędne elementy wyposażenia warsztatu stolarskiego"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "Generate a random number between 1 and 20."
-msgstr ""
+msgstr "Wygeneruj losową liczbę z przedziału od 1 do 20."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "Generate random numbers."
-msgstr ""
+msgstr "Wygeneruj losowe liczby."
 
 #. module: elearning_platform
 #: model:slide.slide,name:elearning_platform.slide_slide_40
 msgid "Getting Started with Programming"
-msgstr ""
+msgstr "Pierwsze kroki w programowaniu"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "Good indentation makes it clear where blocks of logic begin and end."
 msgstr ""
+"Dobre wcięcia jasno pokazują, gdzie zaczynają się i kończą bloki logiczne."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
@@ -1306,42 +1339,42 @@ msgstr ""
 #. module: elearning_platform
 #: model_terms:product.template,description_ecommerce:elearning_platform.product_template_67
 msgid "Guidance on tools, safety, and workshop setup"
-msgstr ""
+msgstr "Wskazówki dotyczące narzędzi, bezpieczeństwa i organizacji warsztatu"
 
 #. module: elearning_platform
 #: model:slide.slide,name:elearning_platform.slide_slide_52
 msgid "Guided Exercise: A Number Guessing Game"
-msgstr ""
+msgstr "Ćwiczenie z przewodnikiem: Gra w zgadywanie liczb"
 
 #. module: elearning_platform
 #: model_terms:product.template,description_ecommerce:elearning_platform.product_template_67
 msgid "Hands-on demonstrations of core woodworking techniques"
-msgstr ""
+msgstr "Praktyczne pokazy podstawowych technik obróbki drewna"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "Has proper indentation."
-msgstr ""
+msgstr "Ma odpowiednie wcięcia."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "Helps teams work together."
-msgstr ""
+msgstr "Pomaga zespołom współpracować."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "Here’s the Python version:"
-msgstr ""
+msgstr "Oto wersja w języku Python:"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "High-level: “Sort a list of numbers.”"
-msgstr ""
+msgstr "Wysoki poziom: „Posortuj listę liczb”."
 
 #. module: elearning_platform
 #: model:slide.slide,name:elearning_platform.slide_slide_42
 msgid "How Computers Understand Instructions"
-msgstr ""
+msgstr "Jak komputery rozumieją instrukcje"
 
 #. module: elearning_platform
 #: model:slide.channel.tag,name:elearning_platform.slide_channel_tag_11
@@ -1351,27 +1384,28 @@ msgstr "IT"
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "If not, print an error message."
-msgstr ""
+msgstr "Jeśli nie, wyświetl komunikat o błędzie."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "If the guess is correct, congratulate the player."
-msgstr ""
+msgstr "Jeśli odgadnięcie jest prawidłowe, pogratuluj graczowi."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "If the guess is too high, say “Too high, try again.”"
-msgstr ""
+msgstr "Jeśli wynik jest zbyt wysoki, zwróć „Za wysoko, spróbuj ponownie”."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "If the guess is too low, say “Too low, try again.”"
 msgstr ""
+"Jeśli odgadnięcie jest zbyt niskie, powiedz „Za nisko, spróbuj ponownie”."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "If yes, subtract the amount and print a success message."
-msgstr ""
+msgstr "Jeśli tak, odejmij kwotę i wyświetl komunikat o powodzeniu."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
@@ -1379,6 +1413,8 @@ msgid ""
 "If you find yourself copying and pasting code, it’s usually better to create "
 "a function or loop."
 msgstr ""
+"Jeśli zdarza Ci się kopiować i wklejać kod, zazwyczaj lepiej jest utworzyć "
+"funkcję lub pętlę."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -1395,6 +1431,9 @@ msgid ""
 "Imagine buying a bookshelf from IKEA. The instruction manual doesn’t just "
 "say, <em>“Build a bookshelf.”</em> Instead, it shows dozens of smaller steps:"
 msgstr ""
+"Wyobraź sobie, że kupujesz regał w IKEA. Instrukcja obsługi nie zawiera "
+"tylko informacji „Złóż regał”. <em>„</em> ” Zamiast tego zawiera dziesiątki "
+"mniejszych kroków:"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
@@ -1420,6 +1459,11 @@ msgid ""
 "in your washing machine. Learning to program is about learning to control "
 "that hidden world of machines to solve problems or create new things."
 msgstr ""
+"W prawdziwym życiu programowanie napędza wszystko, co nas otacza: aplikację, "
+"której używasz do zamawiania jedzenia, oprogramowanie sterujące autopilotem "
+"samolotu, a nawet mały chip w Twojej pralce. Nauka programowania polega na "
+"nauce kontrolowania tego ukrytego świata maszyn, aby rozwiązywać problemy "
+"lub tworzyć nowe rzeczy."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,description:elearning_platform.slide_slide_48
@@ -1592,32 +1636,32 @@ msgstr ""
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "Includes a docstring (a short explanation)."
-msgstr ""
+msgstr "Zawiera docstring (krótkie wyjaśnienie)."
 
 #. module: elearning_platform
 #: model:slide.slide,name:elearning_platform.slide_slide_47
 msgid "Input & Output Basics"
-msgstr ""
+msgstr "Podstawy dotyczące danych wejściowych i wyjściowych"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Insert screw type X into hole Y."
-msgstr ""
+msgstr "Wkręć śrubę typu X w otwór Y."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Insert the bread into the toaster slot."
-msgstr ""
+msgstr "Włóż chleb do szczeliny tostera."
 
 #. module: elearning_platform
 #: model:product.template,name:elearning_platform.product_template_73
 msgid "Intro to IT"
-msgstr ""
+msgstr "Wprowadzenie do informatyki"
 
 #. module: elearning_platform
 #: model:slide.channel,name:elearning_platform.slide_channel_8
 msgid "Intro to Programming"
-msgstr ""
+msgstr "Wprowadzenie do programowania"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
@@ -1642,14 +1686,14 @@ msgstr ""
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "Keep a counter and display it at the end:"
-msgstr ""
+msgstr "Prowadź licznik i wyświetl go na końcu:"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "Key Takeaway"
-msgstr ""
+msgstr "Kluczowe wnioski"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
@@ -1666,17 +1710,17 @@ msgstr ""
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
 msgid "Learn by Doing"
-msgstr ""
+msgstr "Ucz się poprzez praktykę"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
 msgid "Learn the essentials of soil, seeds, and care."
-msgstr ""
+msgstr "Poznaj podstawowe informacje na temat gleby, nasion i pielęgnacji."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.ir_ui_view_3213
 msgid "Learn. Build. Thrive."
-msgstr ""
+msgstr "Ucz się. Twórz. Rozwijaj się."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
@@ -1685,43 +1729,48 @@ msgid ""
 "the majority of our learners successfully complete their courses and earn "
 "valuable certifications."
 msgstr ""
+"Nauka, która przynosi efekty. Dzięki praktycznym lekcjom i wsparciu "
+"instruktorów większość naszych uczniów pomyślnie kończy kursy i zdobywa "
+"cenne certyfikaty."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid ""
 "Let the player choose the minimum and maximum range for the secret number."
-msgstr ""
+msgstr "Pozwól graczowi wybrać minimalny i maksymalny zakres tajnej liczby."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "Let the player only guess 5 times before the game ends."
-msgstr ""
+msgstr "Pozwól graczowi na 5 prób odgadnięcia przed zanim gra dobiegnie końca."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Let’s illustrate this with a simple example."
-msgstr ""
+msgstr "Zilustrujmy na prostym przykładzie."
 
 #. module: elearning_platform
 #: model:product.tag,name:elearning_platform.product_tag_2
 msgid "Lifetime Access"
-msgstr ""
+msgstr "Dostęp na całe życie"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
 msgid "Looking for a place to learn? We’ve got you covered!<br/><br/>"
-msgstr ""
+msgstr "Szukasz miejsca do nauki? Mamy dla Ciebie idealną ofertę!<br/><br/>"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "Makes it easier to add new features."
-msgstr ""
+msgstr "Ułatwia dodawanie nowych funkcji."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid ""
 "Makes learning and revisiting projects enjoyable instead of frustrating."
 msgstr ""
+"Sprawia, że nauka i powtarzanie projektów staje się przyjemnością, a nie "
+"frustracją."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
@@ -1729,16 +1778,18 @@ msgid ""
 "Many problems involve loops (repeating steps) or conditions (if something "
 "happens, do this)."
 msgstr ""
+"Wiele problemów dotyczy pętli (powtarzających się kroków) lub warunków "
+"(jeśli coś się wydarzy, wykonaj tę czynność)."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Mix flour, sugar, and eggs in a bowl."
-msgstr ""
+msgstr "Wymieszaj mąkę, cukier i jajka w misce."
 
 #. module: elearning_platform
 #: model:slide.slide,name:elearning_platform.slide_slide_49
 msgid "Module 5: Problem-Solving with Code"
-msgstr ""
+msgstr "Moduł 5: Rozwiązywanie problemów za pomocą kodu"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -1749,6 +1800,11 @@ msgid ""
 "for training\n"
 "            purposes."
 msgstr ""
+"Zarabiaj na swoich kursach, publikując je w sklepie internetowym na stronie "
+"Odoo. Uczestnicy mogą przeglądać Twój katalog, kupować kursy i automatycznie "
+"uzyskiwać do nich dostęp. Pracownicy wewnętrzni mogą otrzymać bezpłatny "
+"dostęp, jeśli kursy są wykorzystywane do celów \n"
+"szkoleniowych."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.ir_ui_view_3213
@@ -1760,11 +1816,13 @@ msgstr "Więcej informacji"
 msgid ""
 "Most people will infer the steps: get bread, add fillings, and serve it."
 msgstr ""
+"Większość ludzi wywnioskuje kolejne kroki: kupić chleb, dodać nadzienie i "
+"podać."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.ir_ui_view_3213
 msgid "Most popular courses"
-msgstr "Najpopularniejsze Kursy"
+msgstr "Najpopularniejsze kursy"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.ir_ui_view_3213
@@ -1774,12 +1832,12 @@ msgstr "Moje kursy"
 #. module: elearning_platform
 #: model:product.tag,name:elearning_platform.product_tag_4
 msgid "Nature & Gardening"
-msgstr ""
+msgstr "Przyroda i ogrodnictwo"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.ir_ui_view_3213
 msgid "Newest courses"
-msgstr "Najnowsze Kursy"
+msgstr "Najnowsze kursy"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
@@ -1789,7 +1847,7 @@ msgstr "Następny"
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.ir_ui_view_3213
 msgid "No Course created yet."
-msgstr "Brak utworzonych Kursów"
+msgstr "Brak utworzonych kursów."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,description:elearning_platform.slide_slide_43
@@ -1809,8 +1867,8 @@ msgid ""
 "bread”), the whole process would fail. Programming is exactly like this — "
 "the level of precision matters."
 msgstr ""
-"Zwróć uwagę, jak szczegółowe są te kroki. Jeśli pominiesz jeden z nich (np. „"
-"włóż chleb”), cały proces zakończy się niepowodzeniem. Programowanie działa "
+"Zwróć uwagę, jak szczegółowe są te kroki. Jeśli pominiesz jeden z nich (np. "
+"„włóż chleb”), cały proces zakończy się niepowodzeniem. Programowanie działa "
 "dokładnie tak samo — poziom precyzji ma ogromne znaczenie."
 
 #. module: elearning_platform
@@ -1819,6 +1877,8 @@ msgid ""
 "Notice that we’re not writing code yet—we’re just describing the steps. This "
 "practice makes coding much easier later on."
 msgstr ""
+"Zauważ, że nie piszemy jeszcze kodu — opisujemy tylko poszczególne kroki. "
+"Dzięki temu później kodowanie będzie znacznie łatwiejsze."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
@@ -1840,6 +1900,8 @@ msgid ""
 "Now let’s apply this mindset to coding. Suppose we want a program that adds "
 "two numbers given by the user."
 msgstr ""
+"Teraz zastosujmy to podejście do kodowania. Załóżmy, że chcemy stworzyć "
+"program, który dodaje dwie liczby podane przez użytkownika."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -1849,6 +1911,11 @@ msgid ""
 "Odoo empowers you to deliver exceptional learning experiences while keeping\n"
 "            administration efficient and scalable."
 msgstr ""
+"Odoo łączy wszystkie te elementy w jednym zintegrowanym rozwiązaniu. Dzięki "
+"zaawansowanym aplikacjom do tworzenia kursów, sprzedaży, marketingu i "
+"angażowania studentów, Odoo umożliwia zapewnienie wyjątkowych doświadczeń "
+"edukacyjnych przy zachowaniu\n"
+"            efektywności i skalowalności administracji."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -1861,21 +1928,24 @@ msgid ""
 "Odoo’s flexibility doesn’t stop at eLearning. Expand your platform with "
 "additional apps to cover the full spectrum of your operations:"
 msgstr ""
+"Elastyczność Odoo nie ogranicza się do e-learningu. Rozbuduj swoją platformę "
+"o dodatkowe aplikacje, aby objąć pełen zakres swojej działalności:"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Once we have these steps, turning them into code is straightforward:"
-msgstr ""
+msgstr "Kiedy już mamy te kroki, przekształcenie ich w kod jest proste:"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "Once you get the basic version working, try adding improvements:"
 msgstr ""
+"Gdy podstawowa wersja będzie już działać, spróbuj wprowadzić ulepszenia:"
 
 #. module: elearning_platform
 #: model:slide.slide,name:elearning_platform.slide_slide_46
 msgid "Operators & Expressions"
-msgstr ""
+msgstr "Operatory i wyrażenia"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
@@ -1893,53 +1963,53 @@ msgstr ""
 #. module: elearning_platform
 #: model:slide.slide,name:elearning_platform.slide_slide_43
 msgid "Overview of Popular Programming Languages"
-msgstr ""
+msgstr "Przegląd popularnych języków programowania"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_42
 msgid "Place 1 slice on a plate."
-msgstr ""
+msgstr "Połóż 1 plasterek na talerzu."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Place it on a plate."
-msgstr ""
+msgstr "Połóż to na talerzu."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_42
 msgid "Place the second slice of bread on top."
-msgstr ""
+msgstr "Połóż drugą kromkę chleba na wierzchu."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Pour the batter into a baking tin."
-msgstr ""
+msgstr "Wlej ciasto do formy do pieczenia."
 
 #. module: elearning_platform
 #: model_terms:product.template,description_ecommerce:elearning_platform.product_template_73
 msgid "Practical exercises for real-world understanding"
-msgstr ""
+msgstr "Praktyczne ćwiczenia dla zrozumienia rzeczywistego świata"
 
 #. module: elearning_platform
 #: model_terms:product.template,description_ecommerce:elearning_platform.product_template_67
 msgid "Practical projects to apply your skills"
-msgstr ""
+msgstr "Praktyczne projekty pozwalające wykorzystać Twoje umiejętności"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "Practice Exercise"
-msgstr ""
+msgstr "Ćwiczenie praktyczne"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Preheat the oven to 180°C."
-msgstr ""
+msgstr "Rozgrzej piekarnik do 180°C."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Press the toaster lever down."
-msgstr ""
+msgstr "Naciśnij dźwignię tostera w dół."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
@@ -1947,6 +2017,8 @@ msgid ""
 "Pretend you are the computer and follow the steps. If you can’t complete the "
 "task, neither can your program."
 msgstr ""
+"Udawaj, że jesteś komputerem i wykonaj poniższe czynności. Jeśli nie możesz "
+"wykonać zadania, Twój program również nie może tego zrobić."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
@@ -1956,12 +2028,12 @@ msgstr "Poprzedni"
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "Produces the same result but is far easier to read."
-msgstr ""
+msgstr "Daje ten sam wynik, ale jest znacznie łatwiejszy do odczytania."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Programming Example: Adding Two Numbers"
-msgstr ""
+msgstr "Przykład programowania: dodawanie dwóch liczb"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_41
@@ -2005,16 +2077,21 @@ msgid ""
 "them down into smaller, logical steps</strong> that the computer can follow. "
 "This is one of the most important skills you’ll develop as a programmer."
 msgstr ""
+"Programowanie to nie tylko pisanie kodu — to rozwiązywanie problemów. "
+"Kluczem do rozwiązywania problemów za pomocą komputera jest nauczenie się, "
+"jak <strong>rozbić je na mniejsze, logiczne kroki</strong>, które komputer "
+"może wykonać. Jest to jedna z najważniejszych umiejętności, które rozwiniesz "
+"jako programista."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
 msgid "Promote and Engage Learners 📣"
-msgstr ""
+msgstr "Promuj i angażuj uczniów 📣"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "Provide meaningful feedback with if/else."
-msgstr ""
+msgstr "Przekaż konstruktywną informację zwrotną za pomocą instrukcji if/else."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
@@ -2022,6 +2099,8 @@ msgid ""
 "Python enforces indentation, but even in other languages, structured "
 "indentation improves readability."
 msgstr ""
+"Python wymusza stosowanie wcięć, ale nawet w innych językach strukturalne "
+"wcięcia poprawiają czytelność."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -2037,66 +2116,75 @@ msgid ""
 "principle, you’ll make your code easier to read, easier to debug, and easier "
 "to share with others."
 msgstr ""
+"Czytelny kod nie jest luksusem — to konieczność. Wraz z rozwojem projektów "
+"nieuporządkowany kod staje się koszmarem, podczas gdy przejrzysty kod "
+"pozostaje łatwy w zarządzaniu. Dzięki zastosowaniu znaczących nazw, "
+"odpowiedniego wcięcia, pomocnych komentarzy i zasady DRY sprawisz, że Twój "
+"kod będzie łatwiejszy do odczytania, łatwiejszy do debugowania i łatwiejszy "
+"do udostępniania innym."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "Readable code:"
-msgstr ""
+msgstr "Czytelny kod:"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "Real-Life Analogy: A Recipe Book"
-msgstr ""
+msgstr "Analogia z życia codziennego: książka kucharska"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Real-Life Analogy: Building IKEA Furniture"
-msgstr ""
+msgstr "Analogia z życia codziennego: montaż mebli IKEA"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Remove the toast."
-msgstr ""
+msgstr "Wyjmij tosty."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Repeat for the other side."
-msgstr ""
+msgstr "Powtórz tę czynność dla drugiej strony."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Repeat steps 1–3 for the second number."
-msgstr ""
+msgstr "Powtórz kroki 1–3 dla drugiego numeru."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "Repeat steps 2–3 until the correct guess is made."
-msgstr ""
+msgstr "Powtarzaj kroki 2–3, aż trafisz prawidłową odpowiedź."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "Rewrite the following messy code to make it clean and readable:"
 msgstr ""
+"Przepisz poniższy nieuporządkowany kod, aby był przejrzysty i czytelny:"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "Saves time when fixing bugs."
-msgstr ""
+msgstr "Oszczędza czas podczas naprawiania błędów."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.ir_ui_view_3213
 msgid "Search courses"
-msgstr "Szukaj Kursów"
+msgstr "Szukaj kursów"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
 msgid "Sell Courses Online 🛒"
-msgstr ""
+msgstr "Sprzedawaj kursy online 🛒"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "Simple, direct code is easier to understand and less error-prone."
 msgstr ""
+"Prosty, bezpośredni kod jest łatwiejszy do zrozumienia i mniej podatny na "
+"błędy."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.ir_ui_view_3213
@@ -2104,13 +2192,13 @@ msgid ""
 "Skill up and have an impact! Your business career starts here.<br/>Time to "
 "start a course."
 msgstr ""
-"Zdobądź umiejętności i miej wpływ! Twoja kariera biznesowa zaczyna się "
+"Zdobądź umiejętności i wywrzyj wpływ! Twoja kariera biznesowa zaczyna się "
 "tutaj.<br/> Czas rozpocząć kurs."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
 msgid "Social Marketing Documentation"
-msgstr ""
+msgstr "Dokumentacja dotycząca Mediów Społecznościowych"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -2127,12 +2215,12 @@ msgstr ""
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_42
 msgid "Spread 1 tablespoon of butter on the bread."
-msgstr ""
+msgstr "Posmaruj chleb 1 łyżką masła."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Stand the bookshelf upright."
-msgstr ""
+msgstr "Postaw regał w pozycji pionowej."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.ir_ui_view_3213
@@ -2142,22 +2230,22 @@ msgstr "Rozpocznij kurs online już dziś!"
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "Step 1: Plan the Steps"
-msgstr ""
+msgstr "Krok 1: Zaplanuj kolejne kroki"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "Step 2: Write the Code"
-msgstr ""
+msgstr "Krok 2: Napisz kod"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "Step 3: How It Works"
-msgstr ""
+msgstr "Krok 3: Jak to działa"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "Step 4: Extend the Game (Optional Challenges)"
-msgstr ""
+msgstr "Krok 4: Rozszerzenie gry (opcjonalne wyzwania)"
 
 #. module: elearning_platform
 #: model_terms:product.template,description_ecommerce:elearning_platform.product_template_73
@@ -2168,27 +2256,35 @@ msgid ""
 "and online security, you’ll gain the essential knowledge to feel confident "
 "in today’s tech-driven world."
 msgstr ""
+"Wkrocz do świata technologii dzięki kursowi <em>Wprowadzenie do informatyki</"
+"em>. Jest to kurs przyjazny dla początkujących, którego celem jest "
+"wyjaśnienie zagadnień związanych z komputerami, sieciami i systemami "
+"cyfrowymi. Od podstaw sprzętu komputerowego i systemów operacyjnych po "
+"aplikacje i bezpieczeństwo w Internecie — zdobędziesz niezbędną wiedzę, aby "
+"czuć się pewnie w dzisiejszym świecie opartym na technologii."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid ""
 "Sticking to a logical order (imports at the top, functions grouped together)."
 msgstr ""
+"Trzymaj się logicznego porządku (importy na górze, funkcje pogrupowane "
+"razem)."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Store that number in a variable."
-msgstr ""
+msgstr "Zapisz tę liczbę w zmiennej."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Store the result in another variable."
-msgstr ""
+msgstr "Zapisz wynik w innej zmiennej."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Strategies for Breaking Down Problems"
-msgstr ""
+msgstr "Strategie rozwiązywania problemów"
 
 #. module: elearning_platform
 #: model:product.tag,name:elearning_platform.product_tag_3
@@ -2198,22 +2294,22 @@ msgstr "Plan subskrypcji"
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_42
 msgid "Take 2 slices of bread."
-msgstr ""
+msgstr "Weź 2 kromki chleba."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Take board A and attach it to board B."
-msgstr ""
+msgstr "Weź deskę A i przymocuj ją do deski B."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Take out a slice of bread."
-msgstr ""
+msgstr "Wyjmij kromkę chleba."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_42
 msgid "Take this simple example in Python:"
-msgstr ""
+msgstr "Weźmy ten prosty przykład w języku Python:"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
@@ -2222,9 +2318,9 @@ msgid ""
 "(<em>a complete bookshelf</em>) and dividing it into smaller, executable "
 "actions (<em>attach this board, insert this screw</em>)."
 msgstr ""
-"Właśnie tym jest programowanie — podział dużego, onieśmielającego celu ("
-"<em>kompletna półka na książki</em>) na mniejsze, wykonalne czynności ("
-"<em>przymocuj tę płytkę, wkręć tę śrubę</em>)."
+"Właśnie tym jest programowanie — podział dużego, onieśmielającego celu "
+"(<em>kompletna półka na książki</em>) na mniejsze, wykonalne czynności "
+"(<em>przymocuj tę płytkę, wkręć tę śrubę</em>)."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
@@ -2245,11 +2341,13 @@ msgid ""
 "The <strong>while loop</strong> keeps running until the player guesses "
 "correctly."
 msgstr ""
+"<strong>Pętla while</strong> działa do momentu, aż gracz poda prawidłową "
+"odpowiedź."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "The Goal"
-msgstr ""
+msgstr "Cel"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
@@ -2257,16 +2355,18 @@ msgid ""
 "The best code is often the simplest solution that works. Avoid “clever "
 "hacks” that confuse future readers."
 msgstr ""
+"Najlepszy kod to często najprostsze rozwiązanie, które działa. Unikaj "
+"„sprytnych hacków”, które mogą zmylić przyszłych czytelników."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "The clean version:"
-msgstr ""
+msgstr "Wersja czysta:"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "The computer chooses a random number."
-msgstr ""
+msgstr "Komputer wybiera losową liczbę."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -2278,6 +2378,12 @@ msgid ""
 "            gamification to boost learner motivation. Assign course managers "
 "to keep content up to date and responsive to feedback."
 msgstr ""
+"Aplikacja eLearning stanowi podstawę szkoleń cyfrowych. Umożliwia tworzenie "
+"kursów z wykorzystaniem treści multimedialnych, takich jak filmy, artykuły "
+"lub materiały do pobrania. Dodaj elementy interaktywne, takie jak quizy, "
+"certyfikaty i\n"
+"            grywalizację aby zwiększyć motywację uczniów. Wyznacz menedżerów "
+"kursów, którzy będą aktualizować treści i reagować na opinie."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
@@ -2287,6 +2393,11 @@ msgid ""
 "a working program. By experimenting with extensions, you’ll also practice "
 "adapting and improving code, which is the true skill of programming."
 msgstr ""
+"Zabawa w zgadywanie liczb to coś więcej niż tylko rozrywka — to praktyczny "
+"sposób, aby zobaczyć, jak zmienne, pętle, warunki i dane wejściowe/wyjściowe "
+"łączą się, tworząc działający program. Eksperymentując z rozszerzeniami, "
+"nauczysz się również dostosowywać i ulepszać kod, co jest prawdziwą "
+"umiejętnością programowania."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_41
@@ -2297,11 +2408,16 @@ msgid ""
 "about problems, break them into smaller steps, and express those steps in "
 "code."
 msgstr ""
+"Wynik tutaj to <strong>8</strong>, ale zwróć uwagę, jak szczegółowe są "
+"instrukcje. Programowanie nie polega tyle na złożoności matematyki, ile na "
+"przejrzystości i logice. Rolą programisty jest dokładne przemyślenie "
+"problemów, podzielenie ich na mniejsze etapy i wyrażenie tych etapów w "
+"kodzie."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "The player tries to guess it."
-msgstr ""
+msgstr "Gracz próbuje to odgadnąć."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
@@ -2309,6 +2425,8 @@ msgid ""
 "The program gives hints (“too high” or “too low”) until the player guesses "
 "correctly."
 msgstr ""
+"Program podaje podpowiedzi („za wysokie” lub „za niskie”) aż do momentu, gdy "
+"gracz poda prawidłową odpowiedź."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_43
@@ -2327,6 +2445,8 @@ msgid ""
 "There are many programming languages, each designed for different kinds of "
 "tasks."
 msgstr ""
+"Istnieje wiele języków programowania, z których każdy jest przeznaczony do "
+"różnych rodzajów zadań."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
@@ -2342,7 +2462,7 @@ msgstr ""
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "Think of comments as a guidebook for anyone reading your code."
-msgstr ""
+msgstr "Traktuj komentarze jako przewodnik dla każdego, kto czyta Twój kod."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
@@ -2350,6 +2470,8 @@ msgid ""
 "Think of it like following a recipe. Instead of just saying, <em>“Bake a "
 "cake,”</em> the recipe tells you:"
 msgstr ""
+"Pomyśl o tym jak o przestrzeganiu przepisu kulinarnego. Zamiast po prostu "
+"powiedzieć <em>„Upiecz ciasto”</em>, przepis podaje Ci instrukcje:"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
@@ -2383,16 +2505,18 @@ msgstr ""
 msgid ""
 "This makes your code shorter, easier to change, and less prone to mistakes."
 msgstr ""
+"Dzięki temu kod jest krótszy, łatwiejszy do zmiany i mniej podatny na błędy."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "This simple game teaches you how to:"
-msgstr ""
+msgstr "Ta prosta gra nauczy Cię, jak:"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_42
 msgid "To illustrate how precise computers are, imagine telling a human:"
 msgstr ""
+"Aby zilustrować precyzję komputerów, wyobraź sobie, że mówisz człowiekowi:"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_42
@@ -2417,47 +2541,50 @@ msgstr "Przełącz nawigację"
 #. module: elearning_platform
 #: model:product.template,description_sale:elearning_platform.product_template_67
 msgid "Turn your ideas into beautiful, functional furniture."
-msgstr ""
+msgstr "Zamień swoje pomysły w piękne, funkcjonalne meble."
 
 #. module: elearning_platform
 #: model_terms:product.template,description_ecommerce:elearning_platform.product_template_67
 msgid "Unlimited lifetime access to all lessons and resources"
 msgstr ""
+"Nieograniczony dostęp do wszystkich lekcji i zasobów przez cały okres "
+"użytkowania"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "Use loops to repeat until a condition is met."
-msgstr ""
+msgstr "Użyj pętli, aby powtarzać operację do momentu spełnienia warunku."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "Uses descriptive variable names."
-msgstr ""
+msgstr "Używa opisowych nazw zmiennych."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "Using spacing to make code visually clear."
-msgstr ""
+msgstr "Wykorzystanie odstępów w celu uzyskania przejrzystości kodu."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "Using the same naming style (e.g., snake_case in Python)."
-msgstr ""
+msgstr "Używanie tego samego stylu nazewnictwa (np. snake_case w Pythonie)."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "Variable and function names should describe what they store or do."
 msgstr ""
+"Nazwy zmiennych i funkcji powinny opisywać to, co przechowują lub robią."
 
 #. module: elearning_platform
 #: model:slide.slide,name:elearning_platform.slide_slide_45
 msgid "Variables & Data Types"
-msgstr ""
+msgstr "Zmienne i typy danych"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Verify the PIN."
-msgstr ""
+msgstr "Zweryfikuj kod PIN."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.ir_ui_view_3213
@@ -2472,22 +2599,22 @@ msgstr "Wyświetl wszystko"
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Wait for the user to type a number."
-msgstr ""
+msgstr "Poczekaj, aż użytkownik wpisze liczbę."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Wait until the bread pops up."
-msgstr ""
+msgstr "Poczekaj, aż chleb wyskoczy."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Walk to the cupboard."
-msgstr ""
+msgstr "Podejdź do szafki."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Walk to the toaster."
-msgstr ""
+msgstr "Podejdź do tostera."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
@@ -2523,17 +2650,17 @@ msgstr ""
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "What information does the program need to start?"
-msgstr ""
+msgstr "Jakie informacje są potrzebne do uruchomienia programu?"
 
 #. module: elearning_platform
 #: model:slide.slide,name:elearning_platform.slide_slide_41
 msgid "What is Programming?"
-msgstr ""
+msgstr "Czym jest programowanie?"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "What should it produce at the end?"
-msgstr ""
+msgstr "Co powinno powstać na końcu?"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
@@ -2541,6 +2668,8 @@ msgid ""
 "When facing a bigger programming challenge, here are some strategies to "
 "decompose it:"
 msgstr ""
+"W przypadku większych wyzwań programistycznych, oto kilka strategii "
+"pozwalających je rozłożyć na czynniki pierwsze:"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
@@ -2548,6 +2677,7 @@ msgid ""
 "When names are descriptive, you can often understand the code without extra "
 "comments."
 msgstr ""
+"Gdy nazwy są opisowe, często można zrozumieć kod bez dodatkowych komentarzy."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_42
@@ -2577,12 +2707,12 @@ msgstr ""
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Why Break Problems Into Steps?"
-msgstr ""
+msgstr "Dlaczego warto dzielić problemy na etapy?"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "Why Code Readability Matters"
-msgstr ""
+msgstr "Dlaczego czytelność kodu ma znaczenie"
 
 #. module: elearning_platform
 #: model_terms:product.template,description_ecommerce:elearning_platform.product_template_73
@@ -2605,6 +2735,11 @@ msgid ""
 "you dream of building your first chair or refining your workshop skills, "
 "this course gives you the solid foundation to create pieces that last."
 msgstr ""
+"Dzięki <strong>dożywotniemu dostępowi</strong> do kursu będziesz mieć "
+"swobodę nauki we własnym tempie i powracania do technik, gdy tylko zajdzie "
+"potrzeba odświeżenia wiedzy. Niezależnie od tego, czy marzysz o zbudowaniu "
+"swojego pierwszego krzesła, czy też doskonaleniu umiejętności warsztatowych, "
+"ten kurs zapewni Ci solidne podstawy do tworzenia trwałych dzieł."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -2612,6 +2747,8 @@ msgid ""
 "With Odoo, your eLearning platform becomes more than a course library—it "
 "becomes a fully integrated digital academy."
 msgstr ""
+"Dzięki Odoo Twoja platforma e-learningowa staje się czymś więcej niż "
+"biblioteką kursów — staje się w pełni zintegrowaną akademią cyfrową."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
@@ -2619,6 +2756,8 @@ msgid ""
 "Without breaking it down first, it’s easy to miss something important (like "
 "converting text input into numbers)."
 msgstr ""
+"Bez uprzedniego rozbicia na części łatwo przeoczyć coś ważnego (np. "
+"konwersję tekstu na liczby)."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -2633,16 +2772,17 @@ msgstr ""
 msgid ""
 "Write the high-level steps first, then expand them into detailed sub-steps."
 msgstr ""
+"Najpierw zapisz ogólne kroki, a następnie rozwiń je na szczegółowe podkroki."
 
 #. module: elearning_platform
 #: model:slide.slide,name:elearning_platform.slide_slide_51
 msgid "Writing Clean, Readable Code"
-msgstr ""
+msgstr "Pisanie przejrzystego, czytelnego kodu"
 
 #. module: elearning_platform
 #: model:slide.slide,name:elearning_platform.slide_slide_48
 msgid "Writing Your First Simple Program"
-msgstr ""
+msgstr "Pisanie pierwszego prostego programu"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,description:elearning_platform.slide_slide_45
@@ -2650,6 +2790,8 @@ msgid ""
 "Writing a basic program.  Basics of data types, variables and conditional "
 "statements"
 msgstr ""
+"Pisanie podstawowego programu.  Podstawy typów danych, zmiennych i "
+"instrukcji warunkowych."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -2664,17 +2806,17 @@ msgstr "Możesz teraz wziąć udział w naszym eLearningu."
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
 msgid "Your Green Thumb Starts Here"
-msgstr ""
+msgstr "Twoja pasja do ogrodnictwa zaczyna się tutaj"
 
 #. module: elearning_platform
 #: model:product.template,description_sale:elearning_platform.product_template_73
 msgid "Your first step into the world of IT"
-msgstr ""
+msgstr "Twój pierwszy krok w świecie IT"
 
 #. module: elearning_platform
 #: model_terms:product.template,description_ecommerce:elearning_platform.product_template_73
 msgid "Your gateway to the digital world starts here. 💻"
-msgstr ""
+msgstr "Twoja brama do cyfrowego świata zaczyna się tutaj. 💻"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_41
@@ -2684,6 +2826,10 @@ msgid ""
 "sum = a + b\n"
 "print(sum)"
 msgstr ""
+"a = 5\n"
+"b = 3\n"
+"sum = a + b\n"
+"print(sum)"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
@@ -2693,6 +2839,10 @@ msgid ""
 "c=a*b\n"
 "print(c)"
 msgstr ""
+"a=5\n"
+"b=10\n"
+"c=a*b\n"
+"print(c)"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.ir_ui_view_3213
@@ -2707,6 +2857,10 @@ msgid ""
 "    result = num1 + num2\n"
 "    print(\"The sum is:\", result)"
 msgstr ""
+"def add_numbers(num1, num2):\n"
+"    \"\"\"Dodaj dwie liczby i wyświetl wynik.\"\"\"\n"
+"    result = num1 + num2\n"
+"    print(\"Suma wynosi:\", result)"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
@@ -2715,16 +2869,19 @@ msgid ""
 " z=x+y\n"
 " print(z)"
 msgstr ""
+"def f(x,y):\n"
+" z=x+y\n"
+" print(z)"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
 msgid "eCommerce Documentation"
-msgstr ""
+msgstr "Dokumentacja eCommerce"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
 msgid "eLearning<strong/> Documentation"
-msgstr ""
+msgstr "Dokumentacja eLearning<strong/>"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
@@ -2734,6 +2891,10 @@ msgid ""
 "else:\n"
 "    print(\"Try again.\")"
 msgstr ""
+"if score &gt;= 50:\n"
+"    print(\"Zdałeś!\")\n"
+"else:\n"
+"    print(\"Spróbuj ponownie.\")"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
@@ -2757,6 +2918,24 @@ msgid ""
 "    else:\n"
 "        print(\"🎉 Congratulations! You guessed the number!\")"
 msgstr ""
+"import random\n"
+"\n"
+"print(\"Witamy w grze w zgadywanie liczb!\")\n"
+"\n"
+"# Krok 1: Wygeneruj losową liczbę z przedziału od 1 do 20.\n"
+"secret_number = random.randint(1, 20)\n"
+"guess = None\n"
+"\n"
+"# Krok 2: Pytaj gracza, dopóki nie zgadnie prawidłowej liczby.\n"
+"while guess != secret_number:\n"
+"    guess = int(input(\"Wpisz swoją liczbę (1–20): \"))\n"
+"    \n"
+"    if guess &lt; secret_number:\n"
+"        print(\"Za nisko, spróbuj ponownie!\")\n"
+"    elif guess &gt; secret_number:\n"
+"        print(\"Za wysoko, spróbuj ponownie!\")\n"
+"    else:\n"
+"        print(\"🎉 Gratulacje! Odgadłeś liczbę!\")"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
@@ -2767,11 +2946,16 @@ msgid ""
 "result = num1 + num2\n"
 "print(\"The sum is:\", result)"
 msgstr ""
+"num1 = float(input(\"Wprowadź pierwszą liczbę: \"))\n"
+"num2 = float(input(\"Wprowadź drugą liczbę: \"))\n"
+"\n"
+"wynik = num1 + num2\n"
+"print(\"Suma wynosi:\", result)"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_42
 msgid "print(\"Hello, World!\")"
-msgstr ""
+msgstr "print(\"Witaj, świecie!\")"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -2781,10 +2965,13 @@ msgstr "​<br/>"
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_42
 msgid "“Make me a sandwich.”"
-msgstr ""
+msgstr "\"Zrób mi kanapkę\"."
 
 #. module: elearning_platform
 #: model_terms:product.template,description_ecommerce:elearning_platform.product_template_67
 #: model_terms:product.template,description_ecommerce:elearning_platform.product_template_73
 msgid "✨ <strong>What you’ll get:</strong>"
-msgstr ""
+msgstr "✨ <strong>Co otrzymasz:</strong>"
+
+#~ msgid "85%"
+#~ msgstr "85%"

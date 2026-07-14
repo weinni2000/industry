@@ -1,6 +1,6 @@
 {
     'name': 'Arts & Crafts Store',
-    'version': '1.0',
+    'version': '1.1',
     'category': 'Retail',
     'depends': [
         'hr_hourly_cost',
@@ -40,14 +40,13 @@
         'data/knowledge_cover.xml',
         'data/knowledge_article.xml',
         'data/knowledge_article_favorite.xml',
-        'data/pos_payment_method.xml',
         'data/pos_config.xml',
         'data/mail_message.xml',
         'data/website_view.xml',
         'data/knowledge_tour.xml',
     ],
     'demo': [
-        'demo/res_users.xml',
+        'demo/res_company.xml',
         'demo/res_partner.xml',
         'demo/crm_lead.xml',
         'demo/product_supplierinfo.xml',
@@ -83,6 +82,7 @@
         "data/website_view.xml",
         "demo/website_view.xml",
     ],
+    'application': True,
     'images': ['images/main.png'],
     'url': "https://www.odoo.com/trial?industry&selected_app=art_craft",
     'website': "https://www.odoo.com/industries/arts-and-crafts",

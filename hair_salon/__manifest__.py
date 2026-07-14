@@ -1,6 +1,6 @@
 {
     'name': 'Hair Salon',
-    'version': '1.1',
+    'version': '1.2',
     'category': 'Services',
     'depends': [
         'base_automation',
@@ -38,8 +38,10 @@
         'data/appointment_type.xml',
         'data/ir_actions_actions.xml',
         'data/knowledge_tour.xml',
+        'data/uninstall_hook.xml',
     ],
     'demo': [
+        'demo/res_company.xml',
         'demo/res_partner.xml',
         'demo/hr_employee.xml',
         'demo/res_users.xml',
@@ -67,9 +69,11 @@
     'author': 'Odoo S.A.',
     "cloc_exclude": [
         "data/knowledge_article.xml",
+        "data/uninstall_hook.xml",
         "static/src/js/my_tour.js",
         "demo/website_view.xml",
     ],
+    'application': True,
     'images': ['images/main.png'],
     'url': "https://www.odoo.com/trial?industry&selected_app=hair_salon",
     'website': "https://www.odoo.com/industries/hair-salon",

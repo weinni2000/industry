@@ -10,13 +10,14 @@
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# "Malaz Siddig Elsayed Abuidris (msea)" <msea@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 09:55+0000\n"
-"PO-Revision-Date: 2025-11-17 11:08+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-06-12 17:43+0000\n"
+"PO-Revision-Date: 2026-01-20 13:20+0000\n"
+"Last-Translator: \"Malaz Siddig Elsayed Abuidris (msea)\" <msea@odoo.com>\n"
 "Language-Team: Arabic <https://translate.odoo.com/projects/odoo-19/bookstore/"
 "ar/>\n"
 "Language: ar\n"
@@ -25,7 +26,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -333,6 +334,72 @@ msgstr ""
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Barcode App</b>:</font> Use mobile "
+"scanners to perform inventory counts and receive new shipments efficiently, "
+"reducing manual entry errors."
+msgstr ""
+"<font class=\"text-o-color-1\"><b>تطبيق الباركود</b>:</font> استخدم الماسحات "
+"الضوئية المحمولة لإجراء عمليات جرد المخزون واستلام الشحنات الجديدة بكفاءة، "
+"مما يقلل من الأخطاء التي قد نتشأ نتيجة الإدخال اليدوي."
+
+#. module: bookstore
+#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Inventory App</b>: </font>Master your "
+"library of titles, using barcode scanning for rapid stock adjustments and "
+"managing locations for different genres or sections."
+msgstr ""
+"<font class=\"text-o-color-1\"><b>تطبيق المخزون</b>: </font>تحكم في مكتبتك "
+"من العناوين باستخدام خاصية مسح الباركود لإجراء تعديلات سريعة على المخزون "
+"وإدارة المواقع لمختلف الأنواع أو الأقسام."
+
+#. module: bookstore
+#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Invoicing App</b>:</font> Simplify your "
+"bookkeeping by tracking daily sales and supplier invoices in one integrated "
+"financial system."
+msgstr ""
+"<font class=\"text-o-color-1\"><b>تطبيق الفوترة</b>:</font> بسط عمليات "
+"المحاسبة عن طريق تتبع المبيعات اليومية وفواتير الموردين في نظام مالي واحد "
+"ومتكامل."
+
+#. module: bookstore
+#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Point of Sale App</b>: </font>Process "
+"transactions quickly using barcode scanners to read ISBNs, handling "
+"discounts and customer loyalty programs with ease."
+msgstr ""
+"<font class=\"text-o-color-1\"><b>تطبيق نقطة البيع</b>: </font>تمكن من "
+"معالجة معاملاتك بسرعة باستخدام ماسحات الباركود لقراءة أرقام ISBN، والتعامل "
+"مع الخصومات وبرامج ولاء العملاء بسهولة."
+
+#. module: bookstore
+#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Purchase App</b>:</font> Automate "
+"replenishment orders based on sales velocity, ensuring you never run out of "
+"the latest bestsellers."
+msgstr ""
+"<font class=\"text-o-color-1\"><b>تطبيق المشتريات</b>:</font> قم بإجراء "
+"عمليات تجديد المخزون تلقائيًا بناءً على معدل المبيعات، مما يضمن عدم نفاد "
+"مخزونك من أحدث الكتب الأكثر مبيعًا."
+
+#. module: bookstore
+#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>eCommerce App</b>: </font>Expand your "
+"readership by selling books online, offering \"click and collect\" options "
+"or shipping directly to readers' homes."
+msgstr ""
+"<font class=\"text-o-color-1\"><b>تطبيق التجارة الإلكترونية</b>: </font>قم "
+"بتوسيع قاعدة قرائك من خلال بيع الكتب عبر الإنترنت، وتقديم خيارات ”انقر "
+"واستلم” أو الشحن المباشر إلى منازل القراء."
+
+#. module: bookstore
+#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
 msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
 
@@ -518,11 +585,6 @@ msgid "Author"
 msgstr "الكاتب"
 
 #. module: bookstore
-#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
-msgid "Basics"
-msgstr "الأساسيات"
-
-#. module: bookstore
 #: model:pos.category,name:bookstore.pos_category_1
 msgid "Books"
 msgstr "الكتب"
@@ -535,16 +597,6 @@ msgid ""
 msgstr ""
 "عند رفع البيانات التجريبية لهذا التطبيق، سيتم ملء قاعدة البيانات الخاصة بك "
 "ببضعة منتجات، وجهتَي اتصال تجريبيتين."
-
-#. module: bookstore
-#: model:pos.payment.method,name:bookstore.pos_payment_method_1
-msgid "Cash"
-msgstr "نقدي"
-
-#. module: bookstore
-#: model:account.journal,name:bookstore.cash
-msgid "Cash (Bookstore)"
-msgstr "النقد (متجر كتب)"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -583,11 +635,6 @@ msgid ""
 msgstr ""
 "اكتشف أساسيات هذه الباقة واستكشف جميع الإمكانيات التي يقدمها أودو لتحسين "
 "تجربتك."
-
-#. module: bookstore
-#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
-msgid "Do you want to go further?"
-msgstr "أتود التعمق أكثر؟"
 
 #. module: bookstore
 #: model_terms:product.template,description:bookstore.product_product_14_product_template
@@ -812,12 +859,7 @@ msgstr ""
 #. module: bookstore
 #: model:ir.model.fields.selection,name:bookstore.x_purchase_type_field_selection_new
 msgid "New releases"
-msgstr ""
-
-#. module: bookstore
-#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
-msgid "Odoo for Bookstore"
-msgstr "نظام أودو لمتجر كتب"
+msgstr "الإصدارات الجديدة"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -924,67 +966,6 @@ msgstr "تحديث وصف المخزون"
 #: model:base.automation,name:bookstore.base_automation_1
 msgid "Update supplier info on incoming products"
 msgstr "قم بتحديث معلومات الموردين على المنتجات الواردة"
-
-#. module: bookstore
-#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
-msgid "Use Case"
-msgstr "حالة استخدام"
-
-#. module: bookstore
-#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
-msgid ""
-"Use the <strong><font class=\"text-o-color-1\">Barcode App</font></"
-"strong><font class=\"text-o-color-1\"> </font>to scan your products and "
-"create new entries directly from this App to encode new books faster than "
-"ever."
-msgstr ""
-"استخدم <strong><font class=\"text-o-color-1\">تطبيق الباركود</font></"
-"strong><font class=\"text-o-color-1\"></font> لمسح منتجاتك ضوئياً وإنشاء قيود "
-"جديدة مباشرةً من هذا التطبيق لترميز الكتب الجديدة بشكل أسرع من أي وقت مضى."
-
-#. module: bookstore
-#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
-msgid ""
-"Use the <strong><font class=\"text-o-color-1\">Inventory App</font></strong> "
-"to manage your orders receive and deliver your products."
-msgstr ""
-"استخدم <strong><font class=\"text-o-color-1\">تطبيق المخزون</font></strong> "
-"لإدارة طلباتك واستلام وتوصيل منتجاتك."
-
-#. module: bookstore
-#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
-msgid ""
-"Use the <strong><font class=\"text-o-color-1\">Point of Sale</font></strong> "
-"for your sales at the desk. Manage your customer accounts and advantage in "
-"the <strong><font class=\"text-o-color-1\">Contacts App</font></strong>."
-msgstr ""
-"استخدم تطبيق <strong><font class=\"text-o-color-1\">نقطة البيع</font></"
-"strong> لمبيعاتك في المكتب. قم بإدارة حسابات العملاء ومزاياها في تطبيق "
-"<strong><font class=\"text-o-color-1\">جهات الاتصال</font></strong>."
-
-#. module: bookstore
-#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
-msgid ""
-"Use the <strong><font class=\"text-o-color-1\">Purchase App</font></strong> "
-"to order books from your distributors."
-msgstr ""
-"استخدم <strong><font class=\"text-o-color-1\">تطبيق المشتريات</font></"
-"strong> لطلب الكتب من الموزعين."
-
-#. module: bookstore
-#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
-msgid ""
-"Use the <strong><font class=\"text-o-color-1\">Sales App</font></strong> to "
-"order books for your customers, create quotations for your institutional "
-"clients (libraries, schools, etc.), and invoice them on the go using\n"
-"                        the <strong><font class=\"text-o-color-1\">Invoicing "
-"App</font></strong>."
-msgstr ""
-"استخدم <strong><font class=\"text-o-color-1\">تطبيق المبيعات</font></strong> "
-"لطلب الكتب لعملائك وإنشاء عروض أسعار لعملائك من المؤسسات (المكتبات والمدارس "
-"وغيرها) وإصدار فواتير لهم بلمح البصر باستخدام\n"
-"                        <strong><font class=\"text-o-color-1\">تطبيق "
-"الفوترة</font></strong>."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -1099,51 +1080,6 @@ msgstr ""
 "أودو."
 
 #. module: bookstore
-#: model:product.template,description_pickingin:bookstore.product_product_17_product_template
-msgid "[0.0]"
-msgstr "[0.0]"
-
-#. module: bookstore
-#: model:product.template,description_pickingin:bookstore.product_product_12_product_template
-msgid "[12.49]"
-msgstr "[12.49]"
-
-#. module: bookstore
-#: model:product.template,description_pickingin:bookstore.product_product_9_product_template
-msgid "[14.99]"
-msgstr "[14.99]"
-
-#. module: bookstore
-#: model:product.template,description_pickingin:bookstore.product_product_3_product_template
-msgid "[17.0]"
-msgstr "[17.0]"
-
-#. module: bookstore
-#: model:product.template,description_pickingin:bookstore.product_product_10_product_template
-msgid "[19.44]"
-msgstr "[19.44]"
-
-#. module: bookstore
-#: model:product.template,description_pickingin:bookstore.product_product_20_product_template
-msgid "[22.03]"
-msgstr "[22.03]"
-
-#. module: bookstore
-#: model:product.template,description_pickingin:bookstore.product_product_11_product_template
-msgid "[23.5]"
-msgstr "[23.5]"
-
-#. module: bookstore
-#: model:product.template,description_pickingin:bookstore.product_product_13_product_template
-msgid "[3.81]"
-msgstr "[3.81]"
-
-#. module: bookstore
-#: model:product.template,description_pickingin:bookstore.product_product_14_product_template
-msgid "[4.48]"
-msgstr "[4.48]"
-
-#. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "academy"
 msgstr "أكاديمية"
@@ -1184,3 +1120,97 @@ msgstr "تتبّع أداء مشترياتك في تطبيق المشتريات 
 msgid "​Track your sales order in Sales App &gt; Reporting &gt; Sales"
 msgstr ""
 "تتبع أمر البيع الخاص بك في تطبيق المبيعات ثم إعداد التقارير ثم المبيعات"
+
+#~ msgid "Cash"
+#~ msgstr "نقدي"
+
+#~ msgid "Cash (Bookstore)"
+#~ msgstr "النقد (متجر كتب)"
+
+#~ msgid "[0.0]"
+#~ msgstr "[0.0]"
+
+#~ msgid "[12.49]"
+#~ msgstr "[12.49]"
+
+#~ msgid "[14.99]"
+#~ msgstr "[14.99]"
+
+#~ msgid "[17.0]"
+#~ msgstr "[17.0]"
+
+#~ msgid "[19.44]"
+#~ msgstr "[19.44]"
+
+#~ msgid "[22.03]"
+#~ msgstr "[22.03]"
+
+#~ msgid "[23.5]"
+#~ msgstr "[23.5]"
+
+#~ msgid "[3.81]"
+#~ msgstr "[3.81]"
+
+#~ msgid "[4.48]"
+#~ msgstr "[4.48]"
+
+#~ msgid "Basics"
+#~ msgstr "الأساسيات"
+
+#~ msgid "Do you want to go further?"
+#~ msgstr "أتود التعمق أكثر؟"
+
+#~ msgid "Odoo for Bookstore"
+#~ msgstr "نظام أودو لمتجر كتب"
+
+#~ msgid "Use Case"
+#~ msgstr "حالة استخدام"
+
+#~ msgid ""
+#~ "Use the <strong><font class=\"text-o-color-1\">Barcode App</font></"
+#~ "strong><font class=\"text-o-color-1\"> </font>to scan your products and "
+#~ "create new entries directly from this App to encode new books faster than "
+#~ "ever."
+#~ msgstr ""
+#~ "استخدم <strong><font class=\"text-o-color-1\">تطبيق الباركود</font></"
+#~ "strong><font class=\"text-o-color-1\"></font> لمسح منتجاتك ضوئياً وإنشاء "
+#~ "قيود جديدة مباشرةً من هذا التطبيق لترميز الكتب الجديدة بشكل أسرع من أي وقت "
+#~ "مضى."
+
+#~ msgid ""
+#~ "Use the <strong><font class=\"text-o-color-1\">Inventory App</font></"
+#~ "strong> to manage your orders receive and deliver your products."
+#~ msgstr ""
+#~ "استخدم <strong><font class=\"text-o-color-1\">تطبيق المخزون</font></"
+#~ "strong> لإدارة طلباتك واستلام وتوصيل منتجاتك."
+
+#~ msgid ""
+#~ "Use the <strong><font class=\"text-o-color-1\">Point of Sale</font></"
+#~ "strong> for your sales at the desk. Manage your customer accounts and "
+#~ "advantage in the <strong><font class=\"text-o-color-1\">Contacts App</"
+#~ "font></strong>."
+#~ msgstr ""
+#~ "استخدم تطبيق <strong><font class=\"text-o-color-1\">نقطة البيع</font></"
+#~ "strong> لمبيعاتك في المكتب. قم بإدارة حسابات العملاء ومزاياها في تطبيق "
+#~ "<strong><font class=\"text-o-color-1\">جهات الاتصال</font></strong>."
+
+#~ msgid ""
+#~ "Use the <strong><font class=\"text-o-color-1\">Purchase App</font></"
+#~ "strong> to order books from your distributors."
+#~ msgstr ""
+#~ "استخدم <strong><font class=\"text-o-color-1\">تطبيق المشتريات</font></"
+#~ "strong> لطلب الكتب من الموزعين."
+
+#~ msgid ""
+#~ "Use the <strong><font class=\"text-o-color-1\">Sales App</font></strong> "
+#~ "to order books for your customers, create quotations for your "
+#~ "institutional clients (libraries, schools, etc.), and invoice them on the "
+#~ "go using\n"
+#~ "                        the <strong><font class=\"text-o-"
+#~ "color-1\">Invoicing App</font></strong>."
+#~ msgstr ""
+#~ "استخدم <strong><font class=\"text-o-color-1\">تطبيق المبيعات</font></"
+#~ "strong> لطلب الكتب لعملائك وإنشاء عروض أسعار لعملائك من المؤسسات "
+#~ "(المكتبات والمدارس وغيرها) وإصدار فواتير لهم بلمح البصر باستخدام\n"
+#~ "                        <strong><font class=\"text-o-color-1\">تطبيق "
+#~ "الفوترة</font></strong>."

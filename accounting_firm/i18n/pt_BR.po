@@ -4,22 +4,103 @@
 #
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
 # "Maitê Dietze (madi)" <madi@odoo.com>, 2025.
-# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-04 14:33+0000\n"
-"PO-Revision-Date: 2025-11-19 15:20+0000\n"
-"Last-Translator: \"Maitê Dietze (madi)\" <madi@odoo.com>\n"
-"Language-Team: Portuguese (Brazil) <https://translate.odoo.com/projects/"
-"odoo-19/accounting_firm/pt_BR/>\n"
+"POT-Creation-Date: 2026-01-12 09:27+0000\n"
+"PO-Revision-Date: 2026-06-13 10:43+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Portuguese (Brazil) <https://translate.odoo.com/projects/odoo-"
+"19/accounting_firm/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+#, fuzzy
+msgid ""
+"<b>Accounting App</b>: Streamline your billing cycle and manage the firm's "
+"own financials with robust invoicing tools."
+msgstr ""
+"<b>Aplicativo Financeiro</b>: simplifique seu ciclo de faturamento e "
+"gerencie as finanças da empresa com ferramentas robustas de faturamento."
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+#, fuzzy
+msgid ""
+"<b>Contacts App</b>: Centralize all client data and maintain a clean, "
+"organized directory of customers and contacts."
+msgstr ""
+"<b>Aplicativo Contatos</b>: Centralize todos os dados dos clientes e "
+"mantenha um diretório limpo e organizado de clientes e contatos."
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+#, fuzzy
+msgid ""
+"<b>Databases App</b>: Access and interact with your clients' Odoo databases "
+"instantly from a single dashboard."
+msgstr ""
+"<b>Aplicativo Base de Dados</b>: Acesse e interaja com as bases de dados "
+"Odoo dos clientes instantaneamente a partir de um único Painel."
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+#, fuzzy
+msgid ""
+"<b>Documents App</b>: Automate the request, collection, and management of "
+"client files for a paperless office."
+msgstr ""
+"<b>Aplicativo Documentos</b>: Automatize a solicitação, coleta e "
+"gerenciamento de arquivos de clientes para um escritório sem papel."
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+#, fuzzy
+msgid ""
+"<b>Equity App</b>: Simplify compliance by gathering and visualizing Ultimate "
+"Beneficial Owners (UBOs) structures."
+msgstr ""
+"<b>Aplicativo Patrimônio</b>: Simplifique a conformidade reunindo e "
+"visualizando as estruturas dos proprietários beneficiários finais (UBOs)."
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+#, fuzzy
+msgid ""
+"<b>Project App</b>: Organize client files, track tasks, and manage your "
+"team's workload to meet every deadline."
+msgstr ""
+"<b>Aplicativo Projeto</b>: Organize os arquivos dos clientes, acompanhe as "
+"tarefas e gerencie a carga de trabalho da sua equipe para cumprir todos os "
+"prazos."
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+#, fuzzy
+msgid ""
+"<b>Sign App</b>: Accelerate approvals and agreements by capturing secure "
+"electronic document signatures instantly."
+msgstr ""
+"<b>App Assinar</b>: Acelere aprovações e acordos capturando assinaturas "
+"eletrônicas seguras em documentos instantaneamente."
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+#, fuzzy
+msgid ""
+"<b>Timesheets App</b>: Track billable hours with precision and analyze your "
+"team's efforts for better profitability."
+msgstr ""
+"<b>Aplicativo Planilha de Horas</b>: acompanhe as horas faturáveis com "
+"precisão e analise o esforço da sua equipe para obter maior rentabilidade."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -36,8 +117,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\" aria-label=\"Banner Info\">🔃</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Info\" aria-label=\"Banner Info\">🔃</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\" aria-label=\"Banner Info\">🔃</i>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -98,6 +179,12 @@ msgstr "<span class=\"h1-fs\">Conclusão</span>"
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "<span class=\"h1-fs\">Use case</span>"
 msgstr "<span class=\"h1-fs\">Caso de uso</span>"
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+#, fuzzy
+msgid "<strong>Connecting your customer database</strong>"
+msgstr "<strong>Conectando seu base de dados de clientes</strong>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -256,6 +343,8 @@ msgid ""
 "Among your activities, you might as well handle the anti-money laundering "
 "aspect."
 msgstr ""
+"Entre suas atividades, pode ser que também precise lidar com prevenção "
+"contra lavagem de dinheiro."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -274,6 +363,10 @@ msgid ""
 "                    Make sure to check the open document request from "
 "Documents App."
 msgstr ""
+"Uma automação é executada diariamente para solicitar documentos de "
+"identidade com validade expirando ou expirada aos seus contatos.\n"
+"Certifique-se de verificar a solicitação de documentos em aberto no "
+"aplicativo Documentos."
 
 #. module: accounting_firm
 #: model:project.tags,name:accounting_firm.project_tags_4
@@ -299,22 +392,13 @@ msgstr "Responsável"
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_assistant_ids_field_project_project
 msgid "Assistants"
-msgstr ""
+msgstr "Assistentes"
 
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_closing_month_field_selection_8
 #: model:project.tags,name:accounting_firm.project_tags_16
 msgid "August"
 msgstr "Agosto"
-
-#. module: accounting_firm
-#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-msgid ""
-"Bill easily and manage your accounts with the <strong>Accounting App</"
-"strong>."
-msgstr ""
-"Fature facilmente e gerencie suas contas com o <strong>app Financeiro</"
-"strong>."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.x_mandate_view_list
@@ -324,12 +408,12 @@ msgstr "Categoria"
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_has_chatter_message_field_documents_request_wizard
 msgid "Chatter Message"
-msgstr ""
+msgstr "Mensagem do chatter"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_mandate_child_ids_field_x_mandate
 msgid "Childs"
-msgstr ""
+msgstr "Secundários"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -339,6 +423,10 @@ msgid ""
 "the sale order is confirmed and recorded time sheets any time there is time "
 "not yet invoiced."
 msgstr ""
+"Clique no botão Criar fatura para criar um rascunho de fatura.<br/>\n"
+"Observe que o produto de preço fixo pode ser debitado assim que o pedido de "
+"venda for confirmado e as folhas de horas registradas sempre que houver "
+"tempo ainda não faturado."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -346,6 +434,9 @@ msgid ""
 "Click the Document shortcut to open the Documents folder of this particular "
 "project, and deploy the information panel (top right corner i icon)."
 msgstr ""
+"Clique no atalho Documento para abrir a pasta Documentos desse projeto "
+"específico e implemente o painel de informações (ícone i no canto superior "
+"direito)."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -366,7 +457,7 @@ msgstr "Listagem de clientes (pacote)"
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_closing_month_field_res_partner
 msgid "Closing Month"
-msgstr ""
+msgstr "Mês de fechamento"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_color_field_x_mandate
@@ -376,7 +467,7 @@ msgstr "Cor"
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
 msgid "Companies House"
-msgstr ""
+msgstr "Registro de Empresas"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -384,6 +475,8 @@ msgid ""
 "Confirm the invoice and send it to you customer for payment.<br/>\n"
 "                    Once payed, you know the drill to reconcile the payment."
 msgstr ""
+"Confirme a fatura e envie-a ao seu cliente para pagamento. <br/>\n"
+"Depois de pago, você sabe o procedimento para reconciliar o pagamento."
 
 #. module: accounting_firm
 #: model:project.tags,name:accounting_firm.project_tags_5
@@ -409,7 +502,7 @@ msgstr ""
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
 msgid "Crossroads Bank for Enterprises"
-msgstr ""
+msgstr "Banco Crossroads para Empresas"
 
 #. module: accounting_firm
 #: model:product.template,name:accounting_firm.product_product_11_product_template
@@ -434,7 +527,7 @@ msgstr ""
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "Discover more about Odoo by diving into our ﻿"
-msgstr ""
+msgstr "Saiba mais sobre o Odoo mergulhando no"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -465,6 +558,8 @@ msgstr "Concluído"
 msgid ""
 "Easily request identity document from the gear icon (⚙️) in the bread crumb."
 msgstr ""
+"Solicite o documento de identidade pelo ícone de engrenagem (⚙️) na barra de "
+"navegação."
 
 #. module: accounting_firm
 #: model:hr.department,name:accounting_firm.hr_department_2
@@ -485,12 +580,12 @@ msgstr ""
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_vat_declaration_recurrence_field_selection_exempted
 msgid "Exempted"
-msgstr ""
+msgstr "Isenção"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.accounting_firm_view_res_partner_search
 msgid "Expired IDs"
-msgstr ""
+msgstr "IDs expirados"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_explanation_field_x_aml_risk
@@ -515,12 +610,7 @@ msgstr "Fevereiro"
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "Fine tune the email if needed and hit the send button."
-msgstr ""
-
-#. module: accounting_firm
-#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-msgid "Follow up on missions leveraging the <strong>Project App</strong>."
-msgstr "Acompanhamento de missões que utilizam o <strong>app Projeto</strong>."
+msgstr "Faça os ajustes necessários no e-mail e clique no botão enviar."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -543,20 +633,12 @@ msgstr ""
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_vat_declaration_recurrence_field_selection_franchise
 msgid "Franchise"
-msgstr ""
+msgstr "Franquia"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
 msgid "French Business Directory"
-msgstr ""
-
-#. module: accounting_firm
-#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-msgid ""
-"Generate quote and manage sale order from the <strong>Sales App</strong>."
-msgstr ""
-"Gerar cotações e gerenciar pedidos de venda a partir do <strong>app Vendas</"
-"strong>."
+msgstr "Diretório de Empresas Francesas"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -578,12 +660,13 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+#, fuzzy
 msgid ""
-"Have a central repository for requested documents in<strong> Documents App</"
-"strong>."
+"Having access in record time to all activities and metrics from your "
+"customer databases is key."
 msgstr ""
-"Ter um repositório central para os documentos solicitados em <strong>app "
-"Documents</strong>."
+"Ter acesso em tempo recorde a todas as atividades e métricas dos bancos de "
+"dados dos seus clientes é fundamental."
 
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_level_risk_field_selection_high
@@ -598,7 +681,7 @@ msgstr "ID"
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_id_expiration_date_field_res_partner
 msgid "ID Expiration Date"
-msgstr ""
+msgstr "Data de validade do ID"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -606,6 +689,8 @@ msgid ""
 "Identity management is a must do activity in your business and to support "
 "you with that, the contacts encompass all the necessary."
 msgstr ""
+"A gestão de identidades é uma atividade imprescindível em sua empresa e, "
+"para ajudá-lo com isso, os contatos abrangem tudo o que é necessário."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -642,10 +727,24 @@ msgstr "Em andamento"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+#, fuzzy
+msgid ""
+"In the Database tab, set the appropriate hosting option and then fill in the "
+"additional required inputs, including API credentials provided by your "
+"customer."
+msgstr ""
+"Na aba Base de dados, defina a opção de hospedagem apropriada e preencha as "
+"informações adicionais necessárias, incluindo as credenciais da API "
+"fornecidas pelo seu cliente."
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid ""
 "Information captured here are informative only and do not trigger or "
 "interact with any capability."
 msgstr ""
+"As informações aqui capturadas são meramente informativas e não acionam nem "
+"interagem com nenhuma funcionalidade."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -661,7 +760,7 @@ msgstr ""
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_interim_situation_field_res_partner
 msgid "Interim Situation"
-msgstr ""
+msgstr "Situação provisória"
 
 #. module: accounting_firm
 #: model:project.tags,name:accounting_firm.project_tags_22
@@ -680,7 +779,7 @@ msgstr ""
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_is_identity_document_request_field_documents_request_wizard
 msgid "Is Identity Document Request"
-msgstr ""
+msgstr "Solicitação de documento de identidade"
 
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_closing_month_field_selection_1
@@ -711,11 +810,13 @@ msgid ""
 "Just be careful, once demo data are uploaded, it cannot be easily deleted. "
 "But you can restart a fresh database on ﻿"
 msgstr ""
+"Tenha cuidado, pois uma vez que os dados de demonstração forem carregados, "
+"não será fácil excluí-los. Mas você pode reiniciar um base de dados novo em"
 
 #. module: accounting_firm
 #: model:ir.actions.server,name:accounting_firm.server_action_keep_scan_in_chatter
 msgid "Keep Scan in Chatter"
-msgstr ""
+msgstr "Manter a digitalização no Chatter"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_aml_last_update_field_res_partner
@@ -730,37 +831,32 @@ msgstr "Nível"
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
 msgid "Link Belgian Monitor"
-msgstr ""
+msgstr "Link Monitor Belga"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
 msgid "Link CBE"
-msgstr ""
+msgstr "Link CBE"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
 msgid "Link Companies House"
-msgstr ""
+msgstr "Link Companies House"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
 msgid "Link FBD"
-msgstr ""
+msgstr "Link FBD"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
 msgid "Link NBB"
-msgstr ""
+msgstr "Link NBB"
 
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_level_risk_field_selection_low
 msgid "Low"
 msgstr "Baixa"
-
-#. module: accounting_firm
-#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-msgid "Manage opportunities with the <strong>CRM App</strong>."
-msgstr "Gerenciar oportunidades com o <strong>app CRM</strong>."
 
 #. module: accounting_firm
 #: model:ir.model,name:accounting_firm.x_mandate_model
@@ -770,7 +866,7 @@ msgstr "Mandato"
 #. module: accounting_firm
 #: model:ir.actions.act_window,name:accounting_firm.action_mandate_list_view
 msgid "Mandate list view"
-msgstr ""
+msgstr "Exibir lista de mandatos"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_mandate_ids_field_res_partner
@@ -778,7 +874,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:accounting_firm.x_mandate_view_form
 #: model_terms:ir.ui.view,arch_db:accounting_firm.x_mandate_view_list
 msgid "Mandates"
-msgstr ""
+msgstr "Mandatos"
 
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_closing_month_field_selection_3
@@ -802,7 +898,7 @@ msgstr "Diversos"
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_mission_expiration_date_field_res_partner
 msgid "Mission Expiration"
-msgstr ""
+msgstr "Expiração da missão"
 
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_interim_situation_field_selection_monthly
@@ -818,12 +914,12 @@ msgstr "Nome"
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
 msgid "National Bank of Belgium"
-msgstr ""
+msgstr "Banco Nacional da Bélgica"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "Navigate to the AML tab to appreciate the last assessment performed."
-msgstr ""
+msgstr "Navegue até a guia AML para ver a última avaliação realizada."
 
 #. module: accounting_firm
 #: model:project.task.type,name:accounting_firm.project_task_type_1
@@ -846,6 +942,8 @@ msgid ""
 "Note that Equity App comes first with capabilities to capture transactions "
 "and valuation which you will find useful."
 msgstr ""
+"Observe que o Equity App vem em primeiro lugar com recursos para capturar "
+"transações e avaliações que você achará úteis."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -902,12 +1000,12 @@ msgstr ""
 #. module: accounting_firm
 #: model:ir.model.fields,help:accounting_firm.x_mandate_ids_field_res_partner
 msgid "Online platform mandates you have for this customer"
-msgstr ""
+msgstr "Mandatos da plataforma online que você tem para este cliente"
 
 #. module: accounting_firm
 #: model:ir.actions.server,name:accounting_firm.parner_link_action
 msgid "Open link for company"
-msgstr ""
+msgstr "Abrir link para a empresa"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -917,6 +1015,10 @@ msgid ""
 "a quotation.<br/>\n"
 "Otherwise, open the <strong>Sales App</strong> and create a new quote."
 msgstr ""
+"Abra o aplicativo <strong>CRM</strong> caso isso seja resultado de uma "
+"oportunidade e, em seguida, clique no botão Nova cotação para transformar "
+"isso em uma cotação.<br/>Caso contrário, abra o aplicativo <strong>Vendas </"
+"strong> e crie uma nova cotação."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -928,6 +1030,8 @@ msgstr "Abra o <strong>app CRM</strong>."
 msgid ""
 "Open the <strong>Contacts App</strong> and reach your new customer form."
 msgstr ""
+"Abra o aplicativo <strong>Contatos</strong> e acesse o formulário para novos "
+"clientes."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -976,6 +1080,16 @@ msgstr "Abra a tarefa Integração do Cliente para editar a lista de ações."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+#, fuzzy
+msgid ""
+"Open the Databases App to have your customer database metrics at your finger "
+"tips!"
+msgstr ""
+"Abra o aplicativo Bases de Dados para ter as métricas da base de dados de "
+"clientes na ponta dos dedos!"
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "Open the Project App and click the Dashboard button from the top bar."
 msgstr "Abra o aplicativo Projeto e clique no botão Painel na barra superior."
 
@@ -994,11 +1108,13 @@ msgid ""
 "Open the contact form of the company you have to handle this for, Second "
 "Company for example."
 msgstr ""
+"Abra o formulário de contato da empresa para a qual você deve tratar disso, "
+"por exemplo, a Segunda Empresa."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "Open the contact from which you expect the UBO list."
-msgstr ""
+msgstr "Abra o contato do qual você espera receber a lista de UBO."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1013,6 +1129,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "Open the the project you worked on."
 msgstr "Abra o projeto em que você trabalhou."
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+#, fuzzy
+msgid "Open your new customer project settings."
+msgstr "Abra as configurações do novo projeto do cliente."
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_mandate_parent_id_field_x_mandate
@@ -1092,7 +1214,7 @@ msgstr "Recebimento"
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_relation_nature_field_res_partner
 msgid "Relation Nature"
-msgstr ""
+msgstr "Relação Natureza"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.document_request_wizard_form_view_inherited
@@ -1102,33 +1224,33 @@ msgstr "Solicitação"
 #. module: accounting_firm
 #: model:ir.actions.server,name:accounting_firm.server_action_request_document_with_chatter_message
 msgid "Request Document with Chatter Message"
-msgstr ""
+msgstr "Solicitar documento com mensagem do Chatter"
 
 #. module: accounting_firm
 #: model:ir.actions.server,name:accounting_firm.action_server_request_identity_document
 msgid "Request Identity Document"
-msgstr ""
+msgstr "Solicitar documento de identidade"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_reviewer_ids_field_project_project
 msgid "Reviewers"
-msgstr ""
+msgstr "Revisores"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_name_field_x_aml_risk_type
 #: model:ir.model.fields,field_description:accounting_firm.x_risk_type_field_x_aml_risk
 msgid "Risk"
-msgstr ""
+msgstr "Risco"
 
 #. module: accounting_firm
 #: model:ir.model,name:accounting_firm.x_aml_risk_type_model
 msgid "Risk Type"
-msgstr ""
+msgstr "Tipo de risco"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_risk_ids_field_res_partner
 msgid "Risks"
-msgstr ""
+msgstr "Riscos"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1145,7 +1267,7 @@ msgstr "Digitalizar"
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "Select the Request UBO from the gear icon (⚙️) menu."
-msgstr ""
+msgstr "Selecione a opção Solicitar UBO no menu do ícone de engrenagem (⚙️)."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1171,6 +1293,8 @@ msgid ""
 "Sending a document request creates an activity for you to follow up without "
 "mental load!"
 msgstr ""
+"O envio de uma solicitação de documento cria uma atividade para você "
+"acompanhar sem carga mental!"
 
 #. module: accounting_firm
 #: model:planning.role,name:accounting_firm.planning_role_1
@@ -1260,6 +1384,9 @@ msgid ""
 "needs...<br/>\n"
 "                Fortunately, Odoo got you covered:"
 msgstr ""
+"O pacote Contabilidade é muito útil, mas pode não cobrir todas as suas "
+"necessidades...<br/>\n"
+"                Felizmente, o Odoo tem a solução para você:"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1269,6 +1396,16 @@ msgid ""
 msgstr ""
 "A tarefa de integração do cliente contém detalhes sobre as ações a serem "
 "executadas para ter seu cliente em ordem."
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+#, fuzzy
+msgid ""
+"The Databases App comes with capabilities to efficiently manage tasks, "
+"access rights and more!"
+msgstr ""
+"O aplicativo Bases de Dados vem com recursos para gerenciar tarefas, "
+"direitos de acesso e muito mais com eficiência!"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1306,6 +1443,9 @@ msgid ""
 "and open the settings of the project, clicking the three dots in the top "
 "right corner of the corresponding tile."
 msgstr ""
+"Para designar o gerente de projeto, assistente e revisor, abra o aplicativo "
+"Projeto e abra as configurações do projeto, clicando nos três pontos no "
+"canto superior direito do bloco correspondente."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1331,6 +1471,8 @@ msgid ""
 "UBO identification can be a tedious task you don't want to lose time on. The "
 "Equity App comes with capabilities which will help you with this duty."
 msgstr ""
+"A identificação do UBO pode ser uma tarefa tediosa na qual você não quer "
+"perder tempo. O Equity App vem com recursos que o ajudarão nessa tarefa."
 
 #. module: accounting_firm
 #: model:mail.activity.type,name:accounting_firm.mail_activity_ubo_update
@@ -1351,18 +1493,18 @@ msgstr "Registro definitivo de proprietários beneficiários (pacote)"
 #. module: accounting_firm
 #: model:ir.actions.server,name:accounting_firm.server_action_update_document_partner_identity
 msgid "Update Document Partner ID"
-msgstr ""
+msgstr "Atualizar ID do parceiro do documento"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.document_document_kanban_view_inherited
 msgid "Update Identity Document"
-msgstr ""
+msgstr "Atualizar documento de identidade"
 
 #. module: accounting_firm
 #: model:ir.actions.server,name:accounting_firm.server_action_update_owner_id
 #: model_terms:ir.ui.view,arch_db:accounting_firm.equity_ubo_form_view_inherited
 msgid "Update Owner ID"
-msgstr ""
+msgstr "Atualizar ID do proprietário"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1370,11 +1512,13 @@ msgid ""
 "Update the captured insights as you need and then update the last update "
 "date."
 msgstr ""
+"Atualize as informações capturadas conforme necessário e, em seguida, "
+"atualize a data da última atualização."
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_vat_declaration_recurrence_field_res_partner
 msgid "VAT Declaration Recurrence"
-msgstr ""
+msgstr "Recorrência da declaração do IVA"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1393,6 +1537,9 @@ msgid ""
 "When filling in the identity document expiration date, you can leverage the "
 "contacts filter \"Expired IDs\" to efficiently find the IDs to update!"
 msgstr ""
+"Ao preencher a data de validade do documento de identidade, você pode usar o "
+"filtro de contatos “IDs expirados” para encontrar com eficiência os IDs a "
+"serem atualizados!"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1400,6 +1547,8 @@ msgid ""
 "When the document is available, reach the contact ID tab to fill in the "
 "contact details."
 msgstr ""
+"Quando o documento estiver disponível, acesse a guia “ID do contato” para "
+"preencher os detalhes de contato."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1409,6 +1558,10 @@ msgid ""
 "customer onboarding actions or folder architecture so that you save time in "
 "the future."
 msgstr ""
+"Ao confirmar um pedido de venda, saiba que o projeto duplicado é definido no "
+"produto que você vendeu. Você pode editar o projeto para ajustar a lista de "
+"ações de integração do cliente ou a arquitetura da pasta, a fim de "
+"economizar tempo no futuro."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1490,6 +1643,10 @@ msgid ""
 "                        Don't forget to update your employee costs, in the "
 "setting tab, to compute relevant costs."
 msgstr ""
+"Você tem acesso a todos os documentos relacionados no painel do projeto e "
+"pode acompanhar os ganhos e custos sem esforço.<br/>\n"
+"Não se esqueça de atualizar os custos dos seus funcionários, na guia de "
+"configurações, para calcular os custos relevantes."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1517,6 +1674,11 @@ msgid ""
 "                In any case, you may have written records in journals which "
 "are not deletable and which might be an issue for your traceability."
 msgstr ""
+"Você pode ter testado o pacote Contabilidade com ou sem dados de "
+"demonstração.<br/>\n"
+"                Em qualquer caso, você pode ter registros escritos em "
+"diários que não podem ser excluídos e que podem ser um problema para sua "
+"rastreabilidade."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1541,127 +1703,160 @@ msgstr ""
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "Your contact is now provided a portal access to record the UBO."
-msgstr ""
+msgstr "Seu contato agora tem acesso a um portal para registrar o UBO."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "⏲️ Time management"
-msgstr ""
+msgstr "⏲️ Gestão do tempo"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿ , and feel free to ﻿"
-msgstr ""
+msgstr "﻿ , e sinta-se à vontade para ﻿"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿ and ﻿"
-msgstr ""
+msgstr "e"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿ if you need help!"
-msgstr ""
+msgstr "Se precisar de ajuda!"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿Odoo.com/trial﻿"
-msgstr ""
+msgstr "Odoo.com/trial"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿Reach us﻿"
-msgstr ""
+msgstr "Entre em contato conosco"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿academy﻿"
-msgstr ""
+msgstr "academia"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿documentation﻿"
-msgstr ""
+msgstr "documentação"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿request a demo﻿"
-msgstr ""
+msgstr "solicitar uma demonstração"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿🎓 CRM﻿"
-msgstr ""
+msgstr "🎓 CRM🎓"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿🎓 Contacts﻿"
-msgstr ""
+msgstr "﻿🎓 Contatos﻿"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿🎓 Documents﻿"
-msgstr ""
+msgstr "🎓 Documentos🎓"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿🎓 Invoicing﻿"
-msgstr ""
+msgstr "🎓 Faturamento"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿🎓 Project Dashboard﻿"
-msgstr ""
+msgstr "🎓 Painel do Projeto"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿🎓 Project﻿"
-msgstr ""
+msgstr "🎓 Projeto"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿🎓 Sales﻿"
-msgstr ""
+msgstr "﻿🎓 Vendas﻿"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿🎓 Timesheet﻿"
-msgstr ""
+msgstr "﻿🎓 Planilha de Horas﻿"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "👋 Welcoming prospects"
-msgstr ""
+msgstr "Boas-vindas aos clientes potenciais"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "💵 Billing your efforts"
-msgstr ""
+msgstr "Faturamento de seus esforços"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "💸 Anti-Money Laundering"
-msgstr ""
+msgstr "💸 Combate à lavagem de dinheiro"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "📊 Follow up on project profitability"
-msgstr ""
+msgstr "📊 Acompanhamento da rentabilidade do projeto"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "📜 Getting to the \"Go\""
-msgstr ""
+msgstr "Como chegar a \"Ir\""
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+#, fuzzy
+msgid "📬 Follow up on your customer database"
+msgstr "📬 Acompanhe seu base de dados de clientes"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "🗂️ Document management"
-msgstr ""
+msgstr "Gerenciamento de documentos"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "🧮 Ultimate beneficial owners' hunt"
-msgstr ""
+msgstr "🧮 A busca definitiva pelos proprietários beneficiários"
+
+#~ msgid ""
+#~ "Bill easily and manage your accounts with the <strong>Accounting App</"
+#~ "strong>."
+#~ msgstr ""
+#~ "Fature facilmente e gerencie suas contas com o <strong>app Financeiro</"
+#~ "strong>."
+
+#~ msgid "Follow up on missions leveraging the <strong>Project App</strong>."
+#~ msgstr ""
+#~ "Acompanhamento de missões que utilizam o <strong>app Projeto</strong>."
+
+#~ msgid ""
+#~ "Generate quote and manage sale order from the <strong>Sales App</strong>."
+#~ msgstr ""
+#~ "Gerar cotações e gerenciar pedidos de venda a partir do <strong>app "
+#~ "Vendas</strong>."
+
+#~ msgid ""
+#~ "Have a central repository for requested documents in<strong> Documents "
+#~ "App</strong>."
+#~ msgstr ""
+#~ "Ter um repositório central para os documentos solicitados em <strong>app "
+#~ "Documents</strong>."
+
+#~ msgid "Manage opportunities with the <strong>CRM App</strong>."
+#~ msgstr "Gerenciar oportunidades com o <strong>app CRM</strong>."
 
 #~ msgid "<strong>Requesting UBO</strong>"
 #~ msgstr "<strong>Solicitação de UBO</strong>"

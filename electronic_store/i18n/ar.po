@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-13 08:19+0000\n"
+"POT-Creation-Date: 2026-06-12 18:01+0000\n"
 "PO-Revision-Date: 2025-11-17 11:08+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Arabic <https://translate.odoo.com/projects/odoo-19/"
@@ -391,16 +391,6 @@ msgid "CA&amp; 92277"
 msgstr "CA&amp; 92277"
 
 #. module: electronic_store
-#: model:pos.payment.method,name:electronic_store.pos_payment_method_1
-msgid "Cash"
-msgstr "نقدي"
-
-#. module: electronic_store
-#: model:account.journal,name:electronic_store.cash
-msgid "Cash (Electronic Store)"
-msgstr "نقداً (متجر إلكترونيات)"
-
-#. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
 msgid "Check with My Tasks"
 msgstr "التحقق من مهامي"
@@ -454,11 +444,6 @@ msgid "Create the purchase order"
 msgstr "إنشاء أمر الشراء"
 
 #. module: electronic_store
-#: model:pos.payment.method,name:electronic_store.pos_payment_method_2
-msgid "Customer Account"
-msgstr "حساب العميل"
-
-#. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
 msgid ""
 "Customer can register their complaint for the existing purchased products "
@@ -505,11 +490,6 @@ msgstr "المستند - إرشادات التثبيت"
 #: model:product.template,name:electronic_store.product_product_1040_product_template
 msgid "Dyson Purifier Cool (White/Silver) - TP07"
 msgstr "جهاز تنقية Dyson Purifier Cool (أبيض/فضي) - TP07"
-
-#. module: electronic_store
-#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
-msgid "ELECTRONICS STORE"
-msgstr "متجر إلكترونيات"
 
 #. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
@@ -564,26 +544,6 @@ msgstr "سيزور مهندس الخدمة الميدانية مكان العم�
 #: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
 msgid "Fill the form:"
 msgstr "قم بتعبئة الاستمارة:"
-
-#. module: electronic_store
-#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
-msgid "Flow 1. Purchase"
-msgstr "1. الشراء"
-
-#. module: electronic_store
-#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
-msgid "Flow 2. Sale with serial number"
-msgstr "2. البيع باستخدام الرقم التسلسلي"
-
-#. module: electronic_store
-#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
-msgid "Flow 3. Delivery"
-msgstr "3. التوصيل"
-
-#. module: electronic_store
-#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
-msgid "Flow 4: Field Service Installation - AC"
-msgstr "4: عملية تركيب ميدانية - أجهزة التكييف"
 
 #. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
@@ -1181,6 +1141,30 @@ msgid ""
 msgstr ""
 "المنتج <strong><font style=\"color: rgb(156, 0, 255);\">مكيف هواء بتصميم "
 "نافذة مع عاكس مزدوج من LG</font></strong>"
+
+#~ msgid "Cash"
+#~ msgstr "نقدي"
+
+#~ msgid "Cash (Electronic Store)"
+#~ msgstr "نقداً (متجر إلكترونيات)"
+
+#~ msgid "Customer Account"
+#~ msgstr "حساب العميل"
+
+#~ msgid "ELECTRONICS STORE"
+#~ msgstr "متجر إلكترونيات"
+
+#~ msgid "Flow 1. Purchase"
+#~ msgstr "1. الشراء"
+
+#~ msgid "Flow 2. Sale with serial number"
+#~ msgstr "2. البيع باستخدام الرقم التسلسلي"
+
+#~ msgid "Flow 3. Delivery"
+#~ msgstr "3. التوصيل"
+
+#~ msgid "Flow 4: Field Service Installation - AC"
+#~ msgstr "4: عملية تركيب ميدانية - أجهزة التكييف"
 
 #~ msgid "Execute Code"
 #~ msgstr "تنفيذ الكود "

@@ -8,13 +8,14 @@
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# "Malaz Siddig Elsayed Abuidris (msea)" <msea@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 12:45+0000\n"
-"PO-Revision-Date: 2025-11-17 11:08+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-03-17 19:41+0000\n"
+"PO-Revision-Date: 2026-05-05 11:07+0000\n"
+"Last-Translator: \"Malaz Siddig Elsayed Abuidris (msea)\" <msea@odoo.com>\n"
 "Language-Team: Arabic <https://translate.odoo.com/projects/odoo-19/"
 "software_reseller/ar/>\n"
 "Language: ar\n"
@@ -23,7 +24,14 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.17\n"
+
+#. module: software_reseller
+#: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
+msgid ""
+", and feel free\n"
+"                    to"
+msgstr ""
 
 #. module: software_reseller
 #: model:sale.subscription.plan,name:software_reseller.sale_subscription_plan_3
@@ -37,6 +45,87 @@ msgid "5 Years"
 msgstr "5 سنوات"
 
 #. module: software_reseller
+#: model:mail.template,body_html:software_reseller.mail_template_48
+msgid ""
+"<div>Hello,</div>\n"
+"<div>\n"
+"    <br/>\n"
+"</div>\n"
+"<div>Your <t t-out=\"object.x_software or ''\">Odoo</t> license is available."
+"</div>\n"
+"<ul style=\"border-radius:0px;border-style:none;padding:0 0 0 "
+"32px;margin:0px 0 16px 0;box-sizing:border-box;border-left-width:0px;border-"
+"bottom-width:0px;border-right-width:0px;border-top-width:0px;list-style-"
+"type:disc;\">\n"
+"    <t t-if=\"object.task_properties.get('environment')\">\n"
+"        <li>Environment: <t t-"
+"out=\"object.task_properties.get('environment') or ''\">Production</t></li>\n"
+"    </t>\n"
+"    <t t-if=\"object.task_properties.get('hosted_on')\">\n"
+"        <li>Hosted on: <t t-out=\"object.task_properties.get('hosted_on') or "
+"''\">Odoo online</t></li>\n"
+"    </t>\n"
+"    <t t-if=\"object.task_properties.get('number_of_users')\">\n"
+"        <li>Users: <t t-out=\"object.task_properties.get('number_of_users') "
+"or ''\">2025</t></li>\n"
+"    </t>\n"
+"    <t t-if=\"object.task_properties.get('version')\">\n"
+"        <li>Version: <t t-out=\"object.task_properties.get('version') or "
+"''\">18.3</t></li>\n"
+"    </t>\n"
+"    <t t-if=\"object.task_properties.get('license_key')\">\n"
+"        <p>License key: <t t-out=\"object.task_properties.get('license_key') "
+"or ''\">LICXYZ00001</t></p>\n"
+"    </t>\n"
+"</ul>\n"
+"<t t-if=\"object.date_deadline\">\n"
+"    The license expires on the <t t-out=\"object.date_deadline\" "
+"style=\"font-weight: bolder;\">12/3/2026</t>.\n"
+"</t>\n"
+"<div>Feel free to reach out in case you face difficulties.</div>\n"
+"<div><br/></div>\n"
+"<div><t t-out=\"user.signature or ''\">Mitchell Admin</t></div>"
+msgstr ""
+"<div>مرحباً،</div>\n"
+"<div>\n"
+"    <br/>\n"
+"</div>\n"
+"<div>رخصة <t t-out=\"object.x_software or ''\">أودو </t> الخاصة بك متاحة "
+"الآن.</div>\n"
+"<ul style=\"border-radius:0px;border-style:none;padding:0 0 0 "
+"32px;margin:0px 0 16px 0;box-sizing:border-box;border-left-width:0px;border-"
+"bottom-width:0px;border-right-width:0px;border-top-width:0px;list-style-"
+"type:disc;\">\n"
+"    <t t-if=\"object.task_properties.get('environment')\">\n"
+"        <li>البيئة: <t t-out=\"object.task_properties.get('environment') or "
+"''\">الانتاج</t></li>\n"
+"    </t>\n"
+"    <t t-if=\"object.task_properties.get('hosted_on')\">\n"
+"        <li>مستضافة على: <t t-out=\"object.task_properties.get('hosted_on') "
+"or ''\">أودو أونلاين</t></li>\n"
+"    </t>\n"
+"    <t t-if=\"object.task_properties.get('number_of_users')\">\n"
+"        <li>المستخدمين: <t t-out=\"object.task_properties.get"
+"('number_of_users') or ''\">2025</t></li>\n"
+"    </t>\n"
+"    <t t-if=\"object.task_properties.get('version')\">\n"
+"        <li>الإصدار: <t t-out=\"object.task_properties.get('version') or ''\">"
+"18.3</t></li>\n"
+"    </t>\n"
+"    <t t-if=\"object.task_properties.get('license_key')\">\n"
+"        <p>مفتاح الرخصة: <t t-out=\"object.task_properties.get"
+"('license_key') or ''\">LICXYZ00001</t></p>\n"
+"    </t>\n"
+"</ul>\n"
+"<t t-if=\"object.date_deadline\">\n"
+"    تنتهي صلاحية الرخصة بتاريخ <t t-out=\"object.date_deadline\" style=\"font-"
+"weight: bolder;\">12/3/2026</t>.\n"
+"</t>\n"
+"<div>لا تتردد في التواصل معنا في حال واجهتك أي صعوبات.</div>\n"
+"<div><br/></div>\n"
+"<div><t t-out=\"user.signature or ''\">ميتشل آدمن</t></div>"
+
+#. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
 msgid ""
 "<font style=\"background-color: inherit;\">Create a purchase order to buy "
@@ -48,51 +137,47 @@ msgstr ""
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
 msgid ""
-"<font style=\"background-color: rgb(255, 231, 206);\">A studio automated "
-"action turn tasks in Changes Requested when the license key expires in the "
-"15 days or less.</font>"
+"<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
+"normal\">💡</i>"
 msgstr ""
-"<font style=\"background-color: rgb(255, 231, 206);"
-"\">يقوم الإجراء التلقائي في الاستوديو بتحويل المهام في \"التغييرات المطلوبة\""
-" عند انتهاء صلاحية مفتاح الترخيص خلال 15 يوم أو أقل.</font>"
+"<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
+"normal\">💡</i>"
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
 msgid ""
-"<font style=\"background-color: rgb(255, 239, 198);\">From the \"Optional "
-"Products\" tab, you can also add development services ine one click.</font>"
+"<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
+"fst-normal\">✅</i>"
 msgstr ""
-"<font style=\"background-color: rgb(255, 239, 198);\">من علامة تبويب ”"
-"المنتجات الاختيارية“، يمكنك أيضًا إضافة خدمات التطوير بضغطة زر.</font>"
+"<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
+"fst-normal\">✅</i>"
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
 msgid ""
-"<font style=\"color: inherit; background-color: rgb(255, 239, 198);\">On "
-"this order, the way to manage licenses is similar to the above section. So, "
-"we'll mostly focus on the delivery of the extra services.</font><br/>"
+"<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
+"fst-normal\">🎉</i>"
 msgstr ""
-"<font style=\"color: inherit; background-color: rgb(255, 239, 198);\">في هذا "
-"الطلب، تشبه طريقة إدارة التراخيص طريقة إدارة التراخيص في القسم أعلاه. لذلك، "
-"سنركز في الغالب على تقديم الخدمات الإضافية.</font><br/>"
+"<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
+"fst-normal\">🎉</i>"
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
 msgid ""
 "<span style=\"font-size: 14px;\">\n"
 "                This setup if for IT companies reselling software licenses, "
-"and consulting services. The typical sale is a 1 year Oracle Database "
+"and consulting services. The typical sale is a 1 year Oracle Database "
 "license that is purchased to Oracle, and resold to client at a margin, with "
-"extra services to\n"
-"                setup the database.\n"
+"extra services to setup\n"
+"                the database.\n"
 "            </span>"
 msgstr ""
 "<span style=\"font-size: 14px;\">\n"
 "                هذا الإعداد مخصص لشركات تكنولوجيا المعلومات التي تعيد بيع "
-"تراخيص البرمجيات والخدمات الاستشارية.  إن عملية البيع المعتادة هي عبارة عن "
+"تراخيص البرمجيات والخدمات الاستشارية. إن عملية البيع المعتادة هي عبارة عن "
 "ترخيص قاعدة بيانات Oracle لمدة عام واحد يتم شراؤه من Oracle، وإعادة بيعه "
-"للعميل بهامش ربح، مع خدمات إضافية لـ\n"
-"                إعداد قاعدة البيانات.\n"
+"للعميل بهامش ربح، مع خدمات إضافية لإعداد\n"
+"                قاعدة البيانات.\n"
 "            </span>"
 
 #. module: software_reseller
@@ -112,6 +197,12 @@ msgstr "<strong><u>فوترة التراخيص</u></strong>"
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
 msgid "<strong><u>Invoice Projects</u></strong>"
 msgstr "<strong><u>فوترة المشاريع</u></strong>"
+
+#. module: software_reseller
+#: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
+#, fuzzy
+msgid "<strong><u>Manage customer licenses</u></strong><br/>"
+msgstr "<strong><u>قم بشراء التراخيص</u></strong>"
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
@@ -145,12 +236,23 @@ msgstr "أمر شراء لشركة Oracle؛ لشراء ترخيص لهذا ال�
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
+#, fuzzy
+msgid ""
+"A studio scheduled action automatically turns the license state to Changes "
+"Requested when the license key expires within 15 days."
+msgstr ""
+"<font style=\"background-color: rgb(255, 231, 206);\">يقوم الإجراء التلقائي "
+"في الاستوديو بتحويل المهام في \"التغييرات المطلوبة\" عند انتهاء صلاحية مفتاح "
+"الترخيص خلال 15 يوم أو أقل.</font>"
+
+#. module: software_reseller
+#: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
 msgid "A task to manage the license, in stage \"New Requests\""
 msgstr "مهمة لإدارة الترخيص، في مرحلة \"الطلبات الجديدة\""
 
 #. module: software_reseller
-#: model:ir.actions.act_window,name:software_reseller.all_licenses_ce314e8b-2439-473a-b7a7-493af7707108
-#: model:ir.ui.menu,name:software_reseller.licenses_all_license_17e01089-b423-4963-bf8e-1eb6e86152b8
+#: model:ir.actions.act_window,name:software_reseller.all_licenses_act_window
+#: model:ir.ui.menu,name:software_reseller.all_licenses_menu
 msgid "All Licenses"
 msgstr "كافة التراخيص"
 
@@ -158,6 +260,14 @@ msgstr "كافة التراخيص"
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
 msgid "All Licenses (default to list)"
 msgstr "كافة التراخيص (افتراضياً إلى القائمة)"
+
+#. module: software_reseller
+#: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
+msgid ""
+"Alternatively you can leverage the roles assigned to your employees and "
+"leverage the \"Auto Plan\" capability beside the Publish button. This "
+"creates and assign all shifts automatically."
+msgstr ""
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
@@ -181,19 +291,27 @@ msgstr ""
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
-msgid "Assign these services to the right person."
+#, fuzzy
+msgid ""
+"Assign these services to the right person and make this fit in their shifts."
 msgstr "قم بإسناد الخدمات إلى الشخص المناسب."
+
+#. module: software_reseller
+#: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
+#, fuzzy
+msgid "Assignee: your account manager / user"
+msgstr "المسؤول: مدير حسابك/المستخدم"
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
 msgid ""
 "At the end of the month, salespeople go to the menu \"Orders to Invoice\" in "
-"Sales app. From there they can select an order (or select all), and invoice "
-"what has been delivered on the order."
+"<strong>Sales App</strong>. From there they can select an order (or select "
+"all), and invoice what has been delivered on the order."
 msgstr ""
-"في نهاية الشهر، يتوجه مندوبو المبيعات إلى قائمة ”الطلبات المطلوب فوترتها“ في "
-"تطبيق المبيعات. ومن هناك يمكنهم تحديد طلب (أو تحديد الكل)، وإصدار فاتورة بما "
-"تم تسليمه في الطلب."
+"في نهاية الشهر، ينتقل مندوبو المبيعات إلى قائمة \"طلبات بانتظار الفوترة\" في "
+"<strong>تطبيق المبيعات</strong>. ومن هناك يمكنهم تحديد طلب (أو تحديد الكل)، "
+"وإصدار فاتورة لما تم تسليمه في الطلب."
 
 #. module: software_reseller
 #: model:project.task.type,name:software_reseller.project_task_type_21
@@ -216,8 +334,9 @@ msgid "Business Needs analysis"
 msgstr "الشركة بحاجة إلى التحليل"
 
 #. module: software_reseller
-#: model:ir.actions.act_window,name:software_reseller.licenese_50da6821-c954-4104-b2bf-1a1a498da4de
-msgid "By software"
+#: model:ir.actions.act_window,name:software_reseller.by_software_act_window
+#, fuzzy
+msgid "By Software"
 msgstr "حسب البرنامج"
 
 #. module: software_reseller
@@ -244,23 +363,18 @@ msgstr "إنشاء 3 مهام لتتبع الخدمات"
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
-msgid ""
-"Create a <strong><font class=\"text-o-color-2\">subscription​</font></strong> "
-"to any customer with the <strong><font class=\"text-o-color-2\">product "
-"\"Oracle Database\"</font></strong><font class=\"text-o-color-2\">,</font> "
-"for 5 users for\n"
-"            one year. Once you confirm this order, two documents will be "
-"created:"
+msgid "Create a task to track the license"
+msgstr "قم بإنشاء مهمة لتتبع الرخصة"
+
+#. module: software_reseller
+#: model:ir.model.fields,field_description:software_reseller.x_partner_id_project_task_count_field
+msgid "Customer count"
 msgstr ""
-"أنشئ <strong><font class=\"text-o-color-2\">اشتراكاً​</font></strong> لأي عميل "
-"بمنتج <strong><font class=\"text-o-color-2\"> \"قاعدة بيانات Oracle\""
-"</font></strong><font class=\"text-o-color-2\">،</font> لـ 5 مستخدمين\n"
-"            لمدة عام واحد. بمجرد تأكيد هذا الطلب، سيتم إنشاء مستندين:"
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
-msgid "Create a task to track the license"
-msgstr "قم بإنشاء مهمة لتتبع الرخصة"
+msgid "Deadline: corresponding to the license key expiration date"
+msgstr ""
 
 #. module: software_reseller
 #: model:account.analytic.plan,name:software_reseller.account_analytic_plan_1
@@ -295,14 +409,42 @@ msgid "Development Services"
 msgstr "خدمات التطوير"
 
 #. module: software_reseller
+#: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
+msgid "Discover more about Odoo by diving into our"
+msgstr ""
+
+#. module: software_reseller
+#: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
+msgid "Do You Want to Go Further?"
+msgstr ""
+
+#. module: software_reseller
+#: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
+msgid ""
+"Don't forget to hit the Publish button from your planning to let your "
+"employees know what their coming weeks look like."
+msgstr ""
+
+#. module: software_reseller
 #: model:project.task.type,name:software_reseller.project_task_type_23
 msgid "Done"
 msgstr "تم الانتهاء"
 
 #. module: software_reseller
+#: model:hr.department,name:software_reseller.hr_department_2
+msgid "Employees"
+msgstr ""
+
+#. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
-msgid "Environement: Production"
+#, fuzzy
+msgid "Environment: Production"
 msgstr "البيئة: قاعدة بيانات الإنتاج"
+
+#. module: software_reseller
+#: model:ir.model.fields,field_description:software_reseller.x_expiration_check_field
+msgid "Expiration check"
+msgstr ""
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
@@ -337,18 +479,49 @@ msgstr "من مفتاح الرخصة:"
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
 msgid ""
-"From the <strong><font class=\"text-o-color-2\">app \"Licenses\"</font></"
-"strong>, you an have an overview of all your software licenses. Click on one "
-"specific license to track license keys belonging to each customer."
+"From the <strong><font class=\"text-o-color-1\">Licenses App</font></"
+"strong>, specially tailored for the Software reseller industry, you can have "
+"an overview of all your software licenses. Click on one specific license to "
+"track license\n"
+"            keys belonging to each customer."
 msgstr ""
-"من تطبيق <strong><font class=\"text-o-color-2\">\"التراخيص\"</font></strong>،"
-" يمكنك إلقاء نظرة عامة على كافة تراخيص برامجك. انقر على ترخيص واحد محدد "
-"لتتبع مفاتيح الترخيص الخاصة بكل عميل."
+"من <strong><font class=\"text-o-color-1\">تطبيق التراخيص</font></strong>، "
+"المصمم خصيصًا لقطاع أعمال مبيعات البرمجيات، يمكنك الحصول على نظرة عامة على "
+"جميع تراخيص البرامج الخاصة بك. انقر فوق ترخيص معين لتتبع\n"
+"            مفاتيح الترخيص الخاصة بكل عميل."
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
-msgid "From the planning, click on the \"Plan Existing\" icon;"
-msgstr "من تطبيق التخطيط، اضغط على أيقونة ” خطة موجودة“؛"
+msgid ""
+"From the <strong><font class=\"text-o-color-1\">Planning App</font></"
+"strong>, click New:"
+msgstr ""
+
+#. module: software_reseller
+#: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
+msgid ""
+"From the <strong><font class=\"text-o-color-1\">Timesheet App</font></"
+"strong>, or on one task, consultants and developers can timesheet their "
+"spent time on the different phases of the project: Business Need Analysis, "
+"Odoo\n"
+"            Configuration, or Training &amp; Support. This will be reflected "
+"as \"Delivered Quantity\" on the sale order lines."
+msgstr ""
+"بإمكان المستشارين والمطورين، من خلال <strong><font class=\"text-o-color-1\">"
+"تطبيق الجداول الزمنية</font></strong> أو من خلال مهمة معينة، تسجيل الوقت الذي "
+"أمضوه في المراحل المختلفة للمشروع: تحليل احتياجات العمل، أو إعداد نظام أودو\n"
+"            ، أو التدريب والدعم. وسيظهر ذلك تحت بند ”الكمية المسلّمة“ في بنود "
+"أمر البيع."
+
+#. module: software_reseller
+#: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
+#, fuzzy
+msgid ""
+"From the Product Sales tab, you can also add development serves in one click "
+"as Optional Products."
+msgstr ""
+"<font style=\"background-color: rgb(255, 239, 198);\">من علامة تبويب "
+"”المنتجات الاختيارية“، يمكنك أيضًا إضافة خدمات التطوير بضغطة زر.</font>"
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
@@ -356,33 +529,11 @@ msgid ""
 "From the subscription, using the top buttons, jump to the purchase order to "
 "buy these licenses to Oracle. You can send by email your request for "
 "quotation, then confirm the order. At that point, Oracle will send you the "
-"license\n"
-"            number."
+"license number."
 msgstr ""
 "من الاشتراك، يمكنك استخدام الأزرار العلوية للانتقال إلى طلب الشراء لشراء تلك "
 "التراخيص من Oracle. يمكنك إرسال طلب عرض السعر عبر البريد الإلكتروني ثم تأكيد "
-"الطلب. عندها ستقوم شركة Oracle بإرسال رقم\n"
-"            الترخيص إليك."
-
-#. module: software_reseller
-#: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
-msgid ""
-"From the timesheet app, or on the task, consultants can timesheet hours on "
-"the different phases of the project: Business Need Analysis, Odoo "
-"Configuration, or Training &amp; Support. This will be reflected as "
-"\"Delivered Quantity\" on\n"
-"            the sale order lines."
-msgstr ""
-"من تطبيق الجداول الزمنية، أو في المهمة نفسها، بإمكان الاستشاريين وضع جدول "
-"زمني لساعات العمل في مختلف مراحل المشروع: تحليل احتياجات العمل أو تهيئة أودو "
-"أو التدريب والدعم. سينعكس ذلك على شكل ”الكمية التي تم تسليمها“ في\n"
-"            بنود أمر البيع."
-
-#. module: software_reseller
-#. odoo-javascript
-#: code:addons/software_reseller/static/src/js/my_tour.js:0
-msgid "Get on track and explore our recommendations for your Odoo usage here!"
-msgstr "ابدأ واستكشف توصياتنا لاستخدام نظام أودو هنا!"
+"الطلب. عندها ستقوم شركة Oracle بإرسال رقم الترخيص إليك."
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
@@ -409,10 +560,31 @@ msgid "In Use"
 msgstr "قيد الاستخدام"
 
 #. module: software_reseller
+#: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
+msgid ""
+"In the chatter, leverage the email template to send those information to "
+"your customer by clicking the Send message button, opening the full composer "
+"and then selecting the Send licenses template from the three dots menu of "
+"the composer\n"
+"            bottom bar. The sent email appears in the chatter!"
+msgstr ""
+"في الدردشة، استفد من قوالب البريد الإلكتروني لإرسال هذه المعلومات إلى عميلك عن "
+"طريق الضغط على زر \"إرسال رسالة\"، وفتح نافذة كتابة الرسالة بالكامل، ثم "
+"اختيار قالب «إرسال التراخيص» من قائمة النقاط الثلاث الموجودة في الشريط السفلي "
+"لنافذة الكتابة.\n"
+"            تظهر الرسالة المرسلة في الدردشة!"
+
+#. module: software_reseller
 #: model:account.analytic.account,name:software_reseller.account_analytic_account_6
 #: model:project.project,name:software_reseller.project_project_6
 msgid "Internal"
 msgstr "داخلي"
+
+#. module: software_reseller
+#: model:ir.model.fields,field_description:software_reseller.is_license_field
+#, fuzzy
+msgid "Is license"
+msgstr "الرخصة"
 
 #. module: software_reseller
 #: model:product.template,name:software_reseller.product_product_2_product_template
@@ -427,7 +599,7 @@ msgstr "تراخيص Java"
 
 #. module: software_reseller
 #: model:ir.model.fields,field_description:software_reseller.x_is_license_field
-#: model_terms:ir.ui.view,arch_db:software_reseller.project_project_form_customization
+#: model_terms:ir.ui.view,arch_db:software_reseller.project_project_form_view
 msgid "License"
 msgstr "الرخصة"
 
@@ -437,19 +609,21 @@ msgid "License Key: XYZ"
 msgstr "مفتاح الرخصة: XYZ"
 
 #. module: software_reseller
-#: model:ir.ui.menu,name:software_reseller.licenses_8482a8f5-a077-46b1-8007-6efe437a9245
-#: model:ir.ui.menu,name:software_reseller.licenses_by_software_597c3ae4-8ff8-4785-9768-957e61596e95
+#: model:ir.actions.act_window,name:software_reseller.licenses_act_window
+#: model:ir.ui.menu,name:software_reseller.licenses_by_software_menu
+#: model:ir.ui.menu,name:software_reseller.licenses_menu
 #: model:project.project,label_tasks:software_reseller.project_project_1
 #: model:project.project,label_tasks:software_reseller.project_project_2
 #: model:project.project,label_tasks:software_reseller.project_project_3
 #: model:sale.order.template.line,name:software_reseller.sale_order_template_line_5
+#: model_terms:ir.ui.view,arch_db:software_reseller.view_res_partner_form_inherit
 msgid "Licenses"
 msgstr "الترخيصات"
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
 msgid ""
-"Licenses as managed as tasks in the project management app, with custom "
+"Licenses are managed as tasks in the project management app, with custom "
 "properties; license key, number of users, software version, ... these "
 "properties depend on the type of software sold (i.e. Odoo is sold based on "
 "the number of\n"
@@ -460,7 +634,7 @@ msgstr ""
 "وعدد المستخدمين، وإصدار البرنامج، ... تعتمد هذه الخصائص على نوع البرنامج "
 "المباع (على سبيل المثال: يُباع أودو بناءً على عدد\n"
 "            المستخدمين بشكل دوري، لكن يتطلب نظام Oracle الكثير من المعلومات: "
-"عدد وحدات المعالجة المركزية، وعدد مقاعد المطورين، وحجم قاعدة البيانات، إلخ)"
+"عدد وحدات المعالجة المركزية، وعدد مقاعد المطورين، وحجم قاعدة البيانات، إلخ) "
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
@@ -469,13 +643,23 @@ msgstr "التراخيص حسب البرنامج (في كانبان)"
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
-msgid "Licenses to Renew: things you have to check periodically"
+#, fuzzy
+msgid ""
+"Licenses to rework: licenses for which you have to do some work periodically"
 msgstr "التراخيص المطلوب تجديدها: الأشياء التي يجب عليك التحقق منها دورياً"
 
 #. module: software_reseller
-#: model_terms:ir.ui.view,arch_db:software_reseller.project_project_form_customization
+#: model_terms:ir.ui.view,arch_db:software_reseller.project_project_form_view
 msgid "Make the project visible in the Licences app"
 msgstr "إظهار المشروع في تطبيق التراخيص"
+
+#. module: software_reseller
+#: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
+msgid ""
+"Manage your accounting easier than ever with a completely integrated "
+"environment. (<strong><font class=\"text-o-color-1\">Accounting App</font></"
+"strong>)"
+msgstr ""
 
 #. module: software_reseller
 #: model:uom.uom,name:software_reseller.uom_uom_31
@@ -515,6 +699,40 @@ msgid "Odoo Standard Implementation"
 msgstr "التنفيذ القياسي لنظام أودو"
 
 #. module: software_reseller
+#: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
+msgid "Odoo offers you infinite possibilities, such as:"
+msgstr ""
+
+#. module: software_reseller
+#: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
+#, fuzzy
+msgid ""
+"On this order, the way to manage licenses is similar to the above section. "
+"So, we'll mostly focus on the delivery of the extra services."
+msgstr ""
+"<font style=\"color: inherit; background-color: rgb(255, 239, 198);\">في هذا "
+"الطلب، تشبه طريقة إدارة التراخيص طريقة إدارة التراخيص في القسم أعلاه. لذلك، "
+"سنركز في الغالب على تقديم الخدمات الإضافية.</font><br/>"
+
+#. module: software_reseller
+#: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
+msgid ""
+"Open the <strong><font class=\"text-o-color-1\">Sales App</font></strong> "
+"and create a <strong><font class=\"text-o-color-2\">subscription​</font></"
+"strong> to any customer with the\n"
+"            <strong><font class=\"text-o-color-2\">product \"Oracle "
+"Database\"</font></strong><font class=\"text-o-color-2\">,</font> for 5 "
+"users for one year. Once you confirm this order, two documents will be "
+"created:"
+msgstr ""
+"انتقل إلى <strong><font class=\"text-o-color-1\">تطبيق المبيعات</font></"
+"strong> وأنشئ <strong><font class=\"text-o-color-2\">اشتراكاً​</font></strong> "
+"لأي عميل لديه\n"
+"            <strong><font class=\"text-o-color-2\">منتج \"قاعدة بيانات "
+"أوراكل\"</font></strong><font class=\"text-o-color-2\">،</font>لـ 5 مستخدمين "
+"لعام كامل. بمجرد أن يتم تأكيد هذا الطلب، سيتم إنشاء مستندين:"
+
+#. module: software_reseller
 #: model:product.template,name:software_reseller.product_product_1_product_template
 msgid "Oracle Database License"
 msgstr "رخصة قاعدة بيانات Oracle"
@@ -524,6 +742,11 @@ msgstr "رخصة قاعدة بيانات Oracle"
 #: model:project.project,name:software_reseller.project_project_3
 msgid "Oracle Database Licenses"
 msgstr "تراخيص قواعد بيانات Oracle"
+
+#. module: software_reseller
+#: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
+msgid "Reach us"
+msgstr ""
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
@@ -537,11 +760,6 @@ msgstr ""
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
-msgid "Responsible: your account manager / user"
-msgstr "المسؤول: مدير حسابك/المستخدم"
-
-#. module: software_reseller
-#: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
 msgid ""
 "Select the services to plan \"Business Need Analysis\" and \"Odoo "
 "Configuration\" (training will be planned later on, on phase 2)"
@@ -550,19 +768,29 @@ msgstr ""
 "التخطيط للتدريب لاحقًا، في المرحلة الثانية)"
 
 #. module: software_reseller
-#: model:ir.ui.menu,name:software_reseller.licenses_licenese_01632710-57f0-4ec5-9e2e-e975cfbc0406
+#: model:ir.model.fields,field_description:software_reseller.field_related_software_reseller_x_software
+#: model:ir.model.fields,field_description:software_reseller.x_software_field
+#: model:ir.ui.menu,name:software_reseller.software_menu
 msgid "Software"
 msgstr "البرنامج"
 
 #. module: software_reseller
-#: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
-msgid "Software Resellers, IT Services"
+#: model:mail.template,name:software_reseller.mail_template_48
+#, fuzzy
+msgid "Software Reseller: Send license data"
 msgstr "موزعو البرمجيات، خدمات تكنولوجيا المعلومات"
 
 #. module: software_reseller
 #: model:project.task.type,name:software_reseller.project_task_type_24
 msgid "Specification"
 msgstr "المواصفات"
+
+#. module: software_reseller
+#: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
+msgid ""
+"Start receiving orders directly in Odoo or go live with your <strong><font "
+"class=\"text-o-color-1\">E-shop</font></strong> in a few minutes."
+msgstr ""
 
 #. module: software_reseller
 #: model:project.project,label_tasks:software_reseller.project_project_4
@@ -578,19 +806,40 @@ msgstr "اختبار"
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
-msgid "The <strong>Licenses</strong> app has 3 menus:"
-msgstr "يتضمن تطبيق <strong>التراخيص</strong> 3 قوائم:"
-
-#. module: software_reseller
-#: model_terms:ir.actions.act_window,help:software_reseller.licenese_50da6821-c954-4104-b2bf-1a1a498da4de
-msgid "This is where you manage your software licenses."
-msgstr "هذا هو المكان الذي يمكنك من خلاله إدارة تراخيص البرامج الخاصة بك."
+#, fuzzy
+msgid ""
+"The <strong><font class=\"text-o-color-1\">Licenses</font></strong><font "
+"class=\"text-o-color-1\"> </font><strong><font class=\"text-o-color-1\">App</"
+"font></strong> has 3 menus:"
+msgstr ""
+"أنشئ <strong><font class=\"text-o-color-2\">اشتراكاً​</font></strong> لأي عميل "
+"بمنتج <strong><font class=\"text-o-color-2\"> \"قاعدة بيانات Oracle\"</"
+"font></strong><font class=\"text-o-color-2\">،</font> لـ 5 مستخدمين\n"
+"            لمدة عام واحد. بمجرد تأكيد هذا الطلب، سيتم إنشاء مستندين:"
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
 msgid ""
-"To renew a license, you should just renew the subscription; the task remains "
-"the same."
+"These all go free in your current subscription; feel free to explore! 🙃"
+msgstr ""
+
+#. module: software_reseller
+#: model_terms:ir.actions.act_window,help:software_reseller.by_software_act_window
+msgid "This is where you manage your software licenses."
+msgstr "هذا هو المكان الذي يمكنك من خلاله إدارة تراخيص البرامج الخاصة بك."
+
+#. module: software_reseller
+#: model:ir.actions.act_window,name:software_reseller.to_review_act_window
+#: model:ir.ui.menu,name:software_reseller.licenses_to_review_menu
+msgid "To Review"
+msgstr ""
+
+#. module: software_reseller
+#: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
+#, fuzzy
+msgid ""
+"To renew a license, you should just renew the subscription from the sale "
+"order; the task remains the same."
 msgstr "لتجديد الترخيص، ما عليك سوى تجديد الاشتراك، وتبقى المهمة كما هي."
 
 #. module: software_reseller
@@ -612,7 +861,8 @@ msgstr "مستخدمين / السنة"
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
 msgid ""
 "Usually, you sell the software licenses with additional services. To test "
-"this flow, as you create a quotation, use the quotation template\n"
+"this flow from the <font class=\"text-o-color-1\"><strong>Sales App</"
+"strong></font>, as you create a quotation, use the quotation template\n"
 "            <strong>\n"
 "                <font class=\"text-o-color-2\">\"Odoo Standard "
 "Implementation\"</font>\n"
@@ -621,14 +871,16 @@ msgid ""
 "sell days, but timesheets per hour).</span></font>\n"
 "            </strong>"
 msgstr ""
-"عادةً ما تُباع تراخيص البرامج مع خدمات إضافية. لاختبار هذه العملية أثناء قيامك "
-"بإنشاء عرض سعر، قم باستخدام قالب عرض السعر \n"
+"عادةً ما يتم بيع تراخيص البرامج مع خدمات إضافية. لاختبار هذا المسار من <font "
+"class=\"text-o-color-1\"><strong>تطبيق المبيعات</strong></font>، عندما تقوم "
+"بإنشاء عرض سعر، استخدم قالب عرض الأسعار\n"
 "            <strong>\n"
-"                <font class=\"text-o-color-2\">\"التنفيذ القياسي لنظام أودو\""
-"</font>\n"
+"                <font class=\"text-o-color-2\">”التنفيذ القياسي لنظام أودو“</"
+"font>\n"
 "                <font style=\"color: inherit;\"><span style=\"font-weight: "
-"normal;\">. سيؤدي ذلك إلى إضافة الخدمات التي تمت فوترتها في الجداول الزمنية ("
-"الإعداد الافتراضي: أيام البيع، ولكن الجداول الزمنية بالساعة).</span></font>\n"
+"normal;\">. سيؤدي ذلك إلى إضافة الخدمات التي تتم فوترتها في تطبيق الجداول "
+"الزمنية (الإعداد الافتراضي: البيع الأيام، ولكن يتم حساب الجداول الزمنية بالساعة)"
+".</span></font>\n"
 "            </strong>"
 
 #. module: software_reseller
@@ -637,9 +889,10 @@ msgid "Version: 20.0.1"
 msgstr "الإصدار: 20.0.1"
 
 #. module: software_reseller
-#: model_terms:web_tour.tour,rainbow_man_message:software_reseller.knowledge_tour
-msgid "Welcome! Happy exploring."
-msgstr "أهلاً وسهلاً بك! نتمنى لك رحلة استكشافية سعيدة."
+#: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
+msgid ""
+"Would you like to discuss your Odoo setup with us or explore more features?"
+msgstr ""
 
 #. module: software_reseller
 #: model:uom.uom,name:software_reseller.uom_uom_29
@@ -653,10 +906,70 @@ msgstr "سنويًا"
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
+#, fuzzy
 msgid ""
-"You can communicate with customers on the chatter, to keep an history of the "
-"discussions"
+"You can communicate with customers on the chatter, to keep a history of the "
+"discussions or leverage the email template as mentioned previously."
 msgstr "يمكنك التواصل مع العملاء عن طريق الدردشة، للاحتفاظ بسجل للمناقشات"
+
+#. module: software_reseller
+#: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
+msgid ""
+"You can customize the email template with additional details and "
+"instructions, even including additional documents such as license setup "
+"procedure."
+msgstr ""
+
+#. module: software_reseller
+#: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
+msgid ""
+"You completed that demo use case! There are millions of other ways to adapt "
+"your Odoo setup to fit your business needs."
+msgstr ""
+
+#. module: software_reseller
+#: model:mail.template,subject:software_reseller.mail_template_48
+#, fuzzy
+msgid "Your new license"
+msgstr "3: قم بتجديد رخصة"
+
+#. module: software_reseller
+#: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
+msgid "academy"
+msgstr ""
+
+#. module: software_reseller
+#: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
+msgid "and"
+msgstr ""
+
+#. module: software_reseller
+#: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
+msgid "documentation"
+msgstr ""
+
+#. module: software_reseller
+#: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
+msgid "if you need help!"
+msgstr ""
+
+#. module: software_reseller
+#: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
+msgid "request a demo"
+msgstr ""
+
+#~ msgid "From the planning, click on the \"Plan Existing\" icon;"
+#~ msgstr "من تطبيق التخطيط، اضغط على أيقونة ” خطة موجودة“؛"
+
+#~ msgid ""
+#~ "Get on track and explore our recommendations for your Odoo usage here!"
+#~ msgstr "ابدأ واستكشف توصياتنا لاستخدام نظام أودو هنا!"
+
+#~ msgid "The <strong>Licenses</strong> app has 3 menus:"
+#~ msgstr "يتضمن تطبيق <strong>التراخيص</strong> 3 قوائم:"
+
+#~ msgid "Welcome! Happy exploring."
+#~ msgstr "أهلاً وسهلاً بك! نتمنى لك رحلة استكشافية سعيدة."
 
 #~ msgid "User Licenses"
 #~ msgstr "ترخيصات المستخدمين "

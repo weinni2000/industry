@@ -7,13 +7,13 @@
 # Wil Odoo, 2024
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# "Junko Augias (juau)" <juau@odoo.com>, 2025.
+# "Junko Augias (juau)" <juau@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-04 20:17+0000\n"
-"PO-Revision-Date: 2025-11-06 13:13+0000\n"
+"POT-Creation-Date: 2026-01-12 09:32+0000\n"
+"PO-Revision-Date: 2026-02-02 11:34+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-19/"
 "automobile/ja/>\n"
@@ -22,16 +22,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
 msgid ""
 "1. Create a request for quotation (RFQ) for the Vendor and select the "
 "desired products. Then send the RFQ via email."
-msgstr "1. "
-"仕入先向けに見積依頼書(RFQ)を作成し、希望する製品を選択してください。その後、"
-"RFQ をメールで送信してください。"
+msgstr ""
+"1. 仕入先向けに見積依頼書(RFQ)を作成し、希望する製品を選択してください。その"
+"後、RFQ をメールで送信してください。"
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
@@ -44,12 +44,11 @@ msgid ""
 "\"Quantities\" column and is considered completed when the delivery is "
 "validated.<br/>"
 msgstr ""
-"1. "
-"B2B(企業間取引)の販売では、標準的な販売プロセスに従って見積書を作成します。ま"
-"ず、プロダクトを選択して見積書を送信します。交渉が完了したら、合意された数量"
-"と価格で見積書を確定します。見積書を確定すると、配送が自動的に生成されます。"
-"配送では、「数量」欄に出荷する数量を入力し、納品を検証すると処理が完了します"
-"。<br/>"
+"1. B2B(企業間取引)の販売では、標準的な販売プロセスに従って見積書を作成しま"
+"す。まず、プロダクトを選択して見積書を送信します。交渉が完了したら、合意され"
+"た数量と価格で見積書を確定します。見積書を確定すると、配送が自動的に生成され"
+"ます。配送では、「数量」欄に出荷する数量を入力し、納品を検証すると処理が完了"
+"します。<br/>"
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
@@ -58,7 +57,8 @@ msgid ""
 "the shop and a salesperson will sell parts to them using the PoS app. The "
 "parts being sold and the payment by the customer are all handled within the "
 "PoS.<br/>"
-msgstr "1.B2C販売では、顧客が来店し、販売員がPoSアプリで部品を販売・決済します。販売"
+msgstr ""
+"1.B2C販売では、顧客が来店し、販売員がPoSアプリで部品を販売・決済します。販売"
 "と支払いはすべてPoS内で完了します。<br/>"
 
 #. module: automobile
@@ -66,9 +66,9 @@ msgstr "1.B2C販売では、顧客が来店し、販売員がPoSアプリで部�
 msgid ""
 "2. After negotiations are completed, put the price of the product in the RFQ "
 "and confirm it so that it becomes a Purchase Order (PO)."
-msgstr "2. "
-"交渉が完了したら、RFQ(見積依頼)にプロダクトの価格を入力し、それを確定して購買"
-"オーダ(PO)に変換してください。"
+msgstr ""
+"2. 交渉が完了したら、RFQ(見積依頼)にプロダクトの価格を入力し、それを確定して"
+"購買オーダ(PO)に変換してください。"
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
@@ -81,13 +81,12 @@ msgid ""
 "of warranty days will automatically be applied to the lot/serial number "
 "based on the delivery date and stored under its expiration date field."
 msgstr ""
-"2. "
-"特定のプロダクトに対して保証期間を管理したい場合は、まず設定で「ロット＆シリ"
-"アル番号」と「使用期限」のオプションを有効にしてください。続いて、該当する製"
-"品のフォームビューでロットまたはシリアル番号によるトラッキングを有効にし、「"
-"使用期限」欄に保証期間(日数)を入力します。プロダクトが納品されると、その保証"
-"日数が納品日に基づいてロット/シリアル番号に自動で適用され、使用期限欄に記録さ"
-"れます。"
+"2. 特定のプロダクトに対して保証期間を管理したい場合は、まず設定で「ロット＆シ"
+"リアル番号」と「使用期限」のオプションを有効にしてください。続いて、該当する"
+"製品のフォームビューでロットまたはシリアル番号によるトラッキングを有効にし、"
+"「使用期限」欄に保証期間(日数)を入力します。プロダクトが納品されると、その保"
+"証日数が納品日に基づいてロット/シリアル番号に自動で適用され、使用期限欄に記録"
+"されます。"
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
@@ -105,8 +104,8 @@ msgstr ""
 "およびシリアル番号」と「使用期限」を有効にします。次に、該当するプロダクトの"
 "フォームビューにて、ロットまたはシリアル番号でのトラッキングを有効にしてくだ"
 "さい。設定が完了したら、同じフォームビュー内の「使用期限」欄に保証期間(日数)"
-"を入力します。プロダクトが納品されると、その保証期間(日数)が納品日を基準にロ"
-"ット/シリアル番号に自動的に適用され、使用期限欄に保存されます。\n"
+"を入力します。プロダクトが納品されると、その保証期間(日数)が納品日を基準に"
+"ロット/シリアル番号に自動的に適用され、使用期限欄に保存されます。\n"
 "            <br/>"
 
 #. module: automobile
@@ -118,11 +117,58 @@ msgid ""
 "serial number, then you have to\n"
 "            provide these values before validating the receipt."
 msgstr ""
-"3. "
-"購買オーダ(PO)を確定すると、購買オーダに記載されたプロダクト数量に基づき入荷"
-"伝票が作成されます。入荷伝票内の「数量」欄に製品ごとの入荷数量を入力してくだ"
-"さい。ロット番号またはシリアル番号の管理が必要なプロダクトについては、\n"
+"3. 購買オーダ(PO)を確定すると、購買オーダに記載されたプロダクト数量に基づき入"
+"荷伝票が作成されます。入荷伝票内の「数量」欄に製品ごとの入荷数量を入力してく"
+"ださい。ロット番号またはシリアル番号の管理が必要なプロダクトについては、\n"
 "            入荷を検証する前にそれらの情報を入力する必要があります。"
+
+#. module: automobile
+#: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
+msgid ""
+"<b>Inventory App</b>: Manage a vast catalog of automotive parts with "
+"precision, tracking stock levels across\n"
+"                brands, models, and compatibility."
+msgstr ""
+
+#. module: automobile
+#: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
+msgid ""
+"<b>Planning App</b>: Organize team shifts and resource allocation to ensure "
+"your shop floor or warehouse is\n"
+"                always adequately staffed."
+msgstr ""
+
+#. module: automobile
+#: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
+msgid ""
+"<b>Point of Sale App</b>: Speed up counter sales for spare parts and "
+"accessories with a user-friendly interface\n"
+"                designed for high-volume retail."
+msgstr ""
+
+#. module: automobile
+#: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
+msgid ""
+"<b>Purchase App</b>: Automate the replenishment of fast-moving items like "
+"filters and oil, ensuring your shelves\n"
+"                are always stocked."
+msgstr ""
+
+#. module: automobile
+#: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
+msgid ""
+"<b>Sales App</b>: Handle B2B orders for garages and fleet partners "
+"efficiently, creating professional quotes and\n"
+"                managing contract pricing."
+msgstr ""
+
+#. module: automobile
+#: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
+msgid ""
+"<b>eCommerce App</b>: Launch a robust online store to sell parts directly to "
+"consumers, with search filters for\n"
+"                vehicle compatibility."
+msgstr ""
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
@@ -130,9 +176,8 @@ msgid ""
 "<font style=\"color: rgb(255, 156, 0);\">Brands</font>: new field to record "
 "the relevant car brands the part is used in."
 msgstr ""
-"<font style=\"color: rgb(255, 156, 0);\""
-">ブランド</font>：この部品が使用されている対象車種ブランドを記録する新しいフ"
-"ィールドです。"
+"<font style=\"color: rgb(255, 156, 0);\">ブランド</font>：この部品が使用され"
+"ている対象車種ブランドを記録する新しいフィールドです。"
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
@@ -142,11 +187,10 @@ msgid ""
 "to this. This is to clarify that every product is expected to use its "
 "standard global EAN/UPC code.<br/>"
 msgstr ""
-"<font style=\"color: rgb(255, 156, 0);\">EAN/UPCコード</font><font class="
-"\"text-o-color-2\""
-">：</font>バーコードのフィールドラベルがこの名称に変更されました。これは、す"
-"べてのプロダクトに対して国際的に標準化されたEAN/"
-"UPCコードの使用が推奨されることを明確にするためです。<br/>"
+"<font style=\"color: rgb(255, 156, 0);\">EAN/UPCコード</font><font "
+"class=\"text-o-color-2\">：</font>バーコードのフィールドラベルがこの名称に変"
+"更されました。これは、すべてのプロダクトに対して国際的に標準化されたEAN/UPC"
+"コードの使用が推奨されることを明確にするためです。<br/>"
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
@@ -156,10 +200,10 @@ msgid ""
 "manufactured by the company that provides that same part for the "
 "manufacturing of the vehicle, then it should have a OEM Number."
 msgstr ""
-"<font style=\"color: rgb(255, 156, 0);\""
-">OEM番号</font>：オリジナル装備メーカー(OEM)によって提供される部品のための新"
-"しいフィールドです。プロダクトが、自動車の製造時に使用される同一部品を供給し"
-"ているメーカーによって製造されている場合は、OEM番号を入力する必要があります。"
+"<font style=\"color: rgb(255, 156, 0);\">OEM番号</font>：オリジナル装備メー"
+"カー(OEM)によって提供される部品のための新しいフィールドです。プロダクトが、自"
+"動車の製造時に使用される同一部品を供給しているメーカーによって製造されている"
+"場合は、OEM番号を入力する必要があります。"
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
@@ -168,9 +212,8 @@ msgid ""
 "Internal Reference field has been renamed to this, to follow the industry "
 "naming standard."
 msgstr ""
-"<font style=\"color: rgb(255, 156, 0);\""
-">部品番号</font>：業界の命名基準に合わせて、プロダクトの「社内参照」フィール"
-"ドの名称がこのように変更されました。"
+"<font style=\"color: rgb(255, 156, 0);\">部品番号</font>：業界の命名基準に合"
+"わせて、プロダクトの「社内参照」フィールドの名称がこのように変更されました。"
 
 #. module: automobile
 #: model:product.template,name:automobile.product_template_13
@@ -180,7 +223,7 @@ msgstr "ACコンプレッサ"
 #. module: automobile
 #: model:ir.model.fields,field_description:automobile.field_x_brands_x_active
 msgid "Active"
-msgstr "アクティブ"
+msgstr "有効"
 
 #. module: automobile
 #: model:product.attribute.value,name:automobile.product_attribute_value_8
@@ -201,6 +244,11 @@ msgstr "自動車部品販売業者"
 #: model:product.pricelist,name:automobile.product_pricelist_2
 msgid "B2B Price list"
 msgstr "B2B価格表"
+
+#. module: automobile
+#: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
+msgid "Basics"
+msgstr ""
 
 #. module: automobile
 #: model:product.attribute,name:automobile.product_attribute_1
@@ -301,11 +349,6 @@ msgid "Gift Card"
 msgstr "ギフトカード"
 
 #. module: automobile
-#: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
-msgid "Inventory - to manage the stock of the parts,"
-msgstr "在庫 - 部品の在庫を管理し、"
-
-#. module: automobile
 #: model:product.attribute.value,name:automobile.product_attribute_value_3
 msgid "KIA"
 msgstr "KIA"
@@ -336,11 +379,6 @@ msgid "Part Number"
 msgstr "パーツ番号"
 
 #. module: automobile
-#: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
-msgid "Point of Sale (PoS) - for face-to-face sales with customers,"
-msgstr "販売時点管理 (PoS) - 顧客との対面販売用、"
-
-#. module: automobile
 #: model:product.template,name:automobile.product_template_11
 msgid "Rear Brake Pads"
 msgstr "リアブレーキパッド"
@@ -366,11 +404,6 @@ msgstr ""
 "このセットアップは、自動車部品を販売する企業向けに設計されています。エンジン"
 "関連部品、メンテナンス用品、アクセサリーなど、車に必要な主要部品を幅広い自動"
 "車ブランドに対応して取り扱っていることが想定されています。"
-
-#. module: automobile
-#: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
-msgid "To support the business, the following applications are included:"
-msgstr "ビジネスを支援するために、以下のアプリケーションが含まれています:"
 
 #. module: automobile
 #: model:product.attribute.value,name:automobile.product_attribute_value_1
@@ -404,12 +437,6 @@ msgstr "ようこそ！"
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
-msgid "and Sales, Purchase and Accounting to support smooth operations."
-msgstr "さらに、スムーズな業務運営を支えるために、販売・購買・会計の各アプリも含まれ"
-"ています。"
-
-#. module: automobile
-#: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
 msgid "for B2B customers you can use the B2B Price list."
 msgstr "B2B顧客には、B2B価格表を利用できます。"
 
@@ -422,6 +449,20 @@ msgstr "B2C顧客には、B2C価格表を利用できます。"
 #: model:ir.actions.server,name:automobile.update_the_warranty__f6563e1c-89cd-4350-b2c5-0558e726fded
 msgid "update the Warranty Date"
 msgstr "保証日を更新"
+
+#~ msgid "Inventory - to manage the stock of the parts,"
+#~ msgstr "在庫 - 部品の在庫を管理し、"
+
+#~ msgid "Point of Sale (PoS) - for face-to-face sales with customers,"
+#~ msgstr "販売時点管理 (PoS) - 顧客との対面販売用、"
+
+#~ msgid "To support the business, the following applications are included:"
+#~ msgstr "ビジネスを支援するために、以下のアプリケーションが含まれています:"
+
+#~ msgid "and Sales, Purchase and Accounting to support smooth operations."
+#~ msgstr ""
+#~ "さらに、スムーズな業務運営を支えるために、販売・購買・会計の各アプリも含ま"
+#~ "れています。"
 
 #~ msgid ""
 #~ "1. Create an RFQ for the Vendor and Select the Products than sent RFQ via "

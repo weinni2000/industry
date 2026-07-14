@@ -3,13 +3,13 @@
 # * sport_events
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025.
+# "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 13:19+0000\n"
-"PO-Revision-Date: 2025-11-04 13:56+0000\n"
+"POT-Creation-Date: 2026-04-10 19:42+0000\n"
+"PO-Revision-Date: 2026-05-05 11:08+0000\n"
 "Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
 "Language-Team: German <https://translate.odoo.com/projects/odoo-19/"
 "sport_events/de/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: sport_events
 #: model:event.event.ticket,name:sport_events.event_event_ticket_4
@@ -26,14 +26,9 @@ msgid "+ Cup"
 msgstr "+ Becher"
 
 #. module: sport_events
-#: model_terms:ir.ui.view,arch_db:sport_events.ir_ui_view_3140
-msgid "+1 555-555-5556"
-msgstr "+1 555-555-5556"
-
-#. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid ", and feel free to"
-msgstr "und"
+msgstr "und Sie können"
 
 #. module: sport_events
 #: model:survey.question.answer,value:sport_events.survey_question_answer_1
@@ -301,97 +296,71 @@ msgstr "<strong>Marathon 24 km in der Wildnis</strong> — 40 €"
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid ""
-"<strong><font class=\"text-o-color-1\">CRM</font></strong>: Manage "
-"relationships with sponsors, partners, and key contacts."
+"<strong><font class=\"text-o-color-1\"><b>Contacts App</b>:</font></"
+"strong>Maintain a database of teams, athletes, sponsors, and volunteers to "
+"streamline communication and coordination.<br/>"
 msgstr ""
-"<strong><font class=\"text-o-color-1\">CRM</font></strong>: Verwalten Sie "
-"Beziehungen zu Sponsore, Partnern und Schlüsselkontakten."
+"<strong><font class=\"text-o-color-1\"><b>Kontakte-App</b>:</font></"
+"strong>Führen Sie eine Datenbank mit Teams, Athleten, Sponsoren und "
+"Freiwilligen, um Kommunikation und Koordination zu optimieren.<br/>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid ""
-"<strong><font class=\"text-o-color-1\">Documents</font></strong>: Centralize "
-"spreadsheets and materials checklists."
+"<strong><font class=\"text-o-color-1\"><b>Email Marketing App</b>: </font></"
+"strong>Keep the excitement high by sending automated updates, newsletters, "
+"and reminders to attendees and participants.<br/>"
 msgstr ""
-"<strong><font class=\"text-o-color-1\">Dokumente</font></strong>: "
-"Zentralisieren Sie Tabellenkalkulationen und Checklisten für Material."
+"<strong><font class=\"text-o-color-1\"><b>E-Mail-Marketing-App</b>: </font></"
+"strong>Halten Sie die Spannung hoch, indem Sie automatisierte Updates, "
+"Newsletter und Erinnerungen an Teilnehmer und Besucher versenden.<br/>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid ""
-"<strong><font class=\"text-o-color-1\">Events</font></strong>: Plan and "
-"manage sport competitions, races, or tournaments."
+"<strong><font class=\"text-o-color-1\"><b>Events App</b>:</font></"
+"strong>Orchestrate tournaments and matches with ease, handling participant "
+"registrations, ticketing, and capacity management online.<br/>"
 msgstr ""
-"<strong><font class=\"text-o-color-1\">Veranstaltungen</font></strong>: "
-"Planen und verwalten Sie Sportveranstaltungen, Wettkämpfe, Rennen und "
-"Turniere."
+"<strong><font class=\"text-o-color-1\"><b>Veranstaltungen-App</b>:</font></"
+"strong>Organisieren Sie Turniere und Spiele ganz einfach, indem Sie "
+"Teilnehmeranmeldungen, Ticketverkauf und Kapazitätsmanagement online "
+"abwickeln.<br/>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid ""
-"<strong><font class=\"text-o-color-1\">Inventory</font></strong>: Track "
-"sports gear, event equipment, merchandise, and manage stock of all materials."
+"<strong><font class=\"text-o-color-1\"><b>Project App</b>: </font></"
+"strong>Manage the logistical setup of the event, assigning tasks to staff "
+"and volunteers to ensure the venue is ready on time."
 msgstr ""
-"<strong><font class=\"text-o-color-1\">Lager</font></strong>: Verfolgen Sie "
-"Sportausrüstung, Veranstaltungsausrüstung, Fanartikel und verwalten Sie den "
-"Bestand aller Materialien."
+"<strong><font class=\"text-o-color-1\"><b>Projekte-App</b>: </font></"
+"strong>Verwalten Sie die logistische Organisation der Veranstaltung, weisen "
+"Sie Mitarbeitern und Freiwilligen Aufgaben zu, um sicherzustellen, dass der "
+"Veranstaltungsort rechtzeitig bereit ist."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid ""
-"<strong><font class=\"text-o-color-1\">Planning</font></strong>: Create "
-"staff schedules, assign roles, and manage shifts."
+"<strong><font class=\"text-o-color-1\"><b>Website App</b>: </font></"
+"strong>Build a dedicated event portal to publish schedules, results, and "
+"venue information for fans and athletes.<br/>"
 msgstr ""
-"<strong><font class=\"text-o-color-1\">Planung</font></strong>: Erstellen "
-"Sie Dienstpläne, weisen Sie Rollen zu und verwalten Sie Schichten."
+"<strong><font class=\"text-o-color-1\"><b>Website-App</b>: </font></"
+"strong>Erstellen Sie ein spezielles Veranstaltungsportal, um Zeitpläne, "
+"Ergebnisse und Veranstaltungsortinformationen für Fans und Athleten zu "
+"veröffentlichen.<br/>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid ""
-"<strong><font class=\"text-o-color-1\">Project</font></strong>: Organize "
-"event planning, deadlines, and task responsibilities."
+"<strong><font class=\"text-o-color-1\"><b>eCommerce App</b>: </font></"
+"strong>Boost revenue by selling event merchandise, gear, and concessions "
+"directly through your event website.<br/>"
 msgstr ""
-"<strong><font class=\"text-o-color-1\">Projekte</font></strong>: "
-"Organisieren Sie das Veranstaltungsprogramm, Fristen und "
-"Aufgabenabhängigkeiten."
-
-#. module: sport_events
-#: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-msgid ""
-"<strong><font class=\"text-o-color-1\">Purchase</font>: </strong>Order "
-"ravitaillement supplies, gear, equipment, and other essentials for sport "
-"events.<strong/><br/>"
-msgstr ""
-"<strong><font class=\"text-o-color-1\">Einkauf</font>: </strong>Bestellen "
-"Sie Nachschub, Ausrüstung, Geräte und andere wichtige Artikel für "
-"Sportveranstaltungen.<strong/><br/>"
-
-#. module: sport_events
-#: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-msgid ""
-"<strong><font class=\"text-o-color-1\">Sign</font></strong>: Digitally sign "
-"sponsorship agreements or volunteer forms."
-msgstr ""
-"<strong><font class=\"text-o-color-1\">E-Signatur</font></strong>: "
-"Unterzeichnen Sie Sponsorenverträge oder Freiwilligenformulare digital."
-
-#. module: sport_events
-#: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-msgid ""
-"<strong><font class=\"text-o-color-1\">Survey</font></strong>: Gather "
-"feedback from participants, staff, and sponsors."
-msgstr ""
-"<strong><font class=\"text-o-color-1\">Umfrage</font></strong>: Sammeln Sie "
-"Feedback von Teilnehmern, Personal und Sponsoren."
-
-#. module: sport_events
-#: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
-msgid ""
-"<strong><font class=\"text-o-color-1\">Website</font></strong>: Promote "
-"events, sell tickets, and gather sponsorships online."
-msgstr ""
-"<strong><font class=\"text-o-color-1\">Website</font></strong>: Bewerben Sie "
-"Veranstaltungen, verkaufen Sie Tickets und fördern Sie das Sponsering online."
+"<strong><font class=\"text-o-color-1\"><b>E-Commerce-App</b>: </font></"
+"strong>Steigern Sie Ihren Umsatz, indem Sie Fanartikel, Ausrüstung und "
+"Konzessionen direkt über Ihre Veranstaltungswebsite verkaufen.<br/>"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
@@ -858,8 +827,8 @@ msgid ""
 "<strong>Use Smart Buttons</strong> to view stock moves and track the history "
 "of each item."
 msgstr ""
-"<strong>Verwenden Sie intelligente Schaltflächen</strong>, um "
-"Bestandsbewegungen anzuzeigen und die Historie jedes Artikels zu verfolgen."
+"<strong>Verwenden Sie intelligente Schaltflächen</strong>, um Lagerbuchungen "
+"anzuzeigen und die Historie jedes Artikels zu verfolgen."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1120,8 +1089,8 @@ msgid ""
 "“Course Marshal,” and assign them to each team member’s record, on "
 "<em>Employee</em> app"
 msgstr ""
-"Erstellen Sie Rollen wie „Sicherheit“, „Medizinisches Personal“, "
-"„Anmeldeschalter“ oder „Kursleiter“ und weisen Sie diese den Datensätzen der "
+"Erstellen Sie Rollen wie „Sicherheit“, „Medizinisches Personal“, „"
+"Anmeldeschalter“ oder „Kursleiter“ und weisen Sie diese den Datensätzen der "
 "einzelnen Teammitglieder in der Anwendung <em>Mitarbeiter</em> zu."
 
 #. module: sport_events
@@ -1172,7 +1141,7 @@ msgstr "Erfahren Sie mehr zu Odoo in unserer"
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid "Do You Want to Go Further?"
-msgstr "Möchten Sie noch weiter gehen?"
+msgstr "Möchten Sie noch weitergehen?"
 
 #. module: sport_events
 #: model:project.task.type,name:sport_events.project_task_type_3
@@ -1328,7 +1297,8 @@ msgstr ""
 #: code:addons/sport_events/static/src/js/my_tour.js:0
 msgid "Get on track and explore our recommendations for your Odoo usage here!"
 msgstr ""
-"Los geht’s! Entdecken Sie hier unsere Empfehlungen für die Nutzung von Odoo!"
+"Los geht’s! Entdecken Sie hier unsere Empfehlungen, um Odoo optimal zu "
+"nutzen!"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
@@ -1624,9 +1594,9 @@ msgid ""
 "Odoo is entirely integrated into an App. Download it to turn your phone into "
 "a tool to manage your entire workflow."
 msgstr ""
-"Odoo ist vollständig in einer App integriert. Laden Sie sie herunter, um Ihr "
-"Telefon in ein Tool zu verwandeln, sodass Sie ihr gesamtes Unternehmen "
-"verwalten können."
+"Odoo ist vollständig in eine App integriert. Laden Sie sie herunter, um Ihr "
+"Smartphone in ein Hilfsmittel zu verwandeln, mit dem Sie Ihren gesamten "
+"Arbeitsablauf verwalten können."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1645,7 +1615,7 @@ msgid ""
 msgstr ""
 "Das ist natürlich nur eine Übersicht über die Funktionen, die in diesem "
 "Paket enthalten sind. Sie können gerne neue Apps hinzufügen, Demodaten "
-"löschen/anpassen und etwas herumspielen."
+"löschen oder anpassen und etwas herumspielen."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -2234,7 +2204,8 @@ msgstr "Mit Freunden"
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid "Would you like to discuss your Odoo setup with us or go even further?"
 msgstr ""
-"Möchten Sie Ihre Odoo-Einrichtung mit uns besprechen oder noch weiter gehen?"
+"Möchten Sie Ihre Odoo-Konfiguration mit uns besprechen oder noch einen "
+"Schritt weiter gehen?"
 
 #. module: sport_events
 #: model:survey.question.answer,value:sport_events.survey_question_answer_10
@@ -2259,7 +2230,7 @@ msgid ""
 "your Odoo setup to fit your business needs."
 msgstr ""
 "Sie haben diesen Demo-Anwendungsfall abgeschlossen! Es gibt Millionen "
-"anderer Möglichkeiten, Ihre Odoo-Einrichtung an Ihre geschäftlichen "
+"anderer Möglichkeiten, Ihre Odoo-Konfiguration an Ihre geschäftlichen "
 "Anforderungen anzupassen."
 
 #. module: sport_events
@@ -2316,12 +2287,22 @@ msgstr "extern"
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.ir_ui_view_3140
 msgid "hello@mycompany.com"
-msgstr "hello@meinunternehmen.com"
+msgstr "hallo@meinunternehmen.de"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid "if you need help!"
 msgstr ", wenn Sie Hilfe benötigen!"
+
+#. module: sport_events
+#: model:event.question.answer,name:sport_events.event_question_answer_4
+msgid "l"
+msgstr "l"
+
+#. module: sport_events
+#: model:event.question.answer,name:sport_events.event_question_answer_3
+msgid "m"
+msgstr "m"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
@@ -2338,7 +2319,12 @@ msgstr ""
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid "request a demo"
-msgstr "bitten Sie um eine Demo"
+msgstr "eine Demo buchen"
+
+#. module: sport_events
+#: model:event.question.answer,name:sport_events.event_question_answer_2
+msgid "s"
+msgstr "s"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
@@ -2364,3 +2350,83 @@ msgstr "🏆 Trophäen für:"
 #: model_terms:event.event,description:sport_events.event_event_3
 msgid "🚲 Relay teams welcome (1 leg per person)"
 msgstr "🚲 Staffelteams sind willkommen (eine Etappe pro Person)"
+
+#~ msgid "+1 555-555-5556"
+#~ msgstr "+1 555-555-5556"
+
+#~ msgid ""
+#~ "<strong><font class=\"text-o-color-1\">CRM</font></strong>: Manage "
+#~ "relationships with sponsors, partners, and key contacts."
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">CRM</font></strong>: Verwalten Sie "
+#~ "Beziehungen zu Sponsore, Partnern und Schlüsselkontakten."
+
+#~ msgid ""
+#~ "<strong><font class=\"text-o-color-1\">Documents</font></strong>: "
+#~ "Centralize spreadsheets and materials checklists."
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">Dokumente</font></strong>: "
+#~ "Zentralisieren Sie Tabellenkalkulationen und Checklisten für Material."
+
+#~ msgid ""
+#~ "<strong><font class=\"text-o-color-1\">Events</font></strong>: Plan and "
+#~ "manage sport competitions, races, or tournaments."
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">Veranstaltungen</font></strong>: "
+#~ "Planen und verwalten Sie Sportveranstaltungen, Wettkämpfe, Rennen und "
+#~ "Turniere."
+
+#~ msgid ""
+#~ "<strong><font class=\"text-o-color-1\">Inventory</font></strong>: Track "
+#~ "sports gear, event equipment, merchandise, and manage stock of all "
+#~ "materials."
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">Lager</font></strong>: Verfolgen "
+#~ "Sie Sportausrüstung, Veranstaltungsausrüstung, Fanartikel und verwalten "
+#~ "Sie den Bestand aller Materialien."
+
+#~ msgid ""
+#~ "<strong><font class=\"text-o-color-1\">Planning</font></strong>: Create "
+#~ "staff schedules, assign roles, and manage shifts."
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">Planung</font></strong>: Erstellen "
+#~ "Sie Dienstpläne, weisen Sie Rollen zu und verwalten Sie Schichten."
+
+#~ msgid ""
+#~ "<strong><font class=\"text-o-color-1\">Project</font></strong>: Organize "
+#~ "event planning, deadlines, and task responsibilities."
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">Projekte</font></strong>: "
+#~ "Organisieren Sie das Veranstaltungsprogramm, Fristen und "
+#~ "Aufgabenabhängigkeiten."
+
+#~ msgid ""
+#~ "<strong><font class=\"text-o-color-1\">Purchase</font>: </strong>Order "
+#~ "ravitaillement supplies, gear, equipment, and other essentials for sport "
+#~ "events.<strong/><br/>"
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">Einkauf</font>: </strong>Bestellen "
+#~ "Sie Nachschub, Ausrüstung, Geräte und andere wichtige Artikel für "
+#~ "Sportveranstaltungen.<strong/><br/>"
+
+#~ msgid ""
+#~ "<strong><font class=\"text-o-color-1\">Sign</font></strong>: Digitally "
+#~ "sign sponsorship agreements or volunteer forms."
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">E-Signatur</font></strong>: "
+#~ "Unterzeichnen Sie Sponsorenverträge oder Freiwilligenformulare digital."
+
+#~ msgid ""
+#~ "<strong><font class=\"text-o-color-1\">Survey</font></strong>: Gather "
+#~ "feedback from participants, staff, and sponsors."
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">Umfrage</font></strong>: Sammeln "
+#~ "Sie Feedback von Teilnehmern, Personal und Sponsoren."
+
+#~ msgid ""
+#~ "<strong><font class=\"text-o-color-1\">Website</font></strong>: Promote "
+#~ "events, sell tickets, and gather sponsorships online."
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">Website</font></strong>: Bewerben "
+#~ "Sie Veranstaltungen, verkaufen Sie Tickets und fördern Sie das Sponsering "
+#~ "online."

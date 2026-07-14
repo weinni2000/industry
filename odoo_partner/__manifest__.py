@@ -36,7 +36,7 @@
         'data/knowledge_tour.xml',
     ],
     'demo': [
-        'demo/res_users.xml',
+        'demo/res_company.xml',
         'demo/res_partner.xml',
         'demo/appointment_type.xml',
         'demo/crm_lead.xml',
@@ -59,6 +59,7 @@
         "static/src/js/my_tour.js",
     ],
     'license': 'OEEL-1',
+    'application': True,
     'images': ['images/main.png'],
     'url': "https://www.odoo.com/trial?industry&selected_app=odoo_partner",
     'website': "https://www.odoo.com/industries/odoo-partner",

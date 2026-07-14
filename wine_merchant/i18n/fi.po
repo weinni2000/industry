@@ -3,13 +3,13 @@
 # * wine_merchant
 #
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
-# Saara Hakanen <sahak@odoo.com>, 2025.
+# Saara Hakanen <sahak@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 13:58+0000\n"
-"PO-Revision-Date: 2025-11-12 13:41+0000\n"
+"POT-Creation-Date: 2026-06-12 18:59+0000\n"
+"PO-Revision-Date: 2026-06-24 16:59+0000\n"
 "Last-Translator: Saara Hakanen <sahak@odoo.com>\n"
 "Language-Team: Finnish <https://translate.odoo.com/projects/odoo-19/"
 "wine_merchant/fi/>\n"
@@ -18,12 +18,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.homepage
 msgid "&amp;nbsp;Our Selection<br/>"
-msgstr "&amp;nbsp;Valintamme<br/>"
+msgstr "&amp;nbsp;Valikoimamme<br/>"
 
 #. module: wine_merchant
 #: model_terms:event.event,description:wine_merchant.event_event_2
@@ -78,11 +78,6 @@ msgid "**Who Should Enroll:**"
 msgstr "**Kenen kannattaisi ilmoittautua:**"
 
 #. module: wine_merchant
-#: model_terms:ir.ui.view,arch_db:wine_merchant.ir_ui_view_3281
-msgid "+1 555-555-5556"
-msgstr "+1 555-555-5556"
-
-#. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
 msgid ""
 "2. Add products to your cart, choose your favorite <strong>payment provider</"
@@ -92,24 +87,92 @@ msgstr ""
 "<strong>maksupalveluntarjoaja</strong> ja <strong>toimitustapa</strong>"
 
 #. module: wine_merchant
-#: model:product.attribute.value,name:wine_merchant.product_attribute_value_9
-msgid "2023"
-msgstr "2023"
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid ""
+"<b>Auto-BoM (Product Breakdown):</b> Automatically manage the inventory "
+"\"breakdown\" of bulk items (e.g., a crate of wine) into sub-products "
+"(individual bottles) and empty packaging assets."
+msgstr ""
+"<b>Automaattinen Materiaaliluettelo (tuoterakenne):</b> Hallitse "
+"automaattisesti irtotavaran (esim. viinilaatikko) varastointia jakamalla se "
+"osatuotteisiin (yksittäiset pullot) ja tyhjiin pakkausmateriaaleihin."
 
 #. module: wine_merchant
-#: model:product.attribute.value,name:wine_merchant.product_attribute_value_10
-msgid "2024"
-msgstr "2024"
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid ""
+"<b>Automate Compliance:</b> Generate weekly excise reports by license and "
+"track legal document statuses."
+msgstr ""
+"<b>Automatisoi vaatimustenmukaisuus:</b> Luo viikoittaiset "
+"Valmisteveroraportit lisensseittäin ja seuraa lakisääteisten asiakirjojen "
+"tilaa."
 
 #. module: wine_merchant
-#: model:product.attribute.value,name:wine_merchant.product_attribute_value_11
-msgid "2025"
-msgstr "2025"
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid ""
+"<b>Automate Deposit Surcharges:</b> Automatically link deposit products (and "
+"their associated taxes) to sellable items, ensuring the correct deposit "
+"amount is charged without manual entry."
+msgstr ""
+"<b>Automatisoi panttilisämaksut:</b> Linkitä panttituotteet (ja niihin "
+"liittyvät verot) myytäviin tuotteisiin automaattisesti, jolloin oikea "
+"panttisumma veloitetaan ilman manuaalista syöttöä."
+
+#. module: wine_merchant
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid ""
+"<b>CRM App</b>: Cultivate lasting relationships with wine lovers by managing "
+"interactions and tracking potential\n"
+"            leads for private sales or memberships."
+msgstr ""
+"<b>CRM-sovellus</b>: Luo kestäviä suhteita viinin ystäviin hallinnoimalla "
+"vuorovaikutusta ja seuraamalla potentiaalisia\n"
+"            yksityismyyntien tai jäsenyyksien liidejä."
+
+#. module: wine_merchant
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid ""
+"<b>Define &amp; Assign:</b> Create excise categories and link them to "
+"products with specific reporting units."
+msgstr ""
+"<b>Määritä &amp; sovella:</b> Luo valmisteverokategoriat ja linkitä ne "
+"tuotteisiin, joilla on tietyt raportointiyksiköt."
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.ir_ui_view_3281
 msgid "<b>Designed</b> for companies"
 msgstr "<b>Suunniteltu</b> yrityksille"
+
+#. module: wine_merchant
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid ""
+"<b>Events App</b>: Engage your community by organizing and managing "
+"registrations for wine tastings, workshops, and\n"
+"            exclusive release parties."
+msgstr ""
+"<b>Tapahtumat-sovellus</b>: Sitouta yhteisöäsi järjestämällä ja "
+"hallinnoimalla ilmoittautumisia viininmaistajaisiin, työpajoihin ja\n"
+"            yksityisiin julkistusjuhliin."
+
+#. module: wine_merchant
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid ""
+"<b>Inventory App</b>: Manage your cellar with precision, ensuring structure "
+"and clarity for thousands of bottles,\n"
+"            vintages, and locations."
+msgstr ""
+"<b>Varastointi-sovellus</b>: Hallinnoi kellariasi tarkasti, varmistaen "
+"järjestyksen ja selkeyden tuhansille pulloille,\n"
+"            vuosikerroille ja sijainneille."
+
+#. module: wine_merchant
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid ""
+"<b>Manage Fiscal Deposits:</b> Monitor stock movements (Entry/Exit) "
+"specifically for warehouses designated as fiscal deposits."
+msgstr ""
+"<b>Hallitse verovarastoja:</b> Seuraa varastoliikkeitä (sisään/ulos) "
+"erityisesti verovarastoiksi määritellyissä varastoissa."
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.ir_ui_view_3281
@@ -121,11 +184,104 @@ msgstr ""
 "Francisco CA 94134 <br/>Yhdysvallat"
 
 #. module: wine_merchant
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid ""
+"<b>Point of Sale App</b>: Deliver a smooth in-store experience with an "
+"intuitive interface that handles bottle and\n"
+"            case sales seamlessly."
+msgstr ""
+"<b>Kassajärjestelmä-sovellus</b>: Tarjoa sujuva myymäläkokemus "
+"intuitiivisella käyttöliittymällä, joka hoitaa pullo- ja\n"
+"            laatikkomyynnin saumattomasti."
+
+#. module: wine_merchant
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid ""
+"<b>Protect Margins:</b> Calculate customer discounts independently of excise "
+"taxes to ensure tax liabilities don't eat into your profit."
+msgstr ""
+"<b>Suojaa marginaalit:</b> Laske asiakasalennukset ilman valmisteveroa "
+"varmistaaksesi, ettei verovelat syö voittojasi."
+
+#. module: wine_merchant
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid ""
+"<b>Purchase App</b>: Automate the replenishment of your stock by tracking "
+"purchase orders and managing supplier\n"
+"            relationships effectively."
+msgstr ""
+"<b>Ostot-sovellus</b>: Automatisoi varastosi täydennys seuraamalla "
+"ostotilauksia ja hallinnoimalla toimittajasuhteita\n"
+"            tehokkaasti."
+
+#. module: wine_merchant
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid ""
+"<b>Sales App</b>: Streamline your B2B and B2C transactions by creating "
+"professional quotations and sales orders\n"
+"            efficiently."
+msgstr ""
+"<b>Myynti-sovellus</b>: Suoraviivaista B2B- ja B2C-tapahtumasi luomalla "
+"ammattimaisia tarjouksia ja myyntitilauksia\n"
+"            tehokkaasti."
+
+#. module: wine_merchant
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid ""
+"<b>Smart Fiscal Positions:</b> Automatically include or exclude excise taxes "
+"based on whether a partner holds their own fiscal deposit."
+msgstr ""
+"<b>Älykkäät verokantasäännöt:</b> Sisällytä tai poissulje valmisteverot "
+"automaattisesti sen mukaan, onko kumppanilla oma verotalletus."
+
+#. module: wine_merchant
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid ""
+"<b>Smart Replenishment:</b> Trigger automated rules to replenish sub-"
+"products from bulk stock as soon as they are needed for sale."
+msgstr ""
+"<b>Älykäs täydennys:</b> Käynnistä automaattiset säännöt täydentämään "
+"osatuotteet varastosta heti, kun niitä tarvitaan myyntiin."
+
+#. module: wine_merchant
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid ""
+"<b>Streamline Returns:</b> Capture returned bottles or crates during the "
+"delivery process or directly at the Point of Sale to credit customers "
+"instantly."
+msgstr ""
+"<b>Suoraviivaista palautukset:</b> Kirjaa palautetut pullot tai laatikot "
+"toimitusprosessin aikana tai suoraan Kassajärjestelmässä kreditoidaksesi "
+"asiakkaita välittömästi."
+
+#. module: wine_merchant
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid ""
+"<b>Transparent Accounting:</b> Clearly expose deposit totals on sales orders "
+"and invoices through dedicated tax groups for better customer clarity."
+msgstr ""
+"<b>Läpinäkyvä kirjanpito:</b> Näytä panttien kokonaissummat "
+"myyntitilauksissa ja laskuissa selkeästi erillisten veroryhmien avulla "
+"tehdäksesi tilanteen selkeämmäksi asiakkaalle."
+
+#. module: wine_merchant
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid ""
+"<b>eCommerce App</b>: Expand your reach beyond the shop floor by showcasing "
+"your wine selection and enabling secure\n"
+"            online purchases."
+msgstr ""
+"<b>Verkkokauppa-sovellus</b>: Laajenna vaikutuspiiriäsi valmistusketjun "
+"ulkopuolelle esittelemällä viinivalikoimaasi ja mahdollistamalla "
+"turvalliset\n"
+"            verkko-ostokset."
+
+#. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.contactus
 msgid ""
 "<i class=\"fa fa-1x fa-fw fa-envelope me-2\"/>info@yourcompany.example.com"
 msgstr ""
-"<i class=\"fa fa-1x fa-fw fa-envelope me-2\"/>info@yourcompany.example.com"
+"<i class=\"fa fa-1x fa-fw fa-envelope me-2\"/>info@yrityksesi.esimerkki.fi"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.contactus
@@ -146,6 +302,15 @@ msgid ""
 msgstr ""
 "<i class=\"fa fa-phone fa-fw me-2\"/>\n"
 "                        <span class=\"o_force_ltr\">+1 555-555-5556</span>"
+
+#. module: wine_merchant
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
+msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\" aria-label=\"Info-banneri\">💡</i>"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -170,6 +335,15 @@ msgstr ""
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid ""
+"<span class=\"h1-fs\">Addons</span>\n"
+"        <br/>"
+msgstr ""
+"<span class=\"h1-fs\">Lisäosat</span>\n"
+"        <br/>"
+
+#. module: wine_merchant
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
 msgid "<span class=\"h1-fs\">Basics</span>"
 msgstr "<span class=\"h1-fs\">Perustiedot</span>"
 
@@ -181,7 +355,7 @@ msgstr "<span class=\"h1-fs\">Työnkulut</span>"
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
 msgid "<span class=\"h1-fs\">Use Case</span>"
-msgstr "<span class=\"h1-fs\">Käyttötapaus</span>"
+msgstr "<span class=\"h1-fs\">Esimerkkitapaus</span>"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.contactus
@@ -287,7 +461,7 @@ msgstr "Lisää tuotteita ostoskoriin"
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
 msgid "Add the products to the quotation and send it by email to your customer"
-msgstr "Lisää tuotteet tarjoukseen ja lähetä sähköpostitse asiakkaalle."
+msgstr "Lisää tuotteet tarjoukseen ja lähetä se sähköpostitse asiakkaallesi"
 
 #. module: wine_merchant
 #: model_terms:website.menu,mega_menu_content:wine_merchant.website_menu_15
@@ -313,7 +487,7 @@ msgstr ""
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
 msgid "Assign <strong>attributes and attribute values</strong> to this product"
-msgstr "Määritä tälle tuotteelle <strong>attribuutit ja niiden arvot</strong>."
+msgstr "Määritä <strong>ominaisuudet ja niiden arvot</strong> tälle tuotteelle"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.homepage
@@ -349,16 +523,6 @@ msgid ""
 msgstr ""
 "Tämän moduulin demodatan lataaminen on lisännyt tietokantaan "
 "esimerkkitietoja."
-
-#. module: wine_merchant
-#: model:pos.payment.method,name:wine_merchant.pos_payment_method_2
-msgid "Card"
-msgstr "Kortti"
-
-#. module: wine_merchant
-#: model:pos.payment.method,name:wine_merchant.pos_payment_method_1
-msgid "Cash"
-msgstr "Kassa"
 
 #. module: wine_merchant
 #: model:product.attribute.value,name:wine_merchant.product_attribute_value_16
@@ -462,11 +626,6 @@ msgstr ""
 "niiden jäsentelyyn ja luokitteluun"
 
 #. module: wine_merchant
-#: model:pos.payment.method,name:wine_merchant.pos_payment_method_3
-msgid "Customer Account"
-msgstr "Asiakastili"
-
-#. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
 msgid ""
 "Demo attributes and attribute values have been added but feel free to add as "
@@ -474,6 +633,11 @@ msgid ""
 msgstr ""
 "Demo-ominaisuuksia ja -ominaisuusarvoja on lisätty, mutta voit vapaasti "
 "lisätä niin monta kuin haluat!"
+
+#. module: wine_merchant
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid "Deposit management"
+msgstr "Panttien hallinta"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.homepage
@@ -494,12 +658,12 @@ msgid ""
 "education!artners' case studies, methodology or developments. Be there and "
 "see directly from the source the features of the new version!"
 msgstr ""
-"Älä kävele tämän mahdollisuuden ohi vaan syvennä viinitietouttasi ja "
-"taitojasi! Varaa paikkasi jo tänään ja lähde makumatkalle oenologian "
-"maailmaan. Lisätietoa ja ilmoittautuminen: [Lisää verkkosivusto] tai ota "
-"yhteyttä: [Lisää yhteystiedot]. Kippis viinikoulutuksellesi! Pääset "
-"katsomaan asiantuntijoiden tapaustutkimuksia, menetelmiä tai kehitystyötä. "
-"Ole paikanpäällä ja näe ominaisuuksien kehitys suoraan lähteessä!"
+"Älä kävele mahdollisuutesi ohi syventää viinitietoutta ja -taitoja! Varaa "
+"paikkasi jo tänään ja lähde makumatkalle viininvalmistuksen maailmaan. "
+"Löydät lisätietoa ja ilmoittautumisen sivulla [Lisää verkkosivusto] tai "
+"ottamalla yhteyttä [Lisää yhteystiedot]. Kippis viinikoulutuksellesi! Pääset "
+"katsomaan asiantuntijoiden esimerkkitapauksia, menetelmiä tai kehitystyötä. "
+"Näe uuden maun synty suoraan paikan päällä!"
 
 #. module: wine_merchant
 #: model:hr.department,name:wine_merchant.hr_department_2
@@ -535,6 +699,11 @@ msgstr ""
 #: model:website.menu,name:wine_merchant.website_menu_11
 msgid "Events"
 msgstr "Tapahtumat"
+
+#. module: wine_merchant
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid "Excise management"
+msgstr "Valmisteverojen hallinta"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -592,8 +761,32 @@ msgid ""
 "For a more structured point of sale catalog, create different Point of Sale "
 "categories. These can be defined on your product forms."
 msgstr ""
-"Jäsennellympää kassajärjestelmän luetteloa varten voit luoda erilaisia "
-"kassajärjestelmän kategorioita. Nämä voidaan määrittää tuotelomakkeissasi."
+"Jäsennellympää kassajärjestelmän katalogia varten voit luoda erilaisia "
+"kassajärjestelmän kategorioita. Nämä voi määrittää tuotelomakkeissa."
+
+#. module: wine_merchant
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid ""
+"For beverage businesses handling returnable packaging like glass bottles or "
+"crates, the <b>Deposit Management Module</b> automates the financial and "
+"logistical tracking of these assets."
+msgstr ""
+"<b>Panttien hallinnan moduuli</b> automatisoi omaisuuden taloudellisen ja "
+"logistisen seurannan juomayrityksille, jotka käsittelevät lasipullojen tai "
+"laatikoiden kaltaisia palautettavia tuotteita."
+
+#. module: wine_merchant
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid ""
+"For businesses operating as an <b>Fiscal Deposit</b>, managing complex tax "
+"requirements is a critical operational need. Our <b>Excises Module</b>, "
+"available on the App Store, streamlines this process directly within your "
+"Odoo environment."
+msgstr ""
+"Monimutkaisten verovaatimusten hallinta on kriittinen toiminnallinen tarve "
+"<b>Verotalletuksena</b> toimiville yrityksille. Sovelluskaupasta saatava <b>-"
+"valmistevero-moduulimme</b> virtaviivaistaa tämän prosessin suoraan Odoo-"
+"ympäristössäsi."
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -625,7 +818,12 @@ msgstr "Anna sille <strong>myyntihinta</strong>"
 #. module: wine_merchant
 #: model:product.template,name:wine_merchant.product_template_10
 msgid "Golden Dragon - Legendary Vineyards - 2023"
-msgstr "Golden Dragon - Legendary Vineyards - 2023"
+msgstr "Golden Dragon - Legendaariset viinitilat - 2023"
+
+#. module: wine_merchant
+#: model:product.attribute,name:wine_merchant.product_attribute_grape_variety
+msgid "Grape Variety"
+msgstr "Rypäleet"
 
 #. module: wine_merchant
 #: model:product.attribute.value,name:wine_merchant.product_attribute_value_13
@@ -672,7 +870,7 @@ msgstr "Languedoc"
 #. module: wine_merchant
 #: model:product.attribute.value,name:wine_merchant.product_attribute_value_17
 msgid "Legendary Vineyard"
-msgstr "Legendary Vineyard"
+msgstr "Legendaarinen viinitila"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -712,9 +910,9 @@ msgid ""
 "package. Feel free to add new apps, delete/modify demo data, and test "
 "everything around!"
 msgstr ""
-"Tämä on tietenkin vain yleiskatsaus paketin sisältämistä ominaisuuksista. "
-"Voit vapaasti lisätä uusia sovelluksia, poistaa/muuttaa demotietoja ja "
-"testata ihan kaikkea!"
+"Tämä on tietenkin vasta yleiskatsaus kaikista tähän pakettiin kuuluvista "
+"ominaisuuksista. Voit lisätä uusia sovelluksia, poistaa/muokata demotietoja "
+"sekä testata kaikkea mahdollista!"
 
 #. module: wine_merchant
 #: model_terms:event.event,description:wine_merchant.event_event_1
@@ -734,8 +932,8 @@ msgid ""
 "different events and you will be able to manage the participants from the "
 "Events App"
 msgstr ""
-"Verkkosivulla asiakkaasi voivat nyt ostaa lippuja eri tapahtumiisi, ja sinä "
-"voit hallinnoida osallistujia Tapahtumat-sovelluksen avulla."
+"Asiakkaasi voivat nyt ostaa lippuja tapahtumiisi verkkosivujesi kautta ja "
+"sinä voit hallinnoida osallistujia Tapahtumat-sovelluksella"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -744,7 +942,7 @@ msgid ""
 "shop or warehouse"
 msgstr ""
 "Kun olet vastaanottanut tuotteesi, <strong>varastoi</strong> ne kauppaasi "
-"tai varastoon."
+"tai varastoon"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -762,7 +960,7 @@ msgid ""
 "App</strong> offering your different wines"
 msgstr ""
 "Kun liidi osoittaa kiinnostusta, laadi <strong>tarjous Myynti-sovelluksessa</"
-"strong> ja esittele eri viinivaihtoehtosi."
+"strong> tarjotaksesi eri viinivaihtoehtojasi"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -772,7 +970,8 @@ msgid ""
 "a team member"
 msgstr ""
 "Avaa <strong>CRM-sovellus</strong>, luo uusi liidi asiakkaalle, joka haluaa "
-"tilata suuren määrän erilaisia viinejä, ja osoita liidi tiimin jäsenelle."
+"tilata suuren määrän erilaisia viinejä, ja anna liidi hoidettavaksi tiimin "
+"jäsenelle"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -796,9 +995,9 @@ msgid ""
 "Open your website, add different blocks to build the perfect website. Get "
 "your clients to know you, your offer and the events you organize"
 msgstr ""
-"Avaa verkkosivusi ja lisää eri rakennuspalikoita rakentaaksesi täydellisen "
-"sivuston. Anna asiakkaidesi tutustua sinuun, tarjontaasi ja järjestämiisi "
-"tapahtumiin."
+"Avaa verkkosivusi ja lisää erilaisia rakennuspalikoita rakentaaksesi "
+"täydellisen sivuston. Anna asiakkaidesi tutustua sinuun, tarjontaasi ja "
+"järjestämiisi tapahtumiin"
 
 #. module: wine_merchant
 #: model:product.attribute.value,name:wine_merchant.product_attribute_value_22
@@ -825,6 +1024,22 @@ msgstr ""
 #: model:product.attribute.value,name:wine_merchant.product_attribute_value_12
 msgid "Pinot Noir, Chardonnay"
 msgstr "Pinot Noir, Chardonnay"
+
+#. module: wine_merchant
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid ""
+"Please note that because this module utilizes Odoo Studio and custom Python "
+"logic, installing it will increase your subscription cost based on the added "
+"lines of code."
+msgstr ""
+"Huomaa, että koska tämä moduuli käyttää Odoo Studiota sekä räätälöityä "
+"Python-logiikkaa, sen asentaminen nostaa tilausmaksuasi lisättyjen "
+"koodirivien mukaisesti."
+
+#. module: wine_merchant
+#: model:product.attribute,name:wine_merchant.product_attribute_category
+msgid "Product Category"
+msgstr "Tuotekategoria"
 
 #. module: wine_merchant
 #: model:product.attribute.value,name:wine_merchant.product_attribute_value_8
@@ -860,6 +1075,11 @@ msgstr "Punainen"
 #: model_terms:ir.ui.view,arch_db:wine_merchant.homepage
 msgid "Refined wines delivered to your home!"
 msgstr "Laadukkaita viinejä toimitettuna kotiisi!"
+
+#. module: wine_merchant
+#: model:product.attribute,name:wine_merchant.product_attribute_region
+msgid "Region"
+msgstr "Alue"
 
 #. module: wine_merchant
 #: model:event.event.ticket,name:wine_merchant.event_event_ticket_2
@@ -973,75 +1193,11 @@ msgstr "Syrah"
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
 msgid ""
-"The <font class=\"text-o-color-1\"><strong>CRM App</strong></font> helps you "
-"manage client interactions and track potential leads"
-msgstr ""
-"<font class=\"text-o-color-1\"><strong>CRM-sovellus</strong></font> auttaa "
-"sinua hallinnoimaan asiakastapaamisia ja seuraamaan potentiaalisia asiakkaita"
-
-#. module: wine_merchant
-#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
-msgid ""
-"The <strong><font class=\"text-o-color-1\">Ecommerce App </font></"
-"strong>showcases your different wines and allow customers to buy them online"
-msgstr ""
-"<strong><font class=\"text-o-color-1\">Verkkosivu-sovellus</font></strong> "
-"esittelee eri viinisi ja mahdollistaa niiden ostamisen verkossa"
-
-#. module: wine_merchant
-#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
-msgid ""
-"The <strong><font class=\"text-o-color-1\">Event App</font></strong> will "
-"allow your clients to participate in different events around wine"
-msgstr ""
-"<strong><font class=\"text-o-color-1\">Tapahtumat-sovellus</font></strong> "
-"mahdollistaa asiakkaiden osallistumisen erilaisiin viiniteemaisiin "
-"tapahtumiin"
-
-#. module: wine_merchant
-#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
-msgid ""
-"The <strong><font class=\"text-o-color-1\">Inventory App</font></strong> "
-"help you manage your stock levels"
-msgstr ""
-"<strong><font class=\"text-o-color-1\">Varastointi-sovellus</font></strong> "
-"auttaa sinua hallinnoimaan varastotasoasi"
-
-#. module: wine_merchant
-#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
-msgid ""
-"The <strong><font class=\"text-o-color-1\">Point of Sale App</font></strong> "
-"allows you to easily sell wine in your store"
-msgstr ""
-"<strong><font class=\"text-o-color-1\">Kassajärjestelmä-sovellus</font></"
-"strong> mahdollistaa viinin myymisen myymälässäsi helposta"
-
-#. module: wine_merchant
-#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
-msgid ""
-"The <strong><font class=\"text-o-color-1\">Purchase App</font></strong> "
-"gathers all the different purchase orders you have made"
-msgstr ""
-"<strong><font class=\"text-o-color-1\">Ostot-sovellus</font></strong> kerää "
-"kaikki tekemäsi erilaiset ostotilaukset yhteen"
-
-#. module: wine_merchant
-#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
-msgid ""
-"The <strong><font class=\"text-o-color-1\">Sales App</font></strong> "
-"streamlines quotations"
-msgstr ""
-"<strong><font class=\"text-o-color-1\">Myynti-sovellus</font></strong> "
-"suoraviivaistaa tarjoukset"
-
-#. module: wine_merchant
-#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
-msgid ""
 "The Ecommerce categories will help you structure and organize your online "
 "catalog making it easier for customers to browse and find what they need."
 msgstr ""
-"Verkkokaupan kategoriat auttavat jäsentämään ja organisoimaan katalogiasi "
-"verkossa, jolloin asiakkaat löytävät helpommin etsimänsä"
+"Verkkokaupan kategoriat auttavat jäsentämään ja järjestämään "
+"verkkokatalogisi, jolloin asiakkaat löytävät helpommin etsimänsä."
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -1050,12 +1206,17 @@ msgid ""
 "on different attribute values to refine their search."
 msgstr ""
 "Tuotteille määritettyjen ominaisuuksien avulla asiakkaat voivat suodattaa "
-"tuotteita eri ominaisuusarvojen perusteella ja tarkentaa hakua"
+"eri ominaisuusarvojen perusteella ja tarkentaa hakua."
 
 #. module: wine_merchant
 #: model_terms:event.event,description:wine_merchant.event_event_1
 msgid "The evening will feature:"
 msgstr "Ilta pitää sisällään:"
+
+#. module: wine_merchant
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid "The module enables you to:"
+msgstr "Moduulin avulla voit:"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -1082,11 +1243,12 @@ msgid ""
 "        making it easy to manage wines, spirits, and exclusive selections "
 "effortlessly."
 msgstr ""
-"Tämä paketti on suunniteltu viinikauppiaille, jotka haluavat jäsentää "
-"tuotevalikoimansa, tehostaa myyntiä ja parantaa asiakaskokemusta – kaikki "
-"yhdellä, helppokäyttöisellä alustalla. Odoon avulla katalogisi on selkeä ja "
-"hyvin organisoitu, mikä helpottaa viinien, väkevien juomien ja "
-"erikoistuotteiden hallintaa."
+"Tämä paketti on suunniteltu helpottamaan viinikauppiaita tuotevalikoiman "
+"jäsentelemisessä, myynnin tehostamsiessa sekä asiakaskokemuksen "
+"parantamisessa – kaikki yhdellä, intuitiivisella alustalla. Odoon avulla "
+"katalogisi on selkeä ja hyvin organisoitu,\n"
+"        mikä helpottaa viinien, väkevien juomien sekä erikoistuotteiden "
+"hallintaa."
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -1100,7 +1262,7 @@ msgstr ""
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
 msgid "To speed up the creation of the quotation use a quotation template."
-msgstr "Nopeuttaaksesi tarjouksen laatimista, käytä tarjouspohjaa"
+msgstr "Käytä tarjouspohjaa nopeuttaaksesi tarjouksen laatimista."
 
 #. module: wine_merchant
 #: model:website.menu,name:wine_merchant.website_menu_4
@@ -1132,6 +1294,16 @@ msgstr ""
 "maailmaan."
 
 #. module: wine_merchant
+#: model:product.attribute,name:wine_merchant.product_attribute_vineyard
+msgid "Vineyard"
+msgstr "Viinitila"
+
+#. module: wine_merchant
+#: model:product.attribute,name:wine_merchant.product_attribute_vintage
+msgid "Vintage"
+msgstr "Vintage"
+
+#. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
 msgid ""
 "Want to make sure you never run out of stock? Check our different "
@@ -1148,7 +1320,7 @@ msgid ""
 "problems. Our products are designed for small to medium size companies "
 "willing to optimize their performance."
 msgstr ""
-"Olemme intohimoinen tiimi, jonka tavoitteena on parantaa kaikkien elämää "
+"Olemme intohimoinen tiimi, jonka tavoite on parantaa jokaisen elämää "
 "mullistavien tuotteiden avulla. Kehitämme loistavia tuotteita "
 "liiketoimintasi ongelmien ratkaisemiseksi. Tuotteemme on suunniteltu "
 "pienille ja keskisuurille yrityksille, jotka haluavat optimoida "
@@ -1176,12 +1348,12 @@ msgid ""
 "curated selection and experience the taste of excellence in every pour. "
 "Cheers to unforgettable moments—one glass at a time."
 msgstr ""
-"Tervetuloa ViininToimittajaan, missä jokainen pullo kantaa tarinan "
-"perinteestä, intohimosta ja terroir-viineistä. Aurinkoisista viinitarhoista "
-"suoraan lasiisi – artesaaniviinimme vangitsevat jokaisen sadon olemuksen. "
-"Olitpa kokenut asiantuntija tai viinimatkasi alussa, tutustu huolella "
-"valittuun valikoimaamme ja koe erinomainen maku jokaisessa lasillisessa. "
-"Kippis unohtumattomille hetkille – yksi lasi kerrallaan."
+"Tervetuloa ViininToimittajaan, missä jokainen pullo kantaa tarinaa "
+"perinteestä ja intohimosta. Aurinkoisilta viinitiloilta suoraan lasiisi – "
+"artesaaniviinimme vangitsevat jokaisen sadon olemuksen. Olitpa kokenut "
+"asiantuntija tai vielä viinimatkasi alussa, saat tutustua huolella valittuun "
+"tarjontaamme sekä kokea erinomaisen maun jokaisessa lasillisessa. Kippis "
+"unohtumattomille hetkille – yksi lasi kerrallaan."
 
 #. module: wine_merchant
 #: model_terms:event.event,description:wine_merchant.event_event_1
@@ -1239,8 +1411,8 @@ msgstr ""
 msgid ""
 "Would you like to discuss your Odoo setup with us or explore more features?"
 msgstr ""
-"Haluaisitko keskustella kanssamme Odoo-asennuksestasi tai tutkia lisää "
-"ominaisuuksia?"
+"Haluatko keskustella kanssamme Odoon käyttöönotosta tai tutustua muihinkin "
+"sen ominaisuuksiin?"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -1264,7 +1436,7 @@ msgid ""
 "to keep a trace of your recent purchases? Record them in the<strong> "
 "purchase app</strong>"
 msgstr ""
-"Kävitkö äskettäin viinitarhoilla Ranskassa tai Italiassa ja haluat pitää "
+"Kävitkö äskettäin viinitiloilla Ranskassa tai Italiassa, ja haluat pitää "
 "kirjaa ostoksistasi? Kirjaa ne <strong>Ostot-sovellukseen</strong>"
 
 #. module: wine_merchant
@@ -1273,8 +1445,8 @@ msgid ""
 "You should be able to execute the following flows to have an overview of "
 "various flows you can quickly execute with this package using Odoo."
 msgstr ""
-"Sinun pitäisi pystyä suorittamaan seuraavat työnkulut saadaksesi yleiskuvan "
-"erilaisista työnkuluista, joita voit suorittaa nopeasti tämän paketin avulla."
+"Sinun pitäisi pystyä suorittamaan seuraavat toiminnot, jotta saat yleiskuvan "
+"erilaisista tämän Odoo-paketin avulla nopeasti suoritettavista työnkuluista."
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.homepage
@@ -1282,8 +1454,8 @@ msgid ""
 "Your Dynamic Snippet will be displayed here... This message is displayed "
 "because you did not provide both a filter and a template to use.<br/>"
 msgstr ""
-"Dynaaminen pätkäsi näytetään tässä... Tämä viesti näytetään, koska et ole "
-"antanut sekä suodatinta että mallia käytettäväksi.<br/>"
+"Dynaaminen katkelmasi näytetään tässä... Näet tämän viestin, koska et "
+"antanut suodatinta tai käytettävää mallipohjaa.<br/>"
 
 #. module: wine_merchant
 #: model:product.template,name:wine_merchant.product_template_15
@@ -1298,4 +1470,87 @@ msgstr "ja"
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.ir_ui_view_3281
 msgid "hello@mycompany.com"
-msgstr "hello@mycompany.com"
+msgstr "hei@yritykseni.fi"
+
+#. module: wine_merchant
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid "﻿Deposit Module﻿"
+msgstr "Panttimoduuli"
+
+#. module: wine_merchant
+#: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
+msgid "﻿Excise Module﻿"
+msgstr "﻿Valmisteveromoduuli﻿"
+
+#~ msgid "Card"
+#~ msgstr "Kortti"
+
+#~ msgid "Cash"
+#~ msgstr "Kassa"
+
+#~ msgid "Customer Account"
+#~ msgstr "Asiakastili"
+
+#~ msgid "+1 555-555-5556"
+#~ msgstr "+1 555-555-5556"
+
+#~ msgid "2023"
+#~ msgstr "2023"
+
+#~ msgid "2024"
+#~ msgstr "2024"
+
+#~ msgid "2025"
+#~ msgstr "2025"
+
+#~ msgid ""
+#~ "The <font class=\"text-o-color-1\"><strong>CRM App</strong></font> helps "
+#~ "you manage client interactions and track potential leads"
+#~ msgstr ""
+#~ "<font class=\"text-o-color-1\"><strong>CRM-sovellus</strong></font> "
+#~ "auttaa sinua hallinnoimaan asiakastapaamisia ja seuraamaan potentiaalisia "
+#~ "asiakkaita"
+
+#~ msgid ""
+#~ "The <strong><font class=\"text-o-color-1\">Ecommerce App </font></"
+#~ "strong>showcases your different wines and allow customers to buy them "
+#~ "online"
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">Verkkosivu-sovellus</font></"
+#~ "strong> esittelee eri viinisi ja mahdollistaa niiden ostamisen verkossa"
+
+#~ msgid ""
+#~ "The <strong><font class=\"text-o-color-1\">Event App</font></strong> will "
+#~ "allow your clients to participate in different events around wine"
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">Tapahtumat-sovellus</font></"
+#~ "strong> mahdollistaa asiakkaiden osallistumisen erilaisiin "
+#~ "viiniteemaisiin tapahtumiin"
+
+#~ msgid ""
+#~ "The <strong><font class=\"text-o-color-1\">Inventory App</font></strong> "
+#~ "help you manage your stock levels"
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">Varastointi-sovellus</font></"
+#~ "strong> auttaa sinua hallinnoimaan varastotasoasi"
+
+#~ msgid ""
+#~ "The <strong><font class=\"text-o-color-1\">Point of Sale App</font></"
+#~ "strong> allows you to easily sell wine in your store"
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">Kassajärjestelmä-sovellus</font></"
+#~ "strong> mahdollistaa viinin myymisen myymälässäsi helposta"
+
+#~ msgid ""
+#~ "The <strong><font class=\"text-o-color-1\">Purchase App</font></strong> "
+#~ "gathers all the different purchase orders you have made"
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">Ostot-sovellus</font></strong> "
+#~ "kerää kaikki tekemäsi erilaiset ostotilaukset yhteen"
+
+#~ msgid ""
+#~ "The <strong><font class=\"text-o-color-1\">Sales App</font></strong> "
+#~ "streamlines quotations"
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">Myynti-sovellus</font></strong> "
+#~ "suoraviivaistaa tarjoukset"

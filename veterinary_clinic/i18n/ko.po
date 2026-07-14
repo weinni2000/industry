@@ -3,15 +3,15 @@
 # * veterinary_clinic
 #
 # Odoo Translation Bot <c3p@odoo.com>, 2025.
-# "Kwanghee Park (kwpa)" <kwpa@odoo.com>, 2025.
+# "Kwanghee Park (kwpa)" <kwpa@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 14:21+0000\n"
-"PO-Revision-Date: 2025-11-17 11:19+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-04-10 19:51+0000\n"
+"PO-Revision-Date: 2026-02-02 11:34+0000\n"
+"Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@odoo.com>\n"
 "Language-Team: Korean <https://translate.odoo.com/projects/odoo-19/"
 "veterinary_clinic/ko/>\n"
 "Language: ko\n"
@@ -19,17 +19,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_pets_line_ids_field
 msgid " - (Consultations)"
 msgstr " - (상담)"
-
-#. module: veterinary_clinic
-#: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
-msgid "+12"
-msgstr "+12"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -44,9 +39,12 @@ msgid "- (Consultations)"
 msgstr "- (상담)"
 
 #. module: veterinary_clinic
-#: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
-msgid "22%"
-msgstr "22%"
+#: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
+msgid ""
+"<b>Contacts App</b>: Maintain a clean directory of pet owners, linked "
+"directly to their animal's medical\n"
+"                profiles for easy access."
+msgstr ""
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
@@ -57,10 +55,15 @@ msgid ""
 "emergency, we’re here to help your pets live their happiest, healthiest "
 "lives."
 msgstr ""
+"<br/>MyVeterinarian에서는 모든 반려동물을 소중한 가족의 일원으로 존중하고 있"
+"습니다. 풍부한 경험을 바탕으로 저희 팀에서는 따뜻한 분위기에서 친절하고 전문"
+"적으로 치료할 수 있도록 최선을 다합니다. 정기 검진부터 갑작스러운 응급 상황"
+"에 이르기까지, 반려동물이 가장 행복하고 건강하게 지낼 수 있도록 도와드립니다."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.contactus
-msgid "<i class=\"fa fa-1x fa-fw fa-envelope me-2\"/>info@yourcompany.example.com"
+msgid ""
+"<i class=\"fa fa-1x fa-fw fa-envelope me-2\"/>info@yourcompany.example.com"
 msgstr ""
 "<i class=\"fa fa-1x fa-fw fa-envelope me-2\"/>info@yourcompany.example.com"
 
@@ -68,7 +71,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.contactus
 msgid ""
 "<i class=\"fa fa-map-marker fa-fw me-2\"/>\n"
-"                            <span class=\"o_force_ltr\">3575 Fake Buena Vista Avenue</span>"
+"                            <span class=\"o_force_ltr\">3575 Fake Buena "
+"Vista Avenue</span>"
 msgstr ""
 "<i class=\"fa fa-map-marker fa-fw me-2\"/>\n"
 "                            <span class=\"o_force_ltr\">3575 Fake Buena "
@@ -78,11 +82,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.contactus
 msgid ""
 "<i class=\"fa fa-phone fa-fw me-2\"/>\n"
-"                            <span class=\"o_force_ltr\">+1 555-555-5556</span>"
+"                            <span class=\"o_force_ltr\">+1 555-555-5556</"
+"span>"
 msgstr ""
 "<i class=\"fa fa-phone fa-fw me-2\"/>\n"
-"                            <span class=\"o_force_ltr\">+1 "
-"555-555-5556</span>"
+"                            <span class=\"o_force_ltr\">+1 555-555-5556</"
+"span>"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -90,8 +95,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">💡</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Info\">💡</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">💡</i>"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -99,8 +104,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">✅</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Success\">✅</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\">✅</i>"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -108,14 +113,14 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Warning\">⚠️</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Warning\">⚠️</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Warning\">⚠️</i>"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid ""
 "<span class=\"display-4-fs\"><strong>Odoo for Veterinarians</strong></span>"
-msgstr ""
+msgstr "<span class=\"display-4-fs\"><strong>Odoo 동물병원</strong></span>"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -125,47 +130,78 @@ msgstr "<span class=\"h1-fs\">베이직</span>"
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
 msgid ""
-"<span class=\"s_pricelist_boxed_item_title d-flex align-items-baseline fw-bold\">\n"
-"                              <span class=\"s_pricelist_boxed_item_name\"> Flea and Tick Prevention </span>\n"
-"                              <span class=\"s_pricelist_boxed_item_line flex-grow-1 ms-2 border-top\"/>\n"
-"                              <span class=\"s_pricelist_boxed_item_price ms-auto ps-3\"> $25.00 </span>\n"
+"<span class=\"s_pricelist_boxed_item_title d-flex align-items-baseline fw-"
+"bold\">\n"
+"                              <span class=\"s_pricelist_boxed_item_name\"> "
+"Flea and Tick Prevention </span>\n"
+"                              <span class=\"s_pricelist_boxed_item_line flex-"
+"grow-1 ms-2 border-top\"/>\n"
+"                              <span class=\"s_pricelist_boxed_item_price ms-"
+"auto ps-3\"> $25.00 </span>\n"
 "                            </span>\n"
-"                            <span class=\"s_pricelist_boxed_item_description d-block mt-2 pe-5 text-muted o_small\">\n"
-"        High-quality flea and tick prevention products available in various forms, providing long-lasting protection for your pets.\n"
+"                            <span class=\"s_pricelist_boxed_item_description "
+"d-block mt-2 pe-5 text-muted o_small\">\n"
+"        High-quality flea and tick prevention products available in various "
+"forms, providing long-lasting protection for your pets.\n"
 "    </span>"
 msgstr ""
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
 msgid ""
-"<span class=\"s_pricelist_boxed_item_title d-flex align-items-baseline fw-bold\">\n"
-"                              <span class=\"s_pricelist_boxed_item_name\"> Flea and Tick Treatment </span>\n"
-"                              <span class=\"s_pricelist_boxed_item_line flex-grow-1 ms-2 border-top\"/>\n"
-"                              <span class=\"s_pricelist_boxed_item_price ms-auto ps-3\"> $45.00 </span>\n"
+"<span class=\"s_pricelist_boxed_item_title d-flex align-items-baseline fw-"
+"bold\">\n"
+"                              <span class=\"s_pricelist_boxed_item_name\"> "
+"Flea and Tick Treatment </span>\n"
+"                              <span class=\"s_pricelist_boxed_item_line flex-"
+"grow-1 ms-2 border-top\"/>\n"
+"                              <span class=\"s_pricelist_boxed_item_price ms-"
+"auto ps-3\"> $45.00 </span>\n"
 "                            </span>\n"
-"                            <span class=\"s_pricelist_boxed_item_description d-block mt-2 pe-5 text-muted o_small\">\n"
-"        Effective treatment that protects your pet from fleas and ticks, ensuring comfort and health for your furry friend.\n"
+"                            <span class=\"s_pricelist_boxed_item_description "
+"d-block mt-2 pe-5 text-muted o_small\">\n"
+"        Effective treatment that protects your pet from fleas and ticks, "
+"ensuring comfort and health for your furry friend.\n"
 "    </span>"
 msgstr ""
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
 msgid ""
-"<span class=\"s_pricelist_boxed_item_title d-flex align-items-baseline fw-bold\">\n"
-"                              <span class=\"s_pricelist_boxed_item_name\"> Long-Lasting Pet Nutrition </span>\n"
-"                              <span class=\"s_pricelist_boxed_item_line flex-grow-1 ms-2 border-top\"/>\n"
-"                              <span class=\"s_pricelist_boxed_item_price ms-auto ps-3\"> $50.00 </span>\n"
+"<span class=\"s_pricelist_boxed_item_title d-flex align-items-baseline fw-"
+"bold\">\n"
+"                              <span class=\"s_pricelist_boxed_item_name\"> "
+"Long-Lasting Pet Nutrition </span>\n"
+"                              <span class=\"s_pricelist_boxed_item_line flex-"
+"grow-1 ms-2 border-top\"/>\n"
+"                              <span class=\"s_pricelist_boxed_item_price ms-"
+"auto ps-3\"> $50.00 </span>\n"
 "                            </span>\n"
-"                            <span class=\"s_pricelist_boxed_item_description d-block mt-2 pe-5 text-muted o_small\">\n"
-"        A gentle, effective dental cleaning service that promotes oral health while keeping your pet comfortable.\n"
+"                            <span class=\"s_pricelist_boxed_item_description "
+"d-block mt-2 pe-5 text-muted o_small\">\n"
+"        A gentle, effective dental cleaning service that promotes oral "
+"health while keeping your pet comfortable.\n"
 "    </span>"
 msgstr ""
+"<span class=\"s_pricelist_boxed_item_title d-flex align-items-baseline fw-"
+"bold\">\n"
+"                              <span class=\"s_pricelist_boxed_item_name\"> 장"
+"기적인 반려동물 영양 관리 </span>\n"
+"                              <span class=\"s_pricelist_boxed_item_line flex-"
+"grow-1 ms-2 border-top\"/>                             <span "
+"class=\"s_pricelist_boxed_item_price ms-auto ps-3\"> $50.00 </span>\n"
+"                            </span>                           <span "
+"class=\"s_pricelist_boxed_item_description d-block mt-2 pe-5 text-muted "
+"o_small\">         반려동물이 편안하게 구강 건강을 유지할 수 있도록 부드럽고 "
+"효과적으로 구강 세정 서비스를 실시합니다.\n"
+"   </span>"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.contactus
 msgid ""
 "<span class=\"s_website_form_label_content\">Details of your enquiry</span>\n"
-"                                      <span class=\"s_website_form_mark\"> *</span>"
+"                                      <span class=\"s_website_form_mark\"> "
+"*</span>"
 msgstr ""
 
 #. module: veterinary_clinic
@@ -177,50 +213,91 @@ msgstr "<span class=\"s_website_form_label_content\">전화 번호</span>"
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.contactus
 msgid ""
 "<span class=\"s_website_form_label_content\">Purpose of the visit</span>\n"
-"                                      <span class=\"s_website_form_mark\"> *</span>"
+"                                      <span class=\"s_website_form_mark\"> "
+"*</span>"
 msgstr ""
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.contactus
 msgid ""
 "<span class=\"s_website_form_label_content\">Subject</span>\n"
-"                                      <span class=\"s_website_form_mark\"> *</span>"
+"                                      <span class=\"s_website_form_mark\"> "
+"*</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">제목</span>\n"
+"                                      <span class=\"s_website_form_mark\"> "
+"*</span>"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.contactus
 msgid ""
 "<span class=\"s_website_form_label_content\">Your Email</span>\n"
-"                                      <span class=\"s_website_form_mark\"> *</span>"
+"                                      <span class=\"s_website_form_mark\"> "
+"*</span>"
 msgstr ""
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.contactus
 msgid ""
 "<span class=\"s_website_form_label_content\">Your Name</span>\n"
-"                                      <span class=\"s_website_form_mark\"> *</span>"
+"                                      <span class=\"s_website_form_mark\"> "
+"*</span>"
 msgstr ""
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid ""
 "<strong>\n"
-"            Use the Sign App to manage consent forms, employee contracts, and more !<br/>\n"
+"            Use the Sign App to manage consent forms, employee contracts, "
+"and more !<br/>\n"
 "            <br/>\n"
 "        </strong>"
 msgstr ""
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-msgid "<strong><span class=\"h2-fs\">Tips for Success</span></strong>"
-msgstr "<strong><span class=\"h2-fs\">성공을 위한 팁</span></strong>"
+msgid ""
+"<strong><b>Appointments App</b>:</strong> Streamline the booking process for "
+"pet owners, allowing them to\n"
+"                schedule check-ups and surgeries online 24/7.<br/>"
+msgstr ""
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid ""
-"<strong>Appointments</strong> 📅: Let clients self‑book visits, synchronize "
-"calendars, and automate confirmation emails."
+"<strong><b>Invoicing App</b>:</strong> Simplify your finances by "
+"automatically generating invoices from\n"
+"                completed consultations and product sales.<br/>"
 msgstr ""
+
+#. module: veterinary_clinic
+#: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
+msgid ""
+"<strong><b>Marketing App</b>: </strong>Engage your community with targeted "
+"email campaigns for vaccination\n"
+"                reminders and seasonal health check-ups.<br/>"
+msgstr ""
+
+#. module: veterinary_clinic
+#: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
+msgid ""
+"<strong><b>Point of Sale App</b>: </strong>Facilitate a smooth checkout "
+"experience by linking consultations and\n"
+"                product sales directly to your payment terminal.<br/>"
+msgstr ""
+
+#. module: veterinary_clinic
+#: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
+msgid ""
+"<strong><b>Website App</b>: </strong>Build a professional online presence to "
+"market your clinic, share health\n"
+"                tips, and attract new pet owners.<br/>"
+msgstr ""
+
+#. module: veterinary_clinic
+#: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
+msgid "<strong><span class=\"h2-fs\">Tips for Success</span></strong>"
+msgstr "<strong><span class=\"h2-fs\">성공을 위한 팁</span></strong>"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -251,8 +328,7 @@ msgstr ""
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.custom_appointment_info_heading
-msgid ""
-"<strong>Book an Appointment – Compassionate Care for Your Pets</strong>"
+msgid "<strong>Book an Appointment – Compassionate Care for Your Pets</strong>"
 msgstr ""
 
 #. module: veterinary_clinic
@@ -270,15 +346,8 @@ msgstr ""
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid ""
-"<strong>Consultations</strong> 🩺: Log clinical notes, vitals, diagnoses, and"
-" treatments in structured veterinary encounter forms."
-msgstr ""
-
-#. module: veterinary_clinic
-#: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-msgid ""
-"<strong>Custom fields</strong> capture weight, insurance, behavior notes, or"
-" anything you need."
+"<strong>Custom fields</strong> capture weight, insurance, behavior notes, or "
+"anything you need."
 msgstr ""
 
 #. module: veterinary_clinic
@@ -307,8 +376,7 @@ msgstr ""
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid ""
-"<strong>Live chat</strong> answers visitor questions and captures leads "
-"24/7."
+"<strong>Live chat</strong> answers visitor questions and captures leads 24/7."
 msgstr ""
 
 #. module: veterinary_clinic
@@ -353,8 +421,8 @@ msgstr ""
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid ""
-"<strong>Our Appointment app enables self‑service booking, calendar sync, and"
-" effortless follow‑ups.</strong>"
+"<strong>Our Appointment app enables self‑service booking, calendar sync, and "
+"effortless follow‑ups.</strong>"
 msgstr ""
 
 #. module: veterinary_clinic
@@ -367,8 +435,8 @@ msgstr ""
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid ""
-"<strong>Our POS lets receptionists scan, split bills, and print "
-"receipts—while stock levels adjust instantly.</strong>"
+"<strong>Our POS lets receptionists scan, split bills, and print receipts—"
+"while stock levels adjust instantly.</strong>"
 msgstr ""
 
 #. module: veterinary_clinic
@@ -402,8 +470,8 @@ msgstr ""
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid ""
-"<strong>Owner relationship</strong> connects contact details for billing and"
-" reminders."
+"<strong>Owner relationship</strong> connects contact details for billing and "
+"reminders."
 msgstr ""
 
 #. module: veterinary_clinic
@@ -416,29 +484,8 @@ msgstr ""
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid ""
-"<strong>Pets</strong> 🐾: Record pet profiles, species, breed, vaccines, and "
-"owner links for personalized care."
-msgstr ""
-
-#. module: veterinary_clinic
-#: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-msgid ""
-"<strong>Point of Sale</strong> 💳: Collect payments at reception with barcode"
-" scanning, split bills, and multiple tender types."
-msgstr ""
-
-#. module: veterinary_clinic
-#: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-msgid ""
 "<strong>Price lists &amp; promos</strong> support wellness plans or "
 "discounted packages."
-msgstr ""
-
-#. module: veterinary_clinic
-#: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-msgid ""
-"<strong>Products</strong> 🛒: Maintain medicines, vaccines, food, and "
-"services with prices, stock, and barcodes."
 msgstr ""
 
 #. module: veterinary_clinic
@@ -471,13 +518,6 @@ msgstr ""
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid ""
-"<strong>Sales</strong> 📝: Generate quotations and invoices from consultation"
-" products, tracking revenue easily."
-msgstr ""
-
-#. module: veterinary_clinic
-#: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-msgid ""
 "<strong>Staff agenda integration</strong> syncs with Google, Outlook, and "
 "mobile calendars."
 msgstr ""
@@ -500,8 +540,8 @@ msgstr ""
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid ""
-"<strong>The chatter </strong>can be used to track ongoing discussion about a"
-" pet's consultation for record keeping."
+"<strong>The chatter </strong>can be used to track ongoing discussion about a "
+"pet's consultation for record keeping."
 msgstr ""
 
 #. module: veterinary_clinic
@@ -528,13 +568,6 @@ msgid "<strong>Visit our E-Learning platform </strong>on"
 msgstr "<strong>이러닝 플랫폼을 확인해 보세요 </strong>"
 
 #. module: veterinary_clinic
-#: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-msgid ""
-"<strong>Website</strong> 🌐: Publish services online and capture appointment "
-"requests through engaging, responsive pages."
-msgstr ""
-
-#. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_1
 msgid "Abyssinian"
 msgstr "아비시니아"
@@ -556,7 +589,7 @@ msgstr "적극 치료"
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_activity_level_exercise_pets_line_model_field
 msgid "Activity level & Exercise"
-msgstr ""
+msgstr "활동 수준 및 예제"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_aggression_level_pets_line_field
@@ -602,7 +635,7 @@ msgstr "기생충약"
 #. module: veterinary_clinic
 #: model:product.template,name:veterinary_clinic.product_template_7
 msgid "Antiviral for Dogs"
-msgstr ""
+msgstr "개 항바이러스제"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.contactus
@@ -617,7 +650,7 @@ msgstr "예약 순서"
 #. module: veterinary_clinic
 #: model:ir.actions.server,name:veterinary_clinic.action_server_appointment_sequence
 msgid "Appointment Sequence server action"
-msgstr ""
+msgstr "예약 순서 서버 작업"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_appointment_date_pets_line_field
@@ -697,7 +730,7 @@ msgstr "봄베이"
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
 msgid "Book a veterinary appointment"
-msgstr ""
+msgstr "수의사 진료 예약"
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_23
@@ -707,7 +740,7 @@ msgstr "보더 콜리"
 #. module: veterinary_clinic
 #: model:x_vaccines,x_name:veterinary_clinic.x_vaccines_4
 msgid "Bordetella (Kennel Cough)"
-msgstr ""
+msgstr "보르데텔라 (켄넬코프)"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_breed_pets_line_field
@@ -731,7 +764,7 @@ msgstr "브리티시 숏헤어"
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
 msgid "Building connections with pets"
-msgstr ""
+msgstr "반려동물과의 유대감 형성"
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_6
@@ -749,7 +782,7 @@ msgstr ""
 #. module: veterinary_clinic
 #: model:x_vaccines,x_name:veterinary_clinic.x_vaccines_6
 msgid "Canine Influenza (Dog Flu)"
-msgstr ""
+msgstr "개 인플루엔자 (개 독감)"
 
 #. module: veterinary_clinic
 #: model:appointment.answer,name:veterinary_clinic.appointment_answer_6
@@ -811,7 +844,7 @@ msgstr "환경설정"
 #. module: veterinary_clinic
 #: model:appointment.type,name:veterinary_clinic.appointment_type_1
 msgid "Consultation - Checkup"
-msgstr ""
+msgstr "상담 - 검진"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_name_pets_line_field
@@ -929,7 +962,7 @@ msgstr "당뇨"
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_diet_nutrition_pets_line_model_field
 msgid "Diet & Nutrition"
-msgstr ""
+msgstr "식이요법 및 영양 관리"
 
 #. module: veterinary_clinic
 #: model:product.attribute.value,name:veterinary_clinic.product_attribute_value_6
@@ -1001,27 +1034,27 @@ msgstr "분변 검사"
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_fecal_exam_results_pets_line_model_field
 msgid "Fecal exam results"
-msgstr ""
+msgstr "대변 검사 결과"
 
 #. module: veterinary_clinic
 #: model:x_vaccines,x_name:veterinary_clinic.x_vaccines_9
 msgid "Feline Immunodeficiency Virus (FIV)"
-msgstr ""
+msgstr "고양이 면역결핍 바이러스 (FIV)"
 
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_12
 msgid "Feline Immunodeficiency virus"
-msgstr ""
+msgstr "고양이 면역결핍 바이러스"
 
 #. module: veterinary_clinic
 #: model:x_vaccines,x_name:veterinary_clinic.x_vaccines_8
 msgid "Feline Leukemia (FeLV)"
-msgstr ""
+msgstr "고양이 백혈병 바이러스(FeLV)"
 
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_11
 msgid "Feline Leukemia Virus"
-msgstr ""
+msgstr "고양이 백혈병 바이러스"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields.selection,name:veterinary_clinic.x_gender_pets_model_field_selection_female
@@ -1057,13 +1090,13 @@ msgstr "프렌치 불독"
 #. module: veterinary_clinic
 #: model:product.attribute,name:veterinary_clinic.product_attribute_11
 msgid "Frequency and/or dosage"
-msgstr ""
+msgstr "주기 또는 용량"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid ""
-"From the Point of Sale app, the person in charge of payments can simply load"
-" any Sales Order, and allow for the pet owner to pay directly using your "
+"From the Point of Sale app, the person in charge of payments can simply load "
+"any Sales Order, and allow for the pet owner to pay directly using your "
 "connected bank terminal."
 msgstr ""
 
@@ -1101,7 +1134,9 @@ msgstr "햄스터"
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid ""
-"Handle your <strong>HR needs</strong> through Odoo's suite of apps: from <strong>Time Off</strong> for holidays, to <strong>Expenses </strong>for small company expenses, to <strong>Sign</strong> for employee contracts and\n"
+"Handle your <strong>HR needs</strong> through Odoo's suite of apps: from "
+"<strong>Time Off</strong> for holidays, to <strong>Expenses </strong>for "
+"small company expenses, to <strong>Sign</strong> for employee contracts and\n"
 "            <strong>Fleet </strong>for company cars."
 msgstr ""
 
@@ -1174,7 +1209,7 @@ msgstr "인포메이션"
 #. module: veterinary_clinic
 #: model:sale.order.template.line,name:veterinary_clinic.sale_order_template_line_12
 msgid "Insert notes here"
-msgstr ""
+msgstr "메모를 입력하세요"
 
 #. module: veterinary_clinic
 #: model:sale.order.template.line,name:veterinary_clinic.sale_order_template_line_4
@@ -1201,20 +1236,21 @@ msgstr ""
 msgid ""
 "Just be careful, once demo data are uploaded, it cannot be easily deleted. "
 "But you can restart a fresh database on"
-msgstr "데모 데이터가 업로드되면 쉽게 삭제할 수 없으니 주의하세요. 하지만 다음 "
-"링크에서 새 데이터베이스를 시작할 수 있습니다."
+msgstr ""
+"데모 데이터가 업로드되면 쉽게 삭제할 수 없으니 주의하세요. 하지만 다음 링크에"
+"서 새 데이터베이스를 시작할 수 있습니다."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid ""
-"Keep an eye on your company's performance through the <strong>Dashboard "
-"app</strong>."
+"Keep an eye on your company's performance through the <strong>Dashboard app</"
+"strong>."
 msgstr ""
 
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_3
 msgid "Kennel Cough (Bordetella)"
-msgstr ""
+msgstr "개 켄넬코프 (보르데텔라)"
 
 #. module: veterinary_clinic
 #: model:x_pets,x_name:veterinary_clinic.x_pets_6
@@ -1229,7 +1265,7 @@ msgstr "신장병"
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_pets_line_model
 msgid "Lab Tests & Diagnostics"
-msgstr ""
+msgstr "검사 및 진단"
 
 #. module: veterinary_clinic
 #: model:x_vaccines,x_name:veterinary_clinic.x_vaccines_3
@@ -1338,8 +1374,9 @@ msgstr "중성화"
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid "Never lose, forget, or manually process signature requests anymore !"
-msgstr "이제 서명이 빠지거나 누락될 일이 없습니다. 수기로 서명을 받으러 찾아다닐 "
-"필요도 당연히 없고요!"
+msgstr ""
+"이제 서명이 빠지거나 누락될 일이 없습니다. 수기로 서명을 받으러 찾아다닐 필요"
+"도 당연히 없고요!"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_new_pet_model_field
@@ -1420,7 +1457,7 @@ msgstr "기타"
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
 msgid "Our Pet Care Collection"
-msgstr ""
+msgstr "반려동물 관리 용품"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_owner_pets_model_field
@@ -1487,7 +1524,7 @@ msgstr "동물 수"
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_pet_date_of_birth_pets_line_model_field
 msgid "Pet date of birth"
-msgstr ""
+msgstr "반려동물 생년월일"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_pet_id_sale_order_field
@@ -1497,7 +1534,7 @@ msgstr "동물 ID"
 #. module: veterinary_clinic
 #: model:appointment.answer,name:veterinary_clinic.appointment_answer_2
 msgid "Pet is sick"
-msgstr ""
+msgstr "반려동물이 아픈 경우"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_pet_name_pets_line_model_field
@@ -1547,7 +1584,7 @@ msgstr "사진"
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid "Point of Sale 💳"
-msgstr ""
+msgstr "POS 💳"
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_16
@@ -1577,12 +1614,12 @@ msgstr "제품 🛒"
 #. module: veterinary_clinic
 #: model:appointment.question,name:veterinary_clinic.appointment_question_1
 msgid "Purpose of the visit"
-msgstr ""
+msgstr "방문 목적"
 
 #. module: veterinary_clinic
 #: model:appointment.question,name:veterinary_clinic.appointment_question_5
 msgid "Questions or remarks"
-msgstr ""
+msgstr "문의 사항이나 의견"
 
 #. module: veterinary_clinic
 #: model:x_species,x_name:veterinary_clinic.x_species_4
@@ -1678,8 +1715,7 @@ msgstr ""
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
-msgid ""
-"Send out your documents digitally and keep them all stored in one place"
+msgid "Send out your documents digitally and keep them all stored in one place"
 msgstr ""
 
 #. module: veterinary_clinic
@@ -1710,7 +1746,7 @@ msgstr "샴"
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid "Sign app ✏"
-msgstr ""
+msgstr "전자 서명 앱 ✏"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_skin_condition_pets_line_model_field
@@ -1725,7 +1761,7 @@ msgstr "중성화"
 #. module: veterinary_clinic
 #: model:product.attribute.value,name:veterinary_clinic.product_attribute_value_1
 msgid "Spaying & Neutering"
-msgstr ""
+msgstr "중성화 수술"
 
 #. module: veterinary_clinic
 #: model:ir.actions.act_window,name:veterinary_clinic.species_window_action
@@ -1854,8 +1890,7 @@ msgstr ""
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid ""
-"The veterinarian can add notes, instructions and sections to the sales "
-"order."
+"The veterinarian can add notes, instructions and sections to the sales order."
 msgstr ""
 
 #. module: veterinary_clinic
@@ -1909,7 +1944,7 @@ msgstr "소변 검사 "
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_13
 msgid "Urinary Tract Infection"
-msgstr ""
+msgstr "요로 감염"
 
 #. module: veterinary_clinic
 #: model:appointment.answer,name:veterinary_clinic.appointment_answer_5
@@ -2009,7 +2044,7 @@ msgstr "몸무게"
 #. module: veterinary_clinic
 #: model:x_vaccines,x_name:veterinary_clinic.x_vaccines_11
 msgid "West Nile Virus"
-msgstr ""
+msgstr "서부 나일 바이러스"
 
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_19
@@ -2020,7 +2055,8 @@ msgstr "벌레"
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
 msgid ""
 "Would you like to discuss your Odoo setup with us or explore more features?"
-msgstr "Odoo 설정에 대해 논의하거나 더 많은 기능에 대해 자세히 알아보고 싶으신가요?"
+msgstr ""
+"Odoo 설정에 대해 논의하거나 더 많은 기능에 대해 자세히 알아보고 싶으신가요?"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_pets_id_pet_line_field
@@ -2066,7 +2102,7 @@ msgstr "pets_line"
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_sale_order_link_pets_line_model_field
 msgid "sale order link"
-msgstr ""
+msgstr "판매주문서 링크"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_sale_order_line_count_pets_line_model_field
@@ -2087,7 +2123,7 @@ msgstr "total_sale_price"
 #. module: veterinary_clinic
 #: model_terms:appointment.type,message_intro:veterinary_clinic.appointment_type_1
 msgid "✔ Convenient online booking"
-msgstr ""
+msgstr "✔ 편리한 온라인 예약"
 
 #. module: veterinary_clinic
 #: model_terms:appointment.type,message_intro:veterinary_clinic.appointment_type_1
@@ -2097,9 +2133,15 @@ msgstr ""
 #. module: veterinary_clinic
 #: model_terms:appointment.type,message_intro:veterinary_clinic.appointment_type_1
 msgid "✔ Flexible appointment times"
-msgstr ""
+msgstr "✔ 자유로운 예약 시간 선택"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
 msgid "✽ Veterinary Services"
-msgstr ""
+msgstr "✽ 수의사 진료 서비스"
+
+#~ msgid "+12"
+#~ msgstr "+12"
+
+#~ msgid "22%"
+#~ msgstr "22%"

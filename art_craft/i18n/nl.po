@@ -7,14 +7,14 @@
 # Wil Odoo, 2024
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2024
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# Bren Driesen <brdri@odoo.com>, 2025.
+# Bren Driesen <brdri@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 14:33+0000\n"
-"PO-Revision-Date: 2025-11-17 20:57+0000\n"
+"POT-Creation-Date: 2026-06-12 17:37+0000\n"
+"PO-Revision-Date: 2026-04-24 19:24+0000\n"
 "Last-Translator: Bren Driesen <brdri@odoo.com>\n"
 "Language-Team: Dutch <https://translate.odoo.com/projects/odoo-19/art_craft/"
 "nl/>\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: art_craft
 #: model:product.template,description_sale:art_craft.product_template_23
@@ -459,9 +459,54 @@ msgid "91X108"
 msgstr "91X108"
 
 #. module: art_craft
+#: model_terms:ir.ui.view,arch_db:art_craft.welcome_article_body
+msgid ""
+"<b>CRM App</b>: Build a loyal community of makers by tracking customer "
+"interests and engaging them with\n"
+"                personalized updates on new arrivals."
+msgstr ""
+"<b>CRM-app</b>: Bouw een loyale community van makers op door de interesses "
+"van klanten bij te houden en hen te betrekken met\n"
+"                gepersonaliseerde updates over nieuwe producten."
+
+#. module: art_craft
+#: model_terms:ir.ui.view,arch_db:art_craft.welcome_article_body
+msgid ""
+"<b>Inventory App</b>: Master the complexity of product variants, keeping "
+"track of every color, size, and\n"
+"                material type to prevent stockouts of best-sellers."
+msgstr ""
+"<b>Voorraad-app</b>: Houd de controle over productvarianten en houd elke "
+"kleur, maat en\n"
+"                materiaalsoort bij om voorraadtekorten van bestsellers te "
+"voorkomen."
+
+#. module: art_craft
 #: model_terms:ir.ui.view,arch_db:art_craft.homepage
 msgid "<b>Photoshoot / June 2021</b>"
 msgstr "<b>Fotoshoot / Juni 2021</b>"
+
+#. module: art_craft
+#: model_terms:ir.ui.view,arch_db:art_craft.welcome_article_body
+msgid ""
+"<b>Point of Sale App</b>: Delight customers with a fast checkout experience, "
+"easily handling thousands of small\n"
+"                items like beads, ribbons, and brushes."
+msgstr ""
+"<b>Kassa-app</b>: Verras klanten met een snel afrekenproces, waarbij je "
+"gemakkelijk duizenden kleine\n"
+"                artikelen zoals kralen, linten en borstels kunt verwerken."
+
+#. module: art_craft
+#: model_terms:ir.ui.view,arch_db:art_craft.welcome_article_body
+msgid ""
+"<b>Purchase App</b>: Automate the reordering of essential crafting "
+"materials, ensuring your shelves are always\n"
+"                stocked with the tools your customers need."
+msgstr ""
+"<b>Inkoop-app</b>: Automatiseer het opnieuw bestellen van essentiële "
+"knutselmaterialen, zodat je schappen altijd\n"
+"                gevuld zijn met de tools die je klanten nodig hebben."
 
 #. module: art_craft
 #: model_terms:ir.ui.view,arch_db:art_craft.homepage
@@ -476,23 +521,23 @@ msgstr "<b>Wil je meer ontdekken?</b>"
 #. module: art_craft
 #: model_terms:ir.ui.view,arch_db:art_craft.welcome_article_body
 msgid ""
-"<font class=\"text-800\">\n"
-"                They use the Point of Sale application, Inventory, Sales, "
-"Purchase, Accounting, Contact, Employee, Dashboard, Barcode. But if they "
-"want to grow their business with a website, then a Website and E-commerce "
-"applications can be\n"
-"                helpful in that industry.\n"
-"            </font>\n"
-"            <br/>"
+"<b>Website App</b>: Create an inspiring online space that not only sells "
+"products but showcases creative\n"
+"                projects and ideas to drive engagement."
 msgstr ""
-"<font class=\"text-800\">\n"
-"                Ze gebruiken de Kassa-app, Voorraad, Verkoop, Inkoop, "
-"Boekhouding, Contact, Medewerker, Dashboard, Barcode. Maar als ze hun "
-"bedrijf willen laten groeien met een website, dan kunnen een website en E-"
-"commerce applicaties\n"
-"                nuttig zijn in die branche.\n"
-"            </font>\n"
-"            <br/>"
+"<b>Website-app</b>: Creëer een inspirerende online omgeving die niet alleen "
+"producten verkoopt, maar ook creatieve\n"
+"                projecten en ideeën toont om betrokkenheid te stimuleren."
+
+#. module: art_craft
+#: model_terms:ir.ui.view,arch_db:art_craft.welcome_article_body
+msgid ""
+"<b>eCommerce App</b>: Expand your creative reach by selling supplies online, "
+"offering a convenient shopping\n"
+"                experience for hobbyists everywhere."
+msgstr ""
+"<b>E-commerce-app</b>: Vergroot je creatieve bereik door benodigdheden "
+"online te verkopen en hobbyisten overal een handige winkelervaring te bieden."
 
 #. module: art_craft
 #: model_terms:ir.ui.view,arch_db:art_craft.welcome_article_body
@@ -691,8 +736,8 @@ msgid ""
 "\">The Arts and Crafts Shop</span>"
 msgstr ""
 "<span style=\"color: rgb(0, 0, 0); background-color: transparent; font-"
-"weight: 700; font-style: normal; text-decoration: none; font-size: 24px;\""
-">De Kunstnijverheidswinkel</span>"
+"weight: 700; font-style: normal; text-decoration: none; font-size: 24px;"
+"\">De Kunstnijverheidswinkel</span>"
 
 #. module: art_craft
 #: model_terms:ir.ui.view,arch_db:art_craft.welcome_article_body
@@ -704,34 +749,33 @@ msgid ""
 "transparent; font-weight: 400; font-style: normal; text-decoration: none;"
 "\">\n"
 "                <font class=\"text-800\">\n"
-"                    An arts and crafts store is a haven for creative "
-"individuals and hobbyists, offering a diverse range of supplies and "
-"materials for various artistic endeavours. From painting and drawing, scrap "
-"booking. These stores provide a\n"
-"                    colourful array of paints, brushes, paper, beads, tools, "
-"colourful trays and other crafting (Handmade) essentials. They are a "
-"treasure trove for anyone seeking to express their creativity, explore new "
-"hobbies, or create\n"
-"                    beautiful handmade items.\n"
+"                    Tailored specifically for the world of creativity, this "
+"Odoo industry package offers a complete solution for arts and crafts stores. "
+"It effectively manages a diverse range of inventory with complex variants, "
+"ensuring that you can always meet customer demand for specific colors or "
+"materials. The system integrates powerful tools for POS and eCommerce, "
+"making it easier to run your store efficiently both online and offline. It "
+"is the essential tool for combining artistic passion with professional "
+"business management.\n"
 "                </font>\n"
 "            </span>"
 msgstr ""
-"<span style=\"font-size: 13pt; color: #000000; background-color: transparent;"
-" font-weight: 400; font-style: normal; text-decoration: none;\"/>\n"
+"<span style=\"font-size: 13pt; color: #000000; background-color: "
+"transparent; font-weight: 400; font-style: normal; text-decoration: none;\"/"
+">\n"
 "            <span class=\"text-o-color-2\" style=\"background-color: "
-"transparent; font-weight: 400; font-style: normal; text-decoration: none;\">"
-"\n"
-"                <font class=\"text-800\">\n"
-"                    Een kunstnijverheidswinkel is een toevluchtsoord voor "
-"creatieve individuen en hobbyisten en biedt een divers assortiment aan "
-"benodigdheden en materialen voor verschillende artistieke inspanningen. Van "
-"schilderen en tekenen tot scrap booking. Deze winkels bieden een\n"
-"                    kleurrijk aanbod van verf, kwasten, papier, kralen, "
-"gereedschap, kleurrijke bakjes en andere knutselbenodigdheden (Handmade). Ze "
-"zijn een schatkamer voor iedereen die zijn creativiteit wil uiten, nieuwe "
-"hobby's wil ontdekken of\n"
-"                    mooie handgemaakte artikelen te maken.\n"
-"                </font>\n"
+"transparent; font-weight: 400; font-style: normal; text-decoration: none;"
+"\">\n"
+"               <font class=\"text-800\"> \n"
+"                    Dit Odoo-pakket is speciaal ontworpen voor de creatieve "
+"bedrijfstak en biedt een complete oplossing voor kunst- en ambachtswinkels. "
+"Het beheert op effectieve wijze een breed scala aan voorraadartikelen met "
+"complexe varianten, zodat je altijd kunt voldoen aan de vraag van klanten "
+"naar specifieke kleuren of materialen. Het systeem integreert krachtige "
+"tools voor Kassa en E-commerce, waardoor je je winkel zowel online als "
+"offline efficiënt kunt runnen. Het is de essentiële tool om artistieke "
+"passie te combineren met professioneel bedrijfsbeheer.\n"
+"               </font>\n"
 "            </span>"
 
 #. module: art_craft
@@ -892,18 +936,13 @@ msgstr "Tassen"
 
 #. module: art_craft
 #: model_terms:ir.ui.view,arch_db:art_craft.welcome_article_body
+msgid "Basics"
+msgstr "Basisprincipes"
+
+#. module: art_craft
+#: model_terms:ir.ui.view,arch_db:art_craft.welcome_article_body
 msgid "Business Flows"
 msgstr "Bedrijfsstromen"
-
-#. module: art_craft
-#: model:pos.payment.method,name:art_craft.pos_payment_method_1
-msgid "Cash"
-msgstr "Cash"
-
-#. module: art_craft
-#: model:account.journal,name:art_craft.cash
-msgid "Cash (Art Craft)"
-msgstr "Contant geld (Kunstnijverheid)"
 
 #. module: art_craft
 #: model_terms:ir.ui.view,arch_db:art_craft.welcome_article_body
@@ -996,24 +1035,9 @@ msgid "Create an RFQ for “Arts &amp; Crafts Shop”"
 msgstr "Maak een inkoopofferte voor \"Arts &amp; Crafts Shop\""
 
 #. module: art_craft
-#: model:pos.payment.method,name:art_craft.pos_payment_method_7
-msgid "Credit card"
-msgstr "Creditcard"
-
-#. module: art_craft
 #: model:pos.category,name:art_craft.pos_category_6
 msgid "Crockery"
 msgstr "Servies"
-
-#. module: art_craft
-#: model:pos.payment.method,name:art_craft.pos_payment_method_2
-msgid "Customer Account"
-msgstr "Klant account"
-
-#. module: art_craft
-#: model:pos.payment.method,name:art_craft.pos_payment_method_8
-msgid "Debit Card"
-msgstr "Betaalpas"
 
 #. module: art_craft
 #: model:product.pricelist,name:art_craft.product_pricelist_3
@@ -1147,7 +1171,8 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/art_craft/static/src/js/my_tour.js:0
 msgid "Get on track and explore our recommendations for your Odoo usage here!"
-msgstr "Kom goed op weg en bekijk hier onze aanbevelingen voor je Odoo-gebruik!"
+msgstr ""
+"Kom goed op weg en bekijk hier onze aanbevelingen voor je Odoo-gebruik!"
 
 #. module: art_craft
 #: model:product.template,name:art_craft.product_template_6
@@ -1230,7 +1255,6 @@ msgstr ""
 "volgende niveau te brengen."
 
 #. module: art_craft
-#: model:ir.model.fields,field_description:art_craft.field_stock_picking_x_is_it_consignee
 #: model_terms:ir.ui.view,arch_db:art_craft.view_purchase_order_form_inherit
 msgid "Is Consignee"
 msgstr "Is geadresseerde"
@@ -1247,6 +1271,11 @@ msgid "It's all about perception"
 msgstr "Alles draait rond perceptie"
 
 #. module: art_craft
+#: model:product.attribute.value,name:art_craft.product_attribute_value_3
+msgid "L"
+msgstr "L"
+
+#. module: art_craft
 #: model_terms:ir.ui.view,arch_db:art_craft.about-us
 #: model_terms:ir.ui.view,arch_db:art_craft.homepage
 msgid "Learn more"
@@ -1256,6 +1285,11 @@ msgstr "Meer informatie"
 #: model_terms:ir.ui.view,arch_db:art_craft.about-us
 msgid "Let yourself<br/>be transported"
 msgstr "Laat je meevoeren naar<br/>"
+
+#. module: art_craft
+#: model:product.attribute.value,name:art_craft.product_attribute_value_2
+msgid "M"
+msgstr "M"
 
 #. module: art_craft
 #: model:product.template,name:art_craft.product_template_18
@@ -1288,12 +1322,9 @@ msgid ""
 "where it is today. Mich is among the best\n"
 "                                                        minds."
 msgstr ""
-"Mich gaat graag uitdagingen aan. Met zijn meerjarige ervaring\n"
-"                                                        als commercieel "
-"directeur in de software-branche, heeft Mich\n"
-"                                                        het bedrijf gebracht "
-"waar het nu is. Mich behoort tot de knapste\n"
-"                                                        geesten."
+"Mich gaat graag uitdagingen aan. Met zijn meerjarige ervaring als "
+"commercieel directeur in de softwaresector heeft Mich het bedrijf gebracht "
+"waar het nu is. Mich behoort tot de knapste koppen."
 
 #. module: art_craft
 #: model_terms:ir.ui.view,arch_db:art_craft.contactus
@@ -1355,11 +1386,6 @@ msgid "Previous"
 msgstr "Vorige"
 
 #. module: art_craft
-#: model_terms:ir.ui.view,arch_db:art_craft.welcome_article_body
-msgid "Price list : B2C,B2B"
-msgstr "Prijslijst : B2C,B2B"
-
-#. module: art_craft
 #: model:product.attribute,name:art_craft.product_attribute_3
 msgid "Print name"
 msgstr "Naam afdrukken"
@@ -1392,6 +1418,11 @@ msgid "Red coasters"
 msgstr "Rode onderzetters"
 
 #. module: art_craft
+#: model:product.attribute.value,name:art_craft.product_attribute_value_1
+msgid "S"
+msgstr "S"
+
+#. module: art_craft
 #: model_terms:ir.ui.view,arch_db:art_craft.welcome_article_body
 msgid "Select Customer and enter code number (Membership code)"
 msgstr "Selecteer Klant en voer het codenummer in (Lidmaatschapscode)"
@@ -1404,20 +1435,10 @@ msgstr ""
 "verfmaterialen)"
 
 #. module: art_craft
-#: model_terms:ir.ui.view,arch_db:art_craft.welcome_article_body
-msgid "Set Up"
-msgstr "Instellen"
-
-#. module: art_craft
 #: model:base.automation,name:art_craft.automation_assign_owner_for_consignement_purchase
 #: model:ir.actions.server,name:art_craft.action_server_set_owner_for_consignemnt_purchase
 msgid "Set Vendor Name in Assign Owner"
 msgstr "Vendornaam instellen in Eigenaar toewijzen"
-
-#. module: art_craft
-#: model_terms:ir.ui.view,arch_db:art_craft.welcome_article_body
-msgid "Set up Membership Programme by Coupon Programme"
-msgstr "Lidmaatschapsprogramma instellen met couponprogramma"
 
 #. module: art_craft
 #: model:product.template,name:art_craft.product_template_26
@@ -1461,11 +1482,6 @@ msgstr "Stationerie Artists' Acrylschilder Kit Combinatie"
 #: model_terms:ir.ui.view,arch_db:art_craft.contactus
 msgid "Submit"
 msgstr "Indienen"
-
-#. module: art_craft
-#: model_terms:ir.ui.view,arch_db:art_craft.welcome_article_body
-msgid "The Set-up includes:"
-msgstr "De set-up omvat:"
 
 #. module: art_craft
 #: model_terms:ir.ui.view,arch_db:art_craft.homepage
@@ -1570,11 +1586,10 @@ msgid ""
 msgstr ""
 "Als we een product van een verkoper of derde partij kopen binnen een "
 "bepaalde tijd, en als we niet in staat zijn om hetzelfde item binnen die "
-"tijd te verkopen, dan verkopen we het terug aan hen (verkoper)<strong> "
-"</strong>\n"
-"            <font class=\"text-o-color-1\"><strong>consignatie-"
-"inkoop</strong></font><strong><font class=\"text-o-color-1\""
-">.</font></strong>"
+"tijd te verkopen, dan verkopen we het terug aan hen (verkoper)<strong> </"
+"strong>\n"
+"            <font class=\"text-o-color-1\"><strong>consignatie-inkoop</"
+"strong></font><strong><font class=\"text-o-color-1\">.</font></strong>"
 
 #. module: art_craft
 #: model_terms:ir.ui.view,arch_db:art_craft.about-us
@@ -1607,6 +1622,91 @@ msgstr ""
 "                                        je niet zowel een filter als een "
 "sjabloon hebt opgegeven om te gebruiken.\n"
 "                                       <br/>"
+
+#~ msgid "Cash"
+#~ msgstr "Cash"
+
+#~ msgid "Cash (Art Craft)"
+#~ msgstr "Contant geld (Kunstnijverheid)"
+
+#~ msgid "Credit card"
+#~ msgstr "Creditcard"
+
+#~ msgid "Customer Account"
+#~ msgstr "Klant account"
+
+#~ msgid "Debit Card"
+#~ msgstr "Betaalpas"
+
+#~ msgid ""
+#~ "<font class=\"text-800\">\n"
+#~ "                They use the Point of Sale application, Inventory, Sales, "
+#~ "Purchase, Accounting, Contact, Employee, Dashboard, Barcode. But if they "
+#~ "want to grow their business with a website, then a Website and E-commerce "
+#~ "applications can be\n"
+#~ "                helpful in that industry.\n"
+#~ "            </font>\n"
+#~ "            <br/>"
+#~ msgstr ""
+#~ "<font class=\"text-800\">\n"
+#~ "                Ze gebruiken de Kassa-app, Voorraad, Verkoop, Inkoop, "
+#~ "Boekhouding, Contact, Medewerker, Dashboard, Barcode. Maar als ze hun "
+#~ "bedrijf willen laten groeien met een website, dan kunnen een website en E-"
+#~ "commerce applicaties\n"
+#~ "                nuttig zijn in die branche.\n"
+#~ "            </font>\n"
+#~ "            <br/>"
+
+#~ msgid ""
+#~ "<span style=\"font-size: 13pt; color: #000000; background-color: "
+#~ "transparent; font-weight: 400; font-style: normal; text-decoration: none;"
+#~ "\"/>\n"
+#~ "            <span class=\"text-o-color-2\" style=\"background-color: "
+#~ "transparent; font-weight: 400; font-style: normal; text-decoration: none;"
+#~ "\">\n"
+#~ "                <font class=\"text-800\">\n"
+#~ "                    An arts and crafts store is a haven for creative "
+#~ "individuals and hobbyists, offering a diverse range of supplies and "
+#~ "materials for various artistic endeavours. From painting and drawing, "
+#~ "scrap booking. These stores provide a\n"
+#~ "                    colourful array of paints, brushes, paper, beads, "
+#~ "tools, colourful trays and other crafting (Handmade) essentials. They are "
+#~ "a treasure trove for anyone seeking to express their creativity, explore "
+#~ "new hobbies, or create\n"
+#~ "                    beautiful handmade items.\n"
+#~ "                </font>\n"
+#~ "            </span>"
+#~ msgstr ""
+#~ "<span style=\"font-size: 13pt; color: #000000; background-color: "
+#~ "transparent; font-weight: 400; font-style: normal; text-decoration: none;"
+#~ "\"/>\n"
+#~ "            <span class=\"text-o-color-2\" style=\"background-color: "
+#~ "transparent; font-weight: 400; font-style: normal; text-decoration: none;"
+#~ "\">\n"
+#~ "                <font class=\"text-800\">\n"
+#~ "                    Een kunstnijverheidswinkel is een toevluchtsoord voor "
+#~ "creatieve individuen en hobbyisten en biedt een divers assortiment aan "
+#~ "benodigdheden en materialen voor verschillende artistieke inspanningen. "
+#~ "Van schilderen en tekenen tot scrap booking. Deze winkels bieden een\n"
+#~ "                    kleurrijk aanbod van verf, kwasten, papier, kralen, "
+#~ "gereedschap, kleurrijke bakjes en andere knutselbenodigdheden (Handmade). "
+#~ "Ze zijn een schatkamer voor iedereen die zijn creativiteit wil uiten, "
+#~ "nieuwe hobby's wil ontdekken of\n"
+#~ "                    mooie handgemaakte artikelen te maken.\n"
+#~ "                </font>\n"
+#~ "            </span>"
+
+#~ msgid "Price list : B2C,B2B"
+#~ msgstr "Prijslijst : B2C,B2B"
+
+#~ msgid "Set Up"
+#~ msgstr "Instellen"
+
+#~ msgid "Set up Membership Programme by Coupon Programme"
+#~ msgstr "Lidmaatschapsprogramma instellen met couponprogramma"
+
+#~ msgid "The Set-up includes:"
+#~ msgstr "De set-up omvat:"
 
 #~ msgid "Execute Code"
 #~ msgstr "Code uitvoeren"

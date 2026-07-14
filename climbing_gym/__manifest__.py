@@ -1,6 +1,6 @@
 {
     'name': 'Climbing Gym',
-    'version': '1.0',
+    'version': '1.1',
     'category': 'Health and Fitness',
     'depends': [
         'base_industry_data',
@@ -26,8 +26,6 @@
         'data/ir_attachment.xml',
         'data/ir_default.xml',
         'data/ir_model_fields.xml',
-        'data/event_tag_category.xml',
-        'data/event_tag.xml',
         'data/res_config_settings.xml',
         'data/product_category.xml',
         'data/pos_category.xml',
@@ -52,8 +50,11 @@
         'data/ir_ui_view.xml',
     ],
     'demo': [
+        'demo/res_company.xml',
         'demo/ir_attachment_post.xml',
         'demo/res_config_settings.xml',
+        'demo/event_tag_category.xml',
+        'demo/event_tag.xml',
         'demo/event_event.xml',
         'demo/event_event_ticket.xml',
         'demo/event_slot.xml',
@@ -72,6 +73,7 @@
         "data/knowledge_article.xml",
         "demo/website_view.xml",
     ],
+    'application': True,
     'images': ['images/main.png'],
     'url': "https://www.odoo.com/trial?industry&selected_app=climbing_gym",
     'website': "https://www.odoo.com/all-industries",

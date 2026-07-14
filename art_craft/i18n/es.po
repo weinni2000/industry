@@ -7,23 +7,23 @@
 # Wil Odoo, 2024
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2025.
+# "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 14:33+0000\n"
-"PO-Revision-Date: 2025-10-24 03:00+0000\n"
-"Last-Translator: \"Dylan Kiss (dyki)\" <dyki@odoo.com>\n"
+"POT-Creation-Date: 2026-06-12 17:37+0000\n"
+"PO-Revision-Date: 2026-05-30 09:33+0000\n"
+"Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@odoo.com>\n"
 "Language-Team: Spanish <https://translate.odoo.com/projects/odoo-19/"
 "art_craft/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
-" ? 1 : 2);\n"
-"X-Generator: Weblate 5.12.2\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
+"0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: art_craft
 #: model:product.template,description_sale:art_craft.product_template_23
@@ -463,9 +463,56 @@ msgid "91X108"
 msgstr "91X108"
 
 #. module: art_craft
+#: model_terms:ir.ui.view,arch_db:art_craft.welcome_article_body
+msgid ""
+"<b>CRM App</b>: Build a loyal community of makers by tracking customer "
+"interests and engaging them with\n"
+"                personalized updates on new arrivals."
+msgstr ""
+"<b>Aplicación CRM</b>: crea una comunidad fiel de aficionados al arte y la "
+"artesanía. Descubre cuáles son los intereses de tus clientes y mantenlos "
+"informados\n"
+"                mediante novedades personalizadas sobre nuevos productos."
+
+#. module: art_craft
+#: model_terms:ir.ui.view,arch_db:art_craft.welcome_article_body
+msgid ""
+"<b>Inventory App</b>: Master the complexity of product variants, keeping "
+"track of every color, size, and\n"
+"                material type to prevent stockouts of best-sellers."
+msgstr ""
+"<b>Aplicación Inventario</b>: domina la complejidad de las variantes de "
+"producto, haz seguimiento de cada color, talla y\n"
+"                tipo de material para evitar la falta de existencias de los "
+"productos más vendidos."
+
+#. module: art_craft
 #: model_terms:ir.ui.view,arch_db:art_craft.homepage
 msgid "<b>Photoshoot / June 2021</b>"
 msgstr "<b>Sesión de fotos/junio 2021</b>"
+
+#. module: art_craft
+#: model_terms:ir.ui.view,arch_db:art_craft.welcome_article_body
+msgid ""
+"<b>Point of Sale App</b>: Delight customers with a fast checkout experience, "
+"easily handling thousands of small\n"
+"                items like beads, ribbons, and brushes."
+msgstr ""
+"<b>Aplicación Punto de venta</b>: sorprende a tus clientes con una "
+"experiencia de pago rápida y gestiona miles de artículos pequeños,\n"
+"                como cuentas, cintas y pinceles."
+
+#. module: art_craft
+#: model_terms:ir.ui.view,arch_db:art_craft.welcome_article_body
+msgid ""
+"<b>Purchase App</b>: Automate the reordering of essential crafting "
+"materials, ensuring your shelves are always\n"
+"                stocked with the tools your customers need."
+msgstr ""
+"<b>Aplicación Compras</b>: automatiza el reabastecimiento de materiales "
+"clave para hacer manualidades y asegúrate de que tus estanterías\n"
+"                siempre estén llenas con todo aquello que tus clientes "
+"necesitan."
 
 #. module: art_craft
 #: model_terms:ir.ui.view,arch_db:art_craft.homepage
@@ -480,23 +527,25 @@ msgstr "<b>¿Desea descubrir más?</b>"
 #. module: art_craft
 #: model_terms:ir.ui.view,arch_db:art_craft.welcome_article_body
 msgid ""
-"<font class=\"text-800\">\n"
-"                They use the Point of Sale application, Inventory, Sales, "
-"Purchase, Accounting, Contact, Employee, Dashboard, Barcode. But if they "
-"want to grow their business with a website, then a Website and E-commerce "
-"applications can be\n"
-"                helpful in that industry.\n"
-"            </font>\n"
-"            <br/>"
+"<b>Website App</b>: Create an inspiring online space that not only sells "
+"products but showcases creative\n"
+"                projects and ideas to drive engagement."
 msgstr ""
-"<font class=\"text-800\">\n"
-"                Usan las aplicaciones Punto de venta, Inventario, Ventas, "
-"Compra, Contabilidad, Empleados, Tableros, Código de barras. Si quieren "
-"hacer crecer su negocio con un sitio web, las aplicaciones Sitio web y "
-"Comercio electrónico son muy\n"
-"                útiles en este sector.\n"
-"            </font>\n"
-"            <br/>"
+"<b>Aplicación Sitio web</b>: crea un espacio online inspirador que no solo "
+"venda productos, sino que también muestre proyectos\n"
+"                e ideas creativas para impulsar la participación y la "
+"interacción."
+
+#. module: art_craft
+#: model_terms:ir.ui.view,arch_db:art_craft.welcome_article_body
+msgid ""
+"<b>eCommerce App</b>: Expand your creative reach by selling supplies online, "
+"offering a convenient shopping\n"
+"                experience for hobbyists everywhere."
+msgstr ""
+"<b>Aplicación Comercio electrónico</b>: amplía tu alcance creativo al vender "
+"materiales online y ofrecer una cómoda experiencia\n"
+"                de compra para personas de todo el mundo."
 
 #. module: art_craft
 #: model_terms:ir.ui.view,arch_db:art_craft.welcome_article_body
@@ -695,8 +744,8 @@ msgid ""
 "\">The Arts and Crafts Shop</span>"
 msgstr ""
 "<span style=\"color: rgb(0, 0, 0); background-color: transparent; font-"
-"weight: 700; font-style: normal; text-decoration: none; font-size: 24px;\""
-">La tienda de manualidades</span>"
+"weight: 700; font-style: normal; text-decoration: none; font-size: 24px;"
+"\">La tienda de manualidades</span>"
 
 #. module: art_craft
 #: model_terms:ir.ui.view,arch_db:art_craft.welcome_article_body
@@ -708,33 +757,33 @@ msgid ""
 "transparent; font-weight: 400; font-style: normal; text-decoration: none;"
 "\">\n"
 "                <font class=\"text-800\">\n"
-"                    An arts and crafts store is a haven for creative "
-"individuals and hobbyists, offering a diverse range of supplies and "
-"materials for various artistic endeavours. From painting and drawing, scrap "
-"booking. These stores provide a\n"
-"                    colourful array of paints, brushes, paper, beads, tools, "
-"colourful trays and other crafting (Handmade) essentials. They are a "
-"treasure trove for anyone seeking to express their creativity, explore new "
-"hobbies, or create\n"
-"                    beautiful handmade items.\n"
+"                    Tailored specifically for the world of creativity, this "
+"Odoo industry package offers a complete solution for arts and crafts stores. "
+"It effectively manages a diverse range of inventory with complex variants, "
+"ensuring that you can always meet customer demand for specific colors or "
+"materials. The system integrates powerful tools for POS and eCommerce, "
+"making it easier to run your store efficiently both online and offline. It "
+"is the essential tool for combining artistic passion with professional "
+"business management.\n"
 "                </font>\n"
 "            </span>"
 msgstr ""
-"<span style=\"font-size: 13pt; color: #000000; background-color: transparent;"
-" font-weight: 400; font-style: normal; text-decoration: none;\"/>\n"
+"<span style=\"font-size: 13pt; color: #000000; background-color: "
+"transparent; font-weight: 400; font-style: normal; text-decoration: none;\"/"
+">\n"
 "            <span class=\"text-o-color-2\" style=\"background-color: "
-"transparent; font-weight: 400; font-style: normal; text-decoration: none;\">"
-"\n"
+"transparent; font-weight: 400; font-style: normal; text-decoration: none;"
+"\">\n"
 "                <font class=\"text-800\">\n"
-"                    Una tienda de manualidades es el paraíso para las "
-"personas creativas y los adicionados. Aquí podrán encontrar una amplia gama "
-"de recursos y materiales para diversas actividades creaticas. Desde "
-"pinturas, dibujos y libros de recortes, este tienda cuenta\n"
-"                    una colorida variedad de pinturas, pinceles, papel, "
-"cuentas, herramientas, bandejas de colores y otros recursos (hechos a mano) "
-"coloridos para realizar sus manualidades. Son un tesoro para todos aquellos "
-"que quieran expresar su creatividad, explorar nuevos pasatiempos o crear\n"
-"                    artículos hechos a mano.\n"
+"                    Creado especialmente para el mundo de la creatividad, "
+"este paquete de Odoo ofrece una solución integral para los comercios de arte "
+"y artesanía. Gestiona eficazmente una amplia gama de productos con múltiples "
+"variantes y asegúrate de responder a la demanda de colores y materiales "
+"específicos. El sistema incorpora potentes herramientas para puntos de venta "
+"y comercio electrónico, lo que permite gestionar tu empresa de forma "
+"eficiente tanto en entorno digital como en tienda física. Es la herramienta "
+"ideal para combinar la pasión artística con una gestión empresarial "
+"profesional.\n"
 "                </font>\n"
 "            </span>"
 
@@ -896,18 +945,13 @@ msgstr "Bolsas"
 
 #. module: art_craft
 #: model_terms:ir.ui.view,arch_db:art_craft.welcome_article_body
+msgid "Basics"
+msgstr "Lo esencial"
+
+#. module: art_craft
+#: model_terms:ir.ui.view,arch_db:art_craft.welcome_article_body
 msgid "Business Flows"
 msgstr "Flujos empresariales"
-
-#. module: art_craft
-#: model:pos.payment.method,name:art_craft.pos_payment_method_1
-msgid "Cash"
-msgstr "Efectivo"
-
-#. module: art_craft
-#: model:account.journal,name:art_craft.cash
-msgid "Cash (Art Craft)"
-msgstr "Efectivo (manualidades)"
 
 #. module: art_craft
 #: model_terms:ir.ui.view,arch_db:art_craft.welcome_article_body
@@ -916,9 +960,9 @@ msgid ""
 "strong>to buy this from a physical shop, which will send an email for "
 "further buying Procedure with that customer."
 msgstr ""
-"Haga clic en <strong><font class=\"text-o-color-1\">“Contáctenos”</font></"
-"strong> para comprar en esta tienda física, que enviará un correo para un "
-"procedimiento de compra adicional con ese cliente."
+"Haga clic en <strong><font class=\"text-o-color-1\">“Contacta con nosotros”</"
+"font></strong> para comprar en esta tienda física, que enviará un correo "
+"para un procedimiento de compra adicional con ese cliente."
 
 #. module: art_craft
 #: model:pos.category,name:art_craft.pos_category_9
@@ -953,7 +997,7 @@ msgstr "Contáctame para una visita a mi estudio."
 #: model_terms:ir.ui.view,arch_db:art_craft.contactus
 #: model_terms:ir.ui.view,arch_db:art_craft.homepage
 msgid "Contact us"
-msgstr "Contáctenos"
+msgstr "Contacta con nosotros"
 
 #. module: art_craft
 #: model_terms:ir.ui.view,arch_db:art_craft.contactus
@@ -963,8 +1007,8 @@ msgid ""
 "                                            We'll do our best to get back to "
 "you as soon as possible."
 msgstr ""
-"Contáctenos para hablar acerca de cualquier cosa relacionada con nuestra "
-"compañía o servicios.\n"
+"Contacta con nosotros para hablar acerca de cualquier cosa relacionada con "
+"nuestra compañía o servicios.\n"
 "                                            <br/>\n"
 "                                            Le responderemos tan pronto como "
 "sea posible."
@@ -1000,24 +1044,9 @@ msgid "Create an RFQ for “Arts &amp; Crafts Shop”"
 msgstr "Cree una solicitud de presupuesto “Arts &amp; Crafts Shop”."
 
 #. module: art_craft
-#: model:pos.payment.method,name:art_craft.pos_payment_method_7
-msgid "Credit card"
-msgstr "Tarjeta de crédito"
-
-#. module: art_craft
 #: model:pos.category,name:art_craft.pos_category_6
 msgid "Crockery"
 msgstr "Alfarería"
-
-#. module: art_craft
-#: model:pos.payment.method,name:art_craft.pos_payment_method_2
-msgid "Customer Account"
-msgstr "Cuenta de cliente"
-
-#. module: art_craft
-#: model:pos.payment.method,name:art_craft.pos_payment_method_8
-msgid "Debit Card"
-msgstr "Tarjeta de débito"
 
 #. module: art_craft
 #: model:product.pricelist,name:art_craft.product_pricelist_3
@@ -1153,11 +1182,13 @@ msgstr ""
 #: code:addons/art_craft/static/src/js/my_tour.js:0
 msgid "Get on track and explore our recommendations for your Odoo usage here!"
 msgstr ""
+"¡Ponte al día y explora nuestras recomendaciones para sacarle más partido a "
+"Odoo!"
 
 #. module: art_craft
 #: model:product.template,name:art_craft.product_template_6
 msgid "Gift Card"
-msgstr "Tarjeta de regalo"
+msgstr "Tarjeta regalo"
 
 #. module: art_craft
 #: model:product.template,name:art_craft.product_template_25
@@ -1235,7 +1266,6 @@ msgstr ""
 "siguiente nivel."
 
 #. module: art_craft
-#: model:ir.model.fields,field_description:art_craft.field_stock_picking_x_is_it_consignee
 #: model_terms:ir.ui.view,arch_db:art_craft.view_purchase_order_form_inherit
 msgid "Is Consignee"
 msgstr "Es el destinatario"
@@ -1252,15 +1282,25 @@ msgid "It's all about perception"
 msgstr "Todo es cuestión de percepción"
 
 #. module: art_craft
+#: model:product.attribute.value,name:art_craft.product_attribute_value_3
+msgid "L"
+msgstr "L"
+
+#. module: art_craft
 #: model_terms:ir.ui.view,arch_db:art_craft.about-us
 #: model_terms:ir.ui.view,arch_db:art_craft.homepage
 msgid "Learn more"
-msgstr "Descubre más"
+msgstr "Más información"
 
 #. module: art_craft
 #: model_terms:ir.ui.view,arch_db:art_craft.about-us
 msgid "Let yourself<br/>be transported"
 msgstr "Déjese<br/>llevar"
+
+#. module: art_craft
+#: model:product.attribute.value,name:art_craft.product_attribute_value_2
+msgid "M"
+msgstr "M"
 
 #. module: art_craft
 #: model:product.template,name:art_craft.product_template_18
@@ -1362,11 +1402,6 @@ msgid "Previous"
 msgstr "Anterior"
 
 #. module: art_craft
-#: model_terms:ir.ui.view,arch_db:art_craft.welcome_article_body
-msgid "Price list : B2C,B2B"
-msgstr "Lista de precios: B2C, B2B"
-
-#. module: art_craft
 #: model:product.attribute,name:art_craft.product_attribute_3
 msgid "Print name"
 msgstr "Nombre de la impresión"
@@ -1398,6 +1433,11 @@ msgid "Red coasters"
 msgstr "Portavasos rojos"
 
 #. module: art_craft
+#: model:product.attribute.value,name:art_craft.product_attribute_value_1
+msgid "S"
+msgstr "S"
+
+#. module: art_craft
 #: model_terms:ir.ui.view,arch_db:art_craft.welcome_article_body
 msgid "Select Customer and enter code number (Membership code)"
 msgstr ""
@@ -1411,20 +1451,10 @@ msgstr ""
 "para pintar)."
 
 #. module: art_craft
-#: model_terms:ir.ui.view,arch_db:art_craft.welcome_article_body
-msgid "Set Up"
-msgstr "Configurar"
-
-#. module: art_craft
 #: model:base.automation,name:art_craft.automation_assign_owner_for_consignement_purchase
 #: model:ir.actions.server,name:art_craft.action_server_set_owner_for_consignemnt_purchase
 msgid "Set Vendor Name in Assign Owner"
 msgstr "Establecer el nombre del proveedor en asignar propietario"
-
-#. module: art_craft
-#: model_terms:ir.ui.view,arch_db:art_craft.welcome_article_body
-msgid "Set up Membership Programme by Coupon Programme"
-msgstr "Configuración de un programa de afiliación por programa de cupón"
 
 #. module: art_craft
 #: model:product.template,name:art_craft.product_template_26
@@ -1468,11 +1498,6 @@ msgstr "Conjunto de pintura acrílica para artistas marca Stationerie"
 #: model_terms:ir.ui.view,arch_db:art_craft.contactus
 msgid "Submit"
 msgstr "Enviar"
-
-#. module: art_craft
-#: model_terms:ir.ui.view,arch_db:art_craft.welcome_article_body
-msgid "The Set-up includes:"
-msgstr "Esta configuración incluye:"
 
 #. module: art_craft
 #: model_terms:ir.ui.view,arch_db:art_craft.homepage
@@ -1562,7 +1587,7 @@ msgstr ""
 #. module: art_craft
 #: model_terms:web_tour.tour,rainbow_man_message:art_craft.knowledge_tour
 msgid "Welcome! Happy exploring."
-msgstr "¡Bienvenido! Disfrute del sitio."
+msgstr "¡Te damos la bienvenida! Disfruta explorando."
 
 #. module: art_craft
 #: model_terms:ir.ui.view,arch_db:art_craft.welcome_article_body
@@ -1578,8 +1603,8 @@ msgstr ""
 "mismo periodo y se lo volvemos a vender al proveedor o al tercero, eso "
 "es<strong> </strong>\n"
 "            <font class=\"text-o-color-1\"><strong>una compra de "
-"consignación</strong></font><strong><font class=\"text-o-color-1\""
-">.</font></strong>"
+"consignación</strong></font><strong><font class=\"text-o-color-1\">.</font></"
+"strong>"
 
 #. module: art_craft
 #: model_terms:ir.ui.view,arch_db:art_craft.about-us
@@ -1611,6 +1636,92 @@ msgstr ""
 "                                         porque no proporcionó ni el filtro "
 "ni la plantilla a usar.\n"
 "                                        <br/>"
+
+#~ msgid "Cash"
+#~ msgstr "Efectivo"
+
+#~ msgid "Cash (Art Craft)"
+#~ msgstr "Efectivo (manualidades)"
+
+#~ msgid "Credit card"
+#~ msgstr "Tarjeta de crédito"
+
+#~ msgid "Customer Account"
+#~ msgstr "Cuenta de cliente"
+
+#~ msgid "Debit Card"
+#~ msgstr "Tarjeta de débito"
+
+#~ msgid ""
+#~ "<font class=\"text-800\">\n"
+#~ "                They use the Point of Sale application, Inventory, Sales, "
+#~ "Purchase, Accounting, Contact, Employee, Dashboard, Barcode. But if they "
+#~ "want to grow their business with a website, then a Website and E-commerce "
+#~ "applications can be\n"
+#~ "                helpful in that industry.\n"
+#~ "            </font>\n"
+#~ "            <br/>"
+#~ msgstr ""
+#~ "<font class=\"text-800\">\n"
+#~ "                Usan las aplicaciones Punto de venta, Inventario, Ventas, "
+#~ "Compra, Contabilidad, Empleados, Tableros, Código de barras. Si quieren "
+#~ "hacer crecer su negocio con un sitio web, las aplicaciones Sitio web y "
+#~ "Comercio electrónico son muy\n"
+#~ "                útiles en este sector.\n"
+#~ "            </font>\n"
+#~ "            <br/>"
+
+#~ msgid ""
+#~ "<span style=\"font-size: 13pt; color: #000000; background-color: "
+#~ "transparent; font-weight: 400; font-style: normal; text-decoration: none;"
+#~ "\"/>\n"
+#~ "            <span class=\"text-o-color-2\" style=\"background-color: "
+#~ "transparent; font-weight: 400; font-style: normal; text-decoration: none;"
+#~ "\">\n"
+#~ "                <font class=\"text-800\">\n"
+#~ "                    An arts and crafts store is a haven for creative "
+#~ "individuals and hobbyists, offering a diverse range of supplies and "
+#~ "materials for various artistic endeavours. From painting and drawing, "
+#~ "scrap booking. These stores provide a\n"
+#~ "                    colourful array of paints, brushes, paper, beads, "
+#~ "tools, colourful trays and other crafting (Handmade) essentials. They are "
+#~ "a treasure trove for anyone seeking to express their creativity, explore "
+#~ "new hobbies, or create\n"
+#~ "                    beautiful handmade items.\n"
+#~ "                </font>\n"
+#~ "            </span>"
+#~ msgstr ""
+#~ "<span style=\"font-size: 13pt; color: #000000; background-color: "
+#~ "transparent; font-weight: 400; font-style: normal; text-decoration: none;"
+#~ "\"/>\n"
+#~ "            <span class=\"text-o-color-2\" style=\"background-color: "
+#~ "transparent; font-weight: 400; font-style: normal; text-decoration: none;"
+#~ "\">\n"
+#~ "                <font class=\"text-800\">\n"
+#~ "                    Una tienda de manualidades es el paraíso para las "
+#~ "personas creativas y los adicionados. Aquí podrán encontrar una amplia "
+#~ "gama de recursos y materiales para diversas actividades creaticas. Desde "
+#~ "pinturas, dibujos y libros de recortes, este tienda cuenta\n"
+#~ "                    una colorida variedad de pinturas, pinceles, papel, "
+#~ "cuentas, herramientas, bandejas de colores y otros recursos (hechos a "
+#~ "mano) coloridos para realizar sus manualidades. Son un tesoro para todos "
+#~ "aquellos que quieran expresar su creatividad, explorar nuevos pasatiempos "
+#~ "o crear\n"
+#~ "                    artículos hechos a mano.\n"
+#~ "                </font>\n"
+#~ "            </span>"
+
+#~ msgid "Price list : B2C,B2B"
+#~ msgstr "Lista de precios: B2C, B2B"
+
+#~ msgid "Set Up"
+#~ msgstr "Configurar"
+
+#~ msgid "Set up Membership Programme by Coupon Programme"
+#~ msgstr "Configuración de un programa de afiliación por programa de cupón"
+
+#~ msgid "The Set-up includes:"
+#~ msgstr "Esta configuración incluye:"
 
 #~ msgid "Execute Code"
 #~ msgstr "Ejecutar código"

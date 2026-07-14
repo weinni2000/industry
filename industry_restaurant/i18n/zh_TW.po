@@ -8,13 +8,14 @@
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# "Tony Ng (ngto)" <ngto@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 12:53+0000\n"
-"PO-Revision-Date: 2025-11-12 13:39+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-04-03 19:33+0000\n"
+"PO-Revision-Date: 2026-04-11 09:35+0000\n"
+"Last-Translator: \"Tony Ng (ngto)\" <ngto@odoo.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://translate.odoo.com/"
 "projects/odoo-19/industry_restaurant/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -22,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.website_page_menu
@@ -126,8 +127,9 @@ msgstr "，亦歡迎隨時"
 msgid ""
 "1. First, create all your employees in the database. Navigate to the "
 "<strong>Employees App </strong>to do so."
-msgstr "1. "
-"首先，在資料庫中建立所有員工。前往<strong>員工應用程式</strong>執行此操作。"
+msgstr ""
+"1. 首先，在資料庫中建立所有員工。前往<strong>員工應用程式</strong>執行此操"
+"作。"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -137,10 +139,9 @@ msgid ""
 "and their Hourly Cost in the Settings tab for your profitability "
 "computations."
 msgstr ""
-"1. "
-"在<strong>員工應用程式</strong>中，建立所有新員工。記得在「工作資訊」分頁中，"
-"為他們分配角色，以自動規劃他們的輪班，並在「設定」分頁中，設定他們的每小時成"
-"本（時薪），以便系統計算盈利。"
+"1. 在<strong>員工應用程式</strong>中，建立所有新員工。記得在「工作資訊」分頁"
+"中，為他們分配角色，以自動規劃他們的輪班，並在「設定」分頁中，設定他們的每小"
+"時成本（時薪），以便系統計算盈利。"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -161,15 +162,16 @@ msgstr ""
 msgid ""
 "1. Open the Attendances App &gt; Settings and copy the kiosk Url available "
 "in the Kiosk Settings."
-msgstr "1. 開啟考勤應用程式 &gt; "
-"設定，然後複製自助服務機的網址（可在自助服務機設定中找到）。"
+msgstr ""
+"1. 開啟考勤應用程式 &gt; 設定，然後複製自助服務機的網址（可在自助服務機設定中"
+"找到）。"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
 msgid ""
-"2. Create your employees' roles under the \"Work Information\" tab. Some are "
-"already created for this demo."
-msgstr "2. 在「工作資訊」分頁中，為員工建立不同角色。模擬數據已建立部份角色。"
+"2. Create your employees' roles under the \"Settings\" tab. Some are already "
+"created for this demo."
+msgstr ""
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -305,6 +307,62 @@ msgstr ""
 "廚藝，邀請你由餐桌跨進美饌新境界。"
 
 #. module: industry_restaurant
+#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Appointments App</b>: </font>Allow "
+"customers to book tables online 24/7, reducing phone calls and optimizing "
+"your seating capacity."
+msgstr ""
+
+#. module: industry_restaurant
+#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Inventory App</b>: </font>Track "
+"ingredients and recipes in real-time, using \"Bill of Materials\" (BoM) to "
+"deduct stock automatically as dishes are sold."
+msgstr ""
+
+#. module: industry_restaurant
+#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Kitchen Display / Printers</b>:</font> "
+"Send orders instantly to the kitchen or bar with specific printing "
+"instructions for different stations (e.g., \"Cold Station\", \"Grill\")."
+msgstr ""
+
+#. module: industry_restaurant
+#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Planning App</b>:</font> Organize shifts "
+"for chefs, servers, and bartenders, ensuring you are adequately staffed for "
+"peak service hours."
+msgstr ""
+
+#. module: industry_restaurant
+#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Purchase App</b>:</font> Automate the "
+"reordering of fresh produce and dry goods based on minimum stock rules and "
+"supplier lead times."
+msgstr ""
+
+#. module: industry_restaurant
+#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Restaurant App (POS)</b>:</font> Manage "
+"your floor plan visually, handling table seating, order taking, and bill "
+"splitting directly from the interface."
+msgstr ""
+
+#. module: industry_restaurant
+#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Website App</b>:</font> Showcase your "
+"menu, share chef bios, and promote special events with a mouth-watering "
+"online presence."
+msgstr ""
+
+#. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.homepage
 msgid "<font class=\"text-white\">Seasoned | Savory | Delicious</font>"
 msgstr "<font class=\"text-white\">色香味俱全</font>"
@@ -340,8 +398,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">✏️</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"橫幅資訊\">✏️</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label=\"橫幅資"
+"訊\">✏️</i>"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -349,8 +407,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">💡</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"橫幅資訊\">💡</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label=\"橫幅資"
+"訊\">💡</i>"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -358,8 +416,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">🔑</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"橫幅資訊\">🔑</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label=\"橫幅資"
+"訊\">🔑</i>"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -367,8 +425,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">🕣</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"橫幅資訊\">🕣</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label=\"橫幅資"
+"訊\">🕣</i>"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -376,8 +434,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">✅</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"橫幅成功\">✅</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label=\"橫幅成"
+"功\">✅</i>"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -385,8 +443,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">🔑</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"橫幅成功\">🔑</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label=\"橫幅成"
+"功\">🔑</i>"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.homepage
@@ -410,10 +468,9 @@ msgid ""
 "every week, and you can personalize it with a checklist to avoid forgetting "
 "anything."
 msgstr ""
-"<strong>1. 流程 "
-"1</strong>：大多數產品需要人手評估，因為無法靠電腦自動計算剩餘數量。對於這類"
-"產品，請在<strong>專案管理應用程式</strong>中，建立一個「重複任務」。此任務每"
-"週都會重複出現，你可使用清單作個人化設定，以免忘記任何事情。"
+"<strong>1. 流程 1</strong>：大多數產品需要人手評估，因為無法靠電腦自動計算剩"
+"餘數量。對於這類產品，請在<strong>專案管理應用程式</strong>中，建立一個「重複"
+"任務」。此任務每週都會重複出現，你可使用清單作個人化設定，以免忘記任何事情。"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -600,15 +657,6 @@ msgstr ""
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
 msgid ""
-"Get visibility and share your menu with a great <font class=\"text-o-"
-"color-1\"><strong>Website</strong></font>."
-msgstr ""
-"運用出色的<font class=\"text-o-color-1\"><strong>網站</strong></font>，提高曝"
-"光率，並讓訪客瀏覽餐牌。"
-
-#. module: industry_restaurant
-#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
-msgid ""
 "Go to your <strong>Purchase App</strong> to easily create Requests for "
 "Proposal or Purchase Orders."
 msgstr "前往<strong>採購應用程式</strong>，輕鬆建立提案請求、採購訂單等。"
@@ -658,8 +706,8 @@ msgid ""
 "Configuration &gt; Resources &gt; Select the table to link others to."
 msgstr ""
 "如果你的餐廳慣常透過「拼桌」招待較大群食客，系統是可以如此配置的。方法是透過"
-"指派「連結資源」，設定哪些餐桌可被加入至其他餐桌，作為附屬資源。請前往："
-"預約應用程式 &gt; 配置 &gt; 資源，然後選擇可加入其他附屬餐桌的主餐桌。"
+"指派「連結資源」，設定哪些餐桌可被加入至其他餐桌，作為附屬資源。請前往：預約"
+"應用程式 &gt; 配置 &gt; 資源，然後選擇可加入其他附屬餐桌的主餐桌。"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -667,7 +715,8 @@ msgid ""
 "If you navigate to your <strong>Purchase App</strong>, you can see a new "
 "Purchase Order that is ready to be sent. You can choose a packaging if your "
 "product has an existing one."
-msgstr "若進入<strong>採購應用程式</strong>，會看到一張準備好發送的新採購訂單。如果產"
+msgstr ""
+"若進入<strong>採購應用程式</strong>，會看到一張準備好發送的新採購訂單。如果產"
 "品已有相關設定，你可選擇一種包裝組合。"
 
 #. module: industry_restaurant
@@ -676,16 +725,16 @@ msgid ""
 "If you want each employee to have their own access as users, you will need "
 "to create users for them and associate them to the newly created employees "
 "from the Settings tab."
-msgstr "若想每名員工都擁有自己的使用者存取權限，便需要為他們建立使用者帳戶，並在「設"
+msgstr ""
+"若想每名員工都擁有自己的使用者存取權限，便需要為他們建立使用者帳戶，並在「設"
 "定」分頁中，將這些帳戶連結至新建立的員工。"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
 msgid ""
 "If you want to assign them an Odoo user account, you can select a related "
-"user in the \"hr/ Settings\" tab."
-msgstr "若想為他們編配 Odoo 使用者帳戶，可在「人力資源 / "
-"設定」分頁中，選擇相關使用者。"
+"user in the same \"Settings\" tab."
+msgstr ""
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -711,15 +760,6 @@ msgstr "番茄醬 500 毫升"
 #: model:planning.role,name:industry_restaurant.planning_role_3
 msgid "Kitchen"
 msgstr "廚房"
-
-#. module: industry_restaurant
-#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
-msgid ""
-"Let your customer book a table anytime with the <font class=\"text-o-"
-"color-1\"><strong>Appointment App</strong></font>."
-msgstr ""
-"讓你的顧客隨時使用<font class=\"text-o-color-1\"><strong>預約應用程式</"
-"strong></font>訂枱。"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.website_page_menu
@@ -919,23 +959,14 @@ msgstr "任務"
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
 msgid ""
-"The <font class=\"text-o-color-1\"><strong>Kitchen Display</strong></font> "
-"will ensure a great follow-up of every order in your bar and kitchen."
-msgstr ""
-"<font class=\"text-o-color-1\"><strong>廚房顯示屏</strong></font>可確保你的酒"
-"吧及廚房，都能妥善跟進每張點餐訂單。"
-
-#. module: industry_restaurant
-#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
-msgid ""
 "The Point of Sale is protected to assign different rights to employees "
 "depending on your level of trust. <br/>You can remove this PIN code "
 "requirement : Point of Sale &gt; Configuration &gt; Setting &gt; PoS "
 "Inferface unselecting the Log in with Employees setting."
 msgstr ""
-"銷售點的運作受到保護，你可根據不同信任程度，為員工編配不同的存取權限。<br/"
-">你也可移除這項輸入個人密碼（PIN）的要求：前往 POS 銷售點管理應用程式 &gt; "
-"配置 &gt; 設定 &gt; POS 介面，然後取消選取「使用員工登入」設定。"
+"銷售點的運作受到保護，你可根據不同信任程度，為員工編配不同的存取權限。<br/>你"
+"也可移除這項輸入個人密碼（PIN）的要求：前往 POS 銷售點管理應用程式 &gt; 配置 "
+"&gt; 設定 &gt; POS 介面，然後取消選取「使用員工登入」設定。"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -958,60 +989,13 @@ msgid ""
 "every 15 minutes. Feel free to edit this to reflect on your opening hours!"
 msgstr ""
 "此設定會在以下時間提供服務：星期一至星期日，每天提供兩段服務時間（中午 12:00 "
-"至下午 15:00；下午 18:00 至 23:00），每 15 "
-"分鐘為一個時段。你可隨意編輯此設定，以配合你的實際營業時間。"
+"至下午 15:00；下午 18:00 至 23:00），每 15 分鐘為一個時段。你可隨意編輯此設"
+"定，以配合你的實際營業時間。"
 
 #. module: industry_restaurant
 #: model:project.task.type,name:industry_restaurant.project_task_type_1
 msgid "To Do"
 msgstr "待辦事項"
-
-#. module: industry_restaurant
-#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
-msgid ""
-"Use the <font class=\"text-o-color-1\"><strong>Inventory App</strong></font> "
-"to manage your stock and receive products."
-msgstr ""
-"使用<font class=\"text-o-color-1\"><strong>庫存應用程式</strong></font>，管理"
-"你的庫存及接收產品。"
-
-#. module: industry_restaurant
-#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
-msgid ""
-"Use the <font class=\"text-o-color-1\"><strong>Planning App</strong></font> "
-"to schedule and share your shifts with your employees."
-msgstr ""
-"使用<font class=\"text-o-color-1\"><strong>工作規劃應用程式</strong></font>，"
-"預定並向員工分享輪班安排。"
-
-#. module: industry_restaurant
-#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
-msgid ""
-"Use the <font class=\"text-o-color-1\"><strong>Point of Sale</strong></font> "
-"at the desk for your sales. You can also download the Odoo Mobile App on any "
-"phone to take orders."
-msgstr ""
-"在桌上使用 <font class=\"text-o-color-1\"><strong>POS 銷售點管理應用程式</"
-"strong></font>進行銷售，也可使用任何手機下載 Odoo 流動應用程式，輕鬆接受訂"
-"單。"
-
-#. module: industry_restaurant
-#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
-msgid ""
-"Use the <font class=\"text-o-color-1\"><strong>Project App</strong></font> "
-"to never miss a reordering or a cleaning task."
-msgstr ""
-"使用<font class=\"text-o-color-1\"><strong>專案管理應用程式</strong></font>，"
-"不再怕遺忘重新訂貨或清潔等任務。"
-
-#. module: industry_restaurant
-#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
-msgid ""
-"Use the <font class=\"text-o-color-1\"><strong>Purchase App</strong></font> "
-"to reorder your products."
-msgstr ""
-"使用<font class=\"text-o-color-1\"><strong>採購應用程式</strong></font>，為缺"
-"貨產品重新訂貨。"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.website_page_menu
@@ -1023,14 +1007,16 @@ msgstr "蔬菜沙律、牛肉漢堡，以及芒果雪糕"
 msgid ""
 "When editing your Point of Sale plan, if adding tables, make sure the book-"
 "able tables are listed in the resources of your appointment."
-msgstr "編輯銷售點平面圖並加入餐桌時，請確保可供預訂的餐桌已加入至預約的資源中。"
+msgstr ""
+"編輯銷售點平面圖並加入餐桌時，請確保可供預訂的餐桌已加入至預約的資源中。"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
 msgid ""
 "Willing your employees to clock in and out? The <strong>Attendances App </"
 "strong>enables you to follow up on this."
-msgstr "你的員工是否需要打卡上下班？可使用<strong>考勤應用程式</strong>，追蹤員工的上"
+msgstr ""
+"你的員工是否需要打卡上下班？可使用<strong>考勤應用程式</strong>，追蹤員工的上"
 "下班時間。"
 
 #. module: industry_restaurant
@@ -1043,7 +1029,8 @@ msgstr "想與我們討論如何設定你的 Odoo 配置，甚至想探索更多
 msgid ""
 "You can access all products and their reordering rules from the Inventory "
 "&gt; Operations &gt; Replenishment"
-msgstr "你可在庫存 &gt; 操作 &gt; 補貨中，存取所有產品的資料，及相關的重新訂購規則。"
+msgstr ""
+"你可在庫存 &gt; 操作 &gt; 補貨中，存取所有產品的資料，及相關的重新訂購規則。"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -1091,8 +1078,8 @@ msgid ""
 "and check the Employee PIN identification."
 msgstr ""
 "你可為員工設定個人密碼（PIN），確保他們能夠安全記錄上下班的打卡時間。要執行此"
-"操作，請前往：考勤 &gt; 配置 &gt; 設定 &gt; "
-"自助服務機設定，然後勾選「員工個人密碼驗證身份」。"
+"操作，請前往：考勤 &gt; 配置 &gt; 設定 &gt; 自助服務機設定，然後勾選「員工個"
+"人密碼驗證身份」。"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -1151,8 +1138,8 @@ msgid ""
 "purpose, Odoo comes with an integration of <strong>UrbanPiper</strong> with "
 "the <strong>Point of Sales App</strong>."
 msgstr ""
-"你的餐廳可能提供外賣配送服務。因此，Odoo 的 <strong>POS "
-"銷售點管理應用程式</strong>，已整合 <strong>UrbanPiper</strong> 功能。"
+"你的餐廳可能提供外賣配送服務。因此，Odoo 的 <strong>POS 銷售點管理應用程式</"
+"strong>，已整合 <strong>UrbanPiper</strong> 功能。"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -1169,8 +1156,8 @@ msgid ""
 "App</strong> to discover a sample website and explore millions of "
 "possibilities by clicking on the \"Edit\" button."
 msgstr ""
-"網站管理從未如此簡單。前往<strong>網站製作應用程式</strong>，發掘現成範例網站"
-"，或按一下「編輯」按鈕，探索成千上萬種可能的設計。"
+"網站管理從未如此簡單。前往<strong>網站製作應用程式</strong>，發掘現成範例網"
+"站，或按一下「編輯」按鈕，探索成千上萬種可能的設計。"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -1233,6 +1220,72 @@ msgid "🎓 Website"
 msgstr "🎓 網站"
 
 #~ msgid ""
+#~ "If you want to assign them an Odoo user account, you can select a related "
+#~ "user in the \"hr/ Settings\" tab."
+#~ msgstr ""
+#~ "若想為他們編配 Odoo 使用者帳戶，可在「人力資源 / 設定」分頁中，選擇相關使"
+#~ "用者。"
+
+#~ msgid ""
+#~ "Get visibility and share your menu with a great <font class=\"text-o-"
+#~ "color-1\"><strong>Website</strong></font>."
+#~ msgstr ""
+#~ "運用出色的<font class=\"text-o-color-1\"><strong>網站</strong></font>，提"
+#~ "高曝光率，並讓訪客瀏覽餐牌。"
+
+#~ msgid ""
+#~ "Let your customer book a table anytime with the <font class=\"text-o-"
+#~ "color-1\"><strong>Appointment App</strong></font>."
+#~ msgstr ""
+#~ "讓你的顧客隨時使用<font class=\"text-o-color-1\"><strong>預約應用程式</"
+#~ "strong></font>訂枱。"
+
+#~ msgid ""
+#~ "The <font class=\"text-o-color-1\"><strong>Kitchen Display</strong></"
+#~ "font> will ensure a great follow-up of every order in your bar and "
+#~ "kitchen."
+#~ msgstr ""
+#~ "<font class=\"text-o-color-1\"><strong>廚房顯示屏</strong></font>可確保你"
+#~ "的酒吧及廚房，都能妥善跟進每張點餐訂單。"
+
+#~ msgid ""
+#~ "Use the <font class=\"text-o-color-1\"><strong>Inventory App</strong></"
+#~ "font> to manage your stock and receive products."
+#~ msgstr ""
+#~ "使用<font class=\"text-o-color-1\"><strong>庫存應用程式</strong></font>，"
+#~ "管理你的庫存及接收產品。"
+
+#~ msgid ""
+#~ "Use the <font class=\"text-o-color-1\"><strong>Planning App</strong></"
+#~ "font> to schedule and share your shifts with your employees."
+#~ msgstr ""
+#~ "使用<font class=\"text-o-color-1\"><strong>工作規劃應用程式</strong></"
+#~ "font>，預定並向員工分享輪班安排。"
+
+#~ msgid ""
+#~ "Use the <font class=\"text-o-color-1\"><strong>Point of Sale</strong></"
+#~ "font> at the desk for your sales. You can also download the Odoo Mobile "
+#~ "App on any phone to take orders."
+#~ msgstr ""
+#~ "在桌上使用 <font class=\"text-o-color-1\"><strong>POS 銷售點管理應用程式</"
+#~ "strong></font>進行銷售，也可使用任何手機下載 Odoo 流動應用程式，輕鬆接受訂"
+#~ "單。"
+
+#~ msgid ""
+#~ "Use the <font class=\"text-o-color-1\"><strong>Project App</strong></"
+#~ "font> to never miss a reordering or a cleaning task."
+#~ msgstr ""
+#~ "使用<font class=\"text-o-color-1\"><strong>專案管理應用程式</strong></"
+#~ "font>，不再怕遺忘重新訂貨或清潔等任務。"
+
+#~ msgid ""
+#~ "Use the <font class=\"text-o-color-1\"><strong>Purchase App</strong></"
+#~ "font> to reorder your products."
+#~ msgstr ""
+#~ "使用<font class=\"text-o-color-1\"><strong>採購應用程式</strong></font>，"
+#~ "為缺貨產品重新訂貨。"
+
+#~ msgid ""
 #~ "1. First, create all your employees in the database. Navigate to the "
 #~ "Employee App to do so."
 #~ msgstr "1. 首先，在資料庫中建立所有員工。前往員工應用程式便可執行此操作。"
@@ -1285,13 +1338,6 @@ msgstr "🎓 網站"
 #~ msgstr ""
 #~ "若進入採購應用程式，會看到一張準備好發送的新採購訂單。如果產品已有相關設"
 #~ "定，你可選擇一種包裝組合。"
-
-#~ msgid ""
-#~ "If you want to assign them an Odoo user account, you can select a related "
-#~ "user in the \"HR Settings\" tab."
-#~ msgstr ""
-#~ "若想為他們指派 Odoo 使用者帳戶，你可在「人力資源設定」分頁中選擇相關使用"
-#~ "者。"
 
 #~ msgid "Manage your booking using the Appointment App."
 #~ msgstr "使用預約應用程式，管理預訂。"

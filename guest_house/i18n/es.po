@@ -5,13 +5,14 @@
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.5a1+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-24 12:14+0000\n"
-"PO-Revision-Date: 2025-11-17 11:11+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-07-03 18:10+0000\n"
+"PO-Revision-Date: 2026-06-06 12:47+0000\n"
+"Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@odoo.com>\n"
 "Language-Team: Spanish <https://translate.odoo.com/projects/odoo-19/"
 "guest_house/es/>\n"
 "Language: es\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.homepage
@@ -56,8 +57,17 @@ msgstr ""
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"<em>Don't forget to check the results from time to time to make your guests "
+"happier!</em>"
+msgstr ""
+"<em>¡No olvides revisar los resultados de vez en cuando para que tus "
+"huéspedes estén más contentos!</em>"
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "<em>Don't forget to thank your guests with a warm goodbye!</em>"
-msgstr "<em>¡No olvide despedirse cordialmente de sus huéspedes!</em>"
+msgstr "<em>¡No olvides despedirte de tus huéspedes y darles las gracias!</em>"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -65,8 +75,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -90,6 +100,15 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\" aria-label=\"Banner Success\">✅</i>"
+msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\" aria-label=\"Banner Success\">✅</i>"
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">✅</i>"
 msgstr ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
@@ -103,6 +122,15 @@ msgid ""
 msgstr ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">🎉</i>"
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Warning\" aria-label=\"Banner Warning\">⚠️</i>"
+msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Warning\" aria-label=\"Banner Warning\">⚠️</i>"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -124,7 +152,6 @@ msgstr ""
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
-#, fuzzy
 msgid ""
 "<span class=\"display-4-fs\">\n"
 "                <strong>Guest House</strong>\n"
@@ -165,8 +192,13 @@ msgstr "<strong>Básicos</strong>"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "<strong>Company specific offers</strong>"
+msgstr "<strong>Ofertas específicas para empresas</strong>"
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "<strong>Do you want to go further?</strong>"
-msgstr "<strong>¿Quiere llegar más lejos?</strong>"
+msgstr "<strong>¿Quieres saber más?</strong>"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -180,9 +212,23 @@ msgid ""
 "then\n"
 "                        to create a new one for your own usage.</strong>"
 msgstr ""
-"<strong>En tal situación, siéntase libre de experimentar con esta base de "
-"datos y\n"
-"                        luego crear una nueva para su propio uso.</strong>"
+"<strong>En este caso, prueba con esta base de datos y después\n"
+"                         crea una nueva para tu propio uso.</strong>"
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "<strong>Multiple resource blocking / period closure</strong>"
+msgstr "<strong>Bloqueo de varios recursos/cierre de período</strong>"
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "<strong>Shared offers</strong>"
+msgstr "<strong>Ofertas compartidas</strong>"
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "<strong>Single resource blocking</strong>"
+msgstr "<strong>Bloqueo de un único recurso</strong>"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -196,25 +242,30 @@ msgid ""
 "and personalized service for every guest."
 msgstr ""
 "Un refugio acogedor en pleno corazón del campo, con un ambiente cálido y un "
-"servicio personalizado para cada cliente."
+"servicio personalizado para cada huésped."
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "Access to more details clicking the slot."
+msgstr "Accede a más información al hacer clic en el intervalo/franja horaria."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid ""
 "Add a line with Dinner Plate and update the counts as per guest request."
 msgstr ""
-"Añada una línea con un plato para cenar y actualice el número según la "
-"solicitud del huésped."
+"Añade una línea denominada «Cena» y actualiza el número según la solicitud "
+"del huésped."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "Add here as many of them as needed."
-msgstr "Añada todas las que necesite."
+msgstr "Añade todo lo que necesites."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "Adjust the number of stars, leave a comment and send it!"
-msgstr "Ajuste el número de estrellas, deje un comentario y envíelo."
+msgstr "Ajusta el número de estrellas, deja un comentario y envíalo."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -226,12 +277,27 @@ msgstr ""
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "Adjusting your offers in consequence"
+msgstr "Adaptar tus ofertas según corresponda"
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid ""
 "Again, the <strong>Guest House App </strong>helps you manage the end of the "
 "stay!"
 msgstr ""
-"Con la <strong>aplicación Casa de huéspedes</strong> le ayuda a gestionar la "
+"Con la <strong>aplicación Casa de huéspedes</strong> podrás gestionar la "
 "salida."
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"Alternatively to individual resource blocking slots described earlier, you "
+"can select a resource this leave applies to."
+msgstr ""
+"Como alternativa a los intervalos de bloqueo de recursos individuales "
+"descritos anteriormente, puedes seleccionar el recurso al que se aplica este "
+"bloqueo."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -253,10 +319,10 @@ msgid ""
 "                    not during the visualized date range and update the "
 "booking date range."
 msgstr ""
-"Alternativamente, cambie a la vista de lista, que es más adecuada si la "
-"reserva no está\n"
-"                    dentro del rango de fechas visualizado, y actualice el "
-"rango de fechas de la reserva."
+"Como alternativa, cambia a la vista de lista, que es más adecuada si la "
+"reserva\n"
+"                    no se encuentra dentro del rango de fechas visualizado, "
+"y actualiza el rango de fechas de la reserva."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -268,13 +334,47 @@ msgstr ""
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid ""
+"Alternatively, you can create a slot as placeholder from the planning "
+"directly:"
+msgstr ""
+"Como alternativa, puedes crear un bloque provisional directamente desde la "
+"planificación:"
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "An automation is setup for an email to be sent automatically for you."
+msgstr ""
+"Se ha configurado una automatización para que se envíe un correo electrónico "
+"automáticamente."
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"Any time you create a new survey and save it with the setting \"is customer "
+"satisfaction survey\", previous ones\n"
+"                    will be archived so that it becomes your new default "
+"survey."
+msgstr ""
+"Cada vez que crees una nueva encuesta y la guardes con la configuración «es "
+"encuesta de satisfacción de cliente», las anteriores\n"
+"                    se archivarán para que esta se convierta en tu nueva "
+"encuesta predeterminada."
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
 "Anyone can create a portal account on your database.<br/>Open your website "
 "home page\n"
 "                in a private tab to do so."
 msgstr ""
-"Todos pueden crear una cuenta de portal en su base de datos.<br/>Abra la "
+"Cualquiera puede crear una cuenta de portal en tu base de datos.<br/>Abre la "
 "página de inicio de tu sitio web\n"
-"                en una pestaña privada para probarlo."
+"                en una pestaña de incógnito."
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "Assign them a resource, which helps you keeping track."
+msgstr "Asígnales un recurso para poder realizar seguimiento."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -282,8 +382,8 @@ msgid ""
 "At any time during their stay, open their rental order from the Guest House "
 "App."
 msgstr ""
-"En cualquier momento durante su estancia, abra su pedido de alquiler desde "
-"la aplicación Casa de huéspedes."
+"En cualquier momento durante la estancia, podrás abrir la reserva del "
+"alojamiento desde la aplicación Casa de huéspedes."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -292,9 +392,9 @@ msgid ""
 "chatter\n"
 "                    to exchange with your guest."
 msgstr ""
-"En cualquier momento, use la función «Enviar mensaje» en el chatter para "
-"intercambiar mensajes\n"
-"                    con su huésped."
+"En cualquier momento desde la reserva del cliente, utiliza la función "
+"«Enviar mensaje» en el chatter\n"
+"                    para comunicarte con tu cliente."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -302,16 +402,31 @@ msgid ""
 "At any time you can adjust the city tax count delivered by re-opening the "
 "city tax widget clicking the City Tax button on the guest order."
 msgstr ""
+"Puedes ajustar en cualquier momento el importe de la tasa turística "
+"volviendo a abrir el widget de la tasa turística, mediante el botón «Tasa "
+"turística» de la reserva del huésped."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "At the end of their stay, they'll be able to pay for all those extras."
-msgstr "Al final de su estancia, podrán pagar todos esos extras."
+msgstr "Al final de su estancia, podrán pagar todos esos extra."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
-msgid "Blocking a room"
-msgstr "Bloquear una habitación"
+msgid ""
+"Beyond daily operations, the Steering menu serves as the \"Captain’s "
+"Bridge\" of your guest house. It provides a 500-day horizon to anticipate "
+"market trends, manage risks, and optimize your revenue."
+msgstr ""
+"Más allá de las operaciones diarias, el menú de dirección actúa como el "
+"«puente de mando» de tu casa de huéspedes. Ofrece una visión a 500 días para "
+"anticipar las tendencias del mercado, gestionar los riesgos y optimizar tus "
+"ingresos."
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "Blocking resources"
+msgstr "Bloquear recursos"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -321,7 +436,7 @@ msgstr "Reservar una habitación"
 #. module: guest_house
 #: model:product.template,name:guest_house.product_template_12
 msgid "Breakfast (1 guest)"
-msgstr ""
+msgstr "Desayuno (1 huésped)"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -357,6 +472,9 @@ msgid ""
 "Then confirm the number of city taxes to be charged, which updates the "
 "delivered city tax count."
 msgstr ""
+"Revisa y ajusta, si es necesario, el número de huéspedes que se alojaron en "
+"cada habitación. A continuación, confirma el importe de las tasas turísticas "
+"a cobrar, lo que actualizará el total de tasas turísticas registradas."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -384,6 +502,9 @@ msgid ""
 "City Taxes are to be billed to spent nights in practice and not in theory "
 "and are counted as the sum of nights each guest stayed."
 msgstr ""
+"Las tasas turísticas se facturan en función de las noches efectivamente "
+"pernoctadas, no de las teóricas, y se calculan como la suma de las noches de "
+"estancia de cada huésped."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -395,8 +516,8 @@ msgstr "Haga clic en una de las habitaciones a reservar."
 msgid ""
 "Click the Check in button to confirm they are now staying at your place!"
 msgstr ""
-"Haga clic en el botón «Registrar entrada» para confirmar que ahora están "
-"alojados con usted."
+"Haz clic en el botón «Registrar entrada» para confirmar que ahora están "
+"alojados en tu alojamiento."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -433,14 +554,53 @@ msgstr ""
 "solicitada."
 
 #. module: guest_house
-#: model:planning.role,name:guest_house.planning_role_6
-msgid "Comfy Room"
-msgstr "Habitación cómoda"
-
-#. module: guest_house
 #: model:product.template,name:guest_house.product_template_17
 msgid "Comfy Room (2 guests)"
+msgstr "Habitación acogedora (2 huéspedes)"
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"Configure the email delay as you wish the email to be sent after the guest "
+"checkout."
 msgstr ""
+"Configura cuándo debe enviarse el correo electrónico después de la salida "
+"del huésped."
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"Create a new leave selecting the appropriate working schedule, the one from "
+"your stay resources."
+msgstr ""
+"Crea un nuevo bloqueo seleccionando el horario de disponibilidad de tus "
+"habitaciones."
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"Create a new leave the same way as previously, but this time specify the "
+"resource this applies to."
+msgstr ""
+"Crea un nuevo bloqueo (de la misma forma que lo has creado anteriormente), "
+"pero esta vez especifica el recurso al que se aplica."
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"Created offers are assigned no company nor branch (default behavior).<br/>As "
+"a result, they are available from all companies and branches, as well as all "
+"websites from those."
+msgstr ""
+"A las ofertas creadas no se les asigna ninguna empresa ni sucursal (este es "
+"el comportamiento predeterminado).<br/>Como resultado, están disponibles "
+"para todas las empresas y sucursales, así como para sus respectivos sitios "
+"web."
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "Define start and end date time and save your leave."
+msgstr "Define la fecha y hora de inicio y fin, y guarda."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -456,7 +616,7 @@ msgstr "Atmósferas diferentes para que encuentre la que es perfecta para usted"
 #. module: guest_house
 #: model:product.template,name:guest_house.product_template_20
 msgid "Dinner Plate (1 guest)"
-msgstr ""
+msgstr "Cena (1 huésped)"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -470,9 +630,9 @@ msgid ""
 "offers to\n"
 "            improve your experience."
 msgstr ""
-"Descubra las funciones básicas de este paquete y explore todas las "
-"posibilidades\n"
-"            que le ofrece Odoo para mejorar su experiencia."
+"Descubre las funciones básicas de este paquete y explora todas las "
+"posibilidades que te ofrece Odoo\n"
+"            para mejorar tu experiencia."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -480,8 +640,27 @@ msgid ""
 "During an available period, click, drag and drop on a room line to create a "
 "slot."
 msgstr ""
-"Durante un período disponible, haga clic en una línea de habitación y "
-"arrástrela para crear un espacio."
+"Durante un período disponible, haz clic, arrastra y suelta en la línea de la "
+"habitación para crear un bloque."
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "Each company can have its own website!"
+msgstr "¡Cada empresa puede tener su propio sitio web!"
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "Employee assignations"
+msgstr "Asignaciones de empleados"
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"Employee would open the tasks from their hand and update the status until "
+"Clean."
+msgstr ""
+"El empleado abre las tareas desde su dispositivo y actualiza el estado y lo "
+"marca como «Limpio»."
 
 #. module: guest_house
 #: model_terms:product.template,description_ecommerce:guest_house.product_template_20
@@ -499,11 +678,14 @@ msgid ""
 "first three nights but only one stayed the last night. Then the guests x "
 "nights is 2x3+1x1=7."
 msgstr ""
+"Ejemplo: se ha reservado una habitación para 2 personas por 4 noches. Dos "
+"huéspedes se alojan las tres primeras noches, pero solo uno se queda la "
+"última noche. Entonces, el cálculo de huéspedes por noches es 2x3 + 1x1=7."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.homepage
 msgid "Experience the Comfort of <br/>Our Guest House"
-msgstr "Disfrute de la comodidad de<br/>nuestra casa de huéspedes"
+msgstr "Disfruta de la comodidad de<br/>nuestra casa de huéspedes"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.homepage
@@ -512,20 +694,14 @@ msgid ""
 "like a home away from home. Our dedicated staff ensures that your visit is "
 "relaxing and memorable."
 msgstr ""
-"Disfrute de la calidez y el confort de nuestra casa de huéspedes, donde cada "
-"estancia se siente como un hogar lejos de casa. Nuestro personal, siempre "
-"atento, se encargará de que su visita sea relajante e inolvidable."
-
-#. module: guest_house
-#: model:planning.role,name:guest_house.planning_role_4
-#, fuzzy
-msgid "Fireplace Room"
-msgstr "Habitación con chimenea"
+"Disfruta de la calidez y la comodidad de nuestra casa de huéspedes, donde "
+"cada estancia te hará sentir como en casa. Nuestro equipo se encargará de "
+"que tu visita sea relajante e inolvidable."
 
 #. module: guest_house
 #: model:product.template,name:guest_house.product_template_14
 msgid "Fireplace Room (2 guests)"
-msgstr ""
+msgstr "Habitación con chimenea (2 huéspedes)"
 
 #. module: guest_house
 #: model:product.template,name:guest_house.product_template_11
@@ -558,23 +734,37 @@ msgstr ""
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid ""
+"From the Roles sections, you can select the companies and branches this "
+"employee shall have access to as well as the default one."
+msgstr ""
+"Desde la sección Roles, puedes seleccionar las empresas y sucursales a las "
+"que este empleado tendrá acceso, así como la predeterminada."
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
 "From the search bar select the Today filter to see to check in and to check "
 "out\n"
 "                orders."
 msgstr ""
-"En la barra de búsqueda, seleccione el filtro «Hoy» para registrar la "
-"entrada y salida\n"
-"                 de los huéspedes."
+"En la barra de búsqueda, selecciona el filtro «Hoy» para visualizar las "
+"llegadas\n"
+"                 y las salidas."
 
 #. module: guest_house
-#: model:planning.role,name:guest_house.planning_role_7
-msgid "Garden Room"
-msgstr "Habitación con jardín"
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "From there you can add new companies."
+msgstr "Aquí puedes añadir nuevas empresas."
 
 #. module: guest_house
 #: model:product.template,name:guest_house.product_template_19
 msgid "Garden Room (2 guests)"
-msgstr ""
+msgstr "Habitación con vista al jardín (2 huéspedes)"
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.res_config_settings_form_view_inherited
+msgid "Guest House"
+msgstr "Casa de huéspedes"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -588,9 +778,20 @@ msgid ""
 "the\n"
 "                contact."
 msgstr ""
-"Si no es correcto, haga clic en el contacto, rellene la sección de identidad "
-"y guarde el\n"
+"Si la información es incorrecta, haz clic en el contacto, completa la "
+"sección de identidad y guarda el\n"
 "                contacto."
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"If using the house keeping approver setting, designated\n"
+"                    approvers can check each room and set their state to "
+"ready to close the tasks."
+msgstr ""
+"Si utilizas la configuración de aprobación de limpieza, los responsables\n"
+"                    designados pueden revisar cada habitación y marcar su "
+"estado como lista para cerrar las tareas."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -608,14 +809,20 @@ msgstr ""
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "In any case, the resources are company and branch dependent."
+msgstr ""
+"En cualquier caso, los recursos dependen de la empresa y de la sucursal."
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid ""
 "In any case, you may have written records in journals which are not delete-"
 "able and which\n"
 "            might be an issue for your traceability."
 msgstr ""
-"En cualquier caso, es posible que tenga registros escritos en diarios que no "
-"se pueden eliminar y que\n"
-"            podrían ocasionar problemas en su trazabilidad."
+"En cualquier caso, es posible que tengas registros escritos en diarios que "
+"no se pueden eliminar y que\n"
+"            podrían ocasionar problemas en tu trazabilidad."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -624,14 +831,37 @@ msgid ""
 "<strong>Purchase App</strong>\n"
 "                will help you to manage those aspects."
 msgstr ""
-"En caso de que externalice sus procesos o dependa más de los proveedores, la "
-"<strong>aplicación Compras</strong>\n"
-"                le ayudará a gestionar esos aspectos."
+"Si contratas servicios o dependes en mayor medida de proveedores, la "
+"<strong>aplicación Compra</strong>\n"
+"                te ayudará a gestionar esos aspectos."
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"In the Options tab, you can see it is made the customer satisfaction survey "
+"in the participants section."
+msgstr ""
+"En la pestaña Opciones, puedes ver que se ha realizado la encuesta de "
+"satisfacción del cliente en la sección de participantes."
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"It enables each place manager to adjust the stay offers with greater "
+"flexibility without impacting other places."
+msgstr ""
+"Esto permite que el gestor de cada alojamiento ajuste las ofertas de las "
+"estancias con mayor flexibilidad sin afectar a otros alojamientos."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.homepage
 msgid "Join us for a relaxing getaway!"
 msgstr "¡Únase a nosotros para una pausa revitalizante!"
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "Keep your guests satisfied"
+msgstr "Garantiza la satisfacción de tus huéspedes"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -664,6 +894,21 @@ msgid "Manage your customers from the <strong>Contact App</strong>"
 msgstr "Gestione a sus clientes desde la aplicación <strong>Contactos</strong>"
 
 #. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "Managing scarcity with availability"
+msgstr "Optimizar la disponibilidad ante la escasez"
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "Managing your businesses"
+msgstr "Gestionar tus empresas"
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "Monitoring success with occupancy"
+msgstr "Evaluar el éxito según la ocupación"
+
+#. module: guest_house
 #: model_terms:product.template,description_ecommerce:guest_house.product_template_19
 msgid "Nestled in greenery, this room offers serene garden charm."
 msgstr ""
@@ -687,8 +932,19 @@ msgstr ""
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"Now that you have several companies or branches, you may want some of your "
+"employees to access only to some of them in case they always work in some of "
+"your places."
+msgstr ""
+"Ahora que tienes varias empresas o sucursales, es posible que quieras que "
+"algunos de tus empleados solo tengan acceso a algunas de ellas, en caso de "
+"que siempre trabajen en algunos de tus establecimientos."
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "Odoo offers you infinite possibilities, such as:"
-msgstr "Odoo le ofrece posibilidades infinitas, como:"
+msgstr "Odoo te ofrece infinitas posibilidades, tales como:"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -705,10 +961,26 @@ msgstr ""
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
-msgid "On the room to block line, click, drag and drop to create a slot."
+msgid ""
+"On a daily basis, house keeping tasks are created depending\n"
+"                    the current stays."
 msgstr ""
-"Hage clic en la línea de habitación a bloquear y arrástrela y suéltela para "
-"crear un espacio."
+"Las tareas de limpiezas se crean diariamente\n"
+"                    en función de las estancias actuales."
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "On a resource to block line, click, drag and drop to create a slot."
+msgstr ""
+"Haz clic en la línea del recurso a bloquear, arrastra y suelta para crear un "
+"espacio o franja."
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "On top of guest and stay management, you need to keep the place clean!"
+msgstr ""
+"Además de gestionar huéspedes y estancias, ¡también tienes que mantenerlo "
+"todo limpio!"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -720,12 +992,24 @@ msgstr ""
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid ""
+"Once defined, you can switch between companies or branches from the company "
+"selector at the top right of your screen.<br/>This will expose depending on "
+"where you are, only the selected companies and branches data."
+msgstr ""
+"Una vez que hayas definido la información, puedes cambiar entre empresas o "
+"sucursales desde el selector de empresas situado en la parte superior "
+"derecha de la pantalla.<br/>Esto mostrará, dependiendo de dónde te "
+"encuentres, únicamente los datos de las empresas y sucursales seleccionadas."
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
 "Once done adding all the necessary rooms, click on a recently added slot and "
 "then\n"
 "                click the rental order link."
 msgstr ""
-"Una vez que haya añadido todas las habitaciones necesarias, haga clic en un "
-"espacio recién añadido y, a continuación\n"
+"Una vez que hayas añadido todas las habitaciones necesarias, haz clic en un "
+"espacio/bloque recién añadido y, a continuación,\n"
 "                en el enlace del pedido de alquiler."
 
 #. module: guest_house
@@ -733,8 +1017,8 @@ msgstr ""
 msgid ""
 "Once done, let's click, drag and drop on another room line to create a slot."
 msgstr ""
-"A continuación, haga clic en la línea de otra habitación y arrástrela para "
-"crear un espacio."
+"Después, haz clic, arrastra y suelta sobre otra línea de la habitación para "
+"crear un bloque."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -752,14 +1036,64 @@ msgstr ""
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"Open now, the Tasks from the accommodation app, House Keeping menu.<br/>This "
+"is\n"
+"                the daily list of house keeping tasks to be tackled."
+msgstr ""
+"Ahora abre las tareas desde el menú de limpieza de la aplicación de "
+"alojamientos.<br/>Esa es\n"
+"                la lista diaria de tareas de limpieza a realizar."
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"Open one, assign it to an employee to plan the house keeping of the day."
+msgstr ""
+"Abre una y asígnasela a un empleado para planificar la limpieza del día."
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"Open the <strong>Settings App</strong> and reach the companies from the menu "
+"Users &amp; Companies."
+msgstr ""
+"Abre la aplicación <strong>Ajustes</strong> y accede a las empresas desde el "
+"menú «Usuarios y empresas»."
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"Open the <strong>Settings App</strong> and reach the users from the menu "
+"Users &amp; Companies."
+msgstr ""
+"Abre la aplicación <strong>Ajustes</strong> y accede a los usuarios desde el "
+"menú «Usuarios y empresas»."
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "Open the <strong>Website App</strong> and navigate to the Rooms."
 msgstr ""
 "Abra la <strong>aplicación Sitio web</strong> y vaya a las habitaciones."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
-msgid "Open the Guest House App Schedule."
-msgstr "Abra el horario de la aplicación Casa de huéspedes."
+msgid ""
+"Open the Board from the accommodation app, House Keeping menu.<br/>Here you "
+"have an\n"
+"                overview of the cleanness state of your resources."
+msgstr ""
+"Abre el tablero desde el menú «Limpieza» de la aplicación de alojamiento.<br/"
+">Aquí podrás consultar\n"
+"                una vista general del estado de limpieza de tus recursos."
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"Open the Guest House App and navigate to the Configuration / Leaves menu."
+msgstr ""
+"Abre la aplicación Casa de huéspedes y dirígete al menú Configuración/"
+"Permisos."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -777,6 +1111,23 @@ msgstr ""
 "Abra la aplicación Casa de huéspedes y visualice las reservas planificadas "
 "con el\n"
 "                horario."
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "Open the Steering menu and select Availability."
+msgstr "Accede al menú de dirección y selecciona «Disponibilidad»."
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "Open the Steering menu and select Occupancy."
+msgstr "Accede al menú de dirección y selecciona «Ocupación»."
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "Open the Survey App to find the customer satisfaction survey."
+msgstr ""
+"Abre la aplicación Encuestas para encontrar la encuesta de satisfacción de "
+"cliente."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -812,9 +1163,10 @@ msgid ""
 "memories, filled with comfort and genuine hospitality. Each moment spent "
 "here is crafted to make you feel at home."
 msgstr ""
-"Nuestra casa de huéspedes no solo es un lugar para alojarse, es un lugar "
-"para crear recuerdos inolvidables, lleno de confort y auténtica "
-"hospitalidad. Cada momento aquí está pensado para que se sienta como en casa."
+"Nuestra casa de huéspedes no solo es un lugar donde alojarse, sino un "
+"espacio para crear recuerdos inolvidables, con todo el confort y una "
+"hospitalidad auténtica. Cada momento aquí está pensado para que te sientas "
+"como en casa."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.homepage
@@ -875,10 +1227,8 @@ msgstr "Registrar la identidad de clientes"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
-#, fuzzy
-msgid "Recording the guest presence is an obligation in numerous countries."
-msgstr ""
-"En muchos países es obligatorio registrar la presencia de los huéspedes."
+msgid "Recording the guest attendance is an obligation in numerous countries."
+msgstr "El registro de los huéspedes es obligatorio en muchos países."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.homepage
@@ -894,24 +1244,14 @@ msgstr ""
 "experiencia para huéspedes"
 
 #. module: guest_house
-#: model:planning.role,name:guest_house.planning_role_5
-msgid "Renaissance Room"
-msgstr "Habitación estilo renacimiento"
-
-#. module: guest_house
 #: model:product.template,name:guest_house.product_template_16
 msgid "Renaissance Room (2 guests)"
-msgstr ""
-
-#. module: guest_house
-#: model:planning.role,name:guest_house.planning_role_8
-msgid "Roof Room"
-msgstr "Habitación en el ático"
+msgstr "Habitación renacentista (2 huéspedes)"
 
 #. module: guest_house
 #: model:product.template,name:guest_house.product_template_18
 msgid "Roof Room (2 guests)"
-msgstr ""
+msgstr "Habitación en el ático (2 huéspedes)"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -930,6 +1270,11 @@ msgstr "Ver todos<span class=\"fa fa-long-arrow-right ms-2\"/>"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "Select one of your employee."
+msgstr "Selecciona uno de tus empleados."
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "Select or create a customer and then confirm the booking!"
 msgstr "Seleccione o cree un cliente y luego confirme la reserva."
 
@@ -941,6 +1286,20 @@ msgid ""
 msgstr ""
 "¿Vende productos locales? Utilice la aplicación <strong>Punto de venta</"
 "strong> para facilitar las operaciones."
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "Setup company or branch specific offers when relevant."
+msgstr ""
+"Configura ofertas específicas por empresa o sucursal cuando sea necesario."
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"Share your stay offers across your companies and branches (default behavior);"
+msgstr ""
+"Comparte las ofertas de estancia entre tus empresas y sucursales "
+"(comportamiento predeterminado);"
 
 #. module: guest_house
 #: model_terms:product.template,description_ecommerce:guest_house.product_template_16
@@ -962,19 +1321,13 @@ msgstr ""
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
-msgid "Still from their Rental Order, open the Guest tab."
-msgstr "Abra la pestaña «Huéspedes» desde el pedido de alquiler."
-
-#. module: guest_house
-#: model:planning.role,name:guest_house.planning_role_9
-#, fuzzy
-msgid "Studious Room"
-msgstr "Habitación de estudio"
+msgid "Still from their Rental Order, open the Guests tab."
+msgstr "Desde la reserva, abre la pestaña «Huéspedes»."
 
 #. module: guest_house
 #: model:product.template,name:guest_house.product_template_15
 msgid "Studious Room (2 guests)"
-msgstr ""
+msgstr "Habitación estudio (2 huéspedes)"
 
 #. module: guest_house
 #: model_terms:product.template,description_ecommerce:guest_house.product_template_17
@@ -984,9 +1337,55 @@ msgstr "Confort elegante con vistas — su refugio acogedor le espera."
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid ""
+"The Gantt chart is color-coded to reflect on the availability for you to "
+"work on filling in."
+msgstr ""
+"El diagrama de Gantt está codificado por colores para indicar la "
+"disponibilidad de los campos que puedes rellenar."
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"The Gantt chart is color-coded to reflect on the occupancy, the higher the "
+"better."
+msgstr ""
+"El diagrama de Gantt está codificado por colores para reflejar la ocupación; "
+"cuanto más alto, mejor."
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"The Occupancy view allows you to visualize your \"Sales Success\". It "
+"answers one simple question: <i>How well am I filling my guest house?</i>"
+msgstr ""
+"La vista de ocupación te permite visualizar tu «éxito de ventas». Responde a "
+"una pregunta sencilla: <i>¿Qué nivel de ocupación tiene mi casa de huéspedes?"
+"</i>"
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"The strength of Odoo is to separate the accounting and many other aspects "
+"which are company dependent!"
+msgstr ""
+"¡El punto fuerte de Odoo es separar la contabilidad y muchos otros aspectos "
+"que dependen de cada empresa!"
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
 "These all go free in your current subscription; feel free to explore! 🙃"
 msgstr ""
-"Todo esto está incluido en su suscripción actual, no dude en explorar 😊"
+"Todo esto está incluido en tu suscripción actual. ¡Échale un vistazo! 😊"
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"They as well share the same pricing, defined at the stay offer level, which "
+"has its pros and cons."
+msgstr ""
+"También comparten los mismos precios, definidos en función de la oferta de "
+"estancia, lo que tiene sus pros y contras."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -997,7 +1396,30 @@ msgstr "¿Quieren varias habitaciones?"
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "They were happy about their stay, let's ask them to leave a review."
-msgstr "Quedaron satisfechos con su estancia, pídales que dejen una reseña."
+msgstr "Disfrutaron mucho de su estancia; pídeles que dejen una reseña."
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"This blocks simulataneously all resources related to this working schedule "
+"during the prescribed period."
+msgstr ""
+"Esto bloquea simultáneamente todos los recursos relacionados con este "
+"horario laboral durante el período establecido."
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "This capability is enabled by a setting you can set/unset."
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"This setup is relevant in case of place specific offers or when pricing "
+"varies between places."
+msgstr ""
+"Esta configuración es relevante en caso de que existan ofertas específicas "
+"por alojamiento o cuando los precios varían entre ellos."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -1016,13 +1438,29 @@ msgid ""
 "This time, simply leave a note about the why this is booked and save the "
 "slot."
 msgstr ""
-"Esta vez solo deje una nota explicando el motivo de la reserva y guarde el "
-"espacio."
+"En esta ocasión, deja una nota explicando el motivo de la reserva y guarda "
+"el bloque."
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"To ensure your guests no longer receive the satisfaction survey, you can "
+"easily archive it at any time."
+msgstr ""
+"Para asegurarte de que los huéspedes ya no reciban la encuesta de "
+"satisfacción, puedes archivarla fácilmente en cualquier momento."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "Trace guest attendance"
 msgstr "Registrar la asistencia de los huéspedes"
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"Two options are now available to you with multiple companies and branches:"
+msgstr ""
+"Ahora tienes dos opciones disponibles con varias empresas y sucursales:"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -1045,7 +1483,7 @@ msgid ""
 "Our commitment to hospitality ensures that every guest leaves with cherished "
 "memories."
 msgstr ""
-"Nos esforzamos por ofrecer una experiencia única, que combine confort con el "
+"Nos esforzamos por brindar una experiencia única, que combine confort y "
 "encanto local. Nuestro compromiso con la hospitalidad garantiza que cada "
 "huésped se lleve recuerdos inolvidables."
 
@@ -1053,8 +1491,30 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "Welcome your guests as well from the <strong>Guest House App</strong>."
 msgstr ""
-"Dé la bienvenida a sus huéspedes también desde la <strong>aplicación Casa de "
-"huéspedes</strong>."
+"Dale la bienvenida a tus huéspedes también desde la <strong>aplicación Casa "
+"de huéspedes</strong>."
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"When creating an offer, assign them a company or a branch.<br/>As a result, "
+"they are available only for the selected company or branch, and will be "
+"available only from its website."
+msgstr ""
+"Al crear una oferta, asigna una empresa o una sucursal.<br/>Como resultado, "
+"solo estarán disponibles para la empresa o sucursal seleccionada, y solo se "
+"podrán consultar desde ese sitio web."
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"While Occupancy focuses on what is full, the Availability view focuses on "
+"what is left to sell. It is your primary tool for operational safety and "
+"\"Scarcity Pricing.\""
+msgstr ""
+"Mientras que la ocupación muestra lo que está completo, la vista de "
+"disponibilidad muestra lo que queda por vender. Es tu herramienta principal "
+"para la gestión operativa y la «tarificación por escasez»."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -1063,17 +1523,32 @@ msgstr "¿Quiere mejorar una reserva?"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"With the create slot for this resource, no overlapping booking slot would be "
+"created.<br/>Care about the start and end time or this blockage to make to "
+"re-open when suited."
+msgstr ""
+"Al crear un bloque para este recurso, no se crearán reservas superpuestas."
+"<br/>Ajusta la hora de inicio y fin del bloqueo para volver a abrir la "
+"disponibilidad, cuando corresponda."
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "Would you like to discuss your Odoo setup with us or go even further?"
-msgstr "¿Le gustaría que le ayudemos con su configuración de Odoo?"
+msgstr ""
+"¿Quieres que te ayudemos con la configuración de Odoo o a explorar otras "
+"posibilidades?"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid ""
 "You are repairing a room or simply welcoming family and don't want guests to "
-"book a room?"
+"book it?<br/>Alternatively, you are closing for a week during an inter "
+"season break?<br/>Let's have this reflected in your schedule!"
 msgstr ""
-"¿Está renovando una habitación o espera la visita de familiares y no desea "
-"que los huéspedes puedan reservar esa habitación?"
+"¿Estás reformando una habitación o simplemente tendrás familiares de visita "
+"y no quieres que los huéspedes la reserven?<br/>¿O tal vez vas a cerrar una "
+"semana durante la temporada baja?<br/>¡Reflejemos esto en tu calendario!"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -1087,13 +1562,31 @@ msgstr ""
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid ""
+"You can as well select your company and in the Branches tab define branches."
+msgstr ""
+"También puedes seleccionar tu empresa y definir sucursales en la pestaña "
+"«Sucursales»."
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"You can find the participants and answers from the smart buttons of the "
+"survey."
+msgstr ""
+"Puedes acceder a los participantes y a las respuestas desde los botones "
+"inteligentes de la encuesta."
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
 "You completed that demo use case! There are millions of other ways to adapt "
 "your\n"
 "                    Odoo setup to fit your business needs."
 msgstr ""
-"Ha completado este caso de uso de demostración. Hay miles de formas de "
-"adaptar la configuración de Odoo\n"
-"          para ajustarse a las necesidades específicas de su empresa."
+"¡Has acabado el caso de uso de demostración! Hay miles de formas de adaptar "
+"tu\n"
+"                    configuración de Odoo para ajustarla a las necesidades "
+"de tu negocio."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -1117,10 +1610,10 @@ msgid ""
 "&gt;\n"
 "                    Upgrade your package and check the related box"
 msgstr ""
-"¿No ha importado los datos de demostración? Todavía puede hacerlo. Vaya a "
-"Aplicaciones &gt; Industrias,\n"
-"                    actualice su paquete y seleccione la casilla "
-"correspondiente."
+"¿No has importado los datos de demostración? Todavía puedes hacerlo. "
+"Dirígete a Aplicaciones &gt; Sectores&gt;\n"
+"                    Actualiza tu paquete y selecciona la casilla "
+"correspondiente"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -1138,11 +1631,23 @@ msgstr "¿Tiene un futuro huésped en línea que desea reservar una habitación?
 msgid ""
 "You just installed the Odoo for Guest House package. By doing so, we have "
 "installed a\n"
-"            bunch of necessary apps to run your bar efficiently."
+"            bunch of necessary apps to run your business efficiently."
 msgstr ""
-"Acaba de instalar el paquete Odoo para casas de huéspedes y con él "
-"instalamos varias aplicaciones\n"
-"            necesarias para que pueda trabajar en su bar de manera eficiente."
+"Acabas de instalar el paquete de Odoo para Casas de huéspedes. Al hacerlo, "
+"hemos instalado un\n"
+"            conjunto de aplicaciones necesarias para gestionar tu negocio de "
+"forma eficiente."
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"You may be running multiple places at the same time and most likely be "
+"willing to run them all from the same database.<b/>We got you covered with "
+"this using multiple companies or branches!"
+msgstr ""
+"Puede que estés administrando varios alojamientos al mismo tiempo y, muy "
+"probablemente, quieras gestionarlos todos desde la misma base de datos.<b/"
+">¡Esto es posible utilizando la función multiempresa y las sucursales!"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -1156,7 +1661,8 @@ msgid ""
 "You noticed that the Identity Check highlights whether you captured all the\n"
 "            necessary information for a guest?"
 msgstr ""
-"¿Ha notado que la verificación de identidad indica si ha recopilado\n"
+"¿Te has dado cuenta de que la verificación de identidad indica si has "
+"recopilado\n"
 "            toda la información necesaria de un huésped?"
 
 #. module: guest_house
@@ -1210,7 +1716,7 @@ msgstr "¿Su huéspedes quieren quedarse más tiempo?"
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "academy"
-msgstr "academia"
+msgstr "Odoo academy"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -1243,6 +1749,24 @@ msgstr "🌐 Reservas en línea y reseñas"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"🎓\n"
+"                Companies"
+msgstr ""
+"🎓\n"
+"                Empresas"
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"🎓\n"
+"                Websites"
+msgstr ""
+"🎓\n"
+"                Sitios web"
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 #, fuzzy
 msgid ""
 "🎓\n"
@@ -1250,16 +1774,6 @@ msgid ""
 msgstr ""
 "🎓\n"
 "            Contactos"
-
-#. module: guest_house
-#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
-#, fuzzy
-msgid ""
-"🎓\n"
-"            Rental"
-msgstr ""
-"🎓\n"
-"            Alquiler"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -1278,18 +1792,38 @@ msgstr "🎓 Facturación"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
-msgid "🎓 Planning"
-msgstr "🎓 Planificación"
-
-#. module: guest_house
-#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "🎓 eCommerce"
 msgstr "🎓 Comercio electrónico"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "🎓Booking Engine"
+msgstr "🎓Motor de reservas"
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "🎓Planning"
+msgstr "🎓Planificación"
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "🎓Rental"
+msgstr "🎓Alquiler"
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "🎓Surveys"
+msgstr "🎓Encuestas"
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "👋 Wave your guests"
 msgstr "👋 Despedir a los huéspedes"
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "🔢 Running multiple places"
+msgstr "🔢 Gestión de múltiples alojamientos"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -1300,6 +1834,73 @@ msgstr "🗓️ Gestionar reservas"
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "😎 Welcome guests"
 msgstr "😎 Dar la bienvenida a los huéspedes"
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "🚀 Strategic Oversight"
+msgstr "🚀 Supervisión estratégica"
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "🧽 Managing house keeping"
+msgstr "🧽 Gestión de la limpieza"
+
+#~ msgid "Blocking a room"
+#~ msgstr "Bloquear una habitación"
+
+#~ msgid "On the room to block line, click, drag and drop to create a slot."
+#~ msgstr ""
+#~ "Hage clic en la línea de habitación a bloquear y arrástrela y suéltela "
+#~ "para crear un espacio."
+
+#~ msgid "Open the Guest House App Schedule."
+#~ msgstr "Abra el horario de la aplicación Casa de huéspedes."
+
+#~ msgid ""
+#~ "You are repairing a room or simply welcoming family and don't want guests "
+#~ "to book a room?"
+#~ msgstr ""
+#~ "¿Está renovando una habitación o espera la visita de familiares y no "
+#~ "desea que los huéspedes puedan reservar esa habitación?"
+
+#~ msgid "Comfy Room"
+#~ msgstr "Habitación cómoda"
+
+#~ msgid "Garden Room"
+#~ msgstr "Habitación con jardín"
+
+#, fuzzy
+#~ msgid "Studious Room"
+#~ msgstr "Habitación de estudio"
+
+#, fuzzy
+#~ msgid "Fireplace Room"
+#~ msgstr "Habitación con chimenea"
+
+#~ msgid "Renaissance Room"
+#~ msgstr "Habitación estilo renacimiento"
+
+#~ msgid "Roof Room"
+#~ msgstr "Habitación en el ático"
+
+#, fuzzy
+#~ msgid "Recording the guest presence is an obligation in numerous countries."
+#~ msgstr ""
+#~ "En muchos países es obligatorio registrar la presencia de los huéspedes."
+
+#~ msgid "Still from their Rental Order, open the Guest tab."
+#~ msgstr "Abra la pestaña «Huéspedes» desde el pedido de alquiler."
+
+#, fuzzy
+#~ msgid ""
+#~ "🎓\n"
+#~ "            Rental"
+#~ msgstr ""
+#~ "🎓\n"
+#~ "            Alquiler"
+
+#~ msgid "🎓 Planning"
+#~ msgstr "🎓 Planificación"
 
 #~ msgid ""
 #~ "Example: A room for 2 is booked for 4 nights, two guest were here for the "
@@ -1313,9 +1914,6 @@ msgstr "😎 Dar la bienvenida a los huéspedes"
 #~ "                    tres noches, pero solo uno se quedó la última, "
 #~ "entonces, el huésped x noche es\n"
 #~ "                    2x3+1x1=7."
-
-#~ msgid "Guest House"
-#~ msgstr "Casa de huéspedes"
 
 #~ msgid "Manage the city tax"
 #~ msgstr "Gestionar la tasa turística"

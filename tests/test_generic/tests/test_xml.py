@@ -1,6 +1,7 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
-from ast import literal_eval
+import ast
+import html
 import logging
 import os
 import pathlib
@@ -8,7 +9,8 @@ import re
 from lxml import etree
 from collections import defaultdict
 
-from odoo.tests import tagged, get_db_name
+from odoo.tests import tagged
+from odoo.tools.mail import single_email_re
 from .industry_case import IndustryCase, get_industry_path
 
 _logger = logging.getLogger(__name__)
@@ -35,6 +37,7 @@ USELESS_FIELDS = {
     'maintenance.request': ['maintenance_team_id', 'owner_user_id'],
     'planning.role': ['color'],
     'planning.slot': ['access_token', 'allocated_hours'],
+    'pos.config': ['module_pos_restaurant'],
     'pos.order': ['date_order', 'pos_reference', 'company_id', 'state', 'currency_id', 'last_order_preparation_change'],
     'pos.order.line': ['total_cost', 'company_id', 'full_product_name'],
     'product.attribute.value': ['color'],
@@ -69,6 +72,7 @@ MODELS_TO_UPDATE = {
     "ir.ui.menu",
     "ir.ui.view",
     "knowledge.article",
+    "template",
     "theme.utils",
     "website.assets",
     "website.controller.page",
@@ -89,25 +93,48 @@ ALLOWED_PYTHON_FILES = [
 ]
 
 ESCAPE_STUDIO_TEST = [
-    'accounting_firm',
     'construction',
 ]
 
-SKIP_CONTEXT_DICT_FOR_DEMO = {
-    'crm.lead': 'mail_auto_subscribe_no_notify',
-    'event.event': 'mail_auto_subscribe_no_notify',
-    'hr.job': 'mail_auto_subscribe_no_notify',
-    'mailing.mailing': 'mail_auto_subscribe_no_notify',
-    'project.project': 'mail_auto_subscribe_no_notify',
-    'project.task': 'mail_auto_subscribe_no_notify',
-    'stock.picking': 'skip_sms',
+FUNCTION_CONTEXT_DICT_WITHOUT_USER = {
+    'sale.advance.payment.inv': 'create_invoices',
+    'sale.order': '_create_invoices',
 }
-CONTEXT_MODELS_DICT = {
-    'calendar.event': 'no_mail_to_attendees',
-    'helpdesk.ticket': 'mail_notrack',
-    'hr.applicant': 'mail_notrack',
-    **SKIP_CONTEXT_DICT_FOR_DEMO
+
+RISKY_FIELDS = {
+    "domain",
+    "context",
+    "domain_force",
+    "filter_domain",
+    "filter_pre_domain",
 }
+
+
+def _has_valid_search(eval_string):
+    clean_eval = html.unescape(eval_string).strip()
+    try:
+        tree = ast.parse(clean_eval, mode='eval')
+    except SyntaxError:
+        # If 'eval' fails (e.g. if there's an assignment), fall back to 'exec'
+        try:
+            tree = ast.parse(clean_eval)
+        except SyntaxError:
+            # Skip test for now
+            return True
+    for node in ast.walk(tree):
+        if isinstance(node, ast.Attribute) and node.attr == 'id':
+            call_node = node.value
+            if isinstance(call_node, ast.Call):
+                func = call_node.func
+                if (isinstance(func, ast.Attribute) and func.attr == 'search') or (
+                    isinstance(func, ast.Name) and func.id == 'search'
+                ):
+                    has_limit_1 = any(
+                        kw.arg == 'limit' and isinstance(kw.value, ast.Constant) and kw.value.value == 1
+                        for kw in call_node.keywords
+                    )
+                    return has_limit_1
+    return True
 
 
 @tagged('post_install', '-at_install')
@@ -123,13 +150,15 @@ class TestEnv(IndustryCase):
         static_files = set()
         in_use_files = set()
         checked_records_with_user = {}
+        uninitialized_sessions = []
+        session_functions = []
         for root, dirs, files in os.walk(path):
             # sort the directory by alphabetical order so static directory is read first.
             dirs.sort(reverse=True)
             for file_name in files:
                 file_path = os.path.join(root, file_name)
                 ext = os.path.splitext(file_path)[1].lower()
-                if 'static/' in file_path and not any(p in file_path for p in ['src/js/', 'src/widget', 'src/scss', 'src/css']):
+                if 'static/' in file_path and not any(p in file_path for p in ['src/js/', 'src/widget', 'src/scss', 'src/css', 'src/xml']):
                     static_files.add(os.path.relpath(file_path, start=get_industry_path()))
                 if ext not in ['.py', '.xml']:
                     continue
@@ -147,7 +176,7 @@ class TestEnv(IndustryCase):
                         manifest_content = decoded_content
                     continue
 
-                if root.split('/')[-1] == 'demo' and get_db_name().endswith('imported_no_demo'):
+                if root.split('/')[-1] == 'demo' and not self.env['ir.module.module'].search_count([('demo', '=', True)], limit=1):
                     continue
                 try:
                     tree = etree.fromstring(encoded_content)
@@ -164,20 +193,29 @@ class TestEnv(IndustryCase):
                 self._check_duplicate_records(tree, file_name)
                 self._check_website_published_false(tree, file_name)
                 self._check_static_files_usage_in_xml(tree, in_use_files)
+                self._check_index_html_images(module)
                 self._check_fields(tree, file_name)
                 self._check_change_theme_method(tree, file_name)
                 self._check_dates_are_relative(tree, file_name)
                 self._check_static_values_in_inputs(tree, file_name)
                 self._check_res_config_setting(tree)
-                self._check_context_to_stop_mail_sending(tree, file_name, module)
+                self._check_context_to_stop_mail_sending(tree, file_name)
+                self._check_text_based_xpath(tree, file_name)
+                self._check_portal_login_is_email(tree, file_name)
+                self._check_pos_session(tree, file_name, uninitialized_sessions)
+                self._check_session_function(tree, session_functions)
                 if root.split('/')[-1] == 'data':
                     self._check_view_active(tree, file_name)
                     self._check_is_published_false(tree, file_name)
+                    self._check_base_records_update(tree, file_name, module)
                     if not is_studio_required:
                         is_studio_required = self._check_studio(tree, file_name)
+            if root.split('/')[-1] == 'demo':
+                self._check_main_company_inherit_is_present(root, files, module)
         self._check_manifest(manifest_content, is_studio_required, escape_studio_test=module in ESCAPE_STUDIO_TEST)
         self._check_records_without_user_id(checked_records_with_user)
-        if not get_db_name().endswith('imported_no_demo'):
+        self._check_uninitialized_sessions(uninitialized_sessions, session_functions)
+        if self.env['ir.module.module'].search_count([('demo', '=', True)], limit=1):
             in_use_files = {file.lstrip('/') for file in in_use_files}
             for file in static_files - in_use_files:
                 if 'description' not in file:
@@ -201,6 +239,21 @@ class TestEnv(IndustryCase):
                 }
             )
 
+    def _check_index_html_images(self, module):
+        desc_path = os.path.join(get_industry_path(), module, "description", "index.html")
+        if not os.path.isfile(desc_path):
+            return
+
+        decoded_content = pathlib.Path(desc_path).read_text(encoding="utf-8")
+        for src in re.findall(r'<img[^>]+src=["\']([^"\']+)["\']', decoded_content):
+            if "/web/image" in src:
+                _logger.warning(
+                    "index.html in module %s uses attachment-based image src: %s. "
+                    "Please reference images directly from description/ folder instead.",
+                    module,
+                    src,
+                )
+
     def _check_manifest(self, s, need_studio, escape_studio_test):
         if (first_line := s.split('\n')[0]) != '{':
             message = "First line of the manifest should be the sole symbol '{'. "
@@ -211,7 +264,7 @@ class TestEnv(IndustryCase):
             else:
                 message += "Got '%s'." % first_line
             _logger.warning(message)
-        dependency_list = literal_eval(s)['depends']
+        dependency_list = ast.literal_eval(s)['depends']
         if 'payment_demo' in dependency_list:
             _logger.warning(
                 "'payment_demo' should not be in the dependencies. Instead, call "
@@ -305,8 +358,8 @@ class TestEnv(IndustryCase):
             )
 
     def _check_update_status(self, root, filename):
-        for record in root.xpath("//record") + root.xpath("//function"):
-            model = record.get('model')
+        for record in root.xpath("//record") + root.xpath("//function") + root.xpath("//template"):
+            model = record.get('model') or record.tag
             noupdate = False
             parent = record.getparent()
             data_tag = False
@@ -344,12 +397,18 @@ class TestEnv(IndustryCase):
                 )
 
     def _check_knowledge_article_is_locked(self, root, file_name):
+        all_ids, locked_ids = set(), set()
         for record in root.xpath("//record[@model='knowledge.article']"):
-            is_locked_fields = record.xpath(".//field[@name='is_locked']/@eval")
-            if not is_locked_fields:
-                _logger.warning(
-                    f"Knowledge article in {file_name} should have 'is_locked' set to True."
-                )
+            if record_id := record.get("id"):
+                all_ids.add(record_id)
+                if record.xpath(".//field[@name='is_locked']/@eval") in [["True"], ["1"]]:
+                    locked_ids.add(record_id)
+        for record_id in all_ids - locked_ids:
+            _logger.warning(
+                "Knowledge article %s in %s should have 'is_locked' set to True.",
+                record_id,
+                file_name,
+            )
 
     def _check_is_published_false(self, root, file_name):
         for record in root.xpath("//record"):
@@ -390,7 +449,7 @@ class TestEnv(IndustryCase):
                         else None
                     ),
                 )
-                for field in record.xpath(".//field")
+                for field in record.xpath(".//field[not(ancestor::field[@name='arch'])]")
             ]
             fields = frozenset(fields_list)
             if len(fields_list) != len(fields):
@@ -398,7 +457,7 @@ class TestEnv(IndustryCase):
                     f"Duplicate field updates in record {record_id} of model {model} in {file_name}: {', '.join(field[0] for field in fields if fields_list.count(field) > 1)}"
                 )
             record_key = (record_id, model)
-            if fields & records[record_key]:
+            if fields & records[record_key] and model != 'pos.config':
                 _logger.warning(
                     f"Duplicate record updates in {file_name}: {record_id} in model {model}"
                 )
@@ -469,6 +528,42 @@ class TestEnv(IndustryCase):
                     continue
                 if not field and model_name != 'ir.ui.view':
                     _logger.warning("Field %s not defined for model %s", field_name, model_name)
+
+            # Check if limit=1 is present in search([...]).id
+            fields_with_eval = record.xpath(".//field[@eval]")
+            for field in fields_with_eval:
+                eval_val = field.get('eval')
+                if not _has_valid_search(eval_val):
+                    _logger.warning(
+                        "Missing 'limit=1' in search() used with '.id' in XML eval.\n"
+                        "File: %s | Model: %s | Record ID: %s | Field: %s\n"
+                        "Eval: %s\n"
+                        "Hint: For a single record, use `search([...], limit=1).id`; "
+                        "for multiple records, use `search([...]).ids`",
+                        file_name,
+                        model_name,
+                        record.get("id"),
+                        field.get("name"),
+                        eval_val,
+                    )
+
+        for function in root.xpath("//function"):
+            # Check if limit=1 is present in search([...]).id
+            values_with_eval = function.xpath(".//value[@eval]")
+            for value in values_with_eval:
+                eval_val = value.get('eval')
+                if not _has_valid_search(eval_val):
+                    _logger.warning(
+                        "Missing 'limit=1' in search() used with '.id' in XML eval.\n"
+                        "File: %s | Function name: %s model: %s\n"
+                        "Eval: %s\n"
+                        "Hint: For a single record, use `search([...], limit=1).id`; "
+                        "for multiple records, use `search([...]).ids`",
+                        file_name,
+                        function.get("name"),
+                        function.get("model"),
+                        eval_val,
+                    )
 
     def _check_view_active(self, root, file_name):
         for record in root.xpath("//record[@model='ir.ui.view']"):
@@ -553,65 +648,207 @@ class TestEnv(IndustryCase):
 
     def _check_static_values_in_inputs(self, root, file_name):
         ALLOWED_INPUTS = {"resourceCapacity"}
-        for tag in root.xpath("//input[@value] | //option[@value]"):
-            value = tag.get("value")
-            if not (value and value.isdigit()):
+        for record in root.xpath("//record"):
+            if record.get('model') != 'ir.ui.view':
                 continue
-            if tag.get("t-att-value"):
-                continue
-            name = tag.get("name")
-            if name in ALLOWED_INPUTS:
-                continue
-
-            line = getattr(tag, "sourceline", "?")
-            _logger.warning(
-                "Static value '%s' found in <%s name='%s'> in %s (line %s). "
-                "Please use t-att-value=\"request.env.ref('module.record').id\" instead.",
-                value,
-                tag.tag,
-                name or tag.get("id") or "",
-                file_name,
-                line,
-            )
-
-        for tag in root.xpath("//a[@href]"):
-            href = tag.get("href")
-            if tag.get("t-att-href") or tag.get("t-attf-href"):
-                continue
-            if href and (href.startswith(("tel:", "mailto:", "javascript:", "#", "http://", "https://"))):
-                continue
-            if href and re.search(r"-\d+$", href):
+            for tag in root.xpath("//input[@value] | //option[@value] | //input[@t-att-value] | //option[@t-att-value]"):
+                value = tag.get("value") or tag.get("t-att-value")
+                if not value or not (value.isdigit() or "request.env.ref" in value):
+                    continue
+                name = tag.get("name")
+                if name in ALLOWED_INPUTS:
+                    continue
                 line = getattr(tag, "sourceline", "?")
                 _logger.warning(
-                    "Static record link '%s' found in <a> in %s (line %s). "
-                    "Please use t-att-href=\"request.env.ref('module.record').website_url\" instead.",
-                    href,
+                    "Static or env-ref value '%s' found in <%s name='%s'> in %s (line %s). "
+                    "Avoid using static numbers or request.env.ref in value.",
+                    value,
+                    tag.tag,
+                    name or tag.get("id") or "",
                     file_name,
                     line,
                 )
 
-    def _check_context_to_stop_mail_sending(self, root, file_name, module):
+            for tag in root.xpath("//a[@href] | //a[@t-att-href]"):
+                href = tag.get("href") or tag.get("t-att-href")
+                if not href:
+                    continue
+                if href.startswith(("tel:", "mailto:", "javascript:", "#", "http://", "https://")):
+                    continue
+                if re.search(r"-\d+$", href) or "request.env.ref" in href:
+                    line = getattr(tag, "sourceline", "?")
+                    _logger.warning(
+                        "Static or env-ref record link '%s' found in <a> in %s (line %s). "
+                        "Avoid static ID or request.env.ref in href attribute.",
+                        href,
+                        file_name,
+                        line,
+                    )
+
+    def _check_context_to_stop_mail_sending(self, root, file_name):
+
+        def log_warning(expected_context):
+            _logger.warning(
+                "Context should be used in file '%s' for model '%s' to prevent mail pollution when using %s function. "
+                "Expected context: '%s'. Found context: %s",
+                file_name,
+                model_name,
+                func_name,
+                ', '.join(expected_context),
+                function.get('context') or 'None'
+            )
         for record in root.xpath("//record"):
             model_name = record.get('model')
-            if not model_name or model_name not in CONTEXT_MODELS_DICT:
+            if model_name != 'slide.channel':
                 continue
-            record_context = record.get('context') or ''
-            expected_context = CONTEXT_MODELS_DICT.get(model_name)
-            if model_name in SKIP_CONTEXT_DICT_FOR_DEMO:
-                record_xml_id = record.get('id') if "." in record.get('id') else module + '.' + record.get('id')
-                recordset = self.env.ref(record_xml_id) if record_xml_id else False
-                if recordset:
-                    user = getattr(recordset, 'user_id', False)
-                    if not user or user.notification_type == 'inbox':
-                        continue
+            for user_field in record.xpath(".//field[@name='user_id']"):
+                user_id = user_field.get('eval') or user_field.get('ref')
+                if user_id and user_id != 'False':
+                    _logger.warning(
+                        "Remove or set user_id to False in file '%s' for model '%s' to prevent mail pollution.",
+                        file_name,
+                        model_name
+                    )
 
-            context_dict = literal_eval(record_context) if record_context else {}
-            if expected_context not in context_dict:
-                _logger.warning(
-                    "Context should be used in file '%s' for model '%s' to prevent mail pollution. "
-                    "Expected context: '%s'. Found context: %s",
-                    file_name,
-                    model_name,
-                    expected_context,
-                    record_context or 'None'
+        for function in root.xpath("//function"):
+            func_name = function.get('name')
+            model_name = function.get('model')
+            raw_context = function.get('context', '{}')
+            try:
+                context_dict = ast.literal_eval(raw_context)
+                context_dict.update(ast.literal_eval(root.get('context', '{}')))
+            except (ValueError, SyntaxError):
+                context_dict = {}
+            if model_name == 'sale.order' and func_name == 'action_confirm':
+                SaleOrder = self.env['sale.order']
+                has_subscription = ('is_subscription' in SaleOrder._fields
+                    and SaleOrder.search_count([('is_subscription', '=', True)]) > 0
                 )
+                if has_subscription:
+                    expected_context = ['mail_auto_subscribe_no_notify', 'mail_notrack']
+                    if not all(context in context_dict for context in expected_context):
+                        log_warning(expected_context)
+
+            if model_name in FUNCTION_CONTEXT_DICT_WITHOUT_USER and func_name == FUNCTION_CONTEXT_DICT_WITHOUT_USER.get(model_name):
+                expected_context = ['mail_auto_subscribe_no_notify']
+                if not all(context in context_dict for context in expected_context):
+                    log_warning(expected_context)
+
+            if func_name == 'write':
+                for value in function.xpath(".//value"):
+                    write_value = value.get('eval')
+                    if not write_value or ('user_id' not in write_value and 'user_ids' not in write_value):
+                        continue
+                    expected_context = ['mail_auto_subscribe_no_notify']
+                    if not all(context in context_dict for context in expected_context):
+                        log_warning(expected_context)
+                        break
+
+    def _check_text_based_xpath(self, root, file_name):
+        TEXT_XPATH_PATTERN = re.compile(r"text\(")
+        for xpath_node in root.xpath("//xpath[@expr]"):
+            expr = xpath_node.get("expr")
+            if TEXT_XPATH_PATTERN.search(expr):
+                _logger.warning(
+                    "Text-dependent xpath detected in %s: expr='%s'."
+                    " Avoid using text-based conditions and use class/name/id attributes instead.",
+                    file_name,
+                    expr,
+                )
+
+    def _check_portal_login_is_email(self, root, file_name):
+        for record in root.xpath("//record[@model='res.users']"):
+            for login in (record.xpath("./field[@name='login']/text()")):
+                if login and not single_email_re.match(login):
+                    _logger.error(
+                        "The login %s in file %s is incorrect. You should use a valid email format as a login.",
+                        login,
+                        file_name,
+                    )
+
+    def _check_base_records_update(self, root, file_name, module):
+        for record in root.xpath(".//record"):
+            record_id = record.get('id')
+            model = record.get('model')
+
+            if not record_id:
+                continue
+
+            record_module = record_id.split('.')[0] if "." in record_id else module
+            if record_module == module:
+                continue
+
+            for field in record.xpath(".//field"):
+                field_name = field.get('name')
+                if field_name in RISKY_FIELDS:
+                    found = False
+                    if automation := self.env.ref(module + '.uninstall_hook_base_automation', raise_if_not_found=False):
+                        for server_action in automation.action_server_ids:
+                            if any(ref in server_action.code for ref in [f"env.ref('{record_id}', raise_if_not_found=False)", f"env.ref('{record_id}')"]):
+                                found = True
+                                break
+                    if not found:
+                        _logger.warning(
+                            "Module '%s' updates base record '%s' (model: %s) from module '%s' "
+                            "in file '%s', modifying risky field '%s'. "
+                            "Add 'uninstall_hook_base_automation' and 'server_action' to safely clean references on uninstall.",
+                            module,
+                            record_id,
+                            model,
+                            record_module,
+                            file_name,
+                            field_name,
+                        )
+
+    def _check_main_company_inherit_is_present(self, root, files, module):
+        if module not in self.installed_industries:
+            return
+        for file in files:
+            file_path = os.path.join(root, file)
+            encoded_content = pathlib.Path(file_path).read_bytes()
+            try:
+                tree = etree.fromstring(encoded_content)
+            except etree.XMLSyntaxError as e:
+                _logger.error("XML syntax error in file %s: %s", file, e)
+                return
+            for company in tree.xpath("//record[@model='res.company' and @id='base.main_company']"):
+                company_logo = company.xpath(".//field[@name='logo']")
+                if not company_logo or company_logo[0].get("file", "") != module + "/static/description/icon.png":
+                    _logger.warning(
+                        "The main company in the module %s is not using the industry logo as its logo.",
+                        module,
+                    )
+                return
+        _logger.warning(
+            "The module %s does not contain an extension of main_company. It should change the name \
+            and logo of the company to the industry ones.",
+            module,
+        )
+
+    def _check_pos_session(self, root, file_name, uninitialized_records):
+        for record in root.xpath("//record[@model='pos.session']"):
+            if not record.xpath("./field[@name='state']/text()"):
+                uninitialized_records.append((record.get('id'), file_name))
+
+    def _check_session_function(self, root, session_functions):
+        session_functions.extend(list(root.xpath("//function[@model='pos.session' and @name='action_pos_session_closing_control']")))
+
+    def _check_uninitialized_sessions(self, uninitialized_sessions, session_functions):
+        def error_message(record_id, file_name):
+            return _logger.warning(
+                            "pos.session record with id '%s' in file %s is not initialized. "
+                            "Please initialize the session properly by setting state='opened' or 'closed' or add a call to action_pos_session_closing_control.",
+                            record_id,
+                            file_name,
+                        )
+        if uninitialized_sessions and not session_functions:
+            for record_id, file_name in uninitialized_sessions:
+                error_message(record_id, file_name)
+            return
+        for u in uninitialized_sessions:
+            # <function eval="ref('id')"/>
+            cond1 = any(u[0] in f.get('eval', '') for f in session_functions)
+            # <function><value eval="ref('id')"></function>
+            cond2 = any((val := f.xpath('//value')) and val[0].get('eval', '') for f in session_functions)
+            if not (cond1 or cond2):
+                error_message(u[0], u[1])

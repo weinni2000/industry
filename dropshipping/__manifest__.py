@@ -32,6 +32,7 @@
         'data/res_config_settings.xml',
     ],
     'demo': [
+        'demo/res_company.xml',
         'demo/payment_provider_demo_post.xml',
         'demo/res_partner.xml',
         'demo/delivery_carrier.xml',
@@ -58,6 +59,7 @@
         "demo/website_view.xml",
     ],
     'images': ['images/main.png'],
+    'application': True,
     'license': 'OEEL-1',
     'url': "https://www.odoo.com/trial?industry&selected_app=dropshipping",
     'website': "https://www.odoo.com/all-industries",

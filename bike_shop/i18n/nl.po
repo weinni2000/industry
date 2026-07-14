@@ -3,13 +3,13 @@
 # * bike_shop
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# Bren Driesen <brdri@odoo.com>, 2025.
+# Bren Driesen <brdri@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.2+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 11:46+0000\n"
-"PO-Revision-Date: 2025-11-19 15:20+0000\n"
+"POT-Creation-Date: 2026-06-12 17:41+0000\n"
+"PO-Revision-Date: 2026-05-30 09:32+0000\n"
 "Last-Translator: Bren Driesen <brdri@odoo.com>\n"
 "Language-Team: Dutch <https://translate.odoo.com/projects/odoo-19/bike_shop/"
 "nl/>\n"
@@ -18,47 +18,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: bike_shop
 #: model_terms:ir.ui.view,arch_db:bike_shop.welcome_article_body
 msgid ", and feel free to"
-msgstr "en voel je vrij om"
-
-#. module: bike_shop
-#: model_terms:ir.ui.view,arch_db:bike_shop.homepage
-msgid "01"
-msgstr "01"
-
-#. module: bike_shop
-#: model_terms:ir.ui.view,arch_db:bike_shop.homepage
-msgid "02"
-msgstr "02"
-
-#. module: bike_shop
-#: model_terms:ir.ui.view,arch_db:bike_shop.homepage
-msgid "03"
-msgstr "03"
-
-#. module: bike_shop
-#: model_terms:ir.ui.view,arch_db:bike_shop.homepage
-msgid "04"
-msgstr "04"
-
-#. module: bike_shop
-#: model_terms:ir.ui.view,arch_db:bike_shop.repairs
-msgid "119€"
-msgstr "119€"
+msgstr "te duiken. Je kunt ook een"
 
 #. module: bike_shop
 #: model_terms:ir.ui.view,arch_db:bike_shop.repairs
 msgid "169&amp;nbsp;€"
 msgstr "169&amp;nbsp;€"
-
-#. module: bike_shop
-#: model_terms:ir.ui.view,arch_db:bike_shop.repairs
-msgid "89€"
-msgstr "89€"
 
 #. module: bike_shop
 #: model_terms:ir.ui.view,arch_db:bike_shop.repairs
@@ -358,8 +328,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">🚀</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Infobanner\">🚀</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Infobanner\">🚀</i>"
 
 #. module: bike_shop
 #: model_terms:ir.ui.view,arch_db:bike_shop.welcome_article_body
@@ -405,7 +375,7 @@ msgstr "<span class=\"h1-fs\"><strong>Basis</strong></span>"
 #: model_terms:ir.ui.view,arch_db:bike_shop.welcome_article_body
 msgid ""
 "<span class=\"h1-fs\"><strong>Do you want to go further?</strong></span>"
-msgstr "<span class=\"h1-fs\"><strong>Wil je verder gaan?</strong></span>"
+msgstr "<span class=\"h1-fs\"><strong>Wil je nog verder gaan?</strong></span>"
 
 #. module: bike_shop
 #: model_terms:ir.ui.view,arch_db:bike_shop.homepage
@@ -784,7 +754,7 @@ msgid ""
 "Done when done."
 msgstr ""
 "<strong>Voer de reparatie uit</strong>, voeg alle gebruikte onderdelen toe "
-"en markeer de taak als Gereed als je klaar bent."
+"en markeer de taak als Voltooid als je klaar bent."
 
 #. module: bike_shop
 #: model_terms:ir.ui.view,arch_db:bike_shop.welcome_article_body
@@ -992,7 +962,7 @@ msgstr ""
 #. module: bike_shop
 #: model:ir.model.fields.selection,name:bike_shop.worksheet_template_ir_model_fields_15_selection_additional_reparation
 msgid "Additional Reparation"
-msgstr ""
+msgstr "Extra reparatie"
 
 #. module: bike_shop
 #: model:base.automation,name:bike_shop.base_automation_turning_order_as_collectible
@@ -1037,7 +1007,7 @@ msgstr "Fietsketting - 11 versnellingen"
 #. module: bike_shop
 #: model:ir.model.fields.selection,name:bike_shop.worksheet_template_ir_model_fields_15_selection_bike_maintenance
 msgid "Bike Maintenance"
-msgstr ""
+msgstr "Fietsonderhoud"
 
 #. module: bike_shop
 #: model:product.template,name:bike_shop.product_template_18
@@ -1127,11 +1097,6 @@ msgid "Canyon Roadlite 7 "
 msgstr "Canyon Roadlite 7 "
 
 #. module: bike_shop
-#: model:pos.payment.method,name:bike_shop.pos_payment_method_2
-msgid "Card"
-msgstr "Kaart"
-
-#. module: bike_shop
 #: model:pos.category,name:bike_shop.pos_category_7
 #: model:product.public.category,name:bike_shop.product_public_category_7
 #: model:product.tag,name:bike_shop.product_tag_7
@@ -1147,11 +1112,6 @@ msgstr "Onderhoud Cargo / Speed elektrische fiets"
 #: model:product.template,name:bike_shop.product_template_20
 msgid "Cargo or Speed Pedelec Maintenance"
 msgstr "Onderhoud Cargo of Speed elektrische fiets"
-
-#. module: bike_shop
-#: model:pos.payment.method,name:bike_shop.pos_payment_method_1
-msgid "Cash"
-msgstr "Cash"
 
 #. module: bike_shop
 #: model:helpdesk.stage,name:bike_shop.helpdesk_stage_12
@@ -1305,11 +1265,6 @@ msgstr "Kubus Kathmandu Hybride"
 #: model:product.template,name:bike_shop.product_template_9
 msgid "Cube Reaction Pro "
 msgstr "Kubus reactie Pro "
-
-#. module: bike_shop
-#: model:pos.payment.method,name:bike_shop.pos_payment_method_3
-msgid "Customer Account"
-msgstr "Klant account"
 
 #. module: bike_shop
 #: model:hr.job,name:bike_shop.hr_job_2
@@ -1747,8 +1702,8 @@ msgid ""
 "will automatically be sent to the customer confirming that their bike\n"
 "                    is ready."
 msgstr ""
-"Markeer de taak als <strong>Gereed</strong> wanneer deze is voltooid. Zodra "
-"alle taken die aan de verkooporder zijn gekoppeld zich in dit stadium "
+"Markeer de taak als <strong>Voltooid</strong> wanneer deze is voltooid. "
+"Zodra alle taken die aan de verkooporder zijn gekoppeld zich in dit stadium "
 "bevinden, wordt er automatisch een <strong>e-mail</strong> naar de klant "
 "gestuurd met de bevestiging dat zijn fiets\n"
 "                    klaar is."
@@ -1790,8 +1745,8 @@ msgid ""
 "Odoo is entirely integrated into an App. Download it to turn your phone to "
 "manage your entire business in it."
 msgstr ""
-"Odoo is volledig geïntegreerd in een App. Download hem om je telefoon om te "
-"zetten en je hele bedrijf erin te beheren."
+"Odoo is volledig geïntegreerd in een app. Download de app om je hele bedrijf "
+"vanaf je telefoon te kunnen beheren."
 
 #. module: bike_shop
 #: model_terms:ir.ui.view,arch_db:bike_shop.welcome_article_body
@@ -1801,7 +1756,7 @@ msgid ""
 "everything around!"
 msgstr ""
 "Dit is natuurlijk slechts een overzicht van de functies in dit pakket. Je "
-"kan gerust nieuwe apps toevoegen, demogegevens verwijderen/wijzigen en alles "
+"kan gerust nieuwe apps toevoegen, demodata verwijderen/wijzigen en alles "
 "uitproberen!"
 
 #. module: bike_shop
@@ -2066,9 +2021,9 @@ msgid ""
 "delivery or in-store pickup, and secure transactions with trusted payment "
 "gateways."
 msgstr ""
-"Stel betaal- en bezorgmethoden in: laat klanten kiezen tussen thuisbezorging "
-"of afhalen in de winkel en beveilig transacties met betrouwbare "
-"betaalgateways."
+"Stel betaal- en leveringsmethoden in: laat klanten kiezen tussen "
+"thuisbezorging of afhalen in de winkel en beveilig transacties met "
+"betrouwbare betaalgateways."
 
 #. module: bike_shop
 #: model_terms:ir.ui.view,arch_db:bike_shop.welcome_article_body
@@ -2269,9 +2224,9 @@ msgid ""
 "strong> tracks bike and parts stock, including serial numbers and stock "
 "movement."
 msgstr ""
-"De<strong> <font style=\"color: rgb(113, 75, 103);\">Voorraad App</font></"
+"De<strong> <font style=\"color: rgb(113, 75, 103);\">Voorraad-app</font></"
 "strong> houdt de voorraad van fietsen en onderdelen bij, inclusief "
-"serienummers en voorraadverplaatsingen."
+"serienummers en voorraadmutaties."
 
 #. module: bike_shop
 #: model_terms:ir.ui.view,arch_db:bike_shop.welcome_article_body
@@ -2574,9 +2529,9 @@ msgid ""
 "You didn't import demo data? You can still do it. Go to Apps &gt; Industries "
 "&gt; Upgrade your Bike Shop package and check the related box."
 msgstr ""
-"Heb je geen demogegevens geïmporteerd? Je kunt het nog steeds doen. Ga naar "
-"Apps &gt; Industries &gt; Upgrade je Bike Shop pakket en vink het "
-"betreffende vakje aan."
+"Heb je geen demodata geïmporteerd? Dat kan nog steeds. Ga naar Apps &gt; "
+"Bedrijfstakken &gt; Upgrade je Fietsenwinkel-pakket en vink het relevante "
+"selectievakje aan."
 
 #. module: bike_shop
 #: model_terms:ir.ui.view,arch_db:bike_shop.welcome_article_body
@@ -2722,3 +2677,30 @@ msgstr "geel en zwarte liefdesprint"
 #: model_terms:product.template,description_ecommerce:bike_shop.product_template_13
 msgid "​<br>"
 msgstr "​<br>"
+
+#~ msgid "Card"
+#~ msgstr "Kaart"
+
+#~ msgid "Cash"
+#~ msgstr "Cash"
+
+#~ msgid "Customer Account"
+#~ msgstr "Klant account"
+
+#~ msgid "01"
+#~ msgstr "01"
+
+#~ msgid "02"
+#~ msgstr "02"
+
+#~ msgid "03"
+#~ msgstr "03"
+
+#~ msgid "04"
+#~ msgstr "04"
+
+#~ msgid "119€"
+#~ msgstr "119€"
+
+#~ msgid "89€"
+#~ msgstr "89€"

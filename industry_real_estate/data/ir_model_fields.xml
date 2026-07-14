@@ -166,9 +166,9 @@
         <field name="depends">plan_id</field>
         <field name="compute">
 <![CDATA[
-property_plan = self.env.ref('industry_real_estate.analytic_plan_properties')
+property_plan = self.env.ref('industry_real_estate.analytic_plan_properties', raise_if_not_found=False)
 for property in self:
-    property['x_is_property'] = property.plan_id == property_plan
+    property['x_is_property'] = property.plan_id == property_plan if property_plan else False
 ]]>
 </field>
     </record>
@@ -203,14 +203,11 @@ for property in self:
         <field name="ttype">selection</field>
     </record>
 
-<!--
     <record id="field_property_type_selection_apartment" model="ir.model.fields.selection">
         <field name="name">Apartment</field>
         <field name="field_id" ref="field_property_type" />
         <field name="value">Appartment</field>
     </record>
-
-
 
     <record id="field_property_type_selection_house" model="ir.model.fields.selection">
         <field name="name">House</field>
@@ -280,6 +277,7 @@ for property in self:
         <field name="name">x_property_attachment_image_ids</field>
         <field name="field_description">Property Images</field>
         <field name="model_id" ref="analytic.model_account_analytic_account"/>
+        <field name="domain">[('res_model', '=', 'account.analytic.account')]</field>
         <field name="relation">ir.attachment</field>
         <field name="relation_table">x_real_estate_property_attachment_image_rel</field>
         <field name="ttype">many2many</field>
@@ -289,6 +287,7 @@ for property in self:
         <field name="name">x_property_attachment_doc_ids</field>
         <field name="field_description">Property Documents</field>
         <field name="model_id" ref="analytic.model_account_analytic_account"/>
+        <field name="domain">[('res_model', '=', 'account.analytic.account')]</field>
         <field name="relation">ir.attachment</field>
         <field name="relation_table">x_real_estate_property_attachment_doc_rel</field>
         <field name="ttype">many2many</field>
@@ -334,7 +333,7 @@ for record in self:
         record['x_invoice_status'] = 'to_invoice'
 ]]></field>
     </record>
--->
+
     <!-- crm lead -->
     <record id="field_crm_lead_property_id" model="ir.model.fields">
         <field name="field_description">Property</field>
@@ -343,14 +342,6 @@ for record in self:
         <field name="relation">account.analytic.account</field>
         <field name="ttype">many2one</field>
         <field name="website_form_blacklisted" eval="False"/>
-    </record>
-
-    <!-- Sale order -->
-    <record id="field_rental_start_date" model="ir.model.fields">
-        <field name="name">x_rental_start_date</field>
-        <field name="field_description">Rental Start Date</field>
-        <field name="model_id" ref="sale.model_sale_order"/>
-        <field name="ttype">date</field>
     </record>
 
     <!-- After field_rental_start_date because field_property_rental_contract_id needs it-->
@@ -364,7 +355,7 @@ for record in self:
         <field name="store" eval="False"/>
         <field name="compute">
 <![CDATA[
-sos = self.env['sale.order']._read_group([('x_account_analytic_account_id', 'in', self.ids), ('state', '=', 'sale'), ('x_rental_start_date', '<=', datetime.date.today()), ('subscription_state', 'not in', ['5_renewed', '6_churn'])], groupby=['x_account_analytic_account_id','id'], order='x_rental_start_date:max')
+sos = self.env['sale.order']._read_group([('x_account_analytic_account_id', 'in', self.ids), ('state', '=', 'sale'), ('start_date', '<=', datetime.date.today()), ('subscription_state', 'not in', ['5_renewed', '6_churn'])], groupby=['x_account_analytic_account_id','id'], order='start_date:max')
 mapped_data = {account_id.id: so_id for account_id, so_id in sos}
 for record in self:
     record['x_rental_contract_id'] = mapped_data.get(record.id, False)

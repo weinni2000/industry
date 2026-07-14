@@ -2,14 +2,14 @@
 # This file contains the translation of the following modules:
 # * spa_resort
 #
-# "Fernanda Alvarez (mfar)" <mfar@odoo.com>, 2025.
-# "Patricia Gutiérrez (pagc)" <pagc@odoo.com>, 2025.
+# "Fernanda Alvarez (mfar)" <mfar@odoo.com>, 2025, 2026.
+# "Patricia Gutiérrez (pagc)" <pagc@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.5a1+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 14:09+0000\n"
-"PO-Revision-Date: 2025-10-30 17:25+0000\n"
+"POT-Creation-Date: 2026-04-10 19:41+0000\n"
+"PO-Revision-Date: 2026-04-11 09:38+0000\n"
 "Last-Translator: \"Fernanda Alvarez (mfar)\" <mfar@odoo.com>\n"
 "Language-Team: Spanish (Latin America) <https://translate.odoo.com/projects/"
 "odoo-19/spa_resort/es_419/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.massages_treatments
@@ -28,7 +28,7 @@ msgstr "&amp;nbsp;Masaje de tejido profundo (50 minutos)"
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.massages_treatments
 msgid "&amp;nbsp;Duo Massage (50 min, 2 persons)"
-msgstr "&amp;nbsp;Mensaje doble (50 min, 2 personas)"
+msgstr "&amp;nbsp;Masaje doble (50 min, 2 personas)"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.wellness_access
@@ -88,11 +88,6 @@ msgid "130€ per couple"
 msgstr "$130 por pareja"
 
 #. module: spa_resort
-#: model:product.template,name:spa_resort.product_product_36_product_template
-msgid "15%"
-msgstr "15%"
-
-#. module: spa_resort
 #: model:loyalty.program,name:spa_resort.loyalty_program_4
 msgid "15% Off - Influencer"
 msgstr "15% de descuento - Influencer"
@@ -101,31 +96,6 @@ msgstr "15% de descuento - Influencer"
 #: model:loyalty.reward,description:spa_resort.loyalty_reward_7
 msgid "15% on specific products"
 msgstr "15% en productos específicos"
-
-#. module: spa_resort
-#: model_terms:ir.ui.view,arch_db:spa_resort.wellness_access
-msgid "25€"
-msgstr "$25"
-
-#. module: spa_resort
-#: model_terms:ir.ui.view,arch_db:spa_resort.wellness_access
-msgid "29€"
-msgstr "$29"
-
-#. module: spa_resort
-#: model_terms:ir.ui.view,arch_db:spa_resort.wellness_access
-msgid "39€"
-msgstr "$39"
-
-#. module: spa_resort
-#: model_terms:ir.ui.view,arch_db:spa_resort.massages_treatments
-msgid "70€"
-msgstr "$70"
-
-#. module: spa_resort
-#: model_terms:ir.ui.view,arch_db:spa_resort.massages_treatments
-msgid "75€"
-msgstr "$75"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.homepage
@@ -139,13 +109,11 @@ msgstr ""
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.wellness_access
 msgid ""
-"<a t-att-"
-"href=\"request.env.ref('spa_resort.product_product_21').website_url\" "
-"class=\"btn btn-primary o_translate_inline\">Buy your wellness journey</a>"
+"<a href=\"/shop/10-day-wellness-pass-15\" class=\"btn btn-primary "
+"o_translate_inline\">Buy your wellness journey</a>"
 msgstr ""
-"<a t-att-href="
-"\"request.env.ref('spa_resort.product_product_21').website_url\" class="
-"\"btn btn-primary o_translate_inline\">Compra tu experiencia de bienestar</a>"
+"<a href=\"/shop/10-day-wellness-pass-15\" class=\"btn btn-primary "
+"o_translate_inline\">Adquiere tu experiencia de bienestar</a>"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.wellness_access
@@ -277,20 +245,75 @@ msgstr "<strong>Planifica turnos</strong>"
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid ""
+"<strong><b>Appointment App</b>: </strong>Manage bookings for spa entrances "
+"and massages with a clear, flexible schedule that prevents double-booking."
+"<br/>"
+msgstr ""
+"<strong><b>Aplicación Citas</b>: </strong>Gestiona las reservaciones para "
+"citas de SPA y masajes con un horario claro y flexible que evita que se "
+"hagan dos reservas iguales en el mismo horario.<br/>"
+
+#. module: spa_resort
+#: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
+msgid ""
+"<strong><b>Inventory App</b>: </strong>Monitor the consumption of wellness "
+"products like essential oils and towels to ensure you are always prepared."
+"<br/>"
+msgstr ""
+"<strong><b>Aplicación Inventario</b>: </strong>Controla el consumo de "
+"productos de bienestar personal, como aceites esenciales y toallas, para "
+"asegurarte de estar siempre preparado.<br/>"
+
+#. module: spa_resort
+#: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
+msgid ""
+"<strong><b>Planning App</b>: </strong>Organize your therapists' schedules "
+"efficiently to match staff availability with treatment bookings.<br/>"
+msgstr ""
+"<strong><b>Aplicación Planeación</b>: </strong>Organiza los horarios de tus "
+"terapeutas de manera eficiente para ajustar la disponibilidad del personal a "
+"las citas de tratamiento.<br/>"
+
+#. module: spa_resort
+#: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
+msgid ""
+"<strong><b>Point of Sale App</b>: </strong>Upsell relaxation by selling "
+"tickets, cosmetics, and accessories like bathrobes directly at the reception."
+"<br/>"
+msgstr ""
+"<strong><b>Aplicación Punto de venta</b>: </strong>Aumenta las ventas. Vende "
+"entradas, cosméticos y accesorios como batas de baño directamente en la "
+"recepción.<br/>"
+
+#. module: spa_resort
+#: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
+msgid ""
+"<strong><b>Sales App</b>: </strong>Handle complex bookings like group offers "
+"and special spa packages by sending professional quotations.<br/>"
+msgstr ""
+"<strong><b>Aplicación Ventas</b>: </strong>Gestiona reservas complejas, como "
+"ofertas para grupos y paquetes especiales de spa y envía cotizaciones "
+"profesionales.<br/>"
+
+#. module: spa_resort
+#: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
+msgid ""
+"<strong><b>Website &amp; eCommerce App</b>: </strong>Showcase your wellness "
+"menu online, allowing guests to book treatments and buy gift cards 24/7.<br/>"
+msgstr ""
+"<strong><b>Aplicaciones Sitio web y Comercio electrónico</b>: </"
+"strong>Demuestra tu menú de bienestar en línea. Permite que los invitados "
+"reserven tratamientos y compren tarjetas de regalo las 24 horas, los 7 días "
+"de la semana.<br/>"
+
+#. module: spa_resort
+#: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
+msgid ""
 "<strong>Accounting</strong> helps you manage all finances, payments, and "
 "reconciliations in one integrated system."
 msgstr ""
 "<strong>Contabilidad</strong> te ayuda a gestionar todas tus finanzas, pagos "
 "y conciliaciones en un sistema integrado."
-
-#. module: spa_resort
-#: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
-msgid ""
-"<strong>Appointment</strong>: Manage bookings for spa entrance and massages "
-"with a clear and flexible schedule."
-msgstr ""
-"<strong>Citas</strong>: Gestiona reservaciones para spa y masajes con un "
-"horario claro y flexible."
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
@@ -316,15 +339,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "<strong>Gift Cards</strong>"
 msgstr "<strong>Tarjetas de regalo</strong>"
-
-#. module: spa_resort
-#: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
-msgid ""
-"<strong>Inventory</strong>: Monitor wellness products like oils, cosmetics, "
-"and accessories (bathrobes, slippers,...)."
-msgstr ""
-"<strong>Inventario</strong>: Controla los productos de bienestar como "
-"aceites, cosméticos y accesorios (batas, pantuflas y más)."
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
@@ -360,23 +374,8 @@ msgstr "<strong>Gestiona tus compras</strong>"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
-msgid "<strong>Planning</strong>: Schedule staff for entrances and treatments."
-msgstr ""
-"<strong>Planeación</strong>: Programa al personal para citas y tratamientos."
-
-#. module: spa_resort
-#: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "<strong>Point of Sale (POS) at Reception</strong>"
 msgstr "<strong>Punto de venta (PdV) en Recepción</strong>"
-
-#. module: spa_resort
-#: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
-msgid ""
-"<strong>Point of Sale (POS)</strong>: Sell tickets, accessories, or "
-"cosmetics directly on-site."
-msgstr ""
-"<strong>Punto de venta (PdV)</strong>: Vende boletos, accesorios o "
-"cosméticos directamente desde el sitio web."
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
@@ -396,15 +395,6 @@ msgid ""
 msgstr ""
 "<strong>El Punto de venta para bares y restaurantes</strong> te permite "
 "vender comida y bebidas si tu spa ofrece un servicio de restaurante o bar."
-
-#. module: spa_resort
-#: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
-msgid ""
-"<strong>Sales</strong>: Send quotations, confirm group offers, and handle "
-"special spa packages."
-msgstr ""
-"<strong>Ventas</strong>: Envía cotizaciones, confirma ofertas grupales y "
-"gestiona paquetes especiales de spa."
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
@@ -430,15 +420,6 @@ msgstr "<strong>Monitorea productos</strong>"
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "<strong>Website &amp; eCommerce</strong>"
 msgstr "<strong>Sitio web y Comercio electrónico</strong>"
-
-#. module: spa_resort
-#: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
-msgid ""
-"<strong>Website &amp; eCommerce</strong>: Showcase your wellness offers and "
-"allow online bookings."
-msgstr ""
-"<strong>Sitio web y Comercio electrónico</strong>: Demuestra lo que ofreces "
-"en cuestión de bienestar y permite reservas en línea."
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.wellness_access
@@ -1244,12 +1225,74 @@ msgstr "fotografía de reglas de tres de una vela prendida"
 msgid "water ripple"
 msgstr "ondas en el agua"
 
+#~ msgid "15%"
+#~ msgstr "15%"
+
+#~ msgid "25€"
+#~ msgstr "$25"
+
+#~ msgid "29€"
+#~ msgstr "$29"
+
+#~ msgid "39€"
+#~ msgstr "$39"
+
+#~ msgid "70€"
+#~ msgstr "$70"
+
+#~ msgid "75€"
+#~ msgstr "$75"
+
 #~ msgid ""
-#~ "<a href=\"#\" class=\"btn btn-primary o_translate_inline\">Buy your "
-#~ "wellness journey</a>"
+#~ "<a t-att-"
+#~ "href=\"request.env.ref('spa_resort.product_product_21').website_url\" "
+#~ "class=\"btn btn-primary o_translate_inline\">Buy your wellness journey</a>"
 #~ msgstr ""
-#~ "<a href=\"#\" class=\"btn btn-primary o_translate_inline\">Compra tu "
-#~ "viaje de bienestar</a>"
+#~ "<a t-att-"
+#~ "href=\"request.env.ref('spa_resort.product_product_21').website_url\" "
+#~ "class=\"btn btn-primary o_translate_inline\">Compra tu experiencia de "
+#~ "bienestar</a>"
+
+#~ msgid ""
+#~ "<strong>Appointment</strong>: Manage bookings for spa entrance and "
+#~ "massages with a clear and flexible schedule."
+#~ msgstr ""
+#~ "<strong>Citas</strong>: Gestiona reservaciones para spa y masajes con un "
+#~ "horario claro y flexible."
+
+#~ msgid ""
+#~ "<strong>Inventory</strong>: Monitor wellness products like oils, "
+#~ "cosmetics, and accessories (bathrobes, slippers,...)."
+#~ msgstr ""
+#~ "<strong>Inventario</strong>: Controla los productos de bienestar como "
+#~ "aceites, cosméticos y accesorios (batas, pantuflas y más)."
+
+#~ msgid ""
+#~ "<strong>Planning</strong>: Schedule staff for entrances and treatments."
+#~ msgstr ""
+#~ "<strong>Planeación</strong>: Programa al personal para citas y "
+#~ "tratamientos."
+
+#~ msgid ""
+#~ "<strong>Point of Sale (POS)</strong>: Sell tickets, accessories, or "
+#~ "cosmetics directly on-site."
+#~ msgstr ""
+#~ "<strong>Punto de venta (PdV)</strong>: Vende boletos, accesorios o "
+#~ "cosméticos directamente desde el sitio web."
+
+#~ msgid ""
+#~ "<strong>Sales</strong>: Send quotations, confirm group offers, and handle "
+#~ "special spa packages."
+#~ msgstr ""
+#~ "<strong>Ventas</strong>: Envía cotizaciones, confirma ofertas grupales y "
+#~ "gestiona paquetes especiales de spa."
+
+#~ msgid ""
+#~ "<strong>Website &amp; eCommerce</strong>: Showcase your wellness offers "
+#~ "and allow online bookings."
+#~ msgstr ""
+#~ "<strong>Sitio web y Comercio electrónico</strong>: Demuestra lo que "
+#~ "ofreces en cuestión de bienestar y permite reservas en línea."
 
 #~ msgid "ffer <strong>seasonal promotions</strong> or group discounts."
 #~ msgstr ""

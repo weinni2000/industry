@@ -8,13 +8,14 @@
 # Wil Odoo, 2024
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+# "Malaz Siddig Elsayed Abuidris (msea)" <msea@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 10:02+0000\n"
-"PO-Revision-Date: 2025-11-11 13:49+0000\n"
+"POT-Creation-Date: 2026-04-03 20:07+0000\n"
+"PO-Revision-Date: 2026-06-13 10:56+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Arabic <https://translate.odoo.com/projects/odoo-19/"
 "wellness_practitioner/ar/>\n"
@@ -24,7 +25,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -58,33 +59,105 @@ msgstr "5. تحقق من فواتيرك"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
-msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
+#, fuzzy
+msgid ""
+"<b>Appointments App</b>: Offer seamless online booking for consultations and "
+"sessions, allowing clients to schedule\n"
+"                time with you 24/7."
+msgstr ""
+"<b>تطبيق المواعيد: </b>: تمكن من تقديم حجوزات سلسة عبر الإنترنت للاستشارات "
+"والجلسات، مما يتيح للعملاء تحديد\n"
+"                موعد معك على مدار الساعة طوال أيام الأسبوع."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🌐</i>"
-msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🌐</i>"
+#, fuzzy
+msgid ""
+"<b>Calendar App</b>: Manage your daily schedule efficiently, avoiding double "
+"bookings and ensuring you have adequate\n"
+"                preparation time between clients."
+msgstr ""
+"<b>تطبيق التقويم</b>: قم بإدارة مواعيدك اليومية بكفاءة، وتجنب التداخل بين "
+"المواعيد، وتأكد من توفر\n"
+"                وقت كافٍ للتحضير بين كل عميل وآخر."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🎉</i>"
-msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🎉</i>"
+#, fuzzy
+msgid ""
+"<b>Contacts App</b>: Maintain a clean and organized directory of all your "
+"clients, suppliers, and professional\n"
+"                partners."
+msgstr ""
+"<b>تطبيق جهات الاتصال</b>: احتفظ بقائمة منظمة ومرتبة بجميع عملائك ومورديك "
+"وشركائك\n"
+"                المهنيين."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
-msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
+#, fuzzy
+msgid ""
+"<b>Invoicing App</b>: Simplify your finances by generating professional "
+"invoices for sessions and packages, ensuring\n"
+"                you get paid on time."
+msgstr ""
+"<b>تطبيق الفوترة</b>: بسّط شؤونك المالية من خلال إصدار فواتير احترافية للجلسات "
+"العلاجية والخدمات، مما يضمن\n"
+"                حصولك على أتعابك في الوقت المحدد."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
-msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">💡</i>"
+msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">💡</i>"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🪂</i>"
-msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🪂</i>"
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">🚀</i>"
+msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">🚀</i>"
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\">🌐</i>"
+msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\">🌐</i>"
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\">🎉</i>"
+msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\">🎉</i>"
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\">🪂</i>"
+msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\">🪂</i>"
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Warning\">⚠️</i>"
+msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Warning\">⚠️</i>"
 
 #. module: wellness_practitioner
 #: model:mail.template,body_html:wellness_practitioner.booking_suggestion
@@ -118,8 +191,8 @@ msgstr ""
 "            </p>\n"
 "            \n"
 "            <p>\n"
-"                <a class=\"btn btn-secondary\" href="
-"\"/book/wellness_session\">قم بحجز موعد</a>\n"
+"                <a class=\"btn btn-secondary\" href=\"/book/"
+"wellness_session\">قم بحجز موعد</a>\n"
 "            </p>\n"
 "        "
 
@@ -146,15 +219,53 @@ msgstr "<span class=\"h1-fs\"><strong>أترغب في التعمق أكثر؟</s
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
 msgid ""
-"<strong><font class=\"text-black\"><span style=\"font-weight: normal;"
-"\">Manage your schedule and your availability in the </span></font><font "
-"class=\"text-o-color-1\">Calendar App</font><font class=\"text-black\"><span "
-"style=\"font-weight: normal;\">.</span></font></strong>"
+"<strong>1. Canned responses</strong><br/><br/>Click \"<strong>Send message</"
+"strong>\", then type <strong>\"::\"</strong> in the message content to "
+"display canned responses in the system. Then just select the one you want, "
+"click send, and the customer receives the message! It's that easy! <br/><br/>"
 msgstr ""
-"<strong><font class=\"text-black\"><span style=\"font-weight: normal;\">قم "
-"بإدارة جدول مواعيدك وأوقات توافرك في </span></font><font class=\"text-o-"
-"color-1\">تطبيق التقويم</font><font class=\"text-black\"><span style=\"font-"
-"weight: normal;\">.</span></font></strong>"
+"<strong>1. الردود الجاهزة</strong><br/><br/>اضغط على زر ”<strong>إرسال "
+"رسالة</strong>“، ثم اكتب <strong>”::“</strong> في نص الرسالة لعرض الردود "
+"الجاهزة في النظام. وبعد ذلك، ما عليك سوى اختيار الرد الذي تريده، والضغط على "
+"زر الإرسال، وسيتلقى العميل الرسالة! الأمر بهذه السهولة! <br/><br/>"
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+#, fuzzy
+msgid "<strong>2. Email templates</strong>"
+msgstr "<strong>2. قوالب البريد الإلكتروني</strong>"
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+#, fuzzy
+msgid ""
+"<strong><font class=\"text-black\"><span style=\"font-weight: "
+"normal\"><b>CRM App</b>: Nurture long-term relationships by tracking client "
+"interactions, preferences, and\n"
+"                follow-up reminders in one central hub.</span></font><font "
+"class=\"text-o-color-1\"/></strong><br/>"
+msgstr ""
+"<strong><font class=\"text-black\"><span style=\"font-weight: normal\"><b>"
+"تطبيق إدارة علاقات العملاء</b>: عزز العلاقات طويلة الأمد من خلال تتبع تفاعلات "
+"العملاء وتفضيلاتهم وإنشاء\n"
+"                تذكيرات للمتابعة في مركز واحد مركزي.</span></font><font "
+"class=\"text-o-color-1\"/></strong><br/>"
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+#, fuzzy
+msgid ""
+"<strong><font class=\"text-black\"><span style=\"font-weight: "
+"normal\"><b>Knowledge App</b>: Securely store and organize detailed patient "
+"notes, treatment plans, and holistic\n"
+"                health records for easy reference.</span></font></strong><br/"
+">"
+msgstr ""
+"<strong><font class=\"text-black\"><span style=\"font-weight: normal\"><b>"
+"تطبيق المعرفة</b>: قم بتخزين وتنظيم ملاحظات المرضى التفصيلية وخطط العلاج "
+"والسجلات الصحية الشاملة\n"
+"                بأمان لتتمكن من الرجوع إليها ومراجعتها بسهولة.</span></font>"
+"</strong><br/>"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -163,6 +274,17 @@ msgid ""
 "strong>"
 msgstr ""
 "<strong><span class=\"display-4-fs\">أودو للممارسات العلاجية</span></strong>"
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+msgid ""
+"<strong>Email templates </strong>can be set up in the Email Templates "
+"technical menu. To access it, admins can enable debug mode and search for "
+"the \"Email Templates\" menu from the homescreen."
+msgstr ""
+"يمكن إعداد <strong>قوالب البريد الإلكتروني </strong>من خلال القائمة التقنية "
+"”قوالب البريد الإلكتروني“. للوصول إليها، على المسؤولين تمكين وضع التصحيح "
+"والبحث عن قائمة ”قوالب البريد الإلكتروني“ من الشاشة الرئيسية."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -189,12 +311,34 @@ msgstr "أضِف تطبيق الاشتراك وقم بإصدار الفاتور�
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+#, fuzzy
 msgid ""
-"After each appointment, an automatic email will be sent to suggest your "
-"patient to already book its next appointment."
+"After each appointment, you can use the <strong>same methods </strong>to "
+"plan your next session with your patient."
 msgstr ""
-"بعد كل موعد، سيتم إرسال رسالة بريد إلكتروني تلقائية تقترح فيها على المريض "
-"حجز موعده التالي مسبقاً."
+"بعد كل موعد، يمكنك استخدام <strong>نفس الطرق</strong> لتخطيط جلستك التالية "
+"مع مريضك."
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+#, fuzzy
+msgid ""
+"Alternatively, you can also use the \"Log Note\" button on your contacts or "
+"create a specific knowledge article (like this one) for each of your "
+"patients."
+msgstr ""
+"يمكنك أيضًا استخدام زر ”تسجيل ملاحظة“ في قائمة جهات الاتصال الخاصة بك، أو إنشاء "
+"مقالة تعريفية في تطبيق المعرفة (مثل هذه المقالة) خاصّة بكل مريض من مرضاك."
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+#, fuzzy
+msgid ""
+"Any meeting within Odoo contains a \"Notes\" field. Type, upload images, "
+"create tables, and much more."
+msgstr ""
+"يتضمن أي اجتماع يتم إقامته في أودو حقل ”ملاحظات“. يمكنك الكتابة فيه، وتحميل "
+"الصور، وإنشاء الجداول، وغير ذلك الكثير."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -218,22 +362,6 @@ msgid ""
 msgstr ""
 "قم بإرسال فواتير متكررة تلقائياً عبر <strong><font class=\"text-o-"
 "color-1\">تطبيق الاشتراكات</font></strong>."
-
-#. module: wellness_practitioner
-#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid "Basics"
-msgstr "الأساسيات"
-
-#. module: wellness_practitioner
-#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid ""
-"Be careful, using the \"Log Note\" in your contact with be displayed only "
-"for you and your eventual team. If you select the \"Send message\" option, "
-"this will notify your customer (which can be really interesting also)."
-msgstr ""
-"كن حذراً، فاستخدام خيار \"تسجيل ملاحظة\" عند التواصل سيؤدي إلى عرضها لك "
-"ولفريقك النهائي فقط. إذا قمت بتحديد خيار \"إرسال رسالة\"، فسيؤدي ذلك إلى "
-"إشعار عميلك (قد يكون مثيراً للاهتمام أيضاً)."
 
 #. module: wellness_practitioner
 #: model:mail.template,name:wellness_practitioner.booking_suggestion
@@ -262,27 +390,33 @@ msgstr ""
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+#, fuzzy
+msgid ""
+"Click \"<strong>Send message</strong>\", then click the \"<strong>Expand</"
+"strong>\" button on the bottom right of the composer."
+msgstr ""
+"اضغط على زر ”<strong>إرسال رسالة</strong>”، ثم اضغط على زر ”<strong>تكبير</"
+"strong>“ الموجود أسفل يمين نافذة كتابة الرسالة."
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
 msgid "Discover more about Odoo by diving into our"
 msgstr "اكتشف المزيد عن أودو من خلال التعرف على"
-
-#. module: wellness_practitioner
-#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid "Do you want to go further?"
-msgstr "أتود التعمق أكثر؟"
-
-#. module: wellness_practitioner
-#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid ""
-"Ease your invoicing process with the <strong><font class=\"text-o-"
-"color-1\">Invoice App</font></strong>."
-msgstr ""
-"تمكَّن من تسهيل عملية الفوترة باستخدام <strong><font class=\"text-o-"
-"color-1\">تطبيق الفواتير</font></strong>."
 
 #. module: wellness_practitioner
 #: model:calendar.alarm,name:wellness_practitioner.alarm_mail_1
 msgid "Follow up"
 msgstr "متابعة"
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+#, fuzzy
+msgid ""
+"From any opportunity, the next step is to easily send an invitation to book "
+"an appointment with you."
+msgstr ""
+"من الفرصة، تمكن من إرسال الدعوات إلى عملائك المهتمين بسهولة لحثهم على حجز "
+"موعد معك."
 
 #. module: wellness_practitioner
 #. odoo-javascript
@@ -292,14 +426,15 @@ msgstr "ابدأ واستكشف توصياتنا لاستخدام نظام أو�
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid ""
-"Getting Started\n"
-"            To begin, you'll find the key applications you need on your Odoo "
-"dashboard. Let's take a closer look at how you can use these tools."
-msgstr ""
-"فلنبدأ\n"
-"            كبداية، ستجد التطبيقات الرئيسية التي تحتاج إليها على لوحة "
-"بياناتك على أودو. دعنا نلقِ نظرة عن كثب على كيفية استخدام تلك الأدوات."
+#, fuzzy
+msgid "Getting Started"
+msgstr "البداية"
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+#, fuzzy
+msgid "Give both options a shot!"
+msgstr "جرب كلا الخيارين!"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -309,17 +444,6 @@ msgid ""
 msgstr ""
 "إذا انتقلت إلى تطبيق الفواتير، ستتمكن من إدارة كافة فواتيرك. لديك العديد من "
 "الخيارات المتاحة لتبسيط عملية إصدار الفواتير:"
-
-#. module: wellness_practitioner
-#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid ""
-"If you open Emily's opportunity in your CRM, you can see in the Chatter (on "
-"the right column) that she received an email from you with a call to action "
-"to book an appointment."
-msgstr ""
-"إذا قمت بفتح فرصة إيميلي الموجودة في تطبيق إدارة علاقات العملاء لديك، فسترى "
-"في الدردشة (في العمود الأيمن) أنها تلقت رسالة بريد إلكتروني منك مع دعوة لحجز "
-"موعد."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -410,11 +534,6 @@ msgstr ""
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid "Odoo for Therapy Practices"
-msgstr "أودو للممارسات العلاجية"
-
-#. module: wellness_practitioner
-#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
 msgid ""
 "Odoo is entirely integrated into an App. Download it to turn your phone to "
 "manage your entire business in it."
@@ -468,52 +587,21 @@ msgid "Schedule a demo"
 msgstr "قم بجدولة عرض توضيحي"
 
 #. module: wellness_practitioner
-#: model:ir.actions.server,name:wellness_practitioner.ir_act_server_1
-msgid "Send Email when Qualified"
-msgstr "إرسال بريد إلكتروني عند التأهيل"
-
-#. module: wellness_practitioner
 #: model:mail.template,description:wellness_practitioner.booking_suggestion
 msgid "Sent to all attendees if a reminder is set"
 msgstr "يتم الإرسال إلى كافة الحضرين إذا تم وضع تذكير"
-
-#. module: wellness_practitioner
-#: model:base.automation,name:wellness_practitioner.base_automation_1
-msgid "Stage is set to \"Qualified\""
-msgstr "تم تعيين المرحلة إلى \"مؤهل\""
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
 msgid ""
 "The <strong><font class=\"text-o-color-1\">Appointment App</font></strong> "
 "is automatically updated based on your Calendar. You can easily lock slots, "
-"change appointment hoursand send communication to your patients fromthe "
+"change appointment times and send communication to your patients fromthe "
 "Calendar App."
 msgstr ""
 "يتم تحديث <strong><font class=\"text-o-color-1\">تطبيق المواعيد</font></"
-"strong> تلقائياً بناءً على تقويمك. يمكنك بسهولة قفل الفترات الزمنية وتغيير "
-"ساعات المواعيد وإرسال الرسائل إلى مرضاك من خلال تطبيق التقويم."
-
-#. module: wellness_practitioner
-#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid ""
-"The <strong><font class=\"text-o-color-1\">Appointments App</font><font "
-"class=\"text-black\"><span style=\"font-weight: normal;\"> manages your "
-"appointment types.</span></font><font class=\"text-o-color-1\"/></strong>"
-msgstr ""
-"يقوم <strong><font class=\"text-o-color-1\">تطبيق المواعيد</font><font "
-"class=\"text-black\"><span style=\"font-weight: normal;\"> بإدارة كافة أنواع "
-"المواعيد لديك.</span></font><font class=\"text-o-color-1\"/></strong>"
-
-#. module: wellness_practitioner
-#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid ""
-"The <strong><font class=\"text-o-color-1\">CRM App</font></strong>(Customer "
-"Relationship Management) is the heart of your therapy practice's patient "
-"management."
-msgstr ""
-"<strong><font class=\"text-o-color-1\">تطبيق CRM</font></strong> (إدارة "
-"علاقات العملاء) هو الأساس في إدارة المرضى في عيادتك العلاجية."
+"strong> تلقائيًا وفقًا لتقويمك. يمكنك بسهولة حجز المواعيد وتغييرها وإرسال "
+"رسائل إلى مرضاك من خلال تطبيق التقويم."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -543,8 +631,45 @@ msgstr ""
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+#, fuzzy
+msgid ""
+"This opens up the <strong>Mail composer. </strong>Once you're in the "
+"composer, just press the <strong>three dot icon </strong>in the toolbar, "
+"then choose your desired <strong>email template</strong>."
+msgstr ""
+"سيؤدي ذلك إلى فتح <strong>أداة كتابة رسائل البريد الإلكتروني. </strong>بمجرد "
+"دخولك إلى أداة الكتابة، ما عليك سوى الضغط على <strong>رمز النقاط الثلاث </"
+"strong>الموجود في شريط الأدوات، ثم تحديد قالب البريد الإلكتروني <strong>الذي "
+"ترغب في استخدامه</strong>."
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+msgid ""
+"To begin, you'll find the key applications you need on your Odoo dashboard. "
+"Let's take a closer look at how you can use these tools."
+msgstr ""
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+msgid ""
+"To create, edit and delete existing canned responses, just open the "
+"<strong>Discuss App</strong>, then go to <strong>Configuration &gt; Canned "
+"Responses</strong> and set up the message you'd like to easily send."
+msgstr ""
+"لإنشاء الردود الجاهزة أو تعديلها أو حذفها، ما عليك سوى فتح <strong>تطبيق "
+"المناقشة</strong>، ثم الانتقال إلى <strong>الإعدادات > الردود الجاهزة</"
+"strong> وإعداد الرسالة التي ترغب في إرسالها بكل سهولة."
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
 msgid "To do so, go to CRM &gt; Configuration &gt; Sales Teams."
 msgstr "للقيام بذلك، اذهب إلى إدارة علاقات العملاء > التهيئة > فِرَق المبيعات."
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+#, fuzzy
+msgid "To do that easily, you have two possibilities :"
+msgstr "لتحقيق ذلك بسهولة، لديك خياران:"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -557,24 +682,9 @@ msgstr ""
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid "Try it !"
-msgstr "جربه!"
-
-#. module: wellness_practitioner
-#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid "Use Case"
-msgstr "حالة استخدام"
-
-#. module: wellness_practitioner
-#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid ""
-"Using Odoo, you can easily take notes during your appointments, you can "
-"either use the \"Log Note\" button on your contact record or create a "
-"specific knowledge article (like this one) for each of your patient."
-msgstr ""
-"باستخدام أودو، يمكنك تدوين الملاحظات بسهولة أثناء المواعيد، ويمكنك إما "
-"استخدام زر ”تدوين ملاحظة“ في سجل جهة الاتصال أو إنشاء مقالة معرفية محددة "
-"(مثل هذه المقالة) لكل مريض من مرضاك."
+#, fuzzy
+msgid "Using Odoo, you can easily take notes during your appointments."
+msgstr "باستخدام أودو، يمكنك تدوين الملاحظات خلال مواعيدك بكل سهولة."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -617,6 +727,15 @@ msgid ""
 msgstr ""
 "يمكنك أيضاً تهيئة لقب للبريد الإلكتروني بحيث يقوم كل من يرسل رسالة بريد "
 "إلكتروني إلى هذا اللقب بإنشاء فرصة جديدة لك."
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+#, fuzzy
+msgid ""
+"You can even start a sound recording using the <strong>\"/voice transcript\" "
+"</strong>command !"
+msgstr ""
+"يمكنك حتى بدء تسجيل صوتي باستخدام الأمر <strong>”/voice transcript“ </strong>!"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -698,3 +817,123 @@ msgstr "إذا احتجت إلى المساعدة!<br/>"
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
 msgid "request a demo"
 msgstr "طلب عرض توضيحي"
+
+#~ msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
+#~ msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
+
+#~ msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🌐</i>"
+#~ msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🌐</i>"
+
+#~ msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🎉</i>"
+#~ msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🎉</i>"
+
+#~ msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
+#~ msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
+
+#~ msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
+#~ msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
+
+#~ msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🪂</i>"
+#~ msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🪂</i>"
+
+#~ msgid ""
+#~ "After each appointment, an automatic email will be sent to suggest your "
+#~ "patient to already book its next appointment."
+#~ msgstr ""
+#~ "بعد كل موعد، سيتم إرسال رسالة بريد إلكتروني تلقائية تقترح فيها على المريض "
+#~ "حجز موعده التالي مسبقاً."
+
+#~ msgid ""
+#~ "Be careful, using the \"Log Note\" in your contact with be displayed only "
+#~ "for you and your eventual team. If you select the \"Send message\" "
+#~ "option, this will notify your customer (which can be really interesting "
+#~ "also)."
+#~ msgstr ""
+#~ "كن حذراً، فاستخدام خيار \"تسجيل ملاحظة\" عند التواصل سيؤدي إلى عرضها لك "
+#~ "ولفريقك النهائي فقط. إذا قمت بتحديد خيار \"إرسال رسالة\"، فسيؤدي ذلك إلى "
+#~ "إشعار عميلك (قد يكون مثيراً للاهتمام أيضاً)."
+
+#~ msgid ""
+#~ "If you open Emily's opportunity in your CRM, you can see in the Chatter "
+#~ "(on the right column) that she received an email from you with a call to "
+#~ "action to book an appointment."
+#~ msgstr ""
+#~ "إذا قمت بفتح فرصة إيميلي الموجودة في تطبيق إدارة علاقات العملاء لديك، "
+#~ "فسترى في الدردشة (في العمود الأيمن) أنها تلقت رسالة بريد إلكتروني منك مع "
+#~ "دعوة لحجز موعد."
+
+#~ msgid "Send Email when Qualified"
+#~ msgstr "إرسال بريد إلكتروني عند التأهيل"
+
+#~ msgid "Stage is set to \"Qualified\""
+#~ msgstr "تم تعيين المرحلة إلى \"مؤهل\""
+
+#~ msgid ""
+#~ "The <strong><font class=\"text-o-color-1\">Appointment App</font></"
+#~ "strong> is automatically updated based on your Calendar. You can easily "
+#~ "lock slots, change appointment hoursand send communication to your "
+#~ "patients fromthe Calendar App."
+#~ msgstr ""
+#~ "يتم تحديث <strong><font class=\"text-o-color-1\">تطبيق المواعيد</font></"
+#~ "strong> تلقائياً بناءً على تقويمك. يمكنك بسهولة قفل الفترات الزمنية وتغيير "
+#~ "ساعات المواعيد وإرسال الرسائل إلى مرضاك من خلال تطبيق التقويم."
+
+#~ msgid "Try it !"
+#~ msgstr "جربه!"
+
+#~ msgid ""
+#~ "Using Odoo, you can easily take notes during your appointments, you can "
+#~ "either use the \"Log Note\" button on your contact record or create a "
+#~ "specific knowledge article (like this one) for each of your patient."
+#~ msgstr ""
+#~ "باستخدام أودو، يمكنك تدوين الملاحظات بسهولة أثناء المواعيد، ويمكنك إما "
+#~ "استخدام زر ”تدوين ملاحظة“ في سجل جهة الاتصال أو إنشاء مقالة معرفية محددة "
+#~ "(مثل هذه المقالة) لكل مريض من مرضاك."
+
+#~ msgid "Basics"
+#~ msgstr "الأساسيات"
+
+#~ msgid "Do you want to go further?"
+#~ msgstr "أتود التعمق أكثر؟"
+
+#~ msgid "Odoo for Therapy Practices"
+#~ msgstr "أودو للممارسات العلاجية"
+
+#~ msgid "Use Case"
+#~ msgstr "حالة استخدام"
+
+#~ msgid ""
+#~ "<strong><font class=\"text-black\"><span style=\"font-weight: normal;"
+#~ "\">Manage your schedule and your availability in the </span></font><font "
+#~ "class=\"text-o-color-1\">Calendar App</font><font class=\"text-"
+#~ "black\"><span style=\"font-weight: normal;\">.</span></font></strong>"
+#~ msgstr ""
+#~ "<strong><font class=\"text-black\"><span style=\"font-weight: normal;"
+#~ "\">قم بإدارة جدول مواعيدك وأوقات توافرك في </span></font><font "
+#~ "class=\"text-o-color-1\">تطبيق التقويم</font><font class=\"text-"
+#~ "black\"><span style=\"font-weight: normal;\">.</span></font></strong>"
+
+#~ msgid ""
+#~ "Ease your invoicing process with the <strong><font class=\"text-o-"
+#~ "color-1\">Invoice App</font></strong>."
+#~ msgstr ""
+#~ "تمكَّن من تسهيل عملية الفوترة باستخدام <strong><font class=\"text-o-"
+#~ "color-1\">تطبيق الفواتير</font></strong>."
+
+#~ msgid ""
+#~ "The <strong><font class=\"text-o-color-1\">Appointments App</font><font "
+#~ "class=\"text-black\"><span style=\"font-weight: normal;\"> manages your "
+#~ "appointment types.</span></font><font class=\"text-o-color-1\"/></strong>"
+#~ msgstr ""
+#~ "يقوم <strong><font class=\"text-o-color-1\">تطبيق المواعيد</font><font "
+#~ "class=\"text-black\"><span style=\"font-weight: normal;\"> بإدارة كافة "
+#~ "أنواع المواعيد لديك.</span></font><font class=\"text-o-color-1\"/></"
+#~ "strong>"
+
+#~ msgid ""
+#~ "The <strong><font class=\"text-o-color-1\">CRM App</font></"
+#~ "strong>(Customer Relationship Management) is the heart of your therapy "
+#~ "practice's patient management."
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">تطبيق CRM</font></strong> (إدارة "
+#~ "علاقات العملاء) هو الأساس في إدارة المرضى في عيادتك العلاجية."

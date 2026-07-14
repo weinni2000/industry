@@ -7,13 +7,14 @@
 # Larissa Manderfeld, 2024
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
+# "Larissa Manderfeld (lman)" <lman@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 12:53+0000\n"
-"PO-Revision-Date: 2025-10-13 11:34+0000\n"
-"Last-Translator: \"Dylan Kiss (dyki)\" <dyki@odoo.com>\n"
+"POT-Creation-Date: 2026-04-03 19:33+0000\n"
+"PO-Revision-Date: 2026-04-24 19:29+0000\n"
+"Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
 "Language-Team: German <https://translate.odoo.com/projects/odoo-19/"
 "industry_restaurant/de/>\n"
 "Language: de\n"
@@ -21,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.website_page_menu
@@ -118,7 +119,7 @@ msgstr ""
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
 msgid ", and feel free to"
-msgstr "und"
+msgstr "und Sie können"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -170,11 +171,11 @@ msgstr ""
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
 msgid ""
-"2. Create your employees' roles under the \"Work Information\" tab. Some are "
-"already created for this demo."
+"2. Create your employees' roles under the \"Settings\" tab. Some are already "
+"created for this demo."
 msgstr ""
-"2. Erstellen Sie die Rollen Ihrer Mitarbeiter im Reiter "
-"„Arbeitsinformationen“. Einige sind bereits für diese Demo erstellt."
+"2. Erstellen Sie die Rollen Ihrer Mitarbeiter unter dem Reiter „Einstellungen"
+"“. Einige sind für diese Demo bereits angelegt."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -327,6 +328,84 @@ msgstr ""
 "Welt kulinarischer Köstlichkeiten direkt an Ihrem Tisch zu erleben."
 
 #. module: industry_restaurant
+#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Appointments App</b>: </font>Allow "
+"customers to book tables online 24/7, reducing phone calls and optimizing "
+"your seating capacity."
+msgstr ""
+"<font class=\"text-o-color-1\"><b>Termine-App</b>: </font>Ermöglichen Sie "
+"Ihren Kunden, rund um die Uhr online Tische zu reservieren, wodurch Sie "
+"weniger Anrufe erhalten und Ihre Sitzplatzkapazität optimieren können."
+
+#. module: industry_restaurant
+#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Inventory App</b>: </font>Track "
+"ingredients and recipes in real-time, using \"Bill of Materials\" (BoM) to "
+"deduct stock automatically as dishes are sold."
+msgstr ""
+"<font class=\"text-o-color-1\"><b>Lager-App</b>: </font>Verfolgen Sie "
+"Zutaten und Rezepte in Echtzeit und verwenden Sie die „Stückliste“, um den "
+"Lagerbestand automatisch zu reduzieren, wenn Gerichte verkauft werden."
+
+#. module: industry_restaurant
+#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Kitchen Display / Printers</b>:</font> "
+"Send orders instantly to the kitchen or bar with specific printing "
+"instructions for different stations (e.g., \"Cold Station\", \"Grill\")."
+msgstr ""
+"<font class=\"text-o-color-1\"><b>Küchendisplay/Drucker</b>:</font> Senden "
+"Sie Bestellungen sofort an die Küche oder die Bar mit spezifischen "
+"Druckanweisungen für verschiedene Stationen (z. B. „Kaltstation“, „Grill“)."
+
+#. module: industry_restaurant
+#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Planning App</b>:</font> Organize shifts "
+"for chefs, servers, and bartenders, ensuring you are adequately staffed for "
+"peak service hours."
+msgstr ""
+"<font class=\"text-o-color-1\"><b>Planungsapp</b>:</font> Organisieren Sie "
+"die Schichten für Köche, Kellner und Barkeeper und stellen Sie sicher, dass "
+"Sie für Stoßzeiten ausreichend Personal haben."
+
+#. module: industry_restaurant
+#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Purchase App</b>:</font> Automate the "
+"reordering of fresh produce and dry goods based on minimum stock rules and "
+"supplier lead times."
+msgstr ""
+"<font class=\"text-o-color-1\"><b>Einkaufsapp</b>:</font> Automatisieren Sie "
+"die Nachbestellung von Frischwaren und Trockenprodukten auf Basis von "
+"Mindestbestandsregeln und Lieferzeiten der Lieferanten."
+
+#. module: industry_restaurant
+#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Restaurant App (POS)</b>:</font> Manage "
+"your floor plan visually, handling table seating, order taking, and bill "
+"splitting directly from the interface."
+msgstr ""
+"<font class=\"text-o-color-1\"><b>Restaurant-App (Kassensystem)</b>:</font> "
+"Verwalten Sie Ihren Grundriss visuell und kümmern Sie sich direkt über die "
+"Benutzeroberfläche um die Tischplatzierung, die Bestellannahme und die "
+"Rechnungsteilung."
+
+#. module: industry_restaurant
+#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Website App</b>:</font> Showcase your "
+"menu, share chef bios, and promote special events with a mouth-watering "
+"online presence."
+msgstr ""
+"<font class=\"text-o-color-1\"><b>Website-App</b>:</font> Präsentieren Sie "
+"Ihre Speisekarte, teilen Sie Biografien Ihrer Köche und bewerben Sie "
+"Sonderveranstaltungen mit einer appetitlichen Online-Präsenz."
+
+#. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.homepage
 msgid "<font class=\"text-white\">Seasoned | Savory | Delicious</font>"
 msgstr "<font class=\"text-white\">Würzig | Herzhaft | Köstlich</font>"
@@ -362,8 +441,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">✏️</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Info\">✏️</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">✏️</i>"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -371,8 +450,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">💡</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Info\">💡</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">💡</i>"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -380,8 +459,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">🔑</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Info\">🔑</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">🔑</i>"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -389,8 +468,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">🕣</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Info\">🕣</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">🕣</i>"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -398,8 +477,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">✅</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Success\">✅</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner für Erfolg\">✅</i>"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -407,8 +486,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">🔑</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Success\">🔑</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\">🔑</i>"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.homepage
@@ -592,8 +671,8 @@ msgid ""
 "Discover the basics of this package and explore all the possibilities Odoo "
 "offers to improve your experience."
 msgstr ""
-"Entdecken Sie die Grundlagen dieses Pakets und erkunden Sie alle "
-"Möglichkeiten, die Odoo bietet, um Ihre Erfahrung zu verbessern."
+"Erkunden Sie die Grundlagen dieses Pakets und alle Möglichkeiten, die Odoo "
+"bietet, um Ihre Erfahrung zu verbessern."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -632,16 +711,6 @@ msgid ""
 msgstr ""
 "Öffnen Sie Ihre Kasse auf dem Hauptdashboard der <strong>Kassensystemapp</"
 "strong> mit dem PIN-Code 3333."
-
-#. module: industry_restaurant
-#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
-msgid ""
-"Get visibility and share your menu with a great <font class=\"text-o-"
-"color-1\"><strong>Website</strong></font>."
-msgstr ""
-"Erhöhen Sie Ihre Sichtbarkeit und veröffentlichen Sie Ihre Speisekarte auf "
-"einer großartigen <font class=\"text-o-color-1\"><strong>Website</strong></"
-"font>."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -691,7 +760,7 @@ msgstr "Happy Hour"
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
 msgid "Hello there!"
-msgstr "Hallo!"
+msgstr "Guten Tag!"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -734,10 +803,10 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
 msgid ""
 "If you want to assign them an Odoo user account, you can select a related "
-"user in the \"hr/ Settings\" tab."
+"user in the same \"Settings\" tab."
 msgstr ""
-"Wenn Sie ihnen ein Odoo-Benutzerkonto zuweisen möchten, können Sie im Reiter "
-"„HR-Einstellungen“ einen entsprechenden Benutzer auswählen."
+"Wenn Sie ihnen ein Odoo-Benutzerkonto zuweisen möchten, können Sie im selben "
+"Reiter „Einstellungen“ einen entsprechenden Benutzer auswählen."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -745,9 +814,9 @@ msgid ""
 "If you want to execute a practical guided tour of this module, you should "
 "Import demo data and try the Demo - Use Case. (In the next Knowledge Article)"
 msgstr ""
-"Wenn Sie eine praktische Führung durch dieses Modul durchführen möchten, "
-"sollten Sie die Demodaten importieren und den Demoanwendungsfall "
-"ausprobieren. (Im nächsten Artikel der Wissensdatenbank)"
+"Wenn Sie eine praktische Einführung in dieses Modul wünschen, sollten Sie "
+"die Demodaten importieren und den Demo-Anwendungsfall ausprobieren. (Im "
+"nächsten Artikel der Wissensdatenbank)"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.homepage
@@ -765,15 +834,6 @@ msgstr "Ketchup 500 ml"
 #: model:planning.role,name:industry_restaurant.planning_role_3
 msgid "Kitchen"
 msgstr "Küche"
-
-#. module: industry_restaurant
-#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
-msgid ""
-"Let your customer book a table anytime with the <font class=\"text-o-"
-"color-1\"><strong>Appointment App</strong></font>."
-msgstr ""
-"Lassen Sie Ihre Kunden jederzeit einen Tisch mit der <font class=\"text-o-"
-"color-1\"><strong>Terminapp</strong></font> reservieren."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.website_page_menu
@@ -816,8 +876,8 @@ msgid ""
 "strong></font>)"
 msgstr ""
 "Verwalten Sie Ihre Buchhaltung einfach denn je zuvor in einer vollständig "
-"integrierten Umgebung. (<font class=\"text-o-"
-"color-1\"><strong>Buchhaltungsapp</strong></font>)"
+"integrierten Umgebung. (<font class=\"text-o-color-1\"><strong>"
+"Buchhaltungsapp</strong></font>)"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -852,7 +912,7 @@ msgid ""
 "an additional cashier (and much more)."
 msgstr ""
 "Odoo ist vollständig in eine App integriert. Laden Sie sie herunter, um Ihr "
-"Telefon in eine zusätzliche Kasse (und vieles mehr) zu verwandeln."
+"Smartphone in eine zusätzliche Kasse (und vieles mehr) zu verwandeln."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -868,7 +928,7 @@ msgid ""
 msgstr ""
 "Das ist natürlich nur eine Übersicht über die Funktionen, die in diesem "
 "Paket enthalten sind. Sie können gerne neue Apps hinzufügen, Demodaten "
-"löschen/anpassen und etwas herumspielen."
+"löschen oder anpassen und etwas herumspielen."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -988,16 +1048,6 @@ msgstr "Aufgaben"
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
 msgid ""
-"The <font class=\"text-o-color-1\"><strong>Kitchen Display</strong></font> "
-"will ensure a great follow-up of every order in your bar and kitchen."
-msgstr ""
-"Das <font class=\"text-o-color-1\"><strong>Küchendisplay</strong></font> "
-"sorgt für eine hervorragende Nachverfolgung jeder Bestellung in Ihrer Bar "
-"und Küche."
-
-#. module: industry_restaurant
-#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
-msgid ""
 "The Point of Sale is protected to assign different rights to employees "
 "depending on your level of trust. <br/>You can remove this PIN code "
 "requirement : Point of Sale &gt; Configuration &gt; Setting &gt; PoS "
@@ -1023,7 +1073,8 @@ msgstr ""
 msgid ""
 "These all go free in your current subscription; feel free to explore! 🙃"
 msgstr ""
-"Sie sind alle in Ihrem aktuellen Abonnement enthalten. Entdecken Sie sie! 🙃"
+"All diese Apps sind in Ihrem aktuellen Abonnement enthalten. Erkunden Sie "
+"sie! 🙃"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -1041,55 +1092,6 @@ msgstr ""
 #: model:project.task.type,name:industry_restaurant.project_task_type_1
 msgid "To Do"
 msgstr "To-do"
-
-#. module: industry_restaurant
-#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
-msgid ""
-"Use the <font class=\"text-o-color-1\"><strong>Inventory App</strong></font> "
-"to manage your stock and receive products."
-msgstr ""
-"Verwenden Sie die <font class=\"text-o-color-1\"><strong>Lagerapp</strong></"
-"font>, um Ihren Bestand zu verwalten und Produkte zu erhalten."
-
-#. module: industry_restaurant
-#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
-msgid ""
-"Use the <font class=\"text-o-color-1\"><strong>Planning App</strong></font> "
-"to schedule and share your shifts with your employees."
-msgstr ""
-"Verwenden Sie die <font class=\"text-o-color-1\"><strong>Planungsapp</"
-"strong></font>, um Ihre Schichten zu planen und mit Ihren Mitarbeitern zu "
-"teilen."
-
-#. module: industry_restaurant
-#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
-msgid ""
-"Use the <font class=\"text-o-color-1\"><strong>Point of Sale</strong></font> "
-"at the desk for your sales. You can also download the Odoo Mobile App on any "
-"phone to take orders."
-msgstr ""
-"Verwenden Sie das <font class=\"text-o-color-1\"><strong>Kassensystem</"
-"strong></font> am Schalter für Ihre Verkäufe. Sie können auch die Odoo "
-"Mobile App auf jedes Telefon herunterladen, um Bestellungen aufzunehmen."
-
-#. module: industry_restaurant
-#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
-msgid ""
-"Use the <font class=\"text-o-color-1\"><strong>Project App</strong></font> "
-"to never miss a reordering or a cleaning task."
-msgstr ""
-"Verwenden Sie die <font class=\"text-o-color-1\"><strong>Projekte-App</"
-"strong></font>, um keine Nachbestell- oder Reinigungsaufgabe mehr zu "
-"verpassen."
-
-#. module: industry_restaurant
-#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
-msgid ""
-"Use the <font class=\"text-o-color-1\"><strong>Purchase App</strong></font> "
-"to reorder your products."
-msgstr ""
-"Verwenden Sie die <font class=\"text-o-color-1\"><strong>Einkaufsapp</"
-"strong></font>, um Ihre Produkte erneut zu bestellen."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.website_page_menu
@@ -1112,14 +1114,15 @@ msgid ""
 "Willing your employees to clock in and out? The <strong>Attendances App </"
 "strong>enables you to follow up on this."
 msgstr ""
-"Möchten Sie, dass Ihre Mitarbeiter ein- und ausstempeln? Mit der <strong"
-">Anwesenheiten-App</strong> können Sie dies nachverfolgen."
+"Möchten Sie, dass Ihre Mitarbeiter ein- und ausstempeln? Mit der "
+"<strong>Anwesenheiten-App</strong> können Sie dies nachverfolgen."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
 msgid "Would you like to discuss your Odoo setup with us or go even further?"
 msgstr ""
-"Möchten Sie Ihre Odoo-Einrichtung mit uns besprechen oder noch weiter gehen?"
+"Möchten Sie Ihre Odoo-Konfiguration mit uns besprechen oder noch einen "
+"Schritt weiter gehen?"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -1204,7 +1207,7 @@ msgid ""
 "your Odoo setup to fit your business needs."
 msgstr ""
 "Sie haben diesen Demo-Anwendungsfall abgeschlossen! Es gibt Millionen "
-"anderer Möglichkeiten, Ihre Odoo-Einrichtung an Ihre geschäftlichen "
+"anderer Möglichkeiten, Ihre Odoo-Konfiguration an Ihre geschäftlichen "
 "Anforderungen anzupassen."
 
 #. module: industry_restaurant
@@ -1255,8 +1258,8 @@ msgid ""
 "the <strong>Point of Sales App</strong>."
 msgstr ""
 "Möglicherweise bieten Sie auf Essenslieferungen an. Zu diesem Zweck verfügt "
-"Odoo über eine Integration von <strong>UrbanPiper</strong> mit der <strong"
-">Kassensystem-App</strong>."
+"Odoo über eine Integration von <strong>UrbanPiper</strong> mit der "
+"<strong>Kassensystem-App</strong>."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -1275,10 +1278,10 @@ msgid ""
 "App</strong> to discover a sample website and explore millions of "
 "possibilities by clicking on the \"Edit\" button."
 msgstr ""
-"Noch nie war die Verwaltung Ihrer Website so einfach. Gehen Sie zur <strong"
-">Website-App</strong>, um eine Beispielwebsite zu entdecken und Millionen "
-"von Möglichkeiten zu erkunden, indem Sie auf die Schaltfläche „Bearbeiten“ "
-"klicken."
+"Noch nie war die Verwaltung Ihrer Website so einfach. Gehen Sie zur "
+"<strong>Website-App</strong>, um eine Beispielwebsite zu entdecken und "
+"Millionen von Möglichkeiten zu erkunden, indem Sie auf die Schaltfläche "
+"„Bearbeiten“ klicken."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -1303,7 +1306,7 @@ msgstr ", wenn Sie Hilfe benötigen!<br/>"
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
 msgid "request a demo"
-msgstr "bitten Sie um eine Demo"
+msgstr "eine Demo buchen"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -1339,6 +1342,76 @@ msgstr "🎓 Kassensystem"
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
 msgid "🎓 Website"
 msgstr "🎓 Website"
+
+#~ msgid ""
+#~ "If you want to assign them an Odoo user account, you can select a related "
+#~ "user in the \"hr/ Settings\" tab."
+#~ msgstr ""
+#~ "Wenn Sie ihnen ein Odoo-Benutzerkonto zuweisen möchten, können Sie im "
+#~ "Reiter „HR-Einstellungen“ einen entsprechenden Benutzer auswählen."
+
+#~ msgid ""
+#~ "Get visibility and share your menu with a great <font class=\"text-o-"
+#~ "color-1\"><strong>Website</strong></font>."
+#~ msgstr ""
+#~ "Erhöhen Sie Ihre Sichtbarkeit und veröffentlichen Sie Ihre Speisekarte "
+#~ "auf einer großartigen <font class=\"text-o-color-1\"><strong>Website</"
+#~ "strong></font>."
+
+#~ msgid ""
+#~ "Let your customer book a table anytime with the <font class=\"text-o-"
+#~ "color-1\"><strong>Appointment App</strong></font>."
+#~ msgstr ""
+#~ "Lassen Sie Ihre Kunden jederzeit einen Tisch mit der <font class=\"text-o-"
+#~ "color-1\"><strong>Terminapp</strong></font> reservieren."
+
+#~ msgid ""
+#~ "The <font class=\"text-o-color-1\"><strong>Kitchen Display</strong></"
+#~ "font> will ensure a great follow-up of every order in your bar and "
+#~ "kitchen."
+#~ msgstr ""
+#~ "Das <font class=\"text-o-color-1\"><strong>Küchendisplay</strong></font> "
+#~ "sorgt für eine hervorragende Nachverfolgung jeder Bestellung in Ihrer Bar "
+#~ "und Küche."
+
+#~ msgid ""
+#~ "Use the <font class=\"text-o-color-1\"><strong>Inventory App</strong></"
+#~ "font> to manage your stock and receive products."
+#~ msgstr ""
+#~ "Verwenden Sie die <font class=\"text-o-color-1\"><strong>Lagerapp</"
+#~ "strong></font>, um Ihren Bestand zu verwalten und Produkte zu erhalten."
+
+#~ msgid ""
+#~ "Use the <font class=\"text-o-color-1\"><strong>Planning App</strong></"
+#~ "font> to schedule and share your shifts with your employees."
+#~ msgstr ""
+#~ "Verwenden Sie die <font class=\"text-o-color-1\"><strong>Planungsapp</"
+#~ "strong></font>, um Ihre Schichten zu planen und mit Ihren Mitarbeitern zu "
+#~ "teilen."
+
+#~ msgid ""
+#~ "Use the <font class=\"text-o-color-1\"><strong>Point of Sale</strong></"
+#~ "font> at the desk for your sales. You can also download the Odoo Mobile "
+#~ "App on any phone to take orders."
+#~ msgstr ""
+#~ "Verwenden Sie das <font class=\"text-o-color-1\"><strong>Kassensystem</"
+#~ "strong></font> am Schalter für Ihre Verkäufe. Sie können auch die Odoo "
+#~ "Mobile App auf jedes Telefon herunterladen, um Bestellungen aufzunehmen."
+
+#~ msgid ""
+#~ "Use the <font class=\"text-o-color-1\"><strong>Project App</strong></"
+#~ "font> to never miss a reordering or a cleaning task."
+#~ msgstr ""
+#~ "Verwenden Sie die <font class=\"text-o-color-1\"><strong>Projekte-App</"
+#~ "strong></font>, um keine Nachbestell- oder Reinigungsaufgabe mehr zu "
+#~ "verpassen."
+
+#~ msgid ""
+#~ "Use the <font class=\"text-o-color-1\"><strong>Purchase App</strong></"
+#~ "font> to reorder your products."
+#~ msgstr ""
+#~ "Verwenden Sie die <font class=\"text-o-color-1\"><strong>Einkaufsapp</"
+#~ "strong></font>, um Ihre Produkte erneut zu bestellen."
 
 #~ msgid ""
 #~ "1. First, create all your employees in the database. Navigate to the "
@@ -1403,13 +1476,6 @@ msgstr "🎓 Website"
 #~ "Wenn Sie zu Ihrer Einkaufsapp navigieren, sehen Sie eine neue Bestellung, "
 #~ "die zum Absenden bereit ist. Sie können eine Verpackung auswählen, wenn "
 #~ "für Ihr Produkt bereits eine vorhanden ist."
-
-#~ msgid ""
-#~ "If you want to assign them an Odoo user account, you can select a related "
-#~ "user in the \"HR Settings\" tab."
-#~ msgstr ""
-#~ "Wenn Sie ihnen ein Odoo-Benutzerkonto zuweisen möchten, können Sie im "
-#~ "Reiter „HR-Einstellungen“ einen entsprechenden Benutzer auswählen."
 
 #~ msgid "Manage your booking using the Appointment App."
 #~ msgstr "Verwalten Sie Ihre Buchung mit der Terminapp."

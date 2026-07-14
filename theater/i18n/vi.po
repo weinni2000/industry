@@ -4,13 +4,14 @@
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# "Thi Huong Nguyen (thng)" <thng@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 10:37+0000\n"
-"PO-Revision-Date: 2025-11-08 19:52+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-04-10 19:49+0000\n"
+"PO-Revision-Date: 2026-04-04 09:52+0000\n"
+"Last-Translator: \"Thi Huong Nguyen (thng)\" <thng@odoo.com>\n"
 "Language-Team: Vietnamese <https://translate.odoo.com/projects/odoo-19/"
 "theater/vi/>\n"
 "Language: vi\n"
@@ -18,26 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
-
-#. module: theater
-#: model_terms:ir.ui.view,arch_db:theater.products
-msgid "\" category."
-msgstr "\" danh mục."
-
-#. module: theater
-#: model_terms:ir.ui.view,arch_db:theater.products
-msgid ""
-"&amp;nbsp;<br/>All\n"
-"                      products"
-msgstr ""
-"&amp;nbsp;<br/>Tất cả\n"
-"                      sản phẩm"
-
-#. module: theater
-#: model_terms:ir.ui.view,arch_db:theater.products
-msgid "'. Showing results for '"
-msgstr "'. Đang hiện kết quả cho '"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: theater
 #: model:product.template,name:theater.product_product_1_product_template
@@ -47,12 +29,12 @@ msgstr "Mùa diễn 2025"
 #. module: theater
 #: model:product.pricelist,name:theater.product_pricelist_2
 msgid "2025 Season Members"
-msgstr ""
+msgstr "Thành viên mùa 2025"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.ir_ui_view_3902
 msgid "<b>Designed</b><br/>for Companies"
-msgstr ""
+msgstr "<b>Được thiết kế</b><br/>cho công ty"
 
 #. module: theater
 #: model_terms:event.event,description:theater.event_event_1
@@ -119,15 +101,6 @@ msgstr ""
 "fst-normal\">⚠️</i>"
 
 #. module: theater
-#: model_terms:ir.ui.view,arch_db:theater.products
-msgid ""
-"<small class=\"mx-auto\">\n"
-"                          <b>Clear Filters</b>\n"
-"                        </small>\n"
-"                        <i class=\"oi oi-close\" role=\"presentation\"/>"
-msgstr ""
-
-#. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
 msgid ""
 "<span class=\"display-4-fs\"><strong>Odoo for Theater</strong></span><br/>"
@@ -141,24 +114,59 @@ msgid "<span class=\"h1-fs\">Basics</span>"
 msgstr "<span class=\"h1-fs\">Cơ bản</span>"
 
 #. module: theater
-#: model_terms:ir.ui.view,arch_db:theater.products
-msgid "<span class=\"text-muted\">Search results for </span>'"
+#: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
+msgid ""
+"<strong><b>Accounting App</b>: </strong>Automate your financial reporting, "
+"tracking revenue from ticket sales\n"
+"                    and concessions in real-time."
 msgstr ""
 
 #. module: theater
-#: model_terms:ir.ui.view,arch_db:theater.products
-msgid "<span class=\"text-muted\">Searching</span>"
-msgstr "<span class=\"text-muted\">Tìm kiếm</span>"
+#: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
+msgid ""
+"<strong><b>CRM App</b>: </strong>Manage your passholders and sponsors "
+"onboarding and follow up processes."
+msgstr ""
 
 #. module: theater
-#: model_terms:ir.ui.view,arch_db:theater.products
-msgid "<span class=\"text-muted\">in</span>"
-msgstr "<span class=\"text-muted\">trong</span>"
+#: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
+msgid ""
+"<strong><b>Contacts App</b>: </strong>Build a database of patrons, members, "
+"and press contacts to nurture\n"
+"                    relationships and loyalty."
+msgstr ""
 
 #. module: theater
-#: model_terms:ir.ui.view,arch_db:theater.products
-msgid "<span class=\"visually-hidden\">filters active</span>"
-msgstr "<span class=\"visually-hidden\">bộ lọc đang hoạt động</span>"
+#: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
+msgid ""
+"<strong><b>Email Marketing App</b>: </strong>Keep your audience engaged by "
+"sending newsletters about upcoming\n"
+"                    premieres, cast announcements, and special offers."
+msgstr ""
+
+#. module: theater
+#: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
+msgid ""
+"<strong><b>Events App</b>: </strong>Create and manage your show calendar, "
+"selling tickets online with support\n"
+"                    for different seating categories and pricing.<br/>"
+msgstr ""
+
+#. module: theater
+#: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
+msgid ""
+"<strong><b>Point of Sale App</b>: </strong>Manage your concession stand or "
+"bar efficiently, handling fast-paced\n"
+"                    sales of drinks and snacks during intermission.<br/>"
+msgstr ""
+
+#. module: theater
+#: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
+msgid ""
+"<strong><b>Website App</b>: </strong>Showcase your season program with a "
+"beautiful, mobile-responsive online\n"
+"                    agenda that drives ticket sales."
+msgstr ""
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
@@ -171,6 +179,8 @@ msgid ""
 "<strong>Accounting</strong>: Handle donations, bar revenue, ticket sales, "
 "and grant reporting."
 msgstr ""
+"<strong>Kế toán</strong>: Quản lý các khoản đóng góp, doanh thu từ quầy bar, "
+"bán vé và báo cáo tài trợ."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
@@ -178,13 +188,8 @@ msgid ""
 "<strong>Add QR codes</strong> to printed flyers or posters to link directly "
 "to online ticketing pages."
 msgstr ""
-
-#. module: theater
-#: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
-msgid ""
-"<strong>CRM</strong>: to track contacts, especially for fundraising and "
-"seasonal passes"
-msgstr ""
+"<strong>Thêm mã QR</strong> vào tờ rơi hoặc poster in để liên kết trực tiếp "
+"đến trang đặt vé trực tuyến."
 
 #. module: theater
 #: model_terms:event.event,description:theater.event_event_1
@@ -199,6 +204,8 @@ msgid ""
 "<strong>Create event templates</strong> for recurring formats like Matinees, "
 "Youth Theater, or Seasonal Openings."
 msgstr ""
+"<strong>Tạo mẫu sự kiện</strong> cho các định dạng lặp lại như Chương trình "
+"chiếu buổi chiều, Nhà hát Thanh thiếu niên hoặc Khai mạc mùa."
 
 #. module: theater
 #: model_terms:event.event,description:theater.event_event_1
@@ -219,29 +226,21 @@ msgid ""
 "<strong>Email Marketing</strong>: Send newsletters, invitations, or "
 "fundraising campaigns."
 msgstr ""
-
-#. module: theater
-#: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
-msgid ""
-"<strong>Email Marketing</strong>: to promote upcoming shows and communicate "
-"with your audience"
-msgstr ""
+"<strong> Marketing qua email</strong>: Gửi bản tin email, lời mời hoặc các "
+"chiến dịch gây quỹ."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
 msgid "<strong>Employees</strong>: Manage contracts, shifts, and payroll."
 msgstr ""
-
-#. module: theater
-#: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
-msgid "<strong>Events</strong>: to manage performances and ticket sales"
-msgstr ""
+"<strong>Nhân viên</strong>: Quản lý hợp đồng, ca làm việc và Bảng lương."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
 msgid ""
 "<strong>Inventory</strong>: Track costumes, props, and technical equipment."
 msgstr ""
+"<strong>Tồn kho</strong>: Theo dõi trang phục, đạo cụ và thiết bị kỹ thuật."
 
 #. module: theater
 #: model_terms:event.event,description:theater.event_event_1
@@ -256,6 +255,9 @@ msgid ""
 "<strong>Marketing Automation</strong>: Send reminders before performances, "
 "thank-you emails to donors, or targeted promotions based on past attendance."
 msgstr ""
+"<strong>Tự động hóa tiếp thị</strong>: Gửi lời nhắc trước các buổi biểu "
+"diễn, email cảm ơn đến nhà tài trợ hoặc các chương trình khuyến mãi nhắm mục "
+"tiêu dựa trên lịch sử tham dự trước đây."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
@@ -263,11 +265,8 @@ msgid ""
 "<strong>Planning</strong>: Schedule rehearsals, performances, and volunteer "
 "shifts."
 msgstr ""
-
-#. module: theater
-#: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
-msgid "<strong>Point of Sale</strong>: to sell drinks and snacks at the bar"
-msgstr ""
+"<strong>Kế hoạch</strong>: Lên lịch tập luyện, biểu diễn và ca trực tình "
+"nguyện."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
@@ -275,6 +274,9 @@ msgid ""
 "<strong>Social Marketing</strong>: Schedule posts about upcoming shows, cast "
 "announcements, or behind-the-scenes content across platforms."
 msgstr ""
+"<strong>Marketing trên Mạng xã hội</strong>: Lên lịch đăng bài về các chương "
+"trình sắp tới, thông báo về dàn diễn viên hoặc nội dung hậu trường trên các "
+"nền tảng."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
@@ -282,6 +284,8 @@ msgid ""
 "<strong>Tag contacts</strong> in CRM by role (Actor, Volunteer, Donor, "
 "Press) to streamline communication."
 msgstr ""
+"<strong>Gán nhãn cho các liên hệ</strong> trong CRM theo vai trò (Diễn viên, "
+"Tình nguyện viên, Nhà tài trợ, Báo chí) để tối ưu hóa việc truyền thông."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
@@ -289,6 +293,8 @@ msgid ""
 "<strong>Track bar sales</strong> separately in PoS to understand "
 "intermission preferences and plan inventory."
 msgstr ""
+"<strong>Theo dõi riêng doanh số bán hàng tại bar</strong> trong hệ thống POS "
+"để hiểu sở thích của khách hàng và lập kế hoạch tồn kho."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
@@ -296,13 +302,8 @@ msgid ""
 "<strong>Use Marketing Automation</strong> to send tailored communications "
 "before and after each performance."
 msgstr ""
-
-#. module: theater
-#: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
-msgid ""
-"<strong>Website</strong> and <strong>eCommerce</strong>: to showcase your "
-"theater and sell tickets online"
-msgstr ""
+"Sử dụng bộ <strong>công cụ marketing</strong> toàn diện của Odoo để duy trì "
+"kết nối và cập nhật cho khán giả của bạn:"
 
 #. module: theater
 #: model_terms:product.template,description_ecommerce:theater.product_product_1_product_template
@@ -325,16 +326,20 @@ msgid ""
 "<strong>Your all-access ticket to a year of unforgettable performances.</"
 "strong>"
 msgstr ""
+"<strong>Vé thông hành toàn diện của bạn cho một năm đầy những buổi biểu diễn "
+"đáng nhớ.</strong>"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.homepage
 msgid "A breathtaking performance"
-msgstr ""
+msgstr "Một màn trình diễn tuyệt vời"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
 msgid "Add beautiful descriptions, images, and trailers to promote your shows."
 msgstr ""
+"Thêm các mô tả đẹp mắt, hình ảnh và trailer để quảng bá cho các chương trình "
+"của bạn."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
@@ -342,6 +347,8 @@ msgid ""
 "All ticket purchases go through your Events app. Visitors can browse and buy "
 "in a few clicks."
 msgstr ""
+"Tất cả các giao dịch mua vé đều được thực hiện qua ứng dụng Sự kiện của bạn. "
+"Khách tham quan có thể duyệt và mua vé chỉ với vài cú nhấp chuột."
 
 #. module: theater
 #: model_terms:event.event,description:theater.event_event_1
@@ -351,7 +358,7 @@ msgstr "Amira Bowen trong vai Juliet"
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.homepage
 msgid "Artistic expression<br/>meeting community engagement"
-msgstr ""
+msgstr "Biểu đạt nghệ thuật<br/>kết hợp với sự tham gia của cộng đồng"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.homepage
@@ -380,7 +387,7 @@ msgstr ""
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
 msgid "Assign tasks and reminders to staff or volunteers."
-msgstr ""
+msgstr "Giao nhiệm vụ và nhắc nhở cho nhân viên hoặc tình nguyện viên."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.homepage
@@ -400,36 +407,14 @@ msgstr ""
 "và mở rộng giới hạn của nghệ thuật trình diễn."
 
 #. module: theater
-#: model_terms:ir.ui.view,arch_db:theater.products
-msgid "Back to {{0}}"
-msgstr "Quay lại {{0}}"
-
-#. module: theater
 #: model_terms:event.event,description:theater.event_event_2
 msgid "Beatrice Cook as Lady Wibbleton"
-msgstr ""
-
-#. module: theater
-#: model_terms:ir.ui.view,arch_db:theater.products
-msgid "Clear Filters"
-msgstr "Xoá bộ lọc"
-
-#. module: theater
-#: model_terms:ir.ui.view,arch_db:theater.products
-msgid "Clear search for this category"
-msgstr ""
-
-#. module: theater
-#: model_terms:ir.ui.view,arch_db:theater.products
-msgid ""
-"Click <i>'New'</i> in the\n"
-"                      top-right corner to create your first product."
-msgstr ""
+msgstr "Beatrice Cook trong vai Lady Wibbleton"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
 msgid "Connect to a barcode scanner or receipt printer."
-msgstr ""
+msgstr "Kết nối với máy quét mã vạch hoặc máy in hóa đơn."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.homepage
@@ -440,6 +425,8 @@ msgstr "Kết nối cộng đồng"
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
 msgid "Consider adding these apps to grow your theater operations:"
 msgstr ""
+"Xem xét việc thêm các ứng dụng này để phát triển hoạt động của rạp chiếu "
+"phim:"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
@@ -447,6 +434,8 @@ msgid ""
 "Create custom stages (e.g. Prospect → Confirmed Passholder → VIP Guest) to "
 "manage every relationship like a pro."
 msgstr ""
+"Tạo các giai đoạn tùy chỉnh (Ví dụ: Khách hàng tiềm năng → Chủ thẻ xác nhận "
+"→ Khách VIP) để quản lý mọi mối quan hệ như một chuyên gia."
 
 #. module: theater
 #: model_terms:event.event,description:theater.event_event_3
@@ -464,18 +453,6 @@ msgid "Donations"
 msgstr "Quyên góp"
 
 #. module: theater
-#: model_terms:ir.ui.view,arch_db:theater.products
-msgid ""
-"Drag building blocks here to customize the\n"
-"                      footer for \""
-msgstr ""
-
-#. module: theater
-#: model_terms:ir.ui.view,arch_db:theater.products
-msgid "Drag building blocks here to customize the header for \""
-msgstr "Kéo khối dựng ở đây để tùy chỉnh phần header cho \""
-
-#. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
 msgid ""
 "Each theater production is managed as an event. Create a new event for every "
@@ -489,7 +466,7 @@ msgstr ""
 #. module: theater
 #: model_terms:event.event,description:theater.event_event_2
 msgid "Ellie Tran as Miss Primm"
-msgstr ""
+msgstr "Ellie Tran trong vai Miss Primm"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.homepage
@@ -499,7 +476,7 @@ msgstr "Địa chỉ Email"
 #. module: theater
 #: model_terms:product.public.category,website_description:theater.product_public_category_5
 msgid "Enhance your skills with hands-on learning experiences."
-msgstr ""
+msgstr "Nâng cao kỹ năng của bạn thông qua các trải nghiệm học tập thực hành."
 
 #. module: theater
 #: model:product.public.category,name:theater.product_public_category_6
@@ -509,17 +486,12 @@ msgstr "Sự kiện"
 #. module: theater
 #: model_terms:product.public.category,website_description:theater.product_public_category_6
 msgid "Explore upcoming shows and special events happening soon."
-msgstr ""
+msgstr "Khám phá các chương trình và sự kiện đặc biệt sắp diễn ra."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.ir_ui_view_3902
 msgid "Facebook"
 msgstr "Facebook"
-
-#. module: theater
-#: model_terms:ir.ui.view,arch_db:theater.products
-msgid "Filters"
-msgstr "Bộ lọc"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.ir_ui_view_3902
@@ -529,22 +501,22 @@ msgstr "Theo dõi chúng tôi"
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
 msgid "Follow up with sponsors, donors, or schools."
-msgstr ""
+msgstr "Liên hệ lại với các nhà tài trợ, nhà hảo tâm hoặc các trường học."
 
 #. module: theater
 #: model_terms:event.event,description:theater.event_event_3
 msgid "Friday, November 7, 2025 – 8:00 PM"
-msgstr ""
+msgstr "Thứ Sáu, ngày 7 tháng 11 năm 2025 – 8:00 tối"
 
 #. module: theater
 #: model_terms:event.event,description:theater.event_event_2
 msgid "Friday, October 4, 2025 – 7:00 PM"
-msgstr ""
+msgstr "Thứ Sáu, ngày 4 tháng 10 năm 2025 – 7:00 tối"
 
 #. module: theater
 #: model_terms:event.event,description:theater.event_event_1
 msgid "Friday, September 19, 2025 – 7:30 PM"
-msgstr ""
+msgstr "Thứ Sáu, ngày 19 tháng 9 năm 2025 – 7 giờ 30 phút tối"
 
 #. module: theater
 #: model:event.event.ticket,name:theater.event_event_ticket_1
@@ -558,11 +530,13 @@ msgid ""
 "Generation<br/>Performing\n"
 "                      Arts Theater."
 msgstr ""
+"Nhà hát<br/>Nghệ thuật\n"
+"Biểu diễn."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.homepage
 msgid "Get ready to dance"
-msgstr ""
+msgstr "Hãy sẵn sàng để nhảy múa"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.homepage
@@ -577,22 +551,17 @@ msgstr "Thẻ quà tặng"
 #. module: theater
 #: model_terms:product.public.category,website_description:theater.product_public_category_8
 msgid "Give the gift of performance with our flexible gift cards."
-msgstr ""
-
-#. module: theater
-#: model_terms:ir.ui.view,arch_db:theater.products
-msgid "Grid"
-msgstr "Lưới"
+msgstr "Tặng món quà của sự hoàn hảo với thẻ quà tặng linh hoạt của chúng tôi."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.homepage
 msgid "Guaranteed emotions"
-msgstr ""
+msgstr "Cảm xúc được đảm bảo"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
 msgid "Highlight upcoming shows with an event calendar."
-msgstr ""
+msgstr "Làm nổi bật các sự kiện sắp tới với lịch sự kiện."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
@@ -617,6 +586,8 @@ msgstr "Instagram"
 #: model_terms:product.public.category,website_description:theater.product_public_category_3
 msgid "Join our community for special perks and insider access."
 msgstr ""
+"Hãy tham gia cộng đồng của chúng tôi để nhận những ưu đãi đặc biệt và quyền "
+"truy cập độc quyền."
 
 #. module: theater
 #: model_terms:event.event,description:theater.event_event_2
@@ -676,6 +647,8 @@ msgstr "Moira Ellis trong vai Nora"
 #: model_terms:product.public.category,website_description:theater.product_public_category_7
 msgid "Never miss a show with our convenient subscription plans."
 msgstr ""
+"Đừng bao giờ bỏ lỡ bất kỳ chương trình nào với các gói đăng ký tiện lợi của "
+"chúng tôi."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.ir_ui_view_3897
@@ -683,38 +656,13 @@ msgid "Next Events"
 msgstr "Sự kiện tiếp theo"
 
 #. module: theater
-#: model_terms:ir.ui.view,arch_db:theater.products
-msgid ""
-"No\n"
-"                      results found for '"
-msgstr ""
-
-#. module: theater
-#: model_terms:ir.ui.view,arch_db:theater.products
-msgid "No product defined"
-msgstr "Không có sản phẩm"
-
-#. module: theater
-#: model_terms:ir.ui.view,arch_db:theater.products
-msgid "No product defined in this category."
-msgstr "Không có sản phẩm nào được chỉ định trong danh mục này."
-
-#. module: theater
-#: model_terms:ir.ui.view,arch_db:theater.products
-msgid "No results"
-msgstr "Không có kết quả"
-
-#. module: theater
-#: model_terms:ir.ui.view,arch_db:theater.products
-msgid "No results for \""
-msgstr "Không có kết quả cho \""
-
-#. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
 msgid ""
 "Odoo works on tablets, laptops, or touchscreens — ideal for temporary bar "
 "setups."
 msgstr ""
+"Odoo hoạt động trên máy tính bảng, laptop hoặc màn hình cảm ứng — lý tưởng "
+"cho các quầy bar tạm thời."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
@@ -724,17 +672,19 @@ msgstr "Odoo.com/trial"
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
 msgid "Offer different ticket types and discount codes."
-msgstr ""
+msgstr "Cung cấp các loại vé khác nhau và mã giảm giá."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
 msgid "Offer merchandise, gift cards, or season passes."
-msgstr ""
+msgstr "Cung cấp hàng hóa, thẻ quà tặng hoặc vé mùa."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
 msgid "Offer theater members a discount using loyalty pricing."
 msgstr ""
+"Cung cấp ưu đãi giảm giá cho thành viên nhà hát thông qua chính sách giá ưu "
+"đãi dành cho khách hàng thân thiết."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.homepage
@@ -756,7 +706,7 @@ msgstr ""
 #: model:event.event.ticket,name:theater.event_event_ticket_6
 #: model:event.event.ticket,name:theater.event_event_ticket_7
 msgid "Pay What You Can"
-msgstr ""
+msgstr "Trả theo khả năng của bạn"
 
 #. module: theater
 #: model_terms:event.event,description:theater.event_event_2
@@ -764,11 +714,8 @@ msgid ""
 "Perfect for fans of Agatha Christie, Monty Python, and mystery novels with a "
 "dash of nonsense."
 msgstr ""
-
-#. module: theater
-#: model_terms:ir.ui.view,arch_db:theater.products
-msgid "Product"
-msgstr "Sản phẩm"
+"Hoàn hảo cho những người hâm mộ Agatha Christie, Monty Python và tiểu thuyết "
+"trinh thám pha trộn một chút hài hước vô nghĩa."
 
 #. module: theater
 #: model_terms:event.event,description:theater.event_event_3
@@ -778,12 +725,13 @@ msgstr "Rachel Nguyen trong vai Jo"
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
 msgid "Reach us"
-msgstr "Liên hệ với chúng tôi"
+msgstr "Liên hệ"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.homepage
 msgid "Receive our latest news by subscribing to our newsletter.<br/><br/>"
 msgstr ""
+"Nhận tin tức mới nhất của chúng tôi bằng cách đăng ký nhận bản tin.<br/><br/>"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
@@ -804,78 +752,62 @@ msgstr ""
 #. module: theater
 #: model_terms:event.event,description:theater.event_event_2
 msgid "Samuel Ortiz as Inspector Clive"
-msgstr ""
+msgstr "Samuel Ortiz trong vai Thanh tra Clive"
 
 #. module: theater
 #: model_terms:event.event,description:theater.event_event_3
 msgid "Saturday, November 8, 2025 – 8:00 PM"
-msgstr ""
+msgstr "Thứ Bảy, ngày 8 tháng 11 năm 2025 – 8:00 tối"
 
 #. module: theater
 #: model_terms:event.event,description:theater.event_event_2
 msgid "Saturday, October 5, 2025 – 5:00 PM &amp;amp; 8:00 PM"
-msgstr ""
+msgstr "Thứ Bảy, ngày 5 tháng 10 năm 2025 – 5:00 chiều &amp;amp; 8:00 tối"
 
 #. module: theater
 #: model_terms:event.event,description:theater.event_event_1
 msgid "Saturday, September 20, 2025 – 7:30 PM"
-msgstr ""
-
-#. module: theater
-#: model_terms:ir.ui.view,arch_db:theater.products
-msgid "Search Products"
-msgstr "Tìm kiếm sản phẩm"
-
-#. module: theater
-#: model_terms:ir.ui.view,arch_db:theater.products
-msgid "Search globally"
-msgstr "Tìm kiếm toàn bộ"
-
-#. module: theater
-#: model_terms:ir.ui.view,arch_db:theater.products
-msgid "Search in"
-msgstr "Tìm kiếm trong"
-
-#. module: theater
-#: model_terms:ir.ui.view,arch_db:theater.products
-msgid "Search {{0}} globally"
-msgstr ""
+msgstr "Thứ Bảy, ngày 20 tháng 9 năm 2025 – 7 giờ 30 phút tối"
 
 #. module: theater
 #: model_terms:product.public.category,website_description:theater.product_public_category_1
 msgid "Secure your seat for unforgettable performances today!"
-msgstr ""
+msgstr "Đặt chỗ ngay hôm nay để thưởng thức những buổi biểu diễn đáng nhớ!"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
 msgid "Sell drinks and snacks quickly during intermissions."
-msgstr ""
+msgstr "Bán đồ uống và đồ ăn nhẹ nhanh chóng trong giờ giải lao."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
 msgid "Sell tickets with eCommerce integration."
-msgstr ""
+msgstr "Bán vé với tích hợp thương mại điện tử."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
 msgid "Set ticket limits and prices."
-msgstr ""
+msgstr "Đặt giới hạn và giá vé."
 
 #. module: theater
 #: model:event.event,name:theater.event_event_1
 #: model_terms:ir.ui.view,arch_db:theater.homepage
 msgid "Shadows of Verona"
-msgstr ""
+msgstr "Bóng tối của Verona"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
 msgid "Share your mission, your team, and photos from past performances."
 msgstr ""
+"Hãy chia sẻ sứ mệnh, đội ngũ của bạn và những bức ảnh từ các buổi biểu diễn "
+"trước đây."
 
 #. module: theater
 #: model_terms:product.public.category,website_description:theater.product_public_category_2
 msgid "Show your love for the arts with exclusive gear and gifts."
 msgstr ""
+"Thể hiện tình yêu của bạn đối với nghệ thuật qua những món đồ độc quyền và "
+"quà tặng đặc biệt."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.homepage
@@ -885,7 +817,7 @@ msgstr "Luôn cập nhật thông tin"
 #. module: theater
 #: model:event.event.ticket,name:theater.event_event_ticket_2
 msgid "Students & Seniors"
-msgstr ""
+msgstr "Học sinh & Người cao tuổi"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.homepage
@@ -900,17 +832,17 @@ msgstr "Gói đăng ký"
 #. module: theater
 #: model_terms:event.event,description:theater.event_event_3
 msgid "Sunday, November 9, 2025 – 4:00 PM"
-msgstr ""
+msgstr "Chủ nhật, ngày 9 tháng 11 năm 2025 – 4:00 chiều"
 
 #. module: theater
 #: model_terms:event.event,description:theater.event_event_1
 msgid "Sunday, September 21, 2025 – 2:00 PM (Matinee)"
-msgstr ""
+msgstr "Chủ nhật, ngày 21 tháng 9 năm 2025 – 2:00 chiều (Buổi chiếu chiều)"
 
 #. module: theater
 #: model_terms:product.public.category,website_description:theater.product_public_category_4
 msgid "Support the arts and make a difference in our community."
-msgstr ""
+msgstr "Hỗ trợ nghệ thuật và tạo ra sự khác biệt trong cộng đồng của chúng ta."
 
 #. module: theater
 #: model_terms:product.template,description_ecommerce:theater.product_product_1_product_template
@@ -932,28 +864,28 @@ msgstr ""
 #: model:event.event,name:theater.event_event_2
 #: model_terms:ir.ui.view,arch_db:theater.homepage
 msgid "The Curious Case of Lord Patterwick"
-msgstr ""
+msgstr "Vụ Án Kỳ Lạ Của Lord Patterwick"
 
 #. module: theater
 #: model_terms:event.event,description:theater.event_event_2
 msgid "The Horizon Playhouse – Black Box Theater"
-msgstr ""
+msgstr "Nhà hát Horizon – Nhà hát Black Box"
 
 #. module: theater
 #: model_terms:event.event,description:theater.event_event_1
 msgid "The Horizon Playhouse – Main Stage, 12 Riverside Ave, Brookville"
-msgstr ""
+msgstr "Nhà hát Horizon – Sân khấu chính, 12 Riverside Ave, Brookville"
 
 #. module: theater
 #: model_terms:event.event,description:theater.event_event_3
 msgid "The Horizon Playhouse – Studio Theater"
-msgstr ""
+msgstr "Nhà hát Horizon – Nhà hát Studio"
 
 #. module: theater
 #: model:event.event,name:theater.event_event_3
 #: model_terms:ir.ui.view,arch_db:theater.homepage
 msgid "The People Upstairs"
-msgstr ""
+msgstr "Những người ở trên lầu"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
@@ -961,6 +893,8 @@ msgid ""
 "These tools help you nurture a loyal community and build long-term "
 "engagement around your theater."
 msgstr ""
+"Các công cụ này giúp bạn xây dựng một cộng đồng trung thành và tạo ra sự "
+"tương tác lâu dài xung quanh rạp chiếu phim của bạn."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.homepage
@@ -979,7 +913,7 @@ msgstr ""
 #. module: theater
 #: model_terms:event.event,description:theater.event_event_2
 msgid "Thursday, October 3, 2025 – 7:00 PM"
-msgstr ""
+msgstr "Thứ Năm, ngày 3 tháng 10 năm 2025 – 7:00 tối"
 
 #. module: theater
 #: model:product.public.category,name:theater.product_public_category_1
@@ -990,17 +924,19 @@ msgstr "Phiếu hỗ trợ"
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
 msgid ""
 "Tickets can be purchased directly on your website, and scanned at the door."
-msgstr ""
+msgstr "Vé có thể được mua trực tiếp trên trang web của bạn và quét tại cửa."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
 msgid "Track registrations and attendance."
-msgstr ""
+msgstr "Theo dõi đăng ký và sự tham gia."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
 msgid "Track seasonal passholders and invite them to early bookings."
 msgstr ""
+"Theo dõi các thành viên có thẻ thành viên theo mùa và mời họ tham gia đặt "
+"chỗ sớm."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
@@ -1008,11 +944,15 @@ msgid ""
 "Use Odoo’s complete <strong>Marketing Suite</strong> to keep your audience "
 "informed and connected:"
 msgstr ""
+"Sử dụng bộ công cụ tiếp thị toàn diện của Odoo <strong>Marketing Suite</"
+"strong> để giữ cho khán giả của bạn luôn được cập nhật và kết nối:"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
 msgid "Use the <strong>CRM</strong> app to manage your key relationships:"
 msgstr ""
+"Sử dụng<strong> ứng dụng CRM</strong> để quản lý các mối quan hệ quan trọng "
+"của bạn:"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.ir_ui_view_3902
@@ -1068,6 +1008,8 @@ msgid ""
 "Whether you're a longtime fan of the Bard or discovering this story for the "
 "first time, this bold adaptation will leave you breathless."
 msgstr ""
+"Dù bạn là người hâm mộ lâu năm của Bard hay đang khám phá câu chuyện này lần "
+"đầu, bản chuyển thể táo bạo này sẽ khiến bạn say mê."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
@@ -1075,6 +1017,8 @@ msgid ""
 "With <strong>Point of Sale</strong>, you can easily manage your bar or "
 "refreshment stand:"
 msgstr ""
+"Với <strong>POS</strong>, bạn có thể dễ dàng quản lý quầy bar hoặc quầy đồ "
+"ăn của mình:"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.homepage
@@ -1097,6 +1041,8 @@ msgid ""
 "With minimalist staging and powerful performances, this original piece "
 "explores the beauty of human connection in the everyday."
 msgstr ""
+"Với bối cảnh tối giản và những màn trình diễn ấn tượng, tác phẩm gốc này "
+"khám phá vẻ đẹp của kết nối con người trong cuộc sống thường ngày."
 
 #. module: theater
 #: model:product.public.category,name:theater.product_public_category_5
@@ -1110,6 +1056,11 @@ msgid ""
 msgstr ""
 "Bạn có muốn thảo luận với chúng tôi về thiết lập Odoo của mình hoặc khám phá "
 "thêm nhiều tính năng khác không?"
+
+#. module: theater
+#: model_terms:ir.ui.view,arch_db:theater.ir_ui_view_3902
+msgid "X"
+msgstr ""
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
@@ -1126,7 +1077,7 @@ msgstr "Bạn có thể:"
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
 msgid "Your <strong>Website</strong> is your theater's online stage:"
-msgstr ""
+msgstr "<strong>Trang web</strong> của bạn là sân khấu online của rạp hát:"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
@@ -1134,36 +1085,33 @@ msgid ""
 "Your Odoo for Theater package includes essential apps to streamline your "
 "operations:"
 msgstr ""
+"Gói Odoo cho Nhà hát bao gồm các ứng dụng thiết yếu để tối ưu hóa hoạt động "
+"của bạn:"
 
 #. module: theater
 #: model:event.event.ticket,name:theater.event_event_ticket_4
 msgid "Youth (under 18)"
-msgstr ""
-
-#. module: theater
-#: model_terms:ir.ui.view,arch_db:theater.products
-msgid "in category \""
-msgstr "trong danh mục \""
+msgstr "Thanh thiếu niên (dưới 18 tuổi)"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.homepage
 msgid "man in dress shirt playing trumpet"
-msgstr ""
+msgstr "Người đàn ông mặc áo sơ mi đang chơi kèn trumpet"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.homepage
 msgid "man in white dress shirt singing"
-msgstr ""
+msgstr "Người đàn ông mặc áo sơ mi trắng đang hát"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.homepage
 msgid "standing woman covering her mouth with her right hand"
-msgstr ""
+msgstr "Người phụ nữ đang đứng che miệng bằng tay phải"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.homepage
 msgid "⎯ OUR MISSION"
-msgstr ""
+msgstr "⎯ SỨ MỆNH CỦA CHÚNG TÔI"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.homepage
@@ -1174,26 +1122,29 @@ msgstr "⎯&amp;nbsp;TẦM NHÌN CỦA CHÚNG TÔI"
 #: model_terms:product.template,description_ecommerce:theater.product_product_1_product_template
 msgid "✅ Admission to <em>all mainstage performances</em> in the 2025 season"
 msgstr ""
+"✅ Vé vào cửa <em>cho tất cả các buổi biểu diễn chính</em> trong mùa 2025"
 
 #. module: theater
 #: model_terms:product.template,description_ecommerce:theater.product_product_1_product_template
 msgid "✅ Exclusive invites to open rehearsals and post-show talkbacks"
 msgstr ""
+"✅ Mời tham dự các buổi tập mở cửa và buổi trò chuyện sau buổi biểu diễn"
 
 #. module: theater
 #: model_terms:product.template,description_ecommerce:theater.product_product_1_product_template
 msgid "✅ Free ticket exchanges (up to 48 hours before the show)"
-msgstr ""
+msgstr "✅ Đổi vé miễn phí (trong vòng 48 giờ trước buổi biểu diễn)"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
 msgid "🌐 Promote Shows and Sell Tickets Online (Website + eCommerce)"
 msgstr ""
+"🌐 Quảng bá sự kiện và bán vé trực tuyến (Website + Thương mại điện tử)"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
 msgid "🍺 Run the Bar during Intermission (Point of Sale)"
-msgstr ""
+msgstr "🍺 Quản lý quầy bar trong giờ giải lao (POS)"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
@@ -1223,14 +1174,146 @@ msgstr "🎓 Trang web"
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
 msgid "🎟️ Manage Performances and Ticketing (Events App)"
-msgstr ""
+msgstr "🎟️ Quản lý sự kiện và bán vé (Ứng dụng Sự kiện)"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
 msgid "💎 Manage Passholders and Sponsors (CRM)"
-msgstr ""
+msgstr "💎 Quản lý Thành viên và Nhà tài trợ (CRM)"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
 msgid "📣 Keep Your Community Engaged (Marketing Suite)"
-msgstr ""
+msgstr "📣 Duy trì kết nối với cộng đồng của bạn (Bộ công cụ Marketing)"
+
+#~ msgid "\" category."
+#~ msgstr "\" danh mục."
+
+#~ msgid ""
+#~ "&amp;nbsp;<br/>All\n"
+#~ "                      products"
+#~ msgstr ""
+#~ "&amp;nbsp;<br/>Tất cả\n"
+#~ "                      sản phẩm"
+
+#~ msgid "'. Showing results for '"
+#~ msgstr "'. Đang hiện kết quả cho '"
+
+#~ msgid ""
+#~ "<small class=\"mx-auto\">\n"
+#~ "                          <b>Clear Filters</b>\n"
+#~ "                        </small>\n"
+#~ "                        <i class=\"oi oi-close\" role=\"presentation\"/>"
+#~ msgstr ""
+#~ "<small class=\"mx-auto\">\n"
+#~ "                          <b>Xóa bộ lọc</b>\n"
+#~ "                        </small>\n"
+#~ "                       <i class=\"oi oi-close\" role=\"presentation\"/>"
+
+#~ msgid "<span class=\"text-muted\">Search results for </span>'"
+#~ msgstr "<span class=\"text-muted\">Kết quả tìm kiếm cho ' </span>'"
+
+#~ msgid "<span class=\"text-muted\">Searching</span>"
+#~ msgstr "<span class=\"text-muted\">Tìm kiếm</span>"
+
+#~ msgid "<span class=\"text-muted\">in</span>"
+#~ msgstr "<span class=\"text-muted\">trong</span>"
+
+#~ msgid "<span class=\"visually-hidden\">filters active</span>"
+#~ msgstr "<span class=\"visually-hidden\">bộ lọc đang hoạt động</span>"
+
+#~ msgid ""
+#~ "<strong>CRM</strong>: to track contacts, especially for fundraising and "
+#~ "seasonal passes"
+#~ msgstr ""
+#~ "<strong>CRM</strong>: để theo dõi các liên hệ, đặc biệt là cho các hoạt "
+#~ "động gây quỹ và vé mùa"
+
+#~ msgid ""
+#~ "<strong>Email Marketing</strong>: to promote upcoming shows and "
+#~ "communicate with your audience"
+#~ msgstr ""
+#~ "<strong>Tiếp thị qua email</strong>: để quảng bá các chương trình sắp tới "
+#~ "và giao tiếp với khán giả của bạn"
+
+#~ msgid "<strong>Events</strong>: to manage performances and ticket sales"
+#~ msgstr "<strong>Sự kiện</strong>: Quản lý các buổi biểu diễn và bán vé"
+
+#~ msgid "<strong>Point of Sale</strong>: to sell drinks and snacks at the bar"
+#~ msgstr "<strong>POS</strong>: Bán đồ uống và đồ ăn nhẹ tại quầy bar"
+
+#~ msgid ""
+#~ "<strong>Website</strong> and <strong>eCommerce</strong>: to showcase your "
+#~ "theater and sell tickets online"
+#~ msgstr ""
+#~ "<strong>Trang web</strong> và <strong>Thương mại điện tử</strong>: để "
+#~ "giới thiệu rạp hát của bạn và bán vé trực tuyến"
+
+#~ msgid "Back to {{0}}"
+#~ msgstr "Quay lại {{0}}"
+
+#~ msgid "Clear Filters"
+#~ msgstr "Xoá bộ lọc"
+
+#~ msgid "Clear search for this category"
+#~ msgstr "Tìm kiếm rõ ràng cho danh mục này"
+
+#~ msgid ""
+#~ "Click <i>'New'</i> in the\n"
+#~ "                      top-right corner to create your first product."
+#~ msgstr ""
+#~ "<i>Nhấp vào 'New'</i> ở\n"
+#~ "                      góc trên bên phải để tạo sản phẩm đầu tiên của bạn."
+
+#~ msgid ""
+#~ "Drag building blocks here to customize the\n"
+#~ "                      footer for \""
+#~ msgstr ""
+#~ "Kéo các khối xây dựng vào đây để tùy chỉnh\n"
+#~ "                      phần chân trang cho \""
+
+#~ msgid "Drag building blocks here to customize the header for \""
+#~ msgstr "Kéo khối dựng ở đây để tùy chỉnh phần header cho \""
+
+#~ msgid "Filters"
+#~ msgstr "Bộ lọc"
+
+#~ msgid "Grid"
+#~ msgstr "Lưới"
+
+#~ msgid ""
+#~ "No\n"
+#~ "                      results found for '"
+#~ msgstr ""
+#~ "Không\n"
+#~ "                      có kết quả nào được tìm thấy cho '"
+
+#~ msgid "No product defined"
+#~ msgstr "Không có sản phẩm"
+
+#~ msgid "No product defined in this category."
+#~ msgstr "Không có sản phẩm nào được chỉ định trong danh mục này."
+
+#~ msgid "No results"
+#~ msgstr "Không có kết quả"
+
+#~ msgid "No results for \""
+#~ msgstr "Không có kết quả cho \""
+
+#~ msgid "Product"
+#~ msgstr "Sản phẩm"
+
+#~ msgid "Search Products"
+#~ msgstr "Tìm kiếm sản phẩm"
+
+#~ msgid "Search globally"
+#~ msgstr "Tìm kiếm toàn bộ"
+
+#~ msgid "Search in"
+#~ msgstr "Tìm kiếm trong"
+
+#~ msgid "Search {{0}} globally"
+#~ msgstr "Tìm kiếm {{0}} trên toàn cầu"
+
+#~ msgid "in category \""
+#~ msgstr "trong danh mục \""

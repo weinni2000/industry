@@ -9,13 +9,14 @@
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# "Tony Ng (ngto)" <ngto@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 14:10+0000\n"
-"PO-Revision-Date: 2025-11-17 11:09+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-01-20 12:58+0000\n"
+"PO-Revision-Date: 2026-05-16 09:35+0000\n"
+"Last-Translator: \"Tony Ng (ngto)\" <ngto@odoo.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://translate.odoo.com/"
 "projects/odoo-19/odoo_partner/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -23,12 +24,75 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: odoo_partner
 #: model:sale.order.template.line,name:odoo_partner.sale_order_template_line_19
 msgid "10 analysis workshops"
 msgstr "10 分析工作坊"
+
+#. module: odoo_partner
+#: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
+msgid ""
+"<b>CRM App</b>: Manage your leads and opportunities in a dedicated pipeline, "
+"tracking stages from \"New Lead\"\n"
+"                    to \"Won\" efficiently."
+msgstr ""
+
+#. module: odoo_partner
+#: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
+msgid ""
+"<b>Documents App</b>: Store and organize crucial client documents, "
+"contracts, and technical specifications\n"
+"                    in a secure, central repository."
+msgstr ""
+
+#. module: odoo_partner
+#: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
+msgid ""
+"<b>Helpdesk App</b>: Handle client support requests and tickets "
+"systematically, ensuring timely resolution and\n"
+"                high service levels."
+msgstr ""
+
+#. module: odoo_partner
+#: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
+msgid ""
+"<b>Planning App</b>: Schedule your consultants' and developers' workload to "
+"optimize resource allocation and\n"
+"                    prevent bottlenecks."
+msgstr ""
+
+#. module: odoo_partner
+#: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
+msgid ""
+"<b>Project App</b>: Manage Success Packs and large implementations with task "
+"management, milestones, and\n"
+"                    shared customer views."
+msgstr ""
+
+#. module: odoo_partner
+#: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
+msgid ""
+"<b>Sales App</b>: Create professional proposals using an advanced Quote "
+"Calculator and PDF Quote Builder to\n"
+"                    impress prospective clients."
+msgstr ""
+
+#. module: odoo_partner
+#: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
+msgid ""
+"<b>Sign App</b>: Send contracts and engagement letters for fast, legally "
+"binding digital signatures.<br/>"
+msgstr ""
+
+#. module: odoo_partner
+#: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
+msgid ""
+"<b>Timesheets App</b>: Track billable hours spent on client projects to "
+"ensure accurate invoicing and\n"
+"                    profitability analysis."
+msgstr ""
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
@@ -119,11 +183,6 @@ msgstr "分析、估算及報告準備"
 #: model:project.task.type,name:odoo_partner.project_task_type_15
 msgid "Backlog"
 msgstr "積壓工作"
-
-#. module: odoo_partner
-#: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
-msgid "Basics"
-msgstr "基礎知識"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
@@ -474,7 +533,7 @@ msgstr "任務"
 #. module: odoo_partner
 #: model:project.tags,name:odoo_partner.project_tags_1
 msgid "Template"
-msgstr "範本文字"
+msgstr "範本"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
@@ -636,3 +695,6 @@ msgstr "🎓 專案管理"
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid "🎓 Sales"
 msgstr "🎓 銷售"
+
+#~ msgid "Basics"
+#~ msgstr "基礎知識"

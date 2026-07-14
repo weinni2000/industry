@@ -19,13 +19,15 @@
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # DeepL <noreply-mt-deepl@weblate.org>, 2025.
+# Odoo Turkish Import <dyki+tr@odoo.com>, 2025.
+# "Malaz Siddig Elsayed Abuidris (msea)" <msea@odoo.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-10 10:51+0000\n"
-"PO-Revision-Date: 2025-11-12 14:43+0000\n"
-"Last-Translator: DeepL <noreply-mt-deepl@weblate.org>\n"
+"PO-Revision-Date: 2025-11-29 19:51+0000\n"
+"Last-Translator: \"Malaz Siddig Elsayed Abuidris (msea)\" <msea@odoo.com>\n"
 "Language-Team: Turkish <https://translate.odoo.com/projects/odoo-19/"
 "custom_furniture/tr/>\n"
 "Language: tr\n"
@@ -33,7 +35,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -97,33 +99,29 @@ msgstr "8. Faturalama 🧾"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid "<b>Assigning operations</b> on MOs to specific employees."
-msgstr "<b>MO'larda</b> operasyonlarının belirli çalışanlara atanması."
+msgstr "<b>Üretim Emirlerinde</b> operasyonların belirli çalışanlara atanması."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid ""
 "<b>Manufacturing Orders (MOs)</b> can originate in the <b>Project App</b>, "
 "but the <b>Manufacturing App</b> is the central hub for managing and "
 "planning all production."
 msgstr ""
-"<b>Üretim Emirleri (MO'lar)</b> <b> Proje Yönetimi Uygulamasından</b> "
-"kaynaklanabilir, ancak <b>Üretim Uygulaması</b> tüm üretimi yönetmek ve "
-"planlamak için merkezi bir merkezdir."
+"<b>Üretim Emirleri</b> Proje uygulaması <b>içinde oluşturulabilir</b>, ancak "
+"<b>ancak tüm üretimin yönetildiği ve planlandığı ana merkez</b> Üretim "
+"Uygulamasıdır."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid "<b>To create a Manufacturing Order (MO):</b>"
-msgstr "<b>Bir Üretim Emri (MO) oluşturmak için:</b>"
+msgstr "<b>Üretim Emri oluşturmak için:</b>"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid "<b>To create a Subcontracted Purchase Order:</b>"
-msgstr "<b>Bir Taşeron Satınalma Siparişi oluşturmak için:</b>"
+msgstr "<b>Bir Fason Satınalma Siparişi oluşturmak için:</b>"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -136,7 +134,6 @@ msgstr ""
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">🚀</i>"
@@ -146,7 +143,6 @@ msgstr ""
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">✅</i>"
@@ -165,7 +161,6 @@ msgstr ""
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">🚀</i>"
@@ -175,7 +170,6 @@ msgstr ""
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Warning\">⚠️</i>"
@@ -185,7 +179,6 @@ msgstr ""
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid ""
 "<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\">✅</i>"
@@ -260,9 +253,9 @@ msgid ""
 "installation &amp; Electrical and lighting installation) will automatically "
 "create a task in the Field Service App."
 msgstr ""
-"<strong>Çalışma çizelgelerine göre</strong> - Saha hizmetleri (Teslimat ve "
-"montaj & Elektrik ve aydınlatma montajı) Saha Hizmeti Uygulamasında otomatik "
-"olarak bir görev yaratır."
+"<strong>Çalışma çizelgelerine göre</strong> - Saha hizmetleri "
+"(Teslimat ve montaj & Elektrik ve aydınlatma montajı) Saha Hizmeti "
+"Uygulamasında otomatik olarak bir görev yaratır."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -288,12 +281,11 @@ msgstr ""
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Field Service Automation:</strong> Certain products trigger the "
 "creation of Field Service tasks specifically for onsite installation."
 msgstr ""
-"<strong>Saha Servis Otomasyonu:</strong> Bazı ürünler, özellikle yerinde "
+"<strong>Saha Servisi Otomasyonu:</strong> Bazı ürünler, özellikle yerinde "
 "kurulum için Saha Hizmetleri görevlerinin oluşturulmasını tetikler."
 
 #. module: custom_furniture
@@ -363,7 +355,6 @@ msgstr ""
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Project Templates</strong>: Create reusable models with pre-set "
 "tasks and dates."
@@ -382,12 +373,11 @@ msgstr ""
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Sales Order Integration:</strong> Automatically generate project and/"
 "or tasks when certain products are included on a Sales Order."
 msgstr ""
-"<strong>Satış Siparişi Entegrasyonu:</strong> Bir Satış Siparişine belirli "
+"<strong>Satış Siparişi Entegrasyonu:</strong> Bir Satış siparişine belirli "
 "ürünler dahil edildiğinde otomatik olarak proje ve/veya görevler oluşturun."
 
 #. module: custom_furniture
@@ -408,7 +398,6 @@ msgstr "Berjerler"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid "Add the subcontractor's information."
 msgstr "Alt yüklenicinin bilgilerini ekleyin."
 
@@ -428,7 +417,6 @@ msgstr "Mimar"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid ""
 "Before generating an intermediary invoice in the\n"
 "        <strong>\n"
@@ -448,7 +436,8 @@ msgstr ""
 "       <strong>\n"
 "                <font class=\"text-o-color-1\">Proje Yönetimi</font>\n"
 "        </strong>\n"
-"        uygulaması açısından ilerlemeye genel bir bakış elde etmek için:"
+"        ilerlemenin genel görünümünü şu açılardan görmek için kullanılan "
+"uygulama:"
 
 #. module: custom_furniture
 #: model:product.attribute.value,name:custom_furniture.product_attribute_value_1
@@ -482,15 +471,13 @@ msgstr ""
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid "Click the <b>Manufacturing Order</b> button."
 msgstr "<b>Üretim Emri</b> düğmesine tıklayın."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid "Click the <b>Purchase</b> button."
-msgstr "<b>Purchase</b> düğmesine tıklayın."
+msgstr "<b>Satın Alma</b> düğmesine tıklayın."
 
 #. module: custom_furniture
 #: model:sale.order.template.line,name:custom_furniture.sale_order_template_line_1
@@ -514,26 +501,23 @@ msgstr "Konferans sandalyeleri"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid "Confirm the order."
 msgstr "Siparişi onaylayın."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid ""
 "Confirm the quotation. Your top bar shows that it creates different tasks in "
 "different projects, an upcoming delivery, a purchase, and various hours to "
 "plan. These are all automated actions based on your product configuration."
 msgstr ""
-"Teklifi onaylayın. Üst çubuğunuz, farklı proje yönetimine bağlı farklı "
-"görevler, yaklaşan bir teslimat, bir satın alma ve planlanacak çeşitli "
-"saatler oluşturduğunu gösterir. Bunların hepsi ürün yapılandırmanıza dayalı "
-"otomatik eylemlerdir."
+"Teklifi onaylayın. Üstteki menü, farklı projelerde farklı görevler, yaklaşan "
+"bir teslimat, bir satın alma ve planlanacak çeşitli saatler oluşturduğunu "
+"gösteriyor. Bunların tamamı, ürün konfigürasyonunuza bağlı olarak otomatik "
+"şekilde gerçekleşen aksiyonlardır."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid ""
 "Create a down payment from the sales order as the first invoicing step. This "
 "will generate the first invoice in the\n"
@@ -544,38 +528,36 @@ msgid ""
 "on the sales order so you never forget to send an intermediary invoice to "
 "sustain your cash flow."
 msgstr ""
-"İlk faturalama adımı olarak satış siparişinden bir peşinat oluşturun. Bu, "
-"aşağıdaki ilk faturayı oluşturacaktır\n"
+"Satış siparişinden ilk faturalama adımı olarak bir ön ödeme oluşturun. Bu "
+"işlem,\n"
 "       <strong>\n"
 "                <font class=\"text-o-color-1\">Faturalama</font>\n"
 "        </strong>\n"
-"        uygulamasını kullanın. Ardından, nakit akışınızı sürdürmek için bir "
-"ara fatura göndermeyi asla unutmamak için satış siparişi üzerinde bir veya "
-"birkaç \"Faturalama Programı\" etkinliği planlayın."
+"        uygulamasında ilk faturayı oluşturacaktır. Ardından, satış "
+"siparişine bir veya birden fazla “Faturalama Planı” aktivitesi ekleyerek, "
+"nakit akışınızı sürdürmek için ara faturayı göndermeyi asla unutmazsınız."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid ""
 "Create a new MO for the product to be delivered, adapting components or "
 "operations as needed."
 msgstr ""
-"Teslim edilecek ürün için yeni bir MO oluşturun, bileşenleri veya işlemleri "
-"gerektiği gibi uyarlayın."
+"Teslim edilecek ürün için yeni bir Üretim Emri (MO) oluşturun ve "
+"gerektiğinde bileşenleri veya operasyonları uyarlayın."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid ""
 "Create a stunning <strong><font class=\"text-o-color-1\">website</font></"
 "strong> and start receiving orders directly in Odoo. Go live with your "
 "<strong><font class=\"text-o-color-1\">E-shop</font></strong> in a few "
 "minutes."
 msgstr ""
-"Çarpıcı bir <strong><font class=\"text-o-color-1\">web sitesi</font></"
-"strong> oluşturun ve doğrudan Odoo'da sipariş almaya başlayın. Birkaç dakika "
-"içinde <strong><font class=\"text-o-color-1\">E-mağazanız</font></strong> "
-"ile yayına geçin."
+"Muhteşem bir <strong><font class=\"text-o-color-1\">web sitesi</font></"
+"strong> oluşturun ve siparişleri doğrudan Odoo içinde almaya başlayın. "
+"Birkaç dakika içinde <strong><font class=\"text-o-color-1\">online "
+"mağazanız</font></strong> ile yayınlayın."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -603,9 +585,8 @@ msgstr "Özel imalat şifonyer"
 
 #. module: custom_furniture
 #: model:product.template,name:custom_furniture.product_product_5_product_template
-#, fuzzy
 msgid "Custom front desk"
-msgstr "Özel ön büro"
+msgstr "Özelleştirilmiş karşılama bankosu"
 
 #. module: custom_furniture
 #: model:product.template,name:custom_furniture.product_product_11_product_template
@@ -615,7 +596,6 @@ msgstr "Özel imalat duvar raf ünitesi"
 #. module: custom_furniture
 #: model:product.template,name:custom_furniture.product_product_62_product_template
 #: model:project.project,name:custom_furniture.project_project_6
-#, fuzzy
 msgid "Customer Project Management"
 msgstr "Müşteri Proje Yönetimi"
 
@@ -686,12 +666,11 @@ msgstr ""
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid ""
 "Finally, use the <b>Allocation</b> button to assign the MO to the <b>Sales "
 "Order</b>."
 msgstr ""
-"Son olarak, MO'yu <b>Satış Siparişine</b> atamak için <b>Tahsis</b> "
+"Son olarak, Üretim Emrini <b>Satış Siparişine</b> atamak için <b>Tahsis</b> "
 "düğmesini kullanın."
 
 #. module: custom_furniture
@@ -724,9 +703,8 @@ msgstr ""
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid "From the David Patel quotation, we placed"
-msgstr "David Patel'den yaptığımız alıntıya göre"
+msgstr "David Patel'den aldığımız alıntıya göre"
 
 #. module: custom_furniture
 #: model:sale.order.template.line,name:custom_furniture.sale_order_template_line_3
@@ -736,10 +714,8 @@ msgstr "Mobilyalar"
 #. module: custom_furniture
 #. odoo-javascript
 #: code:addons/custom_furniture/static/src/js/my_tour.js:0
-#, fuzzy
 msgid "Get on track and explore our recommendations for your Odoo usage here!"
-msgstr ""
-"Yolunuza devam edin ve Odoo kullanımınız için önerilerimizi buradan keşfedin!"
+msgstr "Odoo kullanımınızı rayına oturtun ve önerilerimizi buradan keşfedin!"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -800,15 +776,15 @@ msgstr ""
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid ""
 "In <b>version 19.1</b>, this field uses <b>HTML</b>, making it easy to share "
 "crucial context, including uploading <b>images</b>, adding <b>documents</b>, "
 "or <b>linking</b> to relevant articles in the Knowledge app."
 msgstr ""
-"<b>19.1</b> sürümünde, bu alan <b>HTML</b> kullanır ve <b>görüntüleri</b> "
-"yüklemek, <b>belgeleri</b> eklemek veya <b>Bilgi uygulamasındaki ilgili "
-"makalelere</b> bağlamak gibi önemli bağlamları paylaşmayı kolaylaştırır."
+"<b>19.1</b> sürümünde, bu alan <b>HTML</b> kullanır ve <b>bu sayede</b> "
+"yüklemek, <b>önemli bağlamları kolayca paylaşabilirsiniz;</b> görseller "
+"yükleyebilir, doküman ekleyebilir <b>veya Knowledge uygulamasındaki</b> "
+"ilgili makalelere bağlantı verebilirsiniz."
 
 #. module: custom_furniture
 #: model:project.task.type,name:custom_furniture.project_task_type_19
@@ -828,7 +804,6 @@ msgstr ""
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid ""
 "In this App, you can see that the delivery is not yet ready to be shipped, "
 "as you currently don't have the necessary products. If you navigate to "
@@ -837,11 +812,11 @@ msgid ""
 "        orders missing to complete this order. Select everything, and click "
 "on \"Replenish\" &gt; \"Order.\""
 msgstr ""
-"Bu Uygulamada, şu anda gerekli ürünlere sahip olmadığınız için teslimatın "
-"henüz gönderilmeye hazır olmadığını görebilirsiniz. İşlemler &gt; Yenileme "
-"bölümüne giderseniz, önerilen satın alma/üretim listesini bulacaksınız\n"
-"        Bu siparişi tamamlamak için eksik siparişler. Her şeyi seçin ve "
-"\"Yenile\" &gt; \"Sipariş\" üzerine tıklayın."
+"Bu Bu uygulamada, teslimatın henüz sevkiyata hazır olmadığını görebilirsiniz "
+"çünkü şu anda gerekli ürünlere sahip değilsiniz. Operasyonlar &gt; İkmal "
+"menüsüne giderseniz, bu siparişi tamamlamak için eksik olan önerilen satın "
+"alma/üretim emirlerinin listesini bulursunuz.\n"
+"        Hepsini seçin ve “İkmal” &gt; “Sipariş Ver” butonuna tıklayın."
 
 #. module: custom_furniture
 #: model:product.template,name:custom_furniture.product_product_2_product_template
@@ -879,7 +854,6 @@ msgstr ""
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid ""
 "Level up your Manufacture process with the <strong><font class=\"text-o-"
 "color-1\">Manufacturing App</font></strong>."
@@ -889,7 +863,6 @@ msgstr ""
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid ""
 "Manage all your communication channels in one place with Odoo <strong><font "
 "class=\"text-o-color-1\">Marketing Automation</font></strong>, <strong><font "
@@ -926,7 +899,6 @@ msgstr ""
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid ""
 "Manage your entire projects with the Project App. You can see that your Sale "
 "Order has created a Project with a bunch of already configured tasks. Follow "
@@ -950,7 +922,6 @@ msgstr ""
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid ""
 "Manually adjusting the <b>production schedule</b> via the Manufacturing / "
 "Planning view."
@@ -970,10 +941,10 @@ msgstr "Satılan malzemeler."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid "Monitoring the <b>availability of components</b> required for each MO."
 msgstr ""
-"Her bir MO için gerekli</b> bileşenlerin <b>kullanılabilirliğinin izlenmesi."
+"Her bir Üretim Emri için gerekli</b> bileşenlerin <b>kullanılabilirliğini "
+"izleme."
 
 #. module: custom_furniture
 #: model:product.attribute.value,name:custom_furniture.product_attribute_value_5
@@ -1037,13 +1008,12 @@ msgstr ""
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid ""
 "Once the <b>project is created</b>, all other necessary activities can be "
 "generated from the <b>top bar</b>."
 msgstr ""
-"<b>projesi oluşturulduktan sonra</b>, diğer tüm gerekli faaliyetler <b>üst "
-"çubuğundan</b> oluşturulabilir."
+"<b>Proje oluşturulduktan sonra,</b>gerekli diğer tüm aktiviteler <b>üstteki "
+"menüden</b> oluşturulabilir."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1063,13 +1033,12 @@ msgstr "Orbital Zımpara 20x20"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid ""
 "Organise your events and connect with your customers easily with the "
 "<strong><font class=\"text-o-color-1\">Events App</font></strong>."
 msgstr ""
-"<strong><font class=\"text-o-color-1\">Events App</font></strong> ile "
-"etkinliklerinizi düzenleyin ve müşterilerinizle kolayca bağlantı kurun."
+"<strong><font class=\"text-o-color-1\">Etkinlik uygulaması</font></strong> "
+"ile etkinliklerinizi düzenleyin ve müşterilerinizle kolayca bağlantı kurun."
 
 #. module: custom_furniture
 #: model:sale.order.template.line,name:custom_furniture.sale_order_template_line_4
@@ -1127,13 +1096,11 @@ msgstr "Gönderilen e-postaları yönlendirin"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid "Select <b>Subcontracted Purchase Order services</b>."
-msgstr "<b>Taşeron Satın Alma Siparişi hizmetleri</b> adresini seçin."
+msgstr "<b>Fason Satın Alma Emri hizmetleri</b> adresini seçin."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid ""
 "Take advantage of every opportunity. The <strong> <font class=\"text-o-"
 "color-1\">CRM</font> </strong> centralizes everything and allows you to "
@@ -1142,11 +1109,11 @@ msgid ""
 "        customer in the <strong> <font class=\"text-o-color-1\">Contact</"
 "font> </strong> app."
 msgstr ""
-"Her fırsattan yararlanın. <strong> <font class=\"text-o-color-1\"> CRM</"
-"font> </strong> her şeyi merkezileştirir ve her talebin etkin bir şekilde "
-"takip edilmesini sağlar. Talep somut hale gelirse, bir\n"
-"        <strong> <font class=\"text-o-color-1\"> Contact</font> </strong> "
-"uygulamasındaki müşteri."
+"Her fırsatı değerlendirin. <strong> <font class=\"text-o-color-1\"> CRM</"
+"font> </strong> tüm bilgileri merkezileştirir ve her talebin etkin şekilde "
+"takip edilmesini sağlar. Talep somutlaştığında, müşteriyi\n"
+"        <strong> <font class=\"text-o-color-1\"> Kontaklar</font> </strong> "
+"uygulamasında oluşturun."
 
 #. module: custom_furniture
 #: model:project.project,label_tasks:custom_furniture.project_project_6
@@ -1155,7 +1122,6 @@ msgstr "Görevler"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid ""
 "The <b>\"Delivery and installation\"</b> service generates a task within a "
 "separate <b>\"Field Service\"</b> project. This task includes the list of "
@@ -1163,20 +1129,19 @@ msgid ""
 "installation\n"
 "                validation <b>worksheet</b>."
 msgstr ""
-"<b>\"Teslimat ve kurulum\"</b> hizmeti, ayrı bir <b>\"Saha Hizmetleri\"</b> "
-"projesi içinde bir görev oluşturur. Bu görev, stoktan istenen tüm ürünlerin "
-"listesini içerir ve bir kurulumun yüklenmesine izin verir\n"
-"                doğrulama <b>çalışma sayfası</b>."
+"<b>\"Teslimat ve kurulum\"</b> hizmeti, ayrı bir <b>\"Saha Hizmeti\"</b> "
+"projesi içinde bir görev oluşturur. Bu görev, stoktan gerekli tüm ürünlerin "
+"listesini içerir ve bir kurulum doğrulama çalışma sayfasının\n"
+"                yüklenmesine <b>olanak tanır.</b>."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid ""
 "The <b>Inventory app</b> is very powerful. If your warehouse needs enhanced "
 "features for better product tracking, consult the"
 msgstr ""
-"<b>Envanter uygulaması</b> çok güçlüdür. Deponuzun daha iyi ürün takibi için "
-"gelişmiş özelliklere ihtiyacı varsa"
+"<b>Stok uygulaması</b> çok güçlüdür. Depolarınız daha gelişmiş ürün takip "
+"özelliklerine ihtiyaç duyuyorsa"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1191,35 +1156,31 @@ msgstr ""
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid ""
 "The Manufacturing App comes with the Shop Floor app. This will provide a "
 "specific view for your worker to keep track of any task in a particular Work "
 "Center."
 msgstr ""
-"Üretim Uygulaması, Üretim Alanı uygulamasıyla birlikte gelir. Bu, "
-"çalışanınızın belirli bir İş Merkezindeki herhangi bir görevi takip etmesi "
-"için özel bir görünüm sağlayacaktır."
+"Üretim Uygulaması, İmalat Ekranı uygulamasıyla birlikte gelir. Bu, "
+"çalışanınıza belirli bir iş istasyonundaki tüm görevleri takip edebilmesi "
+"için özel bir görünüm sağlar."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid ""
 "The Manufacturing App provides the production manager with a comprehensive "
 "overview of products to be created and allows them to manage production by:"
 msgstr ""
-"Üretim Uygulaması, üretim müdürüne oluşturulacak ürünlere ilişkin kapsamlı "
-"bir genel bakış sağlar ve üretimi yönetmelerine olanak tanır:"
+"Üretim Uygulaması, üretim müdürüne oluşturulacak ürünlerin kapsamlı bir "
+"genel görünümünü sunar ve üretimi şu şekillerde yönetmesine olanak tanır:"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid "The Project App offers three key functions:"
 msgstr "Proje Yönetimi Uygulaması üç temel işlev sunar:"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid ""
 "The project template is scheduled for December 1st–31st, and the <b>\"Review "
 "Customer Technical Information\"</b> task is set for December 1st–2nd. As a "
@@ -1238,7 +1199,6 @@ msgstr ""
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid ""
 "The services <b>\"Concept development and 3D renderings\"</b> and "
 "<b>\"Design presentation and revisions\"</b> automatically create <b>new "
@@ -1253,12 +1213,11 @@ msgid ""
 msgstr ""
 "<b>\"Konsept geliştirme ve 3D render\"</b> ve <b>"
 "\"Tasarım sunumu ve revizyonlar\"</b> hizmetleri, yeni oluşturulan proje "
-"içinde otomatik olarak <b>yeni görevler</b> oluşturur. Bu, proje yönetiminin "
-"aşağıdakileri birleştirmesini sağlar\n"
-"               <b>proje şablonundan önceden tanımlanmış görevler</b> ile "
-"<b>tekliften özel olarak eklenen ekstra görevler</b>. Ayrıca, bu hizmetler "
-"<b>\"Plan Hizmetleri\"</b> ayarları ile yapılandırıldığından, bir iş "
-"<b>vardiyası</b> \n"
+"içinde otomatik olarak <b>yeni görevler</b> oluşturur. Bu sayede proje, "
+"proje şablonundaki\n"
+"               <b>ön tanımlı görevleri</b> ile <b>tekliften özel olarak "
+"eklenen ekstra görevler</b>. Ayrıca, bu hizmetler <b>\"Plan Hizmetleri\"</b> "
+"ayarları ile yapılandırıldığından, bir iş <b>vardiyası</b> \n"
 "                Her bir hizmetin gerektirdiği özel rol için proje yönetimi "
 "sisteminde otomatik olarak oluşturulur."
 
@@ -1278,15 +1237,13 @@ msgstr ""
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid ""
 "This subcontracted service (<b>\"Initial design consultation and space "
 "assessment\"</b>) automatically triggers the creation of a <b>Purchase "
 "Order</b>."
 msgstr ""
-"Bu taşeronluk hizmeti (<b>"
-"\"İlk tasarım danışmanlığı ve alan değerlendirmesi\"</b>) otomatik olarak "
-"bir <b>Satın Alma Siparişi</b> oluşturulmasını tetikler."
+"Bu fason hizmet (<b>\"İlk tasarım danışmanlığı ve alan değerlendirmesi\"</b>)"
+" otomatik olarak bir <b>Satın Alma Siparişi</b> oluşturulmasını tetikler."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1314,7 +1271,6 @@ msgstr ""
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid ""
 "Upon Sales Order confirmation, the <b>\"Customer Project Management\"</b> "
 "service initiates a new project using the <b>\"Customer Project Management\" "
@@ -1326,13 +1282,12 @@ msgstr ""
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid ""
 "Use the <b>settings</b> in the <b>quotation section</b> to <b>control the "
 "visibility</b> of prices and composition"
 msgstr ""
-"Fiyatların ve kompozisyonun görünürlüğünü <b>kontrol etmek için</b> <b> "
-"teklif bölümündeki <b>ayarlarını</b> kullanın</b>"
+"Teklif bölümündeki ayarları<b>kullanarak fiyatların ve bileşimin</b> <b> "
+"görünürlüğünü <b>kontrol</b> edin</b>"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1359,7 +1314,6 @@ msgstr ""
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid ""
 "Use the Planning in the Field Service <strong><font class=\"text-o-color-1\">​"
 "</font></strong> app to organize the work of your employees. Define which "
@@ -1367,11 +1321,11 @@ msgid ""
 "and\n"
 "        replacements in case of leave."
 msgstr ""
-"Çalışanlarının çalışmalarını düzenlemek için Saha Hizmetleri <strong><font "
-"class=\"text-o-color-1\"></font></strong> uygulamasındaki Planlamayı "
-"kullanın. Hangi proje yönetimi ve ne zaman çalışmaları gerektiğini "
-"tanımlayın. Vardiya çakışmalarını, iş yükünü ve\n"
-"        İzin durumunda yedekler."
+"Saha Servisi uygulamasındaki Planlama <strong><font class=\"text-o-color-1\""
+"></font></strong> özelliğini kullanarak çalışanlarınızın işlerini organize "
+"edin. Hangi projede ve ne zaman çalışmaları gerektiğini tanımlayın. Vardiya "
+"çakışmalarını, iş yükünü ve \n"
+"        izin durumunda yer değişikliklerini kolayca yönetin."
 
 #. module: custom_furniture
 #: model_terms:web_tour.tour,rainbow_man_message:custom_furniture.knowledge_tour
@@ -1380,27 +1334,25 @@ msgstr "Hoş geldiniz! Mutlu keşifler."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid ""
 "When a Manufacturing Order needs specific instructions for the production "
 "team, add the details to the <b>Notes field</b> under the MO's "
 "<b>Miscellaneous tab</b>. This information will then appear in the\n"
 "                <b>Shop Floor app</b> for the employees to see."
 msgstr ""
-"Bir Üretim Emri üretim ekibi için özel talimatlar gerektirdiğinde, "
-"ayrıntıları MO'nun <b>Çeşitli sekmesi</b> altındaki <b>Notlar alanına</b> "
-"ekleyin. Bu bilgiler daha sonra\n"
-"               <b>Çalışanların görmesi için Üretim Alanı uygulaması</b>."
+"Bir Üretim Emri üretim ekibi için özel talimatlar gerektiriyorsa, detayları "
+"Üretim Emrinin <b>diğer sekmesindeki</b> notlar <b>alanına</b> ekleyin. Bu "
+"bilgiler daha sonra\n"
+"               <b>çalışanların görmesi için İmalat Ekranı uygulamasında "
+"görüntülenecektir</b>."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid "When the MO is complete, confirm it and then plan it."
-msgstr "MO tamamlandığında, onaylayın ve ardından planlayın."
+msgstr "Üretim Emri tamamlandığında, onaylayın ve ardından planlayın."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid ""
 "When you are done with your production, you can finally deliver the complete "
 "order to your customer. To do so, navigate to the Field Service Apps. From "
@@ -1409,10 +1361,10 @@ msgid ""
 "        smart button and validate this picking."
 msgstr ""
 "Üretiminizi tamamladığınızda, nihayet siparişin tamamını müşterinize teslim "
-"edebilirsiniz. Yapılacakları yapmak için Saha Hizmeti Uygulamalarına gidin. "
-"Kurulum görevinden, teslim alınması gereken tüm Ürünleri görebilirsiniz. "
-"Üzerine tıklayın\n"
-"        akıllı düğmesine basın ve bu toplamayı doğrulayın."
+"edebilirsiniz. Tamamlamak için Saha Hizmeti uygulamasına gidin. Kurulum "
+"görevinden, teslim alınması gereken tüm ürünleri görebilirsiniz. Akıllı "
+"butona tıklayın\n"
+"        ve bu teslim almayı doğrulayın."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1436,15 +1388,14 @@ msgstr "Ayrıca 4 farklı mal türü bulabilirsiniz:"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid ""
 "You can also use this field service task to <b>validate</b> a uniquely "
 "<b>customized worksheet</b> and obtain the necessary <b>customer signature</"
 "b>."
 msgstr ""
-"Bu alan hizmeti görevini ayrıca <b></b> benzersiz bir şekilde "
-"<b>özelleştirilmiş bir çalışma sayfasını</b> doğrulamak ve gerekli "
-"<b>müşteri imzasını</b> almak için de kullanabilirsiniz."
+"Bu saha servis görevini <b></b> özel olarak <b>özelleştirilmiş bir çalışma "
+"sayfasını </b> doğrulamak ve gerekli <b>müşteri imzasını</b> almak için de "
+"kullanabilirsiniz."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1504,7 +1455,6 @@ msgstr "dokümantasyon"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid ""
 "documentation to learn how to adapt <b>locations</b>, utilize the <b>barcode "
 "scanner</b>, and\n"
@@ -1512,7 +1462,8 @@ msgid ""
 msgstr ""
 "<b>konumlarını</b> nasıl uyarlayacağınızı, <b>barkod tarayıcısını</b> nasıl "
 "kullanacağınızı ve\n"
-"                diğer birçok gelişmiş seçeneğe erişin."
+"                birçok gelişmiş seçeneğe nasıl erişeceğinizi öğrenmek için "
+"dokümantasyon\"."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1561,15 +1512,13 @@ msgstr "🎓 Proje Yönetimi"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid "🎓 Quality"
 msgstr "🎓 Kalite"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid "🎓 Shopfloor"
-msgstr "🎓 Üretim alanı"
+msgstr "🎓 İmalat Ekranı"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body

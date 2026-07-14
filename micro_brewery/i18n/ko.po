@@ -9,13 +9,13 @@
 # Wil Odoo, 2024
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# "Kwanghee Park (kwpa)" <kwpa@odoo.com>, 2025.
+# "Kwanghee Park (kwpa)" <kwpa@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-28 12:28+0000\n"
-"PO-Revision-Date: 2025-11-05 10:26+0000\n"
+"POT-Creation-Date: 2026-04-10 19:31+0000\n"
+"PO-Revision-Date: 2026-04-21 22:26+0000\n"
 "Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@odoo.com>\n"
 "Language-Team: Korean <https://translate.odoo.com/projects/odoo-19/"
 "micro_brewery/ko/>\n"
@@ -24,22 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3686
-msgid "+1 555-555-5556"
-msgstr "+1 555-555-5556"
-
-#. module: micro_brewery
-#: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_17
-msgid "+16"
-msgstr "+16"
-
-#. module: micro_brewery
-#: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_18
-msgid "+18"
-msgstr "+18"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -122,6 +107,13 @@ msgid ""
 msgstr ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Warning\" aria-label=\"Banner Warning\">⚠️</i>"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Warning\">⚠️</i>"
+msgstr ""
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -218,6 +210,12 @@ msgid ""
 "Customer,&amp;nbsp;visit and bar</span>\n"
 "                          </span>"
 msgstr ""
+"<span class=\"o_small\">\n"
+"                            <strong>John SNOW</strong>\n"
+"                            <br/>\n"
+"                            <span class=\"text-muted\"> 고객,&amp;nbsp;방문 "
+"및 바 관리r</span>\n"
+"                          </span>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.contactus
@@ -333,16 +331,6 @@ msgstr ""
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid "<strong>Excise categories maintenance</strong>"
-msgstr "<strong>소비세 카테고리 유지 관리</strong>"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid "<strong>Excise reporting</strong>"
-msgstr "<strong>소비세 보고</strong>"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
 "<strong>Indicate if there are instructions</strong> the operator should do "
 "during some operation, for example:"
@@ -432,12 +420,8 @@ msgstr "Amber"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid ""
-"Apply DEP XX taxes to those products, creating some if necessary, and assign "
-"them a category with \"Is a deposit category\" set like the Deposit category."
-msgstr ""
-"해당하는 제품에 DEP XX 세금을 적용하고 필요한 경우 세금을 새로 생성한 후, 예"
-"치금 카테고리와 같이 \"예금 카테고리\" 설정하여 카테고리를 지정합니다."
+msgid "As workarounds, you might:"
+msgstr "대안으로는:"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -454,21 +438,6 @@ msgid ""
 "At any time you can select a table and register the payment to close the "
 "table."
 msgstr "언제든지 테이블을 선택하고 결제를 등록하여 닫을 수 있습니다."
-
-#. module: micro_brewery
-#: model:base.automation,name:micro_brewery.auto_production
-msgid "Auto Production"
-msgstr "자동 생산"
-
-#. module: micro_brewery
-#: model:ir.model.fields,field_description:micro_brewery.field_aut_production
-msgid "Auto-production"
-msgstr "자동 생산"
-
-#. module: micro_brewery
-#: model:base.automation,name:micro_brewery.bom_automation
-msgid "Automated BoM"
-msgstr "자동화된 BoM"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -594,6 +563,16 @@ msgid "Bottle"
 msgstr "병"
 
 #. module: micro_brewery
+#: model:product.template,name:micro_brewery.product_template_90
+msgid "Bottle 33cl"
+msgstr "병 제품 33cl"
+
+#. module: micro_brewery
+#: model:product.template,name:micro_brewery.product_template_53
+msgid "Bottles 24x33cl"
+msgstr "병 제품 24x33cl"
+
+#. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Bottling - Work center: Bottler"
 msgstr "보틀링 - 작업 센터: 보틀러"
@@ -711,16 +690,15 @@ msgstr "쇼퐁텐"
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
-"Collect deposit when you deliver your customer. It is easy. When validating "
-"your delivery, you can directly set a \"Return\" and precisely count the "
-"number of each type of deposit your customer gave you. It will automatically "
-"be\n"
-"        reflected on his invoice or issue a credit note."
+"Collect deposits when you deliver to your customer. It is easy. When "
+"validating your delivery, you can directly set a \"Return\" and precisely "
+"count the number of each type of deposit your customer gave you. It will "
+"automatically be reflected on his invoice or issue a credit note."
 msgstr ""
-"고객에게 제품을 배송할 때 보증금을 수령하세요. 간단합니다! 배송을 확인 과정에"
-"서 '반품'을 쉽게 설정하고 고객이 납부한 보증금 건수를 유형별로 정확하게 추적"
-"할 수 있습니다. 이 내용는 자동으로 청구서에 반영되거나\n"
-"        신용 전표로 발행됩니다."
+"고객에게 납품 시 보증금을 수금하세요. 간편하게 설정할 수 있습니다. 납품 확인 "
+"과정에서 바로 '반품'으로 설정하고 고객이 지급한 보증금 수량만 유형별로 "
+"입력하면 정확하게 추적할 수 있습니다. 해당 내역은 자동으로 청구서에 "
+"반영되거나 대변전표로 발행됩니다."
 
 #. module: micro_brewery
 #: model:product.attribute,name:micro_brewery.product_attribute_3
@@ -756,11 +734,6 @@ msgstr ""
 "하겠습니다."
 
 #. module: micro_brewery
-#: model:ir.model.fields,field_description:micro_brewery.field_quantity_by_deposit_product
-msgid "Contains"
-msgstr "포함"
-
-#. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
 "Crafting Beer - Using mainly the <font class=\"text-o-"
@@ -768,6 +741,28 @@ msgid ""
 msgstr ""
 "맥주 제조 - 주로 <font class=\"text-o-color-1\"><strong>제조 관리 앱</"
 "strong></font>을 사용합니다."
+
+#. module: micro_brewery
+#: model:product.template,name:micro_brewery.product_template_55
+msgid "Crate & Bottles 24x33cl"
+msgstr "상자 및 병 제품 24x33cl"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"Crate &amp; Bottles 24x33cl is the complete deposit product (deposits of all "
+"bottles and crate)"
+msgstr ""
+
+#. module: micro_brewery
+#: model:product.template,name:micro_brewery.product_template_56
+msgid "Crate 24x33cl"
+msgstr "박스 제품 24x33cl"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "Crate 24x33cl is the empty deposit product"
+msgstr ""
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -783,42 +778,16 @@ msgstr "레시피 만들기"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid "Create deposit products for each different type of consigns."
-msgstr "각 위탁 유형별로 보증금 항목을 생성합니다."
-
-#. module: micro_brewery
-#: model:account.tax,name:micro_brewery.account_tax_01_purchase
-#: model:account.tax,name:micro_brewery.account_tax_01_sale
-msgid "DEP 0.1"
-msgstr "DEP 0.1"
-
-#. module: micro_brewery
-#: model:account.tax,name:micro_brewery.account_tax_21_sale
-msgid "DEP 2.1"
-msgstr "DEP 2.1"
-
-#. module: micro_brewery
-#: model:account.tax,name:micro_brewery.account_tax_24_purchase
-#: model:account.tax,name:micro_brewery.account_tax_24_sale
-msgid "DEP 2.4"
-msgstr "DEP 2.4"
+msgid ""
+"Create deposit products for each different type of consignments and assign "
+"them a category with \"Is a deposit category\" set like the Deposit category."
+msgstr ""
 
 #. module: micro_brewery
 #: model:account.tax,name:micro_brewery.account_tax_46_purchase
 #: model:account.tax,name:micro_brewery.account_tax_46_sale
 msgid "DEP 35"
 msgstr "DEP 35"
-
-#. module: micro_brewery
-#: model:account.tax,name:micro_brewery.account_tax_45_purchase
-#: model:account.tax,name:micro_brewery.account_tax_45_sale
-msgid "DEP 4.5"
-msgstr "DEP 4.5"
-
-#. module: micro_brewery
-#: model:base.automation,name:micro_brewery.make_deposit_storable_delivery_invoice
-msgid "Default fields for deposits"
-msgstr "입금에 대한 기본 필드"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -831,42 +800,9 @@ msgid "Deliveries of beer boxes are clear."
 msgstr "맥주 박스 배송이 완료되었습니다."
 
 #. module: micro_brewery
-#: model:account.tax.group,name:micro_brewery.deposit_tax_group
 #: model:pos.category,name:micro_brewery.pos_category_5
 msgid "Deposit"
 msgstr "선결제 금액"
-
-#. module: micro_brewery
-#: model:product.template,name:micro_brewery.product_template_90
-msgid "Deposit 0.1"
-msgstr "입금 0.1"
-
-#. module: micro_brewery
-#: model:product.template,name:micro_brewery.product_template_56
-msgid "Deposit 2.1"
-msgstr "입금 2.1"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid "Deposit 2.1 is the empty deposit product"
-msgstr "보증금 2.1은 빈 보증금 제품입니다"
-
-#. module: micro_brewery
-#: model:product.template,name:micro_brewery.product_template_53
-msgid "Deposit 2.4"
-msgstr "입금 2.4"
-
-#. module: micro_brewery
-#: model:product.template,name:micro_brewery.product_template_55
-msgid "Deposit 4.5"
-msgstr "입금 4.5"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid ""
-"Deposit 4.5 is the complete deposit product (deposits of all bottles and "
-"crate)"
-msgstr ""
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_39_product_template
@@ -875,23 +811,13 @@ msgstr "용기 보증금"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid "Deposit Management 🍻"
-msgstr "입금 관리 🍻"
+msgid "Deposit Management ♻️"
+msgstr "예약금 관리 ♻️"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Deposit assignation"
 msgstr "지정된 보증금"
-
-#. module: micro_brewery
-#: model:ir.model.fields,field_description:micro_brewery.field_deposit_product_1
-msgid "Deposit product"
-msgstr "예금 상품"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.product_template_form_custom
-msgid "Deposit product must be set in Deposit category"
-msgstr "입금 상품은 입금 카테고리로 분류되어야 합니다."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -942,11 +868,6 @@ msgid "Email"
 msgstr "이메일"
 
 #. module: micro_brewery
-#: model:ir.model.fields,field_description:micro_brewery.field_empty_deposit
-msgid "Empty deposit product"
-msgstr "빈 보증금 상품"
-
-#. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
 "Entry from FD corresponds to products entering you fiscal deposit warehouse "
@@ -987,20 +908,18 @@ msgstr "소비세 관리 🧾"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "Excise categories maintenance"
+msgstr "소비세 카테고리 유지관리"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Excise management consists in two dimensions in this package:"
 msgstr "이 패키지에서 소비세 관리는 두 가지 분야로 나뉘어 있습니다:"
 
 #. module: micro_brewery
-#: model:ir.actions.server,name:micro_brewery.action_make_deposit_storable_delivery_invoice
-#: model:ir.actions.server,name:micro_brewery.bom_server_action
-#: model:ir.actions.server,name:micro_brewery.update_sales_taxes_server_action
-msgid "Execute Code"
-msgstr "코드 실행"
-
-#. module: micro_brewery
-#: model:ir.actions.server,name:micro_brewery.update_state
-msgid "Execute Existing Actions"
-msgstr "기존 작업 실행"
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "Excise reports"
+msgstr "소비세 보고서"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1252,16 +1171,6 @@ msgstr ""
 "제조 관리 앱에서 맥주의 생산 방법을 설명하는 자재명세서를 생성할 수 있습니다."
 
 #. module: micro_brewery
-#: model:ir.model.fields,field_description:micro_brewery.x_is_a_deposit
-msgid "Is a deposit"
-msgstr "보증금"
-
-#. module: micro_brewery
-#: model:ir.model.fields,field_description:micro_brewery.x_is_a_deposit_category
-msgid "Is a deposit category"
-msgstr "보증금 카테고리"
-
-#. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
 "It could also be interesting for your customer to buy souvenirs, gifts or "
@@ -1296,6 +1205,12 @@ msgstr "맥주통"
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Kits only / Inventory in bottles"
 msgstr "키트만 / 병 단위 재고"
+
+#. module: micro_brewery
+#: model:product.attribute.value,name:micro_brewery.product_attribute_value_12
+#: model:website.base.unit,name:micro_brewery.base_unit_litre
+msgid "L"
+msgstr ""
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_22
@@ -1351,11 +1266,6 @@ msgid "Lautering - Work center: Lauter tun"
 msgstr "라우터링 - 작업 센터: 라우터 툰"
 
 #. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.product_template_form_custom
-msgid "Leave empty if this product is the smallest unit"
-msgstr "제품이 가장 작은 단위인 경우 이 필드를 비워둡니다."
-
-#. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3686
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3854
 msgid "LinkedIn"
@@ -1365,6 +1275,11 @@ msgstr "링크드인"
 #: model:product.attribute,name:micro_brewery.beverage_product_attribute_13
 msgid "Local Brand"
 msgstr "지역 브랜드"
+
+#. module: micro_brewery
+#: model:product.attribute.value,name:micro_brewery.product_attribute_value_11
+msgid "M"
+msgstr ""
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_4_product_template
@@ -1414,6 +1329,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Manage your deposit more precisely and efficiently than ever before."
 msgstr "그 어느 때보다 더 정확하고 효율적으로 입금을 관리하세요."
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "Manually convert crates into unit bottles at the bar on reception."
+msgstr ""
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1511,12 +1431,10 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
 "On a regular basis, excises need to be declared. To support you with this "
-"duty, a report is setup to reach the quantity by excise category entering "
-"and exiting your fiscal deposit warehouse."
+"duty, a report generated weekly provides the quantity by excise category "
+"entering and exiting your fiscal deposit warehouse with a dedicated activity "
+"for it."
 msgstr ""
-"소비세는 정기 신고 의무가 있는 세금입니다. 신고 업무를 지원할 수 있도록 보고"
-"서가 설정되어 재정 예치금 보관소에 입출고되는 규모에 대한 소비세 품목별 수량"
-"을 확인할 수 있습니다."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1546,11 +1464,9 @@ msgstr "모든 작업을 완료하면 수제 맥주 판매를 시작할 준비�
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
-"Open the <strong>Inventory app</strong> and reach from the Reporting menu "
-"the Excises."
+"Open the <strong>Inventory app</strong> and reach the Excise Reports from "
+"the Reporting menu."
 msgstr ""
-"<strong>재고 관리 앱</strong>을 실행한 후 보고 메뉴에서 소비세 항목을 확인하"
-"세요."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1574,12 +1490,6 @@ msgid ""
 msgstr ""
 "외부 영업 (B2B - 바 & 리테일)의 경우 - <strong><font class=\"text-o-"
 "color-1\">판매 앱</font></strong>을 사용합니다."
-
-#. module: micro_brewery
-#: model:ir.model.fields,field_description:micro_brewery.field_parent_product_bom
-#: model:ir.model.fields,field_description:micro_brewery.field_parent_product_rr
-msgid "Parent product"
-msgstr "상위 품목"
 
 #. module: micro_brewery
 #: model:uom.uom,name:micro_brewery.uom_uom_30
@@ -1644,13 +1554,21 @@ msgstr "로터링 후 생산된 소비된 곡물의 양을 기록합니다."
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
-"Remember that only stock moves to or from your fiscal deposit warehouses are "
-"reported here.<br/>This is normal not to see any move related to a sale from "
-"a front store warehouse since it is not a fiscal deposit for example."
+"Rely on the kit setup mentioned in the \"Products and Bills of Material\" "
+"section."
 msgstr ""
-"여기에서는 재정 예치금 보관소로서 재고가 입출고되는 상황만 보고된다는 것에 유"
-"념하시기 바랍니다.<br/> 예를 들어 매장 내 판매와 같은 경우에는 재무적인 예치 "
-"창고와 무관하므로 표시되지 않는 것이 정상입니다."
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"Remember that only stock moves to or from your fiscal deposit warehouses are "
+"reported here."
+msgstr ""
+
+#. module: micro_brewery
+#: model:product.attribute.value,name:micro_brewery.product_attribute_value_10
+msgid "S"
+msgstr ""
 
 #. module: micro_brewery
 #: model:x_excise_category,x_name:micro_brewery.x_excise_category_S005
@@ -1683,11 +1601,9 @@ msgstr ""
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
-"Set a deposit product on your product to apply these taxes. This will ensure "
-"that you invoice correctly the price of consigns."
+"Set a deposit product on your product to apply deposit taxes. This will "
+"ensure that you invoice correctly the price of consignments."
 msgstr ""
-"이 세금을 적용하려면 제품에 입금 상품을 설정하세요. 이렇게 하면 위탁품 가격"
-"을 정확하게 인보이스에 표시할 수 있습니다."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3854
@@ -1766,6 +1682,20 @@ msgstr ""
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
+"The assignee of the excise reporting activities can be set from the "
+"Inventory settings."
+msgstr ""
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"The automated crate split based on BoM (defined from crate products with "
+"\"contains\" fields) is not supported from the bar (PoS)."
+msgstr ""
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
 "The bottled beer is directly the finished product and no semi-finished "
 "bottle product is required."
 msgstr ""
@@ -1779,13 +1709,6 @@ msgid ""
 msgstr ""
 "맥주 상자 개수는 참고용으로만 확인해 둡니다. 박스는 구성품인 맥주병과 상자가 "
 "준비되어야 사용 가능한 것으로 간주되기 때문입니다."
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid ""
-"The default breakdown is done by week and you can configure it to be by "
-"month if needed."
-msgstr ""
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1889,11 +1812,9 @@ msgstr ""
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
-"This deposit management system is a specific features of this package. "
-"Proceed carefully if you need to adapt anything."
+"This is normal not to see any move related to a sale from a front store "
+"warehouse since it is not a fiscal deposit for example"
 msgstr ""
-"이 입금 관리 시스템은 이 패키지의 고유한 기능입니다. 변경이 필요한 경우 신중"
-"하게 진행하세요."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1921,16 +1842,6 @@ msgstr "이전 작업을 통해 여러 재정 예치금 저장소 간의 이체�
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Two bills of material are needed."
 msgstr "자재명세서 두 건이 필요합니다."
-
-#. module: micro_brewery
-#: model:ir.model.fields,field_description:micro_brewery.field_unit_sale_product
-msgid "Unit sale product"
-msgstr "단위 판매 상품"
-
-#. module: micro_brewery
-#: model:base.automation,name:micro_brewery.update_sales_taxes
-msgid "Update Taxes"
-msgstr "업데이트: 세금"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3686
@@ -2085,6 +1996,12 @@ msgid "Would you like to discuss your Odoo setup with us or go even further?"
 msgstr "Odoo 설정에 대해 논의하거나 추가 기능을 살펴보고 싶으신가요?"
 
 #. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3686
+#: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3854
+msgid "X"
+msgstr ""
+
+#. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.product_attribute_value_13
 msgid "XL"
 msgstr "XL"
@@ -2120,11 +2037,9 @@ msgstr "메인 대시보드에서 Odoo 데이터베이스에 설치된 모든 �
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
-"You can also collect deposit directly on your Point of Sale. Select the "
+"You can also collect deposits directly on your Point of Sale. Select the "
 "correct product and encode a negative quantity."
 msgstr ""
-"POS에서 직접 보증금을 수금할 수도 있습니다. 적절한 제품을 선택하고 마이너스 "
-"수량을 입력합니다."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -2191,12 +2106,6 @@ msgstr ""
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
-"You now have the keys to easily report those to the relevant authorities!"
-msgstr "이제 관련 정부 기관에 해당 내용을 쉽게 신고할 수 있습니다!"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid ""
 "You should be able to execute the following flows to have an overview of "
 "various flows you can quickly execute with this package using Odoo."
 msgstr ""
@@ -2226,11 +2135,6 @@ msgstr "및"
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "documentation"
 msgstr "관련 문서"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.product_template_form_custom
-msgid "ex. Delta I.P.A. - 33cl"
-msgstr "예: 델타 I.P.A. - 33c"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -2264,8 +2168,212 @@ msgstr "데모 요청하기"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "﻿🎓 Deposit Management﻿"
+msgstr "﻿🎓 예약금 관리"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "🎓 Excise Management"
+msgstr "🎓 소비세 관리"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "🎓 Units of measure"
 msgstr "🎓 단위"
+
+#~ msgid "+1 555-555-5556"
+#~ msgstr "+1 555-555-5556"
+
+#~ msgid "+16"
+#~ msgstr "+16"
+
+#~ msgid "+18"
+#~ msgstr "+18"
+
+#~ msgid "Excise reporting"
+#~ msgstr "소비세 신고"
+
+#~ msgid ""
+#~ "You now have the keys to easily report those to the relevant authorities!"
+#~ msgstr "이제 관련 정부 기관에 해당 내용을 쉽게 신고할 수 있습니다!"
+
+#~ msgid ""
+#~ "Apply DEP XX taxes to those products, creating some if necessary, and "
+#~ "assign them a category with \"Is a deposit category\" set like the "
+#~ "Deposit category."
+#~ msgstr ""
+#~ "해당하는 제품에 DEP XX 세금을 적용하고 필요한 경우 세금을 새로 생성한 후, "
+#~ "예치금 카테고리와 같이 \"예금 카테고리\" 설정하여 카테고리를 지정합니다."
+
+#~ msgid "Auto Production"
+#~ msgstr "자동 생산"
+
+#~ msgid "Auto-BOM"
+#~ msgstr "자동 자재명세서"
+
+#~ msgid "Auto-production"
+#~ msgstr "자동 생산"
+
+#~ msgid "Automated BoM"
+#~ msgstr "자동화된 BoM"
+
+#~ msgid "Available Deposit Category"
+#~ msgstr "이용할 수 있는 예치금 카테고리"
+
+#~ msgid "Beer Crate 24x33cl"
+#~ msgstr "맥주 박스 제품 24x33cl"
+
+#~ msgid "By-Deposit"
+#~ msgstr "예치금별"
+
+#~ msgid ""
+#~ "Collect deposit when you deliver your customer. It is easy. When "
+#~ "validating your delivery, you can directly set a \"Return\" and precisely "
+#~ "count the number of each type of deposit your customer gave you. It will "
+#~ "automatically be\n"
+#~ "        reflected on his invoice or issue a credit note."
+#~ msgstr ""
+#~ "고객에게 제품을 배송할 때 보증금을 수령하세요. 간단합니다! 배송을 확인 과"
+#~ "정에서 '반품'을 쉽게 설정하고 고객이 납부한 보증금 건수를 유형별로 정확하"
+#~ "게 추적할 수 있습니다. 이 내용는 자동으로 청구서에 반영되거나\n"
+#~ "        신용 전표로 발행됩니다."
+
+#~ msgid "Contains"
+#~ msgstr "포함"
+
+#~ msgid "Create deposit products for each different type of consigns."
+#~ msgstr "각 위탁 유형별로 보증금 항목을 생성합니다."
+
+#~ msgid "Create/assign deposit Taxes"
+#~ msgstr "세금 예치금 생성 및 지정"
+
+#~ msgid "DEP 0.1"
+#~ msgstr "DEP 0.1"
+
+#~ msgid "DEP 2.1"
+#~ msgstr "DEP 2.1"
+
+#~ msgid "DEP 2.4"
+#~ msgstr "DEP 2.4"
+
+#~ msgid "DEP 4.5"
+#~ msgstr "DEP 4.5"
+
+#~ msgid "Default fields for deposits"
+#~ msgstr "입금에 대한 기본 필드"
+
+#~ msgid "Deposit Amount"
+#~ msgstr "예치금 금액"
+
+#~ msgid "Deposit Management 🍻"
+#~ msgstr "입금 관리 🍻"
+
+#~ msgid "Execute Code"
+#~ msgstr "코드 실행"
+
+#~ msgid "Execute Existing Actions"
+#~ msgstr "기존 작업 실행"
+
+#~ msgid "Is a deposit"
+#~ msgstr "보증금"
+
+#~ msgid "Leave empty if this product is the smallest unit"
+#~ msgstr "제품이 가장 작은 단위인 경우 이 필드를 비워둡니다."
+
+#~ msgid "Parent product"
+#~ msgstr "상위 품목"
+
+#~ msgid ""
+#~ "Set a deposit product on your product to apply these taxes. This will "
+#~ "ensure that you invoice correctly the price of consigns."
+#~ msgstr ""
+#~ "이 세금을 적용하려면 제품에 입금 상품을 설정하세요. 이렇게 하면 위탁품 가"
+#~ "격을 정확하게 인보이스에 표시할 수 있습니다."
+
+#~ msgid ""
+#~ "This deposit management system is a specific features of this package. "
+#~ "Proceed carefully if you need to adapt anything."
+#~ msgstr ""
+#~ "이 입금 관리 시스템은 이 패키지의 고유한 기능입니다. 변경이 필요한 경우 신"
+#~ "중하게 진행하세요."
+
+#~ msgid "Total Deposits"
+#~ msgstr "총 예치액"
+
+#~ msgid "Unit sale product"
+#~ msgstr "단위 판매 상품"
+
+#~ msgid "Update Taxes"
+#~ msgstr "업데이트: 세금"
+
+#~ msgid ""
+#~ "You can also collect deposit directly on your Point of Sale. Select the "
+#~ "correct product and encode a negative quantity."
+#~ msgstr ""
+#~ "POS에서 직접 보증금을 수금할 수도 있습니다. 적절한 제품을 선택하고 마이너"
+#~ "스 수량을 입력합니다."
+
+#~ msgid "ex. Delta I.P.A. - 33cl"
+#~ msgstr "예: 델타 I.P.A. - 33c"
+
+#~ msgid "<strong>Excise categories maintenance</strong>"
+#~ msgstr "<strong>소비세 카테고리 유지 관리</strong>"
+
+#~ msgid "<strong>Excise reporting</strong>"
+#~ msgstr "<strong>소비세 보고</strong>"
+
+#~ msgid "Deposit 0.1"
+#~ msgstr "입금 0.1"
+
+#~ msgid "Deposit 2.1"
+#~ msgstr "입금 2.1"
+
+#~ msgid "Deposit 2.1 is the empty deposit product"
+#~ msgstr "보증금 2.1은 빈 보증금 제품입니다"
+
+#~ msgid "Deposit 2.4"
+#~ msgstr "입금 2.4"
+
+#~ msgid "Deposit 4.5"
+#~ msgstr "입금 4.5"
+
+#~ msgid "Deposit product"
+#~ msgstr "예금 상품"
+
+#~ msgid "Deposit product must be set in Deposit category"
+#~ msgstr "입금 상품은 입금 카테고리로 분류되어야 합니다."
+
+#~ msgid "Empty deposit product"
+#~ msgstr "빈 보증금 상품"
+
+#~ msgid "Is a deposit category"
+#~ msgstr "보증금 카테고리"
+
+#~ msgid ""
+#~ "On a regular basis, excises need to be declared. To support you with this "
+#~ "duty, a report is setup to reach the quantity by excise category entering "
+#~ "and exiting your fiscal deposit warehouse."
+#~ msgstr ""
+#~ "소비세는 정기 신고 의무가 있는 세금입니다. 신고 업무를 지원할 수 있도록 보"
+#~ "고서가 설정되어 재정 예치금 보관소에 입출고되는 규모에 대한 소비세 품목별 "
+#~ "수량을 확인할 수 있습니다."
+
+#~ msgid ""
+#~ "Open the <strong>Inventory app</strong> and reach from the Reporting menu "
+#~ "the Excises."
+#~ msgstr ""
+#~ "<strong>재고 관리 앱</strong>을 실행한 후 보고 메뉴에서 소비세 항목을 확인"
+#~ "하세요."
+
+#~ msgid ""
+#~ "Remember that only stock moves to or from your fiscal deposit warehouses "
+#~ "are reported here.<br/>This is normal not to see any move related to a "
+#~ "sale from a front store warehouse since it is not a fiscal deposit for "
+#~ "example."
+#~ msgstr ""
+#~ "여기에서는 재정 예치금 보관소로서 재고가 입출고되는 상황만 보고된다는 것"
+#~ "에 유념하시기 바랍니다.<br/> 예를 들어 매장 내 판매와 같은 경우에는 재무적"
+#~ "인 예치 창고와 무관하므로 표시되지 않는 것이 정상입니다."
 
 #~ msgid "New Decimal"
 #~ msgstr "새로운 소수점"

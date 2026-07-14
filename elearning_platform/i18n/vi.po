@@ -2,15 +2,16 @@
 # This file contains the translation of the following modules:
 # * elearning_platform
 #
-# "Thi Huong Nguyen (thng)" <thng@odoo.com>, 2025.
+# "Thi Huong Nguyen (thng)" <thng@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Bren Driesen <brdri@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-13 08:09+0000\n"
-"PO-Revision-Date: 2025-11-17 11:17+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-04-10 19:04+0000\n"
+"PO-Revision-Date: 2026-03-21 09:54+0000\n"
+"Last-Translator: \"Thi Huong Nguyen (thng)\" <thng@odoo.com>\n"
 "Language-Team: Vietnamese <https://translate.odoo.com/projects/odoo-19/"
 "elearning_platform/vi/>\n"
 "Language: vi\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
@@ -29,6 +30,11 @@ msgid ""
 "# Good\n"
 "max_score = 100"
 msgstr ""
+"# Xấu\n"
+"x = 100\n"
+"\n"
+"# Tốt\n"
+"max_score = 100"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
@@ -36,6 +42,8 @@ msgid ""
 "# Calculate the area of a rectangle\n"
 "area = length * width"
 msgstr ""
+"# Tính diện tích của một hình chữ nhật\n"
+"diện tích = chiều dài * chiều rộng"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
@@ -44,6 +52,9 @@ msgid ""
 "def calculate_area(length, width):\n"
 "    return length * width"
 msgstr ""
+"# Dễ đọc\n"
+"def calculate_area(length, width):\n"
+"    return length * width"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
@@ -56,6 +67,13 @@ msgid ""
 "if score &gt;= 50:\n"
 "    print(\"You passed!\")"
 msgstr ""
+"# Quá phức tạp\n"
+"if not (score &lt; 50):\n"
+"    print(\"Bạn đã đạt!\")\n"
+"\n"
+"# Đơn giản và rõ ràng hơn\n"
+"if score &gt;= 50:\n"
+"    print(\"Bạn đã đạt!\")"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
@@ -70,16 +88,25 @@ msgid ""
 "for name in names:\n"
 "    print(\"Hello,\", name + \"!\")"
 msgstr ""
+"# Lặp lại\n"
+"print(\"Xin chào, Alice!\")\n"
+"print(\"Xin chào, Bob!\")\n"
+"print(\"Xin chào, Carol!\")\n"
+"\n"
+"# Phiên bản DRY\n"
+"names = [\"Alice\", \"Bob\", \"Carol\"]\n"
+"for name in names:\n"
+"    print(\"Xin chào,\", name + \"!\")"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
 msgid "&amp;nbsp;Learn more&amp;nbsp;"
-msgstr ""
+msgstr "&amp;nbsp;Tìm hiểu thêm&amp;nbsp;"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "1. <strong>Use Meaningful Names</strong>"
-msgstr ""
+msgstr "1. <strong>Sử dụng tên có ý nghĩa</strong>"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
@@ -89,37 +116,33 @@ msgstr "12k"
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "2. <strong>Keep Code Organized with Indentation</strong>"
-msgstr ""
+msgstr "2. <strong>Giữ mã nguồn gọn gàng với thụt lề</strong>"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "3. <strong>Add Helpful Comments</strong>"
-msgstr ""
+msgstr "3. <strong>Thêm nhận xét hữu ích</strong>"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "4. <strong>Follow Consistent Style</strong>"
-msgstr ""
+msgstr "4. <strong>Tuân thủ phong cách nhất quán</strong>"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "5. <strong>Keep Code Simple (Avoid Unnecessary Complexity)</strong>"
 msgstr ""
+"5. <strong>Giữ mã nguồn đơn giản (Tránh sự phức tạp không cần thiết)</strong>"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "6. <strong>Don’t Repeat Yourself (DRY Principle)</strong>"
-msgstr ""
+msgstr "6. <strong>Không lặp lại bản thân</strong>"
 
 #. module: elearning_platform
 #: model:product.attribute.value,name:elearning_platform.product_attribute_value_103
 msgid "80 Hours"
-msgstr ""
-
-#. module: elearning_platform
-#: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
-msgid "85%"
-msgstr "85%"
+msgstr "80 giờ"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
@@ -127,16 +150,18 @@ msgid ""
 "<a class=\"o_translate_inline btn btn-primary\" href=\"/slides\">Browse "
 "Courses</a>"
 msgstr ""
+"<a class=\"o_translate_inline btn btn-primary\" href=\"/slides\">Xem các "
+"khóa học</a>"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "<em>“Do you want to play again? (yes/no)”</em>"
-msgstr ""
+msgstr "<em>“Bạn có muốn chơi lại không? (Có/Không)”</em>"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "<em>“You guessed the number in 3 tries!”</em>"
-msgstr ""
+msgstr "<em>“Bạn đã đoán đúng số trong 3 lần thử!”</em>"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.ir_ui_view_3213
@@ -149,8 +174,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
 "normal\">💡</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Info\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
+"<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
+"normal\">💡</i>"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -158,8 +183,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\">✅</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Success\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\">✅</i>"
+"<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
+"fst-normal\">✅</i>"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -167,8 +192,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\">⚠️</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Warning\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
+"<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
+"fst-normal\">⚠️</i>"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
@@ -194,6 +219,8 @@ msgid ""
 "<span class=\"display-4-fs\"><strong>Odoo for eLearning Platforms</strong></"
 "span>"
 msgstr ""
+"<span class=\"display-4-fs\"><strong>Odoo cho nền tảng Học trực tuyến</"
+"strong></span>"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -211,11 +238,13 @@ msgid ""
 "<strong>Accounting</strong>: Manage revenues, taxes, and financial reports "
 "from course sales."
 msgstr ""
+"<strong>Kế toán</strong>: Quản lý doanh thu, thuế và báo cáo tài chính từ "
+"việc bán khóa học."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
 msgid "<strong>Apps &amp; What They Do:</strong>"
-msgstr ""
+msgstr "<strong>Ứng dụng &amp; chức năng của chúng:</strong>"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -223,11 +252,14 @@ msgid ""
 "<strong>Automate communications: </strong>Set up automated emails for course "
 "completion reminders, certificates, or upselling new courses."
 msgstr ""
+"<strong>Tự động hóa trao đổi thông tin: </strong>Thiết lập email tự động cho "
+"các thông báo hoàn thành khóa học, chứng chỉ hoặc giới thiệu các khóa học "
+"mới."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "<strong>Breaking Down Problems into Steps</strong>"
-msgstr ""
+msgstr "<strong>Phân tích vấn đề thành các bước</strong>"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -235,6 +267,8 @@ msgid ""
 "<strong>Bundle your offers: </strong>Create course packages to increase "
 "perceived value and average cart size.<strong/><br/>"
 msgstr ""
+"<strong>Gói các ưu đãi của bạn: </strong>Tạo gói khóa học để tăng giá trị "
+"cảm nhận và kích thước giỏ hàng trung bình.<strong/><br/>"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,description:elearning_platform.slide_slide_43
@@ -243,6 +277,9 @@ msgid ""
 "manage resources and are often used in systems programming or high-"
 "performance applications."
 msgstr ""
+"<strong>C và C++</strong> mang lại cho lập trình viên nhiều quyền kiểm soát "
+"hơn về cách máy tính quản lý tài nguyên và thường được sử dụng trong lập "
+"trình hệ thống hoặc các ứng dụng hiệu năng cao."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_43
@@ -253,22 +290,27 @@ msgid ""
 "embedded devices. For instance, much of Microsoft Windows and many game "
 "engines are written in C++."
 msgstr ""
+"<strong>C và C++</strong>: Các ngôn ngữ này cho phép lập trình viên kiểm "
+"soát mức thấp đối với cách bộ nhớ và phần cứng được sử dụng. Điều này khiến "
+"chúng trở nên lý tưởng cho các ứng dụng đòi hỏi hiệu suất cao như trò chơi "
+"điện tử, hệ điều hành và thiết bị nhúng. Ví dụ, phần lớn hệ điều hành "
+"Microsoft Windows và nhiều engine game được viết bằng C++."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
 msgid ""
 "<strong>Certifications</strong>: Issue completion certificates automatically."
-msgstr ""
+msgstr "<strong>Chứng chỉ</strong>: Tự động cấp chứng chỉ hoàn thành."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "<strong>Check your logic manually</strong>:"
-msgstr ""
+msgstr "<strong>Kiểm tra logic thủ công</strong>:"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "<strong>Clean Version:</strong>"
-msgstr ""
+msgstr "<strong>Phiên bản sạch:</strong>"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -276,6 +318,8 @@ msgid ""
 "<strong>Community building</strong>: Use Odoo’s Forum and Reviews features "
 "to stimulate peer-to-peer support."
 msgstr ""
+"<strong>Xây dựng cộng đồng</strong>: Sử dụng các tính năng Diễn đàn và Đánh "
+"giá của Odoo để khuyến khích sự hỗ trợ lẫn nhau giữa các thành viên."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -283,11 +327,13 @@ msgid ""
 "<strong>Continuous improvement</strong>: Assign responsible managers to keep "
 "content evolving."
 msgstr ""
+"<strong>Cải tiến liên tục</strong>: Chỉ định các quản lý chịu trách nhiệm để "
+"đảm bảo nội dung luôn được cập nhật và phát triển."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "<strong>Custom range</strong>"
-msgstr ""
+msgstr "<strong>Phạm vi tùy chỉnh</strong>"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -295,11 +341,14 @@ msgid ""
 "<strong>Dashboards</strong>: Monitor KPIs like course sales, student "
 "engagement, or marketing performance in real time."
 msgstr ""
+"<strong>Báo cáo tổng quan</strong>: Theo dõi các chỉ số KPI như doanh số bán "
+"khóa học, mức độ tương tác của học viên hoặc hiệu quả marketing theo thời "
+"gian thực."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "<strong>Draw it out</strong>:"
-msgstr ""
+msgstr "<strong>Vẽ ra</strong>:"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -307,6 +356,9 @@ msgid ""
 "<strong>Engage through social media: </strong>Repurpose snippets of your "
 "lessons into posts or teasers to drive traffic back to your platform."
 msgstr ""
+"<strong>Tương tác qua mạng xã hội:</strong> Tái sử dụng các snippet từ bài "
+"giảng thành bài đăng hoặc teaser để thu hút người xem trở lại nền tảng của "
+"bạn."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -314,12 +366,15 @@ msgid ""
 "<strong>Engagement analytics</strong>: Measure clicks, open rates, and "
 "conversions."
 msgstr ""
+"<strong>Phân tích tương tác</strong>: Đo lường số lần nhấp chuột, tỷ lệ mở "
+"email và tỷ lệ chuyển đổi."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
 msgid ""
 "<strong>Feedback &amp; reviews</strong>: Collect star ratings and comments."
 msgstr ""
+"<strong>Phản hồi &amp; nhận xét</strong>: Thu thập đánh giá sao và nhận xét."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -327,6 +382,8 @@ msgid ""
 "<strong>Gamification</strong>: Add leaderboards, badges, and XP points for "
 "learner engagement."
 msgstr ""
+"<strong>rò chơi hoá</strong>: Thêm bảng xếp hạng, huy hiệu và điểm kinh "
+"nghiệm (XP) để tăng cường sự tham gia của học viên."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -334,6 +391,8 @@ msgid ""
 "<strong>Gamify your courses: </strong>Add badges and leaderboards to "
 "encourage competition and motivation."
 msgstr ""
+"<strong>Hãy biến các khóa học của bạn thành trò chơi: </strong>Thêm huy hiệu "
+"và bảng xếp hạng để khuyến khích cạnh tranh và động lực."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_43
@@ -342,21 +401,25 @@ msgid ""
 "great for building scalable web servers or cloud applications. It’s used in "
 "backend systems that handle millions of requests per second."
 msgstr ""
+"<strong>Go (Golang)</strong>: Được phát triển bởi Google, Go đơn giản, nhanh "
+"và tuyệt vời để xây dựng các máy chủ web hoặc ứng dụng đám mây có khả năng "
+"mở rộng. Ngôn ngữ này được sử dụng trong các hệ thống backend xử lý hàng "
+"triệu yêu cầu mỗi giây."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
 msgid "<strong>Guidance You Can Trust</strong>"
-msgstr ""
+msgstr "<strong>Hướng dẫn đáng tin cậy</strong>"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "<strong>Guided Exercise: A Number Guessing Game</strong>"
-msgstr ""
+msgstr "<strong>Bài tập hướng dẫn: Trò chơi đoán số</strong>"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "<strong>High-level problem:</strong> <em>“Make toast.”</em>"
-msgstr ""
+msgstr "<strong>Vấn đề cấp cao:</strong> <em>“Làm bánh mì nướng.”</em>"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
@@ -364,11 +427,13 @@ msgid ""
 "<strong>Hint:</strong> Use meaningful variable names, indentation, and maybe "
 "a function."
 msgstr ""
+"<strong>Gợi ý:</strong> Sử dụng tên biến có ý nghĩa, định dạng lùi dòng và "
+"có thể sử dụng hàm."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "<strong>Identify repeated patterns</strong>:"
-msgstr ""
+msgstr "<strong>Xác định các mẫu lặp lại</strong>:"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -376,6 +441,8 @@ msgid ""
 "<strong>Internal use</strong>: Assign courses free of charge for employee "
 "onboarding or training."
 msgstr ""
+"<strong>Sử dụng nội bộ</strong>: Cung cấp các khóa học miễn phí cho quá "
+"trình onboarding hoặc đào tạo nhân viên."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,description:elearning_platform.slide_slide_43
@@ -383,6 +450,8 @@ msgid ""
 "<strong>Java</strong> is popular for large applications, Android apps, and "
 "enterprise systems."
 msgstr ""
+"<strong>Java</strong> được ưa chuộng trong việc phát triển các ứng dụng quy "
+"mô lớn, ứng dụng Android và hệ thống doanh nghiệp."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_43
@@ -392,6 +461,11 @@ msgid ""
 "<em>“Write once, run anywhere”</em>, reflects how portable it is. A banking "
 "system backend or an Android mobile game are often written in Java."
 msgstr ""
+"<strong>Java</strong>: Một ngôn ngữ lập trình mạnh mẽ, đa năng, có thể chạy "
+"trên mọi nền tảng từ máy chủ doanh nghiệp lớn đến điện thoại Android. Slogan "
+"<em>“Viết một lần, chạy mọi nơi”</em> thể hiện tính linh hoạt và khả năng "
+"tương thích cao của ngôn ngữ này. Hệ thống backend của ngân hàng hoặc trò "
+"chơi di động trên Android thường được viết bằng Java."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,description:elearning_platform.slide_slide_43
@@ -399,6 +473,8 @@ msgid ""
 "<strong>JavaScript</strong> powers most websites, making pages interactive "
 "and dynamic."
 msgstr ""
+"<strong>JavaScript</strong> là công nghệ chính hỗ trợ hầu hết trang web, "
+"giúp các trang web có tính động và tương tác."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_43
@@ -422,6 +498,8 @@ msgid ""
 "<strong>Knowledge</strong> &amp; <strong>Documents</strong>: Centralize your "
 "internal documentation for trainers and staff."
 msgstr ""
+"<strong>Kiến thức</strong> &amp; <strong> Tài liệu</strong>: Tập trung tài "
+"liệu nội bộ cho giảng viên và nhân viên."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -429,11 +507,13 @@ msgid ""
 "<strong>Leverage analytics: </strong>Track student progress to identify "
 "bottlenecks and adjust course content accordingly."
 msgstr ""
+"<strong>Sử dụng phân tích: </strong>Theo dõi tiến độ học tập của học viên để "
+"xác định các điểm nghẽn và điều chỉnh nội dung khóa học cho phù hợp."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "<strong>Limit the number of attempts</strong>"
-msgstr ""
+msgstr "<strong>Hạn chế số lần thử</strong>"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -441,16 +521,19 @@ msgid ""
 "<strong>Marketing apps</strong>: Send targeted campaigns to promote courses "
 "&amp; connect and engage audiences through multiple social platforms."
 msgstr ""
+"<strong>Ứng dụng tiếp thị</strong>: Gửi các chiến dịch tiếp thị mục tiêu để "
+"quảng bá các khóa học &amp; kết nối và tương tác với khán giả thông qua "
+"nhiều nền tảng mạng xã hội."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "<strong>Messy Version:</strong>"
-msgstr ""
+msgstr "<strong>Phiên bản lộn xộn:</strong>"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "<strong>Play again option</strong>"
-msgstr ""
+msgstr "<strong>Tùy chọn chơi lại</strong>"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
@@ -458,6 +541,8 @@ msgid ""
 "<strong>Problem:</strong> You want to write a program that makes an ATM "
 "simulate a cash withdrawal."
 msgstr ""
+"<strong>Vấn đề:</strong> Bạn muốn viết một chương trình để mô phỏng việc rút "
+"tiền mặt từ máy ATM."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -465,6 +550,8 @@ msgid ""
 "<strong>Projects</strong>: Organize course development and track future "
 "content roadmaps."
 msgstr ""
+"<strong>Dự án</strong>: Tổ chức phát triển khóa học và theo dõi lộ trình nội "
+"dung trong tương lai."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,description:elearning_platform.slide_slide_43
@@ -472,6 +559,9 @@ msgid ""
 "<strong>Python</strong> is known for being beginner-friendly and widely used "
 "in data science, web development, and automation."
 msgstr ""
+"<strong>Python</strong> được biết đến là ngôn ngữ lập trình thân thiện với "
+"người mới bắt đầu và được sử dụng rộng rãi trong khoa học dữ liệu, phát "
+"triển web và tự động hóa."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_43
@@ -482,6 +572,12 @@ msgid ""
 "Django), and automation. Example: writing a program that analyzes thousands "
 "of tweets to find trending topics."
 msgstr ""
+"<strong>Python</strong>: Nổi tiếng với sự đơn giản, Python có cú pháp gần "
+"giống tiếng Anh, khiến nó trở thành lựa chọn ưa thích của người mới bắt đầu. "
+"Ngôn ngữ này được sử dụng rộng rãi trong khoa học dữ liệu, trí tuệ nhân tạo, "
+"phát triển web (sử dụng các khung làm việc như Django) và tự động hóa. Ví "
+"dụ: viết một chương trình phân tích hàng nghìn tweet để tìm các chủ đề đang "
+"thịnh hành."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,description:elearning_platform.slide_slide_43
@@ -489,6 +585,8 @@ msgid ""
 "<strong>Ruby, Go, Swift, and others</strong> serve specialized roles across "
 "industries."
 msgstr ""
+"<strong>Ruby, Go, Swift và các ngôn ngữ lập trình khác</strong> đóng vai trò "
+"chuyên biệt trong các ngành khác nhau."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_43
@@ -497,6 +595,9 @@ msgid ""
 "Popular in web development thanks to Ruby on Rails, it was once the backbone "
 "of platforms like Airbnb and GitHub."
 msgstr ""
+"<strong>Ruby</strong>: Nổi tiếng với sự thanh lịch và thiết kế thân thiện "
+"với lập trình viên. Phổ biến trong phát triển web nhờ Ruby on Rails, từng là "
+"nền tảng chính của các dịch vụ như Airbnb và GitHub."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -504,22 +605,26 @@ msgid ""
 "<strong>Sales reports</strong>: Monitor revenues and identify popular "
 "courses."
 msgstr ""
+"<strong>Báo cáo doanh thu</strong>: Theo dõi doanh thu và xác định các khóa "
+"học phổ biến."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "<strong>Show the number of attempts taken</strong>"
-msgstr ""
+msgstr "<strong>Hiển thị số lần thử đã thực hiện</strong>"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
 msgid ""
 "<strong>Social scheduling</strong>: Plan posts across multiple platforms."
 msgstr ""
+"<strong>Lên lịch đăng bài trên mạng xã hội</strong>: Lên lịch đăng bài trên "
+"nhiều nền tảng khác nhau."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "<strong>Start broad, then refine</strong>:"
-msgstr ""
+msgstr "<strong>Bắt đầu từ phạm vi rộng, sau đó tinh chỉnh</strong>:"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -527,6 +632,8 @@ msgid ""
 "<strong>Surveys</strong>: Gather learner feedback to continuously improve "
 "course quality."
 msgstr ""
+"<strong>Khảo sát</strong>: Thu thập phản hồi của học viên để liên tục cải "
+"thiện chất lượng khóa học."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_43
@@ -535,6 +642,9 @@ msgid ""
 "you’ve ever used an iPhone app, there’s a good chance it was written in "
 "Swift."
 msgstr ""
+"<strong>Swift</strong>: Ngôn ngữ của Apple dùng để phát triển iOS và macOS. "
+"Nếu bạn từng dùng một ứng dụng iPhone, rất có khả năng nó được viết bằng "
+"Swift."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -542,11 +652,13 @@ msgid ""
 "<strong>Targeted email campaigns</strong>: Segment learners by interests or "
 "past purchases."
 msgstr ""
+"<strong>Chiến dịch email nhắm mục tiêu</strong>: Phân đoạn người học theo sở "
+"thích hoặc các giao dịch mua hàng trước đây."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "<strong>Think about inputs and outputs</strong>:"
-msgstr ""
+msgstr "<strong>Hãy suy nghĩ về đầu vào và đầu ra</strong>:"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -554,12 +666,16 @@ msgid ""
 "<strong>Tip </strong>: Check out Marketing Automation for content funnel "
 "optimization."
 msgstr ""
+"<strong>Mẹo</strong>: Tìm hiểu về Tự động hoá marketing để tối ưu hóa phễu "
+"nội dung."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
 msgid ""
 "<strong>Tip: </strong>Use pricelists for discounts, gifts, and promotions."
 msgstr ""
+"<strong>Mẹo: </strong>Sử dụng bảng giá để áp dụng chiết khấu, quà tặng và "
+"các chương trình khuyến mãi."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -567,6 +683,8 @@ msgid ""
 "<strong>Track student progression</strong>: See which modules they’ve "
 "completed."
 msgstr ""
+"<strong>Theo dõi tiến độ học tập của sinh viên</strong>: Xem các phân hệ mà "
+"họ đã hoàn thành."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -574,6 +692,8 @@ msgid ""
 "<strong>Website integration</strong>: Courses are published directly on your "
 "Odoo website."
 msgstr ""
+"<strong>Tích hợp trang web</strong>: Các khóa học được đăng tải trực tiếp "
+"trên trang web Odoo của bạn."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -581,11 +701,13 @@ msgid ""
 "<strong>Website</strong>: Present your training catalog beautifully and "
 "provide an easy-to-navigate user experience."
 msgstr ""
+"<strong>Trang web</strong>: Trình bày danh mục đào tạo của bạn một cách "
+"chuyên nghiệp và cung cấp trải nghiệm người dùng dễ dàng điều hướng."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "<strong>Writing Clean, Readable Code</strong>"
-msgstr ""
+msgstr "<strong>Viết mã nguồn sạch và dễ đọc</strong>"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -593,6 +715,8 @@ msgid ""
 "<strong>eCommerce</strong>: Sell your courses online with integrated "
 "payments and automated access."
 msgstr ""
+"<strong>Thương mại điện tử</strong>: Bán các khóa học trực tuyến với thanh "
+"toán tích hợp và truy cập tự động."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -600,6 +724,8 @@ msgid ""
 "<strong>eLearning</strong>: Build, structure, and publish courses with "
 "lessons, quizzes, gamification, and certifications."
 msgstr ""
+"<strong>Học trực tuyến</strong>: Tạo, cấu trúc và đăng các khóa học với bài "
+"giảng, quiz, các yếu tố trò chơi hoá và chứng chỉ."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
@@ -607,12 +733,16 @@ msgid ""
 "<strong>if/elif/else</strong> checks the guess against the secret number and "
 "gives feedback."
 msgstr ""
+"<strong>if/elif/else</strong> kiểm tra dự đoán với số bí mật và cung cấp "
+"phản hồi."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid ""
 "<strong>import random</strong> brings in Python’s random number generator."
 msgstr ""
+"<strong>import random</strong> dùng để gọi trình tạo số ngẫu nhiên của "
+"Python."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
@@ -620,37 +750,43 @@ msgid ""
 "<strong>random.randint(1, 20)</strong> picks a secret number between 1 and "
 "20."
 msgstr ""
+"<strong>random.randint(1, 20)</strong> chọn một số bí mật trong khoảng từ 1 "
+"đến 20."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid ""
 "A human might know what to do, but a computer doesn’t. So we break it down:"
 msgstr ""
+"Con người có thể biết phải làm gì, nhưng máy tính thì không. Vì vậy, chúng "
+"ta chia thành từng phần:"
 
 #. module: elearning_platform
 #: model_terms:product.template,description_ecommerce:elearning_platform.product_template_73
 msgid "A solid foundation to branch into more advanced IT studies"
 msgstr ""
+"Một nền tảng vững chắc để phát triển sang các lĩnh vực công nghệ thông tin "
+"nâng cao hơn"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_42
 msgid "Add 1 slice of cheese."
-msgstr ""
+msgstr "Thêm 1 lát phô mai."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Add the two variables together."
-msgstr ""
+msgstr "Cộng hai biến số lại với nhau."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "After a correct guess, ask:"
-msgstr ""
+msgstr "Sau khi đoán đúng, hãy hỏi:"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
 msgid "Amazing Courses&amp;nbsp;"
-msgstr ""
+msgstr "Các khóa học tuyệt vời&amp;nbsp;"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
@@ -664,33 +800,34 @@ msgstr ""
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "Ask the player to enter a guess."
-msgstr ""
+msgstr "Yêu cầu người chơi nhập dự đoán."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Ask the user for their PIN."
-msgstr ""
+msgstr "Yêu cầu người dùng nhập mã PIN của họ."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Ask the user how much money they want to withdraw."
-msgstr ""
+msgstr "Hỏi người dùng số tiền họ muốn rút."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid ""
 "At first, it seems simple: <em>“Add two numbers and show the result.”</em>"
 msgstr ""
+"Ban đầu, điều này có vẻ đơn giản: <em>“Cộng hai số và hiển thị kết quả.”</em>"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Bake for 45 minutes."
-msgstr ""
+msgstr "Nướng trong 45 phút."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "Before coding, let’s break down the problem (algorithmic thinking):"
-msgstr ""
+msgstr "Trước khi bắt đầu lập trình, hãy phân tích vấn đề (tư duy thuật toán):"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
@@ -699,16 +836,19 @@ msgid ""
 "practical insights and step-by-step support, you’ll never feel lost on your "
 "learning journey."
 msgstr ""
+"Sau mỗi bài học là một đội ngũ giảng viên và nhà sáng tạo giàu kinh nghiệm. "
+"Với những kiến thức thực tiễn và sự hỗ trợ từng bước, bạn sẽ không bao giờ "
+"cảm thấy bối rối trên hành trình học tập của mình."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Break it down into steps:"
-msgstr ""
+msgstr "Phân chia thành các bước:"
 
 #. module: elearning_platform
 #: model:slide.slide,name:elearning_platform.slide_slide_50
 msgid "Breaking Down Problems into Steps"
-msgstr ""
+msgstr "Phân tích vấn đề thành các bước"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
@@ -718,21 +858,26 @@ msgid ""
 "problems, writing the actual code becomes far less intimidating. It’s like "
 "translating from everyday goals into a language the computer can execute."
 msgstr ""
+"Phân chia vấn đề thành các bước là một phần của <strong>tư duy lập trình </"
+"strong>: chính xác, logic và có hệ thống. Khi bạn học được cách phân tích "
+"vấn đề, việc viết mã thực tế trở nên bớt đáng sợ hơn nhiều. Nó giống như "
+"việc chuyển đổi từ các mục tiêu hàng ngày sang một ngôn ngữ mà máy tính có "
+"thể thực thi."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
 msgid "Build Skills for Life"
-msgstr ""
+msgstr "Phát triển kỹ năng cho cuộc sống"
 
 #. module: elearning_platform
 #: model_terms:product.template,description_ecommerce:elearning_platform.product_template_67
 msgid "Build confidence. Build furniture. Build your future. 🪚"
-msgstr ""
+msgstr "Xây dựng sự tự tin. Xây dựng nội thất. Xây dựng tương lai của bạn. 🪚"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
 msgid "Build the Pieces You’ll Love"
-msgstr ""
+msgstr "Tạo nên những mảnh ghép mà bạn sẽ yêu thích"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -741,16 +886,19 @@ msgid ""
 "create engaging content, attract learners, manage access, and track progress "
 "seamlessly."
 msgstr ""
+"Việc xây dựng và vận hành một nền tảng Học trực tuyến có thể rất phức tạp: "
+"bạn phải tạo nội dung hấp dẫn, thu hút người học, quản lý quyền truy cập và "
+"theo dõi tiến trình một cách trơn tru."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_42
 msgid "But a computer would need:"
-msgstr ""
+msgstr "Nhưng một máy tính sẽ cần:"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "But to write code, we need to expand this into steps:"
-msgstr ""
+msgstr "Nhưng để viết mã, chúng ta cần chia nhỏ điều này thành các bước:"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
@@ -760,17 +908,17 @@ msgstr "Chỉ báo băng chuyền"
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
 msgid "Certification rate"
-msgstr ""
+msgstr "Tỷ lệ cấp chứng chỉ"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Check if they have enough balance."
-msgstr ""
+msgstr "Kiểm tra xem họ có đủ số dư không."
 
 #. module: elearning_platform
 #: model_terms:product.template,description_ecommerce:elearning_platform.product_template_73
 msgid "Clear explanations of core IT concepts"
-msgstr ""
+msgstr "Giải thích rõ ràng về các khái niệm cơ bản trong công nghệ thông tin"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.ir_ui_view_3213
@@ -780,7 +928,7 @@ msgstr "Bấm vào \"Mới\" ở góc trên bên phải để tạo khóa học 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "Combine all the basics into a working program."
-msgstr ""
+msgstr "Kết hợp tất cả yếu tố cơ bản thành một chương trình hoạt động."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
@@ -789,16 +937,19 @@ msgid ""
 "<em>what</em> it does. Avoid stating the obvious, but leave notes for tricky "
 "logic."
 msgstr ""
+"Các bình luận giải thích <em>tại sao</em> bạn viết code theo một cách nhất "
+"định, chứ không chỉ <em>những gì</em> nó làm. Tránh ghi những điều hiển "
+"nhiên, nhưng hãy lưu ghi chú cho những logic phức tạp."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "Compare the guess to the secret number."
-msgstr ""
+msgstr "So sánh con số đoán với con số bí mật."
 
 #. module: elearning_platform
 #: model_terms:product.template,description_ecommerce:elearning_platform.product_template_73
 msgid "Complete lifetime access to all modules and updates"
-msgstr ""
+msgstr "Quyền truy cập trọn đời vào tất cả phân hệ và bản cập nhật"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_42
@@ -853,7 +1004,7 @@ msgstr ""
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "Consistency helps readers recognize patterns. That includes:"
-msgstr ""
+msgstr "Sự nhất quán giúp độc giả nhận ra các mẫu. Bao gồm:"
 
 #. module: elearning_platform
 #: model_terms:slide.channel,enroll_msg:elearning_platform.slide_channel_8
@@ -863,17 +1014,17 @@ msgstr "Người phụ trách"
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "Core Principles of Clean Code"
-msgstr ""
+msgstr "Nguyên tắc cơ bản của mã nguồn sạch"
 
 #. module: elearning_platform
 #: model:slide.slide,name:elearning_platform.slide_slide_44
 msgid "Core Programming Concepts"
-msgstr ""
+msgstr "Các khái niệm cơ bản về lập trình"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
 msgid "Course registrations"
-msgstr ""
+msgstr "Đăng ký khóa học"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -881,11 +1032,13 @@ msgid ""
 "Create Mail Marketing templates, schedule posts for the right hours, and "
 "expand your userbase."
 msgstr ""
+"Tạo mẫu email marketing, lên lịch đăng bài vào khung giờ phù hợp và mở rộng "
+"cơ sở người dùng."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
 msgid "Create and Customize Courses 🎓"
-msgstr ""
+msgstr "Tạo và tùy chỉnh khóa học 🎓"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
@@ -893,6 +1046,8 @@ msgid ""
 "Detailed: “Find the smallest number, place it first, repeat until the list "
 "is sorted.”"
 msgstr ""
+"Chi tiết: “Tìm số nhỏ nhất, đặt nó lên đầu, lặp lại cho đến khi danh sách "
+"được sắp xếp.”"
 
 #. module: elearning_platform
 #: model:product.attribute,name:elearning_platform.product_attribute_20
@@ -908,16 +1063,21 @@ msgid ""
 "understanding materials and tools to mastering joints, finishes, and design "
 "basics."
 msgstr ""
+"Khám phá nghệ thuật tạo nên những món nội thất đẹp và hữu dụng với khóa học "
+"<em>Những kiến thức cơ bản về nội thất</em>. Khóa học này hướng dẫn bạn từng "
+"bước qua các kiến thức nền tảng của nghề mộc và chế tác nội thất—từ tìm hiểu "
+"vật liệu và dụng cụ cho đến nắm vững các mối ghép, kỹ thuật hoàn thiện và "
+"những nguyên lý thiết kế cơ bản."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Display a message asking the user for the first number."
-msgstr ""
+msgstr "Hiển thị một thông báo yêu cầu người dùng nhập số đầu tiên."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Display the result to the user."
-msgstr ""
+msgstr "Hiển thị kết quả cho người dùng."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -946,21 +1106,23 @@ msgid ""
 "Each of these steps is clear, ordered, and executable. That’s exactly how "
 "computers need problems expressed."
 msgstr ""
+"Mỗi bước trong số này đều rõ ràng, có trật tự và có thể thực hiện được. Đó "
+"chính xác là cách mà máy tính cần các vấn đề được diễn đạt."
 
 #. module: elearning_platform
 #: model:product.attribute.value,name:elearning_platform.product_attribute_value_102
 msgid "Easy"
-msgstr ""
+msgstr "Dễ dàng"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
 msgid "Easy-to-follow guides that take you from blueprint to build."
-msgstr ""
+msgstr "Hướng dẫn dễ hiểu, giúp bạn từ bản vẽ thiết kế đến quá trình thi công."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
 msgid "Email Marketing Documentation"
-msgstr ""
+msgstr "Tài liệu Marketing qua email"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,description:elearning_platform.slide_slide_46
@@ -1017,12 +1179,11 @@ msgstr ""
 "Các khóa học trên Khan Academy luôn hoàn toàn miễn phí. Hãy bắt đầu học và "
 "lưu tiến trình của bạn với khóa Nhập môn Khoa học Máy tính – Python.\n"
 "\n"
-"Liên kết khóa học: https://www.khanacademy.org/computing/"
-"intro-to-python-fundamentals/x5279a44ae0ab15d6:computational-thinking-with-"
-"variables\n"
+"Liên kết khóa học: https://www.khanacademy.org/computing/intro-to-python-"
+"fundamentals/x5279a44ae0ab15d6:computational-thinking-with-variables\n"
 "\n"
-"Danh sách phát của khóa học: https://www.youtube.com/playlist?list"
-"=PLSQl0a2vh4HDkbhG0sDW0b-VZXykEIAe5\n"
+"Danh sách phát của khóa học: https://www.youtube.com/playlist?"
+"list=PLSQl0a2vh4HDkbhG0sDW0b-VZXykEIAe5\n"
 "\n"
 "Khan Academy là một tổ chức phi lợi nhuận với sứ mệnh mang đến nền giáo dục "
 "chất lượng cao, miễn phí cho tất cả mọi người ở khắp nơi. Chúng tôi cung cấp "
@@ -1036,11 +1197,11 @@ msgstr ""
 "tôi rất mong nhận được sự ủng hộ của bạn.\n"
 "\n"
 "Hãy quyên góp hoặc tham gia hỗ trợ ngay hôm nay!\n"
-"Quyên góp tại: https://www.khanacademy.org/"
-"donate?utm_source=youtube&amp;utm_medium=desc\n"
+"Quyên góp tại: https://www.khanacademy.org/donate?"
+"utm_source=youtube&amp;utm_medium=desc\n"
 "\n"
-"Tham gia tình nguyện tại: https://www.khanacademy.org/"
-"contribute?utm_source=youtube&amp;utm_medium=desc\n"
+"Tham gia tình nguyện tại: https://www.khanacademy.org/contribute?"
+"utm_source=youtube&amp;utm_medium=desc\n"
 "\n"
 "MỐC THỜI GIAN:\n"
 "00:00 - 00:13 : Giới thiệu\n"
@@ -1052,12 +1213,12 @@ msgstr ""
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Everyday Example: Making Toast"
-msgstr ""
+msgstr "Ví dụ hàng ngày: Làm bánh mì nướng"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "Example Run"
-msgstr ""
+msgstr "Chạy ví dụ"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
@@ -1065,11 +1226,13 @@ msgid ""
 "Example: A calculator needs <em>two numbers</em> and an <em>operation</em>, "
 "then produces a <em>result</em>."
 msgstr ""
+"Ví dụ: Một máy tính cần <em>hai số</em> và một <em>phép tính</em> , sau đó "
+"cho ra <em>kết quả</em> ."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "Example: Clean vs. Messy Code"
-msgstr ""
+msgstr "Ví dụ: Mã sạch so với mã lộn xộn"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
@@ -1077,6 +1240,8 @@ msgid ""
 "Example: In a guessing game, you repeat asking for guesses until the player "
 "is correct."
 msgstr ""
+"Ví dụ: Trong trò chơi đoán số, bạn tiếp tục yêu cầu người chơi đưa ra đáp án "
+"cho đến khi họ đoán đúng."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
@@ -1086,7 +1251,7 @@ msgstr "Khám phá<br/> những số liệu thống kê chính của chúng tôi
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
 msgid "Explore our<br/>variety of DIY workshops"
-msgstr ""
+msgstr "Khám phá <br/>các workshop DIY đa dạng của chúng tôi"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
@@ -1094,6 +1259,8 @@ msgid ""
 "Flowcharts, diagrams, or even bullet points help clarify logic before "
 "writing code."
 msgstr ""
+"Sơ đồ luồng, biểu đồ hoặc thậm chí các điểm liệt kê giúp làm rõ logic trước "
+"khi viết mã."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_41
@@ -1103,6 +1270,9 @@ msgid ""
 "<em>what to do</em> with the result. A program might look like this in "
 "Python:"
 msgstr ""
+"Ví dụ, nếu bạn yêu cầu máy tính \"cộng hai số\", bạn phải chỉ định rõ ràng "
+"<em>những số nào</em>, <em>cách</em> cộng chúng, và <em>làm gì</em> với kết "
+"quả. Một chương trình có thể trông như sau trong Python:"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
@@ -1111,31 +1281,36 @@ msgid ""
 "library covers a wide range of practical topics designed to keep you "
 "inspired and moving forward."
 msgstr ""
+"Từ những bài giới thiệu thân thiện với người mới bắt đầu đến các dự án nâng "
+"cao, thư viện ngày càng mở rộng của chúng tôi bao quát nhiều chủ đề thực "
+"tiễn, được thiết kế để luôn truyền cảm hứng và giúp bạn tiến bước."
 
 #. module: elearning_platform
 #: model:product.template,name:elearning_platform.product_template_67
 msgid "Furniture Workshop Essentials"
-msgstr ""
+msgstr "Yếu tố cần thiết cho workshop nội thất"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "Generate a random number between 1 and 20."
-msgstr ""
+msgstr "Tạo một số ngẫu nhiên trong khoảng từ 1 đến 20."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "Generate random numbers."
-msgstr ""
+msgstr "Tạo số ngẫu nhiên."
 
 #. module: elearning_platform
 #: model:slide.slide,name:elearning_platform.slide_slide_40
 msgid "Getting Started with Programming"
-msgstr ""
+msgstr "Bắt đầu với lập trình"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "Good indentation makes it clear where blocks of logic begin and end."
 msgstr ""
+"Định dạng lùi dòng tốt giúp làm rõ vị trí bắt đầu và kết thúc của các khối "
+"logic."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
@@ -1158,42 +1333,42 @@ msgstr ""
 #. module: elearning_platform
 #: model_terms:product.template,description_ecommerce:elearning_platform.product_template_67
 msgid "Guidance on tools, safety, and workshop setup"
-msgstr ""
+msgstr "Hướng dẫn về công cụ, an toàn và thiết lập workshop"
 
 #. module: elearning_platform
 #: model:slide.slide,name:elearning_platform.slide_slide_52
 msgid "Guided Exercise: A Number Guessing Game"
-msgstr ""
+msgstr "Bài tập hướng dẫn: Trò chơi đoán số"
 
 #. module: elearning_platform
 #: model_terms:product.template,description_ecommerce:elearning_platform.product_template_67
 msgid "Hands-on demonstrations of core woodworking techniques"
-msgstr ""
+msgstr "Các buổi thực hành trực tiếp về các kỹ thuật cơ bản trong nghề mộc"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "Has proper indentation."
-msgstr ""
+msgstr "Có định dạng lùi dòng đúng cách."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "Helps teams work together."
-msgstr ""
+msgstr "Giúp các nhóm làm việc cùng nhau."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "Here’s the Python version:"
-msgstr ""
+msgstr "Dưới đây là phiên bản Python:"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "High-level: “Sort a list of numbers.”"
-msgstr ""
+msgstr "Cấp cao: “Sắp xếp một danh sách số.”"
 
 #. module: elearning_platform
 #: model:slide.slide,name:elearning_platform.slide_slide_42
 msgid "How Computers Understand Instructions"
-msgstr ""
+msgstr "Cách máy tính hiểu các lệnh"
 
 #. module: elearning_platform
 #: model:slide.channel.tag,name:elearning_platform.slide_channel_tag_11
@@ -1203,27 +1378,27 @@ msgstr "IT"
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "If not, print an error message."
-msgstr ""
+msgstr "Nếu không, hiển thị thông báo lỗi."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "If the guess is correct, congratulate the player."
-msgstr ""
+msgstr "Nếu dự đoán đúng, hãy chúc mừng người chơi."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "If the guess is too high, say “Too high, try again.”"
-msgstr ""
+msgstr "Nếu dự đoán quá cao, hãy nói: “Quá cao, hãy thử lại.”"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "If the guess is too low, say “Too low, try again.”"
-msgstr ""
+msgstr "Nếu dự đoán quá thấp, hãy nói: “Quá thấp, hãy thử lại.”"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "If yes, subtract the amount and print a success message."
-msgstr ""
+msgstr "Nếu có, trừ đi số tiền và hiển thị thông báo thành công."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
@@ -1231,6 +1406,8 @@ msgid ""
 "If you find yourself copying and pasting code, it’s usually better to create "
 "a function or loop."
 msgstr ""
+"Nếu bạn thấy mình đang sao chép và dán mã, thường thì tốt hơn là tạo một hàm "
+"hoặc vòng lặp."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -1247,6 +1424,9 @@ msgid ""
 "Imagine buying a bookshelf from IKEA. The instruction manual doesn’t just "
 "say, <em>“Build a bookshelf.”</em> Instead, it shows dozens of smaller steps:"
 msgstr ""
+"Hãy tưởng tượng bạn mua một giá sách từ IKEA. Hướng dẫn sử dụng không chỉ "
+"đơn giản nói <em>“Lắp giá sách.”</em> Thay vào đó, nó nêu chi tiết hàng chục "
+"bước nhỏ hơn:"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
@@ -1265,7 +1445,6 @@ msgstr ""
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_41
-#, fuzzy
 msgid ""
 "In real life, programming powers everything around us: the app you use to "
 "order food, the software behind an airplane’s autopilot, even the tiny chip "
@@ -1450,32 +1629,32 @@ msgstr ""
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "Includes a docstring (a short explanation)."
-msgstr ""
+msgstr "Gồm một docstring (một giải thích ngắn gọn)."
 
 #. module: elearning_platform
 #: model:slide.slide,name:elearning_platform.slide_slide_47
 msgid "Input & Output Basics"
-msgstr ""
+msgstr "Cơ bản về đầu vào và đầu ra"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Insert screw type X into hole Y."
-msgstr ""
+msgstr "Đưa vít loại X vào lỗ Y."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Insert the bread into the toaster slot."
-msgstr ""
+msgstr "Cho bánh mì vào khe của máy nướng bánh mì."
 
 #. module: elearning_platform
 #: model:product.template,name:elearning_platform.product_template_73
 msgid "Intro to IT"
-msgstr ""
+msgstr "Nhập môn CNTT"
 
 #. module: elearning_platform
 #: model:slide.channel,name:elearning_platform.slide_channel_8
 msgid "Intro to Programming"
-msgstr ""
+msgstr "Nhập môn lập trình"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
@@ -1484,6 +1663,9 @@ msgid ""
 "skills. Thousands of people just like you are already on their learning "
 "journey — why not start yours today?&amp;nbsp;"
 msgstr ""
+"Tham gia cộng đồng học tập sôi động cùng những người đã dám bước ra để phát "
+"triển kỹ năng mới. Hàng nghìn người giống bạn đã bắt đầu hành trình học tập "
+"của họ. Vậy còn bạn? Hãy bắt đầu ngay hôm nay nhé."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -1497,14 +1679,14 @@ msgstr ""
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "Keep a counter and display it at the end:"
-msgstr ""
+msgstr "Giữ một bộ đếm và hiển thị kết quả ở cuối:"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "Key Takeaway"
-msgstr ""
+msgstr "Điểm chính"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
@@ -1513,21 +1695,25 @@ msgid ""
 "your skills, confidence, and creativity. Wherever you are in your learning "
 "path, we’re here to help you take the next step.&amp;nbsp;"
 msgstr ""
+"Kiến thức không phải là đích đến — đó là một hành trình. Với mỗi bài học, "
+"bạn sẽ phát triển kỹ năng, sự tự tin và sự sáng tạo của mình. Dù bạn đang ở "
+"đâu trên con đường học tập, chúng tôi luôn sẵn sàng hỗ trợ bạn tiến "
+"bước.&amp;nbsp;"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
 msgid "Learn by Doing"
-msgstr ""
+msgstr "Học qua thực hành"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
 msgid "Learn the essentials of soil, seeds, and care."
-msgstr ""
+msgstr "Học những kiến thức cơ bản về đất, hạt giống và cách chăm sóc."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.ir_ui_view_3213
 msgid "Learn. Build. Thrive."
-msgstr ""
+msgstr "Học hỏi. Xây dựng. Phát triển."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
@@ -1536,43 +1722,48 @@ msgid ""
 "the majority of our learners successfully complete their courses and earn "
 "valuable certifications."
 msgstr ""
+"Học tập mang lại kết quả. Với các bài học thực tiễn và hướng dẫn tận tình, "
+"phần lớn học viên của chúng tôi hoàn thành khóa học thành công và nhận được "
+"các chứng chỉ giá trị."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid ""
 "Let the player choose the minimum and maximum range for the secret number."
 msgstr ""
+"Hãy để người chơi chọn khoảng giá trị tối thiểu và tối đa cho số bí mật."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "Let the player only guess 5 times before the game ends."
-msgstr ""
+msgstr "Cho phép người chơi chỉ được đoán 5 lần trước khi trò chơi kết thúc."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Let’s illustrate this with a simple example."
-msgstr ""
+msgstr "Hãy lấy một ví dụ đơn giản để minh họa điều này."
 
 #. module: elearning_platform
 #: model:product.tag,name:elearning_platform.product_tag_2
 msgid "Lifetime Access"
-msgstr ""
+msgstr "Quyền truy cập trọn đời"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
 msgid "Looking for a place to learn? We’ve got you covered!<br/><br/>"
-msgstr ""
+msgstr "Bạn đang tìm kiếm một nơi để học tập? Chúng tôi sẽ giúp bạn!<br/><br/>"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "Makes it easier to add new features."
-msgstr ""
+msgstr "Giúp việc thêm các tính năng mới trở nên dễ dàng hơn."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid ""
 "Makes learning and revisiting projects enjoyable instead of frustrating."
 msgstr ""
+"Giúp việc học tập và xem lại các dự án trở nên thú vị thay vì gây bực bội."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
@@ -1580,16 +1771,18 @@ msgid ""
 "Many problems involve loops (repeating steps) or conditions (if something "
 "happens, do this)."
 msgstr ""
+"Nhiều vấn đề liên quan đến vòng lặp (các bước lặp lại) hoặc điều kiện (nếu "
+"điều gì đó xảy ra, hãy thực hiện điều này)."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Mix flour, sugar, and eggs in a bowl."
-msgstr ""
+msgstr "Trộn bột mì, đường và trứng trong một tô."
 
 #. module: elearning_platform
 #: model:slide.slide,name:elearning_platform.slide_slide_49
 msgid "Module 5: Problem-Solving with Code"
-msgstr ""
+msgstr "Phân hệ 5: Giải quyết vấn đề bằng mã nguồn"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -1600,6 +1793,10 @@ msgid ""
 "for training\n"
 "            purposes."
 msgstr ""
+"Kiếm tiền từ các khóa học của bạn bằng cách đăng tải chúng lên cửa hàng trên "
+"trang web Odoo của bạn. Học viên có thể duyệt qua danh mục khóa học, mua "
+"khóa học và tự động truy cập. Nhân viên nội bộ có thể được cấp quyền truy "
+"cập miễn phí khi các khóa học được sử dụng cho mục đích đào tạo."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.ir_ui_view_3213
@@ -1611,6 +1808,7 @@ msgstr "Thêm thông tin"
 msgid ""
 "Most people will infer the steps: get bread, add fillings, and serve it."
 msgstr ""
+"Hầu hết mọi người sẽ suy ra các bước: lấy bánh mì, thêm nhân và phục vụ."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.ir_ui_view_3213
@@ -1625,7 +1823,7 @@ msgstr "Khóa học của tôi"
 #. module: elearning_platform
 #: model:product.tag,name:elearning_platform.product_tag_4
 msgid "Nature & Gardening"
-msgstr ""
+msgstr "Thiên nhiên & vườn tược"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.ir_ui_view_3213
@@ -1649,6 +1847,9 @@ msgid ""
 "that once you understand the fundamentals, switching between languages "
 "becomes much easier."
 msgstr ""
+"Không có ngôn ngữ nào là “tốt nhất” — điều này phụ thuộc vào mục tiêu của "
+"bạn. Tin tốt là khi bạn đã hiểu các kiến thức cơ bản, việc chuyển đổi giữa "
+"các ngôn ngữ sẽ trở nên dễ dàng hơn rất nhiều."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
@@ -1657,6 +1858,9 @@ msgid ""
 "bread”), the whole process would fail. Programming is exactly like this — "
 "the level of precision matters."
 msgstr ""
+"Hãy để ý xem các bước này chi tiết đến mức nào. Nếu bạn bỏ sót một bước (như "
+"“cho bánh mì vào”), cả quá trình sẽ thất bại. Lập trình cũng tương tự — độ "
+"chính xác trong từng bước là vô cùng quan trọng."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
@@ -1664,6 +1868,8 @@ msgid ""
 "Notice that we’re not writing code yet—we’re just describing the steps. This "
 "practice makes coding much easier later on."
 msgstr ""
+"Lưu ý rằng chúng ta chưa viết code mà chỉ đang mô tả các bước. Việc này sẽ "
+"giúp việc lập trình trở nên dễ dàng hơn sau này."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
@@ -1673,6 +1879,11 @@ msgid ""
 "project combines variables, input/output, operators, loops, and conditional "
 "logic — giving you hands-on experience with core programming concepts."
 msgstr ""
+"Bây giờ là lúc áp dụng tất cả những gì bạn đã học vào thực tế bằng cách xây "
+"dựng một chương trình vui nhộn và tương tác: <strong>trò chơi đoán số</"
+"strong>. Dự án này kết hợp các biến, nhập/xuất, toán tử, vòng lặp và logic "
+"điều kiện, giúp bạn có kinh nghiệm thực tế với các khái niệm lập trình cơ "
+"bản."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
@@ -1680,6 +1891,8 @@ msgid ""
 "Now let’s apply this mindset to coding. Suppose we want a program that adds "
 "two numbers given by the user."
 msgstr ""
+"Bây giờ hãy áp dụng tư duy này vào lập trình. Giả sử chúng ta muốn tạo một "
+"chương trình cộng hai số do người dùng nhập vào."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -1689,6 +1902,11 @@ msgid ""
 "Odoo empowers you to deliver exceptional learning experiences while keeping\n"
 "            administration efficient and scalable."
 msgstr ""
+"Odoo tích hợp tất cả những thành phần này thành một giải pháp toàn diện. Với "
+"các ứng dụng mạnh mẽ cho việc tạo khóa học, bán hàng, marketing và tương tác "
+"với học viên, Odoo giúp bạn cung cấp những trải nghiệm học tập xuất sắc đồng "
+"thời duy trì\n"
+"            quản lý hiệu quả và có khả năng mở rộng."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -1701,21 +1919,25 @@ msgid ""
 "Odoo’s flexibility doesn’t stop at eLearning. Expand your platform with "
 "additional apps to cover the full spectrum of your operations:"
 msgstr ""
+"Sự linh hoạt của Odoo không chỉ dừng lại ở Học trực tuyến. Mở rộng nền tảng "
+"của bạn với các ứng dụng bổ sung để bao quát toàn bộ hoạt động:"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Once we have these steps, turning them into code is straightforward:"
 msgstr ""
+"Khi đã có các bước này, việc chuyển chúng thành mã nguồn là khá đơn giản:"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "Once you get the basic version working, try adding improvements:"
 msgstr ""
+"Sau khi đã làm cho phiên bản cơ bản hoạt động, hãy thử thêm các cải tiến:"
 
 #. module: elearning_platform
 #: model:slide.slide,name:elearning_platform.slide_slide_46
 msgid "Operators & Expressions"
-msgstr ""
+msgstr "Toán tử & biểu thức"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
@@ -1725,57 +1947,61 @@ msgid ""
 "leveling up, you’ll find the tools, guidance, and inspiration to keep moving "
 "forward."
 msgstr ""
+"Các khóa học của chúng tôi được thiết kế để hướng dẫn bạn từng bước, biến "
+"thách thức thành cơ hội và biến sự tò mò thành sự thành thạo. Dù bạn mới bắt "
+"đầu hay đang nâng cao kỹ năng, bạn sẽ tìm thấy các công cụ, hướng dẫn và "
+"nguồn cảm hứng để tiếp tục tiến bộ."
 
 #. module: elearning_platform
 #: model:slide.slide,name:elearning_platform.slide_slide_43
 msgid "Overview of Popular Programming Languages"
-msgstr ""
+msgstr "Tổng quan về các ngôn ngữ lập trình phổ biến"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_42
 msgid "Place 1 slice on a plate."
-msgstr ""
+msgstr "Đặt 1 lát lên đĩa."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Place it on a plate."
-msgstr ""
+msgstr "Đặt lên đĩa."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_42
 msgid "Place the second slice of bread on top."
-msgstr ""
+msgstr "Đặt lát bánh mì thứ hai lên trên."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Pour the batter into a baking tin."
-msgstr ""
+msgstr "Đổ bột vào khuôn nướng."
 
 #. module: elearning_platform
 #: model_terms:product.template,description_ecommerce:elearning_platform.product_template_73
 msgid "Practical exercises for real-world understanding"
-msgstr ""
+msgstr "Bài tập thực hành để hiểu rõ thực tế"
 
 #. module: elearning_platform
 #: model_terms:product.template,description_ecommerce:elearning_platform.product_template_67
 msgid "Practical projects to apply your skills"
-msgstr ""
+msgstr "Các dự án thực tế để áp dụng kỹ năng của bạn"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "Practice Exercise"
-msgstr ""
+msgstr "Bài tập thực hành"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Preheat the oven to 180°C."
-msgstr ""
+msgstr "Làm nóng lò nướng đến 180°C."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Press the toaster lever down."
-msgstr ""
+msgstr "Nhấn cần gạt của máy nướng bánh mì xuống."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
@@ -1783,6 +2009,8 @@ msgid ""
 "Pretend you are the computer and follow the steps. If you can’t complete the "
 "task, neither can your program."
 msgstr ""
+"Hãy tưởng tượng bạn là máy tính và thực hiện các bước. Nếu bạn không thể "
+"hoàn thành nhiệm vụ, chương trình của bạn cũng sẽ không thể."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
@@ -1792,12 +2020,12 @@ msgstr "Trước đó"
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "Produces the same result but is far easier to read."
-msgstr ""
+msgstr "Cho kết quả tương tự nhưng dễ đọc hơn nhiều."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Programming Example: Adding Two Numbers"
-msgstr ""
+msgstr "Ví dụ lập trình: Cộng hai số"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_41
@@ -1836,7 +2064,6 @@ msgstr ""
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
-#, fuzzy
 msgid ""
 "Programming isn’t just about writing code — it’s about solving problems. And "
 "the key to solving problems with a computer is learning how to <strong>break "
@@ -1852,12 +2079,12 @@ msgstr ""
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
 msgid "Promote and Engage Learners 📣"
-msgstr ""
+msgstr "Khuyến khích và tương tác với học viên 📣"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "Provide meaningful feedback with if/else."
-msgstr ""
+msgstr "Cung cấp phản hồi có ý nghĩa bằng cách sử dụng câu lệnh if/else."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
@@ -1865,11 +2092,13 @@ msgid ""
 "Python enforces indentation, but even in other languages, structured "
 "indentation improves readability."
 msgstr ""
+"Python yêu cầu sử dụng thụt lề, nhưng ngay cả trong các ngôn ngữ khác, việc "
+"sử dụng thụt lề có cấu trúc cũng giúp tăng tính dễ đọc."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
 msgid "Reach us"
-msgstr "Liên hệ với chúng tôi"
+msgstr "Liên hệ"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
@@ -1889,47 +2118,47 @@ msgstr ""
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "Readable code:"
-msgstr ""
+msgstr "Mã dễ đọc:"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "Real-Life Analogy: A Recipe Book"
-msgstr ""
+msgstr "Ví dụ thực tế: Một cuốn sách công thức nấu ăn"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Real-Life Analogy: Building IKEA Furniture"
-msgstr ""
+msgstr "Ví dụ thực tế: Lắp ráp đồ nội thất IKEA"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Remove the toast."
-msgstr ""
+msgstr "Lấy bánh mì nướng ra."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Repeat for the other side."
-msgstr ""
+msgstr "Lặp lại cho bên kia."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Repeat steps 1–3 for the second number."
-msgstr ""
+msgstr "Lặp lại các bước 1–3 cho số thứ hai."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "Repeat steps 2–3 until the correct guess is made."
-msgstr ""
+msgstr "Lặp lại các bước 2–3 cho đến khi đoán đúng."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "Rewrite the following messy code to make it clean and readable:"
-msgstr ""
+msgstr "Viết lại đoạn mã lộn xộn sau đây để làm cho nó gọn gàng và dễ đọc:"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "Saves time when fixing bugs."
-msgstr ""
+msgstr "Tiết kiệm thời gian khi sửa lỗi."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.ir_ui_view_3213
@@ -1939,12 +2168,12 @@ msgstr "Tìm khóa học"
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
 msgid "Sell Courses Online 🛒"
-msgstr ""
+msgstr "Bán khóa học trực tuyến 🛒"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "Simple, direct code is easier to understand and less error-prone."
-msgstr ""
+msgstr "Mã nguồn đơn giản, trực tiếp dễ hiểu hơn và ít gây lỗi hơn."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.ir_ui_view_3213
@@ -1967,16 +2196,20 @@ msgid ""
 "into your communication strategy. Schedule posts, track engagement, and stay "
 "in touch with your community to boost brand presence and student loyalty."
 msgstr ""
+"Marketing trên MXH tích hợp các nền tảng như YouTube, LinkedIn và Instagram "
+"vào chiến lược truyền thông của bạn. Lên lịch đăng bài, theo dõi tương tác "
+"và duy trì kết nối với cộng đồng để tăng cường sự hiện diện thương hiệu và "
+"lòng trung thành của học viên."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_42
 msgid "Spread 1 tablespoon of butter on the bread."
-msgstr ""
+msgstr "Tán 1 thìa bơ lên bánh mì."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Stand the bookshelf upright."
-msgstr ""
+msgstr "Đặt kệ sách đứng thẳng."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.ir_ui_view_3213
@@ -1986,22 +2219,22 @@ msgstr "Bắt đầu khóa học online của bạn ngay hôm nay!"
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "Step 1: Plan the Steps"
-msgstr ""
+msgstr "Bước 1: Lập kế hoạch các bước"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "Step 2: Write the Code"
-msgstr ""
+msgstr "Bước 2: Viết mã"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "Step 3: How It Works"
-msgstr ""
+msgstr "Bước 3: Cách thức hoạt động"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "Step 4: Extend the Game (Optional Challenges)"
-msgstr ""
+msgstr "Bước 4: Mở rộng trò chơi (Thử thách tùy chọn)"
 
 #. module: elearning_platform
 #: model_terms:product.template,description_ecommerce:elearning_platform.product_template_73
@@ -2012,27 +2245,35 @@ msgid ""
 "and online security, you’ll gain the essential knowledge to feel confident "
 "in today’s tech-driven world."
 msgstr ""
+"Bước vào thế giới công nghệ với khóa học <em>Nhập môn CNTT</em>, một khóa "
+"học thân thiện với người mới bắt đầu, được thiết kế để giúp bạn hiểu rõ hơn "
+"về máy tính, mạng và hệ thống kỹ thuật số. Từ những kiến thức cơ bản về phần "
+"cứng, hệ điều hành cho đến các ứng dụng phần mềm và bảo mật online, bạn sẽ "
+"được trang bị những kiến thức cần thiết để vững bước trong thế giới công "
+"nghệ ngày nay."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid ""
 "Sticking to a logical order (imports at the top, functions grouped together)."
 msgstr ""
+"Tuân thủ thứ tự logic (các lệnh nhập ở trên cùng, các hàm được nhóm lại với "
+"nhau)."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Store that number in a variable."
-msgstr ""
+msgstr "Lưu số đó vào một biến."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Store the result in another variable."
-msgstr ""
+msgstr "Lưu kết quả vào một biến khác."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Strategies for Breaking Down Problems"
-msgstr ""
+msgstr "Các chiến lược để phân tích và giải quyết vấn đề"
 
 #. module: elearning_platform
 #: model:product.tag,name:elearning_platform.product_tag_3
@@ -2042,22 +2283,22 @@ msgstr "Gói cước đăng ký"
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_42
 msgid "Take 2 slices of bread."
-msgstr ""
+msgstr "Lấy 2 lát bánh mì."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Take board A and attach it to board B."
-msgstr ""
+msgstr "Lấy bảng A và gắn nó vào bảng B."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Take out a slice of bread."
-msgstr ""
+msgstr "Lấy ra một lát bánh mì."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_42
 msgid "Take this simple example in Python:"
-msgstr ""
+msgstr "Hãy xem ví dụ đơn giản sau đây trong Python:"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
@@ -2066,6 +2307,9 @@ msgid ""
 "(<em>a complete bookshelf</em>) and dividing it into smaller, executable "
 "actions (<em>attach this board, insert this screw</em>)."
 msgstr ""
+"Đó chính xác là lập trình — biến một mục tiêu lớn và đáng sợ (<em>một kệ "
+"sách hoàn chỉnh</em>) thành những hành động nhỏ có thể thực hiện được "
+"(<em>gắn tấm này, vặn ốc kia</em>)."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
@@ -2075,6 +2319,10 @@ msgid ""
 "thinking</strong>. An algorithm is simply a sequence of steps that describe "
 "how to solve a problem."
 msgstr ""
+"Đó là lý do các lập trình viên học cách phân tách những nhiệm vụ lớn, rối "
+"rắm thành các hướng dẫn nhỏ, dễ quản lý. Cách tiếp cận này được gọi là "
+"<strong>tư duy thuật toán</strong>. Một thuật toán đơn giản chỉ là một chuỗi "
+"các bước mô tả cách giải quyết một vấn đề."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
@@ -2082,11 +2330,13 @@ msgid ""
 "The <strong>while loop</strong> keeps running until the player guesses "
 "correctly."
 msgstr ""
+"<strong>Vòng lặp while</strong> sẽ tiếp tục chạy cho đến khi người chơi đoán "
+"đúng."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "The Goal"
-msgstr ""
+msgstr "Mục tiêu"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
@@ -2094,16 +2344,18 @@ msgid ""
 "The best code is often the simplest solution that works. Avoid “clever "
 "hacks” that confuse future readers."
 msgstr ""
+"Mã nguồn tốt nhất thường là giải pháp đơn giản nhất mà vẫn hoạt động. Tránh "
+"sử dụng các \"mẹo vặt thông minh\" có thể làm rối loạn người đọc sau này."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "The clean version:"
-msgstr ""
+msgstr "Phiên bản sạch:"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "The computer chooses a random number."
-msgstr ""
+msgstr "Máy tính chọn một số ngẫu nhiên."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -2154,7 +2406,7 @@ msgstr ""
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "The player tries to guess it."
-msgstr ""
+msgstr "Người chơi cố gắng đoán nó."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
@@ -2162,6 +2414,8 @@ msgid ""
 "The program gives hints (“too high” or “too low”) until the player guesses "
 "correctly."
 msgstr ""
+"Chương trình sẽ hiển thị gợi ý (“quá cao” hoặc “quá thấp”) cho đến khi người "
+"chơi đoán đúng."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_43
@@ -2170,6 +2424,9 @@ msgid ""
 "industry. Each has its strengths, weaknesses, and communities built around "
 "them. Here’s a closer look:"
 msgstr ""
+"Có hàng trăm ngôn ngữ lập trình, nhưng chỉ một số ít chiếm ưu thế trong "
+"ngành. Mỗi ngôn ngữ đều có điểm mạnh, điểm yếu và cộng đồng riêng xung quanh "
+"nó. Dưới đây là cái nhìn chi tiết hơn:"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,description:elearning_platform.slide_slide_43
@@ -2177,6 +2434,8 @@ msgid ""
 "There are many programming languages, each designed for different kinds of "
 "tasks."
 msgstr ""
+"Có rất nhiều ngôn ngữ lập trình, mỗi ngôn ngữ được thiết kế cho các loại "
+"nhiệm vụ khác nhau."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
@@ -2185,11 +2444,16 @@ msgid ""
 "if you want others to read it quickly and without confusion, neatness "
 "matters."
 msgstr ""
+"Hãy nghĩ về mã sạch như chữ viết đẹp: ai cũng có thể ghi chú nhanh, nhưng "
+"nếu bạn muốn người khác đọc nhanh và không bị nhầm lẫn, sự gọn gàng là một "
+"yếu tố quan trọng."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "Think of comments as a guidebook for anyone reading your code."
 msgstr ""
+"Hãy xem các chú thích như một cuốn cẩm nang hướng dẫn cho bất kỳ ai đọc mã "
+"nguồn của bạn."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
@@ -2197,6 +2461,8 @@ msgid ""
 "Think of it like following a recipe. Instead of just saying, <em>“Bake a "
 "cake,”</em> the recipe tells you:"
 msgstr ""
+"Hãy tưởng tượng như đang theo một công thức nấu ăn. Thay vì chỉ nói "
+"<em>“Nướng một chiếc bánh,”</em> công thức sẽ hướng dẫn bạn:"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
@@ -2221,22 +2487,28 @@ msgid ""
 "The better you learn to translate human goals into structured steps, the "
 "more powerful your programs become."
 msgstr ""
+"Đây cũng là lý do lập trình thường giống như việc đưa ra hướng dẫn siêu chi "
+"tiết. Càng học cách chuyển mục tiêu con người thành các bước có cấu trúc, "
+"chương trình của bạn càng mạnh mẽ."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid ""
 "This makes your code shorter, easier to change, and less prone to mistakes."
 msgstr ""
+"Điều này giúp mã nguồn của bạn ngắn gọn hơn, dễ dàng thay đổi hơn và ít bị "
+"lỗi hơn."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "This simple game teaches you how to:"
-msgstr ""
+msgstr "Trò chơi đơn giản này sẽ hướng dẫn bạn cách:"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_42
 msgid "To illustrate how precise computers are, imagine telling a human:"
 msgstr ""
+"Để minh họa độ chính xác của máy tính, hãy tưởng tượng bạn nói với một người:"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_42
@@ -2261,27 +2533,29 @@ msgstr "Chuyển đổi điều hướng"
 #. module: elearning_platform
 #: model:product.template,description_sale:elearning_platform.product_template_67
 msgid "Turn your ideas into beautiful, functional furniture."
-msgstr ""
+msgstr "Biến ý tưởng của bạn thành những món đồ nội thất đẹp mắt và tiện dụng."
 
 #. module: elearning_platform
 #: model_terms:product.template,description_ecommerce:elearning_platform.product_template_67
 msgid "Unlimited lifetime access to all lessons and resources"
 msgstr ""
+"Quyền truy cập trọn đời không giới hạn vào tất cả bài học và tài nguyên"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "Use loops to repeat until a condition is met."
-msgstr ""
+msgstr "Sử dụng vòng lặp để lặp lại cho đến khi điều kiện được đáp ứng."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "Uses descriptive variable names."
-msgstr ""
+msgstr "Sử dụng tên biến mô tả."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "Using spacing to make code visually clear."
 msgstr ""
+"Sử dụng khoảng cách để làm cho mã nguồn trở nên rõ ràng về mặt trực quan."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
@@ -2291,17 +2565,17 @@ msgstr ""
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "Variable and function names should describe what they store or do."
-msgstr ""
+msgstr "Tên biến và hàm nên mô tả những gì chúng lưu trữ hoặc thực hiện."
 
 #. module: elearning_platform
 #: model:slide.slide,name:elearning_platform.slide_slide_45
 msgid "Variables & Data Types"
-msgstr ""
+msgstr "Biến & kiểu dữ liệu"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Verify the PIN."
-msgstr ""
+msgstr "Xác minh mã PIN."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.ir_ui_view_3213
@@ -2316,22 +2590,22 @@ msgstr "Xem tất cả"
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Wait for the user to type a number."
-msgstr ""
+msgstr "Chờ người dùng nhập một số."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Wait until the bread pops up."
-msgstr ""
+msgstr "Chờ cho đến khi bánh mì nở ra."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Walk to the cupboard."
-msgstr ""
+msgstr "Đi đến tủ."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Walk to the toaster."
-msgstr ""
+msgstr "Đi đến máy nướng bánh mì."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
@@ -2340,6 +2614,9 @@ msgid ""
 "Our courses combine clear explanations with real-world exercises so you can "
 "immediately apply what you learn."
 msgstr ""
+"Chúng tôi tin rằng cách tốt nhất để thành thạo kỹ năng mới là thực hành trực "
+"tiếp. Các khóa học của chúng tôi kết hợp giải thích rõ ràng với những bài "
+"tập thực tế, giúp bạn áp dụng ngay những gì đã học."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
@@ -2352,21 +2629,28 @@ msgid ""
 "Enter your guess (1–20): 12\n"
 "🎉 Congratulations! You guessed the number!"
 msgstr ""
+"Chào mừng bạn đến với Trò chơi đoán số!\n"
+"Nhập dự đoán của bạn (1–20): 10\n"
+"Quá thấp, hãy thử lại!\n"
+"Nhập dự đoán của bạn (1–20): 15\n"
+"Quá cao, hãy thử lại!\n"
+"Nhập dự đoán của bạn (1–20): 12\n"
+"🎉 Chúc mừng! Bạn đã đoán đúng số!"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "What information does the program need to start?"
-msgstr ""
+msgstr "Chương trình cần những thông tin gì để khởi động?"
 
 #. module: elearning_platform
 #: model:slide.slide,name:elearning_platform.slide_slide_41
 msgid "What is Programming?"
-msgstr ""
+msgstr "Lập trình là gì?"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "What should it produce at the end?"
-msgstr ""
+msgstr "Cuối cùng, nó nên tạo ra điều gì?"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
@@ -2374,6 +2658,8 @@ msgid ""
 "When facing a bigger programming challenge, here are some strategies to "
 "decompose it:"
 msgstr ""
+"Khi đối mặt với một thách thức lập trình lớn hơn, đây là một số chiến lược "
+"để phân chia nó:"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
@@ -2381,6 +2667,8 @@ msgid ""
 "When names are descriptive, you can often understand the code without extra "
 "comments."
 msgstr ""
+"Khi tên mang tính mô tả, bạn thường có thể hiểu mã nguồn mà không cần chú "
+"thích bổ sung."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_42
@@ -2390,6 +2678,10 @@ msgid ""
 "strong> or <strong>interpreter</strong>, which translates the instructions "
 "into machine code that the computer’s processor can understand."
 msgstr ""
+"Khi bạn viết mã trong một ngôn ngữ như Python hoặc Java, mã đó không giữ "
+"nguyên dạng có thể đọc được bởi con người. Thay vào đó, nó được truyền qua "
+"một <strong>compiler</strong> hoặc <strong>interpreter</strong>, những công "
+"cụ này sẽ dịch các lệnh sang mã máy mà bộ xử lý của máy tính có thể hiểu."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -2398,16 +2690,19 @@ msgid ""
 "development, Odoo makes education management smooth, centralized, and fully "
 "connected with your other business processes."
 msgstr ""
+"Dù bạn là một công ty đào tạo hay sử dụng Học trực tuyến để phát triển nhân "
+"sự nội bộ, Odoo giúp quản lý giáo dục trở nên mượt mà, tập trung và hoàn "
+"toàn kết nối với các quy trình kinh doanh khác của bạn."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
 msgid "Why Break Problems Into Steps?"
-msgstr ""
+msgstr "Tại sao phải chia nhỏ vấn đề thành các bước?"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "Why Code Readability Matters"
-msgstr ""
+msgstr "Tại sao tính dễ đọc của mã nguồn lại quan trọng"
 
 #. module: elearning_platform
 #: model_terms:product.template,description_ecommerce:elearning_platform.product_template_73
@@ -2417,6 +2712,10 @@ msgid ""
 "for personal growth or professional development, this course lays the "
 "groundwork for your IT journey."
 msgstr ""
+"Với <strong>quyền truy cập trọn đời</strong>, bạn có thể xem lại các chủ đề "
+"bất cứ lúc nào, làm mới kiến thức và tiếp tục phát triển khi công nghệ tiến "
+"hóa. Dù để phát triển cá nhân hay nghề nghiệp, khóa học này đặt nền tảng cho "
+"con đường CNTT của bạn."
 
 #. module: elearning_platform
 #: model_terms:product.template,description_ecommerce:elearning_platform.product_template_67
@@ -2426,6 +2725,10 @@ msgid ""
 "you dream of building your first chair or refining your workshop skills, "
 "this course gives you the solid foundation to create pieces that last."
 msgstr ""
+"Với <strong>quyền truy cập trọn đời</strong>, bạn sẽ có thể tự do học tập "
+"theo tốc độ của riêng mình và ôn lại các kỹ thuật khi cần. Dù bạn mơ ước tạo "
+"ra chiếc ghế đầu tiên hay hoàn thiện kỹ năng workshop, khóa học này sẽ cung "
+"cấp cho bạn nền tảng vững chắc để tạo ra những tác phẩm bền vững."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -2433,6 +2736,8 @@ msgid ""
 "With Odoo, your eLearning platform becomes more than a course library—it "
 "becomes a fully integrated digital academy."
 msgstr ""
+"Với Odoo, nền tảng eLearning của bạn không chỉ là một thư viện khóa học—nó "
+"trở thành một học viện kỹ thuật số hoàn toàn tích hợp."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
@@ -2440,6 +2745,8 @@ msgid ""
 "Without breaking it down first, it’s easy to miss something important (like "
 "converting text input into numbers)."
 msgstr ""
+"Nếu không phân tích kỹ lưỡng trước, rất dễ bỏ qua những điều quan trọng (như "
+"chuyển đổi nhập liệu văn bản thành số)."
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -2454,16 +2761,17 @@ msgstr ""
 msgid ""
 "Write the high-level steps first, then expand them into detailed sub-steps."
 msgstr ""
+"Viết các bước tổng quan trước, sau đó mở rộng chúng thành các bước chi tiết."
 
 #. module: elearning_platform
 #: model:slide.slide,name:elearning_platform.slide_slide_51
 msgid "Writing Clean, Readable Code"
-msgstr ""
+msgstr "Viết mã nguồn sạch và dễ đọc"
 
 #. module: elearning_platform
 #: model:slide.slide,name:elearning_platform.slide_slide_48
 msgid "Writing Your First Simple Program"
-msgstr ""
+msgstr "Viết chương trình đơn giản đầu tiên của bạn"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,description:elearning_platform.slide_slide_45
@@ -2471,6 +2779,8 @@ msgid ""
 "Writing a basic program.  Basics of data types, variables and conditional "
 "statements"
 msgstr ""
+"Viết một chương trình cơ bản.  Cơ bản về các loại dữ liệu, biến và câu lệnh "
+"điều kiện"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -2487,17 +2797,17 @@ msgstr "Bây giờ bạn có thể tham gia khóa eLearning."
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
 msgid "Your Green Thumb Starts Here"
-msgstr ""
+msgstr "Bắt đầu hành trình vườn tược của bạn tại đây"
 
 #. module: elearning_platform
 #: model:product.template,description_sale:elearning_platform.product_template_73
 msgid "Your first step into the world of IT"
-msgstr ""
+msgstr "Bước đầu tiên tiến vào thế giới công nghệ thông tin"
 
 #. module: elearning_platform
 #: model_terms:product.template,description_ecommerce:elearning_platform.product_template_73
 msgid "Your gateway to the digital world starts here. 💻"
-msgstr ""
+msgstr "Cánh cổng bước vào thế giới số bắt đầu từ đây. 💻"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_41
@@ -2507,6 +2817,10 @@ msgid ""
 "sum = a + b\n"
 "print(sum)"
 msgstr ""
+"a = 5\n"
+"b = 3\n"
+"sum = a + b\n"
+"print(sum)"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
@@ -2516,6 +2830,10 @@ msgid ""
 "c=a*b\n"
 "print(c)"
 msgstr ""
+"a=5\n"
+"b=10\n"
+"c=a*b\n"
+"print(c)"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.ir_ui_view_3213
@@ -2530,6 +2848,10 @@ msgid ""
 "    result = num1 + num2\n"
 "    print(\"The sum is:\", result)"
 msgstr ""
+"def add_numbers(num1, num2):\n"
+"    \"\"\"Cộng hai số và hiển thị kết quả.\"\"\"\n"
+"    result = num1 + num2\n"
+"    print(\"Tổng là:\", result)"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
@@ -2538,16 +2860,19 @@ msgid ""
 " z=x+y\n"
 " print(z)"
 msgstr ""
+"def f(x, y):\n"
+" z = x + y\n"
+" print(z)"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
 msgid "eCommerce Documentation"
-msgstr ""
+msgstr "Tài liệu Thương mại điện tử"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
 msgid "eLearning<strong/> Documentation"
-msgstr ""
+msgstr "Hướng dẫn sử dụng Học trực tuyến<strong/>"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
@@ -2608,11 +2933,16 @@ msgid ""
 "result = num1 + num2\n"
 "print(\"The sum is:\", result)"
 msgstr ""
+"num1 = float(input(\"Nhập số đầu tiên: \"))\n"
+"num2 = float(input(\"Nhập số thứ hai: \"))\n"
+"\n"
+"result = num1 + num2\n"
+"print(\"Tổng là:\", result)"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_42
 msgid "print(\"Hello, World!\")"
-msgstr ""
+msgstr "print(\"Xin chào, thế giới!\")"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -2622,10 +2952,13 @@ msgstr "​<br/>"
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_42
 msgid "“Make me a sandwich.”"
-msgstr ""
+msgstr "“Làm cho tôi một chiếc sandwich.”"
 
 #. module: elearning_platform
 #: model_terms:product.template,description_ecommerce:elearning_platform.product_template_67
 #: model_terms:product.template,description_ecommerce:elearning_platform.product_template_73
 msgid "✨ <strong>What you’ll get:</strong>"
-msgstr ""
+msgstr "✨ <strong>Bạn sẽ nhận được:</strong>"
+
+#~ msgid "85%"
+#~ msgstr "85%"

@@ -1,6 +1,6 @@
 {
     'name': 'Textile Manufacturing',
-    'version': '1.0',
+    'version': '1.2',
     'category': 'Supply Chain',
     'author': 'Odoo S.A.',
     'depends': [
@@ -10,6 +10,7 @@
         'hr_timesheet',
         'knowledge',
         'mrp_subcontracting',
+        'product_conversion',
         'purchase_mrp',
         'quality_mrp_workorder',
         'sale_project',
@@ -23,6 +24,7 @@
         'data/documents_document.xml',
         'data/knowledge_cover.xml',
         'data/knowledge_article.xml',
+        'data/product_attribute.xml',
         'data/product_category.xml',
         'data/product_template.xml',
         'data/product_attribute_value.xml',
@@ -38,6 +40,7 @@
         'data/knowledge_article_favorite.xml',
     ],
     'demo': [
+        'demo/res_company.xml',
         'demo/documents_document.xml',
         'demo/res_partner.xml',
         'demo/website_view.xml',
@@ -77,6 +80,7 @@
         'data/knowledge_article.xml',
         'demo/website_view.xml',
     ],
+    'application': True,
     'images': ['images/main.png'],
     'url': "https://www.odoo.com/trial?industry&selected_app=textile_manufacturing",
     'website': "https://www.odoo.com/industries/textile-manufacturing",

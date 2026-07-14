@@ -8,13 +8,13 @@
 # Wil Odoo, 2024
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# "Marianna Ciofani (cima)" <cima@odoo.com>, 2025.
+# "Marianna Ciofani (cima)" <cima@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-19 08:48+0000\n"
-"PO-Revision-Date: 2025-10-16 03:00+0000\n"
+"POT-Creation-Date: 2026-07-10 17:43+0000\n"
+"PO-Revision-Date: 2026-07-11 09:35+0000\n"
 "Last-Translator: \"Marianna Ciofani (cima)\" <cima@odoo.com>\n"
 "Language-Team: Italian <https://translate.odoo.com/projects/odoo-19/"
 "beverage_distributor/it/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
 "0) ? 1 : 2);\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -32,44 +32,9 @@ msgid "$ 32M"
 msgstr "32M €"
 
 #. module: beverage_distributor
-#: model:product.attribute.value,name:beverage_distributor.product_attribute_value_17
-msgid "+16"
-msgstr "+16"
-
-#. module: beverage_distributor
-#: model:product.attribute.value,name:beverage_distributor.product_attribute_value_18
-msgid "+18"
-msgstr "+18"
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
-msgid "+25.000"
-msgstr "+ di 25,000"
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
-msgid "01"
-msgstr "01"
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
-msgid "02"
-msgstr "02"
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
-msgid "03"
-msgstr "03"
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
-msgid "04"
-msgstr "04"
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
-msgid "75%"
-msgstr "75%"
+#: model:x_excise_report,x_name:beverage_distributor.excise_report_1
+msgid "26W27"
+msgstr ""
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -77,6 +42,82 @@ msgid ""
 "85% of our clients have trusted us for their beverage distribution needs for "
 "over five years."
 msgstr "L'85% dei nostri clienti si affidano a noi da più di cinque anni."
+
+#. module: beverage_distributor
+#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
+msgid ""
+"<b>Barcode App</b>: Accelerate picking and packing processes with mobile "
+"scanners, ensuring accurate\n"
+"                            inventory counts and faster loading."
+msgstr ""
+"<b>Codici a barre</b>: accelera i processi di prelievo e imballaggio con "
+"scanner mobili, garantendo\n"
+"                            magazzini accurati e caricamenti più rapidi."
+
+#. module: beverage_distributor
+#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
+msgid ""
+"<b>Inventory App</b>: Serve as the central hub for stock, managing "
+"consignments, batch tracking, and\n"
+"                            warehouse operations with precision."
+msgstr ""
+"<b>Magazzino</b>: funge da hub centrale per le scorte, la gestione delle "
+"spedizioni, il tracciamento dei lotti e le\n"
+"                            operazioni di magazzino con precisione."
+
+#. module: beverage_distributor
+#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
+msgid ""
+"<b>Manufacturing App</b>: Manage the repackaging of bulk items into smaller "
+"saleable units automatically."
+msgstr ""
+"<b>Produzione</b>: permette di gestire automaticamente il riconfezionamento "
+"di articoli sfusi in unità più piccole vendibili."
+
+#. module: beverage_distributor
+#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
+msgid ""
+"<b>Point of Sale App</b>: process B2C sales efficiently at your distribution "
+"center's front counter or\n"
+"                            cash-and-carry section."
+msgstr ""
+"<b>Punto vendita</b>: permette di gestire in modo efficiente le vendite B2C "
+"presso il banco del tuo centro di distribuzione o\n"
+"                            nella sezione cash-and-carry."
+
+#. module: beverage_distributor
+#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
+msgid ""
+"<b>Purchase App</b>: Automate replenishment from suppliers, ensuring you "
+"have the right mix of beverages to\n"
+"                            meet seasonal demand."
+msgstr ""
+"<b>Acquisti</b>: automatizza il rifornimento dai fornitori, assicurandoti di "
+"avere il giusto mix di bevande per\n"
+"                            soddisfare la domanda stagionale."
+
+#. module: beverage_distributor
+#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
+msgid ""
+"<b>Sales App</b>: Handle high-volume client orders and manage complex "
+"product catalogs with varying units of\n"
+"                            measure (e.g., crate vs. bottle)."
+msgstr ""
+"<b>Vendite</b>: gestisci ordini di grandi volumi da parte dei clienti e "
+"cataloghi di prodotti complessi con unità di misura variabili\n"
+"                            (ad esempio, cassa vs. bottiglia)."
+
+#. module: beverage_distributor
+#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
+msgid ""
+"<b>eCommerce App</b>: Expand your reach with a B2B portal that allows "
+"restaurants and retailers to place\n"
+"                            restocking orders online 24/7."
+msgstr ""
+"<b>E-commerce</b>: amplia la tua portata con un portale B2B che consente a "
+"ristoranti e rivenditori di effettuare\n"
+"                            ordini di rifornimento online 24 ore su 24, 7 "
+"giorni su 7."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -122,15 +163,6 @@ msgid ""
 msgstr ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
-msgid ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
-"label=\"Banner Info\">💡</i>"
-msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
-"label=\"Banner Info\">💡</i>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -194,8 +226,8 @@ msgstr "<strong>Gestione categorie accise</strong>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
-msgid "<strong>Excise reporting</strong>"
-msgstr "<strong>Reportistica sulle accise</strong>"
+msgid "<strong>Excise reports</strong>"
+msgstr "<strong>Resoconti accise</strong>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -224,13 +256,8 @@ msgstr "Ambrata"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
-msgid "Apply DEP XX taxes to these consigns."
-msgstr "Applica imposte DEP XX a queste spedizioni."
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "As workarounds, you might:"
-msgstr ""
+msgstr "Come soluzione alternativa, è possibile:"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -240,31 +267,6 @@ msgid ""
 msgstr ""
 "Assegna la categoria accise correlata, inserisci l'importo e la quantità "
 "relativi all'accisa nell'unità di reportistica e infine salva il prodotto."
-
-#. module: beverage_distributor
-#: model:base.automation,name:beverage_distributor.auto_production
-msgid "Auto Production"
-msgstr "Produzione automatica"
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.product_template_form_custom
-msgid "Auto-BOM"
-msgstr ""
-
-#. module: beverage_distributor
-#: model:ir.model.fields,field_description:beverage_distributor.field_aut_production
-msgid "Auto-production"
-msgstr "Produzione automatica"
-
-#. module: beverage_distributor
-#: model:base.automation,name:beverage_distributor.bom_automation
-msgid "Automated BoM"
-msgstr "DiBa automatizzata"
-
-#. module: beverage_distributor
-#: model:ir.model.fields,field_description:beverage_distributor.field_deposit_categ_id
-msgid "Available Deposit Category"
-msgstr ""
 
 #. module: beverage_distributor
 #: model:product.pricelist,name:beverage_distributor.product_pricelist_2
@@ -279,24 +281,22 @@ msgstr "Scansione codice a barre📱"
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_9
 msgid "Beer Bottle 33cl"
-msgstr ""
+msgstr "Bottiglia di birra 33 cl"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_53
 msgid "Beer Bottles 24x33cl"
-msgstr ""
+msgstr "Bottiglie di birra 24x33 cl"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_55
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.product_template_form_custom
 msgid "Beer Crate & Bottles 24x33cl"
-msgstr ""
+msgstr "Cassa e bottiglie di birra 24x33 cl"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_56
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.product_template_form_custom
 msgid "Beer Crate 24x33cl"
-msgstr ""
+msgstr "Cassa di birra 24x33 cl"
 
 #. module: beverage_distributor
 #: model:product.attribute,name:beverage_distributor.product_attribute_10
@@ -341,11 +341,6 @@ msgid "Bubbles"
 msgstr "Bollicine"
 
 #. module: beverage_distributor
-#: model:ir.model.fields,field_description:beverage_distributor.field_empty_deposit
-msgid "By-Deposit"
-msgstr ""
-
-#. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_67
 msgid "Cava Brut Il Lusio - Josep Masachs 6x75cl"
 msgstr "Cava Brut Il Lusio - Josep Masachs 6x75 cl"
@@ -379,22 +374,21 @@ msgstr "Coca-cola 24x33 cl"
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_deposit_coke
 msgid "Coke Bottles 24x33cl"
-msgstr ""
+msgstr "Bottiglie di Coca Cola 24x33 cl"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid ""
-"Collect deposit when you deliver your customer. It is easy. When validating "
-"your delivery, you can directly set a \"Return\" and precisely count the "
-"number of each type of deposit your customer gave you. It will automatically "
-"be\n"
-"                        reflected on his invoice or issue a credit note."
+"Collect deposits when you deliver to your customer. It is easy. When "
+"validating your delivery, you can directly set a \"Return\" and precisely "
+"count the number of each type of deposit your customer gave you. It will "
+"automatically be reflected on his invoice or issue a credit note."
 msgstr ""
 "Ricevi un acconto quando consegni la merce al cliente. È facile. Al momento "
 "della convalida della consegna, puoi impostare direttamente un “Reso” e "
 "contare con precisione il numero di ogni tipo di acconto che il cliente ha "
-"dato. Verrà inserito automaticamente\n"
-"                        nella sua fattura o in una nota di credito."
+"dato. Verrà inserito automaticamente nella sua fattura o in una nota di "
+"credito."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -405,11 +399,6 @@ msgstr "Contattaci"
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
 msgid "Contact us"
 msgstr "Contattaci"
-
-#. module: beverage_distributor
-#: model:ir.model.fields,field_description:beverage_distributor.field_quantity_by_deposit_product
-msgid "Contains"
-msgstr "Contiene"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -427,18 +416,18 @@ msgstr "Creare e monitorare gli ordini di vendita"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
-msgid "Create deposit products for each different type of consigns"
-msgstr "Crea prodotti di deposito per ogni diverso tipo di merce"
+msgid ""
+"Create deposit products for each different type of consignments and assign "
+"them a category with \"Is a deposit category\" set like the Deposit category."
+msgstr ""
+"Crea prodotti di deposito per ogni diverso tipo di spedizione e assegnagli "
+"una categoria con \"È una categoria di deposito\" impostata come la "
+"categoria Deposito."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Create purchase orders"
 msgstr "Creare ordini di acquisto"
-
-#. module: beverage_distributor
-#: model:base.automation,name:beverage_distributor.update_deposit_taxes
-msgid "Create/assign deposit Taxes"
-msgstr ""
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -461,38 +450,9 @@ msgid "Cuvée Grillo - Villa Carumé 75cl"
 msgstr "Cuvée Grillo - Villa Carumé 75 cl"
 
 #. module: beverage_distributor
-#: model:account.tax,name:beverage_distributor.account_tax_01_purchase
-#: model:account.tax,name:beverage_distributor.account_tax_01_sale
-msgid "DEP 0.1"
-msgstr "DEP 0.1"
-
-#. module: beverage_distributor
-#: model:account.tax,name:beverage_distributor.account_tax_21_purchase
-#: model:account.tax,name:beverage_distributor.account_tax_21_sale
-msgid "DEP 2.1"
-msgstr "DEP 2.1"
-
-#. module: beverage_distributor
-#: model:account.tax,name:beverage_distributor.account_tax_24_purchase
-#: model:account.tax,name:beverage_distributor.account_tax_24_sale
-msgid "DEP 2.4"
-msgstr "DEP 2.4"
-
-#. module: beverage_distributor
-#: model:account.tax,name:beverage_distributor.account_tax_45_purchase
-#: model:account.tax,name:beverage_distributor.account_tax_45_sale
-msgid "DEP 4.5"
-msgstr "DEP 4.5"
-
-#. module: beverage_distributor
 #: model:product.pricelist,name:beverage_distributor.product_pricelist_1
 msgid "Default"
 msgstr "Predefinito"
-
-#. module: beverage_distributor
-#: model:base.automation,name:beverage_distributor.make_deposit_storable_delivery_invoice
-msgid "Default fields for deposits"
-msgstr "Campi predefiniti per depositi"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -500,22 +460,24 @@ msgid "Define the required product fields."
 msgstr "Indica i campi prodotto richiesti."
 
 #. module: beverage_distributor
-#: model:account.tax.group,name:beverage_distributor.deposit_tax_group
-#: model:ir.model.fields,help:beverage_distributor.field_empty_deposit
 #: model:pos.category,name:beverage_distributor.pos_category_5
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.product_template_search_inherit
 msgid "Deposit"
 msgstr "Versamento"
 
 #. module: beverage_distributor
-#: model:ir.model.fields,field_description:beverage_distributor.x_deposit_amount
-msgid "Deposit Amount"
-msgstr ""
+#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
+msgid "Deposit Management ♻️"
+msgstr "Gestione degli acconti ♻️"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
-msgid "Deposit Management 🍻"
-msgstr "Gestione degli acconti 🍻"
+msgid "Deposit assignation"
+msgstr "Assegnazione deposito"
+
+#. module: beverage_distributor
+#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
+msgid "Deposit return from customers"
+msgstr "Restituzione deposito ai clienti"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -565,17 +527,6 @@ msgstr ""
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
-msgid ""
-"Every time you need to sell a single Mobius Blanche - 33cl, if you don't "
-"have enough in stock, it will split your main product in 24 units and take "
-"into account an extra empty bin that will be left at the end."
-msgstr ""
-"Ogni volta che devi vendere una singola Mobius Blanche - 33 cl, se non ne "
-"hai abbastanza in magazzino, il sistema dividerà il prodotto principale in "
-"24 unità e terrà conto di un contenitore vuoto in più che rimarrà alla fine."
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Excise Management 🧾"
 msgstr "Gestione delle accise 🧾"
 
@@ -583,19 +534,6 @@ msgstr "Gestione delle accise 🧾"
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Excise management consists in two dimensions in this package:"
 msgstr "In questo pacchetto, la gestione delle accise consiste nel:"
-
-#. module: beverage_distributor
-#: model:ir.actions.server,name:beverage_distributor.action_make_deposit_storable_delivery_invoice
-#: model:ir.actions.server,name:beverage_distributor.bom_server_action
-#: model:ir.actions.server,name:beverage_distributor.deposit_taxes_server_action
-#: model:ir.actions.server,name:beverage_distributor.update_sales_taxes_server_action
-msgid "Execute Code"
-msgstr "Esegui codice"
-
-#. module: beverage_distributor
-#: model:ir.actions.server,name:beverage_distributor.update_state
-msgid "Execute Existing Actions"
-msgstr "Esegui azioni esistenti"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -649,7 +587,7 @@ msgstr "Fanta 24x33 cl"
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_deposit_fanta
 msgid "Fanta Bottles 24x33cl"
-msgstr ""
+msgstr "Bottiglie Fanta 24x33 cl"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -660,11 +598,6 @@ msgstr "Eseguire il follow-up di potenziali clienti"
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "For B2C sales, the POS app enables you to:"
 msgstr "Per vendite B2C, l'app POS ti consente di:"
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
-msgid "For example:"
-msgstr "Ad esempio:"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -702,7 +635,7 @@ msgstr "Tè freddo 24x33 cl"
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_deposit_icetea
 msgid "Ice Tea Bottles 24x33cl"
-msgstr ""
+msgstr "Bottiglie tè freddo 24x33 cl"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -711,17 +644,9 @@ msgid ""
 "to replicate the configuration of BoM and replinishment rules for already "
 "setup products."
 msgstr ""
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
-msgid ""
-"If you want to automatically split products sold in a specific packaging, "
-"precise a unit sale product in the so-called field and the number of units "
-"contained in the main product."
-msgstr ""
-"Se vuoi suddividere automaticamente i prodotti venduti in una confezione "
-"specifica, specifica un prodotto di vendita unitario nel cosiddetto campo e "
-"il numero di unità contenute nel prodotto principale."
+"Se aggiungI una nuova filiale dopo l'espansione (congratulazioni🙌), sarà "
+"necessario replicare la configurazione delle DiBa e delle regole di "
+"reintegrazione per i prodotti già configurati."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -769,16 +694,6 @@ msgid "Inventory Management 📦"
 msgstr "Gestione magazzino 📦"
 
 #. module: beverage_distributor
-#: model:ir.model.fields,field_description:beverage_distributor.x_is_a_deposit_category
-msgid "Is a Deposit Category"
-msgstr ""
-
-#. module: beverage_distributor
-#: model:ir.model.fields,field_description:beverage_distributor.x_is_a_deposit
-msgid "Is a deposit"
-msgstr "È un deposito"
-
-#. module: beverage_distributor
 #: model:product.attribute.value,name:beverage_distributor.product_attribute_value_23
 msgid "Jack Daniels"
 msgstr "Jack Daniels"
@@ -811,11 +726,6 @@ msgstr "Aggiornare il magazzino in tempo reale"
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
 msgid "Key Metrics of Company's<br/>Success Stories"
 msgstr "Fattori principali dei successi<br/>dell'azienda"
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.product_template_form_custom
-msgid "Leave empty if this product is the smallest unit"
-msgstr "Lascia vuoto se il prodotto rappresenta l'unità più piccola"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -870,6 +780,8 @@ msgstr "Gestisci la pipeline delle vendite"
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Manually convert crates into unit bottles at the bar on reception."
 msgstr ""
+"Trasforma manualmente le casse in bottiglie unitarie al bar al momento della "
+"ricezione."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -880,16 +792,6 @@ msgstr "Incontra i nostri esperti"
 #: model:product.attribute.value,name:beverage_distributor.product_attribute_value_12
 msgid "Mobius"
 msgstr "Mobius"
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
-msgid "Mobius Blanche - 24x33cl is your main product"
-msgstr "Mobius Blanche - 24x33 cl è il tuo prodotto principale"
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
-msgid "Mobius Blanche - 33cl is the unit sale product"
-msgstr "Mobius Blanche - 33 cl è il prodotto unitario di vendita"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_6
@@ -939,22 +841,23 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid ""
 "On a regular basis, excises need to be declared. To support you with this "
-"duty, a report is setup to reach the quantity by excise category entering "
-"and exiting your fiscal deposit warehouse."
+"duty, a report generated weekly provides the quantity by excise category "
+"entering and exiting your fiscal deposit warehouse with a dedicated activity "
+"for it."
 msgstr ""
 "Le accise devono essere dichiarate regolarmente. Per assisterti in questo "
-"compito, è stato predisposto un resoconto che consente di calcolare la "
-"quantità per categoria di accisa in entrata e in uscita dal tuo deposito "
-"fiscale."
+"compito, un resoconto generato settimanalmente fornisce la quantità per "
+"categoria di accisa in entrata e in uscita dal tuo deposito fiscale con "
+"un'attività dedicata."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid ""
-"Open the <strong>Inventory app</strong> and reach from the Reporting menu "
-"the Excises."
+"Open the <strong>Inventory app</strong> and reach the Excise Reports from "
+"the Reporting menu."
 msgstr ""
-"Apri l'app <strong>Magazzino</strong> e accedi alle accise dal menu "
-"Rendicontazione."
+"Apri l'app <strong>Magazzino</strong> e accedi ai Resoconti sulle accise dal "
+"menu Resoconti."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -976,12 +879,6 @@ msgstr ""
 "alla soddisfazione dei clienti e alla diffusione sul mercato, evidenziano la "
 "nostra abilità strategica e il nostro impegno per un successo sostenibile "
 "nel settore delle bevande."
-
-#. module: beverage_distributor
-#: model:ir.model.fields,field_description:beverage_distributor.field_parent_product_bom
-#: model:ir.model.fields,field_description:beverage_distributor.field_parent_product_rr
-msgid "Parent product"
-msgstr "Prodotto principale"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -1012,16 +909,6 @@ msgstr "Elabora spedizioni in entrata e in uscita"
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Process quick sales at your distribution center"
 msgstr "Elaborare vendite rapide nel tuo centro di distribuzione"
-
-#. module: beverage_distributor
-#: model:ir.model.fields,help:beverage_distributor.field_deposit_product_1
-msgid "Product capturing the total deposits due on sale"
-msgstr ""
-
-#. module: beverage_distributor
-#: model:ir.model.fields,help:beverage_distributor.x_is_a_deposit_category
-msgid "Products assigned with this category are considered deposit products."
-msgstr ""
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -1073,6 +960,8 @@ msgid ""
 "Rely on the kit setup mentioned in the \"Products and Bills of Material\" "
 "section."
 msgstr ""
+"Affidati alla configurazione del kit indicata nella sezione \"Prodotti e "
+"distinte base\"."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -1124,7 +1013,7 @@ msgstr "Schweppes 24x33 cl"
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_deposit_schweppes
 msgid "Schweppes Bottles 24x33cl"
-msgstr ""
+msgstr "Bottiglie Schweppes 24x33 cl"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -1135,12 +1024,12 @@ msgstr ""
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid ""
-"Set a deposit product on your product to apply these taxes. This will ensure "
-"that you invoice correctly the price of consigns."
+"Set a deposit product on your product to apply deposit taxes. This will "
+"ensure that you invoice correctly the price of consignments."
 msgstr ""
-"Configura un prodotto di deposito sul tuo prodotto per applicare queste "
-"tasse. In questo modo si garantisce la corretta fatturazione del prezzo "
-"delle consegne."
+"Imposta un prodotto deposito sul tuo prodotto per applicare le imposte "
+"correlate. Ciò garantirà la corretta fatturazione del prezzo delle "
+"spedizioni."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -1177,22 +1066,22 @@ msgstr "Spa"
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_deposit_bottle
 msgid "Spa Bottle 33cl"
-msgstr ""
+msgstr "Bottiglia Spa 33cl"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_deposit_spa
 msgid "Spa Bottles 24x33cl"
-msgstr ""
+msgstr "Bottiglie Spa 24x33 cl"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_deposit_crate_bottles
 msgid "Spa Crate & Bottles 24x33cl"
-msgstr ""
+msgstr "Cassa e bottiglie Spa 24x33 cl"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_deposit_crate_spa
 msgid "Spa Crate 24x33cl"
-msgstr ""
+msgstr "Cassa Spa 24x33 cl"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_54
@@ -1250,9 +1139,21 @@ msgstr "L'app Acquisti ti consente di:"
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid ""
+"The assignee of the excise reporting activities can be set from the "
+"Inventory settings."
+msgstr ""
+"Il destinatario delle attività di rendicontazione delle accise può essere "
+"impostato dalle impostazioni del magazzino."
+
+#. module: beverage_distributor
+#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
+msgid ""
 "The automated crate split based on BoM (defined from crate products with "
 "\"contains\" fields) is not supported from the bar (PoS)."
 msgstr ""
+"La divisione automatica delle casse in base alla DiBa (definita dai prodotti "
+"delle casse con i campi \"contiene\") non è supportata dal bar (Punto "
+"vendita)."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -1262,15 +1163,11 @@ msgid ""
 "configuration as listed above. Make sure to properly define your branches "
 "and warehouses prior configuring your products."
 msgstr ""
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
-msgid ""
-"The default breakdown is done by week and you can configure it to be by "
-"month if needed."
-msgstr ""
-"La suddivisione predefinita è settimanale, ma è possibile configurarla su "
-"base mensile, se necessario."
+"Le automazioni per creare regole automatiche per le DiBa e di rifornimento "
+"per suddividere i prodotti dei pacchi nelle loro unità di prodotto "
+"funzionano solo se impostate dopo la configurazione delle filiali come "
+"elencato sopra. Assicurati di definire correttamente le filiali e i "
+"magazzini prima di configurare i prodotti."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -1283,11 +1180,13 @@ msgid ""
 "Create a warehouse for each branch: Go to Inventory &gt; Configuration &gt; "
 "Warehouses"
 msgstr ""
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
-msgid "The inventory of all products will be updated accordingly."
-msgstr "L'inventario con tutti i prodotti verrà aggiornato di conseguenza."
+"Il deposito è supportato anche dalle filiali!\n"
+"Crea le filiali dalle impostazioni dell'azienda: accedi alle Impostazioni "
+"&gt; Impostazioni generali &gt; Aziende &gt; scheda Filiali\n"
+"Per ciascuna filiale, passa alla relativa vista dall'elenco a discesa nella "
+"barra superiore.\n"
+"Crea un magazzino per ogni filiale: vai su Magazzino &gt; Configurazione "
+"&gt; Magazzini"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -1318,31 +1217,6 @@ msgid ""
 msgstr ""
 "Queste funzionalità possono essere aggiunte al tuo abbonamento attuale. Non "
 "esitare a esplorare ed espandere la tua esperienza con Odoo!"
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
-msgid ""
-"This deposit management system is a specific features of this package. "
-"Proceed carefully if you need to adapt anything."
-msgstr ""
-"Il sistema di gestione dei depositi è una caratteristica specifica di questo "
-"pacchetto. Procedi con cautela se devi adattare qualcosa."
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
-msgid ""
-"This will automatically create a Bill of Material and process a Manufacture "
-"Order each time you need to split your product and reflect this operation in "
-"your stock perfectly."
-msgstr ""
-"In questo modo si crea automaticamente una distinta base e si elabora un "
-"ordine di produzione ogni volta che si deve dividere il prodotto e "
-"l'operazione si riflette nel magazzino."
-
-#. module: beverage_distributor
-#: model:ir.model.fields,field_description:beverage_distributor.field_deposit_product_1
-msgid "Total Deposits"
-msgstr ""
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -1389,19 +1263,9 @@ msgstr ""
 "uniscono gusto e soddisfazione in modo perfetto."
 
 #. module: beverage_distributor
-#: model:ir.model.fields,field_description:beverage_distributor.field_unit_sale_product
-msgid "Unit sale product"
-msgstr "Prodotto unitario di vendita"
-
-#. module: beverage_distributor
 #: model:pos.category,name:beverage_distributor.pos_category_9
 msgid "Unit sales"
 msgstr "Vendita unitaria"
-
-#. module: beverage_distributor
-#: model:base.automation,name:beverage_distributor.update_sales_taxes
-msgid "Update Taxes"
-msgstr "Aggiorna tasse"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -1516,14 +1380,6 @@ msgid "What you will get"
 msgstr "Cosa otterrai"
 
 #. module: beverage_distributor
-#: model:ir.model.fields,help:beverage_distributor.field_quantity_by_deposit_product
-msgid ""
-"When filled in, an automated BoM is setup to automatically break down this "
-"product in those components. Leave second field empty if this product is the "
-"smallest unit."
-msgstr ""
-
-#. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid ""
 "When installing this module, all Fiscal Positions are set as Fiscal Deposit."
@@ -1581,10 +1437,10 @@ msgstr "Sì"
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid ""
-"You can also collect deposit directly on your Point of Sale. Select the "
+"You can also collect deposits directly on your Point of Sale. Select the "
 "correct product and encode a negative quantity."
 msgstr ""
-"È anche possibile riscuotere il deposito direttamente sul punto vendita. "
+"Puoi anche riscuotere i depositi direttamente sul tuo punto vendita. "
 "Seleziona il prodotto corretto e inserisci una quantità negativa."
 
 #. module: beverage_distributor
@@ -1594,42 +1450,13 @@ msgstr "Puoi ancora farlo aggiornando il pacchetto dal modulo Applicazioni."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
-msgid ""
-"You now have the keys to easily report those to the relevant authorities!"
-msgstr ""
-"Ora hai tutti gli strumenti per segnalarle facilmente alle autorità "
-"competenti!"
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Your B2B eCommerce portal allows clients to:"
 msgstr "Il tuo portale di e-commerce B2B consente ai clienti di:"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
-msgid ""
-"[EMPTY 33 BIN] Regular 24x33 Bin is the empty deposit product (2.1$ value)"
-msgstr ""
-"[CONTENITORE 33 PIENO] Contenitore standard 24x33 è il prodotto di deposito "
-"vuoto (valore 2,1 $)"
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
-msgid ""
-"[FULL 33 BIN] Regular 24x33 Bin is the complete deposit product (4.5$ value)"
-msgstr ""
-"[CONTENITORE 33 PIENO] Contenitore standard 24x33 è il prodotto di deposito "
-"completo (valore 4,5 $)"
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "eCommerce Website 🌐"
 msgstr "E-commerce sito web 🌐"
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.product_template_form_custom
-msgid "ex. Delta I.P.A. - 33cl"
-msgstr "ad es. Delta I.P.A. - 33 cl"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -1639,12 +1466,22 @@ msgstr "🎓 Codice a barre"
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "🎓 Branches"
-msgstr ""
+msgstr "🎓 Filiali"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "🎓 CRM"
 msgstr "🎓 CRM"
+
+#. module: beverage_distributor
+#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
+msgid "🎓 Deposit Management"
+msgstr "🎓 Gestione degli acconti"
+
+#. module: beverage_distributor
+#: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
+msgid "🎓 Excise Management"
+msgstr "🎓 Gestione delle accise"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -1670,6 +1507,337 @@ msgstr "🎓 Vendite"
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "🎓 Website"
 msgstr "🎓 Sito web"
+
+#~ msgid "26W26"
+#~ msgstr "26W26"
+
+#~ msgid "26W25"
+#~ msgstr "26W25"
+
+#~ msgid "26W24"
+#~ msgstr "26W24"
+
+#~ msgid "26W23"
+#~ msgstr "26W23"
+
+#~ msgid "26W22"
+#~ msgstr "26W22"
+
+#~ msgid "26W21"
+#~ msgstr "26W21"
+
+#~ msgid "26W20"
+#~ msgstr "26W20"
+
+#~ msgid "26W19"
+#~ msgstr "26W19"
+
+#~ msgid "26W16"
+#~ msgstr "26W16"
+
+#~ msgid "26W15"
+#~ msgstr "26W15"
+
+#~ msgid "26W14"
+#~ msgstr "26W14"
+
+#~ msgid "+16"
+#~ msgstr "+16"
+
+#~ msgid "+18"
+#~ msgstr "+18"
+
+#~ msgid "+25.000"
+#~ msgstr "+ di 25,000"
+
+#~ msgid "01"
+#~ msgstr "01"
+
+#~ msgid "02"
+#~ msgstr "02"
+
+#~ msgid "03"
+#~ msgstr "03"
+
+#~ msgid "04"
+#~ msgstr "04"
+
+#~ msgid "26W13"
+#~ msgstr "26W13"
+
+#~ msgid "75%"
+#~ msgstr "75%"
+
+#~ msgid "26W03"
+#~ msgstr "26W03"
+
+#~ msgid "26W02"
+#~ msgstr "26W02"
+
+#~ msgid "<strong>Excise reporting</strong>"
+#~ msgstr "<strong>Reportistica sulle accise</strong>"
+
+#~ msgid ""
+#~ "On top of the legal reporting, you need as well to know at all time the "
+#~ "quantity of excise submitted products in your fiscal deposit warehouses."
+#~ msgstr ""
+#~ "Oltre alla rendicontazione legale, è necessario conoscere in ogni momento "
+#~ "la quantità di prodotti soggetti ad accisa presenti nei propri depositi "
+#~ "fiscali."
+
+#~ msgid "Rows come with the same move types detailed as the Excise Reports."
+#~ msgstr ""
+#~ "Le righe presentano gli stessi tipi di movimenti descritti nei resoconti "
+#~ "sulle accise."
+
+#~ msgid ""
+#~ "The Total row allows you to capture your currently in fiscal deposit "
+#~ "warehouse product quantity!"
+#~ msgstr ""
+#~ "La riga Totale consente di registrare la quantità attuale di prodotti "
+#~ "presenti nel magazzino di deposito fiscale!"
+
+#~ msgid ""
+#~ "You now have the keys to easily report those to the relevant authorities!"
+#~ msgstr ""
+#~ "Ora hai tutti gli strumenti per segnalarle facilmente alle autorità "
+#~ "competenti!"
+
+#~ msgid "25W51"
+#~ msgstr "25W51"
+
+#~ msgid ""
+#~ "Collect deposits when you deliver your customer. It is easy. When "
+#~ "validating your delivery, you can directly set a \"Return\" and precisely "
+#~ "count the number of each type of deposit your customer gave you. It will "
+#~ "automatically be reflected on his invoice or issue a credit note."
+#~ msgstr ""
+#~ "Ricevi un acconto quando consegni la merce al cliente. È facile. Al "
+#~ "momento della convalida della consegna, puoi impostare direttamente un "
+#~ "“Reso” e contare con precisione il numero di ogni tipo di acconto che il "
+#~ "cliente ha dato. Verrà inserito automaticamente nella sua fattura o in "
+#~ "una nota di credito."
+
+#~ msgid "25W49"
+#~ msgstr "25W49"
+
+#~ msgid ""
+#~ "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+#~ "label=\"Banner Info\">💡</i>"
+#~ msgstr ""
+#~ "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+#~ "label=\"Banner Info\">💡</i>"
+
+#~ msgid "Apply DEP XX taxes to these consigns."
+#~ msgstr "Applica imposte DEP XX a queste spedizioni."
+
+#~ msgid "Auto Production"
+#~ msgstr "Produzione automatica"
+
+#~ msgid "Auto-BOM"
+#~ msgstr "DiBa automatica"
+
+#~ msgid "Auto-production"
+#~ msgstr "Produzione automatica"
+
+#~ msgid "Automated BoM"
+#~ msgstr "DiBa automatizzata"
+
+#~ msgid "Available Deposit Category"
+#~ msgstr "Categoria deposito disponibile"
+
+#~ msgid "By-Deposit"
+#~ msgstr "Con deposito"
+
+#~ msgid ""
+#~ "Collect deposit when you deliver your customer. It is easy. When "
+#~ "validating your delivery, you can directly set a \"Return\" and precisely "
+#~ "count the number of each type of deposit your customer gave you. It will "
+#~ "automatically be\n"
+#~ "                        reflected on his invoice or issue a credit note."
+#~ msgstr ""
+#~ "Ricevi un acconto quando consegni la merce al cliente. È facile. Al "
+#~ "momento della convalida della consegna, puoi impostare direttamente un "
+#~ "“Reso” e contare con precisione il numero di ogni tipo di acconto che il "
+#~ "cliente ha dato. Verrà inserito automaticamente\n"
+#~ "                        nella sua fattura o in una nota di credito."
+
+#~ msgid "Contains"
+#~ msgstr "Contiene"
+
+#~ msgid "Create deposit products for each different type of consigns"
+#~ msgstr "Crea prodotti di deposito per ogni diverso tipo di merce"
+
+#~ msgid "Create/assign deposit Taxes"
+#~ msgstr "Crea/assegna deposito imposte"
+
+#~ msgid "DEP 0.1"
+#~ msgstr "DEP 0.1"
+
+#~ msgid "DEP 2.1"
+#~ msgstr "DEP 2.1"
+
+#~ msgid "DEP 2.4"
+#~ msgstr "DEP 2.4"
+
+#~ msgid "DEP 4.5"
+#~ msgstr "DEP 4.5"
+
+#~ msgid "Default fields for deposits"
+#~ msgstr "Campi predefiniti per depositi"
+
+#~ msgid "Deposit Amount"
+#~ msgstr "Importo deposito"
+
+#~ msgid "Deposit Management 🍻"
+#~ msgstr "Gestione degli acconti 🍻"
+
+#~ msgid ""
+#~ "Every time you need to sell a single Mobius Blanche - 33cl, if you don't "
+#~ "have enough in stock, it will split your main product in 24 units and "
+#~ "take into account an extra empty bin that will be left at the end."
+#~ msgstr ""
+#~ "Ogni volta che devi vendere una singola Mobius Blanche - 33 cl, se non ne "
+#~ "hai abbastanza in magazzino, il sistema dividerà il prodotto principale "
+#~ "in 24 unità e terrà conto di un contenitore vuoto in più che rimarrà alla "
+#~ "fine."
+
+#~ msgid "Execute Code"
+#~ msgstr "Esegui codice"
+
+#~ msgid "Execute Existing Actions"
+#~ msgstr "Esegui azioni esistenti"
+
+#~ msgid "For example:"
+#~ msgstr "Ad esempio:"
+
+#~ msgid ""
+#~ "If you want to automatically split products sold in a specific packaging, "
+#~ "precise a unit sale product in the so-called field and the number of "
+#~ "units contained in the main product."
+#~ msgstr ""
+#~ "Se vuoi suddividere automaticamente i prodotti venduti in una confezione "
+#~ "specifica, specifica un prodotto di vendita unitario nel cosiddetto campo "
+#~ "e il numero di unità contenute nel prodotto principale."
+
+#~ msgid "Is a Deposit Category"
+#~ msgstr "È categoria deposito"
+
+#~ msgid "Is a deposit"
+#~ msgstr "È un deposito"
+
+#~ msgid "Leave empty if this product is the smallest unit"
+#~ msgstr "Lascia vuoto se il prodotto rappresenta l'unità più piccola"
+
+#~ msgid "Mobius Blanche - 24x33cl is your main product"
+#~ msgstr "Mobius Blanche - 24x33 cl è il tuo prodotto principale"
+
+#~ msgid "Mobius Blanche - 33cl is the unit sale product"
+#~ msgstr "Mobius Blanche - 33 cl è il prodotto unitario di vendita"
+
+#~ msgid "Parent product"
+#~ msgstr "Prodotto principale"
+
+#~ msgid "Product capturing the total deposits due on sale"
+#~ msgstr "Prodotto che cattura i depositi totali dovuti alla vendita"
+
+#~ msgid ""
+#~ "Products assigned with this category are considered deposit products."
+#~ msgstr ""
+#~ "I prodotti assegnati a questa categoria sono considerati prodotti di "
+#~ "deposito."
+
+#~ msgid ""
+#~ "Set a deposit product on your product to apply these taxes. This will "
+#~ "ensure that you invoice correctly the price of consigns."
+#~ msgstr ""
+#~ "Configura un prodotto di deposito sul tuo prodotto per applicare queste "
+#~ "tasse. In questo modo si garantisce la corretta fatturazione del prezzo "
+#~ "delle consegne."
+
+#~ msgid "The inventory of all products will be updated accordingly."
+#~ msgstr "L'inventario con tutti i prodotti verrà aggiornato di conseguenza."
+
+#~ msgid ""
+#~ "This deposit management system is a specific features of this package. "
+#~ "Proceed carefully if you need to adapt anything."
+#~ msgstr ""
+#~ "Il sistema di gestione dei depositi è una caratteristica specifica di "
+#~ "questo pacchetto. Procedi con cautela se devi adattare qualcosa."
+
+#~ msgid ""
+#~ "This will automatically create a Bill of Material and process a "
+#~ "Manufacture Order each time you need to split your product and reflect "
+#~ "this operation in your stock perfectly."
+#~ msgstr ""
+#~ "In questo modo si crea automaticamente una distinta base e si elabora un "
+#~ "ordine di produzione ogni volta che si deve dividere il prodotto e "
+#~ "l'operazione si riflette nel magazzino."
+
+#~ msgid "Total Deposits"
+#~ msgstr "Totale depositi"
+
+#~ msgid "Unit sale product"
+#~ msgstr "Prodotto unitario di vendita"
+
+#~ msgid "Update Taxes"
+#~ msgstr "Aggiorna tasse"
+
+#~ msgid ""
+#~ "When filled in, an automated BoM is setup to automatically break down "
+#~ "this product in those components. Leave second field empty if this "
+#~ "product is the smallest unit."
+#~ msgstr ""
+#~ "Una volta compilato, viene impostata una DiBa automatica per scomporre "
+#~ "automaticamente il prodotto in questi componenti. Lascia vuoto il secondo "
+#~ "campo se il prodotto è l'unità più piccola."
+
+#~ msgid ""
+#~ "You can also collect deposit directly on your Point of Sale. Select the "
+#~ "correct product and encode a negative quantity."
+#~ msgstr ""
+#~ "È anche possibile riscuotere il deposito direttamente sul punto vendita. "
+#~ "Seleziona il prodotto corretto e inserisci una quantità negativa."
+
+#~ msgid ""
+#~ "[EMPTY 33 BIN] Regular 24x33 Bin is the empty deposit product (2.1$ value)"
+#~ msgstr ""
+#~ "[CONTENITORE 33 PIENO] Contenitore standard 24x33 è il prodotto di "
+#~ "deposito vuoto (valore 2,1 $)"
+
+#~ msgid ""
+#~ "[FULL 33 BIN] Regular 24x33 Bin is the complete deposit product (4.5$ "
+#~ "value)"
+#~ msgstr ""
+#~ "[CONTENITORE 33 PIENO] Contenitore standard 24x33 è il prodotto di "
+#~ "deposito completo (valore 4,5 $)"
+
+#~ msgid "ex. Delta I.P.A. - 33cl"
+#~ msgstr "ad es. Delta I.P.A. - 33 cl"
+
+#~ msgid ""
+#~ "On a regular basis, excises need to be declared. To support you with this "
+#~ "duty, a report is setup to reach the quantity by excise category entering "
+#~ "and exiting your fiscal deposit warehouse."
+#~ msgstr ""
+#~ "Le accise devono essere dichiarate regolarmente. Per assisterti in questo "
+#~ "compito, è stato predisposto un resoconto che consente di calcolare la "
+#~ "quantità per categoria di accisa in entrata e in uscita dal tuo deposito "
+#~ "fiscale."
+
+#~ msgid ""
+#~ "Open the <strong>Inventory app</strong> and reach from the Reporting menu "
+#~ "the Excises."
+#~ msgstr ""
+#~ "Apri l'app <strong>Magazzino</strong> e accedi alle accise dal menu "
+#~ "Rendicontazione."
+
+#~ msgid ""
+#~ "The default breakdown is done by week and you can configure it to be by "
+#~ "month if needed."
+#~ msgstr ""
+#~ "La suddivisione predefinita è settimanale, ma è possibile configurarla su "
+#~ "base mensile, se necessario."
 
 #~ msgid "Deposit 0.1"
 #~ msgstr "Deposito 0.1"

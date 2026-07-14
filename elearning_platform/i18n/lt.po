@@ -3,13 +3,15 @@
 # * elearning_platform
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Bren Driesen <brdri@odoo.com>, 2026.
+# Jonas Zinkevicius <jonas@vialaurea.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-13 08:09+0000\n"
-"PO-Revision-Date: 2025-11-17 11:17+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-04-10 19:04+0000\n"
+"PO-Revision-Date: 2026-05-23 09:34+0000\n"
+"Last-Translator: Jonas Zinkevicius <jonas@vialaurea.com>\n"
 "Language-Team: Lithuanian <https://translate.odoo.com/projects/odoo-19/"
 "elearning_platform/lt/>\n"
 "Language: lt\n"
@@ -19,7 +21,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > "
 "19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? "
 "1 : 2);\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
@@ -75,12 +77,12 @@ msgstr ""
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
 msgid "&amp;nbsp;Learn more&amp;nbsp;"
-msgstr ""
+msgstr "&amp;nbsp;Sužinokite daugiau&amp;nbsp;"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
 msgid "1. <strong>Use Meaningful Names</strong>"
-msgstr ""
+msgstr "1. <strong>Naudokite Prasmingus Pavadinimus</strong>"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
@@ -115,12 +117,7 @@ msgstr ""
 #. module: elearning_platform
 #: model:product.attribute.value,name:elearning_platform.product_attribute_value_103
 msgid "80 Hours"
-msgstr ""
-
-#. module: elearning_platform
-#: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
-msgid "85%"
-msgstr ""
+msgstr "80 Valandų"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
@@ -128,16 +125,18 @@ msgid ""
 "<a class=\"o_translate_inline btn btn-primary\" href=\"/slides\">Browse "
 "Courses</a>"
 msgstr ""
+"<a class=\"o_translate_inline btn btn-primary\" href=\"/slides\">Naršyti "
+"Kursus</a>"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "<em>“Do you want to play again? (yes/no)”</em>"
-msgstr ""
+msgstr "<em>“Ar norite žaisti dar kartą? (taip/ne)”</em>"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
 msgid "<em>“You guessed the number in 3 tries!”</em>"
-msgstr ""
+msgstr "<em>“Jūs atspėjote skaičių iš trijų kartų!”</em>"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.ir_ui_view_3213
@@ -146,24 +145,33 @@ msgstr "<i class=\"fa fa-graduation-cap me-1\"/>Visi kursai"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
+#, fuzzy
 msgid ""
 "<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
 "normal\">💡</i>"
 msgstr ""
+"<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
+"normal\">💡</i>"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
+#, fuzzy
 msgid ""
 "<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\">✅</i>"
 msgstr ""
+"<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
+"fst-normal\">✅</i>"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
+#, fuzzy
 msgid ""
 "<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\">⚠️</i>"
 msgstr ""
+"<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
+"fst-normal\">⚠️</i>"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
@@ -171,6 +179,8 @@ msgid ""
 "<span class=\"carousel-control-next-icon\" aria-hidden=\"true\"/>\n"
 "                  <span class=\"visually-hidden\">Next</span>"
 msgstr ""
+"<span class=\"carousel-control-next-icon\" aria-hidden=\"true\"/>\n"
+"                  <span class=\"visually-hidden\">Kitas</span>"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
@@ -178,6 +188,8 @@ msgid ""
 "<span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"/>\n"
 "                  <span class=\"visually-hidden\">Previous</span>"
 msgstr ""
+"<span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"/>\n"
+"                  <span class=\"visually-hidden\">Atgal</span>"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body

@@ -2,14 +2,14 @@
 # This file contains the translation of the following modules:
 # * night_clubs
 #
-# "Maitê Dietze (madi)" <madi@odoo.com>, 2025.
+# "Maitê Dietze (madi)" <madi@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 10:21+0000\n"
-"PO-Revision-Date: 2025-11-20 09:41+0000\n"
+"POT-Creation-Date: 2026-04-10 19:33+0000\n"
+"PO-Revision-Date: 2026-01-06 09:30+0000\n"
 "Last-Translator: \"Maitê Dietze (madi)\" <madi@odoo.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.odoo.com/projects/"
 "odoo-19/night_clubs/pt_BR/>\n"
@@ -18,17 +18,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: night_clubs
 #: model:event.tag,name:night_clubs.event_tag_14
 msgid "14-18 Summer Nights"
 msgstr "14-18 Noites de verão"
-
-#. module: night_clubs
-#: model:event.tag,name:night_clubs.event_tag_1
-msgid "18+"
-msgstr "18+"
 
 #. module: night_clubs
 #: model:product.template,description_sale:night_clubs.product_product_50_product_template
@@ -232,8 +227,8 @@ msgid ""
 "class=\"s_website_form_mark\"> *</span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Assunto</span>\n"
-"                                                                <span class="
-"\"s_website_form_mark\"> *</span>"
+"                                                                <span "
+"class=\"s_website_form_mark\"> *</span>"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -322,6 +317,8 @@ msgstr "<strong>Como otimizar as operações do bar:</strong>"
 msgid ""
 "<strong>Integration</strong>: Link with Inventory for accurate stock levels."
 msgstr ""
+"<strong>Integração</strong>: Vincule-se ao Inventário para obter níveis de "
+"estoque precisos."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -329,12 +326,15 @@ msgid ""
 "<strong>Integration</strong>: Publish simultaneously across multiple "
 "platforms."
 msgstr ""
+"<strong>Integração</strong>: Publique simultaneamente em várias plataformas."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid ""
 "<strong>Inventory sync</strong>: Automatic stock updates when items are sold."
 msgstr ""
+"<strong>Sincronização de inventário</strong>: Atualizações automáticas de "
+"estoque quando os itens são vendidos."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -342,17 +342,21 @@ msgid ""
 "<strong>Inventory</strong>: Track every bottle, mixer, and accessory in real "
 "time."
 msgstr ""
+"<strong>Inventário</strong>: Rastreie cada garrafa, mixer e demais "
+"acessórios em tempo real."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid "<strong>Key features to use:</strong>"
-msgstr ""
+msgstr "<strong>Principais recursos a usar:</strong>"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid ""
 "<strong>Multiple bars</strong>: Configure separate PoS for each bar station."
 msgstr ""
+"<strong>Múltiplos bares</strong>: Configure um PDV separado para cada "
+"estação de bar."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -360,6 +364,8 @@ msgid ""
 "<strong>Payments</strong>: Accept multiple methods (cash, card, mobile "
 "payments)."
 msgstr ""
+"<strong>Pagamentos</strong>: Aceite várias formas de pagamento (dinheiro, "
+"cartão, pagamentos móveis)."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -367,6 +373,8 @@ msgid ""
 "<strong>Payroll</strong>: Manage staff salaries, bonuses, and contracts "
 "seamlessly."
 msgstr ""
+"<strong>Folha de Pagamento</strong>: Gerencie salários, bônus e contratos de "
+"funcionários de maneira integrada."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -374,6 +382,9 @@ msgid ""
 "<strong>Plan shifts with Planning</strong>: Organize staff schedules and "
 "ensure enough people at the bar, entrance, and security."
 msgstr ""
+"<strong>Planeje turnos com o app Planejamento</strong>: Organize os horários "
+"dos funcionários e garanta que haja pessoal suficiente no bar, na entrada e "
+"na segurança."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -381,6 +392,8 @@ msgid ""
 "<strong>Point of Sale</strong>: Add drinks as products with categories "
 "(cocktails, beers, shots)."
 msgstr ""
+"<strong>Ponto de Venda</strong>: Adicione bebidas como produtos com "
+"categorias (coquetéis, cervejas, shots)."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -388,6 +401,8 @@ msgid ""
 "<strong>Point of Sale</strong>: Configure products as ticket types for on-"
 "the-spot sales."
 msgstr ""
+"<strong>Ponto de Venda</strong>: Configure os produtos como tipos de "
+"ingresso para vendas no local."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -395,6 +410,8 @@ msgid ""
 "<strong>Point of Sale</strong>: Sell tickets or drinks at the entrance and "
 "bar with seamless payments."
 msgstr ""
+"<strong>Ponto de Venda</strong>: Venda ingressos ou bebidas na entrada e no "
+"bar, sem complicações nos pagamentos."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -402,11 +419,15 @@ msgid ""
 "<strong>Purchase</strong>: Automate supplier management and resupply of "
 "drinks and consumables."
 msgstr ""
+"<strong>Compras</strong>: Automatize a gestão de fornecedores e a reposição "
+"de bebidas e consumíveis."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid "<strong>QR Codes</strong>: Scan at the entrance for seamless check-ins."
 msgstr ""
+"<strong>Códigos QR</strong>: Digitalize na entrada para fazer o check-in sem "
+"complicações."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -414,23 +435,31 @@ msgid ""
 "<strong>Reorder rules</strong>: Automatically trigger replenishments when "
 "stock falls below thresholds."
 msgstr ""
+"<strong>Regras de reposição</strong>: acione reposições automaticamente "
+"quando o estoque estiver abaixo dos limites."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid ""
 "<strong>Reports</strong>: Track how many people bought tickets at the door."
 msgstr ""
+"<strong>Relatórios</strong>: Acompanhe quantas pessoas compraram ingressos "
+"na bilheteria."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid "<strong>Scheduling</strong>: Plan posts around key events."
 msgstr ""
+"<strong>Agendamento</strong>: Planeje publicações em torno de eventos "
+"importantes."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid ""
 "<strong>Screens</strong>: Use touchscreens or tablets for fast order-taking."
 msgstr ""
+"<strong>Telas</strong>: Use telas sensíveis ao toque ou tablets para um "
+"rápido atendimento de pedidos."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -438,6 +467,9 @@ msgid ""
 "<strong>Segment fans</strong>: Use Social Marketing and Email Marketing to "
 "target VIPs differently from casual visitors."
 msgstr ""
+"<strong>Segmente os fãs</strong>: use o Marketing de redes sociais e o "
+"marketing por e-mail para direcionar os VIPs de maneira diferente dos "
+"visitantes casuais."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -445,11 +477,15 @@ msgid ""
 "<strong>Social Marketing</strong>: Boost visibility with integrated "
 "campaigns on Instagram, Facebook, YouTube, and X."
 msgstr ""
+"<strong>Redes Sociais</strong>: Aumente a visibilidade com campanhas "
+"integradas no Instagram, Facebook, YouTube e X."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid "<strong>Suppliers</strong>: Save vendor details for quick reordering."
 msgstr ""
+"<strong>Fornecedores</strong>: Salve os detalhes do fornecedor para "
+"facilitar novos pedidos."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -457,6 +493,8 @@ msgid ""
 "<strong>Targeting</strong>: Tailor campaigns for VIP guests vs. general "
 "audience."
 msgstr ""
+"<strong>Direcionamento para</strong>: personalize campanhas para convidados "
+"VIPs e público em geral."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -464,6 +502,8 @@ msgid ""
 "<strong>Tracking</strong>: Monitor costs per supplier and optimize "
 "negotiations."
 msgstr ""
+"<strong>Acompanhamento de</strong>: Monitore os custos por fornecedor e "
+"otimize as negociações."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -471,11 +511,14 @@ msgid ""
 "<strong>Use Dashboards</strong>: Create tailored dashboards to track "
 "revenue, ticket sales, bar performance, and costs at a glance."
 msgstr ""
+"<strong>Use painéis de controle</strong>: crie painéis personalizados para "
+"acompanhar rapidamente a receita, a venda de ingressos, o desempenho do bar "
+"e os custos."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid "<strong>Ways to leverage Odoo Purchase:</strong>"
-msgstr ""
+msgstr "<strong>Formas de aproveitar o Odoo Compras:</strong>"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -483,6 +526,8 @@ msgid ""
 "<strong>Website</strong>: Design a branded landing page for upcoming events "
 "with integrated e-commerce checkout."
 msgstr ""
+"<strong>Site</strong>: Crie uma página inicial com a marca para os próximos "
+"eventos, com checkout de comércio eletrônico integrado."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -490,6 +535,8 @@ msgid ""
 "<strong>Website</strong>: Sell event tickets online and deliver "
 "confirmations with QR codes."
 msgstr ""
+"<strong>Site</strong>: Venda ingressos para eventos online e envie "
+"confirmações com códigos QR."
 
 #. module: night_clubs
 #: model:product.public.category,name:night_clubs.product_public_category_2
@@ -504,28 +551,31 @@ msgstr "Idade"
 #. module: night_clubs
 #: model:product.template,name:night_clubs.product_product_62_product_template
 msgid "Alcholic Drink 1"
-msgstr ""
+msgstr "Bebida alcoólica 1"
 
 #. module: night_clubs
 #: model:product.template,name:night_clubs.product_product_61_product_template
 msgid "Alcoholic Drink 2"
-msgstr ""
+msgstr "Bebida alcoólica 2"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.ir_ui_view_3858
 msgid "All Parties"
-msgstr ""
+msgstr "Todas as Partes"
 
 #. module: night_clubs
 #: model_terms:product.template,description:night_clubs.product_product_45_product_template
 msgid "All the zest without the alcohol: lime, mint, sugar, and soda over ice."
 msgstr ""
+"Todo o sabor, sem o álcool: limão, hortelã, açúcar e refrigerante com gelo."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid ""
 "Also check out Email Marketing for Email Newsletter management &amp; sending."
 msgstr ""
+"Confira também o Marketing por E-mail para administrar o envio de "
+"newsletters."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -533,6 +583,8 @@ msgid ""
 "Also use a barcode scanner to check in registered guests at the entrance "
 "using the <strong>Barcode app</strong>."
 msgstr ""
+"Utilize também um leitor de código de barras para fazer o check-in dos "
+"hóspedes na entrada usando o aplicativo <strong>Código de Barras</strong>."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.homepage
@@ -540,6 +592,8 @@ msgid ""
 "An unforgettable nightlife experience. I highly recommend the signature "
 "cocktails, simply amazing."
 msgstr ""
+"Uma experiência inesquecível na vida noturna. Recomendo muito os cocktails "
+"autorais, simplesmente incríveis."
 
 #. module: night_clubs
 #: model:product.template,name:night_clubs.product_product_44_product_template
@@ -549,7 +603,7 @@ msgstr "Aperol Spritz"
 #. module: night_clubs
 #: model_terms:product.template,description:night_clubs.product_product_44_product_template
 msgid "Aperol, prosecco and soda on ice with orange slice."
-msgstr ""
+msgstr "Aperol, prosecco e refrigerante com gelo e fatia de laranja."
 
 #. module: night_clubs
 #: model:product.public.category,name:night_clubs.product_public_category_1
@@ -559,12 +613,12 @@ msgstr "Uniforme"
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.ir_ui_view_3858
 msgid "Back to Parties"
-msgstr ""
+msgstr "Voltar para Festas"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid "Bar Sales 🍸"
-msgstr ""
+msgstr "Vendas no bar 🍸"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -573,11 +627,15 @@ msgid ""
 "makes it easy to handle fast-paced drink sales, manage tabs, and process "
 "payments quickly—all while updating your inventory."
 msgstr ""
+"Os bares são fundamentais para a receita da sua boate. O <strong>Odoo PDV </"
+"strong> facilita o atendimento rápido das vendas de bebidas, o gerenciamento "
+"de contas e o processamento rápido de pagamentos, tudo isso enquanto "
+"atualiza seu inventário."
 
 #. module: night_clubs
 #: model:event.event,subtitle:night_clubs.event_event_2
 msgid "Bass, bars, and beats — hip-hop all night long"
-msgstr ""
+msgstr "Baixo, bares e batidas — hip-hop a noite toda"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -586,6 +644,9 @@ msgid ""
 "<strong>Purchase</strong> app, you can manage suppliers, automate "
 "replenishment orders, and track costs."
 msgstr ""
+"Por trás da diversão, reposições eficientes fazem o show continuar. Com o "
+"aplicativo Odoo <strong>Compras</strong>, você pode gerenciar fornecedores, "
+"automatizar pedidos de reposição e acompanhar custos."
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_3
@@ -594,11 +655,14 @@ msgid ""
 "the night that sets the club on fire with the best of salsa, bachata, "
 "reggaeton, and cumbia."
 msgstr ""
+"Aqueça a pista de dança com a Latin Fever Friday d <strong></strong> — a "
+"noite que incendeia a boate com o melhor da salsa, bachata, reggaeton e "
+"cumbia."
 
 #. module: night_clubs
 #: model:product.template,description_sale:night_clubs.product_product_44_product_template
 msgid "Bubbly bittersweet classic."
-msgstr ""
+msgstr "Clássico efervescente, agridoce."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.homepage
@@ -608,42 +672,42 @@ msgstr "Indicador de carrossel"
 #. module: night_clubs
 #: model_terms:product.template,description:night_clubs.product_product_48_product_template
 msgid "Chilled Italian prosecco by the glass."
-msgstr ""
+msgstr "Prosecco italiano gelado servido em taça."
 
 #. module: night_clubs
 #: model_terms:product.template,description:night_clubs.product_product_53_product_template
 msgid "Chilled cola 25cl bottle."
-msgstr ""
+msgstr "Garrafa de refrigerante gelado de 25 cl."
 
 #. module: night_clubs
 #: model:product.template,description_sale:night_clubs.product_product_51_product_template
 msgid "Classic G&T."
-msgstr ""
+msgstr "G&T clássico."
 
 #. module: night_clubs
 #: model:product.template,description_sale:night_clubs.product_product_47_product_template
 msgid "Classic bottled lager."
-msgstr ""
+msgstr "Cerveja lager clássica engarrafada."
 
 #. module: night_clubs
 #: model_terms:product.template,description:night_clubs.product_product_51_product_template
 msgid "Classic gin and tonic with citrus garnish."
-msgstr ""
+msgstr "Gin tônica clássica com guarnição cítrica."
 
 #. module: night_clubs
 #: model:product.template,name:night_clubs.product_product_57_product_template
 msgid "Cloakroom Token"
-msgstr ""
+msgstr "Ficha para guarda-volumes"
 
 #. module: night_clubs
 #: model:product.template,name:night_clubs.product_product_53_product_template
 msgid "Cola 25cl"
-msgstr ""
+msgstr "Refrigerante 25 cl"
 
 #. module: night_clubs
 #: model_terms:product.template,description:night_clubs.product_product_47_product_template
 msgid "Cold, crisp European lager in 33cl bottle."
-msgstr ""
+msgstr "Cerveja lager europeia gelada e refrescante em garrafa de 33 cl."
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_3
@@ -651,11 +715,13 @@ msgid ""
 "Come with a partner or find one on the dance floor — everyone dances at "
 "Latin Fever."
 msgstr ""
+"Venha com um parceiro ou encontre um na pista de dança — todos dançam no "
+"Latin Fever."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid "Consumables Resupply 📦"
-msgstr ""
+msgstr "Reposição de consumíveis 📦"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.contactus
@@ -680,21 +746,23 @@ msgid ""
 "Create floorplans, manage product categories, discounts, and customer "
 "accounts straight from the Point of Sale app."
 msgstr ""
+"Crie plantas baixas, gerencie categorias de produtos, descontos e contas de "
+"clientes diretamente do aplicativo Ponto de Venda."
 
 #. module: night_clubs
 #: model:product.template,description_sale:night_clubs.product_product_48_product_template
 msgid "Crisp and bubbly."
-msgstr ""
+msgstr "Fresco e espumante."
 
 #. module: night_clubs
 #: model:product.public.category,name:night_clubs.product_public_category_7
 msgid "Decor"
-msgstr ""
+msgstr "Decoração"
 
 #. module: night_clubs
 #: model:event.tag,name:night_clubs.event_tag_6
 msgid "Disco"
-msgstr ""
+msgstr "Discoteca"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -704,12 +772,14 @@ msgstr "Quer ir mais além?"
 #. module: night_clubs
 #: model:event.tag.category,name:night_clubs.event_tag_category_3
 msgid "Dress Code"
-msgstr ""
+msgstr "Código de vestuário"
 
 #. module: night_clubs
 #: model_terms:product.public.category,website_description:night_clubs.product_public_category_1
 msgid "Dress to impress with our exclusive clubwear collection."
 msgstr ""
+"Vista-se para impressionar com a nossa coleção exclusiva de roupas para "
+"baladas."
 
 #. module: night_clubs
 #: model:product.public.category,name:night_clubs.product_public_category_3
@@ -719,22 +789,23 @@ msgstr "Bebidas"
 #. module: night_clubs
 #: model:event.tag,name:night_clubs.event_tag_10
 msgid "Drum & Bass"
-msgstr ""
+msgstr "Drum & Bass"
 
 #. module: night_clubs
 #: model:event.tag,name:night_clubs.event_tag_11
 msgid "EDM"
-msgstr ""
+msgstr "EDM"
 
 #. module: night_clubs
 #: model_terms:product.template,description:night_clubs.product_product_49_product_template
 msgid "Easy-drinking red wine served by the glass."
-msgstr ""
+msgstr "Vinho tinto fácil de beber, servido em taça."
 
 #. module: night_clubs
 #: model_terms:product.public.category,website_description:night_clubs.product_public_category_2
 msgid "Elevate your look with must-have accessories for a night out."
 msgstr ""
+"Eleve o seu visual com acessórios indispensáveis para uma saída à noite."
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_4
@@ -743,6 +814,10 @@ msgid ""
 "a night of raw beats, hypnotic rhythms, and immersive visuals. Lose yourself "
 "to the pulse of Berlin-inspired underground techno, right here in your city."
 msgstr ""
+"Entre nas profundezas do som com a <strong>Techno Underground Session</"
+"strong> — uma noite de batidas cruas, ritmos hipnóticos e visuais imersivos. "
+"Perca-se ao ritmo do techno underground inspirado em Berlim, aqui mesmo na "
+"sua cidade."
 
 #. module: night_clubs
 #: model:event.event.ticket,description:night_clubs.event_event_ticket_7
@@ -752,22 +827,22 @@ msgstr "Entrada"
 #. module: night_clubs
 #: model:event.type.ticket,name:night_clubs.event_type_ticket_1
 msgid "Entrance Ticket"
-msgstr ""
+msgstr "Ingresso"
 
 #. module: night_clubs
 #: model:event.type.ticket,name:night_clubs.event_type_ticket_2
 msgid "Entrance Ticket + VIP Table"
-msgstr ""
+msgstr "Ingresso + Mesa VIP"
 
 #. module: night_clubs
 #: model:product.template,name:night_clubs.product_product_43_product_template
 msgid "Espresso Martini"
-msgstr ""
+msgstr "Espresso Martini"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid "Fan Engagement 📣"
-msgstr ""
+msgstr "Envolvimento dos fãs 📣"
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_4
@@ -775,6 +850,8 @@ msgid ""
 "For those who live for the rhythm, this is more than a party — it’s a "
 "movement."
 msgstr ""
+"Para aqueles que vivem pelo ritmo, isso é mais do que uma festa — é um "
+"movimento."
 
 #. module: night_clubs
 #: model_terms:product.template,description:night_clubs.product_product_42_product_template
@@ -782,11 +859,13 @@ msgid ""
 "Fresh lime, mint, white rum, sugar and soda over crushed ice. House-favorite "
 "crowd pleaser."
 msgstr ""
+"Limão fresco, hortelã, rum branco, açúcar e refrigerante sobre gelo picado. "
+"O favorito da casa e que agrada a todos."
 
 #. module: night_clubs
 #: model_terms:product.template,description:night_clubs.product_product_46_product_template
 msgid "Fruity, hoppy IPA served fresh on draft."
-msgstr ""
+msgstr "IPA frutada e lupulada servida fresca na torneira."
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_1
@@ -795,31 +874,34 @@ msgid ""
 "ultimate glow-in-the-dark experience, where black lights, neon body paint, "
 "and electrifying beats come together for one unforgettable party."
 msgstr ""
+"Prepare-se para iluminar a pista de dança! <strong>Neon Nights</strong> é a "
+"experiência definitiva em brilho no escuro, onde luzes negras, tinta "
+"corporal neon e batidas eletrizantes se unem para uma festa inesquecível."
 
 #. module: night_clubs
 #: model_terms:product.public.category,website_description:night_clubs.product_public_category_8
 msgid "Get the beats that keep the party alive."
-msgstr ""
+msgstr "Obtenha as batidas que mantêm a festa animada."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.homepage
 msgid "Get your entrace tickets now!&amp;nbsp;"
-msgstr ""
+msgstr "Adquira já os seus ingressos!&amp;nbsp;"
 
 #. module: night_clubs
 #: model:product.template,name:night_clubs.product_product_51_product_template
 msgid "Gin & Tonic"
-msgstr ""
+msgstr "Gin e Tônica"
 
 #. module: night_clubs
 #: model:event.tag,name:night_clubs.event_tag_7
 msgid "Hip Hop"
-msgstr ""
+msgstr "Hip Hop"
 
 #. module: night_clubs
 #: model:event.event,name:night_clubs.event_event_2
 msgid "Hip-Hop Takeover"
-msgstr ""
+msgstr "A conquista do hip-hop"
 
 #. module: night_clubs
 #: model:event.tag,name:night_clubs.event_tag_8
@@ -829,17 +911,17 @@ msgstr "Casa"
 #. module: night_clubs
 #: model:product.template,description_sale:night_clubs.product_product_46_product_template
 msgid "House IPA on tap."
-msgstr ""
+msgstr "IPA da casa na torneira."
 
 #. module: night_clubs
 #: model:product.template,name:night_clubs.product_product_49_product_template
 msgid "House Red Wine Glass"
-msgstr ""
+msgstr "Copo de vinho tinto da casa"
 
 #. module: night_clubs
 #: model:product.template,name:night_clubs.product_product_46_product_template
 msgid "IPA Draft Pint"
-msgstr ""
+msgstr "Pint de IPA"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -853,7 +935,7 @@ msgstr ""
 #. module: night_clubs
 #: model_terms:product.public.category,website_description:night_clubs.product_public_category_6
 msgid "Indulge in luxury with our exclusive VIP experiences."
-msgstr ""
+msgstr "Delicie-se com o luxo das nossas experiências VIP exclusivas."
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_1
@@ -862,6 +944,9 @@ msgid ""
 "Whether you’re here to dance till sunrise or just vibe in the glow, this is "
 "the event you don’t want to miss."
 msgstr ""
+"Junte-se a centenas de foliões para uma noite mais brilhante do que qualquer "
+"outra. Seja para dançar até o sol raiar ou apenas curtir a vibração, este é "
+"um evento que você não vai querer perder."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -875,22 +960,23 @@ msgstr ""
 #. module: night_clubs
 #: model:product.template,name:night_clubs.product_product_47_product_template
 msgid "Lager Bottle 33cl"
-msgstr ""
+msgstr "Garrafa de cerveja lager 33 cl"
 
 #. module: night_clubs
 #: model:event.event,name:night_clubs.event_event_3
 msgid "Latin Fever Friday"
-msgstr ""
+msgstr "Latin Fever Friday"
 
 #. module: night_clubs
 #: model:event.event,subtitle:night_clubs.event_event_1
 msgid "Light up the dance floor — the night shines neon bright"
-msgstr ""
+msgstr "Ilumine a pista de dança — a noite brilha com luzes de néon"
 
 #. module: night_clubs
 #: model:event.event,subtitle:night_clubs.event_event_4
 msgid "Lose yourself in deep beats and Berlin-style techno"
 msgstr ""
+"Deixe-se levar pelas batidas profundas e pelo techno ao estilo berlinense"
 
 #. module: night_clubs
 #: model:product.public.category,name:night_clubs.product_public_category_5
@@ -900,12 +986,12 @@ msgstr "Mercadoria"
 #. module: night_clubs
 #: model:product.template,name:night_clubs.product_product_58_product_template
 msgid "Mojito Bottles"
-msgstr ""
+msgstr "Garrafas de Mojito"
 
 #. module: night_clubs
 #: model:product.template,name:night_clubs.product_product_42_product_template
 msgid "Mojito Signature"
-msgstr ""
+msgstr "Mojito Exclusivo"
 
 #. module: night_clubs
 #: model:product.public.category,name:night_clubs.product_public_category_8
@@ -915,12 +1001,12 @@ msgstr "Música"
 #. module: night_clubs
 #: model:event.tag.category,name:night_clubs.event_tag_category_2
 msgid "Music Genre"
-msgstr ""
+msgstr "Gênero musical"
 
 #. module: night_clubs
 #: model:event.event,name:night_clubs.event_event_1
 msgid "Neon Nights: Glow Party"
-msgstr ""
+msgstr "Noites Neon: Festa Glow"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.homepage
@@ -930,7 +1016,7 @@ msgstr "Próximo"
 #. module: night_clubs
 #: model:event.type,name:night_clubs.event_type_1
 msgid "Night Club Event"
-msgstr ""
+msgstr "Evento em clube noturno"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -939,6 +1025,10 @@ msgid ""
 "strong> app lets you post content, run campaigns, and connect with fans "
 "across Instagram, Facebook, X, and YouTube—all from one dashboard."
 msgstr ""
+"A vida noturna prospera com a comunidade e o entusiasmo. O aplicativo Odoo "
+"<strong>Redes Sociais</strong> permite que você publique conteúdo, realize "
+"campanhas e se conecte com fãs no Instagram, Facebook, X e YouTube — tudo a "
+"partir de um único Painel."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -947,6 +1037,10 @@ msgid ""
 "<strong>Point of Sale (PoS)</strong>, you can sell tickets at the entrance "
 "quickly, accept cash or card, and issue receipts instantly."
 msgstr ""
+"Nem todos compram com antecedência — alguns clientes preferem sair à noite "
+"de forma espontânea. Com o Odoo <strong>Ponto de Venda (PDV)</strong>, você "
+"pode vender ingressos rapidamente na entrada, aceitar dinheiro ou cartão e "
+"emitir recibos instantaneamente."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -965,37 +1059,37 @@ msgstr ""
 #. module: night_clubs
 #: model:product.template,description_sale:night_clubs.product_product_57_product_template
 msgid "One item storage."
-msgstr ""
+msgstr "Armazenamento de um item."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.ir_ui_view_3822
 msgid "Parties"
-msgstr ""
+msgstr "Festas"
 
 #. module: night_clubs
 #: model:product.template,description_sale:night_clubs.product_product_54_product_template
 msgid "Perfect for G&Ts."
-msgstr ""
+msgstr "Perfeito para G&Ts."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid "Point of Sale App Documentation"
-msgstr ""
+msgstr "Documentação do aplicativo de Ponto de Venda"
 
 #. module: night_clubs
 #: model:event.tag,name:night_clubs.event_tag_4
 msgid "Pop"
-msgstr ""
+msgstr "Pop"
 
 #. module: night_clubs
 #: model_terms:product.template,description:night_clubs.product_product_50_product_template
 msgid "Premium blanco tequila 3cl. Salt and lime on request."
-msgstr ""
+msgstr "Tequila branca premium 3 cl. Sal e limão a pedido."
 
 #. module: night_clubs
 #: model_terms:product.template,description:night_clubs.product_product_54_product_template
 msgid "Premium tonic water 20cl, ideal for mixers."
-msgstr ""
+msgstr "Água tônica premium 20 cl, ideal para misturar."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.homepage
@@ -1005,12 +1099,12 @@ msgstr "Anterior"
 #. module: night_clubs
 #: model:product.template,name:night_clubs.product_product_48_product_template
 msgid "Prosecco Glass"
-msgstr ""
+msgstr "Copo de Prosecco"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid "Purchase Documentation"
-msgstr ""
+msgstr "Documentação — Compras"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -1020,33 +1114,33 @@ msgstr "Entre em contato"
 #. module: night_clubs
 #: model:product.template,description_sale:night_clubs.product_product_42_product_template
 msgid "Refreshing mint-lime mojito, made to order."
-msgstr ""
+msgstr "Mojito refrescante de menta e limão, feito na hora."
 
 #. module: night_clubs
 #: model:event.tag,name:night_clubs.event_tag_12
 msgid "Reggaeton"
-msgstr ""
+msgstr "Reggaeton"
 
 #. module: night_clubs
 #: model:event.event.ticket,name:night_clubs.event_event_ticket_1
 msgid "Registration for Hip-Hop Takeover"
-msgstr ""
+msgstr "Inscrição para o Hip-Hop Takeover"
 
 #. module: night_clubs
 #: model:event.event.ticket,name:night_clubs.event_event_ticket_3
 msgid "Registration for Latin Fever Friday"
-msgstr ""
+msgstr "Inscrições para a Latin Fever Friday"
 
 #. module: night_clubs
 #: model:event.event.ticket,name:night_clubs.event_event_ticket_5
 msgid "Registration for Neon Nights : Glow Party"
-msgstr ""
+msgstr "Inscrição para Neon Nights: Festa Glow"
 
 #. module: night_clubs
 #: model:event.event.ticket,name:night_clubs.event_event_ticket_7
 #: model:event.event.ticket,name:night_clubs.event_event_ticket_8
 msgid "Registration for Techno Undergound"
-msgstr ""
+msgstr "Inscrição para o Techno Underground"
 
 #. module: night_clubs
 #: model_terms:product.template,description:night_clubs.product_product_56_product_template
@@ -1054,6 +1148,8 @@ msgid ""
 "Reserved table and 70cl premium vodka with mixers and garnish. Priority "
 "entry included."
 msgstr ""
+"Mesa reservada e vodka premium de 70 cl com guarnições. Entrada prioritária "
+"incluída."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -1066,11 +1162,17 @@ msgid ""
 "operations, you can focus on what matters most: giving your guests an "
 "incredible night out."
 msgstr ""
+"Gerir uma discoteca consiste em proporcionar uma experiência inesquecível, "
+"mantendo ao mesmo tempo o bom funcionamento dos bastidores. Desde a venda de "
+"bilhetes à gestão do bar, passando pelo pessoal e pelas promoções, o Odoo "
+"centraliza todas estas tarefas numa única plataforma intuitiva. Ao integrar "
+"as vendas, o marketing e as operações, pode concentrar-se no que é mais "
+"importante: proporcionar aos seus clientes uma noite incrível."
 
 #. module: night_clubs
 #: model_terms:product.public.category,website_description:night_clubs.product_public_category_4
 msgid "Secure your spot for unforgettable nights and events."
-msgstr ""
+msgstr "Garanta seu lugar para noites e eventos inesquecíveis."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.homepage
@@ -1092,51 +1194,59 @@ msgid ""
 "            experiences and digital QR codes that guests present at the door."
 "<strong>How to maximize this flow:</strong>"
 msgstr ""
+"A venda de ingressos online garante que seus clientes possam se planejar com "
+"antecedência, escolher entre entrada VIP ou normal e receber confirmação "
+"instantânea. Os aplicativos Odoo <strong>Website</strong> e <strong>Events</"
+"strong> simplificam esse processo, oferecendo experiências de checkout "
+"tranquilas e códigos QR digitais que os convidados apresentam na porta."
+"<strong>Como maximizar esse fluxo:</strong>"
 
 #. module: night_clubs
 #: model:product.template,description_sale:night_clubs.product_product_53_product_template
 msgid "Serve cold."
-msgstr ""
+msgstr "Sirva frio."
 
 #. module: night_clubs
 #: model_terms:product.public.category,website_description:night_clubs.product_public_category_3
 msgid "Shop our signature cocktails and party essentials."
-msgstr ""
+msgstr "Compre nossos coquetéis exclusivos e itens essenciais para festas."
 
 #. module: night_clubs
 #: model_terms:product.public.category,website_description:night_clubs.product_public_category_5
 msgid "Show your love for the club with branded gear."
-msgstr ""
+msgstr "Mostre seu amor pelo clube com produtos da marca."
 
 #. module: night_clubs
 #: model_terms:product.template,description:night_clubs.product_product_57_product_template
 msgid "Single coat or bag storage for the night. Non-transferable."
 msgstr ""
+"Guarda-roupa individual ou saco para guardar roupas durante a noite. Não "
+"transferível."
 
 #. module: night_clubs
 #: model:product.template,description_sale:night_clubs.product_product_52_product_template
 msgid "Single pour, 4cl."
-msgstr ""
+msgstr "Dose única, 4 cl."
 
 #. module: night_clubs
 #: model:product.template,description_sale:night_clubs.product_product_49_product_template
 msgid "Smooth house red."
-msgstr ""
+msgstr "Tinto suave da casa."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid "Social Marketing Documentation"
-msgstr ""
+msgstr "Documentação — Redes Sociais"
 
 #. module: night_clubs
 #: model:product.template,name:night_clubs.product_product_59_product_template
 msgid "Soft Drinks"
-msgstr ""
+msgstr "Refrigerantes"
 
 #. module: night_clubs
 #: model:product.template,description_sale:night_clubs.product_product_55_product_template
 msgid "Stay hydrated."
-msgstr ""
+msgstr "Mantenha-se hidratado."
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_2
@@ -1145,16 +1255,20 @@ msgid ""
 "<strong>Hip-Hop Takeover</strong> brings you the best in old-school classics "
 "and today’s hottest tracks, blended seamlessly by our live DJs."
 msgstr ""
+"Entre em uma noite em que o baixo bate mais forte e o ritmo nunca para. "
+"<strong>Hip-Hop Takeover</strong> traz para você o melhor dos clássicos da "
+"velha guarda e as faixas mais quentes da atualidade, mixadas com perfeição "
+"pelos nossos DJs ao vivo."
 
 #. module: night_clubs
 #: model:product.template,name:night_clubs.product_product_55_product_template
 msgid "Still Water 50cl"
-msgstr ""
+msgstr "Água sem gás 50 cl"
 
 #. module: night_clubs
 #: model_terms:product.template,description:night_clubs.product_product_55_product_template
 msgid "Still mineral water 50cl bottle."
-msgstr ""
+msgstr "Água mineral sem gás, garrafa de 50 cl."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.contactus
@@ -1164,17 +1278,17 @@ msgstr "Enviar"
 #. module: night_clubs
 #: model:event.tag,name:night_clubs.event_tag_3
 msgid "Techno"
-msgstr ""
+msgstr "Techno"
 
 #. module: night_clubs
 #: model:event.event,name:night_clubs.event_event_4
 msgid "Techno Underground"
-msgstr ""
+msgstr "Techno Underground"
 
 #. module: night_clubs
 #: model:product.template,name:night_clubs.product_product_50_product_template
 msgid "Tequila Shot"
-msgstr ""
+msgstr "Dose de tequila"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.homepage
@@ -1183,6 +1297,9 @@ msgid ""
 "hip-hop anthems. Step into the lights and lose yourself in the energy of the "
 "crowd."
 msgstr ""
+"Os DJs mais badalados da cidade mantêm a pista animada a noite toda, com "
+"músicas que vão do house ao hip-hop. Entre nas luzes e deixe-se levar pela "
+"energia da multidão."
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_2
@@ -1190,16 +1307,19 @@ msgid ""
 "The mic is hot, the floor is packed, and the party doesn’t slow down until "
 "sunrise."
 msgstr ""
+"O microfone está ligado, a pista está lotada e a festa não diminui o ritmo "
+"até o amanhecer."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.homepage
 msgid "This place is perfect for parties or a fun night out with friends."
 msgstr ""
+"Este lugar é perfeito para festas ou uma noite divertida com os amigos."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid "Ticket Sales at the Entrance 🚪"
-msgstr ""
+msgstr "Venda de ingressos na entrada 🚪"
 
 #. module: night_clubs
 #: model:pos.category,name:night_clubs.pos_category_4
@@ -1210,38 +1330,38 @@ msgstr "Chamados"
 #. module: night_clubs
 #: model:product.template,name:night_clubs.product_product_54_product_template
 msgid "Tonic Water 20cl"
-msgstr ""
+msgstr "Água Tônica 20 cl"
 
 #. module: night_clubs
 #: model:event.tag,name:night_clubs.event_tag_9
 msgid "Trance"
-msgstr ""
+msgstr "Trance"
 
 #. module: night_clubs
 #: model_terms:product.public.category,website_description:night_clubs.product_public_category_7
 msgid "Transform your space with our stylish party decor."
-msgstr ""
+msgstr "Transforme o seu espaço com a nossa elegante decoração para festas."
 
 #. module: night_clubs
 #: model:event.event,subtitle:night_clubs.event_event_3
 msgid "Turn up the heat with salsa, bachata & reggaeton vibes"
-msgstr ""
+msgstr "Incendeie o ambiente com ritmos de salsa, bachata e reggaeton"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.homepage
 #: model_terms:ir.ui.view,arch_db:night_clubs.ir_ui_view_3315
 msgid "Upcoming Parties"
-msgstr ""
+msgstr "Próximas festas"
 
 #. module: night_clubs
 #: model:product.template,name:night_clubs.product_product_56_product_template
 msgid "VIP Bottle Service Vodka"
-msgstr ""
+msgstr "Serviço VIP de garrafas de vodca"
 
 #. module: night_clubs
 #: model:product.template,name:night_clubs.product_product_9_product_template
 msgid "VIP Entrance"
-msgstr ""
+msgstr "Entrada VIP"
 
 #. module: night_clubs
 #: model:event.event.ticket,description:night_clubs.event_event_ticket_8
@@ -1249,22 +1369,22 @@ msgstr ""
 #: model:event.event.ticket,name:night_clubs.event_event_ticket_4
 #: model:event.event.ticket,name:night_clubs.event_event_ticket_6
 msgid "VIP Entrance & Table"
-msgstr ""
+msgstr "Entrada VIP e mesa"
 
 #. module: night_clubs
 #: model:product.public.category,name:night_clubs.product_public_category_6
 msgid "VIP Packages"
-msgstr ""
+msgstr "Pacotes VIP"
 
 #. module: night_clubs
 #: model:product.template,description_sale:night_clubs.product_product_56_product_template
 msgid "VIP table + 70cl vodka, mixers included."
-msgstr ""
+msgstr "Mesa VIP + vodka 70 cl, bebidas incluídas."
 
 #. module: night_clubs
 #: model:product.template,description_sale:night_clubs.product_product_43_product_template
 msgid "Velvety pick‑me‑up with real espresso."
-msgstr ""
+msgstr "Bebida revigorante e aveludada com café expresso verdadeiro."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.homepage
@@ -1272,16 +1392,20 @@ msgid ""
 "Vibrant and energetic, great atmosphere and fantastic music. Especially the "
 "late-night dance parties."
 msgstr ""
+"Vibrante e enérgico, ótimo ambiente e música fantástica. Especialmente as "
+"festas dançantes tarde da noite."
 
 #. module: night_clubs
 #: model:product.template,name:night_clubs.product_product_45_product_template
 msgid "Virgin Mojito"
-msgstr ""
+msgstr "Mojito sem álcool"
 
 #. module: night_clubs
 #: model_terms:product.template,description:night_clubs.product_product_43_product_template
 msgid "Vodka, espresso, coffee liqueur, and vanilla syrup with a silky crema."
 msgstr ""
+"Vodka, café expresso, licor de café e xarope de baunilha com uma espuma "
+"sedosa."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -1291,17 +1415,17 @@ msgstr "Documentação do site"
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid "Website for Online Ticket Sales 🌐"
-msgstr ""
+msgstr "Site para venda de ingressos online 🌐"
 
 #. module: night_clubs
 #: model:product.template,name:night_clubs.product_product_52_product_template
 msgid "Whisky Single 4cl"
-msgstr ""
+msgstr "Whisky Single 4 cl"
 
 #. module: night_clubs
 #: model:product.template,name:night_clubs.product_product_60_product_template
 msgid "Wine Bottles"
-msgstr ""
+msgstr "Garrafas de vinho"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -1313,6 +1437,12 @@ msgid ""
 "            Odoo provides the flexibility to adapt, the tools to engage your "
 "audience, and the insights to grow your business."
 msgstr ""
+"Com o Odoo, as casas noturnas ganham eficiência por meio de painéis em tempo "
+"real, emissão automatizada de ingressos, vendas simplificadas no bar e "
+"integrações poderosas de marketing de redes sociais. Seja para organizar um "
+"evento de grande porte ou gerenciar as operações diárias, no Odoo oferece "
+"flexibilidade para se adaptar, ferramentas para envolver seu público e "
+"insights para expandir seus negócios."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -1320,6 +1450,9 @@ msgid ""
 "With Odoo, your nightclub operations are fully connected, leaving you free "
 "to focus on the music, atmosphere, and unforgettable experiences."
 msgstr ""
+"Com o Odoo, as operações da sua boate ficam totalmente conectadas, deixando "
+"você livre para se concentrar na música, no ambiente e em experiências "
+"inesquecíveis."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -1348,16 +1481,18 @@ msgid ""
 "Your Night.&amp;nbsp;<br/>\n"
 "                                            Your Club."
 msgstr ""
+"Sua noite.&amp;nbsp;<br/>\n"
+"                                            Seu clube."
 
 #. module: night_clubs
 #: model:product.template,description_sale:night_clubs.product_product_45_product_template
 msgid "Zero‑alcohol mojito."
-msgstr ""
+msgstr "Mojito sem álcool."
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_1
 msgid "✨ Neon Nights: Glow Party"
-msgstr ""
+msgstr "✨ Noites Neon: Festa Glow"
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_4
@@ -1365,6 +1500,8 @@ msgid ""
 "🌌 <strong>Atmosphere</strong>: Dark room, heavy bass, smoke &amp; strobes, "
 "underground vibe"
 msgstr ""
+"🌌 <strong>Atmosfera</strong>: Sala escura, graves pesados, fumaça &amp; "
+"estroboscópios, vibração underground"
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_3
@@ -1372,6 +1509,8 @@ msgid ""
 "🍹 <strong>Extras</strong>: Special mojitos &amp; tequila shots all night "
 "long"
 msgstr ""
+"🍹 <strong>Extras</strong>: Mojitos especiais &amp; shots de tequila durante "
+"toda a noite"
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_4
@@ -1390,28 +1529,32 @@ msgstr ""
 #: model_terms:event.event,description:night_clubs.event_event_2
 msgid "🎟 Tickets move fast — grab yours and take over the night!"
 msgstr ""
+"Os ingressos estão acabando rapidamente — adquira o seu e aproveite a noite!"
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_2
 msgid "🎤 Hip-Hop Takeover"
-msgstr ""
+msgstr "🎤 Hip-Hop Takeover"
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_4
 msgid "🎧 Techno Underground Session"
-msgstr ""
+msgstr "🎧 Sessão Techno Underground"
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_1
 msgid ""
 "🎨 <strong>Extras</strong>: Free glow paint &amp; bracelets at the entrance"
 msgstr ""
+"🎨 <strong>Extras</strong>: Tinta fluorescente gratuita &amp; pulseiras na "
+"entrada"
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_2
 msgid ""
 "🎶 <strong>Music</strong>: From Biggie &amp; Tupac to Drake &amp; Kendrick"
 msgstr ""
+"🎶 <strong>Música</strong>: De Biggie &amp; Tupac a Drake &amp; Kendrick"
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_1
@@ -1419,6 +1562,8 @@ msgid ""
 "🎶 <strong>Music</strong>: High-energy house, EDM, and club anthems all "
 "night long"
 msgstr ""
+"🎶 <strong>Música </strong> : House, EDM e hinos de boate cheios de energia "
+"a noite toda"
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_3
@@ -1426,6 +1571,8 @@ msgid ""
 "🎶 <strong>Music</strong>: Latin beats from guest DJs straight out of Madrid "
 "&amp; beyond"
 msgstr ""
+"🎶 <strong>Música</strong> : batidas latinas de DJs convidados diretamente "
+"de Madri &amp; e além"
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_4
@@ -1433,17 +1580,23 @@ msgid ""
 "🎶 <strong>Music</strong>: Minimal, industrial, and deep techno from "
 "international guest DJs"
 msgstr ""
+"🎶 <strong>Música</strong> : Minimal, industrial e deep techno de DJs "
+"convidados internacionais"
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_4
+#, fuzzy
 msgid ""
 "👕 <strong>Dress code</strong>: Black, edgy, minimal — keep it underground"
 msgstr ""
+"👕 <strong>Código de vestimenta</strong>: Preto, ousado, minimalista — "
+"mantenha o estilo underground"
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_3
 msgid "👗 <strong>Dress code</strong>: Casual chic with a splash of color"
 msgstr ""
+"👗 <strong>Código de vestimenta</strong>: Casual chique com um toque de cor"
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_1
@@ -1451,11 +1604,15 @@ msgid ""
 "👗 <strong>Dress code</strong>: Wear white or neon — the lights will do the "
 "rest"
 msgstr ""
+"👗 <strong>Código de vestimenta</strong>: Vista branco ou neon — as luzes "
+"farão o resto"
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_2
 msgid "👟 <strong>Dress code</strong>: Streetwear, sneakers, keep it fresh"
 msgstr ""
+"👟 <strong>Código de vestimenta</strong>: Streetwear, tênis, mantenha-se "
+"atualizado"
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_3
@@ -1463,17 +1620,21 @@ msgid ""
 "💃 <strong>Atmosphere</strong>: Couples spinning, hips shaking, tropical "
 "rhythms"
 msgstr ""
+"💃 <strong>Atmosfera</strong>: Casais dançando, quadris balançando, ritmos "
+"tropicais"
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_3
 msgid "💃 Latin Fever Friday"
-msgstr ""
+msgstr "💃 Latin Fever Friday"
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_1
 msgid ""
 "💡 <strong>Atmosphere</strong>: UV lights, neon décor, glowing accessories"
 msgstr ""
+"💡 <strong>Ambiente</strong>: luzes ultravioleta, decoração neon, acessórios "
+"luminosos"
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_2
@@ -1481,11 +1642,13 @@ msgid ""
 "💡 <strong>Atmosphere</strong>: Urban beats, flashing lights, pure energy on "
 "the dance floor"
 msgstr ""
+"💡 <strong>Atmosfera</strong>: Batidas urbanas, luzes piscantes, energia "
+"pura na pista de dança"
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_1
 msgid "💫 Tickets are limited — secure yours now and let’s glow!"
-msgstr ""
+msgstr "Os ingressos são limitados — garanta o seu agora e vamos brilhar!"
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_2
@@ -1493,8 +1656,13 @@ msgid ""
 "🔥 <strong>Vibes</strong>: Booming bass, freestyle drops, and MCs hyping the "
 "crowd"
 msgstr ""
+"🔥 <strong>Vibrações</strong> : Baixos estrondosos, drops freestyle e MCs "
+"animando a galera"
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_3
 msgid "🔥 Secure your ticket now and join the fiesta!"
-msgstr ""
+msgstr "🔥 Garanta já o seu ingresso e participe da festa!"
+
+#~ msgid "18+"
+#~ msgstr "18+"

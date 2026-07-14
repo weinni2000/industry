@@ -3,13 +3,13 @@
 # * thrift_store
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
-# "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025.
+# "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.5a1+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 14:23+0000\n"
-"PO-Revision-Date: 2025-11-14 15:30+0000\n"
+"POT-Creation-Date: 2026-04-10 19:49+0000\n"
+"PO-Revision-Date: 2026-04-24 19:31+0000\n"
 "Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
 "Language-Team: German <https://translate.odoo.com/projects/odoo-19/"
 "thrift_store/de/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: thrift_store
 #: model_terms:ir.ui.view,arch_db:thrift_store.welcome_article_body
@@ -28,31 +28,6 @@ msgid ""
 msgstr ""
 ",\n"
 "                    und zögern Sie nicht,"
-
-#. module: thrift_store
-#: model:product.template,name:thrift_store.product_template_16
-msgid "10"
-msgstr "10"
-
-#. module: thrift_store
-#: model:product.template,name:thrift_store.product_template_17
-msgid "15"
-msgstr "15"
-
-#. module: thrift_store
-#: model:product.template,name:thrift_store.product_template_18
-msgid "20"
-msgstr "20"
-
-#. module: thrift_store
-#: model:product.template,name:thrift_store.product_template_19
-msgid "30"
-msgstr "30"
-
-#. module: thrift_store
-#: model:product.template,name:thrift_store.product_template_20
-msgid "50"
-msgstr "50"
 
 #. module: thrift_store
 #: model_terms:ir.ui.view,arch_db:thrift_store.welcome_article_body
@@ -126,10 +101,12 @@ msgstr ""
 
 #. module: thrift_store
 #: model_terms:ir.ui.view,arch_db:thrift_store.welcome_article_body
-msgid "<strong>Employees:</strong> Manage staff and volunteer information."
+msgid ""
+"<strong>Employees App:</strong>  Centralize information for all your staff "
+"members and volunteers in one secure directory."
 msgstr ""
-"<strong>Mitarbeiter:</strong> Verwalten Sie Informationen zu Personal und "
-"Freiwilligen."
+"<strong>Mitarbeiter-App:</strong> Zentralisieren Sie Informationen für alle "
+"Ihre Mitarbeiter und Freiwilligen in einem sicheren Verzeichnis."
 
 #. module: thrift_store
 #: model_terms:ir.ui.view,arch_db:thrift_store.welcome_article_body
@@ -175,20 +152,23 @@ msgstr ""
 #. module: thrift_store
 #: model_terms:ir.ui.view,arch_db:thrift_store.welcome_article_body
 msgid ""
-"<strong>Planning:</strong> Organize employee schedules and shifts with ease."
+"<strong>Planning App:</strong> Organize shifts and schedules easily, "
+"ensuring you always have enough hands on deck for sorting and sales."
 msgstr ""
-"<strong>Planung:</strong> Organisieren Sie Dienstpläne und Schichten mit "
-"Leichtigkeit."
+"<strong>Planungsapp:</strong> Organisieren Sie Schichten und Zeitpläne ganz "
+"einfach und stellen Sie sicher, dass Sie immer genügend Personal für das "
+"Sortieren und den Verkauf zur Verfügung haben."
 
 #. module: thrift_store
 #: model_terms:ir.ui.view,arch_db:thrift_store.welcome_article_body
 msgid ""
-"<strong>Point of Sale (POS):</strong> Flexible checkout system supporting "
-"sales\n"
-"                    by product, amount, or weight."
+"<strong>Point of Sale App:</strong> Process transactions quickly with a "
+"flexible checkout system that supports sales by product, fixed amount, or "
+"weight."
 msgstr ""
-"<strong>Kassensystem:</strong> Flexibles Kassensystem, mit dem Sie je\n"
-"                    Produkt, Betrag oder Gewicht verkaufen können."
+"<strong>Kassensystem-App:</strong> Verarbeiten Sie Transaktionen ganz "
+"schnell mit einem flexiblen Kassensystem, das den Verkauf nach Produkt, "
+"Festpreis oder Gewicht unterstützt."
 
 #. module: thrift_store
 #: model_terms:ir.ui.view,arch_db:thrift_store.welcome_article_body
@@ -307,7 +287,7 @@ msgstr ""
 #. module: thrift_store
 #: model_terms:ir.ui.view,arch_db:thrift_store.welcome_article_body
 msgid "Do You Want to Go Further?"
-msgstr "Möchten Sie noch weiter gehen?"
+msgstr "Möchten Sie noch weitergehen?"
 
 #. module: thrift_store
 #: model_terms:ir.ui.view,arch_db:thrift_store.welcome_article_body
@@ -321,11 +301,10 @@ msgstr ""
 #. module: thrift_store
 #: model_terms:ir.ui.view,arch_db:thrift_store.welcome_article_body
 msgid "Hello there!"
-msgstr "Hallo!"
+msgstr "Guten Tag!"
 
 #. module: thrift_store
 #: model_terms:ir.ui.view,arch_db:thrift_store.welcome_article_body
-#, fuzzy
 msgid ""
 "Here are different ways you can configure your products depending on your "
 "pricing model."
@@ -512,7 +491,8 @@ msgstr ""
 msgid ""
 "These all go free in your current subscription; feel free to explore! 🙃"
 msgstr ""
-"Sie sind alle in Ihrem aktuellen Abonnement enthalten. Entdecken Sie sie! 🙃"
+"All diese Apps sind in Ihrem aktuellen Abonnement enthalten. Erkunden Sie "
+"sie! 🙃"
 
 #. module: thrift_store
 #: model_terms:ir.ui.view,arch_db:thrift_store.welcome_article_body
@@ -596,7 +576,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:thrift_store.welcome_article_body
 msgid "Would you like to discuss your Odoo setup with us or go even further?"
 msgstr ""
-"Möchten Sie Ihre Odoo-Einrichtung mit uns besprechen oder noch weiter gehen?"
+"Möchten Sie Ihre Odoo-Konfiguration mit uns besprechen oder noch einen "
+"Schritt weiter gehen?"
 
 #. module: thrift_store
 #: model_terms:ir.ui.view,arch_db:thrift_store.welcome_article_body
@@ -688,7 +669,7 @@ msgstr ""
 #. module: thrift_store
 #: model_terms:ir.ui.view,arch_db:thrift_store.welcome_article_body
 msgid "request a demo"
-msgstr "bitten Sie um eine Demo"
+msgstr "eine Demo buchen"
 
 #. module: thrift_store
 #: model_terms:ir.ui.view,arch_db:thrift_store.welcome_article_body
@@ -729,3 +710,38 @@ msgstr "📅 Schichten der Mitarbeiter planen"
 #: model_terms:ir.ui.view,arch_db:thrift_store.welcome_article_body
 msgid "🛍️ Sell as you need"
 msgstr "🛍️ Nach Bedarf verkaufen"
+
+#~ msgid "10"
+#~ msgstr "10"
+
+#~ msgid "15"
+#~ msgstr "15"
+
+#~ msgid "20"
+#~ msgstr "20"
+
+#~ msgid "30"
+#~ msgstr "30"
+
+#~ msgid "50"
+#~ msgstr "50"
+
+#~ msgid "<strong>Employees:</strong> Manage staff and volunteer information."
+#~ msgstr ""
+#~ "<strong>Mitarbeiter:</strong> Verwalten Sie Informationen zu Personal und "
+#~ "Freiwilligen."
+
+#~ msgid ""
+#~ "<strong>Planning:</strong> Organize employee schedules and shifts with "
+#~ "ease."
+#~ msgstr ""
+#~ "<strong>Planung:</strong> Organisieren Sie Dienstpläne und Schichten mit "
+#~ "Leichtigkeit."
+
+#~ msgid ""
+#~ "<strong>Point of Sale (POS):</strong> Flexible checkout system supporting "
+#~ "sales\n"
+#~ "                    by product, amount, or weight."
+#~ msgstr ""
+#~ "<strong>Kassensystem:</strong> Flexibles Kassensystem, mit dem Sie je\n"
+#~ "                    Produkt, Betrag oder Gewicht verkaufen können."

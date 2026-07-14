@@ -8,24 +8,24 @@
 # Wil Odoo, 2024
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2025.
+# "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 09:55+0000\n"
-"PO-Revision-Date: 2025-11-17 11:08+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-06-12 17:43+0000\n"
+"PO-Revision-Date: 2026-06-06 10:36+0000\n"
+"Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@odoo.com>\n"
 "Language-Team: Spanish <https://translate.odoo.com/projects/odoo-19/"
 "bookstore/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
-" ? 1 : 2);\n"
-"X-Generator: Weblate 5.12.2\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
+"0) ? 1 : 2);\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -33,8 +33,8 @@ msgid ""
 ", and feel free\n"
 "                        to"
 msgstr ""
-"y siéntase libre\n"
-"                        de"
+"y no dudes\n"
+"                        en"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -348,6 +348,76 @@ msgstr ""
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Barcode App</b>:</font> Use mobile "
+"scanners to perform inventory counts and receive new shipments efficiently, "
+"reducing manual entry errors."
+msgstr ""
+"<font class=\"text-o-color-1\"><b>Aplicación Códigos de barras</b>:</font> "
+"utiliza lectores móviles para realizar recuentos de inventario y recibir "
+"nuevos envíos de manera eficiente, además de reducir los errores al "
+"introducir datos manualmente."
+
+#. module: bookstore
+#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Inventory App</b>: </font>Master your "
+"library of titles, using barcode scanning for rapid stock adjustments and "
+"managing locations for different genres or sections."
+msgstr ""
+"<font class=\"text-o-color-1\"><b>Aplicación Inventario</b>: </font>controla "
+"tus títulos con el lector de códigos de barras para efectuar ajustes de "
+"inventario rápidos y gestionar las ubicaciones de diferentes géneros o "
+"secciones."
+
+#. module: bookstore
+#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Invoicing App</b>:</font> Simplify your "
+"bookkeeping by tracking daily sales and supplier invoices in one integrated "
+"financial system."
+msgstr ""
+"<font class=\"text-o-color-1\"><b>Aplicación Facturación</b>:</font> "
+"simplifica la contabilidad al hacer seguimiento de tus ventas diarias y "
+"facturas de proveedores desde un solo software."
+
+#. module: bookstore
+#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Point of Sale App</b>: </font>Process "
+"transactions quickly using barcode scanners to read ISBNs, handling "
+"discounts and customer loyalty programs with ease."
+msgstr ""
+"<font class=\"text-o-color-1\"><b>Aplicación Punto de venta</b>: </"
+"font>procesa transacciones con rapidez mediante el lector de códigos de "
+"barras para leer códigos ISBN, gestionar descuentos y programas de "
+"fidelización de clientes con facilidad."
+
+#. module: bookstore
+#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Purchase App</b>:</font> Automate "
+"replenishment orders based on sales velocity, ensuring you never run out of "
+"the latest bestsellers."
+msgstr ""
+"<font class=\"text-o-color-1\"><b>Aplicación Compras</b>:</font> automatiza "
+"las órdenes de reposición según la velocidad de las ventas, para que nunca "
+"te quedes sin los artículos que más vendes."
+
+#. module: bookstore
+#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>eCommerce App</b>: </font>Expand your "
+"readership by selling books online, offering \"click and collect\" options "
+"or shipping directly to readers' homes."
+msgstr ""
+"<font class=\"text-o-color-1\"><b>Aplicación Comercio electrónico</b>: </"
+"font>aumenta tu número de lectores, vende libros online, ofrece la opción de "
+"«pedir y recoger en tienda» o haz envíos directos al domicilio de los "
+"lectores."
+
+#. module: bookstore
+#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
 msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
 
@@ -396,7 +466,7 @@ msgstr "<span class=\"h1-fs\"><strong>Básicos</strong></span>"
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "<span class=\"h1-fs\">Do you want to go further?</span>"
-msgstr "<span class=\"h1-fs\">¿Quiere llegar más lejos?</span>"
+msgstr "<span class=\"h1-fs\">¿Quieres saber más?</span>"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -551,11 +621,6 @@ msgid "Author"
 msgstr "Autor"
 
 #. module: bookstore
-#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
-msgid "Basics"
-msgstr "Básicos"
-
-#. module: bookstore
 #: model:pos.category,name:bookstore.pos_category_1
 msgid "Books"
 msgstr "Libros"
@@ -568,16 +633,6 @@ msgid ""
 msgstr ""
 "Su base de datos incluye algunos productos y 2 contactos de muestra al subir "
 "los datos de demostración de este módulo."
-
-#. module: bookstore
-#: model:pos.payment.method,name:bookstore.pos_payment_method_1
-msgid "Cash"
-msgstr "Efectivo"
-
-#. module: bookstore
-#: model:account.journal,name:bookstore.cash
-msgid "Cash (Bookstore)"
-msgstr "Efectivo (librería)"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -615,13 +670,8 @@ msgid ""
 "Discover the basics of this package and explore all the possibilities Odoo "
 "offers to improve your experience."
 msgstr ""
-"Conozca las funciones básicas de este paquete y explore todas las "
-"posibilidades que le ofrece Odoo para mejorar su experiencia."
-
-#. module: bookstore
-#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
-msgid "Do you want to go further?"
-msgstr "¿Quiere llegar más lejos?"
+"Descubre las funciones básicas de este paquete y explora todas las "
+"posibilidades que te ofrece Odoo para mejorar tu experiencia."
 
 #. module: bookstore
 #: model_terms:product.template,description:bookstore.product_product_14_product_template
@@ -654,6 +704,8 @@ msgstr ""
 #: code:addons/bookstore/static/src/js/my_tour.js:0
 msgid "Get on track and explore our recommendations for your Odoo usage here!"
 msgstr ""
+"¡Ponte al día y explora nuestras recomendaciones para sacarle más partido a "
+"Odoo!"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -745,7 +797,7 @@ msgstr "Último proveedor"
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "Learn more"
-msgstr "Descubre más"
+msgstr "Más información"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -790,7 +842,7 @@ msgid ""
 "environment. (<strong><font class=\"text-o-color-1\">Accounting App</font></"
 "strong>)"
 msgstr ""
-"Gestione su contabilidad con mayor facilidad gracias a un entorno "
+"Gestiona tu contabilidad con mayor facilidad gracias a un entorno "
 "completamente integrado. (<strong><font class=\"text-o-"
 "color-1\">Contabilidad</font></strong>)"
 
@@ -857,12 +909,7 @@ msgstr ""
 #. module: bookstore
 #: model:ir.model.fields.selection,name:bookstore.x_purchase_type_field_selection_new
 msgid "New releases"
-msgstr ""
-
-#. module: bookstore
-#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
-msgid "Odoo for Bookstore"
-msgstr "Odoo para librerías"
+msgstr "Nuevos lanzamientos"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -876,7 +923,7 @@ msgstr ""
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "Odoo offers you infinite possibilities, such as :"
-msgstr "Odoo le ofrece posibilidades infinitas, como:"
+msgstr "Odoo te ofrece infinitas posibilidades, tales como:"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -907,8 +954,8 @@ msgid ""
 "Organise your events and connect with your customers easily with the<strong> "
 "<font class=\"text-o-color-1\">Events App</font></strong>."
 msgstr ""
-"Organice sus eventos y comuníquese con sus clientes con la<strong> <font "
-"class=\"text-o-color-1\">aplicación de Eventos</font></strong>."
+"Organiza tus eventos y conecta fácilmente con tus clientes mediante la "
+"<strong><font class=\"text-o-color-1\">aplicación Eventos</font></strong>."
 
 #. module: bookstore
 #: model:ir.model.fields,field_description:bookstore.x_purchase_type_field
@@ -945,7 +992,7 @@ msgstr "El nombre de la rosa"
 msgid ""
 "These all go free in your current subscription; feel free to explore! 🙃"
 msgstr ""
-"Todo esto está incluido en su suscripción actual, no dude en explorar 😊"
+"Todo esto está incluido en tu suscripción actual. ¡Échale un vistazo! 😊"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -977,68 +1024,6 @@ msgstr "Actualice la información del proveedor sobre los productos entrantes"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
-msgid "Use Case"
-msgstr "Caso de uso"
-
-#. module: bookstore
-#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
-msgid ""
-"Use the <strong><font class=\"text-o-color-1\">Barcode App</font></"
-"strong><font class=\"text-o-color-1\"> </font>to scan your products and "
-"create new entries directly from this App to encode new books faster than "
-"ever."
-msgstr ""
-"Use <strong><font class=\"text-o-color-1\">Código de barras</font></"
-"strong><font class=\"text-o-color-1\"> </font>para escanear sus productos y "
-"crear nuevas entradas desde esta aplicación, ahora codificará los nuevos "
-"libros más rápido que nunca."
-
-#. module: bookstore
-#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
-msgid ""
-"Use the <strong><font class=\"text-o-color-1\">Inventory App</font></strong> "
-"to manage your orders receive and deliver your products."
-msgstr ""
-"Use <strong><font class=\"text-o-color-1\">Inventario</font></strong> para "
-"gestionar sus pedidos y para recibir y enviar sus productos."
-
-#. module: bookstore
-#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
-msgid ""
-"Use the <strong><font class=\"text-o-color-1\">Point of Sale</font></strong> "
-"for your sales at the desk. Manage your customer accounts and advantage in "
-"the <strong><font class=\"text-o-color-1\">Contacts App</font></strong>."
-msgstr ""
-"Use <strong><font class=\"text-o-color-1\">Punto de venta</font></strong> "
-"para realizar sus ventas en mostrador. Gestione sus cuentas de cliente y "
-"ventajas en <strong><font class=\"text-o-color-1\">Contactos</font></strong>."
-
-#. module: bookstore
-#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
-msgid ""
-"Use the <strong><font class=\"text-o-color-1\">Purchase App</font></strong> "
-"to order books from your distributors."
-msgstr ""
-"Use <strong><font class=\"text-o-color-1\">Compra</font></strong> para "
-"encargar libros a sus distribuidores."
-
-#. module: bookstore
-#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
-msgid ""
-"Use the <strong><font class=\"text-o-color-1\">Sales App</font></strong> to "
-"order books for your customers, create quotations for your institutional "
-"clients (libraries, schools, etc.), and invoice them on the go using\n"
-"                        the <strong><font class=\"text-o-color-1\">Invoicing "
-"App</font></strong>."
-msgstr ""
-"Use <strong><font class=\"text-o-color-1\">Ventas</font></strong> para pedir "
-"libros para sus clientes, crear presupuestos para sus clientes "
-"institucionales (bibliotecas, escuelas, etc.) y factúrelos \n"
-"con la aplicación <strong><font class=\"text-o-color-1\">Fabricación</font></"
-"strong>."
-
-#. module: bookstore
-#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid ""
 "Use the internal link button, at the right of the field, to view the new "
 "contact record created, and don't forget to add an email address for her to "
@@ -1057,12 +1042,14 @@ msgstr "Varios"
 #. module: bookstore
 #: model_terms:web_tour.tour,rainbow_man_message:bookstore.knowledge_tour
 msgid "Welcome! Happy exploring."
-msgstr "¡Bienvenido! Disfrute del sitio."
+msgstr "¡Te damos la bienvenida! Disfruta explorando."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "Would you like to discuss your Odoo setup with us or go even further?"
-msgstr "¿Le gustaría que le ayudemos con su configuración de Odoo?"
+msgstr ""
+"¿Quieres que te ayudemos con la configuración de Odoo o a explorar otras "
+"posibilidades?"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -1120,9 +1107,8 @@ msgid ""
 "You completed that demo use case! There are millions of other ways to adapt "
 "your Odoo setup to fit your business needs."
 msgstr ""
-"Ha completado este caso de uso de demostración. Hay miles de formas de "
-"adaptar la configuración de Odoo para ajustarse a las necesidades "
-"específicas de su empresa."
+"¡Has acabado el caso de uso de demostración! Hay miles de formas de adaptar "
+"tu configuración de Odoo para ajustarla a las necesidades de tu negocio."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -1130,9 +1116,9 @@ msgid ""
 "You didn't import demo data? You can still do it. Go to Apps &gt; Industries "
 "&gt; Upgrade your Bookstore package and check the related box."
 msgstr ""
-"¿No importó los datos de demostración? Todavía puede hacerlo. Vaya a "
-"Aplicaciones &gt; Sectores, actualice el paquete para librerías y seleccione "
-"la casilla correspondiente."
+"¿No has importado los datos de demostración? Todavía puedes hacerlo. "
+"Dirígete a Aplicaciones &gt; Sectores &gt; Actualiza el paquete para "
+"librerías y selecciona la casilla correspondiente."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -1150,58 +1136,13 @@ msgid ""
 "You should be able to execute the following flows to have an overview of "
 "various flows you can quickly execute with this package using Odoo."
 msgstr ""
-"Debería poder ejecutar los siguientes flujos para obtener una visión general "
-"de varios flujos que puede ejecutar rápidamente con este paquete de Odoo."
-
-#. module: bookstore
-#: model:product.template,description_pickingin:bookstore.product_product_17_product_template
-msgid "[0.0]"
-msgstr "[0,0]"
-
-#. module: bookstore
-#: model:product.template,description_pickingin:bookstore.product_product_12_product_template
-msgid "[12.49]"
-msgstr "[12,49]"
-
-#. module: bookstore
-#: model:product.template,description_pickingin:bookstore.product_product_9_product_template
-msgid "[14.99]"
-msgstr "[14,99]"
-
-#. module: bookstore
-#: model:product.template,description_pickingin:bookstore.product_product_3_product_template
-msgid "[17.0]"
-msgstr "[17,0]"
-
-#. module: bookstore
-#: model:product.template,description_pickingin:bookstore.product_product_10_product_template
-msgid "[19.44]"
-msgstr "[19,44]"
-
-#. module: bookstore
-#: model:product.template,description_pickingin:bookstore.product_product_20_product_template
-msgid "[22.03]"
-msgstr "[22,03]"
-
-#. module: bookstore
-#: model:product.template,description_pickingin:bookstore.product_product_11_product_template
-msgid "[23.5]"
-msgstr "[23,5]"
-
-#. module: bookstore
-#: model:product.template,description_pickingin:bookstore.product_product_13_product_template
-msgid "[3.81]"
-msgstr "[3,81]"
-
-#. module: bookstore
-#: model:product.template,description_pickingin:bookstore.product_product_14_product_template
-msgid "[4.48]"
-msgstr "[4,48]"
+"Los siguientes ejemplos te ayudarán a entender los principales flujos de "
+"trabajo disponibles en este paquete de Odoo."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "academy"
-msgstr "academia"
+msgstr "Odoo academy"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -1243,3 +1184,98 @@ msgstr ""
 msgid "​Track your sales order in Sales App &gt; Reporting &gt; Sales"
 msgstr ""
 "Lleve seguimiento de sus pedidos de venta en Ventas &gt; Informes &gt; Ventas"
+
+#~ msgid "Cash"
+#~ msgstr "Efectivo"
+
+#~ msgid "Cash (Bookstore)"
+#~ msgstr "Efectivo (librería)"
+
+#~ msgid "[0.0]"
+#~ msgstr "[0,0]"
+
+#~ msgid "[12.49]"
+#~ msgstr "[12,49]"
+
+#~ msgid "[14.99]"
+#~ msgstr "[14,99]"
+
+#~ msgid "[17.0]"
+#~ msgstr "[17,0]"
+
+#~ msgid "[19.44]"
+#~ msgstr "[19,44]"
+
+#~ msgid "[22.03]"
+#~ msgstr "[22,03]"
+
+#~ msgid "[23.5]"
+#~ msgstr "[23,5]"
+
+#~ msgid "[3.81]"
+#~ msgstr "[3,81]"
+
+#~ msgid "[4.48]"
+#~ msgstr "[4,48]"
+
+#~ msgid "Basics"
+#~ msgstr "Básicos"
+
+#~ msgid "Do you want to go further?"
+#~ msgstr "¿Quiere llegar más lejos?"
+
+#~ msgid "Odoo for Bookstore"
+#~ msgstr "Odoo para librerías"
+
+#~ msgid "Use Case"
+#~ msgstr "Caso de uso"
+
+#~ msgid ""
+#~ "Use the <strong><font class=\"text-o-color-1\">Barcode App</font></"
+#~ "strong><font class=\"text-o-color-1\"> </font>to scan your products and "
+#~ "create new entries directly from this App to encode new books faster than "
+#~ "ever."
+#~ msgstr ""
+#~ "Use <strong><font class=\"text-o-color-1\">Código de barras</font></"
+#~ "strong><font class=\"text-o-color-1\"> </font>para escanear sus productos "
+#~ "y crear nuevas entradas desde esta aplicación, ahora codificará los "
+#~ "nuevos libros más rápido que nunca."
+
+#~ msgid ""
+#~ "Use the <strong><font class=\"text-o-color-1\">Inventory App</font></"
+#~ "strong> to manage your orders receive and deliver your products."
+#~ msgstr ""
+#~ "Use <strong><font class=\"text-o-color-1\">Inventario</font></strong> "
+#~ "para gestionar sus pedidos y para recibir y enviar sus productos."
+
+#~ msgid ""
+#~ "Use the <strong><font class=\"text-o-color-1\">Point of Sale</font></"
+#~ "strong> for your sales at the desk. Manage your customer accounts and "
+#~ "advantage in the <strong><font class=\"text-o-color-1\">Contacts App</"
+#~ "font></strong>."
+#~ msgstr ""
+#~ "Use <strong><font class=\"text-o-color-1\">Punto de venta</font></strong> "
+#~ "para realizar sus ventas en mostrador. Gestione sus cuentas de cliente y "
+#~ "ventajas en <strong><font class=\"text-o-color-1\">Contactos</font></"
+#~ "strong>."
+
+#~ msgid ""
+#~ "Use the <strong><font class=\"text-o-color-1\">Purchase App</font></"
+#~ "strong> to order books from your distributors."
+#~ msgstr ""
+#~ "Use <strong><font class=\"text-o-color-1\">Compra</font></strong> para "
+#~ "encargar libros a sus distribuidores."
+
+#~ msgid ""
+#~ "Use the <strong><font class=\"text-o-color-1\">Sales App</font></strong> "
+#~ "to order books for your customers, create quotations for your "
+#~ "institutional clients (libraries, schools, etc.), and invoice them on the "
+#~ "go using\n"
+#~ "                        the <strong><font class=\"text-o-"
+#~ "color-1\">Invoicing App</font></strong>."
+#~ msgstr ""
+#~ "Use <strong><font class=\"text-o-color-1\">Ventas</font></strong> para "
+#~ "pedir libros para sus clientes, crear presupuestos para sus clientes "
+#~ "institucionales (bibliotecas, escuelas, etc.) y factúrelos \n"
+#~ "con la aplicación <strong><font class=\"text-o-color-1\">Fabricación</"
+#~ "font></strong>."

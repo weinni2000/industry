@@ -4,13 +4,16 @@
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # DeepL <noreply-mt-deepl@weblate.org>, 2025.
+# Odoo Turkish Import <dyki+tr@odoo.com>, 2025.
+# "Malaz Siddig Elsayed Abuidris (msea)" <msea@odoo.com>, 2025.
+# "Deniz Guvener Unal (degu)" <degu@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 12:24+0000\n"
-"PO-Revision-Date: 2025-11-12 14:44+0000\n"
-"Last-Translator: DeepL <noreply-mt-deepl@weblate.org>\n"
+"POT-Creation-Date: 2026-06-12 18:08+0000\n"
+"PO-Revision-Date: 2026-04-04 09:47+0000\n"
+"Last-Translator: \"Deniz Guvener Unal (degu)\" <degu@odoo.com>\n"
 "Language-Team: Turkish <https://translate.odoo.com/projects/odoo-19/"
 "food_distribution/tr/>\n"
 "Language: tr\n"
@@ -18,7 +21,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.16.2\n"
+
+#. module: food_distribution
+#: model:ir.actions.report,print_report_name:food_distribution.mrp_bom_product_label_action_report
+msgid "'Products Labels - %s' % (object.name)"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -27,81 +35,128 @@ msgstr "ve dilerseniz"
 
 #. module: food_distribution
 #: model:uom.uom,name:food_distribution.uom_uom_32
-#, fuzzy
 msgid "1/6Gn Dispenser"
 msgstr "1/6Gn Dağıtıcı"
 
 #. module: food_distribution
 #: model:uom.uom,name:food_distribution.uom_uom_29
-#, fuzzy
 msgid "25L Jerrycan"
 msgstr "25L Bidon"
 
 #. module: food_distribution
 #: model:uom.uom,name:food_distribution.uom_uom_30
-#, fuzzy
 msgid "5L Bucket"
 msgstr "5L Kova"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
+msgid ""
+"<b>Documents App</b>: Centralize supplier certificates, quality control "
+"reports, and shipping manifests for easy\n"
+"          retrieval during audits."
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"<b>Fleet App</b>: Manage your delivery trucks and vans, tracking fuel logs, "
+"maintenance schedules, and driver\n"
+"          assignments in one place."
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"<b>Inventory App</b>: Master your stock with advanced features like Lots "
+"&amp; Serial Numbers for traceability\n"
+"          and Expiration Dates to enforce FEFO (First Expired, First Out) "
+"removal strategies."
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"<b>Invoicing App</b>: Streamline your billing with automated invoicing based "
+"on delivered quantities, ensuring\n"
+"          accurate financial records."
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"<b>Purchase App</b>: Automate your procurement process with reordering rules "
+"that account for vendor lead times\n"
+"          and seasonal demand spikes."
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"<b>Sales App</b>: Manage complex pricing structures with Pricelists, "
+"allowing you to offer specific deals to\n"
+"          restaurants, retailers, or wholesalers."
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\" aria-label=\"Banner Success\">✅</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Success\" aria-label=\"Banner Success\">✅</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\" aria-label=\"Banner Success\">✅</i>"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
 "normal\" aria-label=\"Banner Info\">💡</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Info\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\" aria-label=\"Banner Info\">💡</i>"
+"<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
+"normal\" aria-label=\"Banner Info\">💡</i>"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
 "normal\" aria-label=\"Banner Info\">🚀</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Info\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\" aria-label=\"Banner Info\">🚀</i>"
+"<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
+"normal\" aria-label=\"Banner Info\">🚀</i>"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\" aria-label=\"Banner Success\">🎉</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Success\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\" aria-label=\"Banner Success\">🎉</i>"
+"<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
+"fst-normal\" aria-label=\"Banner Success\">🎉</i>"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\" aria-label=\"Banner Warning\">⚠️</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Warning\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\" aria-label=\"Banner Warning\">⚠️</i>"
+"<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
+"fst-normal\" aria-label=\"Banner Warning\">⚠️</i>"
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid ""
+"<span>Batch/Lot: </span>\n"
+"                                                                        <br/>"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -115,31 +170,42 @@ msgstr "<strong>İlerlemek istiyor musunuz?</strong>"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid "<strong>Final word</strong>"
 msgstr "<strong>Son söz</strong>"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>In such situation, feel free to experiment with this database and "
 "then to create a\n"
 "            new one for your own usage.</strong>"
 msgstr ""
-"<strong>Böyle bir durumda, bu veritabanını denemekten çekinmeyin ve ardından "
-"bir\n"
-"            kendi kullanımınız için yeni bir tane.</strong>"
+"<strong>Böyle bir durumda, bu veritabanını denemekten çekinmeyin ve "
+"ardından\n"
+"            kendi kullanımınız için yeni bir tane yaratın.</strong>"
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid "<strong>Ingredients: </strong>"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid "<strong>Nutritional Fact</strong>"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid "<strong>Per 100g</strong>"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid "<strong>Use case</strong>"
 msgstr "<strong>Kullanım durumu</strong>"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "A good practice might be to keep those forecasts up to date for the coming "
 "months with\n"
@@ -147,87 +213,114 @@ msgid ""
 "production at all time\n"
 "          accordingly!"
 msgstr ""
-"Önümüzdeki aylar için bu tahminleri güncel tutmak iyi bir uygulama olabilir."
-"\n"
-"          satışlarınız, böylece üretim ekibi her zaman en iyi üretimi "
-"planlar\n"
-"          Buna göre!"
+"Önümüzdeki aylar için bu satış tahminlerini güncel tutmak iyi bir uygulama "
+"olabilir,\n"
+"          böylece üretim ekibi tahmine göre her zaman en iyi üretimi planlar!"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
+msgid ""
+"Activate the Food &amp; Drinks Labels settings in the Food Distribution "
+"section."
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_nutritional_facts_active
+msgid "Active"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "Add some Salt and Sugar to secure suppliers for longer on those sides."
 msgstr ""
 "Tedarikçileri bu taraflarda daha uzun süre tutmak için biraz Tuz ve Şeker "
 "ekleyin."
 
 #. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_4
+msgid "Added Sugar"
+msgstr ""
+
+#. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "All Manufacturing Orders here are Ready to manufacture by default but you "
 "can play with\n"
 "        the filters at top right of the screen to see them all."
 msgstr ""
-"Buradaki tüm Üretim Siparişleri varsayılan olarak Üretime Hazırdır, ancak "
-"aşağıdakilerle oynayabilirsiniz\n"
-"        Hepsini görmek için ekranın sağ üst köşesindeki filtreleri kullanın."
+"Buradaki tüm Üretim Siparişleri varsayılan olarak Üretime Hazır filtresiyle "
+"gelir, ancak \n"
+"        tüm filtreleri görmek için ekranın sağ üst köşesindeki filtreleri "
+"deneyin."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid "Also order the Mayonnaise so you can fill those buckets with sauce."
 msgstr "Mayonez de sipariş edin ki kovaları sosla doldurabilesiniz."
 
 #. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.x_nutritional_facts_search_view
+msgid "Archived"
+msgstr ""
+
+#. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "As an Inventory Manager you need to make sure that the production team never "
 "runs out of\n"
 "          supply!"
 msgstr ""
 "Bir Envanter Müdürü olarak, üretim ekibinin hiçbir zaman stoklarının "
-"tükenmediğinden emin olmanız gerekir.\n"
-"          Tedarik!"
+"tükenmediğinden emin olmanız gerekir."
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid "B.b."
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "Between production and deliveries, by default, the product picking is "
 "organized in FIFO."
 msgstr ""
-"Üretim ve teslimatlar arasında, varsayılan olarak, ürün toplama FIFO'ya göre "
+"Üretim ve teslimatlar arasında, varsayılan olarak ürün toplama FIFO'ya göre "
 "düzenlenir."
 
 #. module: food_distribution
 #: model:product.template,name:food_distribution.product_template_9
-#, fuzzy
 msgid "Bucket 5L"
 msgstr "Kova 5L"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "By uploading this module's demo data, your database has been filled with a "
 "few products, sale\n"
 "      orders and more."
 msgstr ""
-"Bu modülün demo verilerini yükleyerek, veritabanınız birkaç ürünle "
-"dolduruldu, satış\n"
-"      siparişler ve daha fazlası."
+"Bu modülün demo verilerini yükleyerek, veritabanınız birkaç ürünle, satış "
+"siparişleriyle\n"
+"      ve benzeri veriler ile dolduruldu."
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.res_config_settings_form_view_inherited
+msgid ""
+"Capture food and drink data on product and leverage them in printed labels."
+msgstr ""
+
+#. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_3
+msgid "Carbohydrates"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid "Click on one of the Ready orders to produce some Mayonnaise."
 msgstr "Biraz Mayonez üretmek için Hazır siparişlerden birine tıklayın."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "Click the Close Production button at the end of the tile when done with all "
 "steps. Great\n"
@@ -235,33 +328,28 @@ msgid ""
 msgstr ""
 "Tüm adımları tamamladığınızda kutucuğun sonundaki Üretimi Kapat düğmesine "
 "tıklayın. Harika\n"
-"        ilk mayonez üretimlerinizi gerçekleştirdiniz!"
+"        ilk mayonez üretiminizi gerçekleştirdiniz!"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid "Confirm the Purchase Order when in agreement with your supplier."
 msgstr "Tedarikçinizle mutabık kaldığınızda Satın Alma Siparişini onaylayın."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid "Confirm the order to close your deal."
 msgstr "Anlaşmanızı kapatmak için siparişi onaylayın."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "Create an Invoice, send it to your customer and confirm it to get paid for "
 "your hard work!"
 msgstr ""
-"Bir Fatura oluşturun, müşterinize gönderin ve sıkı çalışmanızın karşılığını "
-"almak için onaylayın!"
+"Bir Fatura oluşturun, müşterinize gönderin ve ödemenizi almak için onaylayın!"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "Define dates to plan those smaller orders along the corresponding period to "
 "smoothen the\n"
@@ -270,14 +358,23 @@ msgid ""
 "        multiple smaller orders."
 msgstr ""
 "Bu küçük siparişleri ilgili dönem boyunca planlamak için tarihleri "
-"tanımlayın ve böylece\n"
+"tanımlayın ve bu şekilde\n"
 "        yükleyin ve ardından bölme işlemine geçin.<br/>Sonuç olarak, ilk "
 "sipariş\n"
-"        birden fazla küçük sipariş."
+"        birden fazla küçük siparişe bölünmüş olacaktır."
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid "Demo Lot/SN"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid "Demo Product"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "Depending on your current stock level, an appropriate replenishment "
 "suggestion will be\n"
@@ -285,11 +382,21 @@ msgid ""
 "demand, for instance here:\n"
 "        the Bucket and the Dispenser, as well as the Mayonnaise down below."
 msgstr ""
-"Mevcut stok seviyenize bağlı olarak, uygun bir ikmal önerisi şu şekilde "
-"olacaktır\n"
-"        dolaylı talep yoluyla nihai ürün ve bileşenleri için yaratılmıştır, "
-"örneğin burada:\n"
-"        Kova ve Dağıtıcının yanı sıra aşağıdaki Mayonez."
+"Mevcut stok seviyenize bağlı olarak, uygun bir ikmal önerisi nihai ürün ve "
+"bileşenleri\n"
+"        için dolaylı talep yoluyla yaratılmıştır, örneğin burada:\n"
+"        Kova ve Dağıtıcının yanı sıra aşağıdaki Mayonez için de "
+"yaratılmıştır."
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_nutritional_facts_name
+msgid "Description"
+msgstr ""
+
+#. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_5
+msgid "Dietary Fibre"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -298,47 +405,51 @@ msgstr "Odoo hakkında daha fazla bilgi edinmek için:"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "Discover the basics of this package and explore all the possibilities Odoo "
 "offers to improve\n"
 "      your experience."
 msgstr ""
-"Bu paketin temellerini keşfedin ve Odoo'nun iyileştirmek için sunduğu tüm "
-"olanakları keşfedin\n"
-"      senin deneyimin."
+"Bu paketin temellerini keşfedin ve Odoo'nun senin deneyimini iyileştirmek "
+"için sunduğu tüm olanakları keşfedin"
 
 #. module: food_distribution
 #: model:product.template,name:food_distribution.product_template_10
-#, fuzzy
 msgid "Dispenser 2.6L"
 msgstr "Dağıtıcı 2.6L"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "Doing so, you have generated a new manufacturing order which is now visible "
 "for your\n"
 "        operators."
 msgstr ""
-"Bunu yaptığınızda, yeni bir üretim siparişi oluşturmuş olursunuz ve bu "
-"sipariş artık\n"
-"        Operatörler."
+"Bunu yaptığınızda, operatörlerinizin görebileceği yeni bir üretim siparişi "
+"oluşturmuş olursunuz."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "Drag and drop manufacturing orders to spread evenly the load between "
 "Mayonnaise\n"
 "        manufacturing and packaging into buckets and dispensers.<br/>You're "
 "all set for production!"
 msgstr ""
-"Yükü Mayonez arasında eşit olarak yaymak için üretim siparişlerini "
-"sürükleyip bırakın\n"
-"        Üretim ve kovalara ve dağıtıcılara paketleme.<br/>Üretim için her "
-"şey hazır!"
+"Mayonez üretimi ile kovalar ve pompalara yapılan paketleme arasındaki iş "
+"yükünü dengeli bir şekilde\n"
+"        dağıtmak için üretim emirlerini sürükleyip bırakın.<br/>Üretim için "
+"her şey hazır!"
+
+#. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_1
+msgid "Energy"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid "Exp."
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -346,83 +457,87 @@ msgid "Expiration Dates"
 msgstr "Son Kullanma Tarihleri"
 
 #. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_6
+msgid "Fat"
+msgstr ""
+
+#. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid "Fill in the form by creating or selecting a customer contact."
 msgstr "Bir müşteri irtibatı oluşturarak veya seçerek formu doldurun."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "First, you might want to fill in your estimated Forecasted Demand for your "
 "finished\n"
 "        products, in this case, Mayonnaise Bucket and Dispenser."
 msgstr ""
-"İlk olarak, bitmiş ürününüz için Tahmini Talebinizi doldurmak "
-"isteyebilirsiniz\n"
-"        ürünleri, bu durumda Mayonez Kovası ve Dağıtıcısı."
+"Öncelikle, bu durumda Mayonez Kovası ve Dispenseri olan tamamlanmış "
+"ürünleriniz\n"
+"        için tahmini Talep Öngörüsünü doldurmak isteyebilirsiniz."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "Follow as well the steps and close the production. Great, you now have some "
 "products to\n"
 "        ship to delight customers."
 msgstr ""
-"Adımları takip edin ve üretimi kapatın. Harika, artık bazı ürünleriniz var\n"
-"        Müşterileri memnun etmek için gemi."
+"Adımları takip edin ve üretimi kapatın. Harika, artık müşterilerinizi memnun "
+"etmek için\n"
+"        sevk edilecek bazı ürünleriniz var."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid "Follow the step from each operation to prepare your Mayonnaise batch."
 msgstr "Mayonez partinizi hazırlamak için her işlemdeki adımı izleyin."
 
 #. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_res_company_x_module_food_drinks_labels
+#: model:ir.model.fields,field_description:food_distribution.field_res_config_setting_x_module_food_drinks_labels
+msgid "Food & Drinks Labels"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.res_config_settings_form_view_inherited
+msgid "Food Distribution"
+msgstr ""
+
+#. module: food_distribution
+#: model:base.automation,name:food_distribution.automation_toggle_food_drinks_labels
+#: model:ir.actions.server,name:food_distribution.action_toggle_food_drinks_labels
+msgid "Food Distribution: Toggle Food & Drinks Labels"
+msgstr ""
+
+#. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid "Food distribution"
 msgstr "Gıda dağıtımı"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
-msgid ""
-"From the <strong>Inventory App</strong>, keep track of produced lots and "
-"expiration dates."
-msgstr ""
-"<strong>Envanter App</strong> adresinden, üretilen lotları ve son kullanma "
-"tarihlerini takip edin."
-
-#. module: food_distribution
-#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid "From the <strong>Sales App</strong>, you can manage your orders."
-msgstr "<strong>Sales App</strong> adresinden siparişlerinizi yönetebilirsiniz."
+msgstr ""
+"<strong>Satış Uygulaması</strong>ndan siparişlerinizi yönetebilirsiniz."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "From the Sale Order you confirmed, you can find a smart button to the "
 "associated delivery\n"
 "        at the top."
 msgstr ""
-"Onayladığınız Satış Siparişi'nden, ilgili teslimat için akıllı bir düğme "
-"bulabilirsiniz\n"
-"        en üstte."
+"Onayladığınız Satış Siparişi'nden, ilgili teslimat için en üstte akıllı bir "
+"düğme bulabilirsiniz"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
-msgid "Generate crystal clear quotations with the <strong>Sales App</strong>."
-msgstr "<strong>Sales App</strong> ile kristal netliğinde teklifler oluşturun."
+msgid "From your product form, open the Labels tab."
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "Having to follow up on supplies stock might be a repetitive task and you "
 "might forget...\n"
@@ -435,15 +550,16 @@ msgid ""
 "be a shame to through\n"
 "        away tasty Mayonnaise by lack of Buckets..."
 msgstr ""
-"Malzeme stokunu takip etmek tekrarlayan bir görev olabilir ve "
+"Malzeme stoğunu takip etmek tekrarlayan bir görev olabilir ve "
 "unutabilirsiniz...\n"
-"        için\n"
-"        bu konuda size yardımcı olur, bu siparişleri "
-"otomatikleştirebilirsiniz. Sol taraftaki Otomatik Tetikleyiciyi filtreleyin\n"
-"        yan sekmesinde zaten otomatikleştirilmiş Yenileme Kurallarını "
-"görebilirsiniz. Bu kurallar tetiklenecektir\n"
-"        konteynerlerinizin asla tükenmemesini sağlamak için otomatik olarak\n"
-"        lezzetli mayonezleri kovalardan uzakta..."
+"        Bunun için\n"
+"        bu konuda size yardımcı olacak siparişleri "
+"otomatikleştirebilirsiniz. Sol taraftaki sekmeden “Otomatik Tetikleme”\n"
+"        filtresini kullanarak halihazırda otomatikleştirilmiş Yeniden "
+"Tedarik Kurallarını görüntüleyin.Bu kurallar,\n"
+"        kovaların eksikliği nedeniyle lezzetli mayonezi çöpe atmak zorunda "
+"kalmamanız\n"
+"        için kaplarınızın asla tükenmemesini otomatik olarak sağlar."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -452,7 +568,6 @@ msgstr "Merhabalar!"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid "Here you can find some logistical data to optimize your deliveries."
 msgstr ""
 "Burada teslimatlarınızı optimize etmek için bazı lojistik veriler "
@@ -460,20 +575,35 @@ msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "If you want to execute a practical guided tour of this module, you should "
 "Import demo\n"
 "          data and try the Demo - Use Case (In the next Knowledge Article)"
 msgstr ""
-"Bu modülün pratik bir rehberli turunu gerçekleştirmek istiyorsanız, Demoyu "
-"içe aktarmalısınız\n"
-"          verilerini girin ve Demo - Kullanım Örneğini deneyin (Bir sonraki "
-"Bilgi Makalesinde)"
+"Bu modülün pratik bir rehberli turunu uygulamak istiyorsanız, demo "
+"verilerini içe aktarın ve\n"
+"          Demo - Kullanım Senaryosunu deneyin (bir sonraki Bilgi "
+"Makalesinde)."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
+msgid ""
+"In food industry, ingredients and nutritional facts matter and shall be "
+"captured on labels."
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_ingredients_ingredient_id
+msgid "Ingredient"
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_product_template_ingredients
+msgid "Ingredients"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
 "Introduce more capabilities from the <strong>\n"
 "          <font class=\"text-o-color-1\">Quality App</font>\n"
@@ -481,56 +611,55 @@ msgid ""
 "        from your market."
 msgstr ""
 "Gereksinimleri karşılamak için <strong>\n"
-"          <font class=\"text-o-color-1\">Quality App</font>\n"
-"        </strong> adresinden daha fazla özellik sunun\n"
-"        pazarınızdan."
+"          <font class=\"text-o-color-1\">Kalite Uygulaması</font>\n"
+"        </strong> ndan daha fazla özelliği keşfedin"
 
 #. module: food_distribution
-#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
-msgid "Invoice your customers from the <strong>Invoicing App</strong>."
+#: model:ir.model.fields,field_description:food_distribution.field_product_template_is_allergen
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_ingredients_is_allergen
+msgid "Is Allergen"
 msgstr ""
-"Müşterilerinize <strong>Faturalama Uygulaması</strong> adresinden fatura "
-"gönderin."
+
+#. module: food_distribution
+#: model:uom.uom,name:food_distribution.uom_uom_36
+msgid "Kcal"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_product_template_only_form_view
+msgid "Label"
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_product_template_label_note
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid "Label Note"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "Let's now package the Mayonnaise now: Click on a Mayonnaise Bucket order to "
 "start the\n"
 "        packaging."
 msgstr ""
-"Şimdi Mayonezi paketleyelim: Başlamak için bir Mayonez Kovası siparişine "
-"tıklayın\n"
-"        Paketleme."
+"Şimdi Mayonezi paketleyelim: Paketlemeye başlamak için bir Mayonez Kovası "
+"siparişine tıklayın"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "Leverage the<strong>\n"
 "          <font class=\"text-o-color-1\"> Barcode App</font>\n"
 "        </strong> to manipulate products\n"
 "        and serials without mistake."
 msgstr ""
-"Ürünleri işlemek için<strong>\n"
+"Ürünleri ve seri numaralarını hatasız yönetmek için <strong>\n"
 "          <font class=\"text-o-color-1\"> Barkod Uygulamasından</font>\n"
-"        </strong> yararlanın\n"
-"        ve hatasız diziler."
+"        </strong> yararlanın"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
-msgid ""
-"Manage the purchase of raw materials from the <strong>Purchase App</strong>."
-msgstr ""
-"Hammadde satın alma işlemlerini <strong>Purchase App</strong> adresinden "
-"yönetin."
-
-#. module: food_distribution
-#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "Manage your accounting easier than ever with a completely integrated "
 "environment in <strong>\n"
@@ -539,36 +668,41 @@ msgid ""
 msgstr ""
 "<strong>\n"
 "          <font class=\"text-o-color-1\">Muhasebe Uygulaması</font>\n"
-"        </strong>'da tamamen entegre bir ortam ile muhasebenizi her "
+"        </strong>'nda tamamen entegre bir ortam ile muhasebenizi her "
 "zamankinden daha kolay yönetin."
 
 #. module: food_distribution
 #: model:product.template,name:food_distribution.product_template_3
-#, fuzzy
 msgid "Mayonnaise"
 msgstr "Mayonez"
 
 #. module: food_distribution
 #: model:product.template,name:food_distribution.product_template_12
-#, fuzzy
 msgid "Mayonnaise Bucket 5L"
 msgstr "Mayonez Kovası 5L"
 
 #. module: food_distribution
 #: model:product.template,name:food_distribution.product_template_13
-#, fuzzy
 msgid "Mayonnaise Dispenser 2.6L"
 msgstr "Mayonez Dispenseri 2.6L"
 
 #. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_8
+msgid "Mono saturated fatty acids"
+msgstr ""
+
+#. module: food_distribution
 #: model:product.template,name:food_distribution.product_template_5
-#, fuzzy
 msgid "Mustard"
 msgstr "Hardal"
 
 #. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.x_nutritional_facts_form_view
+msgid "Name..."
+msgstr ""
+
+#. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "Near its name, click the gear icon and select the split option.<br/>Define "
 "the Max Batch\n"
@@ -577,14 +711,12 @@ msgid ""
 "        example."
 msgstr ""
 "Adının yanındaki dişli simgesine tıklayın ve bölme seçeneğini seçin.<br/"
-">Maksimum Partiyi Tanımlama\n"
-"        Boyut, tipik olarak bir mayonez tankının ambalajına karşılık gelecek "
-"şekilde, 35 kova\n"
-"        Örnek."
+">Maksimum Parti Boyutunu\n"
+"        genellikle bir Mayonez tankının paketlemesine karşılık gelecek "
+"şekilde tanımlayın; örneğin 35 kova."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "No worries, simply increase the Replenishment for a product packaging "
 "Mayonnaise to grow\n"
@@ -594,29 +726,26 @@ msgid ""
 "according to your forecast,\n"
 "          and have some buffer to start from next month."
 msgstr ""
-"Endişelenmeyin, Mayonez ambalajlı bir ürünün büyümesi için Yenilemeyi "
-"artırmanız yeterlidir\n"
-"          Mayonezin dolaylı talebi Gerçek İkmalinizin hemen altında.<br/>Bu "
+"Endişelenmeyin, sadece bir ürünün mayonez paketlemesini artırarak, "
+"Mayonez’in dolaylı talebini\n"
+"          Mevcut Yeniden Tedarik miktarınızın hemen altına çıkarın.<br/>Bu "
 "şekilde, siz\n"
-"          müşterilerinize tahmininize göre teslimat yapmak için elinizden "
-"gelen her şeyi paketlediğinizden emin olun,\n"
-"          ve gelecek aydan itibaren başlamak için biraz tamponumuz var."
+"          Böylece, tahmininize göre müşterilerinize teslimat yapacak kadar "
+"paketleme yapabilir ve\n"
+"          gelecek aya başlamak için bir miktar stok yedek bırakabilirsiniz."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "Now Send the Request For Quotation to your supplier if willing to iterate on "
 "price for\n"
 "        example."
 msgstr ""
-"Şimdi, fiyat üzerinde yinelemeye istekliyse tedarikçinize Teklif Talebi "
-"gönderin\n"
-"        Örnek."
+"Örneğin fiyat üzerinde yinelemeye istekliyse, tedarikçinize şimdi Teklif "
+"Talebi gönderin"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid "Now come back to the Sale Order which you can bill since delivered."
 msgstr ""
 "Şimdi teslim edildiğinden beri faturalandırabileceğiniz Satış Siparişi'ne "
@@ -624,7 +753,6 @@ msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "Now come back to the list of manufacturing orders and open the Gantt view "
 "from the top right hand side"
@@ -634,12 +762,25 @@ msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "Now let's see how spread the work load from the resulting manufacturing "
 "orders."
 msgstr ""
 "Şimdi ortaya çıkan üretim siparişlerinin iş yükünü nasıl yaydığını görelim."
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_nutritional_fact_nutritional_fact_id
+msgid "Nutritional Fact"
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.actions.act_window,name:food_distribution.act_window_x_nutritional_facts
+#: model:ir.model,name:food_distribution.model_x_nutritional_facts
+#: model:ir.model.fields,field_description:food_distribution.field_product_template_nutritional_facts
+#: model:ir.ui.menu,name:food_distribution.inventory_nutritional_facts_menu
+#: model_terms:ir.ui.view,arch_db:food_distribution.x_nutritional_facts_form_view
+msgid "Nutritional Facts"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -648,20 +789,18 @@ msgstr "Odoo size sonsuz olanak sunar, örneğin:"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "Of course, this is just an overview of the features included in this "
 "package. Feel free to\n"
 "      add new apps, delete/modify demo data, and test everything around!"
 msgstr ""
-"Tabii ki, bu sadece bu pakette yer alan özelliklere genel bir bakış. "
-"Çekinmeyin\n"
-"      yeni uygulamalar ekleyin, demo verilerini silin/değiştirin ve her şeyi "
-"test edin!"
+"Elbette, bu yalnızca bu pakette yer alan özelliklerin genel bir "
+"görünümüdür.\n"
+"      Yeni uygulamalar eklemekten, demo verilerini silmek/değiştirmekten ve "
+"her şeyi test etmekten çekinmeyin!"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "On the Vinager Replenishment rule, hit the Order button. This creates a "
 "Purchase Order for\n"
@@ -671,119 +810,108 @@ msgid ""
 "        Mustard while you're here to add those items to the recent Purchase "
 "Order."
 msgstr ""
-"Vinager Yenileme kuralında Sipariş düğmesine basın. Bu, aşağıdakiler için "
-"bir Satın Alma Siparişi oluşturur\n"
-"        düzenleyebileceğiniz minimum ve maksimum girdiye göre bu ürün. "
-"Sipariş düğmesine basın\n"
-"        için\n"
-"        Hazır buradayken bu ürünleri son Satın Alma Siparişine eklemek için "
-"Mustard."
+"Sirke Yeniden Tedarik kuralında, “Sipariş” butonuna tıklayın. Bu, minimum ve "
+"maksimum değerlerinize göre\n"
+"        bu ürün için bir Satınalma Siparişi oluşturur; bu değerleri "
+"düzenleyebilirsiniz. Buradayken Hardal için de\n"
+"        “Sipariş” butonuna tıklayarak bu ürünleri son Satınalma Siparişine "
+"ekleyin."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "One last step prior billing with the <strong>Invoicing App</strong>, "
 "delivering!"
 msgstr ""
 "<strong>Faturalama Uygulaması</strong> ile faturalamadan önce son bir adım, "
-"teslim!"
+"teslimat!"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid "Open one of the finished product and navigate to the Inventory tab."
 msgstr "Bitmiş ürünlerden birini açın ve Envanter sekmesine gidin."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "Open the <strong>Purchase App </strong>and the recently created Purchase "
 "Order."
 msgstr ""
-"<strong>Purchase App </strong>adresini ve yeni oluşturulan Satın Alma "
+"<strong>Satınalma Uygulaması </strong>ndan yeni oluşturulan Satın Alma "
 "Siparişini açın."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "Open the Master Production Schedule from the Planning menu.<br/>Don't panic, "
 "this will become\n"
 "        your best buddy to optimize your production!"
 msgstr ""
 "Planlama menüsünden Ana Üretim Programını açın.<br/>Panik yapmayın, bu\n"
-"        üretiminizi optimize etmek için en iyi dostunuz!"
+"        üretiminizi optimize etmek için en iyi dostunuz olacaktır!"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "Open the Mayonnaise Bucket for example since packaging such a quantity may "
 "not happen in\n"
 "        one day."
 msgstr ""
-"Örneğin Mayonez Kovasını açın, çünkü böyle bir miktarın paketlenmesi\n"
-"        Bir gün."
+"Örneğin, Mayonez Kovası’nı açın; çünkü bu miktarı paketlemek bir günde "
+"gerçekleşmeyebilir."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid "Open the Replenishment from Operations menu."
 msgstr "Operasyonlardan İkmal menüsünü açın."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid "Open the list of manufacturing orders from the Operations menu."
 msgstr "İşlemler menüsünden üretim siparişleri listesini açın."
 
 #. module: food_distribution
 #: model:uom.uom,name:food_distribution.uom_uom_35
-#, fuzzy
 msgid "Packet of 2.5L"
 msgstr "2,5L'lik Paket"
 
 #. module: food_distribution
 #: model:uom.uom,name:food_distribution.uom_uom_34
-#, fuzzy
 msgid "Packet of 2.5kg"
 msgstr "2,5 kg'lık paket"
 
 #. module: food_distribution
 #: model:uom.uom,name:food_distribution.uom_uom_31
-#, fuzzy
 msgid "Pallet 120x 5L buckets"
 msgstr "Palet 120x 5L kovalar"
 
 #. module: food_distribution
 #: model:uom.uom,name:food_distribution.uom_uom_33
-#, fuzzy
 msgid "Pallet 250x 1/6Gn Dispenser"
 msgstr "Palet 250x 1/6Gn Dağıtıcı"
 
 #. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_nutritional_facts_parent
+msgid "Parent"
+msgstr ""
+
+#. module: food_distribution
 #: model:product.template,name:food_distribution.product_template_8
-#, fuzzy
 msgid "Pasteurised Liquid Egg"
 msgstr "Pastörize Sıvı Yumurta"
 
 #. module: food_distribution
-#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
-msgid ""
-"Process manufacturing work orders with instructions from the "
-"<strong>Shopfloor App</strong>\n"
-"        ."
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_nutritional_fact_per_100g
+msgid "Per 100g"
 msgstr ""
-"Üretim iş emirlerini <strong>Üretim alanı Uygulamasından gelen talimatlarla "
-"işleyin</strong>\n"
-"        ."
+
+#. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_9
+msgid "Poly saturated fatty acids"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "Producing efficiently is key for your business and doing so without running "
 "out of supplies\n"
@@ -794,6 +922,37 @@ msgstr ""
 "malzemeler tükenmeden yapmak\n"
 "      çok önemlidir. Bu hususun nasıl ele alınacağını görmek için "
 "<strong>Envanter Uygulamasını</strong> açalım."
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_ingredients_product_template_id
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_nutritional_fact_product_template_id
+msgid "Product"
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.actions.report,name:food_distribution.mrp_bom_product_label_action_report
+msgid "Product Label"
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.model,name:food_distribution.model_x_product_template_ingredients
+msgid "Product Template Ingredients"
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.model,name:food_distribution.model_x_product_template_nutritional_fact
+msgid "Product Template Nutritional Fact"
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_ingredients_share
+msgid "Proportion (%)"
+msgstr ""
+
+#. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_2
+msgid "Protein"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -807,24 +966,22 @@ msgstr "Bize ulaşın"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid "Replenishment Rules"
 msgstr "İkmal Kuralları"
 
 #. module: food_distribution
-#: model:account.journal,name:food_distribution.cash
-msgid "Sales"
-msgstr "Satış"
-
-#. module: food_distribution
 #: model:product.template,name:food_distribution.product_template_6
-#, fuzzy
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_10
 msgid "Salt"
 msgstr "Tuz"
 
 #. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_7
+msgid "Saturated fatty acids"
+msgstr ""
+
+#. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "Save time preparing the quotation templates which correspond to your "
 "frequent segments!"
@@ -834,19 +991,23 @@ msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid "Select a quotation template to save time for an installation."
 msgstr "Kurulum için zaman kazanmak amacıyla bir teklif şablonu seçin."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid "Send your quotation for online signature."
 msgstr "Online imza için teklifinizi gönderin."
 
 #. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_nutritional_facts_sequence
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_ingredients_sequence
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_nutritional_fact_sequence
+msgid "Sequence"
+msgstr ""
+
+#. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "Setup your website for free and get leads passively with <strong>\n"
 "          <font class=\"text-o-color-1\">Website App </font>\n"
@@ -862,19 +1023,16 @@ msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "Some plan, others produce... Open the <strong>Shop Floor App</strong> to "
 "manufacture\n"
 "      products."
 msgstr ""
-"Bazıları planlar, diğerleri üretir... Üretim yapmak için <strong>Üretim "
-"Alanı Uygulamasını</strong> açın\n"
-"      ürünler."
+"Bazıları planlar, diğerleri üretir... Üretim yapmak için <strong>İmalat "
+"Ekranı Uygulamasını</strong> açın."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid "Some rules are defined to easily resupply ingredients and containers."
 msgstr ""
 "Malzemelerin ve konteynerlerin kolayca ikmal edilmesi için bazı kurallar "
@@ -887,34 +1045,30 @@ msgstr "Şeker"
 
 #. module: food_distribution
 #: model:product.template,name:food_distribution.product_template_2
-#, fuzzy
 msgid "Sunflower Oil"
 msgstr "Ayçiçek Yağı"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "Take advantage of the power of <strong>\n"
 "          <font class=\"text-o-color-1\">Manufacturing App</font>\n"
 "        </strong> with Manufacture To\n"
 "        Order (MTO) capabilities."
 msgstr ""
-"Üretim To ile <strong>\n"
-"          <font class=\"text-o-color-1\">Üretim App</font>\n"
-"        </strong> 'un gücünden yararlanın\n"
-"        Sipariş (MTO) yetenekleri."
+"<strong>\n"
+"          <font class=\"text-o-color-1\">Üretim Uygulaması</font>\n"
+"        </strong> 'nın gücünden Siparişe Göre Üretim (MTO) yetenekleri ile "
+"yararlanın."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "The Bill of Material is accessible from the Manufacturing App Products menu."
-msgstr "ürün reçetesine Üretim Uygulaması Ürünler menüsünden erişilebilir."
+msgstr "Ürün reçetesine, Üretim Uygulaması - Ürünler menüsünden erişilebilir."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "The Dates section allows you to detail the expiration dates of your products."
 msgstr ""
@@ -923,19 +1077,24 @@ msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "The Mixing tank work center is configured with setup and cleanup time. Take "
 "advantage of\n"
 "          this capability to optimize your operations!"
 msgstr ""
 "Karıştırma tankı iş merkezi, kurulum ve temizleme süresine göre "
-"yapılandırılmıştır. Avantajlarından yararlanın\n"
-"          operasyonlarınızı optimize etmek için bu yeteneği kullanın!"
+"yapılandırılmıştır. Operasyonlarınızı optimize etmek için\n"
+"          bu özellikten yararlanın!"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
+msgid ""
+"The nutritional fact list is available from the Inventory App, Configuration "
+"menu."
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
 "The products from the Replenishment Rules you triggered are here but not all "
 "products have\n"
@@ -944,16 +1103,14 @@ msgid ""
 "        chose to add them manually to a Purchase Order and even create new "
 "Purchase Orders."
 msgstr ""
-"Tetiklediğiniz Yenileme Kurallarındaki ürünler burada ancak tüm ürünler "
-"burada değil\n"
-"        Bu aşamada Yenileme Kuralları. İhtiyacınız olan bazı ürünler veya "
-"diğer tedarikçiler için şunları yapabilirsiniz\n"
-"        bunları manuel olarak bir Satın Alma Siparişine eklemeyi ve hatta "
-"yeni Satın Alma Siparişleri oluşturmayı seçti."
+"Tetiklediğiniz Yeniden Tedarik Kurallarına ait ürünler burada, ancak bu "
+"aşamada tüm ürünlerin Yeniden Tedarik Kuralları bulunmamaktadır.\n"
+"        Bazı ürünler veya ihtiyaç duyduğunuz diğer tedarikçiler için, "
+"bunları bir Satınalma Siparişine manuel olarak eklemeyi,\n"
+"        veya yeni Satınalma Siparişleri oluşturmayı tercih edebilirsiniz."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "There is some stock of Buckets and Dispensers so no need to order some for "
 "the ongoing\n"
@@ -962,20 +1119,19 @@ msgid ""
 msgstr ""
 "Bir miktar Kova ve Dispenser stoğu bulunmaktadır, bu nedenle devam eden "
 "çalışmalar için sipariş vermeye gerek yoktur.\n"
-"        <br/> Ancak, tahmininizi karşılamak için Mayonez Kovaları sipariş "
+"        <br/> Ancak, öngörülerinizi karşılamak için Mayonez Kovaları sipariş "
 "etmeniz gerekiyor!"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "There now is a smart button at the top of the Purchase Order to reach the "
 "associated\n"
 "        delivery. Hit the Deliveries smart button to open the delivery."
 msgstr ""
-"Artık Satın Alma Siparişinin üst kısmında ilgili siparişe ulaşmak için "
-"akıllı bir düğme bulunmaktadır.\n"
-"        Teslimat. Teslimatı açmak için Teslimatlar akıllı düğmesine basın."
+"Artık Satın Alma Siparişinin üst kısmında ilgili siparişin teslimatına "
+"ulaşmak için akıllı bir düğme bulunmaktadır.\n"
+"        Teslimatı açmak için Teslimatlar akıllı düğmesine basın."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -987,7 +1143,6 @@ msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "This is great but you might be producing more Mayonnaise than you planned to "
 "package..."
@@ -997,57 +1152,50 @@ msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "To save time and prevent mistake of typo in the Lot inputs, you might want "
 "to work with <strong>Barcode\n"
 "          App</strong>!"
 msgstr ""
 "Zamandan tasarruf etmek ve Lot girişlerinde yazım hatasını önlemek için "
-"<strong>Barkod ile çalışmak isteyebilirsiniz.\n"
-"          Uygulama</strong>!"
+"<strong>Barkod Uygulama</strong>\n"
+"          sı ile çalışmak isteyebilirsiniz."
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.res_config_settings_form_view_inherited
+msgid "Traceability"
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_nutritional_facts_unit
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_nutritional_fact_unit
+msgid "Unit"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "Use the <strong>\n"
 "          <font class=\"text-o-color-1\">Maintenance App</font>\n"
 "        </strong> to keep all your work\n"
 "        centers up and running."
 msgstr ""
-"Tüm çalışmalarınızı saklamak için <strong>\n"
+"İş merkezlerinizi hazır ve çalışır durumda tutmak için <strong>\n"
 "          <font class=\"text-o-color-1\">Bakım Uygulamasını</font>\n"
-"        </strong> kullanın\n"
-"        merkezler hazır ve çalışır durumda."
+"        </strong> kullanın."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
-msgid ""
-"Use the <strong>Manufacturing App</strong> to efficiently plan and execute "
-"production\n"
-"        orders to meet customer demand."
-msgstr ""
-"Üretimi verimli bir şekilde planlamak ve yürütmek için <strong>Üretim App</"
-"strong> adresini kullanın\n"
-"        Müşteri talebini karşılamak için siparişler."
-
-#. module: food_distribution
-#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid "Validate the delivery to your customer to complete the job."
 msgstr "İşi tamamlamak için müşterinize teslimatı doğrulayın."
 
 #. module: food_distribution
 #: model:product.template,name:food_distribution.product_template_4
-#, fuzzy
 msgid "Vinegar"
 msgstr "Sirke"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "When hovering the on the Order button for a product Replenishment, a cell is "
 "highlighted.\n"
@@ -1057,16 +1205,15 @@ msgid ""
 "purchase order depending\n"
 "        on the product configuration."
 msgstr ""
-"Bir ürün Yenileme için Sipariş düğmesinin üzerine gelindiğinde, bir hücre "
-"vurgulanır.\n"
-"        Bu düğmeye tıklandığında, o dönem için ilgili ürün sipariş edilir.\n"
-"        İkmal girişi.<br/>Bu, bağlı olarak bir üretim emri veya bir satın "
-"alma emri oluşturur\n"
-"        ürün yapılandırması üzerinde."
+"Bir ürünün Yeniden Tedarikinde “Sipariş” butonunun üzerine geldiğinizde bir "
+"hücre vurgulanır.\n"
+"        Bu butona tıkladığınızda, ilgili ürün o dönem için Yeniden Tedarik "
+"girdisine göre sipariş edilir.\n"
+"        <br/>Bu, ürünün yapılandırmasına bağlı olarak bir üretim emri veya "
+"satınalma siparişi oluşturur."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "When the truck arrives and you add those to your stock, validate the "
 "delivery to update\n"
@@ -1074,15 +1221,14 @@ msgid ""
 "details of the delivery\n"
 "        lines. You're now ready to product Mayonnaise for some time!"
 msgstr ""
-"Kamyon geldiğinde ve bunları stoğunuza eklediğinizde, güncellemek için "
-"teslimatı doğrulayın\n"
-"        stok seviyeleriniz. Teslimat detaylarında Lot referansını ayarlamayı "
-"unutmayın\n"
-"        çizgiler. Artık bir süre mayonez üretmeye hazırsınız!"
+"Kamyon geldiğinde ve ürünleri stokunuza eklediğinizde, stok seviyelerinizi "
+"güncellemek için teslimatı onaylayın.\n"
+"        Teslimat satırlarının detaylarında Parti (Lot) referansını girmeyi "
+"unutmayın.\n"
+"        Artık bir süre boyunca mayonez üretmeye hazırsınız!"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "Whether you want to plan your production based on existing sales orders, or "
 "based on a\n"
@@ -1090,14 +1236,13 @@ msgid ""
 "<strong>Manufacturing App</strong>\n"
 "      ."
 msgstr ""
-"İster üretiminizi mevcut satış siparişlerine göre planlamak isteyin, ister\n"
-"      tahmini için <strong>Üretim Uygulaması'ndaki ana üretim programını "
-"kullanabilirsiniz.</strong>\n"
-"      ."
+"Üretiminizi mevcut satış siparişlerine veya tahmine dayalı olarak planlamak "
+"isteyin,\n"
+"      <strong>Manufacturing Uygulaması</strong>ndaki ana üretim çizelgesini "
+"kullanabilirsiniz."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "While you are using <strong>Inventory App</strong>, open the product catalog "
 "from the\n"
@@ -1105,23 +1250,21 @@ msgid ""
 "different products you\n"
 "        manipulate."
 msgstr ""
-"<strong>Envanter App</strong> adresini kullanırken, ürün kataloğunu\n"
-"        Ürünler menüsü. Bu, size farklı ürünlerin daha kapsamlı bir "
-"görünümünü sunar\n"
-"        manipüle et."
+"<strong>Envanter Uygulaması</strong>nı kullanırken, Ürünler menüsünden ürün "
+"kataloğunu açın.\n"
+"        Bu, yönettiğiniz farklı ürünler hakkında daha kapsamlı bir görünüm "
+"sağlar."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "Working on your pricing to optimize your margin? You leverage the \"Compute "
 "Price from\n"
 "          BoM\" action available from the Product form or any Products list."
 msgstr ""
-"Marjınızı optimize etmek için fiyatlandırmanız üzerinde mi çalışıyorsunuz? "
-"\"Fiyat Hesapla \"dan yararlanıyorsunuz\n"
-"          BoM\" eylemi Ürün formundan veya herhangi bir Ürünler listesinden "
-"kullanılabilir."
+"Kâr marjınızı optimize etmek için fiyatlandırma üzerinde mi çalışıyorsunuz? "
+"Ürün formu veya herhangi bir Ürün listesinde bulunan\n"
+"          “BOM’dan Fiyat Hesapla” işlemini kullanabilirsiniz."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -1131,15 +1274,14 @@ msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "You are ready to sign your first customers? To do so, open the Sales App, "
 "create a new\n"
 "        order and the customer."
 msgstr ""
-"İlk müşterilerinizle sözleşme imzalamaya hazır mısınız? Yapılacaklar yapmak "
-"için Satış Uygulamasını açın, yeni bir\n"
-"        sipariş ve müşteri."
+"İlk müşterilerinizi kaydetmeye hazır mısınız? Bunu yapmak için Satış "
+"Uygulamasını açın,\n"
+"        yeni bir sipariş ve müşteri oluşturun."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -1152,19 +1294,23 @@ msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
+msgid ""
+"You can easily maintain from here for each product its list of ingredients, "
+"the nutritional facts and specific notes to add to the label."
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
 "You can now hurry to manufacture the needed products, deliver them prior "
 "sending the invoice\n"
 "      to bill your customer."
 msgstr ""
-"Artık gerekli ürünleri üretmek için acele edebilir, faturayı göndermeden "
-"önce teslim edebilirsiniz\n"
-"      müşterinize fatura kesmek için."
+"Artık gerekli ürünleri üretmeye başlayabilir ve faturayı göndermeden önce "
+"müşterinize teslim edebilirsiniz."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "You can see that the replenishment for the Mayonnaise comes as multiple of "
 "the batch\n"
@@ -1172,73 +1318,63 @@ msgid ""
 "Schedule from the pen icon\n"
 "          near its name."
 msgstr ""
-"Mayonez için ikmalin partinin katı olarak geldiğini görebilirsiniz\n"
-"          boyut. Kalem simgesinden Mayonez Üretim Programını düzenleyerek "
-"bunu ayarlayabilirsiniz\n"
-"          Adının yanında."
+"Görüldüğü gibi, Mayonez’in yeniden tedariki, parti boyutunun katları "
+"şeklinde geliyor.\n"
+"          Bunu, adının yanındaki kalem simgesinden Mayonez Üretim "
+"Çizelgesini düzenleyerek ayarlayabilirsiniz."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "You can see the forecast clicking the chart icon. Down below, you can see "
 "that this is\n"
 "          the\n"
 "          outcome of all the planned Manufacturing Orders..."
 msgstr ""
-"Grafik simgesine tıklayarak tahmini görebilirsiniz. Aşağıda, bunun şu "
-"olduğunu görebilirsiniz\n"
-"          ve\n"
-"          Planlanan tüm Üretim Siparişlerinin sonucu..."
+"Tahmini görmek için grafik simgesine tıklayabilirsiniz.\n"
+"          Aşağıda, bunun tüm planlanan Üretim Emirlerinin sonucu olduğunu "
+"görebilirsiniz…"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "You can see you're about to get low on Vinegar and Mustard in the Forecast."
 msgstr "Tahmin'de Sirke ve Hardal'ın azalmak üzere olduğunu görebilirsiniz."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "You can setup your Bill of Material to reflect on you production processes "
 "with or\n"
 "          without steps, with embedded quality checks like in this example "
 "or after a production."
 msgstr ""
-"ürün reçetelerinizi üretim süreçlerinize yansıtacak şekilde ayarlayabilir "
-"veya\n"
-"          adımlar olmadan, bu örnekteki gibi gömülü kalite kontrolleri ile "
-"veya bir üretimden sonra."
+"Üretim süreçlerinizi adımlı veya adımsız olarak, bu örnekteki gibi yerleşik "
+"kalite kontrolleriyle veya\n"
+"          üretim sonrasında yansıtacak şekilde Malzeme Listesini (Bill of "
+"Material) ayarlayabilirsiniz."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "You completed that demo use case! There are millions of other ways to adapt "
 "your Odoo\n"
 "          setup to fit your business needs."
 msgstr ""
-"Bu demo kullanım örneğini tamamladınız! Odoo'nuzu uyarlamanın milyonlarca "
-"başka yolu var\n"
-"          iş ihtiyaçlarınıza uyacak şekilde ayarlayın."
+"Bu demo kullanım senaryosunu tamamladınız! Odoo kurulumunuzu işletmenizin "
+"ihtiyaçlarına uyacak\n"
+"          şekilde adapte etmenin milyonlarca başka yolu var."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "You didn't import demo data? You can still do it. Go to Apps &gt; Industries "
 "&gt; Upgrade\n"
-"          your Bar &amp; Pub package and check the related box"
+"          your Food Distribution package and check the related box"
 msgstr ""
-"Demo verilerini içe aktarmadınız mı? Bunu hala yapabilirsiniz. Uygulamalara "
-"Git &gt; Industries &gt; Yükseltme\n"
-"          Bar &amp; Pub paketinizi açın ve ilgili kutuyu işaretleyin"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "You just installed the Odoo for <strong>Food distribution</strong> package. "
 "By doing so, we\n"
@@ -1246,13 +1382,12 @@ msgid ""
 "efficiently."
 msgstr ""
 "Az önce Odoo for <strong>Gıda dağıtımı</strong> paketini yüklediniz. Bunu "
-"yaparak, biz\n"
-"      işinizi verimli bir şekilde yürütmek için bir dizi gerekli uygulamayı "
-"yüklediniz."
+"yaparak, \n"
+"      işletmenizi verimli bir şekilde yürütmek için gerekli birçok "
+"uygulamayı yüklemiş olduk."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "You might have tested this package with or without demo data. In any case, "
 "you may have\n"
@@ -1260,35 +1395,31 @@ msgid ""
 "an issue for your\n"
 "      traceability."
 msgstr ""
-"Bu paketi demo verileri ile veya demo verileri olmadan test etmiş "
-"olabilirsiniz. Her durumda, şunları yapmış olabilirsiniz\n"
-"      silinebilir olmayan ve sizin için sorun teşkil edebilecek "
-"günlüklerdeki yazılı kayıtlar\n"
-"      izlenebilirlik."
+"Bu paketi demo verileri ile veya demosuz olarak test etmiş olabilirsiniz.\n"
+"      Her durumda, silinemeyen ve izlenebilirlik açısından sorun "
+"oluşturabilecek\n"
+"      günlük kaydı girdileri yazmış olabilirsiniz."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "You registered your first lot of Mayonnaise. Note that it is possible to "
 "change the lot\n"
 "          number prefix from the product form, in the Inventory tab."
 msgstr ""
-"İlk mayonez lotunuzu kaydettiniz. Lotu değiştirmenin mümkün olduğunu "
-"unutmayın\n"
-"          Envanter sekmesindeki ürün formundan numara öneki."
+"İlk Mayonez partinizi kaydettiniz. Parti numarası ön ekini, Ürün formunda,\n"
+"          Envanter sekmesinden değiştirebileceğinizi unutmayın."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "You should be able to execute the following flows to have an overview of "
 "various flows you\n"
 "      can quickly execute with this package using Odoo."
 msgstr ""
-"Çeşitli akışlara genel bir bakış sağlamak için aşağıdaki akışları "
-"yürütebilmelisiniz\n"
-"      Odoo kullanarak bu paket ile hızlı bir şekilde yürütebilir."
+"Bu paket ile Odoo kullanarak hızla yürütebileceğiniz çeşitli süreçlerin "
+"genel bir görünümünü elde\n"
+"      etmek için aşağıdaki akışları gerçekleştirebilmelisiniz."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -1302,7 +1433,6 @@ msgstr "ve"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid "documentation﻿"
 msgstr "dokümantasyon"
 
@@ -1312,13 +1442,17 @@ msgid "if you need help!"
 msgstr "yardıma ihtiyacınız olması durumunda!"
 
 #. module: food_distribution
+#: model:uom.uom,name:food_distribution.uom_uom_37
+msgid "mg"
+msgstr ""
+
+#. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "request a demo"
 msgstr "demo talep edin"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "🎓\n"
 "        Invoicing"
@@ -1328,7 +1462,6 @@ msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "🎓\n"
 "        Manufacturing"
@@ -1338,7 +1471,6 @@ msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid ""
 "🎓\n"
 "        Purchase"
@@ -1358,36 +1490,88 @@ msgstr "🎓 Satış"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid "🎓 Shop Floor"
-msgstr "🎓 Üretim Alanı"
+msgstr "🎓 İmalat Ekranı"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid "💸 Invoicing your customers"
 msgstr "💸 Müşterilerinize fatura kesme"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid "📜 Managing orders"
 msgstr "📜 Siparişleri yönetme"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid "📦 Managing your supplies"
 msgstr "📦 Malzemelerinizi yönetmek"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
+msgid "🖨️ Labels with ingredients and nutritional facts"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "🗓️ Planning your production"
 msgstr "🗓️ Üretiminizi planlama"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-#, fuzzy
 msgid "🥘 Manufacturing quality products"
 msgstr "🥘 Üretim kalitesiyle kaliteli ürünler üretmek"
+
+#~ msgid "Sales"
+#~ msgstr "Satış"
+
+#~ msgid ""
+#~ "You didn't import demo data? You can still do it. Go to Apps &gt; "
+#~ "Industries &gt; Upgrade\n"
+#~ "          your Bar &amp; Pub package and check the related box"
+#~ msgstr ""
+#~ "Demo verilerini içe aktarmadınız mı? Bunu hala yapabilirsiniz. "
+#~ "Uygulamalara Git &gt; Industries &gt; Yükseltme\n"
+#~ "          Bar &amp; Pub paketinizi açın ve ilgili kutuyu işaretleyin"
+
+#~ msgid ""
+#~ "From the <strong>Inventory App</strong>, keep track of produced lots and "
+#~ "expiration dates."
+#~ msgstr ""
+#~ "<strong>Envanter Uygulaması</strong>ndan, üretilen lotları ve son "
+#~ "kullanma tarihlerini takip edin."
+
+#~ msgid ""
+#~ "Generate crystal clear quotations with the <strong>Sales App</strong>."
+#~ msgstr ""
+#~ "<strong>Satış Uygulaması</strong> ile şık ve düzenli teklifler oluşturun."
+
+#~ msgid "Invoice your customers from the <strong>Invoicing App</strong>."
+#~ msgstr ""
+#~ "Müşterilerinize <strong>Faturalama Uygulaması</strong>ndan faturalar "
+#~ "oluşturun."
+
+#~ msgid ""
+#~ "Manage the purchase of raw materials from the <strong>Purchase App</"
+#~ "strong>."
+#~ msgstr ""
+#~ "Hammadde satın alma işlemlerini <strong>Satınalma Uygulaması</strong>ndan "
+#~ "yönetin."
+
+#~ msgid ""
+#~ "Process manufacturing work orders with instructions from the "
+#~ "<strong>Shopfloor App</strong>\n"
+#~ "        ."
+#~ msgstr ""
+#~ "Üretim iş emirlerini <strong>İmalat Ekranı Uygulaması</strong>ndaki "
+#~ "talimatlara göre işleyin.\n"
+#~ "        ."
+
+#~ msgid ""
+#~ "Use the <strong>Manufacturing App</strong> to efficiently plan and "
+#~ "execute production\n"
+#~ "        orders to meet customer demand."
+#~ msgstr ""
+#~ "Üretimi verimli bir şekilde planlamak ve müşteri talebini karşılamak için "
+#~ "<strong>Üretim Uygulaması</strong>nı kullanın"

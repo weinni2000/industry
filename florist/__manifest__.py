@@ -1,6 +1,6 @@
 {
     'name': 'Florist',
-    'version': '1.0',
+    'version': '1.2',
     'category': 'Retail',
     'author': 'Odoo S.A.',
     'depends': [
@@ -22,7 +22,6 @@
         'data/res_config_settings.xml',
         'data/ir_attachment_pre.xml',
         'data/pos_category.xml',
-        'data/pos_payment_method.xml',
         'data/pos_config.xml',
         'data/product_category.xml',
         'data/uom_uom.xml',
@@ -47,6 +46,7 @@
         'data/website_theme_apply.xml',
     ],
     'demo': [
+        'demo/res_company.xml',
         'demo/crm_stage.xml',
         'demo/crm_tag.xml',
         'demo/crm_team.xml',
@@ -82,6 +82,7 @@
         'data/website_view.xml',
         'demo/website_view.xml',
     ],
+    'application': True,
     'images': [
         'images/main.png',
     ],

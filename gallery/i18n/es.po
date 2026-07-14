@@ -3,15 +3,15 @@
 # * gallery
 #
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
-# "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2025.
+# "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-13 08:20+0000\n"
-"PO-Revision-Date: 2025-11-17 11:09+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-06-12 18:11+0000\n"
+"PO-Revision-Date: 2026-06-06 13:20+0000\n"
+"Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@odoo.com>\n"
 "Language-Team: Spanish <https://translate.odoo.com/projects/odoo-19/gallery/"
 "es/>\n"
 "Language: es\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: gallery
 #: model:product.template,description_sale:gallery.product_template_11
@@ -67,7 +67,7 @@ msgid ""
 "            Do You Want to Go Further?"
 msgstr ""
 "<br/>\n"
-"            ¿Quiere llegar más lejos?"
+"            ¿Quieres saber más?"
 
 #. module: gallery
 #: model_terms:ir.ui.view,arch_db:gallery.welcome_article_body
@@ -298,6 +298,15 @@ msgstr "<strong>Contabilidad y pagos</strong>:"
 
 #. module: gallery
 #: model_terms:ir.ui.view,arch_db:gallery.welcome_article_body
+msgid ""
+"<strong>Accounting</strong>: Easily generate tax reports and other financial "
+"documents thanks to our localization packages."
+msgstr ""
+"<strong>Contabilidad</strong>: crea fácilmente informes fiscales y otros "
+"documentos financieros gracias a nuestros paquetes de localización."
+
+#. module: gallery
+#: model_terms:ir.ui.view,arch_db:gallery.welcome_article_body
 msgid "<strong>Add Images &amp; Categorization</strong>:"
 msgstr "<strong>Añada imágenes y categorías</strong>:"
 
@@ -484,15 +493,6 @@ msgstr ""
 #. module: gallery
 #: model_terms:ir.ui.view,arch_db:gallery.welcome_article_body
 msgid ""
-"Accounting:Accounting:Accounting:<strong/> Easily generate tax reports and "
-"other financial documents thanks to our localization packages."
-msgstr ""
-"Contabilidad:<strong/> genere informes fiscales y otros documentos "
-"financieros con facilidad gracias a nuestros paquetes de localización."
-
-#. module: gallery
-#: model_terms:ir.ui.view,arch_db:gallery.welcome_article_body
-msgid ""
 "Acquiring new pieces for your gallery is seamless with <strong>CRM</strong> "
 "and the <strong>Purchase App</strong>."
 msgstr ""
@@ -654,16 +654,6 @@ msgstr ""
 "Obtenga los detalles de sus clientes para interactuar con ellos después."
 
 #. module: gallery
-#: model:pos.payment.method,name:gallery.pos_payment_method_2
-msgid "Card"
-msgstr "Tarjeta"
-
-#. module: gallery
-#: model:pos.payment.method,name:gallery.pos_payment_method_1
-msgid "Cash"
-msgstr "Efectivo"
-
-#. module: gallery
 #: model:product.template,name:gallery.product_template_20
 msgid "Chair"
 msgstr "Silla"
@@ -727,20 +717,20 @@ msgstr ""
 #. module: gallery
 #: model:website.menu,name:gallery.website_menu_13
 msgid "Contact Us"
-msgstr "Contáctenos"
+msgstr "Contacta con nosotros"
 
 #. module: gallery
 #: model_terms:ir.ui.view,arch_db:gallery.ir_ui_view_3577
 msgid "Contact us"
-msgstr "Contáctenos"
+msgstr "Contacta con nosotros"
 
 #. module: gallery
 #: model_terms:ir.ui.view,arch_db:gallery.ir_ui_view_3577
 msgid ""
 "Contact us and we'll do our best to get back to you as soon as possible!"
 msgstr ""
-"Contáctenos y haremos todo lo posible para responderle tan pronto como "
-"podamos."
+"Contacta con nosotros y haremos todo lo posible para responderle tan pronto "
+"como podamos."
 
 #. module: gallery
 #: model:product.template,name:gallery.product_template_19
@@ -789,11 +779,6 @@ msgstr ""
 "para cada artista y defina las tasas de comisión, exclusividad y términos de "
 "venta.<br/>\n"
 "                        <br/>"
-
-#. module: gallery
-#: model:pos.payment.method,name:gallery.pos_payment_method_3
-msgid "Customer Account"
-msgstr "Cuenta de cliente"
 
 #. module: gallery
 #: model:product.pricelist,name:gallery.product_pricelist_2
@@ -1713,7 +1698,7 @@ msgstr "El sendero de las lágrimas"
 msgid ""
 "These all go free in your current subscription; feel free to explore! 🙃"
 msgstr ""
-"Todo esto está incluido en su suscripción actual, no dude en explorar 😊"
+"Todo esto está incluido en tu suscripción actual. ¡Échale un vistazo! 😊"
 
 #. module: gallery
 #: model_terms:ir.ui.view,arch_db:gallery.welcome_article_body
@@ -1886,8 +1871,8 @@ msgstr ""
 msgid ""
 "Would you like to discuss your Odoo setup with us or explore more features?"
 msgstr ""
-"¿Le gustaría que le ayudemos con su configuración de Odoo o desea explorar "
-"más funciones?"
+"¿Quieres hablar con nosotros sobre tu configuración de Odoo o quieres que te "
+"ayudemos a explorar otras funcionalidades?"
 
 #. module: gallery
 #: model_terms:ir.ui.view,arch_db:gallery.welcome_article_body
@@ -1945,3 +1930,19 @@ msgstr "sitio web oficial"
 #: model_terms:ir.ui.view,arch_db:gallery.welcome_article_body
 msgid "or"
 msgstr "o/u"
+
+#~ msgid "Card"
+#~ msgstr "Tarjeta"
+
+#~ msgid "Cash"
+#~ msgstr "Efectivo"
+
+#~ msgid "Customer Account"
+#~ msgstr "Cuenta de cliente"
+
+#~ msgid ""
+#~ "Accounting:Accounting:Accounting:<strong/> Easily generate tax reports "
+#~ "and other financial documents thanks to our localization packages."
+#~ msgstr ""
+#~ "Contabilidad:<strong/> genere informes fiscales y otros documentos "
+#~ "financieros con facilidad gracias a nuestros paquetes de localización."

@@ -9,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 09:34+0000\n"
-"PO-Revision-Date: 2025-11-17 11:14+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-03-17 19:46+0000\n"
+"PO-Revision-Date: 2025-12-11 08:31+0000\n"
+"Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@odoo.com>\n"
 "Language-Team: Korean <https://translate.odoo.com/projects/odoo-19/"
 "summer_camps/ko/>\n"
 "Language: ko\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
@@ -79,6 +79,16 @@ msgid ""
 msgstr ""
 "<a href=\"#\" class=\"btn btn-secondary o_translate_inline\">자세히 알아보기"
 "</a>"
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+#, fuzzy
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
+msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">💡</i>"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
@@ -192,6 +202,53 @@ msgstr ""
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
 msgid ""
+"<strong><b>Appointments App</b>:</strong> Let families book meetings to "
+"discuss camp options easily, reducing no-shows with automatic reminders.<br/>"
+msgstr ""
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid ""
+"<strong><b>CRM App</b>: </strong>Capture inquiries from your website, "
+"qualify leads in a visual pipeline, and convert interest into confirmed "
+"bookings.<br/>"
+msgstr ""
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid ""
+"<strong><b>Events App</b>: </strong>Create and manage every camp session "
+"with custom forms, capacity tracking, and automated emails to keep parents "
+"informed.<br/>"
+msgstr ""
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid ""
+"<strong><b>Projects App</b>: </strong>Organize the behind-the-scenes "
+"logistics using task lists and deadlines to ensure every activity is "
+"prepared to perfection.<br/>"
+msgstr ""
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid ""
+"<strong><b>Sign App</b>: </strong>Collect parental consent securely with "
+"reusable digital signature templates, ensuring all legal documents are "
+"signed and stored centrally.<br/>"
+msgstr ""
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid ""
+"<strong><b>Website App</b>: </strong>Showcase your camps online with mobile-"
+"friendly pages, integrated registration, and secure payment processing to "
+"boost enrollments.<br/>"
+msgstr ""
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid ""
 "<strong>Accounting 📈</strong>: Handle invoicing, revenue tracking, and full "
 "financial reporting in one place."
 msgstr ""
@@ -201,14 +258,6 @@ msgstr ""
 msgid ""
 "<strong>Add custom tags</strong> like “IT Camp,” “Group Booking,” or "
 "“Special Needs” to filter and segment leads."
-msgstr ""
-
-#. module: summer_camps
-#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-msgid ""
-"<strong>Appointments 📅 :</strong>Let families book meetings to discuss camp "
-"options, sync your team’s calendars, and reduce no-shows with automatic "
-"reminders and structured scheduling."
 msgstr ""
 
 #. module: summer_camps
@@ -237,14 +286,6 @@ msgid ""
 "transactions."
 msgstr ""
 "<strong>내장형 결제 통합 기능</strong>으로 원활하게 안전한 거래가 가능합니다."
-
-#. module: summer_camps
-#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-msgid ""
-"<strong>CRM 🎯 :</strong>Capture inquiries from your website, organize and "
-"qualify leads in a visual pipeline, assign sales tasks, and convert interest "
-"into bookings with quotations and notes tracking."
-msgstr ""
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
@@ -290,6 +331,11 @@ msgstr ""
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid "<strong>Customized pricing per attendee</strong>"
+msgstr ""
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
 msgid ""
 "<strong>Drag and drop signature, text, and date fields</strong> to collect "
 "all necessary information (e.g., emergency contact, medical permissions)."
@@ -300,14 +346,6 @@ msgstr ""
 msgid ""
 "<strong>Email Marketing 🌟</strong>: Promote upcoming camps or send follow-"
 "ups post-camp."
-msgstr ""
-
-#. module: summer_camps
-#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-msgid ""
-"<strong>Events 🏨 :</strong>Create and manage every camp session with custom "
-"forms, pricing, capacity, tags, attendee tracking, automated emails, and a "
-"live check-in desk—all in one central app."
 msgstr ""
 
 #. module: summer_camps
@@ -379,14 +417,6 @@ msgstr ""
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-msgid ""
-"<strong>Projects 📋 :</strong>Organize the behind-the-scenes work of each "
-"camp using task lists, deadlines, assignments, and logistics tracking to "
-"ensure smooth preparation and coordination."
-msgstr ""
-
-#. module: summer_camps
-#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
 msgid "<strong>Projects 📋</strong>"
 msgstr "<strong>프로젝트📋</strong>"
 
@@ -395,14 +425,6 @@ msgstr "<strong>프로젝트📋</strong>"
 msgid ""
 "<strong>Schedule meetings or calls</strong> directly from the CRM and sync "
 "with your calendar."
-msgstr ""
-
-#. module: summer_camps
-#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-msgid ""
-"<strong>Sign ✍️ :</strong>Collect parental consent securely with reusable "
-"digital signature templates, embedded links in confirmation emails, and "
-"centralized access to signed documents."
 msgstr ""
 
 #. module: summer_camps
@@ -442,14 +464,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
 msgid "<strong>Visit our E-Learning platform </strong>on"
 msgstr "<strong>이러닝 플랫폼을 확인해 보세요 </strong>"
-
-#. module: summer_camps
-#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
-msgid ""
-"<strong>Website 🌐 :</strong>Showcase your camps online with dedicated "
-"pages, integrated registration, mobile-friendly design, and secure payment—"
-"all from a visually engaging and parent-friendly website."
-msgstr ""
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
@@ -494,6 +508,11 @@ msgstr ""
 #: model:event.tag.category,name:summer_camps.event_tag_category_3
 msgid "Accommodation"
 msgstr "숙소"
+
+#. module: summer_camps
+#: model:base.automation,name:summer_camps.add_product_on_so
+msgid "Add product on SO"
+msgstr ""
 
 #. module: summer_camps
 #: model:crm.tag,name:summer_camps.crm_tag_29
@@ -560,6 +579,9 @@ msgid ""
 "guided creative workshops, and 24/7 staff supervision. Just bring comfy "
 "clothes and your imagination—everything else is ready!"
 msgstr ""
+"아트 및 크리에이티브 캠프에는 아늑한 캐빈 숙박, 모든 식사 및 재료, 가이드가 "
+"진행하는 크리에이티브 워크숍, 24시간 상주 직원의 감독이 포함되어 있습니다. 편"
+"안한 옷과 상상력만 있으면 됩니다. 나머지는 모두 준비되어 있습니다!"
 
 #. module: summer_camps
 #: model:product.template,name:summer_camps.product_template_5
@@ -755,6 +777,11 @@ msgid ""
 msgstr ""
 
 #. module: summer_camps
+#: model:ir.model.fields,field_description:summer_camps.field_x_event_product_event_question_answer
+msgid "Event Product"
+msgstr ""
+
+#. module: summer_camps
 #: model_terms:product.public.category,website_description:summer_camps.product_public_category_1
 msgid "Explore thrilling activities that ignite excitement and teamwork."
 msgstr "흥미와 팀워크를 더해주는 스릴 넘치는 액티비티를 경험해 보세요."
@@ -840,6 +867,8 @@ msgid ""
 "for your child? Book a one-on-one chat with one of our friendly camp "
 "counsellors!"
 msgstr ""
+"서머 캠프에 대해 궁금한 점이 있으신가요? 자녀에게 적합한 캠프인지 확인하고 싶"
+"으신가요? 친절한 캠프 상담사와 1:1일 상담을 예약해 보세요!"
 
 #. module: summer_camps
 #: model_terms:event.event,ticket_instructions:summer_camps.event_event_1
@@ -873,6 +902,9 @@ msgid ""
 "equipment, guided coding workshops, and 24/7 support from trained staff. "
 "Just bring your curiosity—we provide the rest!"
 msgstr ""
+"IT 서머 캠프에는 모든 숙박 및 식사가 제공되고, 컴퓨터 및 기술 장비 이용, 코"
+"딩 수업 워크숍 및 전문 직원의 24시간 상시 지원이 포함되어 있습니다. 호기심만 "
+"있으면 됩니다. 나머지는 모두 준비되어 있습니다!"
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
@@ -894,6 +926,13 @@ msgid ""
 msgstr ""
 
 #. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid ""
+"It is also possible to customize the attendance pricing based on the options "
+"an attendee selects during the registration process."
+msgstr ""
+
+#. module: summer_camps
 #: model:crm.tag,name:summer_camps.crm_tag_20
 msgid "July"
 msgstr "7월"
@@ -903,8 +942,14 @@ msgstr "7월"
 msgid ""
 "Just be careful, once demo data are uploaded, it cannot be easily deleted. "
 "But you can restart a fresh database on"
-msgstr "데모 데이터가 업로드되면 쉽게 삭제할 수 없으니 주의하세요. 하지만 다음 "
-"링크에서 새 데이터베이스를 시작할 수 있습니다."
+msgstr ""
+"데모 데이터가 업로드되면 쉽게 삭제할 수 없으니 주의하세요. 하지만 다음 링크에"
+"서 새 데이터베이스를 시작할 수 있습니다."
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.camps_button
+msgid "Learn More <i class=\"fa fa-chevron-right\"/>"
+msgstr ""
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_1
@@ -1026,6 +1071,10 @@ msgid ""
 "children of all ages. Whether it’s their first time away from home or their "
 "fifth year with us, every camper is welcomed like family.&amp;nbsp;"
 msgstr ""
+"저희가 준비한 서머 캠프는 모든 연령대의 어린이들에게 잊지 못할 경험을 선사할 "
+"수 있도록 구성되어 있습니다. 처음으로 집을 떠나 참여하는 어린이 및 다섯 번째 "
+"저희와 함께 하는 어린이들 모두, 캠프 참가자 여러분 모두를 가족처럼 환영합니"
+"다."
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.ir_ui_view_916
@@ -1190,6 +1239,9 @@ msgid ""
 "supervised shuttle service to camp for an extra fee. Don’t forget to book it "
 "in advance through your dashboard."
 msgstr ""
+"<strong>말로이 역</strong>까지 기차로 이동하세요. 그곳부터 캠프장까지 저희 측"
+"에서 관리하는 셔틀 서비스가 추가 요금으로 제공됩니다. 현황판에서 잊지 말고 미"
+"리 예약하세요."
 
 #. module: summer_camps
 #: model:project.project,label_tasks:summer_camps.project_project_1
@@ -1275,6 +1327,10 @@ msgid ""
 "parents and guardians to discover camp offerings, explore details, and "
 "register children directly online."
 msgstr ""
+"<strong>웹사이트</strong> 앱을 통해 여름 캠프를 시각적으로 매력적이고 유익한 "
+"방식으로 소개할 수 있습니다. 이 앱은 부모님과 보호자 분들이 캠프 프로그램을 "
+"확인하고, 자세한 정보를 살펴보고, 온라인으로 자녀를 직접 등록할 수 있는 시작"
+"점의 역할을 합니다."
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
@@ -1283,11 +1339,28 @@ msgid ""
 "you can add files to send automatically with the template, such as a packing "
 "list, more information, etc."
 msgstr ""
+"이메일 템플릿 하단에는 '첨부 파일' 섹션이 있습니다. 여기에는 포장 목록이나 추"
+"가 정보 등 템플릿과 함께 자동으로 전송하려는 파일을 추가할 수 있습니다."
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
 msgid ""
 "The result? Better service, more trust, and a smoother registration journey."
+msgstr ""
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid ""
+"These are defined in the questions. To associate a product to a response, "
+"set the question type to \"<strong>Selection</strong>\". Following that, set "
+"a new or existing product in the \"Event Product\" column."
+msgstr ""
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid ""
+"These should now both appear during the payment process, and in the Sales "
+"Order that's associated to the attendee registration."
 msgstr ""
 
 #. module: summer_camps
@@ -1439,6 +1512,9 @@ msgid ""
 "better connected. Ready to take your camp operations to the next level? "
 "Let’s build something great together."
 msgstr ""
+"Odoo로 서머 캠프 운영을 더 쉽고, 전문적으로, 그리고 더욱 종합적으로 관리하세"
+"요. 캠프를 한 단계 업그레이드하여 운영할 준비가 되셨나요? 함께 멋진 캠프를 만"
+"들어 보세요."
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
@@ -1448,12 +1524,17 @@ msgid ""
 "organized, avoid double-bookings, and ensure every camper is matched with "
 "the right experience."
 msgstr ""
+"클릭 몇 번 만으로 부모님들은 웹사이트나 이메일 캠페인을 통해 바로 통화나 대"
+"면 미팅을 예약할 수 있습니다. 작업자 및 다른 직원들이 체계적으로 일정을 관리"
+"하여 중복 예약을 방지하고 모든 캠프 참가자를 알맞은 프로그램에 배정할 수 있습"
+"니다."
 
 #. module: summer_camps
 #: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
 msgid ""
 "Would you like to discuss your Odoo setup with us or explore more features?"
-msgstr "Odoo 설정에 대해 논의하거나 더 많은 기능에 대해 자세히 알아보고 싶으신가요?"
+msgstr ""
+"Odoo 설정에 대해 논의하거나 더 많은 기능에 대해 자세히 알아보고 싶으신가요?"
 
 #. module: summer_camps
 #: model_terms:event.event,description:summer_camps.event_event_1
@@ -1463,6 +1544,13 @@ msgstr "Odoo 설정에 대해 논의하거나 더 많은 기능에 대해 자세
 msgid ""
 "Yes. All activities are supervised, age-appropriate, and use certified "
 "safety gear. We never push kids beyond their comfort zones."
+msgstr ""
+
+#. module: summer_camps
+#: model_terms:ir.ui.view,arch_db:summer_camps.welcome_article_body
+msgid ""
+"You can also export all answers in bulk in a template by opening the "
+"template, then clicking the gear icon, then \"Export Answers\"."
 msgstr ""
 
 #. module: summer_camps
@@ -1491,6 +1579,11 @@ msgstr ""
 msgid ""
 "You’ll receive a confirmation email shortly with all your camp details, "
 "including dates, payment summary, and a digital copy of your welcome guide."
+msgstr ""
+
+#. module: summer_camps
+#: model:ir.actions.server,name:summer_camps.add_product_on_so_action
+msgid "add product on SO"
 msgstr ""
 
 #. module: summer_camps
@@ -1869,3 +1962,13 @@ msgstr "🧳 <strong>패킹 리스트</strong>"
 #: model_terms:event.type,ticket_instructions:summer_camps.event_type_1
 msgid "🧾 <strong>Medical &amp; Emergency Form</strong>"
 msgstr "🧾 <strong>의료 및 응급 상황 양식</strong>"
+
+#~ msgid ""
+#~ "<strong>CRM 🎯 :</strong>Capture inquiries from your website, organize "
+#~ "and qualify leads in a visual pipeline, assign sales tasks, and convert "
+#~ "interest into bookings with quotations and notes tracking."
+#~ msgstr ""
+#~ "<strong>CRM 🎯:</strong> 웹사이트를 통해 문의 접수를 받거나 시각적으로 표"
+#~ "현된 파이프라인에서 영업제안을 정리 및 선별하며 영업 업무를 할당은 물론 견"
+#~ "적 및 메모 추적 기능을 통해 단순한 관심을 가진 고객들을 실제 예약 건으로 "
+#~ "전환하세요."

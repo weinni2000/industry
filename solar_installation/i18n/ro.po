@@ -3,13 +3,14 @@
 # * solar_installation
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Dorin Hongu <dhongu@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 09:39+0000\n"
-"PO-Revision-Date: 2025-11-17 11:14+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-04-10 19:40+0000\n"
+"PO-Revision-Date: 2025-11-29 19:52+0000\n"
+"Last-Translator: Dorin Hongu <dhongu@gmail.com>\n"
 "Language-Team: Romanian <https://translate.odoo.com/projects/odoo-19/"
 "solar_installation/ro/>\n"
 "Language: ro\n"
@@ -18,12 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Weblate 5.12.2\n"
-
-#. module: solar_installation
-#: model_terms:ir.ui.view,arch_db:solar_installation.ir_ui_view_2702
-msgid "+1 (079) 400-5001"
-msgstr "+1 (079) 400-5001"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: solar_installation
 #: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
@@ -48,8 +44,8 @@ msgstr ""
 "- Clientul poate <font style=\"color: rgb(107, 165, 74);\"><strong>deschide "
 "un tichet</strong></font> către echipa de asistență pentru reparații prin e-"
 "mail, formularul „Trimite un tichet” sau făcând clic pe butonul Chat bot din "
-"pagina de Ajutor de pe site. Tichetul de suport va fi generat în aplicația "
-"Helpdesk."
+"pagina de Ajutor de pe site. \n"
+"Tichetul de suport va fi generat în aplicația Helpdesk."
 
 #. module: solar_installation
 #: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
@@ -83,9 +79,9 @@ msgid ""
 msgstr ""
 "- În cazul livrării la adresa clientului, utilizatorul Helpdesk va comunica "
 "cu clientul după livrare și va solicita confirmarea funcționării "
-"echipamentului, apoi <strong><font style=\"color: rgb(107, 165, 74);\""
-">închide tichetul</font></strong><font style=\"color: rgb(181, 214, 165);\""
-">.</font>"
+"echipamentului, \n"
+"apoi <strong><font style=\"color: rgb(107, 165, 74);\">închide tichetul</"
+"font></strong><font style=\"color: rgb(181, 214, 165);\">.</font>"
 
 #. module: solar_installation
 #: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
@@ -106,12 +102,12 @@ msgid ""
 "            warranty date is not under the warranty period, an invoice will "
 "be raised for the parts replaced and repairing charge."
 msgstr ""
-"- Utilizatorul de inventar <strong><font style=\"color: rgb(107, 165, 74);\""
-">va valida</font></strong> echipamentul returnat în Return și va verifica "
+"- Utilizatorul de inventar <strong><font style=\"color: rgb(107, 165, 74);"
+"\">va valida</font></strong> echipamentul returnat în Return și va verifica "
 "<font style=\"color: rgb(107, 165, 74);\"><strong>data de expirare a "
-"garanției</strong></font>. Dacă data garanției nu este în perioada de "
-"garanție, se va emite o factură pentru piesele înlocuite și costul "
-"reparației."
+"garanției</strong></font>.\n"
+" Dacă data garanției nu este în perioada de garanție, se va emite o factură "
+"pentru piesele înlocuite și costul reparației."
 
 #. module: solar_installation
 #: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
@@ -140,6 +136,62 @@ msgid "3 kW"
 msgstr "3 kW"
 
 #. module: solar_installation
+#: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
+msgid ""
+"<b>CRM App</b>: Capture leads from your website and track them through the "
+"sales funnel, managing site visits\n"
+"                and technical feasibility checks."
+msgstr ""
+
+#. module: solar_installation
+#: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
+msgid ""
+"<b>Field Service App</b>: Schedule your installation crews and maintenance "
+"teams efficiently, allowing them to\n"
+"                log time and consume parts via mobile."
+msgstr ""
+
+#. module: solar_installation
+#: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
+msgid ""
+"<b>Inventory App</b>: Keep track of high-value stock like solar modules and "
+"batteries, ensuring you have the\n"
+"                right components for every job."
+msgstr ""
+
+#. module: solar_installation
+#: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
+msgid ""
+"<b>Project App</b>: Manage installation projects with clear stages (e.g., "
+"\"Permitting,\" \"Installation,\"\n"
+"                \"Inspection\"), tracking tasks and deadlines."
+msgstr ""
+
+#. module: solar_installation
+#: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
+msgid ""
+"<b>Sales App</b>: Create professional, detailed proposals that include "
+"technical specifications for panels,\n"
+"                inverters, and labor costs."
+msgstr ""
+
+#. module: solar_installation
+#: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
+msgid ""
+"<b>Sign App</b>: Securely collect digital signatures for contracts, "
+"interconnection agreements, and financing\n"
+"                documents."
+msgstr ""
+
+#. module: solar_installation
+#: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
+msgid ""
+"<b>Website App</b>: Showcase your portfolio of successful installations and "
+"attract new eco-conscious clients\n"
+"                with a professional online presence."
+msgstr ""
+
+#. module: solar_installation
 #: model_terms:ir.ui.view,arch_db:solar_installation.ir_ui_view_2702
 msgid ""
 "<i class=\"fa fa-envelope fa-fw me-2\"/>\n"
@@ -152,9 +204,10 @@ msgid ""
 msgstr ""
 "<i class=\"fa fa-envelope fa-fw me-2\"/>\n"
 "                                                <span>\n"
-"                                                    <span style=\"color: rgb("
-"55, 65, 81);font-size: 14px;font-style: normal;font-weight: 400;background-"
-"color: rgb(255, 255, 255)\">info@yourcompany.example.com</span>\n"
+"                                                    <span style=\"color: "
+"rgb(55, 65, 81);font-size: 14px;font-style: normal;font-weight: "
+"400;background-color: rgb(255, 255, 255)\">info@yourcompany.example.com</"
+"span>\n"
 "                                                </span>"
 
 #. module: solar_installation
@@ -176,9 +229,9 @@ msgid ""
 "                                    <br/>"
 msgstr ""
 "<span class=\"oe-tabs\" style=\"width: 10.125px;\"/>\n"
-"                                    <span class="
-"\"o_animated_text o_animate o_anim_bounce_in o_visible\" style=\"\">„"
-"Luminând energia solară: Alimentăm un viitor sustenabil”</span>\n"
+"                                    <span class=\"o_animated_text o_animate "
+"o_anim_bounce_in o_visible\" style=\"\">„Luminând energia solară: Alimentăm "
+"un viitor sustenabil”</span>\n"
 "                                    <br/>"
 
 #. module: solar_installation
@@ -199,8 +252,8 @@ msgid ""
 "class=\"s_website_form_mark\"> *</span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Emailul dvs.</span>\n"
-"                                                    <span class="
-"\"s_website_form_mark\"> *</span>"
+"                                                    <span "
+"class=\"s_website_form_mark\"> *</span>"
 
 #. module: solar_installation
 #: model_terms:ir.ui.view,arch_db:solar_installation.get_a_quote
@@ -215,8 +268,8 @@ msgid ""
 "class=\"s_website_form_mark\"> *</span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Cerința dvs.</span>\n"
-"                                                    <span class="
-"\"s_website_form_mark\"> *</span>"
+"                                                    <span "
+"class=\"s_website_form_mark\"> *</span>"
 
 #. module: solar_installation
 #: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
@@ -260,8 +313,8 @@ msgid ""
 "<span style=\"font-size: 18px;\">Flow 2: Manual Opportunity -&gt; CRM -&gt; "
 "Sales -&gt; Accounting -&gt; Field Service </span><br/>"
 msgstr ""
-"<span style=\"font-size: 18px;\">Flux 2: Oportunitate manuală -&gt; CRM -&gt;"
-" Vânzări -&gt; Contabilitate -&gt; Service pe teren </span><br/>"
+"<span style=\"font-size: 18px;\">Flux 2: Oportunitate manuală -&gt; CRM "
+"-&gt; Vânzări -&gt; Contabilitate -&gt; Service pe teren </span><br/>"
 
 #. module: solar_installation
 #: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
@@ -300,10 +353,15 @@ msgstr ""
 "Persoanele desemnate completează fișa de lucru după finalizarea instalării. "
 "Mai multe <strong><font style=\"color: rgb(107, 165, 74);\">imagini ale "
 "instalării sistemului solar</font></strong> la locația clientului sunt "
-"atașate împreună cu confirmarea și semnătura clientului în fișa de lucru. "
+"atașate împreună cu confirmarea și semnătura clientului în fișa de lucru. \n"
 "Fișa de lucru include câmpuri personalizate precum data de început, data de "
 "finalizare, plan, semnătură etc., care sunt configurate prin <strong><font "
 "style=\"color: rgb(165, 74, 123);\">Studio App</font></strong>."
+
+#. module: solar_installation
+#: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
+msgid "Basics"
+msgstr ""
 
 #. module: solar_installation
 #: model:product.template,name:solar_installation.product_product_8_product_template
@@ -363,10 +421,9 @@ msgid ""
 "\">creates 1 Field Service Task</font></strong> automatically for Solar "
 "system installation in a Project dedicated to Installation."
 msgstr ""
-"Confirmarea comenzii de vânzare <strong><font style="
-"\"color: rgb(107, 165, 74);\">creează automat o sarcină de service pe "
-"teren</font></strong> pentru instalarea sistemului solar într-un proiect "
-"dedicat instalării."
+"Confirmarea comenzii de vânzare <strong><font style=\"color: rgb(107, 165, "
+"74);\">creează automat o sarcină de service pe teren</font></strong> pentru "
+"instalarea sistemului solar într-un proiect dedicat instalării."
 
 #. module: solar_installation
 #: model_terms:ir.ui.view,arch_db:solar_installation.ir_ui_view_2702
@@ -640,12 +697,12 @@ msgid ""
 "<strong><font style=\"color: rgb(107, 165, 74);\">opportunity is created</"
 "font></strong><font style=\"color: rgb(181, 214, 165);\">.</font>"
 msgstr ""
-"Clientul potențial completează formularul <strong><font class="
-"\"text-o-color-5\"><span style=\"font-weight: normal;\">Solicită "
-"ofertă</span></font></strong> și îl trimite, iar în <font class="
-"\"text-o-color-5\">CRM</font> <strong><font style="
-"\"color: rgb(107, 165, 74);\">se creează o oportunitate</font></strong><font "
-"style=\"color: rgb(181, 214, 165);\">.</font>"
+"Clientul potențial completează formularul <strong><font class=\"text-o-"
+"color-5\"><span style=\"font-weight: normal;\">\n"
+"Solicită ofertă</span></font></strong> și îl trimite, iar în <font "
+"class=\"text-o-color-5\">CRM</font> <strong><font style=\"color: rgb(107, "
+"165, 74);\">se creează o oportunitate</font></strong><font style=\"color: "
+"rgb(181, 214, 165);\">.</font>"
 
 #. module: solar_installation
 #: model:ir.model.fields,field_description:solar_installation.x_comments_remarks_record
@@ -679,8 +736,8 @@ msgstr ""
 "Sistemul solar pe acoperiș se referă la instalarea panourilor solare pe "
 "acoperișul unei clădiri pentru a genera electricitate din lumina soarelui. "
 "Este o modalitate populară și sustenabilă de a valorifica energia "
-"regenerabilă și de a reduce dependența de sursele tradiționale de energie.<"
-"br/>"
+"regenerabilă și de a reduce dependența de sursele tradiționale de energie."
+"<br/>"
 
 #. module: solar_installation
 #: model:ir.model.fields,field_description:solar_installation.new_many2one_sale_order_no
@@ -699,13 +756,13 @@ msgid ""
 "customer agrees the quotation, a site survey is planned and Opportunity is "
 "moved to the Site Survey stage."
 msgstr ""
-"Un agent de vânzări este desemnat și <strong><font style="
-"\"color: rgb(107, 165, 74);\">oportunitatea este mutată</font></strong> "
-"<strong><font style=\"color: rgb(107, 165, 74);\">în stadiul "
-"Calificat</font></strong>. Agentul de vânzări urmărește clienții prin "
-"activități precum apeluri, întâlniri etc. Dacă clientul acceptă oferta, se "
-"planifică o inspecție la locație și oportunitatea este mutată în stadiul "
-"Inspecție la locație."
+"Un agent de vânzări este desemnat și <strong><font style=\"color: rgb(107, "
+"165, 74);\">oportunitatea este mutată</font></strong> <strong><font "
+"style=\"color: rgb(107, 165, 74);\">în stadiul Calificat</font></strong>. "
+"Agentul de vânzări urmărește clienții prin activități precum apeluri, "
+"întâlniri etc. \n"
+"Dacă clientul acceptă oferta, se planifică o inspecție la locație și "
+"oportunitatea este mutată în stadiul Inspecție la locație."
 
 #. module: solar_installation
 #: model_terms:ir.ui.view,arch_db:solar_installation.homepage
@@ -798,9 +855,9 @@ msgid ""
 msgstr ""
 "Sarcina este atribuită angajaților/muncitorilor. Se planifică vizita la "
 "locație și <strong><font style=\"color: rgb(107, 165, 74);\">sarcina este "
-"mutată în stadiul Planificat în proiect</font></strong>. Persoanele "
-"desemnate iau cu ele toate echipamentele listate în <strong><font style="
-"\"color: rgb(107, 165, 74);\">Ordinul de livrare</font></strong> când "
+"mutată în stadiul Planificat în proiect</font></strong>. \n"
+"Persoanele desemnate iau cu ele toate echipamentele listate în <strong><font "
+"style=\"color: rgb(107, 165, 74);\">Comanda de livrare</font></strong> când "
 "vizitează locația clientului pentru instalare."
 
 #. module: solar_installation
@@ -820,9 +877,9 @@ msgid ""
 msgstr ""
 "Această configurație este pentru companiile care oferă echipamente solare și "
 "servicii de instalare. De obicei, clienții rezidențiali plasează comenzi de "
-"la 1 kW la 10 kW, iar alții până la 100 kW. Panourile solare și alte "
-"echipamente sunt instalate la locația clientului în funcție de capacitatea "
-"în kW."
+"la 1 kW la 10 kW, iar alții până la 100 kW. \n"
+"Panourile solare și alte echipamente sunt instalate la locația clientului în "
+"funcție de capacitatea în kW."
 
 #. module: solar_installation
 #: model:base.automation,name:solar_installation.base_automation_4
@@ -832,7 +889,7 @@ msgstr "Actualizează data garanției pe numărul de serie"
 #. module: solar_installation
 #: model:ir.actions.server,name:solar_installation.ir_act_server_1017
 msgid "Update warranty date on serial number - Server Action"
-msgstr ""
+msgstr "Actualizează data garanției pe numărul de serie - Acțiune Server"
 
 #. module: solar_installation
 #: model_terms:ir.ui.view,arch_db:solar_installation.ir_ui_view_2702
@@ -886,3 +943,6 @@ msgstr "info@yourcompany.example.com"
 #: model_terms:ir.ui.view,arch_db:solar_installation.report_custom_x_project_task_worksheet_template_1
 msgid "kW plan"
 msgstr "Plan kW"
+
+#~ msgid "+1 (079) 400-5001"
+#~ msgstr "+1 (079) 400-5001"

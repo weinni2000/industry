@@ -1,6 +1,6 @@
 {
     'name': 'Toy Store',
-    'version': '1.0',
+    'version': '1.1',
     'category': 'Retail',
     'depends': [
         'hr',
@@ -33,7 +33,7 @@
         'data/knowledge_tour.xml',
     ],
     'demo': [
-        'demo/res_users.xml',
+        'demo/res_company.xml',
         'demo/res_partner.xml',
         'demo/hr_employee.xml',
         'demo/product_template.xml',
@@ -67,6 +67,7 @@
     ],
     'license': 'OEEL-1',
     'author': 'Odoo S.A.',
+    'application': True,
     'images': ['images/main.png'],
     'url': "https://www.odoo.com/trial?industry&selected_app=toy_store",
     'website': "https://www.odoo.com/industries/toy-store",

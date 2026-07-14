@@ -6,13 +6,14 @@
 # Wil Odoo, 2024
 #
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
-# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+# Nusara Boonma <nuboo@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 14:57+0000\n"
-"PO-Revision-Date: 2025-11-17 11:08+0000\n"
+"POT-Creation-Date: 2026-03-20 19:06+0000\n"
+"PO-Revision-Date: 2026-06-13 10:49+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Thai <https://translate.odoo.com/projects/odoo-19/hair_salon/"
 "th/>\n"
@@ -21,12 +22,64 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: hair_salon
 #: model:loyalty.reward,description:hair_salon.loyalty_reward_4
 msgid "$ 20 on your order"
 msgstr "$20 ในการสั่งซื้อของคุณ"
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+#, fuzzy
+msgid ""
+"<b>Appointments App</b>: Allow clients to book specific services and "
+"stylists online, syncing directly with your\n"
+"                team's calendar to prevent double-booking."
+msgstr ""
+"<b>แอปสำหรับการนัดหมาย</b>: อนุญาตให้ลูกค้าจองบริการเฉพาะและช่างเฉพาะทางออนไลน์ได้ โดยจ"
+"ะซิงค์กับปฏิทินของทีมงานของคุณ\n"
+"                โดยตรงเพื่อป้องกันการจองซ้ำซ้อน"
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+#, fuzzy
+msgid ""
+"<b>Employees App</b>: specific stylist schedules and track attendance, "
+"ensuring you have the right talent\n"
+"                available for peak hours."
+msgstr ""
+"<b>แอปสำหรับพนักงาน</b>: ตารางเวลาเฉพาะของสไตลิสต์และติดตามการเข้างาน เพื่อให้มั่นใจว่าคุณ"
+"มีบุคลากรที่เหมาะสมพร้อมให้บริการ\n"
+"                ในช่วงเวลาที่มีลูกค้าสูงสุด"
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+#, fuzzy
+msgid ""
+"<b>Inventory App</b>: Manage your stock of retail products (like shampoos "
+"and gels) and professional supplies\n"
+"                (like color tubes and developers) in real-time."
+msgstr ""
+"<b>แอปคลังสินค้า</b>: จัดการสต็อกสินค้าปลีก (เช่น แชมพูและเจลใส่ผม) และอุปกรณ์สำหรับมืออาชี"
+"พ\n"
+"(เช่น หลอดสีและน้ำยาผสม) แบบเรียลไทม์"
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid ""
+"<b>Point of Sale App</b>: Process payments quickly at the chair or front "
+"desk, handling tips, gift cards, and\n"
+"                product sales seamlessly."
+msgstr ""
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid ""
+"<b>Website App</b>: Showcase your portfolio of cuts and colors, list your "
+"services, and attract new clients with\n"
+"                a professional online presence."
+msgstr ""
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.homepage
@@ -53,6 +106,13 @@ msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
 msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
 
 #. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid ""
+"<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
+"fst-normal\" aria-label=\"Banner Warning\">⚠️</i>"
+msgstr ""
+
+#. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.homepage
 msgid "<span class=\"display-2-fs\">Step into our salon</span>"
 msgstr ""
@@ -75,17 +135,18 @@ msgstr ""
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+#, fuzzy
+msgid "<strong>Use case</strong>"
+msgstr "<strong>กรณีการใช้งาน</strong>"
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
 msgid "Allow clients to book appointments online"
 msgstr ""
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
 msgid "Appointment Scheduling &amp;amp; calendar 📆&amp;nbsp;"
-msgstr ""
-
-#. module: hair_salon
-#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-msgid "Basics:&amp;nbsp;"
 msgstr ""
 
 #. module: hair_salon
@@ -107,10 +168,10 @@ msgid ""
 "                                                                            individual.&amp;nbsp;"
 msgstr ""
 "เพราะไม่มีอะไรที่เป็นไปไม่ได้ และการเปลี่ยนทรงผมคือความชำนาญของเรา\n"
-"                                                                            ที่"
-" Hair Salon Industry เราให้ความสำคัญกับลูกค้าแต่ละคนเป็น\n"
-"                                                                            "
-"รายบุคคลเสมอ!&amp;nbsp;"
+"                                                                            ที่ "
+"Hair Salon Industry เราให้ความสำคัญกับลูกค้าแต่ละคนเป็น\n"
+"                                                                            รายบุคคลเสมอ!"
+"&amp;nbsp;"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.homepage
@@ -151,6 +212,14 @@ msgid "Brushing JP"
 msgstr ""
 
 #. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid ""
+"By uploading this module's demo data, your database has been filled with a "
+"few products, sale\n"
+"        orders and more."
+msgstr ""
+
+#. module: hair_salon
 #: model:pos.category,name:hair_salon.pos_category_4
 msgid "Cares"
 msgstr ""
@@ -170,8 +239,7 @@ msgstr ""
 msgid ""
 "Configure Appointment Types: In the Appointment app, create types that match "
 "your services."
-msgstr ""
-"กำหนดค่าประเภทการนัดหมาย: ในแอปการนัดหมาย ให้สร้างประเภทที่ตรงกับบริการของคุณ"
+msgstr "กำหนดค่าประเภทการนัดหมาย: ในแอปการนัดหมาย ให้สร้างประเภทที่ตรงกับบริการของคุณ"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
@@ -223,11 +291,6 @@ msgid "Discover your best look at our innovative hair salon."
 msgstr "ค้นพบลุคที่ดีที่สุดของคุณได้ที่ร้านทำผมสุดทันสมัยของเรา"
 
 #. module: hair_salon
-#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-msgid "Do you want to go further?&amp;nbsp;🚀"
-msgstr ""
-
-#. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.homepage
 msgid "Elevate your hair game."
 msgstr ""
@@ -237,16 +300,14 @@ msgstr ""
 msgid ""
 "Encourage clients to book through your online Appointment page to reduce "
 "your efforts.&amp;nbsp;"
-msgstr ""
-"สนับสนุนให้ลูกค้าจองผ่านหน้าการนัดหมายออนไลน์ของคุณเพื่อลดการดำเนินการของคุณ&amp;nbsp;"
+msgstr "สนับสนุนให้ลูกค้าจองผ่านหน้าการนัดหมายออนไลน์ของคุณเพื่อลดการดำเนินการของคุณ&amp;nbsp;"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
 msgid ""
 "Engage clients with targeted campaigns using Email Marketing and Social "
 "Marketing."
-msgstr ""
-"ดึงดูดลูกค้าด้วยแคมเปญแบบกำหนดเป้าหมายโดยใช้การตลาดผ่านอีเมลและโซเชียลมาร์เก็ตติ้ง"
+msgstr "ดึงดูดลูกค้าด้วยแคมเปญแบบกำหนดเป้าหมายโดยใช้การตลาดผ่านอีเมลและโซเชียลมาร์เก็ตติ้ง"
 
 #. module: hair_salon
 #: model:ir.actions.server,name:hair_salon.break_subpart_calendar_event_server_action
@@ -314,6 +375,12 @@ msgid "Hair Length"
 msgstr ""
 
 #. module: hair_salon
+#: model:base.automation,name:hair_salon.uninstall_hook_base_automation
+#: model:ir.actions.server,name:hair_salon.uninstall_hook_action_server
+msgid "Hair Salon: Uninstall Hook"
+msgstr ""
+
+#. module: hair_salon
 #: model:product.template,name:hair_salon.product_template_22
 msgid "Hair Spray - 250ml"
 msgstr ""
@@ -348,10 +415,8 @@ msgid ""
 "the service."
 msgstr ""
 "ที่นี่เราให้ความสำคัญกับการรับฟังและให้คำแนะนำมากกว่าที่อื่น\n"
-"                                                                            "
-"เพื่อมอบช่วงเวลาแห่งความผ่อนคลายและความพึงพอใจสูงสุดเมื่อสิ้นสุด\n"
-"                                                                            "
-"การให้บริการ"
+"                                                                            เพื่อมอบช่วงเวลาแห่งความผ่อนคลายและความพึงพอใจสูงสุดเมื่อสิ้นสุด\n"
+"                                                                            การให้บริการ"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
@@ -377,8 +442,7 @@ msgstr ""
 msgid ""
 "Implement a loyalty program to reward repeat customers using the eCommerce "
 "features."
-msgstr ""
-"ใช้โปรแกรมสะสมคะแนนเพื่อตอบแทนลูกค้าที่กลับมาซื้อซ้ำโดยใช้ฟีเจอร์อีคอมเมิร์ซ"
+msgstr "ใช้โปรแกรมสะสมคะแนนเพื่อตอบแทนลูกค้าที่กลับมาซื้อซ้ำโดยใช้ฟีเจอร์อีคอมเมิร์ซ"
 
 #. module: hair_salon
 #: model:ir.model.fields,help:hair_salon.x_break
@@ -416,7 +480,7 @@ msgid ""
 "Manage Your Inventory: Input your hair care products and stock levels in the "
 "Inventory app."
 msgstr ""
-"จัดการสินค้าคงคลังของคุณ: ป้อนผลิตภัณฑ์ดูแลเส้นผมและระดับสต็อกของคุณในแอปสินค้าคงคลัง"
+"จัดการคลังสินค้าของคุณ: ป้อนผลิตภัณฑ์ดูแลเส้นผมและระดับสต็อกของคุณในแอปคลังสินค้า"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
@@ -439,8 +503,7 @@ msgstr ""
 msgid ""
 "Manage your team of stylists efficiently with the Employees and Planning "
 "apps."
-msgstr ""
-"จัดการทีมช่างทำผมของคุณอย่างมีประสิทธิภาพด้วยแอปข้อมูลพนักงานและการวางแผน"
+msgstr "จัดการทีมช่างทำผมของคุณอย่างมีประสิทธิภาพด้วยแอปข้อมูลพนักงานและการวางแผน"
 
 #. module: hair_salon
 #: model:appointment.type,name:hair_salon.appointment_type_4
@@ -464,7 +527,7 @@ msgid ""
 "Monitor your inventory levels closely to ensure you have popular products in "
 "stock."
 msgstr ""
-"ตรวจสอบระดับสินค้าคงคลังของคุณอย่างใกล้ชิดเพื่อให้แน่ใจว่าคุณมีผลิตภัณฑ์ยอดนิยมอยู่ในสต็อก"
+"ตรวจสอบระดับคลังสินค้าของคุณอย่างใกล้ชิดเพื่อให้แน่ใจว่าคุณมีผลิตภัณฑ์ยอดนิยมอยู่ในสต็อก"
 
 #. module: hair_salon
 #: model:product.template,name:hair_salon.product_product_7_product_template
@@ -481,8 +544,15 @@ msgstr ""
 msgid ""
 "Odoo offers you infinite possibilities to enhance your hair salon business, "
 "such as:"
+msgstr "Odoo มอบโอกาสที่ไม่มีที่สิ้นสุดให้กับคุณเพื่อยกระดับธุรกิจร้านทำผมของคุณ เช่น:"
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid ""
+"Of course, this is just an overview of the features included in this "
+"package. Feel free to\n"
+"        add new apps, delete/modify demo data, and test everything around!"
 msgstr ""
-"Odoo มอบโอกาสที่ไม่มีที่สิ้นสุดให้กับคุณเพื่อยกระดับธุรกิจร้านทำผมของคุณ เช่น:"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
@@ -504,8 +574,7 @@ msgid ""
 "the best advices and haircuts."
 msgstr ""
 "ช่างทำผมของเรามีประสบการณ์และสามารถให้คำแนะนำ\n"
-"                                                                                            "
-"ด้านการตัดผมที่ดีที่สุดกับคุณ"
+"                                                                                            ด้านการตัดผมที่ดีที่สุดกับคุณ"
 
 #. module: hair_salon
 #: model:ir.model.fields,field_description:hair_salon.x_appointment_part_1
@@ -558,8 +627,9 @@ msgid ""
 "Remember, Odoo is flexible and can adapt to your specific salon needs. Don't "
 "hesitate to explore and customize as your business grows!"
 msgstr ""
-"อย่าลืมว่า Odoo มีความยืดหยุ่นและสามารถปรับตัวให้เข้ากับความต้องการเฉพาะของร้านทำผมของคุณได้"
-"! อย่ารอช้าและปรับแต่งตามที่ธุรกิจของคุณเติบโตขึ้น!"
+"อย่าลืมว่า Odoo "
+"มีความยืดหยุ่นและสามารถปรับตัวให้เข้ากับความต้องการเฉพาะของร้านทำผมของคุณได้! "
+"อย่ารอช้าและปรับแต่งตามที่ธุรกิจของคุณเติบโตขึ้น!"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.header_call_to_action
@@ -584,8 +654,7 @@ msgstr ""
 msgid ""
 "Set Up Your Services: Navigate to Sales &amp;gt; Products and set up your "
 "hair salon services and products."
-msgstr ""
-"ตั้งค่าบริการของคุณ: ไปที่การขายและผลิตภัณฑ์ และตั้งค่าบริการและผลิตภัณฑ์ร้านทำผมของคุณ"
+msgstr "ตั้งค่าบริการของคุณ: ไปที่การขายและผลิตภัณฑ์ และตั้งค่าบริการและผลิตภัณฑ์ร้านทำผมของคุณ"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
@@ -627,8 +696,7 @@ msgstr ""
 msgid ""
 "Start Booking Appointments: Begin using the Appointment app to schedule "
 "client services."
-msgstr ""
-"เริ่มการจองการนัดหมาย: เริ่มใช้แอปการนัดหมายเพื่อกำหนดตารางการบริการลูกค้า"
+msgstr "เริ่มการจองการนัดหมาย: เริ่มใช้แอปการนัดหมายเพื่อกำหนดตารางการบริการลูกค้า"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.homepage
@@ -653,10 +721,10 @@ msgid ""
 "your online presence, this package has everything you need to streamline "
 "your operations and delight your clients."
 msgstr ""
-"คู่มือนี้จะช่วยคุณในการนำทางฟีเจอร์สำคัญต่างๆ "
-"และทำให้ธุรกิจร้านเสริมสวยของคุณดำเนินไปอย่างมีประสิทธิภาพ ตั้งแต่การจัดการนัดหมาย "
-"การขายบริการและผลิตภัณฑ์ การจัดการสินค้าคงคลัง ไปจนถึงการสร้างตัวตนทางออนไลน์ "
-"แพ็คเกจนี้มีทุกสิ่งที่คุณต้องการเพื่อปรับปรุงการดำเนินงานและสร้างความพึงพอใจให้กับลูกค้าของคุณ"
+"คู่มือนี้จะช่วยคุณในการนำทางฟีเจอร์สำคัญต่างๆ และทำให้ธุรกิจร้านเสริมสวยของคุณดำเนินไปอย่างมีประสิ"
+"ทธิภาพ ตั้งแต่การจัดการนัดหมาย การขายบริการและผลิตภัณฑ์ การจัดการคลังสินค้า ไปจนถึงการสร้างตัว"
+"ตนทางออนไลน์ แพ็คเกจนี้มีทุกสิ่งที่คุณต้องการเพื่อปรับปรุงการดำเนินงานและสร้างความพึงพอใจให้กับลูกค้"
+"าของคุณ"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
@@ -706,8 +774,7 @@ msgid ""
 "welcome whatever their gender."
 msgstr ""
 "เรามีบริการทั้งผมยาวและผมสั้น ทุกคนสามารถใช้บริการ\n"
-"                                                                                            "
-"ได้ทุกเพศทุกวัย"
+"                                                                                            ได้ทุกเพศทุกวัย"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.homepage
@@ -717,8 +784,7 @@ msgid ""
 "your hair and the environment."
 msgstr ""
 "เราทำงานด้วยผลิตภัณฑ์ธรรมชาติที่เป็นมิตรกับสิ่งแวดล้อมเพื่อ\n"
-"                                                                                            "
-"ปกป้องทั้งเส้นผมและสิ่งแวดล้อมของคุณ"
+"                                                                                            ปกป้องทั้งเส้นผมและสิ่งแวดล้อมของคุณ"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
@@ -743,8 +809,23 @@ msgstr ""
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
 msgid "Would you like to discuss your Odoo setup with us or go even further?"
+msgstr "คุณต้องการพูดคุยเกี่ยวกับการตั้งค่า Odoo ของคุณกับเราหรือพูดคุยเพิ่มเติมหรือไม่"
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid ""
+"You didn't import demo data? You can still do it. Go to Apps &gt; Industries "
+"&gt; Upgrade\n"
+"            your Hair Salon package and check the related box"
 msgstr ""
-"คุณต้องการพูดคุยเกี่ยวกับการตั้งค่า Odoo ของคุณกับเราหรือพูดคุยเพิ่มเติมหรือไม่"
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid ""
+"You should be able to execute the following flows to have an overview of "
+"various flows you\n"
+"        can quickly execute with this package using Odoo."
+msgstr ""
 
 #. module: hair_salon
 #: model:ir.model.fields,field_description:hair_salon.x_visibility

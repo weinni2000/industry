@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-30 11:06+0000\n"
-"PO-Revision-Date: 2025-11-20 09:41+0000\n"
+"POT-Creation-Date: 2026-02-17 11:20+0000\n"
+"PO-Revision-Date: 2025-12-17 15:56+0000\n"
 "Last-Translator: \"Chloe Wang (chwa)\" <chwa@odoo.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/"
 "projects/odoo-19/account_pos_settle_due/zh_Hans/>\n"
@@ -18,12 +18,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: account_pos_settle_due
 #: model:base.automation,name:account_pos_settle_due.account_pos_settle_due_on_invoice_confirmation
 msgid "Account POS Settle Due: On Invoice Confirmation"
 msgstr "账户 POS 结算到期：发票确认时"
+
+#. module: account_pos_settle_due
+#: model:base.automation,name:account_pos_settle_due.account_pos_settle_due_on_invoice_creation
+msgid "Account POS Settle Due: On Invoice Creation"
+msgstr ""
 
 #. module: account_pos_settle_due
 #: model:ir.actions.server,name:account_pos_settle_due.account_pos_settle_due_balance_customer_account
@@ -33,7 +38,7 @@ msgstr "账户POS 结算到期：客户账户余额"
 #. module: account_pos_settle_due
 #: model:ir.actions.server,name:account_pos_settle_due.account_pos_settle_due_settle_pos_orders
 msgid "Account Pos Settle Due: Settle PoS orders"
-msgstr ""
+msgstr "账户POS结算到期：结算POS订单"
 
 #. module: account_pos_settle_due
 #: model:ir.model.fields,field_description:account_pos_settle_due.account_move_amount_due_total
@@ -43,12 +48,12 @@ msgstr ""
 #. module: account_pos_settle_due
 #: model_terms:ir.ui.view,arch_db:account_pos_settle_due.account_pos_settle_due_res_partner_form
 msgid "POS due amount"
-msgstr ""
+msgstr "POS 应付金额"
 
 #. module: account_pos_settle_due
 #: model:ir.model.fields,field_description:account_pos_settle_due.account_move_line_pos_order_id
 msgid "PoS order"
-msgstr ""
+msgstr "POS 订单"
 
 #. module: account_pos_settle_due
 #: model_terms:ir.ui.view,arch_db:account_pos_settle_due.account_pos_settle_due_account_move_form

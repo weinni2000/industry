@@ -1,6 +1,6 @@
 {
     'name': 'DIY Workshops',
-    'version': '1.0',
+    'version': '1.1',
     'category': 'Services',
     'author': 'Odoo S.A.',
     'depends': [
@@ -30,6 +30,7 @@
         'data/knowledge_article_favorite.xml',
     ],
     'demo': [
+        'demo/res_company.xml',
         'demo/product_pricelist.xml',
         'demo/product_product.xml',
         'demo/loyalty_program.xml',
@@ -59,6 +60,7 @@
         'data/knowledge_article.xml',
         'demo/website_view.xml',
     ],
+    'application': True,
     'images': [
         'images/main.png',
     ],

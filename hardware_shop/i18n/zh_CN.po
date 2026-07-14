@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 11:57+0000\n"
+"POT-Creation-Date: 2026-06-12 18:15+0000\n"
 "PO-Revision-Date: 2025-11-17 11:08+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/"
@@ -81,8 +81,8 @@ msgid ""
 "Apps &gt; Industries &gt; Upgrade your Hardware Shop package and check the "
 "related box."
 msgstr ""
-"<strong>您没有导入演示数据？</strong>现在仍然可以执行。转到应用程序 &gt; "
-"行业 &gt; 升级您的硬件商店软件包，然后选中相关复选框。"
+"<strong>您没有导入演示数据？</strong>现在仍然可以执行。转到应用程序 &gt; 行"
+"业 &gt; 升级您的硬件商店软件包，然后选中相关复选框。"
 
 #. module: hardware_shop
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
@@ -92,10 +92,10 @@ msgid ""
 "in Odoo and go live with your <strong><span style=\"color: #875A7B;\">E-"
 "shop</span></strong> in a few minutes."
 msgstr ""
-"通过简单的操作，即可制作免费、个性化、整合全面功能的 <strong><span style="
-"\"color: #875A7B;\">网站</span></strong> "
-"。只需几分钟设置，即可开始用Odoo接收订单，并将你的 <strong><span style="
-"\"color: #875A7B;\">电子商店</span></strong> 正式上线。"
+"通过简单的操作，即可制作免费、个性化、整合全面功能的 <strong><span "
+"style=\"color: #875A7B;\">网站</span></strong> 。只需几分钟设置，即可开始用"
+"Odoo接收订单，并将你的 <strong><span style=\"color: #875A7B;\">电子商店</"
+"span></strong> 正式上线。"
 
 #. module: hardware_shop
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
@@ -142,8 +142,9 @@ msgid ""
 "As you do not have enough products on hand, plan the shipping for later. On "
 "the payment screen, you can select the \"Ship Later\" button and enter the "
 "date you expect the shipment to be made."
-msgstr "由于手头没有足够的产品，请计划稍后发货。在付款页面，您可以选择 “稍后发货 "
-"”按钮，并输入您预计发货的日期。"
+msgstr ""
+"由于手头没有足够的产品，请计划稍后发货。在付款页面，您可以选择 “稍后发货 ”按"
+"钮，并输入您预计发货的日期。"
 
 #. module: hardware_shop
 #: model:product.template,name:hardware_shop.product_template_100
@@ -154,11 +155,6 @@ msgstr "亚洲. 防水 Hydroloc"
 #: model:product.template,name:hardware_shop.product_template_102
 msgid "BIRLA (arc) WALL PUTTY RAFF (MF) 40 kg"
 msgstr "BIRLA（弧形）墙面粘合剂（中型）40 千克"
-
-#. module: hardware_shop
-#: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
-msgid "Basics"
-msgstr "基础"
 
 #. module: hardware_shop
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
@@ -193,16 +189,6 @@ msgid "CP-Bath"
 msgstr "CP浴缸"
 
 #. module: hardware_shop
-#: model:pos.payment.method,name:hardware_shop.pos_payment_method_1
-msgid "Cash"
-msgstr "现金"
-
-#. module: hardware_shop
-#: model:account.journal,name:hardware_shop.cash
-msgid "Cash (Hardware shop)"
-msgstr "现金(硬件商店)"
-
-#. module: hardware_shop
 #: model:pos.category,name:hardware_shop.pos_category_4
 msgid "Chemical"
 msgstr "化学"
@@ -221,16 +207,6 @@ msgstr "布拉旺城市机顶盒支架"
 #: model:product.attribute,name:hardware_shop.product_attribute_4
 msgid "Color"
 msgstr "颜色"
-
-#. module: hardware_shop
-#: model:pos.payment.method,name:hardware_shop.pos_payment_method_2
-msgid "Customer Account"
-msgstr "客户帐号"
-
-#. module: hardware_shop
-#: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
-msgid "Deliver your products"
-msgstr "交付您的产品"
 
 #. module: hardware_shop
 #: model:product.attribute,name:hardware_shop.product_attribute_5
@@ -292,12 +268,11 @@ msgid ""
 msgstr ""
 "你们好\n"
 "            <br/><br/>\n"
-"            您刚刚安装了 Odoo "
-"五金店软件包。这样，我们就为您安装了一系列必要的应用程序，让您的店铺高效运营"
-"。\n"
+"            您刚刚安装了 Odoo 五金店软件包。这样，我们就为您安装了一系列必要"
+"的应用程序，让您的店铺高效运营。\n"
 "            <br/><br/>\n"
-"            了解此软件包的基本功能，探索 Odoo "
-"为改善您的体验而提供的所有可能性。"
+"            了解此软件包的基本功能，探索 Odoo 为改善您的体验而提供的所有可能"
+"性。"
 
 #. module: hardware_shop
 #: model:product.attribute.value,name:hardware_shop.product_attribute_value_7
@@ -309,8 +284,9 @@ msgstr "高"
 msgid ""
 "If you go back to your Point of Sale, you can start a new order for 5 units "
 "of Asian. Water Proofing Hydroloc for Ferrous Hardware, another B2B customer."
-msgstr "如果您回到销售点，您可以开始一个 5 "
-"个单位，用于黑色金属五金件的的亚洲防水Hydroloc新订单，这是另一个 B2B 客户。"
+msgstr ""
+"如果您回到销售点，您可以开始一个 5 个单位，用于黑色金属五金件的的亚洲防水"
+"Hydroloc新订单，这是另一个 B2B 客户。"
 
 #. module: hardware_shop
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
@@ -318,9 +294,9 @@ msgid ""
 "If you navigate to your \"Purchase App\", you can see that a new Purchase "
 "Order for Ferrous Hardware has been automatically generated. It will ensure "
 "a replenishment for Asian. Water Proofing Hydroloc."
-msgstr "如果您导航到 "
-"“采购应用程序”，就会看到自动生成了一个新的黑色金属五金件的采购订单。"
-"这将确保为亚洲防水 Hydroloc补货。"
+msgstr ""
+"如果您导航到 “采购应用程序”，就会看到自动生成了一个新的黑色金属五金件的采购订"
+"单。这将确保为亚洲防水 Hydroloc补货。"
 
 #. module: hardware_shop
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
@@ -339,7 +315,8 @@ msgstr "JK 细腻墙面腻子"
 msgid ""
 "Let's say your customer Ace Hardware just called you to order 30 Asian. "
 "Water Proofing Hydroloc."
-msgstr "比方说，您的客户 Ace Hardware 刚刚打电话给您，要求订购 30 份 Asian. 防水 "
+msgstr ""
+"比方说，您的客户 Ace Hardware 刚刚打电话给您，要求订购 30 份 Asian. 防水 "
 "Hydroloc."
 
 #. module: hardware_shop
@@ -352,11 +329,11 @@ msgid ""
 "strong>, and <strong><span style=\"color: #875A7B;\">SMS Marketing</span></"
 "strong>"
 msgstr ""
-"通过 Odoo <strong><span style=\"color: #875A7B;\""
-">营销自动化</span></strong>、<strong><span style=\"color: #875A7B;\""
-">电子邮件营销</span></strong>、<strong><span style=\"color: #875A7B;\""
-">社交媒体营销</span></strong>和<strong><span style=\"color: #875A7B;\""
-">短信营销</span></strong>，集中管理您的所有沟通渠道"
+"通过 Odoo <strong><span style=\"color: #875A7B;\">营销自动化</span></"
+"strong>、<strong><span style=\"color: #875A7B;\">电子邮件营销</span></"
+"strong>、<strong><span style=\"color: #875A7B;\">社交媒体营销</span></strong>"
+"和<strong><span style=\"color: #875A7B;\">短信营销</span></strong>，集中管理"
+"您的所有沟通渠道"
 
 #. module: hardware_shop
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
@@ -409,8 +386,9 @@ msgstr "现在，我们已经下了所有这些订单，是时候购买缺失的
 msgid ""
 "Odoo is entirely integrated into an App. Download it to turn your phone into "
 "an additional scanner (and much more)."
-msgstr "Odoo 完全集成在一个应用程序中。下载后，您的手机就会变成一个额外的扫描仪 "
-"(还有更多功能)."
+msgstr ""
+"Odoo 完全集成在一个应用程序中。下载后，您的手机就会变成一个额外的扫描仪 (还有"
+"更多功能)."
 
 #. module: hardware_shop
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
@@ -423,7 +401,8 @@ msgid ""
 "Of course, this is just an overview of the features included in this "
 "package. Feel free to add new apps, delete/modify demo data, and test "
 "everything around!"
-msgstr "当然，这只是该功能包所含功能的简要概述。欢迎您随时添加新应用、删除/修改演示数"
+msgstr ""
+"当然，这只是该功能包所含功能的简要概述。欢迎您随时添加新应用、删除/修改演示数"
 "据，并尽情测试各项功能！"
 
 #. module: hardware_shop
@@ -432,13 +411,9 @@ msgid ""
 "Once the order is placed, you can see that the top left button switches to "
 "\"Receive products\". Click it to open your receipt order and validate it to "
 "confirm that this product is back in stock."
-msgstr "下单后，您可以看到左上角的按钮切换为 "
-"“接收产品”。点击该按钮打开收货订单并验证，确认该产品已恢复库存。"
-
-#. module: hardware_shop
-#: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
-msgid "Order from the sales application"
-msgstr "从销售应用程序下达的订单"
+msgstr ""
+"下单后，您可以看到左上角的按钮切换为 “接收产品”。点击该按钮打开收货订单并验"
+"证，确认该产品已恢复库存。"
 
 #. module: hardware_shop
 #: model:product.template,name:hardware_shop.product_pos_delivery_product_template
@@ -451,16 +426,6 @@ msgid "Pioneer PVC Adhesive"
 msgstr "Pioneer PVC 粘结剂"
 
 #. module: hardware_shop
-#: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
-msgid "Point of Sale, customer management"
-msgstr "销售点, 客户管理"
-
-#. module: hardware_shop
-#: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
-msgid "Point of Sale, ship later"
-msgstr "销售点, 稍后发货"
-
-#. module: hardware_shop
 #: model:product.pricelist,name:hardware_shop.product_pricelist_2
 msgid "Pricelist For Local Customer"
 msgstr "本地客户价格表"
@@ -469,11 +434,6 @@ msgstr "本地客户价格表"
 #: model:product.pricelist,name:hardware_shop.product_pricelist_1
 msgid "Pricelist For Special Customer"
 msgstr "特殊的客户价格表"
-
-#. module: hardware_shop
-#: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
-msgid "Purchase products"
-msgstr "采购产品"
 
 #. module: hardware_shop
 #: model:product.attribute,name:hardware_shop.product_attribute_brand
@@ -485,8 +445,9 @@ msgstr "质量"
 msgid ""
 "Register Ace Hardware's payment. You can now go back to your main dashboard "
 "by selecting \"Backend\" in the top-right burger menu."
-msgstr "注册人 Ace Hardware 的付款。现在，您可以选择右上角汉堡菜单中的 "
-"“后台”，回到主仪表板。"
+msgstr ""
+"注册人 Ace Hardware 的付款。现在，您可以选择右上角汉堡菜单中的 “后台”，回到主"
+"仪表板。"
 
 #. module: hardware_shop
 #: model:product.template,name:hardware_shop.product_template_118
@@ -554,7 +515,8 @@ msgstr "TAB 橱柜拉手（ZC）"
 msgid ""
 "That's it. You can now send the quotation by email, or confirm it directly "
 "for this demo purpose. This order is now placed."
-msgstr "就是这样。现在您可以通过电子邮件发送报价单，或直接确认报价单，以便进行演示。"
+msgstr ""
+"就是这样。现在您可以通过电子邮件发送报价单，或直接确认报价单，以便进行演示。"
 "该订单现已下达。"
 
 #. module: hardware_shop
@@ -575,9 +537,9 @@ msgid ""
 "to scan your products and create new entries directly from this App to "
 "encode new products faster than ever."
 msgstr ""
-"使用 <strong><span style=\"color： #875A7B;\"> "
-"条码应用程序</span></strong>扫描您的产品，并直接从该应用程序创建新条目，以比"
-"以往更快的速度对新产品进行编码。"
+"使用 <strong><span style=\"color： #875A7B;\"> 条码应用程序</span></strong>扫"
+"描您的产品，并直接从该应用程序创建新条目，以比以往更快的速度对新产品进行编"
+"码。"
 
 #. module: hardware_shop
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
@@ -585,8 +547,8 @@ msgid ""
 "Use the <strong><span style=\"color: #875A7B;\">Inventory App</span></"
 "strong> to manage your orders receive and deliver your products."
 msgstr ""
-"使用 <strong><span style=\"color： #875A7B;\""
-">库存应用程序</span></strong>来管理您的订单，接收和交付您的产品。"
+"使用 <strong><span style=\"color： #875A7B;\">库存应用程序</span></strong>来"
+"管理您的订单，接收和交付您的产品。"
 
 #. module: hardware_shop
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
@@ -596,9 +558,9 @@ msgid ""
 "your customers and manage their accounts and advantages. You will also have "
 "the possibility to sale in your shop and choose to ship later the order."
 msgstr ""
-"使用 <strong><span style=\"color： #875A7B;\""
-">销售点</span></strong>在办公桌前进行销售。您可以直接为客户订购新产品，管理他"
-"们的账户和优势。您还可以在自己的商店进行销售，并选择稍后发货。"
+"使用 <strong><span style=\"color： #875A7B;\">销售点</span></strong>在办公桌"
+"前进行销售。您可以直接为客户订购新产品，管理他们的账户和优势。您还可以在自己"
+"的商店进行销售，并选择稍后发货。"
 
 #. module: hardware_shop
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
@@ -606,8 +568,8 @@ msgid ""
 "Use the <strong><span style=\"color: #875A7B;\">Purchase App</span></strong> "
 "to order products from your suppliers."
 msgstr ""
-"使用<strong><span style=\"color: #875A7B;\">采购应用程序</span></strong> "
-"向供应商订购产品。"
+"使用<strong><span style=\"color: #875A7B;\">采购应用程序</span></strong> 向供"
+"应商订购产品。"
 
 #. module: hardware_shop
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
@@ -617,9 +579,9 @@ msgid ""
 "the go using the <strong><span style=\"color: #875A7B;\">Invoicing App</"
 "span></strong>."
 msgstr ""
-"使用<strong><span style=\"color: #875A7B;\">销售应用程序</span></strong> "
-"为您的企业客户创建报价/销售订单，并使用发票应用程序 <strong><span style="
-"\"color: #875A7B;\">随时随地为他们开发票</span></strong>."
+"使用<strong><span style=\"color: #875A7B;\">销售应用程序</span></strong> 为您"
+"的企业客户创建报价/销售订单，并使用发票应用程序 <strong><span style=\"color: "
+"#875A7B;\">随时随地为他们开发票</span></strong>."
 
 #. module: hardware_shop
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
@@ -671,11 +633,11 @@ msgid ""
 "go below the minimum quantity indicated and replenishes to the maximum "
 "quantity encoded."
 msgstr ""
-"您可以看到，采购订单建议补充 100 种产品。这是由于该特定产品的现有 “"
-"重新订购规则 ”所致。\n"
+"您可以看到，采购订单建议补充 100 种产品。这是由于该特定产品的现有 “重新订购规"
+"则 ”所致。\n"
 "                    <br/><br/>\n"
-"                    "
-"重新订货规则将确保我们的库存不低于所指示的最小数量，并补充到编码的最大数量。"
+"                    重新订货规则将确保我们的库存不低于所指示的最小数量，并补"
+"充到编码的最大数量。"
 
 #. module: hardware_shop
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
@@ -683,16 +645,18 @@ msgid ""
 "You can see that Ace Hardware benefits from a specific pricelist rebate of "
 "5% on everything they buy. Manage pricelists by navigating to Products &gt; "
 "Pricelists."
-msgstr "您可以看到，Ace Hardware 购买的所有产品都能享受 5%的特定价目表返利。"
-"通过导航至产品 &gt; 价目表来管理价目表。"
+msgstr ""
+"您可以看到，Ace Hardware 购买的所有产品都能享受 5%的特定价目表返利。通过导航"
+"至产品 &gt; 价目表来管理价目表。"
 
 #. module: hardware_shop
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
 msgid ""
 "You completed that demo use case! There are millions of other ways to adapt "
 "your Odoo setup to fit your business needs."
-msgstr "您完成了演示用例！还有数以百万计的其他方法来调整您的 Odoo "
-"设置，以满足您的业务需求。"
+msgstr ""
+"您完成了演示用例！还有数以百万计的其他方法来调整您的 Odoo 设置，以满足您的业"
+"务需求。"
 
 #. module: hardware_shop
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
@@ -706,8 +670,9 @@ msgstr "您只需通过电子邮件发送 “询价单”，或在下单后手�
 msgid ""
 "You should be able to execute the following flows to have an overview of "
 "various flows you can quickly implement with this package using Odoo."
-msgstr "您应该能够执行以下流程，以便对使用 Odoo "
-"软件包快速实施的各种流程有一个大致的了解。"
+msgstr ""
+"您应该能够执行以下流程，以便对使用 Odoo 软件包快速实施的各种流程有一个大致的"
+"了解。"
 
 #. module: hardware_shop
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
@@ -733,3 +698,30 @@ msgstr "如果您需要帮助！"
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
 msgid "request a demo"
 msgstr "申请演示"
+
+#~ msgid "Cash"
+#~ msgstr "现金"
+
+#~ msgid "Cash (Hardware shop)"
+#~ msgstr "现金(硬件商店)"
+
+#~ msgid "Customer Account"
+#~ msgstr "客户帐号"
+
+#~ msgid "Basics"
+#~ msgstr "基础"
+
+#~ msgid "Deliver your products"
+#~ msgstr "交付您的产品"
+
+#~ msgid "Order from the sales application"
+#~ msgstr "从销售应用程序下达的订单"
+
+#~ msgid "Point of Sale, customer management"
+#~ msgstr "销售点, 客户管理"
+
+#~ msgid "Point of Sale, ship later"
+#~ msgstr "销售点, 稍后发货"
+
+#~ msgid "Purchase products"
+#~ msgstr "采购产品"

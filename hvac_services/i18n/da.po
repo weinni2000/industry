@@ -3,15 +3,15 @@
 # * hvac_services
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# "Kira Petersen François (peti)" <peti@odoo.com>, 2025.
+# "Kira Petersen François (peti)" <peti@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 13:42+0000\n"
-"PO-Revision-Date: 2025-11-10 10:35+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-07-10 18:27+0000\n"
+"PO-Revision-Date: 2026-07-11 09:35+0000\n"
+"Last-Translator: \"Kira Petersen François (peti)\" <peti@odoo.com>\n"
 "Language-Team: Danish <https://translate.odoo.com/projects/odoo-19/"
 "hvac_services/da/>\n"
 "Language: da\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -27,6 +27,8 @@ msgid ""
 ",\n"
 "                    and feel free to"
 msgstr ""
+",\n"
+"                    og du kan altid"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -34,8 +36,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">💡</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Oplysningsbanner\">💡</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Oplysningsbanner\">💡</i>"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -43,8 +45,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">🚀</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Oplysningsbanner\">🚀</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Oplysningsbanner\">🚀</i>"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -52,8 +54,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">🎉</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Succesbanner\">🎉</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Succesbanner\">🎉</i>"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -61,8 +63,15 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Warning\">⚠️</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Advarselsbanner\">⚠️</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Advarselsbanner\">⚠️</i>"
+
+#. module: hvac_services
+#: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
+msgid ""
+"<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
+"normal\" aria-label=\"Banner Info\">💡</i>"
+msgstr ""
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -70,8 +79,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
 "normal\">💡</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Oplysningsbanner\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
+"<i data-oe-aria-label=\"Oplysningsbanner\" class=\"o_editor_banner_icon mb-3 "
+"fst-normal\">💡</i>"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -79,8 +88,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\">✅</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Succesbanner\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\">✅</i>"
+"<i data-oe-aria-label=\"Succesbanner\" class=\"o_editor_banner_icon mb-3 fst-"
+"normal\">✅</i>"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -88,28 +97,38 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\">📱</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Succesbanner\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\">📱</i>"
+"<i data-oe-aria-label=\"Succesbanner\" class=\"o_editor_banner_icon mb-3 fst-"
+"normal\">📱</i>"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.view_partner_stock_form
 msgid "<span class=\"o_stat_text\">Lots/Serial Numbers</span>"
+msgstr "<span class=\"o_stat_text\">Parti-/serienumre</span>"
+
+#. module: hvac_services
+#: model_terms:ir.ui.view,arch_db:hvac_services.product_view_kanban_catalog
+msgid "<span class=\"small\"> Documents</span>"
+msgstr ""
+
+#. module: hvac_services
+#: model_terms:ir.ui.view,arch_db:hvac_services.report_invoice_document_serials
+msgid "<span>Serial(s)</span>"
 msgstr ""
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "<strong>Basics</strong>"
-msgstr ""
+msgstr "<strong>Det grundlæggende</strong>"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "<strong>Do you want to go further?</strong>"
-msgstr ""
+msgstr "<strong>Vil du tage det et skridt videre?</strong>"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "<strong>Final word</strong>"
-msgstr ""
+msgstr "<strong>Afsluttende bemærkning</strong>"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -118,16 +137,19 @@ msgid ""
 "then\n"
 "                        to create a new one for your own usage.</strong>"
 msgstr ""
+"<strong>I en sådan situation er du velkommen til at eksperimentere med denne "
+"database og derefter\n"
+"                        oprette en ny til eget brug.</strong>"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "<strong>Use case</strong>"
-msgstr ""
+msgstr "<strong>Brugsscenarie</strong>"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "A customer call you for an incident on a device?"
-msgstr ""
+msgstr "Har en kunde ringet til dig på grund af et problem med en enhed?"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -141,6 +163,8 @@ msgid ""
 "this\n"
 "                device is under ongoing maintenance contract or not."
 msgstr ""
+"En vedligeholdelsesindikator viser med ét blik, om der er indgået en\n"
+"                vedligeholdelsesaftale for apparatet."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -149,12 +173,16 @@ msgid ""
 "                    <font class=\"text-o-color-1\">Contacts App</font>\n"
 "                </strong>."
 msgstr ""
+"Få adgang til oversigten over tilgængelige enheder og tilhørende eksterne "
+"tjenester via <strong>\n"
+"                    <font class=\"text-o-color-1\">Kontakerappen</font>\n"
+"                </strong>."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.x_project_task_worksheet_template_form_view
 #: model_terms:ir.ui.view,arch_db:hvac_services.x_project_task_worksheet_template_qweb_view
 msgid "Add details about your intervention..."
-msgstr ""
+msgstr "Indtast oplysninger om din indsats her ..."
 
 #. module: hvac_services
 #: model:ir.actions.server,name:hvac_services.add_new_device_to_customer
@@ -172,11 +200,13 @@ msgid ""
 "Added\n"
 "                                    Refrigerant"
 msgstr ""
+"Tilføjet\n"
+"                                    kølemiddel"
 
 #. module: hvac_services
 #: model:ir.model.fields,field_description:hvac_services.x_added_refrigerant_field
 msgid "Added Refrigerant"
-msgstr ""
+msgstr "Tilføjet kølemiddel"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -184,6 +214,14 @@ msgid ""
 "Assign the Refrigerant category to refrigerant products you need to monitor "
 "from\n"
 "                    the Inventory or Sales Apps."
+msgstr ""
+"Tildel kategorien \"Kølemidler\" til de kølemiddelprodukter, du vil overvåge "
+"via\n"
+"                    Lager- eller Salgsapps."
+
+#. module: hvac_services
+#: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
+msgid "Attaching brochures to your quotations for your customers;"
 msgstr ""
 
 #. module: hvac_services
@@ -197,10 +235,22 @@ msgid ""
 "not those to keep your\n"
 "                    business running."
 msgstr ""
+"Den automatiske udløser for genopfyldningsreglen kører én gang dagligt og "
+"opretter automatisk en\n"
+"                    indkøbsordre med de korrekte mængder, som du kun skal "
+"bekræfte.<br/>Det\n"
+"                    betyder, at du ikke engang behøver at overveje, hvilke "
+"varer der skal bestilles for at holde\n"
+"                    virksomheden kørende."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "Billing repair tasks"
+msgstr "Fakturering af reparationsopgaver"
+
+#. module: hvac_services
+#: model:documents.tag,name:hvac_services.documents_tag_3
+msgid "Brochure"
 msgstr ""
 
 #. module: hvac_services
@@ -210,6 +260,9 @@ msgid ""
 "few products,\n"
 "            sale orders and more."
 msgstr ""
+"Når du uploader dette moduls demodata, bliver din database fyldt med nye "
+"produkter,\n"
+"            salgsordrer m.m."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.x_new_devices_view_form
@@ -219,18 +272,31 @@ msgstr "Annullér"
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "Check the invoice and then confirm it for payment."
+msgstr "Kontrollér fakturaen og godkend den til betaling."
+
+#. module: hvac_services
+#: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
+msgid ""
+"Click the Share button to reach the document sharing modal and select your "
+"customer\n"
+"                to share it with!"
+msgstr ""
+
+#. module: hvac_services
+#: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
+msgid "Click the documents shortcut from the product tiles."
 msgstr ""
 
 #. module: hvac_services
 #: model:product.template,name:hvac_services.product_template_4
 msgid "Com Koil Cleaner"
-msgstr ""
+msgstr "Com Koil-rengøringsmiddel"
 
 #. module: hvac_services
 #: model:ir.model.fields,field_description:hvac_services.x_comments_field
 #: model_terms:ir.ui.view,arch_db:hvac_services.x_project_task_worksheet_template_qweb_view
 msgid "Comments"
-msgstr "Bemærkninger"
+msgstr "Kommentarer"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -239,11 +305,14 @@ msgid ""
 "to bill\n"
 "                your customer."
 msgstr ""
+"Bekræft ordren for at afslutte handlen, og opret derefter fakturaen for at "
+"sende den til\n"
+"                din kunde."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.x_project_task_worksheet_template_form_view
 msgid "Conformity"
-msgstr ""
+msgstr "Overensstemmelse"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -251,6 +320,8 @@ msgid ""
 "Create anew sale order but this time select the Maintenance quotation "
 "template."
 msgstr ""
+"Opret en ny salgsordre, men vælg denne gang skabelonen for "
+"\"vedligeholdelse\"."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -258,6 +329,9 @@ msgid ""
 "Create an invoice, which will expense the reported timesheet inputs and\n"
 "                products added."
 msgstr ""
+"Opret en faktura, som automatisk inkluderer de indtastede tidsregistreringer "
+"og\n"
+"                produkter."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -266,6 +340,10 @@ msgid ""
 "                    <font class=\"text-o-color-1\">Sales App</font>\n"
 "                </strong>."
 msgstr ""
+"Opret fantastiske tilbud, og administrér dine tjenester i Salgsappen "
+"<strong>\n"
+"                    <font class=\"text-o-color-1\"></font>\n"
+"                </strong> ."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.x_project_task_worksheet_template_search_view
@@ -296,11 +374,14 @@ msgid ""
 "to\n"
 "                    leverage the replenishment rules."
 msgstr ""
+"Angiv for hvert produkt listen over potentielle leverandører i fanen "
+"'Indkøb'\n"
+"                    for at kunne bruge genopfyldningsreglerne."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "Define the Planned Date and Assignee for those tasks."
-msgstr ""
+msgstr "Angiv den planlagte dato og den ansvarlige for opgaverne."
 
 #. module: hvac_services
 #: model:ir.model.fields,field_description:hvac_services.x_delivery_field
@@ -316,6 +397,10 @@ msgid ""
 "Inside and outside fixtures\n"
 "Cleaning"
 msgstr ""
+"Levering\n"
+"Vægboring og rørplacering\n"
+"Indendørs og udendørs armaturer\n"
+"Rengøring"
 
 #. module: hvac_services
 #: model:ir.model.fields,field_description:hvac_services.x_delivery_date_field
@@ -324,7 +409,7 @@ msgid "Delivery Date"
 msgstr "Leveringsdato"
 
 #. module: hvac_services
-#: model:ir.model.fields,field_description:hvac_services.x_device_id_field
+#: model:ir.model.fields,field_description:hvac_services.x_product_id_field
 #: model:sale.order.template.line,name:hvac_services.sale_order_template_line_2
 #: model:sale.order.template.line,name:hvac_services.sale_order_template_line_6
 msgid "Device"
@@ -342,6 +427,19 @@ msgid ""
 "offers to\n"
 "            improve your experience."
 msgstr ""
+"Få indsigt i de grundlæggende funktioner i denne pakke, og udforsk de mange "
+"muligheder, Odoo tilbyder, for at\n"
+"            optimere din oplevelse."
+
+#. module: hvac_services
+#: model:ir.actions.act_window,name:hvac_services.action_product_related_document
+msgid "Documents"
+msgstr ""
+
+#. module: hvac_services
+#: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
+msgid "Easing the sharing of documents on the field on customer's request."
+msgstr ""
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -350,10 +448,18 @@ msgid ""
 "                    <font class=\"text-o-color-1\">Purchase Apps</font>\n"
 "                </strong>."
 msgstr ""
+"Sortér effektivt dine udbydere med <strong>\n"
+"                    <font class=\"text-o-color-1\">Indkøbsapps</font>\n"
+"                </strong>."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "Executing tasks"
+msgstr "Udførelse af opgaver"
+
+#. module: hvac_services
+#: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
+msgid "Feel free to add some document tags for clarity purpose."
 msgstr ""
 
 #. module: hvac_services
@@ -366,6 +472,8 @@ msgstr "Udkørende service"
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "Fill in the form by creating or selecting a customer contact."
 msgstr ""
+"Udfyld formularen ved at oprette en ny eller vælge en eksisterende "
+"kundekontakt."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -377,16 +485,24 @@ msgid ""
 "            App</strong> with relationships with <strong>Field Service App</"
 "strong>."
 msgstr ""
+"Det er afgørende for din virksomhed at kunne finde kundens enheder på få\n"
+"            sekunder og få adgang til deres driftshistorik. "
+"Med<strong>Kontakerappen\n"
+"            </strong> og integration til <strong>Udkørende Service-appen</"
+"strong> kan du holde styr på dette hele tiden."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "First they'll start the task which trigger a time counter."
 msgstr ""
+"Udfyld formularen ved at oprette en ny eller vælge en eksisterende "
+"kundekontakt."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "For most products, you might want to have at all time some available."
 msgstr ""
+"Det er som regel en god idé at holde et vist lager af de fleste produkter."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -397,6 +513,17 @@ msgid ""
 "to order quantity with\n"
 "                your best supplier<br/>Order some AC to prevent running out!"
 msgstr ""
+"Når lagerbeholdningen er lav og under minimum, kan du med ét klik bestille\n"
+"                de nødvendige produkter.<br/>Indkøbsordren sendes automatisk "
+"til\n"
+"                din bedste leverandør<br/>Bestil AC i tide, så du ikke løber "
+"tør!"
+
+#. module: hvac_services
+#: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
+msgid ""
+"From a field service task, open then product catalog from the smart buttons."
+msgstr ""
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -405,15 +532,23 @@ msgid ""
 "            refrigerant products given heavy regulations apply to those "
 "products."
 msgstr ""
+"Fra <strong>Udkørende Service-appen</strong> kan du overvåge de forbrugte\n"
+"            kølemiddelprodukter, da der gælder strenge regler for håndtering "
+"af disse."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "From the <strong>Sales App</strong>, you can manage your orders."
-msgstr ""
+msgstr "Fra <strong>Salgsappen</strong> kan du administrere dine ordrer."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "From the gear icon (⚙️) menu, select the New Device option."
+msgstr ""
+
+#. module: hvac_services
+#: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
+msgid "From the smart buttons, reach the product documents."
 msgstr ""
 
 #. module: hvac_services
@@ -424,12 +559,30 @@ msgstr "VVS- og ventilationsservice"
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "Hello there!"
+msgstr "Hej!"
+
+#. module: hvac_services
+#: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
+msgid ""
+"Hit the New or Upload button to add a new document to this product, select "
+"a\n"
+"                document and import it."
+msgstr ""
+
+#. module: hvac_services
+#: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
+msgid "Hit the Preview button to access the document itself."
+msgstr ""
+
+#. module: hvac_services
+#: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
+msgid "How do field worker access and share product documents?"
 msgstr ""
 
 #. module: hvac_services
 #: model:ir.model,name:hvac_services.x_project_task_worksheet_template
 msgid "INST/MAIN/REPA Worksheet"
-msgstr ""
+msgstr "Arbejdsark INST/VEDL/REPA"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -440,6 +593,11 @@ msgid ""
 "the history of those\n"
 "                devices as well."
 msgstr ""
+"Hvis du arbejder på produkter, der har andre serienumre, kan du tilføje dem "
+"i\n"
+"                fanen 'parti-/serienumre', så opgaven også bliver "
+"registreret i historikken for disse\n"
+"                enheder."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -449,6 +607,10 @@ msgid ""
 "                    demo data and try the Demo - Use Case (In the next "
 "Knowledge Article)"
 msgstr ""
+"Hvis du vil gennemgå en praktisk rundvisning af dette modul, bør du "
+"importere\n"
+"                    demodata og afprøve demoens brugsscenarie (som beskrevet "
+"i næste artikel i Vidensdelingsappen)"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -457,6 +619,8 @@ msgid ""
 "deletable and which\n"
 "            might be an issue for your traceability."
 msgstr ""
+"Under alle omstændigheder kan du have skrevet poster i journaler, som ikke\n"
+"            kan slettes, og som kan påvirke din sporbarhed."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -475,8 +639,13 @@ msgid ""
 "the search bar at the\n"
 "                    top!"
 msgstr ""
+"Private kunder har måske ikke så mange enheder som i\n"
+"                    Jessicas tilfælde.<br/>Hvis det er nødvendigt, kan du "
+"dog bruge søgefeltet øverst\n"
+"                    !"
 
 #. module: hvac_services
+#: model:documents.tag,name:hvac_services.documents_tag_1
 #: model:ir.model.fields.selection,name:hvac_services.x_operation_field_selection_installation
 #: model:product.template,name:hvac_services.product_template_installation
 #: model:sale.order.template.line,name:hvac_services.sale_order_template_line_3
@@ -492,23 +661,26 @@ msgid ""
 "                    <font class=\"text-o-color-1\">Invoicing App</font>\n"
 "                </strong>."
 msgstr ""
+"Fakturér på få sekunder, og hold styr på dine betalinger i <strong>\n"
+"                    <font class=\"text-o-color-1\">Faktureringsappen</font>\n"
+"                </strong>."
 
 #. module: hvac_services
 #: model:ir.model.fields,field_description:hvac_services.x_is_maintenance_field
 #: model:ir.model.fields,field_description:hvac_services.x_product_is_maintenance_field
 #: model_terms:ir.ui.view,arch_db:hvac_services.product_template_form_view
 msgid "Is Maintenance or Repair"
-msgstr ""
+msgstr "Er vedligeholdelse og reparation"
 
 #. module: hvac_services
 #: model:ir.model.fields,field_description:hvac_services.x_is_refrigerant_field
 msgid "Is Refrigerant"
-msgstr ""
+msgstr "Er kølemiddel"
 
 #. module: hvac_services
 #: model:product.template,name:hvac_services.product_template_6
 msgid "LG S12ET Split Airco 3.5kW"
-msgstr ""
+msgstr "LG S12ET Split Airco 3.5kW"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -518,6 +690,8 @@ msgid ""
 "                delivery to customer from the smart button at the top of the "
 "screen."
 msgstr ""
+"Sidst, men ikke mindst, bekræfter de leveringen af enheden ved at validere\n"
+"                den til kunden via smartknappen øverst på skærmen."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -527,19 +701,24 @@ msgid ""
 "                </strong> to\n"
 "                manipulate products and serials without mistake."
 msgstr ""
+"Brug<strong>\n"
+"                    <font class=\"text-o-color-1\"> Stregkodeappen</font>\n"
+"                </strong> til\n"
+"                nem og fejlfri håndtering af produkter og serienumre."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.project_task_form_view
 msgid "Lots/Serial Numbers"
-msgstr "Lot/Serienumre"
+msgstr "Parti-/serienumre"
 
 #. module: hvac_services
 #: model:ir.model.fields.selection,name:hvac_services.x_maintenance_field_selection_maintained
 #: model_terms:ir.ui.view,arch_db:hvac_services.stock_lot_form_view
 msgid "Maintained"
-msgstr ""
+msgstr "Vedligeholdt"
 
 #. module: hvac_services
+#: model:documents.tag,name:hvac_services.documents_tag_2
 #: model:ir.model.fields,field_description:hvac_services.x_maintenance_field
 #: model:ir.model.fields.selection,name:hvac_services.x_operation_field_selection_maintenance
 #: model:product.template,name:hvac_services.product_template_maintenance
@@ -550,20 +729,22 @@ msgstr "Vedligeholdelse"
 #. module: hvac_services
 #: model:product.template,name:hvac_services.product_template_8
 msgid "Maintenance Kit"
-msgstr ""
+msgstr "Vedligeholdelseskit"
 
 #. module: hvac_services
 #: model:sale.order.template.line,name:hvac_services.sale_order_template_line_4
 #: model:sale.order.template.line,name:hvac_services.sale_order_template_line_8
 msgid "Maintenance contracted once product is installed."
 msgstr ""
+"Vedligeholdelsen fastsættes kontraktmæssigt efter, at produktet er "
+"installeret."
 
 #. module: hvac_services
 #: model:ir.actions.act_window,name:hvac_services.get_maintenances_action
 #: model:ir.model.fields,field_description:hvac_services.x_maintenances_field
 #: model_terms:ir.ui.view,arch_db:hvac_services.stock_lot_form_view
 msgid "Maintenances"
-msgstr ""
+msgstr "Vedligeholdelse"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -574,6 +755,11 @@ msgid ""
 "                    <font class=\"text-o-color-1\">Accounting App</font>\n"
 "                </strong>."
 msgstr ""
+"Administrér din bogføring nemmere end nogensinde med et fuldt integreret "
+"miljø\n"
+"                i <strong>\n"
+"                    <font class=\"text-o-color-1\"> Regnskabsappen</font>\n"
+"                </strong>."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -584,11 +770,16 @@ msgid ""
 "transactions with your\n"
 "            suppliers."
 msgstr ""
+"Styring af lager og genopfyldning, så du aldrig løber tør for varer, foregår "
+"i<strong>\n"
+"            Lagerappen</strong>, mens<strong> Indkøbsappen</strong> "
+"håndterer transaktioner med dine\n"
+"            leverandører."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "Manual purchase orders"
-msgstr ""
+msgstr "Manuelle indkøbsordrer"
 
 #. module: hvac_services
 #: model:ir.model.fields.selection,name:hvac_services.x_primary_root_cause_field_selection_misuse
@@ -620,7 +811,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:hvac_services.x_maintenance_field_selection_no_maintenance
 #: model_terms:ir.ui.view,arch_db:hvac_services.stock_lot_form_view
 msgid "No Maintenance"
-msgstr ""
+msgstr "Ingen vedligeholdelse"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -630,6 +821,8 @@ msgid ""
 "                    this task nor the products would be charged to your "
 "customer."
 msgstr ""
+"Hvis feltet 'Opgave under garanti' er markeret,\n"
+"                    faktureres hverken arbejdstid eller produkter til kunden."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -640,6 +833,11 @@ msgid ""
 "automatically for you to\n"
 "                    plan!"
 msgstr ""
+"Bemærk, at vedligeholdelsesopgaver er defineret som årlige tilbagevendende "
+"opgaver.<br/>Når de er udført,\n"
+"                    oprettes automatisk en ny opgave til næste år, som du "
+"kan\n"
+"                    planlægge!"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -648,21 +846,24 @@ msgid ""
 "available for\n"
 "                you to know whether or not it still is under warranty."
 msgstr ""
+"Bemærk, at den første leveringsdato for enheden til din kunde er "
+"tilgængelig,\n"
+"                så du kan kontrollere, om garantien stadig gælder."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "Now Mike and Tom have some heavy duties as technicians..."
-msgstr ""
+msgstr "Nu har Mike og Tom nogle krævende opgaver som teknikere ..."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "Odoo is supported on mobile as well!<br/>Make sure your technicians"
-msgstr ""
+msgstr "Odoo understøttes også på mobilen!<br/>Sørg for, at dine teknikere"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "Odoo offers you infinite possibilities, such as:"
-msgstr ""
+msgstr "Odoo giver dig ubegrænsede muligheder, såsom:"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -672,26 +873,24 @@ msgid ""
 "            to add new apps, delete/modify demo data, and test everything "
 "around!"
 msgstr ""
+"Oversigten viser kun de funktioner, der følger med pakken. Du kan\n"
+"            tilføje nye apps, redigere eller slette demodata og afprøve "
+"funktionerne!"
 
 #. module: hvac_services
 #: model:base.automation,name:hvac_services.base_automation_fs_task_serials_on_delivery
 msgid "On Delivery Confirmed"
-msgstr ""
+msgstr "Ved bekræftet levering"
 
 #. module: hvac_services
 #: model:base.automation,name:hvac_services.base_automation_on_task_create
 msgid "On Project Task Create"
-msgstr ""
-
-#. module: hvac_services
-#: model:base.automation,name:hvac_services.base_automation_SO_serials
-msgid "On SO line Edit"
-msgstr ""
+msgstr "Når man opretter en projektopgave"
 
 #. module: hvac_services
 #: model:base.automation,name:hvac_services.base_automation_SO_line
 msgid "On SO line Serial Edit"
-msgstr ""
+msgstr "Ved redigering af serienummer i ordrelinjen"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -700,12 +899,15 @@ msgid ""
 "selection\n"
 "                    from the field service worksheet."
 msgstr ""
+"Kun de produkter, der har indstillingen 'Er kølemiddel', kan vælges\n"
+"                    fra arbejdsarket 'Udkørende service'."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid ""
 "Open her Lots/Serial Numbers from the smart buttons at the top of the screen."
 msgstr ""
+"Åbn dine parti- og serienumre via de intelligente knapper øverst på skærmen."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -716,10 +918,21 @@ msgid ""
 "                        and fill in the serial numbers.<br/>Once done, you "
 "can validate the order."
 msgstr ""
+"Åbn nu ordren fra den fjerde firmabestilling.<br/>Da produkterne leveres "
+"med\n"
+"                        serienumre, skal du indtaste dem. Klik på knappen "
+"'Detaljer' for hver linje\n"
+"                        og udfyld serienumrene.<br/>Når du er færdig, kan du "
+"bekræfte ordren."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "Open now the Fourth company order and confirm it as well."
+msgstr "Åbn nu den fjerde firmabestilling, og bekræft den også."
+
+#. module: hvac_services
+#: model:ir.actions.server,name:hvac_services.server_action_share_document
+msgid "Open related document share popup"
 msgstr ""
 
 #. module: hvac_services
@@ -732,6 +945,7 @@ msgstr ""
 msgid ""
 "Open the Contact App and find your customer, Jessica Martinez in this case."
 msgstr ""
+"Åbn Kontakterappen, og find din kunde – i dette tilfælde Jessica Martinez."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -740,6 +954,9 @@ msgid ""
 "All Tasks\n"
 "                menu."
 msgstr ""
+"Åbn Udkørende service-appen, og gå til \"Opgaver, der skal planlægges\" via "
+"menuen \"Alle opgaver\"\n"
+"                ."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -751,6 +968,10 @@ msgid ""
 "                are two since you don't expect those products from the same "
 "supplier."
 msgstr ""
+"Åbn Indkøbsappen, hvor der er 2 nye ordrer i tilbudsfase.<br/>Den ene\n"
+"                stammer fra reglerne for automatisk genopfyldning, og den "
+"anden fra din ordreanmodning.<br/>De\n"
+"                er adskilte, da produkterne ikke kommer fra samme leverandør."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -759,6 +980,9 @@ msgid ""
 "orders,\n"
 "                you expect two receipts."
 msgstr ""
+"Åbn kvitteringerne fra oversigten i Lagerappen.<br/>Da du har afgivet to "
+"ordrer,\n"
+"                bør du se to kvitteringer."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -767,11 +991,14 @@ msgid ""
 "Service\n"
 "                App."
 msgstr ""
+"Åbn rapporten om kølemiddelforbrug fra menuen 'Rapportering' i Udkørende "
+"service-\n"
+"                appen."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "Open the Replenishment from Operations menu in the Inventory App."
-msgstr ""
+msgstr "Gå til 'Genopfyldning' under drift i Lagerappen."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -779,6 +1006,9 @@ msgid ""
 "Open the Third Company order.<br/>If everything matches, validate the\n"
 "                        order!"
 msgstr ""
+"Åbn ordren fra den tredje virksomhed.<br/>Hvis alt stemmer, skal du "
+"bekræfte\n"
+"                        ordren!"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -789,6 +1019,17 @@ msgid ""
 "Then confirm your purchase\n"
 "                        order and expect the delivery shortly!"
 msgstr ""
+"Åbn indkøbsordren fra den tredje virksomhed, og tilføj en linje for "
+"forbrugsvarer\n"
+"                        efter behov – i dette tilfælde Com Koil-"
+"rengøringsmiddel. Bekræft derefter indkøbsordren,\n"
+"                        og forvent levering inden for kort tid!"
+
+#. module: hvac_services
+#: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
+msgid ""
+"Open the product of your choice, typically from Sales or Inventory Apps."
+msgstr ""
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -796,11 +1037,12 @@ msgid ""
 "Open the sale order for this repair, from the smart button at the top of the "
 "task."
 msgstr ""
+"Åbn salgsordren for reparationen via den intelligente knap øverst i opgaven."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "Open the serial to access its details information:"
-msgstr ""
+msgstr "Åbn serienummeret for at se detaljerede oplysninger:"
 
 #. module: hvac_services
 #: model:ir.model.fields,field_description:hvac_services.x_operation_field
@@ -815,6 +1057,9 @@ msgid ""
 "ordered when\n"
 "            getting out of stock."
 msgstr ""
+"Andre produkter, såsom rengøringsmidler, spores muligvis ikke og bestilles "
+"først, når\n"
+"            de er udsolgt."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -823,11 +1068,15 @@ msgid ""
 "                    <font class=\"text-o-color-1\">Field Service App</font>\n"
 "                </strong>."
 msgstr ""
+"Planlæg, følg op på og rapporter dit teams arbejde med <strong>\n"
+"                    <font class=\"text-o-color-1\">Udkørende service-appen</"
+"font>\n"
+"                </strong>."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "Planning tasks"
-msgstr ""
+msgstr "Opgaveplanlægning"
 
 #. module: hvac_services
 #: model:sale.order.template.line,name:hvac_services.sale_order_template_line_1
@@ -835,6 +1084,8 @@ msgid ""
 "Price per year\n"
 "One appointment per year"
 msgstr ""
+"Pris pr. år\n"
+"Én aftale pr. år"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.x_project_task_worksheet_template_qweb_view
@@ -842,11 +1093,13 @@ msgid ""
 "Primary\n"
 "                                    Root Cause"
 msgstr ""
+"Hovedårsag\n"
+"                                    "
 
 #. module: hvac_services
 #: model:ir.model.fields,field_description:hvac_services.x_primary_root_cause_field
 msgid "Primary Root Cause"
-msgstr ""
+msgstr "Hovedårsag"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.x_project_task_worksheet_template_qweb_view
@@ -854,22 +1107,36 @@ msgid ""
 "Product\n"
 "                                    is functional after operation"
 msgstr ""
+"Produktet\n"
+"                                    fungerer i henhold til processen"
+
+#. module: hvac_services
+#: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
+msgid ""
+"Product documents are binded to a document stored in the\n"
+"                    Documents App."
+msgstr ""
 
 #. module: hvac_services
 #: model:ir.model.fields,field_description:hvac_services.x_product_is_functional_field
 #: model_terms:ir.ui.view,arch_db:hvac_services.x_project_task_worksheet_template_form_view
 msgid "Product is functional after operation"
-msgstr ""
+msgstr "Produktet fungerer i henhold til processen"
 
 #. module: hvac_services
 #: model:ir.model.fields,field_description:hvac_services.x_project_task_count_field
 msgid "Project Task count"
-msgstr ""
+msgstr "Antal projektopgaver"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.x_project_task_worksheet_template_form_view
 #: model_terms:ir.ui.view,arch_db:hvac_services.x_project_task_worksheet_template_qweb_view
 msgid "Provide details if additional root cause led to the repair operation"
+msgstr "Angiv, om der var andre årsager til reparationen"
+
+#. module: hvac_services
+#: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
+msgid "Providing access to installation manuals to your field workers;"
 msgstr ""
 
 #. module: hvac_services
@@ -878,21 +1145,24 @@ msgid ""
 "Quotation provide only an estimated time for repair\n"
 "Invoice will refer to effective time spent and used parts"
 msgstr ""
+"Tilbuddet indeholder kun et estimat af reparationstiden.\n"
+"Fakturaen vil blive baseret på den faktiske tidsforbrug og de anvendte "
+"reservedele"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "Reach us"
-msgstr ""
+msgstr "Kontakt os"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "Receiving deliveries"
-msgstr ""
+msgstr "Modtagne leveringer"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.x_project_task_worksheet_template_form_view
 msgid "Refrigerant"
-msgstr ""
+msgstr "Kølemiddel"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.x_project_task_worksheet_template_qweb_view
@@ -900,23 +1170,25 @@ msgid ""
 "Refrigerant\n"
 "                                    Product"
 msgstr ""
+"Kølemiddelprodukt\n"
+"                                    "
 
 #. module: hvac_services
 #: model:product.template,name:hvac_services.product_template_9
 msgid "Refrigerant 134a"
-msgstr ""
+msgstr "Kølemiddel 134a"
 
 #. module: hvac_services
 #: model:ir.actions.act_window,name:hvac_services.report_refrigerant_consumption_action
 #: model:ir.ui.menu,name:hvac_services.refrigerant_consumption_menu
 #: model_terms:ir.ui.view,arch_db:hvac_services.x_project_task_worksheet_template_pivot_view
 msgid "Refrigerant Consumption"
-msgstr ""
+msgstr "Kølemiddelforbrug"
 
 #. module: hvac_services
 #: model:ir.model.fields,field_description:hvac_services.x_refrigerant_product_field
 msgid "Refrigerant Product"
-msgstr ""
+msgstr "Kølemiddelprodukt"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.x_project_task_worksheet_template_qweb_view
@@ -924,11 +1196,13 @@ msgid ""
 "Removed\n"
 "                                    Refrigerant"
 msgstr ""
+"Fjernet\n"
+"                                    kølemiddel"
 
 #. module: hvac_services
 #: model:ir.model.fields,field_description:hvac_services.x_removed_refrigerant_field
 msgid "Removed Refrigerant"
-msgstr ""
+msgstr "Fjernet kølemiddel"
 
 #. module: hvac_services
 #: model:ir.model.fields.selection,name:hvac_services.x_operation_field_selection_repair
@@ -940,7 +1214,7 @@ msgstr "Reparation"
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "Replenishment rules"
-msgstr ""
+msgstr "Genopfyldningsregler"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.x_project_task_worksheet_template_qweb_view
@@ -948,21 +1222,23 @@ msgid ""
 "Root\n"
 "                                    Cause Comments"
 msgstr ""
+"Kommentarer til\n"
+"                                    hovedårsagen"
 
 #. module: hvac_services
 #: model:ir.model.fields,field_description:hvac_services.x_root_cause_comments_field
 msgid "Root Cause Comments"
-msgstr ""
+msgstr "Bemærkninger til hovedårsagen"
 
 #. module: hvac_services
 #: model:ir.model.fields,field_description:hvac_services.x_sale_order_count_field
 msgid "Sale Order count"
-msgstr ""
+msgstr "Antal salgsordrer"
 
 #. module: hvac_services
 #: model:product.template,name:hvac_services.product_template_11
 msgid "Samsung AR35 Airco 3.5kW"
-msgstr ""
+msgstr "Samsung AR35 Airco 3,5kW"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.x_new_devices_view_form
@@ -976,6 +1252,9 @@ msgid ""
 "frequent\n"
 "                    segments!"
 msgstr ""
+"Spar tid ved at oprette tilbudsskabeloner, der passer til dine mest "
+"almindelige\n"
+"                    segmenter!"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -984,6 +1263,9 @@ msgid ""
 "an Auto\n"
 "                trigger and some other are under a manual trigger."
 msgstr ""
+"Bemærk, at der er defineret genopfyldningsregler for nogle produkter, nogle "
+"med automatisk\n"
+"                udløser og andre med manuel udløser."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -993,23 +1275,25 @@ msgstr ""
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "Select a quotation template to save time for an installation."
-msgstr ""
+msgstr "Vælg en tilbudsskabelon for at spare tid ved installationen."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid ""
 "Select your customer and then add the serials of devices to be maintained."
 msgstr ""
+"Vælg din kunde, og tilføj derefter serienumrene på de enheder, der skal "
+"vedligeholdes."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "Send and confirm the order for the maintenance to be running."
-msgstr ""
+msgstr "Send og bekræft ordren, så vedligeholdelsen kan gennemføres."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "Send your quotation for online signature."
-msgstr ""
+msgstr "Send dit tilbud til online underskrift."
 
 #. module: hvac_services
 #: model:ir.model.fields,field_description:hvac_services.x_serial_number_field
@@ -1028,12 +1312,7 @@ msgstr "Serienummer"
 #: model:ir.model.fields,field_description:hvac_services.x_serials_field
 #: model_terms:ir.ui.view,arch_db:hvac_services.project_task_form_view
 msgid "Serials"
-msgstr ""
-
-#. module: hvac_services
-#: model:ir.actions.server,name:hvac_services.add_sale_order_line_serials_to_sale_order
-msgid "Set serials of the sale order equal to the serials of its order lines"
-msgstr ""
+msgstr "Serienummer"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -1044,15 +1323,30 @@ msgid ""
 "                    <font class=\"text-o-color-1\">CRM App</font>\n"
 "                </strong>!"
 msgstr ""
+"Opsæt din hjemmeside gratis, og tiltræk automatisk leads med <strong>\n"
+"                    <font class=\"text-o-color-1\">Hjemmesideappen </font>\n"
+"                </strong>og <strong>\n"
+"                    <font class=\"text-o-color-1\">CRM-appen</font>\n"
+"                </strong>!"
+
+#. module: hvac_services
+#: model_terms:ir.ui.view,arch_db:hvac_services.product_document_kanban_view_extended
+msgid "Share"
+msgstr ""
 
 #. module: hvac_services
 #: model:product.template,name:hvac_services.product_template_12
 msgid "Sicaf R452A Split system HMM200"
-msgstr ""
+msgstr "Sicaf R452A Split-system HMM200"
 
 #. module: hvac_services
 #: model:ir.actions.act_window,name:hvac_services.display_stock_lot_view_with_maintenances
 msgid "Stock lot for HVAC"
+msgstr "Partivarelager til VVS"
+
+#. module: hvac_services
+#: model:ir.model.fields,field_description:hvac_services.x_document_tag_ids_field_product_document
+msgid "Tags"
 msgstr ""
 
 #. module: hvac_services
@@ -1072,6 +1366,9 @@ msgid ""
 "work\n"
 "            to be done on customer sites."
 msgstr ""
+"<strong>Appen for Udkørende service</strong>er stedet, hvor du planlægger og "
+"følger op på arbejde,\n"
+"            der skal udføres hos kunderne."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -1079,6 +1376,10 @@ msgid ""
 "The Field Services gives you access to all tasks related to this device to\n"
 "                        capture the last maintenance and repair tasks."
 msgstr ""
+"Udkørende service giver dig adgang til alle opgaver for denne enhed, så du "
+"kan\n"
+"                        få overblik over de seneste vedligeholdelses- og "
+"reparationsopgaver."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -1086,16 +1387,18 @@ msgid ""
 "The Maintenance's links the sale order for Subscriptions of this\n"
 "                        device."
 msgstr ""
+"Vedligeholdelsen er knyttet til salgsordren for abonnementer på denne\n"
+"                        enhed."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "The Sales links the sale order for this device."
-msgstr ""
+msgstr "Salgslinket forbinder salgsordren med denne enhed."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "The Transfers lists you the deliveries of the device."
-msgstr ""
+msgstr "I \"Overførsler\" kan du se en liste over enhedens leverancer."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -1103,6 +1406,9 @@ msgid ""
 "The map of interventions is as well available from the My Tasks menu, by\n"
 "                default today's ones."
 msgstr ""
+"Oversigten over interventioner er også tilgængelig fra menuen \"Mine "
+"opgaver\", hvor\n"
+"                 dagens opgaver vises som standard."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -1113,23 +1419,36 @@ msgid ""
 "relies on field service\n"
 "                worksheets filled up by technicians."
 msgstr ""
+"Oversigten over kølemiddelforbruget kan ses over tid, pr. produkt og\n"
+"                med adskillelse mellem 'tilføjet' og 'fjernet'. "
+"Rapporteringen bygger på\n"
+"                arbejdsark for udkørende service, som udfyldes af teknikerne."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "Then the worksheet can be filled in while performing the work."
-msgstr ""
+msgstr "Derefter kan regnearket udfyldes løbende, mens arbejdet udføres."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid ""
 "These all go free in your current subscription; feel free to explore! 🙃"
 msgstr ""
+"De er alle inkluderet i dit nuværende abonnement. Gå straks på opdagelse i "
+"dem! 🙃"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid ""
 "They will open their tasks of the day to work on it from the Field Service "
 "App."
+msgstr ""
+"De vil åbne deres daglige opgaver i Udkørende service-appen for at arbejde "
+"på dem."
+
+#. module: hvac_services
+#: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
+msgid "To help you with that, here is how to proceed:"
 msgstr ""
 
 #. module: hvac_services
@@ -1139,16 +1458,18 @@ msgid ""
 "can\n"
 "                    install and leverage the <strong>Barcode App</strong>!"
 msgstr ""
+"For at spare tid og undgå tastefejl ved indtastning af serienumre kan du\n"
+"                    installere og bruge <strong>Stregkodeappen</strong>!"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.stock_lot_list_view_with_maintenances
 msgid "Transfer to"
-msgstr ""
+msgstr "Overfør til"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.project_task_form_view
 msgid "Unique Serial Number"
-msgstr ""
+msgstr "Unikt serienummer"
 
 #. module: hvac_services
 #: model:ir.model.fields.selection,name:hvac_services.x_primary_root_cause_field_selection_unknown
@@ -1158,17 +1479,17 @@ msgstr "Ukendt"
 #. module: hvac_services
 #: model:ir.actions.server,name:hvac_services.update_fs_task_serials_on_delivery
 msgid "Update FS Task Serials on Delivery"
-msgstr ""
+msgstr "Opdatér opgavens serienumre ved levering"
 
 #. module: hvac_services
 #: model:ir.actions.server,name:hvac_services.update_fs_task_serials_on_create
 msgid "Update FS Task Serials on create"
-msgstr ""
+msgstr "Opdatér opgavens serienumre ved oprettelse"
 
 #. module: hvac_services
 #: model:ir.actions.server,name:hvac_services.update_so_line_quantity
 msgid "Update SO line Quantity"
-msgstr ""
+msgstr "Opdatér mængden i salgsordrelinjen"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -1179,6 +1500,11 @@ msgid ""
 "counter, they could\n"
 "                directly create a new timesheet input in the Timesheet tab."
 msgstr ""
+"Når opgaven er færdig, kan den markeres som afsluttet, hvilket stopper "
+"tidstælleren og\n"
+"                opretter en tidsregistrering. <br/> Alternativt kan du "
+"oprette en ny\n"
+"                tidsregistrering direkte i fanen 'Tidsregistrering'."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -1187,6 +1513,8 @@ msgid ""
 "task\n"
 "                from the Products smart button."
 msgstr ""
+"Når produkter bruges under interventioner, kan de også tilføjes til opgaven\n"
+"                via smartknappen \"Produkter\"."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.x_project_task_worksheet_template_qweb_view
@@ -1194,11 +1522,13 @@ msgid ""
 "Worker\n"
 "                                    Signature"
 msgstr ""
+"Arbejdstagerens\n"
+"                                    underskrift"
 
 #. module: hvac_services
 #: model:ir.model.fields,field_description:hvac_services.x_worker_signature_field
 msgid "Worker Signature"
-msgstr "Arbejder underskrift"
+msgstr "Arbejdstagerens underskrift"
 
 #. module: hvac_services
 #: model:ir.actions.act_window,name:hvac_services.x_project_task_worksheet_template_ir_actions_get_worksheets
@@ -1225,6 +1555,9 @@ msgid ""
 "You are ready to sign your first customers? To do so, open the Sales App,\n"
 "                create a new order and the customer."
 msgstr ""
+"Er du klar til at få dine første kunder til at underskrive? Start med at "
+"åbne Salgsappen,\n"
+"                og opret en ny ordre samt kunden."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -1232,8 +1565,15 @@ msgid ""
 "You can access every installed App in your Odoo database on your main "
 "dashboard."
 msgstr ""
-"Du kan få adgang til alle installerede apps i din Odoo-database direkte fra "
-"dit hoveddashboard."
+"Du kan tilgå alle installerede apps i din Odoo-database direkte fra "
+"hoveddashboardet."
+
+#. module: hvac_services
+#: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
+msgid ""
+"You can define how to attach such documents to your quotations from the list "
+"view."
+msgstr ""
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -1242,6 +1582,9 @@ msgid ""
 "spent and\n"
 "            consumed products can be billed to your customer."
 msgstr ""
+"Du kan nu se, at opgaven er udført. Ved en reparation kan den anvendte tid "
+"og de\n"
+"            forbrugte produkter faktureres til kunden."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -1249,6 +1592,16 @@ msgid ""
 "You can open the Planning by User to appreciate the planned tasks for the "
 "coming\n"
 "                weeks."
+msgstr ""
+"Du kan åbne \"Planlægning efter bruger\" for at se de opgaver, der er "
+"planlagt de kommende\n"
+"                uger."
+
+#. module: hvac_services
+#: model_terms:ir.ui.view,arch_db:hvac_services.sale_order_form_view
+msgid ""
+"You can’t create a serial here. To add a new device, go to the Contact and "
+"create it there."
 msgstr ""
 
 #. module: hvac_services
@@ -1258,13 +1611,16 @@ msgid ""
 "your\n"
 "                    Odoo setup to fit your business needs."
 msgstr ""
+"Du har nu gennemført demoens brugsscenarie! Der findes utallige måder at "
+"tilpasse din Odoo-konfiguration,\n"
+"                    så den passer til din virksomheds behov."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid ""
 "You didn't import demo data? You can still do it. Go to Apps &gt; Industries "
 "&gt;\n"
-"                    Upgrade your Bar &amp; Pub package and check the related "
+"                    Upgrade your HVAC Services package and check the related "
 "box"
 msgstr ""
 
@@ -1273,14 +1629,19 @@ msgstr ""
 msgid ""
 "You just installed the Odoo for HVAC Services package. By doing so, we have "
 "installed a\n"
-"            bunch of necessary apps to run your bar efficiently."
+"            bunch of necessary apps to run your business efficiently."
+msgstr ""
+
+#. module: hvac_services
+#: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
+msgid "You may need to attach documents to product for multiple purposes:"
 msgstr ""
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid ""
 "You might have tested the HVAC Services package with or without demo data."
-msgstr ""
+msgstr "Du har muligvis testet VVS-servicepakken med eller uden demodata."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -1289,6 +1650,8 @@ msgid ""
 "various flows\n"
 "            you can quickly execute with this package using Odoo."
 msgstr ""
+"Med denne pakke i Odoo kan du gennemføre følgende flows\n"
+"            for hurtigt at få overblik over de forskellige processer."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -1300,12 +1663,13 @@ msgstr ""
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "Your stock is now at its best!"
-msgstr ""
+msgstr "Din lagerbeholdning er nu på sit højeste!"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "Your supplier deliveries are here, it's time to validate them!"
 msgstr ""
+"Dine leverancer fra leverandøren er ankommet – det er tid til at tjekke dem!"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -1320,7 +1684,7 @@ msgstr "og"
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "documentation"
-msgstr "Dokumentation"
+msgstr "dokumentation"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -1328,6 +1692,8 @@ msgid ""
 "if\n"
 "                    you need help!"
 msgstr ""
+", hvis\n"
+"                    du har brug for hjælp!"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -1335,6 +1701,8 @@ msgid ""
 "install\n"
 "                    the Odoo Progressive Web App"
 msgstr ""
+"installér\n"
+"                    Odoos progressive Hjemmesideapp"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -1347,51 +1715,63 @@ msgid ""
 "to access and manage their tasks when on\n"
 "                    customer's site."
 msgstr ""
+"for at få adgang til og administrere deres opgaver, mens de er på\n"
+"                    kundens hjemmeside."
+
+#. module: hvac_services
+#: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
+msgid "🎓 Documents"
+msgstr ""
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "🎓 Field Service"
-msgstr ""
+msgstr "🎓 Udkørende service"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "🎓 Inventory"
-msgstr ""
+msgstr "🎓 Lager"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "🎓 Purchase"
-msgstr ""
+msgstr "🎓 Indkøb"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "🎓 Sales"
+msgstr "🎓 Salg"
+
+#. module: hvac_services
+#: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
+msgid "📃 Managing and sharing product documents"
 msgstr ""
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "📅 Planning and execute services"
-msgstr ""
+msgstr "📅 Planlægge og udføre tjenesteydelser"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "📊 Monitoring refrigerant consumption"
-msgstr ""
+msgstr "📊 Følg kølemiddelforbruget"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "📜 Managing orders"
-msgstr ""
+msgstr "📜 Håndtering af ordrer"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "📦 Managing inventory and purchases"
-msgstr ""
+msgstr "📦 Administrér lager og indkøb"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "🔎 Finding customer devices and their history"
-msgstr ""
+msgstr "🔎 Find kundernes enheder og deres historik"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body

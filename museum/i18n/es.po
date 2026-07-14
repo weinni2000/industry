@@ -4,13 +4,14 @@
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
+# "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 11:36+0000\n"
-"PO-Revision-Date: 2025-09-18 03:01+0000\n"
-"Last-Translator: \"Tiffany Chang (tic)\" <tic@odoo.com>\n"
+"POT-Creation-Date: 2026-06-12 18:33+0000\n"
+"PO-Revision-Date: 2026-06-06 14:00+0000\n"
+"Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@odoo.com>\n"
 "Language-Team: Spanish <https://translate.odoo.com/projects/odoo-19/museum/"
 "es/>\n"
 "Language: es\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: museum
 #: model:product.template,name:museum.product_product_12_product_template
@@ -40,29 +41,6 @@ msgstr "&amp;nbsp;Frozen Breath"
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid ", and feel free to"
 msgstr "¡y no dude en"
-
-#. module: museum
-#: model_terms:ir.ui.view,arch_db:museum.homepage
-msgid "01"
-msgstr "01"
-
-#. module: museum
-#: model_terms:ir.ui.view,arch_db:museum.homepage
-#, fuzzy
-msgid "02"
-msgstr "02"
-
-#. module: museum
-#: model_terms:ir.ui.view,arch_db:museum.homepage
-#, fuzzy
-msgid "03"
-msgstr "03"
-
-#. module: museum
-#: model_terms:ir.ui.view,arch_db:museum.homepage
-#, fuzzy
-msgid "04"
-msgstr "04"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.homepage
@@ -354,7 +332,7 @@ msgstr "<strong>Comunicarse de forma eficiente</strong>"
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid "<strong>Do You Want to Go Further?</strong>"
-msgstr "<strong>¿Quiere llegar más lejos?</strong>"
+msgstr "<strong>¿Quieres saber más?</strong>"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
@@ -737,18 +715,8 @@ msgid ""
 "By uploading this module's demo data, your database has been filled with a "
 "few contacts."
 msgstr ""
-"Al subir los datos de demostración de este módulo, su base de datos se ha "
-"rellenado con algunos contactos."
-
-#. module: museum
-#: model:pos.payment.method,name:museum.pos_payment_method_2
-msgid "Card"
-msgstr "Tarjeta"
-
-#. module: museum
-#: model:pos.payment.method,name:museum.pos_payment_method_1
-msgid "Cash"
-msgstr "Efectivo"
+"Al subir los datos de demostración de este módulo, tu base de datos ahora "
+"tiene algunos contactos."
 
 #. module: museum
 #: model:product.template,name:museum.product_product_13_product_template
@@ -817,7 +785,7 @@ msgstr "Configure los ajustes de sus impuestos correctamente."
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.contactus
 msgid "Contact us"
-msgstr "Contáctenos"
+msgstr "Contacta con nosotros"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.ir_ui_view_5297
@@ -885,11 +853,6 @@ msgstr ""
 #: model:pos.category,name:museum.pos_category_2
 msgid "Creative & Educational"
 msgstr "Creativo y educativo"
-
-#. module: museum
-#: model:pos.payment.method,name:museum.pos_payment_method_3
-msgid "Customer Account"
-msgstr "Cuenta de cliente"
 
 #. module: museum
 #: model:product.pricelist,name:museum.product_pricelist_1
@@ -1194,6 +1157,8 @@ msgstr ""
 #: code:addons/museum/static/src/js/my_tour.js:0
 msgid "Get on track and explore our recommendations for your Odoo usage here!"
 msgstr ""
+"¡Ponte al día y explora nuestras recomendaciones para sacarle más partido a "
+"Odoo!"
 
 #. module: museum
 #: model_terms:product.template,description:museum.product_product_19_product_template
@@ -2117,7 +2082,7 @@ msgstr "¡Bienvenido al paquete de Odoo para museos!"
 #. module: museum
 #: model_terms:web_tour.tour,rainbow_man_message:museum.knowledge_tour
 msgid "Welcome! Happy exploring."
-msgstr "¡Bienvenido! Disfrute del sitio."
+msgstr "¡Te damos la bienvenida! Disfruta explorando."
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.homepage
@@ -2208,7 +2173,9 @@ msgstr ""
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid "Would you like to discuss your Odoo setup with us or go even further?"
-msgstr "¿Le gustaría que le ayudemos con su configuración de Odoo?"
+msgstr ""
+"¿Quieres que te ayudemos con la configuración de Odoo o a explorar otras "
+"posibilidades?"
 
 #. module: museum
 #: model_terms:product.template,description:museum.product_product_31_product_template
@@ -2235,9 +2202,8 @@ msgid ""
 "You completed that demo use case! There are millions of other ways to adapt "
 "your Odoo setup to fit your business needs."
 msgstr ""
-"Ha completado este caso de uso de demostración. Hay miles de formas de "
-"adaptar la configuración de Odoo para ajustarse a las necesidades "
-"específicas de su empresa."
+"¡Has acabado el caso de uso de demostración! Hay miles de formas de adaptar "
+"tu configuración de Odoo para ajustarla a las necesidades de tu negocio."
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
@@ -2245,9 +2211,9 @@ msgid ""
 "You didn't import demo data? You can still do it. Go to Apps &gt; Industries "
 "&gt; Upgrade your Museum package and check the related box."
 msgstr ""
-"¿No importó los datos de demostración? Todavía puede hacerlo. Vaya a "
-"Aplicaciones &gt; Industrias, actualice el paquete para museos y seleccione "
-"la casilla correspondiente."
+"¿No has importado los datos de demostración? Todavía puedes hacerlo. "
+"Dirígete a Aplicaciones &gt; Sectores &gt; Actualiza el paquete para museos "
+"y selecciona la casilla correspondiente."
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
@@ -2260,8 +2226,8 @@ msgid ""
 "You should be able to execute the following flows to have an overview of "
 "various flows you can quickly execute with this package using Odoo."
 msgstr ""
-"Debería poder ejecutar los siguientes flujos para obtener una visión general "
-"de varios flujos que puede ejecutar rápidamente con este paquete de Odoo."
+"Los siguientes ejemplos te ayudarán a entender los principales flujos de "
+"trabajo disponibles en este paquete de Odoo."
 
 #. module: museum
 #: model:event.event.ticket,name:museum.event_event_ticket_10
@@ -2331,7 +2297,7 @@ msgstr "pintura abstracta"
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid "academy"
-msgstr "academia"
+msgstr "Odoo academy"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.exhibitions
@@ -2389,7 +2355,7 @@ msgstr ""
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid "if you need help!"
-msgstr "si necesita ayuda."
+msgstr "si necesitas ayuda."
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.exhibitions
@@ -2436,3 +2402,27 @@ msgstr "mujer con las manos atadas"
 #: model_terms:ir.ui.view,arch_db:museum.homepage
 msgid "—&amp;nbsp;Edgar Degas"
 msgstr "—&amp;nbsp;Edgar Degas"
+
+#~ msgid "Card"
+#~ msgstr "Tarjeta"
+
+#~ msgid "Cash"
+#~ msgstr "Efectivo"
+
+#~ msgid "Customer Account"
+#~ msgstr "Cuenta de cliente"
+
+#~ msgid "01"
+#~ msgstr "01"
+
+#, fuzzy
+#~ msgid "02"
+#~ msgstr "02"
+
+#, fuzzy
+#~ msgid "03"
+#~ msgstr "03"
+
+#, fuzzy
+#~ msgid "04"
+#~ msgstr "04"

@@ -4,13 +4,15 @@
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # DeepL <noreply-mt-deepl@weblate.org>, 2025.
+# Odoo Turkish Import <dyki+tr@odoo.com>, 2025.
+# "Malaz Siddig Elsayed Abuidris (msea)" <msea@odoo.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-04 14:33+0000\n"
-"PO-Revision-Date: 2025-11-13 10:32+0000\n"
-"Last-Translator: DeepL <noreply-mt-deepl@weblate.org>\n"
+"POT-Creation-Date: 2026-01-12 09:27+0000\n"
+"PO-Revision-Date: 2025-11-29 19:51+0000\n"
+"Last-Translator: \"Malaz Siddig Elsayed Abuidris (msea)\" <msea@odoo.com>\n"
 "Language-Team: Turkish <https://translate.odoo.com/projects/odoo-19/"
 "accounting_firm/tr/>\n"
 "Language: tr\n"
@@ -18,11 +20,66 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
+msgid ""
+"<b>Accounting App</b>: Streamline your billing cycle and manage the firm's "
+"own financials with robust invoicing tools."
+msgstr ""
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
+"<b>Contacts App</b>: Centralize all client data and maintain a clean, "
+"organized directory of customers and contacts."
+msgstr ""
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
+"<b>Databases App</b>: Access and interact with your clients' Odoo databases "
+"instantly from a single dashboard."
+msgstr ""
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
+"<b>Documents App</b>: Automate the request, collection, and management of "
+"client files for a paperless office."
+msgstr ""
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
+"<b>Equity App</b>: Simplify compliance by gathering and visualizing Ultimate "
+"Beneficial Owners (UBOs) structures."
+msgstr ""
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
+"<b>Project App</b>: Organize client files, track tasks, and manage your "
+"team's workload to meet every deadline."
+msgstr ""
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
+"<b>Sign App</b>: Accelerate approvals and agreements by capturing secure "
+"electronic document signatures instantly."
+msgstr ""
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
+"<b>Timesheets App</b>: Track billable hours with precision and analyze your "
+"team's efforts for better profitability."
+msgstr ""
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
@@ -32,17 +89,15 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\" aria-label=\"Banner Info\">🔃</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Info\" aria-label=\"Banner Info\">🔃</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\" aria-label=\"Banner Info\">🔃</i>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\" aria-label=\"Banner Success\">✅</i>"
@@ -52,7 +107,6 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\" aria-label=\"Banner Success\">🥳</i>"
@@ -62,7 +116,6 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Warning\" aria-label=\"Banner Warning\">⚠️</i>"
@@ -72,7 +125,6 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "<span class=\"display-4-fs\">\n"
 "                <strong>Accounting Firm</strong>\n"
@@ -91,49 +143,46 @@ msgstr "<span class=\"h1-fs\">Temel Bilgiler</span>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid "<span class=\"h1-fs\">Do You Want to Go Further?</span>"
 msgstr "<span class=\"h1-fs\">Daha İleri Gitmek İster misiniz?</span>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid "<span class=\"h1-fs\">Final word</span>"
 msgstr "<span class=\"h1-fs\">Son söz</span>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid "<span class=\"h1-fs\">Use case</span>"
 msgstr "<span class=\"h1-fs\">Kullanım durumu</span>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
+msgid "<strong>Connecting your customer database</strong>"
+msgstr ""
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "<strong>Customer identity management</strong>"
 msgstr "<strong>Müşteri kimlik yönetimi</strong>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid "<strong>From a project</strong>"
 msgstr "<strong>Bir Proje Yönetimi'nden</strong>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid "<strong>From a task</strong>"
 msgstr "<strong>Bir görevden</strong>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid "<strong>From the Timesheets App</strong>"
 msgstr "<strong>Çalışma Çizelgeleri Uygulamasından</strong>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>In such situation, feel free to experiment with this database and "
 "then to create a new one for your own usage.</strong>"
@@ -143,25 +192,21 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid "<strong>Requesting a document</strong>"
 msgstr "<strong>Belge talep etme</strong>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid "<strong>Setting up the project folder email alias</strong>"
 msgstr "<strong>Proje Yönetimi klasörü e-posta takma adını ayarlama</strong>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid "<strong>Setup the project</strong>"
 msgstr "<strong>Proje kurulumu</strong>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "A crucial part of business is as well making sure it is profitable. Odoo "
 "helps you following up project profitability with the project Dashboard."
@@ -171,7 +216,6 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "A crucial part of the business is to transform prospects into customers, "
 "then to follow up efficiently on the mission and finally to bill customers "
@@ -184,73 +228,61 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
-#, fuzzy
 msgid "AML"
 msgstr "AML"
 
 #. module: accounting_firm
 #: model:ir.model,name:accounting_firm.x_aml_risk_model
-#, fuzzy
 msgid "AML Risk"
 msgstr "AML Riski"
 
 #. module: accounting_firm
 #: model:product.template,name:accounting_firm.product_product_7_product_template
-#, fuzzy
 msgid "Accounting - Monthly VAT (Pack)"
 msgstr "Muhasebe - Aylık KDV (Paket)"
 
 #. module: accounting_firm
 #: model:product.template,name:accounting_firm.product_product_12_product_template
-#, fuzzy
 msgid "Accounting - Monthly VAT (Timesheets)"
 msgstr "Muhasebe - Aylık KDV (Çalışma Çizelgeleri)"
 
 #. module: accounting_firm
 #: model:product.template,name:accounting_firm.product_product_10_product_template
-#, fuzzy
 msgid "Accounting - Monthly non-taxable (Pack)"
 msgstr "Muhasebe - Aylık vergi dışı (Paket)"
 
 #. module: accounting_firm
 #: model:product.template,name:accounting_firm.product_product_13_product_template
-#, fuzzy
 msgid "Accounting - Monthly non-taxable (Timesheets)"
 msgstr "Muhasebe - Aylık vergi dışı (Çalışma Çizelgeleri)"
 
 #. module: accounting_firm
 #: model:product.template,name:accounting_firm.product_product_5_product_template
-#, fuzzy
 msgid "Accounting - Quarterly VAT (Pack)"
 msgstr "Muhasebe - Üç Aylık KDV (Paket)"
 
 #. module: accounting_firm
 #: model:product.template,name:accounting_firm.product_product_14_product_template
-#, fuzzy
 msgid "Accounting - Quarterly VAT (Timesheets)"
 msgstr "Muhasebe - Üç Aylık KDV (Çalışma Çizelgeleri)"
 
 #. module: accounting_firm
 #: model:base.automation,name:accounting_firm.base_automation_on_id_scan_changed
-#, fuzzy
 msgid "Accounting Firm: On ID Scan Changed"
 msgstr "Muhasebe Firması: Kimlik Taramasında Değişiklik Yapıldı"
 
 #. module: accounting_firm
 #: model:ir.actions.server,name:accounting_firm.ir_cron_request_contact_id_document_ir_actions_server
-#, fuzzy
 msgid "Accounting Firm: Request Contact Identity Document"
 msgstr "Muhasebe Firması: İletişim Kimlik Belgesi Talebi"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
-#, fuzzy
 msgid "Accounting Management"
 msgstr "Muhasebe Yönetimi"
 
 #. module: accounting_firm
 #: model:project.tags,name:accounting_firm.project_tags_1
-#, fuzzy
 msgid "Accounting Services"
 msgstr "Muhasebe Hizmetleri"
 
@@ -263,7 +295,6 @@ msgstr "Muhasebe Belgeleri"
 
 #. module: accounting_firm
 #: model:product.template,name:accounting_firm.product_product_15_product_template
-#, fuzzy
 msgid "Accounting services (Timesheets)"
 msgstr "Muhasebe hizmetleri (Çalışma Çizelgeleri)"
 
@@ -274,14 +305,12 @@ msgstr "Etkin"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid "Add any extra information relevant such as expected revenues and notes."
 msgstr ""
 "Beklenen gelirler ve notlar gibi ilgili her türlü ekstra bilgiyi ekleyin."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "Among your activities, you might as well handle the anti-money laundering "
 "aspect."
@@ -291,7 +320,6 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "An activity has been created for you to follow up on this.<br/>\n"
 "    It self closes once your contact submits its UBO list."
@@ -301,7 +329,6 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "An automation runs daily to request expiring and expired identity documents "
 "to your contacts.\n"
@@ -315,13 +342,11 @@ msgstr ""
 
 #. module: accounting_firm
 #: model:project.tags,name:accounting_firm.project_tags_4
-#, fuzzy
 msgid "Annual Accounts"
 msgstr "Yıllık Hesaplar"
 
 #. module: accounting_firm
 #: model:product.template,name:accounting_firm.product_product_8_product_template
-#, fuzzy
 msgid "Annual Accounts (Pack)"
 msgstr "Yıllık Hesaplar (Paket)"
 
@@ -338,7 +363,6 @@ msgstr "Atanan"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_assistant_ids_field_project_project
-#, fuzzy
 msgid "Assistants"
 msgstr "Asistanlar"
 
@@ -349,35 +373,22 @@ msgid "August"
 msgstr "Ağustos"
 
 #. module: accounting_firm
-#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
-msgid ""
-"Bill easily and manage your accounts with the <strong>Accounting App</"
-"strong>."
-msgstr ""
-"<strong>Muhasebe Uygulaması</strong> ile kolayca faturalandırın ve "
-"hesaplarınızı yönetin."
-
-#. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.x_mandate_view_list
 msgid "Category"
 msgstr "Kategori"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_has_chatter_message_field_documents_request_wizard
-#, fuzzy
 msgid "Chatter Message"
-msgstr "Geveze Mesaj"
+msgstr "Chat Mesajı"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_mandate_child_ids_field_x_mandate
-#, fuzzy
 msgid "Childs"
 msgstr "Childs"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "Click the Create Invoice button to create a draft invoice.<br/>\n"
 "                    Note that fixed price product can be expensed as soon as "
@@ -391,7 +402,6 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "Click the Document shortcut to open the Documents folder of this particular "
 "project, and deploy the information panel (top right corner i icon)."
@@ -401,26 +411,22 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid "Click the project shortcut for Timesheets and add a line."
 msgstr ""
 "Çalışma Çizelgeleri için proje kısayoluna tıklayın ve bir satır ekleyin."
 
 #. module: accounting_firm
 #: model:project.tags,name:accounting_firm.project_tags_23
-#, fuzzy
 msgid "Client listing"
 msgstr "Müşteri listesi"
 
 #. module: accounting_firm
 #: model:product.template,name:accounting_firm.product_product_4_product_template
-#, fuzzy
 msgid "Client listing (Pack)"
 msgstr "Müşteri listesi (Paket)"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_closing_month_field_res_partner
-#, fuzzy
 msgid "Closing Month"
 msgstr "Kapanış Ayı"
 
@@ -431,13 +437,11 @@ msgstr "Renk"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
-#, fuzzy
 msgid "Companies House"
 msgstr "Şirketler Evi"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "Confirm the invoice and send it to you customer for payment.<br/>\n"
 "                    Once payed, you know the drill to reconcile the payment."
@@ -448,19 +452,16 @@ msgstr ""
 
 #. module: accounting_firm
 #: model:project.tags,name:accounting_firm.project_tags_5
-#, fuzzy
 msgid "Corporate Income Tax"
 msgstr "Kurumlar Vergisi"
 
 #. module: accounting_firm
 #: model:product.template,name:accounting_firm.product_product_9_product_template
-#, fuzzy
 msgid "Corporate Income Tax statement (Pack)"
 msgstr "Kurumlar Vergisi beyannamesi (Paket)"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "Create a new lead typing the customer name and augment the contact by "
 "clicking the create and edit. Specify email address for that contact so that "
@@ -472,13 +473,11 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
-#, fuzzy
 msgid "Crossroads Bank for Enterprises"
 msgstr "İşletmeler için Crossroads Bankası"
 
 #. module: accounting_firm
 #: model:product.template,name:accounting_firm.product_product_11_product_template
-#, fuzzy
 msgid "Customer Onboarding"
 msgstr "Müşteri Alıştırma"
 
@@ -490,7 +489,6 @@ msgstr "Aralık"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "Define the to do list and documents to request which suite you in the "
 "template project tasks."
@@ -500,23 +498,20 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid "Discover more about Odoo by diving into our ﻿"
 msgstr "Odoo hakkında daha fazlasını keşfetmek için"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "Documents is now creating a dedicated space for you projects to prevent you "
 "to mix documents from your customers."
 msgstr ""
-"Documents, müşterilerinizden gelen belgeleri karıştırmanızı önlemek için "
+"Belgeler, müşterilerinizden gelen belgeleri karıştırmanızı önlemek için "
 "artık proje yönetimi için özel bir alan oluşturuyor."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "Don't forget to check as done the activity when your done with a document to "
 "have clear visibility of your workload from the activity list."
@@ -532,7 +527,6 @@ msgstr "Yapıldı"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "Easily request identity document from the gear icon (⚙️) in the bread crumb."
 msgstr ""
@@ -545,7 +539,6 @@ msgstr "Çalışanlar"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "Even though you can manage documents in your database, we highly recommend "
 "you to handle those from your customer Odoo databases since those belong to "
@@ -557,13 +550,11 @@ msgstr ""
 
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_vat_declaration_recurrence_field_selection_exempted
-#, fuzzy
 msgid "Exempted"
 msgstr "Muafiyet"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.accounting_firm_view_res_partner_search
-#, fuzzy
 msgid "Expired IDs"
 msgstr "Süresi Dolmuş Kimlikler"
 
@@ -574,7 +565,6 @@ msgstr "Açıklama"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "Explore the Dashboard App to follow up overall work, progress and "
 "profitability cross projects at will."
@@ -590,21 +580,11 @@ msgstr "Şubat"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid "Fine tune the email if needed and hit the send button."
 msgstr "Gerekirse e-postaya ince ayar yapın ve gönder düğmesine basın."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
-msgid "Follow up on missions leveraging the <strong>Project App</strong>."
-msgstr ""
-"<strong>Proje Yönetimi App</strong> adresinden yararlanarak görevleri takip "
-"edin."
-
-#. module: accounting_firm
-#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "For such typical request, you can leverage email templates for ask recurrent "
 "questions and save time exposing your services!"
@@ -615,7 +595,6 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "For the project tasks, you can assign the owner or more employees in case "
 "you work with Junior / Senior pairing."
@@ -625,28 +604,16 @@ msgstr ""
 
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_vat_declaration_recurrence_field_selection_franchise
-#, fuzzy
 msgid "Franchise"
 msgstr "Franchise"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
-#, fuzzy
 msgid "French Business Directory"
 msgstr "Fransız İş Rehberi"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
-msgid ""
-"Generate quote and manage sale order from the <strong>Sales App</strong>."
-msgstr ""
-"<strong>Sales App</strong> adresinden fiyat teklifi oluşturun ve satış "
-"siparişini yönetin."
-
-#. module: accounting_firm
-#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "Give it a name, take notes as you please and finally save this for future "
 "references."
@@ -656,7 +623,6 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "Go to the project documents with the shortcuts to edit the folder "
 "architecture at your convenience."
@@ -666,13 +632,10 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
-"Have a central repository for requested documents in<strong> Documents App</"
-"strong>."
+"Having access in record time to all activities and metrics from your "
+"customer databases is key."
 msgstr ""
-"<strong> Documents App</strong> adresinde talep edilen belgeler için merkezi "
-"bir depoya sahip olun."
 
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_level_risk_field_selection_high
@@ -686,13 +649,11 @@ msgstr "ID"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_id_expiration_date_field_res_partner
-#, fuzzy
 msgid "ID Expiration Date"
 msgstr "Kimlik Son Kullanma Tarihi"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "Identity management is a must do activity in your business and to support "
 "you with that, the contacts encompass all the necessary."
@@ -702,7 +663,6 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "If relevant to share regular updates, Click New to perform a screenshot of "
 "the current progress of the project."
@@ -721,7 +681,6 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "If you wish you can introduce sections in your sale order to structure it by "
 "year of follow up or simply add a note to the product line for example."
@@ -736,7 +695,14 @@ msgstr "Devam Eden"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
+msgid ""
+"In the Database tab, set the appropriate hosting option and then fill in the "
+"additional required inputs, including API credentials provided by your "
+"customer."
+msgstr ""
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid ""
 "Information captured here are informative only and do not trigger or "
 "interact with any capability."
@@ -746,7 +712,6 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "Input the email alias for this customer and select the Inbox activity type "
 "and the assignee of the activities which will be triggered when receiving "
@@ -757,19 +722,16 @@ msgstr ""
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_interim_situation_field_res_partner
-#, fuzzy
 msgid "Interim Situation"
 msgstr "Geçici Durum"
 
 #. module: accounting_firm
 #: model:project.tags,name:accounting_firm.project_tags_22
-#, fuzzy
 msgid "Intra-community declaration"
 msgstr "Topluluk içi beyan"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "Invoicing is enabled by Invoicing and Accounting Apps. You can as well "
 "create invoices from them."
@@ -779,7 +741,6 @@ msgstr ""
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_is_identity_document_request_field_documents_request_wizard
-#, fuzzy
 msgid "Is Identity Document Request"
 msgstr "Kimlik Belgesi Talebi"
 
@@ -803,13 +764,11 @@ msgstr "Haziran"
 
 #. module: accounting_firm
 #: model:planning.role,name:accounting_firm.planning_role_2
-#, fuzzy
 msgid "Junior Accountant"
 msgstr "Genç Muhasebeci"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "Just be careful, once demo data are uploaded, it cannot be easily deleted. "
 "But you can restart a fresh database on ﻿"
@@ -819,7 +778,6 @@ msgstr ""
 
 #. module: accounting_firm
 #: model:ir.actions.server,name:accounting_firm.server_action_keep_scan_in_chatter
-#, fuzzy
 msgid "Keep Scan in Chatter"
 msgstr "Taramayı Chatter'da Tutun"
 
@@ -835,31 +793,26 @@ msgstr "Seviye"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
-#, fuzzy
 msgid "Link Belgian Monitor"
 msgstr "Belçika Bağlantı Monitörü"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
-#, fuzzy
 msgid "Link CBE"
 msgstr "Bağlantı CBE"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
-#, fuzzy
 msgid "Link Companies House"
 msgstr "Bağlantı Şirketler Evi"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
-#, fuzzy
 msgid "Link FBD"
 msgstr "Bağlantı FBD"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
-#, fuzzy
 msgid "Link NBB"
 msgstr "Bağlantı NBB"
 
@@ -869,19 +822,12 @@ msgid "Low"
 msgstr "Düşük"
 
 #. module: accounting_firm
-#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
-msgid "Manage opportunities with the <strong>CRM App</strong>."
-msgstr "<strong>CRM Uygulaması</strong> ile fırsatları yönetin."
-
-#. module: accounting_firm
 #: model:ir.model,name:accounting_firm.x_mandate_model
 msgid "Mandate"
 msgstr "Yetki"
 
 #. module: accounting_firm
 #: model:ir.actions.act_window,name:accounting_firm.action_mandate_list_view
-#, fuzzy
 msgid "Mandate list view"
 msgstr "Yetki listesi görünümü"
 
@@ -890,7 +836,6 @@ msgstr "Yetki listesi görünümü"
 #: model:ir.ui.menu,name:accounting_firm.mandate_menuitem
 #: model_terms:ir.ui.view,arch_db:accounting_firm.x_mandate_view_form
 #: model_terms:ir.ui.view,arch_db:accounting_firm.x_mandate_view_list
-#, fuzzy
 msgid "Mandates"
 msgstr "Yetkiler"
 
@@ -915,7 +860,6 @@ msgstr "Diğer"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_mission_expiration_date_field_res_partner
-#, fuzzy
 msgid "Mission Expiration"
 msgstr "Görevin Sona Ermesi"
 
@@ -932,13 +876,11 @@ msgstr "Adı"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
-#, fuzzy
 msgid "National Bank of Belgium"
 msgstr "Belçika Ulusal Bankası"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid "Navigate to the AML tab to appreciate the last assessment performed."
 msgstr ""
 "Gerçekleştirilen son değerlendirmeyi takdir etmek için AML sekmesine gidin."
@@ -950,7 +892,6 @@ msgstr "Yeni"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "Not all you time might be billable even when working on a customer projects. "
 "In such case, just leave the sale order item field blank."
@@ -961,7 +902,6 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "Note that Equity App comes first with capabilities to capture transactions "
 "and valuation which you will find useful."
@@ -971,7 +911,6 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "Note that only direct email capture the attached documents. Be clear with "
 "your customers to send a new email for any new documents they wish you to "
@@ -989,7 +928,6 @@ msgstr "Kasım"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "Now that your lead is in the system, you can directly correspond with the "
 "associated contact leveraging the opportunity chatter!"
@@ -1005,7 +943,6 @@ msgstr "Ekim"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "On upload of a document, you receive an activity which is visible in the "
 "notification for the Documents app."
@@ -1015,7 +952,6 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "Once confirmed, by your customer, the quote turns into a sales order, which "
 "creates the corresponding project and tasks in the projects (where you "
@@ -1027,19 +963,16 @@ msgstr ""
 
 #. module: accounting_firm
 #: model:ir.model.fields,help:accounting_firm.x_mandate_ids_field_res_partner
-#, fuzzy
 msgid "Online platform mandates you have for this customer"
 msgstr "Bu müşteri için sahip olduğunuz çevrimiçi platform zorunlulukları"
 
 #. module: accounting_firm
 #: model:ir.actions.server,name:accounting_firm.parner_link_action
-#, fuzzy
 msgid "Open link for company"
 msgstr "Şirket için bağlantıyı aç"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "Open the <strong>CRM App</strong> in case this is the fruit of an "
 "opportunity, and then click the New quotation button to transform this into "
@@ -1054,33 +987,30 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid "Open the <strong>CRM App</strong>."
 msgstr "<strong>CRM Uygulamasını</strong> açın."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "Open the <strong>Contacts App</strong> and reach your new customer form."
 msgstr ""
-"<strong>Contacts App</strong> adresini açın ve yeni müşteri formunuza ulaşın."
+"<strong>Kontaklar Uygulaması</strong> adresini açın ve yeni müşteri "
+"formunuza ulaşın."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "Open the <strong>Project App</strong> and open the project corresponding to "
 "the sale order you just confirmed, or click the Tasks smart button at the "
 "top of the sale order."
 msgstr ""
-"<strong>Project App</strong> adresini açın ve yeni onayladığınız satış "
-"siparişine karşılık gelen projeyi açın veya satış siparişinin üst kısmındaki "
-"Görevler akıllı düğmesine tıklayın."
+"<strong>Projeler Uygulması</strong> adresini açın ve yeni onayladığınız "
+"satış siparişine karşılık gelen projeyi açın veya satış siparişinin üst "
+"kısmındaki Görevler akıllı düğmesine tıklayın."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "Open the <strong>Project App</strong> or navigate to the sale order "
 "associated tasks with the smart button at the top."
@@ -1090,35 +1020,38 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "Open the <strong>Project App</strong>, open the project pointed by your "
 "Customer onboarding product and display the project shortcut for Documents "
 "if not yet done."
 msgstr ""
-"<strong>Project App</strong> adresini açın, Customer onboarding ürününüz "
-"tarafından işaret edilen projeyi açın ve henüz yapılmadıysa Documents için "
-"proje kısayolunu görüntüleyin."
+"<strong>Proje Uygulaması</strong> adresini açın, Customer onboarding "
+"ürününüz tarafından işaret edilen projeyi açın ve henüz yapılmadıysa "
+"Documents için proje kısayolunu görüntüleyin."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "Open the <strong>Sales App</strong> and open the sale order you want to "
 "expense."
 msgstr ""
-"<strong>Sales App</strong> adresini açın ve giderleştirmek istediğiniz satış "
-"siparişini açın."
+"<strong>Satış Uygulaması</strong> adresini açın ve giderleştirmek "
+"istediğiniz satış siparişini açın."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid "Open the Customer onboarding task to edit the action list."
 msgstr "Eylem listesini düzenlemek için Müşteri ilk katılım görevini açın."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
+msgid ""
+"Open the Databases App to have your customer database metrics at your finger "
+"tips!"
+msgstr ""
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "Open the Project App and click the Dashboard button from the top bar."
 msgstr ""
 "Proje Yönetimi Uygulamasını açın ve üst çubuktan Gösterge Paneli düğmesine "
@@ -1126,7 +1059,6 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "Open the Timesheets App, add a line selecting the project and task you "
 "worked on, and inputing the time spent today."
@@ -1136,22 +1068,19 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "Open the contact form of the company you have to handle this for, Second "
 "Company for example."
 msgstr ""
-"Bunu yapmanız gereken şirketin iletişim formunu açın, örneğin Second Company."
+"Bunu yapmanız gereken şirketin iletişim formunu açın, örneğin İkinci Şirket."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid "Open the contact from which you expect the UBO list."
 msgstr "UBO listesini beklediğiniz kişiyi açın."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "Open the task you were working on, go to the Timesheets tab and add a new "
 "line."
@@ -1161,9 +1090,13 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid "Open the the project you worked on."
 msgstr "Üzerinde çalıştığınız projeyi açın."
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid "Open your new customer project settings."
+msgstr ""
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_mandate_parent_id_field_x_mandate
@@ -1179,25 +1112,21 @@ msgstr "İş Ortağı"
 #: model:documents.document,name:accounting_firm.documents_document_18
 #: model:documents.document,name:accounting_firm.documents_document_26
 #: model:documents.document,name:accounting_firm.documents_document_29
-#, fuzzy
 msgid "Permanent file"
 msgstr "Kalıcı dosya"
 
 #. module: accounting_firm
 #: model:project.tags,name:accounting_firm.project_tags_2
-#, fuzzy
 msgid "Personal Income Tax"
 msgstr "Kişisel Gelir Vergisi"
 
 #. module: accounting_firm
 #: model:product.template,name:accounting_firm.product_product_3_product_template
-#, fuzzy
 msgid "Personal Income Tax statement (Pack)"
 msgstr "Kişisel Gelir Vergisi beyanı (Paket)"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "Precise the document name you seek for, define the customer to request this "
 "from (making sure their email is configured), adjust the Due Date if "
@@ -1235,7 +1164,6 @@ msgstr "Üç Aylık"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid "Read more about Documents to leverage its full potential!"
 msgstr ""
 "Tam potansiyelinden yararlanmak için Belgeler hakkında daha fazla bilgi "
@@ -1248,7 +1176,6 @@ msgstr "Fiş"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_relation_nature_field_res_partner
-#, fuzzy
 msgid "Relation Nature"
 msgstr "İlişki Doğa"
 
@@ -1259,44 +1186,37 @@ msgstr "İstek"
 
 #. module: accounting_firm
 #: model:ir.actions.server,name:accounting_firm.server_action_request_document_with_chatter_message
-#, fuzzy
 msgid "Request Document with Chatter Message"
 msgstr "Chatter Mesajı ile Belge Talep Etme"
 
 #. module: accounting_firm
 #: model:ir.actions.server,name:accounting_firm.action_server_request_identity_document
-#, fuzzy
 msgid "Request Identity Document"
 msgstr "Kimlik Belgesi Talebi"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_reviewer_ids_field_project_project
-#, fuzzy
 msgid "Reviewers"
 msgstr "Yorumcular"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_name_field_x_aml_risk_type
 #: model:ir.model.fields,field_description:accounting_firm.x_risk_type_field_x_aml_risk
-#, fuzzy
 msgid "Risk"
 msgstr "Risk"
 
 #. module: accounting_firm
 #: model:ir.model,name:accounting_firm.x_aml_risk_type_model
-#, fuzzy
 msgid "Risk Type"
 msgstr "Risk Türü"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_risk_ids_field_res_partner
-#, fuzzy
 msgid "Risks"
 msgstr "Riskler"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid "Saving the task will report this time in the sale order for billing."
 msgstr ""
 "Görevin kaydedilmesi, bu süreyi faturalandırma için satış siparişinde "
@@ -1309,13 +1229,11 @@ msgstr "Tara"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid "Select the Request UBO from the gear icon (⚙️) menu."
 msgstr "Dişli simgesi (⚙️) menüsünden UBO Talep Et öğesini seçin."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "Select the corresponding products or leverage a quotation template, the "
 "\"Monthly VAT - Package\" typically."
@@ -1325,7 +1243,6 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "Send this quote by email so that you new customer confirm the mission and "
 "accept your fees."
@@ -1335,7 +1252,6 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "Sending a document request creates an activity for you to follow up without "
 "mental load!"
@@ -1345,7 +1261,6 @@ msgstr ""
 
 #. module: accounting_firm
 #: model:planning.role,name:accounting_firm.planning_role_1
-#, fuzzy
 msgid "Senior Accountant"
 msgstr "Kıdemli Muhasebeci"
 
@@ -1357,7 +1272,6 @@ msgstr "Eylül"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "Set the recurrence for tasks not coming from the project template and the "
 "dead line dates to all project tasks."
@@ -1367,7 +1281,6 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "Since a tedious part of the job is to request and organise documents for "
 "reference and traceability, a good document management system is required!"
@@ -1377,7 +1290,6 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "Some of your services might be time sheet invoiced. You can proceed by "
 "different ways to record your time."
@@ -1400,40 +1312,35 @@ msgstr "Görevler"
 #. module: accounting_firm
 #: model:documents.document,name:accounting_firm.documents_document_11
 #: model:project.project,name:accounting_firm.project_project_1
-#, fuzzy
 msgid "Template / Accounting - Monthly VAT"
 msgstr "Şablon / Muhasebe - Aylık KDV"
 
 #. module: accounting_firm
 #: model:documents.document,name:accounting_firm.documents_document_24
 #: model:project.project,name:accounting_firm.project_project_6
-#, fuzzy
 msgid "Template / Accounting - Non-taxable"
 msgstr "Şablon / Muhasebe - Vergilendirilemez"
 
 #. module: accounting_firm
 #: model:documents.document,name:accounting_firm.documents_document_13
 #: model:project.project,name:accounting_firm.project_project_3
-#, fuzzy
 msgid "Template / Accounting - Quarterly VAT"
 msgstr "Şablon / Muhasebe - Üç Aylık KDV"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "The Accounting Firm package does not include any customization. Note that "
 "<strong>Studio App </strong>would enable you to setup specific fields for "
 "more robustness as well as much more advanced workflows and automations!"
 msgstr ""
-"Muhasebe Firması paketi herhangi bir özelleştirme içermez. <strong> Studio "
-"App </strong>adresinin daha fazla sağlamlık için belirli alanların yanı sıra "
-"çok daha gelişmiş iş akışları ve otomasyonlar kurmanıza olanak sağlayacağını "
-"unutmayın!"
+"Muhasebe Firması paketi herhangi bir özelleştirme içermez. <strong> Studyo "
+"Uygulaması </strong>adresinin daha fazla sağlamlık için belirli alanların "
+"yanı sıra çok daha gelişmiş iş akışları ve otomasyonlar kurmanıza olanak "
+"sağlayacağını unutmayın!"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "The Accounting Firm package is of great help but may not cover all your "
 "needs...<br/>\n"
@@ -1445,7 +1352,6 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "The Customer onboarding task contains details about actions to take to have "
 "your customer in order."
@@ -1455,7 +1361,13 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
+msgid ""
+"The Databases App comes with capabilities to efficiently manage tasks, "
+"access rights and more!"
+msgstr ""
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid ""
 "The documents sent to the email alias of this project will arrive in the "
 "root folder of the project. This can be considered as an inbox while sub "
@@ -1468,7 +1380,6 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid "The project creation created as well some tasks to handle from now on."
 msgstr ""
 "Proje Yönetimi'nin oluşturulmasıyla birlikte bundan sonra yerine getirilmesi "
@@ -1476,7 +1387,6 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "This creates an empty document in your project to be filled by your customer "
 "by uploading a file from the email they receive. You could do so for all "
@@ -1488,7 +1398,6 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "To assign the Project Manager, Assistant and Reviewer, open the Project App "
 "and open the settings of the project, clicking the three dots in the top "
@@ -1500,7 +1409,6 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "To request a document such as an ID card or a bank statement, click New and "
 "then Request."
@@ -1510,7 +1418,6 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "To setup the project folder email alias, display the project top bar and add "
 "the Documents shortcut."
@@ -1520,7 +1427,6 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "UBO identification can be a tedious task you don't want to lose time on. The "
 "Equity App comes with capabilities which will help you with this duty."
@@ -1532,44 +1438,37 @@ msgstr ""
 #. module: accounting_firm
 #: model:mail.activity.type,name:accounting_firm.mail_activity_ubo_update
 #: model:mail.activity.type,summary:accounting_firm.mail_activity_ubo_update
-#, fuzzy
 msgid "UBO update"
 msgstr "UBO güncellemesi"
 
 #. module: accounting_firm
 #: model:project.tags,name:accounting_firm.project_tags_3
-#, fuzzy
 msgid "Ultimate Beneficial Owners"
 msgstr "Nihai Gerçek Faydalanıcı Sahipler"
 
 #. module: accounting_firm
 #: model:product.template,name:accounting_firm.product_product_6_product_template
-#, fuzzy
 msgid "Ultimate Beneficial Owners register (Pack)"
 msgstr "Nihai Yararlanıcı Sahipleri kaydı (Paket)"
 
 #. module: accounting_firm
 #: model:ir.actions.server,name:accounting_firm.server_action_update_document_partner_identity
-#, fuzzy
 msgid "Update Document Partner ID"
 msgstr "Belge Ortağı Kimliğini Güncelle"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.document_document_kanban_view_inherited
-#, fuzzy
 msgid "Update Identity Document"
 msgstr "Kimlik Belgesi Güncelleme"
 
 #. module: accounting_firm
 #: model:ir.actions.server,name:accounting_firm.server_action_update_owner_id
 #: model_terms:ir.ui.view,arch_db:accounting_firm.equity_ubo_form_view_inherited
-#, fuzzy
 msgid "Update Owner ID"
 msgstr "Sahip Kimliğini Güncelle"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "Update the captured insights as you need and then update the last update "
 "date."
@@ -1579,13 +1478,11 @@ msgstr ""
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_vat_declaration_recurrence_field_res_partner
-#, fuzzy
 msgid "VAT Declaration Recurrence"
 msgstr "KDV Beyannamesi Tekrarı"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "Welcome to the Odoo Accounting Firm package! This guide will help you manage "
 "your missions efficiently from opportunity management to billing, as well as "
@@ -1597,7 +1494,6 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "When filling in the identity document expiration date, you can leverage the "
 "contacts filter \"Expired IDs\" to efficiently find the IDs to update!"
@@ -1608,7 +1504,6 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "When the document is available, reach the contact ID tab to fill in the "
 "contact details."
@@ -1618,7 +1513,6 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "When you confirm a sale order, know that the duplicated project is defined "
 "in the product you sold. You can edit the project to adjust the list for "
@@ -1632,7 +1526,6 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "Whether you performed some work for a fixed price or based on time sheets, "
 "you can expense your customer for this."
@@ -1651,7 +1544,6 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "Yet be aware that by default, any email sent to "
 "info@yourcompanyname.example.com will create a new lead in your CRM pipeline!"
@@ -1668,7 +1560,6 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "You can as well change view for the list view for example, and click the New "
 "button to report some time."
@@ -1678,17 +1569,15 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "You can as well submit a letter of mission to be digitally signed with the "
 "<strong>Sign app</strong>."
 msgstr ""
-"Ayrıca <strong>Sign uygulaması</strong> ile dijital olarak imzalanmak üzere "
+"Ayrıca <strong>İmza uygulaması</strong> ile dijital olarak imzalanmak üzere "
 "bir görev mektubu da gönderebilirsiniz."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "You can preview the quote at this stage. This view is for your customer to "
 "confirm the mission."
@@ -1712,7 +1601,6 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "You have access in the project Dashboard to all related documents and can "
 "follow up on earnings and costs effortlessly.<br/>\n"
@@ -1726,7 +1614,6 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "You just got a all and a customer wants to know more about your rates and "
 "services. Rather than sending him an email on the side, leverage the "
@@ -1738,14 +1625,12 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "You just got a all and a customer wants you for the job, congratulations!"
 msgstr "Bir iş aldınız ve bir müşteri sizi iş için istiyor, tebrikler!"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "You might have tested the Accounting Firm package with or without demo data."
 "<br/>\n"
@@ -1759,7 +1644,6 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "You might want to setup questionnaires to fine tune your quotations and "
 "clarify the interactions with your customers. Have a look at the "
@@ -1771,7 +1655,6 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "Your Odoo Accounting Firm package includes essential apps to streamline your "
 "operations:"
@@ -1781,7 +1664,6 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid "Your contact is now provided a portal access to record the UBO."
 msgstr ""
 "İrtibat kişinize artık UBO'yu kaydetmesi için bir portal erişimi "
@@ -1789,147 +1671,156 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid "⏲️ Time management"
 msgstr "⏲️ Zaman yönetimi"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid "﻿ , and feel free to ﻿"
 msgstr ", ve çekinmeyin"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid "﻿ and ﻿"
 msgstr "ve"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid "﻿ if you need help!"
 msgstr "Yardıma ihtiyacınız varsa!"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid "﻿Odoo.com/trial﻿"
 msgstr "Odoo.com/trial"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid "﻿Reach us﻿"
 msgstr "Bize ulaşın"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid "﻿academy﻿"
 msgstr "akademi̇"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid "﻿documentation﻿"
 msgstr "dokümantasyon"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid "﻿request a demo﻿"
 msgstr "demo talebinde bulunun"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid "﻿🎓 CRM﻿"
 msgstr "🎓 CRM"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid "﻿🎓 Contacts﻿"
 msgstr "🎓 İletişim"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid "﻿🎓 Documents﻿"
 msgstr "🎓 Belgeler"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid "﻿🎓 Invoicing﻿"
 msgstr "🎓 Faturalama"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid "﻿🎓 Project Dashboard﻿"
 msgstr "🎓 Proje Gösterge Paneli"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid "﻿🎓 Project﻿"
 msgstr "🎓 Proje Yönetimi"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid "﻿🎓 Sales﻿"
 msgstr "🎓 Satışlar"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid "﻿🎓 Timesheet﻿"
 msgstr "🎓 Çalışma Çizelgeleri"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid "👋 Welcoming prospects"
 msgstr "👋 Potansiyel müşterileri karşılama"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid "💵 Billing your efforts"
 msgstr "💵 Çabalarınızı faturalandırın"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid "💸 Anti-Money Laundering"
 msgstr "💸 Kara Para Aklamayı Önleme"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid "📊 Follow up on project profitability"
 msgstr "📊 Proje Yönetimi karlılığının takibi"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid "📜 Getting to the \"Go\""
 msgstr "📜 \"Git \"e ulaşmak"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
+msgid "📬 Follow up on your customer database"
+msgstr ""
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "🗂️ Document management"
 msgstr "🗂️ Belge yönetimi"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid "🧮 Ultimate beneficial owners' hunt"
 msgstr "🧮 Nihai intifa hakkı sahipleri avı"
+
+#~ msgid ""
+#~ "Bill easily and manage your accounts with the <strong>Accounting App</"
+#~ "strong>."
+#~ msgstr ""
+#~ "<strong>Muhasebe Uygulaması</strong> ile kolayca faturalandırın ve "
+#~ "hesaplarınızı yönetin."
+
+#~ msgid "Follow up on missions leveraging the <strong>Project App</strong>."
+#~ msgstr ""
+#~ "<strong>Proje Yönetimi App</strong> adresinden yararlanarak görevleri "
+#~ "takip edin."
+
+#~ msgid ""
+#~ "Generate quote and manage sale order from the <strong>Sales App</strong>."
+#~ msgstr ""
+#~ "<strong>Satış App</strong> adresinden fiyat teklifi oluşturun ve satış "
+#~ "siparişini yönetin."
+
+#~ msgid ""
+#~ "Have a central repository for requested documents in<strong> Documents "
+#~ "App</strong>."
+#~ msgstr ""
+#~ "<strong> Belgeler App</strong> adresinde talep edilen belgeler için "
+#~ "merkezi bir depoya sahip olun."
+
+#~ msgid "Manage opportunities with the <strong>CRM App</strong>."
+#~ msgstr "<strong>CRM Uygulaması</strong> ile fırsatları yönetin."
 
 #, fuzzy
 #~ msgid "<strong>Requesting UBO</strong>"

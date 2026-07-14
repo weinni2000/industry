@@ -15,6 +15,11 @@
         <field name="model_id" ref="sale.model_sale_order"/>
         <field name="relation">stock.lot</field>
         <field name="copied" eval="True"/>
+        <field name="depends">order_line</field>
+        <field name="compute"><![CDATA[
+for so in self:
+    so['x_maintained_serials_ids'] = [(6, 0, so.order_line.mapped('x_maintained_serials_ids').ids)]
+]]></field>
     </record>
     <record id="x_serials_field" model="ir.model.fields">
         <field name="name">x_serials</field>
@@ -88,7 +93,7 @@ for record in self:
         <field name="compute"><![CDATA[
 for record in self:
     record['x_maintenances_ids'] = [(6, 0, (self.env['sale.order.line'].search([
-        ('product_template_id', '=', self.env.ref('hvac_services.product_template_maintenance')), 
+        ('x_product_is_maintenance', '=', True),
         ('x_maintained_serials_ids', 'in', record.id),
     ]).mapped('order_id')).ids)]
 ]]></field>
@@ -259,12 +264,12 @@ for record in self:
         <field name="required" eval="True"/>
         <field name="on_delete">cascade</field>
     </record>
-    <record id="x_device_id_field" model="ir.model.fields">
-        <field name="name">x_device_id</field>
+    <record id="x_product_id_field" model="ir.model.fields">
+        <field name="name">x_product_id</field>
         <field name="ttype">many2one</field>
         <field name="field_description">Device</field>
         <field name="model_id" ref="x_new_devices"/>
-        <field name="relation">product.template</field>
+        <field name="relation">product.product</field>
         <field name="domain" eval="[('categ_id', '=', ref('product_category_devices'))]"/>
         <field name="required" eval="True"/>
         <field name="on_delete">cascade</field>
@@ -282,5 +287,18 @@ for record in self:
         <field name="field_description">Delivery Date</field>
         <field name="model_id" ref="x_new_devices"/>
         <field name="required" eval="True"/>
+    </record>
+    <record id="x_document_tag_ids_field_product_document" model="ir.model.fields">
+        <field name="name">x_document_tag_ids</field>
+        <field name="ttype">many2many</field>
+        <field name="field_description">Tags</field>
+        <field name="model_id" ref="product.model_product_document"/>
+        <field name="relation">documents.tag</field>
+        <field name="store" eval="False"/>
+        <field name="depends">document_ids.tag_ids</field>
+        <field name="compute"><![CDATA[
+for record in self:
+    record['x_document_tag_ids'] = [(6, 0, record.document_ids.tag_ids.ids)]
+]]></field>
     </record>
 </odoo>

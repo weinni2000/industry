@@ -3,13 +3,14 @@
 # * fmcg_store
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Odoo Translation Bot <c3p@odoo.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 09:29+0000\n"
-"PO-Revision-Date: 2025-11-17 11:11+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-06-12 18:07+0000\n"
+"PO-Revision-Date: 2025-12-17 15:48+0000\n"
+"Last-Translator: Odoo Translation Bot <c3p@odoo.com>\n"
 "Language-Team: Romanian <https://translate.odoo.com/projects/odoo-19/"
 "fmcg_store/ro/>\n"
 "Language: ro\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: fmcg_store
 #: model:product.attribute.value,name:fmcg_store.product_attribute_value_38
@@ -117,8 +118,8 @@ msgid ""
 "<strong>Flow 2: Point of sale - Regular flow with Buy one get one free "
 "product</strong>"
 msgstr ""
-"<strong>Flux 2: Punct de vânzare - Flux obișnuit cu produs la promoție „"
-"Cumperi unul, primești unul gratuit”</strong>"
+"<strong>Flux 2: Punct de vânzare - Flux obișnuit cu produs la promoție "
+"„Cumperi unul, primești unul gratuit”</strong>"
 
 #. module: fmcg_store
 #: model_terms:ir.ui.view,arch_db:fmcg_store.welcome_article_body
@@ -143,15 +144,15 @@ msgstr "<strong>Flux 5: Flux de vânzare – Client B2B</strong>"
 #: model_terms:ir.ui.view,arch_db:fmcg_store.welcome_article_body
 msgid "<strong>To do that, open the Point of Sale application:</strong>"
 msgstr ""
-"<strong>Pentru a face acest lucru, deschideți aplicația Punct de "
-"vânzare:</strong>"
+"<strong>Pentru a face acest lucru, deschideți aplicația Punct de vânzare:</"
+"strong>"
 
 #. module: fmcg_store
 #: model_terms:ir.ui.view,arch_db:fmcg_store.welcome_article_body
 msgid "<strong>To do that, open the Point of sale application:</strong>"
 msgstr ""
-"<strong>Pentru a face acest lucru, deschideți aplicația Punct de "
-"vânzare:</strong>"
+"<strong>Pentru a face acest lucru, deschideți aplicația Punct de vânzare:</"
+"strong>"
 
 #. module: fmcg_store
 #: model_terms:ir.ui.view,arch_db:fmcg_store.welcome_article_body
@@ -172,11 +173,6 @@ msgstr "Migdale americane"
 #: model_terms:ir.ui.view,arch_db:fmcg_store.welcome_article_body
 msgid "As it's set an invoice and mark \"Ship Later\""
 msgstr "După ce setați factura, bifați „Livrare ulterioară”"
-
-#. module: fmcg_store
-#: model:pos.payment.method,name:fmcg_store.pos_payment_method_1
-msgid "Bank"
-msgstr "Bancă"
 
 #. module: fmcg_store
 #: model:product.template,name:fmcg_store.product_product_26_product_template
@@ -277,19 +273,9 @@ msgid "Create an RFQ for \"Grocery outlet\""
 msgstr "Creați o cerere de ofertă pentru „Grocery outlet”"
 
 #. module: fmcg_store
-#: model:pos.payment.method,name:fmcg_store.pos_payment_method_2
-msgid "Credit Card"
-msgstr "Card de credit"
-
-#. module: fmcg_store
 #: model:loyalty.program,portal_point_name:fmcg_store.loyalty_program_8
 msgid "Credit(s)"
 msgstr "Credit(e)"
-
-#. module: fmcg_store
-#: model:pos.payment.method,name:fmcg_store.pos_payment_method_3
-msgid "Customer Account"
-msgstr "Cont client"
 
 #. module: fmcg_store
 #: model_terms:ir.ui.view,arch_db:fmcg_store.welcome_article_body
@@ -316,34 +302,6 @@ msgstr "Fructe uscate & Nuci"
 #: model:product.template,name:fmcg_store.product_product_12_product_template
 msgid "Energy Drink"
 msgstr "Băutură energizantă"
-
-#. module: fmcg_store
-#: model_terms:ir.ui.view,arch_db:fmcg_store.welcome_article_body
-msgid "Flow 1 : Purchase Flow."
-msgstr "Flux 1 : Flux de achiziție."
-
-#. module: fmcg_store
-#: model_terms:ir.ui.view,arch_db:fmcg_store.welcome_article_body
-msgid "Flow 2: Point of sale - Regular flow with Buy one get one free product"
-msgstr ""
-"Flux 2: Punct de vânzare - Flux obișnuit cu produs la promoție „Cumperi "
-"unul, primești unul gratuit”"
-
-#. module: fmcg_store
-#: model_terms:ir.ui.view,arch_db:fmcg_store.welcome_article_body
-msgid "Flow 3: Point of sale - Customer Account"
-msgstr "Flux 3: Punct de vânzare - Cont client"
-
-#. module: fmcg_store
-#: model_terms:ir.ui.view,arch_db:fmcg_store.welcome_article_body
-msgid "Flow 4: Point of Sale - Ship Later &amp; Global discount @10%"
-msgstr ""
-"Flux 4: Punct de vânzare - Livrare ulterioară &amp; Discount global @10%"
-
-#. module: fmcg_store
-#: model_terms:ir.ui.view,arch_db:fmcg_store.welcome_article_body
-msgid "Flow 5: Sale Flow – B2B Customer"
-msgstr "Flux 5: Flux de vânzare – Client B2B"
 
 #. module: fmcg_store
 #: model:pos.category,name:fmcg_store.pos_category_1
@@ -468,6 +426,11 @@ msgid "Nuggets"
 msgstr "Nuggets"
 
 #. module: fmcg_store
+#: model:pos.payment.method,name:fmcg_store.pos_payment_method_2
+msgid "Online Payment"
+msgstr ""
+
+#. module: fmcg_store
 #: model_terms:ir.ui.view,arch_db:fmcg_store.welcome_article_body
 msgid ""
 "Optionally: the customer might confirm the order, but it's not necessary"
@@ -486,17 +449,17 @@ msgstr "Biscuiți Orea"
 #. module: fmcg_store
 #: model:uom.uom,name:fmcg_store.uom_uom_3
 msgid "Pack of 2"
-msgstr ""
+msgstr "Pachet de 2"
 
 #. module: fmcg_store
 #: model:uom.uom,name:fmcg_store.uom_uom_1
 msgid "Pack of 4"
-msgstr ""
+msgstr "Pachet de 4"
 
 #. module: fmcg_store
 #: model:uom.uom,name:fmcg_store.uom_uom_2
 msgid "Pack of 5"
-msgstr ""
+msgstr "Pachet de 5"
 
 #. module: fmcg_store
 #: model:product.template,name:fmcg_store.product_product_30_product_template
@@ -667,3 +630,31 @@ msgstr "<strong>Flux 6: Produs cu ambalaje cu coduri de bare multiple</strong>"
 #: model_terms:ir.ui.view,arch_db:fmcg_store.welcome_article_body
 msgid "​Give the Global Discount @ 10%"
 msgstr "Acordați discountul global @ 10%"
+
+#~ msgid "Bank"
+#~ msgstr "Bancă"
+
+#~ msgid "Credit Card"
+#~ msgstr "Card de credit"
+
+#~ msgid "Customer Account"
+#~ msgstr "Cont client"
+
+#~ msgid "Flow 1 : Purchase Flow."
+#~ msgstr "Flux 1 : Flux de achiziție."
+
+#~ msgid ""
+#~ "Flow 2: Point of sale - Regular flow with Buy one get one free product"
+#~ msgstr ""
+#~ "Flux 2: Punct de vânzare - Flux obișnuit cu produs la promoție „Cumperi "
+#~ "unul, primești unul gratuit”"
+
+#~ msgid "Flow 3: Point of sale - Customer Account"
+#~ msgstr "Flux 3: Punct de vânzare - Cont client"
+
+#~ msgid "Flow 4: Point of Sale - Ship Later &amp; Global discount @10%"
+#~ msgstr ""
+#~ "Flux 4: Punct de vânzare - Livrare ulterioară &amp; Discount global @10%"
+
+#~ msgid "Flow 5: Sale Flow – B2B Customer"
+#~ msgstr "Flux 5: Flux de vânzare – Client B2B"

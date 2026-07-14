@@ -1,6 +1,6 @@
 {
     'name': 'Eyewear Shop',
-    'version': '1.1',
+    'version': '1.3',
     'category': 'Health and Fitness',
     'author': 'Odoo S.A.',
     'depends': [
@@ -33,7 +33,6 @@
         'data/appointment_resource.xml',
         'data/pos_config.xml',
         'data/pos_category.xml',
-        'data/pos_payment_method.xml',
         'data/product_category.xml',
         'data/product_public_category.xml',
         'data/product_tag.xml',
@@ -50,6 +49,7 @@
         'data/crm_tag.xml',
     ],
     'demo': [
+        'demo/res_company.xml',
         'demo/res_partner.xml',
         'demo/appointment_type.xml',
         'demo/crm_lead.xml',
@@ -74,6 +74,7 @@
         "data/knowledge_article.xml",
         "demo/website_view.xml",
     ],
+    'application': True,
     'images': ['images/main.png'],
     'license': 'OEEL-1',
     'url': "https://www.odoo.com/trial?industry&selected_app=eyewear_shop",

@@ -3,13 +3,14 @@
 # * bar_industry
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Odoo Translation Bot <c3p@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 11:41+0000\n"
-"PO-Revision-Date: 2025-11-17 11:09+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-06-12 17:38+0000\n"
+"PO-Revision-Date: 2026-04-11 09:35+0000\n"
+"Last-Translator: Odoo Translation Bot <c3p@odoo.com>\n"
 "Language-Team: Romanian <https://translate.odoo.com/projects/odoo-19/"
 "bar_industry/ro/>\n"
 "Language: ro\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -51,11 +52,9 @@ msgstr ""
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
 msgid ""
-"2. Create your employees' roles under the \"Work Information\" tab. Some are "
-"already created for this demo."
+"2. Create your employees' roles under the \"Settings\" tab. Some are already "
+"created for this demo."
 msgstr ""
-"2. Creați rolurile angajaților în fila „Informații de lucru”. Unele sunt "
-"deja create pentru această demonstrație."
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -66,18 +65,12 @@ msgstr "2. Reaprovizionare"
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
 msgid ""
 "2. To make it more interesting, feel free to create a second order. For this "
-"one, you can simulate an Happy Hour. To do so, click the \"More\" button in "
+"one, you can simulate an Happy Hour. To do so, click the three dots menu in "
 "the order summary, and choose the pricelist \"Happy Hour\" instead of the "
 "Default one.\n"
 "                You will see that if you take twice the same drink, it'll "
 "cost half the price."
 msgstr ""
-"2. Pentru a face lucrurile mai interesante, puteți crea o a doua comandă. "
-"Pentru aceasta, puteți simula o Happy Hour. Dați click pe butonul „Mai multe”"
-" din sumarul comenzii și alegeți lista de prețuri „Happy Hour” în loc de cea "
-"implicită.\n"
-"                Veți vedea că dacă luați de două ori aceeași băutură, va "
-"costa jumătate din preț."
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -220,8 +213,8 @@ msgid ""
 msgstr ""
 "Un <strong><font class=\"text-o-color-1\">Website</font></strong> gratuit, "
 "personalizat și integrat în doar câteva click-uri. Începeți să primiți "
-"comenzi direct în Odoo sau lansați-vă <strong><font class=\"text-o-color-1\""
-">Magazinul online</font></strong> în câteva minute."
+"comenzi direct în Odoo sau lansați-vă <strong><font class=\"text-o-"
+"color-1\">Magazinul online</font></strong> în câteva minute."
 
 #. module: bar_industry
 #: model:product.template,name:bar_industry.product_product_31_product_template
@@ -255,11 +248,6 @@ msgstr "Bară"
 #: model:planning.role,name:bar_industry.planning_role_3
 msgid "Bar & Service"
 msgstr "Bar & Servire"
-
-#. module: bar_industry
-#: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
-msgid "Basics:"
-msgstr "Bazele:"
 
 #. module: bar_industry
 #: model:pos.category,name:bar_industry.pos_category_3
@@ -320,11 +308,6 @@ msgstr ""
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
-msgid "Do you want to go further?"
-msgstr "Vreți să mergeți mai departe?"
-
-#. module: bar_industry
-#: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
 msgid ""
 "Don't forget to hit the \"Order\" button each time you change an order. This "
 "will forward the order to the Kitchen Display."
@@ -356,11 +339,6 @@ msgid "Get on track and explore our recommendations for your Odoo usage here!"
 msgstr ""
 "Intrați pe drumul cel bun și explorați recomandările noastre pentru "
 "utilizarea Odoo aici!"
-
-#. module: bar_industry
-#: model:product.template,name:bar_industry.product_product_3_product_template
-msgid "Gift Card"
-msgstr "Card cadou"
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -405,10 +383,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
 msgid ""
 "If you want to assign them an Odoo user account, you can select a related "
-"user in the \"HR Settings\" tab."
+"user in the same \"Settings\" tab."
 msgstr ""
-"Dacă doriți să le atribuiți un cont de utilizator Odoo, puteți selecta un "
-"utilizator asociat în fila „Setări HR”."
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -438,9 +414,9 @@ msgstr ""
 "Gestionați toate canalele de comunicare într-un singur loc cu Odoo "
 "<strong><font class=\"text-o-color-1\">Marketing Automatizat</font></"
 "strong>, <strong><font class=\"text-o-color-1\">Email Marketing</font></"
-"strong>, <strong><font class=\"text-o-color-1\">Marketing Social "
-"Media</font></strong> și <strong><font class=\"text-o-color-1\">SMS "
-"Marketing</font></strong>."
+"strong>, <strong><font class=\"text-o-color-1\">Marketing Social Media</"
+"font></strong> și <strong><font class=\"text-o-color-1\">SMS Marketing</"
+"font></strong>."
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -450,8 +426,8 @@ msgid ""
 "strong>)"
 msgstr ""
 "Gestionați contabilitatea mai ușor ca niciodată într-un mediu complet "
-"integrat. (<strong><font class=\"text-o-color-1\">Aplicația "
-"Contabilitate</font></strong>)"
+"integrat. (<strong><font class=\"text-o-color-1\">Aplicația Contabilitate</"
+"font></strong>)"
 
 #. module: bar_industry
 #: model:product.template,name:bar_industry.product_product_28_product_template
@@ -593,11 +569,6 @@ msgstr "De făcut"
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
-msgid "Use case:"
-msgstr "Caz de utilizare:"
-
-#. module: bar_industry
-#: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
 msgid ""
 "Use the <strong><font class=\"text-o-color-1\">Inventory App</font></strong> "
 "to manage your stock and receive products."
@@ -611,9 +582,8 @@ msgid ""
 "Use the <strong><font class=\"text-o-color-1\">Planning App</font></strong> "
 "to schedule your shifts and share it with your employees."
 msgstr ""
-"Folosiți <strong><font class=\"text-o-color-1\">Aplicația de "
-"Planificare</font></strong> pentru a programa turele și a le distribui "
-"angajaților."
+"Folosiți <strong><font class=\"text-o-color-1\">Aplicația de Planificare</"
+"font></strong> pentru a programa turele și a le distribui angajaților."
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -775,3 +745,15 @@ msgstr "dacă aveți nevoie de ajutor!<br/>"
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
 msgid "request a demo"
 msgstr "solicitați o demonstrație"
+
+#~ msgid "Gift Card"
+#~ msgstr "Card cadou"
+
+#~ msgid "Basics:"
+#~ msgstr "Bazele:"
+
+#~ msgid "Do you want to go further?"
+#~ msgstr "Vreți să mergeți mai departe?"
+
+#~ msgid "Use case:"
+#~ msgstr "Caz de utilizare:"

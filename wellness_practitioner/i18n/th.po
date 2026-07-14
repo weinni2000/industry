@@ -8,13 +8,14 @@
 # Wil Odoo, 2024
 #
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
-# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+# Odoo Translation Bot <c3p@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 10:02+0000\n"
-"PO-Revision-Date: 2025-11-11 13:49+0000\n"
+"POT-Creation-Date: 2026-04-03 20:07+0000\n"
+"PO-Revision-Date: 2026-06-13 09:41+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Thai <https://translate.odoo.com/projects/odoo-19/"
 "wellness_practitioner/th/>\n"
@@ -23,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -32,18 +33,21 @@ msgstr "และโปรด"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+#, fuzzy
 msgid "1. Create a new opportunity"
-msgstr ""
+msgstr "1. สร้างโอกาสการขายใหม่"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+#, fuzzy
 msgid "2. Book an appointment"
-msgstr ""
+msgstr "2. นัดหมาย"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+#, fuzzy
 msgid "3. Verify your schedule"
-msgstr ""
+msgstr "3. ตรวจสอบตารางเวลาของคุณ"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -57,33 +61,89 @@ msgstr ""
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
-msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
-
-#. module: wellness_practitioner
-#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🌐</i>"
+msgid ""
+"<b>Appointments App</b>: Offer seamless online booking for consultations and "
+"sessions, allowing clients to schedule\n"
+"                time with you 24/7."
 msgstr ""
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🎉</i>"
-msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🎉</i>"
-
-#. module: wellness_practitioner
-#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
-msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
-
-#. module: wellness_practitioner
-#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
-msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
-
-#. module: wellness_practitioner
-#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🪂</i>"
+msgid ""
+"<b>Calendar App</b>: Manage your daily schedule efficiently, avoiding double "
+"bookings and ensuring you have adequate\n"
+"                preparation time between clients."
 msgstr ""
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+msgid ""
+"<b>Contacts App</b>: Maintain a clean and organized directory of all your "
+"clients, suppliers, and professional\n"
+"                partners."
+msgstr ""
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+msgid ""
+"<b>Invoicing App</b>: Simplify your finances by generating professional "
+"invoices for sessions and packages, ensuring\n"
+"                you get paid on time."
+msgstr ""
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+#, fuzzy
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">💡</i>"
+msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">💡</i>"
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+#, fuzzy
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">🚀</i>"
+msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">🚀</i>"
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\">🌐</i>"
+msgstr ""
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+#, fuzzy
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\">🎉</i>"
+msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\">🎉</i>"
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\">🪂</i>"
+msgstr ""
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+#, fuzzy
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Warning\">⚠️</i>"
+msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Warning\">⚠️</i>"
 
 #. module: wellness_practitioner
 #: model:mail.template,body_html:wellness_practitioner.booking_suggestion
@@ -116,8 +176,8 @@ msgstr ""
 "            </p>\n"
 "            \n"
 "            <p>\n"
-"                <a class=\"btn btn-secondary\" href="
-"\"/book/wellness_session\">จองการนัดหมาย</a>\n"
+"                <a class=\"btn btn-secondary\" href=\"/book/"
+"wellness_session\">จองการนัดหมาย</a>\n"
 "            </p>\n"
 "        "
 
@@ -142,21 +202,50 @@ msgstr "<span class=\"h1-fs\"><strong>คุณต้องการที่จ
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
 msgid ""
-"<strong><font class=\"text-black\"><span style=\"font-weight: normal;"
-"\">Manage your schedule and your availability in the </span></font><font "
-"class=\"text-o-color-1\">Calendar App</font><font class=\"text-black\"><span "
-"style=\"font-weight: normal;\">.</span></font></strong>"
+"<strong>1. Canned responses</strong><br/><br/>Click \"<strong>Send message</"
+"strong>\", then type <strong>\"::\"</strong> in the message content to "
+"display canned responses in the system. Then just select the one you want, "
+"click send, and the customer receives the message! It's that easy! <br/><br/>"
 msgstr ""
-"<strong><font class=\"text-black\"><span style=\"font-weight: normal;"
-"\">จัดการตารางเวลาและความพร้อมของคุณใน</span></font><font class=\"text-o-"
-"color-1\">แอปปฏิทิน</font><font class=\"text-black\"><span style=\"font-"
-"weight: normal;\"></span></font></strong>"
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+msgid "<strong>2. Email templates</strong>"
+msgstr ""
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+msgid ""
+"<strong><font class=\"text-black\"><span style=\"font-weight: "
+"normal\"><b>CRM App</b>: Nurture long-term relationships by tracking client "
+"interactions, preferences, and\n"
+"                follow-up reminders in one central hub.</span></font><font "
+"class=\"text-o-color-1\"/></strong><br/>"
+msgstr ""
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+msgid ""
+"<strong><font class=\"text-black\"><span style=\"font-weight: "
+"normal\"><b>Knowledge App</b>: Securely store and organize detailed patient "
+"notes, treatment plans, and holistic\n"
+"                health records for easy reference.</span></font></strong><br/"
+">"
+msgstr ""
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
 msgid ""
 "<strong><span class=\"display-4-fs\">Odoo for Therapy Practices</span></"
 "strong>"
+msgstr ""
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+msgid ""
+"<strong>Email templates </strong>can be set up in the Email Templates "
+"technical menu. To access it, admins can enable debug mode and search for "
+"the \"Email Templates\" menu from the homescreen."
 msgstr ""
 
 #. module: wellness_practitioner
@@ -184,11 +273,24 @@ msgstr "เพิ่มแอปสมัครสมาชิกและออ
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
 msgid ""
-"After each appointment, an automatic email will be sent to suggest your "
-"patient to already book its next appointment."
+"After each appointment, you can use the <strong>same methods </strong>to "
+"plan your next session with your patient."
 msgstr ""
-"หลังการนัดหมายแต่ละครั้ง "
-"ระบบจะส่งอีเมลอัตโนมัติเพื่อแนะนำให้ผู้ป่วยของคุณจองการนัดหมายครั้งต่อไปแล้ว"
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+msgid ""
+"Alternatively, you can also use the \"Log Note\" button on your contacts or "
+"create a specific knowledge article (like this one) for each of your "
+"patients."
+msgstr ""
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+msgid ""
+"Any meeting within Odoo contains a \"Notes\" field. Type, upload images, "
+"create tables, and much more."
+msgstr ""
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -212,21 +314,6 @@ msgid ""
 msgstr ""
 "การออกใบแจ้งหนี้แบบอัตโนมัติที่เกิดประจำด้วย<strong><font class=\"text-o-"
 "color-1\">แอปการสมัครสมาชิก</font></strong>"
-
-#. module: wellness_practitioner
-#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid "Basics"
-msgstr "พื้นฐาน"
-
-#. module: wellness_practitioner
-#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid ""
-"Be careful, using the \"Log Note\" in your contact with be displayed only "
-"for you and your eventual team. If you select the \"Send message\" option, "
-"this will notify your customer (which can be really interesting also)."
-msgstr ""
-"ระวังการใช้ \"บันทึก\" ในรายชื่อติดต่อของคุณอาจแสดงเฉพาะคุณและทีมงานของคุณเท่านั้น "
-"หากคุณเลือกตัวเลือก \"ส่งข้อความ\" ระบบจะแจ้งให้ลูกค้าของคุณทราบ (ซึ่งอาจน่าสนใจ)"
 
 #. module: wellness_practitioner
 #: model:mail.template,name:wellness_practitioner.booking_suggestion
@@ -253,27 +340,27 @@ msgstr "โดยการอัปโหลดข้อมูลสาธิต
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+msgid ""
+"Click \"<strong>Send message</strong>\", then click the \"<strong>Expand</"
+"strong>\" button on the bottom right of the composer."
+msgstr ""
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
 msgid "Discover more about Odoo by diving into our"
 msgstr "ค้นพบเพิ่มเติมเกี่ยวกับ Odoo โดยเข้าไปที่"
-
-#. module: wellness_practitioner
-#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid "Do you want to go further?"
-msgstr "คุณต้องการดำเนินการต่อหรือไม่?"
-
-#. module: wellness_practitioner
-#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid ""
-"Ease your invoicing process with the <strong><font class=\"text-o-"
-"color-1\">Invoice App</font></strong>."
-msgstr ""
-"ช่วยให้กระบวนการออกใบแจ้งหนี้ของคุณง่ายขึ้นด้วย<strong><font class=\"text-o-"
-"color-1\">แอปใบแจ้งหนี้</font></strong>"
 
 #. module: wellness_practitioner
 #: model:calendar.alarm,name:wellness_practitioner.alarm_mail_1
 msgid "Follow up"
 msgstr "ติดตามผล"
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+msgid ""
+"From any opportunity, the next step is to easily send an invitation to book "
+"an appointment with you."
+msgstr ""
 
 #. module: wellness_practitioner
 #. odoo-javascript
@@ -283,14 +370,14 @@ msgstr ""
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid ""
-"Getting Started\n"
-"            To begin, you'll find the key applications you need on your Odoo "
-"dashboard. Let's take a closer look at how you can use these tools."
+#, fuzzy
+msgid "Getting Started"
+msgstr "เริ่มต้นใช้งาน"
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+msgid "Give both options a shot!"
 msgstr ""
-"การเริ่มต้น\n"
-"            ในการเริ่มต้น คุณจะพบแอปพลิเคชันหลักที่คุณต้องการบนแดชบอร์ด Odoo ของคุณ "
-"มาดูกันว่าคุณสามารถใช้เครื่องมือเหล่านี้ได้อย่างไร"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -300,16 +387,6 @@ msgid ""
 msgstr ""
 "หากคุณไปที่แอปใบแจ้งหนี้ คุณสามารถจัดการใบแจ้งหนี้ของคุณได้ "
 "คุณมีทางเลือกมากมายในการปรับกระบวนการออกใบแจ้งหนี้ของคุณให้มีประสิทธิภาพ:"
-
-#. module: wellness_practitioner
-#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid ""
-"If you open Emily's opportunity in your CRM, you can see in the Chatter (on "
-"the right column) that she received an email from you with a call to action "
-"to book an appointment."
-msgstr ""
-"หากคุณเปิดโอกาสทางการขายของ Emily ใน CRM คุณจะเห็นในช่องแชท (ในคอลัมน์ด้านขวา) "
-"ว่าเธอได้รับอีเมลจากคุณพร้อมคำกระตุ้นการดำเนินการเพื่อจองการนัดหมาย"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -398,11 +475,6 @@ msgstr ""
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid "Odoo for Therapy Practices"
-msgstr ""
-
-#. module: wellness_practitioner
-#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
 msgid ""
 "Odoo is entirely integrated into an App. Download it to turn your phone to "
 "manage your entire business in it."
@@ -455,52 +527,18 @@ msgid "Schedule a demo"
 msgstr "กำหนดเวลาสาธิต"
 
 #. module: wellness_practitioner
-#: model:ir.actions.server,name:wellness_practitioner.ir_act_server_1
-msgid "Send Email when Qualified"
-msgstr ""
-
-#. module: wellness_practitioner
 #: model:mail.template,description:wellness_practitioner.booking_suggestion
 msgid "Sent to all attendees if a reminder is set"
 msgstr "ส่งถึงผู้เข้าร่วมทุกคนหากมีการตั้งค่าการแจ้งเตือนไว้"
-
-#. module: wellness_practitioner
-#: model:base.automation,name:wellness_practitioner.base_automation_1
-msgid "Stage is set to \"Qualified\""
-msgstr "ขั้นตอนถูกตั้งเป็น \"ผ่านคุณสมบัติ\""
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
 msgid ""
 "The <strong><font class=\"text-o-color-1\">Appointment App</font></strong> "
 "is automatically updated based on your Calendar. You can easily lock slots, "
-"change appointment hoursand send communication to your patients fromthe "
+"change appointment times and send communication to your patients fromthe "
 "Calendar App."
 msgstr ""
-"<strong><font class=\"text-o-color-1\">แอปการนัดหมาย</font></strong> "
-"ได้รับการอัปเดตโดยอัตโนมัติตามปฏิทินของคุณ คุณสามารถล็อกช่วงเวลา เปลี่ยนเวลานัดหมาย "
-"และส่งการสื่อสารถึงผู้ป่วยของคุณจากแอปปฏิทินได้อย่างง่ายดาย"
-
-#. module: wellness_practitioner
-#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid ""
-"The <strong><font class=\"text-o-color-1\">Appointments App</font><font "
-"class=\"text-black\"><span style=\"font-weight: normal;\"> manages your "
-"appointment types.</span></font><font class=\"text-o-color-1\"/></strong>"
-msgstr ""
-"<strong><font class=\"text-o-color-1\">แอปการนัดหมาย</font><font class=\"text-"
-"black\"><span style=\"font-weight: normal;\">ช่วยจัดการประเภทการนัดหมายของคุณ</"
-"span></font><font class=\"text-o-color-1\"/></strong>"
-
-#. module: wellness_practitioner
-#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid ""
-"The <strong><font class=\"text-o-color-1\">CRM App</font></strong>(Customer "
-"Relationship Management) is the heart of your therapy practice's patient "
-"management."
-msgstr ""
-"<strong><font class=\"text-o-color-1\">แอป CRM</font></strong> "
-"(การจัดการความสัมพันธ์ลูกค้า) ถือเป็นหัวใจสำคัญของการจัดการผู้ป่วยของคลินิกการบำบัดของคุณ"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -529,8 +567,36 @@ msgstr ""
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+msgid ""
+"This opens up the <strong>Mail composer. </strong>Once you're in the "
+"composer, just press the <strong>three dot icon </strong>in the toolbar, "
+"then choose your desired <strong>email template</strong>."
+msgstr ""
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+msgid ""
+"To begin, you'll find the key applications you need on your Odoo dashboard. "
+"Let's take a closer look at how you can use these tools."
+msgstr ""
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+msgid ""
+"To create, edit and delete existing canned responses, just open the "
+"<strong>Discuss App</strong>, then go to <strong>Configuration &gt; Canned "
+"Responses</strong> and set up the message you'd like to easily send."
+msgstr ""
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
 msgid "To do so, go to CRM &gt; Configuration &gt; Sales Teams."
 msgstr "หากต้องการดำเนินการดังกล่าว ให้ไปที่ CRM &gt; การกำหนดค่า &gt; ทีมขาย"
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+msgid "To do that easily, you have two possibilities :"
+msgstr ""
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -543,24 +609,8 @@ msgstr ""
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid "Try it !"
+msgid "Using Odoo, you can easily take notes during your appointments."
 msgstr ""
-
-#. module: wellness_practitioner
-#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid "Use Case"
-msgstr "กรณีการใช้งาน"
-
-#. module: wellness_practitioner
-#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid ""
-"Using Odoo, you can easily take notes during your appointments, you can "
-"either use the \"Log Note\" button on your contact record or create a "
-"specific knowledge article (like this one) for each of your patient."
-msgstr ""
-"คุณสามารถจดบันทึกระหว่างการนัดหมายได้อย่างง่ายดายโดยใช้ Odoo ซึ่งคุณสามารถใช้ปุ่ม "
-"\"จดบันทึก\" ในรายชื่อผู้ติดต่อของคุณหรือสร้างบทความความรู้เฉพาะ (เช่นบทความนี้) "
-"สำหรับผู้ป่วยแต่ละคนก็ได้"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -600,6 +650,13 @@ msgid ""
 "will create a new opportunity for you."
 msgstr ""
 "คุณสามารถกำหนดค่าชื่ออีเมลได้ เพื่อให้ทุกคนที่ส่งอีเมลถึงบัญชีนี้จะสร้างโอกาสทางการขายใหม่ให้กับคุณได้"
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+msgid ""
+"You can even start a sound recording using the <strong>\"/voice transcript\" "
+"</strong>command !"
+msgstr ""
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -677,6 +734,109 @@ msgstr "หากคุณต้องการความช่วยเหล
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
 msgid "request a demo"
 msgstr "ขอสาธิตการใช้งาน"
+
+#~ msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
+#~ msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
+
+#~ msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🎉</i>"
+#~ msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🎉</i>"
+
+#~ msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
+#~ msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
+
+#~ msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
+#~ msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
+
+#~ msgid ""
+#~ "After each appointment, an automatic email will be sent to suggest your "
+#~ "patient to already book its next appointment."
+#~ msgstr ""
+#~ "หลังการนัดหมายแต่ละครั้ง "
+#~ "ระบบจะส่งอีเมลอัตโนมัติเพื่อแนะนำให้ผู้ป่วยของคุณจองการนัดหมายครั้งต่อไปแล้ว"
+
+#~ msgid ""
+#~ "Be careful, using the \"Log Note\" in your contact with be displayed only "
+#~ "for you and your eventual team. If you select the \"Send message\" "
+#~ "option, this will notify your customer (which can be really interesting "
+#~ "also)."
+#~ msgstr ""
+#~ "ระวังการใช้ \"บันทึก\" ในรายชื่อติดต่อของคุณอาจแสดงเฉพาะคุณและทีมงานของคุณเท่านั้น "
+#~ "หากคุณเลือกตัวเลือก \"ส่งข้อความ\" ระบบจะแจ้งให้ลูกค้าของคุณทราบ (ซึ่งอาจน่าสนใจ)"
+
+#~ msgid ""
+#~ "If you open Emily's opportunity in your CRM, you can see in the Chatter "
+#~ "(on the right column) that she received an email from you with a call to "
+#~ "action to book an appointment."
+#~ msgstr ""
+#~ "หากคุณเปิดโอกาสทางการขายของ Emily ใน CRM คุณจะเห็นในช่องแชท (ในคอลัมน์ด้านขวา) "
+#~ "ว่าเธอได้รับอีเมลจากคุณพร้อมคำกระตุ้นการดำเนินการเพื่อจองการนัดหมาย"
+
+#~ msgid "Stage is set to \"Qualified\""
+#~ msgstr "ขั้นตอนถูกตั้งเป็น \"ผ่านคุณสมบัติ\""
+
+#~ msgid ""
+#~ "The <strong><font class=\"text-o-color-1\">Appointment App</font></"
+#~ "strong> is automatically updated based on your Calendar. You can easily "
+#~ "lock slots, change appointment hoursand send communication to your "
+#~ "patients fromthe Calendar App."
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">แอปการนัดหมาย</font></strong> "
+#~ "ได้รับการอัปเดตโดยอัตโนมัติตามปฏิทินของคุณ คุณสามารถล็อกช่วงเวลา เปลี่ยนเวลานัดหมาย "
+#~ "และส่งการสื่อสารถึงผู้ป่วยของคุณจากแอปปฏิทินได้อย่างง่ายดาย"
+
+#~ msgid ""
+#~ "Using Odoo, you can easily take notes during your appointments, you can "
+#~ "either use the \"Log Note\" button on your contact record or create a "
+#~ "specific knowledge article (like this one) for each of your patient."
+#~ msgstr ""
+#~ "คุณสามารถจดบันทึกระหว่างการนัดหมายได้อย่างง่ายดายโดยใช้ Odoo ซึ่งคุณสามารถใช้ปุ่ม "
+#~ "\"จดบันทึก\" ในรายชื่อผู้ติดต่อของคุณหรือสร้างบทความความรู้เฉพาะ (เช่นบทความนี้) "
+#~ "สำหรับผู้ป่วยแต่ละคนก็ได้"
+
+#~ msgid "Basics"
+#~ msgstr "พื้นฐาน"
+
+#~ msgid "Do you want to go further?"
+#~ msgstr "คุณต้องการดำเนินการต่อหรือไม่?"
+
+#~ msgid "Use Case"
+#~ msgstr "กรณีการใช้งาน"
+
+#~ msgid ""
+#~ "<strong><font class=\"text-black\"><span style=\"font-weight: normal;"
+#~ "\">Manage your schedule and your availability in the </span></font><font "
+#~ "class=\"text-o-color-1\">Calendar App</font><font class=\"text-"
+#~ "black\"><span style=\"font-weight: normal;\">.</span></font></strong>"
+#~ msgstr ""
+#~ "<strong><font class=\"text-black\"><span style=\"font-weight: normal;"
+#~ "\">จัดการตารางเวลาและความพร้อมของคุณใน</span></font><font class=\"text-o-"
+#~ "color-1\">แอปปฏิทิน</font><font class=\"text-black\"><span style=\"font-"
+#~ "weight: normal;\"></span></font></strong>"
+
+#~ msgid ""
+#~ "Ease your invoicing process with the <strong><font class=\"text-o-"
+#~ "color-1\">Invoice App</font></strong>."
+#~ msgstr ""
+#~ "ช่วยให้กระบวนการออกใบแจ้งหนี้ของคุณง่ายขึ้นด้วย<strong><font class=\"text-o-"
+#~ "color-1\">แอปใบแจ้งหนี้</font></strong>"
+
+#~ msgid ""
+#~ "The <strong><font class=\"text-o-color-1\">Appointments App</font><font "
+#~ "class=\"text-black\"><span style=\"font-weight: normal;\"> manages your "
+#~ "appointment types.</span></font><font class=\"text-o-color-1\"/></strong>"
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">แอปการนัดหมาย</font><font "
+#~ "class=\"text-black\"><span style=\"font-weight: normal;"
+#~ "\">ช่วยจัดการประเภทการนัดหมายของคุณ</span></font><font class=\"text-o-"
+#~ "color-1\"/></strong>"
+
+#~ msgid ""
+#~ "The <strong><font class=\"text-o-color-1\">CRM App</font></"
+#~ "strong>(Customer Relationship Management) is the heart of your therapy "
+#~ "practice's patient management."
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">แอป CRM</font></strong> "
+#~ "(การจัดการความสัมพันธ์ลูกค้า) ถือเป็นหัวใจสำคัญของการจัดการผู้ป่วยของคลินิกการบำบัดของคุณ"
 
 #~ msgid ""
 #~ "<p style=\"margin:0px 0 16px 0;box-sizing:border-box;\">\n"

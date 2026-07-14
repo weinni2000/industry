@@ -1,6 +1,6 @@
 {
     'name': 'Electronic Store',
-    'version': '1.0',
+    'version': '1.2',
     'category': 'Retail',
     'depends': [
         'crm',
@@ -39,7 +39,6 @@
         'data/worksheet_template.xml',
         'data/project_project.xml',
         'data/product_product.xml',
-        'data/pos_payment_method.xml',
         'data/pos_config.xml',
         'data/sale_order_template.xml',
         'data/sale_order_template_line.xml',
@@ -50,7 +49,7 @@
         'data/knowledge_tour.xml',
     ],
     'demo': [
-        'demo/res_users.xml',
+        'demo/res_company.xml',
         'demo/res_partner.xml',
         'demo/account_analytic_plan.xml',
         'demo/account_analytic_account.xml',
@@ -94,6 +93,7 @@
         "static/src/js/my_tour.js",
         "demo/website_view.xml",
     ],
+    'application': True,
     'images': ['images/main.png'],
     'url': "https://www.odoo.com/trial?industry&selected_app=electronic_store",
     'website': "https://www.odoo.com/industries/electronics-store",

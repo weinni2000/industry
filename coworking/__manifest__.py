@@ -1,7 +1,7 @@
 {
     'name': 'Coworking',
     'version': '1.0',
-    'category': 'Service',
+    'category': 'Services',
     'author': 'Odoo S.A.',
     'depends': [
         'base_industry_data',
@@ -36,13 +36,13 @@
         'data/product_pricelist_item.xml',
         'data/crm_tag.xml',
         'data/hr_job.xml',
-        'data/event_event.xml',
         'data/helpdesk_team.xml',
         'data/mailing_mailing.xml',
         'data/mail_message.xml',
         'data/knowledge_article_favorite.xml',
     ],
     'demo': [
+        'demo/res_company.xml',
         'demo/event_event.xml',
         'demo/event_event_ticket.xml',
         'demo/product_product.xml',
@@ -73,6 +73,7 @@
         'data/knowledge_article.xml',
         'demo/website_view.xml',
     ],
+    'application': True,
     'images': ['images/main.png'],
     'url': "https://www.odoo.com/trial?industry&selected_app=coworking",
     'website': "https://www.odoo.com/all-industries",

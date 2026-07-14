@@ -11,13 +11,14 @@
 # Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2024
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Saara Hakanen <sahak@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 14:10+0000\n"
-"PO-Revision-Date: 2025-11-17 11:08+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-01-20 12:58+0000\n"
+"PO-Revision-Date: 2026-07-11 09:33+0000\n"
+"Last-Translator: Saara Hakanen <sahak@odoo.com>\n"
 "Language-Team: Finnish <https://translate.odoo.com/projects/odoo-19/"
 "odoo_partner/fi/>\n"
 "Language: fi\n"
@@ -25,12 +26,98 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: odoo_partner
 #: model:sale.order.template.line,name:odoo_partner.sale_order_template_line_19
 msgid "10 analysis workshops"
 msgstr "10 analyysointityöpajaa"
+
+#. module: odoo_partner
+#: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
+msgid ""
+"<b>CRM App</b>: Manage your leads and opportunities in a dedicated pipeline, "
+"tracking stages from \"New Lead\"\n"
+"                    to \"Won\" efficiently."
+msgstr ""
+"<b>CRM-sovellus</b>: Hallitse liidejäsi ja mahdollisuuksiasi niille "
+"omistetussa myyntiputkessa, jossa voit seurata vaiheita uusista liideistä\n"
+"                    aina voitettuihin asti."
+
+#. module: odoo_partner
+#: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
+msgid ""
+"<b>Documents App</b>: Store and organize crucial client documents, "
+"contracts, and technical specifications\n"
+"                    in a secure, central repository."
+msgstr ""
+"<b>Asiakirjat-sovellus</b>: Tallenna ja järjestä tärkeät asiakasasiakirjat, "
+"sopimukset ja tekniset määrittelyt\n"
+"turvalliseen ja keskitettyyn tallennuspaikkaan."
+
+#. module: odoo_partner
+#: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
+msgid ""
+"<b>Helpdesk App</b>: Handle client support requests and tickets "
+"systematically, ensuring timely resolution and\n"
+"                high service levels."
+msgstr ""
+"<b>Asiakaspalvelu-sovellus</b>: Käsittele asiakastukipyynnöt "
+"järjestelmällisesti varmistaen oikea-aikaisen ratkaisun ja\n"
+"                korkean palvelutason."
+
+#. module: odoo_partner
+#: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
+msgid ""
+"<b>Planning App</b>: Schedule your consultants' and developers' workload to "
+"optimize resource allocation and\n"
+"                    prevent bottlenecks."
+msgstr ""
+"<b>Suunnittelu-sovellus</b>: Aikatauluta konsulttiesi ja kehittäjiesi "
+"työmäärä resurssien optimoimiseksi sekä\n"
+"                    pullonkaulojen ehkäisemiseksi."
+
+#. module: odoo_partner
+#: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
+msgid ""
+"<b>Project App</b>: Manage Success Packs and large implementations with task "
+"management, milestones, and\n"
+"                    shared customer views."
+msgstr ""
+"<b>Projekti-sovellus</b>: Hallitse Menestyspaketteja sekä suuria toteutuksia "
+"tehtävienhallinnan, välitavoitteiden ja\n"
+"                    jaettujen asiakasnäkymien avulla."
+
+#. module: odoo_partner
+#: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
+msgid ""
+"<b>Sales App</b>: Create professional proposals using an advanced Quote "
+"Calculator and PDF Quote Builder to\n"
+"                    impress prospective clients."
+msgstr ""
+"<b>Myynti-sovellus</b>: Luo ammattimaisia tarjouksia edistyksellisen "
+"tarjouslaskurin sekä PDF-tarjousrakentajan avulla\n"
+"                    tehdäksesi vaikutuksen potentiaalisiin asiakkaisiin."
+
+#. module: odoo_partner
+#: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
+msgid ""
+"<b>Sign App</b>: Send contracts and engagement letters for fast, legally "
+"binding digital signatures.<br/>"
+msgstr ""
+"<b>Allekirjoita-sovellus</b>: Lähetä sopimukset sekä toimeksiantokirjeet "
+"nopeaa ja laillisesti sitovaa digitaalista allekirjoitusta varten.<br/>"
+
+#. module: odoo_partner
+#: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
+msgid ""
+"<b>Timesheets App</b>: Track billable hours spent on client projects to "
+"ensure accurate invoicing and\n"
+"                    profitability analysis."
+msgstr ""
+"<b>Työaikakirjaukset-sovellus</b>: Seuraa asiakasprojekteihin käytettyjä "
+"tunteja varmistaaksesi tarkan laskuttamisen sekä\n"
+"                    kannattavuusanalyysin."
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
@@ -124,11 +211,6 @@ msgstr "Kehitysjono"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
-msgid "Basics"
-msgstr "Perustiedot"
-
-#. module: odoo_partner
-#: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid "Become a partner"
 msgstr "Ryhdy kumppaniksi"
 
@@ -151,11 +233,11 @@ msgid ""
 "smart\n"
 "                    button and try it!"
 msgstr ""
-"Laske suositellut Menestyspaketit mille tahansa implementaatiolle muutamalla "
+"Laske suositellut Menestyspaketit mille tahansa toteutukselle muutamalla "
 "klikkauksella projektiarviomme avulla. Voit kokeilla sitä luomalla uuden "
-"tarjouksen käyttäen mallia \"Menestyspaketti\". Avaa tarjouslaskenta "
+"tarjouksen käyttäen \"Menestyspaketti\" -mallipohjaa. Avaa tarjouslaskuri "
 "valitsemalla älypainike\n"
-"                    ja testaa!"
+"                    ja testaa sitä!"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
@@ -192,7 +274,7 @@ msgstr "Luo kauniita ja kattavia tarjouksia PDF-rakennustyökalulla"
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid "Create project templates for common implementation types"
-msgstr "Luo projektien mallipohjia yleisiä implementaatiotyyppejä varten"
+msgstr "Luo projektipohjia yleisiä toteutustyyppejä varten"
 
 #. module: odoo_partner
 #: model:sale.order.template.line,name:odoo_partner.sale_order_template_line_7
@@ -272,7 +354,7 @@ msgstr "Tiedustelujen ja ehdotusten seuranta"
 #. odoo-javascript
 #: code:addons/odoo_partner/static/src/js/my_tour.js:0
 msgid "Get on track and explore our recommendations for your Odoo usage here!"
-msgstr ""
+msgstr "Aloita ja tutustu Odoo-käyttöäsi koskeviin suosituksiimme täällä!"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
@@ -294,7 +376,7 @@ msgstr "Toteutus"
 #. module: odoo_partner
 #: model:documents.document,name:odoo_partner.document_1
 msgid "Implementation methodology"
-msgstr "Implementaation metodologia"
+msgstr "Toteutusmenetelmä"
 
 #. module: odoo_partner
 #: model:project.task.type,name:odoo_partner.project_task_type_2
@@ -456,7 +538,7 @@ msgstr ""
 #. module: odoo_partner
 #: model:project.project,name:odoo_partner.project_project_1
 msgid "S00007 - Implementation"
-msgstr "S00007 - Implementaatio"
+msgstr "S00007 - Toteutus"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
@@ -500,7 +582,7 @@ msgstr "Tehtävät"
 #. module: odoo_partner
 #: model:project.tags,name:odoo_partner.project_tags_1
 msgid "Template"
-msgstr "Malli"
+msgstr "Mallipohja"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
@@ -551,8 +633,7 @@ msgstr "Kouluta tiimisi tallentamaan ja hakemaan asiakirjoja tehokkaasti."
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid "Use project templates to ensure consistency across implementations."
-msgstr ""
-"Käytä projektipohjia johdonmukaisuuden varmistamiseksi implementaatioissa."
+msgstr "Käytä projektipohjia toteutusten johdonmukaisuuden varmistamiseksi."
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
@@ -608,8 +689,8 @@ msgstr ""
 msgid ""
 "Utilize the Project app to manage Success Packs and large implementations:"
 msgstr ""
-"Hyödynnä Projekti-sovellusta Menestyspakettien ja laajojen "
-"implementaatioiden hallintaan:"
+"Hyödynnä Projekti-sovellusta Menestyspakettien sekä laajojen toteutusten "
+"hallitsemiseksi:"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
@@ -677,3 +758,6 @@ msgstr "🎓 Projektit"
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid "🎓 Sales"
 msgstr "🎓 Myynti"
+
+#~ msgid "Basics"
+#~ msgstr "Perustiedot"

@@ -6,13 +6,13 @@
 # Tiffany Chang, 2024
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025.
+# "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 14:36+0000\n"
-"PO-Revision-Date: 2025-10-20 08:13+0000\n"
+"POT-Creation-Date: 2026-04-10 18:53+0000\n"
+"PO-Revision-Date: 2026-05-02 09:40+0000\n"
 "Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
 "Language-Team: German <https://translate.odoo.com/projects/odoo-19/"
 "coal_petroleum/de/>\n"
@@ -21,17 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
-
-#. module: coal_petroleum
-#: model:product.attribute.value,name:coal_petroleum.product_attribute_value_5
-msgid "0-25"
-msgstr "0-25"
-
-#. module: coal_petroleum
-#: model:product.attribute.value,name:coal_petroleum.product_attribute_value_1
-msgid "1500-2500"
-msgstr "1500-2500"
+"X-Generator: Weblate 5.17\n"
 
 #. module: coal_petroleum
 #: model:product.attribute.value,name:coal_petroleum.product_attribute_value_11
@@ -39,39 +29,14 @@ msgid "1D"
 msgstr "1D"
 
 #. module: coal_petroleum
-#: model:product.attribute.value,name:coal_petroleum.product_attribute_value_6
-msgid "25-50"
-msgstr "25-50"
-
-#. module: coal_petroleum
-#: model:product.attribute.value,name:coal_petroleum.product_attribute_value_2
-msgid "2500-3500"
-msgstr "2500-3500"
-
-#. module: coal_petroleum
 #: model:product.attribute.value,name:coal_petroleum.product_attribute_value_12
 msgid "2D"
 msgstr "2D"
 
 #. module: coal_petroleum
-#: model:product.attribute.value,name:coal_petroleum.product_attribute_value_3
-msgid "3500-4500"
-msgstr "3500-4500"
-
-#. module: coal_petroleum
-#: model:product.attribute.value,name:coal_petroleum.product_attribute_value_4
-msgid "4500-5500"
-msgstr "4500-5500"
-
-#. module: coal_petroleum
 #: model:product.attribute.value,name:coal_petroleum.product_attribute_value_13
 msgid "4D"
 msgstr "4D"
-
-#. module: coal_petroleum
-#: model:product.attribute.value,name:coal_petroleum.product_attribute_value_7
-msgid "50-75"
-msgstr "50-75"
 
 #. module: coal_petroleum
 #: model_terms:ir.ui.view,arch_db:coal_petroleum.welcome_article_body
@@ -80,8 +45,8 @@ msgid ""
 "156, 0);\"> Invoice from Sale Order </font><font class=\"text-black\">based "
 "on the delivered quantities</font>"
 msgstr ""
-"<font class=\"text-black\">Erstellen Sie eine</font><font style="
-"\"color: rgb(255, 156, 0);\"> Rechnung aus dem Verkaufsauftrag </font><font "
+"<font class=\"text-black\">Erstellen Sie eine</font><font style=\"color: "
+"rgb(255, 156, 0);\"> Rechnung aus dem Verkaufsauftrag </font><font "
 "class=\"text-black\">basierend auf den gelieferten Mengen.</font>"
 
 #. module: coal_petroleum
@@ -96,11 +61,11 @@ msgid ""
 "               </font>"
 msgstr ""
 "<font style=\"color: var(--color) !important;\">\n"
-"                     <font style=\"color: var(--color) !important;\""
-">Erstellen Sie eine Angebotsanfrage für den Lieferanten “</font><font style="
-"\"color: rgb(255, 156, 0);\"><strong>Westmines Corps</strong></font>\n"
-"                     <font style=\"color: var(--color) !important;\">”.<"
-"strong/></font>\n"
+"                     <font style=\"color: var(--color) !important;"
+"\">Erstellen Sie eine Angebotsanfrage für den Lieferanten “</font><font "
+"style=\"color: rgb(255, 156, 0);\"><strong>Westmines Corps</strong></font>\n"
+"                     <font style=\"color: var(--color) !important;\">”."
+"<strong/></font>\n"
 "               </font>"
 
 #. module: coal_petroleum
@@ -115,9 +80,9 @@ msgid ""
 msgstr ""
 "<font style=\"color: var(--color) !important;\">\n"
 "                     <font style=\"color: var(--color) !important;\">Wählen "
-"Sie das Produkt “</font><font style=\"color: rgb(255, 156, 0);\""
-"><strong>Anthrazit</strong></font><font style="
-"\"color: var(--color) !important;\">” (irgendeine Variante).</font>\n"
+"Sie das Produkt “</font><font style=\"color: rgb(255, 156, 0);"
+"\"><strong>Anthrazit</strong></font><font style=\"color: var(--color) !"
+"important;\">” (irgendeine Variante).</font>\n"
 "               </font>"
 
 #. module: coal_petroleum
@@ -130,10 +95,10 @@ msgid ""
 "               subtracting the tolerance percentage from the demand quantity "
 "of the receipt transfer. (Studio)"
 msgstr ""
-"<strong><font style=\"color: rgb(255, 156, 0);\">Erlaubte "
-"Menge</font></strong>: Die erlaubteTransfer Menge wird durch eine "
-"automatische Aktion namens „Für Transfer erlaubte Menge“ bestimmt. Diese "
-"Aktion berechnet die Menge,\n"
+"<strong><font style=\"color: rgb(255, 156, 0);\">Erlaubte Menge</font></"
+"strong>: Die erlaubteTransfer Menge wird durch eine automatische Aktion "
+"namens „Für Transfer erlaubte Menge“ bestimmt. Diese Aktion berechnet die "
+"Menge,\n"
 "               indem sie den Toleranzprozentsatz von der Bedarfsmenge des "
 "Wareneingangstransfers abzieht. (Studio)"
 
@@ -145,9 +110,9 @@ msgid ""
 "requirements of the coal industry, encompassing a range of tests and\n"
 "               parameters. (Studio)"
 msgstr ""
-"<strong><font style=\"color: rgb(255, 156, 0);\""
-">Qualitätsparameter</font></strong>: Das Feld wurde gemäß den Standards und "
-"Anforderungen der Kohleindustrie angelegt und umfasst eine Reihe von Tests\n"
+"<strong><font style=\"color: rgb(255, 156, 0);\">Qualitätsparameter</font></"
+"strong>: Das Feld wurde gemäß den Standards und Anforderungen der "
+"Kohleindustrie angelegt und umfasst eine Reihe von Tests\n"
 "               und Parametern."
 
 #. module: coal_petroleum
@@ -321,10 +286,9 @@ msgid ""
 "\">parameters</font><font style=\"color: rgb(0, 0, 255);\"> </font></"
 "strong>according to the \"Lab report\""
 msgstr ""
-"Führen Sie die Qualitätsprüfung durch, füllen Sie die <strong><font style="
-"\"color: rgb(255, 156, 0);\">Parameter</font><font style="
-"\"color: rgb(0, 0, 255);\"> </font></strong>entsprechend dem „Laborbericht“ "
-"aus."
+"Führen Sie die Qualitätsprüfung durch, füllen Sie die <strong><font "
+"style=\"color: rgb(255, 156, 0);\">Parameter</font><font style=\"color: "
+"rgb(0, 0, 255);\"> </font></strong>entsprechend dem „Laborbericht“ aus."
 
 #. module: coal_petroleum
 #: model_terms:ir.ui.view,arch_db:coal_petroleum.welcome_article_body
@@ -379,7 +343,8 @@ msgstr "Benzin"
 #: code:addons/coal_petroleum/static/src/js/my_tour.js:0
 msgid "Get on track and explore our recommendations for your Odoo usage here!"
 msgstr ""
-"Los geht’s! Entdecken Sie hier unsere Empfehlungen für die Nutzung von Odoo!"
+"Los geht’s! Entdecken Sie hier unsere Empfehlungen, um Odoo optimal zu "
+"nutzen!"
 
 #. module: coal_petroleum
 #: model:product.attribute,name:coal_petroleum.product_attribute_3
@@ -445,31 +410,31 @@ msgid ""
 "               <strong><font style=\"color: rgb(255, 156, 0);\">Vehicle "
 "Number</font></strong><br/>"
 msgstr ""
-"Geben Sie den <strong><span style=\"color: rgb(255, 156, 0); font-size: 14px;"
-" font-style: normal; font-weight: 500; background-color: rgb(255, 255, 255);"
-"\">Zusteller</span></strong>,\n"
+"Geben Sie den <strong><span style=\"color: rgb(255, 156, 0); font-size: "
+"14px; font-style: normal; font-weight: 500; background-color: rgb(255, 255, "
+"255);\">Zusteller</span></strong>,\n"
 "               <strong>\n"
 "                     die <span style=\"color: rgb(255, 156, 0); font-size: "
 "14px; font-style: normal; font-weight: 500; background-color: rgb(255, 255, "
 "255);\">Sendungsverfolgungsnummer</span>\n"
 "                     <span style=\"color: rgb(0, 0, 255); font-size: 14px; "
-"font-style: normal; font-weight: 500; background-color: rgb(255, 255, 255);\""
-"> </span>\n"
+"font-style: normal; font-weight: 500; background-color: rgb(255, 255, 255);"
+"\"> </span>\n"
 "                     die <span style=\"color: rgb(255, 156, 0); font-size: "
 "14px; font-style: normal; font-weight: 500; background-color: rgb(255, 255, "
 "255);\">Referenz</span>\n"
 "                     <span style=\"color: rgb(17, 24, 39); font-size: 14px; "
-"font-style: normal; font-weight: 500; background-color: rgb(255, 255, 255);\""
-">(</span>\n"
+"font-style: normal; font-weight: 500; background-color: rgb(255, 255, 255);"
+"\">(</span>\n"
 "               </strong>\n"
 "               <span style=\"color: rgb(17, 24, 39); font-size: 14px; font-"
-"style: normal; background-color: rgb(255, 255, 255);\">im Reiter „"
-"Zusätzliche Informationen“ </span>\n"
-"               <strong><span style=\"color: rgb(17, 24, 39); font-size: 14px;"
-" font-style: normal; font-weight: 500; background-color: rgb(255, 255, 255);"
-"\">),</span></strong> und die\n"
-"               <strong><font style=\"color: rgb(255, 156, 0);\""
-">Fahrzeugnummer</font></strong> an.<br/>"
+"style: normal; background-color: rgb(255, 255, 255);\">im Reiter "
+"„Zusätzliche Informationen“ </span>\n"
+"               <strong><span style=\"color: rgb(17, 24, 39); font-size: "
+"14px; font-style: normal; font-weight: 500; background-color: rgb(255, 255, "
+"255);\">),</span></strong> und die\n"
+"               <strong><font style=\"color: rgb(255, 156, 0);"
+"\">Fahrzeugnummer</font></strong> an.<br/>"
 
 #. module: coal_petroleum
 #: model:product.attribute.value,name:coal_petroleum.product_attribute_value_9
@@ -689,6 +654,27 @@ msgstr "Willkommen! Viel Spaß beim Erkunden!"
 #: model:ir.actions.act_window,name:coal_petroleum.x_quality_check_worksheet_template_2_ir_actions_act_window_1
 msgid "Worksheets"
 msgstr "Arbeitsblätter"
+
+#~ msgid "0-25"
+#~ msgstr "0-25"
+
+#~ msgid "1500-2500"
+#~ msgstr "1500-2500"
+
+#~ msgid "25-50"
+#~ msgstr "25-50"
+
+#~ msgid "2500-3500"
+#~ msgstr "2500-3500"
+
+#~ msgid "3500-4500"
+#~ msgstr "3500-4500"
+
+#~ msgid "4500-5500"
+#~ msgstr "4500-5500"
+
+#~ msgid "50-75"
+#~ msgstr "50-75"
 
 #~ msgid "Execute Code"
 #~ msgstr "Code ausführen"

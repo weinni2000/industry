@@ -1,6 +1,6 @@
 {
     'name': 'Outdoor Activities',
-    'version': '1.0',
+    'version': '1.1',
     'category': 'Health and Fitness',
     'depends': [
         'appointment_account_payment',
@@ -17,7 +17,6 @@
         'data/crm_stages.xml',
         'data/crm_tags.xml',
         'data/product_product.xml',
-        'data/event_event.xml',
         'data/appointment_resource.xml',
         'data/knowledge_article.xml',
         'data/knowledge_article_favourite.xml',
@@ -26,7 +25,7 @@
         'data/mail_message.xml',
     ],
     'demo': [
-        'demo/res_users.xml',
+        'demo/res_company.xml',
         'demo/res_partner.xml',
         'demo/appointment_type.xml',
         'demo/website_theme_apply.xml',
@@ -59,6 +58,7 @@
         'demo/website_views.xml',
         'static/src/js/my_tour.js',
     ],
+    'application': True,
     'images': ['images/main.png'],
     'url': "https://www.odoo.com/trial?industry&selected_app=outdoor_activities",
     'website': "https://www.odoo.com/all-industries",

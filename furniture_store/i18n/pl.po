@@ -7,23 +7,24 @@
 # Martin Trigaux, 2024
 # Wil Odoo, 2024
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
+# "Marta (wacm)" <wacm@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 11:08+0000\n"
-"PO-Revision-Date: 2025-10-17 14:12+0000\n"
-"Last-Translator: \"Dylan Kiss (dyki)\" <dyki@odoo.com>\n"
+"POT-Creation-Date: 2026-01-12 09:42+0000\n"
+"PO-Revision-Date: 2026-03-28 09:32+0000\n"
+"Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
 "Language-Team: Polish <https://translate.odoo.com/projects/odoo-19/"
 "furniture_store/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && ("
-"n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && "
+"(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
 "n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.ir_ui_view_3972
@@ -171,8 +172,8 @@ msgid ""
 "<b>Integrate WhatsApp</b> to send automatic reminders about deliveries, "
 "keeping your customers informed effortlessly."
 msgstr ""
-"<b>Zintegruj WhatsApp</b>, aby wysyłać automatycznie przypomnienia o "
-"dostawach i informuj swoich klientów bez wysiłku."
+"<b>Zintegruj WhatsApp</b>, aby automatycznie wysyłać przypomnienia o "
+"dostawach i informuj swoich klientów na bieżąco."
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -226,6 +227,84 @@ msgstr "<b>Zatwierdź!</b>"
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
 msgid "<b>Validate</b> the preparation."
 msgstr "<b>Zatwierdź</b> przygotowanie."
+
+#. module: furniture_store
+#: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Barcode App</b>:</font> Empower staff to "
+"perform stock counts, receive goods,\n"
+"                    and check prices on the shop floor using mobile scanners."
+msgstr ""
+"<font class=\"text-o-color-1\"><b>Aplikacja Kody Kreskowe</b>:</font> "
+"Umożliwia pracownikom przeprowadzanie inwentaryzacji, odbiór towarów\n"
+"                    i sprawdzanie cen na hali produkcyjnej za pomocą "
+"skanerów mobilnych."
+
+#. module: furniture_store
+#: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Inventory App</b>: </font>Manage stock "
+"with precision using\n"
+"                    <b>Lots &amp; Serial Numbers</b> and <b>Expiration "
+"Dates</b> to track perishables and automate removal\n"
+"                    strategies."
+msgstr ""
+"<font class=\"text-o-color-1\"><b>Aplikacja Magazyn</b>: </font>Precyzyjne "
+"magazynowanie zapasów przy użyciu\n"
+"                   <b> Numerów partii i serii</b> i <b>dat ważności</b> w "
+"celu śledzenia produktów łatwo psujących się i automatyzacji strategii "
+"usuwania\n"
+"                    zapasów."
+
+#. module: furniture_store
+#: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Invoicing App</b>:</font> Simplify your "
+"financial workflows by integrating\n"
+"                    supplier bills and customer invoices directly into your "
+"accounting system."
+msgstr ""
+"<font class=\"text-o-color-1\"><b>Aplikacja Fakturowanie</b>:</font> Uprość "
+"swoje procesy finansowe, integrując\n"
+"                    rachunki dostawców i faktury klientów bezpośrednio z "
+"systemem księgowym."
+
+#. module: furniture_store
+#: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Point of Sale App</b>:</font> Process "
+"transactions rapidly with an interface\n"
+"                    optimized for speed, supporting barcode scanners, "
+"integrated scales, and customer loyalty cards."
+msgstr ""
+"<font class=\"text-o-color-1\"><b>Aplikacja Punkt Sprzedaży</b>:</font> "
+"Szybko przetwarzaj transakcje dzięki interfejsowi\n"
+"                    zoptymalizowanemu pod kątem szybkości, obsługującemu "
+"skanery kodów kreskowych, zintegrowane wagi i karty lojalnościowe klientów."
+
+#. module: furniture_store
+#: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Purchase App</b>:</font> Automate the "
+"reordering of fast-moving goods based on\n"
+"                    minimum stock rules, ensuring you never run out of milk "
+"or bread."
+msgstr ""
+"<font class=\"text-o-color-1\"><b>Aplikacja Zakupy</b>:</font> Zautomatyzuj "
+"ponowne zamawianie szybko zbywalnych towarów w oparciu o\n"
+"                    zasady minimalnych stanów magazynowych, dzięki czemu "
+"nigdy nie zabraknie Ci mleka ani chleba."
+
+#. module: furniture_store
+#: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>eCommerce App</b>:</font> Expand your "
+"reach by offering online ordering for\n"
+"                    \"click and collect\" or home delivery services."
+msgstr ""
+"<font class=\"text-o-color-1\"><b>Aplikacja eCommerce</b>:</font> Zwiększ "
+"swój zasięg, oferując możliwość składania zamówień online z opcją\n"
+"                    „kliknij i odbierz” lub z dostawą do domu."
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.ir_ui_view_3972
@@ -302,7 +381,7 @@ msgid ""
 "label=\"Banner Info\">💡</i>"
 msgstr ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Info\">💡</i>"
+"\"Banner Informacyjny\">💡</i>"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -311,7 +390,7 @@ msgid ""
 "label=\"Banner Info\">🚀</i>"
 msgstr ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Info\">🚀</i>"
+"\"Banner Informacyjny\">🚀</i>"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -320,7 +399,7 @@ msgid ""
 "label=\"Banner Success\">✅</i>"
 msgstr ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Success\">✅</i>"
+"\"Banner powodzenie\">✅</i>"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -328,7 +407,7 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
 "normal\">💡</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Info\" class="
+"<i data-oe-aria-label=\"Banner informacyjny\" class="
 "\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
 
 #. module: furniture_store
@@ -337,7 +416,7 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\">✅</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Success\" class="
+"<i data-oe-aria-label=\"Banner powodzenie\" class="
 "\"o_editor_banner_icon mb-3 fst-normal\">✅</i>"
 
 #. module: furniture_store
@@ -546,8 +625,8 @@ msgid ""
 "75, 103);\">Odoo Furniture Store package</font></strong>!</span>"
 msgstr ""
 "<span class=\"h6-fs\">Witaj w <strong><font style="
-"\"color: rgb(113, 75, 103);\">Pakiecie sklep z meblami "
-"Odoo</font></strong>!</span>"
+"\"color: rgb(113, 75, 103);\">Pakiecie Odoo sklep z "
+"meblami</font></strong>!</span>"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -559,8 +638,8 @@ msgid ""
 msgstr ""
 "<span class=\"h6-fs\">Twój <b>Punkt sprzedaży (PoS)</b> jest Twoim centrum "
 "obsługi wszystkich transakcji w sklepie, zarządzania przygotowywaniem i "
-"ekspozycją zamówień oraz przetwarzania zamówień \"kliknij i odbierz\".</"
-"span><span class=\"h2-fs\"/><br/>"
+"ekspozycją oraz przetwarzania zamówień \"kliknij i odbierz\".</span><span "
+"class=\"h2-fs\"/><br/>"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -902,7 +981,7 @@ msgstr ""
 "                                            w sobie nowoczesną estetykę i "
 "praktyczne zastosowania. Naszą misją jest\n"
 "                                            oferowanie projektów, które "
-"zbogaca Twoją przestrzeń\n"
+"wzbogacą Twoją przestrzeń,\n"
 "                                            zarówno swoim stylem jak i "
 "praktycznością. Każdy produkt podkreśla nasze\n"
 "                                            oddanie rzemiosłu i użyteczność, "
@@ -938,7 +1017,7 @@ msgstr "Kategorie ecommerce dla sekcji strony internetowej"
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
 msgid "Each combination can have is own price, picture, and much more"
-msgstr "Każda kombinacja może mieć swoją własną cenę, zdjęcie i więcej"
+msgstr "Każda kombinacja może mieć swoją własną cenę, zdjęcie i nie tylko"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -1029,15 +1108,15 @@ msgid ""
 "                                                    designer for some "
 "inspiration."
 msgstr ""
-"Porozmawiajmy o projekcie, który\n"
-"                                                    masz na myśli dla siebie "
-"lub swojej\n"
+"Porozmawiajmy o projekcie, o którym\n"
+"                                                    myślisz dla siebie lub "
+"swojej\n"
 "                                                    firmy? Jeśli szukasz "
 "pomysłów\n"
 "                                                    możemy zorganizować "
 "spotkanie z naszym\n"
-"                                                    projektantem, abyś "
-"zaczerpnął inspiracji."
+"                                                    projektantem, aby Cię "
+"zainspirować."
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -1196,8 +1275,8 @@ msgid ""
 "Open the Point of Sale (PoS) App and navigate to the <strong>\"Preparation "
 "Display.\"</strong>"
 msgstr ""
-"Otwórz aplikację Punkt Sprzedaży (PoS) i przejdź do <strong>"
-"\"Ekranu przygotowawczego\".</strong>"
+"Otwórz aplikację Punkt Sprzedaży (PoS) i przejdź do <strong>\"Ekranu "
+"przygotowawczego\".</strong>"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.ir_ui_view_2244
@@ -1309,8 +1388,8 @@ msgstr "Wybierz <b>klienta</b> z użyciem przycisku klienta (nie obowiązkowe)."
 msgid ""
 "Select the correct order and then \"<strong>Settle the order</strong>.\""
 msgstr ""
-"Wybierz odpowiednie zamówienia a następnie <strong>\"Przetwórz zamówienie\""
-"</strong>."
+"Wybierz odpowiednie zamówienia a następnie <strong>\"Przetwórz zamówienie\"</"
+"strong>."
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -1390,61 +1469,6 @@ msgid ""
 msgstr ""
 "<b>Przycisk \"Notatka\"</b> umożliwia dodanie specjalnych instrukcji dla "
 "zespołu przygotowawczego."
-
-#. module: furniture_store
-#: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
-msgid ""
-"The<strong> </strong><font style=\"color: rgb(113, 75, 103);"
-"\"><strong>Website App</strong></font> powers your online store and manages "
-"your e-commerce presence."
-msgstr ""
-"<strong></strong><font style=\"color: rgb(113, 75, 103);\"><strong>Aplikacja "
-"Strony internetowe</strong></font> jest podstawą Twojego sklepu "
-"internetowego."
-
-#. module: furniture_store
-#: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
-msgid ""
-"The<strong> <font class=\"text-o-color-1\">CRM &amp; the Sales </font><font "
-"style=\"color: rgb(113, 75, 103);\">App</font></strong> helps you connect "
-"with customers and craft personalized promotions."
-msgstr ""
-"<strong><font class=\"text-o-color-1\">Aplikacje CRM i Sprzedaż</font><font "
-"style=\"color: rgb(113, 75, 103);\"></font></strong> pozwalają Ci być w "
-"kontakcie z klientami i tworzyć spersonalizowane promocje."
-
-#. module: furniture_store
-#: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
-msgid ""
-"The<strong> <font class=\"text-o-color-1\">​</font><font style=\"color: "
-"rgb(113, 75, 103);\">Inventory App</font></strong> keeps tabs on your stock "
-"levels, customer returns, and incoming deliveries."
-msgstr ""
-"<strong><font class=\"text-o-color-1\"></font><font style="
-"\"color: rgb(113, 75, 103);\">Aplikacja Magazyn</font></strong> kontroluje "
-"poziomy zapasów, zwroty od klientów i przychodzące dostawy."
-
-#. module: furniture_store
-#: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
-msgid ""
-"The<strong> <font class=\"text-o-color-1\">​Purchase</font><font "
-"style=\"color: rgb(113, 75, 103);\"> App</font></strong> assists with "
-"restocking your products and managing supplier orders."
-msgstr ""
-"<strong><font class=\"text-o-color-1\">Aplikacja Zakupy</font><font style="
-"\"color: rgb(113, 75, 103);\"></font></strong> pomaga przy uzupełnianiu "
-"towarów i zarządzaniu zamówieniami od dostawców."
-
-#. module: furniture_store
-#: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
-msgid ""
-"The<strong> <font style=\"color: rgb(113, 75, 103);\">Point of Sale (PoS)</"
-"font></strong> manages all your in-store activities and handles online "
-"\"click and collect\" orders."
-msgstr ""
-"<strong><font style=\"color: rgb(113, 75, 103);\">Punkt Sprzedaży "
-"(PoS)</font></strong> zarządza Twoimi czynnościami w sklepie i obsługuje "
-"złożone na stronie internetowej zamówienia \"kliknij i odbierz\"."
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -1826,6 +1850,51 @@ msgstr "🎓 Strona internetowa"
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
 msgid "🎓Point Of Sale"
 msgstr "🎓Punkt Sprzedaży"
+
+#~ msgid ""
+#~ "The<strong> </strong><font style=\"color: rgb(113, 75, 103);"
+#~ "\"><strong>Website App</strong></font> powers your online store and "
+#~ "manages your e-commerce presence."
+#~ msgstr ""
+#~ "<strong></strong><font style=\"color: rgb(113, 75, 103);"
+#~ "\"><strong>Aplikacja Strony internetowe</strong></font> jest podstawą "
+#~ "Twojego sklepu internetowego."
+
+#~ msgid ""
+#~ "The<strong> <font class=\"text-o-color-1\">CRM &amp; the Sales </"
+#~ "font><font style=\"color: rgb(113, 75, 103);\">App</font></strong> helps "
+#~ "you connect with customers and craft personalized promotions."
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">Aplikacje CRM i Sprzedaż</"
+#~ "font><font style=\"color: rgb(113, 75, 103);\"></font></strong> pozwalają "
+#~ "Ci być w kontakcie z klientami i tworzyć spersonalizowane promocje."
+
+#~ msgid ""
+#~ "The<strong> <font class=\"text-o-color-1\">​</font><font style=\"color: "
+#~ "rgb(113, 75, 103);\">Inventory App</font></strong> keeps tabs on your "
+#~ "stock levels, customer returns, and incoming deliveries."
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\"></font><font style=\"color: "
+#~ "rgb(113, 75, 103);\">Aplikacja Magazyn</font></strong> kontroluje poziomy "
+#~ "zapasów, zwroty od klientów i przychodzące dostawy."
+
+#~ msgid ""
+#~ "The<strong> <font class=\"text-o-color-1\">​Purchase</font><font "
+#~ "style=\"color: rgb(113, 75, 103);\"> App</font></strong> assists with "
+#~ "restocking your products and managing supplier orders."
+#~ msgstr ""
+#~ "<strong><font class=\"text-o-color-1\">Aplikacja Zakupy</font><font "
+#~ "style=\"color: rgb(113, 75, 103);\"></font></strong> pomaga przy "
+#~ "uzupełnianiu towarów i zarządzaniu zamówieniami od dostawców."
+
+#~ msgid ""
+#~ "The<strong> <font style=\"color: rgb(113, 75, 103);\">Point of Sale "
+#~ "(PoS)</font></strong> manages all your in-store activities and handles "
+#~ "online \"click and collect\" orders."
+#~ msgstr ""
+#~ "<strong><font style=\"color: rgb(113, 75, 103);\">Punkt Sprzedaży (PoS)</"
+#~ "font></strong> zarządza Twoimi czynnościami w sklepie i obsługuje złożone "
+#~ "na stronie internetowej zamówienia \"kliknij i odbierz\"."
 
 #~ msgid "<font style=\"font-size: 62px;\">Your Site Title</font>"
 #~ msgstr "<font style=\"font-size: 62px;\">Tytuł Twojej strony</font>"

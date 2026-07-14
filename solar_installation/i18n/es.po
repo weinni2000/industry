@@ -7,27 +7,23 @@
 # Larissa Manderfeld, 2024
 # Wil Odoo, 2024
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
+# "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 09:39+0000\n"
-"PO-Revision-Date: 2025-10-24 03:01+0000\n"
-"Last-Translator: \"Dylan Kiss (dyki)\" <dyki@odoo.com>\n"
+"POT-Creation-Date: 2026-04-10 19:40+0000\n"
+"PO-Revision-Date: 2026-05-30 09:34+0000\n"
+"Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@odoo.com>\n"
 "Language-Team: Spanish <https://translate.odoo.com/projects/odoo-19/"
 "solar_installation/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
-" ? 1 : 2);\n"
-"X-Generator: Weblate 5.12.2\n"
-
-#. module: solar_installation
-#: model_terms:ir.ui.view,arch_db:solar_installation.ir_ui_view_2702
-msgid "+1 (079) 400-5001"
-msgstr "+1 (079) 400-5001"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
+"0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: solar_installation
 #: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
@@ -50,10 +46,10 @@ msgid ""
 "            Ticket will be generated in Helpdesk app."
 msgstr ""
 "- El cliente puede <font style=\"color: rgb(107, 165, 74);\"><strong>enviar "
-"un ticket</strong></font> mediante un correo electrónico, el formulario “"
-"Enviar un ticket” o al hacer clic en el botón de bot de chat en la página de "
-"ayuda del sitio web para que el equipo de soporte realice una reparación. El "
-"ticket\n"
+"un ticket</strong></font> mediante un correo electrónico, el formulario "
+"“Enviar un ticket” o al hacer clic en el botón de bot de chat en la página "
+"de ayuda del sitio web para que el equipo de soporte realice una reparación. "
+"El ticket\n"
 "            de soporte estará en la aplicación Servicio de asistencia."
 
 #. module: solar_installation
@@ -112,9 +108,9 @@ msgid ""
 "            warranty date is not under the warranty period, an invoice will "
 "be raised for the parts replaced and repairing charge."
 msgstr ""
-"- El usuario de inventario <strong><font style=\"color: rgb(107, 165, 74);\""
-">validará</font></strong> el equipo devuelto y revisará la <font style="
-"\"color: rgb(107, 165, 74);\"><strong>fecha de finalización de la "
+"- El usuario de inventario <strong><font style=\"color: rgb(107, 165, 74);"
+"\">validará</font></strong> el equipo devuelto y revisará la <font "
+"style=\"color: rgb(107, 165, 74);\"><strong>fecha de finalización de la "
 "garantía</strong></font>. Si el equipo\n"
 "            ya no se encuentra dentro del periodo de garantía, se emitirá "
 "una factura para cobrar las piezas reemplazadas y la reparación."
@@ -145,6 +141,85 @@ msgstr "2 kW"
 #: model:crm.tag,name:solar_installation.crm_tag_2
 msgid "3 kW"
 msgstr "3 kW"
+
+#. module: solar_installation
+#: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
+msgid ""
+"<b>CRM App</b>: Capture leads from your website and track them through the "
+"sales funnel, managing site visits\n"
+"                and technical feasibility checks."
+msgstr ""
+"<b>Aplicación CRM</b>: obtén clientes potenciales desde tu sitio web y "
+"acompáñalos durante todo el proceso comercial. Gestiona las visitas\n"
+"                y las comprobaciones de viabilidad técnica."
+
+#. module: solar_installation
+#: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
+msgid ""
+"<b>Field Service App</b>: Schedule your installation crews and maintenance "
+"teams efficiently, allowing them to\n"
+"                log time and consume parts via mobile."
+msgstr ""
+"<b>Aplicación Servicio de campo</b>: planifica de manera eficiente a tus "
+"equipos de instalación y mantenimiento y permite\n"
+"                que registren el tiempo que dedican a las tareas y las "
+"piezas que utilizan a través del móvil."
+
+#. module: solar_installation
+#: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
+msgid ""
+"<b>Inventory App</b>: Keep track of high-value stock like solar modules and "
+"batteries, ensuring you have the\n"
+"                right components for every job."
+msgstr ""
+"<b>Aplicación Inventario</b>: controla las existencias de alto valor, como "
+"paneles solares y baterías, así podrás asegurarte de que\n"
+"                dispones de los componentes adecuados para cada trabajo."
+
+#. module: solar_installation
+#: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
+msgid ""
+"<b>Project App</b>: Manage installation projects with clear stages (e.g., "
+"\"Permitting,\" \"Installation,\"\n"
+"                \"Inspection\"), tracking tasks and deadlines."
+msgstr ""
+"<b>Aplicación Proyecto</b>: gestiona proyectos de instalación con etapas "
+"definidas (por ejemplo, «permisos», «instalación»,\n"
+"                «inspección») y realiza un seguimiento de las tareas y los "
+"plazos."
+
+#. module: solar_installation
+#: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
+msgid ""
+"<b>Sales App</b>: Create professional, detailed proposals that include "
+"technical specifications for panels,\n"
+"                inverters, and labor costs."
+msgstr ""
+"<b>Aplicación Ventas</b>: crea propuestas profesionales y detalladas que "
+"incluyan especificaciones técnicas para paneles,\n"
+"                inversores y costes de mano de obra."
+
+#. module: solar_installation
+#: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
+msgid ""
+"<b>Sign App</b>: Securely collect digital signatures for contracts, "
+"interconnection agreements, and financing\n"
+"                documents."
+msgstr ""
+"<b>Aplicación Firma electrónica</b>: recopila de forma segura firmas "
+"digitales para contratos, acuerdos de interconexión\n"
+"                 y documentos financieros."
+
+#. module: solar_installation
+#: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
+msgid ""
+"<b>Website App</b>: Showcase your portfolio of successful installations and "
+"attract new eco-conscious clients\n"
+"                with a professional online presence."
+msgstr ""
+"<b>Aplicación Sitio web</b>: muestra tu portfolio de instalaciones "
+"completadas con éxito y atrae nuevos clientes con conciencia ambiental,\n"
+"                gracias a una presencia digital profesional."
 
 #. module: solar_installation
 #: model_terms:ir.ui.view,arch_db:solar_installation.ir_ui_view_2702
@@ -237,7 +312,8 @@ msgstr ""
 #. module: solar_installation
 #: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
 msgid "<span style=\"font-size: 14px;\">Quotation for Installation</span>"
-msgstr "<span style=\"font-size: 14px;\">Presupuesto para la instalación</span>"
+msgstr ""
+"<span style=\"font-size: 14px;\">Presupuesto para la instalación</span>"
 
 #. module: solar_installation
 #: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
@@ -308,15 +384,20 @@ msgid ""
 "font></strong>."
 msgstr ""
 "Las personas asignadas completan la hoja de trabajo después de finalizar la "
-"instalación. Toman varias <strong><font style=\"color: rgb(107, 165, 74);\""
-">fotografías de la instalación del sistema solar</font></strong> en la "
+"instalación. Toman varias <strong><font style=\"color: rgb(107, 165, 74);"
+"\">fotografías de la instalación del sistema solar</font></strong> en la "
 "ubicación del cliente y\n"
 "            obtienen la confirmación y firma del cliente en la hoja de "
 "trabajo. La hoja de trabajo incluye campos personalizados como fecha de "
 "inicio, fecha de finalización, planes, firma, etc. que se configuran a "
 "través de\n"
-"            <strong><font style=\"color: rgb(165, 74, 123);\""
-">Studio</font></strong>."
+"            <strong><font style=\"color: rgb(165, 74, 123);\">Studio</font></"
+"strong>."
+
+#. module: solar_installation
+#: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
+msgid "Basics"
+msgstr "Lo esencial"
 
 #. module: solar_installation
 #: model:product.template,name:solar_installation.product_product_8_product_template
@@ -376,20 +457,20 @@ msgid ""
 "\">creates 1 Field Service Task</font></strong> automatically for Solar "
 "system installation in a Project dedicated to Installation."
 msgstr ""
-"Confirmar el pedido de venta <strong><font style="
-"\"color: rgb(107, 165, 74);\">crea automáticamente una tarea de servicio de "
-"campo</font></strong> para llevar a cabo la instalación del sistema solar en "
-"un proyecto específico para la instalación."
+"Confirmar el pedido de venta <strong><font style=\"color: rgb(107, 165, 74);"
+"\">crea automáticamente una tarea de servicio de campo</font></strong> para "
+"llevar a cabo la instalación del sistema solar en un proyecto específico "
+"para la instalación."
 
 #. module: solar_installation
 #: model_terms:ir.ui.view,arch_db:solar_installation.ir_ui_view_2702
 msgid "Connect with us"
-msgstr "Contáctenos"
+msgstr "Contacta con nosotros"
 
 #. module: solar_installation
 #: model_terms:ir.ui.view,arch_db:solar_installation.ir_ui_view_2702
 msgid "Contact us"
-msgstr "Contáctenos"
+msgstr "Contacta con nosotros"
 
 #. module: solar_installation
 #: model_terms:ir.ui.view,arch_db:solar_installation.x_project_task_worksheet_template_1_ir_ui_view_3
@@ -487,7 +568,7 @@ msgstr ""
 #. module: solar_installation
 #: model_terms:ir.ui.view,arch_db:solar_installation.ir_ui_view_2702
 msgid "Follow us"
-msgstr "Síganos"
+msgstr "Síguenos"
 
 #. module: solar_installation
 #: model:crm.tag,name:solar_installation.crm_tag_6
@@ -499,6 +580,8 @@ msgstr "Encuesta de sitio gratuita"
 #: code:addons/solar_installation/static/src/js/my_tour.js:0
 msgid "Get on track and explore our recommendations for your Odoo usage here!"
 msgstr ""
+"¡Ponte al día y explora nuestras recomendaciones para sacarle más partido a "
+"Odoo!"
 
 #. module: solar_installation
 #: model_terms:ir.ui.view,arch_db:solar_installation.homepage
@@ -655,10 +738,9 @@ msgstr ""
 "                <font class=\"text-o-color-5\"><span style=\"font-weight: "
 "normal;\">“Solicitar un presupuesto”</span></font>\n"
 "            </strong>\n"
-"            y lo envía, esto <strong><font style="
-"\"color: rgb(107, 165, 74);\">crea una oportunidad</font></strong> en <font "
-"class=\"text-o-color-5\">CRM</font><font style=\"color: rgb(181, 214, 165);\""
-">.</font>"
+"            y lo envía, esto <strong><font style=\"color: rgb(107, 165, 74);"
+"\">crea una oportunidad</font></strong> en <font class=\"text-o-"
+"color-5\">CRM</font><font style=\"color: rgb(181, 214, 165);\">.</font>"
 
 #. module: solar_installation
 #: model:ir.model.fields,field_description:solar_installation.x_comments_remarks_record
@@ -711,10 +793,10 @@ msgid ""
 "customer agrees the quotation, a site survey is planned and Opportunity is "
 "moved to the Site Survey stage."
 msgstr ""
-"Se asigna a un comercial y la <strong><font style="
-"\"color: rgb(107, 165, 74);\">oportunidad pasa</font></strong> <strong><font "
-"style=\"color: rgb(107, 165, 74);\">a la etapa “Calificado”</font></strong>. "
-"El comercial se comunica con los\n"
+"Se asigna a un comercial y la <strong><font style=\"color: rgb(107, 165, 74);"
+"\">oportunidad pasa</font></strong> <strong><font style=\"color: rgb(107, "
+"165, 74);\">a la etapa “Calificado”</font></strong>. El comercial se "
+"comunica con los\n"
 "            clientes a través de actividades como llamadas, reuniones, etc. "
 "Si el cliente está de acuerdo con el presupuesto, se planifica una "
 "inspección y la oportunidad pasa a la etapa “Encuesta de sitio”."
@@ -812,8 +894,8 @@ msgstr ""
 "en el sitio y <strong><font style=\"color: rgb(107, 165, 74);\">la tarea "
 "pasa a la fase “Planificado” del proyecto</font></strong>. <strong/> Las "
 "personas asignadas llevan el equipo\n"
-"           incluido en la <strong><font style=\"color: rgb(107, 165, 74);\""
-">orden de entrega</font></strong> con ellos a la visita del sitio del "
+"           incluido en la <strong><font style=\"color: rgb(107, 165, 74);"
+"\">orden de entrega</font></strong> con ellos a la visita del sitio del "
 "cliente para realizar la instalación."
 
 #. module: solar_installation
@@ -879,7 +961,7 @@ msgstr ""
 #. module: solar_installation
 #: model_terms:web_tour.tour,rainbow_man_message:solar_installation.knowledge_tour
 msgid "Welcome! Happy exploring."
-msgstr "¡Bienvenido! Disfrute del sitio."
+msgstr "¡Te damos la bienvenida! Disfruta explorando."
 
 #. module: solar_installation
 #: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
@@ -901,6 +983,9 @@ msgstr "info@sucompañía.example.com"
 #: model_terms:ir.ui.view,arch_db:solar_installation.report_custom_x_project_task_worksheet_template_1
 msgid "kW plan"
 msgstr "Plan de kW"
+
+#~ msgid "+1 (079) 400-5001"
+#~ msgstr "+1 (079) 400-5001"
 
 #~ msgid "Execute Code"
 #~ msgstr "Ejecutar código"

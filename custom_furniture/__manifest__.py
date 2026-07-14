@@ -51,7 +51,7 @@
         'data/knowledge_tour.xml',
     ],
     'demo': [
-        'demo/res_users.xml',
+        'demo/res_company.xml',
         'demo/res_partner.xml',
         'demo/hr_employee.xml',
         'demo/crm_lead.xml',
@@ -82,6 +82,7 @@
         "static/src/js/my_tour.js",
     ],
     'license': 'OEEL-1',
+    'application': True,
     'images': ['images/main.png'],
     'url': "https://www.odoo.com/trial?industry&selected_app=custom_furniture",
     'website': "https://www.odoo.com/industries/custom-furniture-production",

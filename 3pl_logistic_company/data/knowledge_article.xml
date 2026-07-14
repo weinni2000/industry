@@ -36,44 +36,52 @@
         <p>You can access every installed App in your Odoo database on your main dashboard.</p>
         <ul>
             <li>
-                <p> The <strong>
-                        <font style="color: rgb(113, 75, 103);">CRM &amp; Sales Apps</font>
-                    </strong> handle
-                    your market research and sales orders</p>
+                <p>
+                    <font class="text-o-color-1"><b>Inventory App</b>:</font> Enables precise stock management across multiple
+                    warehouses and clients, ensuring full tracking of inbound, outbound, and internal movements.
+                </p>
             </li>
             <li>
-                <p>The <strong>
-                        <font style="color: rgb(113, 75, 103);">Subscription App </font>
-                    </strong>manages
-                    your fixed spaces reservation for clients</p>
+                <p>
+                    <font class="text-o-color-1"><b>Sales App</b>:</font> Generates professional quotations and sales orders for
+                    storage, transport, and value-added logistics services.
+                </p>
             </li>
             <li>
-                <p> The<strong> <font class="text-o-color-1">Inventory App</font></strong> tracks
-                    and registers all your stock moves.</p>
+                <p>
+                    <font class="text-o-color-1"><b>CRM App</b>:</font> Tracks leads and opportunities efficiently, helping
+                    logistics companies follow up on prospects and manage long-term customer relationships.
+                </p>
             </li>
             <li>
-                <p> The <strong>
-                        <font style="color: rgb(113, 75, 103);">Quality App </font>
-                    </strong>defines
-                    the type of Quality checks to perform and register it.</p>
+                <p>
+                    <font class="text-o-color-1"><b>Invoicing App</b>:</font> Automates billing calculations based on storage
+                    duration, volume, and handling services, with support for custom pricing per client.
+                </p>
             </li>
             <li>
-                <p> The <strong>
-                        <font style="color: rgb(113, 75, 103);">Dashboard App</font> </strong>gives
-                    a clear overview of all operations performed for each client. </p>
+                <p>
+                    <font class="text-o-color-1"><b>Website &amp; Portal</b>:</font> Provides clients with a self-service portal
+                    for real-time access to stock levels, service requests, and downloadable documents.
+                </p>
             </li>
             <li>
-                <p>The<strong> </strong><font style="color: rgb(113, 75, 103);">
-                        <strong>Invoicing App</strong>
-                    </font> manages the
-                    periodic invoicing based on the Dashboard data.</p>
+                <p>
+                    <font class="text-o-color-1"><b>Subscriptions App</b>:</font> Manages recurring billing for long-term
+                    storage services with customizable plans.
+                </p>
             </li>
             <li>
-                <p>The<strong> </strong><font style="color: rgb(113, 75, 103);">
-                        <strong>Website App</strong>
-                    </font> gives an
-                    overview of your activity and the portal allows your client too see their
-                    stock levels live.</p>
+                <p>
+                    <font class="text-o-color-1"><b>Barcode App</b>:</font> Streamlines warehouse floor operations by enabling
+                    fast and accurate scanning of pallets, locations, and stock movements.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <font class="text-o-color-1"><b>Documents App</b>:</font> Centralizes contracts, delivery notes, and
+                    transport documentation in a searchable digital space.
+                </p>
             </li>
         </ul>
         <div data-oe-role="status"
@@ -279,9 +287,26 @@
             </li>
         </ol>
         <p>The customer will then receive an email with instructions to create their account.</p>
-        <p style="text-align: justify;">
-            <br/>
-        </p>
+        <div
+            class="o_editor_banner user-select-none o-contenteditable-false lh-1 d-flex align-items-center alert alert-success pb-0 pt-3"
+            data-oe-role="status">
+            <i class="o_editor_banner_icon mb-3 fst-normal" data-oe-aria-label="Banner Success">✅</i>
+            <div class="o_editor_banner_content o-contenteditable-true w-100 px-3">
+                <p style="text-align: justify;">To access this database with the demonstration data
+                    and view the live stock from a customer's perspective:</p>
+                <ul>
+                    <li style="text-align: justify;"><b>Login as:</b>
+                        <ul>
+                            <li style="text-align: justify;"><b>User:</b> portal@portal.com</li>
+                            <li style="text-align: justify;"><b>Password:</b> portal</li>
+                        </ul>
+                    </li>
+                </ul>
+                <p style="text-align: justify;">Upon successful login, you will be connected as the <b>Second
+                    Company</b> and will see their <b>real-time stock information</b> precisely as a
+                    customer would view it.</p>
+            </div>
+        </div>
         <h3 style="text-align: justify;"><span class="h2-fs">Fixed-Space
             Subscription Management</span>🔁 </h3>
         <h3>
@@ -667,11 +692,38 @@
                 <p>Use this information to create your invoice:</p>
                 <ul>
                     <li>
-                        <p>If it's the first time invoicing, create a new invoice from the
-                            previously created <b>Sales Order</b>.</p>
+                        <p>If it's the first time invoicing:</p>
+                        <ul>
+                            <li>
+                                <p><b>Generate a new invoice</b> directly from the existing <b>Sales
+                                    Order.</b></p>
+                            </li>
+                            <li>
+                                <p>Ensure you select the <b>correct "Invoice Period"</b> and specify
+                                    the appropriate <b>Invoice date</b>.</p>
+                            </li>
+                        </ul>
                     </li>
                     <li>
-                        <p>If you've invoiced this customer before, duplicate the previous invoice.</p>
+                        <p>If you've invoiced this customer before:</p>
+                        <ul>
+                            <li>
+                                <p>
+                                    <b>Locate the customer's last invoice.</b>
+                                </p>
+                            </li>
+                            <li>
+                                <p>Click the "<b>Create Next</b>" button on that invoice.</p>
+                            </li>
+                            <li>
+                                <p><b>Odoo will automatically duplicate</b> the previous invoice,
+                                    using the correct start date (based on your defined invoice
+                                    period) but setting <b>all
+                                        quantity lines to
+                                        zero</b>. This prevents accidental overbilling and allows
+                                    you to input the current period's quantities accurately.</p>
+                            </li>
+                        </ul>
                     </li>
                 </ul>
             </li>

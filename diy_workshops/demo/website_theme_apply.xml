@@ -1,12 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <odoo>
   <function name="button_choose_theme" model="ir.module.module" eval="[ref('base.module_theme_treehouse', raise_if_not_found=False) or ref('base.module_theme_default')]"/>
+  
+  <function model="ir.ui.view" name="write">
+    <value model="ir.ui.view" eval="obj().search([('key', '=', 'website.template_header_default')]).ids"/>
+    <value eval="{'active': False}"/>
+  </function>
 
-  <!-- <function model="theme.utils" name="enable_view" eval="['website.template_header_vertical']"/> -->
+  <function model="ir.ui.view" name="write">
+    <value model="ir.ui.view" eval="obj().with_context(active_test=False).search([('key', '=', 'website.template_header_vertical')], limit=1).id"/>
+    <value eval="{'active': True}"/>
+  </function>
 
   <function model="ir.ui.view" name="write">
     <value model="ir.ui.view" eval="obj().env['website'].with_context(website_id=obj().env.ref('website.default_website').id).viewref('website.homepage').id" />
-    <value model="ir.ui.view" eval="{'arch': obj().env.ref('diy_workshops.homepage').arch}" />
+    <value model="ir.ui.view" eval="{'arch': obj().env.ref('diy_workshops.homepage').arch.replace(
+        '*sew_your_first_tote_bag_event*', str(obj().env.ref('diy_workshops.event_event_1').website_url)).replace(
+        '*sewing_for_kids_event*', str(obj().env.ref('diy_workshops.event_event_2').website_url)).replace(
+        '*upcycle_your_wardrobe_event*', str(obj().env.ref('diy_workshops.event_event_3').website_url)).replace(
+        '*5_class_card_sew_and_save_product*', str(obj().env.ref('loyalty.gift_card_product_50').website_url)).replace(
+        '*monthly_membership_sewcial_club_product*', str(obj().env.ref('diy_workshops.product_product_12').website_url)).replace(
+        '*gift_card_product*', str(obj().env.ref('diy_workshops.product_product_22').website_url))
+    }" />
   </function>
   <function model="ir.ui.view" name="write">
     <value model="ir.ui.view" eval="obj().env['website'].with_context(website_id=obj().env.ref('website.default_website').id).viewref('website.template_footer_descriptive').id" />
@@ -59,7 +74,7 @@
         eval="obj().search([
         ('website_id', '=', ref('website.default_website')),
         ('url', '=', '/shop'),
-        ]).id" />
+        ]).ids" />
     </function>
   </data>
 

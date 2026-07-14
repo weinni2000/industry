@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-18 04:29+0000\n"
+"POT-Creation-Date: 2026-03-17 19:26+0000\n"
 "PO-Revision-Date: 2025-11-20 09:41+0000\n"
 "Last-Translator: \"Chloe Wang (chwa)\" <chwa@odoo.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/"
@@ -122,8 +122,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"横幅信息\" aria-label=\"横幅信息\">💡</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label=\"横幅信"
+"息\" aria-label=\"横幅信息\">💡</i>"
 
 #. module: machine_tool_rental
 #: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body
@@ -131,8 +131,15 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\" aria-label=\"Banner Success\">✅</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"横幅成功\" aria-label=\"横幅成功\">✅</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label=\"横幅成"
+"功\" aria-label=\"横幅成功\">✅</i>"
+
+#. module: machine_tool_rental
+#: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Warning\">⚠️</i>"
+msgstr ""
 
 #. module: machine_tool_rental
 #: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body
@@ -140,8 +147,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
 "normal\" aria-label=\"Banner Info\">💡</i>"
 msgstr ""
-"<i data-oe-aria-label=\"横幅信息\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\" aria-label=\"横幅信息\">💡</i>"
+"<i data-oe-aria-label=\"横幅信息\" class=\"o_editor_banner_icon mb-3 fst-"
+"normal\" aria-label=\"横幅信息\">💡</i>"
 
 #. module: machine_tool_rental
 #: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body
@@ -149,8 +156,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
 "normal\" aria-label=\"Banner Info\">🚀</i>"
 msgstr ""
-"<i data-oe-aria-label=\"横幅信息\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\" aria-label=\"横幅信息\">🚀</i>"
+"<i data-oe-aria-label=\"横幅信息\" class=\"o_editor_banner_icon mb-3 fst-"
+"normal\" aria-label=\"横幅信息\">🚀</i>"
 
 #. module: machine_tool_rental
 #: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body
@@ -158,8 +165,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\" aria-label=\"Banner Success\">🎉</i>"
 msgstr ""
-"<i data-oe-aria-label=\"横幅成功\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\" aria-label=\"横幅成功\">🎉</i>"
+"<i data-oe-aria-label=\"横幅成功\" class=\"o_editor_banner_icon mb-3 fst-"
+"normal\" aria-label=\"横幅成功\">🎉</i>"
 
 #. module: machine_tool_rental
 #: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body
@@ -167,22 +174,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\" aria-label=\"Banner Warning\">⚠️</i>"
 msgstr ""
-"<i data-oe-aria-label=\"横幅警告\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\" aria-label=\"横幅警告\">⚠️</i>"
-
-#. module: machine_tool_rental
-#: model_terms:ir.ui.view,arch_db:machine_tool_rental.res_partner_form_view_custom
-msgid "<span class=\"o_stat_text\">To Invoice</span>"
-msgstr "<span class=\"o_stat_text\">待开票</span>"
-
-#. module: machine_tool_rental
-#: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body
-msgid ""
-"<strong/>From any contact form, hit the <strong>Consolidated Down "
-"Payment</strong> button to generate a single invoice for all ongoing Rental "
-"contracts."
-msgstr "<strong>从任意联系人表单，点击<strong>合并预收款</strong>按钮，即可为所有进行"
-"中的租赁合同生成一张统一的发票。"
+"<i data-oe-aria-label=\"横幅警告\" class=\"o_editor_banner_icon mb-3 fst-"
+"normal\" aria-label=\"横幅警告\">⚠️</i>"
 
 #. module: machine_tool_rental
 #: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body
@@ -290,7 +283,8 @@ msgstr "<strong>使用指南：</strong>"
 msgid ""
 "<strong>In such situation, feel free to experiment with this database and "
 "then to create a new one for your own usage.</strong>"
-msgstr "<strong>在这种情况下，欢迎您随时在此数据库中进行体验，然后为您的实际使用创建"
+msgstr ""
+"<strong>在这种情况下，欢迎您随时在此数据库中进行体验，然后为您的实际使用创建"
 "一个新的数据库。</strong>"
 
 #. module: machine_tool_rental
@@ -302,15 +296,14 @@ msgstr "<strong>与库存整合</strong>：自动触发质量检查流程。"
 
 #. module: machine_tool_rental
 #: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body
-msgid ""
-"<strong>Link runtime data</strong> to serials for maintenance planning."
+msgid "<strong>Link runtime data</strong> to serials for maintenance planning."
 msgstr "<strong>关联运行数据</strong>：将运行数据与序列号关联以制定维护计划。"
 
 #. module: machine_tool_rental
 #: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body
 msgid ""
-"<strong>Log inspection results</strong> and mark equipment as available only"
-" if it passes."
+"<strong>Log inspection results</strong> and mark equipment as available only "
+"if it passes."
 msgstr "<strong>记录检测结果</strong>：仅当设备通过检测时才标记为可用状态。"
 
 #. module: machine_tool_rental
@@ -321,15 +314,17 @@ msgstr "<strong>记录服务报告</strong>：支持直接从移动设备录入�
 #. module: machine_tool_rental
 #: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body
 msgid "<strong>Manage returns</strong> and extensions easily from the order."
-msgstr "<strong>便捷管理归还与延期</strong>：直接从订单处理设备归还和租期延长。"
+msgstr ""
+"<strong>便捷管理归还与延期</strong>：直接从订单处理设备归还和租期延长。"
 
 #. module: machine_tool_rental
 #: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body
 msgid ""
 "<strong>Organize pipelines</strong> by stages (e.g., New Lead → Quotation "
 "Sent → Won/Lost)."
-msgstr "<strong>组织销售管道</strong>：按阶段管理（例如：新线索 → 已发送报价 → "
-"已成交/未成交）。"
+msgstr ""
+"<strong>组织销售管道</strong>：按阶段管理（例如：新线索 → 已发送报价 → 已成"
+"交/未成交）。"
 
 #. module: machine_tool_rental
 #: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body
@@ -354,12 +349,12 @@ msgstr "<strong>设置质量控制点</strong>：为归还后检测设立质量�
 msgid ""
 "<strong>Track leads</strong> from website forms, email, or manually entered "
 "inquiries."
-msgstr "<strong>追踪潜在客户</strong>：整合网站表单、电子邮件和手动录入的询盘信息。"
+msgstr ""
+"<strong>追踪潜在客户</strong>：整合网站表单、电子邮件和手动录入的询盘信息。"
 
 #. module: machine_tool_rental
 #: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body
-msgid ""
-"<strong>Track payments and follow up</strong> with automatic reminders."
+msgid "<strong>Track payments and follow up</strong> with automatic reminders."
 msgstr "<strong>追踪付款状态</strong>：通过自动提醒功能进行付款跟进。"
 
 #. module: machine_tool_rental
@@ -381,28 +376,11 @@ msgid ""
 msgstr "<strong>网站与电商：</strong>在线展示租赁产品目录并支持直接预订。"
 
 #. module: machine_tool_rental
-#: model:ir.model.fields,field_description:machine_tool_rental.x_recurring_maintenance_rules_model_x_active_field
-#: model:ir.model.fields,field_description:machine_tool_rental.x_run_time_meter_model_x_active_field
-msgid "Active"
-msgstr "有效"
-
-#. module: machine_tool_rental
-#: model_terms:ir.ui.view,arch_db:machine_tool_rental.x_recurring_maintenance_rules_search_view
-#: model_terms:ir.ui.view,arch_db:machine_tool_rental.x_run_time_meter_search_view
-msgid "Archived"
-msgstr "已归档"
-
-#. module: machine_tool_rental
 #: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body
 msgid ""
 "Automate your invoicing flow with recurring invoices that are triggered by "
 "ongoing rental contracts."
 msgstr "通过由持续租赁合同触发的周期性发票，实现开票流程自动化。"
-
-#. module: machine_tool_rental
-#: model_terms:ir.ui.view,arch_db:machine_tool_rental.stock_production_lot_form_custom
-msgid "Available"
-msgstr "可用"
 
 #. module: machine_tool_rental
 #: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body
@@ -417,31 +395,6 @@ msgid "Compressor 8bar 50L"
 msgstr "8巴 50升 空压机"
 
 #. module: machine_tool_rental
-#: model:ir.actions.server,name:machine_tool_rental.compute_run_time_increment
-msgid "Compute Run-Time Increment"
-msgstr "计算运行时长增量"
-
-#. module: machine_tool_rental
-#: model:ir.actions.server,name:machine_tool_rental.consolidated_down_payment_server_action
-msgid "Consolidated Down Payment"
-msgstr "合并预收款"
-
-#. module: machine_tool_rental
-#: model_terms:ir.ui.view,arch_db:machine_tool_rental.res_partner_form_view_custom
-msgid "Consolidated Down payment"
-msgstr "合并预收款"
-
-#. module: machine_tool_rental
-#: model:ir.actions.server,name:machine_tool_rental.create_maintnance_task
-msgid "Create Maintenance Task"
-msgstr "创建维护任务"
-
-#. module: machine_tool_rental
-#: model:ir.actions.server,name:machine_tool_rental.create_maintenance_tasks_server_action
-msgid "Create Maintenance Tasks Based On Recurring Maintenance Rules"
-msgstr "基于周期性维护规则创建维护任务"
-
-#. module: machine_tool_rental
 #: model:base.automation,name:machine_tool_rental.create_task_on_maintenance_move
 msgid "Create task on maintenance move"
 msgstr "在维护调拨时创建任务"
@@ -452,17 +405,19 @@ msgid "Cut-off saw DSH 600-22 Battery"
 msgstr "DSH 600-22 电池型切割锯"
 
 #. module: machine_tool_rental
-#: model:ir.model.fields,field_description:machine_tool_rental.x_run_time_meter_model_x_date_field
-#: model_terms:ir.ui.view,arch_db:machine_tool_rental.x_run_time_meter_search_view
-msgid "Date"
-msgstr "日期"
+#: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body
+msgid ""
+"Define different quality checks for different product categories or products "
+"being more specific and the requirements!"
+msgstr "为不同的产品类别或具体产品定义不同的质量检查要求和标准！"
 
 #. module: machine_tool_rental
 #: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body
 msgid ""
-"Define different quality checks for different product categories or products"
-" being more specific and the requirements!"
-msgstr "为不同的产品类别或具体产品定义不同的质量检查要求和标准！"
+"Deleting invoices generated from the <strong>Consolidated Down Payment</"
+"strong> is not advised, as it may break the mechanism used to generate "
+"future invoices."
+msgstr ""
 
 #. module: machine_tool_rental
 #: model:product.template,name:machine_tool_rental.product_product_18_product_template
@@ -509,6 +464,13 @@ msgid "Forklift DP25N3 Diesel"
 msgstr "DP25N3 柴油叉车"
 
 #. module: machine_tool_rental
+#: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body
+msgid ""
+"From any contact form, hit the <strong>Consolidated Down Payment</strong> "
+"button to generate a single invoice for all ongoing Rental contracts."
+msgstr ""
+
+#. module: machine_tool_rental
 #: model:product.template,name:machine_tool_rental.product_product_5_product_template
 msgid "Generator 500 kVA DE550E0 Diesel"
 msgstr "DE550E0 柴油 500 千伏安发电机"
@@ -532,9 +494,8 @@ msgstr "IEC 电池"
 #: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body
 msgid ""
 "If you want to execute a practical guided tour of this module, you should "
-"Import demo data and try the Demo - Use Case (In the next Knowledge Article)"
-msgstr "如果您想对此模块进行实际操作导览，您应导入演示数据，并尝试“演示-应用案例”（详"
-"见下一篇知识库文章）"
+"Import demo data and try the Demo"
+msgstr ""
 
 #. module: machine_tool_rental
 #: model:product.template,name:machine_tool_rental.product_product_15_product_template
@@ -547,11 +508,6 @@ msgid "Jackhammer 2100W Electric"
 msgstr "2100W 电镐"
 
 #. module: machine_tool_rental
-#: model:ir.model.fields,field_description:machine_tool_rental.sale_model_sale_order_x_last_invoice_field
-msgid "Last invoice"
-msgstr "最近发票"
-
-#. module: machine_tool_rental
 #: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body
 msgid "Leverage quotation templates to save time on recurrent contracts!"
 msgstr "利用报价模板，为重复性合同节省时间！"
@@ -562,21 +518,11 @@ msgid "Machine &amp; Tool Rental"
 msgstr "机械设备与工具租赁"
 
 #. module: machine_tool_rental
-#: model:ir.actions.act_window,name:machine_tool_rental.project_maintenance_act_window
-#: model_terms:ir.ui.view,arch_db:machine_tool_rental.stock_production_lot_form_custom
-msgid "Maintenance"
-msgstr "维护保养"
-
-#. module: machine_tool_rental
-#: model:ir.model.fields,field_description:machine_tool_rental.x_recurring_maintenance_rules_x_name_field
-#: model:ir.model.fields,field_description:machine_tool_rental.x_run_time_meter_model_x_name_field
-msgid "Name"
-msgstr "名称"
-
-#. module: machine_tool_rental
-#: model:ir.model.fields,field_description:machine_tool_rental.x_run_time_meter_model_x_notes_field
-msgid "Notes"
-msgstr "备注"
+#: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body
+msgid ""
+"Note: Rental order dates can't be changed once an invoice has been generated "
+"this way."
+msgstr ""
 
 #. module: machine_tool_rental
 #: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body
@@ -596,23 +542,14 @@ msgid ""
 "Of course, this is just an overview of the features included in this "
 "package. Feel free to add new apps, delete/modify demo data, and test "
 "everything around!"
-msgstr "当然，这只是该功能包所含功能的简要概述。欢迎您随时添加新应用、删除/修改演示数"
+msgstr ""
+"当然，这只是该功能包所含功能的简要概述。欢迎您随时添加新应用、删除/修改演示数"
 "据，并尽情测试各项功能！"
 
 #. module: machine_tool_rental
 #: model_terms:product.template,description:machine_tool_rental.product_product_4_product_template
 msgid "Oil free silent air compressor<br>Low noise (61dB)<br>3 hp"
 msgstr "无油静音空气压缩机<br>低噪音 (61分贝)<br>3 马力"
-
-#. module: machine_tool_rental
-#: model:base.automation,name:machine_tool_rental.on_run_time_edit
-msgid "On Run-Time edit"
-msgstr "编辑运行时间"
-
-#. module: machine_tool_rental
-#: model_terms:ir.ui.view,arch_db:machine_tool_rental.stock_production_lot_form_custom
-msgid "Out"
-msgstr "支出"
 
 #. module: machine_tool_rental
 #: model:product.template,name:machine_tool_rental.product_product_14_product_template
@@ -625,69 +562,18 @@ msgid "Plate Compactor LG300"
 msgstr "LG300 平板夯"
 
 #. module: machine_tool_rental
-#: model:ir.model.fields,field_description:machine_tool_rental.project_model_project_task_x_product_field
-#: model:ir.model.fields,field_description:machine_tool_rental.x_recurring_maintenance_rules_model_x_product_field
-#: model:ir.model.fields,field_description:machine_tool_rental.x_run_time_meter_model_x_product_field
-msgid "Product"
-msgstr "产品"
-
-#. module: machine_tool_rental
-#: model:ir.model.fields,field_description:machine_tool_rental.field_product_template_serial_ids
-msgid "Product Serials"
-msgstr "产品序列号"
-
-#. module: machine_tool_rental
 #: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body
 msgid ""
-"Quality management helps ensure that every returned tool is inspected before"
-" it goes back into circulation."
+"Quality management helps ensure that every returned tool is inspected before "
+"it goes back into circulation."
 msgstr "质量管理有助于确保每件归还的工具在重新投入使用前都经过检查。"
 
 #. module: machine_tool_rental
-#: model:ir.model.fields,field_description:machine_tool_rental.project_model_project_task_x_maintenance_field
-msgid "Reccurent Maintenance"
-msgstr "周期性维护"
-
-#. module: machine_tool_rental
-#: model_terms:ir.ui.view,arch_db:machine_tool_rental.stock_production_lot_form_custom
-msgid "Reception"
-msgstr "接收"
-
-#. module: machine_tool_rental
-#: model_terms:ir.ui.view,arch_db:machine_tool_rental.stock_picking_form_custom
-msgid "Record Run-Time"
-msgstr "记录运行时间"
-
-#. module: machine_tool_rental
-#: model:ir.actions.server,name:machine_tool_rental.record_run_time_meter
-msgid "Record Run-Time Meter"
-msgstr "记录运行时间计量器"
-
-#. module: machine_tool_rental
 #: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body
 msgid ""
-"Record product run-time during receptions and follow-up product use "
-"fromReporting/Run-Time Meters."
-msgstr "在收货时记录产品运行时间，并通过“报告/运行时间计量器”跟踪产品使用情况。"
-
-#. module: machine_tool_rental
-#: model:ir.model.fields,field_description:machine_tool_rental.project_model_project_task_x_recurring_maintenance_rule_field
-msgid "Recurring Maintenance Rule"
-msgstr "周期性维护规则"
-
-#. module: machine_tool_rental
-#: model:ir.actions.act_window,name:machine_tool_rental.product_recurring_maintenance_rules_act_window
-#: model:ir.actions.act_window,name:machine_tool_rental.recurring_maintenance_rules_act_window
-#: model:ir.model,name:machine_tool_rental.x_recurring_maintenance_rules_model
-#: model:ir.ui.menu,name:machine_tool_rental.recurring_maintenance_rules_menu
-#: model_terms:ir.ui.view,arch_db:machine_tool_rental.product_template_product_form_custom
-msgid "Recurring Maintenance Rules"
-msgstr "周期性维护规则"
-
-#. module: machine_tool_rental
-#: model:ir.model.fields,field_description:machine_tool_rental.product_model_product_template_x_recurring_maintenance_rules_count_field
-msgid "Recurring Maintenance Rules count"
-msgstr "周期性维护规则计数"
+"Record product run-time during receptions and follow-up product use from "
+"Reporting/Run-Time Meters."
+msgstr ""
 
 #. module: machine_tool_rental
 #: model:stock.rule,name:machine_tool_rental.stock_rule_9
@@ -705,93 +591,9 @@ msgid "Repair"
 msgstr "维修"
 
 #. module: machine_tool_rental
-#: model_terms:ir.ui.view,arch_db:machine_tool_rental.x_run_time_meter_graph_view
-msgid "Run Time Meter"
-msgstr "运行时间计量器"
-
-#. module: machine_tool_rental
-#: model:ir.model.fields,field_description:machine_tool_rental.stock_model_stock_lot_x_x_serial_x_run_time_meter_count_field
-#: model_terms:ir.ui.view,arch_db:machine_tool_rental.stock_production_lot_form_custom
-msgid "Run-Time"
-msgstr "运行时间"
-
-#. module: machine_tool_rental
-#: model:ir.model.fields,field_description:machine_tool_rental.x_run_time_meter_model_x_run_time_field
-#: model_terms:ir.ui.view,arch_db:machine_tool_rental.x_run_time_meter_form_custom
-msgid "Run-Time (h)"
-msgstr "运行时间 (小时)"
-
-#. module: machine_tool_rental
-#: model:ir.model.fields,field_description:machine_tool_rental.x_recurring_maintenance_rules_model_x_run_time_increment_h_field
-#: model:ir.model.fields,field_description:machine_tool_rental.x_run_time_meter_model_x_run_time_increment_h_field
-msgid "Run-Time Increment (h)"
-msgstr "运行时间增量 (小时)"
-
-#. module: machine_tool_rental
-#: model:ir.model.fields,field_description:machine_tool_rental.project_model_project_task_x_run_time_meter_when_done_field
-msgid "Run-Time Increment (h) when done"
-msgstr "完成时的运行时间增量 (小时)"
-
-#. module: machine_tool_rental
-#: model:ir.actions.act_window,name:machine_tool_rental.run_time_meter_act_window
-#: model:ir.model,name:machine_tool_rental.x_run_time_meter_model
-#: model:ir.ui.menu,name:machine_tool_rental.run_time_meter_menu
-#: model_terms:ir.ui.view,arch_db:machine_tool_rental.x_run_time_meter_form_view
-msgid "Run-Time Meter"
-msgstr "运行时间计量器"
-
-#. module: machine_tool_rental
-#: model:ir.model.fields,field_description:machine_tool_rental.stock_model_stock_lot_x_run_time_meter_h_field
-msgid "Run-Time Meter (h)"
-msgstr "运行时间计量器 (小时)"
-
-#. module: machine_tool_rental
-#: model:ir.actions.server,name:machine_tool_rental.run_time_meter_when_done
-msgid "Run-Time Meter When Done"
-msgstr "完成时的运行时间计量器"
-
-#. module: machine_tool_rental
-#: model:ir.actions.act_window,name:machine_tool_rental.run_time_meters_serial_act_window
-#: model:ir.model.fields,field_description:machine_tool_rental.stock_model_stock_lot_x_run_time_meters_field
-msgid "Run-Time Meters"
-msgstr "运行时间计量器"
-
-#. module: machine_tool_rental
-#: model:ir.model.fields,help:machine_tool_rental.x_recurring_maintenance_rules_model_x_run_time_increment_h_field
-msgid "Run-time increment between two maintenance tasks"
-msgstr "两次维护任务间的运行时间增量"
-
-#. module: machine_tool_rental
 #: model:product.template,name:machine_tool_rental.product_product_11_product_template
 msgid "Scissor Lift SV2632E"
 msgstr "SV2632E 剪叉式高空作业平台"
-
-#. module: machine_tool_rental
-#: model:ir.model.fields,field_description:machine_tool_rental.x_recurring_maintenance_rules_model_x_sequence_field
-#: model:ir.model.fields,field_description:machine_tool_rental.x_run_time_meter_model_x_sequence_field
-msgid "Sequence"
-msgstr "序列"
-
-#. module: machine_tool_rental
-#: model:ir.model.fields,field_description:machine_tool_rental.project_model_project_task_x_serial_field
-#: model:ir.model.fields,field_description:machine_tool_rental.x_run_time_meter_model_x_serial_field
-msgid "Serial"
-msgstr "序列号"
-
-#. module: machine_tool_rental
-#: model:ir.model.fields,field_description:machine_tool_rental.stock_model_stock_storage_category_x_serial_status_field
-msgid "Serial Status"
-msgstr "序列号状态"
-
-#. module: machine_tool_rental
-#: model:ir.model.fields,field_description:machine_tool_rental.stock_model_stock_lot_x_x_serial_project_task_count_field
-msgid "Serial count"
-msgstr "序列号数量"
-
-#. module: machine_tool_rental
-#: model:base.automation,name:machine_tool_rental.set_task_run_time_meter
-msgid "Set task run time meter when done"
-msgstr "完成任务时设置任务运行时间计量器"
 
 #. module: machine_tool_rental
 #: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body
@@ -803,7 +605,8 @@ msgstr "为您的销售管道设置一个邮件别名，以便直接从电子邮
 #: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body
 msgid ""
 "Setup the recurring maintenance rules you need per product.<br/>\n"
-"As soon as a serial exceeds the maintenance run-time increment, a recurring maintenance task will be created!"
+"As soon as a serial exceeds the maintenance run-time increment, a recurring "
+"maintenance task will be created!"
 msgstr ""
 "为每个产品设置您所需的周期性维护规则。<br/>\n"
 "一旦某个序列号的运行时间超过维护增量，系统将自动创建一个周期性维护任务！"
@@ -814,7 +617,8 @@ msgid ""
 "Similarly, as soon as a reception check is failed and the serial sent to "
 "Maintenance location, a field task for its maintenance is created and ready "
 "for technician to fix the issue!"
-msgstr "同样地，一旦收货检查失败且序列号设备被送至维护地点，系统将自动创建一个现场维"
+msgstr ""
+"同样地，一旦收货检查失败且序列号设备被送至维护地点，系统将自动创建一个现场维"
 "护任务，等待技术人员前来解决问题！"
 
 #. module: machine_tool_rental
@@ -823,17 +627,13 @@ msgid "Skid Steer Loader 226D3"
 msgstr "226D3 滑移装载机"
 
 #. module: machine_tool_rental
-#: model:ir.model.fields,field_description:machine_tool_rental.stock_model_stock_lot_x_status_field
-msgid "Status"
-msgstr "状态"
-
-#. module: machine_tool_rental
 #: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body
 msgid ""
 "The <strong>CRM App</strong> capture customer leads and help turn them into "
 "contracts with automated workflows."
-msgstr "<strong>CRM "
-"应用</strong>能够捕捉潜在客户，并通过自动化工作流帮助将其转化为合同。"
+msgstr ""
+"<strong>CRM 应用</strong>能够捕捉潜在客户，并通过自动化工作流帮助将其转化为合"
+"同。"
 
 #. module: machine_tool_rental
 #: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body
@@ -841,7 +641,8 @@ msgid ""
 "The <strong>Field Service App</strong> manages delivery, installation, on-"
 "site intervention schedules as well as regular servicing and reduces "
 "downtime by planning maintenance cycles."
-msgstr "<strong>现场服务应用</strong>可管理交付、安装、现场干预计划以及定期维护，并通"
+msgstr ""
+"<strong>现场服务应用</strong>可管理交付、安装、现场干预计划以及定期维护，并通"
 "过规划维护周期来减少停机时间。"
 
 #. module: machine_tool_rental
@@ -849,7 +650,8 @@ msgstr "<strong>现场服务应用</strong>可管理交付、安装、现场干�
 msgid ""
 "The <strong>Inventory App</strong> will manage the physical stock of "
 "machines, keep track of detail serial numbers,track usage and returns."
-msgstr "<strong>库存应用</strong>将管理机器的实物库存，跟踪详细的序列号，并追踪使用情"
+msgstr ""
+"<strong>库存应用</strong>将管理机器的实物库存，跟踪详细的序列号，并追踪使用情"
 "况和归还状态。"
 
 #. module: machine_tool_rental
@@ -864,24 +666,26 @@ msgstr "<strong>发票应用</strong>支持周期性账单、押金、滞纳金�
 msgid ""
 "The <strong>Rental App</strong> will centralize rental contracts, billing "
 "cycles, availability, and reservations."
-msgstr "<strong>租赁应用</strong>将集中管理租赁合同、计费周期、可用性和预订信息。"
+msgstr ""
+"<strong>租赁应用</strong>将集中管理租赁合同、计费周期、可用性和预订信息。"
 
 #. module: machine_tool_rental
 #: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body
 msgid ""
-"The CRM app lets you capture leads from multiple sources, track them through"
-" a pipeline, and follow up effectively using tasks, notes, and chatter "
+"The CRM app lets you capture leads from multiple sources, track them through "
+"a pipeline, and follow up effectively using tasks, notes, and chatter "
 "communication."
-msgstr "CRM "
-"应用允许您从多个渠道捕捉潜在客户，通过销售管道进行跟踪，并有效利用任务、笔记"
-"和讨论区沟通进行跟进。"
+msgstr ""
+"CRM 应用允许您从多个渠道捕捉潜在客户，通过销售管道进行跟踪，并有效利用任务、"
+"笔记和讨论区沟通进行跟进。"
 
 #. module: machine_tool_rental
 #: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body
 msgid ""
 "The Rental app is designed for planning, scheduling, and managing rental "
 "contracts, with visibility over equipment availability and duration."
-msgstr "租赁应用专为规划、安排和管理租赁合同而设计，提供设备可用性和租用期限的可视化"
+msgstr ""
+"租赁应用专为规划、安排和管理租赁合同而设计，提供设备可用性和租用期限的可视化"
 "视图。"
 
 #. module: machine_tool_rental
@@ -889,21 +693,6 @@ msgstr "租赁应用专为规划、安排和管理租赁合同而设计，提供
 msgid ""
 "These all go free in your current subscription; feel free to explore! 🙃"
 msgstr "这些都是您当前订阅中的免费内容；请随意浏览！🙃"
-
-#. module: machine_tool_rental
-#: model:ir.actions.act_window,name:machine_tool_rental.to_invoice_act_window
-msgid "To Invoice"
-msgstr "待开票"
-
-#. module: machine_tool_rental
-#: model:ir.model.fields,field_description:machine_tool_rental.to_invoice_total_uninvoiced_balance
-msgid "Total Uninvoiced"
-msgstr "未开票总额"
-
-#. module: machine_tool_rental
-#: model_terms:ir.ui.view,arch_db:machine_tool_rental.x_run_time_meter_form_view
-msgid "Type down your notes here..."
-msgstr "在这里敲打你的备注..."
 
 #. module: machine_tool_rental
 #: model_terms:product.template,description:machine_tool_rental.product_product_8_product_template
@@ -927,43 +716,47 @@ msgstr "您可以在主仪表板上访问 Odoo 数据库中每个已安装的应
 msgid ""
 "You completed that demo use case! There are millions of other ways to adapt "
 "your Odoo setup to fit your business needs."
-msgstr "您完成了演示用例！还有数以百万计的其他方法来调整您的 Odoo "
-"设置，以满足您的业务需求。"
+msgstr ""
+"您完成了演示用例！还有数以百万计的其他方法来调整您的 Odoo 设置，以满足您的业"
+"务需求。"
 
 #. module: machine_tool_rental
 #: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body
 msgid ""
-"You didn't import demo data? You can still do it. Go to Apps &gt; Industries"
-" &gt; Upgrade your Bar &amp; Pub package and check the related box"
-msgstr "您没有导入演示数据？现在仍然可以导入。请前往“应用&gt;行业&gt;升级您的酒吧套餐"
-"”，并勾选相关复选框。"
+"You didn't import demo data? You can still do it. Go to Apps &gt; Industries "
+"&gt; Upgrade your Machine &amp; Tools Rental package and check the related "
+"box"
+msgstr ""
 
 #. module: machine_tool_rental
 #: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body
 msgid ""
-"You just installed the Odoo for <strong>Machine &amp; Tool Rental "
-"</strong>package. By doing so, we have installed a bunch of necessary apps "
-"to run your business efficiently."
-msgstr "您刚刚安装了 <strong>机械设备与工具租赁</strong> "
-"软件包。安装过程中，我们已为您安装了一系列高效运营业务所必需的应用程序。"
+"You just installed the Odoo for <strong>Machine &amp; Tool Rental </"
+"strong>package. By doing so, we have installed a bunch of necessary apps to "
+"run your business efficiently."
+msgstr ""
+"您刚刚安装了 <strong>机械设备与工具租赁</strong> 软件包。安装过程中，我们已为"
+"您安装了一系列高效运营业务所必需的应用程序。"
 
 #. module: machine_tool_rental
 #: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body
 msgid ""
 "You might have tested this package with or without demo data.<br/>\n"
-"In any case, you may have written records in journals which are not deletable and which might be an issue for your traceability."
+"In any case, you may have written records in journals which are not "
+"deletable and which might be an issue for your traceability."
 msgstr ""
 "您可能在安装时选择加载或不加载演示数据。<br/>\n"
-"无论哪种情况，系统中可能已存在不可删除的日记账记录，这可能会影响您的数据追溯"
-"。"
+"无论哪种情况，系统中可能已存在不可删除的日记账记录，这可能会影响您的数据追"
+"溯。"
 
 #. module: machine_tool_rental
 #: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body
 msgid ""
 "You should be able to execute the following flows to have an overview of "
 "various flows you can quickly execute with this package using Odoo."
-msgstr "您应该能够执行以下流程，以便对使用 Odoo "
-"软件包快速执行的各种流程有一个大致的了解。"
+msgstr ""
+"您应该能够执行以下流程，以便对使用 Odoo 软件包快速执行的各种流程有一个大致的"
+"了解。"
 
 #. module: machine_tool_rental
 #: model:crm.tag,name:machine_tool_rental.crm_tag_386
@@ -1102,8 +895,19 @@ msgstr "🎓 质量"
 
 #. module: machine_tool_rental
 #: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body
+#, fuzzy
+msgid "﻿🎓 Recurring Rental Billing﻿"
+msgstr "🎓 租赁"
+
+#. module: machine_tool_rental
+#: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body
 msgid "﻿🎓 Rental﻿"
 msgstr "🎓 租赁"
+
+#. module: machine_tool_rental
+#: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body
+msgid "﻿🎓 Usage-Based Maintenance﻿"
+msgstr ""
 
 #. module: machine_tool_rental
 #: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body
@@ -1129,3 +933,165 @@ msgstr "🔧 租赁"
 #: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body
 msgid "🛠 Field Service"
 msgstr "🛠 现场服务"
+
+#~ msgid "Active"
+#~ msgstr "有效"
+
+#~ msgid "Archived"
+#~ msgstr "已归档"
+
+#~ msgid "Available"
+#~ msgstr "可用"
+
+#~ msgid "Compute Run-Time Increment"
+#~ msgstr "计算运行时长增量"
+
+#~ msgid "Date"
+#~ msgstr "日期"
+
+#~ msgid "Maintenance"
+#~ msgstr "维护保养"
+
+#~ msgid "Name"
+#~ msgstr "名称"
+
+#~ msgid "Notes"
+#~ msgstr "备注"
+
+#~ msgid "On Run-Time edit"
+#~ msgstr "编辑运行时间"
+
+#~ msgid "Out"
+#~ msgstr "支出"
+
+#~ msgid "Product"
+#~ msgstr "产品"
+
+#~ msgid "Product Serials"
+#~ msgstr "产品序列号"
+
+#~ msgid "Reception"
+#~ msgstr "接收"
+
+#~ msgid "Record Run-Time"
+#~ msgstr "记录运行时间"
+
+#~ msgid "Record Run-Time Meter"
+#~ msgstr "记录运行时间计量器"
+
+#~ msgid "Recurring Maintenance Rule"
+#~ msgstr "周期性维护规则"
+
+#~ msgid "Recurring Maintenance Rules"
+#~ msgstr "周期性维护规则"
+
+#~ msgid "Recurring Maintenance Rules count"
+#~ msgstr "周期性维护规则计数"
+
+#~ msgid "Run Time Meter"
+#~ msgstr "运行时间计量器"
+
+#~ msgid "Run-Time"
+#~ msgstr "运行时间"
+
+#~ msgid "Run-Time (h)"
+#~ msgstr "运行时间 (小时)"
+
+#~ msgid "Run-Time Increment (h)"
+#~ msgstr "运行时间增量 (小时)"
+
+#~ msgid "Run-Time Increment (h) when done"
+#~ msgstr "完成时的运行时间增量 (小时)"
+
+#~ msgid "Run-Time Meter"
+#~ msgstr "运行时间计量器"
+
+#~ msgid "Run-Time Meter (h)"
+#~ msgstr "运行时间计量器 (小时)"
+
+#~ msgid "Run-Time Meter When Done"
+#~ msgstr "完成时的运行时间计量器"
+
+#~ msgid "Run-Time Meters"
+#~ msgstr "运行时间计量器"
+
+#~ msgid "Run-time increment between two maintenance tasks"
+#~ msgstr "两次维护任务间的运行时间增量"
+
+#~ msgid "Sequence"
+#~ msgstr "序列"
+
+#~ msgid "Serial"
+#~ msgstr "序列号"
+
+#~ msgid "Serial Status"
+#~ msgstr "序列号状态"
+
+#~ msgid "Serial count"
+#~ msgstr "序列号数量"
+
+#~ msgid "Set task run time meter when done"
+#~ msgstr "完成任务时设置任务运行时间计量器"
+
+#~ msgid "Status"
+#~ msgstr "状态"
+
+#~ msgid "Type down your notes here..."
+#~ msgstr "在这里敲打你的备注..."
+
+#~ msgid "<span class=\"o_stat_text\">To Invoice</span>"
+#~ msgstr "<span class=\"o_stat_text\">待开票</span>"
+
+#~ msgid ""
+#~ "<strong/>From any contact form, hit the <strong>Consolidated Down "
+#~ "Payment</strong> button to generate a single invoice for all ongoing "
+#~ "Rental contracts."
+#~ msgstr ""
+#~ "<strong>从任意联系人表单，点击<strong>合并预收款</strong>按钮，即可为所有"
+#~ "进行中的租赁合同生成一张统一的发票。"
+
+#~ msgid "Consolidated Down Payment"
+#~ msgstr "合并预收款"
+
+#~ msgid "Consolidated Down payment"
+#~ msgstr "合并预收款"
+
+#~ msgid "Create Maintenance Task"
+#~ msgstr "创建维护任务"
+
+#~ msgid "Create Maintenance Tasks Based On Recurring Maintenance Rules"
+#~ msgstr "基于周期性维护规则创建维护任务"
+
+#~ msgid ""
+#~ "If you want to execute a practical guided tour of this module, you should "
+#~ "Import demo data and try the Demo - Use Case (In the next Knowledge "
+#~ "Article)"
+#~ msgstr ""
+#~ "如果您想对此模块进行实际操作导览，您应导入演示数据，并尝试“演示-应用案例”"
+#~ "（详见下一篇知识库文章）"
+
+#~ msgid "Last invoice"
+#~ msgstr "最近发票"
+
+#~ msgid "Reccurent Maintenance"
+#~ msgstr "周期性维护"
+
+#~ msgid ""
+#~ "Record product run-time during receptions and follow-up product use "
+#~ "fromReporting/Run-Time Meters."
+#~ msgstr ""
+#~ "在收货时记录产品运行时间，并通过“报告/运行时间计量器”跟踪产品使用情况。"
+
+#~ msgid "To Invoice"
+#~ msgstr "待开票"
+
+#~ msgid "Total Uninvoiced"
+#~ msgstr "未开票总额"
+
+#~ msgid ""
+#~ "You didn't import demo data? You can still do it. Go to Apps &gt; "
+#~ "Industries &gt; Upgrade your Bar &amp; Pub package and check the related "
+#~ "box"
+#~ msgstr ""
+#~ "您没有导入演示数据？现在仍然可以导入。请前往“应用&gt;行业&gt;升级您的酒吧"
+#~ "套餐”，并勾选相关复选框。"

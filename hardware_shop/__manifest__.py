@@ -1,6 +1,6 @@
 {
     'name': 'Hardware Store',
-    'version': '1.0',
+    'version': '1.1',
     'category': 'Retail',
     'depends': [
         'barcodes',
@@ -24,7 +24,6 @@
         'data/product_attribute_value.xml',
         'data/product_pricelist.xml',
         'data/product_pricelist_item.xml',
-        'data/pos_payment_method.xml',
         'data/pos_config.xml',
         'data/product_template_attribute_line.xml',
         'data/product_template_attribute_value.xml',
@@ -36,7 +35,7 @@
         'data/knowledge_tour.xml',
     ],
     'demo': [
-        'demo/res_users.xml',
+        'demo/res_company.xml',
         'demo/product_quantity.xml',
         'demo/stock_warehouse_orderpoint.xml',
         'demo/res_partner.xml',
@@ -50,13 +49,14 @@
     'assets': {
         'web.assets_backend': [
             'hardware_shop/static/src/js/my_tour.js',
-        ]
+        ],
     },
     'author': 'Odoo S.A.',
     "cloc_exclude": [
         "data/knowledge_article.xml",
         "static/src/js/my_tour.js",
     ],
+    'application': True,
     'images': ['images/main.png'],
     'url': "https://www.odoo.com/trial?industry&selected_app=hardware_shop",
     'website': "https://www.odoo.com/industries/hardware-store",

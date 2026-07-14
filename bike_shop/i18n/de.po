@@ -3,13 +3,13 @@
 # * bike_shop
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025.
+# "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.2+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 11:46+0000\n"
-"PO-Revision-Date: 2025-11-04 13:56+0000\n"
+"POT-Creation-Date: 2026-06-12 17:41+0000\n"
+"PO-Revision-Date: 2026-04-24 19:30+0000\n"
 "Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
 "Language-Team: German <https://translate.odoo.com/projects/odoo-19/bike_shop/"
 "de/>\n"
@@ -18,47 +18,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: bike_shop
 #: model_terms:ir.ui.view,arch_db:bike_shop.welcome_article_body
 msgid ", and feel free to"
-msgstr "und"
-
-#. module: bike_shop
-#: model_terms:ir.ui.view,arch_db:bike_shop.homepage
-msgid "01"
-msgstr "01"
-
-#. module: bike_shop
-#: model_terms:ir.ui.view,arch_db:bike_shop.homepage
-msgid "02"
-msgstr "02"
-
-#. module: bike_shop
-#: model_terms:ir.ui.view,arch_db:bike_shop.homepage
-msgid "03"
-msgstr "03"
-
-#. module: bike_shop
-#: model_terms:ir.ui.view,arch_db:bike_shop.homepage
-msgid "04"
-msgstr "04"
-
-#. module: bike_shop
-#: model_terms:ir.ui.view,arch_db:bike_shop.repairs
-msgid "119€"
-msgstr "119 €"
+msgstr "und Sie können"
 
 #. module: bike_shop
 #: model_terms:ir.ui.view,arch_db:bike_shop.repairs
 msgid "169&amp;nbsp;€"
 msgstr "169&amp;nbsp;€"
-
-#. module: bike_shop
-#: model_terms:ir.ui.view,arch_db:bike_shop.repairs
-msgid "89€"
-msgstr "89 €"
 
 #. module: bike_shop
 #: model_terms:ir.ui.view,arch_db:bike_shop.repairs
@@ -149,10 +119,10 @@ msgstr ""
 "<div style=\"margin: 0px; padding: 0px;\" data-oe-version=\"1.0\"> \n"
 "            <p style=\"box-sizing:border-box;margin: 0px; padding: 0px; font-"
 "size: 12px;\"> \n"
-"            Dear <span style=\"font-weight:bold;\" t-"
+"            Guten Tag <span style=\"font-weight:bold;\" t-"
 "out=\"object.partner_id.name or ''\"/>,<br/>\n"
 "            <br/> \n"
-"            Wir reichen einen Garantieanspruch für einen Kunden ein.\n"
+"            wir stellen einen Garantieanspruch im Auftrag eines Kunden.\n"
 "            </p><ul>\n"
 "                <t t-if=\"object.properties and "
 "object.properties.get('order_line_id')\">\n"
@@ -185,8 +155,8 @@ msgstr ""
 "                            </t>\n"
 "                        </t>\n"
 "                        <li>\n"
-"                            Seriennummer: <t t-out=\"serial.name or 'N/A'\"/"
-">\n"
+"                            Seriennummer: <t t-out=\"serial.name or 'k. "
+"A.'\"/>\n"
 "                        </li>\n"
 "                        <li t-if=\"sale_date\">\n"
 "                            Kaufdatum: <t t-out=\"format_date(sale_date) if "
@@ -232,8 +202,8 @@ msgstr ""
 "<div style=\"margin: 0px; padding: 0px;\" data-oe-version=\"1.0\"> \n"
 "    <p style=\"box-sizing:border-box;margin: 0px; padding: 0px; font-size: "
 "12px;\"> \n"
-"    Hallo <span style=\"font-weight:bold;\" t-out=\""
-"object.partner_id.display_name or ''\"/>,<br/>\n"
+"    Guten Tag <span style=\"font-weight:bold;\" t-"
+"out=\"object.partner_id.display_name or ''\"/>,<br/>\n"
 "    <br/> \n"
 "    Ihre Bestellung <span style=\"font-weight:bold;\" t-out=\"object.name or "
 "''\"/>ist fertig.\n"
@@ -247,8 +217,8 @@ msgstr ""
 "    <br/>\n"
 "    <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-"
 "quote-container=\"1\">\n"
-"        <span style=\"font-weight:bold;\" t-out=\"object.user_id.signature\""
-"/>\n"
+"        <span style=\"font-weight:bold;\" t-out=\"object.user_id.signature\"/"
+">\n"
 "    </t>\n"
 "    </p></div>"
 
@@ -320,8 +290,8 @@ msgid ""
 "                                                    Avenue</span>"
 msgstr ""
 "<i class=\"fa fa-map-marker fa-fw me-2\"/>\n"
-"                                                <span class=\"o_force_ltr\""
-">3575 Fake Buena Vista\n"
+"                                                <span "
+"class=\"o_force_ltr\">3575 Fake Buena Vista\n"
 "                                                    Avenue</span>"
 
 #. module: bike_shop
@@ -332,8 +302,8 @@ msgid ""
 "class=\"o_force_ltr\">+1 555-555-5556</span>"
 msgstr ""
 "<i class=\"fa fa-phone fa-fw me-2\"/>\n"
-"                                                <span class=\"o_force_ltr\">+"
-"1 555-555-5556</span>"
+"                                                <span "
+"class=\"o_force_ltr\">+1 555-555-5556</span>"
 
 #. module: bike_shop
 #: model_terms:ir.ui.view,arch_db:bike_shop.welcome_article_body
@@ -360,7 +330,7 @@ msgid ""
 "label=\"Banner Info\">🚀</i>"
 msgstr ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
-"label=\"Banner Info\">🚀</i>"
+"label=\"Banner für Info\">🚀</i>"
 
 #. module: bike_shop
 #: model_terms:ir.ui.view,arch_db:bike_shop.welcome_article_body
@@ -369,7 +339,7 @@ msgid ""
 "label=\"Banner Success\">🎉</i>"
 msgstr ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
-"label=\"Banner Success\">🎉</i>"
+"label=\"Banner für Erfolg\">🎉</i>"
 
 #. module: bike_shop
 #: model_terms:ir.ui.view,arch_db:bike_shop.welcome_article_body
@@ -378,7 +348,7 @@ msgid ""
 "label=\"Banner Warning\">⚠️</i>"
 msgstr ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
-"label=\"Banner Warning\">⚠️</i>"
+"label=\"Banner für Warnung\">⚠️</i>"
 
 #. module: bike_shop
 #: model_terms:ir.ui.view,arch_db:bike_shop.welcome_article_body
@@ -497,10 +467,10 @@ msgid ""
 "class=\"s_website_form_mark\"> *</span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">\n"
-"                                                                    "
-"Name</span>\n"
-"                                                                <span class="
-"\"s_website_form_mark\"> *</span>"
+"                                                                    Name</"
+"span>\n"
+"                                                                <span "
+"class=\"s_website_form_mark\"> *</span>"
 
 #. module: bike_shop
 #: model_terms:ir.ui.view,arch_db:bike_shop.contactus
@@ -1136,11 +1106,6 @@ msgid "Canyon Roadlite 7 "
 msgstr "Canyon Roadlite 7 "
 
 #. module: bike_shop
-#: model:pos.payment.method,name:bike_shop.pos_payment_method_2
-msgid "Card"
-msgstr "Karte"
-
-#. module: bike_shop
 #: model:pos.category,name:bike_shop.pos_category_7
 #: model:product.public.category,name:bike_shop.product_public_category_7
 #: model:product.tag,name:bike_shop.product_tag_7
@@ -1156,11 +1121,6 @@ msgstr "Wartung von Cargo-/Speed-Pedelecs"
 #: model:product.template,name:bike_shop.product_template_20
 msgid "Cargo or Speed Pedelec Maintenance"
 msgstr "Wartung von Cargo-/Speed-Pedelecs"
-
-#. module: bike_shop
-#: model:pos.payment.method,name:bike_shop.pos_payment_method_1
-msgid "Cash"
-msgstr "Bargeld"
 
 #. module: bike_shop
 #: model:helpdesk.stage,name:bike_shop.helpdesk_stage_12
@@ -1315,11 +1275,6 @@ msgstr "Cube Kathmandu Hybrid"
 #: model:product.template,name:bike_shop.product_template_9
 msgid "Cube Reaction Pro "
 msgstr "Cube Reaction Pro "
-
-#. module: bike_shop
-#: model:pos.payment.method,name:bike_shop.pos_payment_method_3
-msgid "Customer Account"
-msgstr "Kundenkonto"
 
 #. module: bike_shop
 #: model:hr.job,name:bike_shop.hr_job_2
@@ -1817,7 +1772,7 @@ msgid ""
 msgstr ""
 "Das ist natürlich nur eine Übersicht über die Funktionen, die in diesem "
 "Paket enthalten sind. Sie können gerne neue Apps hinzufügen, Demodaten "
-"löschen/anpassen und etwas herumspielen."
+"löschen oder anpassen und etwas herumspielen."
 
 #. module: bike_shop
 #: model_terms:ir.ui.view,arch_db:bike_shop.welcome_article_body
@@ -1848,7 +1803,7 @@ msgstr ""
 msgid ""
 "Open the Point of Sale App and start a session by clicking on your register."
 msgstr ""
-"Öffnen Sie die Kassensystemapp und starten Sie eine Sitzung, indem Sie auf "
+"Öffnen Sie die Kassensystem-App und starten Sie eine Sitzung, indem Sie auf "
 "Ihre Kasse klicken."
 
 #. module: bike_shop
@@ -2568,7 +2523,8 @@ msgstr "Workshop"
 #: model_terms:ir.ui.view,arch_db:bike_shop.welcome_article_body
 msgid "Would you like to discuss your Odoo setup with us or go even further?"
 msgstr ""
-"Möchten Sie Ihre Odoo-Einrichtung mit uns besprechen oder noch weiter gehen?"
+"Möchten Sie Ihre Odoo-Konfiguration mit uns besprechen oder noch einen "
+"Schritt weiter gehen?"
 
 #. module: bike_shop
 #: model:survey.question.answer,value:bike_shop.survey_question_answer_6
@@ -2591,7 +2547,7 @@ msgid ""
 "your Odoo setup to fit your business needs."
 msgstr ""
 "Sie haben diesen Demo-Anwendungsfall abgeschlossen! Es gibt Millionen "
-"anderer Möglichkeiten, Ihre Odoo-Einrichtung an Ihre geschäftlichen "
+"anderer Möglichkeiten, Ihre Odoo-Konfiguration an Ihre geschäftlichen "
 "Anforderungen anzupassen."
 
 #. module: bike_shop
@@ -2732,7 +2688,7 @@ msgstr "rotes Fahrrad neben dem Sofa"
 #. module: bike_shop
 #: model_terms:ir.ui.view,arch_db:bike_shop.welcome_article_body
 msgid "request a demo"
-msgstr "bitten Sie um eine Demo"
+msgstr "eine Demo buchen"
 
 #. module: bike_shop
 #: model:product.attribute.value,name:bike_shop.product_attribute_value_1
@@ -2748,3 +2704,30 @@ msgstr "Gelb-schwarzes Schild mit Herz-Druck"
 #: model_terms:product.template,description_ecommerce:bike_shop.product_template_13
 msgid "​<br>"
 msgstr "​<br>"
+
+#~ msgid "Card"
+#~ msgstr "Karte"
+
+#~ msgid "Cash"
+#~ msgstr "Bargeld"
+
+#~ msgid "Customer Account"
+#~ msgstr "Kundenkonto"
+
+#~ msgid "01"
+#~ msgstr "01"
+
+#~ msgid "02"
+#~ msgstr "02"
+
+#~ msgid "03"
+#~ msgstr "03"
+
+#~ msgid "04"
+#~ msgstr "04"
+
+#~ msgid "119€"
+#~ msgstr "119 €"
+
+#~ msgid "89€"
+#~ msgstr "89 €"

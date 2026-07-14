@@ -4,13 +4,14 @@
 #
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Saara Hakanen <sahak@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-04 14:33+0000\n"
-"PO-Revision-Date: 2025-11-13 07:47+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-01-12 09:27+0000\n"
+"PO-Revision-Date: 2026-06-24 16:59+0000\n"
+"Last-Translator: Saara Hakanen <sahak@odoo.com>\n"
 "Language-Team: Finnish <https://translate.odoo.com/projects/odoo-19/"
 "accounting_firm/fi/>\n"
 "Language: fi\n"
@@ -18,7 +19,79 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
+"<b>Accounting App</b>: Streamline your billing cycle and manage the firm's "
+"own financials with robust invoicing tools."
+msgstr ""
+"<b>Kirjanpito-sovellus</b>: Suoraviivaista laskutusjaksosi sekä hallinnoi "
+"yrityksen omaa taloutta varmoilla laskutustyökaluilla."
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
+"<b>Contacts App</b>: Centralize all client data and maintain a clean, "
+"organized directory of customers and contacts."
+msgstr ""
+"<b>Yhteydenotto-sovellus</b>: Keskitä kaikki asiakastietosi sekä ylläpidä "
+"selkeää ja järjestelmällistä hakemistoa kaikista yhteystiedoistasi."
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
+"<b>Databases App</b>: Access and interact with your clients' Odoo databases "
+"instantly from a single dashboard."
+msgstr ""
+"<b>Tietokanta-sovellus</b>: Käytä ja hallinnoi asiakkaidesi Odoo-"
+"tietokantoja hetkessä yhdeltä koontinäytöltä."
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
+"<b>Documents App</b>: Automate the request, collection, and management of "
+"client files for a paperless office."
+msgstr ""
+"<b>Asiakirjat-sovellus</b>: Automatisoi asiakkaiden asiakirjojen pyynnöt, "
+"kerääminen sekä hallinta paperittomasti."
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
+"<b>Equity App</b>: Simplify compliance by gathering and visualizing Ultimate "
+"Beneficial Owners (UBOs) structures."
+msgstr ""
+"<b>Pääoma-sovellus</b>: Yksinkertaista vaatimustenmukaisuus keräämällä ja "
+"visualisoimalla todellisten edunsaajien (UBO) rakenteet."
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
+"<b>Project App</b>: Organize client files, track tasks, and manage your "
+"team's workload to meet every deadline."
+msgstr ""
+"<b>Projekti-sovellus</b>: Järjestä asiakastiedostot, seuraa tehtäviä sekä "
+"hallinnoi tiimisi työmäärää täyttääksesi jokaisen määräajan."
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
+"<b>Sign App</b>: Accelerate approvals and agreements by capturing secure "
+"electronic document signatures instantly."
+msgstr ""
+"<b>Allekirjoita-sovellus</b>: Nopeuta hyväksymisiä sekä sopimuksia "
+"keräämällä asiakirjoihin sähköiset allekirjoitukset turvallisesti."
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
+"<b>Timesheets App</b>: Track billable hours with precision and analyze your "
+"team's efforts for better profitability."
+msgstr ""
+"<b>Työaikakirjaukset-sovellus</b>: Seuraa laskutettavia tunteja tarkasti "
+"sekä analysoi tiimisi työpanosta paremman kannattavuuden saavuttamiseksi."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -27,7 +100,7 @@ msgid ""
 "label=\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
 msgstr ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
-"label=\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
+"label=\"Banner Info\" aria-label=\"Info-banneri\">💡</i>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -35,6 +108,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\" aria-label=\"Banner Info\">🔃</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\" aria-label=\"Info-banneri\">🔃</i>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -43,7 +118,7 @@ msgid ""
 "label=\"Banner Success\" aria-label=\"Banner Success\">✅</i>"
 msgstr ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
-"label=\"Banner Success\" aria-label=\"Banner Success\">✅</i>"
+"label=\"Banner Success\" aria-label=\"Menestysbanneri\">✅</i>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -51,6 +126,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\" aria-label=\"Banner Success\">🥳</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Menestysbanneri\" aria-label=\"Menestysbanneri\">🥳</i>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -59,7 +136,7 @@ msgid ""
 "label=\"Banner Warning\" aria-label=\"Banner Warning\">⚠️</i>"
 msgstr ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
-"label=\"Banner Warning\" aria-label=\"Banner Warning\">⚠️</i>"
+"label=\"Banner Warning\" aria-label=\"Varoitusbanneri\">⚠️</i>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -69,6 +146,10 @@ msgid ""
 "            </span>\n"
 "            <br/>"
 msgstr ""
+"<span class=\"display-4-fs\">\n"
+"                <strong>Tilitoimisto</strong>\n"
+"            </span>\n"
+"            <br/>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -78,22 +159,27 @@ msgstr "<span class=\"h1-fs\">Perustiedot</span>"
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "<span class=\"h1-fs\">Do You Want to Go Further?</span>"
-msgstr ""
+msgstr "<span class=\"h1-fs\">Haluatko jatkaa pidemmälle?</span>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "<span class=\"h1-fs\">Final word</span>"
-msgstr ""
+msgstr "<span class=\"h1-fs\">Loppusanat</span>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "<span class=\"h1-fs\">Use case</span>"
-msgstr ""
+msgstr "<span class=\"h1-fs\">Esimerkkitapaus</span>"
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid "<strong>Connecting your customer database</strong>"
+msgstr "<strong>Asiakastietokannan yhdistäminen</strong>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "<strong>Customer identity management</strong>"
-msgstr ""
+msgstr "<strong>Asiakasidentiteetin hallinta</strong>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -108,7 +194,7 @@ msgstr "<strong>Tehtävästä</strong>"
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "<strong>From the Timesheets App</strong>"
-msgstr "<strong>Työaikakirjaus-sovelluksesta</strong>"
+msgstr "<strong>Työaikakirjaukset-sovelluksesta</strong>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -116,23 +202,23 @@ msgid ""
 "<strong>In such situation, feel free to experiment with this database and "
 "then to create a new one for your own usage.</strong>"
 msgstr ""
-"<strong>Tällaisessa tapauksessa tee erilaisia kokeiluja rohkeasti tässä "
-"tietokannassa ja luo sitten uusi omaan käyttöösi.</strong>"
+"<strong>Kyseisessä tilanteessa voit vapaasti testailla tällä tietokannalla "
+"ja luoda sitten uuden omaa käyttöäsi varten.</strong>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "<strong>Requesting a document</strong>"
-msgstr "<strong>Pyydetään asiakirjaa</strong>"
+msgstr "<strong>Asiakirjan pyytäminen</strong>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "<strong>Setting up the project folder email alias</strong>"
-msgstr "<strong>Sähköpostialiaksen asentaminen projektikansiolle</strong>"
+msgstr "<strong>Projektikansion sähköpostialiasen käyttöönotto</strong>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "<strong>Setup the project</strong>"
-msgstr ""
+msgstr "<strong>Perusta projekti</strong>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -140,8 +226,9 @@ msgid ""
 "A crucial part of business is as well making sure it is profitable. Odoo "
 "helps you following up project profitability with the project Dashboard."
 msgstr ""
-"Olennaista liiketoiminnassa on varmistaa myös sen kannattavuus. Odoo auttaa "
-"seuraamaan projektien kannattavuutta Projekti-sovelluksen koontinäytöllä."
+"Olennaista liiketoiminnassa on varmistaa myös sen kannattavuus. Odoon "
+"Projekti-sovelluksen koontinäyttö auttaa projektin kannattavuuden "
+"seurannassa."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -152,17 +239,17 @@ msgid ""
 msgstr ""
 "Liiketoiminnan keskiössä on liidien muuttaminen asiakkaiksi, toimeksiantojen "
 "tehokas seuraaminen ja lopulta työn laskuttaminen asiakkailta. Olemme "
-"tukenasi, mukanasi koko matkan ajan!"
+"tukenasi läpi koko prosessin!"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
 msgid "AML"
-msgstr ""
+msgstr "AML"
 
 #. module: accounting_firm
 #: model:ir.model,name:accounting_firm.x_aml_risk_model
 msgid "AML Risk"
-msgstr ""
+msgstr "AML-riski"
 
 #. module: accounting_firm
 #: model:product.template,name:accounting_firm.product_product_7_product_template
@@ -177,12 +264,12 @@ msgstr "Kirjanpito – Kuukausittainen ALV (työaikakirjaukset)"
 #. module: accounting_firm
 #: model:product.template,name:accounting_firm.product_product_10_product_template
 msgid "Accounting - Monthly non-taxable (Pack)"
-msgstr "Kirjanpito – Kuukausittainen ei-verollinen (paketti)"
+msgstr "Kirjanpito – Kuukausittainen veroton (paketti)"
 
 #. module: accounting_firm
 #: model:product.template,name:accounting_firm.product_product_13_product_template
 msgid "Accounting - Monthly non-taxable (Timesheets)"
-msgstr "Kirjanpito – Kuukausittainen ei-verollinen (työaikakirjaukset)"
+msgstr "Kirjanpito – Kuukausittainen veroton (työaikakirjaukset)"
 
 #. module: accounting_firm
 #: model:product.template,name:accounting_firm.product_product_5_product_template
@@ -197,17 +284,17 @@ msgstr "Kirjanpito – ALV kvartaaleittain (työaikakirjaukset)"
 #. module: accounting_firm
 #: model:base.automation,name:accounting_firm.base_automation_on_id_scan_changed
 msgid "Accounting Firm: On ID Scan Changed"
-msgstr ""
+msgstr "Tilitoimisto: Tunnuksen skannausta muutettu"
 
 #. module: accounting_firm
 #: model:ir.actions.server,name:accounting_firm.ir_cron_request_contact_id_document_ir_actions_server
 msgid "Accounting Firm: Request Contact Identity Document"
-msgstr ""
+msgstr "Tilitoimisto: Pyydä yhteystiedon henkilöllisyystodistusta"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
 msgid "Accounting Management"
-msgstr ""
+msgstr "Kirjanpidon hallinta"
 
 #. module: accounting_firm
 #: model:project.tags,name:accounting_firm.project_tags_1
@@ -244,6 +331,7 @@ msgid ""
 "Among your activities, you might as well handle the anti-money laundering "
 "aspect."
 msgstr ""
+"Voit yhtä hyvin hoitaa myös rahanpesun torjunnan osana toimenpiteitäsi."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -251,6 +339,8 @@ msgid ""
 "An activity has been created for you to follow up on this.<br/>\n"
 "    It self closes once your contact submits its UBO list."
 msgstr ""
+"Tämän seuraamiseksi on luotu tehtävä.<br/>\n"
+"    Se sulkeutuu, kun yhteyshenkilösi lähettää UBO-luettelonsa."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -260,6 +350,10 @@ msgid ""
 "                    Make sure to check the open document request from "
 "Documents App."
 msgstr ""
+"Automaattinen toiminto pyytää päivittäin vanhentuneita tai vanhentuvia "
+"henkilöllisyystodistuksia yhteystiedoiltasi.\n"
+"                    Muista tarkastaa avoin asiakirjapyyntö Asiakirjat-"
+"sovelluksesta."
 
 #. module: accounting_firm
 #: model:project.tags,name:accounting_firm.project_tags_4
@@ -280,27 +374,18 @@ msgstr "Huhtikuu"
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_aml_assignee_id_field_res_partner
 msgid "Assignee"
-msgstr "Vastuuhenkilö"
+msgstr "Valtuutettu"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_assistant_ids_field_project_project
 msgid "Assistants"
-msgstr ""
+msgstr "Avustajat"
 
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_closing_month_field_selection_8
 #: model:project.tags,name:accounting_firm.project_tags_16
 msgid "August"
 msgstr "Elokuu"
-
-#. module: accounting_firm
-#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-msgid ""
-"Bill easily and manage your accounts with the <strong>Accounting App</"
-"strong>."
-msgstr ""
-"Laskuta helposti ja hallitse tilejäsi <strong>Kirjanpito-sovelluksella</"
-"strong>."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.x_mandate_view_list
@@ -310,12 +395,12 @@ msgstr "Kategoria"
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_has_chatter_message_field_documents_request_wizard
 msgid "Chatter Message"
-msgstr ""
+msgstr "Chatter-viesti"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_mandate_child_ids_field_x_mandate
 msgid "Childs"
-msgstr ""
+msgstr "Lapset"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -325,6 +410,10 @@ msgid ""
 "the sale order is confirmed and recorded time sheets any time there is time "
 "not yet invoiced."
 msgstr ""
+"Klikkaa \"Luo lasku\" -painiketta luodaksesi laskuluonnoksen.<br/>\n"
+"                    Huomaa, että kiinteähintaiset tuotteet voi laskuttaa "
+"heti tilauksen vahvistamisen jälkeen ja tallennetut työaikakirjaukset aina, "
+"kun aikaa on kirjattu mutta ei vielä laskutettu."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -332,11 +421,15 @@ msgid ""
 "Click the Document shortcut to open the Documents folder of this particular "
 "project, and deploy the information panel (top right corner i icon)."
 msgstr ""
+"Klikkaa Asiakirjat-pikakuvaketta avataksesi tämän projektin asiakirjakansion "
+"ja ota infopaneeli käyttöön (oikean yläkulman i-kuvake)."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "Click the project shortcut for Timesheets and add a line."
-msgstr "Klikkaa projektin pikakuvaketta Työaikakirjaus ja lisää rivi."
+msgstr ""
+"Klikkaa projektin pikakuvaketta avataksesi työaikakirjaukset ja lisää sitten "
+"rivi."
 
 #. module: accounting_firm
 #: model:project.tags,name:accounting_firm.project_tags_23
@@ -351,7 +444,7 @@ msgstr "Asiakasluettelo (paketti)"
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_closing_month_field_res_partner
 msgid "Closing Month"
-msgstr ""
+msgstr "Tilinpäätöskuukausi"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_color_field_x_mandate
@@ -361,7 +454,7 @@ msgstr "Väri"
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
 msgid "Companies House"
-msgstr ""
+msgstr "Yritysrekisteri"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -369,16 +462,18 @@ msgid ""
 "Confirm the invoice and send it to you customer for payment.<br/>\n"
 "                    Once payed, you know the drill to reconcile the payment."
 msgstr ""
+"Vahvista lasku ja lähetä se asiakkaallesi maksettavaksi.<br/>\n"
+"                    Tiedät jo, miten maksu täsmäytetään."
 
 #. module: accounting_firm
 #: model:project.tags,name:accounting_firm.project_tags_5
 msgid "Corporate Income Tax"
-msgstr "Yhtiövero"
+msgstr "Yhteisövero"
 
 #. module: accounting_firm
 #: model:product.template,name:accounting_firm.product_product_9_product_template
 msgid "Corporate Income Tax statement (Pack)"
-msgstr "Yhtiöveron tuloveroilmoitus (paketti)"
+msgstr "Yhteisöveroilmoitus (paketti)"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -388,13 +483,13 @@ msgid ""
 "you can communicate within Odoo."
 msgstr ""
 "Luo uusi liidi kirjoittamalla asiakkaan nimi ja täydennä yhteystietoja "
-"valitsemalla “luo ja muokkaa”. Määritä sähköpostiosoite, jotta voit viestiä "
-"suoraan Odoossa."
+"klikkaamalla “luo ja muokkaa”. Tarkenna yhteystiedon sähköpostiosoite, jotta "
+"voit viestiä suoraan Odoossa."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
 msgid "Crossroads Bank for Enterprises"
-msgstr ""
+msgstr "Yritysten keskusrekisteri"
 
 #. module: accounting_firm
 #: model:product.template,name:accounting_firm.product_product_11_product_template
@@ -413,13 +508,13 @@ msgid ""
 "Define the to do list and documents to request which suite you in the "
 "template project tasks."
 msgstr ""
-"Määritä tehtävälista ja pyydettävät asiakirjat, jotka sopivat tarpeeseesi "
-"malliprojektin tehtävissä."
+"Määritä projektipohjan tehtävissä tarpeisiisi sopivat tehtävälistat sekä "
+"pyydettävät asiakirjat."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "Discover more about Odoo by diving into our ﻿"
-msgstr ""
+msgstr "Lue lisää Odoosta"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -449,6 +544,7 @@ msgstr "Valmis"
 msgid ""
 "Easily request identity document from the gear icon (⚙️) in the bread crumb."
 msgstr ""
+"Pyydä henkilöllisyystodistusta helposti linkkipolun rataskuvakkeesta (⚙️)."
 
 #. module: accounting_firm
 #: model:hr.department,name:accounting_firm.hr_department_2
@@ -469,12 +565,12 @@ msgstr ""
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_vat_declaration_recurrence_field_selection_exempted
 msgid "Exempted"
-msgstr ""
+msgstr "Vapautettu"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.accounting_firm_view_res_partner_search
 msgid "Expired IDs"
-msgstr ""
+msgstr "Vanhentuneet tunnukset"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_explanation_field_x_aml_risk
@@ -499,13 +595,7 @@ msgstr "Helmikuu"
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "Fine tune the email if needed and hit the send button."
-msgstr ""
-
-#. module: accounting_firm
-#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-msgid "Follow up on missions leveraging the <strong>Project App</strong>."
-msgstr ""
-"Seuraa toimeksiantoja hyödyntämällä <strong>Projekti-sovellusta</strong>."
+msgstr "Hienosäädä sähköpostia tarvittaessa ja paina lähetyspainiketta."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -523,26 +613,18 @@ msgid ""
 "For the project tasks, you can assign the owner or more employees in case "
 "you work with Junior / Senior pairing."
 msgstr ""
-"Projektitehtävissä voit määrittää vastuuhenkilön tai useita työntekijöitä, "
-"jos työskentelet esimerkiksi juniori–seniori-parina."
+"Voit määrittää projektitehtäville omistajan tai useita työntekijöitä, jos "
+"työskentelet juniori/seniori -parina."
 
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_vat_declaration_recurrence_field_selection_franchise
 msgid "Franchise"
-msgstr ""
+msgstr "Franchise"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
 msgid "French Business Directory"
-msgstr ""
-
-#. module: accounting_firm
-#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-msgid ""
-"Generate quote and manage sale order from the <strong>Sales App</strong>."
-msgstr ""
-"Laadi tarjous ja hallinnoi myyntitilausta <strong>Myynti-sovelluksesta</"
-"strong>."
+msgstr "Ranskan yrityshakemisto"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -564,11 +646,11 @@ msgstr ""
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid ""
-"Have a central repository for requested documents in<strong> Documents App</"
-"strong>."
+"Having access in record time to all activities and metrics from your "
+"customer databases is key."
 msgstr ""
-"Keskitetty hakemisto pyydetyille asiakirjoille <strong>Asiakirjat-"
-"sovelluksessa</strong>."
+"Ennätysnopea pääsy kaikkiin asiakastietokantojen toimenpiteisiin ja "
+"mittareihin on avainasemassa."
 
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_level_risk_field_selection_high
@@ -583,7 +665,7 @@ msgstr "Tunnus"
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_id_expiration_date_field_res_partner
 msgid "ID Expiration Date"
-msgstr ""
+msgstr "Henkilöllisyystodistuksen voimassaolopäivä"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -591,6 +673,8 @@ msgid ""
 "Identity management is a must do activity in your business and to support "
 "you with that, the contacts encompass all the necessary."
 msgstr ""
+"Henkilöllisyyden hallinta on välttämätöntä liiketoiminnallesi, minkä takia "
+"yhteystiedot sisältävät kaiken tarvittavan."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -607,8 +691,8 @@ msgid ""
 "If you want to easily discover every features of this package, try "
 "downloading the Demo Data."
 msgstr ""
-"Jos haluat helposti tutustua tämän paketin kaikkiin ominaisuuksiin, kokeile "
-"ladata Demotiedot."
+"Jos haluat tutustua kaikkiin tämän paketin ominaisuuksiin helposti, kokeile "
+"demotietojen lataamista."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -627,9 +711,21 @@ msgstr "Kesken"
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid ""
+"In the Database tab, set the appropriate hosting option and then fill in the "
+"additional required inputs, including API credentials provided by your "
+"customer."
+msgstr ""
+"Määritä sopiva hosting-vaihtoehto Tietokanta-välilehdessä ja täytä sitten "
+"muut tarvittavat tiedot, mukaan lukien asiakkaan antamat API-tunnistetiedot."
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
 "Information captured here are informative only and do not trigger or "
 "interact with any capability."
 msgstr ""
+"Tässä kerätyt tiedot ovat vain informatiivisia eivätkä ne käynnistä tai "
+"vaikuta mihinkään toimintoihin."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -645,7 +741,7 @@ msgstr ""
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_interim_situation_field_res_partner
 msgid "Interim Situation"
-msgstr ""
+msgstr "Väliaikainen tilanne"
 
 #. module: accounting_firm
 #: model:project.tags,name:accounting_firm.project_tags_22
@@ -664,7 +760,7 @@ msgstr ""
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_is_identity_document_request_field_documents_request_wizard
 msgid "Is Identity Document Request"
-msgstr ""
+msgstr "On henkilöllisyystodistuspyyntö"
 
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_closing_month_field_selection_1
@@ -695,11 +791,13 @@ msgid ""
 "Just be careful, once demo data are uploaded, it cannot be easily deleted. "
 "But you can restart a fresh database on ﻿"
 msgstr ""
+"Olethan varovainen, sillä demotietoja ei voi poistaa helposti niiden "
+"lataamisen jälkeen. Voit kuitenkin käynnistää uuden tietokannan"
 
 #. module: accounting_firm
 #: model:ir.actions.server,name:accounting_firm.server_action_keep_scan_in_chatter
 msgid "Keep Scan in Chatter"
-msgstr ""
+msgstr "Pidä skannaus Chatterissa"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_aml_last_update_field_res_partner
@@ -714,38 +812,32 @@ msgstr "Taso"
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
 msgid "Link Belgian Monitor"
-msgstr ""
+msgstr "Yhdistä Belgian Monitor"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
 msgid "Link CBE"
-msgstr ""
+msgstr "Yhdistä CBE"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
 msgid "Link Companies House"
-msgstr ""
+msgstr "Yhdistä yritysrekisteri"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
 msgid "Link FBD"
-msgstr ""
+msgstr "Yhdistä FBD"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
 msgid "Link NBB"
-msgstr ""
+msgstr "Yhdistä NBB"
 
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_level_risk_field_selection_low
 msgid "Low"
 msgstr "Alin"
-
-#. module: accounting_firm
-#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-msgid "Manage opportunities with the <strong>CRM App</strong>."
-msgstr ""
-"Hallitse liidejä ja myyntimahdollisuuksia <strong>CRM-sovelluksella</strong>."
 
 #. module: accounting_firm
 #: model:ir.model,name:accounting_firm.x_mandate_model
@@ -755,7 +847,7 @@ msgstr "Mandaatti"
 #. module: accounting_firm
 #: model:ir.actions.act_window,name:accounting_firm.action_mandate_list_view
 msgid "Mandate list view"
-msgstr ""
+msgstr "Mandaattiluettelonäkymä"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_mandate_ids_field_res_partner
@@ -763,7 +855,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:accounting_firm.x_mandate_view_form
 #: model_terms:ir.ui.view,arch_db:accounting_firm.x_mandate_view_list
 msgid "Mandates"
-msgstr ""
+msgstr "Mandaatit"
 
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_closing_month_field_selection_3
@@ -787,7 +879,7 @@ msgstr "Sekalaiset"
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_mission_expiration_date_field_res_partner
 msgid "Mission Expiration"
-msgstr ""
+msgstr "Tehtävän voimassaolon päättyminen"
 
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_interim_situation_field_selection_monthly
@@ -803,12 +895,12 @@ msgstr "Nimi"
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
 msgid "National Bank of Belgium"
-msgstr ""
+msgstr "Belgian keskuspankki"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "Navigate to the AML tab to appreciate the last assessment performed."
-msgstr ""
+msgstr "Siirry AML-välilehdelle nähdäksesi viimeisimmän suoritetun arvioinnin."
 
 #. module: accounting_firm
 #: model:project.task.type,name:accounting_firm.project_task_type_1
@@ -830,6 +922,8 @@ msgid ""
 "Note that Equity App comes first with capabilities to capture transactions "
 "and valuation which you will find useful."
 msgstr ""
+"Huomaa, että Pääoma-sovellus tarjoaa ensisijaisesti hyödyllisiä toimintoja "
+"maksutapahtumien sekä arvonmääritysten kirjaamiseen."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -885,12 +979,12 @@ msgstr ""
 #. module: accounting_firm
 #: model:ir.model.fields,help:accounting_firm.x_mandate_ids_field_res_partner
 msgid "Online platform mandates you have for this customer"
-msgstr ""
+msgstr "Tälle asiakkaalle asetetut verkkoalustan vaatimukset"
 
 #. module: accounting_firm
 #: model:ir.actions.server,name:accounting_firm.parner_link_action
 msgid "Open link for company"
-msgstr ""
+msgstr "Avaa yrityksen linkki"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -900,6 +994,9 @@ msgid ""
 "a quotation.<br/>\n"
 "Otherwise, open the <strong>Sales App</strong> and create a new quote."
 msgstr ""
+"Avaa <strong>CRM-sovellus</strong>, jos kyseessä on myyntimahdollisuuden "
+"tulos. Klikkaa “Uusi tarjous” muuntaaksesi sen tarjoukseksi.<br/>\n"
+"Muussa tapauksessa avaa <strong>Myynti-sovellus</strong> ja luo uusi tarjous."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -911,6 +1008,8 @@ msgstr "Avaa <strong>CRM-sovellus</strong>."
 msgid ""
 "Open the <strong>Contacts App</strong> and reach your new customer form."
 msgstr ""
+"Avaa <strong>Yhteydenotto-sovellus</strong> avataksesi uuden "
+"asiakaslomakkeeseen."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -959,6 +1058,15 @@ msgstr "Avaa asiakkaan perehdytys -tehtävä muokataksesi toimintalistaa."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
+"Open the Databases App to have your customer database metrics at your finger "
+"tips!"
+msgstr ""
+"Avaa Tietokannat-sovellus saadaksesi asiakastietokannan mittarit helposti "
+"saataville!"
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "Open the Project App and click the Dashboard button from the top bar."
 msgstr "Avaa Projekti-sovellus ja klikkaa yläpalkin koontinäyttö-painiketta."
 
@@ -977,11 +1085,13 @@ msgid ""
 "Open the contact form of the company you have to handle this for, Second "
 "Company for example."
 msgstr ""
+"Avaa sen yrityksen yhteydenottolomake, jonka puolesta sinun on hoidettava "
+"tämä asia. Esimerkiksi Toinen yritys."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "Open the contact from which you expect the UBO list."
-msgstr ""
+msgstr "Avaa yhteystieto, jolta odotat UBO-luetteloa."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -996,6 +1106,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "Open the the project you worked on."
 msgstr "Avaa projekti, jossa työskentelit."
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid "Open your new customer project settings."
+msgstr "Avaa uuden asiakkaan projektiasetukset."
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_mandate_parent_id_field_x_mandate
@@ -1074,7 +1189,7 @@ msgstr "Vastaanotto"
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_relation_nature_field_res_partner
 msgid "Relation Nature"
-msgstr ""
+msgstr "Suhteen luonne"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.document_request_wizard_form_view_inherited
@@ -1084,33 +1199,33 @@ msgstr "Pyyntö"
 #. module: accounting_firm
 #: model:ir.actions.server,name:accounting_firm.server_action_request_document_with_chatter_message
 msgid "Request Document with Chatter Message"
-msgstr ""
+msgstr "Pyydä asiakirjaa chatter-viestillä"
 
 #. module: accounting_firm
 #: model:ir.actions.server,name:accounting_firm.action_server_request_identity_document
 msgid "Request Identity Document"
-msgstr ""
+msgstr "Pyydä henkilöllisyystodistusta"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_reviewer_ids_field_project_project
 msgid "Reviewers"
-msgstr ""
+msgstr "Tarkastajat"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_name_field_x_aml_risk_type
 #: model:ir.model.fields,field_description:accounting_firm.x_risk_type_field_x_aml_risk
 msgid "Risk"
-msgstr ""
+msgstr "Riski"
 
 #. module: accounting_firm
 #: model:ir.model,name:accounting_firm.x_aml_risk_type_model
 msgid "Risk Type"
-msgstr ""
+msgstr "Riskin tyyppi"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_risk_ids_field_res_partner
 msgid "Risks"
-msgstr ""
+msgstr "Riskit"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1127,7 +1242,7 @@ msgstr "Skannaa"
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "Select the Request UBO from the gear icon (⚙️) menu."
-msgstr ""
+msgstr "Valitse UBO-pyyntö rataskuvakkeen (⚙️) valikosta."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1135,8 +1250,8 @@ msgid ""
 "Select the corresponding products or leverage a quotation template, the "
 "\"Monthly VAT - Package\" typically."
 msgstr ""
-"Valitse vastaavat tuotteet tai hyödynnä tarjouspohjaa, esimerkiksi "
-"“Kuukausittainen ALV – paketti”."
+"Valitse vastaavat tuotteet tai hyödynnä tarjouspohjaa, yleensä “"
+"Kuukausittainen ALV - paketti”."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1153,6 +1268,8 @@ msgid ""
 "Sending a document request creates an activity for you to follow up without "
 "mental load!"
 msgstr ""
+"Asiakirjapyynnön lähettäminen luo tehtävän, jonka seuranta ei aiheuta "
+"henkistä kuormaa!"
 
 #. module: accounting_firm
 #: model:planning.role,name:accounting_firm.planning_role_1
@@ -1240,6 +1357,9 @@ msgid ""
 "needs...<br/>\n"
 "                Fortunately, Odoo got you covered:"
 msgstr ""
+"Tilitoimisto-paketti on hyödyllinen, mutta ei välttämättä vastaa jokaiseen "
+"tarpeeseesi...<br/>\n"
+"Onneksi Odoolla on ratkaisu:"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1249,6 +1369,15 @@ msgid ""
 msgstr ""
 "Asiakkaan perehdytys -tehtävä sisältää toimenpiteet ja tiedot, joiden avulla "
 "asetat asiakkaasi järjestelmään."
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
+"The Databases App comes with capabilities to efficiently manage tasks, "
+"access rights and more!"
+msgstr ""
+"Tietokannat-sovellus sisältää ominaisuuksia tehokkaaseen tehtävien- sekä "
+"pääsyoikeuksien hallintaan ja paljon muuhun!"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1284,6 +1413,9 @@ msgid ""
 "and open the settings of the project, clicking the three dots in the top "
 "right corner of the corresponding tile."
 msgstr ""
+"Nimeä projektipäällikkö, avustaja sekä tarkastaja avaamalla projektin "
+"asetukset Projekti-sovelluksessa. Klikkaa vastaavan ruudun oikeassa "
+"yläkulmassa olevaa kolmea pistettä."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1309,6 +1441,8 @@ msgid ""
 "UBO identification can be a tedious task you don't want to lose time on. The "
 "Equity App comes with capabilities which will help you with this duty."
 msgstr ""
+"UBO-tunnistus voi olla työläs tehtävä, johon et halua tuhlata aikaa. Pääoma-"
+"sovellus tarjoaa tässä tehtävässä auttavia ominaisuuksia."
 
 #. module: accounting_firm
 #: model:mail.activity.type,name:accounting_firm.mail_activity_ubo_update
@@ -1329,18 +1463,18 @@ msgstr "Tosiasiallisten omistajien ja edunsaajien rekisteri (paketti)"
 #. module: accounting_firm
 #: model:ir.actions.server,name:accounting_firm.server_action_update_document_partner_identity
 msgid "Update Document Partner ID"
-msgstr ""
+msgstr "Päivitä asiakirjan kumppanitunnus"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.document_document_kanban_view_inherited
 msgid "Update Identity Document"
-msgstr ""
+msgstr "Päivitä henkilöllisyystodistus"
 
 #. module: accounting_firm
 #: model:ir.actions.server,name:accounting_firm.server_action_update_owner_id
 #: model_terms:ir.ui.view,arch_db:accounting_firm.equity_ubo_form_view_inherited
 msgid "Update Owner ID"
-msgstr ""
+msgstr "Päivitä omistajan tunnus"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1348,11 +1482,13 @@ msgid ""
 "Update the captured insights as you need and then update the last update "
 "date."
 msgstr ""
+"Päivitä kerätyt tiedot tarpeen mukaan ja päivitä sitten viimeinen "
+"päivityspäivä."
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_vat_declaration_recurrence_field_res_partner
 msgid "VAT Declaration Recurrence"
-msgstr ""
+msgstr "ALV-ilmoituksen toistuvuus"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1361,9 +1497,9 @@ msgid ""
 "your missions efficiently from opportunity management to billing, as well as "
 "requesting documents."
 msgstr ""
-"Tervetuloa Odoo Kirjanpitotoimisto -pakettiin! Tämä opas auttaa sinua "
-"oppimaan toimeksiantojesi tehokkaan  hallinnan myyntimahdollisuuksista "
-"laskutukseen sekä asiakirjojen pyytämiseen."
+"Tervetuloa Odoo Tilitoimisto -pakettiin! Tämä opas auttaa sinua "
+"hallinnoimaan tehtäviäsi tehokkaasti aina myyntimahdollisuuksista "
+"laskutukseen sekä asiakirjapyyntöihin."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1371,6 +1507,9 @@ msgid ""
 "When filling in the identity document expiration date, you can leverage the "
 "contacts filter \"Expired IDs\" to efficiently find the IDs to update!"
 msgstr ""
+"Täyttäessäsi henkilöllisyystodistuksen voimassaolopäivää, voit käyttää "
+"yhteystietosuodatinta \"Vanhentuneet henkilöllisyystodistukset\" löytääksesi "
+"päivitettävät henkilöllisyystodistukset tehokkaammin!"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1378,6 +1517,8 @@ msgid ""
 "When the document is available, reach the contact ID tab to fill in the "
 "contact details."
 msgstr ""
+"Kun asiakirja on saatavilla, siirry yhteystietotunnusten välilehdelle ja "
+"täytä yhteystiedot."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1387,6 +1528,10 @@ msgid ""
 "customer onboarding actions or folder architecture so that you save time in "
 "the future."
 msgstr ""
+"Kun vahvistat myyntitilauksen, muista, että monistettu projekti on "
+"määritelty myymässäsi tuotteessa. Voit muokata projektia ja säätää asiakkaan "
+"perehdytystoimenpiteiden luetteloa tai kansiorakennetta, jotta säästät aikaa "
+"tulevaisuudessa."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1402,8 +1547,8 @@ msgstr ""
 msgid ""
 "Would you like to discuss your Odoo setup with us or explore more features?"
 msgstr ""
-"Haluaisitko keskustella kanssamme Odoo-asennuksestasi tai tutkia lisää "
-"ominaisuuksia?"
+"Haluatko keskustella kanssamme Odoon käyttöönotosta tai tutustua muihinkin "
+"sen ominaisuuksiin?"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1459,8 +1604,8 @@ msgid ""
 "You completed that demo use case! There are millions of other ways to adapt "
 "your Odoo setup to fit your business needs."
 msgstr ""
-"Sait demon käyttötapauksen valmiiksi! On olemassa monia muitakin tapoja "
-"mukauttaa Odoo-asetuksia vastaamaan yrityksesi tarpeita."
+"Suoritit demon esimerkkitapauksen! On olemassa lukuisia muitakin tapoja "
+"räätälöidä Odoo-asetukset yrityksesi tarpeiden mukaiseksi."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1470,6 +1615,10 @@ msgid ""
 "                        Don't forget to update your employee costs, in the "
 "setting tab, to compute relevant costs."
 msgstr ""
+"Projektin koontinäytöllä näet kaikki olennaiset asiakirjat ja voit seurata "
+"tuloja sekä menoja vaivattomasti. <br/>\n"
+"                   Muista päivittää työntekijäkulut asetuksissa, jotta "
+"asianmukaiset kulut tulee laskettua."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1496,6 +1645,11 @@ msgid ""
 "                In any case, you may have written records in journals which "
 "are not deletable and which might be an issue for your traceability."
 msgstr ""
+"Olet ehkä testannut Tilitoimisto-pakettia demotietojen kanssa tai ilman.<br/"
+">\n"
+"                Joka tapauksessa, olet saattanut kirjata päiväkirjoihin "
+"merkintöjä, joita ei voi poistaa tai jotka voivat aiheuttaa ongelmia "
+"jäljitettävyyden kannalta."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1520,127 +1674,161 @@ msgstr ""
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "Your contact is now provided a portal access to record the UBO."
-msgstr ""
+msgstr "Yhteystiedollasi on nyt pääsy portaaliin UBO:n rekisteröimiseksi."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "⏲️ Time management"
-msgstr ""
+msgstr "⏲️ Ajanhallinta"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿ , and feel free to ﻿"
-msgstr ""
+msgstr "sivuilta, sekä"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿ and ﻿"
-msgstr ""
+msgstr "ja"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿ if you need help!"
-msgstr ""
+msgstr "jos tarvitset apua!"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿Odoo.com/trial﻿"
-msgstr ""
+msgstr "﻿Odoo.com/trial﻿"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿Reach us﻿"
-msgstr ""
+msgstr "Ota yhteyttä"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿academy﻿"
-msgstr ""
+msgstr "akatemia"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿documentation﻿"
-msgstr ""
+msgstr "dokumentaatio"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿request a demo﻿"
-msgstr ""
+msgstr "pyydä demoa"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿🎓 CRM﻿"
-msgstr ""
+msgstr "﻿🎓 CRM﻿"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿🎓 Contacts﻿"
-msgstr ""
+msgstr "﻿🎓 Yhteystiedot﻿"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿🎓 Documents﻿"
-msgstr ""
+msgstr "🎓 Asiakirjat"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿🎓 Invoicing﻿"
-msgstr ""
+msgstr "🎓 Laskutus"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿🎓 Project Dashboard﻿"
-msgstr ""
+msgstr "🎓 Projektin koontinäyttö"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿🎓 Project﻿"
-msgstr ""
+msgstr "🎓 Projekti"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿🎓 Sales﻿"
-msgstr ""
+msgstr "🎓 Myynti"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿🎓 Timesheet﻿"
-msgstr ""
+msgstr "🎓 Työaikakirjaukset"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "👋 Welcoming prospects"
-msgstr ""
+msgstr "👋 Potentiaalisten asiakkaiden toivottaminen tervetulleiksi"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "💵 Billing your efforts"
-msgstr ""
+msgstr "💵 Työsi laskuttaminen"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "💸 Anti-Money Laundering"
-msgstr ""
+msgstr "💸 Rahanpesun torjunta"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "📊 Follow up on project profitability"
-msgstr ""
+msgstr "📊 Seuraa projektin kannattavuutta"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "📜 Getting to the \"Go\""
-msgstr ""
+msgstr "📜 Aloittaminen"
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid "📬 Follow up on your customer database"
+msgstr "📬 Asiakastietokannan seuranta"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "🗂️ Document management"
-msgstr ""
+msgstr "🗂️ Asiakirjojen hallinta"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "🧮 Ultimate beneficial owners' hunt"
-msgstr ""
+msgstr "🧮 Lopullisten edunsaajien etsintä"
+
+#~ msgid ""
+#~ "Bill easily and manage your accounts with the <strong>Accounting App</"
+#~ "strong>."
+#~ msgstr ""
+#~ "Laskuta helposti ja hallitse tilejäsi <strong>Kirjanpito-sovelluksella</"
+#~ "strong>."
+
+#~ msgid "Follow up on missions leveraging the <strong>Project App</strong>."
+#~ msgstr ""
+#~ "Seuraa toimeksiantoja hyödyntämällä <strong>Projekti-sovellusta</strong>."
+
+#~ msgid ""
+#~ "Generate quote and manage sale order from the <strong>Sales App</strong>."
+#~ msgstr ""
+#~ "Laadi tarjous ja hallinnoi myyntitilausta <strong>Myynti-sovelluksesta</"
+#~ "strong>."
+
+#~ msgid ""
+#~ "Have a central repository for requested documents in<strong> Documents "
+#~ "App</strong>."
+#~ msgstr ""
+#~ "Keskitetty hakemisto pyydetyille asiakirjoille <strong>Asiakirjat-"
+#~ "sovelluksessa</strong>."
+
+#~ msgid "Manage opportunities with the <strong>CRM App</strong>."
+#~ msgstr ""
+#~ "Hallitse liidejä ja myyntimahdollisuuksia <strong>CRM-sovelluksella</"
+#~ "strong>."
 
 #~ msgid ""
 #~ "Rename the project at your will to better identify them by customer name "

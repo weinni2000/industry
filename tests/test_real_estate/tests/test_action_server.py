@@ -19,12 +19,15 @@ class RealEstateAutomationsTestCase(TransactionCase):
             'name': 'Value 2',
             'attribute_id': cls.env.ref('real_estate.product_attribute_10').id,
         })
+        cls.condition_value_1 = cls.env['product.attribute.value'].create({
+            'name': 'Value 1',
+            'attribute_id': cls.env.ref('real_estate.product_attribute_12').id,
+        })
 
     def test_create_technical_partner(self):
         product = self.env['product.template'].create({
             'name': 'Test Property',
-        })
-        product.write({
+            'categ_id': self.env.ref('real_estate.product_category_5').id,
             'x_street': '123 Main St',
             'x_city': 'Springfield',
             'x_zip_code': '1234',
@@ -45,14 +48,14 @@ class RealEstateAutomationsTestCase(TransactionCase):
     def test_publish_draft_product(self):
         product = self.env['product.template'].create({
             'name': 'Test Property',
-            'website_ribbon_id': self.env.ref('website_sale.sale_ribbon').id
+            'website_ribbon_id': self.env.ref('real_estate.draft_ribbon').id
         })
 
         product.is_published = True
         self.assertTrue(not product.is_published,
                         "The product should not be publishable when the ribbon is in draft state")
 
-        product.website_ribbon_id = self.env.ref('website_sale.sold_out_ribbon')
+        product.website_ribbon_id = self.env.ref('real_estate.pre_published_ribbon')
         product.is_published = True
         self.assertTrue(product.is_published,
                         "The product should be publishable when the ribbon is not in draft state")
@@ -62,7 +65,7 @@ class RealEstateAutomationsTestCase(TransactionCase):
             'name': 'Test Property',
         })
 
-        create_appointment = self.env['ir.actions.server'].browse(self.env.ref('real_estate.create_appointment_link_server_action').id)
+        create_appointment = self.env.ref('real_estate.create_appointment_link_server_action')
         create_appointment.with_context(active_ids=product.id, active_model="product.template").run()
 
         # Tests the 'create_appointment_link' server action
@@ -80,7 +83,7 @@ class RealEstateAutomationsTestCase(TransactionCase):
             'name': 'Test Property',
         })
 
-        product.website_ribbon_id = self.env.ref('website_sale.sold_out_ribbon')
+        product.website_ribbon_id = self.env.ref('real_estate.pre_published_ribbon')
         self.assertTrue(product.x_ribbon_stage_is_accounted,
                         "The product ribbon should be marked as accounted when it is updated")
         self.assertTrue(product.x_last_notification_update,
@@ -90,7 +93,7 @@ class RealEstateAutomationsTestCase(TransactionCase):
         product = self.env['product.template'].create({
             'name': 'Test Property',
         })
-        product.website_ribbon_id = self.env.ref('website_sale.sold_out_ribbon')
+        product.website_ribbon_id = self.env.ref('real_estate.pre_published_ribbon')
         product.list_price = 100.0
         last_notification = product.x_last_notification_update
         product.list_price = 150.0
@@ -143,7 +146,7 @@ class RealEstateAutomationsTestCase(TransactionCase):
             'name': 'Test Property',
             'categ_id': self.env.ref('real_estate.product_category_5').id
         })
-        create_appointment = self.env['ir.actions.server'].browse(self.env.ref('real_estate.create_appointment_link_server_action').id)
+        create_appointment = self.env.ref('real_estate.create_appointment_link_server_action')
         create_appointment.with_context(active_ids=product.id, active_model="product.template").run()
 
         # create a lead and trigger visit action
@@ -153,7 +156,7 @@ class RealEstateAutomationsTestCase(TransactionCase):
             'email_from': 'test@email.com',
             'x_interested_in_id': product.id,
         })
-        visit = self.env['ir.actions.server'].browse(self.env.ref('real_estate.book_your_visit_server_action').id)
+        visit = self.env.ref('real_estate.book_your_visit_server_action')
         visit.with_context(active_ids=lead.id, active_model="crm.lead").run()
 
         email = self.env['mail.mail'].search([('recipient_ids.id', '=', lead.partner_id.id)], limit=1)
@@ -164,11 +167,11 @@ class RealEstateAutomationsTestCase(TransactionCase):
             'name': 'Test Client',
             'email': 'client@test.com',
             'x_categories_ids': self.env.ref('real_estate.product_public_category_1'),
-            'x_region_ids': self.region_value_1,
+            'x_criteria_ids': [(6, 0, [self.region_value_1.id, self.condition_value_1.id])],
             'x_subscribe': True,
         })
 
-        # Two matching properties
+        # Three matching properties
         property_1 = self.env['product.template'].create({
             'name': 'Property 1',
             'categ_id': self.env.ref('real_estate.product_category_5').id,
@@ -187,9 +190,18 @@ class RealEstateAutomationsTestCase(TransactionCase):
                 'value_ids': self.region_value_1,
             })],
         })
+        property_3 = self.env['product.template'].create({
+            'name': 'Property 3',
+            'categ_id': self.env.ref('real_estate.product_category_5').id,
+            'public_categ_ids': self.env.ref('real_estate.product_public_category_1'),
+            'attribute_line_ids': [(0, 0, {
+                'attribute_id': self.env.ref('real_estate.product_attribute_12').id,
+                'value_ids': self.condition_value_1,
+            })],
+        })
         # One non-matching property
         self.env['product.template'].create({
-            'name': 'Property 3',
+            'name': 'Property 4',
             'categ_id': self.env.ref('real_estate.product_category_5').id,
             'public_categ_ids': self.env.ref('real_estate.product_public_category_2'),
             'attribute_line_ids': [(0, 0, {
@@ -199,21 +211,23 @@ class RealEstateAutomationsTestCase(TransactionCase):
         })
 
         # check the computed fields x_property_matches_contacts and x_x_contact_matches_properties_product_template_count
-        self.assertEqual(client.x_x_contact_matches_properties_product_template_count, 2,
-                         "The client should match 2 properties")
+        self.assertEqual(client.x_x_contact_matches_properties_product_template_count, 3,
+                         "The client should match 3 properties")
         self.assertEqual(client.x_property_matches_contacts[0].id, property_1.id,
                          "Property 1 should be matched with the client")
         self.assertEqual(client.x_property_matches_contacts[1].id, property_2.id,
                          "Property 2 should be matched with the client")
+        self.assertEqual(client.x_property_matches_contacts[2].id, property_3.id,
+                         "Property 3 should be matched with the client")
 
         # check for send_matches_from_contact_server_action
-        send_matches_action = self.env['ir.actions.server'].browse(self.env.ref('real_estate.send_matches_from_contact_server_action').id)
+        send_matches_action = self.env.ref('real_estate.send_matches_from_contact_server_action')
         send_matches_action.with_context(active_id=client.id, active_model="res.partner").run()
         email = self.env['mail.mail'].search_count([('recipient_ids.id', '=', client.id)])
         self.assertEqual(email, 1, "One email should be sent to the client with matched properties")
 
         # check for notify_contacts_for_matches_server_action (also tests the x_to_notify_property_ids field)
-        notify_action = self.env['ir.actions.server'].browse(self.env.ref('real_estate.notify_contacts_for_matches_server_action').id)
+        notify_action = self.env.ref('real_estate.notify_contacts_for_matches_server_action')
         notify_action.run()
         email_count = self.env['mail.mail'].search_count([('recipient_ids.id', '=', client.id)])
         self.assertEqual(email_count, 2, "One email should be sent to the client after notification by notify_contacts_for_matches action")
@@ -226,36 +240,49 @@ class RealEstateAutomationsTestCase(TransactionCase):
             'attribute_line_ids': [(0, 0, {
                 'attribute_id': self.env.ref('real_estate.product_attribute_10').id,
                 'value_ids': self.region_value_1,
+            }), (0, 0, {
+                'attribute_id': self.env.ref('real_estate.product_attribute_12').id,
+                'value_ids': self.condition_value_1,
             })],
         })
         property.website_ribbon_id = self.env.ref('website_sale.new_ribbon')
 
-        # Two matching users
+        # Three matching users
         client_1 = self.env['res.partner'].create({
             'name': 'Fred',
             'email': 'fred@test.com',
             'x_categories_ids': self.env.ref('real_estate.product_public_category_1'),
-            'x_region_ids': self.region_value_1,
+            'x_criteria_ids': self.region_value_1,
         })
         client_2 = self.env['res.partner'].create({
             'name': 'Fred2',
             'email': 'fred2@test.com',
             'x_categories_ids': self.env.ref('real_estate.product_public_category_1'),
-            'x_region_ids': self.region_value_1,
+            'x_criteria_ids': self.region_value_1,
         })
-        # One non-matching user
-        self.env['res.partner'].create({
+        client_3 = self.env['res.partner'].create({
             'name': 'Fred3',
             'email': 'fred3@test.com',
             'x_categories_ids': self.env.ref('real_estate.product_public_category_1'),
-            'x_region_ids': self.region_value_2,
+            'x_criteria_ids': self.condition_value_1,
+        })
+        # One non-matching user
+        client_4 = self.env['res.partner'].create({
+            'name': 'Fred4',
+            'email': 'fred3@test.com',
+            'x_categories_ids': self.env.ref('real_estate.product_public_category_1'),
+            'x_criteria_ids': self.region_value_2,
         })
 
         # check the field x_contact_matches_properties
-        self.assertEqual(property.x_contact_matches_properties[0].id, client_1.id,
+        self.assertTrue(client_1.id in property.x_contact_matches_properties.ids,
                          "Client 1 should be matched with the property")
-        self.assertEqual(property.x_contact_matches_properties[1].id, client_2.id,
+        self.assertTrue(client_2.id in property.x_contact_matches_properties.ids,
                          "Client 2 should be matched with the property")
+        self.assertTrue(client_3.id in property.x_contact_matches_properties.ids,
+                         "Client 3 should be matched with the property")
+        self.assertFalse(client_4.id in property.x_contact_matches_properties.ids,
+                         "Client 4 should not be matched with the property")
 
     def test_create_lead_from_match(self):
         property = self.env['product.template'].create({
@@ -272,10 +299,10 @@ class RealEstateAutomationsTestCase(TransactionCase):
             'name': 'Fred',
             'email': 'fred@test.com',
             'x_categories_ids': self.env.ref('real_estate.product_public_category_1'),
-            'x_region_ids': self.region_value_1,
+            'x_criteria_ids': self.region_value_1,
         })
 
-        create_lead_action = self.env['ir.actions.server'].browse(self.env.ref('real_estate.create_lead_from_match_server_action').id)
+        create_lead_action = self.env.ref('real_estate.create_lead_from_match_server_action')
         create_lead_action.with_context(active_id=matching_client.id, active_model="res.partner", property_id=property.id).run()
 
         lead = self.env['crm.lead'].search([('partner_id', '=', matching_client.id)], limit=1)

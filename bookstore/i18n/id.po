@@ -8,15 +8,16 @@
 # Wil Odoo, 2024
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# "Abe Manyo (abem)" <abem@odoo.com>, 2025.
+# "Abe Manyo (abem)" <abem@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# "Nurul Aini Akrima Sabila (nuaas)" <nuaas@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 09:55+0000\n"
-"PO-Revision-Date: 2025-11-17 11:08+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-06-12 17:43+0000\n"
+"PO-Revision-Date: 2026-05-23 09:34+0000\n"
+"Last-Translator: \"Nurul Aini Akrima Sabila (nuaas)\" <nuaas@odoo.com>\n"
 "Language-Team: Indonesian <https://translate.odoo.com/projects/odoo-19/"
 "bookstore/id/>\n"
 "Language: id\n"
@@ -24,7 +25,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -340,6 +341,54 @@ msgstr ""
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Barcode App</b>:</font> Use mobile "
+"scanners to perform inventory counts and receive new shipments efficiently, "
+"reducing manual entry errors."
+msgstr ""
+
+#. module: bookstore
+#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Inventory App</b>: </font>Master your "
+"library of titles, using barcode scanning for rapid stock adjustments and "
+"managing locations for different genres or sections."
+msgstr ""
+
+#. module: bookstore
+#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Invoicing App</b>:</font> Simplify your "
+"bookkeeping by tracking daily sales and supplier invoices in one integrated "
+"financial system."
+msgstr ""
+
+#. module: bookstore
+#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Point of Sale App</b>: </font>Process "
+"transactions quickly using barcode scanners to read ISBNs, handling "
+"discounts and customer loyalty programs with ease."
+msgstr ""
+
+#. module: bookstore
+#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Purchase App</b>:</font> Automate "
+"replenishment orders based on sales velocity, ensuring you never run out of "
+"the latest bestsellers."
+msgstr ""
+
+#. module: bookstore
+#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>eCommerce App</b>: </font>Expand your "
+"readership by selling books online, offering \"click and collect\" options "
+"or shipping directly to readers' homes."
+msgstr ""
+
+#. module: bookstore
+#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
 msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
 
@@ -533,11 +582,6 @@ msgid "Author"
 msgstr "Penulis"
 
 #. module: bookstore
-#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
-msgid "Basics"
-msgstr "Basic"
-
-#. module: bookstore
 #: model:pos.category,name:bookstore.pos_category_1
 msgid "Books"
 msgstr "Buku-Buku"
@@ -550,16 +594,6 @@ msgid ""
 msgstr ""
 "Dengan mengunggah data demo modul ini, database Anda telah diisi dengan "
 "beberapa produk dan 2 kontak sampel."
-
-#. module: bookstore
-#: model:pos.payment.method,name:bookstore.pos_payment_method_1
-msgid "Cash"
-msgstr "Cash"
-
-#. module: bookstore
-#: model:account.journal,name:bookstore.cash
-msgid "Cash (Bookstore)"
-msgstr "Kas (Toko Buku)"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -598,11 +632,6 @@ msgid ""
 msgstr ""
 "Temukan standar paket ini dan temukan semua tawaran Odoo untuk meningkatkan "
 "pengalaman Anda."
-
-#. module: bookstore
-#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
-msgid "Do you want to go further?"
-msgstr "Apakah Anda ingin melanjutkan?"
 
 #. module: bookstore
 #: model_terms:product.template,description:bookstore.product_product_14_product_template
@@ -669,7 +698,7 @@ msgid ""
 "                        relevant apps and configurations."
 msgstr ""
 "Bila Anda mencari Elise di database \"Kontak\" Anda, Smart Button odoo di "
-"bagian atas halaman Elise dapat membawa Anda ke sejarah pelanggan, Elise "
+"bagian atas halaman Elise dapat membawa Anda ke riwayat pelanggan, Elise "
 "bahkan dapat melihat di akun website Elise bila Anda mengaktifkan\n"
 "                        aplikasi dan konfigurasi yang relevan."
 
@@ -834,12 +863,7 @@ msgstr ""
 #. module: bookstore
 #: model:ir.model.fields.selection,name:bookstore.x_purchase_type_field_selection_new
 msgid "New releases"
-msgstr ""
-
-#. module: bookstore
-#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
-msgid "Odoo for Bookstore"
-msgstr "Odoo untuk Toko Buku"
+msgstr "Rilis baru"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -951,69 +975,6 @@ msgstr "Update Keterangan Inventari"
 #: model:base.automation,name:bookstore.base_automation_1
 msgid "Update supplier info on incoming products"
 msgstr "Update informasi supplier pada produk-produk masuk"
-
-#. module: bookstore
-#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
-msgid "Use Case"
-msgstr "Kasus Penggunaan"
-
-#. module: bookstore
-#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
-msgid ""
-"Use the <strong><font class=\"text-o-color-1\">Barcode App</font></"
-"strong><font class=\"text-o-color-1\"> </font>to scan your products and "
-"create new entries directly from this App to encode new books faster than "
-"ever."
-msgstr ""
-"Gunakan <strong><font class=\"text-o-color-1\">Aplikasi Barcode</font></"
-"strong><font class=\"text-o-color-1\"> </font>untuk scan produk Anda dan "
-"buat entri-entri baru langsung dari Aplikasi ini untuk encode buku baru "
-"lebih cepat dari sebelumnya."
-
-#. module: bookstore
-#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
-msgid ""
-"Use the <strong><font class=\"text-o-color-1\">Inventory App</font></strong> "
-"to manage your orders receive and deliver your products."
-msgstr ""
-"Gunakan <strong><font class=\"text-o-color-1\">Aplikasi Inventaris</font></"
-"strong> untuk mengelola penerimaan pesanan dan pengiriman produk Anda."
-
-#. module: bookstore
-#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
-msgid ""
-"Use the <strong><font class=\"text-o-color-1\">Point of Sale</font></strong> "
-"for your sales at the desk. Manage your customer accounts and advantage in "
-"the <strong><font class=\"text-o-color-1\">Contacts App</font></strong>."
-msgstr ""
-"Gunakan <strong><font class=\"text-o-color-1\">Point of Sale</font></strong> "
-"untuk sales di meja. Kelola akun pelanggan Anda di <strong><font "
-"class=\"text-o-color-1\">Aplikasi Kontak</font></strong>."
-
-#. module: bookstore
-#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
-msgid ""
-"Use the <strong><font class=\"text-o-color-1\">Purchase App</font></strong> "
-"to order books from your distributors."
-msgstr ""
-"Gunakan <strong><font class=\"text-o-color-1\">Aplikasi Purchase</font></"
-"strong> untuk memesan buku dari distributor Anda."
-
-#. module: bookstore
-#: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
-msgid ""
-"Use the <strong><font class=\"text-o-color-1\">Sales App</font></strong> to "
-"order books for your customers, create quotations for your institutional "
-"clients (libraries, schools, etc.), and invoice them on the go using\n"
-"                        the <strong><font class=\"text-o-color-1\">Invoicing "
-"App</font></strong>."
-msgstr ""
-"Gunakan <strong><font class=\"text-o-color-1\">Aplikasi Sales</font></"
-"strong> untuk memesan buku untuk pelanggan Anda, buat quotation untuk klien "
-"lembaga Anda (perpustakaan, sekolah, dsb.), dan faktur mereka dengan mudah "
-"menggunakan\n"
-"                        <strong><font class=\"text-o-color-1\">Aplikasi "
-"Pemfakturan</font></strong>."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -1133,51 +1094,6 @@ msgstr ""
 "Odoo."
 
 #. module: bookstore
-#: model:product.template,description_pickingin:bookstore.product_product_17_product_template
-msgid "[0.0]"
-msgstr "[0.0]"
-
-#. module: bookstore
-#: model:product.template,description_pickingin:bookstore.product_product_12_product_template
-msgid "[12.49]"
-msgstr "[12.49]"
-
-#. module: bookstore
-#: model:product.template,description_pickingin:bookstore.product_product_9_product_template
-msgid "[14.99]"
-msgstr "[14.99]"
-
-#. module: bookstore
-#: model:product.template,description_pickingin:bookstore.product_product_3_product_template
-msgid "[17.0]"
-msgstr "[17.0]"
-
-#. module: bookstore
-#: model:product.template,description_pickingin:bookstore.product_product_10_product_template
-msgid "[19.44]"
-msgstr "[19.44]"
-
-#. module: bookstore
-#: model:product.template,description_pickingin:bookstore.product_product_20_product_template
-msgid "[22.03]"
-msgstr "[22.03]"
-
-#. module: bookstore
-#: model:product.template,description_pickingin:bookstore.product_product_11_product_template
-msgid "[23.5]"
-msgstr "[23.5]"
-
-#. module: bookstore
-#: model:product.template,description_pickingin:bookstore.product_product_13_product_template
-msgid "[3.81]"
-msgstr "[3.81]"
-
-#. module: bookstore
-#: model:product.template,description_pickingin:bookstore.product_product_14_product_template
-msgid "[4.48]"
-msgstr "[4.48]"
-
-#. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "academy"
 msgstr "akademi"
@@ -1219,3 +1135,99 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "​Track your sales order in Sales App &gt; Reporting &gt; Sales"
 msgstr "Lacak sales order Anda di Aplikasi Sales &gt; Pelaporan &gt; Sales"
+
+#~ msgid "Cash"
+#~ msgstr "Cash"
+
+#~ msgid "Cash (Bookstore)"
+#~ msgstr "Kas (Toko Buku)"
+
+#~ msgid "[0.0]"
+#~ msgstr "[0.0]"
+
+#~ msgid "[12.49]"
+#~ msgstr "[12.49]"
+
+#~ msgid "[14.99]"
+#~ msgstr "[14.99]"
+
+#~ msgid "[17.0]"
+#~ msgstr "[17.0]"
+
+#~ msgid "[19.44]"
+#~ msgstr "[19.44]"
+
+#~ msgid "[22.03]"
+#~ msgstr "[22.03]"
+
+#~ msgid "[23.5]"
+#~ msgstr "[23.5]"
+
+#~ msgid "[3.81]"
+#~ msgstr "[3.81]"
+
+#~ msgid "[4.48]"
+#~ msgstr "[4.48]"
+
+#~ msgid "Basics"
+#~ msgstr "Basic"
+
+#~ msgid "Do you want to go further?"
+#~ msgstr "Apakah Anda ingin melanjutkan?"
+
+#~ msgid "Odoo for Bookstore"
+#~ msgstr "Odoo untuk Toko Buku"
+
+#~ msgid "Use Case"
+#~ msgstr "Kasus Penggunaan"
+
+#~ msgid ""
+#~ "Use the <strong><font class=\"text-o-color-1\">Barcode App</font></"
+#~ "strong><font class=\"text-o-color-1\"> </font>to scan your products and "
+#~ "create new entries directly from this App to encode new books faster than "
+#~ "ever."
+#~ msgstr ""
+#~ "Gunakan <strong><font class=\"text-o-color-1\">Aplikasi Barcode</font></"
+#~ "strong><font class=\"text-o-color-1\"> </font>untuk scan produk Anda dan "
+#~ "buat entri-entri baru langsung dari Aplikasi ini untuk encode buku baru "
+#~ "lebih cepat dari sebelumnya."
+
+#~ msgid ""
+#~ "Use the <strong><font class=\"text-o-color-1\">Inventory App</font></"
+#~ "strong> to manage your orders receive and deliver your products."
+#~ msgstr ""
+#~ "Gunakan <strong><font class=\"text-o-color-1\">Aplikasi Inventaris</"
+#~ "font></strong> untuk mengelola penerimaan pesanan dan pengiriman produk "
+#~ "Anda."
+
+#~ msgid ""
+#~ "Use the <strong><font class=\"text-o-color-1\">Point of Sale</font></"
+#~ "strong> for your sales at the desk. Manage your customer accounts and "
+#~ "advantage in the <strong><font class=\"text-o-color-1\">Contacts App</"
+#~ "font></strong>."
+#~ msgstr ""
+#~ "Gunakan <strong><font class=\"text-o-color-1\">Point of Sale</font></"
+#~ "strong> untuk sales di meja. Kelola akun pelanggan Anda di <strong><font "
+#~ "class=\"text-o-color-1\">Aplikasi Kontak</font></strong>."
+
+#~ msgid ""
+#~ "Use the <strong><font class=\"text-o-color-1\">Purchase App</font></"
+#~ "strong> to order books from your distributors."
+#~ msgstr ""
+#~ "Gunakan <strong><font class=\"text-o-color-1\">Aplikasi Purchase</font></"
+#~ "strong> untuk memesan buku dari distributor Anda."
+
+#~ msgid ""
+#~ "Use the <strong><font class=\"text-o-color-1\">Sales App</font></strong> "
+#~ "to order books for your customers, create quotations for your "
+#~ "institutional clients (libraries, schools, etc.), and invoice them on the "
+#~ "go using\n"
+#~ "                        the <strong><font class=\"text-o-"
+#~ "color-1\">Invoicing App</font></strong>."
+#~ msgstr ""
+#~ "Gunakan <strong><font class=\"text-o-color-1\">Aplikasi Sales</font></"
+#~ "strong> untuk memesan buku untuk pelanggan Anda, buat quotation untuk "
+#~ "klien lembaga Anda (perpustakaan, sekolah, dsb.), dan faktur mereka "
+#~ "dengan mudah menggunakan\n"
+#~ "                        <strong><font class=\"text-o-color-1\">Aplikasi "
+#~ "Pemfakturan</font></strong>."

@@ -7,15 +7,15 @@
 # Malaz Abuidris <msea@odoo.com>, 2024
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# "Malaz Siddig Elsayed Abuidris (msea)" <msea@odoo.com>, 2025.
+# "Malaz Siddig Elsayed Abuidris (msea)" <msea@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-28 10:42+0000\n"
-"PO-Revision-Date: 2025-11-13 13:43+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-01-12 09:28+0000\n"
+"PO-Revision-Date: 2026-01-16 20:24+0000\n"
+"Last-Translator: \"Malaz Siddig Elsayed Abuidris (msea)\" <msea@odoo.com>\n"
 "Language-Team: Arabic <https://translate.odoo.com/projects/odoo-19/"
 "agriculture_shop/ar/>\n"
 "Language: ar\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: agriculture_shop
 #: model:crm.tag,name:agriculture_shop.crm_tag_28
@@ -151,37 +151,73 @@ msgstr "5 لتر"
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid ""
 "<b>\n"
-"                    <font class=\"text-o-color-1\">The Invoice App:</font>\n"
-"                </b> Keep a\n"
-"                clear record of all your invoices."
-msgstr ""
-"<b>\n"
-"                    <font class=\"text-o-color-1\">تطبيق الفواتير:</font>\n"
-"                </b>تمكن من تتبع\n"
-"                وتسجيل كافة فواتيرك بكفاءة ووضوح."
-
-#. module: agriculture_shop
-#: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
-msgid ""
-"<b>\n"
-"                    <font class=\"text-o-color-1\">The Point Of Sales App:</"
-"font>\n"
-"                </b>Manage\n"
-"                all your shop operations."
-msgstr ""
-"<b>\n"
-"                    <font class=\"text-o-color-1\">تطبيق نقطة البيع:</font>\n"
-"                </b>أدر كافة عمليات متجرك\n"
-"                بسهولة وكفاءة عالية."
-
-#. module: agriculture_shop
-#: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
-msgid ""
-"<b>\n"
 "                    SEO features</b>"
 msgstr ""
 "<b>\n"
 "                    مميزات تحسين محركات البحث</b>"
+
+#. module: agriculture_shop
+#: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
+msgid ""
+"<b><font class=\"text-o-color-1\">Inventory App:</font></b> Keep precise "
+"track of stock levels for diverse products\n"
+"                like pesticides and equipment."
+msgstr ""
+"<b><font class=\"text-o-color-1\">تطبيق المخزون:</font></b> تتبع مستويات "
+"المخزون بدقة لمختلف المنتجات\n"
+"                مثل المبيدات الحشرية والمعدات."
+
+#. module: agriculture_shop
+#: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
+msgid ""
+"<b><font class=\"text-o-color-1\">Point of Sale App:</font></b> Manage in-"
+"store transactions efficiently, handling sales of seeds, tools, and supplies "
+"with ease."
+msgstr ""
+"<b><font class=\"text-o-color-1\">تطبيق نقطة البيع:</font></b> أدِر كافة "
+"معاملاتك داخل المتجر بسهولة وكفاءة، وقم بمعالجة مبيعات البذور والأدوات "
+"والمستلزمات بسهولة."
+
+#. module: agriculture_shop
+#: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
+msgid ""
+"<b><font class=\"text-o-color-1\">Purchase App:</font></b> Streamline the "
+"procurement of farming products from suppliers, managing costs and lead "
+"times."
+msgstr ""
+"<b><font class=\"text-o-color-1\">تطبيق المشتريات:</font></b> قم بتبسيط "
+"عملية شراء المنتجات الزراعية من الموردين، وإدارة التكاليف ومواعيد التسليم."
+
+#. module: agriculture_shop
+#: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
+msgid ""
+"<b><font class=\"text-o-color-1\">Sales App:</font></b> Handle B2B orders "
+"and contracts for large farming clients, ensuring accurate pricing."
+msgstr ""
+"<b><font class=\"text-o-color-1\">تطبيق المبيعات:</font></b> قم بمعالجة "
+"الطلبات والعقود بين الشركات (B2B) لكبار العملاء في مجال الزراعة، مع ضمان دقة "
+"الأسعار."
+
+#. module: agriculture_shop
+#: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
+msgid ""
+"<b><font class=\"text-o-color-1\">Website App:</font></b><font class=\"text-"
+"o-color-3\"> Build a professional online presence to showcase your catalog "
+"and attract new customers.</font>"
+msgstr ""
+"<b><font class=\"text-o-color-1\">تطبيق الموقع الإلكتروني:</font></b><font "
+"class=\"text-o-color-3\"> ابنِ لنفسك حضورًا احترافيًا على الإنترنت لعرض كتالوجك "
+"وجذب المزيد من العملاء الجدد.</font>"
+
+#. module: agriculture_shop
+#: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
+msgid ""
+"<b><font class=\"text-o-color-1\">eCommerce App:</font></b> Expand your "
+"reach by selling products online, offering convenience to modern farmers."
+msgstr ""
+"<b><font class=\"text-o-color-1\">تطبيق التجارة الإلكترونية:</font></b> وسّع "
+"نطاق عملك من خلال بيع المنتجات عبر الإنترنت، مما يوفر الراحة للمزارعين "
+"المعاصرين."
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -212,8 +248,8 @@ msgid ""
 "                    as it does for a regular e-commerce order."
 msgstr ""
 "<b>التسليم التلقائي:</b> بمجرد قبول عرض الأسعار،\n"
-"                    يقوم النظام تلقائيًا بإنشاء <b>أمر تسليم</b> مرتبط، تمامً"
-"ا\n"
+"                    يقوم النظام تلقائيًا بإنشاء <b>أمر تسليم</b> مرتبط، "
+"تمامًا\n"
 "                    كما هو الحال بالنسبة لطلبات التجارة الإلكترونية العادية."
 
 #. module: agriculture_shop
@@ -496,32 +532,6 @@ msgstr "<b>استخدم</b>"
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid ""
-"<font class=\"text-o-color-1\">\n"
-"                        <b>The CRM &amp; Sales App's:</b>\n"
-"                    </font> Manage all your\n"
-"                    client contacts and quotations."
-msgstr ""
-"<font class=\"text-o-color-1\">\n"
-"                        <b>تطبيقات إدارة علاقات العملاء والمبيعات:</b>\n"
-"                    </font> قم بإدارة كافة\n"
-"                    جهات اتصال العملاء وعروض الأسعار."
-
-#. module: agriculture_shop
-#: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
-msgid ""
-"<font class=\"text-o-color-1\">\n"
-"                        <b>The Website App:</b>\n"
-"                    </font> Use this app as a virtual\n"
-"                    showroom and a powerful tool for generating new leads."
-msgstr ""
-"<font class=\"text-o-color-1\">\n"
-"                        <b>تطبيق الموقع الإلكتروني:</b>\n"
-"                    </font> استخدم هذا التطبيق كصالة عرض افتراضية\n"
-"                    وأداة قوية لاستقطاب عملاء جدد."
-
-#. module: agriculture_shop
-#: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
-msgid ""
 "<font color=\"#343541\">Welcome to the <strong>\n"
 "                    <font class=\"text-o-color-1\">Odoo Agricultural Store "
 "package.</font>\n"
@@ -571,8 +581,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">💡</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Info\">💡</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">💡</i>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -580,8 +590,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">🚀</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Info\">🚀</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">🚀</i>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -589,8 +599,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">✅</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Success\">✅</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\">✅</i>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -598,8 +608,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">🚀</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Success\">🚀</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\">🚀</i>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -607,8 +617,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\">⚠️</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Warning\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
+"<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
+"fst-normal\">⚠️</i>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.pricing
@@ -863,6 +873,9 @@ msgid ""
 "                <u>Process</u>\n"
 "            </strong>"
 msgstr ""
+"<strong>\n"
+"                <u>العملية</u>\n"
+"            </strong>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -1128,8 +1141,8 @@ msgid ""
 msgstr ""
 "قم بتمكين خاصية <strong>تحديد السعر على أساس الوزن</strong> للحلوى المختارة "
 "والتشكيلات المختلفة \n"
-"                    عن طريق ضبط وحدة القياس كـ <strong>جرام أو كيلوجرام "
-"</strong>(اذهب إلى نقطة \n"
+"                    عن طريق ضبط وحدة القياس كـ <strong>جرام أو كيلوجرام </"
+"strong>(اذهب إلى نقطة \n"
 "                    البيع > قائمة الثلاث نقاط > جهاز IoT > الميزان "
 "الإلكتروني)."
 
@@ -1257,8 +1270,8 @@ msgid ""
 "and then apply the\n"
 "                        specific tracking type to the products themselves."
 msgstr ""
-"إذا كنت بحاجة إلى <b>تتبع الكمية وتاريخ انتهاء الصلاحية</b> لمنتجاتك، قم أولاً"
-"\n"
+"إذا كنت بحاجة إلى <b>تتبع الكمية وتاريخ انتهاء الصلاحية</b> لمنتجاتك، قم "
+"أولاً\n"
 "                        بتمكين هذه الميزات في <b>إعدادات المخزون</b>، ثم قم "
 "بتطبيق\n"
 "                        نوع التتبع المحدد على المنتجات نفسها."
@@ -1453,7 +1466,8 @@ msgstr ""
 msgid ""
 "Once your core operations are running smoothly, consider expanding your "
 "toolset:"
-msgstr "بمجرد أن تصبح عملياتك الأساسية تعمل بسلاسة، فكر في توسيع مجموعة أدواتك:"
+msgstr ""
+"بمجرد أن تصبح عملياتك الأساسية تعمل بسلاسة، فكر في توسيع مجموعة أدواتك:"
 
 #. module: agriculture_shop
 #: model:product.template,name:agriculture_shop.product_product_8_product_template
@@ -1962,12 +1976,12 @@ msgstr ""
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "Want to do more?"
-msgstr ""
+msgstr "هل ترغب في القيام بالمزيد؟"
 
 #. module: agriculture_shop
 #: model:product.template,name:agriculture_shop.product_product_15_product_template
 msgid "Warrior - Pesticide"
-msgstr ""
+msgstr "المحارب - مبيدات الآفات"
 
 #. module: agriculture_shop
 #: model:product.template,description_sale:agriculture_shop.product_product_15_product_template
@@ -1989,7 +2003,7 @@ msgstr "أهلاً وسهلاً بك! نتمنى لك رحلة استكشافي�
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "When an <b>e-commerce order</b> is placed:"
-msgstr ""
+msgstr "عند إنشاء طلبية عبر <b>المتجر الإلكتروني</b>:"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -1998,6 +2012,8 @@ msgid ""
 "            the <b>Suggest toggle</b> on the catalog (available from the "
 "purchase line)."
 msgstr ""
+"عند العمل على <b>أمر شراء جديد</b> ، ابحث عن\n"
+"            <b>زر \"الاقتراح\"</b> في الكتالوج (متوفر في بند الشراء)."
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -2015,6 +2031,8 @@ msgid ""
 "You also have the option to require a <b>down payment</b> initially, with\n"
 "                            the remainder invoiced later."
 msgstr ""
+"كما يمكنك طلب <b>دفعة مقدمة</b> في البداية، على أن\n"
+"                            يتم إصدار فاتورة بالباقي لاحقًا."
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -2022,6 +2040,8 @@ msgid ""
 "You can access every installed App in your Odoo database on\n"
 "            your main dashboard."
 msgstr ""
+"يمكنك الوصول إلى كل تطبيق تم تثبيته في قاعدة بيانات أودو الخاصة بك على \n"
+"            لوحة بياناتك الرئيسية."
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -2029,6 +2049,8 @@ msgid ""
 "You can choose in the settings to <b>invoice either before or after\n"
 "                            delivery</b>."
 msgstr ""
+"يمكنك الاختيار في الإعدادات بين <b>إصدار الفاتورة قبل أو بعد\n"
+"                            التسليم</b>."
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -2037,6 +2059,9 @@ msgid ""
 "potential\n"
 "            leads."
 msgstr ""
+"يمكنك تخصيص موقعك الإلكتروني بسهولة بحيث يوفر المعلومات التي ترغب في تقديمها "
+"إلى\n"
+"            عملائك المهتمين."
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -2046,11 +2071,15 @@ msgid ""
 "                    Upgrade your Agricultural Shop package and select the\n"
 "                    relevant checkbox"
 msgstr ""
+"لم تقم باستيراد البيانات التجريبية؟ لا يزال بإمكانك القيام بذلك. قك ما عليك "
+"القيام به هو الذهاب إلى التطبيقات > قطاعات الأعمال >\n"
+"                    ترقية باقة متجر المستلزمات الزراعية وحدد\n"
+"                    مربع الاختيار المطلوب"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "You have flexibility regarding when to generate invoices:"
-msgstr ""
+msgstr "يمكنك تحديد وقت إصدار الفواتير بمرونة:"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -2059,11 +2088,14 @@ msgid ""
 "            Settings</b>, <b>Website-Wide Settings</b>, and <b>Payment &amp; "
 "Delivery Methods</b>."
 msgstr ""
+"يتضمن إعداد المتجر الإلكتروني ثلاثة مجالات رئيسية: <b>إعدادات\n"
+"            المنتج</b>، <b>إعدادات الموقع الإلكتروني</b>، و<b>طرق الدفع "
+"والتسليم</b>."
 
 #. module: agriculture_shop
 #: model:product.template,name:agriculture_shop.product_product_16_product_template
 msgid "Ziram - Pesticide"
-msgstr ""
+msgstr "زيرام - مبيد حشري"
 
 #. module: agriculture_shop
 #: model:product.template,description_sale:agriculture_shop.product_product_16_product_template
@@ -2085,6 +2117,10 @@ msgid ""
 "access many other\n"
 "                    advanced options."
 msgstr ""
+"الوثائق لتتعلم كيفية ضبط<b> \n"
+"                    المواقع</b>، <b>واستخدام الماسح الضوئي للباركود،</b> "
+"والوصول إلى العديد من\n"
+"                    الخيارات المتقدمة الأخرى."
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -2092,6 +2128,8 @@ msgid ""
 "to improve your website's online visibility and\n"
 "                    search rankings."
 msgstr ""
+"لتحسين ظهور موقعك الإلكتروني على الإنترنت\n"
+"                    وتصنيفاته في نتائج البحث."
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -2101,6 +2139,54 @@ msgid ""
 msgstr ""
 "🎓\n"
 "                الموقع الإلكتروني"
+
+#~ msgid ""
+#~ "<b>\n"
+#~ "                    <font class=\"text-o-color-1\">The Invoice App:</"
+#~ "font>\n"
+#~ "                </b> Keep a\n"
+#~ "                clear record of all your invoices."
+#~ msgstr ""
+#~ "<b>\n"
+#~ "                    <font class=\"text-o-color-1\">تطبيق الفواتير:</"
+#~ "font>\n"
+#~ "                </b>تمكن من تتبع\n"
+#~ "                وتسجيل كافة فواتيرك بكفاءة ووضوح."
+
+#~ msgid ""
+#~ "<b>\n"
+#~ "                    <font class=\"text-o-color-1\">The Point Of Sales App:"
+#~ "</font>\n"
+#~ "                </b>Manage\n"
+#~ "                all your shop operations."
+#~ msgstr ""
+#~ "<b>\n"
+#~ "                    <font class=\"text-o-color-1\">تطبيق نقطة البيع:</"
+#~ "font>\n"
+#~ "                </b>أدر كافة عمليات متجرك\n"
+#~ "                بسهولة وكفاءة عالية."
+
+#~ msgid ""
+#~ "<font class=\"text-o-color-1\">\n"
+#~ "                        <b>The CRM &amp; Sales App's:</b>\n"
+#~ "                    </font> Manage all your\n"
+#~ "                    client contacts and quotations."
+#~ msgstr ""
+#~ "<font class=\"text-o-color-1\">\n"
+#~ "                        <b>تطبيقات إدارة علاقات العملاء والمبيعات:</b>\n"
+#~ "                    </font> قم بإدارة كافة\n"
+#~ "                    جهات اتصال العملاء وعروض الأسعار."
+
+#~ msgid ""
+#~ "<font class=\"text-o-color-1\">\n"
+#~ "                        <b>The Website App:</b>\n"
+#~ "                    </font> Use this app as a virtual\n"
+#~ "                    showroom and a powerful tool for generating new leads."
+#~ msgstr ""
+#~ "<font class=\"text-o-color-1\">\n"
+#~ "                        <b>تطبيق الموقع الإلكتروني:</b>\n"
+#~ "                    </font> استخدم هذا التطبيق كصالة عرض افتراضية\n"
+#~ "                    وأداة قوية لاستقطاب عملاء جدد."
 
 #~ msgid ""
 #~ "<font class=\"text-black\"><strong>Flow 2: Sales from Website (B2B / B2C) "

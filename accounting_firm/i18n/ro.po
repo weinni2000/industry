@@ -2,24 +2,101 @@
 # This file contains the translation of the following modules:
 # * accounting_firm
 #
-# Cuciureanu Larisa <larisa.cuciureanu@nexterp.ro>, 2025.
+# Cuciureanu Larisa <larisa.cuciureanu@nexterp.ro>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Dorin Hongu <dhongu@gmail.com>, 2025.
+# Odoo Translation Bot <c3p@odoo.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-04 14:33+0000\n"
-"PO-Revision-Date: 2025-11-13 07:47+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-01-12 09:27+0000\n"
+"PO-Revision-Date: 2026-02-05 15:28+0000\n"
+"Last-Translator: Cuciureanu Larisa <larisa.cuciureanu@nexterp.ro>\n"
 "Language-Team: Romanian <https://translate.odoo.com/projects/odoo-19/"
 "accounting_firm/ro/>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2;\n"
-"X-Generator: Weblate 5.12.2\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : "
+"(n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;\n"
+"X-Generator: Weblate 5.14.3\n"
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
+"<b>Accounting App</b>: Streamline your billing cycle and manage the firm's "
+"own financials with robust invoicing tools."
+msgstr ""
+"<b>Aplicația Contabilitate</b>: Optimizează-ți ciclul de facturare și "
+"gestionează propriile finanțe ale firmei cu unelte robuste de facturare."
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
+"<b>Contacts App</b>: Centralize all client data and maintain a clean, "
+"organized directory of customers and contacts."
+msgstr ""
+"<b>Aplicația Contacte</b>: Centralizează toate datele clienților și menține "
+"un director curat și organizat de clienți și contacte."
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
+"<b>Databases App</b>: Access and interact with your clients' Odoo databases "
+"instantly from a single dashboard."
+msgstr ""
+"<b>Aplicația Baze de date</b>: Accesează și interacționează cu bazele de "
+"date Odoo ale clienților instantaneu dintr-un singur tablou de bord."
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
+"<b>Documents App</b>: Automate the request, collection, and management of "
+"client files for a paperless office."
+msgstr ""
+"<b>Aplicația Documente</b>: Automatizează cererea, colectarea și gestionarea "
+"fișierelor de la clienți pentru un birou fără hârtie."
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
+"<b>Equity App</b>: Simplify compliance by gathering and visualizing Ultimate "
+"Beneficial Owners (UBOs) structures."
+msgstr ""
+"<b>Aplicația Equity</b>: Simplifică conformitatea prin colectarea și "
+"vizualizarea structurilor Beneficiarilor Efectivi Finali (UBO)."
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
+"<b>Project App</b>: Organize client files, track tasks, and manage your "
+"team's workload to meet every deadline."
+msgstr ""
+"<b>Aplicația Proiecte</b>: Organizează fișierele clienților, urmărește "
+"sarcinile și gestionează încărcătura de lucru a echipei pentru a respecta "
+"fiecare termen limită."
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
+"<b>Sign App</b>: Accelerate approvals and agreements by capturing secure "
+"electronic document signatures instantly."
+msgstr ""
+"<b>Aplicația Semnare</b>: Accelerează aprobările și acordurile prin "
+"capturarea securizată a semnăturilor electronice instantaneu."
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
+"<b>Timesheets App</b>: Track billable hours with precision and analyze your "
+"team's efforts for better profitability."
+msgstr ""
+"<b>Aplicația Fișe de pontaj</b>: Urmărește orele facturabile cu precizie și "
+"analizează eforturile echipei pentru o profitabilitate mai bună.<b>Aplicația "
+"Pontaje</b>: Urmărește orele facturabile cu precizie și analizează "
+"eforturile echipei pentru o rentabilitate mai bună."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -36,6 +113,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\" aria-label=\"Banner Info\">🔃</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
+"\"Banner Info\" aria-label=\"Banner Info\">🔃</i>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -99,8 +178,13 @@ msgstr "<span class=\"h1-fs\">Cazul de Utilizare</span>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid "<strong>Connecting your customer database</strong>"
+msgstr "<strong>Conectarea bazei de date cu clienții</strong>"
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "<strong>Customer identity management</strong>"
-msgstr ""
+msgstr "<strong>Gestionarea identității clienților</strong>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -140,7 +224,7 @@ msgstr ""
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "<strong>Setup the project</strong>"
-msgstr ""
+msgstr "<strong>Configurați proiectul</strong>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -166,12 +250,12 @@ msgstr ""
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
 msgid "AML"
-msgstr ""
+msgstr "AML"
 
 #. module: accounting_firm
 #: model:ir.model,name:accounting_firm.x_aml_risk_model
 msgid "AML Risk"
-msgstr ""
+msgstr "Risc AML"
 
 #. module: accounting_firm
 #: model:product.template,name:accounting_firm.product_product_7_product_template
@@ -206,17 +290,17 @@ msgstr "Contabilitate - TVA Trimestrială (Pontaj)"
 #. module: accounting_firm
 #: model:base.automation,name:accounting_firm.base_automation_on_id_scan_changed
 msgid "Accounting Firm: On ID Scan Changed"
-msgstr ""
+msgstr "Firma de contabilitate: Modificare scanare ID"
 
 #. module: accounting_firm
 #: model:ir.actions.server,name:accounting_firm.ir_cron_request_contact_id_document_ir_actions_server
 msgid "Accounting Firm: Request Contact Identity Document"
-msgstr ""
+msgstr "Firma de contabilitate: solicitare document de identitate"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
 msgid "Accounting Management"
-msgstr ""
+msgstr "Gestionarea contabilității"
 
 #. module: accounting_firm
 #: model:project.tags,name:accounting_firm.project_tags_1
@@ -253,6 +337,8 @@ msgid ""
 "Among your activities, you might as well handle the anti-money laundering "
 "aspect."
 msgstr ""
+"Printre activitățile dvs., ați putea să vă ocupați și de aspectul legat de "
+"combaterea spălării banilor."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -260,9 +346,10 @@ msgid ""
 "An activity has been created for you to follow up on this.<br/>\n"
 "    It self closes once your contact submits its UBO list."
 msgstr ""
-"O activitate a fost creată pentru dumneavoastră pentru a urmări acest lucru."
-"<br/>\n"
-"    Se închide automat odată ce contactul dvs. trimite lista sa UBO."
+"O activitate a fost creată pentru dumneavoastră pentru a urmări acest lucru.<"
+"br/>\n"
+"    Se închide automat odată ce contactul dumneavoastră trimite lista "
+"UBO.    Se închide automat odată ce contactul dvs. trimite lista sa UBO."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -272,6 +359,10 @@ msgid ""
 "                    Make sure to check the open document request from "
 "Documents App."
 msgstr ""
+"O automatizare rulează zilnic pentru a solicita documentele de identitate "
+"care expiră și au expirat de la contactele dvs.\n"
+"                    Asigurați-vă că verificați cererile deschise de "
+"documente din Aplicația Documente."
 
 #. module: accounting_firm
 #: model:project.tags,name:accounting_firm.project_tags_4
@@ -297,22 +388,13 @@ msgstr "Alocat"
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_assistant_ids_field_project_project
 msgid "Assistants"
-msgstr ""
+msgstr "Asistenți"
 
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_closing_month_field_selection_8
 #: model:project.tags,name:accounting_firm.project_tags_16
 msgid "August"
 msgstr "August"
-
-#. module: accounting_firm
-#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-msgid ""
-"Bill easily and manage your accounts with the <strong>Accounting App</"
-"strong>."
-msgstr ""
-"Facturați ușor și gestionați conturile cu <strong>Aplicația de "
-"Contabilitate</strong>."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.x_mandate_view_list
@@ -322,12 +404,12 @@ msgstr "Categorie"
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_has_chatter_message_field_documents_request_wizard
 msgid "Chatter Message"
-msgstr ""
+msgstr "Mesaj chat"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_mandate_child_ids_field_x_mandate
 msgid "Childs"
-msgstr ""
+msgstr "Childs"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -371,7 +453,7 @@ msgstr "Lista clienților (Pachet)"
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_closing_month_field_res_partner
 msgid "Closing Month"
-msgstr ""
+msgstr "Luna de închidere"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_color_field_x_mandate
@@ -381,7 +463,7 @@ msgstr "Color"
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
 msgid "Companies House"
-msgstr ""
+msgstr "Registrul Comerțului"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -417,7 +499,7 @@ msgstr ""
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
 msgid "Crossroads Bank for Enterprises"
-msgstr ""
+msgstr "Crossroads Bank for Enterprises"
 
 #. module: accounting_firm
 #: model:product.template,name:accounting_firm.product_product_11_product_template
@@ -473,6 +555,8 @@ msgstr "Finalizat"
 msgid ""
 "Easily request identity document from the gear icon (⚙️) in the bread crumb."
 msgstr ""
+"Solicitați cu ușurință documentul de identitate din pictograma roată dințată "
+"(⚙️) din bara de navigare."
 
 #. module: accounting_firm
 #: model:hr.department,name:accounting_firm.hr_department_2
@@ -493,12 +577,12 @@ msgstr ""
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_vat_declaration_recurrence_field_selection_exempted
 msgid "Exempted"
-msgstr ""
+msgstr "Scutit"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.accounting_firm_view_res_partner_search
 msgid "Expired IDs"
-msgstr ""
+msgstr "Documente de identitate expirate"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_explanation_field_x_aml_risk
@@ -527,11 +611,6 @@ msgstr "Ajustați emailul dacă este necesar și apăsați butonul de trimitere.
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-msgid "Follow up on missions leveraging the <strong>Project App</strong>."
-msgstr "Urmăriți misiunile folosind <strong>Aplicația Proiecte</strong>."
-
-#. module: accounting_firm
-#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid ""
 "For such typical request, you can leverage email templates for ask recurrent "
 "questions and save time exposing your services!"
@@ -552,20 +631,12 @@ msgstr ""
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_vat_declaration_recurrence_field_selection_franchise
 msgid "Franchise"
-msgstr ""
+msgstr "Franciză"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
 msgid "French Business Directory"
-msgstr ""
-
-#. module: accounting_firm
-#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-msgid ""
-"Generate quote and manage sale order from the <strong>Sales App</strong>."
-msgstr ""
-"Generați oferte și gestionați comenzile de vânzare din <strong>Aplicația "
-"Vânzări</strong>."
+msgstr "Directorul companiilor franceze"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -588,11 +659,11 @@ msgstr ""
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid ""
-"Have a central repository for requested documents in<strong> Documents App</"
-"strong>."
+"Having access in record time to all activities and metrics from your "
+"customer databases is key."
 msgstr ""
-"Aveți un depozit central pentru documentele solicitate în <strong>Aplicația "
-"Documente</strong>."
+"Accesul în timp record la toate activitățile și metricile din bazele de date "
+"ale clienților este esențial."
 
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_level_risk_field_selection_high
@@ -607,7 +678,7 @@ msgstr "ID"
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_id_expiration_date_field_res_partner
 msgid "ID Expiration Date"
-msgstr ""
+msgstr "Data expirării ID-ului"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -615,6 +686,9 @@ msgid ""
 "Identity management is a must do activity in your business and to support "
 "you with that, the contacts encompass all the necessary."
 msgstr ""
+"Gestionarea identității este o activitate obligatorie în cadrul afacerii "
+"dvs. și, pentru a vă sprijini în acest sens, contactele includ toate "
+"informațiile necesare."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -652,9 +726,22 @@ msgstr "În progres"
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid ""
+"In the Database tab, set the appropriate hosting option and then fill in the "
+"additional required inputs, including API credentials provided by your "
+"customer."
+msgstr ""
+"În fila Baza de date, setați opțiunea de hosting corespunzătoare și apoi "
+"completați informațiile suplimentare necesare, inclusiv credențialele API "
+"furnizate de clientul dumneavoastră."
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
 "Information captured here are informative only and do not trigger or "
 "interact with any capability."
 msgstr ""
+"Informațiile capturate aici sunt doar informative și nu declanșează sau "
+"interacționează cu nicio funcționalitate."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -670,7 +757,7 @@ msgstr ""
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_interim_situation_field_res_partner
 msgid "Interim Situation"
-msgstr ""
+msgstr "Situație provizorie"
 
 #. module: accounting_firm
 #: model:project.tags,name:accounting_firm.project_tags_22
@@ -689,7 +776,7 @@ msgstr ""
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_is_identity_document_request_field_documents_request_wizard
 msgid "Is Identity Document Request"
-msgstr ""
+msgstr "Este o solicitare de document de identitate"
 
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_closing_month_field_selection_1
@@ -726,7 +813,7 @@ msgstr ""
 #. module: accounting_firm
 #: model:ir.actions.server,name:accounting_firm.server_action_keep_scan_in_chatter
 msgid "Keep Scan in Chatter"
-msgstr ""
+msgstr "Păstrați scanarea în Chatter"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_aml_last_update_field_res_partner
@@ -751,12 +838,12 @@ msgstr "Link CBE"
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
 msgid "Link Companies House"
-msgstr ""
+msgstr "Legătură cu Registrul Comerțului"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
 msgid "Link FBD"
-msgstr ""
+msgstr "Link FBD"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
@@ -769,11 +856,6 @@ msgid "Low"
 msgstr "Scăzut"
 
 #. module: accounting_firm
-#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-msgid "Manage opportunities with the <strong>CRM App</strong>."
-msgstr "Gestionați oportunitățile cu <strong>Aplicația CRM</strong>."
-
-#. module: accounting_firm
 #: model:ir.model,name:accounting_firm.x_mandate_model
 msgid "Mandate"
 msgstr "Mandat"
@@ -781,7 +863,7 @@ msgstr "Mandat"
 #. module: accounting_firm
 #: model:ir.actions.act_window,name:accounting_firm.action_mandate_list_view
 msgid "Mandate list view"
-msgstr ""
+msgstr "Vizualizare listă mandate"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_mandate_ids_field_res_partner
@@ -789,7 +871,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:accounting_firm.x_mandate_view_form
 #: model_terms:ir.ui.view,arch_db:accounting_firm.x_mandate_view_list
 msgid "Mandates"
-msgstr ""
+msgstr "Mandate"
 
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_closing_month_field_selection_3
@@ -813,7 +895,7 @@ msgstr "Diverse"
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_mission_expiration_date_field_res_partner
 msgid "Mission Expiration"
-msgstr ""
+msgstr "Expirarea misiunii"
 
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_interim_situation_field_selection_monthly
@@ -829,12 +911,12 @@ msgstr "Nume"
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
 msgid "National Bank of Belgium"
-msgstr ""
+msgstr "Banca Națională a Belgiei"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "Navigate to the AML tab to appreciate the last assessment performed."
-msgstr ""
+msgstr "Accesați fila AML pentru a vedea ultima evaluare efectuată."
 
 #. module: accounting_firm
 #: model:project.task.type,name:accounting_firm.project_task_type_1
@@ -915,7 +997,7 @@ msgstr ""
 #. module: accounting_firm
 #: model:ir.model.fields,help:accounting_firm.x_mandate_ids_field_res_partner
 msgid "Online platform mandates you have for this customer"
-msgstr ""
+msgstr "Mandate pe platforma online pe care le aveți pentru acest client"
 
 #. module: accounting_firm
 #: model:ir.actions.server,name:accounting_firm.parner_link_action
@@ -946,6 +1028,8 @@ msgstr "Deschideți <strong>Aplicația CRM</strong>."
 msgid ""
 "Open the <strong>Contacts App</strong> and reach your new customer form."
 msgstr ""
+"Deschideți <strong>Aplicația Contacte</strong> și accesați formularul de "
+"client nou."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -995,6 +1079,15 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
+"Open the Databases App to have your customer database metrics at your finger "
+"tips!"
+msgstr ""
+"Deschideți Aplicația Baze de date pentru a avea metricile bazelor de date "
+"ale clienților la îndemână!"
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "Open the Project App and click the Dashboard button from the top bar."
 msgstr ""
 "Deschideți Aplicația Proiecte și faceți clic pe butonul Tablou de bord din "
@@ -1015,6 +1108,8 @@ msgid ""
 "Open the contact form of the company you have to handle this for, Second "
 "Company for example."
 msgstr ""
+"Deschideți formularul de contact al companiei pentru care trebuie să "
+"gestionați acest lucru, de exemplu, a doua companie."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1034,6 +1129,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "Open the the project you worked on."
 msgstr "Deschideți proiectul la care ați lucrat."
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid "Open your new customer project settings."
+msgstr "Deschideți setările proiectului clientului nou."
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_mandate_parent_id_field_x_mandate
@@ -1114,7 +1214,7 @@ msgstr "Chitanță"
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_relation_nature_field_res_partner
 msgid "Relation Nature"
-msgstr ""
+msgstr "Natura relației"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.document_request_wizard_form_view_inherited
@@ -1124,33 +1224,33 @@ msgstr "Cerere"
 #. module: accounting_firm
 #: model:ir.actions.server,name:accounting_firm.server_action_request_document_with_chatter_message
 msgid "Request Document with Chatter Message"
-msgstr ""
+msgstr "Solicitați documentul cu mesajul Chatter"
 
 #. module: accounting_firm
 #: model:ir.actions.server,name:accounting_firm.action_server_request_identity_document
 msgid "Request Identity Document"
-msgstr ""
+msgstr "Solicitare document de identitate"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_reviewer_ids_field_project_project
 msgid "Reviewers"
-msgstr ""
+msgstr "Revizori"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_name_field_x_aml_risk_type
 #: model:ir.model.fields,field_description:accounting_firm.x_risk_type_field_x_aml_risk
 msgid "Risk"
-msgstr ""
+msgstr "Risc"
 
 #. module: accounting_firm
 #: model:ir.model,name:accounting_firm.x_aml_risk_type_model
 msgid "Risk Type"
-msgstr ""
+msgstr "Tipul de risc"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_risk_ids_field_res_partner
 msgid "Risks"
-msgstr ""
+msgstr "Riscuri"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1193,6 +1293,8 @@ msgid ""
 "Sending a document request creates an activity for you to follow up without "
 "mental load!"
 msgstr ""
+"Trimiterea unei solicitări de documente creează o activitate pe care o "
+"puteți urmări fără efort mental!"
 
 #. module: accounting_firm
 #: model:planning.role,name:accounting_firm.planning_role_1
@@ -1298,6 +1400,15 @@ msgstr ""
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid ""
+"The Databases App comes with capabilities to efficiently manage tasks, "
+"access rights and more!"
+msgstr ""
+"Aplicația Baze de date oferă capabilități pentru a gestiona eficient "
+"sarcini, drepturi de acces și multe altele!"
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
 "The documents sent to the email alias of this project will arrive in the "
 "root folder of the project. This can be considered as an inbox while sub "
 "folders contain treated documents in an organized fashion."
@@ -1333,6 +1444,9 @@ msgid ""
 "and open the settings of the project, clicking the three dots in the top "
 "right corner of the corresponding tile."
 msgstr ""
+"Pentru a atribui managerul de proiect, asistentul și revizorul, deschideți "
+"aplicația Proiect și deschideți setările proiectului, făcând clic pe cele "
+"trei puncte din colțul din dreapta sus al casetei corespunzătoare."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1381,18 +1495,18 @@ msgstr "Registrul Beneficiarilor Finali Reali (Pachet)"
 #. module: accounting_firm
 #: model:ir.actions.server,name:accounting_firm.server_action_update_document_partner_identity
 msgid "Update Document Partner ID"
-msgstr ""
+msgstr "Actualizați ID-ul partenerului documentului"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.document_document_kanban_view_inherited
 msgid "Update Identity Document"
-msgstr ""
+msgstr "Actualizați documentul de identitate"
 
 #. module: accounting_firm
 #: model:ir.actions.server,name:accounting_firm.server_action_update_owner_id
 #: model_terms:ir.ui.view,arch_db:accounting_firm.equity_ubo_form_view_inherited
 msgid "Update Owner ID"
-msgstr ""
+msgstr "Actualizare ID proprietar"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1400,11 +1514,13 @@ msgid ""
 "Update the captured insights as you need and then update the last update "
 "date."
 msgstr ""
+"Actualizați informațiile capturate după cum este necesar, apoi actualizați "
+"data ultimei actualizări."
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_vat_declaration_recurrence_field_res_partner
 msgid "VAT Declaration Recurrence"
-msgstr ""
+msgstr "Declarație TVA recurentă"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1423,6 +1539,9 @@ msgid ""
 "When filling in the identity document expiration date, you can leverage the "
 "contacts filter \"Expired IDs\" to efficiently find the IDs to update!"
 msgstr ""
+"Când completați data de expirare a documentului de identitate, puteți "
+"utiliza filtrul de contacte „ID-uri expirate” pentru a găsi în mod eficient "
+"ID-urile care trebuie actualizate!"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1430,6 +1549,8 @@ msgid ""
 "When the document is available, reach the contact ID tab to fill in the "
 "contact details."
 msgstr ""
+"Când documentul este disponibil, accesați fila ID contact pentru a completa "
+"detaliile de contact."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1439,6 +1560,10 @@ msgid ""
 "customer onboarding actions or folder architecture so that you save time in "
 "the future."
 msgstr ""
+"Când confirmați o comandă de vânzare, rețineți că proiectul duplicat este "
+"definit în produsul pe care l-ați vândut. Puteți edita proiectul pentru a "
+"ajusta lista pentru acțiunile de integrare a clienților sau arhitectura "
+"folderelor, astfel încât să economisiți timp în viitor."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1641,7 +1766,7 @@ msgstr "﻿🎓 CRM﻿"
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿🎓 Contacts﻿"
-msgstr ""
+msgstr "﻿🎓 Contacte﻿"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1681,12 +1806,12 @@ msgstr "👋 Întâmpinarea prospectelor"
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "💵 Billing your efforts"
-msgstr ""
+msgstr "💵 Facturarea eforturilor dvs."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "💸 Anti-Money Laundering"
-msgstr ""
+msgstr "💸 Combaterea spălării banilor"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1700,13 +1825,44 @@ msgstr "📜 Ajungerea la \"Start\""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid "📬 Follow up on your customer database"
+msgstr "📬 Urmăriți baza de date a clienților dvs."
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "🗂️ Document management"
-msgstr ""
+msgstr "🗂️ Gestionarea documentelor"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "🧮 Ultimate beneficial owners' hunt"
 msgstr "🧮 Vânătoarea beneficiarilor finali reali"
+
+#~ msgid ""
+#~ "Bill easily and manage your accounts with the <strong>Accounting App</"
+#~ "strong>."
+#~ msgstr ""
+#~ "Facturați ușor și gestionați conturile cu <strong>Aplicația de "
+#~ "Contabilitate</strong>."
+
+#~ msgid "Follow up on missions leveraging the <strong>Project App</strong>."
+#~ msgstr "Urmăriți misiunile folosind <strong>Aplicația Proiecte</strong>."
+
+#~ msgid ""
+#~ "Generate quote and manage sale order from the <strong>Sales App</strong>."
+#~ msgstr ""
+#~ "Generați oferte și gestionați comenzile de vânzare din <strong>Aplicația "
+#~ "Vânzări</strong>."
+
+#~ msgid ""
+#~ "Have a central repository for requested documents in<strong> Documents "
+#~ "App</strong>."
+#~ msgstr ""
+#~ "Aveți un depozit central pentru documentele solicitate în "
+#~ "<strong>Aplicația Documente</strong>."
+
+#~ msgid "Manage opportunities with the <strong>CRM App</strong>."
+#~ msgstr "Gestionați oportunitățile cu <strong>Aplicația CRM</strong>."
 
 #~ msgid "<strong>Requesting UBO</strong>"
 #~ msgstr "<strong>Solicitarea UBO</strong>"

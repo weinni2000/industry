@@ -3,13 +3,14 @@
 # * fast_food
 #
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
+# Odoo Translation Bot <c3p@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 11:05+0000\n"
-"PO-Revision-Date: 2025-09-17 03:02+0000\n"
-"Last-Translator: \"Tiffany Chang (tic)\" <tic@odoo.com>\n"
+"POT-Creation-Date: 2026-06-12 18:05+0000\n"
+"PO-Revision-Date: 2026-04-11 09:36+0000\n"
+"Last-Translator: Odoo Translation Bot <c3p@odoo.com>\n"
 "Language-Team: Slovenian <https://translate.odoo.com/projects/odoo-19/"
 "fast_food/sl/>\n"
 "Language: sl\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
 "n%100==4 ? 2 : 3;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -63,11 +64,9 @@ msgstr ""
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
 msgid ""
-"2. Create your employees' roles under the \"Work Information\" tab. Some are "
-"already created for this demo."
+"2. Create your employees' roles under the \"Settings\" tab. Some are already "
+"created for this demo."
 msgstr ""
-"2. Vloge svojih zaposlenih ustvarite na zavihku »Informacije o delu«. "
-"Nekatere so za to predstavitev že ustvarjene."
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -259,19 +258,9 @@ msgstr ""
 "Nato lahko natančno določite znesek gotovine in potrdite zaključek."
 
 #. module: fast_food
-#: model:pos.payment.method,name:fast_food.pos_payment_method_3
-msgid "Bank"
-msgstr "Banka"
-
-#. module: fast_food
 #: model:planning.role,name:fast_food.planning_role_2
 msgid "Bar"
 msgstr "Bar"
-
-#. module: fast_food
-#: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
-msgid "Basics:"
-msgstr "Osnove:"
 
 #. module: fast_food
 #: model:product.template,name:fast_food.product_product_54_product_template
@@ -309,11 +298,6 @@ msgstr ""
 "načrtovanjem."
 
 #. module: fast_food
-#: model:pos.payment.method,name:fast_food.pos_payment_method_4
-msgid "Cash (Restaurant)"
-msgstr "Gotovina (Restavracija)"
-
-#. module: fast_food
 #: model:product.template,name:fast_food.product_product_56_product_template
 msgid "Cheese 250gr"
 msgstr "Sir 250 g"
@@ -344,11 +328,6 @@ msgid ""
 msgstr ""
 "Odkrijte osnove tega paketa in raziščite vse možnosti, ki jih Odoo ponuja za "
 "izboljšanje vaše izkušnje."
-
-#. module: fast_food
-#: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
-msgid "Do you want to go further?"
-msgstr "Ali želite iti še dlje?"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -409,10 +388,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
 msgid ""
 "If you want to assign them an Odoo user account, you can select a related "
-"user in the \"HR Settings\" tab."
+"user in the same \"Settings\" tab."
 msgstr ""
-"Če jim želite dodeliti uporabniški račun Odoo, lahko na zavihku »Nastavitve "
-"kadrovske službe« izberete povezanega uporabnika."
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -593,11 +570,6 @@ msgid "Service"
 msgstr "Storitev"
 
 #. module: fast_food
-#: model:pos.payment.method,name:fast_food.pos_payment_method_1
-msgid "Sodexo Card Payment"
-msgstr "Sodexo Plačilo s kartico"
-
-#. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
 msgid ""
 "The <strong><font class=\"text-o-color-1\">Kitchen Displays</font></strong> "
@@ -629,11 +601,6 @@ msgstr ""
 msgid ""
 "These all go free in your current subscription; feel free to explore! 🙃"
 msgstr "Vse to je brezplačno v vaši trenutni naročnini; kar raziščite! 🙃"
-
-#. module: fast_food
-#: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
-msgid "Use case:"
-msgstr "Primer uporabe:"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -825,3 +792,21 @@ msgstr "če potrebujete pomoč! <br/>"
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
 msgid "request a demo"
 msgstr "zahtevajte demo predstavitev"
+
+#~ msgid "Bank"
+#~ msgstr "Banka"
+
+#~ msgid "Cash (Restaurant)"
+#~ msgstr "Gotovina (Restavracija)"
+
+#~ msgid "Sodexo Card Payment"
+#~ msgstr "Sodexo Plačilo s kartico"
+
+#~ msgid "Basics:"
+#~ msgstr "Osnove:"
+
+#~ msgid "Do you want to go further?"
+#~ msgstr "Ali želite iti še dlje?"
+
+#~ msgid "Use case:"
+#~ msgstr "Primer uporabe:"

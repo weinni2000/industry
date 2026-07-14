@@ -3,13 +3,13 @@
 # * fitness
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025.
+# "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 12:41+0000\n"
-"PO-Revision-Date: 2025-10-20 08:13+0000\n"
+"POT-Creation-Date: 2026-06-12 18:06+0000\n"
+"PO-Revision-Date: 2026-05-02 09:36+0000\n"
 "Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
 "Language-Team: German <https://translate.odoo.com/projects/odoo-19/fitness/"
 "de/>\n"
@@ -18,14 +18,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: fitness
 #: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
 msgid ""
 ", and feel free\n"
 "                    to"
-msgstr "und Sie können"
+msgstr "und Sie können Sie können"
 
 #. module: fitness
 #: model:product.template,name:fitness.product_product_14_product_template
@@ -382,9 +382,9 @@ msgid ""
 "                <strong><font class=\"text-o-color-1\">E-shop</font></"
 "strong> in a few minutes."
 msgstr ""
-"Eine kostenlose, personalisierte, integrierte <strong><font class=\"text-o-"
-"color-1\">Website</font></strong> in wenigen Klicks. Erhalten Sie "
-"Bestellungen direkt in Odoo und stellen Sie Ihren \n"
+"Erstellen Sie eine kostenlose, personalisierte, integrierte <strong><font "
+"class=\"text-o-color-1\">Website</font></strong> in wenigen Klicks. Erhalten "
+"Sie Bestellungen direkt in Odoo und stellen Sie Ihren \n"
 "                 <strong><font class=\"text-o-color-1\">E-Shop</font></"
 "strong> in Minutenschnelle online."
 
@@ -498,16 +498,6 @@ msgid "Basic fitness programs &amp;amp; training for all levels"
 msgstr "Basic-Fitnessprogramme &amp;amp; Trainings für alle Level"
 
 #. module: fitness
-#: model:pos.payment.method,name:fitness.pos_payment_method_1
-msgid "Cash"
-msgstr "Bargeld"
-
-#. module: fitness
-#: model:account.journal,name:fitness.cash
-msgid "Cash (Fitness Center)"
-msgstr "Bar (Fitnessstudio)"
-
-#. module: fitness
 #: model_terms:ir.ui.view,arch_db:fitness.pricing
 msgid "Complete Fitness Solutions for Everyone"
 msgstr "Vollständige Fitnesslösungen für Jedermann"
@@ -516,11 +506,6 @@ msgstr "Vollständige Fitnesslösungen für Jedermann"
 #: model_terms:ir.ui.view,arch_db:fitness.homepage
 msgid "Creative Studio"
 msgstr "Kreatives Studio"
-
-#. module: fitness
-#: model:pos.payment.method,name:fitness.pos_payment_method_2
-msgid "Customer Account"
-msgstr "Kundenkonto"
 
 #. module: fitness
 #: model:product.pricelist,name:fitness.product_pricelist_1
@@ -541,11 +526,6 @@ msgstr "Diamant-Mitgliedschaft"
 #: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
 msgid "Discover more about Odoo by diving into our"
 msgstr "Erfahren Sie mehr zu Odoo in unserer"
-
-#. module: fitness
-#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
-msgid "Do you want to go further?"
-msgstr "Möchten Sie noch weiter gehen?"
 
 #. module: fitness
 #: model:project.task.type,name:fitness.project_task_type_2
@@ -596,18 +576,8 @@ msgstr "Fitnessstudio"
 
 #. module: fitness
 #: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
-msgid "Fitness Center by Odoo"
-msgstr "Fitnessstudio von Odoo"
-
-#. module: fitness
-#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
 msgid "Fitness Programs <strong>🏋️‍♂️</strong>"
 msgstr "Fitnessprogramme <strong>🏋️‍♂️</strong>"
-
-#. module: fitness
-#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
-msgid "Fitness Programs 🏋️‍♂️"
-msgstr "Fitnessprogramme 🏋️‍♂️"
 
 #. module: fitness
 #: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
@@ -676,7 +646,8 @@ msgstr ""
 #: code:addons/fitness/static/src/js/my_tour.js:0
 msgid "Get on track and explore our recommendations for your Odoo usage here!"
 msgstr ""
-"Los geht’s! Entdecken Sie hier unsere Empfehlungen für die Nutzung von Odoo!"
+"Los geht’s! Entdecken Sie hier unsere Empfehlungen, um Odoo optimal zu "
+"nutzen!"
 
 #. module: fitness
 #: model_terms:ir.ui.view,arch_db:fitness.pricing
@@ -1213,7 +1184,8 @@ msgstr "Aufgaben"
 msgid ""
 "These all go free in your current subscription; feel free to explore! 🙃"
 msgstr ""
-"Sie sind alle in Ihrem aktuellen Abonnement enthalten. Entdecken Sie sie! 🙃"
+"All diese Apps sind in Ihrem aktuellen Abonnement enthalten. Erkunden Sie "
+"sie! 🙃"
 
 #. module: fitness
 #: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
@@ -1300,7 +1272,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
 msgid "Would you like to discuss your Odoo setup with us or go even further?"
 msgstr ""
-"Möchten Sie Ihre Odoo-Einrichtung mit uns besprechen oder noch weiter gehen?"
+"Möchten Sie Ihre Odoo-Konfiguration mit uns besprechen oder noch einen "
+"Schritt weiter gehen?"
 
 #. module: fitness
 #: model:planning.role,name:fitness.planning_role_1
@@ -1367,7 +1340,7 @@ msgstr ", wenn Sie Hilfe benötigen!<br/>"
 #. module: fitness
 #: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
 msgid "request a demo"
-msgstr "bitten Sie um eine Demo"
+msgstr "eine Demo buchen"
 
 #. module: fitness
 #: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
@@ -1423,3 +1396,21 @@ msgstr "🎓 Planung"
 #: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
 msgid "🎓Point of Sale"
 msgstr "🎓 Kassensystem"
+
+#~ msgid "Cash"
+#~ msgstr "Bargeld"
+
+#~ msgid "Cash (Fitness Center)"
+#~ msgstr "Bar (Fitnessstudio)"
+
+#~ msgid "Customer Account"
+#~ msgstr "Kundenkonto"
+
+#~ msgid "Do you want to go further?"
+#~ msgstr "Möchten Sie noch weiter gehen?"
+
+#~ msgid "Fitness Center by Odoo"
+#~ msgstr "Fitnessstudio von Odoo"
+
+#~ msgid "Fitness Programs 🏋️‍♂️"
+#~ msgstr "Fitnessprogramme 🏋️‍♂️"

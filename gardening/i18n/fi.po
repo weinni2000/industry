@@ -12,13 +12,14 @@
 # Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2024
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Saara Hakanen <sahak@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 12:10+0000\n"
-"PO-Revision-Date: 2025-11-17 11:08+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-01-20 12:51+0000\n"
+"PO-Revision-Date: 2026-06-24 17:00+0000\n"
+"Last-Translator: Saara Hakanen <sahak@odoo.com>\n"
 "Language-Team: Finnish <https://translate.odoo.com/projects/odoo-19/"
 "gardening/fi/>\n"
 "Language: fi\n"
@@ -26,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -188,14 +189,16 @@ msgid ""
 "                                intermediary invoice in order to sustain "
 "your cash flow."
 msgstr ""
-"Luo ensimmäisenä laskutusvaiheena ennakkomaksu myyntitilauksesta. Tämä luo "
-"ensimmäisen laskun\n"
-"            <strong>\n"
-"                <font class=\"text-o-color-1\">Laskutus</font>\n"
-"            </strong>\n"
-"            -sovelluksessa. Aikatauluta sitten yksi tai useampi "
-"\"Laskutusaikataulu\"-toiminto myyntitilaukseen, jotta et koskaan unohda "
-"lähettää välilaskuja kassavirran ylläpitämiseksi."
+"Luo laskutuksen ensimmäisenä vaiheena ennakkomaksu myyntitilauksesta.\n"
+"                                Tämä luo ensimmäisen laskun <strong>\n"
+"                                        <font class=\"text-o-color-1\">"
+"Laskutus</font>\n"
+"                                </strong>\n"
+"                                -sovelluksessa. Aikatauluta sitten yksi tai "
+"useampi \"Laskutusaikataulu\"-toimenpide\n"
+"                                myyntitilaukseen, ettet koskaan unohda "
+"lähettää\n"
+"                                välilaskuja kassavirran ylläpitämiseksi."
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -217,11 +220,6 @@ msgid ""
 msgstr ""
 "Voit milloin tahansa luoda myyntimahdollisuudesta kauniin ja räätälöidyn "
 "tarjouksen, jossa näkyy hinta, alennus, mittayksikkö ja vero:"
-
-#. module: gardening
-#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
-msgid "Basics"
-msgstr "Perustiedot"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -306,11 +304,6 @@ msgid "Dashboard ➡️ Your project's status at a glance."
 msgstr "Koontinäyttö ➡️ Projektin tila yhdellä silmäyksellä."
 
 #. module: gardening
-#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
-msgid "Do you want to go further?"
-msgstr "Haluatko jatkaa?"
-
-#. module: gardening
 #: model:project.task.type,name:gardening.project_task_type_16
 msgid "Done"
 msgstr "Valmis"
@@ -350,12 +343,7 @@ msgstr "Puutarhan uudistamishankkeen hallinta"
 #. odoo-javascript
 #: code:addons/gardening/static/src/js/my_tour.js:0
 msgid "Get on track and explore our recommendations for your Odoo usage here!"
-msgstr ""
-
-#. module: gardening
-#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
-msgid "Helpdesk &amp; services 🆘"
-msgstr "Asiakaspalvelu &amp; palvelut 🆘"
+msgstr "Aloita ja tutustu Odoo-käyttöäsi koskeviin suosituksiimme täällä!"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -449,18 +437,8 @@ msgstr ""
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
-msgid "Inventory 📦"
-msgstr "Varastointi 📦"
-
-#. module: gardening
-#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "Invoices"
 msgstr "Laskut"
-
-#. module: gardening
-#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
-msgid "Invoicing 📈"
-msgstr "Laskutus 📈"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -620,11 +598,6 @@ msgstr ""
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
-msgid "Opportunities 🎯"
-msgstr "Myyntimahdollisuudet 🎯"
-
-#. module: gardening
-#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "Planification"
 msgstr "Suunnitelmallistaminen"
 
@@ -632,16 +605,6 @@ msgstr "Suunnitelmallistaminen"
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "Planning"
 msgstr "Suunnittelu"
-
-#. module: gardening
-#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
-msgid "Planning and timesheets 📆"
-msgstr "Suunnittelu ja työaikakirjaukset 📆"
-
-#. module: gardening
-#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
-msgid "Projects  🌱️"
-msgstr "Projektit 🌱️"
 
 #. module: gardening
 #: model:product.template,name:gardening.product_product_12_product_template
@@ -652,11 +615,6 @@ msgstr "Hoitoleikkaus (tuntia)"
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "Purchase Orders"
 msgstr "Ostotilaukset"
-
-#. module: gardening
-#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
-msgid "Quotations💲"
-msgstr "Tarjoukset💲"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -715,7 +673,7 @@ msgstr ""
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "Schedule a demo"
-msgstr "Varaa esittely"
+msgstr "Varaa demo"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -908,15 +866,15 @@ msgid ""
 "                                conflicts, workload, and replacements in "
 "case of leaves."
 msgstr ""
-"Käytä suunnittelua Kenttähuolto <strong><font class=\"text-o-color-1\"></"
-"font>\n"
+"Käytä suunnittelua Kenttähuolto-sovelluksessa <strong><font class="
+"\"text-o-color-1\"></font>\n"
 "                                </strong>\n"
-"                                -sovelluksessa: organisoi työntekijöidesi "
-"työtehtävät, määritä, minkä projektin parissa\n"
+"                                organisoidaksesi työntekijöidesi "
+"työtehtävät. Määritä, minkä projektin parissa\n"
 "                                ja milloin heidän on työskenneltävä. "
 "Hallitse työvuorojen\n"
 "                                ristiriitaisuuksia, työmäärää ja "
-"sijaisuuksia, jos työntekijä on lomalla."
+"sijaisuuksia lomien aikana."
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -1121,3 +1079,30 @@ msgstr "🎓 Työntekijät"
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "🎓 Subscriptions"
 msgstr "🎓 Tilaukset"
+
+#~ msgid "Basics"
+#~ msgstr "Perustiedot"
+
+#~ msgid "Do you want to go further?"
+#~ msgstr "Haluatko jatkaa?"
+
+#~ msgid "Helpdesk &amp; services 🆘"
+#~ msgstr "Asiakaspalvelu &amp; palvelut 🆘"
+
+#~ msgid "Inventory 📦"
+#~ msgstr "Varastointi 📦"
+
+#~ msgid "Invoicing 📈"
+#~ msgstr "Laskutus 📈"
+
+#~ msgid "Opportunities 🎯"
+#~ msgstr "Myyntimahdollisuudet 🎯"
+
+#~ msgid "Planning and timesheets 📆"
+#~ msgstr "Suunnittelu ja työaikakirjaukset 📆"
+
+#~ msgid "Projects  🌱️"
+#~ msgstr "Projektit 🌱️"
+
+#~ msgid "Quotations💲"
+#~ msgstr "Tarjoukset💲"

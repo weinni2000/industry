@@ -3,13 +3,13 @@
 # * fast_food
 #
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
-# "Manon Rondou (ronm)" <ronm@odoo.com>, 2025.
+# "Manon Rondou (ronm)" <ronm@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 11:05+0000\n"
-"PO-Revision-Date: 2025-10-16 03:00+0000\n"
+"POT-Creation-Date: 2026-06-12 18:05+0000\n"
+"PO-Revision-Date: 2026-06-06 11:52+0000\n"
 "Last-Translator: \"Manon Rondou (ronm)\" <ronm@odoo.com>\n"
 "Language-Team: French <https://translate.odoo.com/projects/odoo-19/fast_food/"
 "fr/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -63,11 +63,11 @@ msgstr ""
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
 msgid ""
-"2. Create your employees' roles under the \"Work Information\" tab. Some are "
-"already created for this demo."
+"2. Create your employees' roles under the \"Settings\" tab. Some are already "
+"created for this demo."
 msgstr ""
-"2. Ajoutez le rôle de vos employés sous l'onglet « Informations "
-"professionnelles ». Pour cette démo, certains rôles ont déjà été créés."
+"2. Créez les rôles de vos employés dans l’onglet \"Paramètres\". Certains "
+"sont déjà créés pour cette démo."
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -250,7 +250,7 @@ msgstr "<strong>Kiosques</strong>"
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
 msgid "<strong>Self-ordering</strong>"
-msgstr "<strong>Commandes autonomes</strong>"
+msgstr "<strong>Commande autonome</strong>"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -265,19 +265,9 @@ msgstr ""
 "votre caisse et valider la clôture."
 
 #. module: fast_food
-#: model:pos.payment.method,name:fast_food.pos_payment_method_3
-msgid "Bank"
-msgstr "Banque"
-
-#. module: fast_food
 #: model:planning.role,name:fast_food.planning_role_2
 msgid "Bar"
 msgstr "Bar"
-
-#. module: fast_food
-#: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
-msgid "Basics:"
-msgstr "Les bases :"
 
 #. module: fast_food
 #: model:product.template,name:fast_food.product_product_54_product_template
@@ -315,11 +305,6 @@ msgstr ""
 "vente et un exemple de planification."
 
 #. module: fast_food
-#: model:pos.payment.method,name:fast_food.pos_payment_method_4
-msgid "Cash (Restaurant)"
-msgstr "Espèces (Restaurant)"
-
-#. module: fast_food
 #: model:product.template,name:fast_food.product_product_56_product_template
 msgid "Cheese 250gr"
 msgstr "Fromage 250 g"
@@ -350,11 +335,6 @@ msgid ""
 msgstr ""
 "Découvrez les bases de ce package et explorez toutes les possibilités "
 "proposées par Odoo afin d'améliorer votre expérience."
-
-#. module: fast_food
-#: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
-msgid "Do you want to go further?"
-msgstr "Vous souhaitez aller plus loin ?"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -420,10 +400,10 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
 msgid ""
 "If you want to assign them an Odoo user account, you can select a related "
-"user in the \"HR Settings\" tab."
+"user in the same \"Settings\" tab."
 msgstr ""
 "Si vous souhaitez leur attribuer un compte utilisateur Odoo, vous pouvez "
-"sélectionner un utilisateur associé dans l'onglet « Paramètres RH »."
+"sélectionner un utilisateur associé dans le même onglet \"Paramètres\"."
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -609,11 +589,6 @@ msgid "Service"
 msgstr "Service"
 
 #. module: fast_food
-#: model:pos.payment.method,name:fast_food.pos_payment_method_1
-msgid "Sodexo Card Payment"
-msgstr "Paiement par carte Sodexo"
-
-#. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
 msgid ""
 "The <strong><font class=\"text-o-color-1\">Kitchen Displays</font></strong> "
@@ -647,11 +622,6 @@ msgid ""
 msgstr ""
 "Tous ces services sont compris dans votre abonnement actuel ; n'hésitez pas "
 "à les découvrir ! 🙃"
-
-#. module: fast_food
-#: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
-msgid "Use case:"
-msgstr "Cas d'utilisation :"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -848,3 +818,21 @@ msgstr "si vous avez besoin d'aide ! <br/>"
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
 msgid "request a demo"
 msgstr "demander une démonstration"
+
+#~ msgid "Bank"
+#~ msgstr "Banque"
+
+#~ msgid "Cash (Restaurant)"
+#~ msgstr "Espèces (Restaurant)"
+
+#~ msgid "Sodexo Card Payment"
+#~ msgstr "Paiement par carte Sodexo"
+
+#~ msgid "Basics:"
+#~ msgstr "Les bases :"
+
+#~ msgid "Do you want to go further?"
+#~ msgstr "Vous souhaitez aller plus loin ?"
+
+#~ msgid "Use case:"
+#~ msgstr "Cas d'utilisation :"

@@ -3,13 +3,14 @@
 # * fast_food
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
+# "Kwanghee Park (kwpa)" <kwpa@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 11:05+0000\n"
-"PO-Revision-Date: 2025-09-17 03:02+0000\n"
-"Last-Translator: \"Dylan Kiss (dyki)\" <dyki@odoo.com>\n"
+"POT-Creation-Date: 2026-06-12 18:05+0000\n"
+"PO-Revision-Date: 2026-04-11 09:36+0000\n"
+"Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@odoo.com>\n"
 "Language-Team: Korean <https://translate.odoo.com/projects/odoo-19/fast_food/"
 "ko/>\n"
 "Language: ko\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -58,11 +59,9 @@ msgstr ""
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
 msgid ""
-"2. Create your employees' roles under the \"Work Information\" tab. Some are "
-"already created for this demo."
+"2. Create your employees' roles under the \"Settings\" tab. Some are already "
+"created for this demo."
 msgstr ""
-"2. '업무 정보' 탭에서 직원에게 담당 업무를 할당합니다. 이 데모에서는 일부 역"
-"할이 미리 생성되어 있습니다."
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -246,19 +245,9 @@ msgstr ""
 "한 후 마감 승인을 합니다."
 
 #. module: fast_food
-#: model:pos.payment.method,name:fast_food.pos_payment_method_3
-msgid "Bank"
-msgstr "은행"
-
-#. module: fast_food
 #: model:planning.role,name:fast_food.planning_role_2
 msgid "Bar"
 msgstr "막대그래프"
-
-#. module: fast_food
-#: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
-msgid "Basics:"
-msgstr "기본 사항"
 
 #. module: fast_food
 #: model:product.template,name:fast_food.product_product_54_product_template
@@ -295,11 +284,6 @@ msgstr ""
 "터베이스가 채워집니다."
 
 #. module: fast_food
-#: model:pos.payment.method,name:fast_food.pos_payment_method_4
-msgid "Cash (Restaurant)"
-msgstr "현금 (레스토랑)"
-
-#. module: fast_food
 #: model:product.template,name:fast_food.product_product_56_product_template
 msgid "Cheese 250gr"
 msgstr "치즈 250gr"
@@ -329,11 +313,6 @@ msgid ""
 msgstr ""
 "이 패키지의 기본 사항을 살펴보고 Odoo가 어떻게 사용자 경험을 향상시킬 수 있는"
 "지 알아보세요."
-
-#. module: fast_food
-#: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
-msgid "Do you want to go further?"
-msgstr "더 자세히 알아볼까요?"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -393,9 +372,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
 msgid ""
 "If you want to assign them an Odoo user account, you can select a related "
-"user in the \"HR Settings\" tab."
+"user in the same \"Settings\" tab."
 msgstr ""
-"Odoo 사용자 계정을 할당하려면 \"HR 설정\" 탭에서 적절한 사용자를 선택하세요."
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -568,11 +546,6 @@ msgid "Service"
 msgstr "서비스"
 
 #. module: fast_food
-#: model:pos.payment.method,name:fast_food.pos_payment_method_1
-msgid "Sodexo Card Payment"
-msgstr "Sodexo 카드 결제"
-
-#. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
 msgid ""
 "The <strong><font class=\"text-o-color-1\">Kitchen Displays</font></strong> "
@@ -604,11 +577,6 @@ msgstr ""
 msgid ""
 "These all go free in your current subscription; feel free to explore! 🙃"
 msgstr "현재 구독 중인 요금제에서 모두 무료로 제공되니 자유롭게 살펴보세요! 🙃"
-
-#. module: fast_food
-#: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
-msgid "Use case:"
-msgstr "사용 사례:"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -791,3 +759,21 @@ msgstr "도움이 필요하시면! <br/>"
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
 msgid "request a demo"
 msgstr "데모 요청하기"
+
+#~ msgid "Bank"
+#~ msgstr "은행"
+
+#~ msgid "Cash (Restaurant)"
+#~ msgstr "현금 (레스토랑)"
+
+#~ msgid "Sodexo Card Payment"
+#~ msgstr "Sodexo 카드 결제"
+
+#~ msgid "Basics:"
+#~ msgstr "기본 사항"
+
+#~ msgid "Do you want to go further?"
+#~ msgstr "더 자세히 알아볼까요?"
+
+#~ msgid "Use case:"
+#~ msgstr "사용 사례:"

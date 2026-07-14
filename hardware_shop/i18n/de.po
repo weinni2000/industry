@@ -7,13 +7,13 @@
 # Larissa Manderfeld, 2024
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025.
+# "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 11:57+0000\n"
-"PO-Revision-Date: 2025-10-20 08:13+0000\n"
+"POT-Creation-Date: 2026-06-12 18:15+0000\n"
+"PO-Revision-Date: 2026-05-02 09:40+0000\n"
 "Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
 "Language-Team: German <https://translate.odoo.com/projects/odoo-19/"
 "hardware_shop/de/>\n"
@@ -22,12 +22,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: hardware_shop
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
 msgid ", and feel free to"
-msgstr "und"
+msgstr "und Sie können"
 
 #. module: hardware_shop
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
@@ -93,9 +93,9 @@ msgid ""
 "in Odoo and go live with your <strong><span style=\"color: #875A7B;\">E-"
 "shop</span></strong> in a few minutes."
 msgstr ""
-"Eine kostenlose, personalisierte, integrierte <strong><span style=\"color: "
-"#875A7B;\">Website</span></strong> in wenigen Klicks. Erhalten Sie "
-"Bestellungen direkt in Odoo und stellen Sie Ihren <strong><span "
+"Erstellen Sie eine kostenlose, personalisierte, integrierte <strong><span "
+"style=\"color: #875A7B;\">Website</span></strong> in wenigen Klicks. "
+"Erhalten Sie Bestellungen direkt in Odoo und stellen Sie Ihren <strong><span "
 "style=\"color: #875A7B;\">E-Shop</span></strong> in Minutenschnelle online."
 
 #. module: hardware_shop
@@ -165,11 +165,6 @@ msgstr "BIRLA (arc) WALL PUTTY RAFF (MF) 40 kg"
 
 #. module: hardware_shop
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
-msgid "Basics"
-msgstr "Grundlagen"
-
-#. module: hardware_shop
-#: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
 msgid "Basics:"
 msgstr "Grundlagen:"
 
@@ -203,16 +198,6 @@ msgid "CP-Bath"
 msgstr "CP-Bäder"
 
 #. module: hardware_shop
-#: model:pos.payment.method,name:hardware_shop.pos_payment_method_1
-msgid "Cash"
-msgstr "Bargeld"
-
-#. module: hardware_shop
-#: model:account.journal,name:hardware_shop.cash
-msgid "Cash (Hardware shop)"
-msgstr "Bar (Baumarkt)"
-
-#. module: hardware_shop
 #: model:pos.category,name:hardware_shop.pos_category_4
 msgid "Chemical"
 msgstr "Chemikalien"
@@ -233,16 +218,6 @@ msgid "Color"
 msgstr "Farbe"
 
 #. module: hardware_shop
-#: model:pos.payment.method,name:hardware_shop.pos_payment_method_2
-msgid "Customer Account"
-msgstr "Kundenkonto"
-
-#. module: hardware_shop
-#: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
-msgid "Deliver your products"
-msgstr "Ihre Produkte liefern"
-
-#. module: hardware_shop
 #: model:product.attribute,name:hardware_shop.product_attribute_5
 msgid "Design"
 msgstr "Design"
@@ -260,7 +235,7 @@ msgstr "Erfahren Sie mehr zu Odoo in unserer"
 #. module: hardware_shop
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
 msgid "Do you want to go further?"
-msgstr "Möchten Sie noch weiter gehen?"
+msgstr "Möchten Sie noch weitergehen?"
 
 #. module: hardware_shop
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
@@ -301,7 +276,7 @@ msgid ""
 "            Discover the basics of this package and explore all the "
 "possibilities Odoo offers to improve your experience."
 msgstr ""
-"Hallo!\n"
+"Guten Tag!\n"
 "            <br/><br/>\n"
 "            Sie haben gerade das Odoo-Paket für den Baumarkt installiert. "
 "Damit haben wir eine Reihe von notwendigen Apps installiert, um Ihr Geschäft "
@@ -440,7 +415,7 @@ msgid ""
 "an additional scanner (and much more)."
 msgstr ""
 "Odoo ist vollständig in eine App integriert. Laden Sie sie herunter, um Ihr "
-"Telefon in einen zusätzlichen Scanner (und vieles mehr) zu verwandeln."
+"Smartphone in einen zusätzlichen Scanner (und vieles mehr) zu verwandeln."
 
 #. module: hardware_shop
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
@@ -456,7 +431,7 @@ msgid ""
 msgstr ""
 "Das ist natürlich nur eine Übersicht über die Funktionen, die in diesem "
 "Paket enthalten sind. Sie können gerne neue Apps hinzufügen, Demodaten "
-"löschen/anpassen und etwas herumspielen."
+"löschen oder anpassen und etwas herumspielen."
 
 #. module: hardware_shop
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
@@ -471,11 +446,6 @@ msgstr ""
 "Produkt wieder auf Lager ist."
 
 #. module: hardware_shop
-#: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
-msgid "Order from the sales application"
-msgstr "Auftrag über Verkaufsapp"
-
-#. module: hardware_shop
 #: model:product.template,name:hardware_shop.product_pos_delivery_product_template
 msgid "POS delivery"
 msgstr "Kassenlieferung"
@@ -486,16 +456,6 @@ msgid "Pioneer PVC Adhesive"
 msgstr "Pioneer PVC-Kleber"
 
 #. module: hardware_shop
-#: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
-msgid "Point of Sale, customer management"
-msgstr "Kassensystem: Kundenverwaltung"
-
-#. module: hardware_shop
-#: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
-msgid "Point of Sale, ship later"
-msgstr "Kassensystem: Später versenden"
-
-#. module: hardware_shop
 #: model:product.pricelist,name:hardware_shop.product_pricelist_2
 msgid "Pricelist For Local Customer"
 msgstr "Preisliste für lokale Kunden"
@@ -504,11 +464,6 @@ msgstr "Preisliste für lokale Kunden"
 #: model:product.pricelist,name:hardware_shop.product_pricelist_1
 msgid "Pricelist For Special Customer"
 msgstr "Preisliste für besondere Kunden"
-
-#. module: hardware_shop
-#: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
-msgid "Purchase products"
-msgstr "Produkte einkaufen"
 
 #. module: hardware_shop
 #: model:product.attribute,name:hardware_shop.product_attribute_brand
@@ -602,7 +557,8 @@ msgstr ""
 msgid ""
 "These all go free in your current subscription; feel free to explore! 😊"
 msgstr ""
-"Sie sind alle in Ihrem aktuellen Abonnement enthalten. Entdecken Sie sie! 😊"
+"All diese Apps sind in Ihrem aktuellen Abonnement enthalten. Erkunden Sie "
+"sie! 😊"
 
 #. module: hardware_shop
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
@@ -700,7 +656,8 @@ msgstr "Weiß"
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
 msgid "Would you like to discuss your Odoo setup with us or go even further?"
 msgstr ""
-"Möchten Sie Ihre Odoo-Einrichtung mit uns besprechen oder noch weiter gehen?"
+"Möchten Sie Ihre Odoo-Konfiguration mit uns besprechen oder noch einen "
+"Schritt weiter gehen?"
 
 #. module: hardware_shop
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
@@ -748,7 +705,7 @@ msgid ""
 "your Odoo setup to fit your business needs."
 msgstr ""
 "Sie haben diesen Demo-Anwendungsfall abgeschlossen! Es gibt Millionen "
-"anderer Möglichkeiten, Ihre Odoo-Einrichtung an Ihre geschäftlichen "
+"anderer Möglichkeiten, Ihre Odoo-Konfiguration an Ihre geschäftlichen "
 "Anforderungen anzupassen."
 
 #. module: hardware_shop
@@ -793,4 +750,31 @@ msgstr ", wenn Sie Hilfe benötigen!"
 #. module: hardware_shop
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
 msgid "request a demo"
-msgstr "bitten Sie um eine Demo"
+msgstr "eine Demo buchen"
+
+#~ msgid "Cash"
+#~ msgstr "Bargeld"
+
+#~ msgid "Cash (Hardware shop)"
+#~ msgstr "Bar (Baumarkt)"
+
+#~ msgid "Customer Account"
+#~ msgstr "Kundenkonto"
+
+#~ msgid "Basics"
+#~ msgstr "Grundlagen"
+
+#~ msgid "Deliver your products"
+#~ msgstr "Ihre Produkte liefern"
+
+#~ msgid "Order from the sales application"
+#~ msgstr "Auftrag über Verkaufsapp"
+
+#~ msgid "Point of Sale, customer management"
+#~ msgstr "Kassensystem: Kundenverwaltung"
+
+#~ msgid "Point of Sale, ship later"
+#~ msgstr "Kassensystem: Später versenden"
+
+#~ msgid "Purchase products"
+#~ msgstr "Produkte einkaufen"

@@ -5,13 +5,16 @@
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # DeepL <noreply-mt-deepl@weblate.org>, 2025.
+# Odoo Turkish Import <dyki+tr@odoo.com>, 2025.
+# "Malaz Siddig Elsayed Abuidris (msea)" <msea@odoo.com>, 2025.
+# "Deniz Guvener Unal (degu)" <degu@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 11:05+0000\n"
-"PO-Revision-Date: 2025-11-12 14:44+0000\n"
-"Last-Translator: DeepL <noreply-mt-deepl@weblate.org>\n"
+"POT-Creation-Date: 2026-06-12 18:05+0000\n"
+"PO-Revision-Date: 2026-04-11 09:36+0000\n"
+"Last-Translator: \"Deniz Guvener Unal (degu)\" <degu@odoo.com>\n"
 "Language-Team: Turkish <https://translate.odoo.com/projects/odoo-19/"
 "fast_food/tr/>\n"
 "Language: tr\n"
@@ -19,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -28,7 +31,6 @@ msgstr "ve dilerseniz"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
-#, fuzzy
 msgid ""
 "1. After placing your orders, look at our Kitchen Display. Click the "
 "\"Backend\" menu in the right corner to return to your backend, then switch "
@@ -64,21 +66,17 @@ msgstr ""
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
 msgid ""
-"2. Create your employees' roles under the \"Work Information\" tab. Some are "
-"already created for this demo."
+"2. Create your employees' roles under the \"Settings\" tab. Some are already "
+"created for this demo."
 msgstr ""
-"2. “İş Bilgileri” sekmesi altında çalışanlarınızın rollerini oluşturun. Bu "
-"demo için bazıları zaten oluşturulmuştur."
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
-#, fuzzy
 msgid "2. Kiosks and self-ordering"
 msgstr "2. Kiosklar ve kendi kendine sipariş"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
-#, fuzzy
 msgid ""
 "2. Open your preparation screen. Your orders are there. You can now mark "
 "them as done either line by line or the entire order by clicking on the top."
@@ -89,7 +87,6 @@ msgstr ""
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
-#, fuzzy
 msgid ""
 "2. To make it more interesting, feel free to create a second order. For this "
 "one, select the \"Burger Menu Combo\" product. You can choose 2 burger "
@@ -104,7 +101,6 @@ msgstr ""
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
-#, fuzzy
 msgid ""
 "3. If you select Max Frite as a customer for your order, you can see that "
 "there is a Loyalty Program running on your Point of Sale. Every money spent "
@@ -118,7 +114,6 @@ msgstr ""
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
-#, fuzzy
 msgid ""
 "3. Odoo provides your an order status display to let your customer see when "
 "their order is ready. It is automatically setup and available by clicking "
@@ -131,7 +126,6 @@ msgstr ""
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
-#, fuzzy
 msgid "3. Preparation displays"
 msgstr "3. Hazırlık ekranları"
 
@@ -144,8 +138,8 @@ msgid ""
 "availability."
 msgstr ""
 "3. Planlama Uygulamasına geri dönün. Planlanmaya hazır birkaç vardiya "
-"görebilirsiniz. Yayımla düğmesinin yanındaki aşağı yönlü oku seçin ve “"
-"Otomatik Planla”ya tıklayın. Vardiyalarınız, çalışanlarınızın uygunluk "
+"görebilirsiniz. Yayımla düğmesinin yanındaki aşağı yönlü oku seçin ve "
+"“Otomatik Planla”ya tıklayın. Vardiyalarınız, çalışanlarınızın uygunluk "
 "durumuna göre otomatik olarak atanacaktır."
 
 #. module: fast_food
@@ -201,7 +195,6 @@ msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
-#, fuzzy
 msgid ""
 "<span class=\"display-4-fs\"><strong>Fast Food Restaurant</strong></span>"
 msgstr ""
@@ -216,7 +209,6 @@ msgstr ""
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>1. Flow 1:</strong> Most products need a human assessment as the "
 "remaining quantity cannot be automatically computed. For those: Go to your "
@@ -250,13 +242,11 @@ msgstr "<strong>Temel öğeler:</strong>"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
-#, fuzzy
 msgid "<strong>Kiosks</strong>"
 msgstr "<strong>Kiosklar</strong>"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
-#, fuzzy
 msgid "<strong>Self-ordering</strong>"
 msgstr "<strong>Kendi kendine sipariş</strong>"
 
@@ -272,19 +262,9 @@ msgstr ""
 "Ardından nakit tutarınızı belirleyebilir ve kapatmayı onaylayabilirsiniz."
 
 #. module: fast_food
-#: model:pos.payment.method,name:fast_food.pos_payment_method_3
-msgid "Bank"
-msgstr "Banka"
-
-#. module: fast_food
 #: model:planning.role,name:fast_food.planning_role_2
 msgid "Bar"
 msgstr "Bar"
-
-#. module: fast_food
-#: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
-msgid "Basics:"
-msgstr "Temel öğeler:"
 
 #. module: fast_food
 #: model:product.template,name:fast_food.product_product_54_product_template
@@ -313,7 +293,6 @@ msgstr "Böylece stoğunuzda yalnızca 23 bira kalmış oldu."
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
-#, fuzzy
 msgid ""
 "By uploading this module's demo data, your database has been filled with a "
 "few products, a point of sale configuration and a sample planning."
@@ -322,18 +301,12 @@ msgstr ""
 "noktası yapılandırması ve örnek bir planlama ile doldurulmuştur."
 
 #. module: fast_food
-#: model:pos.payment.method,name:fast_food.pos_payment_method_4
-msgid "Cash (Restaurant)"
-msgstr "Nakit (Restoran)"
-
-#. module: fast_food
 #: model:product.template,name:fast_food.product_product_56_product_template
 msgid "Cheese 250gr"
 msgstr "Peynir 250gr"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
-#, fuzzy
 msgid ""
 "Create a stunning <strong><font class=\"text-o-color-1\">website</font></"
 "strong> and start receiving orders directly in Odoo. Go live with your "
@@ -361,11 +334,6 @@ msgstr ""
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
-msgid "Do you want to go further?"
-msgstr "İlerlemek istiyor musunuz?"
-
-#. module: fast_food
-#: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
 msgid ""
 "Don't forget to hit the \"Order\" button each time you change an order. This "
 "will forward the order to the Kitchen Display."
@@ -375,7 +343,6 @@ msgstr ""
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
-#, fuzzy
 msgid ""
 "Each order will be sent to your preparation displays and if you don't "
 "configure a payment terminal for each, they can pay directly online."
@@ -385,13 +352,11 @@ msgstr ""
 
 #. module: fast_food
 #: model:loyalty.program,name:fast_food.loyalty_program_2
-#, fuzzy
 msgid "Foodie Card"
 msgstr "Foodie Kart"
 
 #. module: fast_food
 #: model:loyalty.reward,description:fast_food.loyalty_reward_1
-#, fuzzy
 msgid "Free Product - Cheese Burger"
 msgstr "Ücretsiz Ürün - Peynirli Burger"
 
@@ -403,7 +368,6 @@ msgstr "Satış Noktasından ana kontrol panelinde kasayı açın."
 #. module: fast_food
 #. odoo-javascript
 #: code:addons/fast_food/static/src/js/my_tour.js:0
-#, fuzzy
 msgid "Get on track and explore our recommendations for your Odoo usage here!"
 msgstr ""
 "Yolunuza devam edin ve Odoo kullanımınız için önerilerimizi buradan keşfedin!"
@@ -428,10 +392,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
 msgid ""
 "If you want to assign them an Odoo user account, you can select a related "
-"user in the \"HR Settings\" tab."
+"user in the same \"Settings\" tab."
 msgstr ""
-"Onlara bir Odoo kullanıcı hesabı atamak istiyorsanız, “İK Ayarları” "
-"sekmesinde ilgili kullanıcıyı seçebilirsiniz."
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -460,7 +422,6 @@ msgstr "Sadakat puanı"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
-#, fuzzy
 msgid ""
 "Make them pay the orders to release the table and continue your service."
 msgstr ""
@@ -469,7 +430,6 @@ msgstr ""
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
-#, fuzzy
 msgid ""
 "Manage Loyalty Programs and many other kind of promotions, gifts and coupons "
 "in the related page in your Point of Sales App &gt; Products."
@@ -479,7 +439,6 @@ msgstr ""
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
-#, fuzzy
 msgid ""
 "Manage all your communication channels in one place with Odoo <strong><font "
 "class=\"text-o-color-1\">Marketing Automation</font></strong>, <strong><font "
@@ -489,20 +448,18 @@ msgid ""
 msgstr ""
 "Odoo <strong><font class=\"text-o-color-1\">Pazarlama Otomasyonu</font></"
 "strong>, <strong><font class=\"text-o-color-1\">E-posta Pazarlama</font></"
-"strong>, <strong><font class=\"text-o-color-1\">Sosyal Medyada "
-"Pazarlama</font></strong> ve <strong><font class=\"text-o-color-1\">SMS "
-"Pazarlama</font></strong> ile tüm iletişim kanallarınızı tek bir yerden "
-"yönetin."
+"strong>, <strong><font class=\"text-o-color-1\">Sosyal Medyada Pazarlama</"
+"font></strong> ve <strong><font class=\"text-o-color-1\">SMS Pazarlama</"
+"font></strong> ile tüm iletişim kanallarınızı tek bir yerden yönetin."
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
-#, fuzzy
 msgid ""
 "Manage recurring tasks and never forget any replenishment or cleaning with "
 "the <strong><font class=\"text-o-color-1\">Project App</font></strong>."
 msgstr ""
 "Yinelenen görevleri yönetin ve <strong><font class=\"text-o-color-1\">Proje "
-"Yönetimi</font></strong> ile herhangi bir ikmal veya temizliği asla "
+"Yönetimi</font></strong> ile herhangi bir ikmal veya stok temizliğini asla "
 "unutmayın."
 
 #. module: fast_food
@@ -512,8 +469,8 @@ msgid ""
 "environment. (<strong><font class=\"text-o-color-1\">Accounting App</font></"
 "strong>)"
 msgstr ""
-"Tamamen entegre bir ortamla muhasebenizi hiç olmadığı kadar kolay yönetin. ("
-"<strong><font class=\"text-o-color-1\">Muhasebe Uygulaması</font></strong>)"
+"Tamamen entegre bir ortamla muhasebenizi hiç olmadığı kadar kolay yönetin. "
+"(<strong><font class=\"text-o-color-1\">Muhasebe Uygulaması</font></strong>)"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -617,13 +574,7 @@ msgid "Service"
 msgstr "Hizmet"
 
 #. module: fast_food
-#: model:pos.payment.method,name:fast_food.pos_payment_method_1
-msgid "Sodexo Card Payment"
-msgstr "Sodexo Kart ile Ödeme"
-
-#. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
-#, fuzzy
 msgid ""
 "The <strong><font class=\"text-o-color-1\">Kitchen Displays</font></strong> "
 "will ensure a great follow-up of every order in your bar and kitchen."
@@ -634,7 +585,6 @@ msgstr ""
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
-#, fuzzy
 msgid ""
 "The kiosk layout is optimized for vertical usage, as most booths use that "
 "kind of display."
@@ -661,21 +611,15 @@ msgstr ""
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
-msgid "Use case:"
-msgstr "Örnek vaka:"
-
-#. module: fast_food
-#: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
 msgid ""
 "Use the <strong><font class=\"text-o-color-1\">Inventory App</font></strong> "
 "to manage your stock and receive products."
 msgstr ""
-"Stoğunuzu yönetmek ve ürünlerinizi teslim almak için <strong><font class="
-"\"text-o-color-1\">Envanter Uygulamasını</font></strong> kullanın."
+"Stoğunuzu yönetmek ve ürünlerinizi teslim almak için <strong><font "
+"class=\"text-o-color-1\">Envanter Uygulamasını</font></strong> kullanın."
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
-#, fuzzy
 msgid ""
 "Use the <strong><font class=\"text-o-color-1\">Planning App</font></strong> "
 "to schedule and share your shifts with your employees."
@@ -685,7 +629,6 @@ msgstr ""
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
-#, fuzzy
 msgid ""
 "Use the <strong><font class=\"text-o-color-1\">Point of Sale</font></strong> "
 "at the desk for your sales. You can also download the Odoo Mobile App on any "
@@ -767,7 +710,6 @@ msgstr ""
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
-#, fuzzy
 msgid ""
 "You currently have two steps in your Kitchen Displays: one for the kitchen/"
 "bar and one for the service. You can configure steps in the kitchen display "
@@ -779,7 +721,6 @@ msgstr ""
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
-#, fuzzy
 msgid ""
 "You didn't import demo data? You can still do it. Go to Apps &gt; Industries "
 "&gt; Upgrade your Fast Food Restaurant package and check the related box."
@@ -798,7 +739,6 @@ msgstr ""
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
-#, fuzzy
 msgid ""
 "You just installed the Odoo for Fast Food Restaurant package. By doing so, "
 "we have installed many necessary apps to run your restaurant efficiently."
@@ -819,7 +759,6 @@ msgstr ""
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
-#, fuzzy
 msgid ""
 "Your demo database comes with a kiosk to allow your customer to take orders "
 "on your booths. Go to the Point of Sale App and select your kiosk to see how "
@@ -831,7 +770,6 @@ msgstr ""
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
-#, fuzzy
 msgid ""
 "Your orders will automatically move from a step to another while you move it "
 "on your preparation display."
@@ -863,3 +801,21 @@ msgstr "yardıma ihtiyacınız olması durumunda! <br/>"
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
 msgid "request a demo"
 msgstr "demo talep edin"
+
+#~ msgid "Bank"
+#~ msgstr "Banka"
+
+#~ msgid "Cash (Restaurant)"
+#~ msgstr "Nakit (Restoran)"
+
+#~ msgid "Sodexo Card Payment"
+#~ msgstr "Sodexo Kart ile Ödeme"
+
+#~ msgid "Basics:"
+#~ msgstr "Temel öğeler:"
+
+#~ msgid "Do you want to go further?"
+#~ msgstr "İlerlemek istiyor musunuz?"
+
+#~ msgid "Use case:"
+#~ msgstr "Örnek vaka:"

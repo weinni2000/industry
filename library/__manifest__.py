@@ -1,6 +1,6 @@
 {
     'name': 'Library',
-    'version': '1.0',
+    'version': '1.1',
     'category': 'Services',
     'author': 'Odoo S.A.',
     'depends': [
@@ -29,7 +29,6 @@
         'data/ir_actions_act_window.xml',
         'data/ir_actions_server.xml',
         'data/base_automation.xml',
-        'data/event.event.xml',
         'data/mail_template.xml',
         'data/ir_ui_menu.xml',
         'data/knowledge_cover.xml',
@@ -48,6 +47,7 @@
         'data/pos_config.xml',
     ],
     'demo': [
+        'demo/res_company.xml',
         'demo/delivery_carrier.xml',
         'demo/payment_provider_demo.xml',
         'demo/product_pricelist.xml',
@@ -73,6 +73,7 @@
         'data/knowledge_article.xml',
         'demo/website_view.xml',
     ],
+    'application': True,
     'images': ['images/main.png'],
     'url': "https://www.odoo.com/trial?industry&selected_app=library",
     'website': "https://www.odoo.com/all-industries",

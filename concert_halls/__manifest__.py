@@ -1,6 +1,6 @@
 {
     'name': 'Concert Halls',
-    'version': '1.0',
+    'version': '1.3',
     'category': 'Hospitality',
     'author': 'Odoo S.A.',
     'depends': [
@@ -8,6 +8,7 @@
         'event_sale',
         'knowledge',
         'pos_event',
+        'pos_restaurant',
         'project_enterprise',
         'social',
         'website_crm',
@@ -33,6 +34,7 @@
         'data/website_menu.xml',
     ],
     'demo': [
+        'demo/res_company.xml',
         'demo/ir_attachment_post.xml',
         'demo/event_event.xml',
         'demo/event_event_ticket.xml',
@@ -49,6 +51,7 @@
         'data/website_view.xml',
         'demo/website_view.xml',
     ],
+    'application': True,
     'images': ['images/main.png'],
     'url': "https://www.odoo.com/trial?industry&selected_app=concert_halls",
     'website': "https://www.odoo.com/all-industries",

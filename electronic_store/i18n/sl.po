@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-13 08:19+0000\n"
+"POT-Creation-Date: 2026-06-12 18:01+0000\n"
 "PO-Revision-Date: 2025-09-17 03:01+0000\n"
 "Last-Translator: \"Tiffany Chang (tic)\" <tic@odoo.com>\n"
 "Language-Team: Slovenian <https://translate.odoo.com/projects/odoo-19/"
@@ -386,16 +386,6 @@ msgid "CA&amp; 92277"
 msgstr "CA&amp; 92277"
 
 #. module: electronic_store
-#: model:pos.payment.method,name:electronic_store.pos_payment_method_1
-msgid "Cash"
-msgstr "Gotovina"
-
-#. module: electronic_store
-#: model:account.journal,name:electronic_store.cash
-msgid "Cash (Electronic Store)"
-msgstr "Gotovina (trgovina z elektroniko)"
-
-#. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
 msgid "Check with My Tasks"
 msgstr "Preveri z mojimi opravili"
@@ -450,11 +440,6 @@ msgid "Create the purchase order"
 msgstr "Ustvari naročilnico"
 
 #. module: electronic_store
-#: model:pos.payment.method,name:electronic_store.pos_payment_method_2
-msgid "Customer Account"
-msgstr "Uporabniški račun kupca"
-
-#. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
 msgid ""
 "Customer can register their complaint for the existing purchased products "
@@ -502,11 +487,6 @@ msgstr "Dokument - Navodila za namestitev"
 #: model:product.template,name:electronic_store.product_product_1040_product_template
 msgid "Dyson Purifier Cool (White/Silver) - TP07"
 msgstr "Dysonov čistilec Cool (bel/srebrn) - TP07"
-
-#. module: electronic_store
-#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
-msgid "ELECTRONICS STORE"
-msgstr "TRGOVINA Z ELEKTRONIKO"
 
 #. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
@@ -560,26 +540,6 @@ msgstr "Terenski serviser bo obiskal stranko in začel z namestitvijo."
 #: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
 msgid "Fill the form:"
 msgstr "Izpolnite obrazec:"
-
-#. module: electronic_store
-#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
-msgid "Flow 1. Purchase"
-msgstr "1. tok. Nakup"
-
-#. module: electronic_store
-#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
-msgid "Flow 2. Sale with serial number"
-msgstr "Tok 2. Prodaja s serijsko številko"
-
-#. module: electronic_store
-#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
-msgid "Flow 3. Delivery"
-msgstr "Tok 3. Dostava"
-
-#. module: electronic_store
-#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
-msgid "Flow 4: Field Service Installation - AC"
-msgstr "4. tok: Namestitev terenske storitve – klimatska naprava"
 
 #. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
@@ -1182,3 +1142,27 @@ msgid ""
 msgstr ""
 "izdelek: <strong><font style=\"color: rgb(156, 0, 255);\">LG Dvojna "
 "inverterska okenska klimatska naprava </font></strong>"
+
+#~ msgid "Cash"
+#~ msgstr "Gotovina"
+
+#~ msgid "Cash (Electronic Store)"
+#~ msgstr "Gotovina (trgovina z elektroniko)"
+
+#~ msgid "Customer Account"
+#~ msgstr "Uporabniški račun kupca"
+
+#~ msgid "ELECTRONICS STORE"
+#~ msgstr "TRGOVINA Z ELEKTRONIKO"
+
+#~ msgid "Flow 1. Purchase"
+#~ msgstr "1. tok. Nakup"
+
+#~ msgid "Flow 2. Sale with serial number"
+#~ msgstr "Tok 2. Prodaja s serijsko številko"
+
+#~ msgid "Flow 3. Delivery"
+#~ msgstr "Tok 3. Dostava"
+
+#~ msgid "Flow 4: Field Service Installation - AC"
+#~ msgstr "4. tok: Namestitev terenske storitve – klimatska naprava"

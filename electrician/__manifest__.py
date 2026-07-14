@@ -33,6 +33,7 @@
         'data/mail_message.xml',
     ],
     'demo': [
+        'demo/res_company.xml',
         'demo/res_partner.xml',
         'demo/crm_lead.xml',
         'demo/hr_department.xml',
@@ -55,6 +56,7 @@
         "data/knowledge_article.xml",
     ],
     'images': ['images/main.png'],
+    'application': True,
     'license': 'OEEL-1',
     'url': "https://www.odoo.com/trial?industry&selected_app=electrician",
     'website': "https://www.odoo.com/all-industries",

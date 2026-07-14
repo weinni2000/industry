@@ -3,13 +3,14 @@
 # * fitness
 #
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
+# Saara Hakanen <sahak@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 12:41+0000\n"
-"PO-Revision-Date: 2025-09-17 03:01+0000\n"
-"Last-Translator: \"Tiffany Chang (tic)\" <tic@odoo.com>\n"
+"POT-Creation-Date: 2026-06-12 18:06+0000\n"
+"PO-Revision-Date: 2026-06-24 17:00+0000\n"
+"Last-Translator: Saara Hakanen <sahak@odoo.com>\n"
 "Language-Team: Finnish <https://translate.odoo.com/projects/odoo-19/fitness/"
 "fi/>\n"
 "Language: fi\n"
@@ -17,14 +18,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: fitness
 #: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
 msgid ""
 ", and feel free\n"
 "                    to"
-msgstr ", ja ota rohkesti"
+msgstr ""
+"sivuilta,\n"
+"                    sekä"
 
 #. module: fitness
 #: model:product.template,name:fitness.product_product_14_product_template
@@ -457,9 +460,9 @@ msgid ""
 "out. It's about creating a lifestyle that promotes health and wellness. Let "
 "us help you achieve your fitness goals and live your best life."
 msgstr ""
-"Kuntokeskuksessamme uskomme, että kuntoilu ei ole vain treenaamista. Kyse on "
-"terveyttä ja hyvinvointia edistävän elämäntavan luomisesta ja "
-"ylläpitämisestä. Anna meidän auttaa sinua saavuttamaan tavoitteesi ja "
+"Kuntokeskuksessamme uskomme, ettei kuntoilu ei ole vain treenaamista. Kyse "
+"on terveyttä ja hyvinvointia edistävän elämäntavan luomisesta ja "
+"ylläpitämisestä. Anna meidän auttaa sinua saavuttamaan tavoitteesi sekä "
 "elämään parasta elämääsi."
 
 #. module: fitness
@@ -493,16 +496,6 @@ msgid "Basic fitness programs &amp;amp; training for all levels"
 msgstr "Peruskunto-ohjelmat &;amp; koulutus kaiken tasoisille osallistujille"
 
 #. module: fitness
-#: model:pos.payment.method,name:fitness.pos_payment_method_1
-msgid "Cash"
-msgstr "Käteinen"
-
-#. module: fitness
-#: model:account.journal,name:fitness.cash
-msgid "Cash (Fitness Center)"
-msgstr "Käteinen (kuntokeskus)"
-
-#. module: fitness
 #: model_terms:ir.ui.view,arch_db:fitness.pricing
 msgid "Complete Fitness Solutions for Everyone"
 msgstr "Täydelliset kuntoratkaisut kaikille"
@@ -511,11 +504,6 @@ msgstr "Täydelliset kuntoratkaisut kaikille"
 #: model_terms:ir.ui.view,arch_db:fitness.homepage
 msgid "Creative Studio"
 msgstr "Luova studio"
-
-#. module: fitness
-#: model:pos.payment.method,name:fitness.pos_payment_method_2
-msgid "Customer Account"
-msgstr "Asiakastili"
 
 #. module: fitness
 #: model:product.pricelist,name:fitness.product_pricelist_1
@@ -535,12 +523,7 @@ msgstr "Timanttijäsenyys"
 #. module: fitness
 #: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
 msgid "Discover more about Odoo by diving into our"
-msgstr "Lue lisää Odoosta sukeltamalla meidän"
-
-#. module: fitness
-#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
-msgid "Do you want to go further?"
-msgstr "Haluatko jatkaa?"
+msgstr "Lue lisää Odoosta"
 
 #. module: fitness
 #: model:project.task.type,name:fitness.project_task_type_2
@@ -590,18 +573,8 @@ msgstr "Kuntokeskus"
 
 #. module: fitness
 #: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
-msgid "Fitness Center by Odoo"
-msgstr "Odoon kuntokeskus"
-
-#. module: fitness
-#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
 msgid "Fitness Programs <strong>🏋️‍♂️</strong>"
 msgstr "Kunto-ohjelmat <strong>🏋️‍♂️</strong>"
-
-#. module: fitness
-#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
-msgid "Fitness Programs 🏋️‍♂️"
-msgstr "Kunto-ohjelmat 🏋️‍♂️"
 
 #. module: fitness
 #: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
@@ -667,7 +640,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/fitness/static/src/js/my_tour.js:0
 msgid "Get on track and explore our recommendations for your Odoo usage here!"
-msgstr ""
+msgstr "Aloita ja tutustu Odoo-käyttöäsi koskeviin suosituksiimme täällä!"
 
 #. module: fitness
 #: model_terms:ir.ui.view,arch_db:fitness.pricing
@@ -733,8 +706,8 @@ msgid ""
 "and delivers her professional acumen to bring the fitness center to the next "
 "level."
 msgstr ""
-"Kansainvälisen kokemuksensa ansiosta Iris auttaa meitä ymmärtämään "
-"kuntosalimme pyörittämistä ja parantamaan ohjelmiamme. Hän pyrkii "
+"Iris auttaa meitä kansainvälisen kokemuksensa pohjalta ymmärtämään "
+"kuntosalimme pyörittämistä sekä parantamaan ohjelmiamme. Hän pyrkii "
 "määrätietoisesti edistämään menestystä ja vie ammattitaitonsa avulla "
 "kuntokeskuksen seuraavalle tasolle."
 
@@ -784,10 +757,10 @@ msgid ""
 "Marketing</font></strong>, and <strong><font class=\"text-o-color-1\">SMS "
 "Marketing</font></strong>."
 msgstr ""
-"Hallinnoi kaikkia viestintäkanavia yhdestä paikasta Odoon <strong><font "
-"class=\"text-o-color-1\">Markkinointiautomaation</font></strong>, "
+"Hallitse kaikkia viestintäkanaviasi yhdestä paikasta Odoon <strong><font "
+"class=\"text-o-color-1\">Markkinoinnin automaation</font></strong>, "
 "<strong><font class=\"text-o-color-1\">Sähköpostimarkkinoinnin</font></"
-"strong>, <strong><font class=\"text-o-color-1\">Some-markkinoinnin</font></"
+"strong>, <strong><font class=\"text-o-color-1\">Somemarkkinoinnin</font></"
 "strong> ja <strong><font class=\"text-o-color-1\">Tekstiviestimarkkinoinnin</"
 "font></strong> avulla."
 
@@ -830,9 +803,9 @@ msgid ""
 "environment. (<strong><font class=\"text-o-color-1\">Accounting App</font></"
 "strong>)"
 msgstr ""
-"Hallitse kirjanpitoa helpommin kuin koskaan täysin integroidussa "
-"ympäristössä. (<strong><font class=\"text-o-color-1\">Kirjanpito-sovellus</"
-"font></strong>)"
+"Hallinnoi kirjanpitoasi täysin integroidun ympäristön avulla helpommin kuin "
+"koskaan aiemmin. (<strong><font class=\"text-o-color-1\">Kirjanpito-"
+"sovellus</font></strong>)"
 
 #. module: fitness
 #: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
@@ -1342,7 +1315,7 @@ msgstr "ja"
 #. module: fitness
 #: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
 msgid "documentation"
-msgstr "dokumentointi"
+msgstr "dokumentaatio"
 
 #. module: fitness
 #: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
@@ -1352,7 +1325,7 @@ msgstr "jos tarvitset apua! <br/>"
 #. module: fitness
 #: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
 msgid "request a demo"
-msgstr "pyytää esittelyä"
+msgstr "pyydä demoa"
 
 #. module: fitness
 #: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
@@ -1407,4 +1380,22 @@ msgstr "🎓Suunnittelu"
 #. module: fitness
 #: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
 msgid "🎓Point of Sale"
-msgstr "🎓 Kassa"
+msgstr "🎓 Kassajärjestelmä"
+
+#~ msgid "Cash"
+#~ msgstr "Käteinen"
+
+#~ msgid "Cash (Fitness Center)"
+#~ msgstr "Käteinen (kuntokeskus)"
+
+#~ msgid "Customer Account"
+#~ msgstr "Asiakastili"
+
+#~ msgid "Do you want to go further?"
+#~ msgstr "Haluatko jatkaa?"
+
+#~ msgid "Fitness Center by Odoo"
+#~ msgstr "Odoon kuntokeskus"
+
+#~ msgid "Fitness Programs 🏋️‍♂️"
+#~ msgstr "Kunto-ohjelmat 🏋️‍♂️"

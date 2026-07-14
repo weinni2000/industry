@@ -2,13 +2,14 @@
 # This file contains the translation of the following modules:
 # * hair_salon
 #
-# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+# Dorin Hongu <dhongu@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 14:57+0000\n"
-"PO-Revision-Date: 2025-11-17 11:11+0000\n"
+"POT-Creation-Date: 2026-03-20 19:06+0000\n"
+"PO-Revision-Date: 2026-06-13 10:50+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Romanian <https://translate.odoo.com/projects/odoo-19/"
 "hair_salon/ro/>\n"
@@ -18,12 +19,52 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: hair_salon
 #: model:loyalty.reward,description:hair_salon.loyalty_reward_4
 msgid "$ 20 on your order"
 msgstr "20 $ la comanda ta"
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid ""
+"<b>Appointments App</b>: Allow clients to book specific services and "
+"stylists online, syncing directly with your\n"
+"                team's calendar to prevent double-booking."
+msgstr ""
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid ""
+"<b>Employees App</b>: specific stylist schedules and track attendance, "
+"ensuring you have the right talent\n"
+"                available for peak hours."
+msgstr ""
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid ""
+"<b>Inventory App</b>: Manage your stock of retail products (like shampoos "
+"and gels) and professional supplies\n"
+"                (like color tubes and developers) in real-time."
+msgstr ""
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid ""
+"<b>Point of Sale App</b>: Process payments quickly at the chair or front "
+"desk, handling tips, gift cards, and\n"
+"                product sales seamlessly."
+msgstr ""
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid ""
+"<b>Website App</b>: Showcase your portfolio of cuts and colors, list your "
+"services, and attract new clients with\n"
+"                a professional online presence."
+msgstr ""
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.homepage
@@ -34,10 +75,9 @@ msgid ""
 "font>"
 msgstr ""
 "<font class=\"text-o-color-3\">Programați o\n"
-"                                                                                    "
-"întâlnire\n"
-"                                                                            "
-"</font>"
+"                                                                                    întâlnire\n"
+"                                                                            </"
+"font>"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
@@ -55,6 +95,16 @@ msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
 msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
 
 #. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+#, fuzzy
+msgid ""
+"<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
+"fst-normal\" aria-label=\"Banner Warning\">⚠️</i>"
+msgstr ""
+"<i data-oe-aria-label=\"Banner Avertisment\" class=\"o_editor_banner_icon mb-"
+"3 fst-normal\" aria-label=\"Banner Avertisment\">⚠️</i>"
+
+#. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.homepage
 msgid "<span class=\"display-2-fs\">Step into our salon</span>"
 msgstr "<span class=\"display-2-fs\">Pășiți în salonul nostru</span>"
@@ -64,8 +114,8 @@ msgstr "<span class=\"display-2-fs\">Pășiți în salonul nostru</span>"
 msgid ""
 "<span class=\"display-4-fs\"><strong>Odoo for Hair Salons</strong></span>"
 msgstr ""
-"<span class=\"display-4-fs\"><strong>Odoo pentru saloane de "
-"coafură</strong></span>"
+"<span class=\"display-4-fs\"><strong>Odoo pentru saloane de coafură</"
+"strong></span>"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
@@ -79,6 +129,12 @@ msgstr "<span class=\"h1-fs\">Vrei să mergi mai departe?&amp;nbsp;🚀</span>"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+#, fuzzy
+msgid "<strong>Use case</strong>"
+msgstr "<strong>Caz de utilizare</strong>"
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
 msgid "Allow clients to book appointments online"
 msgstr "Permiteți clienților să programeze online"
 
@@ -86,11 +142,6 @@ msgstr "Permiteți clienților să programeze online"
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
 msgid "Appointment Scheduling &amp;amp; calendar 📆&amp;nbsp;"
 msgstr "Programare &amp;amp; calendar 📆&amp;nbsp;"
-
-#. module: hair_salon
-#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-msgid "Basics:&amp;nbsp;"
-msgstr "Noțiuni de bază:&amp;nbsp;"
 
 #. module: hair_salon
 #: model:appointment.type,name:hair_salon.appointment_type_6
@@ -112,10 +163,9 @@ msgid ""
 msgstr ""
 "Pentru că nimic nu este imposibil, iar transformările de păr sunt "
 "specialitatea salonului,\n"
-"                                                                            "
-"la Hair Salon Industry, fiecare client este tratat ca un\n"
-"                                                                            "
-"individ.&amp;nbsp;"
+"                                                                            la "
+"Hair Salon Industry, fiecare client este tratat ca un\n"
+"                                                                            individ.&amp;nbsp;"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.homepage
@@ -147,6 +197,7 @@ msgstr "Început pauză"
 #. module: hair_salon
 #: model:appointment.type,name:hair_salon.appointment_type_3
 #: model:product.template,name:hair_salon.product_product_27_product_template
+#, fuzzy
 msgid "Brushing"
 msgstr "Brushing"
 
@@ -154,6 +205,14 @@ msgstr "Brushing"
 #: model:appointment.type,name:hair_salon.appointment_type_7
 msgid "Brushing JP"
 msgstr "Brushing JP"
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid ""
+"By uploading this module's demo data, your database has been filled with a "
+"few products, sale\n"
+"        orders and more."
+msgstr ""
 
 #. module: hair_salon
 #: model:pos.category,name:hair_salon.pos_category_4
@@ -231,11 +290,6 @@ msgid "Discover your best look at our innovative hair salon."
 msgstr "Descoperă-ți cel mai bun look la salonul nostru inovator."
 
 #. module: hair_salon
-#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
-msgid "Do you want to go further?&amp;nbsp;🚀"
-msgstr "Vrei să mergi mai departe?&amp;nbsp;🚀"
-
-#. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.homepage
 msgid "Elevate your hair game."
 msgstr "Ridică-ți stilul la următorul nivel."
@@ -274,10 +328,10 @@ msgid ""
 msgstr ""
 "Experimentează transformarea supremă la salonul nostru, unde stilul "
 "întâlnește\n"
-"                                                                            "
-"inovația, iar fiecare șuviță spune o poveste de frumusețe.\n"
-"                                                                            <"
-"br/>"
+"                                                                            inovația, "
+"iar fiecare șuviță spune o poveste de frumusețe.\n"
+"                                                                            <br/"
+">"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.homepage
@@ -330,6 +384,12 @@ msgid "Hair Length"
 msgstr "Lungime păr"
 
 #. module: hair_salon
+#: model:base.automation,name:hair_salon.uninstall_hook_base_automation
+#: model:ir.actions.server,name:hair_salon.uninstall_hook_action_server
+msgid "Hair Salon: Uninstall Hook"
+msgstr ""
+
+#. module: hair_salon
 #: model:product.template,name:hair_salon.product_template_22
 msgid "Hair Spray - 250ml"
 msgstr "Fixativ - 250ml"
@@ -364,10 +424,9 @@ msgid ""
 "the service."
 msgstr ""
 "Aici, mai mult ca oriunde, ne facem timp să ascultăm și să oferim sfaturi,\n"
-"                                                                            "
-"pentru a oferi un moment de relaxare și satisfacție deplină la finalul\n"
-"                                                                            "
-"serviciului."
+"                                                                            pentru "
+"a oferi un moment de relaxare și satisfacție deplină la finalul\n"
+"                                                                            serviciului."
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
@@ -507,6 +566,14 @@ msgid ""
 msgstr ""
 "Odoo vă oferă posibilități infinite pentru a vă dezvolta afacerea de salon "
 "de coafură, precum:"
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid ""
+"Of course, this is just an overview of the features included in this "
+"package. Feel free to\n"
+"        add new apps, delete/modify demo data, and test everything around!"
+msgstr ""
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
@@ -782,6 +849,22 @@ msgstr ""
 "departe?"
 
 #. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid ""
+"You didn't import demo data? You can still do it. Go to Apps &gt; Industries "
+"&gt; Upgrade\n"
+"            your Hair Salon package and check the related box"
+msgstr ""
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid ""
+"You should be able to execute the following flows to have an overview of "
+"various flows you\n"
+"        can quickly execute with this package using Odoo."
+msgstr ""
+
+#. module: hair_salon
 #: model:ir.model.fields,field_description:hair_salon.x_visibility
 msgid "invisibility in gantt"
 msgstr "invizibilitate în gantt"
@@ -800,3 +883,9 @@ msgstr "Punct de vânzare"
 #: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
 msgid "🎓 Website"
 msgstr "🎓 Website"
+
+#~ msgid "Basics:&amp;nbsp;"
+#~ msgstr "Noțiuni de bază:&amp;nbsp;"
+
+#~ msgid "Do you want to go further?&amp;nbsp;🚀"
+#~ msgstr "Vrei să mergi mai departe?&amp;nbsp;🚀"

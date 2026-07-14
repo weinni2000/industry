@@ -9,7 +9,7 @@
     <function name="write" model="mrp.production">
         <value model="mrp.production" eval="obj().search([(
         'product_id', '=', ref('product_product_13')
-        )]).id"/>
+        )], limit=1).id"/>
         <value eval="{'lot_producing_ids': [ref('stock_lot_8')]}"/>
     </function>
 
@@ -51,18 +51,18 @@
     </function>
 
     <function name="button_mark_done" model="mrp.production">
-        <value model="mrp.production" eval="obj().search([('name', '=', 'Mayonnaise Production')]).id"/>
+        <value model="mrp.production" eval="obj().search([('name', '=', 'Mayonnaise Production')], limit=1).id"/>
     </function>
     <record id="move_line_1" model="stock.move.line">
         <field name="move_id" model="stock.move" eval="obj().search([
         ('order_finished_lot_ids', 'in', [ref('stock_lot_8')]),
         ('product_id', '=', ref('product_product_3'))
-        ]).id"/>
+        ], limit=1).id"/>
         <field name="lot_id" ref="stock_lot_7"/>
         <field name="product_id" ref="product_product_3"/>
         <field name="quantity">940.5</field>
     </record>
     <function name="button_mark_done" model="mrp.production">
-        <value model="mrp.production" eval="obj().search([('product_id', '=', ref('product_product_13'))]).id"/>
+        <value model="mrp.production" eval="obj().search([('product_id', '=', ref('product_product_13'))], limit=1).id"/>
     </function>
 </odoo>

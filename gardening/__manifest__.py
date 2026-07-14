@@ -29,6 +29,7 @@
         'data/knowledge_tour.xml',
     ],
     'demo': [
+        'demo/res_company.xml',
         'demo/res_partner.xml',
         'demo/res_user.xml',
         'demo/account_analytic_account.xml',
@@ -56,6 +57,7 @@
         "data/knowledge_article.xml",
         "static/src/js/my_tour.js",
     ],
+    'application': True,
     'images': ['images/main.png'],
     'url': "https://www.odoo.com/trial?industry&selected_app=gardening",
     'website': "https://www.odoo.com/industries/gardening",

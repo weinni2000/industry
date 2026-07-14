@@ -7,7 +7,7 @@
             </span>
         </h1>
         <p>Hello there!</p>
-        <p>You just installed the Odoo for Holiday House package. By doing so, we have installed a bunch of necessary apps to run your bar efficiently.</p>
+        <p>You just installed the Odoo for Holiday House package. By doing so, we have installed a bunch of necessary apps to run your business efficiently.</p>
         <p>Discover the basics of this package and explore all the possibilities Odoo offers to improve your experience.</p>
         <div data-oe-role="status" class="o_editor_banner user-select-none lh-1 d-flex align-items-center alert alert-info pb-0 pt-3 o-contenteditable-false">
             <i data-oe-aria-label="Banner Info" class="o_editor_banner_icon mb-3 fst-normal">💡</i>
@@ -107,16 +107,56 @@ The Holiday House App relies on the Rental and Planning Apps binding, with a few
                 <p>Alternatively, switch to the list view, which is more suitable if the booking is not during the visualized date range and update the booking date range.</p>
             </div>
         </div>
-        <h4>Blocking a house</h4>
-        <p>You are repairing a house or simply welcoming family and don't want guests to book a house?</p>
+        <h4>Enforcing weekly turnover</h4>
+        <p>Optimizing weekly turnover to maximize occupancy during peak season, you can align your bookings to a weekly rental pattern (e.g., Saturday to Saturday). By restricting check-ins and check-outs to specific days, you synchronize your housekeeping and eliminate calendar gaps.</p>
         <ul>
-            <li>Open the Holiday House App Schedule.</li>
-            <li>On the house to block line, click, drag and drop to create a slot.</li>
+            <li>Open the Settings App and navigate to the Rental section or search for "Unavailability days".</li>
+            <li>Then set the days during which you want to prevent check in and check out to take place, ex. All days but Saturday</li>
+            <li>Don't forget to save your setting changes.</li>
+        </ul>
+        <h4>Blocking resources</h4>
+        <p>You are repairing a house or simply welcoming family and don't want guests to book it?<br/>Alternatively, you are closing for a week during an inter season break?<br/>Let's have this reflected in your schedule!</p>
+        <p><strong>Multiple resource blocking / period closure</strong></p>
+        <ul>
+            <li>Open the Holiday House App and navigate to the Configuration / Leaves menu.</li>
+            <li>Create a new leave selecting the appropriate working schedule, the one from your stay resources.</li>
+            <li>Define start and end date time and save your leave.</li>
+        </ul>
+        <div class="o_editor_banner user-select-none o-contenteditable-false lh-1 d-flex align-items-center alert alert-success pb-0 pt-3" data-oe-role="status" contenteditable="false" role="status">
+            <i class="o_editor_banner_icon mb-3 fst-normal" data-oe-aria-label="Banner Success" aria-label="Banner Success">✅</i>
+            <div class="o_editor_banner_content o-contenteditable-true w-100 px-3" contenteditable="true">
+                <p>This blocks simulataneously all resources related to this working schedule during the prescribed period.</p>
+            </div>
+        </div>
+        <p><strong>Single resource blocking</strong></p>
+        <ul>
+            <li>Open the Holiday House App and navigate to the Configuration / Leaves menu.</li>
+            <li>Create a new leave the same way as previously, but this time specify the resource this applies to.</li>
+        </ul>
+        <p>Alternatively, you can create a slot as placeholder from the planning directly:</p>
+        <ul>
+            <li>On a resource to block line, click, drag and drop to create a slot.</li>
             <li>This time, simply leave a note about the why this is booked and save the slot.</li>
         </ul>
+        <div class="o_editor_banner user-select-none lh-1 d-flex align-items-center alert alert-warning pb-0 pt-3 o-contenteditable-false" data-oe-role="status" contenteditable="false" role="status">
+            <i class="o_editor_banner_icon mb-3 fst-normal" data-oe-aria-label="Banner Warning" aria-label="Banner Warning">⚠️</i>
+            <div class="w-100 px-3 o_editor_banner_content o-contenteditable-true" contenteditable="true">
+                <p>With the create slot for this resource, no overlapping booking slot would be created.<br/>Care about the start and end time or this blockage to make to re-open when suited.</p>
+            </div>
+        </div>
+        <div class="o_editor_banner user-select-none o-contenteditable-false lh-1 d-flex align-items-center alert alert-info pb-0 pt-3" data-oe-role="status" contenteditable="false" role="status">
+            <i class="o_editor_banner_icon mb-3 fst-normal" data-oe-aria-label="Banner Info" aria-label="Banner Info">💡</i>
+            <div class="o_editor_banner_content o-contenteditable-true w-100 px-3" contenteditable="true">
+                <p>Alternatively to individual resource blocking slots described earlier, you can select a resource this leave applies to.</p>
+            </div>
+        </div>
         <p>
-            <a href="https://www.odoo.com/documentation/latest/applications/sales/rental.html" class="btn btn-secondary">🎓 Rental</a>
-            <a class="btn btn-secondary" href="https://www.odoo.com/documentation/latest/applications/services/planning.html">🎓 Planning</a>
+            <a href="https://www.odoo.com/documentation/latest/applications/sales/rental.html"
+               class="btn btn-secondary">🎓Rental</a>
+            <a href="https://www.odoo.com/documentation/latest/applications/services/planning.html"
+               class="btn btn-secondary">🎓Planning</a>
+            <a href="https://apps.odoo.com/apps/modules/19.0/booking_engine"
+               class="btn btn-secondary">🎓Booking Engine</a>
         </p>
         <p>
             <br/>
@@ -142,10 +182,10 @@ The Holiday House App relies on the Rental and Planning Apps binding, with a few
             <li>Click the Check in button to confirm they are now staying at your place!</li>
         </ul>
         <h4>Trace guest attendance</h4>
-        <p>Recording the guest presence is an obligation in numerous countries.</p>
-        <ul>
-            <li>Still from their Rental Order, open the Guest tab.</li>
+        <p>Recording the guest attendance is an obligation in numerous countries.</p><ul>
+            <li>Still from their Rental Order, open the Guests tab.</li>
             <li>Add here as many of them as needed.</li>
+            <li>Assign them a resource, which helps you keeping track.</li>
         </ul>
         <h4>Record guest identity</h4>
         <p>You noticed that the Identity Check highlights whether you captured all the necessary information for a guest?</p>
@@ -191,10 +231,168 @@ The Holiday House App relies on the Rental and Planning Apps binding, with a few
     <p>
         <em>Don't forget to thank your guests with a warm goodbye!</em>
     </p>
+    <h4>Keep your guests satisfied</h4>
+    <ul>
+        <li>Open the Survey App to find the customer satisfaction survey.</li>
+        <li>In the Options tab, you can see it is made the customer satisfaction survey in the participants section.</li>
+    </ul>
+    <div
+        class="o_editor_banner user-select-none o-contenteditable-false lh-1 d-flex align-items-center alert alert-success pb-0 pt-3"
+        data-oe-role="status">
+        <i class="o_editor_banner_icon mb-3 fst-normal" data-oe-aria-label="Banner Success">✅</i>
+        <div class="o_editor_banner_content o-contenteditable-true w-100 px-3">
+            <p>
+                Any time you create a new survey and save it with the setting "is customer satisfaction survey", previous ones
+                will be archived so that it becomes your new default survey.
+            </p>
+        </div>
+    </div>
+    <ul>
+        <li>Configure the email delay as you wish the email to be sent after the guest checkout.</li>
+        <li>An automation is setup for an email to be sent automatically for you.</li>
+        <li>You can find the participants and answers from the smart buttons of the survey.</li>
+    </ul>
+    <div class="o_editor_banner user-select-none o-contenteditable-false lh-1 d-flex align-items-center alert alert-info pb-0 pt-3" data-oe-role="status">
+        <i class="o_editor_banner_icon mb-3 fst-normal" data-oe-aria-label="Banner Info">💡</i>
+        <div class="o_editor_banner_content o-contenteditable-true w-100 px-3">
+            <p>To ensure your guests no longer receive the satisfaction survey, you can easily archive it at any time.</p>
+        </div>
+    </div>
+    <p><em>Don't forget to check the results from time to time to make your guests happier!</em></p>
     <p>
         <a href="https://www.odoo.com/documentation/latest/applications/finance/accounting/taxes.html" class="btn btn-secondary">🎓 Taxes</a>
         <a class="btn btn-secondary" href="https://www.odoo.com/documentation/latest/applications/finance/accounting.html">🎓 Invoicing</a>
+        <a href="https://www.odoo.com/documentation/latest/applications/marketing/surveys.html" class="btn btn-secondary">🎓Surveys</a>
     </p>
+    <p><br/></p>
+    <h3>🚀 Strategic Oversight</h3>
+    <hr/>
+    <p>Beyond daily operations, the Steering menu serves as the "Captain’s Bridge" of your holiday houses. It provides a 500-day horizon to anticipate market trends, manage risks, and optimize your revenue.</p>
+    <div class="o_editor_banner user-select-none o-contenteditable-false lh-1 d-flex align-items-center alert alert-info pb-0 pt-3" data-oe-role="status">
+        <i class="o_editor_banner_icon mb-3 fst-normal" data-oe-aria-label="Banner Info">💡</i>
+        <div class="o_editor_banner_content o-contenteditable-true w-100 px-3">
+            <p>This capability is enabled by a setting you can set/unset.</p>
+        </div>
+    </div>
+    <h4>Monitoring success with occupancy</h4>
+    <p>The Occupancy view allows you to visualize your "Sales Success". It answers one simple question: <i>How well am I filling my holiday houses?</i></p>
+    <ul>
+        <li>Open the Steering menu and select Occupancy.</li>
+        <li>The Gantt chart is color-coded to reflect on the occupancy, the higher the better.</li>
+        <li>Access to more details clicking the slot.</li>
+    </ul>
+
+    <h4>Managing scarcity with availability</h4>
+    <p>While Occupancy focuses on what is full, the Availability view focuses on what is left to sell. It is your primary tool for operational safety and "Scarcity Pricing."</p>
+    <ul>
+        <li>Open the Steering menu and select Availability.</li>
+        <li>The Gantt chart is color-coded to reflect on the availability for you to work on filling in.</li>
+        <li>Access to more details clicking the slot.</li>
+    </ul>
+    <p><br/></p>
+    <h3 >🔢 Running multiple places</h3>
+    <hr/>
+    <p>You may be running multiple places at the same time and most likely be willing to run them all from the same database.<b/>We got you covered with this using multiple companies or branches!</p>
+    <h4>Managing your businesses</h4>
+    <ul>
+        <li>Open the <strong>Settings App</strong> and reach the companies from the menu Users &amp; Companies.</li>
+        <li>From there you can add new companies.</li>
+        <li>You can as well select your company and in the Branches tab define branches.</li>
+    </ul>
+
+    <div class="o_editor_banner user-select-none o-contenteditable-false lh-1 d-flex align-items-center alert alert-success pb-0 pt-3" data-oe-role="status">
+        <i class="o_editor_banner_icon mb-3 fst-normal" data-oe-aria-label="Banner Success">✅</i>
+        <div class="o_editor_banner_content o-contenteditable-true w-100 px-3">
+            <p>The strength of Odoo is to separate the accounting and many other aspects which are company dependent!</p>
+        </div>
+    </div>
+    <ul>
+        <li>Once defined, you can switch between companies or branches from the company selector at the top right of your screen.<br/>This will expose depending on where you are, only the selected companies and branches data.</li>
+    </ul>
+    <div class="o_editor_banner user-select-none o-contenteditable-false lh-1 d-flex align-items-center alert alert-info pb-0 pt-3" data-oe-role="status" contenteditable="false" role="status">
+        <i class="o_editor_banner_icon mb-3 fst-normal" data-oe-aria-label="Banner Info" aria-label="Banner Info">💡</i>
+        <div class="o_editor_banner_content o-contenteditable-true w-100 px-3">
+            <div class="o-paragraph">Each company can have its own website!</div>
+        </div>
+    </div>
+    <h4>Employee assignations</h4>
+    <p>Now that you have several companies or branches, you may want some of your employees to access only to some of them in case they always work in some of your places.</p>
+    <ul>
+        <li>Open the <strong>Settings App</strong> and reach the users from the menu Users &amp; Companies.</li>
+        <li>Select one of your employee.</li>
+        <li>From the Roles sections, you can select the companies and branches this employee shall have access to as well as the default one.</li>
+    </ul>
+    <h4>Adjusting your offers in consequence</h4>
+    <p>Two options are now available to you with multiple companies and branches:</p>
+    <ul>
+        <li>Share your stay offers across your companies and branches (default behavior);</li>
+        <li>Setup company or branch specific offers when relevant.</li>
+    </ul>
+    <p>In any case, the resources are company and branch dependent.</p>
+    <p><strong>Shared offers</strong></p>
+    <ul>
+        <li>Created offers are assigned no company nor branch (default behavior).<br/>As a result, they are available from all companies and branches, as well as all websites from those.</li>
+    </ul>
+    <div class="o_editor_banner user-select-none o-contenteditable-false lh-1 d-flex align-items-center alert alert-info pb-0 pt-3" data-oe-role="status" contenteditable="false" role="status">
+        <i class="o_editor_banner_icon mb-3 fst-normal" data-oe-aria-label="Banner Info" aria-label="Banner Info">💡</i>
+        <div class="o_editor_banner_content o-contenteditable-true w-100 px-3">
+            <div class="o-paragraph">They as well share the same pricing, defined at the stay offer level, which has its pros and cons.</div>
+        </div>
+    </div>
+    <p><strong>Company specific offers</strong></p>
+    <ul>
+        <li>When creating an offer, assign them a company or a branch.<br/>As a result, they are available only for the selected company or branch, and will be available only from its website.</li>
+    </ul>
+    <div class="o_editor_banner user-select-none o-contenteditable-false lh-1 d-flex align-items-center alert alert-info pb-0 pt-3" data-oe-role="status" contenteditable="false" role="status">
+        <i class="o_editor_banner_icon mb-3 fst-normal" data-oe-aria-label="Banner Info" aria-label="Banner Info">💡</i>
+        <div class="o_editor_banner_content o-contenteditable-true w-100 px-3">
+            <div class="o-paragraph">This setup is relevant in case of place specific offers or when pricing varies between places.</div>
+            <div class="o-paragraph">It enables each place manager to adjust the stay offers with greater flexibility without impacting other places.</div>
+        </div>
+    </div>
+    <p>
+        <a class="btn btn-secondary" href="https://www.odoo.com/documentation/latest/applications/general/companies.html">🎓
+            Companies</a>
+        <a href="https://www.odoo.com/documentation/latest/applications/websites/website/configuration/multi_website.html" class="btn btn-secondary">🎓
+            Websites</a>
+    </p>
+    <p>
+        <br/>
+    </p>
+    <h3>🧽 Managing house keeping</h3>
+        <hr/>
+        <p>On top of guest and stay management, you need to keep the place clean!</p>
+        <ul>
+            <li>Open the Board from the accommodation app, House Keeping menu.<br/>Here you have an
+                overview of the cleanness state of your resources.</li>
+            <li>Open now, the Tasks from the accommodation app, House Keeping menu.<br/>This is
+                the daily list of house keeping tasks to be tackled.</li>
+            <li>Open one, assign it to an employee to plan the house keeping of the day.</li>
+            <li>Employee would open the tasks from their hand and update the status until Clean.</li>
+        </ul>
+        <div
+            class="o_editor_banner user-select-none o-contenteditable-false lh-1 d-flex align-items-center alert alert-info pb-0 pt-3"
+            data-oe-role="status" contenteditable="false" role="status">
+            <i class="o_editor_banner_icon mb-3 fst-normal" data-oe-aria-label="Banner Info"
+                aria-label="Banner Info">💡</i>
+            <div class="o_editor_banner_content o-contenteditable-true w-100 px-3"
+                contenteditable="true">
+                <div class="o-paragraph">On a daily basis, house keeping tasks are created depending
+                    the current stays.</div>
+            </div>
+        </div>
+        <div
+            class="o_editor_banner user-select-none o-contenteditable-false lh-1 d-flex align-items-center alert alert-info pb-0 pt-3"
+            data-oe-role="status" contenteditable="false" role="status">
+            <i class="o_editor_banner_icon mb-3 fst-normal" data-oe-aria-label="Banner Info"
+                aria-label="Banner Info">💡</i>
+            <div class="o_editor_banner_content o-contenteditable-true w-100 px-3"
+                contenteditable="true">
+                <div class="o-paragraph">If using the house keeping approver setting, designated
+                    approvers can check each room and set their state to ready to close the tasks.</div>
+            </div>
+        </div>
+        <div class="o-paragraph"></div>
     <p>
         <br/>
     </p>

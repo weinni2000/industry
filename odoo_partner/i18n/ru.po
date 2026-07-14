@@ -3,13 +3,13 @@
 # * odoo_partner
 #
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
-# "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
+# "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 14:10+0000\n"
-"PO-Revision-Date: 2025-11-11 06:06+0000\n"
+"POT-Creation-Date: 2026-01-20 12:58+0000\n"
+"PO-Revision-Date: 2026-01-31 19:51+0000\n"
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
 "Language-Team: Russian <https://translate.odoo.com/projects/odoo-19/"
 "odoo_partner/ru/>\n"
@@ -19,12 +19,99 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: odoo_partner
 #: model:sale.order.template.line,name:odoo_partner.sale_order_template_line_19
 msgid "10 analysis workshops"
 msgstr "10 аналитических воркшопов"
+
+#. module: odoo_partner
+#: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
+msgid ""
+"<b>CRM App</b>: Manage your leads and opportunities in a dedicated pipeline, "
+"tracking stages from \"New Lead\"\n"
+"                    to \"Won\" efficiently."
+msgstr ""
+"<b>Модуль CRM</b>: Управляйте лидами и возможностями в специализированной "
+"воронке, эффективно отслеживая этапы от «Новый лид»\n"
+"                    до «Закрытая сделка»."
+
+#. module: odoo_partner
+#: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
+msgid ""
+"<b>Documents App</b>: Store and organize crucial client documents, "
+"contracts, and technical specifications\n"
+"                    in a secure, central repository."
+msgstr ""
+"<b>Модуль Документооборот</b>: Храните и систематизируйте важные документы "
+"клиентов, контракты и технические спецификации\n"
+"                    в защищенном централизованном хранилище."
+
+#. module: odoo_partner
+#: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
+msgid ""
+"<b>Helpdesk App</b>: Handle client support requests and tickets "
+"systematically, ensuring timely resolution and\n"
+"                high service levels."
+msgstr ""
+"<b>Модуль Поддержка</b>: Систематически обрабатывайте запросы клиентов и "
+"тикеты, гарантируя быстрое решение проблем и\n"
+"                высокий уровень сервиса."
+
+#. module: odoo_partner
+#: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
+msgid ""
+"<b>Planning App</b>: Schedule your consultants' and developers' workload to "
+"optimize resource allocation and\n"
+"                    prevent bottlenecks."
+msgstr ""
+"<b>Модуль Планирование</b>: Планируйте нагрузку консультантов и "
+"разработчиков, чтобы оптимизировать использование ресурсов и\n"
+"                    избежать задержек."
+
+#. module: odoo_partner
+#: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
+msgid ""
+"<b>Project App</b>: Manage Success Packs and large implementations with task "
+"management, milestones, and\n"
+"                    shared customer views."
+msgstr ""
+"<b>Модуль Проекты</b>: Управляйте пакетами услуг Success Pack и крупными "
+"проектами по внедрению с помощью инструментов для постановки задач, контроля "
+"вех и\n"
+"                    общего доступа к данным клиента."
+
+#. module: odoo_partner
+#: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
+msgid ""
+"<b>Sales App</b>: Create professional proposals using an advanced Quote "
+"Calculator and PDF Quote Builder to\n"
+"                    impress prospective clients."
+msgstr ""
+"<b>Модуль Продажи</b>: Создавайте профессиональные КП с помощью продвинутого "
+"калькулятора и конструктора коммерческих предложений в формате PDF,\n"
+"                    чтобы произвести впечатление на потенциальных клиентов."
+
+#. module: odoo_partner
+#: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
+msgid ""
+"<b>Sign App</b>: Send contracts and engagement letters for fast, legally "
+"binding digital signatures.<br/>"
+msgstr ""
+"<b>Модуль Подпись</b>: Отправляйте контракты и договоры об оказании услуг "
+"для быстрого получения юридически значимых электронных подписей.<br/>"
+
+#. module: odoo_partner
+#: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
+msgid ""
+"<b>Timesheets App</b>: Track billable hours spent on client projects to "
+"ensure accurate invoicing and\n"
+"                    profitability analysis."
+msgstr ""
+"<b>Модуль Табели</b>: Отслеживайте оплачиваемые часы, затраченные на "
+"клиентские проекты, для точного выставления счетов и\n"
+"                    анализа прибыльности."
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
@@ -116,11 +203,6 @@ msgstr "Анализ, оценка и подготовка отчетов"
 #: model:project.task.type,name:odoo_partner.project_task_type_15
 msgid "Backlog"
 msgstr "Бэклог"
-
-#. module: odoo_partner
-#: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
-msgid "Basics"
-msgstr "Основное"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
@@ -674,3 +756,6 @@ msgstr "🎓 Проекты"
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid "🎓 Sales"
 msgstr "🎓 Продажи"
+
+#~ msgid "Basics"
+#~ msgstr "Основное"

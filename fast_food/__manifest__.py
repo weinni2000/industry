@@ -1,6 +1,6 @@
 {
     'name': 'Fast Food',
-    'version': '1.0',
+    'version': '1.1',
     'category': 'Hospitality',
     'depends': [
         'account_followup',
@@ -17,8 +17,8 @@
     ],
     'data': [
         'data/res_config_settings.xml',
+        'data/pos_config.xml',
         'data/ir_attachment_pre.xml',
-        'data/pos_payment_method.xml',
         'data/product_category.xml',
         'data/uom_uom.xml',
         'data/product_product.xml',
@@ -29,12 +29,10 @@
         'data/knowledge_tour.xml',
     ],
     'demo': [
-        'demo/res_users.xml',
+        'demo/res_company.xml',
         'demo/pos_payment_method.xml',
         'demo/res_partner.xml',
         'demo/hr_employee.xml',
-        'demo/pos_config.xml',
-        'demo/res_config_settings.xml',
         'demo/loyalty_program.xml',
         'demo/kitchen_display.xml',
         'demo/stock_quant.xml',
@@ -58,6 +56,7 @@
     ],
     'license': 'OEEL-1',
     'author': 'Odoo S.A.',
+    'application': True,
     'images': ['images/main.png'],
     'url': "https://www.odoo.com/trial?industry&selected_app=fast_food",
     'website': "https://www.odoo.com/industries/fast-food",

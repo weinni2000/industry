@@ -1,5 +1,5 @@
 {
-    'name': 'Nonprofit organization',
+    'name': 'Nonprofit Organization',
     'version': '2.0',
     'category': 'Services',
     'depends': [
@@ -57,6 +57,7 @@
         'data/product_pricelist_item.xml',
     ],
     'demo': [
+        'demo/res_company.xml',
         'demo/qweb_view.xml',
         'demo/website_page.xml',
         'demo/website_menu.xml',
@@ -97,6 +98,7 @@
         "data/qweb_view.xml",
         "demo/qweb_view.xml",
     ],
+    'application': True,
     'images': ['images/main.png'],
     'url': "https://www.odoo.com/trial?industry&selected_app=non_profit_organization",
     'website': "https://www.odoo.com/industries/nonprofit-organization",

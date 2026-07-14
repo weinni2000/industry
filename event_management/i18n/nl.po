@@ -3,15 +3,16 @@
 # * event_management
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# Bren Driesen <brdri@odoo.com>, 2025.
+# Bren Driesen <brdri@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Erwin van der Ploeg <erwin@odooexperts.nl>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 09:48+0000\n"
-"PO-Revision-Date: 2025-11-17 11:11+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-04-10 19:08+0000\n"
+"PO-Revision-Date: 2026-05-30 09:39+0000\n"
+"Last-Translator: Bren Driesen <brdri@odoo.com>\n"
 "Language-Team: Dutch <https://translate.odoo.com/projects/odoo-19/"
 "event_management/nl/>\n"
 "Language: nl\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.homepage
@@ -37,14 +38,9 @@ msgstr ""
 "evenementen die inspireren én verbinden."
 
 #. module: event_management
-#: model_terms:ir.ui.view,arch_db:event_management.ir_ui_view_3936
-msgid "+1 (650) 555-0187"
-msgstr "+1 (650) 555-0187"
-
-#. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid ", and feel free to"
-msgstr "en voel je vrij om"
+msgstr "te duiken. Je kunt ook een"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -264,7 +260,7 @@ msgstr "<span class=\"h1-fs\"><strong>Basis</strong></span>"
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid ""
 "<span class=\"h1-fs\"><strong>Do you want to go further?</strong></span>"
-msgstr "<span class=\"h1-fs\"><strong>Wil je verder gaan?</strong></span>"
+msgstr "<span class=\"h1-fs\"><strong>Wil je nog verder gaan?</strong></span>"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.homepage
@@ -731,8 +727,8 @@ msgid ""
 "allows you to choose your own catering service, or <strong>“NO”</strong> if "
 "you must use the venue’s catering."
 msgstr ""
-"Voeg specifieke tags toe zoals <strong>'Vrije Catering: JA'</strong> als je "
-"zelf een cateraar mag kiezen, of <strong>'NEE'</strong> als je verplicht "
+"Voeg specifieke labels toe zoals <strong>'Vrije Catering: JA'</strong> als "
+"je zelf een cateraar mag kiezen, of <strong>'NEE'</strong> als je verplicht "
 "bent de catering van de locatie te gebruiken."
 
 #. module: event_management
@@ -827,7 +823,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "Assign a priority level to your opportunity and responsible employee."
 msgstr ""
-"Ken een prioriteitsniveau toe aan je kans en de verantwoordelijke medewerker."
+"Ken een prioriteitsniveau en de verantwoordelijke medewerker toe aan de "
+"verkoopkans."
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -863,9 +860,9 @@ msgid ""
 "complete all essential information to have a comprehensive overview of each "
 "venue when planning events."
 msgstr ""
-"Voeg deze informatie direct toe aan de notities van het betreffende contact "
-"en vul alle essentiële informatie in om een volledig overzicht te hebben van "
-"elke locatie bij het plannen van evenementen."
+"Voeg deze informatie rechtstreeks toe aan de notities van het betreffende "
+"contact en vul alle essentiële informatie in om een volledig overzicht te "
+"hebben van elke locatie bij het plannen van evenementen."
 
 #. module: event_management
 #: model_terms:hr.job,website_description:event_management.hr_job_1
@@ -1253,7 +1250,7 @@ msgstr "Ontdek onze producten."
 #. module: event_management
 #: model:project.task.type,name:event_management.project_task_type_22
 msgid "Done"
-msgstr "Gereed"
+msgstr "Voltooid"
 
 #. module: event_management
 #: model_terms:event.event,description:event_management.event_event_1
@@ -1433,7 +1430,7 @@ msgstr "Eventfotograaf"
 #: model_terms:hr.job,website_description:event_management.hr_job_4
 #: model_terms:hr.job,website_description:event_management.hr_job_5
 msgid "Expand your knowledge of various business industries"
-msgstr "Vergroot je kennis van verschillende bedrijfssectoren"
+msgstr "Vergroot je kennis van verschillende bedrijfstakken"
 
 #. module: event_management
 #: model_terms:hr.job,website_description:event_management.hr_job_1
@@ -1548,7 +1545,7 @@ msgstr "Ervaring in Google Adwords"
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "Google Calendar Integration"
-msgstr "Google Kalender integratie"
+msgstr "Integratie met Google Calendar"
 
 #. module: event_management
 #: model_terms:hr.job,website_description:event_management.hr_job_1
@@ -1719,8 +1716,8 @@ msgstr "Vacatures"
 msgid ""
 "Keep your team aligned with shared calendars using <strong>Calendar</strong>."
 msgstr ""
-"Houd je team op één lijn met gedeelde agenda’s via de app <strong>Kalender</"
-"strong>."
+"Houd je hele team op de hoogte met gedeelde agenda’s via de app "
+"<strong>Agenda</strong>."
 
 #. module: event_management
 #: model_terms:hr.job,description:event_management.hr_job_5
@@ -1833,13 +1830,14 @@ msgid ""
 "Manage logistics and equipment rentals smoothly with <strong>Rental</strong> "
 "and <strong>Inventory</strong>, ensuring item availability."
 msgstr ""
-"Beheer logistiek en apparatuurverhuur soepel met <strong>Verhuur</strong> en "
-"<strong>Voorraad</strong>, zodat items beschikbaar zijn."
+"Met <strong>Verhuur</strong> en <strong>Voorraad</strong> beheer logistiek "
+"en verhuur van materialen eenvoudig en zorg je ervoor dat items altijd "
+"beschikbaar zijn."
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "Manage purchases and supplier orders"
-msgstr "Beheer aankopen en bestellingen bij leveranciers"
+msgstr "Inkoop en bestellingen bij leveranciers beheren"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -1873,7 +1871,7 @@ msgstr "Beheer je agenda met de Kalender-app"
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "Manage your business opportunities"
-msgstr "Beheer je zakelijke kansen"
+msgstr "Verkoopkansen beheren"
 
 #. module: event_management
 #: model_terms:hr.job,website_description:event_management.hr_job_1
@@ -1973,8 +1971,8 @@ msgid ""
 "Odoo is entirely integrated into an App. Download it to turn your phone to "
 "manage your entire business in it."
 msgstr ""
-"Odoo is volledig geïntegreerd in een App. Download hem om je telefoon om te "
-"zetten en je hele bedrijf erin te beheren."
+"Odoo is volledig geïntegreerd in een app. Download de app om je hele bedrijf "
+"vanaf je telefoon te kunnen beheren."
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -1984,7 +1982,7 @@ msgid ""
 "everything around!"
 msgstr ""
 "Dit is natuurlijk slechts een overzicht van de functies in dit pakket. Je "
-"kan gerust nieuwe apps toevoegen, demogegevens verwijderen/wijzigen en alles "
+"kan gerust nieuwe apps toevoegen, demodata verwijderen/wijzigen en alles "
 "uitproberen!"
 
 #. module: event_management
@@ -2041,8 +2039,8 @@ msgid ""
 "Organize your network of venues, suppliers, and partners with detailed "
 "profiles in <strong>Contacts</strong>."
 msgstr ""
-"Organiseer je netwerk van locaties, leveranciers en partners met "
-"gedetailleerde profielen in <strong>Contacten</strong>."
+"Beheer je netwerk van locaties, leveranciers en partners met gedetailleerde "
+"profielen in <strong>Contacten</strong>."
 
 #. module: event_management
 #: model_terms:hr.job,website_description:event_management.hr_job_1
@@ -2056,12 +2054,12 @@ msgstr "Ons product"
 #. module: event_management
 #: model:crm.tag,name:event_management.crm_tag_5
 msgid "Outdoor"
-msgstr "Outdoor"
+msgstr "Buiten"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "Outlook Integration"
-msgstr "Outlook Integratie"
+msgstr "Integratie met Outlook"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.contactus
@@ -2129,8 +2127,8 @@ msgid ""
 "Plan activities like a discovery call, task to check venue availability, or "
 "meeting."
 msgstr ""
-"Plan activiteiten zoals een kennismakingsgesprek, taak om "
-"locatiebeschikbaarheid te controleren, of vergadering."
+"Plan activiteiten zoals een kennismakingsgesprek, een taak om "
+"locatiebeschikbaarheid te controleren, of een vergadering."
 
 #. module: event_management
 #: model_terms:product.template,description:event_management.product_product_27_product_template
@@ -2558,13 +2556,12 @@ msgid ""
 "logistics, and invoicing clients."
 msgstr ""
 "Deze reeks applicaties is speciaal ontworpen voor bedrijven in de "
-"evenementenbranche, of je nu bedrijfsretraites, outdoor teambuildings, "
-"workshops & seminars of sportuitdagingen organiseert. Odoo brengt alles "
-"samen wat je\n"
-"        nodig hebt om je bedrijf op één plek te beheren: van het ontvangen "
-"van klantverzoeken en het versturen van aantrekkelijke offertes, tot het "
-"plannen van personeel, het regelen van de logistiek en het factureren van "
-"klanten."
+"evenementensector, of je nu bedrijfsretraites, outdoor teambuildings, "
+"workshops &amp; seminars of sportuitdagingen organiseert. Odoo brengt alles "
+"samen wat je nodig hebt om je bedrijf op één plek te beheren: van het "
+"ontvangen van klantverzoeken en het versturen van aantrekkelijke offertes, "
+"tot het plannen van personeel, het regelen van de logistiek en het "
+"factureren van klanten."
 
 #. module: event_management
 #: model_terms:event.event,description:event_management.event_event_2
@@ -2663,8 +2660,8 @@ msgid ""
 "Use <strong>tags</strong> to organize your contact database efficiently "
 "(e.g., Catering, Venue, Photographer)."
 msgstr ""
-"Gebruik <strong>tags</strong> om je contactenbestand efficiënt te "
-"organiseren (bijv. Catering, Locatie, Fotograaf)."
+"Gebruik <strong>labels</strong> om je contactenbestand efficiënt te "
+"organiseren (bv. Catering, Locatie, Fotograaf)."
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -2703,7 +2700,7 @@ msgstr ""
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "Using down payments for Event Booking:"
-msgstr "Aanbetalingen gebruiken voor eventreserveringen:"
+msgstr "Aanbetalingen bij het boeken van evenementen:"
 
 #. module: event_management
 #: model_terms:hr.job,website_description:event_management.hr_job_1
@@ -2870,6 +2867,11 @@ msgid "Would you like to discuss your Odoo setup with us or go even further?"
 msgstr "Wil je je Odoo-configuratie met ons bespreken of nog verder uitbouwen?"
 
 #. module: event_management
+#: model_terms:ir.ui.view,arch_db:event_management.ir_ui_view_3936
+msgid "X"
+msgstr "X"
+
+#. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid ""
 "You can access every installed App in your Odoo database on your main "
@@ -2887,8 +2889,8 @@ msgid ""
 msgstr ""
 "Je kunt <strong>waarschuwingen</strong> toevoegen voor je leveranciers om je "
 "team te herinneren aan belangrijke voorwaarden. Bijvoorbeeld: 'Leverancier "
-"vereist 2 weken opzegtermijn voor grote bestellingen' zorgt voor tijdige "
-"planning en soepele leveringen."
+"minstens 2 weken op voorhand contacteren voor grote bestellingen' zorgt voor "
+"tijdige planning en soepele leveringen."
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -2938,8 +2940,9 @@ msgid ""
 "You didn't import demo data? You can still do it. Go to Apps &gt; Industries "
 "&gt; Upgrade your Event Management package and check the related box."
 msgstr ""
-"Heb je geen demogegevens geïmporteerd? Dat kan je nog doen. Ga naar Apps > "
-"Industrieën > Upgrade je Eventbeheer-pakket en vink het vakje aan."
+"Heb je geen demodata geïmporteerd? Dat kan nog steeds. Ga naar Apps &gt; "
+"Bedrijfstakken &gt; Upgrade je Eventmanagement-pakket en vink het "
+"betreffende vakje aan."
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -3031,6 +3034,9 @@ msgstr "zomer"
 #: model:crm.tag,name:event_management.crm_tag_1
 msgid "wedding"
 msgstr "bruiloft"
+
+#~ msgid "+1 (650) 555-0187"
+#~ msgstr "+1 (650) 555-0187"
 
 #~ msgid "Administrative Work"
 #~ msgstr "Administratief werk"

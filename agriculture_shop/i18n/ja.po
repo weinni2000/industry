@@ -6,14 +6,14 @@
 # Tiffany Chang, 2024
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# "Junko Augias (juau)" <juau@odoo.com>, 2025.
+# "Junko Augias (juau)" <juau@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-28 10:42+0000\n"
-"PO-Revision-Date: 2025-11-20 09:41+0000\n"
+"POT-Creation-Date: 2026-01-12 09:28+0000\n"
+"PO-Revision-Date: 2026-07-02 14:09+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-19/"
 "agriculture_shop/ja/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: agriculture_shop
 #: model:crm.tag,name:agriculture_shop.crm_tag_28
@@ -149,37 +149,56 @@ msgstr "5 L"
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid ""
 "<b>\n"
-"                    <font class=\"text-o-color-1\">The Invoice App:</font>\n"
-"                </b> Keep a\n"
-"                clear record of all your invoices."
-msgstr ""
-"<b>\n"
-"                    <font class=\"text-o-color-1\">請求アプリ:</font>\n"
-"                </b>すべての請求書について\n"
-"                明確な記録を残しましょう。"
-
-#. module: agriculture_shop
-#: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
-msgid ""
-"<b>\n"
-"                    <font class=\"text-o-color-1\">The Point Of Sales App:</"
-"font>\n"
-"                </b>Manage\n"
-"                all your shop operations."
-msgstr ""
-"<b>\n"
-"                    <font class=\"text-o-color-1\">POSアプリ:</font>\n"
-"                </b>あらゆる店舗オペレーション\n"
-"                 を一括管理します。"
-
-#. module: agriculture_shop
-#: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
-msgid ""
-"<b>\n"
 "                    SEO features</b>"
 msgstr ""
 "<b>\n"
 "                    SEO機能</b>"
+
+#. module: agriculture_shop
+#: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
+msgid ""
+"<b><font class=\"text-o-color-1\">Inventory App:</font></b> Keep precise "
+"track of stock levels for diverse products\n"
+"                like pesticides and equipment."
+msgstr ""
+
+#. module: agriculture_shop
+#: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
+msgid ""
+"<b><font class=\"text-o-color-1\">Point of Sale App:</font></b> Manage in-"
+"store transactions efficiently, handling sales of seeds, tools, and supplies "
+"with ease."
+msgstr ""
+
+#. module: agriculture_shop
+#: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
+msgid ""
+"<b><font class=\"text-o-color-1\">Purchase App:</font></b> Streamline the "
+"procurement of farming products from suppliers, managing costs and lead "
+"times."
+msgstr ""
+
+#. module: agriculture_shop
+#: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
+msgid ""
+"<b><font class=\"text-o-color-1\">Sales App:</font></b> Handle B2B orders "
+"and contracts for large farming clients, ensuring accurate pricing."
+msgstr ""
+
+#. module: agriculture_shop
+#: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
+msgid ""
+"<b><font class=\"text-o-color-1\">Website App:</font></b><font class=\"text-"
+"o-color-3\"> Build a professional online presence to showcase your catalog "
+"and attract new customers.</font>"
+msgstr ""
+
+#. module: agriculture_shop
+#: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
+msgid ""
+"<b><font class=\"text-o-color-1\">eCommerce App:</font></b> Expand your "
+"reach by selling products online, offering convenience to modern farmers."
+msgstr ""
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -209,8 +228,8 @@ msgid ""
 "                    as it does for a regular e-commerce order."
 msgstr ""
 "<b>自動配送:</b> 見積もりが承諾されたら\n"
-"                    "
-"システムは自動的にリンクした<b>配送オーダ</b>を作成します。\n"
+"                    システムは自動的にリンクした<b>出荷オーダ</b>を作成します"
+"。\n"
 "                    これは通常のeコマースオーダと同様です。"
 
 #. module: agriculture_shop
@@ -221,8 +240,8 @@ msgid ""
 "opportunity</b>."
 msgstr ""
 "<b>リクエストの取得:</b> <b>\"お問い\n"
-"                    合わせ\"</b> ページ経由での送信内容はすべて "
-"<b>CRM案件</b>を即座に作詞します。"
+"                    合わせ\"</b> ページ経由での送信内容はすべて <b>CRM案件</"
+"b>を即座に作詞します。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -235,11 +254,10 @@ msgid ""
 "                    required for ordering, etc.)."
 msgstr ""
 "<b>重要なレビュー</b> すべての\n"
-"                    "
-"Eコマースの設定を見直し、社内のビジネス・ポリシーに合致していることを確認する"
-"必要があります。\n"
-"                    (例：請求書の発行時や、"
-"オーダ時に顧客のチェックインが必須か\n"
+"                    Eコマースの設定を見直し、社内のビジネス・ポリシーに合致し"
+"ていることを確認する必要があります。\n"
+"                    (例：請求書の発行時や、オーダ時に顧客のチェックインが必須"
+"か\n"
 "                    どうかなど)。"
 
 #. module: agriculture_shop
@@ -252,10 +270,10 @@ msgid ""
 "upon login."
 msgstr ""
 "<b>B2B価格の定義:</b>各B2B連絡先に <b>専用の\n"
-"                    価格表</b>を作成し、割り当てます。 "
-"顧客がログインした際に合意済みの価格が表示されるよう、\n"
-"                    "
-"この価格表がウェブサイト上で有効になっていることを確認してください。"
+"                    価格表</b>を作成し、割り当てます。 顧客がログインした際に"
+"合意済みの価格が表示されるよう、\n"
+"                    この価格表がウェブサイト上で有効になっていることを確認し"
+"てください。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -266,8 +284,8 @@ msgid ""
 "                    their costs."
 msgstr ""
 "<b>配送方法:</b> <b>ウェブサイト &gt;\n"
-"                    設定および配送方法</b>に行き、"
-"すべての利用可能なオプション\n"
+"                    設定および配送方法</b>に行き、すべての利用可能なオプショ"
+"ン\n"
 "                    とその料金を設定します。"
 
 #. module: agriculture_shop
@@ -288,8 +306,8 @@ msgid ""
 "                            carriers."
 msgstr ""
 "<b>外部プロバイダー:</b> 特定の\n"
-"                            特定の配送業者と連携する 場合は、"
-"あらかじめ定義されたOdoo接続が 存在するかを\n"
+"                            特定の配送業者と連携する 場合は、あらかじめ定義さ"
+"れたOdoo接続が 存在するかを\n"
 "                            ご確認ください。"
 
 #. module: agriculture_shop
@@ -300,8 +318,8 @@ msgid ""
 "                maintenance services</b>."
 msgstr ""
 "<b>フィールドサービス:</b> <b>出張修理や整備保守\n"
-"                "
-"サービスを提供</b>している場合はこのモジュールを実装してください。"
+"                サービスを提供</b>している場合はこのモジュールを実装してくだ"
+"さい。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -314,8 +332,8 @@ msgstr ""
 "<b>店頭受け取り (クリック &amp;コレクト):</b>\n"
 "                            この機能を提供するには、まず <b>設定を有効化(</"
 "b> \n"
-"                            <b>ウェブサイト管理設定</b>内) "
-"する必要があります。"
+"                            <b>ウェブサイト管理設定</b>内) する必要がありま"
+"す。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -330,8 +348,8 @@ msgid ""
 "editor</b>."
 msgstr ""
 "<b>レイアウト設定:</b> ビジュアルプレゼンテーションやプロダクトの\n"
-"                    レイアウトを調整するには "
-"<b>ウェブサイトエディタ</b>を活用します。"
+"                    レイアウトを調整するには <b>ウェブサイトエディタ</b>を活"
+"用します。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -342,8 +360,8 @@ msgid ""
 "                            value."
 msgstr ""
 "<b>ロイヤリティプログラム:</b> <b>ロイヤリティカード</b>を導入し\n"
-"                            <b>顧客の定着</b>を促し、"
-"ライフタイムバリューを高めるための\n"
+"                            <b>顧客の定着</b>を促し、ライフタイムバリューを高"
+"めるための\n"
 "                            主要な戦略として 活用しましょう。"
 
 #. module: agriculture_shop
@@ -356,10 +374,10 @@ msgid ""
 "times.)</i>"
 msgstr ""
 "<b>手動トリガ</b>により、需要が\n"
-"                    "
-"在庫の<b>補充ビュー</b>に表示され、確認できるようになります。 <i>(注:\n"
-"                    "
-"再オーダ規則は設定されたリードタイムと連動して機能します。)</i>"
+"                    在庫の<b>補充ビュー</b>に表示され、確認できるようになりま"
+"す。 <i>(注:\n"
+"                    再オーダ規則は設定されたリードタイムと連動して機能しま"
+"す。)</i>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -370,9 +388,8 @@ msgid ""
 "aware stock follow-up."
 msgstr ""
 "<b>最適な在庫管理</b> は、<b>再オーダ規則と提案補充\n"
-"            "
-"の両方を組み合わせ</b>、確実に包括的で予測を意識した在庫フォローアップを実現"
-"します。"
+"            の両方を組み合わせ</b>、確実に包括的で予測を意識した在庫フォロー"
+"アップを実現します。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -385,10 +402,10 @@ msgid ""
 "                    etc.)."
 msgstr ""
 "<b>決済プロバイダーと支払方法:</b> <b>ウェブサイト\n"
-"                    &gt; 設定 &gt; 決済プロバイダー</b>に移動し、 "
-"<b>すべての</b>支払\n"
-"                     方法およびプロバイダーをインストールします "
-"(例：クレジットカードプロセッサ、PayPal\n"
+"                    &gt; 設定 &gt; 決済プロバイダー</b>に移動し、 <b>すべての"
+"</b>支払\n"
+"                     方法およびプロバイダーをインストールします (例：クレジッ"
+"トカードプロセッサ、PayPal\n"
 "                    など)。"
 
 #. module: agriculture_shop
@@ -407,8 +424,8 @@ msgid ""
 "<b>Point of Sale Category:</b> For organizing\n"
 "                    transactions within your shop system."
 msgstr ""
-"<b>POS カテゴリ：</b> ショップシステム内の\n"
-"                    ショップシステム内の取引を整理・管理します。"
+"<b>POSカテゴリ：</b> 店舗システム内の\n"
+"                    店舗システム内の取引を整理・管理します。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -421,8 +438,8 @@ msgid ""
 msgstr ""
 "<b>価格表のセグメント化:</b> 同じプロダクトに対して\n"
 "                            ビジネスモデル別 (例：B2B/B2C)の価格を定義し、\n"
-"                            同じプロダクトに対して "
-"<b>顧客別の価格契約にも対応</b>できます。"
+"                            同じプロダクトに対して <b>顧客別の価格契約にも対"
+"応</b>できます。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -440,8 +457,8 @@ msgid ""
 "                    settings directly on the <b>product form</b>."
 msgstr ""
 "<b>プロダクトレベルの設定：</b> プロダクトレベルの設定：コアプロダクト\n"
-"                    <b> プロダクトフォーム</b> "
-"上で、中核となるプロダクト設定を直接定義します。"
+"                    <b> プロダクトフォーム</b> 上で、中核となるプロダクト設定"
+"を直接定義します。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -452,8 +469,8 @@ msgid ""
 "                            reductions</b> at the point of sale."
 msgstr ""
 "<b>プロモーションの重要性:</b> <b>割引やプロモーション</b>を活用することで\n"
-"                            セールイベントにあわせた価格調整や、POSでの<b>"
-"手動による\n"
+"                            セールイベントにあわせた価格調整や、POSでの<b>手"
+"動による\n"
 "                            値引き</b>を迅速に行うことができます。"
 
 #. module: agriculture_shop
@@ -475,9 +492,9 @@ msgid ""
 "information."
 msgstr ""
 "<b>リードを特定する:</b> CRMの案件を通して\n"
-"                    "
-"顧客とコミュニケーションをとり、特定のプロダクトを求めているのか、仕入先に関"
-"する問い合わせなのか、あるいは一般的な情報を求めているのかなど、\n"
+"                    顧客とコミュニケーションをとり、特定のプロダクトを求めて"
+"いるのか、仕入先に関する問い合わせなのか、あるいは一般的な情報を求めているの"
+"かなど、\n"
 "                    顧客の要望を正確に把握しましょう。"
 
 #. module: agriculture_shop
@@ -489,43 +506,15 @@ msgid ""
 "                    client can then <b>confirm and sign it online</b>."
 msgstr ""
 "<b>見積もりと確認:</b>特定の\n"
-"                    "
-"リクエストに対して、価格提示が必要な場合は、<b>案件から直接見積もりを生成</b>"
-"できます。\n"
-"                    "
-"顧客は見積書を<b>オンラインで確認して署名する</b>ことができます。"
+"                    リクエストに対して、価格提示が必要な場合は、<b>案件から直"
+"接見積もりを生成</b>できます。\n"
+"                    顧客は見積書を<b>オンラインで確認して署名する</b>ことがで"
+"きます。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "<b>Use the</b>"
 msgstr "<b>以下を使用：</b>"
-
-#. module: agriculture_shop
-#: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
-msgid ""
-"<font class=\"text-o-color-1\">\n"
-"                        <b>The CRM &amp; Sales App's:</b>\n"
-"                    </font> Manage all your\n"
-"                    client contacts and quotations."
-msgstr ""
-"<font class=\"text-o-color-1\">\n"
-"                        <b>CRMと販売アプリ:</b>\n"
-"                    </font>べての顧客の連絡先と\n"
-"                     見積もりを管理します。"
-
-#. module: agriculture_shop
-#: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
-msgid ""
-"<font class=\"text-o-color-1\">\n"
-"                        <b>The Website App:</b>\n"
-"                    </font> Use this app as a virtual\n"
-"                    showroom and a powerful tool for generating new leads."
-msgstr ""
-"<font class=\"text-o-color-1\">\n"
-"                        <b>ウェブサイトアプリ:</b>\n"
-"                    </font>バーチャル\n"
-"                    ショールームとして活用し、新規リードを獲得するための "
-"強力なツールとしてご利用ください。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -536,8 +525,8 @@ msgid ""
 "                </strong></font>"
 msgstr ""
 "<font color=\"#343541\"> <strong>\n"
-"                    <font class=\"text-o-color-1\""
-">Odoo農業資材店パッケージへようこそ。</font>\n"
+"                    <font class=\"text-o-color-1\">Odoo農業資材店パッケージへ"
+"ようこそ。</font>\n"
 "                </strong></font>"
 
 #. module: agriculture_shop
@@ -579,8 +568,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">💡</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Info\">💡</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">💡</i>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -588,8 +577,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">🚀</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Info\">🚀</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">🚀</i>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -597,8 +586,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">✅</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Success\">✅</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\">✅</i>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -606,8 +595,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">🚀</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Success\">🚀</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\">🚀</i>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -615,8 +604,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\">⚠️</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Warning\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
+"<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
+"fst-normal\">⚠️</i>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.pricing
@@ -635,6 +624,9 @@ msgid ""
 "                <strong>Agricultural Store</strong>\n"
 "            </span>"
 msgstr ""
+"<span class=\"display-4-fs\">\n"
+"                <strong>農業資材店</strong>\n"
+"            </span>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -663,22 +655,22 @@ msgstr ""
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "<span class=\"h2-fs\">Manage your products️ and inventory 📦</span>"
-msgstr ""
+msgstr "<span class=\"h2-fs\">プロダクトと在庫管理 📦</span>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "<span class=\"h2-fs\">Manage your website 🌐</span>"
-msgstr ""
+msgstr "<span class=\"h2-fs\">ウェブサイト管理🌐</span>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "<span class=\"h2-fs\">Selling Online 💻️</span>"
-msgstr ""
+msgstr "<span class=\"h2-fs\">オンライン販売 💻️</span>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "<span class=\"h2-fs\">Selling in the Store 🛍️</span>"
-msgstr ""
+msgstr "<span class=\"h2-fs\">店舗での販売 🛍️</span>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -687,6 +679,9 @@ msgid ""
 "                <strong>Method A: Reordering Rules</strong>\n"
 "            </span>"
 msgstr ""
+"<span class=\"h5-fs\">\n"
+"                <strong>方法A: 再オーダ規則</strong>\n"
+"            </span>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -695,6 +690,9 @@ msgid ""
 "                <strong>Method B: Suggested Replenishment</strong>\n"
 "            </span>"
 msgstr ""
+"<span class=\"h5-fs\">\n"
+"                <strong>方法B: 補充の提案</strong>\n"
+"            </span>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.pricing
@@ -816,17 +814,17 @@ msgstr ""
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "<span style=\"font-weight: normal;\">🎓 CRM</span>"
-msgstr ""
+msgstr "<span style=\"font-weight: normal;\">🎓 CRM</span>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "<span style=\"font-weight: normal;\">🎓 Delivery Methods</span>"
-msgstr ""
+msgstr "<span style=\"font-weight: normal;\">🎓 配送方法</span>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "<span style=\"font-weight: normal;\">🎓 Hardware</span>"
-msgstr ""
+msgstr "<span style=\"font-weight: normal;\">🎓 ハードウェア</span>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -836,7 +834,7 @@ msgstr "<span style=\"font-weight: normal;\">🎓 再オーダ規則</span>"
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "<span style=\"font-weight: normal;\">🎓 Sales</span>"
-msgstr ""
+msgstr "<span style=\"font-weight: normal;\">🎓 販売</span>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -848,6 +846,12 @@ msgid ""
 "specific weight, and the\n"
 "                final price will be calculated immediately.<br/>"
 msgstr ""
+"<strong/>販売時点管理(POS)でオーダを開始するには\n"
+"                すべての商品をスキャンまたは選択してください。量り売り(グラム"
+"または\n"
+"                キログラム)で販売されるプロダクトの場合、自動的にウィンドウが"
+"表示されます。具体的な重量\n"
+"                を入力すると、最終価格が即座に計算されます。<br/>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -856,31 +860,34 @@ msgid ""
 "                <u>Process</u>\n"
 "            </strong>"
 msgstr ""
+"<strong>\n"
+"                <u>プロセス</u>\n"
+"            </strong>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "<u>1. Configure Products and Their Display</u>"
-msgstr ""
+msgstr "<u>1. プロダクトとその表示の設定</u>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "<u>1. Create and Categorize Products</u>"
-msgstr ""
+msgstr "<u>1. プロダクトを作成し分類する</u>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "<u>2. Define Replenishment Methods</u>"
-msgstr ""
+msgstr "<u>2. 補充方法を定義する</u>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "<u>2. Review General E-commerce Policies</u>"
-msgstr ""
+msgstr "<u>2. 一般的な電子商取引ポリシーを確認する</u>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "<u>3. Set Up Payment and Delivery</u>"
-msgstr ""
+msgstr "<u>3. 支払いと配送を設定する</u>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -895,7 +902,7 @@ msgstr "アカウント・販売管理"
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "Accurately <b>update the inventoried quantity</b>."
-msgstr ""
+msgstr "正確に<b>在庫数量を更新</b>します。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -906,6 +913,10 @@ msgid ""
 "factor if you anticipate a\n"
 "            change in demand."
 msgstr ""
+"この機能を有効にすると、アプリは設定された日数に基づいて計算された\n"
+"            補充数量を提案します。需要の変化が見込まれる場合は、パーセンテー"
+"ジ係数を\n"
+"            適用することも可能です。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.homepage
@@ -927,7 +938,7 @@ msgstr ""
 #. module: agriculture_shop
 #: model:product.attribute.value,name:agriculture_shop.product_attribute_value_11
 msgid "AlwaysFirst"
-msgstr ""
+msgstr "常に最初"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.red_revolution_tomato_seeds
@@ -952,7 +963,7 @@ msgstr "B2B"
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid ""
 "B2B Customer Configuration and Sales Workflow<span class=\"h2-fs\">🤝</span>"
-msgstr ""
+msgstr "B2B顧客設定と販売ワークフロー<span class=\"h2-fs\">🤝</span>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.pricing
@@ -977,7 +988,7 @@ msgstr "ブランド"
 #. module: agriculture_shop
 #: model:crm.tag,name:agriculture_shop.crm_tag_27
 msgid "Bulk Order"
-msgstr ""
+msgstr "大量注文"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -985,14 +996,14 @@ msgid ""
 "By uploading this module's demo data, your database has been\n"
 "            filled with a few contacts."
 msgstr ""
-"このモジュールのデモデータをアップロードしたことで、"
-"データベースにいくつかの\n"
+"このモジュールのデモデータをアップロードしたことで、データベースにいくつか"
+"の\n"
 "            連絡先が追加されました。"
 
 #. module: agriculture_shop
 #: model:product.template,name:agriculture_shop.product_product_6_product_template
 msgid "Cauliflower Seeds"
-msgstr ""
+msgstr "カリフラワーの種"
 
 #. module: agriculture_shop
 #: model:product.template,description_sale:agriculture_shop.product_product_6_product_template
@@ -1029,7 +1040,7 @@ msgstr ""
 #. module: agriculture_shop
 #: model:product.template,name:agriculture_shop.product_product_9_product_template
 msgid "Cucumber Seeds"
-msgstr ""
+msgstr "キュウリの種"
 
 #. module: agriculture_shop
 #: model:product.template,description_sale:agriculture_shop.product_product_9_product_template
@@ -1049,6 +1060,8 @@ msgid ""
 "Decide whether to allow sales of <b>out-of-stock\n"
 "                    products</b>."
 msgstr ""
+"<b>在庫切れの\n"
+"                    プロダクト</b>の販売を許可するか決定します。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -1059,6 +1072,10 @@ msgid ""
 "                    attribute to prevent the system from creating separate "
 "stock entities.</i>"
 msgstr ""
+"<b>プロダクトバリアント</b>を定義して顧客の\n"
+"                    eコマース体験を向上させましょう。<i>重要: システムが在庫"
+"を別々の項目として扱ってしまわないよう、\n"
+"                    各属性には 1 つの値のみ を割り当ててください。</i>"
 
 #. module: agriculture_shop
 #: model:product.template,name:agriculture_shop.product_product_34
@@ -1106,16 +1123,21 @@ msgid ""
 "                    of Sale &gt; Three dot menu &gt; IoT Box &gt; Electronic "
 "Scale)."
 msgstr ""
+"<strong>重量ベースの価格設定</strong>をピック&amp;ミックスキャンディで有効に"
+"するには\n"
+"                    単位を<strong>グラムまたはキログラム</strong>に設定しま"
+"す (\n"
+"                    POS&gt;3点メニュー&gt; IoT Box &gt; 電子スケール)。"
 
 #. module: agriculture_shop
 #: model:crm.tag,name:agriculture_shop.crm_tag_37
 msgid "Equipment Parts"
-msgstr ""
+msgstr "機器部品"
 
 #. module: agriculture_shop
 #: model:crm.tag,name:agriculture_shop.crm_tag_45
 msgid "Equipment Service"
-msgstr ""
+msgstr "機器サービス"
 
 #. module: agriculture_shop
 #: model:product.public.category,name:agriculture_shop.product_public_category_1
@@ -1152,7 +1174,7 @@ msgstr ""
 #. module: agriculture_shop
 #: model:product.public.category,name:agriculture_shop.product_public_category_4
 msgid "Fertilizer"
-msgstr ""
+msgstr "肥料"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.red_revolution_tomato_seeds
@@ -1172,6 +1194,8 @@ msgid ""
 "For full automation, connect a scale to your POS system using\n"
 "                    anIoT Box."
 msgstr ""
+"完全に自動化するには、IoT Boxを使用してスケールをPOSシステムに\n"
+"                    接続してください。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -1214,6 +1238,11 @@ msgid ""
 "the <b>Replenishment</b>\n"
 "                    view (as detailed in the inventory settings)."
 msgstr ""
+"オンライン注文用に引当てされたプロダクトが、\n"
+"                    その後店舗で実売された場合、システムは発生した在庫不足を"
+"検知し、\n"
+"                    そのプロダクトの補充ニーズが<b>補充</b>\n"
+"                    ビューに表示されます (詳細は在庫管理設定を参照)。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -1223,6 +1252,10 @@ msgid ""
 "and then apply the\n"
 "                        specific tracking type to the products themselves."
 msgstr ""
+"プロダクトに<b>ロット番号と有効期限の追跡</b>が必要な場合は、まず\n"
+"                        <b>在庫管理設定</b>でこれらの機能を有効にし、\n"
+"                        その後、プロダクト自体に特定の追跡タイプを適用してく"
+"ださい。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -1232,12 +1265,12 @@ msgstr "在庫"
 #. module: agriculture_shop
 #: model:crm.tag,name:agriculture_shop.crm_tag_39
 msgid "Irrigation"
-msgstr ""
+msgstr "灌漑"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "It automatically creates a <b>Sales Order</b> in your Sales App."
-msgstr ""
+msgstr "自動的に販売アプリ内に<b>販売オーダ</b> を作成します。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -1247,11 +1280,16 @@ msgid ""
 "and E-commerce</b>\n"
 "            applications is key to accelerating growth in this sector."
 msgstr ""
+"このソリューションは、<b>POS、\n"
+"            在庫、販売、購買</b>を含む主要な Odoo モジュールと統合されていま"
+"す。<b>ウェブサイトとeコマース</b>\n"
+"            アプリケーションを活用することが、この分野で成長を加速させる鍵と"
+"なります。"
 
 #. module: agriculture_shop
 #: model:crm.tag,name:agriculture_shop.crm_tag_51
 msgid "Lead Gen"
-msgstr ""
+msgstr "リード生成"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.pricing
@@ -1261,7 +1299,7 @@ msgstr "制限されたカスタマイズ"
 #. module: agriculture_shop
 #: model:crm.tag,name:agriculture_shop.crm_tag_49
 msgid "Long-Term Contract"
-msgstr ""
+msgstr "長期契約"
 
 #. module: agriculture_shop
 #: model:product.template,name:agriculture_shop.product_product_18_product_template
@@ -1276,7 +1314,7 @@ msgstr "マイルドスチールシェーバー機 "
 #. module: agriculture_shop
 #: model:product.template,name:agriculture_shop.product_product_11_product_template
 msgid "Multi Fruit - Fertilizer"
-msgstr ""
+msgstr "複合フルーツ用肥料"
 
 #. module: agriculture_shop
 #: model:product.template,description_sale:agriculture_shop.product_product_11_product_template
@@ -1307,16 +1345,18 @@ msgid ""
 "Navigate to <b>Website Settings</b> to configure\n"
 "                    global e-commerce policies."
 msgstr ""
+"<b>ウェブサイト管理設定</b>に移動して\n"
+"                    に移動して、電子商取引の全体ポリシーを設定します。"
 
 #. module: agriculture_shop
 #: model:crm.tag,name:agriculture_shop.crm_tag_30
 msgid "New Equipment"
-msgstr ""
+msgstr "新設備"
 
 #. module: agriculture_shop
 #: model:crm.tag,name:agriculture_shop.crm_tag_33
 msgid "New Supplier"
-msgstr ""
+msgstr "新規仕入先"
 
 #. module: agriculture_shop
 #: model:product.attribute.value,name:agriculture_shop.product_attribute_value_2
@@ -1342,6 +1382,11 @@ msgid ""
 "                        <br/>\n"
 "                    </s>"
 msgstr ""
+"Odooはアプリとして完全に統合されています。\n"
+"                    <b>スマートフォンからビジネス全体を管理</b>できるよう、ア"
+"プリをダウンロードしてください。<s>\n"
+"                        <br/>\n"
+"                    </s>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -1351,6 +1396,11 @@ msgid ""
 "individual packaged seeds,\n"
 "            or bulk pick &amp; mix, Odoo has you covered."
 msgstr ""
+"Odooの <strong>販売時点管理 (POS)</strong> システムは\n"
+"            農業用品店における迅速かつ円滑な取引を実現します。個包装の種子"
+"を\n"
+"            販売する場合も、さまざまな種類の種子を量り売りする場合でも、Odoo"
+"におまかせください。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -1360,6 +1410,9 @@ msgid ""
 "data, and test everything\n"
 "            around!"
 msgstr ""
+"これはパッケージに含まれる機能の概要にすぎません。\n"
+"            新しいアプリを追加したり、デモデータを削除/変更したり、自由に\n"
+"            テストしてみましょう!"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.soil_guard_vermi_compost_powder
@@ -1384,23 +1437,26 @@ msgid ""
 "Once products are created, you must establish how and when\n"
 "            they should be restocked. There are two primary methods:"
 msgstr ""
+"プロダクトが作成されたら、補充の方法とタイミングを設定する必要があります。\n"
+"            主な方法は2つあります:"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid ""
 "Once your core operations are running smoothly, consider expanding your "
 "toolset:"
-msgstr "基幹業務が順調に稼働するようになったら、ツールの拡充を検討してみましょう:"
+msgstr ""
+"基幹業務が順調に稼働するようになったら、ツールの拡充を検討してみましょう:"
 
 #. module: agriculture_shop
 #: model:product.template,name:agriculture_shop.product_product_8_product_template
 msgid "Onion Seeds"
-msgstr ""
+msgstr "タマネギの種"
 
 #. module: agriculture_shop
 #: model:product.template,name:agriculture_shop.product_product_23_product_template
 msgid "Onion Seeds Bulk"
-msgstr ""
+msgstr "タマネギの種(大量・量り売り)"
 
 #. module: agriculture_shop
 #: model:product.template,description_sale:agriculture_shop.product_product_8_product_template
@@ -1488,7 +1544,7 @@ msgstr "プロダクトストーリー"
 #. module: agriculture_shop
 #: model:crm.tag,name:agriculture_shop.crm_tag_43
 msgid "Product Trial"
-msgstr ""
+msgstr "プロダクトトライアル"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.pricing
@@ -1503,7 +1559,7 @@ msgstr "Red Revolution - トマト種"
 #. module: agriculture_shop
 #: model:product.template,name:agriculture_shop.product_product_7_product_template
 msgid "Royal Bullet Mirchi Seeds"
-msgstr ""
+msgstr "ロイヤル・バレット・ミルチ種"
 
 #. module: agriculture_shop
 #: model:product.template,description_sale:agriculture_shop.product_product_7_product_template
@@ -1522,7 +1578,7 @@ msgstr ""
 #. module: agriculture_shop
 #: model:product.template,name:agriculture_shop.product_product_17_product_template
 msgid "Safaya - Pesticide"
-msgstr ""
+msgstr "サファヤ - 農薬"
 
 #. module: agriculture_shop
 #: model:product.template,description_sale:agriculture_shop.product_product_17_product_template
@@ -1545,6 +1601,8 @@ msgid ""
 "Schedule a\n"
 "                        demo"
 msgstr ""
+"デモを\n"
+"                        予約する"
 
 #. module: agriculture_shop
 #: model:pos.category,name:agriculture_shop.pos_category_1
@@ -1555,7 +1613,7 @@ msgstr "種"
 #. module: agriculture_shop
 #: model:crm.tag,name:agriculture_shop.crm_tag_35
 msgid "Service Request"
-msgstr ""
+msgstr "サービス申請"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -1563,6 +1621,8 @@ msgid ""
 "Set <b>minimal and maximal stock levels</b> for a product.\n"
 "            Based on your trigger setting (Automated or Manual):"
 msgstr ""
+"プロダクトの<b>最小在庫レベルと最大在庫レベル</b> を設定します。\n"
+"            トリガ設定(自動または手動)をもとにします:"
 
 #. module: agriculture_shop
 #: model:product.template,name:agriculture_shop.product_product_21_product_template
@@ -1572,17 +1632,17 @@ msgstr "細断機"
 #. module: agriculture_shop
 #: model:product.attribute,name:agriculture_shop.product_attribute_10
 msgid "Size / Liter"
-msgstr ""
+msgstr "サイズ / リットル"
 
 #. module: agriculture_shop
 #: model:product.attribute,name:agriculture_shop.product_attribute_9
 msgid "Size / Weight"
-msgstr ""
+msgstr "サイズ / 重量"
 
 #. module: agriculture_shop
 #: model:product.template,name:agriculture_shop.product_product_13_product_template
 msgid "Soil Activator"
-msgstr ""
+msgstr "土壌活性剤"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.soil_guard_vermi_compost_powder
@@ -1597,6 +1657,10 @@ msgid ""
 "distinct categories to\n"
 "            provide maximum flexibility across your business:"
 msgstr ""
+"まずは<b>プロダクト</b>\n"
+"            タブでプロダクトを作成し、必要な情報をすべて入力します。\n"
+"            システムは、ビジネス全体で最大限の柔軟性を提供するために、3 つの"
+"異なるカテゴリを使用します:"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.pricing
@@ -1614,6 +1678,8 @@ msgid ""
 "The <b>Inventory app</b> is very powerful. If your warehouse needs enhanced\n"
 "                    features for better product tracking, consult the"
 msgstr ""
+"<b>在庫アプリ</b>は非常に強力です。倉庫でより高度なプロダクト追跡機能が\n"
+"                    必要な場合は、こちらをご覧ください"
 
 #. module: agriculture_shop
 #: model:product.template,description_sale:agriculture_shop.product_product_22_product_template
@@ -1633,6 +1699,8 @@ msgid ""
 "The Delivery Order instantly <b>reserves the ordered product</b> in your\n"
 "                    inventory."
 msgstr ""
+"出荷オーダにより即座に在庫内で <b>オーダされたプロダクトが引当</b>され\n"
+"                    ます。"
 
 #. module: agriculture_shop
 #: model:product.template,description_sale:agriculture_shop.product_product_19_product_template
@@ -1698,7 +1766,7 @@ msgstr ""
 #. module: agriculture_shop
 #: model:product.attribute.value,name:agriculture_shop.product_attribute_value_10
 msgid "TheBestBrand"
-msgstr ""
+msgstr "ザ・ベストブランド"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -1707,11 +1775,13 @@ msgid ""
 "interactions\n"
 "                    effectively:"
 msgstr ""
+"これらのツールにより、販売戦略と顧客とのやり取りを効率的に\n"
+"                    管理できます:"
 
 #. module: agriculture_shop
 #: model:product.template,name:agriculture_shop.product_product_14_product_template
 msgid "Thiram - Pesticide"
-msgstr ""
+msgstr "チラム - 農薬"
 
 #. module: agriculture_shop
 #: model:product.template,description_sale:agriculture_shop.product_product_14_product_template
@@ -1727,7 +1797,7 @@ msgstr ""
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "This Sales Order generates a linked <b>Delivery Order</b>."
-msgstr ""
+msgstr "この販売オーダは、関連付けられた <b>出荷オーダ</b>を生成します。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -1737,6 +1807,10 @@ msgid ""
 "ensuring your inventory\n"
 "            data is always accurate."
 msgstr ""
+"この強力な在庫管理アプリケーション\n"
+"            で、<b>プロダクトカタログ</b>および<b>在庫管理</b>を完全にコント"
+"ロールし、在庫データを\n"
+"            常に正確に保つことができます。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -1748,6 +1822,13 @@ msgid ""
 "offering organized categories\n"
 "            like <b>seeds, pesticides, nutrition, and equipment</b>."
 msgstr ""
+"このソリューションは、農業小売のあらゆる側面を管理するために\n"
+"            設計されており、農業用プロダクトの<b>B2BおよびB2C販売</b>を効率化"
+"します。\n"
+"            <b>販売時点管理 (POS) およびウェブサイト</b>のオペレーションをカ"
+"バーし、\n"
+"            <b>種子、農薬、栄養、機器</b>などの体系化されたカテゴリが設定され"
+"ています。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -1757,6 +1838,9 @@ msgid ""
 "configure the settings to suit\n"
 "            your Agricultural Store."
 msgstr ""
+"このOdooパッケージが提供するプロセスを素早く理解するには\n"
+"            次のフローを実行し、農業資材店に合わせて設定を\n"
+"            行ってください。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -1770,6 +1854,13 @@ msgid ""
 "physically segregating the\n"
 "                    items is essential to guarantee fulfillment."
 msgstr ""
+"オンライン顧客に予約済みのプロダクトを誤って\n"
+"                    販売しないよう、<b>入荷した eコマースオーダ用のプロダクト"
+"をすぐに</b>別の\n"
+"                    POSシステムは出荷オーダで確保された在庫について警告を表示"
+"<i>しない</i>\n"
+"                    ため、確実に出荷を行うには、商品を物理的に分けて\n"
+"                    保管することが重要です。"
 
 #. module: agriculture_shop
 #: model:product.template,name:agriculture_shop.product_product_5_product_template
@@ -1806,16 +1897,18 @@ msgid ""
 "Use the <b>Website &gt; Configuration</b> menu to enable all\n"
 "            your transaction options."
 msgstr ""
+"<b>ウェブサイト&gt;設定</b>メニューを使用してすべての\n"
+"            取引オプションを有効にします。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "Use these settings to tailor the experience for your B2B clients:"
-msgstr ""
+msgstr "これらの設定を使用して、B2B顧客向けに体験をカスタマイズしてください："
 
 #. module: agriculture_shop
 #: model:product.template,name:agriculture_shop.product_product_12_product_template
 msgid "Vermi Compost - Powder"
-msgstr ""
+msgstr "ミミズ堆肥 - 粉末"
 
 #. module: agriculture_shop
 #: model:website.menu,name:agriculture_shop.website_menu_18
@@ -1855,12 +1948,12 @@ msgstr ""
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "Want to do more?"
-msgstr ""
+msgstr "さらに進みますか?"
 
 #. module: agriculture_shop
 #: model:product.template,name:agriculture_shop.product_product_15_product_template
 msgid "Warrior - Pesticide"
-msgstr ""
+msgstr "ウォリアー - 農薬"
 
 #. module: agriculture_shop
 #: model:product.template,description_sale:agriculture_shop.product_product_15_product_template
@@ -1882,7 +1975,7 @@ msgstr "ようこそ！"
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "When an <b>e-commerce order</b> is placed:"
-msgstr ""
+msgstr "<b>eコマースオーダ</b>が注文された場合:"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -1891,6 +1984,9 @@ msgid ""
 "            the <b>Suggest toggle</b> on the catalog (available from the "
 "purchase line)."
 msgstr ""
+"<b>新しい購買オーダ</b>内で作業する場合、\n"
+"            カタログ(購買明細からアクセス可能)の<b>提案トグル</b>を確認してく"
+"ださい。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -1908,6 +2004,9 @@ msgid ""
 "You also have the option to require a <b>down payment</b> initially, with\n"
 "                            the remainder invoiced later."
 msgstr ""
+"また、はじめに<b>前受金</b>を要求する\n"
+"                            オプションもあり、残額は後日請求書で請求されま"
+"す。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -1915,6 +2014,8 @@ msgid ""
 "You can access every installed App in your Odoo database on\n"
 "            your main dashboard."
 msgstr ""
+"メインダッシュボードからOdooデータベースにインストールされているすべての\n"
+"            アプリにアクセスできます。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -1922,6 +2023,8 @@ msgid ""
 "You can choose in the settings to <b>invoice either before or after\n"
 "                            delivery</b>."
 msgstr ""
+"管理設定で<b>請求書を配送前または配送後\n"
+"                            に発行するか</b>選択できます。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -1930,6 +2033,8 @@ msgid ""
 "potential\n"
 "            leads."
 msgstr ""
+"ウェブサイトを簡単にカスタマイズして見込み顧客向けに必要な\n"
+"            情報を提供することができます。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -1939,11 +2044,14 @@ msgid ""
 "                    Upgrade your Agricultural Shop package and select the\n"
 "                    relevant checkbox"
 msgstr ""
+"デモデータのインポートはまだ可能です。アプリ&gt; インダストリー &gt;へ行き\n"
+"                    農業資材店パッケージをアップグレードし、\n"
+"                    該当するチェックボックスを選択してください"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "You have flexibility regarding when to generate invoices:"
-msgstr ""
+msgstr "請求書発行のタイミングは柔軟に設定できます："
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -1952,11 +2060,14 @@ msgid ""
 "            Settings</b>, <b>Website-Wide Settings</b>, and <b>Payment &amp; "
 "Delivery Methods</b>."
 msgstr ""
+"eコマースの設定には、主に次の3つの領域があります: <b>プロダクト\n"
+"            管理設定</b>、 <b>ウェブサイト全体の管理設定</b>、 <b>支払い・配"
+"送方法</b>です。"
 
 #. module: agriculture_shop
 #: model:product.template,name:agriculture_shop.product_product_16_product_template
 msgid "Ziram - Pesticide"
-msgstr ""
+msgstr "ジラム - 農薬"
 
 #. module: agriculture_shop
 #: model:product.template,description_sale:agriculture_shop.product_product_16_product_template
@@ -1978,6 +2089,10 @@ msgid ""
 "access many other\n"
 "                    advanced options."
 msgstr ""
+"<b>\n"
+"                    ロケーションの調整</b>、<b>バーコードスキャナ</b>の活用方"
+"法、その他の多くの高度なオプションについては、\n"
+"                    ドキュメントをご参照ください。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -1985,6 +2100,8 @@ msgid ""
 "to improve your website's online visibility and\n"
 "                    search rankings."
 msgstr ""
+"オンラインでのウェブサイトの訴求と\n"
+"                    検索順位を向上させましょう。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -1992,6 +2109,55 @@ msgid ""
 "🎓\n"
 "                Website"
 msgstr ""
+"🎓\n"
+"                ウェブサイト"
+
+#~ msgid ""
+#~ "<b>\n"
+#~ "                    <font class=\"text-o-color-1\">The Invoice App:</"
+#~ "font>\n"
+#~ "                </b> Keep a\n"
+#~ "                clear record of all your invoices."
+#~ msgstr ""
+#~ "<b>\n"
+#~ "                    <font class=\"text-o-color-1\">請求アプリ:</font>\n"
+#~ "                </b>すべての請求書について\n"
+#~ "                明確な記録を残しましょう。"
+
+#~ msgid ""
+#~ "<b>\n"
+#~ "                    <font class=\"text-o-color-1\">The Point Of Sales App:"
+#~ "</font>\n"
+#~ "                </b>Manage\n"
+#~ "                all your shop operations."
+#~ msgstr ""
+#~ "<b>\n"
+#~ "                    <font class=\"text-o-color-1\">POSアプリ:</font>\n"
+#~ "                </b>あらゆる店舗オペレーション\n"
+#~ "                 を一括管理します。"
+
+#~ msgid ""
+#~ "<font class=\"text-o-color-1\">\n"
+#~ "                        <b>The CRM &amp; Sales App's:</b>\n"
+#~ "                    </font> Manage all your\n"
+#~ "                    client contacts and quotations."
+#~ msgstr ""
+#~ "<font class=\"text-o-color-1\">\n"
+#~ "                        <b>CRMと販売アプリ:</b>\n"
+#~ "                    </font>べての顧客の連絡先と\n"
+#~ "                     見積もりを管理します。"
+
+#~ msgid ""
+#~ "<font class=\"text-o-color-1\">\n"
+#~ "                        <b>The Website App:</b>\n"
+#~ "                    </font> Use this app as a virtual\n"
+#~ "                    showroom and a powerful tool for generating new leads."
+#~ msgstr ""
+#~ "<font class=\"text-o-color-1\">\n"
+#~ "                        <b>ウェブサイトアプリ:</b>\n"
+#~ "                    </font>バーチャル\n"
+#~ "                    ショールームとして活用し、新規リードを獲得するための "
+#~ "強力なツールとしてご利用ください。"
 
 #~ msgid ""
 #~ "<font class=\"text-black\"><strong>Flow 2: Sales from Website (B2B / B2C) "

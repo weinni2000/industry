@@ -2,14 +2,14 @@
 # This file contains the translation of the following modules:
 # * night_clubs
 #
-# "Thi Huong Nguyen (thng)" <thng@odoo.com>, 2025.
+# "Thi Huong Nguyen (thng)" <thng@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 10:21+0000\n"
-"PO-Revision-Date: 2025-11-17 11:17+0000\n"
+"POT-Creation-Date: 2026-04-10 19:33+0000\n"
+"PO-Revision-Date: 2026-03-21 09:54+0000\n"
 "Last-Translator: \"Thi Huong Nguyen (thng)\" <thng@odoo.com>\n"
 "Language-Team: Vietnamese <https://translate.odoo.com/projects/odoo-19/"
 "night_clubs/vi/>\n"
@@ -18,27 +18,22 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: night_clubs
 #: model:event.tag,name:night_clubs.event_tag_14
 msgid "14-18 Summer Nights"
-msgstr ""
-
-#. module: night_clubs
-#: model:event.tag,name:night_clubs.event_tag_1
-msgid "18+"
-msgstr "18+"
+msgstr "14-18 Đêm Hè"
 
 #. module: night_clubs
 #: model:product.template,description_sale:night_clubs.product_product_50_product_template
 msgid "3cl blanco shot."
-msgstr ""
+msgstr "3cl rượu trắng."
 
 #. module: night_clubs
 #: model_terms:product.template,description:night_clubs.product_product_52_product_template
 msgid "4cl pour of blended whisky. Ice on request."
-msgstr ""
+msgstr "4cl rượu whisky pha trộn. Đá theo yêu cầu."
 
 #. module: night_clubs
 #: model:event.tag,name:night_clubs.event_tag_5
@@ -53,6 +48,10 @@ msgid ""
 "                💡\n"
 "            </i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner                 Info\">\n"
+"                💡\n"
+"            </i>"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -60,8 +59,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">💡</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Info\">💡</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">💡</i>"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -69,8 +68,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">✅</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Success\">✅</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\">✅</i>"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -78,16 +77,19 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Warning\">⚠️</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Warning\">⚠️</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Warning\">⚠️</i>"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.homepage
+#, fuzzy
 msgid ""
 "<span class=\"carousel-control-next-icon\" aria-hidden=\"true\"/>\n"
 "                                    <span class=\"visually-hidden\">Next</"
 "span>"
 msgstr ""
+"<span class=\"carousel-control-next-icon\" aria-hidden=\"true\"/>\n"
+"                            <span class=\"visually-hidden\">Tiếp</span>"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.homepage
@@ -96,12 +98,14 @@ msgid ""
 "                                    <span class=\"visually-"
 "hidden\">Previous</span>"
 msgstr ""
+"<span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"/>\n"
+"                            <span class=\"visually-hidden\">Trước</span>"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid ""
 "<span class=\"display-4-fs\"><strong>Odoo for Night Clubs</strong></span>"
-msgstr ""
+msgstr "<span class=\"display-4-fs\"><strong>Odoo cho CLB đêm</strong></span>"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -119,6 +123,13 @@ msgid ""
 "muted\">Manager of Nightlife Club</span>\n"
 "                                                    </span>"
 msgstr ""
+"<span class=\"o_small\">\n"
+"                                                        <strong>Iris DOE</"
+"strong>\n"
+"                                                        <br/>\n"
+"                                                       <span class=\"text-"
+"muted\"> Quản lý CLB đêm</span>\n"
+"                                                    </span>"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.homepage
@@ -132,8 +143,8 @@ msgid ""
 "                                                    </span>"
 msgstr ""
 "<span class=\"o_small\">\n"
-"                                                        <strong>Jane "
-"DOE</strong>\n"
+"                                                        <strong>Jane DOE</"
+"strong>\n"
 "                                                        <br/>\n"
 "                                                        <span class=\"text-"
 "muted\">Chủ sở hữu NightClub</span>\n"
@@ -151,8 +162,8 @@ msgid ""
 "                                                    </span>"
 msgstr ""
 "<span class=\"o_small\">\n"
-"                                                        <strong>John "
-"DOE</strong>\n"
+"                                                        <strong>John DOE</"
+"strong>\n"
 "                                                        <br/>\n"
 "                                                        <span class=\"text-"
 "muted\">Quản lý NightClub</span>\n"
@@ -176,8 +187,8 @@ msgid ""
 "class=\"s_website_form_mark\"> *</span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Email</span>\n"
-"                                                                <span class="
-"\"s_website_form_mark\"> *</span>"
+"                                                                <span "
+"class=\"s_website_form_mark\"> *</span>"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.contactus
@@ -187,8 +198,8 @@ msgid ""
 "class=\"s_website_form_mark\"> *</span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Tên</span>\n"
-"                                                                <span class="
-"\"s_website_form_mark\"> *</span>"
+"                                                                <span "
+"class=\"s_website_form_mark\"> *</span>"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.contactus
@@ -203,8 +214,8 @@ msgid ""
 "class=\"s_website_form_mark\"> *</span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Câu hỏi</span>\n"
-"                                                                <span class="
-"\"s_website_form_mark\"> *</span>"
+"                                                                <span "
+"class=\"s_website_form_mark\"> *</span>"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.contactus
@@ -214,8 +225,8 @@ msgid ""
 "class=\"s_website_form_mark\"> *</span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Chủ đề</span>\n"
-"                                                                <span class="
-"\"s_website_form_mark\"> *</span>"
+"                                                                <span "
+"class=\"s_website_form_mark\"> *</span>"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -228,17 +239,21 @@ msgid ""
 "<strong>Accounting</strong>: Keep finances under control with automated "
 "invoicing, reconciliations, and reporting."
 msgstr ""
+"<strong>Kế toán</strong>: Quản lý tài chính hiệu quả với các tính năng tự "
+"động hóa hóa đơn, đối chiếu và báo cáo."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid ""
 "<strong>Analytics</strong>: Measure engagement, clicks, and follower growth."
 msgstr ""
+"<strong>Phân tích</strong>: Đo lường mức độ tương tác, số lần nhấp chuột và "
+"sự tăng trưởng của số lượng người theo dõi."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid "<strong>Apps &amp; What They Do:</strong>"
-msgstr ""
+msgstr "<strong>Ứng dụng &amp; chức năng của chúng:</strong>"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -246,6 +261,8 @@ msgid ""
 "<strong>Automate confirmations</strong>: Set up email templates for tickets "
 "to save staff time and improve customer experience."
 msgstr ""
+"<strong>Tự động hóa xác nhận</strong>: Thiết lập mẫu email cho vé để tiết "
+"kiệm thời gian cho nhân viên và nâng cao trải nghiệm của khách hàng."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -253,6 +270,8 @@ msgid ""
 "<strong>Email Marketing</strong>: Send newsletters to announce new events or "
 "loyalty discounts."
 msgstr ""
+"<strong>Marketing qua email</strong>: Gửi bản tin email để thông báo về các "
+"sự kiện mới hoặc ưu đãi dành cho khách hàng thân thiết."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -260,17 +279,20 @@ msgid ""
 "<strong>Emails</strong>: Configure automatic confirmation emails with event "
 "details."
 msgstr ""
+"<strong>Email</strong>: Cấu hình email xác nhận tự động với chi tiết sự kiện."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid "<strong>Engagement features to use:</strong>"
-msgstr ""
+msgstr "<strong>Các tính năng tương tác để sử dụng:</strong>"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid ""
 "<strong>Events</strong>: Manage schedules, bookings, and attendee check-ins."
 msgstr ""
+"<strong>Sự kiện</strong>: Quản lý lịch trình, đặt chỗ và check-in người tham "
+"dự."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -278,30 +300,36 @@ msgid ""
 "<strong>Events</strong>: Set up event categories (VIP vs. General "
 "Admission), manage capacities, and track attendees."
 msgstr ""
+"<strong>Sự kiện</strong>: Thiết lập các loại sự kiện (VIP so với Vé vào cửa "
+"thông thường), quản lý sức chứa và theo dõi số lượng người tham dự."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid "<strong>How to optimize bar operations:</strong>"
-msgstr ""
+msgstr "<strong>Cách tối ưu hóa hoạt động của quầy bar:</strong>"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid ""
 "<strong>Integration</strong>: Link with Inventory for accurate stock levels."
 msgstr ""
+"<strong>Tích hợp</strong>: Kết nối với Tồn kho để đảm bảo mức tồn kho chính "
+"xác."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid ""
 "<strong>Integration</strong>: Publish simultaneously across multiple "
 "platforms."
-msgstr ""
+msgstr "<strong>Tích hợp</strong>: Đăng tải đồng thời trên nhiều nền tảng."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid ""
 "<strong>Inventory sync</strong>: Automatic stock updates when items are sold."
 msgstr ""
+"<strong>Đồng bộ tồn kho</strong>: Cập nhật tồn kho tự động khi sản phẩm được "
+"bán."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -309,17 +337,19 @@ msgid ""
 "<strong>Inventory</strong>: Track every bottle, mixer, and accessory in real "
 "time."
 msgstr ""
+"<strong>Tồn kho</strong>: Theo dõi từng chai, đồ pha chế và phụ kiện trong "
+"thời gian thực."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid "<strong>Key features to use:</strong>"
-msgstr ""
+msgstr "<strong>Các tính năng chính cần sử dụng:</strong>"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid ""
 "<strong>Multiple bars</strong>: Configure separate PoS for each bar station."
-msgstr ""
+msgstr "<strong>Nhiều bar</strong>: Cấu hình PoS riêng biệt cho từng quầy bar."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -327,6 +357,8 @@ msgid ""
 "<strong>Payments</strong>: Accept multiple methods (cash, card, mobile "
 "payments)."
 msgstr ""
+"<strong>Thanh toán</strong>: Chấp nhận nhiều phương thức thanh toán (tiền "
+"mặt, thẻ, thanh toán di động)."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -334,6 +366,8 @@ msgid ""
 "<strong>Payroll</strong>: Manage staff salaries, bonuses, and contracts "
 "seamlessly."
 msgstr ""
+"<strong>Bảng lương</strong>: Quản lý lương, thưởng và hợp đồng của nhân viên "
+"một cách thuận tiện và hiệu quả."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -341,6 +375,9 @@ msgid ""
 "<strong>Plan shifts with Planning</strong>: Organize staff schedules and "
 "ensure enough people at the bar, entrance, and security."
 msgstr ""
+"<strong>Lập kế hoạch ca làm với Kế hoạch</strong>: Tổ chức lịch làm việc của "
+"nhân viên và đảm bảo có đủ nhân viên tại quầy bar, lối vào và bộ phận an "
+"ninh."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -348,6 +385,8 @@ msgid ""
 "<strong>Point of Sale</strong>: Add drinks as products with categories "
 "(cocktails, beers, shots)."
 msgstr ""
+"<strong>POS</strong>: Thêm đồ uống vào danh sách sản phẩm theo các danh mục "
+"(cocktail, bia, rượu mạnh)."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -355,6 +394,8 @@ msgid ""
 "<strong>Point of Sale</strong>: Configure products as ticket types for on-"
 "the-spot sales."
 msgstr ""
+"<strong>POS</strong>: Cấu hình sản phẩm thành các loại vé cho việc bán hàng "
+"tại chỗ."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -362,6 +403,8 @@ msgid ""
 "<strong>Point of Sale</strong>: Sell tickets or drinks at the entrance and "
 "bar with seamless payments."
 msgstr ""
+"<strong>POS</strong>: Bán vé hoặc đồ uống tại lối vào và quầy bar với thanh "
+"toán liền mạch."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -369,11 +412,15 @@ msgid ""
 "<strong>Purchase</strong>: Automate supplier management and resupply of "
 "drinks and consumables."
 msgstr ""
+"<strong>Mua hàng</strong>: Tự động hóa quản lý nhà cung cấp và tái bổ sung "
+"đồ uống cũng như vật tư tiêu hao."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid "<strong>QR Codes</strong>: Scan at the entrance for seamless check-ins."
 msgstr ""
+"<strong>Mã QR</strong>: Quét tại cửa ra vào để làm thủ tục check-in nhanh "
+"chóng."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -381,23 +428,29 @@ msgid ""
 "<strong>Reorder rules</strong>: Automatically trigger replenishments when "
 "stock falls below thresholds."
 msgstr ""
+"<strong>Quy tắc tái đặt hàng</strong>: Tự động kích hoạt việc bổ sung hàng "
+"khi lượng hàng tồn kho giảm xuống dưới ngưỡng quy định."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid ""
 "<strong>Reports</strong>: Track how many people bought tickets at the door."
-msgstr ""
+msgstr "<strong>Báo cáo</strong>: Theo dõi số lượng người mua vé tại quầy vé."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid "<strong>Scheduling</strong>: Plan posts around key events."
 msgstr ""
+"<strong>Lên lịch</strong>: Lên kế hoạch đăng bài xung quanh các sự kiện quan "
+"trọng."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid ""
 "<strong>Screens</strong>: Use touchscreens or tablets for fast order-taking."
 msgstr ""
+"<strong>Màn hình</strong>: Sử dụng màn hình cảm ứng hoặc máy tính bảng để "
+"order nhanh chóng."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -405,6 +458,9 @@ msgid ""
 "<strong>Segment fans</strong>: Use Social Marketing and Email Marketing to "
 "target VIPs differently from casual visitors."
 msgstr ""
+"<strong>Phân khúc khách hàng</strong>: Sử dụng Marketing trên mạng xã hội và "
+"Marketing qua email để tiếp cận khách hàng VIP khác biệt so với khách hàng "
+"thông thường."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -412,11 +468,15 @@ msgid ""
 "<strong>Social Marketing</strong>: Boost visibility with integrated "
 "campaigns on Instagram, Facebook, YouTube, and X."
 msgstr ""
+"<strong>Marketing trên mạng xã hội</strong>: Tăng cường độ phủ sóng với các "
+"chiến dịch tích hợp trên Instagram, Facebook, YouTube và X."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid "<strong>Suppliers</strong>: Save vendor details for quick reordering."
 msgstr ""
+"<strong>Nhà cung cấp</strong>: Lưu thông tin nhà cung cấp để đặt hàng lại "
+"nhanh chóng."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -424,6 +484,8 @@ msgid ""
 "<strong>Targeting</strong>: Tailor campaigns for VIP guests vs. general "
 "audience."
 msgstr ""
+"<strong>Nhắm mục tiêu</strong>: Tùy chỉnh chiến dịch cho khách VIP so với "
+"đối tượng chung."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -431,6 +493,8 @@ msgid ""
 "<strong>Tracking</strong>: Monitor costs per supplier and optimize "
 "negotiations."
 msgstr ""
+"<strong>Theo dõi</strong>: Theo dõi chi phí theo từng nhà cung cấp và tối ưu "
+"hóa quá trình đàm phán."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -438,11 +502,14 @@ msgid ""
 "<strong>Use Dashboards</strong>: Create tailored dashboards to track "
 "revenue, ticket sales, bar performance, and costs at a glance."
 msgstr ""
+"<strong>Sử dụng Báo cáo tổng quan</strong>: Tạo các bảng điều khiển tùy "
+"chỉnh để theo dõi doanh thu, doanh số vé, hiệu suất quầy bar và chi phí chỉ "
+"trong nháy mắt."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid "<strong>Ways to leverage Odoo Purchase:</strong>"
-msgstr ""
+msgstr "<strong>Các cách tận dụng Odoo Mua hàng:</strong>"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -450,6 +517,8 @@ msgid ""
 "<strong>Website</strong>: Design a branded landing page for upcoming events "
 "with integrated e-commerce checkout."
 msgstr ""
+"<strong>Trang web</strong>: Thiết kế trang đích có thương hiệu cho các sự "
+"kiện sắp tới với chức năng thanh toán thương mại điện tử tích hợp."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -457,6 +526,7 @@ msgid ""
 "<strong>Website</strong>: Sell event tickets online and deliver "
 "confirmations with QR codes."
 msgstr ""
+"<strong>Trang web</strong>: Bán vé sự kiện online và gửi xác nhận kèm mã QR."
 
 #. module: night_clubs
 #: model:product.public.category,name:night_clubs.product_public_category_2
@@ -471,28 +541,30 @@ msgstr "Tuổi"
 #. module: night_clubs
 #: model:product.template,name:night_clubs.product_product_62_product_template
 msgid "Alcholic Drink 1"
-msgstr ""
+msgstr "Đồ uống có cồn 1"
 
 #. module: night_clubs
 #: model:product.template,name:night_clubs.product_product_61_product_template
 msgid "Alcoholic Drink 2"
-msgstr ""
+msgstr "Đồ uống có cồn 2"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.ir_ui_view_3858
 msgid "All Parties"
-msgstr ""
+msgstr "Tất cả buổi tiệc"
 
 #. module: night_clubs
 #: model_terms:product.template,description:night_clubs.product_product_45_product_template
 msgid "All the zest without the alcohol: lime, mint, sugar, and soda over ice."
 msgstr ""
+"Tất cả hương vị tươi mát không cồn: chanh, bạc hà, đường và nước soda đá."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid ""
 "Also check out Email Marketing for Email Newsletter management &amp; sending."
 msgstr ""
+"Cũng hãy tham khảo Marketing qua email để quản lý &amp; gửi bản tin email."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -500,6 +572,8 @@ msgid ""
 "Also use a barcode scanner to check in registered guests at the entrance "
 "using the <strong>Barcode app</strong>."
 msgstr ""
+"Ngoài ra, hãy sử dụng máy quét mã vạch để làm thủ tục check-in cho khách đã "
+"đăng ký tại cửa ra vào bằng <strong>ứng dụng Mã vạch</strong> ."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.homepage
@@ -507,6 +581,8 @@ msgid ""
 "An unforgettable nightlife experience. I highly recommend the signature "
 "cocktails, simply amazing."
 msgstr ""
+"Một trải nghiệm đêm tuyệt vời khó quên. Tôi đặc biệt khuyên bạn nên thử các "
+"loại cocktail đặc trưng, thật sự tuyệt vời."
 
 #. module: night_clubs
 #: model:product.template,name:night_clubs.product_product_44_product_template
@@ -516,7 +592,7 @@ msgstr "Aperol Spritz"
 #. module: night_clubs
 #: model_terms:product.template,description:night_clubs.product_product_44_product_template
 msgid "Aperol, prosecco and soda on ice with orange slice."
-msgstr ""
+msgstr "Aperol, prosecco và soda đá kèm lát cam."
 
 #. module: night_clubs
 #: model:product.public.category,name:night_clubs.product_public_category_1
@@ -526,12 +602,12 @@ msgstr "Trang phục"
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.ir_ui_view_3858
 msgid "Back to Parties"
-msgstr ""
+msgstr "Trở lại các bữa tiệc"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid "Bar Sales 🍸"
-msgstr ""
+msgstr "Doanh số bán hàng tại quầy bar 🍸"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -540,11 +616,14 @@ msgid ""
 "makes it easy to handle fast-paced drink sales, manage tabs, and process "
 "payments quickly—all while updating your inventory."
 msgstr ""
+"Quầy bar là trung tâm doanh thu của CLB đêm. <strong>PoS</strong> của Odoo "
+"giúp bạn dễ dàng xử lý việc bán đồ uống nhanh, quản lý tab và thanh toán "
+"nhanh chóng—vừa đảm bảo cập nhật tồn kho."
 
 #. module: night_clubs
 #: model:event.event,subtitle:night_clubs.event_event_2
 msgid "Bass, bars, and beats — hip-hop all night long"
-msgstr ""
+msgstr "Bass, nhịp điệu và âm thanh — hip-hop suốt đêm"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -553,6 +632,9 @@ msgid ""
 "<strong>Purchase</strong> app, you can manage suppliers, automate "
 "replenishment orders, and track costs."
 msgstr ""
+"Việc bổ sung hàng hiệu quả đảm bảo niềm vui không bị gián đoạn. Với ứng dụng "
+"<strong>Mua hàng</strong> của Odoo, bạn có thể quản lý nhà cung cấp, tự động "
+"hóa các đơn bổ sung hàng và theo dõi chi phí."
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_3
@@ -561,11 +643,13 @@ msgid ""
 "the night that sets the club on fire with the best of salsa, bachata, "
 "reggaeton, and cumbia."
 msgstr ""
+"Khuấy động sàn nhảy với <strong>Thứ Sáu Latin Rực Lửa</strong> — đêm bùng "
+"cháy cùng những giai điệu salsa, bachata, reggaeton và cumbia sôi động nhất."
 
 #. module: night_clubs
 #: model:product.template,description_sale:night_clubs.product_product_44_product_template
 msgid "Bubbly bittersweet classic."
-msgstr ""
+msgstr "Một tác phẩm kinh điển ngọt ngào xen lẫn đắng cay."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.homepage
@@ -575,42 +659,42 @@ msgstr "Chỉ báo băng chuyền"
 #. module: night_clubs
 #: model_terms:product.template,description:night_clubs.product_product_48_product_template
 msgid "Chilled Italian prosecco by the glass."
-msgstr ""
+msgstr "Rượu sâm panh Ý lạnh, phục vụ theo ly."
 
 #. module: night_clubs
 #: model_terms:product.template,description:night_clubs.product_product_53_product_template
 msgid "Chilled cola 25cl bottle."
-msgstr ""
+msgstr "Chai cola lạnh 25cl."
 
 #. module: night_clubs
 #: model:product.template,description_sale:night_clubs.product_product_51_product_template
 msgid "Classic G&T."
-msgstr ""
+msgstr "G&T cổ điển."
 
 #. module: night_clubs
 #: model:product.template,description_sale:night_clubs.product_product_47_product_template
 msgid "Classic bottled lager."
-msgstr ""
+msgstr "Bia lager đóng chai truyền thống."
 
 #. module: night_clubs
 #: model_terms:product.template,description:night_clubs.product_product_51_product_template
 msgid "Classic gin and tonic with citrus garnish."
-msgstr ""
+msgstr "Cocktail gin và tonic truyền thống kèm cam chanh trang trí."
 
 #. module: night_clubs
 #: model:product.template,name:night_clubs.product_product_57_product_template
 msgid "Cloakroom Token"
-msgstr ""
+msgstr "Token gửi đồ"
 
 #. module: night_clubs
 #: model:product.template,name:night_clubs.product_product_53_product_template
 msgid "Cola 25cl"
-msgstr ""
+msgstr "Cola 25cl"
 
 #. module: night_clubs
 #: model_terms:product.template,description:night_clubs.product_product_47_product_template
 msgid "Cold, crisp European lager in 33cl bottle."
-msgstr ""
+msgstr "Bia lager châu Âu mát lạnh, sảng khoái trong chai 33cl."
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_3
@@ -618,11 +702,13 @@ msgid ""
 "Come with a partner or find one on the dance floor — everyone dances at "
 "Latin Fever."
 msgstr ""
+"Hãy đến cùng bạn bè hoặc tìm một người đồng hành trên sàn nhảy — mọi người "
+"đều quẩy tới bến tại Latin Fever."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid "Consumables Resupply 📦"
-msgstr ""
+msgstr "Bổ sung vật tư tiêu hao 📦"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.contactus
@@ -647,11 +733,13 @@ msgid ""
 "Create floorplans, manage product categories, discounts, and customer "
 "accounts straight from the Point of Sale app."
 msgstr ""
+"Tạo bản vẽ mặt bằng, quản lý danh mục sản phẩm, khuyến mãi và tài khoản "
+"khách hàng trực tiếp từ ứng dụng POS."
 
 #. module: night_clubs
 #: model:product.template,description_sale:night_clubs.product_product_48_product_template
 msgid "Crisp and bubbly."
-msgstr ""
+msgstr "Giòn và sủi bọt."
 
 #. module: night_clubs
 #: model:product.public.category,name:night_clubs.product_public_category_7
@@ -671,12 +759,14 @@ msgstr "Bạn có muốn tiến xa hơn không?"
 #. module: night_clubs
 #: model:event.tag.category,name:night_clubs.event_tag_category_3
 msgid "Dress Code"
-msgstr ""
+msgstr "Quy định trang phục"
 
 #. module: night_clubs
 #: model_terms:product.public.category,website_description:night_clubs.product_public_category_1
 msgid "Dress to impress with our exclusive clubwear collection."
 msgstr ""
+"Hãy ăn mặc thật ấn tượng với bộ sưu tập trang phục CLB độc quyền của chúng "
+"tôi."
 
 #. module: night_clubs
 #: model:product.public.category,name:night_clubs.product_public_category_3
@@ -686,7 +776,7 @@ msgstr "Đồ uống"
 #. module: night_clubs
 #: model:event.tag,name:night_clubs.event_tag_10
 msgid "Drum & Bass"
-msgstr ""
+msgstr "Trống và Bass"
 
 #. module: night_clubs
 #: model:event.tag,name:night_clubs.event_tag_11
@@ -696,12 +786,14 @@ msgstr ""
 #. module: night_clubs
 #: model_terms:product.template,description:night_clubs.product_product_49_product_template
 msgid "Easy-drinking red wine served by the glass."
-msgstr ""
+msgstr "Rượu vang đỏ dễ uống, phục vụ theo ly."
 
 #. module: night_clubs
 #: model_terms:product.public.category,website_description:night_clubs.product_public_category_2
 msgid "Elevate your look with must-have accessories for a night out."
 msgstr ""
+"Nâng tầm phong cách của bạn với những phụ kiện không thể thiếu cho một buổi "
+"tối đi chơi."
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_4
@@ -710,6 +802,10 @@ msgid ""
 "a night of raw beats, hypnotic rhythms, and immersive visuals. Lose yourself "
 "to the pulse of Berlin-inspired underground techno, right here in your city."
 msgstr ""
+"Hãy đắm chìm vào thế giới âm thanh với <strong>Buổi biểu diễn techno "
+"underground</strong> — một đêm nhạc với những nhịp điệu thô ráp, giai điệu "
+"mê hoặc và hình ảnh sống động. Hòa mình vào nhịp đập của techno underground "
+"lấy cảm hứng từ Berlin, ngay tại thành phố của bạn."
 
 #. module: night_clubs
 #: model:event.event.ticket,description:night_clubs.event_event_ticket_7
@@ -719,12 +815,12 @@ msgstr ""
 #. module: night_clubs
 #: model:event.type.ticket,name:night_clubs.event_type_ticket_1
 msgid "Entrance Ticket"
-msgstr ""
+msgstr "Vé vào cửa"
 
 #. module: night_clubs
 #: model:event.type.ticket,name:night_clubs.event_type_ticket_2
 msgid "Entrance Ticket + VIP Table"
-msgstr ""
+msgstr "Vé vào cửa + Bàn VIP"
 
 #. module: night_clubs
 #: model:product.template,name:night_clubs.product_product_43_product_template
@@ -734,7 +830,7 @@ msgstr ""
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid "Fan Engagement 📣"
-msgstr ""
+msgstr "Tương tác với người hâm mộ 📣"
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_4
@@ -742,6 +838,8 @@ msgid ""
 "For those who live for the rhythm, this is more than a party — it’s a "
 "movement."
 msgstr ""
+"Đối với những ai sống vì nhịp điệu, đây không chỉ là một bữa tiệc — mà là "
+"một phong trào."
 
 #. module: night_clubs
 #: model_terms:product.template,description:night_clubs.product_product_42_product_template
@@ -749,11 +847,13 @@ msgid ""
 "Fresh lime, mint, white rum, sugar and soda over crushed ice. House-favorite "
 "crowd pleaser."
 msgstr ""
+"Chanh tươi, bạc hà, rum trắng, đường và nước soda trên đá bào. Món yêu thích "
+"của nhà hàng, được nhiều người ưa chuộng."
 
 #. module: night_clubs
 #: model_terms:product.template,description:night_clubs.product_product_46_product_template
 msgid "Fruity, hoppy IPA served fresh on draft."
-msgstr ""
+msgstr "IPA trái cây, đắng nhẹ, được phục vụ tươi ngon trực tiếp từ vòi."
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_1
@@ -762,21 +862,24 @@ msgid ""
 "ultimate glow-in-the-dark experience, where black lights, neon body paint, "
 "and electrifying beats come together for one unforgettable party."
 msgstr ""
+"Hãy sẵn sàng thắp sáng sàn nhảy! <strong>Đêm Neon</strong> là trải nghiệm "
+"chói sáng trong bóng tối đỉnh cao, nơi ánh đèn cực tím, sơn neon và nhịp "
+"điệu sôi động hòa quyện tạo nên một bữa tiệc khó quên."
 
 #. module: night_clubs
 #: model_terms:product.public.category,website_description:night_clubs.product_public_category_8
 msgid "Get the beats that keep the party alive."
-msgstr ""
+msgstr "Hòa nhịp cùng những giai điệu sôi động trong suốt buổi tiệc."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.homepage
 msgid "Get your entrace tickets now!&amp;nbsp;"
-msgstr ""
+msgstr "Mua vé vào cửa ngay!&amp;nbsp;"
 
 #. module: night_clubs
 #: model:product.template,name:night_clubs.product_product_51_product_template
 msgid "Gin & Tonic"
-msgstr ""
+msgstr "Gin & Tonic"
 
 #. module: night_clubs
 #: model:event.tag,name:night_clubs.event_tag_7
@@ -786,7 +889,7 @@ msgstr ""
 #. module: night_clubs
 #: model:event.event,name:night_clubs.event_event_2
 msgid "Hip-Hop Takeover"
-msgstr ""
+msgstr "Đêm Hip-Hop Bùng Nổ"
 
 #. module: night_clubs
 #: model:event.tag,name:night_clubs.event_tag_8
@@ -796,12 +899,12 @@ msgstr "Nhà"
 #. module: night_clubs
 #: model:product.template,description_sale:night_clubs.product_product_46_product_template
 msgid "House IPA on tap."
-msgstr ""
+msgstr "Bia House IPA được phục vụ trực tiếp từ vòi."
 
 #. module: night_clubs
 #: model:product.template,name:night_clubs.product_product_49_product_template
 msgid "House Red Wine Glass"
-msgstr ""
+msgstr "Ly rượu vang đỏ"
 
 #. module: night_clubs
 #: model:product.template,name:night_clubs.product_product_46_product_template
@@ -821,6 +924,8 @@ msgstr ""
 #: model_terms:product.public.category,website_description:night_clubs.product_public_category_6
 msgid "Indulge in luxury with our exclusive VIP experiences."
 msgstr ""
+"Hãy tận hưởng sự sang trọng với những trải nghiệm VIP độc quyền của chúng "
+"tôi."
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_1
@@ -829,6 +934,9 @@ msgid ""
 "Whether you’re here to dance till sunrise or just vibe in the glow, this is "
 "the event you don’t want to miss."
 msgstr ""
+"Hãy hòa mình cùng hàng trăm người tham dự cho một đêm rực rỡ hơn bất kỳ đêm "
+"nào khác. Dù bạn đến để nhảy cho đến bình minh hay chỉ tận hưởng không khí "
+"sôi động, đây chắc chắn là sự kiện bạn không muốn bỏ lỡ."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -842,22 +950,23 @@ msgstr ""
 #. module: night_clubs
 #: model:product.template,name:night_clubs.product_product_47_product_template
 msgid "Lager Bottle 33cl"
-msgstr ""
+msgstr "Chai bia Lager 33cl"
 
 #. module: night_clubs
 #: model:event.event,name:night_clubs.event_event_3
 msgid "Latin Fever Friday"
-msgstr ""
+msgstr "Thứ Sáu Latin Rực Lửa"
 
 #. module: night_clubs
 #: model:event.event,subtitle:night_clubs.event_event_1
 msgid "Light up the dance floor — the night shines neon bright"
-msgstr ""
+msgstr "Thắp sáng sàn nhảy — đêm neon rực rỡ"
 
 #. module: night_clubs
 #: model:event.event,subtitle:night_clubs.event_event_4
 msgid "Lose yourself in deep beats and Berlin-style techno"
 msgstr ""
+"Hòa mình vào những nhịp điệu sâu lắng và âm nhạc techno phong cách Berlin"
 
 #. module: night_clubs
 #: model:product.public.category,name:night_clubs.product_public_category_5
@@ -887,7 +996,7 @@ msgstr ""
 #. module: night_clubs
 #: model:event.event,name:night_clubs.event_event_1
 msgid "Neon Nights: Glow Party"
-msgstr ""
+msgstr "Đêm Neon: Bữa tiệc ánh sáng"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.homepage
@@ -897,7 +1006,7 @@ msgstr "Tiếp theo"
 #. module: night_clubs
 #: model:event.type,name:night_clubs.event_type_1
 msgid "Night Club Event"
-msgstr ""
+msgstr "Sự kiện tại CLB đêm"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -906,6 +1015,10 @@ msgid ""
 "strong> app lets you post content, run campaigns, and connect with fans "
 "across Instagram, Facebook, X, and YouTube—all from one dashboard."
 msgstr ""
+"Đời sống về đêm phát triển nhờ cộng đồng và sự sôi động. Ứng dụng "
+"<strong>Marketing qua MXH</strong> của Odoo cho phép bạn đăng nội dung, chạy "
+"chiến dịch và kết nối với người hâm mộ trên Instagram, Facebook, X và YouTube"
+"—tất cả từ một bảng điều khiển duy nhất."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -914,6 +1027,10 @@ msgid ""
 "<strong>Point of Sale (PoS)</strong>, you can sell tickets at the entrance "
 "quickly, accept cash or card, and issue receipts instantly."
 msgstr ""
+"Không phải ai cũng mua vé trước, vì một số khách thích những buổi tiệc tùng "
+"ngẫu hứng. Với Odoo <strong>PoS</strong>, bạn có thể bán vé ngay tại cửa "
+"nhanh chóng, chấp nhận thanh toán bằng tiền mặt hoặc thẻ, và xuất hóa đơn "
+"ngay lập tức."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -926,11 +1043,13 @@ msgid ""
 "Once your core operations are running smoothly, consider expanding your "
 "toolset:"
 msgstr ""
+"Khi các hoạt động cốt lõi của bạn đã đi vào vận hành trơn tru, hãy xem xét "
+"việc mở rộng bộ công cụ của mình:"
 
 #. module: night_clubs
 #: model:product.template,description_sale:night_clubs.product_product_57_product_template
 msgid "One item storage."
-msgstr ""
+msgstr "Lưu kho một mặt hàng."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.ir_ui_view_3822
@@ -940,12 +1059,12 @@ msgstr ""
 #. module: night_clubs
 #: model:product.template,description_sale:night_clubs.product_product_54_product_template
 msgid "Perfect for G&Ts."
-msgstr ""
+msgstr "Hoàn hảo cho G&T."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid "Point of Sale App Documentation"
-msgstr ""
+msgstr "Tài liệu hướng dẫn ứng dụng POS"
 
 #. module: night_clubs
 #: model:event.tag,name:night_clubs.event_tag_4
@@ -955,12 +1074,12 @@ msgstr ""
 #. module: night_clubs
 #: model_terms:product.template,description:night_clubs.product_product_50_product_template
 msgid "Premium blanco tequila 3cl. Salt and lime on request."
-msgstr ""
+msgstr "Tequila blanco cao cấp 3cl. Muối và chanh theo yêu cầu."
 
 #. module: night_clubs
 #: model_terms:product.template,description:night_clubs.product_product_54_product_template
 msgid "Premium tonic water 20cl, ideal for mixers."
-msgstr ""
+msgstr "Nước tonic cao cấp 20cl, lý tưởng để pha chế."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.homepage
@@ -980,12 +1099,12 @@ msgstr ""
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid "Reach us"
-msgstr "Liên hệ với chúng tôi"
+msgstr "Liên hệ"
 
 #. module: night_clubs
 #: model:product.template,description_sale:night_clubs.product_product_42_product_template
 msgid "Refreshing mint-lime mojito, made to order."
-msgstr ""
+msgstr "Mojito bạc hà chanh tươi mát, pha chế theo yêu cầu."
 
 #. module: night_clubs
 #: model:event.tag,name:night_clubs.event_tag_12
@@ -995,23 +1114,23 @@ msgstr ""
 #. module: night_clubs
 #: model:event.event.ticket,name:night_clubs.event_event_ticket_1
 msgid "Registration for Hip-Hop Takeover"
-msgstr ""
+msgstr "Đăng ký tham gia Đêm Hip-Hop Bùng Nổ"
 
 #. module: night_clubs
 #: model:event.event.ticket,name:night_clubs.event_event_ticket_3
 msgid "Registration for Latin Fever Friday"
-msgstr ""
+msgstr "Đăng ký Thứ Sáu Latin Rực Lửa"
 
 #. module: night_clubs
 #: model:event.event.ticket,name:night_clubs.event_event_ticket_5
 msgid "Registration for Neon Nights : Glow Party"
-msgstr ""
+msgstr "Đăng ký Đêm Neon: Bữa tiệc ánh sáng"
 
 #. module: night_clubs
 #: model:event.event.ticket,name:night_clubs.event_event_ticket_7
 #: model:event.event.ticket,name:night_clubs.event_event_ticket_8
 msgid "Registration for Techno Undergound"
-msgstr ""
+msgstr "Đăng ký Techno Ngầm"
 
 #. module: night_clubs
 #: model_terms:product.template,description:night_clubs.product_product_56_product_template
@@ -1019,6 +1138,8 @@ msgid ""
 "Reserved table and 70cl premium vodka with mixers and garnish. Priority "
 "entry included."
 msgstr ""
+"Bàn đã đặt trước và 70cl vodka cao cấp kèm đồ pha chế và trang trí. Bao gồm "
+"quyền ưu tiên vào cửa."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -1042,7 +1163,7 @@ msgstr ""
 #. module: night_clubs
 #: model_terms:product.public.category,website_description:night_clubs.product_public_category_4
 msgid "Secure your spot for unforgettable nights and events."
-msgstr ""
+msgstr "Đăng ký ngay để không bỏ lỡ những đêm và sự kiện đáng nhớ."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.homepage
@@ -1064,6 +1185,12 @@ msgid ""
 "            experiences and digital QR codes that guests present at the door."
 "<strong>How to maximize this flow:</strong>"
 msgstr ""
+"Bán vé online giúp khách hàng của bạn có thể lên kế hoạch trước, lựa chọn vé "
+"VIP hoặc vé thường, và nhận xác nhận ngay lập tức. Các ứng dụng của Odoo như "
+"<strong>Trang web</strong> và <strong>Sự kiện</strong> giúp đơn giản hoá "
+"điều đó, cung cấp trải nghiệm thanh toán mượt mà\n"
+"            và mã QR số mà khách hàng có thể trình tại cửa.<strong>Cách tối "
+"ưu hóa quy trình này:</strong>"
 
 #. module: night_clubs
 #: model:product.template,description_sale:night_clubs.product_product_53_product_template
@@ -1074,26 +1201,30 @@ msgstr ""
 #: model_terms:product.public.category,website_description:night_clubs.product_public_category_3
 msgid "Shop our signature cocktails and party essentials."
 msgstr ""
+"Thưởng thức các loại cocktail đặc trưng và các vật dụng cần thiết cho bữa "
+"tiệc của chúng tôi."
 
 #. module: night_clubs
 #: model_terms:product.public.category,website_description:night_clubs.product_public_category_5
 msgid "Show your love for the club with branded gear."
 msgstr ""
+"Hãy thể hiện tình yêu của bạn dành cho CLB bằng cách sử dụng các sản phẩm "
+"chính hãng."
 
 #. module: night_clubs
 #: model_terms:product.template,description:night_clubs.product_product_57_product_template
 msgid "Single coat or bag storage for the night. Non-transferable."
-msgstr ""
+msgstr "Lưu giữ một áo khoác hoặc túi xách qua đêm. Không được chuyển nhượng."
 
 #. module: night_clubs
 #: model:product.template,description_sale:night_clubs.product_product_52_product_template
 msgid "Single pour, 4cl."
-msgstr ""
+msgstr "Đổ một lần, 4cl."
 
 #. module: night_clubs
 #: model:product.template,description_sale:night_clubs.product_product_49_product_template
 msgid "Smooth house red."
-msgstr ""
+msgstr "Rượu vang đỏ mượt mà."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -1117,16 +1248,20 @@ msgid ""
 "<strong>Hip-Hop Takeover</strong> brings you the best in old-school classics "
 "and today’s hottest tracks, blended seamlessly by our live DJs."
 msgstr ""
+"Bước vào một đêm nơi tiếng bass mạnh mẽ và nhịp điệu không bao giờ dừng lại. "
+"<strong>Đêm Hip-Hop Bùng Nổ</strong> mang đến cho bạn những bản nhạc cổ điển "
+"kinh điển cùng các ca khúc hot nhất hiện nay, hòa quyện mượt mà bởi các DJ "
+"trực tiếp của chúng tôi."
 
 #. module: night_clubs
 #: model:product.template,name:night_clubs.product_product_55_product_template
 msgid "Still Water 50cl"
-msgstr ""
+msgstr "Nước lọc 50cl"
 
 #. module: night_clubs
 #: model_terms:product.template,description:night_clubs.product_product_55_product_template
 msgid "Still mineral water 50cl bottle."
-msgstr ""
+msgstr "Nước khoáng không ga, chai 50cl."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.contactus
@@ -1155,6 +1290,9 @@ msgid ""
 "hip-hop anthems. Step into the lights and lose yourself in the energy of the "
 "crowd."
 msgstr ""
+"Các DJ nổi tiếng nhất thành phố đốt cháy sàn nhảy suốt đêm, từ nhạc house "
+"đến các bản hit hip-hop. Bước vào ánh đèn và hòa mình vào năng lượng của đám "
+"đông."
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_2
@@ -1162,16 +1300,18 @@ msgid ""
 "The mic is hot, the floor is packed, and the party doesn’t slow down until "
 "sunrise."
 msgstr ""
+"Mic đang nóng, sàn nhảy chật kín người, và bữa tiệc không ngừng lại cho đến "
+"khi mặt trời mọc."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.homepage
 msgid "This place is perfect for parties or a fun night out with friends."
-msgstr ""
+msgstr "Nơi này hoàn hảo cho các bữa tiệc hoặc một đêm vui vẻ cùng bạn bè."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid "Ticket Sales at the Entrance 🚪"
-msgstr ""
+msgstr "Bán vé tại cổng vào 🚪"
 
 #. module: night_clubs
 #: model:pos.category,name:night_clubs.pos_category_4
@@ -1182,7 +1322,7 @@ msgstr "Phiếu hỗ trợ"
 #. module: night_clubs
 #: model:product.template,name:night_clubs.product_product_54_product_template
 msgid "Tonic Water 20cl"
-msgstr ""
+msgstr "Nước tonic 20cl"
 
 #. module: night_clubs
 #: model:event.tag,name:night_clubs.event_tag_9
@@ -1193,11 +1333,13 @@ msgstr ""
 #: model_terms:product.public.category,website_description:night_clubs.product_public_category_7
 msgid "Transform your space with our stylish party decor."
 msgstr ""
+"Biến không gian của bạn trở nên ấn tượng với bộ trang trí tiệc sang trọng "
+"của chúng tôi."
 
 #. module: night_clubs
 #: model:event.event,subtitle:night_clubs.event_event_3
 msgid "Turn up the heat with salsa, bachata & reggaeton vibes"
-msgstr ""
+msgstr "Tăng nhiệt với nhịp điệu salsa, bachata và reggaeton"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.homepage
@@ -1208,7 +1350,7 @@ msgstr ""
 #. module: night_clubs
 #: model:product.template,name:night_clubs.product_product_56_product_template
 msgid "VIP Bottle Service Vodka"
-msgstr ""
+msgstr "Dịch vụ chai VIP Vodka"
 
 #. module: night_clubs
 #: model:product.template,name:night_clubs.product_product_9_product_template
@@ -1221,7 +1363,7 @@ msgstr ""
 #: model:event.event.ticket,name:night_clubs.event_event_ticket_4
 #: model:event.event.ticket,name:night_clubs.event_event_ticket_6
 msgid "VIP Entrance & Table"
-msgstr ""
+msgstr "Vé vào cửa VIP & bàn"
 
 #. module: night_clubs
 #: model:product.public.category,name:night_clubs.product_public_category_6
@@ -1231,12 +1373,12 @@ msgstr ""
 #. module: night_clubs
 #: model:product.template,description_sale:night_clubs.product_product_56_product_template
 msgid "VIP table + 70cl vodka, mixers included."
-msgstr ""
+msgstr "Bàn VIP + 70cl vodka, bao gồm các loại nước pha chế."
 
 #. module: night_clubs
 #: model:product.template,description_sale:night_clubs.product_product_43_product_template
 msgid "Velvety pick‑me‑up with real espresso."
-msgstr ""
+msgstr "Sự nâng niu mượt mà với espresso thật."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.homepage
@@ -1244,6 +1386,8 @@ msgid ""
 "Vibrant and energetic, great atmosphere and fantastic music. Especially the "
 "late-night dance parties."
 msgstr ""
+"Sôi động và tràn đầy năng lượng, không khí tuyệt vời và âm nhạc tuyệt hảo. "
+"Đặc biệt là các bữa tiệc nhảy đêm khuya."
 
 #. module: night_clubs
 #: model:product.template,name:night_clubs.product_product_45_product_template
@@ -1253,7 +1397,7 @@ msgstr ""
 #. module: night_clubs
 #: model_terms:product.template,description:night_clubs.product_product_43_product_template
 msgid "Vodka, espresso, coffee liqueur, and vanilla syrup with a silky crema."
-msgstr ""
+msgstr "Vodka, espresso, rượu cà phê và siro vani với lớp crema mịn màng."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -1263,12 +1407,12 @@ msgstr "Tài liệu trang web"
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid "Website for Online Ticket Sales 🌐"
-msgstr ""
+msgstr "Trang web bán vé online 🌐"
 
 #. module: night_clubs
 #: model:product.template,name:night_clubs.product_product_52_product_template
 msgid "Whisky Single 4cl"
-msgstr ""
+msgstr "Rượu whisky đơn 4cl"
 
 #. module: night_clubs
 #: model:product.template,name:night_clubs.product_product_60_product_template
@@ -1298,6 +1442,8 @@ msgid ""
 "With Odoo, your nightclub operations are fully connected, leaving you free "
 "to focus on the music, atmosphere, and unforgettable experiences."
 msgstr ""
+"Với Odoo, mọi hoạt động của câu lạc bộ đêm của bạn được kết nối toàn diện, "
+"giúp bạn tập trung vào âm nhạc, không gian và những trải nghiệm khó quên."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -1329,6 +1475,8 @@ msgid ""
 "Your Night.&amp;nbsp;<br/>\n"
 "                                            Your Club."
 msgstr ""
+"Đêm của bạn.&amp;nbsp;<br/>\n"
+"                                            CLB của bạn."
 
 #. module: night_clubs
 #: model:product.template,description_sale:night_clubs.product_product_45_product_template
@@ -1338,7 +1486,7 @@ msgstr ""
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_1
 msgid "✨ Neon Nights: Glow Party"
-msgstr ""
+msgstr "✨ Đêm Neon: Bữa tiệc ánh sáng"
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_4
@@ -1346,13 +1494,15 @@ msgid ""
 "🌌 <strong>Atmosphere</strong>: Dark room, heavy bass, smoke &amp; strobes, "
 "underground vibe"
 msgstr ""
+"🌌 <strong>Không khí</strong>: Phòng tối, bass mạnh, khói &amp;: đèn nháy, "
+"không khí ngầm"
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_3
 msgid ""
 "🍹 <strong>Extras</strong>: Special mojitos &amp; tequila shots all night "
 "long"
-msgstr ""
+msgstr "🍹 <strong>Thêm</strong>: Mojitos &amp; tequila đặc biệt suốt đêm"
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_4
@@ -1360,39 +1510,43 @@ msgid ""
 "🎛 <strong>Experience</strong>: Extended DJ sets &amp; immersive visuals for "
 "full immersion"
 msgstr ""
+"🎛 <strong>Trải nghiệm</strong>: Các set DJ kéo dài &amp; hình ảnh tương tác "
+"3D cho trải nghiệm đắm chìm hoàn toàn"
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_4
 msgid ""
 "🎟 Strictly limited tickets — secure yours and descend into the underground."
-msgstr ""
+msgstr "🎟 Số lượng vé có hạn — hãy đặt vé ngay và khám phá thế giới ngầm."
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_2
 msgid "🎟 Tickets move fast — grab yours and take over the night!"
-msgstr ""
+msgstr "🎟 Vé bán rất nhanh — hãy nhanh tay đặt vé và tận hưởng đêm tuyệt vời!"
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_2
 msgid "🎤 Hip-Hop Takeover"
-msgstr ""
+msgstr "🎤 Đêm Hip-Hop Bùng Nổ"
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_4
 msgid "🎧 Techno Underground Session"
-msgstr ""
+msgstr "🎧 Buổi biểu diễn Techno Ngầm"
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_1
 msgid ""
 "🎨 <strong>Extras</strong>: Free glow paint &amp; bracelets at the entrance"
 msgstr ""
+"🎨 <strong>Thêm</strong>: Sơn phát sáng miễn phí &amp; vòng tay tại lối vào"
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_2
 msgid ""
 "🎶 <strong>Music</strong>: From Biggie &amp; Tupac to Drake &amp; Kendrick"
 msgstr ""
+"🎶 <strong>Âm nhạc</strong>: Từ Biggie &amp; Tupac đến Drake &amp; Kendrick"
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_1
@@ -1400,6 +1554,8 @@ msgid ""
 "🎶 <strong>Music</strong>: High-energy house, EDM, and club anthems all "
 "night long"
 msgstr ""
+"🎶 <strong>Âm nhạc</strong>: Nhạc house sôi động, EDM và những bản hit sàn "
+"nhảy suốt đêm"
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_3
@@ -1407,6 +1563,8 @@ msgid ""
 "🎶 <strong>Music</strong>: Latin beats from guest DJs straight out of Madrid "
 "&amp; beyond"
 msgstr ""
+"🎶 <strong>Âm nhạc</strong>: Nhạc latin sôi động từ các DJ khách mời trực "
+"tiếp từ Madrid &amp; hơn thế nữa"
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_4
@@ -1414,17 +1572,23 @@ msgid ""
 "🎶 <strong>Music</strong>: Minimal, industrial, and deep techno from "
 "international guest DJs"
 msgstr ""
+"🎶 <strong>Âm nhạc</strong>: Âm nhạc tối giản, mang hơi hướng industrial và "
+"deep techno từ các DJ khách mời quốc tế"
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_4
 msgid ""
 "👕 <strong>Dress code</strong>: Black, edgy, minimal — keep it underground"
 msgstr ""
+"👕 <strong>Quy định trang phục</strong>: Đen, cá tính, tối giản — giữ phong "
+"cách ngầm"
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_3
 msgid "👗 <strong>Dress code</strong>: Casual chic with a splash of color"
 msgstr ""
+"👗 <strong>Quy định trang phục</strong>: Phong cách casual chic kết hợp với "
+"một chút màu sắc tươi sáng"
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_1
@@ -1432,11 +1596,15 @@ msgid ""
 "👗 <strong>Dress code</strong>: Wear white or neon — the lights will do the "
 "rest"
 msgstr ""
+"👗 <strong>Quy định trang phục</strong>: Mặc trang phục màu trắng hoặc neon "
+"— ánh sáng sẽ làm phần còn lại"
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_2
 msgid "👟 <strong>Dress code</strong>: Streetwear, sneakers, keep it fresh"
 msgstr ""
+"👟 <strong>Quy định trang phục</strong>: Trang phục đường phố, giày thể "
+"thao, phong cách tươi mới"
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_3
@@ -1444,17 +1612,20 @@ msgid ""
 "💃 <strong>Atmosphere</strong>: Couples spinning, hips shaking, tropical "
 "rhythms"
 msgstr ""
+"💃 <strong>Không khí</strong>: Các cặp đôi xoay tròn, hông lắc lư, nhịp điệu "
+"nhiệt đới"
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_3
 msgid "💃 Latin Fever Friday"
-msgstr ""
+msgstr "💃 Thứ Sáu Latin Rực Lửa"
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_1
 msgid ""
 "💡 <strong>Atmosphere</strong>: UV lights, neon décor, glowing accessories"
 msgstr ""
+"💡 <strong>Không khí</strong>: Đèn UV, trang trí neon, phụ kiện phát sáng"
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_2
@@ -1462,11 +1633,13 @@ msgid ""
 "💡 <strong>Atmosphere</strong>: Urban beats, flashing lights, pure energy on "
 "the dance floor"
 msgstr ""
+"💡 <strong>Không khí</strong>: Nhịp điệu sôi động, ánh sáng chớp nhoáng, "
+"năng lượng thuần khiết trên sàn nhảy"
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_1
 msgid "💫 Tickets are limited — secure yours now and let’s glow!"
-msgstr ""
+msgstr "💫 Số lượng vé có hạn — hãy đặt vé ngay và cùng nhau tỏa sáng!"
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_2
@@ -1474,8 +1647,13 @@ msgid ""
 "🔥 <strong>Vibes</strong>: Booming bass, freestyle drops, and MCs hyping the "
 "crowd"
 msgstr ""
+"🔥 <strong>Không khí</strong>: Âm bass mạnh mẽ, những đoạn drop tự do và các "
+"MC khuấy động đám đông"
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_3
 msgid "🔥 Secure your ticket now and join the fiesta!"
-msgstr ""
+msgstr "🔥 Đặt vé ngay và tham gia lễ hội!"
+
+#~ msgid "18+"
+#~ msgstr "18+"

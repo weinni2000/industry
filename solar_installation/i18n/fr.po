@@ -7,13 +7,13 @@
 # Manon Rondou, 2024
 # Wil Odoo, 2024
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# "Manon Rondou (ronm)" <ronm@odoo.com>, 2025.
+# "Manon Rondou (ronm)" <ronm@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 09:39+0000\n"
-"PO-Revision-Date: 2025-11-12 14:43+0000\n"
+"POT-Creation-Date: 2026-04-10 19:40+0000\n"
+"PO-Revision-Date: 2026-02-18 10:35+0000\n"
 "Last-Translator: \"Manon Rondou (ronm)\" <ronm@odoo.com>\n"
 "Language-Team: French <https://translate.odoo.com/projects/odoo-19/"
 "solar_installation/fr/>\n"
@@ -23,12 +23,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
 "1000000 == 0) ? 1 : 2);\n"
-"X-Generator: Weblate 5.12.2\n"
-
-#. module: solar_installation
-#: model_terms:ir.ui.view,arch_db:solar_installation.ir_ui_view_2702
-msgid "+1 (079) 400-5001"
-msgstr "+1 (079) 400-5001"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: solar_installation
 #: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
@@ -50,8 +45,8 @@ msgid ""
 "Website. Support\n"
 "            Ticket will be generated in Helpdesk app."
 msgstr ""
-"- Le client peut <font style=\"color: rgb(107, 165, 74);\""
-"><strong>soumettre</strong></font> un ticket à l'équipe Service Clientèle "
+"- Le client peut <font style=\"color: rgb(107, 165, 74);"
+"\"><strong>soumettre</strong></font> un ticket à l'équipe Service Clientèle "
 "pour une réparation par e-mail, via le formulaire \"Soumettre un ticket\" ou "
 "en cliquant sur le bouton Chatbot dans la page d'aide du site web. Un "
 "ticket\n"
@@ -112,11 +107,10 @@ msgid ""
 "            warranty date is not under the warranty period, an invoice will "
 "be raised for the parts replaced and repairing charge."
 msgstr ""
-"- L'utilisateur de l'application Inventaire <strong><font style="
-"\"color: rgb(107, 165, 74);\">validera</font></strong> l'équipement retourné "
-"dans le module Retours et vérifiera la <font style="
-"\"color: rgb(107, 165, 74);\"><strong>date de fin de garantie</strong></"
-"font>. Si celle-ci\n"
+"- L'utilisateur de l'application Inventaire <strong><font style=\"color: "
+"rgb(107, 165, 74);\">validera</font></strong> l'équipement retourné dans le "
+"module Retours et vérifiera la <font style=\"color: rgb(107, 165, 74);"
+"\"><strong>date de fin de garantie</strong></font>. Si celle-ci\n"
 "            est dépassée, une facture sera émise pour les pièces remplacées "
 "et les frais de réparation."
 
@@ -146,6 +140,83 @@ msgstr "2 kW"
 #: model:crm.tag,name:solar_installation.crm_tag_2
 msgid "3 kW"
 msgstr "3 kW"
+
+#. module: solar_installation
+#: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
+msgid ""
+"<b>CRM App</b>: Capture leads from your website and track them through the "
+"sales funnel, managing site visits\n"
+"                and technical feasibility checks."
+msgstr ""
+"<b>Application CRM</b> : capturez les pistes depuis votre site web et suivez-"
+"les tout au long du tunnel de vente, en gérant les visites sur site et les "
+"vérifications de faisabilité technique."
+
+#. module: solar_installation
+#: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
+msgid ""
+"<b>Field Service App</b>: Schedule your installation crews and maintenance "
+"teams efficiently, allowing them to\n"
+"                log time and consume parts via mobile."
+msgstr ""
+"<b>Application Services sur Site</b> : planifiez efficacement vos équipes "
+"d’installation et de maintenance, en leur permettant d’encoder le temps "
+"passé et de consommer des pièces depuis un appareil mobile."
+
+#. module: solar_installation
+#: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
+msgid ""
+"<b>Inventory App</b>: Keep track of high-value stock like solar modules and "
+"batteries, ensuring you have the\n"
+"                right components for every job."
+msgstr ""
+"<b>Application Inventaire</b> : suivez les stocks à forte valeur, tels que "
+"les modules solaires et les batteries, afin de disposer des composants "
+"adaptés pour chaque intervention."
+
+#. module: solar_installation
+#: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
+msgid ""
+"<b>Project App</b>: Manage installation projects with clear stages (e.g., "
+"\"Permitting,\" \"Installation,\"\n"
+"                \"Inspection\"), tracking tasks and deadlines."
+msgstr ""
+"<b>Application Projet</b> : gérez les projets d’installation avec des étapes "
+"claires (par ex. \"Autorisation\", \"Installation\", \"Inspection\"), en "
+"suivant les tâches et les échéances."
+
+#. module: solar_installation
+#: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
+msgid ""
+"<b>Sales App</b>: Create professional, detailed proposals that include "
+"technical specifications for panels,\n"
+"                inverters, and labor costs."
+msgstr ""
+"<b>Application Ventes</b> : créez des propositions professionnelles et "
+"détaillées incluant les spécifications techniques des panneaux, des "
+"onduleurs et les coûts de main-d’œuvre."
+
+#. module: solar_installation
+#: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
+msgid ""
+"<b>Sign App</b>: Securely collect digital signatures for contracts, "
+"interconnection agreements, and financing\n"
+"                documents."
+msgstr ""
+"<b>Application Signature</b> : collectez en toute sécurité des signatures "
+"électroniques pour les contrats, les accords de raccordement et les "
+"documents de financement."
+
+#. module: solar_installation
+#: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
+msgid ""
+"<b>Website App</b>: Showcase your portfolio of successful installations and "
+"attract new eco-conscious clients\n"
+"                with a professional online presence."
+msgstr ""
+"<b>Application Site Web</b> : mettez en valeur votre portfolio "
+"d’installations réussies et attirez de nouveaux clients écoresponsables "
+"grâce à une présence en ligne professionnelle."
 
 #. module: solar_installation
 #: model_terms:ir.ui.view,arch_db:solar_installation.ir_ui_view_2702
@@ -254,8 +325,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
 msgid "<span style=\"font-size: 14px;\">Worksheet for Installation</span>"
 msgstr ""
-"<span style=\"font-size: 14px;\">Feuille de travail pour "
-"l'installation</span>"
+"<span style=\"font-size: 14px;\">Feuille de travail pour l'installation</"
+"span>"
 
 #. module: solar_installation
 #: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
@@ -310,15 +381,19 @@ msgid ""
 "font></strong>."
 msgstr ""
 "Les personnes assignées remplissent la feuille de travail après avoir "
-"terminé l'installation. Plusieurs <strong><font style="
-"\"color: rgb(107, 165, 74);\">photos de l'installation du système "
-"photovoltaïque</font></strong> sur le site du client sont prises, "
-"accompagnées de\n"
+"terminé l'installation. Plusieurs <strong><font style=\"color: rgb(107, 165, "
+"74);\">photos de l'installation du système photovoltaïque</font></strong> "
+"sur le site du client sont prises, accompagnées de\n"
 "            la confirmation et de la signature du client sur la feuille de "
 "travail. La feuille inclut des champs personnalisés comme la date de début, "
 "la date de fin, le plan, la signature, etc., configurés via l'application\n"
-"            <strong><font style=\"color: rgb(165, 74, 123);\""
-">Studio</font></strong>."
+"            <strong><font style=\"color: rgb(165, 74, 123);\">Studio</font></"
+"strong>."
+
+#. module: solar_installation
+#: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
+msgid "Basics"
+msgstr "Les bases"
 
 #. module: solar_installation
 #: model:product.template,name:solar_installation.product_product_8_product_template
@@ -378,10 +453,10 @@ msgid ""
 "\">creates 1 Field Service Task</font></strong> automatically for Solar "
 "system installation in a Project dedicated to Installation."
 msgstr ""
-"La confirmation de la commande client <strong><font style="
-"\"color: rgb(107, 165, 74);\">crée automatiquement une tâche de service sur "
-"site</font></strong> pour l'installation d'un système photovoltaïque dans un "
-"projet dédié à l'installation."
+"La confirmation de la commande client <strong><font style=\"color: rgb(107, "
+"165, 74);\">crée automatiquement une tâche de service sur site</font></"
+"strong> pour l'installation d'un système photovoltaïque dans un projet dédié "
+"à l'installation."
 
 #. module: solar_installation
 #: model_terms:ir.ui.view,arch_db:solar_installation.ir_ui_view_2702
@@ -717,10 +792,10 @@ msgid ""
 "customer agrees the quotation, a site survey is planned and Opportunity is "
 "moved to the Site Survey stage."
 msgstr ""
-"Un vendeur est assigné et <strong><font style=\"color: rgb(107, 165, 74);\""
-">l'opportunité</font></strong> est déplacée au stade <strong><font style="
-"\"color: rgb(107, 165, 74);\">Qualifiée</font></strong>. Le vendeur effectue "
-"un suivi avec les\n"
+"Un vendeur est assigné et <strong><font style=\"color: rgb(107, 165, 74);"
+"\">l'opportunité</font></strong> est déplacée au stade <strong><font "
+"style=\"color: rgb(107, 165, 74);\">Qualifiée</font></strong>. Le vendeur "
+"effectue un suivi avec les\n"
 "            clients via des activités comme des appels ou des réunions. Si "
 "le client accepte le devis, une enquête sur site est planifiée et "
 "l'opportunité passe au stade Sondage sur site."
@@ -907,6 +982,9 @@ msgstr "info@yourcompany.example.com"
 #: model_terms:ir.ui.view,arch_db:solar_installation.report_custom_x_project_task_worksheet_template_1
 msgid "kW plan"
 msgstr "Plan kW"
+
+#~ msgid "+1 (079) 400-5001"
+#~ msgstr "+1 (079) 400-5001"
 
 #~ msgid "Execute Code"
 #~ msgstr "Exécuter le code"

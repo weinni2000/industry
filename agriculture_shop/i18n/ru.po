@@ -4,13 +4,13 @@
 #
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
+# "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-28 10:42+0000\n"
-"PO-Revision-Date: 2025-11-12 06:07+0000\n"
+"POT-Creation-Date: 2026-01-12 09:28+0000\n"
+"PO-Revision-Date: 2026-03-04 16:53+0000\n"
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
 "Language-Team: Russian <https://translate.odoo.com/projects/odoo-19/"
 "agriculture_shop/ru/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.16.1\n"
 
 #. module: agriculture_shop
 #: model:crm.tag,name:agriculture_shop.crm_tag_28
@@ -147,38 +147,75 @@ msgstr "5 л"
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid ""
 "<b>\n"
-"                    <font class=\"text-o-color-1\">The Invoice App:</font>\n"
-"                </b> Keep a\n"
-"                clear record of all your invoices."
-msgstr ""
-"<b>\n"
-"                    <font class=\"text-o-color-1\">Модуль Выставление "
-"счетов:</font>\n"
-"                </b> Обеспечьте\n"
-"                полный и прозрачный учет всех ваших счетов."
-
-#. module: agriculture_shop
-#: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
-msgid ""
-"<b>\n"
-"                    <font class=\"text-o-color-1\">The Point Of Sales App:</"
-"font>\n"
-"                </b>Manage\n"
-"                all your shop operations."
-msgstr ""
-"<b>\n"
-"                    <font class=\"text-o-color-1\">Модуль POS:</font>\n"
-"                </b> Управляйте\n"
-"                всеми операциями магазина."
-
-#. module: agriculture_shop
-#: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
-msgid ""
-"<b>\n"
 "                    SEO features</b>"
 msgstr ""
 "<b>\n"
 "                    SEO функции</b>"
+
+#. module: agriculture_shop
+#: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
+msgid ""
+"<b><font class=\"text-o-color-1\">Inventory App:</font></b> Keep precise "
+"track of stock levels for diverse products\n"
+"                like pesticides and equipment."
+msgstr ""
+"<b><font class=\"text-o-color-1\">Модуль Склад:</font></b> Точно "
+"отслеживайте остатки для самых разных категорий товаров – от садового "
+"инвентаря до\n"
+"                удобрений."
+
+#. module: agriculture_shop
+#: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
+msgid ""
+"<b><font class=\"text-o-color-1\">Point of Sale App:</font></b> Manage in-"
+"store transactions efficiently, handling sales of seeds, tools, and supplies "
+"with ease."
+msgstr ""
+"<b><font class=\"text-o-color-1\">Модуль POS</font></b> Эффективно "
+"управляйте розничными операциями, с легкостью оформляя продажи семян, "
+"инструментов и расходных материалов."
+
+#. module: agriculture_shop
+#: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
+msgid ""
+"<b><font class=\"text-o-color-1\">Purchase App:</font></b> Streamline the "
+"procurement of farming products from suppliers, managing costs and lead "
+"times."
+msgstr ""
+"<b><font class=\"text-o-color-1\">Модуль Закупки:</font></b> Оптимизируйте "
+"процесс снабжения товарами для садоводства, контролируя затраты и сроки "
+"поставок от производителей."
+
+#. module: agriculture_shop
+#: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
+msgid ""
+"<b><font class=\"text-o-color-1\">Sales App:</font></b> Handle B2B orders "
+"and contracts for large farming clients, ensuring accurate pricing."
+msgstr ""
+"<b><font class=\"text-o-color-1\">Модуль Продажи:</font></b> Работайте с "
+"оптовыми заказами и контрактами для крупных фермерских хозяйств, обеспечивая "
+"точность ценообразования."
+
+#. module: agriculture_shop
+#: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
+msgid ""
+"<b><font class=\"text-o-color-1\">Website App:</font></b><font class=\"text-"
+"o-color-3\"> Build a professional online presence to showcase your catalog "
+"and attract new customers.</font>"
+msgstr ""
+"<b><font class=\"text-o-color-1\">Модуль Вебсайт:</font></b><font class="
+"\"text-o-color-3\"> Создайте профессиональный имидж в сети, чтобы "
+"представить свой каталог и привлечь новых клиентов.</font>"
+
+#. module: agriculture_shop
+#: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
+msgid ""
+"<b><font class=\"text-o-color-1\">eCommerce App:</font></b> Expand your "
+"reach by selling products online, offering convenience to modern farmers."
+msgstr ""
+"<b><font class=\"text-o-color-1\">Модуль eCommerce:</font></b> Расширяйте "
+"охват, продавая товары онлайн и предлагая удобный сервис для современных "
+"фермерских хозяйств."
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -248,8 +285,8 @@ msgid ""
 "                    website so the customer sees their agreed-upon prices "
 "upon login."
 msgstr ""
-"<b>Оптовое ценообразование (B2B):</b> Создайте и назначьте <b>"
-"индивидуальные\n"
+"<b>Оптовое ценообразование (B2B):</b> Создайте и назначьте "
+"<b>индивидуальные\n"
 "                    прайс-листы</b> каждому B2B-клиенту. Убедитесь, что эти "
 "прайс-листы активны на вашем вебсайте,\n"
 "                    чтобы клиент видел свои согласованные цены после "
@@ -380,7 +417,7 @@ msgid ""
 msgstr ""
 "<b>Платежные провайдеры и методы:</b> Перейдите в <b>Вебсайт\n"
 "                    > Конфигурация > Платежные провайдеры</b> и установите "
-"<b>все</b> способы оплаты, которые\n"
+"<b>все</b> методы оплаты, которые\n"
 "                    планируете использовать (например, банковские карты, "
 "PayPal\n"
 "                    и др.)."
@@ -445,8 +482,8 @@ msgid ""
 "                            reductions</b> at the point of sale."
 msgstr ""
 "<b>Гибкое ценообразование:</b> Используйте <b>скидки и акции</b> для\n"
-"                            быстрых корректировок цен или предоставления <b>"
-"ручных\n"
+"                            быстрых корректировок цен или предоставления "
+"<b>ручных\n"
 "                            скидок</b> в модуле POS."
 
 #. module: agriculture_shop
@@ -491,32 +528,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "<b>Use the</b>"
 msgstr "<b>Использовать</b>"
-
-#. module: agriculture_shop
-#: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
-msgid ""
-"<font class=\"text-o-color-1\">\n"
-"                        <b>The CRM &amp; Sales App's:</b>\n"
-"                    </font> Manage all your\n"
-"                    client contacts and quotations."
-msgstr ""
-"<font class=\"text-o-color-1\"><b>\n"
-"                        Модули CRM и Продажи:</b>\n"
-"                    </font> Управляйте\n"
-"                    клиентами и коммерческими предложениями."
-
-#. module: agriculture_shop
-#: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
-msgid ""
-"<font class=\"text-o-color-1\">\n"
-"                        <b>The Website App:</b>\n"
-"                    </font> Use this app as a virtual\n"
-"                    showroom and a powerful tool for generating new leads."
-msgstr ""
-"<font class=\"text-o-color-1\">\n"
-"                        <b>Модуль Вебсайт:</b>\n"
-"                    </font> Используйте его как онлайн-\n"
-"                    витрину и инструмент для генерации лидов."
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -570,8 +581,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">💡</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Info\">💡</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">💡</i>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -579,8 +590,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">🚀</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Info\">🚀</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">🚀</i>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -588,8 +599,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">✅</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Success\">✅</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\">✅</i>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -597,8 +608,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">🚀</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Success\">🚀</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\">🚀</i>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -606,8 +617,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\">⚠️</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Warning\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
+"<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
+"fst-normal\">⚠️</i>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.pricing
@@ -831,7 +842,8 @@ msgstr "<span style=\"font-weight: normal;\">🎓 Оборудование</span
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "<span style=\"font-weight: normal;\">🎓 Reordering rules</span>"
-msgstr "<span style=\"font-weight: normal;\">🎓 Правила повторного заказа</span>"
+msgstr ""
+"<span style=\"font-weight: normal;\">🎓 Правила повторного заказа</span>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -968,7 +980,8 @@ msgstr "B2B"
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid ""
 "B2B Customer Configuration and Sales Workflow<span class=\"h2-fs\">🤝</span>"
-msgstr "B2B-настройки клиентов и сценарий продаж <span class=\"h2-fs\">🤝</span>"
+msgstr ""
+"B2B-настройки клиентов и сценарий продаж <span class=\"h2-fs\">🤝</span>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.pricing
@@ -1081,8 +1094,8 @@ msgstr ""
 "Определите <b>варианты товаров</b> для удобства\n"
 "                    покупателей в онлайн-магазине. <i>Важно: Назначайте "
 "только одно значение на\n"
-"                    атрибут, чтобы не создавать отдельные складские "
-"позиции.</i>"
+"                    атрибут, чтобы не создавать отдельные складские позиции."
+"</i>"
 
 #. module: agriculture_shop
 #: model:product.template,name:agriculture_shop.product_product_34
@@ -1280,7 +1293,8 @@ msgstr "Орошение"
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "It automatically creates a <b>Sales Order</b> in your Sales App."
-msgstr "Система автоматически создает <b>заказ на продажу</b> в модуле Продажи."
+msgstr ""
+"Система автоматически создает <b>заказ на продажу</b> в модуле Продажи."
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -1831,8 +1845,8 @@ msgid ""
 "            data is always accurate."
 msgstr ""
 "Модуль Склад обеспечивает полный контроль\n"
-"            над вашим <b>каталогом товаров</b> и <b>управлением запасами</b>,"
-"\n"
+"            над вашим <b>каталогом товаров</b> и <b>управлением запасами</"
+"b>,\n"
 "            гарантируя актуальность данных."
 
 #. module: agriculture_shop
@@ -2141,6 +2155,53 @@ msgid ""
 msgstr ""
 "🎓\n"
 "                Вебсайт"
+
+#~ msgid ""
+#~ "<b>\n"
+#~ "                    <font class=\"text-o-color-1\">The Invoice App:</"
+#~ "font>\n"
+#~ "                </b> Keep a\n"
+#~ "                clear record of all your invoices."
+#~ msgstr ""
+#~ "<b>\n"
+#~ "                    <font class=\"text-o-color-1\">Модуль Выставление "
+#~ "счетов:</font>\n"
+#~ "                </b> Обеспечьте\n"
+#~ "                полный и прозрачный учет всех ваших счетов."
+
+#~ msgid ""
+#~ "<b>\n"
+#~ "                    <font class=\"text-o-color-1\">The Point Of Sales App:"
+#~ "</font>\n"
+#~ "                </b>Manage\n"
+#~ "                all your shop operations."
+#~ msgstr ""
+#~ "<b>\n"
+#~ "                    <font class=\"text-o-color-1\">Модуль POS:</font>\n"
+#~ "                </b> Управляйте\n"
+#~ "                всеми операциями магазина."
+
+#~ msgid ""
+#~ "<font class=\"text-o-color-1\">\n"
+#~ "                        <b>The CRM &amp; Sales App's:</b>\n"
+#~ "                    </font> Manage all your\n"
+#~ "                    client contacts and quotations."
+#~ msgstr ""
+#~ "<font class=\"text-o-color-1\"><b>\n"
+#~ "                        Модули CRM и Продажи:</b>\n"
+#~ "                    </font> Управляйте\n"
+#~ "                    клиентами и коммерческими предложениями."
+
+#~ msgid ""
+#~ "<font class=\"text-o-color-1\">\n"
+#~ "                        <b>The Website App:</b>\n"
+#~ "                    </font> Use this app as a virtual\n"
+#~ "                    showroom and a powerful tool for generating new leads."
+#~ msgstr ""
+#~ "<font class=\"text-o-color-1\">\n"
+#~ "                        <b>Модуль Вебсайт:</b>\n"
+#~ "                    </font> Используйте его как онлайн-\n"
+#~ "                    витрину и инструмент для генерации лидов."
 
 #~ msgid ""
 #~ "<font class=\"text-black\"><strong>Flow 2: Sales from Website (B2B / B2C) "

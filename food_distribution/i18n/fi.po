@@ -3,13 +3,14 @@
 # * food_distribution
 #
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
+# Saara Hakanen <sahak@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 12:24+0000\n"
-"PO-Revision-Date: 2025-09-17 03:02+0000\n"
-"Last-Translator: \"Tiffany Chang (tic)\" <tic@odoo.com>\n"
+"POT-Creation-Date: 2026-06-12 18:08+0000\n"
+"PO-Revision-Date: 2026-06-24 16:59+0000\n"
+"Last-Translator: Saara Hakanen <sahak@odoo.com>\n"
 "Language-Team: Finnish <https://translate.odoo.com/projects/odoo-19/"
 "food_distribution/fi/>\n"
 "Language: fi\n"
@@ -17,12 +18,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: food_distribution
+#: model:ir.actions.report,print_report_name:food_distribution.mrp_bom_product_label_action_report
+msgid "'Products Labels - %s' % (object.name)"
+msgstr "'Tuote-etiketit - %s' % (object.name)"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ", and feel free to"
-msgstr "ja voit rohkeasti"
+msgstr "sivuilta, sekä"
 
 #. module: food_distribution
 #: model:uom.uom,name:food_distribution.uom_uom_32
@@ -42,11 +48,81 @@ msgstr "5L ämpäri"
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
+"<b>Documents App</b>: Centralize supplier certificates, quality control "
+"reports, and shipping manifests for easy\n"
+"          retrieval during audits."
+msgstr ""
+"<b>Asiakirjat-sovellus</b>: Keskitä toimittajien sertifikaatit, "
+"laadunvalvontaraportit sekä lähetysluettelot löytäksesi ne\n"
+"          helposti auditointien aikana."
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"<b>Fleet App</b>: Manage your delivery trucks and vans, tracking fuel logs, "
+"maintenance schedules, and driver\n"
+"          assignments in one place."
+msgstr ""
+"<b>Kuljetuskalusto-sovellus</b>: Hallinnoi kuorma- ja pakettiautojasi sekä "
+"seuraa polttoainelokeja, huoltoaikatauluja\n"
+"          ja kuljettajien tehtäviä yhdestä paikasta."
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"<b>Inventory App</b>: Master your stock with advanced features like Lots "
+"&amp; Serial Numbers for traceability\n"
+"          and Expiration Dates to enforce FEFO (First Expired, First Out) "
+"removal strategies."
+msgstr ""
+"<b>Varastointi-sovellus</b>: Hallitse varastoasi edistyneillä "
+"ominaisuuksilla, kuten eriin &amp; sarjanumeroihin perustuvalla "
+"jäljitettävyydellä\n"
+"          sekä eräpäivillä FEFO-poistostrategian (viimeisimmän erän ensin) "
+"varmistamiseksi."
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"<b>Invoicing App</b>: Streamline your billing with automated invoicing based "
+"on delivered quantities, ensuring\n"
+"          accurate financial records."
+msgstr ""
+"<b>Laskutus-sovellus</b>: Suoraviivaista automatisoitu laskutus "
+"toimitettujen määrien perusteella\n"
+"          tarkan kirjanpidon takaamiseksi."
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"<b>Purchase App</b>: Automate your procurement process with reordering rules "
+"that account for vendor lead times\n"
+"          and seasonal demand spikes."
+msgstr ""
+"<b>Ostot-sovellus</b>: Automatisoi hankintaprosessisi "
+"uudelleentilaussäännöillä, jotka huomioivat tavarantoimittajien "
+"toimitusajat\n"
+"          ja kausittaiset kysyntäpiikit."
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"<b>Sales App</b>: Manage complex pricing structures with Pricelists, "
+"allowing you to offer specific deals to\n"
+"          restaurants, retailers, or wholesalers."
+msgstr ""
+"<b>Myynti-sovellus</b>: Hallitse monimutkaisia hinnoittelurakenteita "
+"hinnastoilla, joiden avulla voit tarjota erityisiä tarjouksia\n"
+"          ravintoloille, jälleenmyyjille tai tukkukauppiaille."
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
 msgstr ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
-"label=\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
+"label=\"Banner Info\" aria-label=\"Info-banneri\">💡</i>"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -55,7 +131,7 @@ msgid ""
 "label=\"Banner Success\" aria-label=\"Banner Success\">✅</i>"
 msgstr ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
-"label=\"Banner Success\" aria-label=\"Banner Success\">✅</i>"
+"label=\"Banner Success\" aria-label=\"Menestysbanneri\">✅</i>"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -64,7 +140,7 @@ msgid ""
 "normal\" aria-label=\"Banner Info\">💡</i>"
 msgstr ""
 "<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
-"normal\" aria-label=\"Banner Info\">💡</i>"
+"normal\" aria-label=\"Info-banneri\">💡</i>"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -73,7 +149,7 @@ msgid ""
 "normal\" aria-label=\"Banner Info\">🚀</i>"
 msgstr ""
 "<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
-"normal\" aria-label=\"Banner Info\">🚀</i>"
+"normal\" aria-label=\"Info-banneri\">🚀</i>"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -82,7 +158,7 @@ msgid ""
 "fst-normal\" aria-label=\"Banner Success\">🎉</i>"
 msgstr ""
 "<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
-"fst-normal\" aria-label=\"Banner Success\">🎉</i>"
+"fst-normal\" aria-label=\"Menestysbanneri\">🎉</i>"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -91,7 +167,16 @@ msgid ""
 "fst-normal\" aria-label=\"Banner Warning\">⚠️</i>"
 msgstr ""
 "<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
-"fst-normal\" aria-label=\"Banner Warning\">⚠️</i>"
+"fst-normal\" aria-label=\"Varoitusbanneri\">⚠️</i>"
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid ""
+"<span>Batch/Lot: </span>\n"
+"                                                                        <br/>"
+msgstr ""
+"<span>Joukko/Erä: </span>\n"
+"                                                                        <br/>"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -115,14 +200,29 @@ msgid ""
 "then to create a\n"
 "            new one for your own usage.</strong>"
 msgstr ""
-"<strong>Tällaisessa tapauksessa tee erilaisia kokeiluja rohkeasti tässä "
-"tietokannassa ja luo\n"
-"                         sitten uusi omaan käyttöösi.</strong>"
+"<strong>Tällaisessa tilanteessa voit vapaasti kokeilla tätä tietokantaa ja "
+"luoda sitten\n"
+"            uuden omaan käyttöösi.</strong>"
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid "<strong>Ingredients: </strong>"
+msgstr "<strong>Ainekset: </strong>"
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid "<strong>Nutritional Fact</strong>"
+msgstr "<strong>Ravintosisältö</strong>"
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid "<strong>Per 100g</strong>"
+msgstr "<strong>Per 100g</strong>"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "<strong>Use case</strong>"
-msgstr "<strong>Käyttötapaus</strong>"
+msgstr "<strong>Esimerkkitapaus</strong>"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -140,8 +240,26 @@ msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"Activate the Food &amp; Drinks Labels settings in the Food Distribution "
+"section."
+msgstr ""
+"Aktivoi ruokien &amp; juomien etikettiasetukset Elintarvikejakelu-osiossa."
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_nutritional_facts_active
+msgid "Active"
+msgstr "Aktiivinen"
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "Add some Salt and Sugar to secure suppliers for longer on those sides."
 msgstr "Ripaus suolaa ja sokeria, jotta toimittajat pysyvät pidempään."
+
+#. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_4
+msgid "Added Sugar"
+msgstr "Lisätty sokeri"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -161,6 +279,11 @@ msgid "Also order the Mayonnaise so you can fill those buckets with sauce."
 msgstr "Tilaa myös majoneesia, jotta voit täyttää ämpärit kastikkeella."
 
 #. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.x_nutritional_facts_search_view
+msgid "Archived"
+msgstr "Arkistoitu"
+
+#. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
 "As an Inventory Manager you need to make sure that the production team never "
@@ -170,6 +293,11 @@ msgstr ""
 "Varastopäällikkönä sinun on varmistettava, että tuotantotiimiltä ei koskaan "
 "lopu \n"
 "                            tarvikkeet kesken!"
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid "B.b."
+msgstr "Parasta ennen"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -195,6 +323,19 @@ msgstr ""
 "Koska latasit tämän moduulin demotiedot, tietokantaasi on täydennetty "
 "joillakin tuotteilla,\n"
 "                         myyntitilauksilla ja muilla."
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.res_config_settings_form_view_inherited
+msgid ""
+"Capture food and drink data on product and leverage them in printed labels."
+msgstr ""
+"Kerää tuotteen ruoka- ja juomatiedot sekä hyödynnä niitä painetuissa "
+"etiketeissä."
+
+#. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_3
+msgid "Carbohydrates"
+msgstr "Hiilihydraatit"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -248,6 +389,16 @@ msgstr ""
 "                     useampaan pienempään tilaukseen."
 
 #. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid "Demo Lot/SN"
+msgstr "Demo Erä-/sarjanumero"
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid "Demo Product"
+msgstr "Demotuote"
+
+#. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
 "Depending on your current stock level, an appropriate replenishment "
@@ -262,9 +413,19 @@ msgstr ""
 "              ämpäri ja annostelija, sekä majoneesi."
 
 #. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_nutritional_facts_name
+msgid "Description"
+msgstr "Kuvaus"
+
+#. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_5
+msgid "Dietary Fibre"
+msgstr "Ravintokuitu"
+
+#. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "Discover more about Odoo by diving into our"
-msgstr "Lue lisää Odoosta sukeltamalla meidän"
+msgstr "Lue lisää Odoosta"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -305,9 +466,24 @@ msgstr ""
 ">Olet valmis aloittamaan tuotannon!"
 
 #. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_1
+msgid "Energy"
+msgstr "Energia"
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid "Exp."
+msgstr "Erääntyminen"
+
+#. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "Expiration Dates"
 msgstr "Vanhenemispäivät"
+
+#. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_6
+msgid "Fat"
+msgstr "Rasva"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -342,18 +518,27 @@ msgid "Follow the step from each operation to prepare your Mayonnaise batch."
 msgstr "Seuraa jokaista prosessin vaihetta valmistaaksesi majoneesierän."
 
 #. module: food_distribution
-#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-msgid "Food distribution"
-msgstr "Ruoan jakelu"
+#: model:ir.model.fields,field_description:food_distribution.field_res_company_x_module_food_drinks_labels
+#: model:ir.model.fields,field_description:food_distribution.field_res_config_setting_x_module_food_drinks_labels
+msgid "Food & Drinks Labels"
+msgstr "Ruoka- & juomaetiketit"
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.res_config_settings_form_view_inherited
+msgid "Food Distribution"
+msgstr "Elintarvikejakelu"
+
+#. module: food_distribution
+#: model:base.automation,name:food_distribution.automation_toggle_food_drinks_labels
+#: model:ir.actions.server,name:food_distribution.action_toggle_food_drinks_labels
+msgid "Food Distribution: Toggle Food & Drinks Labels"
+msgstr ""
+"Elintarvikejakelu: Ota ruoka- ja juomaetiketit käyttöön / pois käytöstä"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-msgid ""
-"From the <strong>Inventory App</strong>, keep track of produced lots and "
-"expiration dates."
-msgstr ""
-"<strong>Varastointi-sovelluksesta</strong>voit seurata valmistettuja eriä ja "
-"vanhentumispäivämääriä."
+msgid "Food distribution"
+msgstr "Ruoan jakelu"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -373,9 +558,8 @@ msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-msgid "Generate crystal clear quotations with the <strong>Sales App</strong>."
-msgstr ""
-"Luo kristallin kirkkaita tarjouksia <strong>Myynti-sovelluksella</strong>."
+msgid "From your product form, open the Labels tab."
+msgstr "Avaa Etiketit-välilehti tuotelomakkeestasi."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -419,10 +603,29 @@ msgid ""
 "Import demo\n"
 "          data and try the Demo - Use Case (In the next Knowledge Article)"
 msgstr ""
-"Jos haluat suorittaa tämän moduulin käytännöllisen opastetun kierroksen, "
-"sinun kannattaa tuoda\n"
-"                        demotiedot ja kokeilla Demo - Esimerkkitapausta "
-"(seuraavassa Tietokirjaston artikkelissa)"
+"Jos haluat suorittaa tämän moduulin käytännönläheisen opastetun kierroksen, "
+"sinun kannattaa tuoda demotiedot ja kokeilla\n"
+"                    demon esimerkkitapausta (seuraavassa Tietokirjaston "
+"artikkelissa)"
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"In food industry, ingredients and nutritional facts matter and shall be "
+"captured on labels."
+msgstr ""
+"Ainesosat ja ravintotiedot ovat tärkeitä elintarvikealalla ja ne on "
+"merkittävä etiketteihin."
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_ingredients_ingredient_id
+msgid "Ingredient"
+msgstr "Ainesosa"
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_product_template_ingredients
+msgid "Ingredients"
+msgstr "Ainesosat"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -439,9 +642,26 @@ msgstr ""
 "                 vaatimukset."
 
 #. module: food_distribution
-#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-msgid "Invoice your customers from the <strong>Invoicing App</strong>."
-msgstr "Laskuta asiakkaitasi <strong>Laskutus-sovelluksella</strong>."
+#: model:ir.model.fields,field_description:food_distribution.field_product_template_is_allergen
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_ingredients_is_allergen
+msgid "Is Allergen"
+msgstr "On allergeeni"
+
+#. module: food_distribution
+#: model:uom.uom,name:food_distribution.uom_uom_36
+msgid "Kcal"
+msgstr "Kcal"
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_product_template_only_form_view
+msgid "Label"
+msgstr "Etiketti"
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_product_template_label_note
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid "Label Note"
+msgstr "Etikettimerkintä"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -467,13 +687,6 @@ msgstr ""
 "sovellusta</font>\n"
 "                      </strong>käsitelläksesi tuotteita\n"
 "                     ja sarjoja virheettömästi."
-
-#. module: food_distribution
-#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-msgid ""
-"Manage the purchase of raw materials from the <strong>Purchase App</strong>."
-msgstr ""
-"Hallinnoi raaka-aineiden ostamista <strong>Ostot-sovelluksella</strong>."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -505,9 +718,19 @@ msgid "Mayonnaise Dispenser 2.6L"
 msgstr "Majoneesin annostelija 2.6L"
 
 #. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_8
+msgid "Mono saturated fatty acids"
+msgstr "Kertatyydyttymättömät rasvahapot"
+
+#. module: food_distribution
 #: model:product.template,name:food_distribution.product_template_5
 msgid "Mustard"
 msgstr "Sinappi"
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.x_nutritional_facts_form_view
+msgid "Name..."
+msgstr "Nimi..."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -564,6 +787,8 @@ msgid ""
 "Now come back to the list of manufacturing orders and open the Gantt view "
 "from the top right hand side"
 msgstr ""
+"Palaa nyt tuotantotilausten luetteloon ja avaa Gantt-näkymä oikeasta "
+"yläkulmasta"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -571,6 +796,20 @@ msgid ""
 "Now let's see how spread the work load from the resulting manufacturing "
 "orders."
 msgstr "Katsotaan, miten työkuorma voidaan jakaa tuotantotilausten kesken."
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_nutritional_fact_nutritional_fact_id
+msgid "Nutritional Fact"
+msgstr "Ravintosisältö"
+
+#. module: food_distribution
+#: model:ir.actions.act_window,name:food_distribution.act_window_x_nutritional_facts
+#: model:ir.model,name:food_distribution.model_x_nutritional_facts
+#: model:ir.model.fields,field_description:food_distribution.field_product_template_nutritional_facts
+#: model:ir.ui.menu,name:food_distribution.inventory_nutritional_facts_menu
+#: model_terms:ir.ui.view,arch_db:food_distribution.x_nutritional_facts_form_view
+msgid "Nutritional Facts"
+msgstr "Ravintosisältö"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -584,10 +823,10 @@ msgid ""
 "package. Feel free to\n"
 "      add new apps, delete/modify demo data, and test everything around!"
 msgstr ""
-"Tämä on tietenkin vain yleiskatsaus paketin sisältämistä ominaisuuksista. "
-"Voit vapaasti\n"
-"             lisätä uusia sovelluksia, poistaa/muokata demotietoja ja "
-"testata ihan kaikkea!"
+"Tämä on tietenkin vasta yleiskatsaus kaikista tähän pakettiin kuuluvista "
+"ominaisuuksista. Voit lisätä\n"
+"          uusia sovelluksia, poistaa/muokata demotietoja sekä testata "
+"kaikkea mahdollista!"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -682,20 +921,24 @@ msgid "Pallet 250x 1/6Gn Dispenser"
 msgstr "Lava 250x 1/6Gn annostelija"
 
 #. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_nutritional_facts_parent
+msgid "Parent"
+msgstr "Ylätaso"
+
+#. module: food_distribution
 #: model:product.template,name:food_distribution.product_template_8
 msgid "Pasteurised Liquid Egg"
 msgstr "Pastöroitu nestemäinen muna"
 
 #. module: food_distribution
-#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-msgid ""
-"Process manufacturing work orders with instructions from the "
-"<strong>Shopfloor App</strong>\n"
-"        ."
-msgstr ""
-"Käsittele tuotantotilauksia ja niiden ohjeita <strong>Työpaja-sovelluksessa</"
-"strong>\n"
-"             ."
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_nutritional_fact_per_100g
+msgid "Per 100g"
+msgstr "Per 100g"
+
+#. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_9
+msgid "Poly saturated fatty acids"
+msgstr "Monityydyttymättömät rasvahapot"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -710,6 +953,37 @@ msgstr ""
 "                jotta tavarat eivät lopu kesken. Avataan <strong>Varastointi-"
 "sovellus</strong> ja katsotaan tarkemmin, miten saamme kesytettyä tämän osa-"
 "alueen."
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_ingredients_product_template_id
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_nutritional_fact_product_template_id
+msgid "Product"
+msgstr "Tuote"
+
+#. module: food_distribution
+#: model:ir.actions.report,name:food_distribution.mrp_bom_product_label_action_report
+msgid "Product Label"
+msgstr "Tuote-etiketti"
+
+#. module: food_distribution
+#: model:ir.model,name:food_distribution.model_x_product_template_ingredients
+msgid "Product Template Ingredients"
+msgstr "Tuotepohjan ainesosat"
+
+#. module: food_distribution
+#: model:ir.model,name:food_distribution.model_x_product_template_nutritional_fact
+msgid "Product Template Nutritional Fact"
+msgstr "Tuotepohjan ravintosisältö"
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_ingredients_share
+msgid "Proportion (%)"
+msgstr "Osuus (%)"
+
+#. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_2
+msgid "Protein"
+msgstr "Proteiini"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -727,14 +1001,15 @@ msgid "Replenishment Rules"
 msgstr "Täydennyssäännöt"
 
 #. module: food_distribution
-#: model:account.journal,name:food_distribution.cash
-msgid "Sales"
-msgstr "Myynti"
-
-#. module: food_distribution
 #: model:product.template,name:food_distribution.product_template_6
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_10
 msgid "Salt"
 msgstr "Suola"
+
+#. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_7
+msgid "Saturated fatty acids"
+msgstr "Tyydyttyneet rasvahapot"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -754,6 +1029,13 @@ msgstr "Valitse tarjousmallipohja ja säästä aikaa asennuksessa."
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "Send your quotation for online signature."
 msgstr "Lähetä tarjouksesi allekirjoitettavaksi verkossa."
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_nutritional_facts_sequence
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_ingredients_sequence
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_nutritional_fact_sequence
+msgid "Sequence"
+msgstr "Sekvenssi"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -839,6 +1121,14 @@ msgstr ""
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
+"The nutritional fact list is available from the Inventory App, Configuration "
+"menu."
+msgstr ""
+"Ravintosisältötaulukko on saatavilla Varastointi-sovelluksen asetusvalikossa."
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
 "The products from the Replenishment Rules you triggered are here but not all "
 "products have\n"
 "        Replenishment Rules at this stage. For some products or other "
@@ -907,6 +1197,17 @@ msgstr ""
 "                      sovellusta</strong>!"
 
 #. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.res_config_settings_form_view_inherited
+msgid "Traceability"
+msgstr "Jäljitettävyys"
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_nutritional_facts_unit
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_nutritional_fact_unit
+msgid "Unit"
+msgstr "Yksikkö"
+
+#. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
 "Use the <strong>\n"
@@ -918,17 +1219,6 @@ msgstr ""
 "          <font class=\"text-o-color-1\">Huolto-sovellusta</font>\n"
 "        </strong> pitääksesi kaikki\n"
 "        työkeskuksesi toiminnassa."
-
-#. module: food_distribution
-#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-msgid ""
-"Use the <strong>Manufacturing App</strong> to efficiently plan and execute "
-"production\n"
-"        orders to meet customer demand."
-msgstr ""
-"Käytä<strong>Tuotanto-sovellusta</strong>suunnitellaksesi ja toteuttaaksesi "
-"tuotantotilaukset\n"
-"                     tehokkaasti ja tarjoat vastauksen asiakkaan kysyntään."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -951,13 +1241,13 @@ msgid ""
 "purchase order depending\n"
 "        on the product configuration."
 msgstr ""
-"Kun kursoria leijutetaan Täydennys-kohdan Tilaus-painikkeen yllä, solu "
+"Kun kursoria leijutetaan tilauspainikkeen täydennys-kohdan yllä, solu "
 "korostuu.\n"
-"                     Painikkeen klikkauksesta vastaava tuote kyseiselle "
-"kaudelle tilataan \n"
+"                     Painikkeen klikkaaminen tilaa vastaavan tuotteen "
+"kyseiselle ajanjaksolle \n"
 "                     Täydennys-syötteen mukaisesti.<br/>Tämä luo tuotanto- "
 "tai ostotilauksen\n"
-"                     tuotteen kokoonpanosta riippuen."
+"                     tuotteen määrityksistä riippuen."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -998,10 +1288,10 @@ msgid ""
 "different products you\n"
 "        manipulate."
 msgstr ""
-"Kun käytät <strong>Varastointi-sovellusta</strong>, avaa tuoteluettelo\n"
+"Kun käytät <strong>Varastointi-sovellusta</strong>, avaa tuotekuvasto\n"
 "                   Tuotteet-valikosta. Tämä antaa sinulle kattavamman "
-"katsauksen eri tuotteista,\n"
-"                   joita käsittelet."
+"katsauksen käsittelemistäsi\n"
+"                   tuotteista."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -1039,8 +1329,16 @@ msgid ""
 "You can access every installed App in your Odoo database on your main "
 "dashboard."
 msgstr ""
-"Pääset käsiksi kaikkiin Odoo-tietokantaan asennettuihin sovelluksiin "
-"pääkoontinäytöltä."
+"Löydät kaikki Odoo-tietokantaasi asennetut sovellukset pääkoontinäytöltäsi."
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"You can easily maintain from here for each product its list of ingredients, "
+"the nutritional facts and specific notes to add to the label."
+msgstr ""
+"Voit helposti ylläpitää täällä kunkin tuotteen ainesosaluetteloa, "
+"ravintosisöltöä sekä etikettiin lisättäviä erityismerkintöjä."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -1106,20 +1404,21 @@ msgid ""
 "your Odoo\n"
 "          setup to fit your business needs."
 msgstr ""
-"Sait demon esimerkkitapauksen valmiiksi! On olemassa monia muitakin tapoja "
-"mukauttaa Odoo-asetukset \n"
-"                            vastaamaan yrityksesi tarpeita."
+"Suoritit demon esimerkkitapauksen! On olemassa lukuisia muitakin tapoja "
+"räätälöidä Odoo-asetukset\n"
+"                    yrityksesi tarpeiden mukaiseksi."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
 "You didn't import demo data? You can still do it. Go to Apps &gt; Industries "
 "&gt; Upgrade\n"
-"          your Bar &amp; Pub package and check the related box"
+"          your Food Distribution package and check the related box"
 msgstr ""
-"Etkö tuonut demotietoja? Voit vielä tehdä sen. Siirry kohtaan Sovellukset "
-"&gt; Toimialat &gt; Baari &amp; Pubi -paketin \n"
-"                  versionkorostus ja valitse siihen liittyvä valintaruutu"
+"Etkö tuonut demotietoja? Voit vielä tehdä sen. Siirry Sovellukset &gt; "
+"Toimialat &gt; Päivitä\n"
+"                                          Elintarvikejakelu-pakettisi ja "
+"ruksi oikea valintaruutu"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -1166,9 +1465,9 @@ msgid ""
 "various flows you\n"
 "      can quickly execute with this package using Odoo."
 msgstr ""
-"Sinun pitäisi pystyä suorittamaan seuraavat työnkulut, jotta saat yleiskuvan "
-"erilaisista työnkuluista,\n"
-"           joita voit nopeasti suorittaa tämän paketin avulla."
+"Sinun pitäisi pystyä suorittamaan seuraavat toiminnot, jotta saat yleiskuvan "
+"erilaisista tämän\n"
+"            Odoo-paketin avulla nopeasti suoritettavista työnkuluista."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -1191,9 +1490,14 @@ msgid "if you need help!"
 msgstr "jos tarvitset apua!"
 
 #. module: food_distribution
+#: model:uom.uom,name:food_distribution.uom_uom_37
+msgid "mg"
+msgstr "mg"
+
+#. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "request a demo"
-msgstr "pyytää esittelyä"
+msgstr "pyydä demoa"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -1254,6 +1558,11 @@ msgstr "📦 Tarvikkeiden hallinta"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid "🖨️ Labels with ingredients and nutritional facts"
+msgstr "🖨️ Etiketit ainesosilla ja ravintosisällöllä"
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "🗓️ Planning your production"
 msgstr "🗓️ Tuotannin suunnittelu"
 
@@ -1261,6 +1570,58 @@ msgstr "🗓️ Tuotannin suunnittelu"
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "🥘 Manufacturing quality products"
 msgstr "🥘 Laatutuotteiden valmistus"
+
+#~ msgid "Sales"
+#~ msgstr "Myynti"
+
+#~ msgid ""
+#~ "You didn't import demo data? You can still do it. Go to Apps &gt; "
+#~ "Industries &gt; Upgrade\n"
+#~ "          your Bar &amp; Pub package and check the related box"
+#~ msgstr ""
+#~ "Etkö tuonut demotietoja? Voit vielä tehdä sen. Siirry kohtaan Sovellukset "
+#~ "&gt; Toimialat &gt; Baari &amp; Pubi -paketin \n"
+#~ "                  versionkorostus ja valitse siihen liittyvä valintaruutu"
+
+#~ msgid ""
+#~ "From the <strong>Inventory App</strong>, keep track of produced lots and "
+#~ "expiration dates."
+#~ msgstr ""
+#~ "<strong>Varastointi-sovelluksesta</strong>voit seurata valmistettuja eriä "
+#~ "ja vanhentumispäivämääriä."
+
+#~ msgid ""
+#~ "Generate crystal clear quotations with the <strong>Sales App</strong>."
+#~ msgstr ""
+#~ "Luo kristallin kirkkaita tarjouksia <strong>Myynti-sovelluksella</strong>."
+
+#~ msgid "Invoice your customers from the <strong>Invoicing App</strong>."
+#~ msgstr "Laskuta asiakkaitasi <strong>Laskutus-sovelluksella</strong>."
+
+#~ msgid ""
+#~ "Manage the purchase of raw materials from the <strong>Purchase App</"
+#~ "strong>."
+#~ msgstr ""
+#~ "Hallinnoi raaka-aineiden ostamista <strong>Ostot-sovelluksella</strong>."
+
+#~ msgid ""
+#~ "Process manufacturing work orders with instructions from the "
+#~ "<strong>Shopfloor App</strong>\n"
+#~ "        ."
+#~ msgstr ""
+#~ "Käsittele tuotantotilauksia ja niiden ohjeita <strong>Työpaja-"
+#~ "sovelluksessa</strong>\n"
+#~ "             ."
+
+#~ msgid ""
+#~ "Use the <strong>Manufacturing App</strong> to efficiently plan and "
+#~ "execute production\n"
+#~ "        orders to meet customer demand."
+#~ msgstr ""
+#~ "Käytä<strong>Tuotanto-sovellusta</strong>suunnitellaksesi ja "
+#~ "toteuttaaksesi tuotantotilaukset\n"
+#~ "                     tehokkaasti ja tarjoat vastauksen asiakkaan "
+#~ "kysyntään."
 
 #~ msgid ""
 #~ "Now come back to the list of manufacturing orders and open the calendar "

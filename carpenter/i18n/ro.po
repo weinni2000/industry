@@ -3,22 +3,24 @@
 # * carpenter
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Odoo Translation Bot <c3p@odoo.com>, 2025.
+# Cuciureanu Larisa <larisa.cuciureanu@nexterp.ro>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-12 05:59+0000\n"
-"PO-Revision-Date: 2025-11-17 11:12+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"PO-Revision-Date: 2026-01-27 22:44+0000\n"
+"Last-Translator: Cuciureanu Larisa <larisa.cuciureanu@nexterp.ro>\n"
 "Language-Team: Romanian <https://translate.odoo.com/projects/odoo-19/"
 "carpenter/ro/>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2;\n"
-"X-Generator: Weblate 5.12.2\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : "
+"(n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -26,6 +28,9 @@ msgid ""
 "<b>Add Project Management</b>: Add the \"Carpentry project\" service to "
 "track the entire quotation within a dedicated project."
 msgstr ""
+"<b>Adăugați Gestionarea Proiectelor</b>: Adăugați serviciul "
+"\"Proiect de tâmplărie\" pentru a urmări întreaga ofertă într-un proiect "
+"dedicat."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -33,6 +38,8 @@ msgid ""
 "<b>Automate Replenishment:</b> Set up reordering rules for key products so "
 "you never run out of stock."
 msgstr ""
+"<b>Automatizați Reaprovizionarea:</b> Configurați reguli de recomandare "
+"pentru produsele cheie astfel să nu rămâneți niciodată fără stoc."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -42,6 +49,11 @@ msgid ""
 "each item based on the customer's specifications. The product tabs are "
 "organized by their sequence on the sales lines."
 msgstr ""
+"<b>Construiți Oferta</b>: Selectați un <b>șablon de ofertă</b>, adăugați "
+"produsele necesare și orice servicii suplimentare. Utilizați <b>calculatorul "
+"de oferte</b> pentru a stabili prețul fiecărui articol pe baza "
+"specificațiilor clientului. Filele de produse sunt organizate după secvența "
+"lor pe liniile de vânzare."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -50,6 +62,9 @@ msgid ""
 "communicate with the client. This helps you clarify their specific "
 "requirements for the project."
 msgstr ""
+"<b>Comunicați și Înțelegeți Nevoile</b>: Utilizați <b>funcția de "
+"conversație</b> pentru a comunica cu clientul. Aceasta vă ajută să "
+"clarificați cerințele lor specifice pentru proiect."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -58,6 +73,9 @@ msgid ""
 "be automatically removed from your inventory, and the delivery can be "
 "completed."
 msgstr ""
+"<b>Confirmați Livrarea</b>: Odată ce validați această operațiune, produsele "
+"vor fi eliminate automat din inventarul dumneavoastră, și livrarea poate fi "
+"finalizată."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -67,6 +85,10 @@ msgid ""
 "listing all the finished products that need to be taken from your stock and "
 "delivered to the customer."
 msgstr ""
+"<b>Creați o Comandă de Livrare</b>: Mergeți la <b>Aplicația Proiecte</b> și "
+"creați o nouă <b>operațiune \"From WH\" (Din Depozit)</b>. Aceasta "
+"acționează ca o comandă de livrare, listând toate produsele finite care "
+"trebuie luate din stocul dumneavoastră și livrate clientului."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -74,11 +96,13 @@ msgid ""
 "<b>Create an Opportunity</b>: Click <b>\"Create\"</b> to start a new sales "
 "opportunity."
 msgstr ""
+"<b>Creați o Oportunitate</b>: Faceți clic pe <b>\"Creați\"</b> pentru a "
+"începe o nouă oportunitate de vânzare."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "<b>Creating a Sales Order from the CRM</b>"
-msgstr ""
+msgstr "<b>Crearea unei Comenzi de Vânzare din CRM</b>"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -86,11 +110,14 @@ msgid ""
 "<b>Define Lead Times:</b> Set lead times for all your products to ensure "
 "accurate stock planning."
 msgstr ""
+"<b>Definiți Timpii de Livrare:</b> Stabiliți timpii de livrare pentru toate "
+"produsele dumneavoastră pentru a asigura o planificare exactă a stocului."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "<b>Drag and drop tasks</b> to different stages for easy tracking."
 msgstr ""
+"<b>Trageți și plasați sarcinile</b> în etape diferite pentru urmărire ușoară."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -98,6 +125,8 @@ msgid ""
 "<b>Finalize Details</b>: Update the <b>delivery date</b> to ensure deadlines "
 "are met and deliveries are scheduled correctly."
 msgstr ""
+"<b>Finalizați Detaliile</b>: Actualizați <b>data de livrare</b> pentru a "
+"asigura că termenele sunt respectate și livrările sunt programate corect."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -106,6 +135,10 @@ msgid ""
 "<b>Manufacturing Order</b>. Add all the necessary components that will be "
 "used, whether they are from your current stock or are new costs."
 msgstr ""
+"<b>Generați o Comandă de Fabricație</b>: În cadrul proiectului "
+"dumneavoastră, creați o nouă <b>Comandă de Fabricație</b>. Adăugați toate "
+"componentele necesare care vor fi utilizate, fie că sunt din stocul actual "
+"sau sunt costuri noi."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -113,6 +146,8 @@ msgid ""
 "<b>Generate a Quotation</b>: Once you understand their needs, generate a "
 "quotation from the opportunity."
 msgstr ""
+"<b>Generați o Ofertă</b>: Odată ce le înțelegeți nevoile, generați o ofertă "
+"din oportunitate."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -122,6 +157,10 @@ msgid ""
 "ensures that any defects are caught early, reducing waste and the cost of "
 "rework."
 msgstr ""
+"<b>Implementați un control de calitate în timp real.</b> Puteți adăuga "
+"controale de calitate pentru produse specifice în momentele critice din "
+"procesul de fabricație. Aceasta asigură că orice defecte sunt descoperite "
+"devreme, reducând risipa și costul refacerii."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -131,6 +170,11 @@ msgid ""
 "run. This lets you track and manage leftover materials that are created "
 "during production, reducing waste and improving efficiency."
 msgstr ""
+"<b>Gestionați Produsele Secundare:</b> Utilizați funcția <b>produse "
+"secundare</b> în aplicația de Fabricație pentru a reutiliza orice părți de "
+"produs rămase după o rulare de producție. Aceasta vă permite să urmăriți și "
+"să gestionați materialele rămase care sunt create în timpul producției, "
+"reducând risipa și îmbunătățind eficiența."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -142,6 +186,12 @@ msgid ""
 "saving time and preventing errors in inventory management and production "
 "planning."
 msgstr ""
+"<b>Gestionați eficient variațiile de produse.</b> Pentru a gestiona diferite "
+"versiuni ale unui produs, cum ar fi o masă făcută din diverse tipuri de "
+"lemn, puteți utiliza un sistem de <b>variante de produs</b>. Aceasta vă "
+"permite să reutilizați aceeași <b>Nomenclatură de Materiale</b> (BOM) dar cu "
+"ajustări minore pentru diferite tipuri de materiale, economisind timp și "
+"prevenind erorile în gestionarea inventarului și planificarea producției."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -149,6 +199,9 @@ msgid ""
 "<b>Record time on specific tasks</b> (like \"External Help\"), and that time "
 "will be used to calculate your project's profitability."
 msgstr ""
+"<b>Înregistrați timpul pentru sarcini specifice</b> "
+"(precum \"Ajutor Extern\"), iar acel timp va fi folosit pentru a calcula "
+"profitabilitatea proiectului dumneavoastră."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -156,6 +209,8 @@ msgid ""
 "<b>Select a Client</b>: Choose an existing customer from your list or add a "
 "new one directly into the customer field."
 msgstr ""
+"<b>Selectați un Client</b>: Alegeți un client existent din lista "
+"dumneavoastră sau adăugați unul nou direct în câmpul client."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -163,6 +218,8 @@ msgid ""
 "<b>Send the Quote</b>: Send the final quotation to the client, making sure "
 "to attach any plans from your drawing software."
 msgstr ""
+"<b>Trimiteți Oferta</b>: Trimiteți oferta finală clientului, asigurându-vă "
+"să atașați orice planuri din software-ul dumneavoastră de desen."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -172,6 +229,11 @@ msgid ""
 "right time. It can provide work instructions, track progress, and facilitate "
 "communication, leading to smoother operations and fewer errors."
 msgstr ""
+"<b>Utilizați o aplicație de atelier.</b> Dacă aveți o echipă în creștere, o "
+"aplicație digitală de atelier poate asigura că fiecare angajat primește "
+"informațiile corecte la momentul potrivit. Poate oferi instrucțiuni de "
+"lucru, urmări progresul și facilita comunicarea, ducând la operațiuni mai "
+"fluide și mai puține erori."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -179,6 +241,8 @@ msgid ""
 "<b>Use the Replenishment Dashboard:</b> Get a clear overview of exactly what "
 "you need to order."
 msgstr ""
+"<b>Utilizați Tabloul de Bord de Reaprovizionare:</b> Obțineți o imagine "
+"clară a ceea ce trebuie să comandați exact."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -186,6 +250,8 @@ msgid ""
 "<b>Validate Production</b>: Once you've completed the manufacturing process, "
 "validate the order to finalize it."
 msgstr ""
+"<b>Validați Producția</b>: Odată ce ați finalizat procesul de fabricație, "
+"validați comanda pentru a o finaliza."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -194,6 +260,10 @@ msgid ""
 "your project's financial performance once you've properly configured all "
 "costs from timesheets, production, and purchases.<b/><br/>"
 msgstr ""
+"<b>Vizualizați un tablou de bord de profitabilitate</b> care vă oferă o "
+"imagine clară asupra performanței financiare a proiectului odată ce ați "
+"configurat corespunzător toate costurile din fișele de pontaj, producție și "
+"achiziții.<b/><br/>"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -252,7 +322,7 @@ msgstr ""
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "<span class=\"h1-fs\"><strong>Activities</strong></span><br/>"
-msgstr ""
+msgstr "<span class=\"h1-fs\"><strong>Activități</strong></span><br/>"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -264,48 +334,55 @@ msgstr "<span class=\"h1-fs\"><strong>Bază</strong></span>"
 msgid ""
 "<span class=\"h2-fs\">Centralize all the important information 📝</span>"
 msgstr ""
+"<span class=\"h2-fs\">Centralizați toate informațiile importante 📝</span>"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "<span class=\"h2-fs\">Invoice at the right time</span> 📈"
-msgstr ""
+msgstr "<span class=\"h2-fs\">Facturați la momentul potrivit</span> 📈"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "<span class=\"h2-fs\">Manage Quotation and Sales Order 🤝</span>"
 msgstr ""
+"<span class=\"h2-fs\">Gestionați Ofertele și Comenzile de Vânzare 🤝</span>"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid ""
 "<span class=\"h2-fs\">Manage purchasing &amp; dropship on site 🛒</span>"
 msgstr ""
+"<span class=\"h2-fs\">Gestionați achizițiile &amp; livrarea directă pe "
+"șantier 🛒</span>"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "<span class=\"h2-fs\">Manage your project️ 📏</span>"
-msgstr ""
+msgstr "<span class=\"h2-fs\">Gestionați proiectul dumneavoastră️ 📏</span>"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "<span class=\"h2-fs\">Manage your stock and production 🔨</span>"
-msgstr ""
+msgstr "<span class=\"h2-fs\">Gestionați stocul și producția 🔨</span>"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "<span class=\"h5-fs\"><strong>Create a Finish product</strong></span>"
-msgstr ""
+msgstr "<span class=\"h5-fs\"><strong>Creați un produs finit</strong></span>"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid ""
 "<span class=\"h5-fs\"><strong>Creating a New Purchase Order</strong></span>"
 msgstr ""
+"<span class=\"h5-fs\"><strong>Crearea unei Noi Comenzi de "
+"Achiziție</strong></span>"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "<span class=\"h6-fs\"><b>Expanding Your Workshop</b></span>"
 msgstr ""
+"<span class=\"h6-fs\"><b>Extinderea Atelierului Dumneavoastră</b></span>"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -313,6 +390,7 @@ msgid ""
 "<span class=\"h6-fs\"><strong>Efficiently schedule the work </strong></span>"
 "📆"
 msgstr ""
+"<span class=\"h6-fs\"><strong>Programați eficient munca </strong></span>📆"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -320,11 +398,13 @@ msgid ""
 "<span class=\"h6-fs\">Optimize Your Inventory<span class=\"oe-tabs\" "
 "style=\"width: 35px;\">\t</span>​</span>"
 msgstr ""
+"<span class=\"h6-fs\">Optimizați Inventarul<span class=\"oe-tabs\" style="
+"\"width: 35px;\">\t</span>​</span>"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "<span class=\"h6-fs\">Optimize Your Production</span>"
-msgstr ""
+msgstr "<span class=\"h6-fs\">Optimizați Producția</span>"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -335,6 +415,12 @@ msgid ""
 "calendar. The result is improved efficiency and happier customers across all "
 "your production services.</span>"
 msgstr ""
+"<span class=\"h6-fs\">Acest modul este conceput pentru a simplifica "
+"gestionarea zilnică a proiectelor, ajutându-vă să gestionați fără efort "
+"relațiile cu clienții, să pregătiți șantierele de construcție, să gestionați "
+"achizițiile de materiale și să organizați calendarul proiectului. Rezultatul "
+"este eficiența îmbunătățită și clienți mai fericiți pentru toate serviciile "
+"dumneavoastră de producție.</span>"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -342,21 +428,24 @@ msgid ""
 "<span class=\"h6-fs\">Welcome to the <strong><font style=\"color: rgb(113, "
 "75, 103);\">Odoo Carpenter package</font></strong>!</span><br/>"
 msgstr ""
+"<span class=\"h6-fs\">Bun venit la <strong><font style="
+"\"color: rgb(113, 75, 103);\">pachetul Odoo "
+"Carpenter</font></strong>!</span><br/>"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "<span class=\"h6-fs\">Within the Manufacturing App</span>"
-msgstr ""
+msgstr "<span class=\"h6-fs\">În cadrul Aplicației de Fabricație</span>"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "<span class=\"h6-fs\">​</span><br/>"
-msgstr ""
+msgstr "<span class=\"h6-fs\">​</span><br/>"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "<strong><span class=\"display-4-fs\">Carpenter</span></strong><br/>"
-msgstr ""
+msgstr "<strong><span class=\"display-4-fs\">Tâmplar</span></strong><br/>"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -366,7 +455,7 @@ msgstr "<strong>Contabilitate simplificată 🧮</strong>"
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "<strong>Create an attractive website 🌐</strong>"
-msgstr ""
+msgstr "<strong>Creați un site web atractiv 🌐</strong>"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -375,11 +464,16 @@ msgid ""
 "a more efficient layout. This can significantly increase production capacity "
 "and improve workflow by reducing clutter and bottlenecks."
 msgstr ""
+"Un <b>atelier mai mare</b> oferă mai mult spațiu pentru utilaje, materiale, "
+"și o așezare mai eficientă. Aceasta poate crește semnificativ capacitatea de "
+"producție și poate îmbunătăți fluxul de lucru prin reducerea dezordinii și a "
+"blocajelor."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "Add all the products or services you need to purchase."
 msgstr ""
+"Adăugați toate produsele sau serviciile pe care trebuie să le achiziționați."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -399,11 +493,16 @@ msgid ""
 "order with the aim to never forget to send an intermediary invoice in order "
 "to sustain your cash flow."
 msgstr ""
+"Ca primul pas de facturare, creați o avans din comanda de vânzare. Aceasta "
+"va genera prima factură în aplicația <strong>Facturare</strong>. Apoi, "
+"programați una sau mai multe activități \"Program de Facturare\" pe comanda "
+"de vânzare cu scopul de a nu uita niciodată să trimiteți o factură "
+"intermediară pentru a susține fluxul dumneavoastră de numerar."
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_12_product_template
 msgid "Batten 28/38"
-msgstr ""
+msgstr "Batten 28/38"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -412,6 +511,9 @@ msgid ""
 "app, freeze the project status in the <strong>Project</strong> app to get an "
 "overview on the progress in terms of:"
 msgstr ""
+"Înainte de a genera o factură intermediară în aplicația <strong>Facturare</"
+"strong>, înghețați starea proiectului în aplicația <strong>Proiect</strong> "
+"pentru a obține o imagine de ansamblu asupra progresului în termeni de:"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -425,12 +527,12 @@ msgstr ""
 #. module: carpenter
 #: model:project.project,name:carpenter.project_project_1
 msgid "Carpenter Project"
-msgstr ""
+msgstr "Proiect de tâmplărie"
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_3_product_template
 msgid "Carpentry project"
-msgstr ""
+msgstr "Proiect de tâmplărie"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -439,17 +541,22 @@ msgid ""
 "Project app. Each new project comes with several default tasks to get you "
 "started."
 msgstr ""
+"Confirmarea unei cotații creează automat un proiect dedicat în aplicația "
+"Proiect. Fiecare proiect nou vine cu mai multe sarcini implicite pentru a vă "
+"ajuta să începeți."
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_13_product_template
 msgid "Counter batten 18/28 "
-msgstr ""
+msgstr "Contrașipă 18/28 "
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid ""
 "Create a <strong>bill of materials (BOM) </strong>for each finished product."
 msgstr ""
+"Creați o <strong>listă de materiale (BOM) </strong>pentru fiecare produs "
+"finalizat."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -462,6 +569,9 @@ msgid ""
 "Don't worry, even if your customer changes their plan, all "
 "<strong>historical sales orders </strong>are saved in the chatter.<b/><br/>"
 msgstr ""
+"Nu vă faceți griji, chiar dacă clientul își schimbă planul, toate "
+"<strong>comenzile de vânzare istorice </strong>sunt salvate în conversații.<"
+"b/><br/>"
 
 #. module: carpenter
 #: model:project.task.type,name:carpenter.project_task_type_3
@@ -471,7 +581,7 @@ msgstr "Finalizat"
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_14_product_template
 msgid "Double roll tile"
-msgstr ""
+msgstr "Țiglă dublă"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -482,6 +592,12 @@ msgid ""
 "CRM's built-in tools allow you to customize prices for each client, turning "
 "generic products into personalized solutions."
 msgstr ""
+"Managementul eficient al procesului dvs. de vânzări începe cu un sistem bun. "
+"Folosind o <b>aplicație CRM (Customer Relationship Management)</b>, puteți "
+"urmări cu ușurință contactele, gestiona comunicațiile și genera cotații "
+"profesionale. Instrumentele integrate ale CRM vă permit să personalizați "
+"prețurile pentru fiecare client, transformând produsele generice în soluții "
+"personalizate."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -491,18 +607,20 @@ msgstr "Îmbogățește aplicațiile de bază instalând următoarele."
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_24_product_template
 msgid "Fasteners"
-msgstr ""
+msgstr "Elementele de fixare"
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_19_product_template
 msgid "Finish Product"
-msgstr ""
+msgstr "Produs finit"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid ""
 "Follow these steps to generate a new sales order directly from your CRM app:"
 msgstr ""
+"Urmați acești pași pentru a genera o nouă comandă de vânzare direct din "
+"aplicația CRM:"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -510,11 +628,13 @@ msgid ""
 "For direct-to-client delivery, choose <b>dropship delivery</b> and select "
 "the customer's address."
 msgstr ""
+"Pentru livrarea directă către client, alegeți <b>livrarea prin dropshipping</"
+"b> și selectați adresa clientului."
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_22_product_template
 msgid "Hinges"
-msgstr ""
+msgstr "Balamale"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -523,6 +643,10 @@ msgid ""
 "do not also link those hours to the project in your system. This will "
 "prevent the costs from being counted twice on your profitability dashboard."
 msgstr ""
+"Dacă facturați manual orele din foaia de pontaj dintr-o resursă externă, nu "
+"conectați aceste ore și la proiectul din sistemul dvs. Astfel, veți evita ca "
+"costurile să fie calculate de două ori în tabloul de bord al "
+"profitabilității."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -531,6 +655,9 @@ msgid ""
 "purchases, and production, you can simply <b>disable the tracking option</b> "
 "in the product settings."
 msgstr ""
+"Dacă nu aveți nevoie să urmăriți stocul, dar doriți în continuare să "
+"monitorizați costurile, achizițiile și producția, puteți pur și simplu "
+"<b>dezactiva opțiunea de urmărire</b> în setările produsului."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -538,11 +665,13 @@ msgid ""
 "If your projects are diverse, you can create different project templates to "
 "suit your needs."
 msgstr ""
+"Dacă proiectele dvs. sunt diverse, puteți crea diferite șabloane de proiecte "
+"pentru a se potrivi nevoilor dvs."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "In the Project app, you can:"
-msgstr ""
+msgstr "În aplicația Proiect, puteți:"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -552,11 +681,15 @@ msgid ""
 "the contact form, it could automatically create an opportunity in the "
 "<strong>CRM</strong> app."
 msgstr ""
+"Creșteți-vă vizibilitatea și obțineți mai mulți clienți potențiali prin "
+"crearea unui <strong>Site Web</strong> frumos! Când un client potențial "
+"trimite o cerere prin formularul de contact, aceasta poate crea automat o "
+"oportunitate în aplicația <strong>CRM</strong>."
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_23_product_template
 msgid "Latch"
-msgstr ""
+msgstr "Latch"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -576,7 +709,7 @@ msgstr "Materiale vândute."
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_7_product_template
 msgid "Metal brackets"
-msgstr ""
+msgstr "Suporturi metalice"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -584,6 +717,8 @@ msgid ""
 "Odoo is entirely integrated into an App. Download it to <b>manage your "
 "entire business from your phone</b>.<s><br/></s>"
 msgstr ""
+"Odoo este complet integrat într-o aplicație. Descărcați-o pentru a "
+"<b>gestiona întreaga afacere de pe telefon</b>.<s><br/></s>"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -602,6 +737,8 @@ msgid ""
 "Once confirmed, a receipt will be automatically generated, ready for you to "
 "confirm upon delivery."
 msgstr ""
+"Odată confirmată, se va genera automat o chitanță, pe care o veți putea "
+"confirma la livrare."
 
 #. module: carpenter
 #: model:project.task.type,name:carpenter.project_task_type_2
@@ -611,17 +748,17 @@ msgstr "În curs de desfășurare"
 #. module: carpenter
 #: model:product.template,description_sale:carpenter.product_product_5_product_template
 msgid "Price per unit per day"
-msgstr ""
+msgstr "Preț pe unitate pe zi"
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_16_product_template
 msgid "Rafter 50x63"
-msgstr ""
+msgstr "Căprior 50x63"
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_10_product_template
 msgid "Rainscreen"
-msgstr ""
+msgstr "Ecran de protecție împotriva ploii"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -631,22 +768,22 @@ msgstr "Redirecționează emailurile trimise către"
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_4_product_template
 msgid "Removal of the existing equipment"
-msgstr ""
+msgstr "Demontarea echipamentului existent"
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_18_product_template
 msgid "Rough Sawn 40x110 (2m )"
-msgstr ""
+msgstr "Tăiat grosier 40x110 (2 m)"
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_8_product_template
 msgid "Sandpaper"
-msgstr ""
+msgstr "Hârtie abrazivă"
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_5_product_template
 msgid "Scaffolding rental"
-msgstr ""
+msgstr "Închiriere schele"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -656,7 +793,7 @@ msgstr "Programați un demo"
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "Select the <b>vendor</b> and <b>expected delivery date</b>."
-msgstr ""
+msgstr "Selectați <b>furnizorul</b> și <b>data estimată de livrare</b>."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -664,6 +801,8 @@ msgid ""
 "Set the inventory <strong>route to \"Manufacture\"</strong> for all "
 "manufactured products."
 msgstr ""
+"Setați <strong>ruta de inventar la \"Fabricare\"</strong> pentru toate "
+"produsele fabricate."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -671,6 +810,8 @@ msgid ""
 "Since Odoo is not a design tool, all necessary drawings must be created in a "
 "dedicated drawing program."
 msgstr ""
+"Deoarece Odoo nu este un instrument de proiectare, toate desenele necesare "
+"trebuie create într-un program de desen dedicat."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -679,6 +820,9 @@ msgid ""
 "again, all the signed documents will be stored in the <strong>Documents</"
 "strong> app."
 msgstr ""
+"Accelerați procesul de semnare datorită aplicației <strong>Sign</strong>. "
+"Din nou, toate documentele semnate vor fi stocate în aplicația "
+"<strong>Documents</strong>."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -689,6 +833,11 @@ msgid ""
 "computer, attach them in the chatter and they will be automatically "
 "centralized in the <strong>Documents</strong> app."
 msgstr ""
+"Începerea unui proiect de construcție implică multe documente importante, "
+"cum ar fi contracte, planuri de construcție, instrucțiuni de folosire, "
+"acorduri de subcontractare etc. În loc să le împrăștiați prin emailuri, "
+"servicii de stocare sau computer, atașați-le în conversații și acestea vor "
+"fi centralizate automat în aplicația <strong>Documents</strong>."
 
 #. module: carpenter
 #: model:project.project,label_tasks:carpenter.project_project_1
@@ -702,6 +851,9 @@ msgid ""
 "your in-house production and keep a close eye on the stock levels of your "
 "raw materials."
 msgstr ""
+"Aplicația <b>Manufacturing and Inventory</b> este concepută pentru a vă "
+"ajuta să gestionați producția internă și să monitorizați îndeaproape "
+"nivelurile de stoc ale materiilor prime."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -710,6 +862,9 @@ msgid ""
 "strong> centralizes your important documents, allowing you to sign them "
 "directly within the app."
 msgstr ""
+"Aplicația <strong><font class=\"text-o-color-1\">Document and Sign</font></"
+"strong> centralizează documentele importante, permițându-vă să le semnați "
+"direct în cadrul aplicației."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -717,6 +872,8 @@ msgid ""
 "The <strong><font style=\"color: rgb(113, 75, 103);\">Invoice App</font></"
 "strong> helps you keep track of all your invoices."
 msgstr ""
+"Aplicația <strong><font style=\"color: rgb(113, 75, 103);\">Invoice</font></"
+"strong> vă ajută să urmăriți toate facturile."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -724,6 +881,9 @@ msgid ""
 "The <strong><font style=\"color: rgb(113, 75, 103);\">Project App</font></"
 "strong> provides a clear overview of every aspect of your project management"
 msgstr ""
+"Aplicația <strong><font style=\"color: rgb(113, 75, 103);\">Project</font></"
+"strong> oferă o imagine de ansamblu clară asupra fiecărui aspect al "
+"managementului de proiecte"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -732,6 +892,10 @@ msgid ""
 "font><font class=\"text-o-color-1\"> </font></strong>ensures accurate "
 "inventory replenishment and tracks subcontracting services."
 msgstr ""
+"Aplicația <strong><font style=\"color: rgb(113, 75, 103);\">Purchase</"
+"font><font class=\"text-o-color-1\"> </font></strong>asigură "
+"reaprovizionarea precisă a stocului și urmărește serviciile de "
+"subcontractare."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -746,7 +910,7 @@ msgstr "Raportarea financiară."
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "The synchronization with the banks."
-msgstr ""
+msgstr "Sincronizarea cu băncile."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -757,6 +921,12 @@ msgid ""
 "the \"Purchase\" button, you can create a new purchase order that will be "
 "automatically linked to your project and factored into its profitability."
 msgstr ""
+"Bara de sus a proiectului dvs. vă oferă acces rapid la toate aspectele "
+"esențiale, cum ar fi comenzile de achiziție, comenzile de fabricație și "
+"facturile. De asemenea, puteți crea documente noi direct din aplicația "
+"proiectului. De exemplu, făcând clic pe butonul „Achiziție”, puteți crea o "
+"nouă comandă de achiziție care va fi automat legată de proiectul dvs. și "
+"luată în calcul la profitabilitatea acestuia."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -769,6 +939,9 @@ msgid ""
 "The<strong> <font style=\"color: rgb(113, 75, 103);\">CRM &amp; Sales app</"
 "font></strong> Manages all product and service charges for your clients."
 msgstr ""
+"Aplicația <strong><font style=\"color: rgb(113, 75, 103);\">CRM &amp; "
+"Sales</font></strong> gestionează toate taxele pentru produse și servicii "
+"pentru clienții dvs."
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_21_product_template
@@ -791,16 +964,19 @@ msgid ""
 "To avoid double-counting costs and ensure an accurate profitability "
 "dashboard, be careful with how you link expenses to your projects."
 msgstr ""
+"Pentru a evita dubla contabilizare a costurilor și a asigura un tablou de "
+"bord precis al profitabilității, fiți atenți la modul în care conectați "
+"cheltuielile la proiectele dvs."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "To create a finished product, follow these steps:"
-msgstr ""
+msgstr "Pentru a crea un produs finit, urmați acești pași:"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "To dive deeper into the quote calculator, feel free to"
-msgstr ""
+msgstr "Pentru a afla mai multe despre calculatorul de oferte, nu ezitați să"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -809,11 +985,14 @@ msgid ""
 "can execute the following flows and configure the settings to suit your "
 "library."
 msgstr ""
+"Pentru a înțelege rapid procesele oferite de acest pachet Odoo, puteți "
+"executa următoarele fluxuri și configura setările în funcție de biblioteca "
+"dvs."
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_11_product_template
 msgid "Treated timber 6/4"
-msgstr ""
+msgstr "Lemn tratat 6/4"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -821,11 +1000,14 @@ msgid ""
 "Use a single generic product entry for <strong>custom finished products, "
 "using lots</strong> to distinguish between them."
 msgstr ""
+"Folosiți o singură intrare de produs generică pentru <strong>produse finite "
+"personalizate, folosind loturi</strong> pentru a face distincția între ele."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "Use the <strong>Accounting</strong> app to easily handle:"
 msgstr ""
+"Folosiți aplicația <strong>Accounting</strong> pentru a gestiona cu ușurință:"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -834,6 +1016,10 @@ msgid ""
 "employees. Define on which project and when they have to work. Easily manage "
 "shift conflicts, workload and replacements in case of leaves."
 msgstr ""
+"Folosiți aplicația <strong>Planning</strong> pentru a organiza munca "
+"angajaților dvs. Definiți la care proiect și când trebuie să lucreze. "
+"Gestionați cu ușurință conflictele de schimburi, volumul de muncă și "
+"înlocuirile în caz de concedii."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -841,16 +1027,20 @@ msgid ""
 "Use the Website app to create a contact form that will redirect all the "
 "requests to the <strong>CRM.</strong>"
 msgstr ""
+"Folosiți aplicația Website pentru a crea un formular de contact care va "
+"redirecționa toate solicitările către <strong>CRM.</strong>"
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_15_product_template
 msgid "Ventilation pipe 2m"
-msgstr ""
+msgstr "Țeavă de ventilație 2 m"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "Want to make your quotes stand out? Try the <b>PDF quote builder.</b>"
 msgstr ""
+"Vreți ca ofertele dvs. să iasă în evidență? Încercați <b>generatorul de "
+"oferte PDF.</b>"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -860,6 +1050,11 @@ msgid ""
 "<b>receipt</b> to the project. This gives you a clear overview of your "
 "purchases while ensuring the cost is counted just once."
 msgstr ""
+"Când achiziționați componente pentru un produs nou, puteți crea o comandă de "
+"achiziție care nu este legată direct de proiect. Apoi, legați doar "
+"<b>chitanța</b> de proiect. Aceasta vă oferă o imagine de ansamblu clară "
+"asupra achizițiilor dvs., asigurând totodată că costul este contabilizat o "
+"singură dată."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -870,21 +1065,27 @@ msgid ""
 "site using dropshipping. Additionally, if you need to subcontract any "
 "activities, you can add service products directly to your purchase lines."
 msgstr ""
+"În cadrul aplicației <b>Project</b>, puteți folosi butonul <b>Purchase</b> "
+"pentru a crea toate achizițiile de care are nevoie proiectul dvs. Aveți "
+"flexibilitatea să livrați produsele la atelierul de producție sau direct la "
+"locația clientului folosind dropshipping. În plus, dacă trebuie să "
+"subcontractați activități, puteți adăuga produse de servicii direct în "
+"liniile de achiziție."
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_20_product_template
 msgid "Wood Plank"
-msgstr ""
+msgstr "Scândură de lemn"
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_9_product_template
 msgid "Wood Screw 6/120"
-msgstr ""
+msgstr "Șurub pentru lemn 6/120"
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_6_product_template
 msgid "Wood glue"
-msgstr ""
+msgstr "Adeziv pentru lemn"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -908,31 +1109,34 @@ msgid ""
 "You didn't import demo data? You can still do it. Go to Apps &gt; Industries "
 "&gt; Upgrade your Library package and select the relevant checkbox"
 msgstr ""
+"Nu ați importat datele demo? Încă mai puteți face acest lucru. Accesați "
+"Aplicații > Industrii > Actualizați pachetul Bibliotecă și bifați caseta "
+"corespunzătoare."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "about its features and capabilities."
-msgstr ""
+msgstr "despre caracteristicile și capacitățile sale."
 
 #. module: carpenter
 #: model:documents.document,name:carpenter.documents_document_1
 msgid "door.jpg"
-msgstr ""
+msgstr "door.jpg"
 
 #. module: carpenter
 #: model:documents.document,name:carpenter.documents_document_2
 msgid "garden shed.jpeg"
-msgstr ""
+msgstr "garden shed.jpeg"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "info@your-business.com"
-msgstr ""
+msgstr "info@your-business.com"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "to the <strong>CRM</strong>."
-msgstr ""
+msgstr "către <strong>CRM</strong>."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -942,12 +1146,12 @@ msgstr "🎓 Contabilitate"
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "🎓 CRM &amp; Sales"
-msgstr ""
+msgstr "🎓 CRM și vânzări"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "🎓 Document"
-msgstr ""
+msgstr "🎓 Document"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -972,12 +1176,12 @@ msgstr "🎓 Achiziție"
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "🎓 Quality"
-msgstr ""
+msgstr "🎓 Calitate"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "🎓 Shopfloor"
-msgstr ""
+msgstr "🎓 Atelier"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -987,7 +1191,7 @@ msgstr "🎓 Semnează"
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "🎓 Variants"
-msgstr ""
+msgstr "🎓 Variante"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body

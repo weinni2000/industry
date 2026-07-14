@@ -1,6 +1,6 @@
 {
     'name': 'Pharmacy',
-    'version': '1.0',
+    'version': '1.1',
     'category': 'Health and Fitness',
     'depends': [
         'calendar',
@@ -45,7 +45,7 @@
         'data/knowledge_tour.xml',
     ],
     'demo': [
-        'demo/res_users.xml',
+        'demo/res_company.xml',
         'demo/res_partner.xml',
         'demo/stock_lot.xml',
         'demo/product_supplierinfo.xml',
@@ -64,7 +64,6 @@
         'demo/payment_provider.xml',
         'demo/payment_method.xml',
         'demo/pos_payment_method.xml',
-        'demo/pos_config.xml',
     ],
     'license': 'OEEL-1',
     'assets': {
@@ -78,6 +77,7 @@
         "data/knowledge_article.xml",
         "static/src/js/my_tour.js",
     ],
+    'application': True,
     'images': ['images/main.png'],
     'url': "https://www.odoo.com/trial?industry&selected_app=pharmacy_retail",
     'website': "https://www.odoo.com/industries/pharmacy",

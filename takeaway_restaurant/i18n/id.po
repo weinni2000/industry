@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 11:13+0000\n"
+"POT-Creation-Date: 2026-06-12 18:49+0000\n"
 "PO-Revision-Date: 2025-11-17 11:15+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Indonesian <https://translate.odoo.com/projects/odoo-19/"
@@ -19,11 +19,6 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.12.2\n"
-
-#. module: takeaway_restaurant
-#: model_terms:ir.ui.view,arch_db:takeaway_restaurant.ir_ui_view_3205
-msgid "+1 555-555-5556"
-msgstr "+1 555-555-5556"
 
 #. module: takeaway_restaurant
 #: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
@@ -91,6 +86,49 @@ msgstr "<span class=\"h1-fs\">Basic</span>"
 
 #. module: takeaway_restaurant
 #: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
+msgid ""
+"<strong><b>Inventory App</b>:</strong> Track ingredient usage in real-time "
+"to prevent stockouts and minimize food waste."
+msgstr ""
+
+#. module: takeaway_restaurant
+#: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
+msgid ""
+"<strong><b>Invoicing App</b>:</strong> Simplify your financial management by "
+"automatically tracking revenue from all sales channels.<br/>"
+msgstr ""
+
+#. module: takeaway_restaurant
+#: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
+msgid ""
+"<strong><b>POS Preparation Display</b>:</strong> Replace paper tickets with "
+"a digital Kitchen Display System to manage order flow and preparation times "
+"efficiently.<br/>"
+msgstr ""
+
+#. module: takeaway_restaurant
+#: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
+msgid ""
+"<strong><b>Point of Sale App</b>:</strong> Register in-store orders quickly, "
+"processing payments and sending tickets directly to the kitchen.<br/>"
+msgstr ""
+
+#. module: takeaway_restaurant
+#: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
+msgid ""
+"<strong><b>Purchase App</b>:</strong> Manage supplier relationships and "
+"automate reordering for essential ingredients and packaging."
+msgstr ""
+
+#. module: takeaway_restaurant
+#: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
+msgid ""
+"<strong><b>Website App</b>:</strong> Build an appetizing digital menu and "
+"enable customers to place orders online for pickup or delivery.<br/>"
+msgstr ""
+
+#. module: takeaway_restaurant
+#: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
 msgid "<strong><span class=\"h2-fs\">Tips for Success</span></strong>"
 msgstr "<strong><span class=\"h2-fs\">Tip agar Sukses</span></strong>"
 
@@ -122,17 +160,6 @@ msgstr "<strong>Inventaris</strong>"
 msgid "<strong>Keep your pantry stocked and your costs under control.</strong>"
 msgstr ""
 "<strong>Pastikan pantry tetap terisi dan ongkos Anda terkendali.</strong>"
-
-#. module: takeaway_restaurant
-#: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
-msgid ""
-"<strong>Kitchen display 🧑‍🍳 </strong>: All orders, online and offline, "
-"appear on the kitchen display. Chefs can easily move orders from one "
-"readiness status to the next by simply tapping the order."
-msgstr ""
-"<strong>Tampilan dapur 🧑‍🍳 </strong>: Semua pesanan, online dan offline, "
-"muncul di tampilan dapur. Koki dapat dengan mudah memindahkan pesanan dari "
-"satu status ke yang berikutnya cukup dengan mengetuk pesanan."
 
 #. module: takeaway_restaurant
 #: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
@@ -170,26 +197,8 @@ msgstr ""
 
 #. module: takeaway_restaurant
 #: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
-msgid ""
-"<strong>Point of Sale 📒 </strong>: Register in-store orders, assign orders "
-"to tables, connect to the kitchen display, collect payments and more"
-msgstr ""
-"<strong>POS 📒 </strong>: Daftar pesanan di-tempat, berikan pesanan ke meja, "
-"hubungkan ke tampilan dapur, kumpulkan pembayaran dan lebih banyak lagi"
-
-#. module: takeaway_restaurant
-#: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
 msgid "<strong>Point of Sale</strong>"
 msgstr "<strong>POS</strong>"
-
-#. module: takeaway_restaurant
-#: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
-msgid ""
-"<strong>Purchase &amp; Inventory 📦 </strong>: Purchase &amp; receive "
-"supplier deliveries, track ingredient stocks."
-msgstr ""
-"<strong>Purchase &amp; Inventaris 📦 </strong>: Beli &amp; terima pengiriman "
-"supplier, lacak stok bahan."
 
 #. module: takeaway_restaurant
 #: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
@@ -218,14 +227,6 @@ msgstr ""
 #. module: takeaway_restaurant
 #: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
 msgid "<strong>Website </strong>"
-msgstr ""
-
-#. module: takeaway_restaurant
-#: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
-msgid ""
-"<strong>Website 🌐</strong>: Build up your digital presence on the web using "
-"our convenient website &amp; SEO tools, as well as an online menu that works "
-"without friction."
 msgstr ""
 
 #. module: takeaway_restaurant
@@ -316,11 +317,6 @@ msgid "Buffalo Mozzarella Pizza"
 msgstr ""
 
 #. module: takeaway_restaurant
-#: model:pos.payment.method,name:takeaway_restaurant.pos_payment_method_1
-msgid "Cash"
-msgstr "Kas"
-
-#. module: takeaway_restaurant
 #: model:product.template,description_sale:takeaway_restaurant.product_template_four_cheese_pizza
 msgid "Cheesy delight with four premium cheeses."
 msgstr ""
@@ -398,11 +394,6 @@ msgstr ""
 #: model:product.template,description_sale:takeaway_restaurant.product_template_garlic_bread
 msgid "Crunchy garlic bread with a buttery finish."
 msgstr ""
-
-#. module: takeaway_restaurant
-#: model:pos.payment.method,name:takeaway_restaurant.pos_payment_method_3
-msgid "Customer Account"
-msgstr "Akun Pelanggan"
 
 #. module: takeaway_restaurant
 #: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
@@ -689,7 +680,7 @@ msgstr ""
 
 #. module: takeaway_restaurant
 #: model_terms:ir.ui.view,arch_db:takeaway_restaurant.homepage
-msgid "MyPizerria"
+msgid "MyPizzeria"
 msgstr ""
 
 #. module: takeaway_restaurant
@@ -1129,3 +1120,37 @@ msgstr "sweet"
 #: model:product.tag,name:takeaway_restaurant.product_tag_46
 msgid "vegetarian"
 msgstr ""
+
+#~ msgid "Cash"
+#~ msgstr "Kas"
+
+#~ msgid "Customer Account"
+#~ msgstr "Akun Pelanggan"
+
+#~ msgid "+1 555-555-5556"
+#~ msgstr "+1 555-555-5556"
+
+#~ msgid ""
+#~ "<strong>Kitchen display 🧑‍🍳 </strong>: All orders, online and offline, "
+#~ "appear on the kitchen display. Chefs can easily move orders from one "
+#~ "readiness status to the next by simply tapping the order."
+#~ msgstr ""
+#~ "<strong>Tampilan dapur 🧑‍🍳 </strong>: Semua pesanan, online dan offline, "
+#~ "muncul di tampilan dapur. Koki dapat dengan mudah memindahkan pesanan "
+#~ "dari satu status ke yang berikutnya cukup dengan mengetuk pesanan."
+
+#~ msgid ""
+#~ "<strong>Point of Sale 📒 </strong>: Register in-store orders, assign "
+#~ "orders to tables, connect to the kitchen display, collect payments and "
+#~ "more"
+#~ msgstr ""
+#~ "<strong>POS 📒 </strong>: Daftar pesanan di-tempat, berikan pesanan ke "
+#~ "meja, hubungkan ke tampilan dapur, kumpulkan pembayaran dan lebih banyak "
+#~ "lagi"
+
+#~ msgid ""
+#~ "<strong>Purchase &amp; Inventory 📦 </strong>: Purchase &amp; receive "
+#~ "supplier deliveries, track ingredient stocks."
+#~ msgstr ""
+#~ "<strong>Purchase &amp; Inventaris 📦 </strong>: Beli &amp; terima "
+#~ "pengiriman supplier, lacak stok bahan."

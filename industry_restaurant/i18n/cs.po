@@ -6,13 +6,13 @@
 # Wil Odoo, 2024
 #
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
-# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 12:53+0000\n"
-"PO-Revision-Date: 2025-11-12 13:39+0000\n"
+"POT-Creation-Date: 2026-04-03 19:33+0000\n"
+"PO-Revision-Date: 2026-06-13 10:09+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Czech <https://translate.odoo.com/projects/odoo-19/"
 "industry_restaurant/cs/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
 "<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.website_page_menu
@@ -129,8 +129,8 @@ msgstr ""
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
 msgid ""
-"2. Create your employees' roles under the \"Work Information\" tab. Some are "
-"already created for this demo."
+"2. Create your employees' roles under the \"Settings\" tab. Some are already "
+"created for this demo."
 msgstr ""
 
 #. module: industry_restaurant
@@ -252,6 +252,62 @@ msgid ""
 msgstr ""
 
 #. module: industry_restaurant
+#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Appointments App</b>: </font>Allow "
+"customers to book tables online 24/7, reducing phone calls and optimizing "
+"your seating capacity."
+msgstr ""
+
+#. module: industry_restaurant
+#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Inventory App</b>: </font>Track "
+"ingredients and recipes in real-time, using \"Bill of Materials\" (BoM) to "
+"deduct stock automatically as dishes are sold."
+msgstr ""
+
+#. module: industry_restaurant
+#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Kitchen Display / Printers</b>:</font> "
+"Send orders instantly to the kitchen or bar with specific printing "
+"instructions for different stations (e.g., \"Cold Station\", \"Grill\")."
+msgstr ""
+
+#. module: industry_restaurant
+#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Planning App</b>:</font> Organize shifts "
+"for chefs, servers, and bartenders, ensuring you are adequately staffed for "
+"peak service hours."
+msgstr ""
+
+#. module: industry_restaurant
+#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Purchase App</b>:</font> Automate the "
+"reordering of fresh produce and dry goods based on minimum stock rules and "
+"supplier lead times."
+msgstr ""
+
+#. module: industry_restaurant
+#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Restaurant App (POS)</b>:</font> Manage "
+"your floor plan visually, handling table seating, order taking, and bill "
+"splitting directly from the interface."
+msgstr ""
+
+#. module: industry_restaurant
+#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
+msgid ""
+"<font class=\"text-o-color-1\"><b>Website App</b>:</font> Showcase your "
+"menu, share chef bios, and promote special events with a mouth-watering "
+"online presence."
+msgstr ""
+
+#. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.homepage
 msgid "<font class=\"text-white\">Seasoned | Savory | Delicious</font>"
 msgstr ""
@@ -290,10 +346,13 @@ msgstr ""
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
+#, fuzzy
 msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">💡</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Informační banner\">💡</i>"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -311,10 +370,13 @@ msgstr ""
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
+#, fuzzy
 msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">✅</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Úspěch\">✅</i>"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -518,13 +580,6 @@ msgstr ""
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
 msgid ""
-"Get visibility and share your menu with a great <font class=\"text-o-"
-"color-1\"><strong>Website</strong></font>."
-msgstr ""
-
-#. module: industry_restaurant
-#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
-msgid ""
 "Go to your <strong>Purchase App</strong> to easily create Requests for "
 "Proposal or Purchase Orders."
 msgstr ""
@@ -595,7 +650,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
 msgid ""
 "If you want to assign them an Odoo user account, you can select a related "
-"user in the \"hr/ Settings\" tab."
+"user in the same \"Settings\" tab."
 msgstr ""
 
 #. module: industry_restaurant
@@ -622,13 +677,6 @@ msgstr ""
 #. module: industry_restaurant
 #: model:planning.role,name:industry_restaurant.planning_role_3
 msgid "Kitchen"
-msgstr ""
-
-#. module: industry_restaurant
-#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
-msgid ""
-"Let your customer book a table anytime with the <font class=\"text-o-"
-"color-1\"><strong>Appointment App</strong></font>."
 msgstr ""
 
 #. module: industry_restaurant
@@ -812,13 +860,6 @@ msgstr "Úkoly"
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
 msgid ""
-"The <font class=\"text-o-color-1\"><strong>Kitchen Display</strong></font> "
-"will ensure a great follow-up of every order in your bar and kitchen."
-msgstr ""
-
-#. module: industry_restaurant
-#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
-msgid ""
 "The Point of Sale is protected to assign different rights to employees "
 "depending on your level of trust. <br/>You can remove this PIN code "
 "requirement : Point of Sale &gt; Configuration &gt; Setting &gt; PoS "
@@ -852,42 +893,6 @@ msgstr ""
 #: model:project.task.type,name:industry_restaurant.project_task_type_1
 msgid "To Do"
 msgstr "K udělání"
-
-#. module: industry_restaurant
-#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
-msgid ""
-"Use the <font class=\"text-o-color-1\"><strong>Inventory App</strong></font> "
-"to manage your stock and receive products."
-msgstr ""
-
-#. module: industry_restaurant
-#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
-msgid ""
-"Use the <font class=\"text-o-color-1\"><strong>Planning App</strong></font> "
-"to schedule and share your shifts with your employees."
-msgstr ""
-
-#. module: industry_restaurant
-#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
-msgid ""
-"Use the <font class=\"text-o-color-1\"><strong>Point of Sale</strong></font> "
-"at the desk for your sales. You can also download the Odoo Mobile App on any "
-"phone to take orders."
-msgstr ""
-
-#. module: industry_restaurant
-#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
-msgid ""
-"Use the <font class=\"text-o-color-1\"><strong>Project App</strong></font> "
-"to never miss a reordering or a cleaning task."
-msgstr ""
-
-#. module: industry_restaurant
-#: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
-msgid ""
-"Use the <font class=\"text-o-color-1\"><strong>Purchase App</strong></font> "
-"to reorder your products."
-msgstr ""
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.website_page_menu

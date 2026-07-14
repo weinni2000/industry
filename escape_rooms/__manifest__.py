@@ -1,6 +1,6 @@
 {
     'name': 'Escape Rooms',
-    'version': '1.0',
+    'version': '1.2',
     'category': 'Hospitality',
     'author': 'Odoo S.A.',
     'depends': [
@@ -32,6 +32,7 @@
         'data/website_theme_apply.xml',
     ],
     'demo': [
+        'demo/res_company.xml',
         'demo/product_product.xml',
         'demo/loyalty_program.xml',
         'demo/loyalty_rule.xml',
@@ -58,6 +59,7 @@
         'data/website_view.xml',
         'demo/website_view.xml',
     ],
+    'application': True,
     'images': ['images/main.png'],
     'url': "https://www.odoo.com/trial?industry&selected_app=escape_rooms",
     'website': "https://www.odoo.com/all-industries",

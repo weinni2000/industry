@@ -3,13 +3,13 @@
 # * real_estate
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# "Kwanghee Park (kwpa)" <kwpa@odoo.com>, 2025.
+# "Kwanghee Park (kwpa)" <kwpa@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 14:30+0000\n"
-"PO-Revision-Date: 2025-11-12 13:40+0000\n"
+"POT-Creation-Date: 2026-06-12 18:41+0000\n"
+"PO-Revision-Date: 2026-06-13 10:45+0000\n"
 "Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@odoo.com>\n"
 "Language-Team: Korean <https://translate.odoo.com/projects/odoo-19/"
 "real_estate/ko/>\n"
@@ -18,37 +18,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.ir_ui_view_3154
-msgid "+1 555-555-5556"
-msgstr "+1 555-555-5556"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.homepage
-msgid "01"
-msgstr "01"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.homepage
-msgid "02"
-msgstr "02"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.homepage
-msgid "03"
-msgstr "03"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.homepage
-msgid "04"
-msgstr "04"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.homepage
 msgid "24/7 Property Search Assistance"
 msgstr "연중무휴 부동산 검색 지원"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
+msgid ""
+"<b>CRM App</b>: Manage your leads efficiently, tracking ongoing buying and "
+"selling opportunities in a visual pipeline."
+msgstr ""
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.ir_ui_view_3154
@@ -63,6 +45,13 @@ msgid ""
 msgstr ""
 "<b>My Company</b><br/>250 Executive Park Blvd, Suite 3400 <br/> San "
 "Francisco CA 94134 <br/>United States"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
+msgid ""
+"<b>Website App</b>: Drive qualified traffic by promoting your listings on a "
+"beautiful, mobile-responsive real estate portal."
+msgstr ""
 
 #. module: real_estate
 #: model:mail.template,body_html:real_estate.mail_template_42
@@ -2389,6 +2378,18 @@ msgid "<span class=\"o_force_ltr\">+1 555-555-5556</span>"
 msgstr "<span class=\"o_force_ltr\">+1 555-555-5556</span>"
 
 #. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.crm_lead_form_customization_view
+#: model_terms:ir.ui.view,arch_db:real_estate.product_template_product_form_customization_view
+msgid ""
+"<span class=\"o_stat_text\">\n"
+"                Sign Requests\n"
+"              </span>"
+msgstr ""
+"<span class=\"o_stat_text\">\n"
+"                서명 요청\n"
+"              </span>"
+
+#. module: real_estate
 #: model_terms:product.template,description_ecommerce:real_estate.product_template_3
 msgid ""
 "<span class=\"s_badge badge o_animable oe_snippet_body text-bg-info\" data-"
@@ -2414,11 +2415,6 @@ msgstr ""
 "<span class=\"s_website_form_label_content\">지역</span>\n"
 "                                <span class=\"s_website_form_mark\">      *</"
 "span>"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "<span class=\"s_website_form_label_content\">Condition</span>"
-msgstr "<span class=\"s_website_form_label_content\">상태</span>"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.contactus
@@ -2480,11 +2476,6 @@ msgstr ""
 "*</span>"
 
 #. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "<span class=\"s_website_form_label_content\">Regions</span>"
-msgstr "<span class=\"s_website_form_label_content\">지역</span>"
-
-#. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.contactus
 msgid ""
 "<span class=\"s_website_form_label_content\">Street &amp;amp; number</span>\n"
@@ -2514,11 +2505,6 @@ msgid ""
 msgstr ""
 "<span class=\"s_website_form_label_content\">제목</span>\n"
 "                            <span class=\"s_website_form_mark\">    *</span>"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "<span class=\"s_website_form_label_content\">Type</span>"
-msgstr "<span class=\"s_website_form_label_content\">유형</span>"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.contactus
@@ -2622,6 +2608,29 @@ msgstr ""
 "<span class=\"s_website_form_label_content\">우편 번호</span>\n"
 "                                <span class=\"s_website_form_mark\">    *</"
 "span>"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
+msgid ""
+"<strong><b>Appointments App</b>:</strong> Allow clients to book property "
+"visits and consultations directly with agents, synchronizing calendars "
+"automatically.<br/>"
+msgstr ""
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
+msgid ""
+"<strong><b>Properties App</b>:</strong> Organize your portfolio with a "
+"dedicated app to manage property listings, details, and availability status."
+"<br/>"
+msgstr ""
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
+msgid ""
+"<strong><b>Sales App</b>:</strong> Handle offers, negotiations, and closing "
+"deals with professional quotations and digital signatures.<br/>"
+msgstr ""
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
@@ -2812,9 +2821,20 @@ msgid "Attach legal documents, contracts, and plans"
 msgstr "법적 문서, 계약서 및 기획서를 첨부하세요."
 
 #. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.product_attribute_value_search_view
+msgid "Attribute"
+msgstr "속성"
+
+#. module: real_estate
 #: model:ir.model.fields,field_description:real_estate.field_product_template_attribute_value_ids
 msgid "Attribute values"
 msgstr "Attribute values"
+
+#. module: real_estate
+#: model:ir.actions.act_window,name:real_estate.attributes_act_window
+#: model:ir.ui.menu,name:real_estate.properties_attributes_menu
+msgid "Attributes"
+msgstr "속성"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
@@ -2825,11 +2845,6 @@ msgstr "방문 기록을 관련된 CRM 영업기회로 자동 연결합니다."
 #: model:product.attribute,name:real_estate.product_attribute_13
 msgid "Available"
 msgstr "사용 가능"
-
-#. module: real_estate
-#: model:product.attribute,name:real_estate.product_attribute_15
-msgid "Bathroom"
-msgstr "침실"
 
 #. module: real_estate
 #: model:product.attribute,name:real_estate.product_attribute_17
@@ -2884,6 +2899,11 @@ msgstr "공간에 자연의 아름다움을 선사합니다."
 #: model:product.attribute.value,name:real_estate.product_attribute_value_28
 msgid "Brussels-Capital"
 msgstr "Brussels-Capital"
+
+#. module: real_estate
+#: model:product.public.category,name:real_estate.product_public_category_1
+msgid "Buy"
+msgstr "매수인"
 
 #. module: real_estate
 #: model:crm.team,name:real_estate.crm_team_4
@@ -2975,25 +2995,14 @@ msgid "Compact and functional studio near Botanique."
 msgstr "Botanique 근처에 위치한 아담하면서도 실용적인 스튜디오"
 
 #. module: real_estate
-#: model:ir.model.fields,field_description:real_estate.field_res_partner_condition_ids
 #: model:product.attribute,name:real_estate.product_attribute_12
 msgid "Condition"
 msgstr "조건"
 
 #. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Construction Type: Exceptional Goods"
-msgstr "건축 유형: 특별 매물"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Construction Type: House"
-msgstr "건축 유형: 주택"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Construction Type: Villa"
-msgstr "건축 유형: 빌라"
+#: model:ir.ui.menu,name:real_estate.properties_configuration_menu
+msgid "Configuration"
+msgstr "환경설정"
 
 #. module: real_estate
 #: model:ir.model.fields,field_description:real_estate.field_product_template_construction_year
@@ -3075,8 +3084,9 @@ msgid "Creating and sending quotations directly from the pipeline"
 msgstr "견적서 작성 및 전송 작업을 파이프라인에서 직접 진행할 수 있습니다."
 
 #. module: real_estate
+#: model:ir.model.fields,field_description:real_estate.field_res_partner_criteria_ids
 #: model_terms:ir.ui.view,arch_db:real_estate.res_partner_form_customization_view
-msgid "Criterias"
+msgid "Criteria"
 msgstr "기준"
 
 #. module: real_estate
@@ -3122,9 +3132,15 @@ msgid "Do You Want to Go Further?"
 msgstr "더 자세히 알고 싶으신가요?"
 
 #. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
-msgid "Drive qualified traffic via your <strong>Website</strong>"
-msgstr "<strong>웹사이트</strong>를 통해 적격 트래픽 유입을 유도합니다"
+#: model:ir.actions.act_window,name:real_estate.crm_lead_sign_request_action
+#: model:ir.actions.act_window,name:real_estate.property_sign_request_action
+msgid "Documents"
+msgstr "문서"
+
+#. module: real_estate
+#: model:product.ribbon,name:real_estate.draft_ribbon
+msgid "Draft"
+msgstr ""
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.homepage
@@ -3198,11 +3214,6 @@ msgid "External References"
 msgstr "외부 참조"
 
 #. module: real_estate
-#: model:ir.model.fields,field_description:real_estate.field_product_template_field_surface
-msgid "Field Surface"
-msgstr "필드 공간"
-
-#. module: real_estate
 #: model:sign.item.type,tip:real_estate.sign_item_type_14
 #: model:sign.item.type,tip:real_estate.sign_item_type_15
 msgid "Fill in"
@@ -3235,18 +3246,6 @@ msgid ""
 msgstr ""
 "<strong>CRM 활동</strong> 계획을 통해 전화, 이메일, 부동산 방문 등에 후속 조"
 "치를 진행하세요."
-
-#. module: real_estate
-#: model:product.public.category,name:real_estate.product_public_category_2
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "For Rent"
-msgstr "임대"
-
-#. module: real_estate
-#: model:product.public.category,name:real_estate.product_public_category_1
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "For Sale"
-msgstr "매매"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
@@ -3285,14 +3284,6 @@ msgstr "좋음"
 #: model:product.attribute.value,name:real_estate.product_attribute_value_4
 msgid "Hainaut"
 msgstr "Hainaut"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
-msgid ""
-"Handle offers, negotiations, and deals in the <strong>Sales App</strong>"
-msgstr ""
-"제안을 하거나 협상 또는 거래 처리까지 <strong>판매 앱</strong>에서 진행해 보"
-"세요."
 
 #. module: real_estate
 #: model:product.attribute.value,name:real_estate.product_attribute_value_17
@@ -3479,6 +3470,11 @@ msgid "Last notification update"
 msgstr "최종 알림 업데이트"
 
 #. module: real_estate
+#: model:ir.model.fields,field_description:real_estate.field_crm_lead_id
+msgid "Lead"
+msgstr "영업제안"
+
+#. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.crm_lead_view_pivot
 msgid "Leads"
 msgstr "영업제안"
@@ -3491,24 +3487,6 @@ msgid ""
 msgstr ""
 "고객 정보를 남겨주시면 무료 방문 상담을 예약하여 부동산 견적을 안내해 드리겠"
 "습니다."
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
-msgid ""
-"Let clients book property visits easily through the <strong>Appointments "
-"App</strong>"
-msgstr ""
-"고객이 부동산 방문 예약을 편리하게 진행할 수 있도록 <strong>일정 예약 앱</"
-"strong>을 활용하세요."
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
-msgid ""
-"Let potential buyers subscribe to criteria and receive property matches with "
-"the <strong>Matchmaking Feature</strong>"
-msgstr ""
-"매입을 고려 중인 잠재 고객이 <strong>매칭 기능</strong>을 통해 조건에 맞는 부"
-"동산 정보를 구독하고 매칭을 받을 수 있게 합니다."
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
@@ -3529,8 +3507,8 @@ msgstr "Limburg"
 
 #. module: real_estate
 #: model:ir.model.fields,field_description:real_estate.field_product_template_living_surface
-msgid "Living Surface"
-msgstr "생활 공간"
+msgid "Livable Area"
+msgstr "거주 가능 면적"
 
 #. module: real_estate
 #: model:product.attribute.value,name:real_estate.product_attribute_value_5
@@ -3557,6 +3535,11 @@ msgid "Loft"
 msgstr "로프트"
 
 #. module: real_estate
+#: model:ir.model.fields,field_description:real_estate.field_product_template_field_surface
+msgid "Lot Size"
+msgstr "로트 크기"
+
+#. module: real_estate
 #: model:product.template,name:real_estate.product_template_27
 msgid "Louise Loft"
 msgstr "Louise Loft"
@@ -3577,12 +3560,6 @@ msgid "Manage agent availability and avoid double-bookings with calendar sync"
 msgstr ""
 "캘린더 동기화를 통해 에이전트가 응대할 수 있는 예약 시간을 관리하고 중복 예약"
 "을 방지합니다."
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
-msgid ""
-"Manage your property listings in a dedicated <strong>Properties App</strong>"
-msgstr "전용 <strong>부동산 앱</strong> 에서 부동산 매물을 관리합니다."
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
@@ -3631,6 +3608,7 @@ msgstr ""
 "는 연락처는 각 부동산 페이지에서 동일한 방식으로 표시됩니다."
 
 #. module: real_estate
+#: model:ir.model.fields,field_description:real_estate.x_is_matchmaking_field_product_attribute
 #: model:website.menu,name:real_estate.website_menu_12
 #: model_terms:ir.ui.view,arch_db:real_estate.res_partner_form_customization_view
 msgid "Matchmaking"
@@ -3865,6 +3843,11 @@ msgid "Pool"
 msgstr "수영장"
 
 #. module: real_estate
+#: model:product.ribbon,name:real_estate.pre_published_ribbon
+msgid "Pre-published"
+msgstr ""
+
+#. module: real_estate
 #: model:base.automation,name:real_estate.prevent_publishing_draft_products
 msgid "Prevent Publishing Draft Products"
 msgstr "매물 초안 게시 방지"
@@ -3882,6 +3865,7 @@ msgstr "속성"
 #: model:ir.model.fields,field_description:real_estate.field_appointment_type_property_id
 #: model:ir.model.fields,field_description:real_estate.field_calendar_event_property_id
 #: model:ir.model.fields,field_description:real_estate.field_product_template_line_property_id
+#: model:ir.model.fields,field_description:real_estate.field_property_id
 #: model:sign.item.type,name:real_estate.sign_item_type_14
 #: model_terms:ir.ui.view,arch_db:real_estate.crm_lead_search_opportunity_customization_view
 #: model_terms:ir.ui.view,arch_db:real_estate.product_template_product_form_customization_view
@@ -3914,6 +3898,12 @@ msgid "Reach us"
 msgstr "연락하기"
 
 #. module: real_estate
+#: model:base.automation,name:real_estate.uninstall_hook_base_automation
+#: model:ir.actions.server,name:real_estate.uninstall_hook_action_server
+msgid "Real Estate: Uninstall Hook"
+msgstr "부동산: 후크 설치 제거"
+
+#. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.ir_ui_view_3166
 msgid "Receive alerts <i class=\"fa fa-long-arrow-right\" role=\"img\"/>"
 msgstr "알림 받기 <i class=\"fa fa-long-arrow-right\" role=\"img\"/>"
@@ -3939,65 +3929,14 @@ msgid "Region"
 msgstr "지역"
 
 #. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Region: Antwerp"
-msgstr "지역: Antwerp"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Region: East Flanders"
-msgstr "지역: East Flanders"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Region: Flemish Brabant"
-msgstr "지역: Flemish Brabant"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Region: Hainaut"
-msgstr "지역: Hainaut"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Region: Limburg"
-msgstr "지역: Limburg"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Region: Liège"
-msgstr "지역: Liège"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Region: Luxembourg"
-msgstr "지역: Luxembourg"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Region: Namur"
-msgstr "지역: Namur"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Region: Walloon Brabant"
-msgstr "지역: Walloon Brabant"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "Region: West Flanders"
-msgstr "지역: West Flanders"
-
-#. module: real_estate
-#: model:ir.model.fields,field_description:real_estate.field_res_partner_regions_ids
-#: model_terms:ir.ui.view,arch_db:real_estate.res_partner_form_customization_view
-msgid "Regions"
-msgstr "지역"
-
-#. module: real_estate
 #: model:product.attribute.value,name:real_estate.product_attribute_value_31
 msgid "Renovated"
 msgstr "레노베이션 완료"
+
+#. module: real_estate
+#: model:product.public.category,name:real_estate.product_public_category_2
+msgid "Rent"
+msgstr "임대"
 
 #. module: real_estate
 #: model:ir.actions.act_window,name:real_estate.reporting_act_window
@@ -4024,6 +3963,11 @@ msgstr "매매 💶"
 #: model:ir.model.fields.selection,name:real_estate.x_receiver_customer_field_selection_salesperson
 msgid "Salesperson"
 msgstr "영업 담당자"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.product_attribute_value_search_view
+msgid "Search Attribute Value"
+msgstr "속성 값 검색"
 
 #. module: real_estate
 #: model:ir.actions.server,name:real_estate.search_for_property_reference_server_action
@@ -4114,6 +4058,12 @@ msgid "Showcase your latest listings with high-quality images and filters"
 msgstr "고화질 이미지와 필터를 활용하여 최신 매물을 선보입니다."
 
 #. module: real_estate
+#: model:ir.model.fields,field_description:real_estate.x_sign_request_count_field_crm_lead
+#: model:ir.model.fields,field_description:real_estate.x_sign_request_count_field_property
+msgid "Sign Request Count"
+msgstr "서명 요청 수"
+
+#. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.homepage
 msgid "Sign in"
 msgstr "로그인"
@@ -4149,16 +4099,6 @@ msgid "Spacious home with garden and garage, close to schools in Namur."
 msgstr ""
 "Namur 지역의 넓은 주택으로 정원 및 차고를 보유하고 있으며 학교와 인접해 있습"
 "니다."
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "State: Excellent"
-msgstr "상태: 매우 좋음"
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
-msgid "State: To refresh"
-msgstr "상태: 새로 고침"
 
 #. module: real_estate
 #: model:ir.model.fields,field_description:real_estate.field_product_template_street
@@ -4318,7 +4258,6 @@ msgstr ""
 "요."
 
 #. module: real_estate
-#: model:ir.model.fields,field_description:real_estate.field_res_partner_type_ids
 #: model:product.attribute,name:real_estate.product_attribute_11
 msgid "Type"
 msgstr "유형"
@@ -4358,15 +4297,6 @@ msgid "Use a contact form to get lead with a Free Estimate promotion."
 msgstr ""
 "문의 양식을 통해 잠재 고객을 확보할 수 있도록 무료 견적 프로모션을 진행합니"
 "다."
-
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
-msgid ""
-"Use the <strong>CRM App</strong> to manage your leads and track ongoing "
-"buying/selling opportunities"
-msgstr ""
-"<strong>CRM 앱</strong>을 활용하여 잠재 고객을 관리하고 진행 중인 매입 및 매"
-"수 영업기회를 추적하세요."
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.homepage
@@ -4538,10 +4468,25 @@ msgid "hello@mycompany.com"
 msgstr "hello@mycompany.com"
 
 #. module: real_estate
+#: model:website.base.unit,name:real_estate.base_unit_1
+msgid "m²"
+msgstr "m²"
+
+#. module: real_estate
 #: model:ir.model,name:real_estate.product_template_line_model
 #: model_terms:ir.ui.view,arch_db:real_estate.default_form_view_x_product_template_line
 msgid "product_template_line"
 msgstr "product_template_line"
+
+#. module: real_estate
+#: model:website.base.unit,name:real_estate.base_unit_2
+msgid "sqft"
+msgstr "sqft"
+
+#. module: real_estate
+#: model:website.base.unit,name:real_estate.base_unit_3
+msgid "sqm"
+msgstr "sqm"
 
 #. module: real_estate
 #: model_terms:product.template,description_ecommerce:real_estate.product_template_16
@@ -4587,7 +4532,129 @@ msgstr "🎓 웹사이트"
 #. module: real_estate
 #: model_terms:product.template,description_ecommerce:real_estate.product_template_16
 msgid "🛏️ Renovate the outbuildings into a boutique B&amp;B or guesthouse"
-msgstr ""
+msgstr "🛏️ 별채를 부티크 B&B나 게스트하우스로 개조해 보세요"
+
+#~ msgid "Field Surface"
+#~ msgstr "필드 공간"
+
+#~ msgid "Living Surface"
+#~ msgstr "생활 공간"
+
+#~ msgid "+1 555-555-5556"
+#~ msgstr "+1 555-555-5556"
+
+#~ msgid "01"
+#~ msgstr "01"
+
+#~ msgid "02"
+#~ msgstr "02"
+
+#~ msgid "03"
+#~ msgstr "03"
+
+#~ msgid "04"
+#~ msgstr "04"
+
+#~ msgid "For Sale"
+#~ msgstr "매매"
+
+#~ msgid "<span class=\"s_website_form_label_content\">Condition</span>"
+#~ msgstr "<span class=\"s_website_form_label_content\">상태</span>"
+
+#~ msgid "<span class=\"s_website_form_label_content\">Regions</span>"
+#~ msgstr "<span class=\"s_website_form_label_content\">지역</span>"
+
+#~ msgid "<span class=\"s_website_form_label_content\">Type</span>"
+#~ msgstr "<span class=\"s_website_form_label_content\">유형</span>"
+
+#~ msgid "Bathroom"
+#~ msgstr "침실"
+
+#~ msgid "Criterias"
+#~ msgstr "기준"
+
+#~ msgid "Regions"
+#~ msgstr "지역"
+
+#~ msgid "Construction Type: Exceptional Goods"
+#~ msgstr "건축 유형: 특별 매물"
+
+#~ msgid "Construction Type: House"
+#~ msgstr "건축 유형: 주택"
+
+#~ msgid "Construction Type: Villa"
+#~ msgstr "건축 유형: 빌라"
+
+#~ msgid "Drive qualified traffic via your <strong>Website</strong>"
+#~ msgstr "<strong>웹사이트</strong>를 통해 적격 트래픽 유입을 유도합니다"
+
+#~ msgid ""
+#~ "Handle offers, negotiations, and deals in the <strong>Sales App</strong>"
+#~ msgstr ""
+#~ "제안을 하거나 협상 또는 거래 처리까지 <strong>판매 앱</strong>에서 진행해 "
+#~ "보세요."
+
+#~ msgid ""
+#~ "Let clients book property visits easily through the <strong>Appointments "
+#~ "App</strong>"
+#~ msgstr ""
+#~ "고객이 부동산 방문 예약을 편리하게 진행할 수 있도록 <strong>일정 예약 앱</"
+#~ "strong>을 활용하세요."
+
+#~ msgid ""
+#~ "Let potential buyers subscribe to criteria and receive property matches "
+#~ "with the <strong>Matchmaking Feature</strong>"
+#~ msgstr ""
+#~ "매입을 고려 중인 잠재 고객이 <strong>매칭 기능</strong>을 통해 조건에 맞"
+#~ "는 부동산 정보를 구독하고 매칭을 받을 수 있게 합니다."
+
+#~ msgid ""
+#~ "Manage your property listings in a dedicated <strong>Properties App</"
+#~ "strong>"
+#~ msgstr "전용 <strong>부동산 앱</strong> 에서 부동산 매물을 관리합니다."
+
+#~ msgid "Region: Antwerp"
+#~ msgstr "지역: Antwerp"
+
+#~ msgid "Region: East Flanders"
+#~ msgstr "지역: East Flanders"
+
+#~ msgid "Region: Flemish Brabant"
+#~ msgstr "지역: Flemish Brabant"
+
+#~ msgid "Region: Hainaut"
+#~ msgstr "지역: Hainaut"
+
+#~ msgid "Region: Limburg"
+#~ msgstr "지역: Limburg"
+
+#~ msgid "Region: Liège"
+#~ msgstr "지역: Liège"
+
+#~ msgid "Region: Luxembourg"
+#~ msgstr "지역: Luxembourg"
+
+#~ msgid "Region: Namur"
+#~ msgstr "지역: Namur"
+
+#~ msgid "Region: Walloon Brabant"
+#~ msgstr "지역: Walloon Brabant"
+
+#~ msgid "Region: West Flanders"
+#~ msgstr "지역: West Flanders"
+
+#~ msgid "State: Excellent"
+#~ msgstr "상태: 매우 좋음"
+
+#~ msgid "State: To refresh"
+#~ msgstr "상태: 새로 고침"
+
+#~ msgid ""
+#~ "Use the <strong>CRM App</strong> to manage your leads and track ongoing "
+#~ "buying/selling opportunities"
+#~ msgstr ""
+#~ "<strong>CRM 앱</strong>을 활용하여 잠재 고객을 관리하고 진행 중인 매입 및 "
+#~ "매수 영업기회를 추적하세요."
 
 #~ msgid "fill in"
 #~ msgstr "다음을 채우기"

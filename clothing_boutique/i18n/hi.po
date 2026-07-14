@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 11:52+0000\n"
+"POT-Creation-Date: 2026-06-12 17:49+0000\n"
 "PO-Revision-Date: 2025-11-17 11:10+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Hindi <https://translate.odoo.com/projects/odoo-19/"
@@ -50,6 +50,68 @@ msgstr "आपके ऑर्डर पर 5% लॉयल्टी"
 #: model:product.template,name:clothing_boutique.product_template_56
 msgid "5% on your order for the loyalty points earned."
 msgstr "आपके ऑर्डर पर कमाए गए लॉयल्टी पॉइंट के लिए 5%।"
+
+#. module: clothing_boutique
+#: model_terms:ir.ui.view,arch_db:clothing_boutique.welcome_article_body
+msgid ""
+"<b>Email Marketing App</b>: Engage your customers with personalized "
+"newsletters about new collections,\n"
+"                    sales, and exclusive style advice."
+msgstr ""
+
+#. module: clothing_boutique
+#: model_terms:ir.ui.view,arch_db:clothing_boutique.welcome_article_body
+msgid ""
+"<b>Inventory App</b>: Manage complex product matrices (sizes, colors, fits) "
+"and use barcode/RFID scanning\n"
+"                    for rapid stock counts and transfers."
+msgstr ""
+
+#. module: clothing_boutique
+#: model_terms:ir.ui.view,arch_db:clothing_boutique.welcome_article_body
+msgid ""
+"<b>Point of Sale App</b>: Speed up checkout with an intuitive interface that "
+"handles multiple variants,\n"
+"                    returns, and customer loyalty programs seamlessly."
+msgstr ""
+
+#. module: clothing_boutique
+#: model_terms:ir.ui.view,arch_db:clothing_boutique.welcome_article_body
+msgid ""
+"<b>Purchase App</b>: Automate replenishment based on seasonal demand, "
+"ensuring you have the right mix of\n"
+"                    sizes and styles in stock."
+msgstr ""
+
+#. module: clothing_boutique
+#: model_terms:ir.ui.view,arch_db:clothing_boutique.welcome_article_body
+msgid ""
+"<b>Sales App</b>: Handle wholesale orders or B2B contracts with ease, using "
+"variant grids to quickly enter\n"
+"                    large orders for different sizes."
+msgstr ""
+
+#. module: clothing_boutique
+#: model_terms:ir.ui.view,arch_db:clothing_boutique.welcome_article_body
+msgid ""
+"<b>Website App</b>: Design a visually appealing brand site that showcases "
+"your latest arrivals, lookbooks,\n"
+"                    and store locations."
+msgstr ""
+
+#. module: clothing_boutique
+#: model_terms:ir.ui.view,arch_db:clothing_boutique.welcome_article_body
+msgid ""
+"<b>eCommerce App</b>: Create a stunning online storefront to sell your "
+"fashion collections globally,\n"
+"                    offering features like \"shop by look\" or dynamic "
+"filters."
+msgstr ""
+
+#. module: clothing_boutique
+#: model_terms:ir.ui.view,arch_db:clothing_boutique.welcome_article_body
+msgid "<br/>Basics"
+msgstr ""
 
 #. module: clothing_boutique
 #: model_terms:ir.ui.view,arch_db:clothing_boutique.homepage
@@ -125,8 +187,8 @@ msgid ""
 "A wide range of high quality products and a warm welcome! I recommend this "
 "shop 200%!"
 msgstr ""
-"यहां कई तरह के अच्छे प्रॉडक्ट मिलते हैं और स्वागत भी बहुत अच्छे से होता है. मैं इस दुकान को ज़रू"
-"र इस्तेमाल करने की सलाह दूंगा!"
+"यहां कई तरह के अच्छे प्रॉडक्ट मिलते हैं और स्वागत भी बहुत अच्छे से होता है. मैं इस दुकान को "
+"ज़रूर इस्तेमाल करने की सलाह दूंगा!"
 
 #. module: clothing_boutique
 #: model_terms:ir.ui.view,arch_db:clothing_boutique.welcome_article_body
@@ -182,10 +244,10 @@ msgid ""
 "          <br/>"
 msgstr ""
 "बोगो ऑफ़र Offer (एक खरीदें, एक मुफ़्त पाएं) <br/>\n"
-"          प्रमोशन खुदरा विक्रेताओं के बीच लोकप्रिय हैं, क्योंकि वे प्रमोट किए जा रहे प्रॉडक्"
-"ट की बिक्री बढ़ा सकते हैं. साथ ही, यह स्टोर में अन्य प्रॉडक्ट की ओर भी ध्यान आकर्षित करेगा"
-", जो तब बहुत अच्छा है जब आपको न बिकने वाले स्टॉक को हटाना हो या बिक्री को बढ़ावा देना "
-"हो.\n"
+"          प्रमोशन खुदरा विक्रेताओं के बीच लोकप्रिय हैं, क्योंकि वे प्रमोट किए जा रहे "
+"प्रॉडक्ट की बिक्री बढ़ा सकते हैं. साथ ही, यह स्टोर में अन्य प्रॉडक्ट की ओर भी ध्यान आकर्षित "
+"करेगा, जो तब बहुत अच्छा है जब आपको न बिकने वाले स्टॉक को हटाना हो या बिक्री को बढ़ावा "
+"देना हो.\n"
 "          <br/>"
 
 #. module: clothing_boutique
@@ -235,23 +297,13 @@ msgstr "बॉटम पैन्ट और ट्राउज़र"
 
 #. module: clothing_boutique
 #: model_terms:ir.ui.view,arch_db:clothing_boutique.welcome_article_body
-msgid "Business Flows:"
-msgstr "बिज़नेस फ्लो:"
+msgid "Business Flows"
+msgstr ""
 
 #. module: clothing_boutique
 #: model:loyalty.program,name:clothing_boutique.loyalty_program_7
 msgid "Buy 1 jeans get 1 T-shirt Free"
 msgstr "एक जीन्स खरीदें और एक टी-शर्ट मुफ्त पाएं"
-
-#. module: clothing_boutique
-#: model:pos.payment.method,name:clothing_boutique.pos_payment_method_1
-msgid "Cash"
-msgstr "कैश"
-
-#. module: clothing_boutique
-#: model:account.journal,name:clothing_boutique.cash
-msgid "Cash (Clothing boutique)"
-msgstr "कैश (क्लोदिंग बुटिक)"
 
 #. module: clothing_boutique
 #: model:product.template,name:clothing_boutique.product_template_13
@@ -293,8 +345,7 @@ msgstr "संपर्क करें"
 msgid ""
 "Continue the payment Process further with any of the payment methods and "
 "validate."
-msgstr ""
-"आगे किसी भी भुगतान विधि के साथ भुगतान प्रक्रिया जारी रखें और पुष्टि करें।"
+msgstr "आगे किसी भी भुगतान विधि के साथ भुगतान प्रक्रिया जारी रखें और पुष्टि करें।"
 
 #. module: clothing_boutique
 #: model:product.template,name:clothing_boutique.product_template_14
@@ -313,11 +364,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:clothing_boutique.welcome_article_body
 msgid "Create a POS order through POS Application, select any customer"
 msgstr "पीओएस ऐप्लिकेशन के ज़रिए एक पीओएस ऑर्डर बनाएं, कोई भी ग्राहक चुनें"
-
-#. module: clothing_boutique
-#: model:pos.payment.method,name:clothing_boutique.pos_payment_method_2
-msgid "Customer Account"
-msgstr "ग्राहक का खाता"
 
 #. module: clothing_boutique
 #: model:product.attribute.value,name:clothing_boutique.product_attribute_value_dark_blue
@@ -445,8 +491,8 @@ msgid ""
 "Here Promotion Program has been used for allocating the loyalty points on "
 "order and discount while claiming."
 msgstr ""
-"यहां प्रमोशन प्रोग्राम का इस्तेमाल, ऑर्डर पर लॉयल्टी पॉइंट देने और उन्हें क्लेम करते समय छूट देने"
-" के लिए किया गया है।"
+"यहां प्रमोशन प्रोग्राम का इस्तेमाल, ऑर्डर पर लॉयल्टी पॉइंट देने और उन्हें क्लेम करते समय छूट "
+"देने के लिए किया गया है।"
 
 #. module: clothing_boutique
 #: model_terms:ir.ui.view,arch_db:clothing_boutique.welcome_article_body
@@ -486,6 +532,11 @@ msgstr "जंपसूट"
 #: model:product.template,name:clothing_boutique.product_template_26
 msgid "Kurta set"
 msgstr "कुर्ता सेट"
+
+#. module: clothing_boutique
+#: model:product.attribute.value,name:clothing_boutique.product_attribute_value_9
+msgid "L"
+msgstr ""
 
 #. module: clothing_boutique
 #: model_terms:ir.ui.view,arch_db:clothing_boutique.homepage
@@ -532,6 +583,11 @@ msgstr ""
 "बदले में छूट भुना सकते हैं"
 
 #. module: clothing_boutique
+#: model:product.attribute.value,name:clothing_boutique.product_attribute_value_8
+msgid "M"
+msgstr ""
+
+#. module: clothing_boutique
 #: model:loyalty.program,name:clothing_boutique.loyalty_program_2
 msgid "Mega Discount Offer on Tops!!"
 msgstr "टॉप पर भारी छूट का ऑफ़र!!"
@@ -554,9 +610,9 @@ msgid ""
 "year like: New Year's Eve discount, winter sale, Christmas sale, summer "
 "sale, etc."
 msgstr ""
-"आजकल, कंपनियों के लिए साल के किसी भी खास समय में ग्राहकों को कम से कम एक या एक से ज़्यादा"
-" सीज़नल छूट देना लगभग एक चलन बन गया है, जैसे: नए साल की पूर्व संध्या पर छूट, विंटर सेल, "
-"क्रिसमस सेल, समर सेल, वगैरह।"
+"आजकल, कंपनियों के लिए साल के किसी भी खास समय में ग्राहकों को कम से कम एक या एक से "
+"ज़्यादा सीज़नल छूट देना लगभग एक चलन बन गया है, जैसे: नए साल की पूर्व संध्या पर छूट, विंटर "
+"सेल, क्रिसमस सेल, समर सेल, वगैरह।"
 
 #. module: clothing_boutique
 #: model:loyalty.program,name:clothing_boutique.loyalty_program_4
@@ -637,8 +693,8 @@ msgid ""
 "Scan “HIGHJEAN001” Barcode number from the search bar and select the “High "
 "Waist Jeans” product and customer."
 msgstr ""
-"सर्च बार से \"HIGHJEAN001\" बारकोड नंबर स्कैन करें और \"हाई वेस्ट जीन्स\" प्रॉडक्ट और ग्रा"
-"हक चुनें।"
+"सर्च बार से \"HIGHJEAN001\" बारकोड नंबर स्कैन करें और \"हाई वेस्ट जीन्स\" प्रॉडक्ट और "
+"ग्राहक चुनें।"
 
 #. module: clothing_boutique
 #: model_terms:ir.ui.view,arch_db:clothing_boutique.welcome_article_body
@@ -671,11 +727,6 @@ msgid "T-shirts"
 msgstr "टी-शर्ट"
 
 #. module: clothing_boutique
-#: model_terms:ir.ui.view,arch_db:clothing_boutique.welcome_article_body
-msgid "The Glam Boutique"
-msgstr ""
-
-#. module: clothing_boutique
 #: model_terms:ir.ui.view,arch_db:clothing_boutique.homepage
 msgid "The Orchid Concept"
 msgstr ""
@@ -700,8 +751,8 @@ msgid ""
 "creation, distribution, and retail of clothing and fashion accessories to a "
 "specific segment of people."
 msgstr ""
-"यह सेटअप कपड़ों और बुटीक की खुदरा दुकानों के लिए है, जिसमें लोगों के एक खास वर्ग के लिए कपड़ों"
-" और फ़ैशन से जुड़ी एक्सेसरीज़ को बनाना, डिस्ट्रीब्यूट करना और बेचना शामिल है।"
+"यह सेटअप कपड़ों और बुटीक की खुदरा दुकानों के लिए है, जिसमें लोगों के एक खास वर्ग के लिए "
+"कपड़ों और फ़ैशन से जुड़ी एक्सेसरीज़ को बनाना, डिस्ट्रीब्यूट करना और बेचना शामिल है।"
 
 #. module: clothing_boutique
 #: model_terms:ir.ui.view,arch_db:clothing_boutique.welcome_article_body
@@ -709,8 +760,8 @@ msgid ""
 "Through Purchase Application <font class=\"text-o-color-5\">create an RFQ</"
 "font> (Request for quotation) with Product “White Flared Dress”"
 msgstr ""
-"परचेज़ ऐप्लिकेशन के ज़रिए \"व्हाइट फ्लेयर्ड ड्रेस\" प्रॉडक्ट के साथ <font class="
-"\"text-o-color-5\">एक आरएफक्यू</font> (कोटेशन के लिए अनुरोध) बनाएं"
+"परचेज़ ऐप्लिकेशन के ज़रिए \"व्हाइट फ्लेयर्ड ड्रेस\" प्रॉडक्ट के साथ <font class=\"text-o-"
+"color-5\">एक आरएफक्यू</font> (कोटेशन के लिए अनुरोध) बनाएं"
 
 #. module: clothing_boutique
 #: model_terms:ir.ui.view,arch_db:clothing_boutique.homepage
@@ -718,8 +769,8 @@ msgid ""
 "To do so, we collaborate with local producers who care about the environment "
 "and cultivate their flowers with love."
 msgstr ""
-"इसके लिए, हम स्थानीय किसानों के साथ काम करते हैं जो पर्यावरण की परवाह करते हैं और प्यार से"
-" फूल उगाते हैं।"
+"इसके लिए, हम स्थानीय किसानों के साथ काम करते हैं जो पर्यावरण की परवाह करते हैं और प्यार "
+"से फूल उगाते हैं।"
 
 #. module: clothing_boutique
 #: model:product.public.category,name:clothing_boutique.product_public_category_10
@@ -814,5 +865,16 @@ msgstr "सफ़ेद और भूरे फूलों वाली लं�
 #. module: clothing_boutique
 #: model_terms:ir.ui.view,arch_db:clothing_boutique.homepage
 msgid "woman in black and white dress holding happy birthday signage"
-msgstr ""
-"सफ़ेद और काले रंग की पोशाक पहने महिला, जिसके हाथ में \"हैप्पी बर्थडे\" का साइन है"
+msgstr "सफ़ेद और काले रंग की पोशाक पहने महिला, जिसके हाथ में \"हैप्पी बर्थडे\" का साइन है"
+
+#~ msgid "Cash"
+#~ msgstr "कैश"
+
+#~ msgid "Cash (Clothing boutique)"
+#~ msgstr "कैश (क्लोदिंग बुटिक)"
+
+#~ msgid "Customer Account"
+#~ msgstr "ग्राहक का खाता"
+
+#~ msgid "Business Flows:"
+#~ msgstr "बिज़नेस फ्लो:"

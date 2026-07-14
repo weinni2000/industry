@@ -11,6 +11,8 @@
                 <field name="x_name"/>
                 <field name="x_description" optional="show"/>
                 <field name="x_unit_id" string="Reporting unit"/>
+                <field name="x_packaging_tax" optional="show"/>
+                <field name="x_currency_id" optional="hide"/>
             </list>
         </field>
     </record>
@@ -22,44 +24,29 @@
         <field name="type">form</field>
         <field name="active" eval="True"/>
         <field name="arch" type="xml">
-            <xpath expr="//page[@name='general_information']/group[@name='internal_notes']" position="before">
-                <group>
-                    <group name="excise" string="Excises">
-                        <label for="x_excise_category"/>
-                        <div class="d-flex" name="deposit">
-                            <field name="x_excise_category" class="oe_inline" options="{'no_open': True, 'no_create': True}"/>
-                            <field name="x_excise_description" force_save="1" readonly="True"/>
-                        </div>
-                        <label for="x_excise_amount" invisible="not x_excise_category"/>
-                        <div class="d-flex" name="excise_amount" invisible="not x_excise_category">
-                            <field name="x_currency_symbol" class="oe_inline" force_save="1"/>
-                            <field name="x_excise_amount" class="oe_inline" force_save="1" options="{'digits':[8,4]}"/>
-                        </div>
-                        <label for="x_excise_quantity" invisible="not x_excise_category"/>
-                        <div class="d-flex" name="excise_quantity" invisible="not x_excise_category">
-                            <field name="x_excise_quantity" class="oe_inline" force_save="1" options="{'digits':[8,6]}"/>
-                            <field name="x_excise_unit" force_save="1" readonly="True" options="{'no_open': True}"/>
-                        </div> 
-                    </group>
+            <xpath expr="//group[@name='group_standard_price']/.." position="inside">
+                <group name="excise" string="Excises">
+                    <label for="x_excise_category"/>
+                    <div class="d-flex" name="deposit">
+                        <field name="x_excise_category" class="oe_inline" options="{'no_open': True, 'no_create': True}"/>
+                        <field name="x_excise_description" force_save="1" readonly="True"/>
+                    </div>
+                    <label for="x_excise_amount" invisible="not x_excise_category"/>
+                    <div class="d-flex" name="excise_amount" invisible="not x_excise_category">
+                        <field name="x_currency_symbol" class="oe_inline" force_save="1"/>
+                        <field name="x_excise_amount" class="oe_inline" force_save="1" options="{'digits':[8,4]}"/>
+                    </div>
+                    <label for="x_excise_quantity" invisible="not x_excise_category"/>
+                    <div class="d-flex" name="excise_quantity" invisible="not x_excise_category">
+                        <field name="x_excise_quantity" class="oe_inline" force_save="1" options="{'digits':[8,6]}"/>
+                        <field name="x_excise_unit" force_save="1" readonly="True" options="{'no_open': True}"/>
+                    </div>
+                    <label for="x_packaging_units" invisible="not x_excise_category"/>
+                    <div class="d-flex" name="excise_packaging_unit" invisible="not x_excise_category">
+                        <field name="x_packaging_units"/>
+                    </div>
                 </group>
             </xpath>
-        </field>
-    </record>
-    <record id="stock_move_view_pivot" model="ir.ui.view">
-        <field name="name">stock.move.view.pivot.excise</field>
-        <field name="model">stock.move</field>
-        <field name="priority">99</field>
-        <field name="type">pivot</field>
-        <field name="active" eval="True"/>
-        <field name="arch" type="xml">
-            <pivot string="Excises Analysis">
-                <field name="x_excise_quantity" type="measure" options="{'digits':[8,4]}"/>
-                <field name="x_excise_amount" type="measure"/>
-                <field name="x_excise_category" type="col"/>
-                <field name="x_excise_unit" type="col"/>
-                <field name="date" interval="week" type="row"/>
-                <field name="x_fiscal_deposit_move" type="row"/>
-            </pivot>
         </field>
     </record>
     <record id="stock_move_view_search" model="ir.ui.view">
@@ -86,6 +73,7 @@
         <field name="arch" type="xml">
             <xpath expr="//field[@name='resupply_wh_ids']" position="after">
                 <field name="x_is_fiscal_deposit"/>
+                <field name="x_excise_license_id" invisible="not x_is_fiscal_deposit" options="{'no_open':true,'no_create_edit':true}"/>
             </xpath>
         </field>
     </record>
@@ -110,17 +98,20 @@
         <field name="type">list</field>
         <field name="arch" type="xml">
             <list default_order="date, picking_id, sequence" string="Moves" create="0">
+                <field name="x_color" column_invisible="True"/>
                 <field name="date_deadline" optional="hide"/>
                 <field name="date" optional="show"/>
-                <field name="x_fiscal_deposit_move" optional="show"/>
+                <field name="picking_id" optional="show" widget="many2one"/>
                 <field name="product_id" optional="show"/>
                 <field name="product_uom" optional="show" groups="uom.group_uom" widget="many2one_uom"/>
                 <field name="product_uom_qty" optional="show"/>
                 <field name="x_excise_category" optional="show"/>
-                <field name="x_excise_amount" optional="show"/>
+                <field name="x_excise_amount" optional="show" decoration-danger="x_color == 1" decoration-success="x_color == 2"/>
                 <field name="x_currency_id" column_invisible="True"/>
-                <field name="x_excise_quantity" optional="show" options="{'digits':[8,6]}"/>
+                <field name="x_excise_quantity" optional="show" options="{'digits':[8,6]}" decoration-danger="x_color == 1" decoration-success="x_color == 2"/>
                 <field name="x_excise_unit" optional="show"/>
+                <field name="x_packaging_units" optional="show" invisible="not x_packaging_units" width="130px" decoration-danger="x_color == 1" decoration-success="x_color == 2"/>
+                <field name="x_packaging_amount" optional="show" invisible="not x_packaging_amount" width="130px" decoration-danger="x_color == 1" decoration-success="x_color == 2"/>
             </list>
         </field>
     </record>
@@ -136,10 +127,15 @@
             <xpath expr="//page[@name='order_lines']//list//field[@name='tax_ids']" position="after">
                 <field optional="show" name="x_excise_free_unit_price" invisible="not x_excise_free_unit_price" column_invisible="not parent.x_has_excise_line"/>
                 <field optional="show" name="x_total_excises" invisible="not x_total_excises" column_invisible="not parent.x_has_excise_line"/>
-                <field optional="show" name="x_total_deposits" invisible="not x_total_deposits" column_invisible="not parent.x_has_deposit_line"/>
                 <field name="currency_id" column_invisible="1"/>
             </xpath>
         </field>
+    </record>
+    <record id="action_account_move_pickings" model="ir.actions.act_window">
+        <field name="context">{'search_default_x_invoice_ids': active_id,'default_x_invoice_ids': [active_id]}</field>
+        <field name="domain">[('x_invoice_ids', '=', active_id)]</field>
+        <field name="name">Pickings</field>
+        <field name="res_model">stock.picking</field>
     </record>
     <record id="account_move_form_view" model="ir.ui.view">
         <field name="name">account.move.form.inherit.excise_management</field>
@@ -150,10 +146,17 @@
         <field name="priority">300</field>
         <field name="type">form</field>
         <field name="arch" type="xml">
+            <xpath expr="//sheet//div[@name='button_box']" position="inside">
+                <button class="oe_stat_button" icon="fa-truck" type="action" name="%(action_account_move_pickings)d">
+                    <field widget="statinfo" name="x_external_id_count" string="External Transfers"/>
+                </button>
+            </xpath>
+            <xpath expr="//group[@name='sale_info_group']//field[@name='delivery_date']" position="after">
+                <field name="x_external_ids"/>
+            </xpath>
             <xpath expr="//list[@name='journal_items']//field[@name='price_unit']" position="after">
                 <field optional="show" name="x_excise_free_unit_price_account_move" invisible="not x_excise_free_unit_price_account_move" column_invisible="not parent.x_has_excise_line"/>
                 <field optional="show" name="x_total_excises_account_move" invisible="not x_total_excises_account_move" column_invisible="not parent.x_has_excise_line"/>
-                <field optional="show" name="x_total_deposits_account_move" invisible="not x_total_deposits_account_move" column_invisible="not parent.x_has_deposit_line"/>
                 <field name="company_currency_id" column_invisible="1"/>
             </xpath>
         </field>
@@ -168,9 +171,147 @@
         <field name="active" eval="True"/>
         <field name="arch" type="xml">
             <xpath expr="/form//field[@name='pos_receipt_label']" position="after">
-                <field name="x_is_deposit"/>
                 <field name="x_is_excise"/>
             </xpath>
+        </field>
+    </record>
+     <record id="view_picking_form" model="ir.ui.view">
+        <field name="name">stock.picking.form.inherit.excise.management</field>
+        <field name="model">stock.picking</field>
+        <field name="active" eval="True"/>
+        <field name="inherit_id" ref="stock.view_picking_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='origin']" position="after">
+                <field name="x_external_id" />
+            </xpath>
+            <xpath expr="//form//page[@name='note']" position="after">
+                <page string="Excises" name="excises">
+                    <field name="move_ids">
+                        <list create="0" edit="0" delete="0" editable="bottom">
+                            <field name="x_currency_id" column_invisible="1"/>
+                            <field name="x_excise_category"/>
+                            <field name="x_excise_quantity" options="{'digits':[8,4]}" invisible="not x_excise_category"/>
+                            <field name="x_excise_unit" invisible="not x_excise_category"/>
+                            <field name="x_excise_amount" invisible="not x_excise_category"/>
+                            <field name="x_packaging_units" invisible="not x_packaging_units" width="130px"/>
+                            <field name="x_packaging_amount" invisible="not x_packaging_amount" width="130px"/>
+                        </list>
+                    </field>
+                </page>
+            </xpath>
+        </field>
+    </record>
+    <record id="list_view_x_excise_report" model="ir.ui.view">
+        <field name="name">Excise Reports</field>
+        <field name="model">x_excise_report</field>
+        <field name="active" eval="True"/>
+        <field name="type">list</field>
+        <field name="arch" type="xml">
+            <list name="excise_report" edit="0" default_group_by="x_excise_license_id" default_order="x_from_date desc" expand="1">
+                <field name="x_name" />
+                <field name="x_from_date" optional="show" widget="daterange" options="{'end_date_field': 'x_to_date','numeric': true, 'always_range': true}"/>
+                <field name="x_external_id" />
+                <field name="activity_ids" optional="show" widget="list_activity"/>
+                <field name="x_state" widget="badge" decoration-info="x_state == 'progress'" decoration-success="x_state == 'done'"/>
+            </list>
+        </field>
+    </record>
+    <record id="form_view_x_excise_report" model="ir.ui.view">
+        <field name="name">Excise Report</field>
+        <field name="model">x_excise_report</field>
+        <field name="active" eval="True"/>
+        <field name="arch" type="xml">
+            <form name="excise_report" string="Excise Report">
+                <header>
+                    <field name="x_state" widget="statusbar" options="{'clickable': '1'}"/>
+                </header>
+                <sheet>
+                    <div name="button_box" class="oe_button_box">
+                        <button class="oe_stat_button" icon="fa-truck" type="action" name="%(action_excise_report_stock_moves)d" string="Moves" />
+                    </div>
+                    <div class="oe_title">
+                        <h1>
+                            <field name="x_name" placeholder="Eg: 25W42"/>
+                        </h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="x_excise_license_id" default_focus="true" options="{'no_create': True, 'no_create_edit': True, 'no_open': True}"/>
+                            <field name="x_from_date" widget="daterange" options="{'end_date_field': 'x_to_date', 'numeric': true, 'always_range':true}" string="Period" readonly="x_state == 'done'"/>
+                        </group>
+                        <group>
+                            <field name="x_external_id"/>
+                            <field name="x_document"/>
+                            <field name="x_details_computation" invisible="1"/>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Details" name="lines">
+                            <field name="x_line_ids">
+                                <list default_group_by="x_excise_category_id" create="0" edit="0" delete="0" editable="bottom" decoration-danger="(x_excise_move_type in ('exit', 'exit fd'))" decoration-success="(x_excise_move_type in ('entry', 'entry fd'))" decoration-info="x_excise_move_type == 'transfer'" decoration-muted="x_excise_move_type == 'none'">
+                                    <field name="x_currency_id" column_invisible="1"/>
+                                    <field name="x_excise_category_id"/>
+                                    <field name="x_excise_move_type"/>
+                                    <field name="x_excise_quantity" options="{'digits':[8,4]}"/>
+                                    <field name="x_excise_unit"/>
+                                    <field name="x_excise_amount"/>
+                                    <field name="x_excise_packaging_units" invisible="not x_excise_packaging_units" width="130px"/>
+                                    <field name="x_excise_packaging_amount" invisible="not x_excise_packaging_amount" width="130px"/>
+                                    <button name="%(action_excise_report_line_stock_moves)d" type="action" string="Moves"/>
+                                </list>
+                            </field>
+                        </page>
+                    </notebook>
+                </sheet>
+                <chatter/>
+            </form>
+        </field>
+    </record>
+    <record id="search_view_x_excise_report" model="ir.ui.view">
+        <field name="name">Excise Report Search View</field>
+        <field name="model">x_excise_report</field>
+        <field name="active" eval="True"/>
+        <field name="arch" type="xml">
+            <search>
+                <field name="x_name"/>
+                <field name="x_external_id"/>
+                <filter domain="[('activity_state', '=', 'planned')]" name="to_do_filter" string="To do"/>
+                <filter domain="[('x_state', '=', 'done')]" name="done_state_filter" string="Done"/>
+                <filter name="group_by_state" string="State" context="{'group_by': 'x_state'}"/>
+            </search>
+        </field>
+    </record>
+    <record id="res_config_settings_view_form_reporter" model="ir.ui.view">
+        <field name="name">res.config.settings.view_form.reporter</field>
+        <field name="model">res.config.settings</field>
+        <field name="active" eval="True"/>
+        <field name="inherit_id" ref="stock.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//app[@name='stock']" position="inside">
+                <block title="Excises" name="excises_reporter_setting">
+                    <setting>
+                        <div title="Designated contact receiving weekly report activity">
+                            <label for="x_reporter_id"/>
+                            <field name="x_reporter_id" class="text-center" company_dependent="1" domain="[('share', '=', False)]"/>
+                        </div>
+                        <div class="text-muted">
+                            Designated contact receiving weekly report activity
+                        </div>
+                    </setting>
+                </block>
+            </xpath>
+        </field>
+    </record>
+    <record id="list_view_x_excise_license" model="ir.ui.view">
+        <field name="name">Excise Licenses</field>
+        <field name="model">x_excise_license</field>
+        <field name="active" eval="True"/>
+        <field name="type">list</field>
+        <field name="arch" type="xml">
+            <list name="excise_license" editable="bottom">
+                <field name="x_name"/>
+                <field name="x_warehouse_ids" widget="many2many_tags" domain="[('x_is_fiscal_deposit','=',True)]"/>
+            </list>
         </field>
     </record>
 </odoo>

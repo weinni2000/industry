@@ -2,14 +2,15 @@
 # This file contains the translation of the following modules:
 # * diy_workshops
 #
-# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+# Martin Šiša <martin.sisa@origamis.cz>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 11:32+0000\n"
-"PO-Revision-Date: 2025-11-12 13:40+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-04-10 19:02+0000\n"
+"PO-Revision-Date: 2026-07-02 14:09+0000\n"
+"Last-Translator: Martin Šiša <martin.sisa@origamis.cz>\n"
 "Language-Team: Czech <https://translate.odoo.com/projects/odoo-19/"
 "diy_workshops/cs/>\n"
 "Language: cs\n"
@@ -17,12 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 5.12.2\n"
-
-#. module: diy_workshops
-#: model_terms:ir.ui.view,arch_db:diy_workshops.ir_ui_view_3984
-msgid "+1 555-555-5556"
-msgstr "+1 555-555-5556"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: diy_workshops
 #: model_terms:event.event,description:diy_workshops.event_event_3
@@ -37,8 +33,9 @@ msgstr ""
 
 #. module: diy_workshops
 #: model:product.template,name:diy_workshops.product_product_17_product_template
+#, fuzzy
 msgid "5% on your order"
-msgstr ""
+msgstr "5% na vaší objednávku"
 
 #. module: diy_workshops
 #: model:loyalty.program,name:diy_workshops.loyalty_program_2
@@ -140,24 +137,33 @@ msgstr ""
 
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.welcome_article_body
+#, fuzzy
 msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">💡</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Informační banner\">💡</i>"
 
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.welcome_article_body
+#, fuzzy
 msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">🚀</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Informační banner\">🚀</i>"
 
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.welcome_article_body
+#, fuzzy
 msgid ""
 "<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\">⚠️</i>"
 msgstr ""
+"<i data-oe-aria-label=\"Banner Varování\" class=\"o_editor_banner_icon mb-3 "
+"fst-normal\">⚠️</i>"
 
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.ir_ui_view_4344
@@ -222,8 +228,8 @@ msgid ""
 "span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Předmět</span>\n"
-"                                  <span class=\"s_website_form_mark\"> "
-"*</span>"
+"                                  <span class=\"s_website_form_mark\"> *</"
+"span>"
 
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.contactus
@@ -233,8 +239,8 @@ msgid ""
 "span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Váš Email</span>\n"
-"                                  <span class=\"s_website_form_mark\"> "
-"*</span>"
+"                                  <span class=\"s_website_form_mark\"> *</"
+"span>"
 
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.contactus
@@ -244,8 +250,8 @@ msgid ""
 "span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Vaše jméno</span>\n"
-"                                  <span class=\"s_website_form_mark\"> "
-"*</span>"
+"                                  <span class=\"s_website_form_mark\"> *</"
+"span>"
 
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.contactus
@@ -319,7 +325,7 @@ msgstr ""
 #: model_terms:event.event,description:diy_workshops.event_event_2
 #: model_terms:event.event,description:diy_workshops.event_event_3
 msgid "<strong>Included:</strong>"
-msgstr ""
+msgstr "<strong>Obsahuje:</strong>"
 
 #. module: diy_workshops
 #: model_terms:sale.order.template,note:diy_workshops.sale_order_template_1
@@ -1443,9 +1449,8 @@ msgstr ""
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.homepage
 msgid ""
-"﻿<a t-att-"
-"href=\"request.env.ref('diy_workshops.product_product_22').website_url\" "
-"class=\"o_translate_inline btn btn-secondary\">﻿Buy Gift Card﻿</a>﻿"
+"﻿<a href=\"*gift_card_product*\" class=\"o_translate_inline btn btn-"
+"secondary\">﻿Buy Gift Card﻿</a>﻿"
 msgstr ""
 
 #. module: diy_workshops
@@ -1467,3 +1472,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:diy_workshops.homepage
 msgid "﻿Read more﻿"
 msgstr ""
+
+#~ msgid "+1 555-555-5556"
+#~ msgstr "+1 555-555-5556"

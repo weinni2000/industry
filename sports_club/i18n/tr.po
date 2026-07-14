@@ -16,13 +16,15 @@
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # DeepL <noreply-mt-deepl@weblate.org>, 2025.
+# Odoo Turkish Import <dyki+tr@odoo.com>, 2025.
+# "Malaz Siddig Elsayed Abuidris (msea)" <msea@odoo.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-13 08:17+0000\n"
-"PO-Revision-Date: 2025-11-12 14:43+0000\n"
-"Last-Translator: DeepL <noreply-mt-deepl@weblate.org>\n"
+"POT-Creation-Date: 2026-06-12 18:46+0000\n"
+"PO-Revision-Date: 2025-11-29 19:51+0000\n"
+"Last-Translator: \"Malaz Siddig Elsayed Abuidris (msea)\" <msea@odoo.com>\n"
 "Language-Team: Turkish <https://translate.odoo.com/projects/odoo-19/"
 "sports_club/tr/>\n"
 "Language: tr\n"
@@ -30,58 +32,91 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
-#, fuzzy
 msgid "&amp;nbsp;and get to play with our members"
 msgstr "&amp;nbsp;ve üyelerimizle birlikte oynayın"
 
 #. module: sports_club
-#: model_terms:ir.ui.view,arch_db:sports_club.footer_custom
-msgid "+1 (650) 555-0111"
-msgstr "+1 (650) 555-0111"
-
-#. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
-#, fuzzy
-msgid "1. Gears"
-msgstr "1. Dişliler"
-
-#. module: sports_club
-#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
-#, fuzzy
 msgid "1. Gears<br/>"
 msgstr "1. Dişliler<br/>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
-#, fuzzy
-msgid "2. Bar Management"
-msgstr "2. Bar Yönetimi"
-
-#. module: sports_club
-#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
-#, fuzzy
 msgid "2. Bar Management<br/>"
 msgstr "2. Bar Yönetimi<br/>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
-#, fuzzy
 msgid "3. Court Booking"
-msgstr "3. Mahkeme Rezervasyonu"
+msgstr "3. Kort Rezervasyonu"
+
+#. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid ""
+"<b>Appointments App</b>: Enable members to book courts or coaching sessions "
+"online 24/7, reducing front-desk\n"
+"                workload and double-bookings."
+msgstr ""
+
+#. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid ""
+"<b>CRM App</b>: Manage member relationships and track potential leads for "
+"new sign-ups or corporate\n"
+"                sponsorships."
+msgstr ""
+
+#. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid ""
+"<b>Inventory App</b>: Keep track of rental equipment and retail stock, "
+"ensuring you always have the necessary\n"
+"                gear and refreshments on hand."
+msgstr ""
+
+#. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid ""
+"<b>Planning App</b>: Optimize facility usage and staff schedules, ensuring "
+"the right resources are available for\n"
+"                peak times and tournaments."
+msgstr ""
+
+#. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid ""
+"<b>Point of Sale App</b>: Streamline operations in your cafeteria and pro "
+"shop, handling sales of food, drinks,\n"
+"                and sports gear with ease."
+msgstr ""
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
-#, fuzzy
 msgid "<b>Ready to play?</b>"
 msgstr "<b>Oynamaya hazır mısınız?</b>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
-#, fuzzy
+msgid ""
+"<b>Social Marketing App</b>: Promote club events, tournaments, and special "
+"offers across social media to keep\n"
+"                your community engaged."
+msgstr ""
+
+#. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid ""
+"<b>Website &amp; eCommerce App</b>: specific your club's activities online "
+"and sell merchandise or memberships\n"
+"                directly to your community."
+msgstr ""
+
+#. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
 msgid ""
 "<br/>\n"
 "            a) Equipment can be bought on the Club eShop, with a <font "
@@ -94,34 +129,31 @@ msgid ""
 "balls to your order."
 msgstr ""
 "<br/>\n"
-"            a) Ekipman, Kulüp eShop'undan, <font class=\"text-o-color-1\""
-"><strong>ücretli teslimat</strong></font> ile evden veya <strong><font class="
-"\"text-o-color-1\">ücretsiz teslim alma</font></strong> ile Kulüpten veya "
-"doğrudan\n"
-"            Club, özel \"Mağaza\" Satış Noktası aracılığıyla. EShop'tan "
-"raket satın alındığında, temel bir <font class=\"text-o-color-1\"><strong>up-"
-"sell</strong></font> önerilmektedir: Siparişinize bir havlu veya biraz top "
-"ekleyin."
+"            a) Ekipmanlar, Kulübün e-Mağazasından satın alınabilir, <font "
+"class=\"text-o-color-1\"><strong>ücretli teslimat</strong></font> ile eve "
+"gönderim veya Kulüpten <strong><font class=\"text-o-color-1\">ücretsiz "
+"teslim alma</font></strong> seçenekleri mevcuttur\n"
+"            Ayrıca ekipmanlar, Kulübün özel “Mağaza” Satış Noktasından (POS) "
+"doğrudan da satın alınabilir.e-Mağazadan raket alındığında, temel bir <font "
+"class=\"text-o-color-1\"><strong>üst satış</strong></font> önerisi yapılır: "
+"Siparişinize bir havlu veya birkaç top ekleyin."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
-#, fuzzy
 msgid "<font class=\"text-white\">Book a court</font>"
-msgstr "<font class=\"text-white\">Mahkeme rezervasyonu yapın</font>"
+msgstr "<font class=\"text-white\">Kort rezervasyonu yapın</font>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
-#, fuzzy
 msgid ""
 "<font style=\"font-size: 62px;\">Get your new Gear&amp;nbsp;🔥</font>\n"
 "                                    <br/>"
 msgstr ""
-"<font style=\"font-size: 62px;\">Yeni Gear'ınızı alın&amp;nbsp;🔥</font>\n"
+"<font style=\"font-size: 62px;\">Yeni Ekipmanınızı alın&amp;nbsp;🔥</font>\n"
 "                                    <br/>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.about-us
-#, fuzzy
 msgid ""
 "<span class=\"carousel-control-next-icon\"/>\n"
 "                                        <span class=\"visually-hidden "
@@ -139,12 +171,11 @@ msgid ""
 "span>"
 msgstr ""
 "<span class=\"carousel-control-next-icon\"/>\n"
-"                                    <span class=\"visually-hidden\""
-">İleri</span>"
+"                                    <span class=\"visually-hidden\">İleri</"
+"span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.about-us
-#, fuzzy
 msgid ""
 "<span class=\"carousel-control-prev-icon\"/>\n"
 "                                        <span class=\"visually-hidden "
@@ -162,64 +193,55 @@ msgid ""
 "hidden\">Previous</span>"
 msgstr ""
 "<span class=\"carousel-control-prev-icon\"/>\n"
-"                                    <span class=\"visually-hidden\""
-">Önceki</span>"
+"                                    <span class=\"visually-hidden\">Önceki</"
+"span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
-#, fuzzy
 msgid "<span class=\"s_blockquote_author\"><b>Iris Doe</b> • Coach</span>"
 msgstr "<span class=\"s_blockquote_author\"><b>Iris Doe</b> - Koç</span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
-#, fuzzy
 msgid "<span class=\"s_blockquote_author\"><b>Jane Doe</b> • Member</span>"
 msgstr "<span class=\"s_blockquote_author\"><b>Jane Doe</b> - Üye</span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
-#, fuzzy
 msgid ""
 "<span class=\"s_blockquote_author\"><b>John Doe</b> • Member since 2017</"
 "span>"
 msgstr ""
-"<span class=\"s_blockquote_author\"><b>John Doe</b> - 2017'den beri "
-"üye</span>"
+"<span class=\"s_blockquote_author\"><b>John Doe</b> - 2017'den beri üye</"
+"span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
-#, fuzzy
 msgid "<span class=\"s_number display-4\">100</span>"
 msgstr "<span class=\"s_number display-4\">100</span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
-#, fuzzy
 msgid "<span class=\"s_number display-4\">142</span>"
 msgstr "<span class=\"s_number display-4\">142</span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
-#, fuzzy
 msgid "<span class=\"s_number display-4\">1500+</span>"
 msgstr "<span class=\"s_number display-4\">1500+</span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
-#, fuzzy
 msgid "<span class=\"s_number display-4\">97%</span>"
 msgstr "<span class=\"s_number display-4\">97%</span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
-#, fuzzy
 msgid "<u><u>Flows</u></u>"
 msgstr "<u><u>Akışlar</u></u>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
-#, fuzzy
 msgid "<u>Sports Club</u>"
 msgstr "<u>Spor Kulübü</u>"
 
@@ -258,13 +280,11 @@ msgstr "Bir haritaya yerleştirilmesi için bir adres belirtilmelidir"
 
 #. module: sports_club
 #: model:product.template,name:sports_club.product_template_18
-#, fuzzy
 msgid "Aquadrink "
 msgstr "Aquadrink "
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
-#, fuzzy
 msgid ""
 "As a small company, <strong>The Club</strong> still has quite a lot of "
 "activities to manage and does all this with Odoo."
@@ -274,7 +294,6 @@ msgstr ""
 
 #. module: sports_club
 #: model:product.template,name:sports_club.product_template_15
-#, fuzzy
 msgid "Bag of Crisps "
 msgstr "Bir Paket Cips "
 
@@ -290,67 +309,52 @@ msgstr "Bar"
 
 #. module: sports_club
 #: model:planning.role,name:sports_club.planning_role_1
-#, fuzzy
 msgid "Barman/Maid"
 msgstr "Barmen / Hizmetçi"
 
 #. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid "Basics"
+msgstr ""
+
+#. module: sports_club
 #: model:product.template,name:sports_club.product_template_14
-#, fuzzy
 msgid "Beer"
 msgstr "Bira"
 
 #. module: sports_club
 #: model:product.public.category,name:sports_club.product_public_category_3
-#, fuzzy
 msgid "Beginners"
 msgstr "Yeni Başlayanlar"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
-#, fuzzy
 msgid "Below are the detailed flows they use on a daily basis."
 msgstr "Aşağıda günlük olarak kullandıkları ayrıntılı akışlar yer almaktadır."
 
 #. module: sports_club
 #: model:website.menu,name:sports_club.website_menu_12
 #: model_terms:ir.ui.view,arch_db:sports_club.sports_club_custom_cta_btn
-#, fuzzy
 msgid "Book a Court"
-msgstr "Mahkeme Rezervasyonu Yapın"
-
-#. module: sports_club
-#: model:pos.payment.method,name:sports_club.pos_payment_method_1
-msgid "Cash"
-msgstr "Kasa"
-
-#. module: sports_club
-#: model:account.journal,name:sports_club.cash
-#, fuzzy
-msgid "Cash (Sports)"
-msgstr "Nakit (Spor)"
+msgstr "Kort Rezervasyonu Yapın"
 
 #. module: sports_club
 #: model:product.template,name:sports_club.product_template_5
-#, fuzzy
 msgid "Chimera"
 msgstr "Chimera"
 
 #. module: sports_club
 #: model:product.template,name:sports_club.product_template_10
-#, fuzzy
 msgid "Club Bag "
 msgstr "Kulüp Çantası "
 
 #. module: sports_club
 #: model:product.template,name:sports_club.product_product_9_product_template
-#, fuzzy
 msgid "Club Towel"
 msgstr "Kulüp Havlusu"
 
 #. module: sports_club
 #: model:product.template,name:sports_club.product_template_17
-#, fuzzy
 msgid "Coffee"
 msgstr "Kahve"
 
@@ -366,14 +370,8 @@ msgstr "Bize Ulaşın"
 
 #. module: sports_club
 #: model:product.template,name:sports_club.product_template_16
-#, fuzzy
 msgid "Croque-Monsieur"
 msgstr "Croque-Monsieur"
-
-#. module: sports_club
-#: model:pos.payment.method,name:sports_club.pos_payment_method_2
-msgid "Customer Account"
-msgstr "Müşteri Hesabı"
 
 #. module: sports_club
 #: model:pos.category,name:sports_club.pos_category_1
@@ -391,12 +389,6 @@ msgid "F.A.Q."
 msgstr "F.A.Q."
 
 #. module: sports_club
-#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
-#, fuzzy
-msgid "Flows"
-msgstr "Akışlar"
-
-#. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.footer_custom
 msgid "Follow us"
 msgstr "Bizi takip et"
@@ -408,7 +400,6 @@ msgstr "Gıda"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
-#, fuzzy
 msgid ""
 "For all those that are still hesitating, just go ahead and give this sport a "
 "try. It's great fun!"
@@ -435,34 +426,29 @@ msgstr ""
 
 #. module: sports_club
 #: model:website.menu,name:sports_club.website_menu_13
-#, fuzzy
 msgid "Friday Free Play"
 msgstr "Cuma Serbest Oyun"
 
 #. module: sports_club
 #: model:appointment.type,name:sports_club.appointment_type_2
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
-#, fuzzy
 msgid "Friday Night Free Play"
 msgstr "Cuma Gecesi Ücretsiz Oyun"
 
 #. module: sports_club
 #: model:product.template,name:sports_club.product_product_2_product_template
-#, fuzzy
 msgid "Furiosa"
 msgstr "Furiosa"
 
 #. module: sports_club
 #. odoo-javascript
 #: code:addons/sports_club/static/src/js/my_tour.js:0
-#, fuzzy
 msgid "Get on track and explore our recommendations for your Odoo usage here!"
 msgstr ""
 "Yolunuza devam edin ve Odoo kullanımınız için önerilerimizi buradan keşfedin!"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
-#, fuzzy
 msgid ""
 "Give us a call and we'll be happy to offer you a free introduction with our "
 "dedicated coaches."
@@ -477,19 +463,16 @@ msgstr "Ana Sayfa"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
-#, fuzzy
 msgid "Hours of lessons per week"
 msgstr "Haftalık ders saati"
 
 #. module: sports_club
 #: model:product.template,name:sports_club.product_product_4_product_template
-#, fuzzy
 msgid "Hydra"
 msgstr "Hydra"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
-#, fuzzy
 msgid ""
 "I love this club! The courts are great and there's always someone to play "
 "with."
@@ -519,7 +502,6 @@ msgstr ""
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
-#, fuzzy
 msgid "Just register to our"
 msgstr "Sadece kayıt olun"
 
@@ -530,7 +512,6 @@ msgstr "CSTL"
 
 #. module: sports_club
 #: model_terms:appointment.type,message_intro:sports_club.appointment_type_2
-#, fuzzy
 msgid ""
 "Meet new players!<br>Every Friday evening, come alone or with friends and "
 "get to play with new players."
@@ -561,7 +542,6 @@ msgstr ""
 
 #. module: sports_club
 #: model:product.template,name:sports_club.product_template_6
-#, fuzzy
 msgid "Minotaur"
 msgstr "Minotaur"
 
@@ -578,13 +558,11 @@ msgstr "Sonraki"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
-#, fuzzy
 msgid "No worries, just ask for one at the reception desk!"
 msgstr "Endişelenmeyin, resepsiyondan bir tane istemeniz yeterli!"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
-#, fuzzy
 msgid ""
 "Notes: This is because the courts are configured as shareable. As long as a "
 "free spot is left, players can register and share the resource (=the courts) "
@@ -596,21 +574,19 @@ msgstr ""
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
-#, fuzzy
 msgid ""
 "On top of that, employees working behind the counter can also take phone "
 "calls and book some courts. For this, they use the <strong><font "
 "class=\"text-o-color-1\">Appointments &gt; Resource Schedule</font></strong> "
 "menu."
 msgstr ""
-"Bunun da ötesinde, banko arkasında çalışan çalışan telefon görüşmelerine "
-"cevap verebilir ve bazı mahkemeler için rezervasyon yapabilir. Bunun için "
-"<strong><font class=\"text-o-color-1\">Randevular &gt; Kaynak "
-"Programı</font></strong> menüsünü kullanırlar."
+"Bunun da ötesinde, banko arkasında çalışan gorevli telefon görüşmelerine "
+"cevap verebilir ve bazı kortlar için rezervasyon yapabilir. Bunun için "
+"<strong><font class=\"text-o-color-1\">Randevular &gt; Kaynak Programı</"
+"font></strong> menüsünü kullanırlar."
 
 #. module: sports_club
 #: model:product.template,name:sports_club.product_product_7_product_template
-#, fuzzy
 msgid "Pack of 3 balls"
 msgstr "3 topluk paket"
 
@@ -621,7 +597,6 @@ msgstr "Oynat"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
-#, fuzzy
 msgid ""
 "Positive energy, great team spirit, hard workers and awesome people! Gotta "
 "love those players! :-)"
@@ -642,13 +617,11 @@ msgstr "Raket"
 
 #. module: sports_club
 #: model:product.template,name:sports_club.product_template_20
-#, fuzzy
 msgid "Racket Rental"
 msgstr "Raket Kiralama"
 
 #. module: sports_club
 #: model:product.public.category,name:sports_club.product_public_category_2
-#, fuzzy
 msgid "Rackets"
 msgstr "Raketleri"
 
@@ -669,36 +642,26 @@ msgstr "Spor Kulübü Yöneticileri"
 
 #. module: sports_club
 #: model:appointment.type,name:sports_club.appointment_type_1
-#, fuzzy
 msgid "Sport Court Booking"
 msgstr "Spor Sahası Rezervasyonu"
 
 #. module: sports_club
-#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
-msgid "Sports Club"
-msgstr "Spor Kulübü"
-
-#. module: sports_club
 #: model:website.menu,name:sports_club.website_menu_11
-#, fuzzy
 msgid "The Club"
 msgstr "Kulüp"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
-#, fuzzy
 msgid "The Club Sells sport gears through 2 channels:"
 msgstr "Kulüp 2 kanal üzerinden spor malzemeleri satmaktadır:"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
-#, fuzzy
 msgid "Then it is very easy, just"
 msgstr "O zaman çok kolay, sadece"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
-#, fuzzy
 msgid ""
 "There are two appointment types configured for the Club.<br/>\n"
 "            <br/>\n"
@@ -715,7 +678,6 @@ msgstr ""
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
-#, fuzzy
 msgid ""
 "This setup is for sports clubs that rent courts to their players, handle "
 "some basic gears and have a cafeteria."
@@ -725,7 +687,6 @@ msgstr ""
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
-#, fuzzy
 msgid "Time to show who's best! Book a court and get working."
 msgstr ""
 "Kimin en iyi olduğunu gösterme zamanı! Bir kort ayırtın ve çalışmaya "
@@ -738,7 +699,6 @@ msgstr "Tony Fred, CEO"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
-#, fuzzy
 msgid "Trophies Won"
 msgstr "Kazanılan Kupalar"
 
@@ -749,15 +709,13 @@ msgstr "Faydalı bağlantılar"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.footer_custom
-#, fuzzy
 msgid "We are a team of passionate people who loves to Play.<br/>"
 msgstr "Biz oynamayı seven tutkulu insanlardan oluşan bir ekibiz.<br/>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.footer_custom
-#, fuzzy
 msgid "We provide courts, greats and courses if needed."
-msgstr "Gerekirse kortlar, büyükler ve kurslar sağlıyoruz."
+msgstr "Gerekirse kortlar,antrenörler ve kurslar sağlıyoruz."
 
 #. module: sports_club
 #: model_terms:web_tour.tour,rainbow_man_message:sports_club.knowledge_tour
@@ -775,7 +733,6 @@ msgstr ""
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
-#, fuzzy
 msgid ""
 "a) The Club has a bar where players can grab something to eat between games "
 "or have a beer.<br/>\n"
@@ -798,42 +755,38 @@ msgstr ""
 "bazı temel ürünleri içerir.</span></font>\n"
 "           </strong>\n"
 "            <br/>\n"
-"            Müşteriler, notu hesaplarına eklemek de dahil olmak üzere farklı "
-"yollarla ödeme yapabilirler."
+"            Müşteriler ödemelerini farklı yöntemlerle yapabilir; hesaplarına "
+"not ekleyerek ödeme yapmak da buna dahildir."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
-#, fuzzy
 msgid "and get started!&amp;nbsp;"
 msgstr "ve başlayın!&amp;nbsp;"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
-#, fuzzy
 msgid ""
 "b) For players that need something on the spot, the <font class=\"text-o-"
 "color-1\"><strong>SHOP </strong></font><font class=\"text-black\">POS</font> "
 "<font class=\"text-black\">can </font>also be used."
 msgstr ""
-"b) Hemen bir şeye ihtiyacı olan oyuncular için <font class=\"text-o-color-1\""
-"><strong>SHOP </strong></font><font class=\"text-black\"> Satış Noktası</"
-"font> <font class=\"text-black\">da </font>kullanılabilir."
+"b) Hemen bir şeye ihtiyacı olan oyuncular için <font class=\"text-o-"
+"color-1\"><strong>MAGAZA </strong></font><font class=\"text-black\"> Satış "
+"Noktası(POS)</font> <font class=\"text-black\">da </font>kullanılabilir."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
-#, fuzzy
 msgid ""
 "b) Planning for the Bar is also handled from Odoo. Simple <strong><font "
 "class=\"text-o-color-1\">recurring shifts</font></strong> are created and "
 "assigned to the staff members."
 msgstr ""
-"b) Bar için planlama da Odoo'dan yapılır. Basit <strong><font class="
-"\"text-o-color-1\">yinelenen vardiyalar</font></strong> oluşturulur ve "
-"personele atanır."
+"b) Bar için planlama da Odoo'dan yapılır. Basit <strong><font class=\"text-o-"
+"color-1\">yinelenen vardiyalar</font></strong> oluşturulur ve personele "
+"atanır."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
-#, fuzzy
 msgid ""
 "b) The other one, \"<strong><font class=\"text-o-color-1\">Friday night free "
 "play\"</font></strong> is only available on Fridays and allows player to "
@@ -845,9 +798,8 @@ msgstr ""
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
-#, fuzzy
 msgid "book a court"
-msgstr "mahkeme rezervasyonu"
+msgstr "kort rezervasyonu"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
@@ -861,24 +813,44 @@ msgstr "info@yourcompany.example.com"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
-#, fuzzy
 msgid "🤔 I don't have anyone to play with..."
 msgstr "🤔 Oynayacak kimsem yok..."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
-#, fuzzy
 msgid "🤔 I don't know how to play..."
 msgstr "🤔 Nasıl oynanacağını bilmiyorum..."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
-#, fuzzy
 msgid "🤔 Where can I play...<br/>"
 msgstr "🤔 Nerede oynayabilirim...<br/>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
-#, fuzzy
 msgid "🤔I don't have a racket<br/>"
 msgstr "🤔Benim raketim yok<br/>"
+
+#~ msgid "Cash"
+#~ msgstr "Kasa"
+
+#~ msgid "Cash (Sports)"
+#~ msgstr "Nakit (Spor)"
+
+#~ msgid "Customer Account"
+#~ msgstr "Müşteri Hesabı"
+
+#~ msgid "+1 (650) 555-0111"
+#~ msgstr "+1 (650) 555-0111"
+
+#~ msgid "1. Gears"
+#~ msgstr "1. Dişliler"
+
+#~ msgid "2. Bar Management"
+#~ msgstr "2. Bar Yönetimi"
+
+#~ msgid "Flows"
+#~ msgstr "Akışlar"
+
+#~ msgid "Sports Club"
+#~ msgstr "Spor Kulübü"

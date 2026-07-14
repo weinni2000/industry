@@ -41,7 +41,7 @@
         'data/knowledge_tour.xml',
     ],
     'demo': [
-        'demo/res_users.xml',
+        'demo/res_company.xml',
         'demo/res_partner.xml',
         'demo/account_analytic_plan.xml',
         'demo/account_analytic_account.xml',
@@ -67,6 +67,7 @@
         "static/src/js/my_tour.js",
         "demo/website_view.xml",
     ],
+    'application': True,
     'images': ['images/main.png'],
     'url': "https://www.odoo.com/trial?industry&selected_app=billboard_rental",
     'website': "https://www.odoo.com/industries/billboard-rental",

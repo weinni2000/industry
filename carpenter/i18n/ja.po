@@ -2,14 +2,14 @@
 # This file contains the translation of the following modules:
 # * carpenter
 #
-# "Junko Augias (juau)" <juau@odoo.com>, 2025.
+# "Junko Augias (juau)" <juau@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-12 05:59+0000\n"
-"PO-Revision-Date: 2025-11-20 09:41+0000\n"
+"PO-Revision-Date: 2026-01-30 14:17+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-19/"
 "carpenter/ja/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -78,10 +78,10 @@ msgid ""
 "listing all the finished products that need to be taken from your stock and "
 "delivered to the customer."
 msgstr ""
-"<b>配送オーダを作成</b>: <b>プロジェクトアプリ</b>に行き、新しい<b>"
-"\"From WH\" (倉庫) オペレーション</b>を作成します。 "
-"これは配送オーダとして機能し、在庫から引き出して顧客に届ける必要がある完成品"
-"をすべて一覧表示します。"
+"<b>出荷オーダを作成</b>: <b>プロジェクトアプリ</b>に行き、新しい<b>「移動元倉"
+"庫」 (倉庫) オペレーション</b>を作成します。 オペレーション を作成します。こ"
+"の操作は出荷オーダとして機能し、在庫から顧客に届ける必要のある完成品を一覧表"
+"示します。"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -492,12 +492,12 @@ msgstr "このモジュールのデモデータをアップロードすること
 #. module: carpenter
 #: model:project.project,name:carpenter.project_project_1
 msgid "Carpenter Project"
-msgstr ""
+msgstr "大工業プロジェクト"
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_3_product_template
 msgid "Carpentry project"
-msgstr ""
+msgstr "大工業プロジェクト"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -506,17 +506,20 @@ msgid ""
 "Project app. Each new project comes with several default tasks to get you "
 "started."
 msgstr ""
+"見積もりを確定すると、プロジェクトアプリに専用のプロジェクトが自動的に作成さ"
+"れます。新しいプロジェクトには、いくつかのデフォルトタスクが用意されています"
+"。"
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_13_product_template
 msgid "Counter batten 18/28 "
-msgstr ""
+msgstr "カウンターバテン 18/28 "
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid ""
 "Create a <strong>bill of materials (BOM) </strong>for each finished product."
-msgstr ""
+msgstr "<strong>部品表(BOM) </strong>を完成品ごとに作成します。"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -529,6 +532,8 @@ msgid ""
 "Don't worry, even if your customer changes their plan, all "
 "<strong>historical sales orders </strong>are saved in the chatter.<b/><br/>"
 msgstr ""
+"顧客がプランを変更しても、<strong>過去の販売オーダ</strong>はすべてチャッター"
+"に保存されますのでご安心ください。<b/><br/>"
 
 #. module: carpenter
 #: model:project.task.type,name:carpenter.project_task_type_3
@@ -538,7 +543,7 @@ msgstr "完了"
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_14_product_template
 msgid "Double roll tile"
-msgstr ""
+msgstr "ダブルロールタイル"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -549,6 +554,11 @@ msgid ""
 "CRM's built-in tools allow you to customize prices for each client, turning "
 "generic products into personalized solutions."
 msgstr ""
+"販売プロセスを効果的に管理するためには、まず良いシステムが必要です。<b>CRM(顧"
+"客関係管理)アプリ</b>を使用することで、連絡先の追跡、コミュニケーションの管理"
+"、プロフェッショナルな見積書の作成を簡単に行えます。CRMに組み込まれたツールを"
+"活用すれば、顧客ごとに価格をカスタマイズでき、汎用的なプロダクトを個別対応の"
+"ソリューションへと変えることができます。"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -558,30 +568,30 @@ msgstr "以下のアプリをインストールして、コアアプリを充実
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_24_product_template
 msgid "Fasteners"
-msgstr ""
+msgstr "ファスナー"
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_19_product_template
 msgid "Finish Product"
-msgstr ""
+msgstr "完成品"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid ""
 "Follow these steps to generate a new sales order directly from your CRM app:"
-msgstr ""
+msgstr "以下の手順に従って、CRMアプリから直接新しい販売オーダを作成してください："
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid ""
 "For direct-to-client delivery, choose <b>dropship delivery</b> and select "
 "the customer's address."
-msgstr ""
+msgstr "直接顧客へ配送する場合は、<b>直送</b> を選択し、顧客の住所を選択します。"
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_22_product_template
 msgid "Hinges"
-msgstr ""
+msgstr "蝶番"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -590,6 +600,9 @@ msgid ""
 "do not also link those hours to the project in your system. This will "
 "prevent the costs from being counted twice on your profitability dashboard."
 msgstr ""
+"外部リソースの工数(タイムシート時間)を手動で請求する場合は、その工数をシステ"
+"ム内のプロジェクトにも紐づけないでください。そうしないことで、収益性ダッシュ"
+"ボードで原価が二重計上されるのを防げます。"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -597,19 +610,21 @@ msgid ""
 "If you don't need to track inventory but still want to monitor costs, "
 "purchases, and production, you can simply <b>disable the tracking option</b> "
 "in the product settings."
-msgstr ""
+msgstr "在庫を追跡する必要はないが、コスト、購入、製造を監視したい場合は、プロダクト"
+"設定で<b>追跡オプションを無効にする</b>だけです。"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid ""
 "If your projects are diverse, you can create different project templates to "
 "suit your needs."
-msgstr ""
+msgstr "プロジェクトが多岐に渡る場合は、ニーズに合わせて様々なプロジェクトテンプレー"
+"トを作成することができます。"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "In the Project app, you can:"
-msgstr ""
+msgstr "プロジェクアプリでは以下のことが可能です："
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -619,11 +634,15 @@ msgid ""
 "the contact form, it could automatically create an opportunity in the "
 "<strong>CRM</strong> app."
 msgstr ""
+"美しい<strong>ウェブサイト</strong> "
+"を作成することで、認知度を高め、より多くのリードを獲得しましょう！見込み客が"
+"問い合わせフォームからリクエストを送ると、<strong>CRM</strong> "
+"アプリで自動的に案件が作成されます。"
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_23_product_template
 msgid "Latch"
-msgstr ""
+msgstr "ラッチ"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -643,7 +662,7 @@ msgstr "材料が販売されました。"
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_7_product_template
 msgid "Metal brackets"
-msgstr ""
+msgstr "金属製ブラケット"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -651,6 +670,8 @@ msgid ""
 "Odoo is entirely integrated into an App. Download it to <b>manage your "
 "entire business from your phone</b>.<s><br/></s>"
 msgstr ""
+"Odooはアプリと完全に連携しています。アプリをダウンロードして、<b>スマートフォ"
+"ンからビジネス全体を管理</b>しましょう。<s><br/></s>"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -666,7 +687,7 @@ msgstr "これはパッケージに含まれる機能の概要にすぎません
 msgid ""
 "Once confirmed, a receipt will be automatically generated, ready for you to "
 "confirm upon delivery."
-msgstr ""
+msgstr "確定すると、領収書が自動的に生成され、配送時に確認できる状態になります。"
 
 #. module: carpenter
 #: model:project.task.type,name:carpenter.project_task_type_2
@@ -676,17 +697,17 @@ msgstr "処理中"
 #. module: carpenter
 #: model:product.template,description_sale:carpenter.product_product_5_product_template
 msgid "Price per unit per day"
-msgstr ""
+msgstr "1日あたりの単価"
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_16_product_template
 msgid "Rafter 50x63"
-msgstr ""
+msgstr "垂木 50×63"
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_10_product_template
 msgid "Rainscreen"
-msgstr ""
+msgstr "雨除けスクリーン"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -696,22 +717,22 @@ msgstr "送信済Eメールを以下にリダイレクト:"
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_4_product_template
 msgid "Removal of the existing equipment"
-msgstr ""
+msgstr "既存設備の撤去"
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_18_product_template
 msgid "Rough Sawn 40x110 (2m )"
-msgstr ""
+msgstr "粗挽き 40x110 (2m)"
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_8_product_template
 msgid "Sandpaper"
-msgstr ""
+msgstr "サンドペーパー"
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_5_product_template
 msgid "Scaffolding rental"
-msgstr ""
+msgstr "足場レンタル"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -721,21 +742,23 @@ msgstr "製品デモを予約する"
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "Select the <b>vendor</b> and <b>expected delivery date</b>."
-msgstr ""
+msgstr "<b>取引先</b>と <b> 納期予定日</b>を選択してください。"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid ""
 "Set the inventory <strong>route to \"Manufacture\"</strong> for all "
 "manufactured products."
-msgstr ""
+msgstr "すべての製造済プロダクトについて、在庫<strong>ルートを「製造」に</strong>設定"
+"します。"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid ""
 "Since Odoo is not a design tool, all necessary drawings must be created in a "
 "dedicated drawing program."
-msgstr ""
+msgstr "Odooは設計ツールではないため、必要な図面はすべて専用の製図プログラムで作成す"
+"る必要があります。"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -744,6 +767,8 @@ msgid ""
 "again, all the signed documents will be stored in the <strong>Documents</"
 "strong> app."
 msgstr ""
+"<strong>署名</strong> アプリで署名プロセスを迅速化。署名済ドキュメントはすべ"
+"て<strong>ドキュメント</strong> アプリに保存されます。"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -754,6 +779,11 @@ msgid ""
 "computer, attach them in the chatter and they will be automatically "
 "centralized in the <strong>Documents</strong> app."
 msgstr ""
+"建設プロジェクトを開始するには、契約書、建築計画書、取扱説明書、下請契約書な"
+"ど、多くの重要なドキュメントが必要です。これらのドキュメントをメールやストレ"
+"ージサービス、コンピューターでばらばらに管理するのではなく、チャットに添付し"
+"ましょう。そうすれば、自動的に<strong>ドキュメント</strong> アプリに一元管理"
+"されます。"
 
 #. module: carpenter
 #: model:project.project,label_tasks:carpenter.project_project_1
@@ -766,7 +796,8 @@ msgid ""
 "The <b>Manufacturing and Inventory app</b> is designed to help you manage "
 "your in-house production and keep a close eye on the stock levels of your "
 "raw materials."
-msgstr ""
+msgstr "<b>製造・在庫管理アプリ</b> は、自社内での製造管理をサポートします。原材料の"
+"在庫レベルを厳密に監視することができます。"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -775,6 +806,9 @@ msgid ""
 "strong> centralizes your important documents, allowing you to sign them "
 "directly within the app."
 msgstr ""
+"<strong><font class=\"text-o-color-1\">ドキュメントおよび署名アプリ</font></s"
+"trong>は、重要なドキュメントを一元管理し、アプリ内で直接署名できるようにしま"
+"す。"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -782,6 +816,8 @@ msgid ""
 "The <strong><font style=\"color: rgb(113, 75, 103);\">Invoice App</font></"
 "strong> helps you keep track of all your invoices."
 msgstr ""
+"<strong><font style=\"color: rgb(113, 75, 103);\">請求書アプリ</font></"
+"strong> は、すべての請求書の管理をサポートします。"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -789,6 +825,8 @@ msgid ""
 "The <strong><font style=\"color: rgb(113, 75, 103);\">Project App</font></"
 "strong> provides a clear overview of every aspect of your project management"
 msgstr ""
+"<strong><font style=\"color: rgb(113, 75, 103);\">プロジェクトアプリ</font></"
+"strong> は、プロジェクト管理のあらゆる側面を明確に把握できるツールです"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -797,6 +835,9 @@ msgid ""
 "font><font class=\"text-o-color-1\"> </font></strong>ensures accurate "
 "inventory replenishment and tracks subcontracting services."
 msgstr ""
+"<strong><font style=\"color: rgb(113, 75, 103);\">購買アプリ</font><font "
+"class=\"text-o-color-1\"> </font></strong> を活用して、確実な在庫補充を行い、"
+"外注サービスを追跡します。"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -811,7 +852,7 @@ msgstr "会計レポート。"
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "The synchronization with the banks."
-msgstr ""
+msgstr "銀行との同期。"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -822,6 +863,11 @@ msgid ""
 "the \"Purchase\" button, you can create a new purchase order that will be "
 "automatically linked to your project and factored into its profitability."
 msgstr ""
+"プロジェクトの上部バーからは、購買オーダ、製造オーダ、顧客請求書など、主要な"
+"項目へすばやくアクセスできます。プロジェクトアプリから直接、新しいドキュメン"
+"トを作成することも可能です。たとえば、「購買」ボタンをクリックすると、そのプ"
+"ロジェクトに自動的に関連付けられ、新しいオーダを作成し、それが収益性の計算に"
+"も反映されます。"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -834,6 +880,8 @@ msgid ""
 "The<strong> <font style=\"color: rgb(113, 75, 103);\">CRM &amp; Sales app</"
 "font></strong> Manages all product and service charges for your clients."
 msgstr ""
+"<strong> <font style=\"color: rgb(113, 75, 103);\">CRM&amp; 販売アプリ</font>"
+"</strong> は顧客向けのすべてのプロダクトとサービス料金を一元管理します。"
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_21_product_template
@@ -855,17 +903,18 @@ msgstr "未処理"
 msgid ""
 "To avoid double-counting costs and ensure an accurate profitability "
 "dashboard, be careful with how you link expenses to your projects."
-msgstr ""
+msgstr "費用の二重計上を避け、正確な収益性ダッシュボードを確保するため、経費をプロジ"
+"ェクトに紐付ける方法には注意が必要です。"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "To create a finished product, follow these steps:"
-msgstr ""
+msgstr "完成品を作成するには、以下の手順に従ってください："
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "To dive deeper into the quote calculator, feel free to"
-msgstr ""
+msgstr "見積計算ツールについてさらに詳しく知りたい場合は、お気軽に"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -879,19 +928,20 @@ msgstr "このOdooパッケージが提供するプロセスを理解するに�
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_11_product_template
 msgid "Treated timber 6/4"
-msgstr ""
+msgstr "処理済み木材 6/4"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid ""
 "Use a single generic product entry for <strong>custom finished products, "
 "using lots</strong> to distinguish between them."
-msgstr ""
+msgstr "<strong>カスタム仕上げプロダクト</strong>については、1 つの汎用プロダクトを使"
+"い、ロットで区別します。"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "Use the <strong>Accounting</strong> app to easily handle:"
-msgstr ""
+msgstr "<strong>会計アプリ（</strong> ）で簡単に処理できます："
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -900,23 +950,27 @@ msgid ""
 "employees. Define on which project and when they have to work. Easily manage "
 "shift conflicts, workload and replacements in case of leaves."
 msgstr ""
+"<strong>計画</strong> アプリを使用して、従業員の業務を管理しましょう。どのプ"
+"ロジェクトにいつ割り当てるかを定義します。シフトの競合、作業負荷、休暇時の代"
+"替要員を簡単に管理できます。"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid ""
 "Use the Website app to create a contact form that will redirect all the "
 "requests to the <strong>CRM.</strong>"
-msgstr ""
+msgstr "ウェブサイトアプリを使用して、すべてのリクエストを<strong> CRM</strong>にリダ"
+"イレクトするお問い合わせフォームを作成します"
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_15_product_template
 msgid "Ventilation pipe 2m"
-msgstr ""
+msgstr "換気パイプ 2m"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "Want to make your quotes stand out? Try the <b>PDF quote builder.</b>"
-msgstr ""
+msgstr "引用文を目立たせるには<b>PDF引用文作成ツール</b>をお試しください。"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -926,6 +980,10 @@ msgid ""
 "<b>receipt</b> to the project. This gives you a clear overview of your "
 "purchases while ensuring the cost is counted just once."
 msgstr ""
+"新しいプロダクトの部品を購入する際、発注書をプロジェクトに直接リンクせずに作"
+"成することができます。その後、プロジェクトには<b>入荷</b>だけをリンクします。"
+"こうすることで、購入状況を明確に把握しつつ、コストが重複して計上されるのを防"
+"げます。"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -936,21 +994,25 @@ msgid ""
 "site using dropshipping. Additionally, if you need to subcontract any "
 "activities, you can add service products directly to your purchase lines."
 msgstr ""
+"<b>プロジェクトアプリ</b>内では、<b>購買</b>ボタンを使って、プロジェクトに必"
+"要なあらゆる購買を作成できます。製品は、製造作業区へ納品することも、直送を使"
+"って顧客先へ直接送ることも可能です。さらに、外注が必要な場合は、サービスプロ"
+"ダクトをそのまま購買明細に追加できます。"
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_20_product_template
 msgid "Wood Plank"
-msgstr ""
+msgstr "木の板"
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_9_product_template
 msgid "Wood Screw 6/120"
-msgstr ""
+msgstr "木ネジ 6/120"
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_6_product_template
 msgid "Wood glue"
-msgstr ""
+msgstr "木工用接着剤"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -978,27 +1040,27 @@ msgstr ""
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "about its features and capabilities."
-msgstr ""
+msgstr "その機能と性能についてお問い合わせください。"
 
 #. module: carpenter
 #: model:documents.document,name:carpenter.documents_document_1
 msgid "door.jpg"
-msgstr ""
+msgstr "ドア.jpg"
 
 #. module: carpenter
 #: model:documents.document,name:carpenter.documents_document_2
 msgid "garden shed.jpeg"
-msgstr ""
+msgstr "庭の小屋.jpeg"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "info@your-business.com"
-msgstr ""
+msgstr "info@your-business.com"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "to the <strong>CRM</strong>."
-msgstr ""
+msgstr "<strong>CRM へ</strong>。"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -1008,12 +1070,12 @@ msgstr "🎓 会計"
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "🎓 CRM &amp; Sales"
-msgstr ""
+msgstr "🎓 CRM &amp;販売"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "🎓 Document"
-msgstr ""
+msgstr "🎓 ドキュメント"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -1038,12 +1100,12 @@ msgstr "🎓 購買"
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "🎓 Quality"
-msgstr ""
+msgstr "🎓 品質"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "🎓 Shopfloor"
-msgstr ""
+msgstr "🎓 製造現場"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -1053,7 +1115,7 @@ msgstr "🎓 署名"
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "🎓 Variants"
-msgstr ""
+msgstr "🎓 バリアント"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body

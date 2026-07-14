@@ -3,13 +3,14 @@
 # * driving_school
 #
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
+# Saara Hakanen <sahak@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 11:20+0000\n"
-"PO-Revision-Date: 2025-09-17 03:01+0000\n"
-"Last-Translator: \"Tiffany Chang (tic)\" <tic@odoo.com>\n"
+"POT-Creation-Date: 2026-04-10 19:02+0000\n"
+"PO-Revision-Date: 2026-07-11 09:35+0000\n"
+"Last-Translator: Saara Hakanen <sahak@odoo.com>\n"
 "Language-Team: Finnish <https://translate.odoo.com/projects/odoo-19/"
 "driving_school/fi/>\n"
 "Language: fi\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.homepage
@@ -35,29 +36,9 @@ msgid "\"The instructor was patient and made learning fun!\""
 msgstr "\"Opettaja oli kärsivällinen ja teki oppimisesta hauskaa!\""
 
 #. module: driving_school
-#: model_terms:ir.ui.view,arch_db:driving_school.homepage
-msgid "$184.00"
-msgstr "$184.00"
-
-#. module: driving_school
-#: model_terms:ir.ui.view,arch_db:driving_school.homepage
-msgid "$349.00"
-msgstr "$349.00"
-
-#. module: driving_school
-#: model_terms:ir.ui.view,arch_db:driving_school.homepage
-msgid "$80.00"
-msgstr "$80.00"
-
-#. module: driving_school
-#: model_terms:ir.ui.view,arch_db:driving_school.homepage
-msgid "$859.00"
-msgstr "$859.00"
-
-#. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
 msgid ", and feel free to"
-msgstr "ja voit rohkeasti"
+msgstr "sivuilta, sekä"
 
 #. module: driving_school
 #: model_terms:product.template,description_ecommerce:driving_school.product_template_14
@@ -128,12 +109,12 @@ msgstr "100% B-teoriatunnista"
 #. module: driving_school
 #: model:loyalty.reward,description:driving_school.loyalty_reward_12
 msgid "100% on C Practical Exam"
-msgstr "100% alennus C-ajokokeesta"
+msgstr "100% C-ajokokeesta"
 
 #. module: driving_school
 #: model:loyalty.reward,description:driving_school.loyalty_reward_13
 msgid "100% on C Practical Lesson"
-msgstr "100% alennus C-ajotunnista"
+msgstr "100% C-ajotunnista"
 
 #. module: driving_school
 #: model:loyalty.reward,description:driving_school.loyalty_reward_10
@@ -169,7 +150,7 @@ msgstr "20% alennus teoriatunneista"
 #. module: driving_school
 #: model:loyalty.program,name:driving_school.loyalty_program_16
 msgid "20% on Theory Lessons above 5"
-msgstr "20% alennus yli 5:stä teoriatunnista"
+msgstr "20% yli 5 teoriatunnista"
 
 #. module: driving_school
 #: model:loyalty.reward,description:driving_school.loyalty_reward_16
@@ -294,7 +275,7 @@ msgid ""
 "><span>info@yourcompany.example.com</span>"
 msgstr ""
 "<i class=\"fa fa-1x fa-fw fa-envelope me-2\"/"
-"><span>info@yourcompany.example.com</span>"
+"><span>info@yrityksesi.esimerkki.fi</span>"
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.contactus
@@ -533,6 +514,75 @@ msgstr ""
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
+msgid ""
+"<strong><b>Appointments App</b>:</strong> Allow students to book lessons "
+"online 24/7, syncing automatically with\n"
+"            instructor availability to prevent double-booking.<br/>"
+msgstr ""
+"<strong><b>Ajanvaraukset-sovellus</b>:</strong> Antaa opiskelijoiden varata "
+"oppitunteja verkossa ympäri vuorokauden, synkronoiden automaattisesti\n"
+"            opettajan saatavuuden kanssa tuplabuukkauksien estämiseksi.<br/>"
+
+#. module: driving_school
+#: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
+msgid ""
+"<strong><b>Fleet App</b>:</strong> Track and maintain your vehicles, "
+"monitoring fuel logs, service contracts,\n"
+"            and odometer readings to keep your cars road-ready.<br/>"
+msgstr ""
+"<strong><b>Kuljetuskalusto-sovellus</b>:</strong> Seuraa ja ylläpidä "
+"ajoneuvojasi sekä tarkkaile polttoainelokeja, huoltosopimuksia\n"
+"            ja mittarilukemia, jotta autosi ovat aina ajokunnossa.<br/>"
+
+#. module: driving_school
+#: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
+msgid ""
+"<strong><b>Planning App</b>:</strong> Manage instructors' schedules "
+"efficiently, assigning shifts and ensuring\n"
+"            the right teacher is available for the right class.<br/>"
+msgstr ""
+"<strong><b>Suunnittelu-sovellus</b>:</strong> Hallitse opettajien "
+"aikatauluja tehokkaasti jakamalla vuorot ja varmistamalla, että\n"
+"            oikea opettaja on käytettävissä oikealle luokalle.<br/>"
+
+#. module: driving_school
+#: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
+msgid ""
+"<strong><b>Sales App</b>:</strong> Sell lessons, exams, and course packages "
+"directly to students, managing\n"
+"            invoices and payments in one place.<br/>"
+msgstr ""
+"<strong><b>Myynti-sovellus</b>:</strong> Myy oppitunteja, kokeita ja "
+"kurssipaketteja suoraan opiskelijoille sekä hallinnoi\n"
+"            laskuja ja maksuja yhdestä paikasta.<br/>"
+
+#. module: driving_school
+#: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
+msgid ""
+"<strong><b>Sign App</b>:</strong> Handle legal waivers and student "
+"agreements digitally, ensuring all necessary\n"
+"            documentation is signed and stored securely.<br/>"
+msgstr ""
+"<strong><b>Allekirjoita-sovellus</b>:</strong> Käsittele "
+"vastuuvapauslausekkeita ja opiskelijasopimuksia digitaalisesti varmistaen, "
+"että kaikki tarvittavat\n"
+"            asiakirjat allekirjoitetaan ja tallennetaan turvallisesti.<br/>"
+
+#. module: driving_school
+#: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
+msgid ""
+"<strong><b>Website App</b>:</strong> Boost your school's visibility and "
+"manage your site, creating a\n"
+"            professional portal for new students to register and learn about "
+"your services.<br/>"
+msgstr ""
+"<strong><b>Verkkosivu-sovellus</b>:</strong> Paranna koulusi näkyvyyttä ja "
+"hallinnoi sivustoasi luomalla\n"
+"            ammattimaisen portaalin, jossa uudet opiskelijat voivat "
+"rekisteröityä ja tutustua palveluihisi.<br/>"
+
+#. module: driving_school
+#: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
 msgid "<strong>Basics</strong>"
 msgstr "<strong>Perustiedot</strong>"
 
@@ -569,8 +619,13 @@ msgstr "<strong>Esimerkkitapaus</strong>"
 #: model_terms:product.template,description_ecommerce:driving_school.product_template_32
 msgid "<strong>We are proud to reach 95% pass rate with this format!</strong>"
 msgstr ""
-"<strong>Olemme ylpeitä menettelytavallamme saavutetusta 95%:n "
+"<strong>Olemme ylpeitä tällä opetustavalla saavutetusta 95%:n "
 "läpäisyprosentista!</strong>"
+
+#. module: driving_school
+#: model:product.attribute.value,name:driving_school.product_attribute_value_1
+msgid "A"
+msgstr "A"
 
 #. module: driving_school
 #: model:sale.order.template.line,name:driving_school.sale_order_template_line_12
@@ -581,7 +636,7 @@ msgid ""
 "Possibility to practice more with packs or few hours \n"
 "1 exam session"
 msgstr ""
-"12 tunnin paketti pohjana, joka varmistaa 95 %:n läpäisyprosentin\n"
+"12 tunnin paketti pohjana varmistaa 95% läpäisyasteen\n"
 "Ohjaajan läsnäolo kurssin lopussa keskustelua varten\n"
 "Mahdollisuus harjoitella lisäpaketeilla tai muutaman tunnin ajan\n"
 "1 koekerta"
@@ -595,11 +650,11 @@ msgid ""
 "1 exam session\n"
 "Grants access to D driving license as well "
 msgstr ""
-"12 tunnin paketti pohjana, joka varmistaa 95 %:n läpäisyprosentin\n"
-"Ohjaajan läsnäolo kurssin lopussa keskustelua tai palautetta varten\n"
-"Mahdollisuus harjoitella lisäpaketeilla tai muutaman tunnin ajan\n"
+"12 tunnin paketti pohjana varmistaa 95% läpäisytodennäköisyden\n"
+"Ohjaajan läsnäolo luennon lopuksi jatkokysymyksiä varten\n"
+"Mahdollisuus harjoitella lisää pakettien tai muutamien tuntien kautta\n"
 "1 koekerta\n"
-"Myös D-ajokortti sisältyy "
+"Myös D-ajokortti saatavilla "
 
 #. module: driving_school
 #: model:sale.order.template.line,name:driving_school.sale_order_template_line_11
@@ -610,7 +665,7 @@ msgid ""
 "Possibility to practice more with packs or few hours \n"
 "1 exam session"
 msgstr ""
-"12 tunnin paketti pohjana, joka varmistaa 95%:n läpäisyprosentin\n"
+"12 tunnin paketti pohjana varmistaa 95% läpäisyasteen\n"
 "Mahdollisuus harjoitella lisäpaketeilla tai muutaman tunnin ajan\n"
 "1 koekerta"
 
@@ -666,7 +721,7 @@ msgid ""
 "the wheel. Our commitment is to provide a safe and supportive environment "
 "for all learners, making driving an enjoyable and rewarding experience."
 msgstr ""
-"DriveSmartilla uskomme asiantuntevan opetuksen ja käytännön kokemuksen "
+"Me DriveSmartilla uskomme asiantuntevan opetuksen ja käytännön kokemuksen "
 "yhdistämiseen, jotta jokainen oppilas pääsee kasvattamaan itseluottamusta ja "
 "taitoja ratin takana. Pyrkimyksemme on tarjota turvallinen ja tukeva "
 "ympäristö kaikille oppijoille, mikä tekee ajamisesta nautinnollisen ja "
@@ -680,6 +735,11 @@ msgid ""
 msgstr ""
 "Napsauta Palkinto-painiketta tarjouksen alareunassa ja valitse soveltuva "
 "palkinto, jolloin tarjouksen kokonaissummaksi tulee nolla."
+
+#. module: driving_school
+#: model:product.attribute.value,name:driving_school.product_attribute_value_2
+msgid "B"
+msgstr "B"
 
 #. module: driving_school
 #: model:product.template,name:driving_school.product_template_23
@@ -734,6 +794,11 @@ msgid ""
 msgstr ""
 "Koska latasit tämän moduulin demotiedot, tietokantaasi on täydennetty "
 "joillakin tuotteilla, myyntitilauksilla ja muilla."
+
+#. module: driving_school
+#: model:product.attribute.value,name:driving_school.product_attribute_value_3
+msgid "C"
+msgstr "C"
 
 #. module: driving_school
 #: model:product.template,name:driving_school.product_template_24
@@ -847,6 +912,11 @@ msgstr ""
 ">taitoa ja liikenneturvallisuutta."
 
 #. module: driving_school
+#: model:product.attribute.value,name:driving_school.product_attribute_value_4
+msgid "D"
+msgstr "D"
+
+#. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.homepage
 msgid "Defensive Driving Course"
 msgstr "Tapaturmien välttämisen ajokurssi"
@@ -854,7 +924,7 @@ msgstr "Tapaturmien välttämisen ajokurssi"
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
 msgid "Discover more about Odoo by diving into our"
-msgstr "Lue lisää Odoosta syventymällä meidän"
+msgstr "Lue lisää Odoosta"
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
@@ -918,9 +988,10 @@ msgid ""
 "              You can as well access the list of services from the Fleet "
 "menu."
 msgstr ""
-"Seuraa huoltojen suunnittelua ja korjauksia ajoneuvosta käsin.<br/>\n"
-"                       Voit myös tarkastella listaa palveluista Ajokalusto-"
-"valikosta."
+"Seuraa palveluiden ja huoltojen suunnittelua sekä korjauksia ajoneuvosta "
+"käsin.<br/>\n"
+"                       Pääset käsiksi palveluluetteloon myös "
+"Kuljetuskaluston valikosta."
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.homepage
@@ -952,11 +1023,6 @@ msgstr ""
 "kaikkea jäljellä olevia tunteja ja kokeita!"
 
 #. module: driving_school
-#: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
-msgid "Generate visibility through the <strong>Website App</strong>"
-msgstr "Luo näkyvyyttä <strong>Verkkosivu-sovelluksessa</strong>"
-
-#. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.homepage
 msgid "Get your driving lessons scheduled quickly."
 msgstr "Varaa ajotunnit nopeasti."
@@ -977,8 +1043,9 @@ msgid ""
 "If you want to execute a practical guided tour of this module, you should "
 "Import demo data and try the Demo - Use Case (In the next Knowledge Article)"
 msgstr ""
-"Jos haluat tutustua moduuliin käytännössä, sinun kannattaa tuoda demotietoja "
-"ja kokeilla Demo esimerkkitapausta (Seuraavassa Tietokirjaston artikkelissa)"
+"Jos haluat suorittaa tämän moduulin käytännönläheisen opastetun kierroksen, "
+"sinun kannattaa tuoda demotiedot ja kokeilla demon esimerkkitapausta "
+"(seuraavassa Tietokirjaston artikkelissa)"
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
@@ -1036,15 +1103,6 @@ msgid "Lessons and exams"
 msgstr "Tunnit ja kokeet"
 
 #. module: driving_school
-#: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
-msgid ""
-"Let your customers book lessons online thanks to the<strong> Appointment "
-"App</strong>"
-msgstr ""
-"Anna asiakkaidesi varata oppitunteja verkossa <strong>Ajanvaraus-"
-"sovelluksen</strong> avulla"
-
-#. module: driving_school
 #: model:product.attribute,name:driving_school.product_attribute_10
 msgid "License"
 msgstr "Lupa"
@@ -1053,11 +1111,6 @@ msgstr "Lupa"
 #: model_terms:ir.ui.view,arch_db:driving_school.homepage
 msgid "Luxury Driving Experience"
 msgstr "Ylellinen ajokokemus"
-
-#. module: driving_school
-#: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
-msgid "Manage waiver with the <strong>Sign App</strong>"
-msgstr "Hallinnoi poikkeuslupaa <strong>Allekirjoita-sovelluksella</strong>"
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
@@ -1071,17 +1124,6 @@ msgstr ""
 "ympäristössä <font class=\"text-o-color-5\">n </font><strong><font "
 "class=\"text-o-color-5\">Kirjanpito-sovelluksessa</font></strong><font "
 "class=\"text-o-color-5\">.</font>"
-
-#. module: driving_school
-#: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
-msgid "Manage your employees' shifts with the <strong>Planning App</strong>"
-msgstr ""
-"Hallinnoi työntekijöidesi vuoroja <strong>Suunnittelu-sovelluksella</strong>"
-
-#. module: driving_school
-#: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
-msgid "Manage your vehicles with the <strong>Fleet App</strong>"
-msgstr "Hallinnoi ajoneuvojasi <strong>Ajokalusto-sovelluksessa</strong>"
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.contactus
@@ -1109,14 +1151,13 @@ msgid ""
 "              On the other hand, practical lessons rely on instructors "
 "assuming each instructor has a vehicle available to provide a lesson."
 msgstr ""
-"Otathan huomioon, että Projektiohuone-resurssia käytetään kaikilla "
-"teoriatunneille ja jos avaat resurssin Kokoonpanoasetukset / Resurssit "
-"-valikosta, se on jaettava, eli se voi sisältää useita varauksia "
-"samanaikaisesti. Ajoneuvojen kohdalla näin\n"
+"Otathan huomioon, että kaikki teoriatunnit käyttävät Projektiohuone-"
+"resurssia. Asetukset-/Resurssit-valikosta avatessa se on jaettava, eli se "
+"voi sisältää useita varauksia samanaikaisesti. Ajoneuvojen kohdalla näin\n"
 "                                 ei ole.<br/>\n"
 "                                 Toisaalta ajotunnit perustuvat siihen, että "
-"jokaisella ohjaajalla oletetaan olevan ajoneuvo käytettävissä oppitunnin "
-"antamista varten."
+"jokaisella ajo-opettajalla oletetaan olevan ajoneuvo käytettävissä "
+"oppituntia varten."
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
@@ -1139,9 +1180,9 @@ msgid ""
 "package. Feel free to add new apps, delete/modify demo data, and test "
 "everything around!"
 msgstr ""
-"Tämä on tietenkin vain yleiskatsaus paketin sisältämistä ominaisuuksista. "
-"Voit vapaasti lisätä uusia sovelluksia, poistaa/muuttaa demotietoja ja "
-"testata kaikkea!"
+"Tämä on tietenkin vasta yleiskatsaus kaikista tähän pakettiin kuuluvista "
+"ominaisuuksista. Voit lisätä uusia sovelluksia, poistaa/muokata demotietoja "
+"sekä testata kaikkea mahdollista!"
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
@@ -1192,7 +1233,7 @@ msgstr ""
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
 msgid "Open the Fleet App to see all your vehicles."
-msgstr "Avaa Ajokalusto-sovellus nähdäksesi kaikki ajoneuvosi."
+msgstr "Avaa Kuljetuskalusto-sovellus nähdäksesi kaikki ajoneuvosi."
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
@@ -1200,8 +1241,8 @@ msgid ""
 "Open the door for more custom workflows and actions with the power of "
 "<strong>Studio App</strong>."
 msgstr ""
-"Luo väylä entistä mukautettavammille työnkuluille ja toiminnoille "
-"<strong>Studio-sovelluksella</strong> ."
+"Avaa ovesi entistä räätälöitävämmille työnkuluille ja toiminnoille <strong>"
+"Studio-sovelluksen</strong> avulla."
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
@@ -1425,12 +1466,6 @@ msgstr ""
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
-msgid "Sell lessons, exams and packs from the <strong>Sales App</strong>"
-msgstr ""
-"Myy oppitunteja, kokeita ja paketteja <strong>Myynti-sovelluksella</strong>"
-
-#. module: driving_school
-#: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
 msgid "Sell packs"
 msgstr "Myy paketteja"
 
@@ -1459,7 +1494,7 @@ msgstr "Lähetä"
 msgid ""
 "The <strong>Fleet App</strong> is tailored to help you manage your vehicles."
 msgstr ""
-"<strong>Ajokalusto-sovellus</strong>on räätälöity auttamaan sinua "
+"<strong>Kuljetuskalusto-sovellus</strong> on räätälöity auttamaan sinua "
 "ajoneuvojesi hallinnassa."
 
 #. module: driving_school
@@ -1701,8 +1736,9 @@ msgid ""
 "                  You can configure those from the Sales / Products / "
 "Discounts &amp; Loyalty menu."
 msgstr ""
-"Kun myyt tuotteita, kuten paketteja, ne hyvitetään kanta-asiakaskorteille, "
-"joista pisteitä käytetään oppituntien ja kokeiden aikana.<br/>\n"
+"Kun myyt pakettien kaltaisia tuotteita, ne hyvitetään kanta-"
+"asiakaskorteille, joista pisteitä käytetään oppituntien ja kokeiden "
+"aikana.<br/>\n"
 "                            Voit määrittää ne Myynnit / Tuotteet / "
 "Alennukset &amp; kanta-asiakasohjelmat -valikosta."
 
@@ -1730,8 +1766,8 @@ msgstr ""
 "yhdistyy turvallisuus, taidot ja itsevarmuus ratin takana. Keskitymme "
 "varustamaan oppilaat tiedoilla ja taidoilla, joita he tarvitsevat ollakseen "
 "vastuullisia kuljettajia. Jokainen oppitunti räätälöidään yksilöllisten "
-"tarpeiden mukaan varmistaen samalla hauska ja mukaansatempaava "
-"oppimiskokemus."
+"tarpeiden mukaan varmistaen samalla hauskan ja mukaansatempaavan "
+"oppimiskokemuksen."
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
@@ -1759,8 +1795,7 @@ msgid ""
 "You can access every installed App in your Odoo database on your main "
 "dashboard."
 msgstr ""
-"Voit käyttää kaikkia Odoo-tietokantaasi asennettuja sovelluksia "
-"pääkoontinäytölläsi."
+"Löydät kaikki Odoo-tietokantaasi asennetut sovellukset pääkoontinäytöltäsi."
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
@@ -1788,9 +1823,9 @@ msgid ""
 "needs."
 msgstr ""
 "Voit ottaa yhteyttä tukitiimiimme sähköpostitse osoitteessa "
-"info@drivingschool.example.com, soittamalla numeroon +1 555-555-5556 tai "
-"verkkosivumme livechatin kautta. Omistautunut tiimimme on käytettävissäsi "
-"24/7, auttamassa sinua kaikissa kysymyksissä tai ajanvaraustarpeissa."
+"info@autokoulu.esimerkki.fi, soittamalla numeroon +1 555-555-5556 tai "
+"verkkosivumme livechatin kautta. Omistautunut tiimimme on käytettävissäsi 24/"
+"7, auttamassa sinua kaikissa kysymyksissä tai ajanvaraustarpeissa."
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
@@ -1798,9 +1833,9 @@ msgid ""
 "You can then grant the learner access to your portal to book lessons from "
 "the Contact form, via the gear icon near the contact name."
 msgstr ""
-"Voit sitten myöntää oppijalle pääsyn portaaliisi oppituntien varaamiseksi "
-"Yhteydenottolomakkeella yhteyshenkilön nimen vieressä olevan rataskuvakkeen "
-"kautta."
+"Voit sitten myöntää oppijan pääsyoikeuden portaaliisi oppituntien "
+"varaamiseksi yhteydenottolomakkeella, yhteyshenkilön nimen vieressä olevan "
+"rataskuvakkeen kautta."
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
@@ -1817,8 +1852,8 @@ msgid ""
 "You completed that demo use case! There are millions of other ways to adapt "
 "your Odoo setup to fit your business needs."
 msgstr ""
-"Sait demon esimerkkitapauksen tehtyä! On olemassa monia muitakin tapoja "
-"mukauttaa Odoo-asetukset vastaamaan yrityksesi tarpeita."
+"Suoritit demon esimerkkitapauksen! On olemassa lukuisia muitakin tapoja "
+"räätälöidä Odoo-asetukset yrityksesi tarpeiden mukaiseksi."
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
@@ -1851,8 +1886,8 @@ msgid ""
 "You should be able to execute the following flows to have an overview of "
 "various flows you can quickly execute with this package using Odoo."
 msgstr ""
-"Sinun pitäisi pystyä suorittamaan seuraavat työnkulut, jotta saat yleiskuvan "
-"erilaisista työnkuluista, joita voit nopeasti suorittaa tämän paketin avulla."
+"Sinun pitäisi pystyä suorittamaan seuraavat toiminnot, jotta saat yleiskuvan "
+"erilaisista tämän Odoo-paketin avulla nopeasti suoritettavista työnkuluista."
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
@@ -1891,7 +1926,7 @@ msgstr "jos tarvitset apua!"
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
 msgid "request a demo"
-msgstr "pyytää esittelyä"
+msgstr "pyydä demoa"
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
@@ -1921,7 +1956,7 @@ msgstr "🎓 Yhteystiedot"
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
 msgid "🎓 Fleet"
-msgstr "🎓 Ajokalusto"
+msgstr "🎓 Kuljetuskalusto"
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
@@ -1951,9 +1986,47 @@ msgstr "📜 Myy ja käytä"
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
 msgid "📝 Get signed waivers"
-msgstr "📝 Allekirjoitetut poikkeusluvat käteesi"
+msgstr "📝 Hanki allekirjoitetut vastuuvapautukset"
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
 msgid "🚙 Fleet management"
-msgstr "🚙 Ajokaluston hallinta"
+msgstr "🚙 Kuljetuskaluston hallinta"
+
+#~ msgid "$184.00"
+#~ msgstr "$184.00"
+
+#~ msgid "$349.00"
+#~ msgstr "$349.00"
+
+#~ msgid "$80.00"
+#~ msgstr "$80.00"
+
+#~ msgid "$859.00"
+#~ msgstr "$859.00"
+
+#~ msgid "Generate visibility through the <strong>Website App</strong>"
+#~ msgstr "Luo näkyvyyttä <strong>Verkkosivu-sovelluksessa</strong>"
+
+#~ msgid ""
+#~ "Let your customers book lessons online thanks to the<strong> Appointment "
+#~ "App</strong>"
+#~ msgstr ""
+#~ "Anna asiakkaidesi varata oppitunteja verkossa <strong>Ajanvaraus-"
+#~ "sovelluksen</strong> avulla"
+
+#~ msgid "Manage waiver with the <strong>Sign App</strong>"
+#~ msgstr "Hallinnoi poikkeuslupaa <strong>Allekirjoita-sovelluksella</strong>"
+
+#~ msgid "Manage your employees' shifts with the <strong>Planning App</strong>"
+#~ msgstr ""
+#~ "Hallinnoi työntekijöidesi vuoroja <strong>Suunnittelu-sovelluksella</"
+#~ "strong>"
+
+#~ msgid "Manage your vehicles with the <strong>Fleet App</strong>"
+#~ msgstr "Hallinnoi ajoneuvojasi <strong>Ajokalusto-sovelluksessa</strong>"
+
+#~ msgid "Sell lessons, exams and packs from the <strong>Sales App</strong>"
+#~ msgstr ""
+#~ "Myy oppitunteja, kokeita ja paketteja <strong>Myynti-sovelluksella</"
+#~ "strong>"

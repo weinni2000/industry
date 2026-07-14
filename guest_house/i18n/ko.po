@@ -4,13 +4,14 @@
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# "Kwanghee Park (kwpa)" <kwpa@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.5a1+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-24 12:14+0000\n"
-"PO-Revision-Date: 2025-11-17 11:11+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-07-03 18:10+0000\n"
+"PO-Revision-Date: 2026-05-05 11:08+0000\n"
+"Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@odoo.com>\n"
 "Language-Team: Korean <https://translate.odoo.com/projects/odoo-19/"
 "guest_house/ko/>\n"
 "Language: ko\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.homepage
@@ -54,6 +55,13 @@ msgstr ""
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"<em>Don't forget to check the results from time to time to make your guests "
+"happier!</em>"
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "<em>Don't forget to thank your guests with a warm goodbye!</em>"
 msgstr "<em>게스트에게 따뜻한 작별 인사와 함께 감사 인사를 전하세요!</em>"
 
@@ -63,8 +71,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -88,6 +96,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\" aria-label=\"Banner Success\">✅</i>"
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">✅</i>"
 msgstr ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
@@ -101,6 +116,13 @@ msgid ""
 msgstr ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">🎉</i>"
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Warning\" aria-label=\"Banner Warning\">⚠️</i>"
+msgstr ""
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -160,6 +182,11 @@ msgstr "<strong>베이직</strong>"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "<strong>Company specific offers</strong>"
+msgstr "<strong>회사별 혜택</strong>"
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "<strong>Do you want to go further?</strong>"
 msgstr "<strong> 더 자세히 알아보시겠습니까?</strong>"
 
@@ -181,6 +208,21 @@ msgstr ""
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "<strong>Multiple resource blocking / period closure</strong>"
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "<strong>Shared offers</strong>"
+msgstr "<strong>제안 공유</strong>"
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "<strong>Single resource blocking</strong>"
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "<strong>Use case</strong>"
 msgstr "<strong>사용 사례</strong>"
 
@@ -189,6 +231,11 @@ msgstr "<strong>사용 사례</strong>"
 msgid ""
 "A cozy retreat in the heart of the country side, offering a warm atmosphere "
 "and personalized service for every guest."
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "Access to more details clicking the slot."
 msgstr ""
 
 #. module: guest_house
@@ -215,9 +262,21 @@ msgstr ""
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "Adjusting your offers in consequence"
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid ""
 "Again, the <strong>Guest House App </strong>helps you manage the end of the "
 "stay!"
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"Alternatively to individual resource blocking slots described earlier, you "
+"can select a resource this leave applies to."
 msgstr ""
 
 #. module: guest_house
@@ -249,9 +308,35 @@ msgstr ""
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid ""
+"Alternatively, you can create a slot as placeholder from the planning "
+"directly:"
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "An automation is setup for an email to be sent automatically for you."
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"Any time you create a new survey and save it with the setting \"is customer "
+"satisfaction survey\", previous ones\n"
+"                    will be archived so that it becomes your new default "
+"survey."
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
 "Anyone can create a portal account on your database.<br/>Open your website "
 "home page\n"
 "                in a private tab to do so."
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "Assign them a resource, which helps you keeping track."
 msgstr ""
 
 #. module: guest_house
@@ -283,8 +368,16 @@ msgstr ""
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
-msgid "Blocking a room"
-msgstr "객실 이용 차단"
+msgid ""
+"Beyond daily operations, the Steering menu serves as the \"Captain’s "
+"Bridge\" of your guest house. It provides a 500-day horizon to anticipate "
+"market trends, manage risks, and optimize your revenue."
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "Blocking resources"
+msgstr ""
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -396,14 +489,43 @@ msgid ""
 msgstr ""
 
 #. module: guest_house
-#: model:planning.role,name:guest_house.planning_role_6
-msgid "Comfy Room"
-msgstr "편안한 객실"
-
-#. module: guest_house
 #: model:product.template,name:guest_house.product_template_17
 msgid "Comfy Room (2 guests)"
 msgstr "편안한 객실 (2인실)"
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"Configure the email delay as you wish the email to be sent after the guest "
+"checkout."
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"Create a new leave selecting the appropriate working schedule, the one from "
+"your stay resources."
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"Create a new leave the same way as previously, but this time specify the "
+"resource this applies to."
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"Created offers are assigned no company nor branch (default behavior).<br/>As "
+"a result, they are available from all companies and branches, as well as all "
+"websites from those."
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "Define start and end date time and save your leave."
+msgstr ""
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -444,6 +566,23 @@ msgid ""
 msgstr ""
 
 #. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "Each company can have its own website!"
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "Employee assignations"
+msgstr "직원 배정"
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"Employee would open the tasks from their hand and update the status until "
+"Clean."
+msgstr ""
+
+#. module: guest_house
 #: model_terms:product.template,description_ecommerce:guest_house.product_template_20
 msgid ""
 "Enjoy a beautifully arranged board featuring a curated selection of local "
@@ -473,11 +612,6 @@ msgstr ""
 "저희 게스트하우스에서 따뜻하고 편안한 분위기를 선사해 드립니다. 내 집처럼 편"
 "안하게 지내실 수 있습니다. 전담 직원들이 편안하면서도 추억할 만한 숙박이 되도"
 "록 최선을 다합니다."
-
-#. module: guest_house
-#: model:planning.role,name:guest_house.planning_role_4
-msgid "Fireplace Room"
-msgstr "벽난로 객실"
 
 #. module: guest_house
 #: model:product.template,name:guest_house.product_template_14
@@ -512,20 +646,32 @@ msgstr ""
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid ""
+"From the Roles sections, you can select the companies and branches this "
+"employee shall have access to as well as the default one."
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
 "From the search bar select the Today filter to see to check in and to check "
 "out\n"
 "                orders."
 msgstr ""
 
 #. module: guest_house
-#: model:planning.role,name:guest_house.planning_role_7
-msgid "Garden Room"
-msgstr "가든 객실"
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "From there you can add new companies."
+msgstr ""
 
 #. module: guest_house
 #: model:product.template,name:guest_house.product_template_19
 msgid "Garden Room (2 guests)"
 msgstr "가든 룸 (2인실)"
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.res_config_settings_form_view_inherited
+msgid "Guest House"
+msgstr "게스트 하우스"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -543,6 +689,14 @@ msgstr ""
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid ""
+"If using the house keeping approver setting, designated\n"
+"                    approvers can check each room and set their state to "
+"ready to close the tasks."
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
 "If you want to execute a practical guided tour of this module, you should "
 "Import\n"
 "                    demo data and try the Demo - Use Case (In the next "
@@ -550,6 +704,11 @@ msgid ""
 msgstr ""
 "이 모듈에 대한 실제 가이드 투어를 실행하려면 데모 데이터 가져오기를 통해\n"
 "데모 - 사용 사례대로 진행해 보세요(다음의 지식 센터 기사 참고)."
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "In any case, the resources are company and branch dependent."
+msgstr ""
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -568,9 +727,28 @@ msgid ""
 msgstr ""
 
 #. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"In the Options tab, you can see it is made the customer satisfaction survey "
+"in the participants section."
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"It enables each place manager to adjust the stay offers with greater "
+"flexibility without impacting other places."
+msgstr ""
+
+#. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.homepage
 msgid "Join us for a relaxing getaway!"
 msgstr "편안한 휴가를 함께하세요!"
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "Keep your guests satisfied"
+msgstr ""
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -597,6 +775,21 @@ msgid "Manage your customers from the <strong>Contact App</strong>"
 msgstr "<strong>연락처 앱</strong>으로 고객을 관리하세요"
 
 #. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "Managing scarcity with availability"
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "Managing your businesses"
+msgstr "비즈니스를 관리해 보세요"
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "Monitoring success with occupancy"
+msgstr ""
+
+#. module: guest_house
 #: model_terms:product.template,description_ecommerce:guest_house.product_template_19
 msgid "Nestled in greenery, this room offers serene garden charm."
 msgstr "푸른 녹음 속에 자리한 객실로, 고요한 정원의 매력을 선사합니다."
@@ -612,6 +805,14 @@ msgid ""
 "Now that they relax, you can offer extra services to make your guests fill "
 "even more\n"
 "            comfortable!"
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"Now that you have several companies or branches, you may want some of your "
+"employees to access only to some of them in case they always work in some of "
+"your places."
 msgstr ""
 
 #. module: guest_house
@@ -634,12 +835,32 @@ msgstr ""
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
-msgid "On the room to block line, click, drag and drop to create a slot."
+msgid ""
+"On a daily basis, house keeping tasks are created depending\n"
+"                    the current stays."
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "On a resource to block line, click, drag and drop to create a slot."
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "On top of guest and stay management, you need to keep the place clean!"
 msgstr ""
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "Once confirmed, the payment is done and the order booked seamlessly!"
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"Once defined, you can switch between companies or branches from the company "
+"selector at the top right of your screen.<br/>This will expose depending on "
+"where you are, only the selected companies and branches data."
 msgstr ""
 
 #. module: guest_house
@@ -670,13 +891,50 @@ msgstr ""
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"Open now, the Tasks from the accommodation app, House Keeping menu.<br/>This "
+"is\n"
+"                the daily list of house keeping tasks to be tackled."
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"Open one, assign it to an employee to plan the house keeping of the day."
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"Open the <strong>Settings App</strong> and reach the companies from the menu "
+"Users &amp; Companies."
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"Open the <strong>Settings App</strong> and reach the users from the menu "
+"Users &amp; Companies."
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "Open the <strong>Website App</strong> and navigate to the Rooms."
 msgstr "<strong>웹사이트 앱</strong>을 열고 객실로 이동하세요."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
-msgid "Open the Guest House App Schedule."
-msgstr "게스트하우스 앱 스케줄을 열어보세요."
+msgid ""
+"Open the Board from the accommodation app, House Keeping menu.<br/>Here you "
+"have an\n"
+"                overview of the cleanness state of your resources."
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"Open the Guest House App and navigate to the Configuration / Leaves menu."
+msgstr ""
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -689,6 +947,21 @@ msgid ""
 "Open the Guest House App to appreciate the currently planned bookings with "
 "the\n"
 "                Schedule."
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "Open the Steering menu and select Availability."
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "Open the Steering menu and select Occupancy."
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "Open the Survey App to find the customer satisfaction survey."
 msgstr ""
 
 #. module: guest_house
@@ -779,7 +1052,7 @@ msgstr "게스트 신원 기록"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
-msgid "Recording the guest presence is an obligation in numerous countries."
+msgid "Recording the guest attendance is an obligation in numerous countries."
 msgstr ""
 
 #. module: guest_house
@@ -792,19 +1065,9 @@ msgid ""
 msgstr ""
 
 #. module: guest_house
-#: model:planning.role,name:guest_house.planning_role_5
-msgid "Renaissance Room"
-msgstr "르네상스 룸"
-
-#. module: guest_house
 #: model:product.template,name:guest_house.product_template_16
 msgid "Renaissance Room (2 guests)"
 msgstr "르네상스 룸 (2인실)"
-
-#. module: guest_house
-#: model:planning.role,name:guest_house.planning_role_8
-msgid "Roof Room"
-msgstr "루프 룸"
 
 #. module: guest_house
 #: model:product.template,name:guest_house.product_template_18
@@ -828,6 +1091,11 @@ msgstr "모두 보기<span class=\"fa fa-long-arrow-right ms-2\"/>"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "Select one of your employee."
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "Select or create a customer and then confirm the booking!"
 msgstr "고객을 선택하거나 생성한 후 예약을 확정하세요!"
 
@@ -836,6 +1104,17 @@ msgstr "고객을 선택하거나 생성한 후 예약을 확정하세요!"
 msgid ""
 "Selling local products? Use the <strong>Point of Sales App </strong>for easy "
 "sales."
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "Setup company or branch specific offers when relevant."
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"Share your stay offers across your companies and branches (default behavior);"
 msgstr ""
 
 #. module: guest_house
@@ -853,13 +1132,8 @@ msgstr ""
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
-msgid "Still from their Rental Order, open the Guest tab."
-msgstr "계속하여 렌탈 주문서 화면에서 게스트 탭을 열어주세요."
-
-#. module: guest_house
-#: model:planning.role,name:guest_house.planning_role_9
-msgid "Studious Room"
-msgstr "학습용 룸"
+msgid "Still from their Rental Order, open the Guests tab."
+msgstr ""
 
 #. module: guest_house
 #: model:product.template,name:guest_house.product_template_15
@@ -874,8 +1148,43 @@ msgstr "스타일리쉬한 편안함과 멋진 전망 - 아늑한 휴식처가 �
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid ""
+"The Gantt chart is color-coded to reflect on the availability for you to "
+"work on filling in."
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"The Gantt chart is color-coded to reflect on the occupancy, the higher the "
+"better."
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"The Occupancy view allows you to visualize your \"Sales Success\". It "
+"answers one simple question: <i>How well am I filling my guest house?</i>"
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"The strength of Odoo is to separate the accounting and many other aspects "
+"which are company dependent!"
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
 "These all go free in your current subscription; feel free to explore! 🙃"
 msgstr "현재 구독 중인 요금제에서 모두 무료로 제공되니 자유롭게 살펴보세요! 🙃"
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"They as well share the same pricing, defined at the stay offer level, which "
+"has its pros and cons."
+msgstr ""
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -885,6 +1194,25 @@ msgstr "객실이 여러 개 필요하신가요?"
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "They were happy about their stay, let's ask them to leave a review."
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"This blocks simulataneously all resources related to this working schedule "
+"during the prescribed period."
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "This capability is enabled by a setting you can set/unset."
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"This setup is relevant in case of place specific offers or when pricing "
+"varies between places."
 msgstr ""
 
 #. module: guest_house
@@ -904,8 +1232,21 @@ msgstr ""
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"To ensure your guests no longer receive the satisfaction survey, you can "
+"easily archive it at any time."
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "Trace guest attendance"
 msgstr "게스트 방문 추적"
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"Two options are now available to you with multiple companies and branches:"
+msgstr ""
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -933,8 +1274,32 @@ msgstr "<strong>게스트 하우스 앱</strong>에서 손님을 맞이하세요
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"When creating an offer, assign them a company or a branch.<br/>As a result, "
+"they are available only for the selected company or branch, and will be "
+"available only from its website."
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"While Occupancy focuses on what is full, the Availability view focuses on "
+"what is left to sell. It is your primary tool for operational safety and "
+"\"Scarcity Pricing.\""
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "Willing to upgrade a booking?"
 msgstr "예약을 업그레이드할까요?"
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"With the create slot for this resource, no overlapping booking slot would be "
+"created.<br/>Care about the start and end time or this blockage to make to "
+"re-open when suited."
+msgstr ""
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -945,7 +1310,8 @@ msgstr "Odoo 설정에 대해 논의하거나 추가 기능을 살펴보고 싶�
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid ""
 "You are repairing a room or simply welcoming family and don't want guests to "
-"book a room?"
+"book it?<br/>Alternatively, you are closing for a week during an inter "
+"season break?<br/>Let's have this reflected in your schedule!"
 msgstr ""
 
 #. module: guest_house
@@ -954,6 +1320,19 @@ msgid ""
 "You can access every installed App in your Odoo database on your main "
 "dashboard."
 msgstr "메인 대시보드에서 Odoo 데이터베이스에 설치된 모든 앱에 액세스하세요."
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"You can as well select your company and in the Branches tab define branches."
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"You can find the participants and answers from the smart buttons of the "
+"survey."
+msgstr ""
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -989,8 +1368,8 @@ msgid ""
 "                    Upgrade your package and check the related box"
 msgstr ""
 "데모 데이터를 아직 가져오지 않으셨나요? 지금 바로 가져올 수 있습니다. 앱 "
-"&gt; 인더스트리 &gt;\n"
-"                    패키지 업그레이드 후 관련 확인란에 표시하세요"
+"&gt; 업종 &gt;\n"
+"                    패키지 업그레이드 후 확인란에 표시하세요"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -1008,16 +1387,21 @@ msgstr ""
 msgid ""
 "You just installed the Odoo for Guest House package. By doing so, we have "
 "installed a\n"
-"            bunch of necessary apps to run your bar efficiently."
+"            bunch of necessary apps to run your business efficiently."
 msgstr ""
-"이제 Odoo 게스트 하우스 패키지 설치가 완료되었습니다. 앞으로 게스트 하우스를 "
-"효율적으로\n"
-"            운영하기 위해 필요한 다양한 앱이 모두 설치되었습니다."
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"You may be running multiple places at the same time and most likely be "
+"willing to run them all from the same database.<b/>We got you covered with "
+"this using multiple companies or branches!"
+msgstr ""
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "You might have tested this package with or without demo data."
-msgstr ""
+msgstr "이 패키지는 데모 데이터 유무에 신경쓰지 않고 테스트해 보셨을 것입니다."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -1112,19 +1496,28 @@ msgstr "🌐 온라인 예약 및 리뷰"
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid ""
 "🎓\n"
-"            Contacts"
+"                Companies"
 msgstr ""
 "🎓\n"
-"                            연락처"
+"                회사"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid ""
 "🎓\n"
-"            Rental"
+"                Websites"
 msgstr ""
 "🎓\n"
-"                           렌탈"
+"                웹사이트"
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"🎓\n"
+"            Contacts"
+msgstr ""
+"🎓\n"
+"                            연락처"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -1142,18 +1535,38 @@ msgstr "🎓 청구서"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
-msgid "🎓 Planning"
-msgstr "🎓 기획"
-
-#. module: guest_house
-#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "🎓 eCommerce"
 msgstr "🎓 이커머스"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "🎓Booking Engine"
+msgstr "🎓예약 엔진"
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "🎓Planning"
+msgstr "🎓일정 수립"
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "🎓Rental"
+msgstr "🎓렌탈"
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "🎓Surveys"
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "👋 Wave your guests"
 msgstr "👋 손님들을 환영합니다"
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "🔢 Running multiple places"
+msgstr "🔢 다수의 지점을 운영 중입니다"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -1164,6 +1577,53 @@ msgstr "🗓️ 예약 관리"
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "😎 Welcome guests"
 msgstr "😎 고객 환영"
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "🚀 Strategic Oversight"
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid "🧽 Managing house keeping"
+msgstr "🧽 하우스키핑 관리"
+
+#~ msgid "Blocking a room"
+#~ msgstr "객실 이용 차단"
+
+#~ msgid "Open the Guest House App Schedule."
+#~ msgstr "게스트하우스 앱 스케줄을 열어보세요."
+
+#~ msgid "Comfy Room"
+#~ msgstr "편안한 객실"
+
+#~ msgid "Garden Room"
+#~ msgstr "가든 객실"
+
+#~ msgid "Studious Room"
+#~ msgstr "학습용 룸"
+
+#~ msgid "Fireplace Room"
+#~ msgstr "벽난로 객실"
+
+#~ msgid "Renaissance Room"
+#~ msgstr "르네상스 룸"
+
+#~ msgid "Roof Room"
+#~ msgstr "루프 룸"
+
+#~ msgid "Still from their Rental Order, open the Guest tab."
+#~ msgstr "계속하여 렌탈 주문서 화면에서 게스트 탭을 열어주세요."
+
+#~ msgid ""
+#~ "🎓\n"
+#~ "            Rental"
+#~ msgstr ""
+#~ "🎓\n"
+#~ "                           렌탈"
+
+#~ msgid "🎓 Planning"
+#~ msgstr "🎓 기획"
 
 #~ msgid ""
 #~ "Example: A room for 2 is booked for 4 nights, two guest were here for the "

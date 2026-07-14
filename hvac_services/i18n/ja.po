@@ -3,14 +3,14 @@
 # * hvac_services
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# "Junko Augias (juau)" <juau@odoo.com>, 2025.
+# "Junko Augias (juau)" <juau@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 13:42+0000\n"
-"PO-Revision-Date: 2025-11-19 08:46+0000\n"
+"POT-Creation-Date: 2026-07-10 18:27+0000\n"
+"PO-Revision-Date: 2026-05-02 09:38+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-19/"
 "hvac_services/ja/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -70,6 +70,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid ""
 "<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
+"normal\" aria-label=\"Banner Info\">💡</i>"
+msgstr ""
+
+#. module: hvac_services
+#: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
+msgid ""
+"<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
 "normal\">💡</i>"
 msgstr ""
 "<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
@@ -97,6 +104,16 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hvac_services.view_partner_stock_form
 msgid "<span class=\"o_stat_text\">Lots/Serial Numbers</span>"
 msgstr "<span class=\"o_stat_text\">ロット/シリアル番号</span>"
+
+#. module: hvac_services
+#: model_terms:ir.ui.view,arch_db:hvac_services.product_view_kanban_catalog
+msgid "<span class=\"small\"> Documents</span>"
+msgstr ""
+
+#. module: hvac_services
+#: model_terms:ir.ui.view,arch_db:hvac_services.report_invoice_document_serials
+msgid "<span>Serial(s)</span>"
+msgstr ""
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -203,6 +220,11 @@ msgstr ""
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
+msgid "Attaching brochures to your quotations for your customers;"
+msgstr ""
+
+#. module: hvac_services
+#: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid ""
 "Auto trigger for replenishment rule runs once a day and automatically "
 "creates a\n"
@@ -225,6 +247,11 @@ msgid "Billing repair tasks"
 msgstr "修理タスクを請求する"
 
 #. module: hvac_services
+#: model:documents.tag,name:hvac_services.documents_tag_3
+msgid "Brochure"
+msgstr ""
+
+#. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid ""
 "By uploading this module's demo data, your database has been filled with a "
@@ -244,6 +271,19 @@ msgstr "取消"
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "Check the invoice and then confirm it for payment."
 msgstr "請求書を 確認し、その後、支払いのために確定してください。"
+
+#. module: hvac_services
+#: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
+msgid ""
+"Click the Share button to reach the document sharing modal and select your "
+"customer\n"
+"                to share it with!"
+msgstr ""
+
+#. module: hvac_services
+#: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
+msgid "Click the documents shortcut from the product tiles."
+msgstr ""
 
 #. module: hvac_services
 #: model:product.template,name:hvac_services.product_template_4
@@ -363,7 +403,7 @@ msgid "Delivery Date"
 msgstr "納品予定日"
 
 #. module: hvac_services
-#: model:ir.model.fields,field_description:hvac_services.x_device_id_field
+#: model:ir.model.fields,field_description:hvac_services.x_product_id_field
 #: model:sale.order.template.line,name:hvac_services.sale_order_template_line_2
 #: model:sale.order.template.line,name:hvac_services.sale_order_template_line_6
 msgid "Device"
@@ -385,6 +425,16 @@ msgstr ""
 "            よりスムーズに業務を行いましょう。"
 
 #. module: hvac_services
+#: model:ir.actions.act_window,name:hvac_services.action_product_related_document
+msgid "Documents"
+msgstr ""
+
+#. module: hvac_services
+#: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
+msgid "Easing the sharing of documents on the field on customer's request."
+msgstr ""
+
+#. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid ""
 "Efficiently order your providers with the <strong>\n"
@@ -399,6 +449,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "Executing tasks"
 msgstr "既存のタスク"
+
+#. module: hvac_services
+#: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
+msgid "Feel free to add some document tags for clarity purpose."
+msgstr ""
 
 #. module: hvac_services
 #: model:ir.actions.act_window,name:hvac_services.get_field_services_action
@@ -458,6 +513,12 @@ msgstr ""
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid ""
+"From a field service task, open then product catalog from the smart buttons."
+msgstr ""
+
+#. module: hvac_services
+#: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
+msgid ""
 "From the <strong>Field Service App</strong>, you can monitor the consumed\n"
 "            refrigerant products given heavy regulations apply to those "
 "products."
@@ -475,6 +536,11 @@ msgstr "<strong>販売アプリ</strong>から、オーダを管理できます�
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "From the gear icon (⚙️) menu, select the New Device option."
+msgstr "歯車アイコン（⚙️）メニューから、新しいデバイスオプションを選択します。"
+
+#. module: hvac_services
+#: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
+msgid "From the smart buttons, reach the product documents."
 msgstr ""
 
 #. module: hvac_services
@@ -486,6 +552,24 @@ msgstr "空調設備サービス"
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "Hello there!"
 msgstr "こんにちは!"
+
+#. module: hvac_services
+#: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
+msgid ""
+"Hit the New or Upload button to add a new document to this product, select "
+"a\n"
+"                document and import it."
+msgstr ""
+
+#. module: hvac_services
+#: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
+msgid "Hit the Preview button to access the document itself."
+msgstr ""
+
+#. module: hvac_services
+#: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
+msgid "How do field worker access and share product documents?"
+msgstr ""
 
 #. module: hvac_services
 #: model:ir.model,name:hvac_services.x_project_task_worksheet_template
@@ -537,6 +621,11 @@ msgid ""
 "        In such case, we enabled the creation of a device from the Contact "
 "App so that all your work can take place the same way as if you installed it!"
 msgstr ""
+"場合によっては、自社が設置していない顧客先に既存の機器があり、それを扱うこと"
+"もあるでしょう。<br/>\n"
+"        そのような場合のために、連絡先アプリから直接デバイスを作成できるよう"
+"にしています。これにより、自社が設置した場合と同じ手順で作業を行うことができ"
+"ます!"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -552,6 +641,7 @@ msgstr ""
 "                    できます!"
 
 #. module: hvac_services
+#: model:documents.tag,name:hvac_services.documents_tag_1
 #: model:ir.model.fields.selection,name:hvac_services.x_operation_field_selection_installation
 #: model:product.template,name:hvac_services.product_template_installation
 #: model:sale.order.template.line,name:hvac_services.sale_order_template_line_3
@@ -624,6 +714,7 @@ msgid "Maintained"
 msgstr "保守済"
 
 #. module: hvac_services
+#: model:documents.tag,name:hvac_services.documents_tag_2
 #: model:ir.model.fields,field_description:hvac_services.x_maintenance_field
 #: model:ir.model.fields.selection,name:hvac_services.x_operation_field_selection_maintenance
 #: model:product.template,name:hvac_services.product_template_maintenance
@@ -685,7 +776,7 @@ msgstr "手動購買オーダ"
 #. module: hvac_services
 #: model:ir.model.fields.selection,name:hvac_services.x_primary_root_cause_field_selection_misuse
 msgid "Misuse"
-msgstr ""
+msgstr "誤用"
 
 #. module: hvac_services
 #: model:ir.model.fields.selection,name:hvac_services.x_maintenance_field_selection_na
@@ -700,13 +791,13 @@ msgstr "名称"
 #. module: hvac_services
 #: model:ir.model.fields.selection,name:hvac_services.x_primary_root_cause_field_selection_natural_failure
 msgid "Natural Failure"
-msgstr ""
+msgstr "自然故障"
 
 #. module: hvac_services
 #: model:ir.actions.act_window,name:hvac_services.x_new_devices_action
 #: model_terms:ir.ui.view,arch_db:hvac_services.x_new_devices_view_form
 msgid "New Device"
-msgstr ""
+msgstr "新しいデバイス"
 
 #. module: hvac_services
 #: model:ir.model.fields.selection,name:hvac_services.x_maintenance_field_selection_no_maintenance
@@ -788,11 +879,6 @@ msgid "On Project Task Create"
 msgstr "プロジェクトタスク作成時"
 
 #. module: hvac_services
-#: model:base.automation,name:hvac_services.base_automation_SO_serials
-msgid "On SO line Edit"
-msgstr "販売オーダ明細編集時"
-
-#. module: hvac_services
 #: model:base.automation,name:hvac_services.base_automation_SO_line
 msgid "On SO line Serial Edit"
 msgstr "販売オーダ明細シリアル番号編集時"
@@ -836,9 +922,16 @@ msgstr ""
 "フォースカンパニー(Fourth company)のオーダを開き、こちらも確定してください。"
 
 #. module: hvac_services
+#: model:ir.actions.server,name:hvac_services.server_action_share_document
+msgid "Open related document share popup"
+msgstr ""
+
+#. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "Open the Contact App and find your customer, \"Second Company\" maybe?"
 msgstr ""
+"連絡先アプリを開き、顧客を探してください。例えば「セカンドカンパニー」でしょ"
+"うか?"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -926,6 +1019,12 @@ msgstr ""
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid ""
+"Open the product of your choice, typically from Sales or Inventory Apps."
+msgstr ""
+
+#. module: hvac_services
+#: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
+msgid ""
 "Open the sale order for this repair, from the smart button at the top of the "
 "task."
 msgstr "タスクの上部にあるスマートボタンから、この修理の販売オーダを開きます。"
@@ -1002,6 +1101,13 @@ msgstr ""
 "                                    プロダクトは正常に機能している"
 
 #. module: hvac_services
+#: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
+msgid ""
+"Product documents are binded to a document stored in the\n"
+"                    Documents App."
+msgstr ""
+
+#. module: hvac_services
 #: model:ir.model.fields,field_description:hvac_services.x_product_is_functional_field
 #: model_terms:ir.ui.view,arch_db:hvac_services.x_project_task_worksheet_template_form_view
 msgid "Product is functional after operation"
@@ -1017,6 +1123,11 @@ msgstr "プロジェクトタスク数"
 #: model_terms:ir.ui.view,arch_db:hvac_services.x_project_task_worksheet_template_qweb_view
 msgid "Provide details if additional root cause led to the repair operation"
 msgstr "修理作業につながった追加の根本原因がある場合は、詳細を記入してください"
+
+#. module: hvac_services
+#: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
+msgid "Providing access to installation manuals to your field workers;"
+msgstr ""
 
 #. module: hvac_services
 #: model:sale.order.template.line,name:hvac_services.sale_order_template_line_10
@@ -1148,6 +1259,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "Select a product, add the customer provided serial and delivery date."
 msgstr ""
+"プロダクトを選択し、顧客から提供されたシリアル番号と配送日を追加してくださ"
+"い。"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -1190,12 +1303,6 @@ msgid "Serials"
 msgstr "シリアル番号"
 
 #. module: hvac_services
-#: model:ir.actions.server,name:hvac_services.add_sale_order_line_serials_to_sale_order
-msgid "Set serials of the sale order equal to the serials of its order lines"
-msgstr ""
-"販売オーダのシリアル番号を、そのオーダ明細のシリアル番号と同じに設定します"
-
-#. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid ""
 "Setup your website for free and get leads passively with <strong>\n"
@@ -1213,6 +1320,11 @@ msgstr ""
 "的に獲得しましょう!"
 
 #. module: hvac_services
+#: model_terms:ir.ui.view,arch_db:hvac_services.product_document_kanban_view_extended
+msgid "Share"
+msgstr ""
+
+#. module: hvac_services
 #: model:product.template,name:hvac_services.product_template_12
 msgid "Sicaf R452A Split system HMM200"
 msgstr "Sicaf R452A スプリットシステム HMM200"
@@ -1223,6 +1335,11 @@ msgid "Stock lot for HVAC"
 msgstr "空調設備用の在庫ロット"
 
 #. module: hvac_services
+#: model:ir.model.fields,field_description:hvac_services.x_document_tag_ids_field_product_document
+msgid "Tags"
+msgstr ""
+
+#. module: hvac_services
 #: model:ir.model.fields,field_description:hvac_services.x_project_task_id_field
 msgid "Task"
 msgstr "タスク"
@@ -1230,7 +1347,7 @@ msgstr "タスク"
 #. module: hvac_services
 #: model:hr.job,name:hvac_services.hr_job_technician
 msgid "Technician"
-msgstr "担当技術者"
+msgstr "技術者"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -1316,6 +1433,11 @@ msgid ""
 msgstr ""
 "作業者は、フィールドサービスアプリからその日のタスクを開き、作業に取り掛かり"
 "ます。"
+
+#. module: hvac_services
+#: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
+msgid "To help you with that, here is how to proceed:"
+msgstr ""
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -1409,6 +1531,8 @@ msgid ""
 "Worse case if those details are missing, input placeholder data and create "
 "an activity to update those in the future!"
 msgstr ""
+"最悪の場合、それらの詳細が欠けている場合は、プレースホルダデータを入力し、今"
+"後それらを更新するための活動を作成してください！"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -1436,6 +1560,13 @@ msgstr ""
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid ""
+"You can define how to attach such documents to your quotations from the list "
+"view."
+msgstr ""
+
+#. module: hvac_services
+#: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
+msgid ""
 "You can now see that the task is done. In the case of a repair, the time "
 "spent and\n"
 "            consumed products can be billed to your customer."
@@ -1455,6 +1586,13 @@ msgstr ""
 "                確認できます。"
 
 #. module: hvac_services
+#: model_terms:ir.ui.view,arch_db:hvac_services.sale_order_form_view
+msgid ""
+"You can’t create a serial here. To add a new device, go to the Contact and "
+"create it there."
+msgstr ""
+
+#. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid ""
 "You completed that demo use case! There are millions of other ways to adapt "
@@ -1470,23 +1608,22 @@ msgstr ""
 msgid ""
 "You didn't import demo data? You can still do it. Go to Apps &gt; Industries "
 "&gt;\n"
-"                    Upgrade your Bar &amp; Pub package and check the related "
+"                    Upgrade your HVAC Services package and check the related "
 "box"
 msgstr ""
-"デモデータのインポートはまだ可能です。アプリ &gt; インダストリー &gt;\n"
-"                    空調&amp;設備サービスパッケージに移動し、関連するボックス"
-"にチェックを入れてください"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid ""
 "You just installed the Odoo for HVAC Services package. By doing so, we have "
 "installed a\n"
-"            bunch of necessary apps to run your bar efficiently."
+"            bunch of necessary apps to run your business efficiently."
 msgstr ""
-"「Odoo education online空調設備パッケージ」をインストールしました。\n"
-"            これにより、空調設備ビジネスを効率的に行うために必要な複数のアプ"
-"リが自動的に導入されました。"
+
+#. module: hvac_services
+#: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
+msgid "You may need to attach documents to product for multiple purposes:"
+msgstr ""
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -1513,6 +1650,8 @@ msgid ""
 "You're all set to setup a maintenance contract or repair task the same way "
 "as if you've always worked for this customer!"
 msgstr ""
+"これで、この顧客をずっと担当してきたかのように、整備契約や修理タスクを問題な"
+"く設定できます!"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -1573,6 +1712,11 @@ msgstr ""
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
+msgid "🎓 Documents"
+msgstr ""
+
+#. module: hvac_services
+#: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "🎓 Field Service"
 msgstr "🎓 フィールドサービス"
 
@@ -1590,6 +1734,11 @@ msgstr "🎓 購買"
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "🎓 Sales"
 msgstr "🎓 販売"
+
+#. module: hvac_services
+#: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
+msgid "📃 Managing and sharing product documents"
+msgstr ""
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -1619,4 +1768,22 @@ msgstr "🔎 顧客の機器・履歴の確認"
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "🧯 Creating an existing device for a customer"
-msgstr ""
+msgstr "🧯 顧客向けに既存デバイスを作成する"
+
+#~ msgid "On SO line Edit"
+#~ msgstr "販売オーダ明細編集時"
+
+#~ msgid ""
+#~ "Set serials of the sale order equal to the serials of its order lines"
+#~ msgstr ""
+#~ "販売オーダのシリアル番号を、そのオーダ明細のシリアル番号と同じに設定します"
+
+#~ msgid ""
+#~ "You didn't import demo data? You can still do it. Go to Apps &gt; "
+#~ "Industries &gt;\n"
+#~ "                    Upgrade your Bar &amp; Pub package and check the "
+#~ "related box"
+#~ msgstr ""
+#~ "デモデータのインポートはまだ可能です。アプリ &gt; インダストリー &gt;\n"
+#~ "                    空調&amp;設備サービスパッケージに移動し、関連するボッ"
+#~ "クスにチェックを入れてください"

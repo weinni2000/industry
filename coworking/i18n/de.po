@@ -3,13 +3,14 @@
 # * coworking
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
+# "Larissa Manderfeld (lman)" <lman@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 10:07+0000\n"
-"PO-Revision-Date: 2025-09-15 19:27+0000\n"
-"Last-Translator: \"Dylan Kiss (dyki)\" <dyki@odoo.com>\n"
+"POT-Creation-Date: 2026-04-10 19:00+0000\n"
+"PO-Revision-Date: 2026-04-24 19:27+0000\n"
+"Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
 "Language-Team: German <https://translate.odoo.com/projects/odoo-19/coworking/"
 "de/>\n"
 "Language: de\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.homepage
@@ -48,14 +49,9 @@ msgstr ""
 "Gemeinschaft bietet Ihnen alles, was Sie benötigen."
 
 #. module: coworking
-#: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_3303
-msgid "+1 555-555-5556"
-msgstr "+1 555-555-5556"
-
-#. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
 msgid ", and feel free to"
-msgstr "und"
+msgstr "und Sie können"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -117,15 +113,15 @@ msgstr ""
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.homepage
 msgid ""
-"<a class=\"o_translate_inline btn btn-primary\" t-att-"
-"href=\"request.env.ref('coworking.product_product_11').website_url\">\n"
+"<a class=\"o_translate_inline btn btn-primary\" "
+"href=\"*one_day_pass_product*\">\n"
 "                        <span style=\"font-family: Verdana, sans-serif;\">\n"
 "                          <strong>BUY</strong>\n"
 "                        </span>\n"
 "                      </a>"
 msgstr ""
-"<a class=\"o_translate_inline btn btn-primary\" t-att-"
-"href=\"request.env.ref('coworking.product_product_11').website_url\">\n"
+"<a class=\"o_translate_inline btn btn-primary\" "
+"href=\"*one_day_pass_product*\">\n"
 "                        <span style=\"font-family: Verdana, sans-serif;\">\n"
 "                          <strong>KAUFEN</strong>\n"
 "                        </span>\n"
@@ -139,6 +135,52 @@ msgid ""
 msgstr ""
 "<a href=\"#\" class=\"btn btn-secondary o_translate_inline\">Mehr erfahren</"
 "a>"
+
+#. module: coworking
+#: model_terms:ir.ui.view,arch_db:coworking.homepage
+msgid ""
+"<a href=\"*10_day_pass_card_product*\" class=\"o_translate_inline btn btn-"
+"primary\">\n"
+"                        <span style=\"font-family: Verdana, sans-serif;\">\n"
+"                          <strong>BUY</strong>\n"
+"                        </span>\n"
+"                      </a>"
+msgstr ""
+"<a href=\"*10_day_pass_card_product*\" class=\"o_translate_inline btn btn-"
+"primary\">\n"
+"                        <span style=\"font-family: Verdana, sans-serif;\">\n"
+"                          <strong>KAUFEN</strong>\n"
+"                        </span>\n"
+"                      </a>"
+
+#. module: coworking
+#: model_terms:ir.ui.view,arch_db:coworking.homepage
+msgid ""
+"<a href=\"/appointment/*free_tour_appointment_type*\" "
+"class=\"o_translate_inline btn btn-secondary\">Book a free tour</a>"
+msgstr ""
+"<a href=\"/appointment/*free_tour_appointment_type*\" "
+"class=\"o_translate_inline btn btn-secondary\">Kostenlose Tour buchen</a>"
+
+#. module: coworking
+#: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_4092
+msgid ""
+"<a href=\"/appointment/1\" class=\"o_translate_inline btn btn-primary\">\n"
+"                            <strong>Book</strong>\n"
+"                          </a>"
+msgstr ""
+"<a href=\"/appointment/1\" class=\"o_translate_inline btn btn-primary\">\n"
+"                            <strong>Buchen</strong>\n"
+"                          </a>"
+
+#. module: coworking
+#: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_3304
+msgid ""
+"<a href=\"/appointment/1\" class=\"o_translate_inline btn btn-"
+"secondary\">Book</a>"
+msgstr ""
+"<a href=\"/appointment/1\" class=\"o_translate_inline btn btn-"
+"secondary\">Buchen</a>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.homepage
@@ -176,62 +218,6 @@ msgstr ""
 "<a href=\"/contactus\" class=\"btn btn-primary o_translate_inline\">\n"
 "                            <strong>Kontakt</strong>\n"
 "                          </a>"
-
-#. module: coworking
-#: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_4092
-msgid ""
-"<a t-att-href=\"'/appointment/%s' % "
-"request.env.ref('coworking.appointment_type_1').id\" "
-"class=\"o_translate_inline btn btn-primary\">\n"
-"                            <strong>Book</strong>\n"
-"                          </a>"
-msgstr ""
-"<a t-att-href=\"'/appointment/%s' % "
-"request.env.ref('coworking.appointment_type_1').id\" "
-"class=\"o_translate_inline btn btn-primary\">\n"
-"                            <strong>Buchen</strong>\n"
-"                          </a>"
-
-#. module: coworking
-#: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_3304
-msgid ""
-"<a t-att-href=\"'/appointment/%s' % "
-"request.env.ref('coworking.appointment_type_1').id\" "
-"class=\"o_translate_inline btn btn-secondary\">Book</a>"
-msgstr ""
-"<a t-att-href=\"'/appointment/%s' % "
-"request.env.ref('coworking.appointment_type_1').id\" "
-"class=\"o_translate_inline btn btn-secondary\">Buchen</a>"
-
-#. module: coworking
-#: model_terms:ir.ui.view,arch_db:coworking.homepage
-msgid ""
-"<a t-att-href=\"'/appointment/%s' % "
-"request.env.ref('coworking.appointment_type_2').id\" "
-"class=\"o_translate_inline btn btn-secondary\">Book a free tour</a>"
-msgstr ""
-"<a t-att-href=\"'/appointment/%s' % "
-"request.env.ref('coworking.appointment_type_2').id\" "
-"class=\"o_translate_inline btn btn-secondary\">Kostenlose Tour buchen</a>"
-
-#. module: coworking
-#: model_terms:ir.ui.view,arch_db:coworking.homepage
-msgid ""
-"<a t-att-"
-"href=\"request.env.ref('coworking.product_product_10').website_url\" "
-"class=\"o_translate_inline btn btn-primary\">\n"
-"                        <span style=\"font-family: Verdana, sans-serif;\">\n"
-"                          <strong>BUY</strong>\n"
-"                        </span>\n"
-"                      </a>"
-msgstr ""
-"<a t-att-"
-"href=\"request.env.ref('coworking.product_product_10').website_url\" "
-"class=\"o_translate_inline btn btn-primary\">\n"
-"                        <span style=\"font-family: Verdana, sans-serif;\">\n"
-"                          <strong>KAUFEN</strong>\n"
-"                        </span>\n"
-"                      </a>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_4210
@@ -884,18 +870,6 @@ msgstr "Afterwork im September"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_3304
-msgid ""
-"Alex, with his extensive background in coworking, helps us cultivate a "
-"thriving community. He is passionate about enhancing member experiences and "
-"driving innovation within our spaces."
-msgstr ""
-"Alex unterstützt uns mit seiner umfangreichen Erfahrung im Bereich Coworking "
-"dabei, eine florierende Gemeinschaft aufzubauen. Er engagiert sich "
-"leidenschaftlich dafür, die Erfahrungen unserer Mitglieder zu verbessern und "
-"Innovationen in unseren Räumlichkeiten voranzutreiben."
-
-#. module: coworking
-#: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_3304
 msgid "Aline Turner"
 msgstr "Aline Turner"
 
@@ -1313,6 +1287,18 @@ msgid "Iris Joe"
 msgstr "Iris Joe"
 
 #. module: coworking
+#: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_3304
+msgid ""
+"Iris, with her extensive background in coworking, helps us cultivate a "
+"thriving community. She is passionate about enhancing member experiences and "
+"driving innovation within our spaces."
+msgstr ""
+"Iris verfügt über umfangreiche Erfahrung im Bereich Coworking und "
+"unterstützt uns dabei, eine florierende Gemeinschaft aufzubauen. Sie "
+"engagiert sich leidenschaftlich dafür, die Erfahrungen unserer Mitglieder zu "
+"verbessern und Innovationen in unseren Räumlichkeiten voranzutreiben."
+
+#. module: coworking
 #: model:website.menu,name:coworking.website_menu_12
 msgid "Issue at the Coworking?"
 msgstr "Problem beim Coworking?"
@@ -1499,9 +1485,9 @@ msgid ""
 "Odoo is entirely integrated into an App. Download it to turn your phone into "
 "a tool to manage your entire workflow."
 msgstr ""
-"Odoo ist vollständig in einer App integriert. Laden Sie sie herunter, um Ihr "
-"Telefon in ein Tool zu verwandeln, sodass Sie ihr gesamtes Unternehmen "
-"verwalten können."
+"Odoo ist vollständig in eine App integriert. Laden Sie sie herunter, um Ihr "
+"Smartphone in ein Hilfsmittel zu verwandeln, mit dem Sie Ihren gesamten "
+"Arbeitsablauf verwalten können."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -1520,7 +1506,7 @@ msgid ""
 msgstr ""
 "Das ist natürlich nur eine Übersicht über die Funktionen, die in diesem "
 "Paket enthalten sind. Sie können gerne neue Apps hinzufügen, Demodaten "
-"löschen/anpassen und etwas herumspielen."
+"löschen oder anpassen und etwas herumspielen."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -1576,7 +1562,7 @@ msgstr ""
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_4092
-msgid "Ourr internal rules"
+msgid "Our internal rules"
 msgstr "Unsere internen Regeln"
 
 #. module: coworking
@@ -1935,7 +1921,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
 msgid "Would you like to discuss your Odoo setup with us or go even further?"
 msgstr ""
-"Möchten Sie Ihre Odoo-Einrichtung mit uns besprechen oder noch weiter gehen?"
+"Möchten Sie Ihre Odoo-Konfiguration mit uns besprechen oder noch einen "
+"Schritt weiter gehen?"
+
+#. module: coworking
+#: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_3303
+msgid "X"
+msgstr "X"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -1953,7 +1945,7 @@ msgid ""
 "your Odoo setup to fit your business needs."
 msgstr ""
 "Sie haben diesen Demo-Anwendungsfall abgeschlossen! Es gibt Millionen "
-"anderer Möglichkeiten, Ihre Odoo-Einrichtung an Ihre geschäftlichen "
+"anderer Möglichkeiten, Ihre Odoo-Konfiguration an Ihre geschäftlichen "
 "Anforderungen anzupassen."
 
 #. module: coworking
@@ -2038,7 +2030,7 @@ msgstr "Personen, die vor Computerbildschirmen sitzen"
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
 msgid "request a demo"
-msgstr "bitten Sie um eine Demo"
+msgstr "eine Demo buchen"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_4092
@@ -2125,3 +2117,83 @@ msgid ""
 msgstr ""
 "🧠 <strong>Bewährte Strategien</strong> – Erlernen Sie praktische Methoden, "
 "um produktiv und motiviert zu bleiben."
+
+#~ msgid "+1 555-555-5556"
+#~ msgstr "+1 555-555-5556"
+
+#~ msgid ""
+#~ "<a class=\"o_translate_inline btn btn-primary\" t-att-"
+#~ "href=\"request.env.ref('coworking.product_product_11').website_url\">\n"
+#~ "                        <span style=\"font-family: Verdana, sans-serif;"
+#~ "\">\n"
+#~ "                          <strong>BUY</strong>\n"
+#~ "                        </span>\n"
+#~ "                      </a>"
+#~ msgstr ""
+#~ "<a class=\"o_translate_inline btn btn-primary\" t-att-"
+#~ "href=\"request.env.ref('coworking.product_product_11').website_url\">\n"
+#~ "                        <span style=\"font-family: Verdana, sans-serif;"
+#~ "\">\n"
+#~ "                          <strong>KAUFEN</strong>\n"
+#~ "                        </span>\n"
+#~ "                      </a>"
+
+#~ msgid ""
+#~ "<a t-att-href=\"'/appointment/%s' % "
+#~ "request.env.ref('coworking.appointment_type_1').id\" "
+#~ "class=\"o_translate_inline btn btn-primary\">\n"
+#~ "                            <strong>Book</strong>\n"
+#~ "                          </a>"
+#~ msgstr ""
+#~ "<a t-att-href=\"'/appointment/%s' % "
+#~ "request.env.ref('coworking.appointment_type_1').id\" "
+#~ "class=\"o_translate_inline btn btn-primary\">\n"
+#~ "                            <strong>Buchen</strong>\n"
+#~ "                          </a>"
+
+#~ msgid ""
+#~ "<a t-att-href=\"'/appointment/%s' % "
+#~ "request.env.ref('coworking.appointment_type_1').id\" "
+#~ "class=\"o_translate_inline btn btn-secondary\">Book</a>"
+#~ msgstr ""
+#~ "<a t-att-href=\"'/appointment/%s' % "
+#~ "request.env.ref('coworking.appointment_type_1').id\" "
+#~ "class=\"o_translate_inline btn btn-secondary\">Buchen</a>"
+
+#~ msgid ""
+#~ "<a t-att-href=\"'/appointment/%s' % "
+#~ "request.env.ref('coworking.appointment_type_2').id\" "
+#~ "class=\"o_translate_inline btn btn-secondary\">Book a free tour</a>"
+#~ msgstr ""
+#~ "<a t-att-href=\"'/appointment/%s' % "
+#~ "request.env.ref('coworking.appointment_type_2').id\" "
+#~ "class=\"o_translate_inline btn btn-secondary\">Kostenlose Tour buchen</a>"
+
+#~ msgid ""
+#~ "<a t-att-"
+#~ "href=\"request.env.ref('coworking.product_product_10').website_url\" "
+#~ "class=\"o_translate_inline btn btn-primary\">\n"
+#~ "                        <span style=\"font-family: Verdana, sans-serif;"
+#~ "\">\n"
+#~ "                          <strong>BUY</strong>\n"
+#~ "                        </span>\n"
+#~ "                      </a>"
+#~ msgstr ""
+#~ "<a t-att-"
+#~ "href=\"request.env.ref('coworking.product_product_10').website_url\" "
+#~ "class=\"o_translate_inline btn btn-primary\">\n"
+#~ "                        <span style=\"font-family: Verdana, sans-serif;"
+#~ "\">\n"
+#~ "                          <strong>KAUFEN</strong>\n"
+#~ "                        </span>\n"
+#~ "                      </a>"
+
+#~ msgid ""
+#~ "Alex, with his extensive background in coworking, helps us cultivate a "
+#~ "thriving community. He is passionate about enhancing member experiences "
+#~ "and driving innovation within our spaces."
+#~ msgstr ""
+#~ "Alex unterstützt uns mit seiner umfangreichen Erfahrung im Bereich "
+#~ "Coworking dabei, eine florierende Gemeinschaft aufzubauen. Er engagiert "
+#~ "sich leidenschaftlich dafür, die Erfahrungen unserer Mitglieder zu "
+#~ "verbessern und Innovationen in unseren Räumlichkeiten voranzutreiben."

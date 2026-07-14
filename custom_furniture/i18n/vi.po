@@ -8,14 +8,14 @@
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
 # "Thi Huong Nguyen (thng)" <thng@odoo.com>, 2025.
-# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-10 10:51+0000\n"
-"PO-Revision-Date: 2025-11-18 08:33+0000\n"
-"Last-Translator: \"Thi Huong Nguyen (thng)\" <thng@odoo.com>\n"
+"PO-Revision-Date: 2026-06-13 09:58+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Vietnamese <https://translate.odoo.com/projects/odoo-19/"
 "custom_furniture/vi/>\n"
 "Language: vi\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -97,6 +97,9 @@ msgid ""
 "but the <b>Manufacturing App</b> is the central hub for managing and "
 "planning all production."
 msgstr ""
+"<b>Lệnh sản xuất (MO)</b> có thể bắt nguồn từ <b>ứng dụng Dự án</b>, nhưng "
+"<b>ứng dụng Sản xuất</b> là trung tâm quản lý và lập kế hoạch toàn bộ quá "
+"trình sản xuất."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -146,10 +149,13 @@ msgstr ""
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
+#, fuzzy
 msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">🚀</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\">🚀</i>"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -351,6 +357,8 @@ msgid ""
 "<strong>Sales Order Integration:</strong> Automatically generate project and/"
 "or tasks when certain products are included on a Sales Order."
 msgstr ""
+"<strong>Tích hợp đơn bán hàng:</strong> Tự động tạo dự án và/hoặc nhiệm vụ "
+"khi các sản phẩm cụ thể được bao gồm trong đơn bán hàng."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -400,6 +408,15 @@ msgid ""
 "        </strong>\n"
 "        app to get an overview of the progress in terms of:"
 msgstr ""
+"Trước khi tạo hóa đơn trung gian trong ứng dụng \n"
+"<strong>\n"
+"<font class=\"text-o-color-1\">Hoá đơn</font>\n"
+"</strong>, \n"
+"cố định trạng thái dự án trong ứng dụng \n"
+"<strong>\n"
+"<font class=\"text-o-color-1\">Dự án</font>\n"
+"</strong> \n"
+"để có cái nhìn tổng quan về tiến độ theo các khía cạnh:"
 
 #. module: custom_furniture
 #: model:product.attribute.value,name:custom_furniture.product_attribute_value_1
@@ -473,10 +490,13 @@ msgid ""
 "different projects, an upcoming delivery, a purchase, and various hours to "
 "plan. These are all automated actions based on your product configuration."
 msgstr ""
+"Xác nhận báo giá. Thanh trên cùng cho thấy hệ thống tạo ra các nhiệm vụ khác "
+"nhau trong các dự án khác nhau, một lệnh giao hàng sắp tới, một đơn mua hàng "
+"và nhiều giờ cần lập kế hoạch. Tất cả đều là các hành động tự động dựa trên "
+"cấu hình sản phẩm của bạn."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid ""
 "Create a down payment from the sales order as the first invoicing step. This "
 "will generate the first invoice in the\n"
@@ -554,7 +574,7 @@ msgstr "Kệ treo tường theo yêu cầu"
 #: model:product.template,name:custom_furniture.product_product_62_product_template
 #: model:project.project,name:custom_furniture.project_project_6
 msgid "Customer Project Management"
-msgstr ""
+msgstr "Quản lý dự án khách hàng"
 
 #. module: custom_furniture
 #: model:product.template,name:custom_furniture.product_product_13_product_template
@@ -670,8 +690,10 @@ msgstr "Nội thất"
 #. module: custom_furniture
 #. odoo-javascript
 #: code:addons/custom_furniture/static/src/js/my_tour.js:0
+#, fuzzy
 msgid "Get on track and explore our recommendations for your Odoo usage here!"
 msgstr ""
+"Hãy bắt đầu và khám phá các gợi ý của chúng tôi về cách sử dụng Odoo tại đây!"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -737,6 +759,10 @@ msgid ""
 "crucial context, including uploading <b>images</b>, adding <b>documents</b>, "
 "or <b>linking</b> to relevant articles in the Knowledge app."
 msgstr ""
+"Trong <b>phiên bản 19.1</b>, trường này sử dụng <b>HTML</b>, giúp dễ dàng "
+"chia sẻ thông tin quan trọng, bao gồm tải lên <b>hình ảnh</b>, thêm <b>tài "
+"liệu</b> hoặc <b>liên kết</b> đến các bài viết liên quan trong ứng dụng Kiến "
+"thức."
 
 #. module: custom_furniture
 #: model:project.task.type,name:custom_furniture.project_task_type_19
@@ -756,7 +782,6 @@ msgstr ""
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
-#, fuzzy
 msgid ""
 "In this App, you can see that the delivery is not yet ready to be shipped, "
 "as you currently don't have the necessary products. If you navigate to "
@@ -822,6 +847,12 @@ msgid ""
 "Marketing</font></strong>, and <strong><font class=\"text-o-color-1\">SMS "
 "Marketing</font></strong>."
 msgstr ""
+"Quản lý tất cả các kênh truyền thông của bạn ở một nơi với Odoo "
+"<strong><font class=\"text-o-color-1\">Tự động hoá Marketing</font></"
+"strong>, <strong><font class=\"text-o-color-1\">Marketing qua "
+"Email</font></strong>,\n"
+"<strong><font class=\"text-o-color-1\">Marketing trên MXH</font></strong> và "
+"<strong><font class=\"text-o-color-1\">Marketing qua SMS</font></strong>."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -850,6 +881,10 @@ msgid ""
 "Order has created a Project with a bunch of already configured tasks. Follow "
 "the evolution of your project with tasks, stages, status, and activities."
 msgstr ""
+"Quản lý toàn bộ dự án của bạn bằng ứng dụng Dự án. Bạn có thể thấy rằng Đơn "
+"bán hàng của bạn đã tạo một Dự án với một loạt nhiệm vụ đã được cấu hình "
+"sẵn. Theo dõi tiến trình dự án của bạn với các nhiệm vụ, giai đoạn, trạng "
+"thái và hoạt động."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1007,7 +1042,7 @@ msgstr "Tím"
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid "Reach us"
-msgstr "Liên hệ với chúng tôi"
+msgstr "Liên hệ"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1043,6 +1078,11 @@ msgid ""
 "        customer in the <strong> <font class=\"text-o-color-1\">Contact</"
 "font> </strong> app."
 msgstr ""
+"Tận dụng mọi cơ hội. <strong><font class=\"text-o-color-1\">CRM</font></"
+"strong> tập trung mọi thứ và cho phép bạn đảm bảo follow-up từng yêu cầu một "
+"cách hiệu quả. Nếu yêu cầu trở nên cụ thể, hãy tạo\n"
+"khách hàng trong ứng dụng <strong><font class=\"text-o-color-1\">Liên "
+"hệ</font></strong>."
 
 #. module: custom_furniture
 #: model:project.project,label_tasks:custom_furniture.project_project_6
@@ -1058,6 +1098,10 @@ msgid ""
 "installation\n"
 "                validation <b>worksheet</b>."
 msgstr ""
+"Dịch vụ <b>\"Giao hàng và lắp đặt\"</b> tạo ra một nhiệm vụ trong dự án <b>"
+"\"Dịch vụ hiện trường\"</b>. Nhiệm vụ này bao gồm danh sách tất cả sản phẩm "
+"cần lấy từ kho và cho phép tải lên <b>bảng công tác</b>\n"
+"                xác nhận công tác lắp đặt."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1065,6 +1109,8 @@ msgid ""
 "The <b>Inventory app</b> is very powerful. If your warehouse needs enhanced "
 "features for better product tracking, consult the"
 msgstr ""
+"<b>Ứng dụng Tồn kho</b> rất mạnh mẽ. Nếu bạn cần các tính năng nâng cao để "
+"theo dõi sản phẩm tốt hơn trong kho hàng của mình, hãy tham khảo"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1083,6 +1129,9 @@ msgid ""
 "specific view for your worker to keep track of any task in a particular Work "
 "Center."
 msgstr ""
+"Ứng dụng Sản xuất đi kèm với ứng dụng Xưởng. Điều này sẽ cung cấp một giao "
+"diện riêng cho nhân công của bạn để theo dõi mọi nhiệm vụ trong một Khu vực "
+"sản xuất cụ thể."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1090,6 +1139,8 @@ msgid ""
 "The Manufacturing App provides the production manager with a comprehensive "
 "overview of products to be created and allows them to manage production by:"
 msgstr ""
+"Ứng dụng Sản xuất cung cấp cho quản lý sản xuất một cái nhìn tổng thể về các "
+"sản phẩm cần tạo ra và cho phép họ quản lý quá trình sản xuất bằng cách:"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1157,6 +1208,9 @@ msgid ""
 "assessment\"</b>) automatically triggers the creation of a <b>Purchase "
 "Order</b>."
 msgstr ""
+"Dịch vụ gia công này "
+"(<b>\"Tư vấn thiết kế ban đầu và đánh giá không gian\"</b>) sẽ tự động kích "
+"hoạt việc tạo <b>Đơn mua hàng</b>."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1189,6 +1243,9 @@ msgid ""
 "service initiates a new project using the <b>\"Customer Project Management\" "
 "Template</b>. This template's power lies in its date logic:"
 msgstr ""
+"Khi xác nhận Đơn bán hàng, dịch vụ <b>\"Quản lý dự án khách hàng\"</b> sẽ "
+"khởi tạo một dự án mới sử dụng mẫu <b>\"Quản lý dự án khách hàng\"</b>. Điểm "
+"mạnh của mẫu này nằm ở logic về ngày tháng:"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1228,6 +1285,11 @@ msgid ""
 "and\n"
 "        replacements in case of leave."
 msgstr ""
+"Sử dụng Kế hoạch trong ứng dụng Dịch vụ hiện trường <strong><font class="
+"\"text-o-color-1\"></font></strong> để sắp xếp công việc của nhân viên. Xác "
+"định dự án nào và khi nào họ phải làm việc. Dễ dàng quản lý xung đột ca làm, "
+"khối lượng công việc và\n"
+"thay thế nhân lực trong trường hợp nghỉ phép."
 
 #. module: custom_furniture
 #: model_terms:web_tour.tour,rainbow_man_message:custom_furniture.knowledge_tour
@@ -1242,6 +1304,10 @@ msgid ""
 "<b>Miscellaneous tab</b>. This information will then appear in the\n"
 "                <b>Shop Floor app</b> for the employees to see."
 msgstr ""
+"Khi một Lệnh Sản xuất cần các hướng dẫn cụ thể cho đội ngũ sản xuất, hãy "
+"thêm chi tiết vào <b>trường Ghi chú</b> trong <b>tab Khác</b> của MO. Sau "
+"đó, thông tin này sẽ hiển thị trong\n"
+"                <b>ứng dụng Xưởng</b> để nhân viên có thể xem."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1291,6 +1357,9 @@ msgid ""
 "<b>customized worksheet</b> and obtain the necessary <b>customer signature</"
 "b>."
 msgstr ""
+"Bạn cũng có thể sử dụng nhiệm vụ dịch vụ hiện trường này để <b>xác thực</b> "
+"một <b>bảng công tác tùy chỉnh</b> duy nhất và lấy <b>chữ ký cần thiết của "
+"khách hàng</b>."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1319,7 +1388,7 @@ msgid ""
 "companies. By doing so, we have installed many necessary apps to run your "
 "company efficiently."
 msgstr ""
-"Bạn vừa cài đặt gói Odoo dành cho công ty sản xuất nội thất theo yêu cầu. Do "
+"Bạn vừa cài đặt gói Odoo dành cho Công ty sản xuất nội thất theo yêu cầu. Do "
 "đó, chúng tôi đã cài đặt nhiều ứng dụng cần thiết để điều hành công ty của "
 "bạn một cách hiệu quả."
 
@@ -1355,6 +1424,9 @@ msgid ""
 "scanner</b>, and\n"
 "                access many other advanced options."
 msgstr ""
+"tài liệu để tìm hiểu cách tùy chỉnh <b>vị trí</b> , sử dụng <b>máy quét mã "
+"vạch</b> , và\n"
+"                truy cập nhiều tùy chọn nâng cao khác."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1403,8 +1475,9 @@ msgstr "🎓 Dự án"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
+#, fuzzy
 msgid "🎓 Quality"
-msgstr ""
+msgstr "🎓 Chất lượng"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body

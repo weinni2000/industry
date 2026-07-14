@@ -12,13 +12,14 @@
 # Miika Nissi <miika.nissi@tawasta.fi>, 2024
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Saara Hakanen <sahak@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 13:54+0000\n"
-"PO-Revision-Date: 2025-11-17 11:09+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-01-20 13:02+0000\n"
+"PO-Revision-Date: 2026-06-29 11:10+0000\n"
+"Last-Translator: Saara Hakanen <sahak@odoo.com>\n"
 "Language-Team: Finnish <https://translate.odoo.com/projects/odoo-19/surveyor/"
 "fi/>\n"
 "Language: fi\n"
@@ -26,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: surveyor
 #: model_terms:ir.ui.view,arch_db:surveyor.welcome_article_body
@@ -61,6 +62,83 @@ msgid "<b>ABOUT US</b>"
 msgstr "<b>TIETOA MEISTÄ</b>"
 
 #. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.welcome_article_body
+msgid ""
+"<b>CRM App</b>: Track potential projects and manage relationships with "
+"developers, construction firms, and\n"
+"                private property owners."
+msgstr ""
+"<b>CRM-sovellus</b>: Seuraa potentiaalisia projekteja ja hallinnoi suhteita "
+"kehittäjiin, rakennusyrityksiin sekä\n"
+"                yksityisiin kiinteistönomistajiin."
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.welcome_article_body
+msgid ""
+"<b>Documents App</b>: Securely store, organize, and share heavy files such "
+"as topographic maps, CAD drawings,\n"
+"                and compliance reports."
+msgstr ""
+"<b>Asiakirjat-sovellus</b>: Tallennat, järjestelet ja jaat turvallisesti "
+"suuria tiedostoja, kuten topografisia karttoja, CAD-piirustuksia\n"
+"                sekä vaatimustenmukaisuusraportteja."
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.welcome_article_body
+msgid ""
+"<b>Invoicing App</b>: Bill clients accurately based on project milestones or "
+"time spent on site, maintaining\n"
+"                healthy cash flow."
+msgstr ""
+"<b>Laskutus-sovellus</b>: Laskuta asiakkaita tarkasti projektiin liittyvien "
+"välitavoitteiden tai paikan päällä vietetyn ajan perusteella, säilyttäen\n"
+"                terveen kassavirran."
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.welcome_article_body
+msgid ""
+"<b>Knowledge App</b>: Create a central repository for internal procedures, "
+"safety guidelines, and technical\n"
+"                standards accessible to all staff."
+msgstr ""
+"<b>Tietokirjasto-sovellus</b>: Luo keskitetty tallennuspaikka sisäisille "
+"menettelytavoille, turvallisuusohjeille ja teknisille\n"
+"                standardeille, joihin koko henkilöstöllä on pääsy."
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.welcome_article_body
+msgid ""
+"<b>Planning App</b>: Optimize your field operations by visually scheduling "
+"surveyors and equipment to specific\n"
+"                locations and times."
+msgstr ""
+"<b>Suunnittelu-sovellus</b>: Optimoi kenttätyösi suunnittelemalla "
+"visuaalisesti mittaajien ja laitteiden sijoittelu tiettyihin\n"
+"                paikkoihin ja aikoihin."
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.welcome_article_body
+msgid ""
+"<b>Project App</b>: Manage complex surveying sites as distinct projects, "
+"tracking tasks like initial\n"
+"                measurements, data processing, and report generation."
+msgstr ""
+"<b>Projekti-sovellus</b>: Hallitse monimutkaisia mittauskohteita erillisinä "
+"projekteina ja seuraa tehtäviä, kuten alkuperäisiä\n"
+"                mittauksia, tietojen käsittelyä sekä raporttien luomista."
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.welcome_article_body
+msgid ""
+"<b>Sales App</b>: Generate detailed proposals and contracts for surveying "
+"services, ensuring clear scope and\n"
+"                pricing agreements."
+msgstr ""
+"<b>Myynti-sovellus</b>: Luo yksityiskohtaisia ehdotuksia ja sopimuksia "
+"kyselypalveluille, varmistaen selkeät laajuus- ja\n"
+"                hintasopimukset."
+
+#. module: surveyor
 #: model_terms:ir.ui.view,arch_db:surveyor.homepage
 msgid ""
 "<font style=\"font-size: 62px;\">\n"
@@ -81,8 +159,8 @@ msgid ""
 "span>"
 msgstr ""
 "<i class=\"fa fa-1x fa-fw fa-envelope me-2\"/>\n"
-"                                                <span>info@yourcompany.example.com</"
-"span>"
+"                                                <span>"
+"info@yrityksesi.esimerkki.fi</span>"
 
 #. module: surveyor
 #: model_terms:ir.ui.view,arch_db:surveyor.contactus
@@ -182,7 +260,7 @@ msgstr ""
 #. module: surveyor
 #: model_terms:ir.ui.view,arch_db:surveyor.contactus
 msgid "<span class=\"s_website_form_label_content\">Your Company</span>"
-msgstr "<span class=\"s_website_form_label_content\">Yritys</span>"
+msgstr "<span class=\"s_website_form_label_content\">Yrityksesi</span>"
 
 #. module: surveyor
 #: model_terms:ir.ui.view,arch_db:surveyor.contactus
@@ -265,6 +343,11 @@ msgstr ""
 "-vaatimuksiaan."
 
 #. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.welcome_article_body
+msgid "Basics"
+msgstr "Perustiedot"
+
+#. module: surveyor
 #: model:product.template,name:surveyor.product_product_5_product_template
 msgid "Boundaries marking"
 msgstr "Rajojen merkitseminen"
@@ -283,7 +366,7 @@ msgstr "Rajamerkit"
 #. module: surveyor
 #: model_terms:ir.ui.view,arch_db:surveyor.welcome_article_body
 msgid "Business flows"
-msgstr "Työnkulut"
+msgstr "Liiketoimintaprosessit"
 
 #. module: surveyor
 #: model:base.automation,name:surveyor.automation_on_new_lead
@@ -389,7 +472,7 @@ msgstr "Verkkosivulta"
 #. odoo-javascript
 #: code:addons/surveyor/static/src/js/my_tour.js:0
 msgid "Get on track and explore our recommendations for your Odoo usage here!"
-msgstr ""
+msgstr "Aloita ja tutustu Odoo-käyttöäsi koskeviin suosituksiimme täällä!"
 
 #. module: surveyor
 #: model_terms:ir.ui.view,arch_db:surveyor.welcome_article_body
@@ -412,8 +495,8 @@ msgid ""
 msgstr ""
 "Kaikissa tapauksissa maanmittaaja toimittaa asiakirjat. Niinpä integraatio "
 "asiakirjojen kanssa mahdollistaa luotujen asiakirjojen helpon jakamisen ja "
-"keräämisen tarvittaessa. Tätä varten voidaan luoda jaettava linkki (jaa &amp;"
-" lataa)\n"
+"keräämisen tarvittaessa. Tätä varten voidaan luoda jaettava linkki (jaa "
+"&amp; lataa)\n"
 "            jokaiselle projektin alityötilalle, jotta asiakkaalla on suora "
 "pääsy siihen."
 

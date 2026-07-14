@@ -1,6 +1,6 @@
 {
     'name': 'Candy Shop',
-    'version': '1.0',
+    'version': '1.2',
     'category': 'Retail',
     'author': 'Odoo S.A.',
     'depends': [
@@ -33,6 +33,7 @@
         'data/knowledge_article_favorite.xml',
     ],
     'demo': [
+        'demo/res_company.xml',
         'demo/res_partner.xml',
         'demo/product_template.xml',
         'demo/website_view.xml',
@@ -57,6 +58,7 @@
         'data/knowledge_article.xml',
         'demo/website_view.xml',
     ],
+    'application': True,
     'images': ['images/main.png'],
     'url': "https://www.odoo.com/trial?industry&selected_app=candy_shop",
     'website': "https://www.odoo.com/all-industries",
